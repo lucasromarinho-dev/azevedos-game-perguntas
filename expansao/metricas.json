@@ -6,11 +6,83 @@
     "respostas_primeiro": "Método aprovado pelo Lucas (chegou com as 500 já prontas): lista curta 'Resposta - fato' por microtema -> scripts/candidatas.mjs descarta o que existe -> contexto.mjs mostra até 20 perguntas vizinhas -> só então escrever as perguntas completas. Microtema com descarte > 50% vira 'saturado' na arvore.json."
   },
   "lotes": [
-    { "lote": "001", "metodo": "antigo", "escritas": 224, "validas": 100, "descartadas": 124, "taxa_descarte": 0.55, "caracteres": 33043, "tokens_aprox": 9441, "tokens_por_valida": 94, "rodadas_de_reposicao": 10 },
-    { "lote": "002", "metodo": "antigo na 1a rodada (45% de descarte), intermediario nas reposicoes", "escritas": 154, "validas": 101, "descartadas": 50, "taxa_descarte": 0.32, "caracteres": 25719, "tokens_aprox": 7348, "tokens_por_valida": 73, "rodadas_de_reposicao": 3, "obs": "3 válidas excedentes passaram para o lote 003" },
-    { "lote": "003", "metodo": "intermediario", "escritas": 101, "validas": 98, "descartadas": 6, "taxa_descarte": 0.06, "caracteres": 19632, "tokens_aprox": 5609, "tokens_por_valida": 57, "rodadas_de_reposicao": 2 },
-    { "lote": "004", "metodo": "intermediario", "escritas": 102, "validas": 101, "descartadas": 1, "taxa_descarte": 0.01, "caracteres": 18223, "tokens_aprox": 5207, "tokens_por_valida": 52, "rodadas_de_reposicao": 1 },
-    { "lote": "005", "metodo": "intermediario", "escritas": 102, "validas": 100, "descartadas": 2, "taxa_descarte": 0.02, "caracteres": 18106, "tokens_aprox": 5173, "tokens_por_valida": 52, "rodadas_de_reposicao": 1 }
+    {
+      "lote": "001",
+      "metodo": "antigo",
+      "escritas": 224,
+      "validas": 100,
+      "descartadas": 124,
+      "taxa_descarte": 0.55,
+      "caracteres": 33043,
+      "tokens_aprox": 9441,
+      "tokens_por_valida": 94,
+      "rodadas_de_reposicao": 10
+    },
+    {
+      "lote": "002",
+      "metodo": "antigo na 1a rodada (45% de descarte), intermediario nas reposicoes",
+      "escritas": 154,
+      "validas": 101,
+      "descartadas": 50,
+      "taxa_descarte": 0.32,
+      "caracteres": 25719,
+      "tokens_aprox": 7348,
+      "tokens_por_valida": 73,
+      "rodadas_de_reposicao": 3,
+      "obs": "3 válidas excedentes passaram para o lote 003"
+    },
+    {
+      "lote": "003",
+      "metodo": "intermediario",
+      "escritas": 101,
+      "validas": 98,
+      "descartadas": 6,
+      "taxa_descarte": 0.06,
+      "caracteres": 19632,
+      "tokens_aprox": 5609,
+      "tokens_por_valida": 57,
+      "rodadas_de_reposicao": 2
+    },
+    {
+      "lote": "004",
+      "metodo": "intermediario",
+      "escritas": 102,
+      "validas": 101,
+      "descartadas": 1,
+      "taxa_descarte": 0.01,
+      "caracteres": 18223,
+      "tokens_aprox": 5207,
+      "tokens_por_valida": 52,
+      "rodadas_de_reposicao": 1
+    },
+    {
+      "lote": "005",
+      "metodo": "intermediario",
+      "escritas": 102,
+      "validas": 100,
+      "descartadas": 2,
+      "taxa_descarte": 0.02,
+      "caracteres": 18106,
+      "tokens_aprox": 5173,
+      "tokens_por_valida": 52,
+      "rodadas_de_reposicao": 1
+    },
+    {
+      "lote": "006",
+      "metodo": "respostas_primeiro",
+      "escritas": 109,
+      "validas": 102,
+      "descartadas": 7,
+      "taxa_descarte": 0.06,
+      "caracteres": 16304,
+      "tokens_aprox": 4658,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r1-a.txt",
+        "r1-b.txt",
+        "r1-c.txt"
+      ]
+    }
   ],
   "validacao_respostas_primeiro": {
     "teste": "As 100 perguntas da 1a rodada do lote 001 (método antigo) passadas pelo candidatas.mjs --so-banco, usando 'resposta - enunciado' como se fosse a lista curta.",
@@ -22,8 +94,20 @@
     "conclusao": "O filtro pega 97% das duplicadas antes de escrever a pergunta. Os falsos alarmes são, em geral, a mesma resposta com fato vizinho (Marco Polo, Tratado de Madri, Turing): custam só uma linha curta perdida."
   },
   "demonstracoes_respostas_primeiro": [
-    { "microtema": "Capitais da Europa", "candidatas": 20, "existem": 19, "descarte": 0.95, "status": "saturado" },
-    { "microtema": "Comidas típicas do mundo, por país", "candidatas": 20, "existem": 2, "descarte": 0.10, "status": "aberto" }
+    {
+      "microtema": "Capitais da Europa",
+      "candidatas": 20,
+      "existem": 19,
+      "descarte": 0.95,
+      "status": "saturado"
+    },
+    {
+      "microtema": "Comidas típicas do mundo, por país",
+      "candidatas": 20,
+      "existem": 2,
+      "descarte": 0.1,
+      "status": "aberto"
+    }
   ],
   "projecao_tokens_por_valida": {
     "premissas": "linha candidata ~45 caracteres; pergunta completa ~152 caracteres (média real dos lotes); 3,5 caracteres por token",
@@ -291,5 +375,22 @@
         ]
       }
     ]
+  },
+  "candidatas": {
+    "r1-a.txt": {
+      "linhas": 217,
+      "caracteres": 14026,
+      "tokens_aprox": 4007
+    },
+    "r1-b.txt": {
+      "linhas": 138,
+      "caracteres": 9252,
+      "tokens_aprox": 2643
+    },
+    "r1-c.txt": {
+      "linhas": 23,
+      "caracteres": 1341,
+      "tokens_aprox": 383
+    }
   }
 }

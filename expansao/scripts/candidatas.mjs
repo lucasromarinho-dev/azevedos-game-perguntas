@@ -4,6 +4,7 @@
 // Uso: node expansao/scripts/candidatas.mjs expansao/candidatas/<arquivo>.txt [--json] [--so-banco] [--livres]
 //      --so-banco: compara só com perguntas.json (útil para validar o filtro com perguntas já geradas)
 //      --livres  : imprime só as linhas aprovadas (LIVRE e RISCO), prontas para virar perguntas
+//      --registrar: grava/atualiza o resultado de cada microtema em expansao/microtemas.json (saturado se descarte > 50%)
 // Formato do arquivo (uma candidata por linha; "#" = comentário):
 //   Categoria|Resposta - fato curto (escreva o fato com as palavras-chave que a pergunta vai usar)
 //   ex.: Esportes|Ayrton Senna - piloto brasileiro campeão da Fórmula 1 em 1988 pela McLaren
@@ -15,8 +16,9 @@
 //   LIVRE  : nada parecido
 // Também compara as candidatas entre si (a segunda igual vira EXISTE).
 // Por microtema mostra a taxa de descarte; acima de 50% o microtema é SATURADO (marque na árvore e troque).
-import { readFileSync } from 'node:fs';
-import { lerBancoAtual, listarLotes, lerJson, respostaNorm } from './lib.mjs';
+import { readFileSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { lerBancoAtual, listarLotes, lerJson, gravarJson, respostaNorm, RAIZ_EXP } from './lib.mjs';
 import { preparar, comparar, mesmaResposta } from './semelhanca.mjs';
 
 const args = process.argv.slice(2);
@@ -68,5 +70,26 @@ else {
     const taxa = desc / lista.length;
     console.log(`[${k}] candidatas=${lista.length} existem=${desc} risco=${lista.filter((r) => r.nivel === 'RISCO').length} livres=${lista.filter((r) => r.nivel === 'LIVRE').length} descarte=${(taxa * 100).toFixed(0)}%${taxa > 0.5 ? '  -> SATURADO' : ''}`);
   }
+}
+if (args.includes('--registrar')) {
+  const cam = join(RAIZ_EXP, 'microtemas.json');
+  const reg = existsSync(cam) ? lerJson(cam) : {};
+  const grupos = new Map();
+  for (const r of resultado) {
+    const k = r.microtema || '(sem microtema)';
+    if (!grupos.has(k)) grupos.set(k, []);
+    grupos.get(k).push(r);
+  }
+  for (const [k, lista] of grupos) {
+    const existem = lista.filter((r) => r.nivel === 'EXISTE').length;
+    const ant = reg[k] || { candidatas: 0, existem: 0, arquivos: [] };
+    const nomeArq = arq.replace(/^.*candidatas[\/]/, '');
+    if ((ant.arquivos || []).includes(nomeArq)) continue; // já registrado (não conta duas vezes)
+    const cand = ant.candidatas + lista.length, ex = ant.existem + existem;
+    reg[k] = { categoria: lista[0].categoria, candidatas: cand, existem: ex, descarte: +(ex / cand).toFixed(2),
+      status: ex / cand > 0.5 ? 'saturado' : 'aberto', arquivos: [...new Set([...(ant.arquivos || []), arq.replace(/^.*candidatas[\/]/, '')])] };
+  }
+  gravarJson(cam, reg);
+  console.log(`registrado em microtemas.json (${grupos.size} microtemas)`);
 }
 void respostaNorm;

@@ -76,7 +76,8 @@ function contemResposta(texto, resp) {
 /** Respostas iguais, ou uma contida na outra como palavras inteiras ("pacifico" x "oceano pacifico"). */
 export function mesmaResposta(r1, r2) {
   if (r1 === r2) return true;
-  if (r1.length >= 6 && r2.length >= 6 && distancia(r1, r2) <= 1) return true;
+  // Grafia diferente só em respostas longas e sem dígitos (evita juntar "ctrl z" com "ctrl x", "Pb" com "Sn")
+  if (r1.length >= 8 && r2.length >= 8 && !/\d/.test(r1 + r2) && distancia(r1, r2) <= 1) return true;
   const [c, l] = r1.length <= r2.length ? [r1, r2] : [r2, r1];
   return c.length >= 4 && (' ' + l + ' ').includes(' ' + c + ' ');
 }

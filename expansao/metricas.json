@@ -262,6 +262,47 @@
         "perguntas": 51,
         "total": 147
       }
+    },
+    {
+      "lote": "017",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 115,
+      "validas": 104,
+      "descartadas": 11,
+      "taxa_descarte": 0.1,
+      "caracteres": 17575,
+      "tokens_aprox": 5021,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "nomes-r2-c.txt",
+        "nomes-r2-d.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r2-c.txt",
+          "nomes-r2-d.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 3401,
+        "nomes_sondados": 1053,
+        "nomes_ausentes": 311,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 115,
+        "validas": 104,
+        "descartadas_detector": 11,
+        "descarte": 0.1,
+        "tokens_aprox": 5021
+      },
+      "tokens_por_valida": {
+        "listas": 33,
+        "perguntas": 48,
+        "total": 81
+      }
     }
   ],
   "validacao_respostas_primeiro": {

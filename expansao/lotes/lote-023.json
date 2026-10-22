@@ -1,0 +1,2182 @@
+[
+  {
+    "id": "d360aede4b",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Adelaide, cidade conhecida pelos vinhos e festivais, fica em qual país?",
+    "resposta": "Austrália",
+    "alternativas": [
+      "Austrália",
+      "Canadá",
+      "Nova Zelândia",
+      "África do Sul"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c49eeb0d07",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "As Cinque Terre, cinco vilas coloridas à beira-mar, ficam em qual país?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Itália",
+      "Croácia",
+      "Grécia",
+      "Portugal"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:fb5fee0202",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.0, 14% do fato)"
+  },
+  {
+    "id": "39d76ac2b7",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Nara, cidade famosa pelos cervos que fazem reverência aos turistas, fica em qual país?",
+    "resposta": "Japão",
+    "alternativas": [
+      "Coreia do Sul",
+      "Tailândia",
+      "Japão",
+      "China"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c40fd3fc3",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade italiana tem a universidade mais antiga do Ocidente e deu nome a um molho de carne?",
+    "resposta": "Bolonha",
+    "alternativas": [
+      "Pádua",
+      "Florença",
+      "Nápoles",
+      "Bolonha"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7c78a9dced",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Faro é a principal cidade de qual região turística de Portugal?",
+    "resposta": "Algarve",
+    "alternativas": [
+      "Algarve",
+      "Minho",
+      "Alentejo",
+      "Madeira"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:e14994a47b (R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.4))",
+    "dup": "certa",
+    "dup_ref": "id:e14994a47b",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.4)"
+  },
+  {
+    "id": "bb9ba8ef4a",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade mexicana é o grande polo industrial do norte do país, casa dos clubes Rayados e Tigres?",
+    "resposta": "Monterrey",
+    "alternativas": [
+      "Tijuana",
+      "Chihuahua",
+      "Guadalajara",
+      "Monterrey"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ad6787fd34",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual é a maior cidade da Bolívia, no leste do país, conhecida pelo agronegócio?",
+    "resposta": "Santa Cruz de la Sierra",
+    "alternativas": [
+      "Santa Cruz de la Sierra",
+      "Cochabamba",
+      "La Paz",
+      "Sucre"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "86264a5ce7",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual parque nacional canadense, nas Montanhas Rochosas, é famoso pelo Lago Louise?",
+    "resposta": "Banff",
+    "alternativas": [
+      "Banff",
+      "Yellowstone",
+      "Jasper",
+      "Yosemite"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c7aa437866",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual vale americano de grandes rochas vermelhas aparece em muitos filmes de faroeste?",
+    "resposta": "Monument Valley",
+    "alternativas": [
+      "Monument Valley",
+      "Vale da Morte",
+      "Vale do Silício",
+      "Grand Canyon"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4165 (E2 mesma resposta e mesmo assunto (9.5, 35% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:4165",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (9.5, 35% do fato)"
+  },
+  {
+    "id": "8e147de9dd",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade indiana, antes chamada de Madras, é a capital de Tâmil Nadu?",
+    "resposta": "Chennai",
+    "alternativas": [
+      "Bangalore",
+      "Hyderabad",
+      "Mumbai",
+      "Chennai"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "89b34cc554",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquipélago norueguês acima do Círculo Polar é famoso pelas vilas de pescadores e pelas auroras?",
+    "resposta": "Lofoten",
+    "alternativas": [
+      "Ilhas Faroé",
+      "Svalbard",
+      "Shetland",
+      "Lofoten"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c872ac48c",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade do Tibete abriga o Palácio de Potala?",
+    "resposta": "Lhasa",
+    "alternativas": [
+      "Lhasa",
+      "Thimphu",
+      "Katmandu",
+      "Xining"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fdf1be135e",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estado do sul da Índia é famoso pelos canais navegáveis e pelas casas-barco?",
+    "resposta": "Kerala",
+    "alternativas": [
+      "Goa",
+      "Punjab",
+      "Rajastão",
+      "Kerala"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c89d74f015",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual invenção de George Stephenson revolucionou o transporte no início do século XIX?",
+    "resposta": "Locomotiva a vapor",
+    "alternativas": [
+      "Locomotiva a vapor",
+      "Barco a vapor",
+      "Bicicleta",
+      "Automóvel"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a5d47f1e88",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual general ateniense, aluno de Sócrates, trocou de lado e ajudou Esparta na Guerra do Peloponeso?",
+    "resposta": "Alcibíades",
+    "alternativas": [
+      "Temístocles",
+      "Péricles",
+      "Alcibíades",
+      "Xenofonte"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "04857702b7",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual historiador grego escreveu a \"História da Guerra do Peloponeso\"?",
+    "resposta": "Tucídides",
+    "alternativas": [
+      "Heródoto",
+      "Xenofonte",
+      "Tucídides",
+      "Plutarco"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4183e06721",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual primeiro-ministro liberal britânico, rival de Disraeli, governou quatro vezes no reinado de Vitória?",
+    "resposta": "William Gladstone",
+    "alternativas": [
+      "Lord Palmerston",
+      "Lord Salisbury",
+      "Robert Peel",
+      "William Gladstone"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:e2dc099807 (E5 resposta antiga citada no texto novo + assunto (14.6))",
+    "dup": "certa",
+    "dup_ref": "id:e2dc099807",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.6)"
+  },
+  {
+    "id": "b2582cb140",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como eram chamados os cavaleiros guerreiros das estepes que serviam ao czar da Rússia?",
+    "resposta": "Cossacos",
+    "alternativas": [
+      "Hussardos",
+      "Janízaros",
+      "Mamelucos",
+      "Cossacos"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba3821bdee",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual náufrago português viveu entre os indígenas e ajudou os colonizadores em São Vicente?",
+    "resposta": "João Ramalho",
+    "alternativas": [
+      "Duarte Coelho",
+      "João Ramalho",
+      "Caramuru",
+      "Martim Afonso de Sousa"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9a499bb2aa",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual ave de penas brancas e crista amarela, parente do papagaio, ficou famosa em vídeos \"dançando\"?",
+    "resposta": "Cacatua",
+    "alternativas": [
+      "Calopsita",
+      "Arara",
+      "Cacatua",
+      "Periquito"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9da40659d1",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual fruta de casca verde com espinhos moles e polpa branca é parente da fruta-do-conde?",
+    "resposta": "Graviola",
+    "alternativas": [
+      "Carambola",
+      "Graviola",
+      "Jaca",
+      "Cupuaçu"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a4649e46a",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual frutinha vermelha e gomada, de árvore comum nos quintais brasileiros, tem sabor azedinho?",
+    "resposta": "Pitanga",
+    "alternativas": [
+      "Pitanga",
+      "Jabuticaba",
+      "Amora",
+      "Acerola"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4bb93c0f08",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual hormônio é produzido principalmente nos testículos?",
+    "resposta": "Testosterona",
+    "alternativas": [
+      "Progesterona",
+      "Insulina",
+      "Estrogênio",
+      "Testosterona"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1f3b18775d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual inflamação dos seios da face causa dor no rosto e nariz entupido?",
+    "resposta": "Sinusite",
+    "alternativas": [
+      "Rinite",
+      "Otite",
+      "Amigdalite",
+      "Sinusite"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f8fe82634c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual minúsculo aracnídeo vive na poeira e nos colchões e causa alergias?",
+    "resposta": "Ácaro",
+    "alternativas": [
+      "Piolho",
+      "Carrapato",
+      "Pulga",
+      "Ácaro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b3ba557b7a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual peixe amazônico tem a costela assada muito apreciada?",
+    "resposta": "Tambaqui",
+    "alternativas": [
+      "Piranha",
+      "Pirarucu",
+      "Tucunaré",
+      "Tambaqui"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "976992b90a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual palmeira das veredas do cerrado dá um fruto alaranjado coberto de escamas?",
+    "resposta": "Buriti",
+    "alternativas": [
+      "Açaí",
+      "Buriti",
+      "Babaçu",
+      "Pupunha"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a151f9f7cd",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual pequeno mamífero africano e asiático ficou famoso por enfrentar e matar cobras?",
+    "resposta": "Mangusto",
+    "alternativas": [
+      "Suricato",
+      "Texugo",
+      "Furão",
+      "Mangusto"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e06e6f62ad",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual primata asiático sem cauda se balança de galho em galho com os braços longos?",
+    "resposta": "Gibão",
+    "alternativas": [
+      "Macaco-prego",
+      "Sagui",
+      "Gibão",
+      "Lêmure"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "539d78585b",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual réptil, parente do jabuti, vive em água doce e tem o casco mais achatado?",
+    "resposta": "Cágado",
+    "alternativas": [
+      "Cágado",
+      "Iguana",
+      "Teiú",
+      "Camaleão"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c653ab5136",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grande lagarto venenoso vive nos desertos dos Estados Unidos e do México?",
+    "resposta": "Monstro-de-gila",
+    "alternativas": [
+      "Dragão-de-komodo",
+      "Monstro-de-gila",
+      "Iguana",
+      "Basilisco"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "edc5380d1e",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual planeta anão do Cinturão de Kuiper tem o nome de um deus da Ilha de Páscoa?",
+    "resposta": "Makemake",
+    "alternativas": [
+      "Éris",
+      "Makemake",
+      "Haumea",
+      "Sedna"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "99e3bc2e57",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grupo de minerais é o mais abundante da crosta terrestre e aparece no granito?",
+    "resposta": "Feldspato",
+    "alternativas": [
+      "Calcita",
+      "Mica",
+      "Feldspato",
+      "Quartzo"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "677a89143c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual clube argentino manda os jogos no estádio Monumental de Núñez?",
+    "resposta": "River Plate",
+    "alternativas": [
+      "River Plate",
+      "Racing",
+      "San Lorenzo",
+      "Boca Juniors"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2818 (E4 resposta nova (rara) citada no texto antigo (4.6))",
+    "dup": "certa",
+    "dup_ref": "banco:2818",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.6)"
+  },
+  {
+    "id": "8d09663cb5",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual torneio de mata-mata entre clubes espanhóis leva o nome do monarca?",
+    "resposta": "Copa do Rei",
+    "alternativas": [
+      "Copa do Rei",
+      "Supercopa",
+      "Copa da Liga",
+      "La Liga"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6933dd05e2",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual das três grandes voltas do ciclismo é disputada na Espanha?",
+    "resposta": "Vuelta",
+    "alternativas": [
+      "Paris-Nice",
+      "Vuelta",
+      "Giro",
+      "Tour"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "78affa331c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual mês dá nome à \"loucura\" do torneio de basquete universitário americano?",
+    "resposta": "Março",
+    "alternativas": [
+      "Fevereiro",
+      "Maio",
+      "Abril",
+      "Março"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49dd766944",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual velocista americano ganhou os 100 metros nos Jogos de Paris, em 2024, por cinco milésimos?",
+    "resposta": "Noah Lyles",
+    "alternativas": [
+      "Kishane Thompson",
+      "Noah Lyles",
+      "Christian Coleman",
+      "Fred Kerley"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "3b642a730d",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual tenista polonesa venceu Roland Garros em 2020, 2022, 2023 e 2024?",
+    "resposta": "Iga Świątek",
+    "alternativas": [
+      "Aryna Sabalenka",
+      "Coco Gauff",
+      "Ons Jabeur",
+      "Iga Świątek"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "89b80c4b61",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual saltador americano tem, desde 1991, o recorde mundial do salto em distância, com 8,95 metros?",
+    "resposta": "Mike Powell",
+    "alternativas": [
+      "Dwight Phillips",
+      "Bob Beamon",
+      "Carl Lewis",
+      "Mike Powell"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3cd88ff9d0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atleta americana bateu várias vezes o recorde dos 400 metros com barreiras e foi ouro em 2021 e 2024?",
+    "resposta": "Sydney McLaughlin",
+    "alternativas": [
+      "Allyson Felix",
+      "Sydney McLaughlin",
+      "Femke Bol",
+      "Dalilah Muhammad"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "eaa370240c",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atacante brasileiro foi ídolo do Bayern de Munique e campeão da Champions de 2001?",
+    "resposta": "Giovane Élber",
+    "alternativas": [
+      "Giovane Élber",
+      "Paulo Sérgio",
+      "Zé Roberto",
+      "Lúcio"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "81221d8d1c",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube alemão, ligado à Volkswagen, foi campeão da Bundesliga de 2009?",
+    "resposta": "Wolfsburg",
+    "alternativas": [
+      "Hertha Berlim",
+      "Wolfsburg",
+      "Werder Bremen",
+      "Stuttgart"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "14bb64a0b6",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube alemão ligado à Red Bull foi fundado em 2009 e chegou rapidamente à elite?",
+    "resposta": "RB Leipzig",
+    "alternativas": [
+      "RB Leipzig",
+      "Hoffenheim",
+      "Mainz",
+      "Union Berlin"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "218c7d7e42",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual barreirista americano ficou quase dez anos invicto nos 400 metros com barreiras?",
+    "resposta": "Edwin Moses",
+    "alternativas": [
+      "Harry Davis",
+      "Andre Phillips",
+      "Edwin Moses",
+      "Kevin Young"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3846987ebc",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual nadadora húngara, a \"Dama de Ferro\", ganhou três ouros nos Jogos do Rio, em 2016?",
+    "resposta": "Katinka Hosszú",
+    "alternativas": [
+      "Katie Ledecky",
+      "Federica Pellegrini",
+      "Katinka Hosszú",
+      "Sarah Sjöström"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "08be169f5f",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ginasta soviética encantou o mundo nos Jogos de Munique, em 1972, aos 17 anos?",
+    "resposta": "Olga Korbut",
+    "alternativas": [
+      "Ludmilla Tourischeva",
+      "Larisa Latynina",
+      "Nadia Comăneci",
+      "Olga Korbut"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aa1a1982cb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube holandês de Roterdã venceu a Copa dos Campeões da Europa de 1970?",
+    "resposta": "Feyenoord",
+    "alternativas": [
+      "AZ Alkmaar",
+      "Ajax",
+      "Feyenoord",
+      "PSV"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c2d8a07d32",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube de Bogotá teve Di Stéfano no time durante a era do \"El Dorado\" colombiano?",
+    "resposta": "Millonarios",
+    "alternativas": [
+      "Atlético Nacional",
+      "Millonarios",
+      "Santa Fe",
+      "América de Cali"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "31234e1dd1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora britânica lançou \"Levitating\" em 2020?",
+    "resposta": "Dua Lipa",
+    "alternativas": [
+      "Rita Ora",
+      "Dua Lipa",
+      "Jessie J",
+      "Ellie Goulding"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:2fada7a063",
+    "recente": true,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "000a1d9282",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome da filha de Xuxa, que seguiu carreira de modelo e cantora?",
+    "resposta": "Sasha",
+    "alternativas": [
+      "Sofia",
+      "Bruna",
+      "Sasha",
+      "Luiza"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f6098cc588",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual filme de 2016 reúne vilões da DC, como Arlequina e Pistoleiro, numa missão suicida?",
+    "resposta": "Esquadrão Suicida",
+    "alternativas": [
+      "Liga da Justiça",
+      "Esquadrão Suicida",
+      "Aves de Rapina",
+      "Batman vs Superman"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2d3f0d4f54",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual animação da Disney, de 1959, tem a princesa Aurora e a vilã Malévola?",
+    "resposta": "A Bela Adormecida",
+    "alternativas": [
+      "A Pequena Sereia",
+      "Branca de Neve",
+      "Cinderela",
+      "A Bela Adormecida"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "141f57e9c7",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual animação da Disney, de 1999, tem um homem criado por gorilas na selva?",
+    "resposta": "Tarzan",
+    "alternativas": [
+      "Mogli",
+      "Tarzan",
+      "O Rei Leão",
+      "Pocahontas"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8562f9ba7e",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual desenho tem a princesa guerreira Adora, irmã gêmea de He-Man?",
+    "resposta": "She-Ra",
+    "alternativas": [
+      "Jem",
+      "Caverna do Dragão",
+      "She-Ra",
+      "ThunderCats"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "40d2859242",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual anime tem monstros digitais que evoluem e era o grande rival de Pokémon?",
+    "resposta": "Digimon",
+    "alternativas": [
+      "Beyblade",
+      "Yu-Gi-Oh!",
+      "Digimon",
+      "Medabots"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1f7d23a59f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual anime tem Yugi, um duelista de cartas que usa o Quebra-Cabeça do Milênio?",
+    "resposta": "Yu-Gi-Oh!",
+    "alternativas": [
+      "Digimon",
+      "Yu-Gi-Oh!",
+      "Beyblade",
+      "Bakugan"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "80d61d3e33",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual desenho da Nickelodeon tem Aang, o último dobrador de ar?",
+    "resposta": "Avatar: A Lenda de Aang",
+    "alternativas": [
+      "A Lenda de Korra",
+      "Ben 10",
+      "Avatar: A Lenda de Aang",
+      "Dragon Ball"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3686c02c7d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantor gravou \"I Just Called to Say I Love You\"?",
+    "resposta": "Stevie Wonder",
+    "alternativas": [
+      "Stevie Wonder",
+      "Ray Charles",
+      "Marvin Gaye",
+      "Lionel Richie"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dd72a440cf",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual jornalista dividiu a bancada do Jornal Nacional com Cid Moreira por muitos anos?",
+    "resposta": "Sérgio Chapelin",
+    "alternativas": [
+      "Sérgio Chapelin",
+      "Celso Freitas",
+      "Heródoto Barbeiro",
+      "William Bonner"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3534c37ec4",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual trapalhão era o parceiro de Didi desde o início e fazia o papel de \"galã\" do grupo?",
+    "resposta": "Dedé Santana",
+    "alternativas": [
+      "Mussum",
+      "Tião Macalé",
+      "Dedé Santana",
+      "Zacarias"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d91c14f90f",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual humorista estrelou a comédia \"Até que a Sorte nos Separe\"?",
+    "resposta": "Leandro Hassum",
+    "alternativas": [
+      "Marcelo Adnet",
+      "Leandro Hassum",
+      "Fábio Porchat",
+      "Paulo Gustavo"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1692e1ee80",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual youtuber brasileira ficou famosa com o canal \"5inco Minutos\"?",
+    "resposta": "Kéfera",
+    "alternativas": [
+      "Maju Trindade",
+      "Jout Jout",
+      "Kéfera",
+      "Bruna Vieira"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9768784af0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator interpretou o ciumento Edu em \"Laços de Família\"?",
+    "resposta": "Reynaldo Gianecchini",
+    "alternativas": [
+      "Rodrigo Santoro",
+      "Cauã Reymond",
+      "Reynaldo Gianecchini",
+      "Marcos Palmeira"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "140e5993f2",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator interpretou o fazendeiro Bruno Mezenga em \"O Rei do Gado\"?",
+    "resposta": "Antônio Fagundes",
+    "alternativas": [
+      "Tony Ramos",
+      "José Mayer",
+      "Raul Cortez",
+      "Antônio Fagundes"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:eed1799b00 (E5 resposta antiga citada no texto novo + assunto (31.4))",
+    "dup": "certa",
+    "dup_ref": "id:eed1799b00",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (31.4)"
+  },
+  {
+    "id": "2cb971d42a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 007, de 1964, tem um vilão que planeja atacar o ouro de Fort Knox?",
+    "resposta": "Goldfinger",
+    "alternativas": [
+      "Goldfinger",
+      "O Satânico Dr. No",
+      "Moscou contra 007",
+      "Thunderball"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0347fafb4f",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 007, de 2012, tem Javier Bardem como o vilão Silva?",
+    "resposta": "Skyfall",
+    "alternativas": [
+      "Cassino Royale",
+      "Quantum of Solace",
+      "Spectre",
+      "Skyfall"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:225107db14 (E4 resposta nova (rara) citada no texto antigo (7.7))",
+    "dup": "certa",
+    "dup_ref": "id:225107db14",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.7)"
+  },
+  {
+    "id": "f83ae8edf8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 1979 apresentou o policial Max Rockatansky numa Austrália violenta?",
+    "resposta": "Mad Max",
+    "alternativas": [
+      "Robocop",
+      "Mad Max",
+      "O Exterminador do Futuro",
+      "Fuga de Nova York"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "74e57894fa",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual comédia de 1999 tem jovens que fazem um pacto antes da formatura do colégio?",
+    "resposta": "American Pie",
+    "alternativas": [
+      "American Pie",
+      "Superbad",
+      "Eurotrip",
+      "Porky's"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "abc773016a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de Christopher Nolan, de 2020, tem agentes que manipulam a inversão do tempo?",
+    "resposta": "Tenet",
+    "alternativas": [
+      "Interestelar",
+      "Tenet",
+      "Oppenheimer",
+      "A Origem"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "c258a88da9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 2006 marca a volta de Stallone como um boxeador já veterano?",
+    "resposta": "Rocky Balboa",
+    "alternativas": [
+      "Rocky V",
+      "Rocky Balboa",
+      "Menina de Ouro",
+      "Creed"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28ba46d34b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual desenho do Cartoon Network tem três amigos chamados Ed, Edd e Eddy?",
+    "resposta": "Du, Dudu e Edu",
+    "alternativas": [
+      "Johnny Bravo",
+      "Os Anjinhos",
+      "A Vaca e o Frango",
+      "Du, Dudu e Edu"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "871341e243",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual desenho tem o gato azul Gumball e o peixinho Darwin?",
+    "resposta": "O Incrível Mundo de Gumball",
+    "alternativas": [
+      "Apenas um Show",
+      "Steven Universo",
+      "O Incrível Mundo de Gumball",
+      "Hora de Aventura"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "76c9f49f4e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual desenho dos anos 90 tem um garoto que escreve num diário e é apaixonado por Patti Maionese?",
+    "resposta": "Doug",
+    "alternativas": [
+      "Recreio",
+      "Rugrats",
+      "Hey Arnold",
+      "Doug"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4d3071a9f7",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual anime tem piões de batalha com espíritos chamados bit-beasts?",
+    "resposta": "Beyblade",
+    "alternativas": [
+      "Bakugan",
+      "Beyblade",
+      "Digimon",
+      "Yu-Gi-Oh!"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "25dddd78e0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual anime continua as aventuras de Naruto já adolescente, depois de dois anos de treino?",
+    "resposta": "Naruto Shippuden",
+    "alternativas": [
+      "Naruto Shippuden",
+      "Boruto",
+      "One Piece",
+      "Bleach"
+    ],
+    "subtema": "Anime",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3227 (E2c mesma resposta e ela aparece no outro enunciado (6.2))",
+    "dup": "certa",
+    "dup_ref": "banco:3227",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.2)"
+  },
+  {
+    "id": "67b1387ba0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série da HBO se passa num parque temático do Velho Oeste habitado por androides?",
+    "resposta": "Westworld",
+    "alternativas": [
+      "Fallout",
+      "Altered Carbon",
+      "Humans",
+      "Westworld"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "51288c6529",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual banda gravou a balada \"Angie\", em 1973?",
+    "resposta": "The Rolling Stones",
+    "alternativas": [
+      "The Who",
+      "The Rolling Stones",
+      "Led Zeppelin",
+      "The Beatles"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3253",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "648bdb18fe",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual comédia de 2007, com Jonah Hill e Michael Cera, mostra dois amigos tentando chegar a uma festa?",
+    "resposta": "Superbad",
+    "alternativas": [
+      "Superbad",
+      "Anjos da Lei",
+      "Projeto X",
+      "American Pie"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7c9a4c3bdd",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme de 1984 tem Molly Ringwald como uma garota cuja família esquece seu aniversário de 16 anos?",
+    "resposta": "Gatinhas e Gatões",
+    "alternativas": [
+      "Clube dos Cinco",
+      "A Garota de Rosa-Shocking",
+      "Mulher Nota 1000",
+      "Gatinhas e Gatões"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:e9a68f7049",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "b82acb0535",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual novela de 2018 tinha o cantor de axé Beto Falcão, que fingia ter morrido?",
+    "resposta": "Segundo Sol",
+    "alternativas": [
+      "Bom Sucesso",
+      "Segundo Sol",
+      "O Sétimo Guardião",
+      "A Dona do Pedaço"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2467e4ba03",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual novela, iniciada em 2019, tinha Regina Casé como Lurdes, mãe em busca de um filho?",
+    "resposta": "Amor de Mãe",
+    "alternativas": [
+      "Bom Sucesso",
+      "Um Lugar ao Sol",
+      "Amor de Mãe",
+      "A Dona do Pedaço"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "104917bd2a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual novela de 2004 tinha Taís Araújo como a protagonista Preta?",
+    "resposta": "Da Cor do Pecado",
+    "alternativas": [
+      "Xica da Silva",
+      "Da Cor do Pecado",
+      "Viver a Vida",
+      "Cobras & Lagartos"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:2dc7a60e42",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "95728b189e",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual tocador de músicas e vídeos da Microsoft vinha instalado no Windows?",
+    "resposta": "Windows Media Player",
+    "alternativas": [
+      "Windows Media Player",
+      "Winamp",
+      "RealPlayer",
+      "iTunes"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28558c8cd3",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho converte o sinal da operadora para a internet da casa?",
+    "resposta": "Modem",
+    "alternativas": [
+      "Modem",
+      "Nobreak",
+      "Switch",
+      "Estabilizador"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d3a67138fe",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual fabricante chinesa de celulares tem a linha Find?",
+    "resposta": "Oppo",
+    "alternativas": [
+      "Oppo",
+      "Huawei",
+      "Xiaomi",
+      "Vivo"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "90ca36b0c0",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca de periféricos e memórias gamer tem velas de navio no logotipo?",
+    "resposta": "Corsair",
+    "alternativas": [
+      "Corsair",
+      "Razer",
+      "HyperX",
+      "Logitech"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cf9767455a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual site dos anos 2000 permitia adotar e cuidar de bichinhos virtuais na terra de Neopia?",
+    "resposta": "Neopets",
+    "alternativas": [
+      "Habbo",
+      "Neopets",
+      "Club Penguin",
+      "Webkinz"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc648a562d",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo online britânico, jogável no navegador, tem a cidade de Lumbridge?",
+    "resposta": "RuneScape",
+    "alternativas": [
+      "Ultima Online",
+      "World of Warcraft",
+      "RuneScape",
+      "Tibia"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fe89bd1261",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual série da Bungie, depois de Halo, tem Guardiões que protegem a última cidade da Terra?",
+    "resposta": "Destiny",
+    "alternativas": [
+      "Anthem",
+      "Warframe",
+      "Destiny",
+      "Borderlands"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:439a21cf4d (R3 pergunta invertida (cruzamento nos dois sentidos, peso 7.3))",
+    "dup": "certa",
+    "dup_ref": "id:439a21cf4d",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 7.3)"
+  },
+  {
+    "id": "46daf9bb0c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de tiro da Respawn tem pilotos e robôs gigantes chamados titãs?",
+    "resposta": "Titanfall",
+    "alternativas": [
+      "Armored Core",
+      "MechWarrior",
+      "Hawken",
+      "Titanfall"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4cbfe766f7",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo da Bethesda, de 2023, levou a exploração para o espaço?",
+    "resposta": "Starfield",
+    "alternativas": [
+      "Mass Effect: Andromeda",
+      "No Man's Sky",
+      "Starfield",
+      "Outer Worlds"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "391a2eb1b9",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual série de estratégia da Nintendo tem heróis como Marth e Ike?",
+    "resposta": "Fire Emblem",
+    "alternativas": [
+      "Advance Wars",
+      "Fire Emblem",
+      "Xenoblade",
+      "Golden Sun"
+    ],
+    "subtema": "Games: Nintendo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "29bf681cf9",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de NES tem um motociclista que salta rampas e deixa o jogador criar pistas?",
+    "resposta": "Excitebike",
+    "alternativas": [
+      "Excitebike",
+      "Road Rash",
+      "F-Zero",
+      "Mach Rider"
+    ],
+    "subtema": "Games: Nintendo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9769170b2f",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fabricante americana de discos rígidos tem a linha Barracuda?",
+    "resposta": "Seagate",
+    "alternativas": [
+      "Maxtor",
+      "Western Digital",
+      "Toshiba",
+      "Seagate"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "992f6cb365",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual MMORPG sul-coreano da NCSoft, de 1998, foi um dos maiores da Ásia?",
+    "resposta": "Lineage",
+    "alternativas": [
+      "MapleStory",
+      "Ragnarök Online",
+      "Aion",
+      "Lineage"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5b89246d8c",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual MMORPG de 1999 era apelidado de \"EverCrack\" pelo vício que causava?",
+    "resposta": "EverQuest",
+    "alternativas": [
+      "Asheron's Call",
+      "EverQuest",
+      "Ultima Online",
+      "Dark Age of Camelot"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fff549cab7",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jogo gratuito de ação tem ninjas espaciais chamados Tenno?",
+    "resposta": "Warframe",
+    "alternativas": [
+      "Anthem",
+      "Destiny 2",
+      "Warframe",
+      "The Division"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d4208b82bd",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual RPG de ação gratuito da Grinding Gear Games é um dos grandes rivais de Diablo?",
+    "resposta": "Path of Exile",
+    "alternativas": [
+      "Grim Dawn",
+      "Torchlight",
+      "Path of Exile",
+      "Lost Ark"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6616cee7c6",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual RPG da Monolith Soft tem o herói Shulk e a espada Monado?",
+    "resposta": "Xenoblade Chronicles",
+    "alternativas": [
+      "Tales of Symphonia",
+      "Golden Sun",
+      "Fire Emblem",
+      "Xenoblade Chronicles"
+    ],
+    "subtema": "Games: Nintendo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a5496ea4a2",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grande rio da Sibéria passa por Yakutsk e deságua no Mar de Laptev?",
+    "resposta": "Rio Lena",
+    "alternativas": [
+      "Rio Lena",
+      "Rio Danúbio",
+      "Rio Amur",
+      "Rio Volga"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1efe4804a1",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual mar fica entre a Índia e a Península Arábica?",
+    "resposta": "Mar Arábico",
+    "alternativas": [
+      "Mar Arábico",
+      "Mar de Andamão",
+      "Golfo de Bengala",
+      "Mar Vermelho"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "05d9bee684",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual casta de soldados de origem escrava governou o Egito do século XIII até a conquista otomana?",
+    "resposta": "Mamelucos",
+    "alternativas": [
+      "Janízaros",
+      "Beduínos",
+      "Mamelucos",
+      "Cossacos"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6390366222",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual material branco, obtido do calcário, é usado para \"caiar\" paredes?",
+    "resposta": "Cal",
+    "alternativas": [
+      "Cimento",
+      "Gesso",
+      "Cal",
+      "Talco"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f418f4c702",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual animação de 2016 tem uma garota polinésia que navega o oceano com o semideus Maui?",
+    "resposta": "Moana",
+    "alternativas": [
+      "Frozen",
+      "Valente",
+      "Enrolados",
+      "Moana"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3394 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.7))",
+    "dup": "certa",
+    "dup_ref": "banco:3394",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.7)"
+  },
+  {
+    "id": "ef1453f4ad",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 2014, de Damien Chazelle, mostra um baterista e um professor tirano de jazz?",
+    "resposta": "Whiplash",
+    "alternativas": [
+      "Whiplash",
+      "La La Land",
+      "Birdman",
+      "Sing Street"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ee4c972b0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual meia, campeão do mundo em 1994, foi titular do Palmeiras campeão da Libertadores de 1999?",
+    "resposta": "Zinho",
+    "alternativas": [
+      "Mazinho",
+      "Leonardo",
+      "Zinho",
+      "Raí"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1de0581f27",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca francesa fez sucesso no Brasil nos anos 2000 com celulares baratos da linha One Touch?",
+    "resposta": "Alcatel",
+    "alternativas": [
+      "Siemens",
+      "Sagem",
+      "Philips",
+      "Alcatel"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2e3093683e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual comédia romântica de 1999 tem Julia Roberts como estrela de cinema que se apaixona por um livreiro?",
+    "resposta": "Um Lugar Chamado Notting Hill",
+    "alternativas": [
+      "Um Lugar Chamado Notting Hill",
+      "Simplesmente Amor",
+      "Uma Linda Mulher",
+      "O Casamento do Meu Melhor Amigo"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

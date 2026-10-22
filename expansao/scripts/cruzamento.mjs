@@ -34,18 +34,29 @@ const VAZIAS = new Set(('a o as os um uma uns umas de da do das dos em na no nas
   'e foi era sao ser esta estao fica ficam tem ter teve havia ha este isso isto esse essa aquele aquela mais muito muita mesmo ' +
   'ja tambem nao lhe me te nos vos eles elas ele ela entre sobre ate apos the of and to in on at by for is').split(' '));
 
-// Palavras de molde: não provam assunto em comum.
-const MOLDE = new Set(['chamad', 'conhec', 'famos', 'nome', 'tipo', 'maior', 'menor', 'primei', 'segund', 'ultimo', 'grande',
-  'pequen', 'brasil', 'brasile', 'mundo', 'mundia', 'pais', 'paise', 'cidade', 'estado', 'regiao', 'serie', 'filme', 'jogo',
-  'time', 'clube', 'seleca', 'campea', 'histor', 'ano', 'anos', 'vez', 'veze', 'criou', 'criad', 'cerca', 'venceu', 'ficou',
-  'tinha', 'durant', 'depois', 'antes', 'princi', 'parte', 'fez', 'deu', 'todo', 'toda', 'todos', 'outro', 'usado', 'usada',
-  'sao', 'mais', 'qual', 'quai', 'como', 'qu', 'faz', 'fazer', 'ganhou', 'conqui', 'lancad', 'lancou', 'apelid', 'fica',
-  'possui', 'pode', 'leva', 'alem', 'aparec', 'onde', 'chama', 'existe', 'grupo', 'nasceu', 'surgiu', 'tambem', 'personag',
-  // papéis e verbos de autoria: "Qual cantor gravou X?" e "Qual cantor gravou Y?" são fatos diferentes
+// Palavras de molde: não provam assunto em comum. Escritas por extenso e passadas pelo mesmo radical() dos textos
+// (assim "durante" não vira "durant" e não apaga o sobrenome Durant).
+const MOLDE_PALAVRAS = ('chamado chamada chamados chamadas conhecido conhecida conhecidos famoso famosa famosos nome tipo maior menor ' +
+  'primeiro primeira segundo segunda ultimo ultima grande grandes pequeno pequena brasil brasileiro brasileira mundo mundial pais paises ' +
+  'cidade estado regiao serie filme jogo time clube selecao campeao campea campeonato historia ano anos vez vezes criou criado criada ' +
+  'cerca venceu ficou tinha durante depois antes principal parte fez deu todo toda todos outro usado usada sao mais qual quais como ' +
+  'faz fazer ganhou conquistou lancado lancada lancou apelido apelidado fica possui pode leva alem aparece onde chama existe grupo ' +
+  'nasceu surgiu tambem personagem ' +
   // palavras de tipo (estreito, rio, guerra...): dizem a classe da resposta, não o assunto
-  'estreit', 'oceano', 'rio', 'lago', 'monte', 'ilha', 'serra', 'deserto', 'guerra', 'batalha', 'revolta', 'tratado', 'dinasti',
-  'imperio', 'reino', 'teorema', 'lei', 'planeta', 'element', 'festiva', 'copa', 'campeon', 'torneio', 'estadio', 'album', 'premio',
-  'gravou', 'cantor', 'cantora', 'banda', 'escreve', 'escreveu', 'pintou', 'pintor', 'dirigiu', 'diretor', 'compos', 'campeao', 'venceu', 'ganhou']);
+  'estreito oceano rio lago monte ilha serra deserto guerra batalha revolta tratado dinastia imperio reino teorema lei planeta ' +
+  'elemento festival copa torneio estadio album premio ' +
+  // papéis e verbos de autoria: "Qual cantor gravou X?" e "Qual cantor gravou Y?" são fatos diferentes
+  'gravou cantor cantora banda escreveu pintou pintor dirigiu diretor compos').split(' ');
+const MOLDE = new Set(MOLDE_PALAVRAS.map((w) => radical(w)));
+// Gentílicos e qualificadores de origem: dizem DE ONDE é a resposta, não QUAL fato se pergunta
+// ("clube paranaense campeão de 1985" x "clube paranaense chamado de Coxa" são fatos diferentes)
+const GENTILICOS = new Set(('brasileiro brasileira paulista carioca mineiro mineira gaucho gaucha baiano baiana paranaense catarinense ' +
+  'pernambucano pernambucana cearense paraibano paraibana potiguar alagoano sergipano capixaba goiano goiana amazonense paraense ' +
+  'nordestino nordestina sulista argentino argentina uruguaio uruguaia chileno chilena peruano colombiano venezuelano mexicano ' +
+  'americano americana canadense ingles inglesa britanico britanica escoces irlandes frances francesa alemao alema italiano italiana ' +
+  'espanhol espanhola portugues portuguesa holandes holandesa belga suico sueco norueguês noruegues dinamarques finlandes russo russa ' +
+  'polones tcheco hungaro grego grega turco turca egipcio africano africana japones japonesa chines chinesa coreano coreana indiano ' +
+  'australiano australiana europeu europeia asiatico latino sertanejo sertaneja').split(' ').map((w) => radical(w)));
 
 // Sinônimos / formas equivalentes (já sem acento). Lado esquerdo vira o direito.
 const SINONIMOS = {
@@ -132,7 +143,9 @@ function ctx() {
 /** Pré-cálculo de uma pergunta (ou candidata: pergunta = fato curto). */
 export function prepararE(p) {
   const tx = tokens(p.pergunta);
-  const resp = tokens(String(p.resposta).replace(/\([^)]*\)/g, ' ')); // "Ping (latência)" -> ping
+  let resp = tokens(String(p.resposta).replace(/\([^)]*\)/g, ' ')); // "Ping (latência)" -> ping
+  // resposta que é palavra vazia ("Pará" vira "para"): usa a palavra crua
+  if (!resp.length) resp = semAcento(p.resposta).toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').trim().split(/\s+/).filter(Boolean).map((w) => 'x' + w);
   const respComParen = tokens(p.resposta);
   return {
     p: { categoria: p.categoria },
@@ -185,11 +198,22 @@ function sobreposicao(a, b, fraca = false) {
   const [c, l] = ra.length <= rb.length ? [ra, rb] : [rb, ra];
   if (fraca) return c.some((t) => t.length >= 4 && idf(t) >= 5.5 && l.includes(t));
   const rara = c.reduce((m, t) => (idf(t) > idf(m) || (idf(t) === idf(m) && t.length > m.length) ? t : m), c[0]);
-  if (!((rara.length >= 4 || /\d/.test(rara) || idf(rara) >= 6) && l.includes(rara) && (idf(rara) >= 4.2 || c.length === 1))) return false;
+  if (!((rara.length >= 4 || /\d/.test(rara) || idf(rara) >= 6) && l.includes(rara) && (idf(rara) >= 4.2 || (c.length === 1 && idf(rara) >= 3.6)))) return false;
   // nomes compostos: a mais curta inteira dentro da outra ("Jan Koum" x "Jan Koum e Brian Acton"), ou o mesmo
   // sobrenome no fim ("Maria Leopoldina" x "Imperatriz Leopoldina"); não basta o primeiro nome ("Pierre Curie" x "Pierre de Coubertin")
   if (fraca || c.length === 1 || c.every((t) => l.includes(t))) return true;
   return c[c.length - 1] === l[l.length - 1] && idf(c[c.length - 1]) >= 4.2;
+}
+
+/** Peso do conteúdo específico de um enunciado (o que o fato é), fora respostas, moldes e gentílicos. */
+function pesoEspecifico(a, fora) {
+  const { idf } = ctx();
+  let s = 0;
+  for (const t of a.texto) {
+    if (MOLDE.has(t) || GENTILICOS.has(t) || fora.has(t) || t.length < 3 || idf(t) < LIM_IDF_COMUM) continue;
+    s += idf(t) * (a.nomes.has(t) ? 1.5 : 1);
+  }
+  return s;
 }
 
 /** Peso do assunto em comum nos dois textos, fora as respostas. Nome próprio pesa 1,5x. */
@@ -198,7 +222,7 @@ function assuntoComum(a, b) {
   let s = 0, n = 0, max = 0;
   const fora = new Set([...a.resp, ...b.resp]);
   for (const t of a.texto) {
-    if (MOLDE.has(t) || fora.has(t) || t.length < 3) continue;
+    if (MOLDE.has(t) || GENTILICOS.has(t) || fora.has(t) || t.length < 3) continue;
     if (!b.texto.has(t) || idf(t) < LIM_IDF_COMUM) continue;
     const w = idf(t) * (a.nomes.has(t) || b.nomes.has(t) ? 1.5 : 1);
     s += w; n++; max = Math.max(max, w);
@@ -212,7 +236,7 @@ function jac(a, b) {
   return a.size + b.size - i ? i / (a.size + b.size - i) : 0;
 }
 
-export const LIM_E2 = 7, LIM_E3 = 10, LIM_E5 = 14, LIM_E6 = 0.6, LIM_IDF_COMUM = 4.5, LIM_E2B = 6;
+export const LIM_E2 = 7, LIM_E3 = 10, LIM_E5 = 14, LIM_E6 = 0.6, LIM_IDF_COMUM = 4.5, LIM_E2B = 6, LIM_RAZAO = 0.2;
 
 /** Respostas "comuns" (aparecem em muitos enunciados): país, estado, cor, número pequeno. Exigem mais assunto. */
 function respostaComum(a) {
@@ -238,11 +262,14 @@ export function compararE(a, b) {
     if (!(comumA && comumB) || comum >= 3) return { nivel: 'certa', sim, regra: `E1 pergunta invertida (respostas cruzadas nos textos, assunto ${f(comum)})` };
   }
   if (sobreFraca && (inAB || inBA) && comum >= 3) return { nivel: 'certa', sim, regra: `E2c mesma resposta e ela aparece no outro enunciado (${f(comum)})` };
-  if (sobreFraca && !sobre && comum >= 13) return { nivel: 'certa', sim, regra: `E2d respostas dividem a palavra rara + muito assunto em comum (${f(comum)})` };
+  // mesma resposta: só é o mesmo fato se boa parte do conteúdo específico do enunciado mais curto está no outro
+  const foraR = new Set([...a.resp, ...b.resp]);
+  const razao = comum / Math.max(1, Math.min(pesoEspecifico(a, foraR), pesoEspecifico(b, foraR)));
+  if (sobreFraca && !sobre && comum >= 13 && razao >= LIM_RAZAO) return { nivel: 'certa', sim, regra: `E2d respostas dividem a palavra rara + muito assunto em comum (${f(comum)})` };
   if (sobre) {
-    if (comum >= LIM_E2 * (comumA ? 2 : 1) || sim >= 0.5) return { nivel: 'certa', sim, regra: `E2 mesma resposta + assunto em comum (${f(comum)})` };
-    if (respostaRara(a) && comum >= LIM_E2B) return { nivel: 'certa', sim, regra: `E2b mesma resposta rara + palavra em comum (${f(comum)})` };
-    if (respostaRara(a)) return { nivel: 'suspeita', sim, regra: `mesma resposta rara (${f(comum)})` };
+    if (sim >= 0.5) return { nivel: 'certa', sim, regra: `E2 mesma resposta e enunciados parecidos (${f(sim)})` };
+    if (comum >= LIM_E2B && razao >= LIM_RAZAO) return { nivel: 'certa', sim, regra: `E2 mesma resposta e mesmo assunto (${f(comum)}, ${Math.round(razao * 100)}% do fato)` };
+    if (comum >= LIM_E2B) return { nivel: 'suspeita', sim, regra: `mesma resposta, assunto vizinho (${f(comum)}, ${Math.round(razao * 100)}% do fato)` };
   }
   if (inAB && !sobreFraca) {
     if (comum >= LIM_E3 * (comumA ? 2 : 1)) return { nivel: 'certa', sim, regra: `E3 resposta nova citada no texto antigo + assunto (${f(comum)})` };

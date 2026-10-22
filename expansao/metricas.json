@@ -1193,6 +1193,60 @@
       "livres": 196,
       "caracteres": 6736,
       "tokens_aprox": 1925
+    },
+    "nomes-r2-c.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 434,
+      "existem": 304,
+      "risco": 0,
+      "livres": 130,
+      "caracteres": 4350,
+      "tokens_aprox": 1243
+    },
+    "nomes-r2-d.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 619,
+      "existem": 438,
+      "risco": 0,
+      "livres": 181,
+      "caracteres": 7554,
+      "tokens_aprox": 2158
     }
+  },
+  "diretriz_resposta_igual": {
+    "_leia": "Diretriz do Lucas (22/10): resposta igual NÃO é duplicada; só o mesmo par entidade-fato ou pergunta respondida pelo texto de outra. Medido com as listas do lote 016 (comparando só com banco + lotes até 015) e com as perguntas do lote 016.",
+    "listas_lote016": {
+      "linhas": 469,
+      "antes": {
+        "existe": 318,
+        "risco": 71,
+        "livre": 80
+      },
+      "depois": {
+        "existe": 320,
+        "risco": 35,
+        "livre": 114
+      },
+      "liberadas": "36 linhas que eram RISCO só por \"mesma resposta já usada na categoria\" viraram LIVRE; 2 EXISTE viraram RISCO. Os EXISTE restantes são, numa amostra de 60, quase todos o mesmo fato (Círio de Nazaré/Belém, pierogi/Polônia, Cabanagem/Pará...): as listas de 016 bateram em fatos que o banco já tem, não em respostas repetidas."
+    },
+    "perguntas_lote016": {
+      "primeira_passada_certa": 24,
+      "detector_atual_certa": 14,
+      "liberadas": "Tim Maia, Legião Urbana, Rita Lee, Titãs, Charlie Brown Jr., Marília Mendonça, Zé Ramalho, Borussia Dortmund, Salvador Dalí, Coritiba/Criciúma (gentílico não conta como assunto) e outras com mesma resposta e outro fato"
+    },
+    "teste_rodada1": {
+      "antes": "69/76 certa",
+      "depois": "69/76 certa (+3 suspeita)"
+    },
+    "conferidas_marcadas_certa": {
+      "antes": "117 de 1409 (8,3%)",
+      "depois": "118 de 1409 (8,4%)"
+    },
+    "mudancas": [
+      "semelhanca.mjs R2 (mesma resposta + palavras em comum) virou só suspeita",
+      "cruzamento.mjs: mesma resposta só é certa com enunciados parecidos ou assunto em comum (gentílicos e papéis como cantor/gravou/clube não contam)",
+      "candidatas.mjs: mesma resposta na categoria deixou de ser RISCO",
+      "resposta que é palavra vazia (Pará) passou a ser comparada"
+    ]
   }
 }

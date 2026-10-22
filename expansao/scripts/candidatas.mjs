@@ -25,12 +25,12 @@ import { preparar, comparar, mesmaResposta } from './semelhanca.mjs';
 import { indexar, procurarE, prepararE, compararE } from './cruzamento.mjs';
 
 const args = process.argv.slice(2);
-const arq = args.find((a) => !a.startsWith('--'));
+const arq = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--ate');
 if (!arq) { console.error('Uso: node candidatas.mjs <arquivo.txt> [--json] [--so-banco] [--livres]'); process.exit(1); }
 
 const base = [
   ...lerBancoAtual().map((p, i) => ({ ...p, ref: `banco:${i}` })),
-  ...(args.includes('--so-banco') ? [] : listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada').map((p) => ({ ...p, ref: `id:${p.id}` }))),
+  ...(args.includes('--so-banco') ? [] : listarLotes().filter((f) => !args.includes('--ate') || +f.match(/lote-(\d{3})/)[1] <= +args[args.indexOf('--ate') + 1]).flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada').map((p) => ({ ...p, ref: `id:${p.id}` }))),
 ];
 const preparadas = base.map((p) => ({ prep: preparar(p, p.ref), p }));
 const indiceE = indexar(base.map((p) => ({ p, ref: p.ref })));
@@ -50,8 +50,8 @@ for (const linha of readFileSync(arq, 'utf8').split(/\r?\n/).map((l) => l.trim()
   for (const { prep, p } of [...preparadas, ...aceitas]) {
     const r = comparar(alvo, prep);
     if (r.nivel === 'certa') { nivel = 'EXISTE'; ref = prep.ref; parecida = p; regra = r.regra; break; }
-    if (nivel === 'LIVRE' && (r.nivel === 'suspeita' || (p.categoria === categoria && mesmaResposta(alvo.resp, prep.resp)))) {
-      nivel = 'RISCO'; ref = prep.ref; parecida = p; regra = r.regra || 'mesma resposta já usada na categoria';
+    if (nivel === 'LIVRE' && r.nivel === 'suspeita') {
+      nivel = 'RISCO'; ref = prep.ref; parecida = p; regra = r.regra;
     }
   }
   // camada v3: cruzamento de entidades (banco + novas pelo índice; candidatas aceitas antes, direto)

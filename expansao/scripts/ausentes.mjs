@@ -29,8 +29,13 @@ for (const linha of readFileSync(arq, 'utf8').split(/\r?\n/)) {
     const n = soEnunciado.filter((x) => x.includes(t)).length;
     const nAlt = textos.filter((x) => x.includes(t)).length - n;
     if (!saida.has(grupo)) saida.set(grupo, { livres: [], presentes: [] });
-    if (n === 0) saida.get(grupo).livres.push(nAlt ? `${nome} (só como alternativa x${nAlt})` : nome);
-    else saida.get(grupo).presentes.push(`${nome} x${n}`);
+    // nome composto: se a última palavra (sobrenome, cidade do evento...) já aparece sozinha, conta como presente
+    // ("Roberto Firmino" x "Firmino"; "Julgamento de Nuremberg" x "Nuremberg")
+    const toks = tokens(nome);
+    const ult = toks.length > 1 && toks[toks.length - 1].length >= 4 ? ' ' + toks[toks.length - 1] + ' ' : null;
+    const nUlt = ult ? soEnunciado.filter((x) => x.includes(ult)).length : 0;
+    if (n === 0 && nUlt === 0) saida.get(grupo).livres.push(nAlt ? `${nome} (só como alternativa x${nAlt})` : nome);
+    else saida.get(grupo).presentes.push(`${nome} x${n || nUlt}${n ? '' : ' (parcial)'}`);
   }
 }
 if (args.includes('--registrar')) {

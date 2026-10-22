@@ -143,7 +143,8 @@ export function comparar(a, b) {
   if (mesma) {
     if (sim >= LIM_CERTA_SIM) return { nivel: 'certa', sim, regra: 'R1 mesma resposta e texto parecido' };
     const rara = (freqResp.get(a.resp) || 0) <= 3 || (freqResp.get(b.resp) || 0) <= 3;
-    if (peso >= (rara ? LIM_MESMA_RARA : LIM_MESMA)) return { nivel: 'certa', sim, regra: `R2 mesma resposta e assunto em comum (peso ${peso.toFixed(1)})` };
+    // diretriz do Lucas (out/2026): resposta igual com outro assunto PASSA; aqui só sinaliza, o v3 (cruzamento.mjs) decide pelo par entidade-fato
+    if (peso >= (rara ? LIM_MESMA_RARA : LIM_MESMA)) return { nivel: 'suspeita', sim, regra: `R2 mesma resposta e assunto em comum (peso ${peso.toFixed(1)})` };
     if (rara && peso >= 3) return { nivel: 'suspeita', sim, regra: `mesma resposta rara, pouco assunto em comum (peso ${peso.toFixed(1)})` };
     return { nivel: null, sim };
   }

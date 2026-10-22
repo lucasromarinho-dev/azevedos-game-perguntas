@@ -846,12 +846,12 @@
       },
       {
         "lote": "012",
-        "conferidas_sem_mudanca": 89,
+        "conferidas_sem_mudanca": 88,
         "corrigidas": 5,
-        "descartadas": 4,
+        "descartadas": 5,
         "motivos_descarte": {
-          "duplicada invertida": 2,
-          "duplicada": 2
+          "duplicada": 3,
+          "duplicada invertida": 2
         },
         "perguntas_com_busca_web": 0,
         "por_categoria": {
@@ -861,9 +861,9 @@
             "descartadas": 0
           },
           "História": {
-            "conferidas": 13,
+            "conferidas": 12,
             "corrigidas": 0,
-            "descartadas": 0
+            "descartadas": 1
           },
           "Ciências": {
             "conferidas": 10,
@@ -888,6 +888,7 @@
         },
         "minutos_aprox": 6,
         "descartes": [
+          "4a4f1528ef: duplicada: mesmo fato que banco:1355 (Guerra da Cisplatina e a independência do Uruguai; achada depois, na conferência do lote 015)",
           "260f5ba2c4: duplicada invertida: banco:1914 (iodo no sal para prevenir o bócio)",
           "0138343f62: duplicada invertida: banco:3399 (Luis Fonsi e 'Despacito')",
           "73778a0f87: duplicada: mesmo fato que banco:3918 (Umbrella criou o vírus de Resident Evil)",
@@ -1022,6 +1023,64 @@
           "308aeb3f4e: duplicada: mesmo fato que banco:4418 (HTC lançou o primeiro celular com Android)"
         ],
         "correcoes": []
+      },
+      {
+        "lote": "015",
+        "conferidas_sem_mudanca": 92,
+        "corrigidas": 2,
+        "descartadas": 7,
+        "motivos_descarte": {
+          "duplicada invertida": 5,
+          "duplicada disfarçada": 1,
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "descartadas": 2
+          },
+          "Ciências": {
+            "conferidas": 7,
+            "corrigidas": 1,
+            "descartadas": 2
+          },
+          "Esportes": {
+            "conferidas": 8,
+            "corrigidas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 26,
+            "corrigidas": 0,
+            "descartadas": 2
+          },
+          "Tecnologia": {
+            "conferidas": 20,
+            "corrigidas": 0,
+            "descartadas": 1
+          }
+        },
+        "minutos_aprox": 6,
+        "descartes": [
+          "28e9fa25da: duplicada invertida: banco:1239 (bushido, código de honra dos samurais)",
+          "e98ad30ad4: duplicada disfarçada: banco:1338 (bôeres, colonos holandeses da África do Sul)",
+          "12c4991d64: duplicada invertida: banco:2407 (valor do número de ouro, 1,618)",
+          "3c9cae34c0: duplicada invertida: banco:2072 (Schrödinger e o gato na caixa)",
+          "1617b0a1b4: duplicada invertida: banco:1028 (a Transilvânia do vampiro fica na Romênia)",
+          "c9625bf6b0: duplicada invertida: banco:3376 (Jorge Amado escreveu 'Capitães da Areia')",
+          "f8dc6d197e: duplicada: mesmo fato que banco:4327 (cartuchos de E.T. enterrados no deserto)"
+        ],
+        "correcoes": [
+          "081021e44c: 'é o homem mais rápido do mundo' envelhece; enunciado passou a 'ficou conhecido como'",
+          "aefcfce63c: alternativa 'Salamandra-de-fogo' também é anfíbio de pele úmida que respira pela pele (duas certas); trocada por 'Jacaré'"
+        ]
       }
     ]
   }

@@ -843,6 +843,63 @@
           "ae02cbb543: duplicada: mesmo fato que banco:3937 (ping, tempo de resposta nos jogos online)"
         ],
         "correcoes": []
+      },
+      {
+        "lote": "012",
+        "conferidas_sem_mudanca": 89,
+        "corrigidas": 5,
+        "descartadas": 4,
+        "motivos_descarte": {
+          "duplicada invertida": 2,
+          "duplicada": 2
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 10,
+            "corrigidas": 1,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 18,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 3,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 11,
+            "corrigidas": 1,
+            "descartadas": 2
+          }
+        },
+        "minutos_aprox": 6,
+        "descartes": [
+          "260f5ba2c4: duplicada invertida: banco:1914 (iodo no sal para prevenir o bócio)",
+          "0138343f62: duplicada invertida: banco:3399 (Luis Fonsi e 'Despacito')",
+          "73778a0f87: duplicada: mesmo fato que banco:3918 (Umbrella criou o vírus de Resident Evil)",
+          "556583acd3: duplicada: mesmo fato que banco:4232 (Leon Kennedy, policial novato de Resident Evil 2)"
+        ],
+        "correcoes": [
+          "41da7bf929: alternativa 'O trovão vem depois do raio' (verdadeira e confusa) trocada por 'O som viaja só pelo chão'",
+          "40ccd42678: 'Hobbes' é o nome original do mesmo tigre (Haroldo no Brasil): eram duas certas; trocado por 'Tony'",
+          "c825c1955d: recorde que pode mudar e fato de 2020: enunciado datado ('em 2020') e marcado recente",
+          "2f8f8446ce: Geraldo Vandré, coautor, também gravou 'Disparada': alternativa trocada por 'Agnaldo Rayol'",
+          "2943eda2b3: 'Garrett Camp Jr.' imitava o nome do outro cofundador real (Garrett Camp); trocado por 'Dara Khosrowshahi'"
+        ]
       }
     ]
   }

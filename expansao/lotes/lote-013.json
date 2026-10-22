@@ -46,10 +46,10 @@
     "pergunta": "Qual região de cachoeiras, grutas e morros no interior da Bahia é um parque nacional famoso?",
     "resposta": "Chapada Diamantina",
     "alternativas": [
-      "Chapada Diamantina",
+      "Chapada dos Guimarães",
       "Chapada dos Veadeiros",
       "Serra da Canastra",
-      "Chapada dos Guimarães"
+      "Chapada Diamantina"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
@@ -117,7 +117,7 @@
     "dup": "suspeita",
     "dup_ref": "banco:18",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.3)"
   },
   {
     "id": "b4e0268b3b",
@@ -437,7 +437,7 @@
     "dup": "suspeita",
     "dup_ref": "banco:798",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.5)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.2)"
   },
   {
     "id": "72eb29bf47",
@@ -692,12 +692,12 @@
       "Formiga-cortadeira"
     ],
     "subtema": "Animais",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1906 (detector v2 recalibrado, IDF só do banco)",
+    "dup": "certa",
+    "dup_ref": "banco:1906",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.3)"
   },
   {
     "id": "4c0a205cc3",

@@ -157,7 +157,7 @@
     "dup": "suspeita",
     "dup_ref": "banco:443",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.3)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.2)"
   },
   {
     "id": "2321f6148b",
@@ -188,8 +188,8 @@
     "alternativas": [
       "Honduras",
       "Costa Rica",
-      "El Salvador",
-      "Guatemala"
+      "Guatemala",
+      "El Salvador"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
     "status": "gerada",
@@ -1752,12 +1752,12 @@
       "404"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3860 (pergunta invertida sobre o código 404)",
+    "dup": "certa",
+    "dup_ref": "banco:3860",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
   },
   {
     "id": "68cd4e1513",

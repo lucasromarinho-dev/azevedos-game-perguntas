@@ -176,9 +176,9 @@
       "lote": "013",
       "metodo": "respostas_primeiro",
       "escritas": 105,
-      "validas": 97,
-      "descartadas": 8,
-      "taxa_descarte": 0.08,
+      "validas": 96,
+      "descartadas": 9,
+      "taxa_descarte": 0.09,
       "caracteres": 14306,
       "tokens_aprox": 4087,
       "rodadas_de_reposicao": 1,
@@ -190,9 +190,9 @@
       "lote": "014",
       "metodo": "respostas_primeiro",
       "escritas": 102,
-      "validas": 95,
-      "descartadas": 7,
-      "taxa_descarte": 0.07,
+      "validas": 94,
+      "descartadas": 8,
+      "taxa_descarte": 0.08,
       "caracteres": 14458,
       "tokens_aprox": 4131,
       "rodadas_de_reposicao": 0,
@@ -203,13 +203,13 @@
     {
       "lote": "015",
       "metodo": "respostas_primeiro",
-      "escritas": 112,
-      "validas": 99,
+      "escritas": 114,
+      "validas": 101,
       "descartadas": 13,
-      "taxa_descarte": 0.12,
-      "caracteres": 15452,
-      "tokens_aprox": 4415,
-      "rodadas_de_reposicao": 0,
+      "taxa_descarte": 0.11,
+      "caracteres": 15762,
+      "tokens_aprox": 4503,
+      "rodadas_de_reposicao": 1,
       "candidatas_usadas": [
         "pool r1-*"
       ]
@@ -583,22 +583,23 @@
       "Copa de 1962 (Brasil) x craque da Copa do Chile",
       "Chicago Windy City x Cidade dos Ventos (vira suspeita)"
     ],
-    "falsas_certas_nas_485_aprovadas": 22,
-    "taxa_falsa_certa": 0.045,
+    "falsas_certas_nas_485_aprovadas": 24,
+    "taxa_falsa_certa": 0.049,
     "suspeitas_nas_485_aprovadas": 12,
     "antes": {
       "descartes_pegos": 0,
       "suspeitas_no_piloto": 21,
       "suspeitas_que_eram_dup": 0
     },
-    "candidatas_mjs": "usa o mesmo detector; validação com a 1a rodada do lote 1: pegou 56 de 62 duplicadas antes de escrever, 6 falsos alarmes (antes: 19)"
+    "candidatas_mjs": "usa o mesmo detector; validação com a 1a rodada do lote 1: pegou 56 de 62 duplicadas antes de escrever, 6 falsos alarmes (antes: 19)",
+    "obs_idf": "IDF calculado só sobre o banco atual (estável). Com isso o detector pegou mais 2 duplicadas na rodada 1 (formiga-cortadeira x saúva; 404 invertida), descartadas e repostas."
   },
   "rodada1": {
     "_leia": "Rodada 1 da meta 3x: lotes 006 a 015, método respostas primeiro. Tokens = caracteres escritos / 3,5 (só o que foi escrito em arquivo: listas de candidatas e perguntas). Não inclui raciocínio nem chamadas de ferramenta.",
     "validas": 1000,
-    "perguntas_escritas": 1089,
-    "descartadas_pelo_detector_ou_revisao": 89,
-    "taxa_descarte_perguntas": 0.082,
+    "perguntas_escritas": 1091,
+    "descartadas_pelo_detector_ou_revisao": 91,
+    "taxa_descarte_perguntas": 0.083,
     "candidatas_escritas": 2341,
     "candidatas_ja_existentes": 955,
     "taxa_descarte_candidatas": 0.41,
@@ -905,12 +906,12 @@
         "existem": 5
       }
     ],
-    "caracteres_perguntas": 152751,
+    "caracteres_perguntas": 153061,
     "caracteres_candidatas": 144752,
     "tokens_por_valida": {
-      "so_perguntas": 43.6,
+      "so_perguntas": 43.7,
       "candidatas": 41.4,
-      "total": 85
+      "total": 85.1
     },
     "comparacao": {
       "lote_001_metodo_antigo": {
@@ -924,8 +925,8 @@
         "obs": "checagem de termo-chave com grep-banco antes de escrever"
       },
       "rodada1_respostas_primeiro": {
-        "taxa_descarte": 0.082,
-        "tokens_por_valida": 85,
+        "taxa_descarte": 0.083,
+        "tokens_por_valida": 85.1,
         "obs": "quase nenhuma pergunta desperdiçada (43,6 tokens/válida), mas as listas de candidatas saíram longas demais: 2,3 linhas por válida e ~62 caracteres por linha"
       }
     },

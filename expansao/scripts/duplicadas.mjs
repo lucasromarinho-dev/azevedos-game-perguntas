@@ -10,7 +10,7 @@
 //
 // dup_ref: "banco:<índice>" (posição em perguntas.json) ou "id:<id>" (outra pergunta nova).
 // Calibração (out/2026) com as 485 aprovadas e os 15 descartes do conferente-v1:
-//   pega 13 de 15 como "certa" (+1 como "suspeita"); falso "certa" em 22 de 485 (4,5%); 12 suspeitas.
+//   pega 13 de 15 como "certa" (+1 como "suspeita"); falso "certa" em 24 de 485 (4,9%); 13 suspeitas. IDF só do banco.
 
 import { basename } from 'node:path';
 import { lerBancoAtual, listarLotes, lerJson, gravarJson, RAIZ_EXP } from './lib.mjs';

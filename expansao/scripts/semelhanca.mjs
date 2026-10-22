@@ -33,21 +33,23 @@ export const LIM_CRUZ_COMUM = 15; // resposta é palavra comum nos enunciados (B
 export const LIM_CRUZ_REVERSO = 15;
 export const LIM_INVERTIDA = 3;
 export const LIM_PARCIAL = 19;
-export const IDF_RARO = 5.5; // radical presente em ~20 perguntas ou menos
+export const IDF_RARO = 5.3; // radical presente em ~20 perguntas ou menos
 
 let CACHE = null;
 /** Tabela de IDF e frequência de respostas, sobre banco atual + novas não descartadas. */
 export function contexto() {
   if (CACHE) return CACHE;
-  const todas = [...lerBancoAtual(), ...listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada')];
+  // IDF só sobre o banco atual: assim a calibração não muda à medida que os lotes crescem.
+  const banco = lerBancoAtual();
+  const todas = [...banco, ...listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada')];
   const df = new Map();
   const freqResp = new Map();
+  for (const p of banco) for (const r of new Set(palavrasChave(p.pergunta + ' ' + p.resposta))) df.set(r, (df.get(r) || 0) + 1);
   for (const p of todas) {
-    for (const r of new Set(palavrasChave(p.pergunta + ' ' + p.resposta))) df.set(r, (df.get(r) || 0) + 1);
     const rn = respostaNorm(p.resposta);
     freqResp.set(rn, (freqResp.get(rn) || 0) + 1);
   }
-  const N = todas.length;
+  const N = banco.length;
   CACHE = { N, df, freqResp, idf: (r) => Math.log((N + 1) / ((df.get(r) || 0) + 1)) };
   return CACHE;
 }

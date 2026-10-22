@@ -30,6 +30,24 @@ Rode da raiz do repo.
 | `node expansao/scripts/status.mjs [--pendentes]` | Painel geral: status, metas, duplicidade, recentes, posição da certa, pendências |
 | `node expansao/scripts/subtemas.mjs` | Recalcula `subtemas.json` |
 
+## Método atual: respostas primeiro (aprovado pelo Lucas)
+
+O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escrito de cabeça já existia. Por isso:
+
+1. Escolha um subtema aberto em `arvore.json` (meta final ~10x, com `falta` por subtema) e um **microtema estreito**.
+2. `node expansao/scripts/contexto.mjs "Categoria" termo1 termo2 ...` mostra até 20 perguntas que já tocam no microtema ("já existe, não repetir").
+3. Escreva só uma **lista curta** em `candidatas/<microtema>.txt`, uma linha por fato: `Categoria|Resposta - fato curto`.
+4. `node expansao/scripts/candidatas.mjs candidatas/<microtema>.txt` marca cada linha como EXISTE / RISCO / LIVRE. Descarte acima de 50% = microtema **saturado**: registre em `arvore.json` (campo `microtemas`) e troque de microtema.
+5. Só para as LIVRES (e RISCO com ângulo novo) escreva as perguntas completas na fonte do lote e siga o fluxo abaixo.
+6. Anote o lote em `metricas.json` (método, escritas, válidas, descarte).
+
+| Comando | Para quê |
+|---|---|
+| `node expansao/scripts/arvore.mjs` | Recalcula `arvore.json` (meta, atual estimado, novas, falta), preservando status e microtemas |
+| `node expansao/scripts/contexto.mjs "Esportes" "Libertadores" "1963"` | Perguntas vizinhas que já existem |
+| `node expansao/scripts/candidatas.mjs arq.txt [--json] [--so-banco]` | Filtro de respostas candidatas, sem IA |
+| `node expansao/scripts/grep-banco.mjs termo1 termo2` | Conta quantas perguntas citam cada termo (checagem rápida de assunto) |
+
 ## Fluxo de um lote
 
 1. Escrever `fontes/lote-NNN.txt` (formato no topo de `montar-lote.mjs`), seguindo o guia de estilo e priorizando subtemas com pouca cobertura.

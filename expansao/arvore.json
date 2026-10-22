@@ -1,0 +1,613 @@
+{
+  "_leia": "Meta final (~10x) por subtema, aprovada pelo Lucas. atual_estimado vem de subtemas.json (palavras-chave; \"Outros\" fica fora, então a soma é menor que o banco). falta = meta - atual_estimado - novas_validas. status \"saturado\" quando um microtema descarta mais de 50% das candidatas. Recalcule com scripts/arvore.mjs.",
+  "Geografia": {
+    "Brasil: estados, capitais e regiões": {
+      "meta": 500,
+      "atual_estimado": 42,
+      "novas_validas": 3,
+      "falta": 455,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Brasil: cidades, turismo e apelidos": {
+      "meta": 700,
+      "atual_estimado": 95,
+      "novas_validas": 21,
+      "falta": 584,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Comidas e bebidas típicas, Brasil e mundo": {
+      "meta": 600,
+      "atual_estimado": 0,
+      "novas_validas": 0,
+      "falta": 600,
+      "status": "aberto",
+      "microtemas": {
+        "Comidas típicas do mundo, por país": {
+          "status": "aberto",
+          "candidatas": 20,
+          "existem": 2,
+          "fonte": "candidatas/demo-comidas-mundo.txt"
+        }
+      }
+    },
+    "Rios, oceanos, mares e ilhas": {
+      "meta": 600,
+      "atual_estimado": 189,
+      "novas_validas": 22,
+      "falta": 389,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Relevo, vulcões e desertos": {
+      "meta": 400,
+      "atual_estimado": 44,
+      "novas_validas": 10,
+      "falta": 346,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Biomas, clima e natureza": {
+      "meta": 400,
+      "atual_estimado": 17,
+      "novas_validas": 5,
+      "falta": 378,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Capitais e países do mundo": {
+      "meta": 900,
+      "atual_estimado": 122,
+      "novas_validas": 9,
+      "falta": 769,
+      "status": "saturado (capitais)",
+      "microtemas": {
+        "Capitais da Europa": {
+          "status": "saturado",
+          "candidatas": 20,
+          "existem": 19,
+          "fonte": "candidatas/demo-capitais-europa.txt"
+        }
+      }
+    },
+    "Bandeiras, moedas e idiomas": {
+      "meta": 600,
+      "atual_estimado": 68,
+      "novas_validas": 2,
+      "falta": 530,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Cidades e monumentos do mundo": {
+      "meta": 700,
+      "atual_estimado": 90,
+      "novas_validas": 8,
+      "falta": 602,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "População, curiosidades e recordes": {
+      "meta": 500,
+      "atual_estimado": 19,
+      "novas_validas": 5,
+      "falta": 476,
+      "status": "aberto",
+      "microtemas": {}
+    }
+  },
+  "História": {
+    "Brasil Colônia": {
+      "meta": 500,
+      "atual_estimado": 51,
+      "novas_validas": 7,
+      "falta": 442,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Brasil Império": {
+      "meta": 500,
+      "atual_estimado": 68,
+      "novas_validas": 7,
+      "falta": 425,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Brasil República, Vargas, ditadura e redemocratização": {
+      "meta": 700,
+      "atual_estimado": 66,
+      "novas_validas": 3,
+      "falta": 631,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Antiguidade": {
+      "meta": 700,
+      "atual_estimado": 96,
+      "novas_validas": 8,
+      "falta": 596,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Mitologia": {
+      "meta": 500,
+      "atual_estimado": 39,
+      "novas_validas": 5,
+      "falta": 456,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Idade Média": {
+      "meta": 400,
+      "atual_estimado": 27,
+      "novas_validas": 8,
+      "falta": 365,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Navegações e Américas pré-colombianas": {
+      "meta": 400,
+      "atual_estimado": 16,
+      "novas_validas": 4,
+      "falta": 380,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Revoluções e Idade Moderna": {
+      "meta": 500,
+      "atual_estimado": 59,
+      "novas_validas": 20,
+      "falta": 421,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Guerras Mundiais": {
+      "meta": 600,
+      "atual_estimado": 54,
+      "novas_validas": 2,
+      "falta": 544,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Guerra Fria e século XX": {
+      "meta": 500,
+      "atual_estimado": 29,
+      "novas_validas": 3,
+      "falta": 468,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Ásia, África e Oriente Médio": {
+      "meta": 400,
+      "atual_estimado": 33,
+      "novas_validas": 9,
+      "falta": 358,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Personagens, invenções e filosofia": {
+      "meta": 600,
+      "atual_estimado": 72,
+      "novas_validas": 14,
+      "falta": 514,
+      "status": "aberto",
+      "microtemas": {}
+    }
+  },
+  "Ciências": {
+    "Corpo humano e saúde": {
+      "meta": 900,
+      "atual_estimado": 219,
+      "novas_validas": 22,
+      "falta": 659,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Animais": {
+      "meta": 1000,
+      "atual_estimado": 109,
+      "novas_validas": 24,
+      "falta": 867,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Plantas": {
+      "meta": 400,
+      "atual_estimado": 58,
+      "novas_validas": 6,
+      "falta": 336,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Ecologia e meio ambiente": {
+      "meta": 300,
+      "atual_estimado": 9,
+      "novas_validas": 2,
+      "falta": 289,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Genética e evolução": {
+      "meta": 300,
+      "atual_estimado": 16,
+      "novas_validas": 0,
+      "falta": 284,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Química": {
+      "meta": 500,
+      "atual_estimado": 77,
+      "novas_validas": 5,
+      "falta": 418,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Física e unidades": {
+      "meta": 500,
+      "atual_estimado": 103,
+      "novas_validas": 13,
+      "falta": 384,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Astronomia": {
+      "meta": 700,
+      "atual_estimado": 67,
+      "novas_validas": 16,
+      "falta": 617,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Terra, geologia e clima": {
+      "meta": 400,
+      "atual_estimado": 25,
+      "novas_validas": 1,
+      "falta": 374,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Dinossauros e pré-história": {
+      "meta": 300,
+      "atual_estimado": 6,
+      "novas_validas": 2,
+      "falta": 292,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Cientistas e descobertas": {
+      "meta": 400,
+      "atual_estimado": 10,
+      "novas_validas": 0,
+      "falta": 390,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Matemática e lógica": {
+      "meta": 300,
+      "atual_estimado": 10,
+      "novas_validas": 2,
+      "falta": 288,
+      "status": "aberto",
+      "microtemas": {}
+    }
+  },
+  "Esportes": {
+    "Brasileirão e clubes brasileiros": {
+      "meta": 1500,
+      "atual_estimado": 244,
+      "novas_validas": 5,
+      "falta": 1251,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Seleção e craques": {
+      "meta": 700,
+      "atual_estimado": 87,
+      "novas_validas": 1,
+      "falta": 612,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Copa do Mundo": {
+      "meta": 700,
+      "atual_estimado": 39,
+      "novas_validas": 12,
+      "falta": 649,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Libertadores e futebol sul-americano": {
+      "meta": 500,
+      "atual_estimado": 6,
+      "novas_validas": 7,
+      "falta": 487,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Futebol europeu": {
+      "meta": 900,
+      "atual_estimado": 33,
+      "novas_validas": 6,
+      "falta": 861,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Basquete e NBA": {
+      "meta": 500,
+      "atual_estimado": 136,
+      "novas_validas": 1,
+      "falta": 363,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "F1 e automobilismo": {
+      "meta": 500,
+      "atual_estimado": 27,
+      "novas_validas": 2,
+      "falta": 471,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Olimpíadas e atletismo": {
+      "meta": 600,
+      "atual_estimado": 48,
+      "novas_validas": 20,
+      "falta": 532,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Lutas, UFC e boxe": {
+      "meta": 400,
+      "atual_estimado": 61,
+      "novas_validas": 4,
+      "falta": 335,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Tênis": {
+      "meta": 300,
+      "atual_estimado": 14,
+      "novas_validas": 11,
+      "falta": 275,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Vôlei": {
+      "meta": 300,
+      "atual_estimado": 6,
+      "novas_validas": 8,
+      "falta": 286,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Esportes americanos": {
+      "meta": 200,
+      "atual_estimado": 3,
+      "novas_validas": 3,
+      "falta": 194,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Outros (xadrez, surfe, skate, e-sports)": {
+      "meta": 300,
+      "atual_estimado": 16,
+      "novas_validas": 4,
+      "falta": 280,
+      "status": "aberto",
+      "microtemas": {}
+    }
+  },
+  "Entretenimento": {
+    "Novelas e TV brasileira": {
+      "meta": 900,
+      "atual_estimado": 28,
+      "novas_validas": 15,
+      "falta": 857,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Reality shows (BBB, A Fazenda etc.)": {
+      "meta": 400,
+      "atual_estimado": 0,
+      "novas_validas": 0,
+      "falta": 400,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Humor e programas de auditório": {
+      "meta": 300,
+      "atual_estimado": 0,
+      "novas_validas": 0,
+      "falta": 300,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Música brasileira": {
+      "meta": 1200,
+      "atual_estimado": 41,
+      "novas_validas": 21,
+      "falta": 1138,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Música internacional": {
+      "meta": 1000,
+      "atual_estimado": 73,
+      "novas_validas": 2,
+      "falta": 925,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Cinema brasileiro": {
+      "meta": 300,
+      "atual_estimado": 11,
+      "novas_validas": 1,
+      "falta": 288,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Cinema internacional e Oscar": {
+      "meta": 800,
+      "atual_estimado": 47,
+      "novas_validas": 2,
+      "falta": 751,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Sagas e franquias": {
+      "meta": 600,
+      "atual_estimado": 27,
+      "novas_validas": 0,
+      "falta": 573,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Super-heróis": {
+      "meta": 500,
+      "atual_estimado": 44,
+      "novas_validas": 0,
+      "falta": 456,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Animação": {
+      "meta": 500,
+      "atual_estimado": 33,
+      "novas_validas": 2,
+      "falta": 465,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Anime": {
+      "meta": 400,
+      "atual_estimado": 12,
+      "novas_validas": 2,
+      "falta": 386,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Séries e streaming": {
+      "meta": 800,
+      "atual_estimado": 42,
+      "novas_validas": 3,
+      "falta": 755,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Literatura": {
+      "meta": 400,
+      "atual_estimado": 26,
+      "novas_validas": 1,
+      "falta": 373,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Memes e internet": {
+      "meta": 300,
+      "atual_estimado": 0,
+      "novas_validas": 0,
+      "falta": 300,
+      "status": "aberto",
+      "microtemas": {}
+    }
+  },
+  "Tecnologia": {
+    "Games: Nintendo": {
+      "meta": 500,
+      "atual_estimado": 87,
+      "novas_validas": 0,
+      "falta": 413,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Games: consoles e história": {
+      "meta": 600,
+      "atual_estimado": 45,
+      "novas_validas": 6,
+      "falta": 549,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Games: franquias e personagens": {
+      "meta": 1500,
+      "atual_estimado": 186,
+      "novas_validas": 20,
+      "falta": 1294,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Redes sociais e apps": {
+      "meta": 600,
+      "atual_estimado": 100,
+      "novas_validas": 21,
+      "falta": 479,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Empresas, marcas e fundadores": {
+      "meta": 900,
+      "atual_estimado": 149,
+      "novas_validas": 3,
+      "falta": 748,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Hardware": {
+      "meta": 400,
+      "atual_estimado": 54,
+      "novas_validas": 9,
+      "falta": 337,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Internet e redes": {
+      "meta": 400,
+      "atual_estimado": 54,
+      "novas_validas": 13,
+      "falta": 333,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Programação": {
+      "meta": 300,
+      "atual_estimado": 43,
+      "novas_validas": 16,
+      "falta": 241,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Segurança digital": {
+      "meta": 300,
+      "atual_estimado": 17,
+      "novas_validas": 0,
+      "falta": 283,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "Celulares e gadgets": {
+      "meta": 500,
+      "atual_estimado": 23,
+      "novas_validas": 8,
+      "falta": 469,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "IA, robótica e ficção científica": {
+      "meta": 500,
+      "atual_estimado": 25,
+      "novas_validas": 2,
+      "falta": 473,
+      "status": "aberto",
+      "microtemas": {}
+    },
+    "História da computação": {
+      "meta": 500,
+      "atual_estimado": 23,
+      "novas_validas": 1,
+      "falta": 476,
+      "status": "aberto",
+      "microtemas": {}
+    }
+  }
+}

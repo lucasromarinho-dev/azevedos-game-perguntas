@@ -675,18 +675,20 @@
       "tokens_aprox": 3538,
       "rodadas_de_reposicao": 2,
       "candidatas_usadas": [
-        "nomes-r3-f.txt"
+        "nomes-r3-f.txt",
+        "fatos-r3-027.txt"
       ],
       "listas": {
         "arquivos": [
-          "nomes-r3-f.txt"
+          "nomes-r3-f.txt",
+          "fatos-r3-027.txt"
         ],
         "linhas": 0,
         "existem": 0,
         "risco": 0,
-        "tokens_aprox": 1110,
-        "nomes_sondados": 373,
-        "nomes_ausentes": 38,
+        "tokens_aprox": 15507,
+        "nomes_sondados": 674,
+        "nomes_ausentes": 67,
         "descarte": 0,
         "candidatas_por_valida": 0
       },
@@ -698,9 +700,9 @@
         "tokens_aprox": 3538
       },
       "tokens_por_valida": {
-        "listas": 11,
+        "listas": 155,
         "perguntas": 35,
-        "total": 46
+        "total": 190
       },
       "obs": "Inclui 28 válidas excedentes escritas nas fontes do lote 026. A partir daqui, cada nome passa antes por scripts/fatos.mjs (fatos já usados) para escrever só ângulo novo."
     }
@@ -2114,6 +2116,15 @@
       "livres": 38,
       "caracteres": 3884,
       "tokens_aprox": 1110
+    },
+    "fatos-r3-027.txt": {
+      "tipo": "fatos",
+      "linhas": 301,
+      "existem": 272,
+      "risco": 0,
+      "livres": 29,
+      "caracteres": 50390,
+      "tokens_aprox": 14397
     }
   }
 }

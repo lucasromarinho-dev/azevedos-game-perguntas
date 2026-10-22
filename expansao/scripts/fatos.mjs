@@ -4,7 +4,9 @@
 // (ex.: "Capivara" só aparecia em "Serra da Capivara"; "maior roedor do mundo" estava livre).
 // Uso: node expansao/scripts/fatos.mjs arquivo.txt   (nomes separados por vírgula ou um por linha; "#" = comentário)
 import { readFileSync } from 'node:fs';
-import { lerBancoAtual, listarLotes, lerJson, limpar } from './lib.mjs';
+import { join } from 'node:path';
+import { lerBancoAtual, listarLotes, lerJson, gravarJson, limpar, RAIZ_EXP } from './lib.mjs';
+// --registrar: grava o custo em metricas.json > listas (tipo "fatos"; conta os caracteres da SAÍDA, que é o que o gerador lê)
 
 const todas = [...lerBancoAtual(), ...listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada')].map((p) => ({
   t: ' ' + limpar(p.pergunta + ' ' + p.resposta) + ' ',
@@ -12,8 +14,21 @@ const todas = [...lerBancoAtual(), ...listarLotes().flatMap((f) => lerJson(f)).f
 }));
 const termos = readFileSync(process.argv[2], 'utf8').split(/\r?\n/).filter((l) => !l.trim().startsWith('#')).join(',')
   .split(',').map((x) => x.trim()).filter(Boolean);
+let saida = '', livres = 0;
 for (const t of termos) {
   const k = ' ' + limpar(t) + ' ';
   const h = todas.filter((p) => p.t.includes(k));
-  console.log(`## ${t} (${h.length}): ${h.slice(0, 4).map((p) => p.s.slice(0, 90)).join(' | ')}`);
+  if (!h.length) livres++;
+  saida += `## ${t} (${h.length}): ${h.slice(0, 4).map((p) => p.s.slice(0, 90)).join(' | ')}
+`;
+}
+process.stdout.write(saida);
+if (process.argv.includes('--registrar')) {
+  const camM = join(RAIZ_EXP, 'metricas.json');
+  const met = lerJson(camM);
+  met.listas = met.listas || {};
+  const chars = saida.length + termos.join(', ').length;
+  met.listas[process.argv[2].replace(/^.*candidatas[\/\\]/, '')] = { tipo: 'fatos', linhas: termos.length, existem: termos.length - livres, risco: 0,
+    livres, caracteres: chars, tokens_aprox: Math.round(chars / 3.5) };
+  gravarJson(camM, met);
 }

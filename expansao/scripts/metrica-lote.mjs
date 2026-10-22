@@ -29,7 +29,7 @@ for (const u of usadas) {
   if (!x) { console.error(`lista ${u} não registrada (rode candidatas.mjs --registrar)`); process.exit(1); }
   L.tokens_aprox += x.tokens_aprox;
   // sonda de nomes (ausentes.mjs) conta no custo, mas não como candidata
-  if (x.tipo === 'sonda de nomes') { L.nomes_sondados += x.linhas; L.nomes_ausentes += x.livres; continue; }
+  if (x.tipo === 'sonda de nomes' || x.tipo === 'fatos') { L.nomes_sondados += x.linhas; L.nomes_ausentes += x.livres; continue; }
   L.linhas += x.linhas; L.existem += x.existem; L.risco += x.risco;
 }
 L.descarte = +(L.existem / (L.linhas || 1)).toFixed(2);

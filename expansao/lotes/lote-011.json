@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "0d7f495f70",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual cidade italiana é famosa pelos canais e pelos passeios de gôndola?",
+    "resposta": "Veneza",
+    "alternativas": [
+      "Veneza",
+      "Nápoles",
+      "Florença",
+      "Gênova"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e2a8663da9",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica o Palácio de Buckingham, residência oficial da monarquia britânica?",
+    "resposta": "Londres",
+    "alternativas": [
+      "Edimburgo",
+      "Londres",
+      "Manchester",
+      "Liverpool"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "664204e716",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica o Arco do Triunfo, no fim da avenida Champs-Élysées?",
+    "resposta": "Paris",
+    "alternativas": [
+      "Paris",
+      "Roma",
+      "Madri",
+      "Berlim"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "91c58b0ab6",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual rio forma as Cataratas do Iguaçu, na fronteira com a Argentina?",
+    "resposta": "Rio Iguaçu",
+    "alternativas": [
+      "Rio Paraguai",
+      "Rio Uruguai",
+      "Rio Iguaçu",
+      "Rio Paraná"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:24 (R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 16.9))",
+    "dup": "certa",
+    "dup_ref": "banco:24",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 16.9)"
+  },
+  {
+    "id": "fe051872fa",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade de Pernambuco é famosa pelo carnaval com bonecos gigantes nas ladeiras?",
+    "resposta": "Olinda",
+    "alternativas": [
+      "Caruaru",
+      "Garanhuns",
+      "Olinda",
+      "Petrolina"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "140b962088",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o Rio Amazonas no trecho antes de encontrar o Rio Negro, em Manaus?",
+    "resposta": "Rio Solimões",
+    "alternativas": [
+      "Rio Solimões",
+      "Rio Juruá",
+      "Rio Purus",
+      "Rio Japurá"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "298658222a",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade asiática, devolvida pelos britânicos à China em 1997, é chamada de \"Pérola do Oriente\"?",
+    "resposta": "Hong Kong",
+    "alternativas": [
+      "Singapura",
+      "Macau",
+      "Hong Kong",
+      "Xangai"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1027 (R2 mesma resposta e assunto em comum (peso 15.8))",
+    "dup": "certa",
+    "dup_ref": "banco:1027",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.8)"
+  },
+  {
+    "id": "f44114c95d",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o enorme monólito vermelho sagrado para os aborígenes, no centro da Austrália?",
+    "resposta": "Uluru",
+    "alternativas": [
+      "Monte Kosciuszko",
+      "Uluru",
+      "Kata Tjuta",
+      "Bungle Bungle"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "498fa6ef72",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual cidade fica a estátua da Pequena Sereia, inspirada no conto de Andersen?",
+    "resposta": "Copenhague",
+    "alternativas": [
+      "Amsterdã",
+      "Oslo",
+      "Copenhague",
+      "Estocolmo"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0752e6926f",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual cidade japonesa fica o Kinkaku-ji, o Pavilhão Dourado?",
+    "resposta": "Kyoto",
+    "alternativas": [
+      "Tóquio",
+      "Nara",
+      "Kyoto",
+      "Osaka"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "379c323908",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Quais rochedos brasileiros, no meio do Atlântico, ficam perto da Linha do Equador?",
+    "resposta": "Arquipélago de São Pedro e São Paulo",
+    "alternativas": [
+      "Atol das Rocas",
+      "Arquipélago de São Pedro e São Paulo",
+      "Arquipélago de Abrolhos",
+      "Ilha da Trindade"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c14cdf9c10",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rio deságua no Oceano Atlântico em Natal?",
+    "resposta": "Rio Potengi",
+    "alternativas": [
+      "Rio Potengi",
+      "Rio Piranhas",
+      "Rio Capibaribe",
+      "Rio Jaguaribe"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dbc8f268f6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arranha-céu de Taiwan já foi o prédio mais alto do mundo?",
+    "resposta": "Taipei 101",
+    "alternativas": [
+      "Taipei 101",
+      "Shanghai Tower",
+      "Petronas Towers",
+      "Lotte Tower"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba57251ab8",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão resume a política romana de distrair o povo com comida e espetáculos?",
+    "resposta": "Pão e circo",
+    "alternativas": [
+      "Dividir para conquistar",
+      "Carpe diem",
+      "Pão e circo",
+      "Vim, vi e venci"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9dd2166283",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual indígena da tribo powhatan ficou famosa por ajudar os colonos ingleses de Jamestown?",
+    "resposta": "Pocahontas",
+    "alternativas": [
+      "Malinche",
+      "Sacagawea",
+      "Pocahontas",
+      "Anacaona"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c7b452023b",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual programa de Roosevelt tentou tirar os EUA da Grande Depressão?",
+    "resposta": "New Deal",
+    "alternativas": [
+      "Plano Marshall",
+      "Fair Deal",
+      "New Deal",
+      "Grande Sociedade"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "392c485b2b",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a moradia do senhor de engenho?",
+    "resposta": "Casa-grande",
+    "alternativas": [
+      "Capela",
+      "Senzala",
+      "Quilombo",
+      "Casa-grande"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "42c67799fa",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual operação contra a corrupção começou em 2014 investigando um posto de gasolina em Brasília?",
+    "resposta": "Lava Jato",
+    "alternativas": [
+      "Mãos Limpas",
+      "Lava Jato",
+      "Zelotes",
+      "Satiagraha"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d99394883",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em qual data do calendário romano Júlio César foi assassinado?",
+    "resposta": "Idos de março",
+    "alternativas": [
+      "Idos de março",
+      "Saturnais de dezembro",
+      "Calendas de janeiro",
+      "Nonas de abril"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1270 (R5 parte da resposta citada + muito assunto em comum (peso 19.4))",
+    "dup": "certa",
+    "dup_ref": "banco:1270",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.4)"
+  },
+  {
+    "id": "9b2b58e455",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual besouro era um símbolo sagrado para os antigos egípcios?",
+    "resposta": "Escaravelho",
+    "alternativas": [
+      "Escaravelho",
+      "Besouro-rinoceronte",
+      "Joaninha",
+      "Vaga-lume"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d60efa8634",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual foi a primeira colônia inglesa permanente na América, fundada em 1607?",
+    "resposta": "Jamestown",
+    "alternativas": [
+      "Plymouth",
+      "Nova Amsterdã",
+      "Jamestown",
+      "Boston"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "210d390551",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual grande protesto contra a ditadura reuniu estudantes, artistas e intelectuais no Rio em 1968?",
+    "resposta": "Passeata dos Cem Mil",
+    "alternativas": [
+      "Marcha da Família",
+      "Passeata dos Cem Mil",
+      "Diretas Já",
+      "Comício da Central"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ccf7ec193c",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual revolução de 1949 levou Mao Tsé-tung ao poder?",
+    "resposta": "Revolução Chinesa",
+    "alternativas": [
+      "Revolução Cultural",
+      "Revolução Chinesa",
+      "Revolução Russa",
+      "Revolução Coreana"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:845 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 4.4))",
+    "dup": "certa",
+    "dup_ref": "banco:845",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 4.4)"
+  },
+  {
+    "id": "c621e20134",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual batalha da independência foi travada no Piauí em 1823 contra as tropas portuguesas?",
+    "resposta": "Batalha do Jenipapo",
+    "alternativas": [
+      "Batalha de Guararapes",
+      "Batalha do Jenipapo",
+      "Batalha de Pirajá",
+      "Batalha do Riachuelo"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "39845830e9",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual matemática e filósofa de Alexandria foi assassinada por uma multidão no século V?",
+    "resposta": "Hipátia",
+    "alternativas": [
+      "Hipátia",
+      "Teano",
+      "Safo",
+      "Aspásia"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a9dab4b03",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual episódio da Guerra do Paraguai foi narrado pelo Visconde de Taunay?",
+    "resposta": "Retirada da Laguna",
+    "alternativas": [
+      "Batalha de Tuiuti",
+      "Batalha do Riachuelo",
+      "Cerco de Uruguaiana",
+      "Retirada da Laguna"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4aec3befb9",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual conquistador turco-mongol fez de Samarcanda a capital do seu império?",
+    "resposta": "Tamerlão",
+    "alternativas": [
+      "Gengis Khan",
+      "Kublai Khan",
+      "Átila",
+      "Tamerlão"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b2db6427b3",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual peixe sobe o rio onde nasceu, contra a correnteza, para desovar?",
+    "resposta": "Salmão",
+    "alternativas": [
+      "Bacalhau",
+      "Atum",
+      "Sardinha",
+      "Salmão"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7bbab671a2",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual ave é famosa por botar os ovos no ninho de outras aves?",
+    "resposta": "Cuco",
+    "alternativas": [
+      "Andorinha",
+      "Cuco",
+      "Pardal",
+      "Pombo"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "95ed025b4d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome do açúcar de mesa, extraído da cana?",
+    "resposta": "Sacarose",
+    "alternativas": [
+      "Lactose",
+      "Glicose",
+      "Frutose",
+      "Sacarose"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2c627640ce",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual açúcar do leite causa desconforto em quem tem intolerância?",
+    "resposta": "Lactose",
+    "alternativas": [
+      "Lactose",
+      "Sacarose",
+      "Maltose",
+      "Frutose"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2dac95aad8",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual lagarto é chamado de \"lagarto Jesus Cristo\" por correr sobre a água?",
+    "resposta": "Basilisco",
+    "alternativas": [
+      "Teiú",
+      "Iguana",
+      "Basilisco",
+      "Camaleão"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "32294988a9",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a condição genética de quem tem pouca ou nenhuma melanina?",
+    "resposta": "Albinismo",
+    "alternativas": [
+      "Albinismo",
+      "Vitiligo",
+      "Psoríase",
+      "Daltonismo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1bb0ea9dd6",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o princípio ativo da aspirina?",
+    "resposta": "Ácido acetilsalicílico",
+    "alternativas": [
+      "Dipirona",
+      "Ácido acetilsalicílico",
+      "Paracetamol",
+      "Ibuprofeno"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6aff6c3180",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual fruta é um pseudofruto, com as sementes do lado de fora?",
+    "resposta": "Morango",
+    "alternativas": [
+      "Amora",
+      "Morango",
+      "Framboesa",
+      "Uva"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "105ae4f150",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o caule subterrâneo que acumula reservas, como a batata?",
+    "resposta": "Tubérculo",
+    "alternativas": [
+      "Rizoma",
+      "Tubérculo",
+      "Raiz tuberosa",
+      "Bulbo"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "26877dc906",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a menor ave do mundo, encontrada em Cuba?",
+    "resposta": "Colibri-abelha",
+    "alternativas": [
+      "Beija-flor-tesoura",
+      "Colibri-abelha",
+      "Cambacica",
+      "Pardal-anão"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cda6f17385",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual doença é causada pela falta de vitamina B1?",
+    "resposta": "Beribéri",
+    "alternativas": [
+      "Raquitismo",
+      "Escorbuto",
+      "Pelagra",
+      "Beribéri"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2919539269",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cometa se partiu e se chocou contra Júpiter em 1994?",
+    "resposta": "Shoemaker-Levy 9",
+    "alternativas": [
+      "Encke",
+      "Hale-Bopp",
+      "Shoemaker-Levy 9",
+      "Halley"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fdb33bb46e",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cientista inglês propôs o modelo atômico da \"bola de bilhar\"?",
+    "resposta": "John Dalton",
+    "alternativas": [
+      "John Dalton",
+      "Ernest Rutherford",
+      "J. J. Thomson",
+      "Niels Bohr"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dcea84ab49",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é a maior torcida organizada do Palmeiras?",
+    "resposta": "Mancha Verde",
+    "alternativas": [
+      "Gaviões da Fiel",
+      "Torcida Independente",
+      "Mancha Alviverde do Sul",
+      "Mancha Verde"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db65777e50",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual torcida organizada é do Flamengo?",
+    "resposta": "Raça Rubro-Negra",
+    "alternativas": [
+      "Fúria Jovem",
+      "Young Flu",
+      "Raça Rubro-Negra",
+      "Força Jovem"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3b97c88cdf",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual clube foi o improvável campeão inglês de 2016?",
+    "resposta": "Leicester City",
+    "alternativas": [
+      "Leicester City",
+      "Southampton",
+      "West Ham",
+      "Everton"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e38bbffb21",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual categoria de automobilismo usa apenas carros elétricos?",
+    "resposta": "Fórmula E",
+    "alternativas": [
+      "Fórmula Indy",
+      "Fórmula 2",
+      "Stock Car",
+      "Fórmula E"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d75e411c30",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual esporte é jogado com tacos e bola por jogadores montados a cavalo?",
+    "resposta": "Polo",
+    "alternativas": [
+      "Polo",
+      "Hipismo",
+      "Hóquei",
+      "Críquete"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "20fad4f034",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual atacante francês é o maior artilheiro da história do Arsenal?",
+    "resposta": "Thierry Henry",
+    "alternativas": [
+      "Thierry Henry",
+      "Olivier Giroud",
+      "Robert Pirès",
+      "Nicolas Anelka"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0d86845bfb",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual atacante inglês é o maior artilheiro da história do Manchester United?",
+    "resposta": "Wayne Rooney",
+    "alternativas": [
+      "Ryan Giggs",
+      "Marcus Rashford",
+      "Bobby Charlton",
+      "Wayne Rooney"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cd07101c1e",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual prova feminina do atletismo reúne sete provas diferentes?",
+    "resposta": "Heptatlo",
+    "alternativas": [
+      "Heptatlo",
+      "Triatlo",
+      "Decatlo",
+      "Pentatlo"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c8c55cf196",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual prova une 3,8 km de natação, 180 km de bicicleta e uma maratona?",
+    "resposta": "Ironman",
+    "alternativas": [
+      "Pentatlo moderno",
+      "Ironman",
+      "Ultramaratona",
+      "Duatlo"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a10df0e2e7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No rúgbi, como se chama a jogada que vale cinco pontos ao apoiar a bola no chão?",
+    "resposta": "Try",
+    "alternativas": [
+      "Touchdown",
+      "Conversão",
+      "Try",
+      "Drop"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "843b1acbf4",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual arte marcial japonesa é uma esgrima com espadas de bambu?",
+    "resposta": "Kendô",
+    "alternativas": [
+      "Judô",
+      "Aikidô",
+      "Sumô",
+      "Kendô"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3ef606b417",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual esporte de inverno combina esqui cross-country com tiro ao alvo?",
+    "resposta": "Biatlo",
+    "alternativas": [
+      "Biatlo",
+      "Bobsled",
+      "Luge",
+      "Curling"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6c626bdd39",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogador alemão disputou 25 partidas em Copas do Mundo, campeão em 1990?",
+    "resposta": "Lothar Matthäus",
+    "alternativas": [
+      "Miroslav Klose",
+      "Lothar Matthäus",
+      "Jürgen Klinsmann",
+      "Franz Beckenbauer"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b39ca61c53",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como ficou conhecido o Arsenal campeão inglês invicto em 2003-04?",
+    "resposta": "Invencíveis",
+    "alternativas": [
+      "Invencíveis",
+      "Intocáveis",
+      "Imbatíveis",
+      "Galácticos"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d6af05021d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cachorro achou a taça Jules Rimet roubada em Londres antes da Copa de 1966?",
+    "resposta": "Pickles",
+    "alternativas": [
+      "Lassie",
+      "Rex",
+      "Pickles",
+      "Buddy"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6019615354",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor italiano criou a taça da Copa do Mundo usada desde 1974?",
+    "resposta": "Silvio Gazzaniga",
+    "alternativas": [
+      "Abel Lafleur",
+      "Renzo Piano",
+      "Giorgio Armani",
+      "Silvio Gazzaniga"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9adee16f0e",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual técnico húngaro teria rogado uma praga de que o Benfica não ganharia mais títulos europeus?",
+    "resposta": "Béla Guttmann",
+    "alternativas": [
+      "Ferenc Puskás",
+      "Otto Glória",
+      "Sven-Göran Eriksson",
+      "Béla Guttmann"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "152f5b814a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como ficou conhecida a vitória do Vasco por 4 a 3 sobre o Palmeiras, de virada, na Copa Mercosul de 2000?",
+    "resposta": "Virada do Século",
+    "alternativas": [
+      "Noite Mágica",
+      "Virada do Século",
+      "Milagre de São Januário",
+      "Jogo do Século"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5097a57716",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jogador fez o gol que acabou com o jejum de 23 anos do Corinthians, em 1977?",
+    "resposta": "Basílio",
+    "alternativas": [
+      "Rivellino",
+      "Zé Maria",
+      "Sócrates",
+      "Basílio"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba4ac953a2",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a pontuação máxima com três dardos numa rodada?",
+    "resposta": "180",
+    "alternativas": [
+      "300",
+      "100",
+      "150",
+      "180"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c3b74cff69",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem é a namorada do Coringa nos quadrinhos da DC?",
+    "resposta": "Arlequina",
+    "alternativas": [
+      "Hera Venenosa",
+      "Canário Negro",
+      "Mulher-Gato",
+      "Arlequina"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4f0b38c062",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual metal raro forma o escudo do Capitão América?",
+    "resposta": "Vibranium",
+    "alternativas": [
+      "Vibranium",
+      "Kryptonita",
+      "Adamantium",
+      "Titânio"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0044ba4353",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o reino submarino de Aquaman?",
+    "resposta": "Atlântida",
+    "alternativas": [
+      "Themyscira",
+      "Asgard",
+      "Krypton",
+      "Atlântida"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "065eb8a3f6",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Que tipo de radiação transformou Bruce Banner no Hulk?",
+    "resposta": "Raios gama",
+    "alternativas": [
+      "Raios X",
+      "Radiação cósmica",
+      "Ultravioleta",
+      "Raios gama"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d4067419ad",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual simbionte alienígena preto é inimigo do Homem-Aranha?",
+    "resposta": "Venom",
+    "alternativas": [
+      "Duende Verde",
+      "Venom",
+      "Mysterio",
+      "Carnificina"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "37d5d477ad",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual anti-herói da Marvel, vivido por Ryan Reynolds, conversa com o público?",
+    "resposta": "Deadpool",
+    "alternativas": [
+      "Wolverine",
+      "Blade",
+      "Justiceiro",
+      "Deadpool"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6177cd2e8c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cocriador de heróis da Marvel aparecia em pontas nos filmes?",
+    "resposta": "Stan Lee",
+    "alternativas": [
+      "Jack Kirby",
+      "Bob Kane",
+      "Stan Lee",
+      "Steve Ditko"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "47f79b7d23",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual parente do Homem-Aranha disse que \"com grandes poderes vêm grandes responsabilidades\"?",
+    "resposta": "Tio Ben",
+    "alternativas": [
+      "J. Jonah Jameson",
+      "Tio Ben",
+      "Norman Osborn",
+      "Tia May"
+    ],
+    "subtema": "Super-heróis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "af8d38c209",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual mão sem corpo ajuda a Wandinha Addams?",
+    "resposta": "Mãozinha",
+    "alternativas": [
+      "Fester",
+      "Feioso",
+      "Mãozinha",
+      "Tropeço"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ecb2581a07",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual chef tatuado foi jurado do MasterChef Brasil ao lado de Jacquin?",
+    "resposta": "Henrique Fogaça",
+    "alternativas": [
+      "Claude Troisgros",
+      "Rodrigo Oliveira",
+      "Henrique Fogaça",
+      "Alex Atala"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0c4681dccb (R5 parte da resposta citada + muito assunto em comum (peso 32.4))",
+    "dup": "certa",
+    "dup_ref": "id:0c4681dccb",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 32.4)"
+  },
+  {
+    "id": "9b62f801dd",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual reality da Record coloca casais famosos em provas para ganhar dinheiro?",
+    "resposta": "Power Couple",
+    "alternativas": [
+      "Casamento às Cegas",
+      "Power Couple",
+      "Amor & Sexo",
+      "Ilha Record"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ccf35f4b2",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual programa de calouros revelou cantores no SBT e depois na Record, nos anos 2000?",
+    "resposta": "Ídolos",
+    "alternativas": [
+      "Ídolos",
+      "Popstars",
+      "Fama",
+      "The Voice"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "468413220a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor escreveu a novela \"O Cravo e a Rosa\"?",
+    "resposta": "Walcyr Carrasco",
+    "alternativas": [
+      "Silvio de Abreu",
+      "Manoel Carlos",
+      "Walcyr Carrasco",
+      "Aguinaldo Silva"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a8500e125e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem de Pedro Cardoso em \"A Grande Família\" era o malandro dono de táxi?",
+    "resposta": "Agostinho Carrara",
+    "alternativas": [
+      "Paulão",
+      "Tuco",
+      "Agostinho Carrara",
+      "Lineu"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4ee317e6b6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual programa infantil da Globo era apresentado por cachorros bonecos?",
+    "resposta": "TV Colosso",
+    "alternativas": [
+      "Cocoricó",
+      "Castelo Rá-Tim-Bum",
+      "TV Colosso",
+      "TV Globinho"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "330be002e8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual apresentadora infantil ficou famosa com os \"dedinhos\"?",
+    "resposta": "Eliana",
+    "alternativas": [
+      "Xuxa",
+      "Mara Maravilha",
+      "Eliana",
+      "Angélica"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c261362b17",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual humorista apresenta o \"Lady Night\"?",
+    "resposta": "Tatá Werneck",
+    "alternativas": [
+      "Fernanda Paes Leme",
+      "Dani Calabresa",
+      "Mônica Iozzi",
+      "Tatá Werneck"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "73ca3bf699",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual humorista apresenta o talk show \"The Noite\", no SBT?",
+    "resposta": "Danilo Gentili",
+    "alternativas": [
+      "Rafinha Bastos",
+      "Marcelo Tas",
+      "Danilo Gentili",
+      "Fábio Porchat"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "671623c5c5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual menina \"estava no Canadá\" no meme de 2012?",
+    "resposta": "Luiza",
+    "alternativas": [
+      "Bruna",
+      "Luiza",
+      "Larissa",
+      "Giovanna"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b075ed4027",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quem venceu o BBB 11, em 2011?",
+    "resposta": "Maria Melilo",
+    "alternativas": [
+      "Maria Melilo",
+      "Diana Balsini",
+      "Paula Leite",
+      "Natália Nara"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ebd8be3ff1",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual reality musical da Globo, de 2002, era uma escola de cantores?",
+    "resposta": "Fama",
+    "alternativas": [
+      "Popstars",
+      "The Voice",
+      "Ídolos",
+      "Fama"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d47f56b48a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual novela de Glória Perez de 1995 tinha como tema os ciganos?",
+    "resposta": "Explode Coração",
+    "alternativas": [
+      "Explode Coração",
+      "Caminho das Índias",
+      "América",
+      "O Clone"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8b7ac8580a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual programa infantil da TV Cultura tem o pintinho Júlio e a vaca Mimosa?",
+    "resposta": "Cocoricó",
+    "alternativas": [
+      "Cocoricó",
+      "Rá-Tim-Bum",
+      "X-Tudo",
+      "Castelo Rá-Tim-Bum"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8220661bf4",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual série de comédia de Miguel Falabella se passava em dois apartamentos vizinhos?",
+    "resposta": "Toma Lá, Dá Cá",
+    "alternativas": [
+      "Os Normais",
+      "Sai de Baixo",
+      "A Diarista",
+      "Toma Lá, Dá Cá"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5fba60f74b",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual personagem de Oscar Wilde fica jovem enquanto só o seu retrato envelhece?",
+    "resposta": "Dorian Gray",
+    "alternativas": [
+      "Henry Wotton",
+      "Basil Hallward",
+      "Sibyl Vane",
+      "Dorian Gray"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aecae8c9c9",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o povo minúsculo que aprisiona Gulliver?",
+    "resposta": "Liliputianos",
+    "alternativas": [
+      "Hobbits",
+      "Liliputianos",
+      "Munchkins",
+      "Gnomos"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b5e8071a03",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o protagonista sombrio de \"O Morro dos Ventos Uivantes\"?",
+    "resposta": "Heathcliff",
+    "alternativas": [
+      "Rochester",
+      "Darcy",
+      "Heathcliff",
+      "Edgar Linton"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ed0706cc25",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual tecla costuma abrir a ajuda dos programas?",
+    "resposta": "F1",
+    "alternativas": [
+      "F1",
+      "Esc",
+      "F12",
+      "F5"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a06d6c4601",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual unidade mede a resolução das câmeras dos celulares?",
+    "resposta": "Megapixel",
+    "alternativas": [
+      "Lúmen",
+      "Gigabyte",
+      "Megapixel",
+      "Megahertz"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7cc17f3ab4",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Nos jogos, o que significa a sigla FPS ao medir a fluidez da imagem?",
+    "resposta": "Quadros por segundo",
+    "alternativas": [
+      "Pontos por segundo",
+      "Fases por sessão",
+      "Quadros por segundo",
+      "Frequência por sinal"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3938 (R2 mesma resposta e assunto em comum (peso 19.4))",
+    "dup": "certa",
+    "dup_ref": "banco:3938",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 19.4)"
+  },
+  {
+    "id": "43bdee1361",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual unidade é usada para medir a velocidade da internet de casa?",
+    "resposta": "Mbps",
+    "alternativas": [
+      "GHz",
+      "MB",
+      "mAh",
+      "Mbps"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ae02cbb543",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o tempo de resposta da conexão, muito importante nos jogos online?",
+    "resposta": "Ping",
+    "alternativas": [
+      "Buffer",
+      "Ping",
+      "Download",
+      "Upload"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0c07f7601a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual formato de arquivo guarda uma planilha em texto, com valores separados por vírgulas?",
+    "resposta": "CSV",
+    "alternativas": [
+      "CSV",
+      "PDF",
+      "DOCX",
+      "PNG"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8b15570764",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual sigla mede a sensibilidade de um mouse ou a resolução de uma impressora?",
+    "resposta": "DPI",
+    "alternativas": [
+      "FPS",
+      "RPM",
+      "GHz",
+      "DPI"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fffc1867de",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual atalho reabre a última aba fechada do navegador?",
+    "resposta": "Ctrl + Shift + T",
+    "alternativas": [
+      "Alt + F4",
+      "Ctrl + Alt + Del",
+      "Ctrl + Z",
+      "Ctrl + Shift + T"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2ccb06cdc2",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual compactador de arquivos tem livros empilhados e amarrados no ícone?",
+    "resposta": "WinRAR",
+    "alternativas": [
+      "PeaZip",
+      "WinRAR",
+      "7-Zip",
+      "WinZip"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "54f88d52fa",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual frase é tradicionalmente o primeiro programa de quem aprende a programar?",
+    "resposta": "Hello, World!",
+    "alternativas": [
+      "Olá, Mundo Cruel",
+      "Bom dia, Usuário",
+      "Hello, World!",
+      "Lorem ipsum"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b0e6a812dd",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual linguagem de blocos coloridos, criada no MIT, ensina crianças a programar?",
+    "resposta": "Scratch",
+    "alternativas": [
+      "Logo",
+      "Pascal",
+      "Scratch",
+      "Python"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ee7d2cfde2",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Quem criou a linguagem PHP?",
+    "resposta": "Rasmus Lerdorf",
+    "alternativas": [
+      "Guido van Rossum",
+      "Rasmus Lerdorf",
+      "James Gosling",
+      "Brendan Eich"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2d2501c869",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual programador japonês criou a linguagem Ruby?",
+    "resposta": "Yukihiro Matsumoto",
+    "alternativas": [
+      "Yukihiro Matsumoto",
+      "Hideo Kojima",
+      "Shigeru Miyamoto",
+      "Satoru Iwata"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "47bcf81e3c",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual programa alemão era famoso para gravar CDs e DVDs, com nome de imperador romano?",
+    "resposta": "Nero",
+    "alternativas": [
+      "Calígula",
+      "Augustus",
+      "Nero",
+      "Cesar"
+    ],
+    "subtema": "Programação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:829 (R2 mesma resposta e assunto em comum (peso 4.4))",
+    "dup": "certa",
+    "dup_ref": "banco:829",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 4.4)"
+  },
+  {
+    "id": "190735e4cf",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava o cartão de memória com telinha do Dreamcast?",
+    "resposta": "VMU",
+    "alternativas": [
+      "VMU",
+      "Rumble Pak",
+      "Memory Stick",
+      "PocketStation"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f32b08cd83",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual estrutura transparente, de I. M. Pei, serve de entrada ao Museu do Louvre?",
+    "resposta": "Pirâmide de vidro",
+    "alternativas": [
+      "Torre de vidro",
+      "Pirâmide de vidro",
+      "Cúpula de cristal",
+      "Arco de aço"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "91e9ee1ddc",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Alter do Chão, vila de praias de água doce no Pará, fica às margens de qual rio?",
+    "resposta": "Rio Tapajós",
+    "alternativas": [
+      "Rio Xingu",
+      "Rio Tapajós",
+      "Rio Tocantins",
+      "Rio Trombetas"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "80caebec8a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os templos em forma de pirâmide de degraus da Mesopotâmia?",
+    "resposta": "Zigurate",
+    "alternativas": [
+      "Zigurate",
+      "Mastaba",
+      "Panteão",
+      "Obelisco"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b269ae1a3b",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual era a estrada mais famosa da Roma antiga, que ligava Roma ao sul da Itália?",
+    "resposta": "Via Ápia",
+    "alternativas": [
+      "Via Sacra",
+      "Via Flamínia",
+      "Via Ápia",
+      "Via Láctea"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c598ab36da",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aplicativo brasileiro de transporte tem um número como nome?",
+    "resposta": "99",
+    "alternativas": [
+      "InDrive",
+      "Uber",
+      "99",
+      "Cabify"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f3fd9fb1b7",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual console da Atari foi vendido como o primeiro de 64 bits, nos anos 90?",
+    "resposta": "Atari Jaguar",
+    "alternativas": [
+      "Atari 7800",
+      "Atari Jaguar",
+      "Atari ST",
+      "Atari Lynx"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

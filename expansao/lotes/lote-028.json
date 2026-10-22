@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "d03314132c",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O alfajor, doce de duas bolachas recheadas com doce de leite, é símbolo da confeitaria de qual país?",
+    "resposta": "Argentina",
+    "alternativas": [
+      "Argentina",
+      "Chile",
+      "Bolívia",
+      "Paraguai"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f9b1fab665",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A chipa, pãozinho de queijo e polvilho, é típica de qual país vizinho do Brasil?",
+    "resposta": "Paraguai",
+    "alternativas": [
+      "Chile",
+      "Peru",
+      "Paraguai",
+      "Uruguai"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a01c9a3465",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O vatapá, creme de pão, camarão seco, amendoim e dendê, é típico de qual estado?",
+    "resposta": "Bahia",
+    "alternativas": [
+      "Bahia",
+      "Rio de Janeiro",
+      "Pernambuco",
+      "Ceará"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:bb4a0a5c43",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (8.4, 13% do fato)"
+  },
+  {
+    "id": "6ff44c784e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O sarapatel, feito com miúdos e sangue de porco, é típico de qual região do Brasil?",
+    "resposta": "Nordeste",
+    "alternativas": [
+      "Nordeste",
+      "Sudeste",
+      "Sul",
+      "Centro-Oeste"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "609ecdc100",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O umbu, fruta azedinha que resiste à seca, é típico de qual bioma?",
+    "resposta": "Caatinga",
+    "alternativas": [
+      "Mata Atlântica",
+      "Caatinga",
+      "Pampa",
+      "Pantanal"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:456 (E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:456",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1)"
+  },
+  {
+    "id": "b83f8513d2",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O jamón ibérico, presunto curado de porcos criados soltos, é típico de qual país?",
+    "resposta": "Espanha",
+    "alternativas": [
+      "Itália",
+      "Portugal",
+      "Espanha",
+      "França"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:8d6ac5967e",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.6, 18% do fato)"
+  },
+  {
+    "id": "1eb5067de4",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O bratwurst, salsicha grelhada servida com mostarda, é típico de qual país?",
+    "resposta": "Alemanha",
+    "alternativas": [
+      "Polônia",
+      "Dinamarca",
+      "Alemanha",
+      "Holanda"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f643112414",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O baklava, doce de massa folhada com nozes e calda de mel, é típico de qual país?",
+    "resposta": "Turquia",
+    "alternativas": [
+      "Turquia",
+      "Itália",
+      "Marrocos",
+      "Índia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1cf0798bfb",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O frango tandoori, assado num forno de barro, é típico de qual país?",
+    "resposta": "Índia",
+    "alternativas": [
+      "Tailândia",
+      "Indonésia",
+      "Índia",
+      "Irã"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2f868b63f1",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O dim sum, porções servidas em cestinhos de bambu, é típico de qual cozinha?",
+    "resposta": "Chinesa",
+    "alternativas": [
+      "Japonesa",
+      "Coreana",
+      "Tailandesa",
+      "Chinesa"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fa6aac3547",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A arepa, pão de milho achatado e recheado, é típica da Venezuela e de qual outro país?",
+    "resposta": "Colômbia",
+    "alternativas": [
+      "Equador",
+      "Colômbia",
+      "Peru",
+      "Bolívia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1520 (E2c mesma resposta e ela aparece no outro enunciado (9.2))",
+    "dup": "certa",
+    "dup_ref": "banco:1520",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (9.2)"
+  },
+  {
+    "id": "da52ec344a",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Giethoorn, vilarejo sem ruas onde se anda de barco pelos canais, fica em qual país?",
+    "resposta": "Holanda",
+    "alternativas": [
+      "Holanda",
+      "Dinamarca",
+      "Alemanha",
+      "Bélgica"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "881afa607b",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Colmar, cidade de casas coloridas em enxaimel na Alsácia, fica em qual país?",
+    "resposta": "França",
+    "alternativas": [
+      "França",
+      "Suíça",
+      "Bélgica",
+      "Alemanha"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bdb9526bb6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Óbidos, vila medieval inteira cercada por muralhas, fica em qual país europeu?",
+    "resposta": "Portugal",
+    "alternativas": [
+      "França",
+      "Espanha",
+      "Itália",
+      "Portugal"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f184654a04",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Alberobello, famosa pelas casinhas de pedra com teto cônico chamadas \"trulli\", fica em qual país?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Espanha",
+      "Grécia",
+      "Itália",
+      "Croácia"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0023042d70",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Geysir, a fonte termal que deu nome a todos os gêiseres do mundo, fica em qual país?",
+    "resposta": "Islândia",
+    "alternativas": [
+      "Chile",
+      "Islândia",
+      "Nova Zelândia",
+      "Estados Unidos"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:62 (E5 resposta antiga citada no texto novo + assunto (14.1))",
+    "dup": "certa",
+    "dup_ref": "banco:62",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.1)"
+  },
+  {
+    "id": "62d8987500",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Na Roma Antiga, como se chamava a camada popular, que se opunha aos patrícios?",
+    "resposta": "Plebeus",
+    "alternativas": [
+      "Bárbaros",
+      "Escravos",
+      "Plebeus",
+      "Senadores"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4b302e7545",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a vala com água que cercava muitos castelos medievais?",
+    "resposta": "Fosso",
+    "alternativas": [
+      "Trincheira",
+      "Aqueduto",
+      "Fosso",
+      "Calabouço"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52f3edad34",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Nas justas medievais, qual arma os cavaleiros usavam para derrubar o adversário do cavalo?",
+    "resposta": "Lança",
+    "alternativas": [
+      "Machado",
+      "Lança",
+      "Arco",
+      "Espada"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d82f1150e8",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual peça da armadura medieval protegia a cabeça do cavaleiro?",
+    "resposta": "Elmo",
+    "alternativas": [
+      "Elmo",
+      "Manopla",
+      "Escudo",
+      "Cota de malha"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dae3f348f3",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual expressão francesa designa o período de otimismo e luxo na Europa entre o fim do século XIX e 1914?",
+    "resposta": "Belle Époque",
+    "alternativas": [
+      "Belle Époque",
+      "Fin de Siècle",
+      "Art Nouveau",
+      "Ancien Régime"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3805975526",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual palácio da ilha de Creta é ligado ao mito do labirinto do Minotauro?",
+    "resposta": "Cnossos",
+    "alternativas": [
+      "Micenas",
+      "Cnossos",
+      "Olímpia",
+      "Delfos"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fcef939730",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arqueólogo alemão escavou as ruínas de Troia no século XIX?",
+    "resposta": "Heinrich Schliemann",
+    "alternativas": [
+      "Howard Carter",
+      "Arthur Evans",
+      "Flinders Petrie",
+      "Heinrich Schliemann"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "76cf599bd3",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual soldado grego, segundo a lenda, correu de Maratona até Atenas para anunciar a vitória e morreu em seguida?",
+    "resposta": "Fidípides",
+    "alternativas": [
+      "Milcíades",
+      "Temístocles",
+      "Leônidas",
+      "Fidípides"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7b1fcad0d3",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foi o último rei de Roma, deposto em 509 a.C.?",
+    "resposta": "Tarquínio, o Soberbo",
+    "alternativas": [
+      "Tarquínio, o Soberbo",
+      "Numa Pompílio",
+      "Rômulo",
+      "Sérvio Túlio"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c5f94c1cff",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual magistrado romano defendia os interesses da plebe e podia vetar decisões do Senado?",
+    "resposta": "Tribuno da plebe",
+    "alternativas": [
+      "Tribuno da plebe",
+      "Censor",
+      "Pretor",
+      "Cônsul"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "03849c7feb",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Quais irmãos romanos tentaram fazer uma reforma agrária no século II a.C. e acabaram assassinados?",
+    "resposta": "Irmãos Graco",
+    "alternativas": [
+      "Irmãos Cipião",
+      "Irmãos Metelo",
+      "Rômulo e Remo",
+      "Irmãos Graco"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "574dbcb0b7",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dinastia de reis francos teve Clóvis como seu rei mais famoso?",
+    "resposta": "Merovíngia",
+    "alternativas": [
+      "Merovíngia",
+      "Bourbon",
+      "Carolíngia",
+      "Capetíngia"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d07132ef37",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual inquisidor espanhol do século XV virou símbolo da Inquisição?",
+    "resposta": "Tomás de Torquemada",
+    "alternativas": [
+      "Inácio de Loyola",
+      "Francisco Xavier",
+      "Bartolomeu de las Casas",
+      "Tomás de Torquemada"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0d49598bd0",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual capitão francês, judeu, foi condenado injustamente por traição num caso que dividiu a França?",
+    "resposta": "Alfred Dreyfus",
+    "alternativas": [
+      "Charles de Gaulle",
+      "Philippe Pétain",
+      "Ferdinand Foch",
+      "Alfred Dreyfus"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a0a3aa213c",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual ativista britânica liderou as sufragistas na luta pelo voto feminino no começo do século XX?",
+    "resposta": "Emmeline Pankhurst",
+    "alternativas": [
+      "Virginia Woolf",
+      "Emmeline Pankhurst",
+      "Mary Wollstonecraft",
+      "Florence Nightingale"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1000 (E5 resposta antiga citada no texto novo + assunto (18.1))",
+    "dup": "certa",
+    "dup_ref": "banco:1000",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.1)"
+  },
+  {
+    "id": "03d9c0c11c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome popular do acidente vascular cerebral (AVC)?",
+    "resposta": "Derrame",
+    "alternativas": [
+      "Embolia",
+      "Derrame",
+      "Infarto",
+      "Convulsão"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f311d133fa",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a morte de parte do músculo do coração por falta de sangue?",
+    "resposta": "Infarto",
+    "alternativas": [
+      "Sopro",
+      "Arritmia",
+      "Derrame",
+      "Infarto"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "525ecdbe91",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a contração involuntária e dolorida de um músculo, comum na panturrilha?",
+    "resposta": "Câimbra",
+    "alternativas": [
+      "Torcicolo",
+      "Distensão",
+      "Câimbra",
+      "Tendinite"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c154eb26f",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual exame registra a atividade elétrica do coração?",
+    "resposta": "Eletrocardiograma",
+    "alternativas": [
+      "Eletroencefalograma",
+      "Hemograma",
+      "Eletrocardiograma",
+      "Ecocardiograma"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d1301d8b3b",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a placa amarelada e endurecida que se forma nos dentes?",
+    "resposta": "Tártaro",
+    "alternativas": [
+      "Esmalte",
+      "Gengivite",
+      "Cárie",
+      "Tártaro"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b9e6930c12",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual exame de sangue conta as hemácias, os leucócitos e as plaquetas?",
+    "resposta": "Hemograma",
+    "alternativas": [
+      "Hemograma",
+      "Glicemia",
+      "Urina tipo 1",
+      "Lipidograma"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9f55d8e8a1",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual desvio lateral da coluna forma um \"S\" ou um \"C\" nas costas?",
+    "resposta": "Escoliose",
+    "alternativas": [
+      "Escoliose",
+      "Hérnia de disco",
+      "Cifose",
+      "Lordose"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4fce1da09d",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a cor amarelada da pele e dos olhos, comum em recém-nascidos e em doenças do fígado?",
+    "resposta": "Icterícia",
+    "alternativas": [
+      "Icterícia",
+      "Cianose",
+      "Vitiligo",
+      "Anemia"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "41463ba6c5",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual transtorno de aprendizagem dificulta a leitura e a escrita?",
+    "resposta": "Dislexia",
+    "alternativas": [
+      "Discalculia",
+      "Gagueira",
+      "Dislexia",
+      "Afasia"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "40f79e5e0a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o remédio, feito com anticorpos de cavalos, usado contra picadas de cobra?",
+    "resposta": "Soro antiofídico",
+    "alternativas": [
+      "Antibiótico",
+      "Vacina antiofídica",
+      "Soro antiofídico",
+      "Anti-histamínico"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "af290ccaf1",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual doença causada pela falta de vitamina B3 provoca dermatite, diarreia e demência?",
+    "resposta": "Pelagra",
+    "alternativas": [
+      "Beribéri",
+      "Raquitismo",
+      "Pelagra",
+      "Escorbuto"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "97e3a69964",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual vírus causou uma grande epidemia de febre hemorrágica na África Ocidental em 2014?",
+    "resposta": "Ebola",
+    "alternativas": [
+      "Marburg",
+      "Ebola",
+      "Hantavírus",
+      "Zika"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bac1c99971",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual neurocientista brasileiro coordenou o exoesqueleto que deu o pontapé inicial da Copa de 2014?",
+    "resposta": "Miguel Nicolelis",
+    "alternativas": [
+      "Marcelo Gleiser",
+      "Miguel Nicolelis",
+      "Suzana Herculano-Houzel",
+      "Carlos Chagas Filho"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1e8bcbd63c",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual curvatura exagerada da parte de cima da coluna deixa as costas \"corcundas\"?",
+    "resposta": "Cifose",
+    "alternativas": [
+      "Lordose",
+      "Escoliose",
+      "Cifose",
+      "Artrose"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ede7c3db57",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No basquete, quantos pontos vale um lance livre convertido?",
+    "resposta": "1",
+    "alternativas": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3257cf59b2",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No basquete, quantos pontos vale uma cesta feita de fora da linha de 6,75 metros?",
+    "resposta": "3",
+    "alternativas": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7d8e1270fe",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a segunda divisão do Campeonato Brasileiro?",
+    "resposta": "Série B",
+    "alternativas": [
+      "Série B",
+      "Série C",
+      "Série D",
+      "Série A"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e91ae86348",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a vitória por ausência do adversário?",
+    "resposta": "W.O.",
+    "alternativas": [
+      "Walkover técnico",
+      "Forfeit duplo",
+      "Empate técnico",
+      "W.O."
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "efad7a3161",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual acessório no braço identifica o capitão do time?",
+    "resposta": "Braçadeira",
+    "alternativas": [
+      "Faixa de campeão",
+      "Braçadeira",
+      "Caneleira",
+      "Munhequeira"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f8505c8b64",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual grito a torcida faz quando seu time troca passes e o adversário não consegue pegar a bola?",
+    "resposta": "Olé",
+    "alternativas": [
+      "Ola",
+      "Uh",
+      "É campeão",
+      "Olé"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5fe80769a1",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a onda que a torcida faz levantando em sequência nas arquibancadas?",
+    "resposta": "Ola",
+    "alternativas": [
+      "Olé",
+      "Ola",
+      "Bandeirão",
+      "Mosaico"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52550294bd",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual torneio, disputado até 2004, opunha o campeão europeu ao campeão sul-americano?",
+    "resposta": "Copa Intercontinental",
+    "alternativas": [
+      "Copa Intercontinental",
+      "Recopa Sul-Americana",
+      "Copa Toyota Libertadores",
+      "Supercopa da UEFA"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a419ea0b58",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual auxiliar fica entre os bancos de reservas e cuida das substituições?",
+    "resposta": "Quarto árbitro",
+    "alternativas": [
+      "Árbitro de vídeo",
+      "Bandeirinha",
+      "Delegado da partida",
+      "Quarto árbitro"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:c4bc758d14",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "203bcc22ba",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o atacante que recua para armar as jogadas, como Messi no Barcelona de Guardiola?",
+    "resposta": "Falso nove",
+    "alternativas": [
+      "Líbero",
+      "Segundo volante",
+      "Falso nove",
+      "Ponta invertido"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "40fdfffd99",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual piloto inglês da McLaren venceu seu primeiro GP de Fórmula 1 em Miami, em 2024?",
+    "resposta": "Lando Norris",
+    "alternativas": [
+      "Alexander Albon",
+      "Lando Norris",
+      "Oscar Piastri",
+      "George Russell"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "d828d3650b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual dupla brasileira ganhou o bronze nas duplas femininas de tênis em Tóquio 2020?",
+    "resposta": "Laura Pigossi e Luisa Stefani",
+    "alternativas": [
+      "Teliana Pereira e Paula Gonçalves",
+      "Laura Pigossi e Luisa Stefani",
+      "Bia Haddad e Carolina Meligeni",
+      "Bia Haddad e Luisa Stefani"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "edfb3dbe9f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual tenista brasileiro, apelidado de \"Fininho\", chegou à semifinal de Roland Garros em 1999?",
+    "resposta": "Fernando Meligeni",
+    "alternativas": [
+      "Jaime Oncins",
+      "Thomaz Bellucci",
+      "Fernando Meligeni",
+      "Gustavo Kuerten"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "87c6638612",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual piloto é o maior campeão da história da Stock Car, com 12 títulos?",
+    "resposta": "Ingo Hoffmann",
+    "alternativas": [
+      "Chico Serra",
+      "Paulo Gomes",
+      "Ingo Hoffmann",
+      "Cacá Bueno"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f4492484d0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual brasileiro, campeão da Fórmula 3000 em 1997, estreou na Fórmula 1 pela BAR em 1999?",
+    "resposta": "Ricardo Zonta",
+    "alternativas": [
+      "Ricardo Zonta",
+      "Luciano Burti",
+      "Pedro Diniz",
+      "Tarso Marques"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "774b1ebf6c",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto brasileiro foi campeão mundial de carros esporte em 1987, pela Jaguar?",
+    "resposta": "Raul Boesel",
+    "alternativas": [
+      "Maurício Gugelmin",
+      "Roberto Moreno",
+      "Ingo Hoffmann",
+      "Raul Boesel"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f4a0ae903",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto brasileiro sofreu um grave acidente no GP da Bélgica de 2001, correndo pela Prost?",
+    "resposta": "Luciano Burti",
+    "alternativas": [
+      "Enrique Bernoldi",
+      "Luciano Burti",
+      "Ricardo Zonta",
+      "Tarso Marques"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d888fea98b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual lutador brasileiro nocauteou Terry Etim com um chute giratório no UFC Rio, em 2012?",
+    "resposta": "Edson Barboza",
+    "alternativas": [
+      "José Aldo",
+      "Edson Barboza",
+      "Thiago Tavares",
+      "Charles do Bronx"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f0049ec8f8",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto paranaense, amigo de infância de Senna, correu na F1 pela March e pela Leyton House?",
+    "resposta": "Maurício Gugelmin",
+    "alternativas": [
+      "Maurício Gugelmin",
+      "Raul Boesel",
+      "Chico Serra",
+      "Roberto Moreno"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f300cb3ece",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual poeta português escreveu \"Os Lusíadas\"?",
+    "resposta": "Luís de Camões",
+    "alternativas": [
+      "Gil Vicente",
+      "Bocage",
+      "Luís de Camões",
+      "Fernando Pessoa"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5cd68a24be",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome do escudeiro de Dom Quixote?",
+    "resposta": "Sancho Pança",
+    "alternativas": [
+      "Sancho Pança",
+      "Rocinante",
+      "Dulcineia",
+      "Sansão Carrasco"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "61056fcd0b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de Charles Dickens é um velho avarento visitado por fantasmas na noite de Natal?",
+    "resposta": "Ebenezer Scrooge",
+    "alternativas": [
+      "David Copperfield",
+      "Ebenezer Scrooge",
+      "Fagin",
+      "Oliver Twist"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3e39162159",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual professor é o grande inimigo de Sherlock Holmes?",
+    "resposta": "Moriarty",
+    "alternativas": [
+      "Lestrade",
+      "Moriarty",
+      "Irene Adler",
+      "Mycroft"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f612ce4fab",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual escritor inglês criou \"Alice no País das Maravilhas\"?",
+    "resposta": "Lewis Carroll",
+    "alternativas": [
+      "Rudyard Kipling",
+      "C. S. Lewis",
+      "J. M. Barrie",
+      "Lewis Carroll"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "feac9d18db",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de \"Alice no País das Maravilhas\" vive atrasado, olhando um relógio de bolso?",
+    "resposta": "Coelho Branco",
+    "alternativas": [
+      "Coelho Branco",
+      "Gato de Cheshire",
+      "Lebre de Março",
+      "Chapeleiro Maluco"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a73a2a91b5",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual marceneiro criou o boneco Pinóquio?",
+    "resposta": "Gepeto",
+    "alternativas": [
+      "Grilo Falante",
+      "Gepeto",
+      "Lampião",
+      "Stromboli"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "20c2265027",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quais irmãos alemães reuniram contos como \"Branca de Neve\" e \"João e Maria\"?",
+    "resposta": "Irmãos Grimm",
+    "alternativas": [
+      "Irmãos Grimm",
+      "Irmãos Lumière",
+      "Irmãos Marx",
+      "Irmãos Wright"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cc58549f36",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual escritor francês criou \"A Volta ao Mundo em 80 Dias\"?",
+    "resposta": "Júlio Verne",
+    "alternativas": [
+      "Alexandre Dumas",
+      "H. G. Wells",
+      "Victor Hugo",
+      "Júlio Verne"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8d9c60a2f2",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual escritor paraibano criou \"O Auto da Compadecida\"?",
+    "resposta": "Ariano Suassuna",
+    "alternativas": [
+      "Jorge Amado",
+      "Graciliano Ramos",
+      "Ariano Suassuna",
+      "João Cabral de Melo Neto"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "63ddb969d6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor francês registrou contos como \"Chapeuzinho Vermelho\" e \"Cinderela\" no século XVII?",
+    "resposta": "Charles Perrault",
+    "alternativas": [
+      "Jean de La Fontaine",
+      "Charles Perrault",
+      "Hans Christian Andersen",
+      "Molière"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ddc3ec9af8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor francês escreveu \"Os Três Mosqueteiros\"?",
+    "resposta": "Alexandre Dumas",
+    "alternativas": [
+      "Victor Hugo",
+      "Júlio Verne",
+      "Alexandre Dumas",
+      "Honoré de Balzac"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aa66f1a7f6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor russo escreveu \"Crime e Castigo\"?",
+    "resposta": "Fiódor Dostoiévski",
+    "alternativas": [
+      "Ivan Turguêniev",
+      "Máximo Gorki",
+      "Liev Tolstói",
+      "Fiódor Dostoiévski"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5062ee3c40",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora americana escreveu \"O Sol É para Todos\"?",
+    "resposta": "Harper Lee",
+    "alternativas": [
+      "Harper Lee",
+      "Sylvia Plath",
+      "Maya Angelou",
+      "Toni Morrison"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:08eb8391fd",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "7667919e0e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor português, Nobel de Literatura de 1998, escreveu \"Ensaio sobre a Cegueira\"?",
+    "resposta": "José Saramago",
+    "alternativas": [
+      "Eça de Queirós",
+      "Fernando Pessoa",
+      "José Saramago",
+      "António Lobo Antunes"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ada6b539e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em \"Grande Sertão: Veredas\", qual jagunço narra a história?",
+    "resposta": "Riobaldo",
+    "alternativas": [
+      "Diadorim",
+      "Hermógenes",
+      "Zé Bebelo",
+      "Riobaldo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a61b6f71fa",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem de Luis Fernando Verissimo é um psicanalista gaúcho de métodos rústicos?",
+    "resposta": "Analista de Bagé",
+    "alternativas": [
+      "Dona Morte",
+      "Analista de Bagé",
+      "Ed Mort",
+      "Velhinha de Taubaté"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5abeebf7ac",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor escocês escreveu \"A Ilha do Tesouro\" e \"O Médico e o Monstro\"?",
+    "resposta": "Robert Louis Stevenson",
+    "alternativas": [
+      "Walter Scott",
+      "Arthur Conan Doyle",
+      "Bram Stoker",
+      "Robert Louis Stevenson"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ed85724fb9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta chileno, Nobel de 1971, escreveu \"Vinte Poemas de Amor e uma Canção Desesperada\"?",
+    "resposta": "Pablo Neruda",
+    "alternativas": [
+      "Vicente Huidobro",
+      "Nicanor Parra",
+      "Gabriela Mistral",
+      "Pablo Neruda"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "65b82c9d16",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual romance de José de Alencar tem como protagonista a cortesã Lúcia?",
+    "resposta": "Lucíola",
+    "alternativas": [
+      "Diva",
+      "Lucíola",
+      "Iracema",
+      "Senhora"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c0689aab69",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de John Steinbeck acompanha a família Joad fugindo da seca rumo à Califórnia?",
+    "resposta": "As Vinhas da Ira",
+    "alternativas": [
+      "A Leste do Éden",
+      "Ratos e Homens",
+      "O Grande Gatsby",
+      "As Vinhas da Ira"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bb35c80f00",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor peruano ganhou o Nobel de Literatura de 2010?",
+    "resposta": "Mario Vargas Llosa",
+    "alternativas": [
+      "Octavio Paz",
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "Mario Vargas Llosa"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "93b3824a9c",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor argentino escreveu o romance \"O Jogo da Amarelinha\"?",
+    "resposta": "Julio Cortázar",
+    "alternativas": [
+      "Jorge Luis Borges",
+      "Ernesto Sabato",
+      "Julio Cortázar",
+      "Adolfo Bioy Casares"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1fe6b591a7",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor russo escreveu \"O Capote\" e \"Almas Mortas\"?",
+    "resposta": "Nikolai Gogol",
+    "alternativas": [
+      "Aleksandr Púchkin",
+      "Nikolai Gogol",
+      "Ivan Turguêniev",
+      "Anton Tchekhov"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a90ec7ce2b",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor russo escreveu a peça \"A Gaivota\"?",
+    "resposta": "Anton Tchekhov",
+    "alternativas": [
+      "Máximo Gorki",
+      "Liev Tolstói",
+      "Anton Tchekhov",
+      "Nikolai Gogol"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:0b9813a142",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "4f63f061b1",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor francês escreveu a obra \"Em Busca do Tempo Perdido\"?",
+    "resposta": "Marcel Proust",
+    "alternativas": [
+      "André Gide",
+      "Marcel Proust",
+      "Gustave Flaubert",
+      "Albert Camus"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a2412a5d06",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor francês chocou Paris em 1863 com o quadro \"Almoço na Relva\"?",
+    "resposta": "Édouard Manet",
+    "alternativas": [
+      "Claude Monet",
+      "Édouard Manet",
+      "Edgar Degas",
+      "Gustave Courbet"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2f45644d20",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual atalho de teclado cola um texto copiado no Windows?",
+    "resposta": "Ctrl+V",
+    "alternativas": [
+      "Ctrl+B",
+      "Ctrl+V",
+      "Ctrl+C",
+      "Ctrl+Z"
+    ],
+    "subtema": "Hardware",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3719 (E2 mesma resposta e enunciados parecidos (0.5))",
+    "dup": "certa",
+    "dup_ref": "banco:3719",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.5)"
+  },
+  {
+    "id": "48edc02810",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o modo do navegador que não salva o histórico de páginas visitadas?",
+    "resposta": "Modo anônimo",
+    "alternativas": [
+      "Modo anônimo",
+      "Modo leitura",
+      "Modo avião",
+      "Modo noturno"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8e3074dc5d",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a lista de sites que você salva no navegador para acessar depois?",
+    "resposta": "Favoritos",
+    "alternativas": [
+      "Favoritos",
+      "Cache",
+      "Downloads",
+      "Histórico"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "71db4a26a7",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a janela de propaganda que se abre sozinha no navegador?",
+    "resposta": "Pop-up",
+    "alternativas": [
+      "Banner fixo",
+      "Spam",
+      "Pop-up",
+      "Cookie"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b6cceb3614",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o serviço de armazenamento na nuvem do Google?",
+    "resposta": "Google Drive",
+    "alternativas": [
+      "Dropbox",
+      "iCloud",
+      "Google Drive",
+      "OneDrive"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bddf042205",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como os brasileiros costumam chamar os stickers do WhatsApp?",
+    "resposta": "Figurinhas",
+    "alternativas": [
+      "Etiquetas",
+      "Selos",
+      "Figurinhas",
+      "Carimbos"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:e0188dc82a",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "0f270002db",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "No WhatsApp, o que indicam os dois tiques azuis numa mensagem?",
+    "resposta": "Que ela foi lida",
+    "alternativas": [
+      "Que ela foi apagada",
+      "Que ela foi encaminhada",
+      "Que ela foi lida",
+      "Que ela foi fixada"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3792 (R5 parte da resposta citada + muito assunto em comum (peso 24.7))",
+    "dup": "certa",
+    "dup_ref": "banco:3792",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 24.7)"
+  },
+  {
+    "id": "ae55ccffbc",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "No e-mail, qual campo envia uma cópia oculta para outros destinatários?",
+    "resposta": "CCO",
+    "alternativas": [
+      "Assunto",
+      "CC",
+      "Para",
+      "CCO"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0198c766be",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual linguagem da Microsoft acrescenta tipos ao JavaScript?",
+    "resposta": "TypeScript",
+    "alternativas": [
+      "Kotlin",
+      "CoffeeScript",
+      "TypeScript",
+      "Dart"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6ce28558d7",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual era a linha de notebooks da Apple antes do MacBook Pro?",
+    "resposta": "PowerBook",
+    "alternativas": [
+      "PowerBook",
+      "Newton",
+      "ThinkPad",
+      "iBook"
+    ],
+    "subtema": "História da computação",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:819458ac26 (E5 resposta antiga citada no texto novo + assunto (24.7))",
+    "dup": "certa",
+    "dup_ref": "id:819458ac26",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.7)"
+  },
+  {
+    "id": "c62d385b93",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo do Mega Drive tem dois alienígenas rappers que caíram na Terra e procuram as peças da nave?",
+    "resposta": "ToeJam & Earl",
+    "alternativas": [
+      "Ecco the Dolphin",
+      "Earthworm Jim",
+      "Vectorman",
+      "ToeJam & Earl"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "14c910d7c2",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de 1993, explorado por imagens paradas de uma ilha misteriosa, foi um dos mais vendidos do PC nos anos 90?",
+    "resposta": "Myst",
+    "alternativas": [
+      "Riven",
+      "The 7th Guest",
+      "Grim Fandango",
+      "Myst"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "065beb30ee",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual recurso do WhatsApp mostra quando a pessoa usou o aplicativo pela última vez?",
+    "resposta": "Visto por último",
+    "alternativas": [
+      "Visto por último",
+      "Status",
+      "Online agora",
+      "Confirmação de leitura"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b9f61015a5",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual banco de dados NoSQL guarda as informações em documentos parecidos com JSON?",
+    "resposta": "MongoDB",
+    "alternativas": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Oracle"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e418aa581",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual ano a Microsoft lançou o Windows 1.0?",
+    "resposta": "1985",
+    "alternativas": [
+      "1990",
+      "1985",
+      "1981",
+      "1995"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:d965527a5b",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.8)"
+  },
+  {
+    "id": "5fe965d225",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual notebook colorido da Apple, de 1999, tinha formato de concha?",
+    "resposta": "iBook",
+    "alternativas": [
+      "PowerBook",
+      "eMac",
+      "iBook",
+      "iMac"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "86a89f2407",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual computador da linha MSX foi lançado no Brasil pela Sharp nos anos 80?",
+    "resposta": "Hotbit",
+    "alternativas": [
+      "Hotbit",
+      "Expert",
+      "CP 400",
+      "TK 85"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "77e4cd4522",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jogo da LucasArts, de 1993, continua Maniac Mansion e tem um tentáculo roxo que quer dominar o mundo?",
+    "resposta": "Day of the Tentacle",
+    "alternativas": [
+      "Grim Fandango",
+      "Day of the Tentacle",
+      "Full Throttle",
+      "Sam & Max Hit the Road"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "795806495b",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A moqueca capixaba, ao contrário da baiana, não leva qual ingrediente?",
+    "resposta": "Azeite de dendê",
+    "alternativas": [
+      "Tomate",
+      "Azeite de dendê",
+      "Peixe",
+      "Coentro"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:bb4a0a5c43",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ca11dd158c",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual povo construiu os aquedutos que levavam água às cidades de seu império, como o de Segóvia?",
+    "resposta": "Romanos",
+    "alternativas": [
+      "Gregos",
+      "Romanos",
+      "Persas",
+      "Egípcios"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:826 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 9.9))",
+    "dup": "certa",
+    "dup_ref": "banco:826",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 9.9)"
+  },
+  {
+    "id": "8693737cb4",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual brasileiro foi o primeiro campeão da Fórmula E, na temporada 2014-15?",
+    "resposta": "Nelsinho Piquet",
+    "alternativas": [
+      "Nelsinho Piquet",
+      "Bruno Senna",
+      "Lucas di Grassi",
+      "Felipe Massa"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b10eef9dac",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a função que deixa a tela do celular com fundo preto e letras claras?",
+    "resposta": "Modo escuro",
+    "alternativas": [
+      "Modo econômico",
+      "Modo escuro",
+      "Modo noturno",
+      "Modo avião"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "56ef654359",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Nos computadores Mac, qual tecla faz a maioria dos atalhos que no Windows usam o Ctrl?",
+    "resposta": "Command",
+    "alternativas": [
+      "Shift",
+      "Fn",
+      "Option",
+      "Command"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3718",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.6)"
+  },
+  {
+    "id": "ef1fb77d52",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual vestimenta, um grande manto enrolado no corpo, era usada pelos cidadãos da Roma Antiga?",
+    "resposta": "Toga",
+    "alternativas": [
+      "Túnica de malha",
+      "Toga",
+      "Sári",
+      "Quimono"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

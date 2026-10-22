@@ -19,7 +19,7 @@ for (const t of termos) {
   const k = ' ' + limpar(t) + ' ';
   const h = todas.filter((p) => p.t.includes(k));
   if (!h.length) livres++;
-  saida += `## ${t} (${h.length}): ${h.slice(0, 4).map((p) => p.s.slice(0, 90)).join(' | ')}
+  saida += `## ${t} (${h.length}): ${h.slice(0, 2).map((p) => p.s.slice(0, 70)).join(' | ')}
 `;
 }
 process.stdout.write(saida);

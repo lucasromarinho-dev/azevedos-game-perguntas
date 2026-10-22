@@ -705,6 +705,51 @@
         "total": 190
       },
       "obs": "Inclui 28 válidas excedentes escritas nas fontes do lote 026. A partir daqui, cada nome passa antes por scripts/fatos.mjs (fatos já usados) para escrever só ângulo novo."
+    },
+    {
+      "lote": "028",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 115,
+      "validas": 107,
+      "descartadas": 8,
+      "taxa_descarte": 0.07,
+      "caracteres": 17813,
+      "tokens_aprox": 5089,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "nomes-r3-g.txt",
+        "fatos-r3-028.txt",
+        "fatos-r3-028b.txt",
+        "fatos-r3-028c.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r3-g.txt",
+          "fatos-r3-028.txt",
+          "fatos-r3-028b.txt",
+          "fatos-r3-028c.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 5972,
+        "nomes_sondados": 813,
+        "nomes_ausentes": 202,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 115,
+        "validas": 107,
+        "descartadas_detector": 8,
+        "descarte": 0.07,
+        "tokens_aprox": 5089
+      },
+      "tokens_por_valida": {
+        "listas": 56,
+        "perguntas": 48,
+        "total": 103
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -2125,6 +2170,42 @@
       "livres": 29,
       "caracteres": 50390,
       "tokens_aprox": 14397
+    },
+    "nomes-r3-g.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 680,
+      "existem": 525,
+      "risco": 0,
+      "livres": 155,
+      "caracteres": 8761,
+      "tokens_aprox": 2503
+    },
+    "fatos-r3-028.txt": {
+      "tipo": "fatos",
+      "linhas": 55,
+      "existem": 37,
+      "risco": 0,
+      "livres": 18,
+      "caracteres": 5755,
+      "tokens_aprox": 1644
+    },
+    "fatos-r3-028b.txt": {
+      "tipo": "fatos",
+      "linhas": 52,
+      "existem": 35,
+      "risco": 0,
+      "livres": 17,
+      "caracteres": 4327,
+      "tokens_aprox": 1236
+    },
+    "fatos-r3-028c.txt": {
+      "tipo": "fatos",
+      "linhas": 26,
+      "existem": 14,
+      "risco": 0,
+      "livres": 12,
+      "caracteres": 2063,
+      "tokens_aprox": 589
     }
   }
 }

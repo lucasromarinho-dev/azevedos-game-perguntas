@@ -121,8 +121,12 @@ function rodarTeste(args) {
     { esperado: 'nao', p: { categoria: 'Ciências', pergunta: 'Qual gás os mergulhadores misturam ao oxigênio no lugar do nitrogênio em mergulhos profundos?', resposta: 'Hélio' } },
     { esperado: 'nao', p: { categoria: 'Geografia', pergunta: 'Qual é a plataforma de streaming do Grupo Globo?', resposta: 'Globoplay' } },
   ];
-  const indice = indexar(cru.map((p, i) => ({ p, ref: `banco:${i}` })));
-  const detectar = (p, ref) => pior(piorOcorrencia(preparar(p, ref), banco), procurarE(p, indice));
+  // Índice: banco + novas não descartadas (a duplicada pode ser de outra pergunta nova, ex.: Código Napoleônico x piloto)
+  const novasValidas = listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada');
+  const indice = indexar([...cru.map((p, i) => ({ p, ref: `banco:${i}` })), ...novasValidas.map((p) => ({ p, ref: `id:${p.id}` }))]);
+  const indiceBanco = indexar(cru.map((p, i) => ({ p, ref: `banco:${i}` })));
+  // casos fixos: só contra o banco; descartes e falsos positivos: contra banco + novas (menos ela mesma)
+  const detectar = (p, ref) => pior(piorOcorrencia(preparar(p, ref), banco), procurarE(p, ref === 'teste' ? indiceBanco : indice, (r) => r === ref));
   let ok = 0;
   for (const c of casos) {
     const r = detectar(c.p, 'teste');
@@ -138,14 +142,14 @@ function rodarTeste(args) {
   const m = lerJson(join(RAIZ_EXP, 'metricas.json'));
   const novas = new Map(listarLotes().flatMap((f) => lerJson(f)).map((p) => [p.id, p]));
   const ver = args.includes('-v');
-  const grupos = { piloto: { certas: 0, susp: 0, total: 0 }, rodada1: { certas: 0, susp: 0, total: 0 } };
+  const grupos = { piloto: { certas: 0, susp: 0, total: 0 }, rodada1: { certas: 0, susp: 0, total: 0 }, rodada2: { certas: 0, susp: 0, total: 0 } };
   const descIds = new Set();
   for (const l of m.conferencia?.lotes || [])
     for (const d of l.descartes || []) {
       const p = novas.get(d.slice(0, 10));
       if (!p || !/duplicada/.test(d)) continue;
       descIds.add(p.id);
-      const g = grupos[l.lote <= '005' ? 'piloto' : 'rodada1'];
+      const g = grupos[l.lote <= '005' ? 'piloto' : l.lote <= '015' ? 'rodada1' : 'rodada2'];
       g.total++;
       const r = detectar(p, `id:${p.id}`);
       if (r.nivel === 'certa') g.certas++;
@@ -164,8 +168,8 @@ function rodarTeste(args) {
     else if (r.nivel === 'suspeita') fs++;
   }
   console.log(`Conferidas como boas: ${n}; marcadas certa=${fp} (${((100 * fp) / (n || 1)).toFixed(1)}%), suspeita=${fs}`);
-  const r1 = grupos.rodada1;
-  if (ok !== casos.length || r1.certas < 0.9 * r1.total) process.exitCode = 1;
+  const r1 = grupos.rodada1, r2 = grupos.rodada2;
+  if (ok !== casos.length || r1.certas < 0.9 * r1.total || r2.certas < r2.total) process.exitCode = 1;
 }
 
 const args = process.argv.slice(2);

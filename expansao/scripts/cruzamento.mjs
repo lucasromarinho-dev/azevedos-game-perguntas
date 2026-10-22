@@ -27,6 +27,11 @@
 // Calibração (rodada 2): node expansao/scripts/duplicadas.mjs --teste
 //   76 descartes do conferente na rodada 1: 69 "certa" (91%) + 6 "suspeita"; só 1 passa sem marca.
 //   1.409 perguntas conferidas como boas: ~9,6% marcadas "certa" (muitas são vizinhas de verdade, ex.: Tux x pinguim do Linux).
+// v4 (rodada 3): tabela ENTIDADES (transliterações e nomes alternativos), diminutivos, e as regras
+//   E2e mesma resposta rara + algum assunto (Alfa Centauri, Palm)
+//   E7  a pergunta antiga é SOBRE a resposta nova (nome próprio/termo entre aspas) e a resposta antiga aparece na nova (Magalhães, código aberto)
+//   E8  resposta nova repartida entre texto e resposta antiga (Código Civil + Napoleão)
+//   Teste com índice banco + novas: piloto 13/16, rodada 1 69/76 (91%), rodada 2 10/10; conferidas boas marcadas "certa": 6,6% (2.418).
 import { lerBancoAtual } from './lib.mjs';
 
 const VAZIAS = new Set(('a o as os um uma uns umas de da do das dos em na no nas nos por pela pelo pelas pelos para pra com sem ' +
@@ -93,7 +98,135 @@ function palavras(txt) {
     if (!w || VAZIAS.has(w)) continue;
     if (w.length === 1 && !/\d/.test(w)) continue; // letra solta (Leon S. Kennedy)
     if (SINONIMOS[w] && !SIMBOLOS.has(w)) { out.push(...SINONIMOS[w].split(' ')); continue; }
-    out.push(w);
+    out.push(diminutivo(w));
+  }
+  return trocarEntidades(out);
+}
+
+/** Diminutivo simples: "canetinha" = "caneta", "livrinho" = "livro" (os dois lados passam pela mesma regra). */
+function diminutivo(w) {
+  if (w.length >= 8 && /[^aeiou]inh[ao]s?$/.test(w)) return w.replace(/inh([ao])s?$/, '$1');
+  return w;
+}
+
+// TABELA DE SINÔNIMOS DE ENTIDADES (v4, rodada 3): transliterações, grafias alternativas e nomes que dizem a mesma coisa.
+// Cada linha: "forma canônica = variante | variante ...". Tudo sem acento e já sem palavras vazias ("Vila da Folha" -> "vila folha").
+// A troca acontece antes do radical, nos dois textos comparados, então a pergunta nova e a do banco caem na mesma forma.
+// Casos que motivaram (passaram pela rodada 2): Riad/Riade, Yalta/Ialta, Polaris/Estrela Polar, Palm Pilot/Palm,
+// Vila da Folha/Vila Oculta da Folha, Alfa/Próxima Centauri, cangaceiros/cangaço, Código Napoleônico/Código Civil de Napoleão,
+// open source/código aberto, Programa do Jô/Jô Soares, talk show/programa de entrevistas.
+const ENTIDADES_TXT = `
+riade = riad | riyadh
+ialta = yalta
+estrela polar = polaris | estrela norte
+palm = palm pilot | palmtop | palm top
+vila folha = vila oculta folha | konoha | konohagakure
+alfa centauri = proxima centauri | alpha centauri
+cangaco = cangaceiro | cangaceira | cangaceiros
+codigo civil napoleao = codigo napoleonico | codigo napoleao | codigo civil frances
+codigo aberto = open source | codigo fonte aberto
+jo soares = programa jo
+entrevista = talk show
+estrela = estelar
+pequim = beijing | peking
+xangai = shanghai
+cantao = guangzhou
+mumbai = bombaim | bombay
+calcuta = kolkata
+chennai = madras
+myanmar = mianmar | birmania | burma
+sri lanka = ceilao
+tailandia = siao
+catar = qatar
+bahrein = barein | barem | bahrain
+kuwait = kuait | kuaite
+abu dhabi = abu dabi
+dubai = dubay
+teera = teerao | tehran
+nova delhi = nova deli | new delhi
+hanoi = hanoi
+taiwan = formosa
+eswatini = suazilandia | swaziland
+tchequia = republica tcheca | czechia
+belarus = bielorrussia | bielo russia
+macedonia norte = macedonia
+kiev = kyiv | quieve | kiiv
+moscou = moscow | moskva
+paises baixos = holanda
+nova york = new york | ny
+gengis khan = genghis khan | chinggis khan | gengis can
+mao tse tung = mao zedong | mao tse tung
+kruschev = khrushchev | kruchev | khrushchov | kruschov
+gorbachev = gorbatchov | gorbachov
+ieltsin = yeltsin | eltsin
+tchaikovsky = tchaikovski | tchaikowsky | tchaikovskij | chaikovsky
+dostoievski = dostoyevsky | dostoievsky | dostoevsky
+tchekhov = chekhov | tchecov
+estaline = stalin
+hercules = heracles
+ulisses = odisseu | odysseus
+buda = buddha | sidarta gautama | siddhartha gautama | gautama
+hirohito = showa
+ho chi minh = saigon
+everest = sagarmatha | chomolungma
+fuji = fujiyama | fujisan
+kilimanjaro = quilimanjaro
+himalaia = himalaya
+saara = sahara
+tamisa = thames
+reno = rhine | rhein
+rio prata = rio plata | rio la plata
+cabo horn = cabo hornos
+canal mancha = english channel
+malvinas = falklands | falkland
+groenlandia = greenland
+pele = edson arantes nascimento
+cassius clay = muhammad ali
+kareem abdul jabbar = lew alcindor
+lampiao = virgulino ferreira | virgulino
+tiradentes = joaquim jose silva xavier
+aleijadinho = antonio francisco lisboa
+xuxa = maria graca meneghel
+freddie mercury = farrokh bulsara
+playstation1 = ps1 | psone | ps one
+playstation2 = ps2
+playstation3 = ps3
+playstation4 = ps4
+playstation5 = ps5
+nintendo64 = n64
+super nintendo = snes | super nes
+nes = nintendinho | famicom | nintendo entertainment system
+mega drive = sega genesis
+game boy advance = gba
+counter strike = cs go | csgo | cs2
+league legend = lol
+world warcraft = wow
+dungeons dragon = dnd
+call duty = cod
+apolo = apollo
+gripe espanhola = influenza 1918
+dioxido carbono = gas carbonico
+via lactea = milky way
+`;
+const ENTIDADES = new Map(); // primeira palavra -> [{ de: [...], para: [...] }], frases mais longas primeiro
+for (const linha of ENTIDADES_TXT.split('\n')) {
+  if (!linha.includes('=')) continue;
+  const [canon, vars] = linha.split('=');
+  const para = canon.trim().split(/\s+/);
+  for (const v of vars.split('|')) {
+    const de = v.trim().replace(/[^a-z0-9 ]+/g, ' ').trim().split(/\s+/).filter((w) => w && !VAZIAS.has(w));
+    if (!de.length || de.join(' ') === para.join(' ')) continue;
+    if (!ENTIDADES.has(de[0])) ENTIDADES.set(de[0], []);
+    ENTIDADES.get(de[0]).push({ de, para });
+  }
+}
+for (const l of ENTIDADES.values()) l.sort((a, b) => b.de.length - a.de.length);
+
+function trocarEntidades(ws) {
+  const out = [];
+  for (let i = 0; i < ws.length; ) {
+    const op = (ENTIDADES.get(ws[i]) || []).find((e) => e.de.every((w, k) => ws[i + k] === w));
+    if (op) { out.push(...op.para); i += op.de.length; } else out.push(ws[i++]);
   }
   return out;
 }
@@ -173,13 +306,43 @@ function bateEm(t, conj) {
   return false;
 }
 
-/** A resposta de A aparece no texto de B? (todas as palavras; resposta longa: 2/3, desde que as raras estejam) */
-function respostaEm(a, b) {
+/** A resposta de B tem alguma palavra rara e longa citada no texto de A? ("Napoleão Bonaparte" x "...legado de Napoleão") */
+function respostaParcialEm(b, a) {
+  const { idf } = ctx();
+  return b.resp.some((t) => !MOLDE.has(t) && t.length >= 5 && idf(t) >= 5 && bateEm(t, a.texto));
+}
+
+/** Resposta de A com 2+ palavras, TODAS no texto ou na resposta de B, com pelo menos uma em cada ("Código Civil Napoleão" x
+ *  "promulgou o Código Civil" => Napoleão). */
+function respostaDividida(a, b) {
+  const rs = a.resp.filter((t) => !MOLDE.has(t) && t.length >= 3);
+  if (rs.length < 2) return false;
+  const noTexto = rs.filter((t) => b.texto.has(t)), naResp = rs.filter((t) => !b.texto.has(t) && b.resp.includes(t));
+  return noTexto.length + naResp.length === rs.length && noTexto.length > 0 && naResp.length > 0;
+}
+
+/** A resposta de A é exatamente o termo entre aspas de B ("código aberto"). */
+function respostaEntreAspas(a, b) {
+  const rs = a.resp.filter((t) => !MOLDE.has(t) && t.length >= 3);
+  return rs.length > 0 && b.aspas.size > 0 && rs.every((t) => b.aspas.has(t)) && [...b.aspas].every((t) => rs.includes(t) || MOLDE.has(t));
+}
+
+/** A resposta de A (sem palavras de molde) está toda entre os nomes próprios ou termos entre aspas de B? */
+function respostaEhAssunto(a, b) {
+  const { idf } = ctx();
+  const rs = a.resp.filter((t) => !MOLDE.has(t) && t.length >= 3);
+  return rs.length > 0 && rs.every((t) => b.nomes.has(t) || b.aspas.has(t)) && rs.some((t) => idf(t) >= 6);
+}
+
+/** A resposta de A aparece no texto de B? (todas as palavras; resposta longa: 2/3, desde que as raras estejam)
+ *  comResposta = true: procura no texto E na resposta de B */
+function respostaEm(a, b, comResposta = false) {
   const { idf } = ctx();
   const rs = a.resp.filter((t) => !MOLDE.has(t) || a.resp.length === 1);
   if (!rs.length) return false;
   if (rs.length === 1 && rs[0].length < 2) return false;
-  const achou = rs.map((t) => bateEm(t, b.texto));
+  const alvo = comResposta ? new Set([...b.texto, ...b.resp]) : b.texto;
+  const achou = rs.map((t) => bateEm(t, alvo));
   const n = achou.filter(Boolean).length;
   if (n === rs.length) return rs.some((t) => t.length >= 3 || /\d/.test(t)) || rs.length > 1;
   if (rs.length >= 3 && n / rs.length >= 0.66) return rs.some((t, k) => achou[k] && idf(t) >= 6);
@@ -241,6 +404,7 @@ function jac(a0, b0) {
   return a.size + b.size - i ? i / (a.size + b.size - i) : 0;
 }
 
+export const LIM_E7 = 12;
 export const LIM_E2 = 7, LIM_E3 = 10, LIM_E5 = 14, LIM_E6 = 0.6, LIM_IDF_COMUM = 4.5, LIM_E2B = 6, LIM_RAZAO = 0.2;
 
 /** Respostas "comuns" (aparecem em muitos enunciados): país, estado, cor, número pequeno. Exigem mais assunto. */
@@ -269,6 +433,15 @@ export function compararE(a, b) {
   // mesma resposta, mas cada pergunta cita um título diferente entre aspas: fatos diferentes ("gravou Evidências" x "gravou Fio de Cabelo")
   const titulosDiferentes = a.aspas.size > 0 && b.aspas.size > 0 && jacT(a.aspas, b.aspas) < 0.5;
   if (sobreFraca && titulosDiferentes && !(inAB || inBA)) return { nivel: sim >= 0.5 ? 'suspeita' : null, sim, regra: 'mesma resposta, títulos diferentes entre aspas' };
+  // v4 (rodada 3): regras para as 10 que passaram na rodada 2
+  const mesmaExata = a.respStr && a.respStr === b.respStr;
+  if (mesmaExata && respostaRara(a) && (sim >= 0.3 || comum >= LIM_E2B))
+    return { nivel: 'certa', sim, regra: `E2e mesma resposta rara e algum assunto em comum (${f(comum)}, sim ${f(sim)})` };
+  if (!mesmaExata && respostaDividida(a, b) && respostaParcialEm(b, a))
+    return { nivel: 'certa', sim, regra: 'E8 invertida parcial (resposta nova repartida entre texto e resposta antiga, e a antiga citada na nova)' };
+  if (inAB && !mesmaExata && !comumA && a.p.categoria === b.p.categoria && b.resp.some((t) => !MOLDE.has(t) && t.length >= 3 && bateEm(t, a.texto)) &&
+      (respostaEntreAspas(a, b) || (!sobreFraca && respostaEhAssunto(a, b) && pesoEspecifico(b, new Set([...a.resp, ...b.resp])) < LIM_E7)))
+    return { nivel: 'certa', sim, regra: 'E7 a pergunta antiga é SOBRE a resposta nova (nome próprio ou termo entre aspas)' };
   if (sobreFraca && (inAB || inBA) && comum >= 3) return { nivel: 'certa', sim, regra: `E2c mesma resposta e ela aparece no outro enunciado (${f(comum)})` };
   // mesma resposta: só é o mesmo fato se boa parte do conteúdo específico do enunciado mais curto está no outro
   const foraR = new Set([...a.resp, ...b.resp]);

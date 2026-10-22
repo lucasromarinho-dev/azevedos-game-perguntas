@@ -7,6 +7,8 @@
 //   CAT: G=Geografia H=História C=Ciências E=Esportes N=Entretenimento T=Tecnologia
 //   DIF: f=facil m=medio d=dificil
 //   R no fim = fato de 2020 em diante (recente)
+//   Campos extras opcionais no fim, em qualquer ordem: "R" e/ou "U=Universo" (franquia ou universo da pergunta, ex.: U=Sítio do Picapau
+//   Amarelo, U=Star Wars). A rodada 3 limita a 3 perguntas por universo (scripts/variedade.mjs confere).
 // Linhas vazias e começadas por "#" são ignoradas.
 //
 // O script: valida (regras do jogo + regras do piloto), gera id estável, embaralha as alternativas
@@ -47,8 +49,11 @@ readFileSync(fonte, 'utf8').split(/\r?\n/).forEach((linha, n) => {
   if (!linha || linha.startsWith('#')) return;
   const c = linha.split('|').map((x) => x.trim());
   const onde = `linha ${n + 1}`;
-  if (c.length < 6 || c.length > 7) return erros.push(`${onde}: esperado 6 ou 7 campos, veio ${c.length}`);
-  const [cat, dif, subtema, pergunta, resposta, erradasTxt, flag] = c;
+  if (c.length < 6 || c.length > 8) return erros.push(`${onde}: esperado de 6 a 8 campos, veio ${c.length}`);
+  const [cat, dif, subtema, pergunta, resposta, erradasTxt, ...extras] = c;
+  const flag = extras.includes('R') ? 'R' : null;
+  const universo = (extras.find((x) => x.startsWith('U=')) || '').slice(2).trim() || null;
+  if (extras.some((x) => x !== 'R' && !x.startsWith('U='))) return erros.push(`${onde}: campo extra desconhecido (use R ou U=Universo)`);
   const erradas = erradasTxt.split(';').map((x) => x.trim());
   const base = { categoria: CAT[cat], dificuldade: DIF[dif], pergunta, resposta };
   const id = gerarId(base);
@@ -58,6 +63,7 @@ readFileSync(fonte, 'utf8').split(/\r?\n/).forEach((linha, n) => {
   const p = {
     id, ...base, alternativas: alts, subtema, status: 'gerada', motivo: null, dup: null, dup_ref: null,
     recente: flag === 'R',
+    ...(universo ? { universo } : {}),
   };
   const m = motivoInvalida(p) || (erradas.length !== 3 ? 'precisa de 3 erradas' : null);
   if (m) return erros.push(`${onde}: ${m} | ${pergunta}`);

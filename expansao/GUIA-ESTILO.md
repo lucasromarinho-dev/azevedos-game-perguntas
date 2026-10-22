@@ -32,3 +32,10 @@ O nível difícil foi recalibrado no banco (907 reescritas) para ser desafiador 
 - Política partidária, religião em tom polêmico, tragédias recentes, temas ofensivos.
 - Perguntas em cadeia sobre o mesmo fato (o banco já tem "maior oceano" e "segundo maior oceano"; uma terceira vira repetição).
 - Repetir o que já existe: rodar sempre `scripts/duplicadas.mjs`.
+
+## Regras acrescentadas na rodada 2 (lições da conferência da rodada 1)
+
+- **Teste da alternativa errada:** para cada errada, perguntar "alguém poderia defender que esta também está certa?". Se sim, trocar. Casos reais da rodada 1: sinônimo da certa entre as erradas, coautor ou parceiro que também fez a obra, outro animal com a mesma característica (lula e polvo com oito braços), outro país que também se encaixa na descrição.
+- **Classificação:** folclore, lendas e artes plásticas (pintura, escultura, arquitetura como arte) vão em **Entretenimento**. Mitologia fica em **História**.
+- **Assunto já coberto não volta com outro ângulo:** se o banco já liga a resposta ao fato ("Garrincha brilhou no Botafogo"), perguntar o inverso ("qual ponta do Botafogo...?") é duplicada. O detector v3 procura a resposta e os nomes próprios de uma pergunta no texto da outra.
+- **Franquias saturadas:** Resident Evil, Fallout, Harry Potter, Stranger Things e os microtemas marcados "saturado" em `microtemas.json` ficam de fora.

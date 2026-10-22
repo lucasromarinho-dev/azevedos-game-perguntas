@@ -110,6 +110,18 @@ if (args.includes('--registrar')) {
       status: ex / cand > 0.5 ? 'saturado' : 'aberto', arquivos: [...new Set([...(ant.arquivos || []), arq.replace(/^.*candidatas[\/]/, '')])] };
   }
   gravarJson(cam, reg);
-  console.log(`registrado em microtemas.json (${grupos.size} microtemas)`);
+  // métrica da lista (por arquivo): quantas linhas, quantas já existiam, tamanho em caracteres e tokens aproximados
+  const camM = join(RAIZ_EXP, 'metricas.json');
+  const met = lerJson(camM);
+  const linhasArq = readFileSync(arq, 'utf8').split(/?
+/).map((l) => l.trim()).filter((l) => l && !l.startsWith('#') && !l.startsWith('@'));
+  const chars = linhasArq.join('
+').length;
+  met.listas = met.listas || {};
+  met.listas[arq.replace(/^.*candidatas[/]/, '')] = { linhas: resultado.length, existem: resultado.filter((r) => r.nivel === 'EXISTE').length,
+    risco: resultado.filter((r) => r.nivel === 'RISCO').length, livres: resultado.filter((r) => r.nivel === 'LIVRE').length,
+    caracteres: chars, tokens_aprox: Math.round(chars / 3.5) };
+  gravarJson(camM, met);
+  console.log(`registrado em microtemas.json (${grupos.size} microtemas) e metricas.json > listas`);
 }
 void respostaNorm;

@@ -252,8 +252,8 @@
     "lotes": [
       {
         "lote": "001",
-        "conferidas_sem_mudanca": 92,
-        "corrigidas": 2,
+        "conferidas_sem_mudanca": 89,
+        "corrigidas": 5,
         "descartadas": 6,
         "motivos_descarte": {
           "duplicada": 6
@@ -265,8 +265,13 @@
             "corrigidas": 0,
             "descartadas": 0
           },
+          "Entretenimento": {
+            "conferidas": 10,
+            "corrigidas": 3,
+            "descartadas": 0
+          },
           "História": {
-            "conferidas": 13,
+            "conferidas": 10,
             "corrigidas": 0,
             "descartadas": 5
           },
@@ -278,11 +283,6 @@
           "Esportes": {
             "conferidas": 16,
             "corrigidas": 1,
-            "descartadas": 0
-          },
-          "Entretenimento": {
-            "conferidas": 10,
-            "corrigidas": 0,
             "descartadas": 0
           },
           "Tecnologia": {
@@ -301,7 +301,10 @@
           "169f0c9c8e: duplicada: mesmo fato que banco:1500 (França/Napoleão vendeu a Louisiana)"
         ],
         "correcoes": [
+          "a6ffe2b0a1: categoria de História para Entretenimento (lenda/folclore não fica em História)",
+          "5694a50ff8: categoria de História para Entretenimento (arte não fica em História)",
           "54ad49299e: enunciado precisado ('maior que 1'), pois o 1 também só é divisível por 1 e por ele mesmo e não é primo",
+          "682a214ec9: categoria de História para Entretenimento (lenda/folclore não fica em História)",
           "dd8aa6a78e: tirado 'espanhol' do enunciado: só Alcaraz e Nadal eram espanhóis entre as alternativas"
         ]
       },
@@ -408,8 +411,8 @@
       },
       {
         "lote": "004",
-        "conferidas_sem_mudanca": 97,
-        "corrigidas": 2,
+        "conferidas_sem_mudanca": 95,
+        "corrigidas": 4,
         "descartadas": 2,
         "motivos_descarte": {
           "duplicada": 2
@@ -422,8 +425,13 @@
             "descartadas": 0
           },
           "História": {
-            "conferidas": 18,
+            "conferidas": 16,
             "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 10,
+            "corrigidas": 2,
             "descartadas": 0
           },
           "Ciências": {
@@ -435,11 +443,6 @@
             "conferidas": 15,
             "corrigidas": 0,
             "descartadas": 2
-          },
-          "Entretenimento": {
-            "conferidas": 10,
-            "corrigidas": 0,
-            "descartadas": 0
           },
           "Tecnologia": {
             "conferidas": 19,
@@ -453,14 +456,16 @@
           "9d92414c2e: duplicada: mesmo fato que banco:2637 (Zé Roberto e os ouros seguidos do vôlei feminino)"
         ],
         "correcoes": [
+          "ce33cc6ea0: categoria de História para Entretenimento (arte (arquitetura) não fica em História)",
+          "f67aeb9056: categoria de História para Entretenimento (arte não fica em História)",
           "55586cd8f0: fato de 2020 em diante sem ano: incluído 'que virou febre em 2022' e marcado recente",
           "4f1a346ec6: o cancelamento da compra foi em 2023: ano incluído no texto, dificuldade de dificil para medio e marcado recente"
         ]
       },
       {
         "lote": "005",
-        "conferidas_sem_mudanca": 96,
-        "corrigidas": 4,
+        "conferidas_sem_mudanca": 91,
+        "corrigidas": 9,
         "descartadas": 0,
         "motivos_descarte": {},
         "perguntas_com_busca_web": 2,
@@ -470,9 +475,14 @@
             "corrigidas": 0,
             "descartadas": 0
           },
+          "Entretenimento": {
+            "conferidas": 10,
+            "corrigidas": 6,
+            "descartadas": 0
+          },
           "História": {
-            "conferidas": 17,
-            "corrigidas": 1,
+            "conferidas": 12,
+            "corrigidas": 0,
             "descartadas": 0
           },
           "Ciências": {
@@ -485,11 +495,6 @@
             "corrigidas": 1,
             "descartadas": 0
           },
-          "Entretenimento": {
-            "conferidas": 10,
-            "corrigidas": 0,
-            "descartadas": 0
-          },
           "Tecnologia": {
             "conferidas": 17,
             "corrigidas": 2,
@@ -499,7 +504,12 @@
         "minutos_aprox": 1.5,
         "descartes": [],
         "correcoes": [
-          "b5e72e8b37: enunciado corrigido: as ondas do calçadão são da orla de Copacabana; no Aterro do Flamengo o trabalho de Burle Marx foram os jardins",
+          "d42604ab0a: categoria de História para Entretenimento (folclore não fica em História)",
+          "cf2888f2d9: categoria de História para Entretenimento (folclore não fica em História)",
+          "49871d5b1d: categoria de História para Entretenimento (folclore não fica em História)",
+          "7eb85cbff5: categoria de História para Entretenimento (arte não fica em História)",
+          "b5e72e8b37: enunciado corrigido: as ondas do calçadão são da orla de Copacabana; no Aterro do Flamengo o trabalho de Burle Marx foram os jardins; categoria de História para Entretenimento (arte (paisagismo) não fica em História)",
+          "e96eae55a1: categoria de História para Entretenimento (arte não fica em História)",
           "352be62f6e: dificuldade de dificil para medio: o enunciado cita Sochi, o que deixa a resposta acessível",
           "a34d11b922: alternativa 'Temu' trocada por 'Wish': a Temu também é asiática, laranja e de frete barato, o que deixava duas respostas defensáveis",
           "ed5615f490: fato de 2020 em diante sem ano: incluído 'lançada em 2022' e marcado recente"

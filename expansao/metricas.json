@@ -885,6 +885,51 @@
         "perguntas": 52,
         "total": 100
       }
+    },
+    {
+      "lote": "032",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 121,
+      "validas": 108,
+      "descartadas": 13,
+      "taxa_descarte": 0.11,
+      "caracteres": 18433,
+      "tokens_aprox": 5267,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "fatos-r3-032.txt",
+        "fatos-r3-032b.txt",
+        "fatos-r3-032c.txt",
+        "fatos-r3-032d.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r3-032.txt",
+          "fatos-r3-032b.txt",
+          "fatos-r3-032c.txt",
+          "fatos-r3-032d.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 5643,
+        "nomes_sondados": 434,
+        "nomes_ausentes": 243,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 121,
+        "validas": 108,
+        "descartadas_detector": 13,
+        "descarte": 0.11,
+        "tokens_aprox": 5267
+      },
+      "tokens_por_valida": {
+        "listas": 52,
+        "perguntas": 49,
+        "total": 101
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -2440,6 +2485,42 @@
       "livres": 27,
       "caracteres": 2892,
       "tokens_aprox": 826
+    },
+    "fatos-r3-032.txt": {
+      "tipo": "fatos",
+      "linhas": 110,
+      "existem": 32,
+      "risco": 0,
+      "livres": 78,
+      "caracteres": 4289,
+      "tokens_aprox": 1225
+    },
+    "fatos-r3-032b.txt": {
+      "tipo": "fatos",
+      "linhas": 124,
+      "existem": 55,
+      "risco": 0,
+      "livres": 69,
+      "caracteres": 6521,
+      "tokens_aprox": 1863
+    },
+    "fatos-r3-032c.txt": {
+      "tipo": "fatos",
+      "linhas": 133,
+      "existem": 75,
+      "risco": 0,
+      "livres": 58,
+      "caracteres": 5790,
+      "tokens_aprox": 1654
+    },
+    "fatos-r3-032d.txt": {
+      "tipo": "fatos",
+      "linhas": 67,
+      "existem": 29,
+      "risco": 0,
+      "livres": 38,
+      "caracteres": 3154,
+      "tokens_aprox": 901
     }
   }
 }

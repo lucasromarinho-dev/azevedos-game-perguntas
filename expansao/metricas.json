@@ -971,6 +971,47 @@
         "perguntas": 56,
         "total": 80
       }
+    },
+    {
+      "lote": "034",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 105,
+      "validas": 90,
+      "descartadas": 15,
+      "taxa_descarte": 0.14,
+      "caracteres": 16796,
+      "tokens_aprox": 4799,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "fatos-r3-034.txt",
+        "fatos-r3-034b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r3-034.txt",
+          "fatos-r3-034b.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 1765,
+        "nomes_sondados": 106,
+        "nomes_ausentes": 46,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 105,
+        "validas": 90,
+        "descartadas_detector": 15,
+        "descarte": 0.14,
+        "tokens_aprox": 4799
+      },
+      "tokens_por_valida": {
+        "listas": 20,
+        "perguntas": 53,
+        "total": 73
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -2580,6 +2621,24 @@
       "livres": 28,
       "caracteres": 2422,
       "tokens_aprox": 692
+    },
+    "fatos-r3-034.txt": {
+      "tipo": "fatos",
+      "linhas": 74,
+      "existem": 53,
+      "risco": 0,
+      "livres": 21,
+      "caracteres": 4515,
+      "tokens_aprox": 1290
+    },
+    "fatos-r3-034b.txt": {
+      "tipo": "fatos",
+      "linhas": 32,
+      "existem": 7,
+      "risco": 0,
+      "livres": 25,
+      "caracteres": 1663,
+      "tokens_aprox": 475
     }
   }
 }

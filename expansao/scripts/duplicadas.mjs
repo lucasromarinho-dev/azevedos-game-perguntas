@@ -28,7 +28,9 @@ import {
 // Palavras-chave genéricas demais para provar que é o mesmo fato (radicais de 5 letras, como em palavrasChave).
 const GENERICAS = new Set(['brasi', 'maior', 'menor', 'prime', 'segun', 'ultim', 'mundo', 'mundi', 'plane', 'siste', 'solar',
   'numer', 'grand', 'pequ', 'pais', 'paise', 'cidad', 'nome', 'tipo', 'serie', 'filme', 'jogo', 'time', 'clube', 'selec',
-  'campe', 'histo', 'anos', 'vezes', 'chama', 'conhe', 'famos', 'usado', 'usada', 'criou', 'criad', 'cerca']);
+  'campe', 'histo', 'anos', 'vezes', 'chama', 'conhe', 'famos', 'usado', 'usada', 'criou', 'criad', 'cerca',
+  // moldes de pergunta de esporte ("qual seleção venceu a copa ... disputada ...")
+  'vence', 'copa', 'dispu', 'final', 'ganho', 'conqu']);
 
 export const LIM_CERTA = 0.45;
 export const LIM_SUSP_MESMA = 0.25;

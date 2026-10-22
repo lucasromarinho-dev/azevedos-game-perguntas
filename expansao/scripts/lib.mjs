@@ -63,7 +63,8 @@ const NUMEROS = { zero: '0', um: '1', uma: '1', dois: '2', duas: '2', tres: '3',
   oito: '8', nove: '9', dez: '10', onze: '11', doze: '12', treze: '13', quatorze: '14', catorze: '14', quinze: '15',
   dezesseis: '16', dezessete: '17', dezoito: '18', dezenove: '19', vinte: '20' };
 export function respostaNorm(r) {
-  const t = limpar(r);
+  // "C++" e "C#" não podem virar os dois só "c"
+  const t = limpar(String(r).replace(/\+/g, ' mais ').replace(/#/g, ' sustenido '));
   if (NUMEROS[t]) return NUMEROS[t];
   return t.replace(/^(o|a|os|as|um|uma) /, '');
 }

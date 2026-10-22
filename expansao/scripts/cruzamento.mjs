@@ -436,6 +436,10 @@ export function compararE(a, b) {
   if (sobreFraca && titulosDiferentes && !(inAB || inBA)) return { nivel: sim >= 0.5 ? 'suspeita' : null, sim, regra: 'mesma resposta, títulos diferentes entre aspas' };
   // v4 (rodada 3): regras para as 10 que passaram na rodada 2
   const mesmaExata = a.respStr && a.respStr === b.respStr;
+  // v4.1: resposta só numérica ("3", "1", "40"): o número sozinho não prova o mesmo fato ("field goal vale 3" x "cesta de fora
+  // vale 3"). Só conta como duplicada com enunciados parecidos de verdade.
+  const soNumero = /^\d+$/.test(a.respStr.replace(/\s/g, '')) && /^\d+$/.test(b.respStr.replace(/\s/g, ''));
+  if (soNumero && mesmaExata) return sim >= 0.5 ? { nivel: 'certa', sim, regra: `E2 mesma resposta numérica e enunciados parecidos (${f(sim)})` } : { nivel: sim >= 0.35 ? 'suspeita' : null, sim, regra: 'mesma resposta numérica, enunciados diferentes' };
   if (mesmaExata && respostaRara(a) && (sim >= 0.3 || comum >= LIM_E2B))
     return { nivel: 'certa', sim, regra: `E2e mesma resposta rara e algum assunto em comum (${f(comum)}, sim ${f(sim)})` };
   if (!mesmaExata && respostaDividida(a, b) && respostaParcialEm(b, a))

@@ -380,6 +380,51 @@
         "perguntas": 42,
         "total": 83
       }
+    },
+    {
+      "lote": "020",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 108,
+      "validas": 102,
+      "descartadas": 6,
+      "taxa_descarte": 0.06,
+      "caracteres": 16157,
+      "tokens_aprox": 4616,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r2-020-his.txt",
+        "nomes-r2-g.txt",
+        "nomes-r2-h.txt",
+        "nomes-r2-i.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r2-020-his.txt",
+          "nomes-r2-g.txt",
+          "nomes-r2-h.txt",
+          "nomes-r2-i.txt"
+        ],
+        "linhas": 75,
+        "existem": 46,
+        "risco": 9,
+        "tokens_aprox": 4048,
+        "nomes_sondados": 838,
+        "nomes_ausentes": 256,
+        "descarte": 0.61,
+        "candidatas_por_valida": 0.74
+      },
+      "perguntas": {
+        "escritas": 108,
+        "validas": 102,
+        "descartadas_detector": 6,
+        "descarte": 0.06,
+        "tokens_aprox": 4616
+      },
+      "tokens_por_valida": {
+        "listas": 40,
+        "perguntas": 45,
+        "total": 85
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1347,6 +1392,41 @@
       "livres": 104,
       "caracteres": 7393,
       "tokens_aprox": 2112
+    },
+    "r2-020-his.txt": {
+      "linhas": 75,
+      "existem": 46,
+      "risco": 9,
+      "livres": 20,
+      "caracteres": 3796,
+      "tokens_aprox": 1085
+    },
+    "nomes-r2-g.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 361,
+      "existem": 230,
+      "risco": 0,
+      "livres": 131,
+      "caracteres": 4024,
+      "tokens_aprox": 1150
+    },
+    "nomes-r2-h.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 248,
+      "existem": 176,
+      "risco": 0,
+      "livres": 72,
+      "caracteres": 3509,
+      "tokens_aprox": 1003
+    },
+    "nomes-r2-i.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 229,
+      "existem": 176,
+      "risco": 0,
+      "livres": 53,
+      "caracteres": 2834,
+      "tokens_aprox": 810
     }
   },
   "diretriz_resposta_igual": {

@@ -68,5 +68,5 @@ Status de cada pergunta: `gerada` (saiu do gerador) -> `conferida` (outro agente
 
 - Formato do jogo: categoria e dificuldade válidas, 4 alternativas distintas, a resposta entre elas (o `montar-lote.mjs` aplica o mesmo validador de `quest-online .../shared/perguntas.ts`).
 - Uma resposta certa, verificável; erradas plausíveis e do mesmo tipo. Na dúvida, não cria.
-- Fato de 2020 em diante: marcado `R`, no máximo "medio" e com o ano no texto. Como o banco só aceita ano no enunciado em **Esportes**, na prática fatos recentes ficam em Esportes.
+- Fato de 2020 em diante: marcado `R`, no máximo "medio" e com o ano no texto. Ano no enunciado é permitido em todas as categorias.
 - Nada de "atual", "hoje", "atualmente" (o script barra).

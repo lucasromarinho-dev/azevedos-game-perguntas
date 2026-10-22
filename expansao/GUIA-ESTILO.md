@@ -10,7 +10,7 @@ Baseado na leitura de cerca de 330 perguntas do banco atual (18 por categoria x 
 - **Alternativas com a mesma "cara".** Mesmo formato e tamanho parecido; a certa não pode ser a única longa, a única com artigo ou a única com detalhe.
 - **Sem pista no enunciado.** O texto não entrega gênero, número ou palavra da resposta.
 - **Brasil bem representado.** Estados, cidades, história, futebol, novelas, música e internet brasileira convivem com o conteúdo internacional.
-- **Ano no enunciado só em Esportes** (regra do README do banco). Nas outras categorias a pergunta precisa funcionar sem data.
+- **Ano no enunciado é permitido em todas as categorias** (obrigatório para fatos de 2020 em diante).
 
 ## A régua de cada dificuldade
 
@@ -26,7 +26,7 @@ O nível difícil foi recalibrado no banco (907 reescritas) para ser desafiador 
 
 - Fato duvidoso, que mudou ou que tem fontes divergentes. **Na dúvida, não cria.**
 - Palavras que envelhecem: "atual", "hoje", "atualmente", "recentemente", "o presidente atual".
-- Fatos de 2020 em diante: só com o ano no texto, no máximo "medio" e, pela regra do banco, só em Esportes.
+- Fatos de 2020 em diante: só com o ano no texto e no máximo "medio", em qualquer categoria.
 - Alternativa absurda, de outro tipo ou de piada, que ninguém marcaria.
 - Pegadinha de grafia ou alternativas quase iguais ("World Web Wide" x "World Wide Web" é exceção, não regra).
 - Política partidária, religião em tom polêmico, tragédias recentes, temas ofensivos.

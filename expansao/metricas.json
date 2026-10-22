@@ -1689,5 +1689,33 @@
       "candidatas.mjs: mesma resposta na categoria deixou de ser RISCO",
       "resposta que é palavra vazia (Pará) passou a ser comparada"
     ]
+  },
+  "rodada2_resumo": {
+    "lotes": "016-025",
+    "escritas": 1101,
+    "validas": 1020,
+    "descartadas_detector": 81,
+    "descarte": 0.074,
+    "tokens_listas": 23780,
+    "tokens_perguntas": 46988,
+    "tokens_por_valida": {
+      "listas": 23,
+      "perguntas": 46,
+      "total": 69
+    },
+    "por_categoria": {
+      "Geografia": 132,
+      "História": 92,
+      "Ciências": 127,
+      "Esportes": 175,
+      "Entretenimento": 321,
+      "Tecnologia": 173
+    },
+    "por_dificuldade": {
+      "facil": 258,
+      "medio": 427,
+      "dificil": 335
+    },
+    "recentes": 40
   }
 }

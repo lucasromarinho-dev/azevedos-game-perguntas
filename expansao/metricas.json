@@ -750,6 +750,55 @@
         "perguntas": 48,
         "total": 103
       }
+    },
+    {
+      "lote": "029",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 122,
+      "validas": 97,
+      "descartadas": 25,
+      "taxa_descarte": 0.2,
+      "caracteres": 16578,
+      "tokens_aprox": 4737,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "fatos-r3-028c.txt",
+        "fatos-r3-029.txt",
+        "fatos-r3-029b.txt",
+        "fatos-r3-029c.txt",
+        "fatos-r3-029d.txt",
+        "fatos-r3-029e.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r3-028c.txt",
+          "fatos-r3-029.txt",
+          "fatos-r3-029b.txt",
+          "fatos-r3-029c.txt",
+          "fatos-r3-029d.txt",
+          "fatos-r3-029e.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 9256,
+        "nomes_sondados": 358,
+        "nomes_ausentes": 130,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 122,
+        "validas": 97,
+        "descartadas_detector": 25,
+        "descarte": 0.2,
+        "tokens_aprox": 4737
+      },
+      "tokens_por_valida": {
+        "listas": 95,
+        "perguntas": 49,
+        "total": 144
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -2206,6 +2255,51 @@
       "livres": 12,
       "caracteres": 2063,
       "tokens_aprox": 589
+    },
+    "fatos-r3-029.txt": {
+      "tipo": "fatos",
+      "linhas": 113,
+      "existem": 86,
+      "risco": 0,
+      "livres": 27,
+      "caracteres": 12487,
+      "tokens_aprox": 3568
+    },
+    "fatos-r3-029b.txt": {
+      "tipo": "fatos",
+      "linhas": 45,
+      "existem": 22,
+      "risco": 0,
+      "livres": 23,
+      "caracteres": 3445,
+      "tokens_aprox": 984
+    },
+    "fatos-r3-029c.txt": {
+      "tipo": "fatos",
+      "linhas": 78,
+      "existem": 53,
+      "risco": 0,
+      "livres": 25,
+      "caracteres": 6999,
+      "tokens_aprox": 2000
+    },
+    "fatos-r3-029d.txt": {
+      "tipo": "fatos",
+      "linhas": 55,
+      "existem": 33,
+      "risco": 0,
+      "livres": 22,
+      "caracteres": 4548,
+      "tokens_aprox": 1299
+    },
+    "fatos-r3-029e.txt": {
+      "tipo": "fatos",
+      "linhas": 41,
+      "existem": 20,
+      "risco": 0,
+      "livres": 21,
+      "caracteres": 2855,
+      "tokens_aprox": 816
     }
   }
 }

@@ -303,6 +303,42 @@
         "perguntas": 48,
         "total": 81
       }
+    },
+    {
+      "lote": "018",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 109,
+      "validas": 102,
+      "descartadas": 7,
+      "taxa_descarte": 0.06,
+      "caracteres": 16437,
+      "tokens_aprox": 4696,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [],
+      "listas": {
+        "arquivos": [],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 0,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 109,
+        "validas": 102,
+        "descartadas_detector": 7,
+        "descarte": 0.06,
+        "tokens_aprox": 4696
+      },
+      "tokens_por_valida": {
+        "listas": 0,
+        "perguntas": 46,
+        "total": 46
+      },
+      "obs": "assuntos das sondas já contadas nos lotes 016 e 017 (sobras)"
     }
   ],
   "validacao_respostas_primeiro": {

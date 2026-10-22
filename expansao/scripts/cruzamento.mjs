@@ -56,7 +56,7 @@ const GENTILICOS = new Set(('brasileiro brasileira paulista carioca mineiro mine
   'americano americana canadense ingles inglesa britanico britanica escoces irlandes frances francesa alemao alema italiano italiana ' +
   'espanhol espanhola portugues portuguesa holandes holandesa belga suico sueco norueguês noruegues dinamarques finlandes russo russa ' +
   'polones tcheco hungaro grego grega turco turca egipcio africano africana japones japonesa chines chinesa coreano coreana indiano ' +
-  'australiano australiana europeu europeia asiatico latino sertanejo sertaneja').split(' ').map((w) => radical(w)));
+  'australiano australiana europeu europeia asiatico latino sertanejo sertaneja sovietico sovietica romano romana nazista').split(' ').map((w) => radical(w)));
 
 // Sinônimos / formas equivalentes (já sem acento). Lado esquerdo vira o direito.
 const SINONIMOS = {

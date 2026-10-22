@@ -266,7 +266,7 @@ export function compararE(a, b) {
     if (!(comumA && comumB) || comum >= 3) return { nivel: 'certa', sim, regra: `E1 pergunta invertida (respostas cruzadas nos textos, assunto ${f(comum)})` };
   }
   // mesma resposta, mas cada pergunta cita um título diferente entre aspas: fatos diferentes ("gravou Evidências" x "gravou Fio de Cabelo")
-  const titulosDiferentes = a.aspas.size > 0 && b.aspas.size > 0 && ![...a.aspas].some((t) => b.aspas.has(t));
+  const titulosDiferentes = a.aspas.size > 0 && b.aspas.size > 0 && jacT(a.aspas, b.aspas) < 0.5;
   if (sobreFraca && titulosDiferentes && !(inAB || inBA)) return { nivel: sim >= 0.5 ? 'suspeita' : null, sim, regra: 'mesma resposta, títulos diferentes entre aspas' };
   if (sobreFraca && (inAB || inBA) && comum >= 3) return { nivel: 'certa', sim, regra: `E2c mesma resposta e ela aparece no outro enunciado (${f(comum)})` };
   // mesma resposta: só é o mesmo fato se boa parte do conteúdo específico do enunciado mais curto está no outro
@@ -324,4 +324,11 @@ export function procurarE(alvoP, indice, ignorar = () => false) {
     if (P[r.nivel] > P[melhor.nivel] || (P[r.nivel] === P[melhor.nivel] && r.sim > melhor.sim)) melhor = { nivel: r.nivel, ref: it.ref, sim: r.sim, regra: r.regra };
   }
   return melhor;
+}
+
+/** Jaccard simples entre conjuntos de palavras (títulos entre aspas). */
+function jacT(a, b) {
+  let i = 0;
+  for (const t of a) if (b.has(t)) i++;
+  return a.size + b.size - i ? i / (a.size + b.size - i) : 0;
 }

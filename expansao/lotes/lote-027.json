@@ -8,8 +8,8 @@
     "alternativas": [
       "Batalha de Isandlwana",
       "Batalha de Omdurman",
-      "Batalha de El Alamein",
-      "Batalha de Adwa"
+      "Batalha de Adwa",
+      "Batalha de El Alamein"
     ],
     "subtema": "Ásia, África e Oriente Médio",
     "status": "gerada",
@@ -27,8 +27,8 @@
     "resposta": "Henry Kissinger",
     "alternativas": [
       "Robert McNamara",
-      "Henry Kissinger",
       "Dean Rusk",
+      "Henry Kissinger",
       "Zbigniew Brzezinski"
     ],
     "subtema": "Guerra Fria e século XX",
@@ -46,9 +46,9 @@
     "pergunta": "Qual estrela, a segunda mais brilhante do céu noturno, fica na constelação de Carina?",
     "resposta": "Canopus",
     "alternativas": [
-      "Canopus",
-      "Vega",
       "Rigel",
+      "Vega",
+      "Canopus",
       "Sirius"
     ],
     "subtema": "Astronomia",
@@ -67,8 +67,8 @@
     "resposta": "Gottfried Leibniz",
     "alternativas": [
       "Immanuel Kant",
-      "Gottfried Leibniz",
       "Carl Friedrich Gauss",
+      "Gottfried Leibniz",
       "Leonhard Euler"
     ],
     "subtema": "Matemática e lógica",
@@ -88,8 +88,8 @@
     "alternativas": [
       "Petrúcio Ferreira",
       "Daniel Dias",
-      "Yohansson Nascimento",
-      "Alan Fonteles"
+      "Alan Fonteles",
+      "Yohansson Nascimento"
     ],
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
@@ -107,8 +107,8 @@
     "resposta": "Vietnã",
     "alternativas": [
       "Tailândia",
-      "Vietnã",
       "Camboja",
+      "Vietnã",
       "Laos"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
@@ -128,8 +128,8 @@
     "alternativas": [
       "Legião Condor",
       "Wehrmacht Ost",
-      "Divisão Azul",
-      "Afrika Korps"
+      "Afrika Korps",
+      "Divisão Azul"
     ],
     "subtema": "Guerras Mundiais",
     "status": "gerada",
@@ -168,8 +168,8 @@
     "alternativas": [
       "Íon",
       "Catalisador",
-      "Isômero",
-      "Polímero"
+      "Polímero",
+      "Isômero"
     ],
     "subtema": "Química",
     "status": "gerada",
@@ -187,8 +187,8 @@
     "resposta": "Dohyo",
     "alternativas": [
       "Dojo",
-      "Dohyo",
       "Octógono",
+      "Dohyo",
       "Tatami"
     ],
     "subtema": "Lutas, UFC e boxe",
@@ -268,8 +268,8 @@
     "alternativas": [
       "Max Ernst",
       "Salvador Dalí",
-      "Joan Miró",
-      "René Magritte"
+      "René Magritte",
+      "Joan Miró"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -558,5 +558,1785 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null
+  },
+  {
+    "id": "f4befceab0",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A esfiha e o quibe chegaram ao Brasil com imigrantes de quais países?",
+    "resposta": "Síria e Líbano",
+    "alternativas": [
+      "Egito e Marrocos",
+      "Irã e Iraque",
+      "Síria e Líbano",
+      "Turquia e Grécia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:351",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "815f96c3c6",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O croissant, pão folhado em forma de meia-lua, é símbolo das padarias de qual país?",
+    "resposta": "França",
+    "alternativas": [
+      "Suíça",
+      "Itália",
+      "Bélgica",
+      "França"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9f42bb1a32",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O guacamole, pasta típica do México, é feito principalmente com qual fruta?",
+    "resposta": "Abacate",
+    "alternativas": [
+      "Mamão",
+      "Manga",
+      "Abacate",
+      "Goiaba"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0d075c6893",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O cuscuz nordestino é feito com farinha de qual grão?",
+    "resposta": "Milho",
+    "alternativas": [
+      "Milho",
+      "Aveia",
+      "Trigo",
+      "Arroz"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:37a46856d4 (E2 mesma resposta e mesmo assunto (7.7, 26% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:37a46856d4",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.7, 26% do fato)"
+  },
+  {
+    "id": "dfb06f6032",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Sintra, com o colorido Palácio da Pena, fica perto de qual capital europeia?",
+    "resposta": "Lisboa",
+    "alternativas": [
+      "Lisboa",
+      "Madri",
+      "Roma",
+      "Atenas"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3c64bbf8cd",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O strudel, massa fina enrolada com recheio de maçã, é um doce típico de qual país?",
+    "resposta": "Áustria",
+    "alternativas": [
+      "Áustria",
+      "Suíça",
+      "Bélgica",
+      "Holanda"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a58d53df99",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A raclette e o rösti são pratos típicos de qual país?",
+    "resposta": "Suíça",
+    "alternativas": [
+      "Áustria",
+      "Bélgica",
+      "Holanda",
+      "Suíça"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3471",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
+  },
+  {
+    "id": "b71ac4df98",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destilado de uva é disputado como bebida nacional por Peru e Chile?",
+    "resposta": "Pisco",
+    "alternativas": [
+      "Cachaça",
+      "Tequila",
+      "Mezcal",
+      "Pisco"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f90d26065",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Tromsø, cidade famosa para ver a aurora boreal, fica em qual país?",
+    "resposta": "Noruega",
+    "alternativas": [
+      "Noruega",
+      "Finlândia",
+      "Islândia",
+      "Suécia"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:10",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "28862f6a31",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O jollof, arroz com tomate e pimenta, é motivo de rivalidade culinária entre a Nigéria e qual país?",
+    "resposta": "Gana",
+    "alternativas": [
+      "Etiópia",
+      "África do Sul",
+      "Gana",
+      "Quênia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:575",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "bc0e38fd64",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Tenerife, onde fica o vulcão Teide, faz parte de qual arquipélago?",
+    "resposta": "Ilhas Canárias",
+    "alternativas": [
+      "Madeira",
+      "Ilhas Canárias",
+      "Açores",
+      "Ilhas Baleares"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:309",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "d86ace1cbc",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Matera, cidade de casas escavadas na rocha chamadas \"Sassi\", fica em qual país?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Itália",
+      "Grécia",
+      "Turquia",
+      "Espanha"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "adb5633824",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual civilização da península de Yucatán criou um calendário famoso e escrevia com glifos?",
+    "resposta": "Maias",
+    "alternativas": [
+      "Maias",
+      "Olmecas",
+      "Incas",
+      "Astecas"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e546827536",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual presidente americano aboliu a escravidão e comandou a União na Guerra Civil?",
+    "resposta": "Abraham Lincoln",
+    "alternativas": [
+      "Ulysses Grant",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "George Washington"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1505",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "7dd2d44377",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como Joana d'Arc foi executada, em 1431?",
+    "resposta": "Queimada na fogueira",
+    "alternativas": [
+      "Afogada",
+      "Enforcada",
+      "Decapitada",
+      "Queimada na fogueira"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:28924b320c",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "a846e3ecc2",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual instrumento Galileu aperfeiçoou para observar as luas de Júpiter?",
+    "resposta": "Luneta",
+    "alternativas": [
+      "Luneta",
+      "Astrolábio",
+      "Microscópio",
+      "Bússola"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cdcf303dff",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Os Jogos Olímpicos da Antiguidade eram realizados em homenagem a qual deus grego?",
+    "resposta": "Zeus",
+    "alternativas": [
+      "Poseidon",
+      "Zeus",
+      "Apolo",
+      "Ares"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dcc8385801",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o antigo nome de Tóquio, sede do xogunato Tokugawa?",
+    "resposta": "Edo",
+    "alternativas": [
+      "Edo",
+      "Nara",
+      "Osaka",
+      "Kyoto"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba86115a2e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual general americano comandou o Terceiro Exército na Segunda Guerra e virou filme com seu nome, em 1970?",
+    "resposta": "George Patton",
+    "alternativas": [
+      "Omar Bradley",
+      "Dwight Eisenhower",
+      "George Patton",
+      "Douglas MacArthur"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9292453fb5",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual prédio do parlamento alemão pegou fogo em 1933, servindo de pretexto para Hitler perseguir opositores?",
+    "resposta": "Reichstag",
+    "alternativas": [
+      "Palácio de Charlottenburg",
+      "Chancelaria",
+      "Portão de Brandemburgo",
+      "Reichstag"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "be4deeb730",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual revolta armada no Quênia, nos anos 1950, lutou contra o domínio britânico?",
+    "resposta": "Revolta Mau Mau",
+    "alternativas": [
+      "Revolta dos Sipaios",
+      "Guerra dos Bôeres",
+      "Revolta dos Boxers",
+      "Revolta Mau Mau"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d692996906",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em 1965, as marchas pelos direitos civis partiram de qual cidade do Alabama rumo a Montgomery?",
+    "resposta": "Selma",
+    "alternativas": [
+      "Birmingham",
+      "Selma",
+      "Mobile",
+      "Tuskegee"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b701a22010",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o maior roedor do mundo?",
+    "resposta": "Capivara",
+    "alternativas": [
+      "Capivara",
+      "Porco-espinho",
+      "Castor",
+      "Paca"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "94d582b31d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual animal das regiões geladas puxa o trenó do Papai Noel nas histórias?",
+    "resposta": "Rena",
+    "alternativas": [
+      "Cabra-montesa",
+      "Alce",
+      "Cervo-vermelho",
+      "Rena"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a1c5a550d5",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual ave cor-de-rosa costuma descansar apoiada em uma perna só?",
+    "resposta": "Flamingo",
+    "alternativas": [
+      "Flamingo",
+      "Garça",
+      "Colhereiro",
+      "Íbis"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:90cddf5d3d (E3 resposta nova citada no texto antigo + assunto (10.5))",
+    "dup": "certa",
+    "dup_ref": "id:90cddf5d3d",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (10.5)"
+  },
+  {
+    "id": "f480facd43",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o maior felino das Américas?",
+    "resposta": "Onça-pintada",
+    "alternativas": [
+      "Lince",
+      "Onça-pintada",
+      "Jaguatirica",
+      "Puma"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1604 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:1604",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "b30645c441",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual planta carnívora fecha as folhas como uma armadilha quando um inseto pousa nelas?",
+    "resposta": "Dioneia",
+    "alternativas": [
+      "Dioneia",
+      "Nepentes",
+      "Drosera",
+      "Bromélia"
+    ],
+    "subtema": "Plantas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1775 (R4 resposta nova citada no enunciado antigo + assunto em comum (peso 30.1))",
+    "dup": "certa",
+    "dup_ref": "banco:1775",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 30.1)"
+  },
+  {
+    "id": "a7fa4505ad",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o maior cervídeo do mundo, com chifres largos em forma de pá?",
+    "resposta": "Alce",
+    "alternativas": [
+      "Veado-catingueiro",
+      "Alce",
+      "Cervo-do-pantanal",
+      "Rena"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "99dcad03d3",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual abelha grande, preta e peluda, também chamada de abelha-carpinteira, faz ninho em madeira?",
+    "resposta": "Mamangava",
+    "alternativas": [
+      "Abelha-europeia",
+      "Jataí",
+      "Uruçu",
+      "Mamangava"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ecf6679bf5",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual animal selvagem, ancestral do porco doméstico, virou praga em lavouras do Sul e do Sudeste?",
+    "resposta": "Javali",
+    "alternativas": [
+      "Cateto",
+      "Queixada",
+      "Capivara",
+      "Javali"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b5471b559",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual bovino de pelo longo vive nas montanhas do Himalaia e do Tibete?",
+    "resposta": "Iaque",
+    "alternativas": [
+      "Búfalo",
+      "Iaque",
+      "Bisão",
+      "Lhama"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aba4085169",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Na América do Norte, a rena selvagem é chamada de quê?",
+    "resposta": "Caribu",
+    "alternativas": [
+      "Wapiti",
+      "Caribu",
+      "Alce",
+      "Bisão"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4096da4afb",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Por que os flamingos têm as penas cor-de-rosa?",
+    "resposta": "Pelos pigmentos da alimentação",
+    "alternativas": [
+      "Pelo sangue sob a pele",
+      "Pela idade",
+      "Pelos pigmentos da alimentação",
+      "Pelo sol forte"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:90cddf5d3d (E2 mesma resposta e enunciados parecidos (0.8))",
+    "dup": "certa",
+    "dup_ref": "id:90cddf5d3d",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.8)"
+  },
+  {
+    "id": "b3af545520",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual apelido a torcida do Flamengo usa para o clube em gritos como \"Vamos, ...!\"?",
+    "resposta": "Mengão",
+    "alternativas": [
+      "Fogão",
+      "Mengão",
+      "Timão",
+      "Verdão"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cb593ca930",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual clube paulista é chamado de \"Timão\" pela torcida?",
+    "resposta": "Corinthians",
+    "alternativas": [
+      "Santos",
+      "Corinthians",
+      "São Paulo",
+      "Palmeiras"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2605",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (6.6)"
+  },
+  {
+    "id": "5dcb8bfbe3",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual pássaro amarelo virou apelido da Seleção Brasileira?",
+    "resposta": "Canarinho",
+    "alternativas": [
+      "Sabiá",
+      "Pintassilgo",
+      "Bem-te-vi",
+      "Canarinho"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "13a69e9c78",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como a torcida chama o sexto título mundial que a Seleção Brasileira persegue desde 2002?",
+    "resposta": "Hexa",
+    "alternativas": [
+      "Hexa",
+      "Tetra",
+      "Penta",
+      "Hepta"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c23384957c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantos anéis entrelaçados formam o símbolo olímpico?",
+    "resposta": "Cinco",
+    "alternativas": [
+      "Quatro",
+      "Cinco",
+      "Sete",
+      "Seis"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2796",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (4.6)"
+  },
+  {
+    "id": "c0d47c3b1f",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual lugar da Grécia é acesa a chama olímpica antes de cada edição dos Jogos?",
+    "resposta": "Olímpia",
+    "alternativas": [
+      "Delfos",
+      "Corinto",
+      "Esparta",
+      "Olímpia"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:964 (E2 mesma resposta e mesmo assunto (16.0, 55% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:964",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (16.0, 55% do fato)"
+  },
+  {
+    "id": "a592cb95f3",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual estádio de Buenos Aires é a casa do River Plate?",
+    "resposta": "Monumental de Núñez",
+    "alternativas": [
+      "El Gasómetro",
+      "Monumental de Núñez",
+      "Cilindro de Avellaneda",
+      "La Bombonera"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f82d3ff66",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual estádio de Campinas é a casa da Ponte Preta?",
+    "resposta": "Moisés Lucarelli",
+    "alternativas": [
+      "Arena Barueri",
+      "Canindé",
+      "Brinco de Ouro",
+      "Moisés Lucarelli"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5dc055abbf",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual galo foi o mascote da Copa do Mundo de 1998, na França?",
+    "resposta": "Footix",
+    "alternativas": [
+      "Naranjito",
+      "Ciao",
+      "Striker",
+      "Footix"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0681e3fbe0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual foi o nome do mascote da Copa do Mundo de 2022, no Catar?",
+    "resposta": "La'eeb",
+    "alternativas": [
+      "Zakumi",
+      "Fuleco",
+      "Zabivaka",
+      "La'eeb"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ba03594033",
+    "recente": true,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "8af8eb4e9b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em qual esporte de inverno os atletas varrem o gelo à frente de uma pedra de granito?",
+    "resposta": "Curling",
+    "alternativas": [
+      "Bobsled",
+      "Biatlo",
+      "Curling",
+      "Hóquei no gelo"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2512 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:2512",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "352be62f6e",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país sediou os Jogos Olímpicos de Inverno de 2014, em Sochi?",
+    "resposta": "Rússia",
+    "alternativas": [
+      "Noruega",
+      "Japão",
+      "Canadá",
+      "Rússia"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:946 (E2 mesma resposta e mesmo assunto (9.5, 23% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:946",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (9.5, 23% do fato)"
+  },
+  {
+    "id": "4051d53ee9",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estádio de Florianópolis é a casa do Figueirense?",
+    "resposta": "Orlando Scarpelli",
+    "alternativas": [
+      "Heriberto Hülse",
+      "Ressacada",
+      "Orlando Scarpelli",
+      "Arena Condá"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3af8adc392",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual leão foi o primeiro mascote da história das Copas, em 1966, na Inglaterra?",
+    "resposta": "World Cup Willie",
+    "alternativas": [
+      "Footix",
+      "Striker",
+      "Gauchito",
+      "World Cup Willie"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea586e2e49",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade sediou os primeiros Jogos Olímpicos de Inverno, em 1924?",
+    "resposta": "Chamonix",
+    "alternativas": [
+      "St. Moritz",
+      "Lake Placid",
+      "Chamonix",
+      "Oslo"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e9b495152b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista do Renascimento pintou a \"Mona Lisa\"?",
+    "resposta": "Leonardo da Vinci",
+    "alternativas": [
+      "Sandro Botticelli",
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Rafael"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:948 (E2e mesma resposta rara e algum assunto em comum (9.7, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:948",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (9.7, sim 0.1)"
+  },
+  {
+    "id": "1aceace85e",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista pop americano pintou latas de sopa Campbell's e retratos de Marilyn Monroe?",
+    "resposta": "Andy Warhol",
+    "alternativas": [
+      "Andy Warhol",
+      "Roy Lichtenstein",
+      "Jackson Pollock",
+      "Keith Haring"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "076c80c8e7",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O MoMA, famoso museu de arte moderna, fica em qual cidade?",
+    "resposta": "Nova York",
+    "alternativas": [
+      "Nova York",
+      "Los Angeles",
+      "Londres",
+      "Paris"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b58c275e4f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O Museu do Amanhã, de arquitetura futurista na zona portuária, fica em qual cidade?",
+    "resposta": "Rio de Janeiro",
+    "alternativas": [
+      "Salvador",
+      "Recife",
+      "Rio de Janeiro",
+      "São Paulo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:d2ab1a9ca5",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.4)"
+  },
+  {
+    "id": "da36ca0726",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O Museu do Ipiranga, que guarda o quadro \"Independência ou Morte\", fica em qual cidade?",
+    "resposta": "São Paulo",
+    "alternativas": [
+      "Rio de Janeiro",
+      "Santos",
+      "Petrópolis",
+      "São Paulo"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:135 (E2 mesma resposta e mesmo assunto (10.2, 29% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:135",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.2, 29% do fato)"
+  },
+  {
+    "id": "c6483c9f28",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual dança típica das festas juninas tem comandos como \"anarriê\" e \"olha a cobra\"?",
+    "resposta": "Quadrilha",
+    "alternativas": [
+      "Forró",
+      "Xaxado",
+      "Ciranda",
+      "Quadrilha"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "968e6ddc35",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o local dos desfiles das escolas de samba do Rio, na Marquês de Sapucaí?",
+    "resposta": "Sambódromo",
+    "alternativas": [
+      "Sambódromo",
+      "Maracanãzinho",
+      "Cidade do Samba",
+      "Terreirão do Samba"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0580db4bb3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Numa escola de samba, quem carrega a bandeira da escola durante o desfile?",
+    "resposta": "Porta-bandeira",
+    "alternativas": [
+      "Puxador",
+      "Rainha de bateria",
+      "Mestre-sala",
+      "Porta-bandeira"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:d8d04c8920",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "da693b7d3b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo abre o desfile de uma escola de samba, apresentando a escola ao público?",
+    "resposta": "Comissão de frente",
+    "alternativas": [
+      "Ala das baianas",
+      "Comissão de frente",
+      "Velha guarda",
+      "Bateria"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "88f61f6d71",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual caminhão de som potente arrasta os foliões no carnaval de Salvador?",
+    "resposta": "Trio elétrico",
+    "alternativas": [
+      "Abadá",
+      "Trio elétrico",
+      "Carro alegórico",
+      "Bloco afro"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "728994f8a7",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual prêmio é considerado o \"Oscar da música\"?",
+    "resposta": "Grammy",
+    "alternativas": [
+      "Grammy",
+      "Emmy",
+      "Billboard",
+      "Tony"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3257",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "0f4cb20b63",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual prêmio \"homenageia\" os piores filmes do ano?",
+    "resposta": "Framboesa de Ouro",
+    "alternativas": [
+      "Tomate Podre",
+      "Limão de Prata",
+      "Abacaxi de Ouro",
+      "Framboesa de Ouro"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "560920742b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual festival de cinema independente acontece em Park City, nos Estados Unidos, e foi criado com apoio de Robert Redford?",
+    "resposta": "Sundance",
+    "alternativas": [
+      "Sundance",
+      "South by Southwest",
+      "Toronto",
+      "Tribeca"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3ff4c222ca",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor espanhol pintou \"As Meninas\", com a infanta Margarida no centro?",
+    "resposta": "Diego Velázquez",
+    "alternativas": [
+      "Bartolomé Murillo",
+      "El Greco",
+      "Diego Velázquez",
+      "Francisco de Goya"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "008fdc0c98",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor barroco italiano ficou famoso pelo forte contraste de luz e sombra e por uma vida cheia de brigas?",
+    "resposta": "Caravaggio",
+    "alternativas": [
+      "Caravaggio",
+      "Ticiano",
+      "Tintoretto",
+      "Rafael"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bd230121ec",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam os vídeos curtos e verticais do YouTube, criados para concorrer com o TikTok?",
+    "resposta": "Shorts",
+    "alternativas": [
+      "Reels",
+      "Shorts",
+      "Spaces",
+      "Stories"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2e69f6e696",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o envio de um arquivo do seu aparelho para a internet, o contrário do download?",
+    "resposta": "Upload",
+    "alternativas": [
+      "Streaming",
+      "Backup",
+      "Upload",
+      "Sync"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2c5e55d7ac",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a página de rolagem com as publicações das contas que você segue?",
+    "resposta": "Feed",
+    "alternativas": [
+      "Story",
+      "Perfil",
+      "Direct",
+      "Feed"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "38d70f0110",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual varejista brasileira tem a assistente virtual Lu?",
+    "resposta": "Magalu",
+    "alternativas": [
+      "Casas Bahia",
+      "Magalu",
+      "Americanas",
+      "Ponto Frio"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c6c9117830",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o fone de ouvido com microfone acoplado, muito usado por gamers?",
+    "resposta": "Headset",
+    "alternativas": [
+      "Headset",
+      "Earbud",
+      "Soundbar",
+      "Subwoofer"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5400ce4967",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as mensagens indesejadas enviadas em massa por e-mail?",
+    "resposta": "Spam",
+    "alternativas": [
+      "Firewall",
+      "Spam",
+      "Cookie",
+      "Captcha"
+    ],
+    "subtema": "Segurança digital",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c4ec5c6dea",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual loja online brasileira de artigos esportivos tem nome que junta \"net\" com a palavra inglesa para sapatos?",
+    "resposta": "Netshoes",
+    "alternativas": [
+      "Dafiti",
+      "Netshoes",
+      "Centauro",
+      "Decathlon"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1beb4a3fde",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama um programa que executa tarefas automáticas na internet, como responder mensagens?",
+    "resposta": "Bot",
+    "alternativas": [
+      "Plugin",
+      "Proxy",
+      "Cookie",
+      "Bot"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5552f05da7",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o aparelho de leitura digital, como o Kindle, com tela de tinta eletrônica?",
+    "resposta": "E-reader",
+    "alternativas": [
+      "Palmtop",
+      "E-reader",
+      "Tablet",
+      "Smartwatch"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4024 (E5 resposta antiga citada no texto novo + assunto (19.0))",
+    "dup": "certa",
+    "dup_ref": "banco:4024",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.0)"
+  },
+  {
+    "id": "121e6bb0c5",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a câmera que grava tudo ao redor, gerando vídeos em que o espectador pode girar a imagem?",
+    "resposta": "Câmera 360",
+    "alternativas": [
+      "Câmera 360",
+      "Câmera térmica",
+      "Webcam",
+      "Câmera lenta"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1a1b420b34",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual empresa americana vende aparelhos que transformam TVs comuns em smart TVs, concorrendo com o Chromecast?",
+    "resposta": "Roku",
+    "alternativas": [
+      "Garmin",
+      "Fitbit",
+      "Sonos",
+      "Roku"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "649f124b05",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o notebook muito fino e leve, termo criado pela Intel em 2011?",
+    "resposta": "Ultrabook",
+    "alternativas": [
+      "Netbook",
+      "Desktop",
+      "Chromebook",
+      "Ultrabook"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8aaf2897e5",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual molusco produz pérolas?",
+    "resposta": "Ostra",
+    "alternativas": [
+      "Lula",
+      "Caramujo",
+      "Mexilhão",
+      "Ostra"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2b96fbf6f8",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o filhote do cavalo?",
+    "resposta": "Potro",
+    "alternativas": [
+      "Leitão",
+      "Cabrito",
+      "Potro",
+      "Bezerro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "639425043b",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Os pinguins vivem na natureza principalmente em qual hemisfério?",
+    "resposta": "Sul",
+    "alternativas": [
+      "Sul",
+      "Oeste",
+      "Leste",
+      "Norte"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1724 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:1724",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "18669fedbc",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Por qual abertura no alto da cabeça os golfinhos respiram?",
+    "resposta": "Espiráculo",
+    "alternativas": [
+      "Brânquias",
+      "Espiráculo",
+      "Opérculo",
+      "Narinas laterais"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2202 (E2e mesma resposta rara e algum assunto em comum (17.3, sim 0.4))",
+    "dup": "certa",
+    "dup_ref": "banco:2202",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (17.3, sim 0.4)"
+  },
+  {
+    "id": "cd673d63b8",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como é chamado o clássico entre Flamengo e Fluminense?",
+    "resposta": "Fla-Flu",
+    "alternativas": [
+      "Clássico da Amizade",
+      "Clássico dos Milhões",
+      "Clássico Vovô",
+      "Fla-Flu"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "742d9cf387",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "O \"Clássico Vovô\", o mais antigo do Rio de Janeiro, é disputado por quais clubes?",
+    "resposta": "Botafogo e Fluminense",
+    "alternativas": [
+      "Flamengo e Vasco",
+      "Vasco e Botafogo",
+      "Flamengo e Fluminense",
+      "Botafogo e Fluminense"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:175 (E2 mesma resposta e mesmo assunto (7.3, 56% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:175",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.3, 56% do fato)"
+  },
+  {
+    "id": "cdf23104d4",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como é chamado o clássico paulista entre Santos e São Paulo?",
+    "resposta": "San-São",
+    "alternativas": [
+      "San-São",
+      "Derby",
+      "Choque-Rei",
+      "Majestoso"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2905 (E2 mesma resposta e enunciados parecidos (1.0))",
+    "dup": "certa",
+    "dup_ref": "banco:2905",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (1.0)"
+  },
+  {
+    "id": "0f86678f27",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como é conhecido o clássico entre Atlético Mineiro e Cruzeiro?",
+    "resposta": "Clássico Mineiro",
+    "alternativas": [
+      "Clássico das Multidões",
+      "Clássico Vovô",
+      "Choque-Rei",
+      "Clássico Mineiro"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2878 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:2878",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "3bbfa61152",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a memória do navegador que guarda arquivos dos sites para carregá-los mais rápido depois?",
+    "resposta": "Cache",
+    "alternativas": [
+      "Cookie",
+      "Cache",
+      "Firewall",
+      "Proxy"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f8f365524",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual atalho alterna entre as janelas abertas no Windows?",
+    "resposta": "Alt+Tab",
+    "alternativas": [
+      "Alt+F4",
+      "Alt+Tab",
+      "Windows+L",
+      "Ctrl+Tab"
+    ],
+    "subtema": "Hardware",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3723 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:3723",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "942fcf3497",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o filhote do porco?",
+    "resposta": "Leitão",
+    "alternativas": [
+      "Leitão",
+      "Potro",
+      "Bezerro",
+      "Cabrito"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "75cb5bb8c3",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Quais clubes disputam o Derby Campineiro?",
+    "resposta": "Guarani e Ponte Preta",
+    "alternativas": [
+      "Guarani e Ponte Preta",
+      "Ponte Preta e Ituano",
+      "Guarani e Red Bull Bragantino",
+      "Paulista e Guarani"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2726",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.6)"
+  },
+  {
+    "id": "282249066f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube é o grande rival do Arsenal no clássico do norte de Londres?",
+    "resposta": "Tottenham",
+    "alternativas": [
+      "Chelsea",
+      "West Ham",
+      "Tottenham",
+      "Fulham"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "179768db1a",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "O \"Le Classique\" é o clássico francês entre o PSG e qual clube?",
+    "resposta": "Olympique de Marseille",
+    "alternativas": [
+      "Lyon",
+      "Monaco",
+      "Lille",
+      "Olympique de Marseille"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:510dddcfd7",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
   }
 ]

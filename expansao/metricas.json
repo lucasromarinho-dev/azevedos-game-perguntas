@@ -663,6 +663,46 @@
         "total": 132
       },
       "obs": "1a rodada escrita de cabeça (sem sonda): 45 de 121 já existiam (37%). Daí em diante, só nomes ausentes nas sondas. 28 válidas excedentes (escritas nas fontes do 026) passaram para o lote 027. As sondas a-e (1.592 nomes) servem também aos lotes seguintes."
+    },
+    {
+      "lote": "027",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 117,
+      "validas": 100,
+      "descartadas": 17,
+      "taxa_descarte": 0.15,
+      "caracteres": 12382,
+      "tokens_aprox": 3538,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "nomes-r3-f.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r3-f.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 1110,
+        "nomes_sondados": 373,
+        "nomes_ausentes": 38,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 117,
+        "validas": 100,
+        "descartadas_detector": 17,
+        "descarte": 0.15,
+        "tokens_aprox": 3538
+      },
+      "tokens_por_valida": {
+        "listas": 11,
+        "perguntas": 35,
+        "total": 46
+      },
+      "obs": "Inclui 28 válidas excedentes escritas nas fontes do lote 026. A partir daqui, cada nome passa antes por scripts/fatos.mjs (fatos já usados) para escrever só ângulo novo."
     }
   ],
   "validacao_respostas_primeiro": {
@@ -2065,6 +2105,15 @@
       "livres": 77,
       "caracteres": 3081,
       "tokens_aprox": 880
+    },
+    "nomes-r3-f.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 373,
+      "existem": 335,
+      "risco": 0,
+      "livres": 38,
+      "caracteres": 3884,
+      "tokens_aprox": 1110
     }
   }
 }

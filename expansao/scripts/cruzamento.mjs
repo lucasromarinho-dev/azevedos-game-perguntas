@@ -128,6 +128,7 @@ codigo aberto = open source | codigo fonte aberto
 jo soares = programa jo
 entrevista = talk show
 estrela = estelar
+okapi = ocapi
 pequim = beijing | peking
 xangai = shanghai
 cantao = guangzhou

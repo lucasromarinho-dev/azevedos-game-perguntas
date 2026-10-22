@@ -21,7 +21,7 @@ Rode da raiz do repo.
 |---|---|
 | `node expansao/scripts/montar-lote.mjs expansao/fontes/lote-002.txt 2` | Converte a fonte em fichas no `lote-002.json`. Valida as regras do jogo e do piloto, gera o `id` e sorteia a posição da certa. Só acrescenta o que ainda não está no lote (pode rodar de novo sem duplicar). |
 | `node expansao/scripts/duplicadas.mjs lote-002.json --descartar` | Compara com as 4.580 atuais e com as outras novas. Marca `dup` e `dup_ref`; com `--descartar`, duplicada "certa" vira `descartada`. |
-| `node expansao/scripts/duplicadas.mjs --teste` | Casos de teste do detector (reescritas de perguntas atuais etc.) |
+| `node expansao/scripts/duplicadas.mjs --teste` | Casos de teste do detector, incluindo os 15 descartes do conferente-v1 (meta: 13 ou mais como "certa") |
 | `node expansao/scripts/duplicadas.mjs --banco` | Procura duplicadas dentro do próprio banco atual (só relatório) |
 | `node expansao/scripts/ver-dups.mjs lote-002.json [suspeita]` | Mostra lado a lado cada pergunta marcada e a parecida |
 | `node expansao/scripts/descartar.mjs lote-002.json dup id1 id2` | Descarta à mão (com `dup`, o motivo vira "mesmo fato que ...") |
@@ -29,15 +29,20 @@ Rode da raiz do repo.
 | `node expansao/scripts/balancear.mjs lote-002.json` | Equilibra a posição da certa (A/B/C/D) no lote |
 | `node expansao/scripts/status.mjs [--pendentes]` | Painel geral: status, metas, duplicidade, recentes, posição da certa, pendências |
 | `node expansao/scripts/subtemas.mjs` | Recalcula `subtemas.json` |
+| `node expansao/scripts/metrica-lote.mjs 6 "arquivos"` | Grava em `metricas.json` a linha do lote (escritas, válidas, descarte, caracteres, tokens) |
+
+O detector (`scripts/semelhanca.mjs`, usado por `duplicadas.mjs` e `candidatas.mjs`) pesa as palavras pela raridade no banco (IDF) e cruza a resposta de uma pergunta com o enunciado da outra nos dois sentidos, para pegar pergunta invertida ("Manila é capital de qual país?" x "Qual a capital das Filipinas?") e resposta citada no banco ("A prensa de tipos móveis de Gutenberg..." x "Qual invenção de Gutenberg...?"). As regras e a calibração estão no topo do arquivo e em `metricas.json` (`detector_v2`).
 
 ## Método atual: respostas primeiro (aprovado pelo Lucas)
 
 O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escrito de cabeça já existia. Por isso:
 
-1. Escolha um subtema aberto em `arvore.json` (meta final ~10x, com `falta` por subtema) e um **microtema estreito**.
+1. Escolha um subtema aberto em `arvore.json` (meta **3x**, banco total ~13.700, com `falta` e `cota_rodada` por subtema; microtemas já testados em `_microtemas`) e um **microtema estreito**.
 2. `node expansao/scripts/contexto.mjs "Categoria" termo1 termo2 ...` mostra até 20 perguntas que já tocam no microtema ("já existe, não repetir").
 3. Escreva só uma **lista curta** em `candidatas/<microtema>.txt`, uma linha por fato: `Categoria|Resposta - fato curto`.
-4. `node expansao/scripts/candidatas.mjs candidatas/<microtema>.txt` marca cada linha como EXISTE / RISCO / LIVRE. Descarte acima de 50% = microtema **saturado**: registre em `arvore.json` (campo `microtemas`) e troque de microtema.
+4. `node expansao/scripts/candidatas.mjs candidatas/<arquivo>.txt --registrar` marca cada linha como EXISTE / RISCO / LIVRE e grava o resultado por microtema em `microtemas.json` (que o `arvore.mjs` copia para `arvore.json`). Descarte acima de 50% = microtema **saturado** (cota 0): troque de microtema.
+   - **A "Resposta" da candidata tem que ser exatamente a resposta que a pergunta vai pedir.** Se a pergunta inverter (candidata "Gunners", pergunta pedindo "Arsenal"), o filtro não vale.
+   - Escreva as perguntas só a partir da saída de `--livres`, nunca de memória.
 5. Só para as LIVRES (e RISCO com ângulo novo) escreva as perguntas completas na fonte do lote e siga o fluxo abaixo.
 6. Anote o lote em `metricas.json` (método, escritas, válidas, descarte).
 

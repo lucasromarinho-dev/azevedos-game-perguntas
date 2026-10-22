@@ -153,6 +153,16 @@ for (const [cat, lista] of Object.entries(METAS)) {
   }
   out._resumo[cat] = { meta_3x: meta3Cat, banco: bancoCat[cat] || 0, novas_validas: novasCat[cat] || 0, falta: faltaCat };
 }
+// Microtemas testados com candidatas.mjs (microtemas.json): saturados ficam com cota 0, listados por categoria.
+const mtArq = join(RAIZ_EXP, 'microtemas.json');
+if (existsSync(mtArq)) {
+  const mt = lerJson(mtArq);
+  out._microtemas = {};
+  for (const [nome, v] of Object.entries(mt)) {
+    const c = (out._microtemas[v.categoria] = out._microtemas[v.categoria] || { saturados: [], abertos: [] });
+    c[v.status === 'saturado' ? 'saturados' : 'abertos'].push({ microtema: nome, candidatas: v.candidatas, existem: v.existem, cota: v.status === 'saturado' ? 0 : null });
+  }
+}
 gravarJson(caminho, out);
 for (const [cat, r] of Object.entries(out._resumo)) {
   const cota = Object.values(out[cat]).reduce((s, x) => s + x.cota_rodada, 0);

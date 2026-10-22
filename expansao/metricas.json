@@ -31,5 +31,65 @@
     "intermediario_assuntos_livres": 52,
     "respostas_primeiro_microtema_livre_10pct_descarte": 58,
     "respostas_primeiro_parando_no_saturado": "20 linhas checadas e abandonadas custam ~260 tokens por microtema saturado; sem a regra de saturação, insistir num microtema como 'capitais' custaria ~100 tokens por válida, igual ao método antigo"
+  },
+  "conferencia": {
+    "_leia": "Conferência independente (conferente-v1) das perguntas 'geradas'. conferidas_sem_mudanca + corrigidas = status 'conferida'; descartadas com motivo agrupado pelo prefixo. 'perguntas_com_busca_web' = perguntas que precisaram de WebSearch/WebFetch para confirmar o fato.",
+    "lotes": [
+      {
+        "lote": "001",
+        "conferidas_sem_mudanca": 92,
+        "corrigidas": 2,
+        "descartadas": 6,
+        "motivos_descarte": {
+          "duplicada": 6
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 5
+          },
+          "Ciências": {
+            "conferidas": 17,
+            "corrigidas": 1,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "descartadas": 0
+          }
+        },
+        "minutos_aprox": 25,
+        "descartes": [
+          "622abffc71: duplicada: mesmo fato que banco:940 (Marco Polo, mercador veneziano na China)",
+          "c21e645675: duplicada: mesmo fato que banco:1378 (Tratado de Madri substituiu Tordesilhas)",
+          "065f4cc97e: duplicada: mesmo fato que banco:1958 (sismógrafo e terremotos)",
+          "03fcfde198: duplicada: mesmo fato que banco:1206 (Romanov, família do último czar)",
+          "3563f762d8: duplicada: mesmo fato que banco:412 (Macau, antiga colônia portuguesa)",
+          "169f0c9c8e: duplicada: mesmo fato que banco:1500 (França/Napoleão vendeu a Louisiana)"
+        ],
+        "correcoes": [
+          "54ad49299e: enunciado precisado ('maior que 1'), pois o 1 também só é divisível por 1 e por ele mesmo e não é primo",
+          "dd8aa6a78e: tirado 'espanhol' do enunciado: só Alcaraz e Nadal eram espanhóis entre as alternativas"
+        ]
+      }
+    ]
   }
 }

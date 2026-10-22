@@ -50,11 +50,12 @@
       "Chile e Equador"
     ],
     "subtema": "Fronteiras, continentes e países",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "0176b42b82",
@@ -69,11 +70,12 @@
       "Nordeste"
     ],
     "subtema": "Capitais estaduais e regiões do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "4c29583115",
@@ -107,11 +109,12 @@
       "Paraná"
     ],
     "subtema": "Biomas, clima e vegetação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "62358963e0",
@@ -221,11 +224,12 @@
       "Costa do Marfim"
     ],
     "subtema": "Economia e população",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "08be3ba4c9",
@@ -240,11 +244,12 @@
       "Rússia"
     ],
     "subtema": "Coordenadas, fusos e cartografia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "34a26e1729",
@@ -411,11 +416,12 @@
       "Rei Artur"
     ],
     "subtema": "Idade Média e feudalismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "622abffc71",
@@ -430,11 +436,12 @@
       "Cristóvão Colombo"
     ],
     "subtema": "Grandes Navegações e Américas pré-colombianas",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:940 (Marco Polo, mercador veneziano na China)",
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "39de5f04c4",
@@ -563,11 +570,12 @@
       "Dinastia Qin"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "775077af4d",
@@ -582,11 +590,12 @@
       "Juan Sebastián Elcano"
     ],
     "subtema": "Grandes Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "c21e645675",
@@ -601,11 +610,12 @@
       "Tratado de Petrópolis"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:1378 (Tratado de Madri substituiu Tordesilhas)",
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e1a3b34e5f",
@@ -639,11 +649,12 @@
       "Antônio Francisco Lisboa"
     ],
     "subtema": "Arte e cultura na história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "90e61a17e2",
@@ -677,11 +688,12 @@
       "Onívoro"
     ],
     "subtema": "Animais e zoologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "fc34e096be",
@@ -715,11 +727,12 @@
       "Antropologia"
     ],
     "subtema": "Dinossauros e pré-história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "0fe2e3ce22",
@@ -744,7 +757,7 @@
     "id": "54ad49299e",
     "categoria": "Ciências",
     "dificuldade": "facil",
-    "pergunta": "Como se chama o número que só é divisível por 1 e por ele mesmo?",
+    "pergunta": "Como se chama o número maior que 1 que só é divisível por 1 e por ele mesmo?",
     "resposta": "Número primo",
     "alternativas": [
       "Número par",
@@ -753,11 +766,13 @@
       "Número racional"
     ],
     "subtema": "Matemática",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "correcao": "enunciado precisado ('maior que 1'), pois o 1 também só é divisível por 1 e por ele mesmo e não é primo",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "26d8109b43",
@@ -829,11 +844,12 @@
       "Heterótrofos"
     ],
     "subtema": "Ecologia e meio ambiente",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "85b3d7e37b",
@@ -867,11 +883,12 @@
       "Mediana"
     ],
     "subtema": "Matemática",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "065f4cc97e",
@@ -886,11 +903,12 @@
       "Anemômetro"
     ],
     "subtema": "Instrumentos e medições",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:1958 (sismógrafo e terremotos)",
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "de79408791",
@@ -924,11 +942,12 @@
       "Triássico"
     ],
     "subtema": "Dinossauros e pré-história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "29d4aa4d79",
@@ -981,11 +1000,12 @@
       "Espécies-chave"
     ],
     "subtema": "Ecologia e meio ambiente",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "378ceae5c6",
@@ -1038,11 +1058,12 @@
       "Quatro"
     ],
     "subtema": "Vôlei e outros esportes de quadra",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "65b2592c24",
@@ -1076,11 +1097,12 @@
       "Marrocos"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:24",
-    "recente": true
+    "recente": true,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "135e6a30fa",
@@ -1133,11 +1155,12 @@
       "Williams"
     ],
     "subtema": "Fórmula 1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "9ccfd66650",
@@ -1171,11 +1194,12 @@
       "Estudiantes"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "3778f461b6",
@@ -1190,11 +1214,12 @@
       "Alemanha"
     ],
     "subtema": "Futebol europeu e Champions",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": true
+    "recente": true,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f254c0ca36",
@@ -1266,11 +1291,12 @@
       "Danubio"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "03323f593a",
@@ -1285,11 +1311,12 @@
       "Estados Unidos"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "aea088d0e2",
@@ -1342,11 +1369,12 @@
       "Espanha"
     ],
     "subtema": "Tênis e golfe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "9fabc6f691",
@@ -1361,11 +1389,12 @@
       "Dragon Ball"
     ],
     "subtema": "Anime e mangá",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "4eaeff2bed",
@@ -1380,11 +1409,12 @@
       "Emília"
     ],
     "subtema": "Literatura e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "b6a6c5ac0a",
@@ -1437,11 +1467,12 @@
       "Vila da Névoa"
     ],
     "subtema": "Anime e mangá",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "5e5f1872a5",
@@ -1532,11 +1563,12 @@
       "Regina Duarte"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "58d70923ec",
@@ -1570,11 +1602,12 @@
       "Alexa"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "0f2d194b07",
@@ -1608,11 +1641,12 @@
       "Bluetooth"
     ],
     "subtema": "Internet, redes e protocolos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "579d27c8fc",
@@ -1646,11 +1680,12 @@
       "Backspace"
     ],
     "subtema": "Hardware e componentes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "61c89e5385",
@@ -1665,11 +1700,12 @@
       "Alan Turing"
     ],
     "subtema": "História da computação e invenções",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e8c7c36364",
@@ -1684,11 +1720,12 @@
       "Xiaomi"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "31e40c924a",
@@ -1703,11 +1740,12 @@
       "FTP"
     ],
     "subtema": "Internet, redes e protocolos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2d86fcab5f",
@@ -1779,11 +1817,12 @@
       "Perl"
     ],
     "subtema": "Programação e software",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "128332c0ec",
@@ -1836,11 +1875,12 @@
       "Research In Motion"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "708c494740",
@@ -1855,11 +1895,12 @@
       "Mosaic"
     ],
     "subtema": "Internet, redes e protocolos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ff43f6b5d9",
@@ -1874,11 +1915,12 @@
       "Siri"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "0f7e19a06a",
@@ -1912,11 +1954,12 @@
       "Canela"
     ],
     "subtema": "Cidades e turismo no Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "5f7ae85f08",
@@ -1931,11 +1974,12 @@
       "São Paulo"
     ],
     "subtema": "Cidades e turismo no Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "af5a0d61b9",
@@ -2064,11 +2108,12 @@
       "Mariana"
     ],
     "subtema": "Capitais estaduais e regiões do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:112",
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "10cd45f2ed",
@@ -2102,11 +2147,12 @@
       "Acre"
     ],
     "subtema": "Capitais estaduais e regiões do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:275",
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "a0651d703b",
@@ -2140,11 +2186,12 @@
       "Lancelote"
     ],
     "subtema": "Idade Média e feudalismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7e25d98cfe",
@@ -2197,11 +2244,12 @@
       "Elizabeth II"
     ],
     "subtema": "Personagens e invenções históricas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "98072aa464",
@@ -2273,11 +2321,12 @@
       "Rurik"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:1206 (Romanov, família do último czar)",
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "3563f762d8",
@@ -2292,11 +2341,12 @@
       "Reino Unido"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:412 (Macau, antiga colônia portuguesa)",
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "169f0c9c8e",
@@ -2311,11 +2361,12 @@
       "Luís XVI"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:1500 (França/Napoleão vendeu a Louisiana)",
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f1c04366a4",
@@ -2368,11 +2419,12 @@
       "Primavera"
     ],
     "subtema": "Terra: geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1832",
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "b23a5cfe79",
@@ -2406,11 +2458,12 @@
       "Pólen"
     ],
     "subtema": "Animais e zoologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d6cae5b113",
@@ -2463,11 +2516,12 @@
       "Mercúrio"
     ],
     "subtema": "Astronomia e espaço",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "a9567194a8",
@@ -2539,11 +2593,12 @@
       "Vênus"
     ],
     "subtema": "Astronomia e espaço",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "daf2050a58",
@@ -2577,11 +2632,12 @@
       "Tóquio"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": true
+    "recente": true,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f95380c8e9",
@@ -2596,11 +2652,12 @@
       "Bósnia"
     ],
     "subtema": "Tênis e golfe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "44657e7859",
@@ -2615,11 +2672,12 @@
       "Tie-break"
     ],
     "subtema": "Tênis e golfe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "b1f9de3fc4",
@@ -2653,11 +2711,12 @@
       "Espanha"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": true
+    "recente": true,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "624ba19caf",
@@ -2672,30 +2731,33 @@
       "Bayern de Munique"
     ],
     "subtema": "Futebol europeu e Champions",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": true
+    "recente": true,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "dd8aa6a78e",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Qual tenista espanhol venceu Wimbledon em 2023 e 2024?",
+    "pergunta": "Qual tenista venceu Wimbledon em 2023 e 2024?",
     "resposta": "Carlos Alcaraz",
     "alternativas": [
       "Jannik Sinner",
-      "Rafael Nadal",
+      "Daniil Medvedev",
       "Novak Djokovic",
       "Carlos Alcaraz"
     ],
     "subtema": "Tênis e golfe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": true
+    "recente": true,
+    "correcao": "tirado 'espanhol' do enunciado: só Alcaraz e Nadal eram espanhóis entre as alternativas",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "afdbae3470",
@@ -2729,11 +2791,12 @@
       "Juan Manuel Fangio"
     ],
     "subtema": "Fórmula 1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f84e5ef362",
@@ -2786,11 +2849,12 @@
       "Paddy's Pub"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "19ad4bba07",
@@ -2824,11 +2888,12 @@
       "Asa de Águia"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8343e1f033",
@@ -2843,11 +2908,12 @@
       "Beto Guedes"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "42cc6c0c9e",
@@ -2881,11 +2947,12 @@
       "PDF"
     ],
     "subtema": "Programação e software",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "cd42c98cb9",
@@ -2900,11 +2967,12 @@
       "Signal"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "29791328ff",
@@ -2919,11 +2987,12 @@
       "Caixa Econômica Federal"
     ],
     "subtema": "Empresas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2590197a8c",
@@ -2957,11 +3026,12 @@
       "Sundar Pichai"
     ],
     "subtema": "Empresas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f4a8c73a3b",
@@ -2995,11 +3065,12 @@
       "Tux"
     ],
     "subtema": "Programação e software",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2cc1fe0715",
@@ -3033,11 +3104,12 @@
       "Portugal"
     ],
     "subtema": "Economia e população",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "4dfcb9866c",
@@ -3109,11 +3181,12 @@
       "Suécia"
     ],
     "subtema": "Fronteiras, continentes e países",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "fd3c4b7e43",
@@ -3128,11 +3201,12 @@
       "Burundi"
     ],
     "subtema": "Rios, bacias e hidrografia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f9cc85d8f8",
@@ -3261,11 +3335,12 @@
       "Filipe II"
     ],
     "subtema": "Antiguidade (Egito, Grécia, Roma)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "160196e6f0",
@@ -3356,11 +3431,12 @@
       "Constante de Boltzmann"
     ],
     "subtema": "Química e elementos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8cbb3ed9e1",
@@ -3375,11 +3451,12 @@
       "Ponto crítico"
     ],
     "subtema": "Física, energia e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "445c499011",
@@ -3394,11 +3471,12 @@
       "Metano"
     ],
     "subtema": "Astronomia e espaço",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "aca8c0c31b",
@@ -3432,11 +3510,12 @@
       "Ken Rosewall"
     ],
     "subtema": "Tênis e golfe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ac2a62701e",
@@ -3451,11 +3530,12 @@
       "Grimm"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "58f4740421",
@@ -3508,11 +3588,12 @@
       "Alt+F4"
     ],
     "subtema": "Programação e software",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "6792e98bb9",
@@ -3527,11 +3608,12 @@
       "NTFS"
     ],
     "subtema": "Programação e software",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "df3da3cec0",
@@ -3546,11 +3628,12 @@
       "Oceano Índico"
     ],
     "subtema": "Oceanos, mares, ilhas e estreitos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:263",
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "1f2180f7de",
@@ -3603,11 +3686,12 @@
       "Romanche"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "cb0705403d",
@@ -3622,11 +3706,12 @@
       "Tunísia"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "577a31fa7b",
@@ -3641,11 +3726,12 @@
       "Sultão"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8ca8ee35a3",
@@ -3717,11 +3803,12 @@
       "Thor Heyerdahl"
     ],
     "subtema": "Personagens e invenções históricas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d1fcac5116",
@@ -3736,11 +3823,12 @@
       "Marte"
     ],
     "subtema": "Astronomia e espaço",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2179416b96",
@@ -3812,11 +3900,12 @@
       "Lorenzo Musetti"
     ],
     "subtema": "Tênis e golfe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": true
+    "recente": true,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e891528fa5",
@@ -3831,11 +3920,12 @@
       "Oasis"
     ],
     "subtema": "Música internacional e pop",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3632",
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8b44c82ab9",
@@ -3869,11 +3959,12 @@
       "Mar Cáspio"
     ],
     "subtema": "Oceanos, mares, ilhas e estreitos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e6a9bd8358",
@@ -3926,11 +4017,12 @@
       "Operação Market Garden"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "c435205f26",
@@ -3964,11 +4056,12 @@
       "Marrom"
     ],
     "subtema": "Física, energia e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ff90c058da",
@@ -3983,11 +4076,12 @@
       "Vitamina C"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ce2d37c64e",
@@ -4002,11 +4096,12 @@
       "Ninfa"
     ],
     "subtema": "Animais e zoologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7ee3a717b2",
@@ -4059,11 +4154,12 @@
       "Polônia"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7dcb28f0df",
@@ -4078,11 +4174,12 @@
       "Harald Hardrada"
     ],
     "subtema": "Idade Média e feudalismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "9a8beec68c",
@@ -4097,11 +4194,12 @@
       "Sam e Dean"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8f3963cc56",
@@ -4192,11 +4290,12 @@
       "Rússia"
     ],
     "subtema": "Oceanos, mares, ilhas e estreitos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f03b73ca65",
@@ -4211,11 +4310,12 @@
       "xD-Picture Card"
     ],
     "subtema": "Hardware e componentes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ffdcac6da3",
@@ -4230,11 +4330,12 @@
       "Spotify"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4246",
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "fa01108839",
@@ -4249,10 +4350,11 @@
       "21 de abril"
     ],
     "subtema": "Brasil República e Era Vargas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
-    "recente": false
+    "recente": false,
+    "conferido_por": "conferente-v1"
   }
 ]

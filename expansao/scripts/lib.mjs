@@ -64,7 +64,8 @@ const NUMEROS = { zero: '0', um: '1', uma: '1', dois: '2', duas: '2', tres: '3',
   dezesseis: '16', dezessete: '17', dezoito: '18', dezenove: '19', vinte: '20' };
 export function respostaNorm(r) {
   // "C++" e "C#" não podem virar os dois só "c"
-  const t = limpar(String(r).replace(/\+/g, ' mais ').replace(/#/g, ' sustenido '));
+  // (só "++" e "#" colados numa letra; o "+" de "Ctrl + Z" some normalmente)
+  const t = limpar(String(r).replace(/\+\+/g, ' maismais ').replace(/([A-Za-z])#/g, '$1 sustenido '));
   if (NUMEROS[t]) return NUMEROS[t];
   return t.replace(/^(o|a|os|as|um|uma) /, '');
 }

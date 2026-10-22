@@ -71,8 +71,12 @@ function sobreposicao(a, b) {
   return inter / Math.min(A.length, B.size);
 }
 
-function contemResposta(texto, resp) {
-  return resp.length >= 4 && texto.includes(' ' + resp + ' ');
+/** A resposta de uma pergunta aparece no enunciado da outra? Compara por radicais (desfazer ~ desfaz). */
+function contemResposta(alvo, resp) {
+  if (resp.length < 4) return false;
+  if (alvo.texto.includes(' ' + resp + ' ')) return true;
+  const radicais = palavrasChave(resp);
+  return radicais.length > 0 && radicais.every((r) => alvo.pal.has(r));
 }
 
 /** Respostas iguais, ou uma contida na outra como palavras inteiras ("pacifico" x "oceano pacifico"). */
@@ -93,7 +97,7 @@ export function comparar(a, b) {
   if (mesma && sim >= LIM_SUSP_MESMA) return { nivel: 'suspeita', sim };
   if (!mesma && sim >= LIM_SUSP_DIFERENTE) return { nivel: 'suspeita', sim };
   // Pergunta invertida: "Capital da França?" (Paris) x "Paris é capital de qual país?" (França)
-  if (!mesma && a.categoria === b.categoria && contemResposta(a.texto, b.resp) && contemResposta(b.texto, a.resp))
+  if (!mesma && a.categoria === b.categoria && contemResposta(a, b.resp) && contemResposta(b, a.resp))
     return { nivel: 'suspeita', sim };
   return { nivel: null, sim };
 }
@@ -188,6 +192,8 @@ function rodarTeste() {
     // Achados do lote 001: reescrita com contexto extra e número por extenso
     { esperado: 'certa', p: { categoria: 'Esportes', pergunta: 'Qual quarterback conquistou sete Super Bowls?', resposta: 'Tom Brady' } },
     { esperado: 'certa|suspeita', p: { categoria: 'Ciências', pergunta: 'Qual é o único número primo que é par?', resposta: 'Dois' } },
+    // Achado no fim do piloto: pergunta invertida sobre atalho (resposta "Desfazer" x "Ctrl + Z")
+    { esperado: 'suspeita', p: { categoria: 'Tecnologia', pergunta: 'Na maioria dos programas, qual função tem o atalho Ctrl+Z?', resposta: 'Desfazer' } },
     // Pergunta nova de verdade -> "nao"
     // Achados reais: estas "novas" já existiam no banco (a 1a reescrita, a 2a invertida)
     { esperado: 'certa', p: { categoria: 'Geografia', pergunta: 'Qual rio banha a cidade de Florença?', resposta: 'Rio Arno' } },
@@ -195,6 +201,8 @@ function rodarTeste() {
     // Achados do lote 001: reescrita com contexto extra e número por extenso
     { esperado: 'certa', p: { categoria: 'Esportes', pergunta: 'Qual quarterback conquistou sete Super Bowls?', resposta: 'Tom Brady' } },
     { esperado: 'certa|suspeita', p: { categoria: 'Ciências', pergunta: 'Qual é o único número primo que é par?', resposta: 'Dois' } },
+    // Achado no fim do piloto: pergunta invertida sobre atalho (resposta "Desfazer" x "Ctrl + Z")
+    { esperado: 'suspeita', p: { categoria: 'Tecnologia', pergunta: 'Na maioria dos programas, qual função tem o atalho Ctrl+Z?', resposta: 'Desfazer' } },
     // Pergunta nova de verdade -> "nao"
     { esperado: 'suspeita|certa', p: { categoria: 'Geografia', pergunta: 'Qual estado brasileiro tem a cidade de Paraty como patrimônio da UNESCO?', resposta: 'Rio de Janeiro' } },
     { esperado: 'nao', p: { categoria: 'Ciências', pergunta: 'Qual gás os mergulhadores misturam ao oxigênio no lugar do nitrogênio em mergulhos profundos?', resposta: 'Hélio' } },

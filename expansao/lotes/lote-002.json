@@ -44,9 +44,9 @@
     "pergunta": "Qual rio atravessa a cidade de São Paulo e ficou famoso pela poluição?",
     "resposta": "Rio Tietê",
     "alternativas": [
-      "Rio Grande",
-      "Rio Paraíba do Sul",
       "Rio Tietê",
+      "Rio Paraíba do Sul",
+      "Rio Grande",
       "Rio Paranapanema"
     ],
     "subtema": "Rios, bacias e hidrografia",
@@ -280,8 +280,8 @@
     "subtema": "Rios, bacias e hidrografia",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:774",
     "recente": false
   },
   {
@@ -318,8 +318,8 @@
     "subtema": "Biomas, clima e vegetação",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:434",
     "recente": false
   },
   {
@@ -658,10 +658,10 @@
       "Chichén Itzá"
     ],
     "subtema": "Grandes Navegações e Américas pré-colombianas",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:1063 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:1063",
     "recente": false
   },
   {
@@ -2843,6 +2843,25 @@
       "Galaxy"
     ],
     "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false
+  },
+  {
+    "id": "54b30fc6c8",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual médico, chamado de pai da China moderna, liderou o movimento que derrubou a última dinastia imperial?",
+    "resposta": "Sun Yat-sen",
+    "alternativas": [
+      "Zhou Enlai",
+      "Chiang Kai-shek",
+      "Sun Yat-sen",
+      "Mao Tsé-tung"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

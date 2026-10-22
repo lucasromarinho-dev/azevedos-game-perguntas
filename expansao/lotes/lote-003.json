@@ -139,9 +139,9 @@
     "pergunta": "A Grande Barreira de Corais fica no litoral de qual país?",
     "resposta": "Austrália",
     "alternativas": [
-      "Nova Zelândia",
-      "Filipinas",
       "Austrália",
+      "Filipinas",
+      "Nova Zelândia",
       "Indonésia"
     ],
     "subtema": "Oceanos, mares, ilhas e estreitos",
@@ -1912,10 +1912,10 @@
       "Guerra dos Emboabas"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:1388 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:1388",
     "recente": false
   },
   {
@@ -1950,6 +1950,25 @@
       "Cruzeiro do Sul"
     ],
     "subtema": "Astronomia e espaço",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false
+  },
+  {
+    "id": "550a9de224",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual heroína cearense, avó do escritor José de Alencar, é considerada a primeira presa política do Brasil?",
+    "resposta": "Bárbara de Alencar",
+    "alternativas": [
+      "Joana Angélica",
+      "Anita Garibaldi",
+      "Bárbara de Alencar",
+      "Maria Quitéria"
+    ],
+    "subtema": "Brasil Império",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

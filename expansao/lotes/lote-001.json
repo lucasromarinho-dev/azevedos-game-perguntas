@@ -45,9 +45,9 @@
     "resposta": "Chile e Equador",
     "alternativas": [
       "Uruguai e Chile",
-      "Chile e Equador",
+      "Equador e Bolívia",
       "Chile e Peru",
-      "Equador e Bolívia"
+      "Chile e Equador"
     ],
     "subtema": "Fronteiras, continentes e países",
     "status": "gerada",
@@ -217,8 +217,8 @@
     "alternativas": [
       "Brasil",
       "Gana",
-      "Costa do Marfim",
-      "Indonésia"
+      "Indonésia",
+      "Costa do Marfim"
     ],
     "subtema": "Economia e população",
     "status": "gerada",
@@ -1722,8 +1722,8 @@
       "AlphaGo"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:4207 (suspeita confirmada na geração)",
     "dup": "suspeita",
     "dup_ref": "banco:4207",
     "recente": false
@@ -2178,10 +2178,10 @@
       "Dallas"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:896 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:896",
     "recente": false
   },
   {
@@ -2862,10 +2862,10 @@
       "Refazer"
     ],
     "subtema": "Programação e software",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:3718 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:3718",
     "recente": false
   },
   {
@@ -4192,6 +4192,63 @@
       "Rússia"
     ],
     "subtema": "Oceanos, mares, ilhas e estreitos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false
+  },
+  {
+    "id": "f03b73ca65",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o nome do cartão de memória pequenininho usado em muitos celulares Android?",
+    "resposta": "microSD",
+    "alternativas": [
+      "CompactFlash",
+      "Memory Stick",
+      "microSD",
+      "xD-Picture Card"
+    ],
+    "subtema": "Hardware e componentes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false
+  },
+  {
+    "id": "ffdcac6da3",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual serviço de streaming de música pertence à Apple?",
+    "resposta": "Apple Music",
+    "alternativas": [
+      "YouTube Music",
+      "Apple Music",
+      "Deezer",
+      "Spotify"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4246",
+    "recente": false
+  },
+  {
+    "id": "fa01108839",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Em qual data se comemora a Proclamação da República no Brasil?",
+    "resposta": "15 de novembro",
+    "alternativas": [
+      "15 de novembro",
+      "13 de maio",
+      "7 de setembro",
+      "21 de abril"
+    ],
+    "subtema": "Brasil República e Era Vargas",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

@@ -535,6 +535,45 @@
         "perguntas": 46,
         "total": 46
       }
+    },
+    {
+      "lote": "024",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 108,
+      "validas": 101,
+      "descartadas": 7,
+      "taxa_descarte": 0.06,
+      "caracteres": 16119,
+      "tokens_aprox": 4605,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "nomes-r2-k.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r2-k.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 590,
+        "nomes_sondados": 120,
+        "nomes_ausentes": 26,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 108,
+        "validas": 101,
+        "descartadas_detector": 7,
+        "descarte": 0.06,
+        "tokens_aprox": 4605
+      },
+      "tokens_por_valida": {
+        "listas": 6,
+        "perguntas": 46,
+        "total": 51
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1546,6 +1585,15 @@
       "livres": 84,
       "caracteres": 3548,
       "tokens_aprox": 1014
+    },
+    "nomes-r2-k.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 120,
+      "existem": 94,
+      "risco": 0,
+      "livres": 26,
+      "caracteres": 2065,
+      "tokens_aprox": 590
     }
   },
   "diretriz_resposta_igual": {

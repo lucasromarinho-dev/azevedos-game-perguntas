@@ -53,6 +53,18 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 | `node expansao/scripts/candidatas.mjs arq.txt [--json] [--so-banco]` | Filtro de respostas candidatas, sem IA |
 | `node expansao/scripts/grep-banco.mjs termo1 termo2` | Conta quantas perguntas citam cada termo (checagem rápida de assunto) |
 
+## Rodada 3 (lotes 026 a 035): o que mudou
+
+| Comando | Para quê |
+|---|---|
+| `node expansao/scripts/fatos.mjs candidatas/arq.txt --curto [--registrar]` | Para cada termo ou nome, quantas perguntas já o citam. `--curto` mostra só os que têm 0 ou 1 (os livres). É o filtro principal da rodada 3: checar o termo ANTES de escrever. |
+| `node expansao/scripts/variedade.mjs [26 35]` | Variedade da rodada: no máximo 3 perguntas por universo ou franquia, música até 1/3 do Entretenimento, subtemas de Esportes, parte de fáceis |
+| `node expansao/scripts/mover-excedentes.mjs lote-026.json lote-027.json` | Passa as válidas que sobram da cota de um lote aberto para o próximo (nunca mexe em lote já entregue) |
+
+- Campo opcional `U=Universo` no fim da linha da fonte (ex.: `|U=Star Wars`) grava `universo` na ficha; o `variedade.mjs` também detecta universos conhecidos pelo texto.
+- Detector v4 (`cruzamento.mjs`): tabela `ENTIDADES_TXT` de sinônimos (Riad = Riade, Yalta = Ialta, Polaris = Estrela Polar, Palm Pilot = Palm, Vila da Folha = Vila Oculta da Folha...). Para acrescentar um sinônimo, basta uma linha `forma canônica = variante | variante`.
+- Lição da rodada: escrever de cabeça repete o banco (37% no lote 026). Termos e conceitos (sinuca, clave de sol, kernel, peneira) estão muito menos explorados que nomes famosos.
+
 ## Fluxo de um lote
 
 1. Escrever `fontes/lote-NNN.txt` (formato no topo de `montar-lote.mjs`), seguindo o guia de estilo e priorizando subtemas com pouca cobertura.

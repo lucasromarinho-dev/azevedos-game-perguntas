@@ -1012,6 +1012,47 @@
         "perguntas": 53,
         "total": 73
       }
+    },
+    {
+      "lote": "035",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 128,
+      "validas": 104,
+      "descartadas": 24,
+      "taxa_descarte": 0.19,
+      "caracteres": 19926,
+      "tokens_aprox": 5693,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "fatos-r3-035.txt",
+        "fatos-r3-035b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r3-035.txt",
+          "fatos-r3-035b.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 1917,
+        "nomes_sondados": 135,
+        "nomes_ausentes": 97,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 128,
+        "validas": 104,
+        "descartadas_detector": 24,
+        "descarte": 0.19,
+        "tokens_aprox": 5693
+      },
+      "tokens_por_valida": {
+        "listas": 18,
+        "perguntas": 55,
+        "total": 73
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -2639,6 +2680,68 @@
       "livres": 25,
       "caracteres": 1663,
       "tokens_aprox": 475
+    },
+    "fatos-r3-035.txt": {
+      "tipo": "fatos",
+      "linhas": 106,
+      "existem": 30,
+      "risco": 0,
+      "livres": 76,
+      "caracteres": 5394,
+      "tokens_aprox": 1541
+    },
+    "fatos-r3-035b.txt": {
+      "tipo": "fatos",
+      "linhas": 29,
+      "existem": 8,
+      "risco": 0,
+      "livres": 21,
+      "caracteres": 1317,
+      "tokens_aprox": 376
     }
+  },
+  "rodada3": {
+    "_leia": "Resumo da rodada 3 (lotes 026 a 035). Tokens estimados como nas outras rodadas (caracteres/3,5 das listas e fontes; sem raciocínio interno).",
+    "validas": 1000,
+    "escritas": 1213,
+    "descarte_detector": 0.18,
+    "tokens_por_valida": {
+      "listas": 55,
+      "perguntas": 53,
+      "total": 108
+    },
+    "composicao": {
+      "facil": 359,
+      "medio": 360,
+      "dificil": 281,
+      "recentes": 7,
+      "posicao_certa_ABCD": [
+        253,
+        251,
+        249,
+        247
+      ]
+    },
+    "por_categoria": {
+      "Geografia": 126,
+      "História": 142,
+      "Ciências": 137,
+      "Esportes": 183,
+      "Entretenimento": 252,
+      "Tecnologia": 160
+    },
+    "variedade": {
+      "universo_max_por_rodada": "nenhum universo com 2 ou mais (scripts/variedade.mjs)",
+      "musica_no_entretenimento": "67 de 252 (27%), sem nenhuma pergunta do tipo qual banda gravou X",
+      "esportes": "13 subtemas; futebol europeu caiu de 61 para 10; entram lutas, esportes de inverno, basquete, beisebol, golfe, rúgbi, automobilismo nacional"
+    },
+    "sonda_de_nomes_historia_ciencias": "Rendeu pouco: nomes famosos de História tinham 3% a 23% de ausentes por sonda (4/120, 35/151, 35/153); Ciências 5% a 36% (6/112, 25/183, 53/146, este último com termos de saúde). Registrado e trocado pelo método de termos.",
+    "metodo": "Sonda de nomes no começo; a partir do lote 027, checagem de TERMOS e CONCEITOS (scripts/fatos.mjs --curto mostra só o que tem 0 ou 1 pergunta no banco) antes de escrever. Conceitos (sinuca, quarentena, clave de sol, kernel, peneira, estômatos) estavam bem menos explorados que nomes próprios e renderam os fáceis que faltavam.",
+    "aprendizados": [
+      "Escrever de cabeça repete o banco: no lote 026, 45 de 121 perguntas iniciais (37%) já existiam, algumas com o mesmo texto quase palavra por palavra (o banco foi gerado pelo mesmo tipo de modelo).",
+      "Checar o termo antes (fatos.mjs) baixou o descarte para 7% a 19%, mas uma parte dos descartes é falso positivo do detector: resposta que é nome de categoria ou lugar (golfe, Bluetooth, Manaus, Português) citada no texto de outra pergunta.",
+      "Custo por válida subiu de cerca de 50 tokens (rodada 2) para cerca de 108: os nomes famosos acabaram e cada válida exige checar mais termos."
+    ],
+    "detector": "v4: tabela de sinônimos de entidades (transliterações e nomes alternativos), diminutivos, regras E2e, E7 e E8; pega 10/10 da rodada 2 e 69/76 (91%) da rodada 1. v4.1: resposta só numérica precisa de enunciado parecido para ser duplicada (field goal 3 x cesta de 3)."
   }
 }

@@ -574,6 +574,47 @@
         "perguntas": 46,
         "total": 51
       }
+    },
+    {
+      "lote": "025",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 104,
+      "validas": 101,
+      "descartadas": 3,
+      "taxa_descarte": 0.03,
+      "caracteres": 15318,
+      "tokens_aprox": 4377,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r2-025-cie.txt",
+        "nomes-r2-l.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r2-025-cie.txt",
+          "nomes-r2-l.txt"
+        ],
+        "linhas": 18,
+        "existem": 16,
+        "risco": 1,
+        "tokens_aprox": 677,
+        "nomes_sondados": 129,
+        "nomes_ausentes": 47,
+        "descarte": 0.89,
+        "candidatas_por_valida": 0.18
+      },
+      "perguntas": {
+        "escritas": 104,
+        "validas": 101,
+        "descartadas_detector": 3,
+        "descarte": 0.03,
+        "tokens_aprox": 4377
+      },
+      "tokens_por_valida": {
+        "listas": 7,
+        "perguntas": 43,
+        "total": 50
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1594,6 +1635,23 @@
       "livres": 26,
       "caracteres": 2065,
       "tokens_aprox": 590
+    },
+    "r2-025-cie.txt": {
+      "linhas": 18,
+      "existem": 16,
+      "risco": 1,
+      "livres": 1,
+      "caracteres": 792,
+      "tokens_aprox": 226
+    },
+    "nomes-r2-l.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 129,
+      "existem": 82,
+      "risco": 0,
+      "livres": 47,
+      "caracteres": 1578,
+      "tokens_aprox": 451
     }
   },
   "diretriz_resposta_igual": {

@@ -65,9 +65,9 @@ readFileSync(fonte, 'utf8').split(/\r?\n/).forEach((linha, n) => {
   const temAno = /\b(19|20)\d\d\b/.test(pergunta);
   if (p.recente) {
     if (p.dificuldade === 'dificil') erros.push(`${onde}: recente não pode ser dificil`);
-    if (!/\b20[2-9]\d\b/.test(pergunta)) erros.push(`${onde}: recente precisa do ano (2020+) no texto`);
+    if (!/\b202\d\b/.test(pergunta)) erros.push(`${onde}: recente precisa do ano (2020+) no texto`);
   }
-  if (/\b20[2-9]\d\b/.test(pergunta) && !p.recente) erros.push(`${onde}: tem ano 2020+ mas não está marcada R`);
+  if (/\b202\d\b/.test(pergunta) && !p.recente) erros.push(`${onde}: tem ano 2020+ mas não está marcada R`);
   if (ids.has(id)) return;
   ids.add(id);
   lote.push(p);

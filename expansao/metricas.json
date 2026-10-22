@@ -654,11 +654,11 @@
     "lotes": [
       {
         "lote": "001",
-        "conferidas_sem_mudanca": 89,
+        "conferidas_sem_mudanca": 88,
         "corrigidas": 5,
-        "descartadas": 6,
+        "descartadas": 7,
         "motivos_descarte": {
-          "duplicada": 6
+          "duplicada": 7
         },
         "perguntas_com_busca_web": 0,
         "por_categoria": {
@@ -668,9 +668,9 @@
             "descartadas": 0
           },
           "Entretenimento": {
-            "conferidas": 10,
+            "conferidas": 9,
             "corrigidas": 3,
-            "descartadas": 0
+            "descartadas": 1
           },
           "História": {
             "conferidas": 10,
@@ -698,6 +698,7 @@
           "622abffc71: duplicada: mesmo fato que banco:940 (Marco Polo, mercador veneziano na China)",
           "c21e645675: duplicada: mesmo fato que banco:1378 (Tratado de Madri substituiu Tordesilhas)",
           "065f4cc97e: duplicada: mesmo fato que banco:1958 (sismógrafo e terremotos)",
+          "d50320001f: duplicada: mesmo fato que banco:3445 (Vila Oculta da Folha, em Naruto; achada depois, na conferência do lote 020)",
           "03fcfde198: duplicada: mesmo fato que banco:1206 (Romanov, família do último czar)",
           "3563f762d8: duplicada: mesmo fato que banco:412 (Macau, antiga colônia portuguesa)",
           "169f0c9c8e: duplicada: mesmo fato que banco:1500 (França/Napoleão vendeu a Louisiana)"
@@ -1683,6 +1684,57 @@
         "minutos_aprox": 3,
         "descartes": [],
         "correcoes": []
+      },
+      {
+        "lote": "020",
+        "conferidas_sem_mudanca": 99,
+        "corrigidas": 1,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "duplicada invertida": 1,
+          "duplicada disfarçada": 1
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "descartadas": 2
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "descartadas": 0
+          }
+        },
+        "minutos_aprox": 4,
+        "descartes": [
+          "ad97a5a87a: duplicada invertida: piloto 30e061d010 (Napoleão promulgou o Código Civil)",
+          "07252b6e4f: duplicada disfarçada: banco:876 e banco:877 já tratam do 'Rei do Cangaço' e de Lampião no cangaço"
+        ],
+        "correcoes": [
+          "eae2586f72: o alter ego 'Slim Shady' entregava a resposta e repetia o fato do banco:3323; trocado pelo ano"
+        ]
       }
     ]
   }

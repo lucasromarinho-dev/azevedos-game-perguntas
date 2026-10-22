@@ -339,6 +339,47 @@
         "total": 46
       },
       "obs": "assuntos das sondas já contadas nos lotes 016 e 017 (sobras)"
+    },
+    {
+      "lote": "019",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 106,
+      "validas": 104,
+      "descartadas": 2,
+      "taxa_descarte": 0.02,
+      "caracteres": 15406,
+      "tokens_aprox": 4402,
+      "rodadas_de_reposicao": 0,
+      "candidatas_usadas": [
+        "nomes-r2-e.txt",
+        "nomes-r2-f.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r2-e.txt",
+          "nomes-r2-f.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 4181,
+        "nomes_sondados": 1107,
+        "nomes_ausentes": 232,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 106,
+        "validas": 104,
+        "descartadas_detector": 2,
+        "descarte": 0.02,
+        "tokens_aprox": 4402
+      },
+      "tokens_por_valida": {
+        "listas": 40,
+        "perguntas": 42,
+        "total": 83
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1288,6 +1329,24 @@
       "livres": 181,
       "caracteres": 7554,
       "tokens_aprox": 2158
+    },
+    "nomes-r2-e.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 497,
+      "existem": 369,
+      "risco": 0,
+      "livres": 128,
+      "caracteres": 7241,
+      "tokens_aprox": 2069
+    },
+    "nomes-r2-f.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 610,
+      "existem": 506,
+      "risco": 0,
+      "livres": 104,
+      "caracteres": 7393,
+      "tokens_aprox": 2112
     }
   },
   "diretriz_resposta_igual": {

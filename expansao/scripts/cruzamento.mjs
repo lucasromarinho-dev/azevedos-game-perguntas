@@ -44,19 +44,19 @@ const MOLDE_PALAVRAS = ('chamado chamada chamados chamadas conhecido conhecida c
   'nasceu surgiu tambem personagem ' +
   // palavras de tipo (estreito, rio, guerra...): dizem a classe da resposta, não o assunto
   'estreito oceano rio lago monte ilha serra deserto guerra batalha revolta tratado dinastia imperio reino teorema lei planeta ' +
-  'elemento festival copa torneio estadio album premio ' +
+  'elemento festival copa torneio estadio album premio conferencia ' +
   // papéis e verbos de autoria: "Qual cantor gravou X?" e "Qual cantor gravou Y?" são fatos diferentes
   'gravou cantor cantora banda escreveu pintou pintor dirigiu diretor compos').split(' ');
 const MOLDE = new Set(MOLDE_PALAVRAS.map((w) => radical(w)));
 // Gentílicos e qualificadores de origem: dizem DE ONDE é a resposta, não QUAL fato se pergunta
 // ("clube paranaense campeão de 1985" x "clube paranaense chamado de Coxa" são fatos diferentes)
 const GENTILICOS = new Set(('brasileiro brasileira paulista carioca mineiro mineira gaucho gaucha baiano baiana paranaense catarinense ' +
-  'pernambucano pernambucana cearense paraibano paraibana potiguar alagoano sergipano capixaba goiano goiana amazonense paraense ' +
-  'nordestino nordestina sulista argentino argentina uruguaio uruguaia chileno chilena peruano colombiano venezuelano mexicano ' +
-  'americano americana canadense ingles inglesa britanico britanica escoces irlandes frances francesa alemao alema italiano italiana ' +
-  'espanhol espanhola portugues portuguesa holandes holandesa belga suico sueco norueguês noruegues dinamarques finlandes russo russa ' +
+  'cearense potiguar alagoano sergipano capixaba goiano goiana amazonense paraense ' +
+  'nordestino nordestina sulista chileno chilena peruano mexicano ' +
+  'canadense ingles inglesa britanico britanica escoces irlandes frances francesa alemao alema italiano italiana ' +
+  'espanhol espanhola portugues portuguesa holandes holandesa belga suico sueco norueguês noruegues russo russa ' +
   'polones tcheco hungaro grego grega turco turca egipcio africano africana japones japonesa chines chinesa coreano coreana indiano ' +
-  'australiano australiana europeu europeia asiatico latino sertanejo sertaneja sovietico sovietica romano romana nazista').split(' ').map((w) => radical(w)));
+  'europeu europeia asiatico latino sertanejo sertaneja sovietico sovietica romano romana nazista').split(' ').map((w) => radical(w)));
 
 // Sinônimos / formas equivalentes (já sem acento). Lado esquerdo vira o direito.
 const SINONIMOS = {
@@ -154,6 +154,8 @@ export function prepararE(p) {
     resp: [...new Set(resp)],
     respTudo: new Set(respComParen),
     nomes: nomesProprios(p.pergunta),
+    // títulos entre aspas ("Evidências", "Fio de Cabelo") são o assunto do fato
+    aspas: new Set([...String(p.pergunta).matchAll(/["“]([^"”]+)["”]/g)].flatMap((m) => tokens(m[1]))),
     respStr: resp.join(' '),
   };
 }
@@ -230,7 +232,9 @@ function assuntoComum(a, b) {
   return { s, n, max };
 }
 
-function jac(a, b) {
+function jac(a0, b0) {
+  const a = new Set([...a0].filter((t) => !MOLDE.has(t) && !GENTILICOS.has(t)));
+  const b = new Set([...b0].filter((t) => !MOLDE.has(t) && !GENTILICOS.has(t)));
   let i = 0;
   for (const t of a) if (b.has(t)) i++;
   return a.size + b.size - i ? i / (a.size + b.size - i) : 0;
@@ -261,6 +265,9 @@ export function compararE(a, b) {
   if (inAB && inBA && !sobreFraca) {
     if (!(comumA && comumB) || comum >= 3) return { nivel: 'certa', sim, regra: `E1 pergunta invertida (respostas cruzadas nos textos, assunto ${f(comum)})` };
   }
+  // mesma resposta, mas cada pergunta cita um título diferente entre aspas: fatos diferentes ("gravou Evidências" x "gravou Fio de Cabelo")
+  const titulosDiferentes = a.aspas.size > 0 && b.aspas.size > 0 && ![...a.aspas].some((t) => b.aspas.has(t));
+  if (sobreFraca && titulosDiferentes && !(inAB || inBA)) return { nivel: sim >= 0.5 ? 'suspeita' : null, sim, regra: 'mesma resposta, títulos diferentes entre aspas' };
   if (sobreFraca && (inAB || inBA) && comum >= 3) return { nivel: 'certa', sim, regra: `E2c mesma resposta e ela aparece no outro enunciado (${f(comum)})` };
   // mesma resposta: só é o mesmo fato se boa parte do conteúdo específico do enunciado mais curto está no outro
   const foraR = new Set([...a.resp, ...b.resp]);

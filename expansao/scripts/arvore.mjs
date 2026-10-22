@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Árvore de temas com cotas da meta final (~10x). Recalcula as contagens e grava expansao/arvore.json.
+// Árvore de temas com cotas. Meta atual: 3x (banco total ~13.700); a cota 10x original fica como referência. Recalcula as contagens e grava expansao/arvore.json.
 // - meta: total desejado no subtema (banco atual + novas), definido pelo Lucas
 // - atual_estimado: perguntas do banco atual no subtema (estimativa por palavras-chave, via subtemas.json)
 // - novas_validas: perguntas novas não descartadas nos lotes
@@ -8,7 +8,7 @@
 // Uso: node expansao/scripts/arvore.mjs   (preserva status e microtemas já gravados)
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { lerJson, gravarJson, listarLotes, RAIZ_EXP } from './lib.mjs';
+import { lerJson, gravarJson, listarLotes, lerBancoAtual, RAIZ_EXP } from './lib.mjs';
 
 // [nome na árvore, meta, nomes equivalentes em subtemas.json / campo "subtema" das fichas]
 const METAS = {
@@ -104,30 +104,57 @@ const antiga = existsSync(caminho) ? lerJson(caminho) : {};
 const sub = lerJson(join(RAIZ_EXP, 'subtemas.json'));
 const novas = listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada');
 
+// META 3x (decisão do Lucas, out/2026): banco total ~13.700. As cotas 10x viram pesos; Brasil e Entretenimento têm prioridade.
+const TOTAL_3X = 13700;
+const RODADA = 1000; // novas por rodada (rodada 1 = lotes 006 a 015)
+const PRIORIDADE = /Brasil|Brasileir|Seleção|Novelas|Música brasileira|Cinema brasileiro|Reality|Humor|Comidas|Memes/;
+const bancoCat = {};
+for (const p of lerBancoAtual()) bancoCat[p.categoria] = (bancoCat[p.categoria] || 0) + 1;
+const novasCat = {};
+for (const p of novas) novasCat[p.categoria] = (novasCat[p.categoria] || 0) + 1;
+const meta10Cat = Object.fromEntries(Object.entries(METAS).map(([c, l]) => [c, l.reduce((s, x) => s + x[1], 0)]));
+const meta10Tot = Object.values(meta10Cat).reduce((a, b) => a + b, 0);
+
 const out = {
   _leia:
-    'Meta final (~10x) por subtema, aprovada pelo Lucas. atual_estimado vem de subtemas.json (palavras-chave; "Outros" fica fora, então a soma é menor que o banco). ' +
-    'falta = meta - atual_estimado - novas_validas. status "saturado" quando um microtema descarta mais de 50% das candidatas. Recalcule com scripts/arvore.mjs.',
+    'META 3x (decisão do Lucas): banco total ~13.700. meta_3x por categoria = TOTAL_3X x (cota 10x da categoria / soma das cotas 10x); ' +
+    'o que falta na categoria é repartido entre os subtemas pelo peso (cota 10x - atual - novas), com peso 1,3 para Brasil e Entretenimento brasileiro ' +
+    'e peso 0,5 para subtema com microtema saturado. atual_estimado vem de subtemas.json (palavras-chave; "Outros" fica fora). ' +
+    'cota_rodada = quanto do subtema entra na rodada atual (1.000 novas). meta_10x fica como referência. Microtema saturado: cota 0. Recalcule com scripts/arvore.mjs.',
+  _resumo: {},
 };
 for (const [cat, lista] of Object.entries(METAS)) {
   out[cat] = {};
-  for (const [nome, meta, equivalentes] of lista) {
+  const meta3Cat = Math.round((TOTAL_3X * meta10Cat[cat]) / meta10Tot);
+  const faltaCat = Math.max(0, meta3Cat - (bancoCat[cat] || 0) - (novasCat[cat] || 0));
+  const linhas = lista.map(([nome, meta, equivalentes]) => {
     const atual = equivalentes.reduce((s, e) => s + (sub[cat]?.subtemas?.[e]?.total || 0), 0);
     const nv = novas.filter((p) => p.categoria === cat && (equivalentes.includes(p.subtema) || p.subtema === nome)).length;
     const velho = antiga[cat]?.[nome] || {};
-    out[cat][nome] = {
-      meta,
-      atual_estimado: atual,
-      novas_validas: nv,
-      falta: Math.max(0, meta - atual - nv),
-      status: velho.status || 'aberto',
-      microtemas: velho.microtemas || {},
+    const saturado = /saturado/.test(velho.status || '');
+    const peso = Math.max(0, meta - atual - nv) * (PRIORIDADE.test(nome) || cat === 'Entretenimento' ? 1.3 : 1) * (saturado ? 0.5 : 1);
+    return { nome, meta, atual, nv, velho, peso };
+  });
+  const somaPeso = linhas.reduce((s, l) => s + l.peso, 0) || 1;
+  for (const l of linhas) {
+    const alvoNovas = Math.round((faltaCat * l.peso) / somaPeso);
+    const micro = l.velho.microtemas || {};
+    for (const m of Object.values(micro)) if (m.status === 'saturado') m.cota = 0;
+    out[cat][l.nome] = {
+      meta_3x: l.atual + l.nv + alvoNovas,
+      meta_10x: l.meta,
+      atual_estimado: l.atual,
+      novas_validas: l.nv,
+      falta: alvoNovas,
+      cota_rodada: Math.round((alvoNovas * RODADA) / 8700),
+      status: l.velho.status || 'aberto',
+      microtemas: micro,
     };
   }
+  out._resumo[cat] = { meta_3x: meta3Cat, banco: bancoCat[cat] || 0, novas_validas: novasCat[cat] || 0, falta: faltaCat };
 }
 gravarJson(caminho, out);
-for (const [cat, subs] of Object.entries(out)) {
-  if (cat.startsWith('_')) continue;
-  const t = Object.values(subs).reduce((a, s) => [a[0] + s.meta, a[1] + s.atual_estimado, a[2] + s.novas_validas], [0, 0, 0]);
-  console.log(`${cat.padEnd(15)} meta ${t[0]}  atual~${t[1]}  novas ${t[2]}`);
+for (const [cat, r] of Object.entries(out._resumo)) {
+  const cota = Object.values(out[cat]).reduce((s, x) => s + x.cota_rodada, 0);
+  console.log(`${cat.padEnd(15)} meta3x ${r.meta_3x}  banco ${r.banco}  novas ${r.novas_validas}  falta ${r.falta}  cota rodada ${cota}`);
 }

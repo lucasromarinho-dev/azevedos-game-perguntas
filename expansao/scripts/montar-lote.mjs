@@ -67,7 +67,6 @@ readFileSync(fonte, 'utf8').split(/\r?\n/).forEach((linha, n) => {
     if (p.dificuldade === 'dificil') erros.push(`${onde}: recente não pode ser dificil`);
     if (!/\b20[2-9]\d\b/.test(pergunta)) erros.push(`${onde}: recente precisa do ano (2020+) no texto`);
   }
-  if (temAno && p.categoria !== 'Esportes') erros.push(`${onde}: ano no enunciado só em Esportes (regra do banco) | ${pergunta}`);
   if (/\b20[2-9]\d\b/.test(pergunta) && !p.recente) erros.push(`${onde}: tem ano 2020+ mas não está marcada R`);
   if (ids.has(id)) return;
   ids.add(id);

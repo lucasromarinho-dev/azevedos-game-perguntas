@@ -213,6 +213,55 @@
       "candidatas_usadas": [
         "pool r1-*"
       ]
+    },
+    {
+      "lote": "016",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 122,
+      "validas": 102,
+      "descartadas": 20,
+      "taxa_descarte": 0.16,
+      "caracteres": 18114,
+      "tokens_aprox": 5175,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r2-016.txt",
+        "r2-016b.txt",
+        "r2-016c.txt",
+        "r2-016d.txt",
+        "nomes-r2-a.txt",
+        "nomes-r2-b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r2-016.txt",
+          "r2-016b.txt",
+          "r2-016c.txt",
+          "r2-016d.txt",
+          "nomes-r2-a.txt",
+          "nomes-r2-b.txt"
+        ],
+        "linhas": 469,
+        "existem": 333,
+        "risco": 56,
+        "tokens_aprox": 9869,
+        "nomes_sondados": 1050,
+        "nomes_ausentes": 321,
+        "descarte": 0.71,
+        "candidatas_por_valida": 4.6
+      },
+      "perguntas": {
+        "escritas": 122,
+        "validas": 102,
+        "descartadas_detector": 20,
+        "descarte": 0.16,
+        "tokens_aprox": 5175
+      },
+      "tokens_por_valida": {
+        "listas": 97,
+        "perguntas": 51,
+        "total": 147
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1093,5 +1142,57 @@
         ]
       }
     ]
+  },
+  "listas": {
+    "r2-016.txt": {
+      "linhas": 139,
+      "existem": 109,
+      "risco": 7,
+      "livres": 23,
+      "caracteres": 6403,
+      "tokens_aprox": 1829
+    },
+    "r2-016b.txt": {
+      "linhas": 186,
+      "existem": 138,
+      "risco": 29,
+      "livres": 19,
+      "caracteres": 8518,
+      "tokens_aprox": 2434
+    },
+    "r2-016c.txt": {
+      "linhas": 93,
+      "existem": 78,
+      "risco": 10,
+      "livres": 5,
+      "caracteres": 3998,
+      "tokens_aprox": 1142
+    },
+    "r2-016d.txt": {
+      "linhas": 51,
+      "existem": 8,
+      "risco": 10,
+      "livres": 33,
+      "caracteres": 2456,
+      "tokens_aprox": 702
+    },
+    "nomes-r2-a.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 537,
+      "existem": 412,
+      "risco": 0,
+      "livres": 125,
+      "caracteres": 6431,
+      "tokens_aprox": 1837
+    },
+    "nomes-r2-b.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 513,
+      "existem": 317,
+      "risco": 0,
+      "livres": 196,
+      "caracteres": 6736,
+      "tokens_aprox": 1925
+    }
   }
 }

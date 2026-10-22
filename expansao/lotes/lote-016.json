@@ -1,0 +1,2442 @@
+[
+  {
+    "id": "3dc4e5ea48",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica a Opera House, teatro com cobertura em forma de velas?",
+    "resposta": "Sydney",
+    "alternativas": [
+      "Perth",
+      "Sydney",
+      "Auckland",
+      "Melbourne"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:122",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "641062da63",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Os Everglades, enormes pântanos cheios de jacarés, ficam em qual estado americano?",
+    "resposta": "Flórida",
+    "alternativas": [
+      "Texas",
+      "Flórida",
+      "Geórgia",
+      "Louisiana"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:517",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "ae18a5347f",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A Escadaria Selarón, coberta de azulejos coloridos, fica em qual cidade?",
+    "resposta": "Rio de Janeiro",
+    "alternativas": [
+      "Salvador",
+      "Rio de Janeiro",
+      "São Paulo",
+      "Recife"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aea1a360b6",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Taiti, ilha famosa pelos bangalôs sobre a água, faz parte de qual território?",
+    "resposta": "Polinésia Francesa",
+    "alternativas": [
+      "Havaí",
+      "Polinésia Francesa",
+      "Fiji",
+      "Samoa"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:c26ba75f27",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "24a5947f88",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A Ponte Carlos, cheia de estátuas sobre o rio Moldava, fica em qual cidade?",
+    "resposta": "Praga",
+    "alternativas": [
+      "Viena",
+      "Budapeste",
+      "Cracóvia",
+      "Praga"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:685 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 3.6))",
+    "dup": "certa",
+    "dup_ref": "banco:685",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 3.6)"
+  },
+  {
+    "id": "b9a53a7708",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Santarém, cidade no encontro dos rios Tapajós e Amazonas, fica em qual estado?",
+    "resposta": "Pará",
+    "alternativas": [
+      "Roraima",
+      "Amapá",
+      "Amazonas",
+      "Pará"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:355 (R2 mesma resposta e assunto em comum (peso 12.7))",
+    "dup": "certa",
+    "dup_ref": "banco:355",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 12.7)"
+  },
+  {
+    "id": "8e61848edf",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual estreito no sul do Chile liga os oceanos Atlântico e Pacífico?",
+    "resposta": "Estreito de Magalhães",
+    "alternativas": [
+      "Estreito de Gibraltar",
+      "Estreito de Magalhães",
+      "Estreito de Ormuz",
+      "Estreito de Bering"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "817af25c23",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A ilha de Capri, famosa pela Gruta Azul, pertence a qual país?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Espanha",
+      "Itália",
+      "Grécia",
+      "Croácia"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2298f0ccef",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Jeju, ilha vulcânica muito procurada por turistas, pertence a qual país?",
+    "resposta": "Coreia do Sul",
+    "alternativas": [
+      "Coreia do Sul",
+      "Taiwan",
+      "Japão",
+      "China"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f0825f40a",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Os cânions e o lago de Furnas tornaram famosa qual cidade mineira?",
+    "resposta": "Capitólio",
+    "alternativas": [
+      "Capitólio",
+      "Brumadinho",
+      "Tiradentes",
+      "Diamantina"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e73f0e0b1f",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a quarta língua nacional da Suíça, ao lado do alemão, do francês e do italiano?",
+    "resposta": "Romanche",
+    "alternativas": [
+      "Luxemburguês",
+      "Ladino",
+      "Flamengo",
+      "Romanche"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "819c6dc9f0",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a montanha mais alta da Europa, no Cáucaso russo?",
+    "resposta": "Monte Elbrus",
+    "alternativas": [
+      "Mont Blanc",
+      "Monte Elbrus",
+      "Monte Olimpo",
+      "Matterhorn"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66230a9869",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "A Calçada dos Gigantes, com milhares de colunas de basalto, fica em qual parte do Reino Unido?",
+    "resposta": "Irlanda do Norte",
+    "alternativas": [
+      "Irlanda do Norte",
+      "Escócia",
+      "Inglaterra",
+      "País de Gales"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "517ec45b76",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Bagan, planície com milhares de templos budistas antigos, fica em qual país?",
+    "resposta": "Mianmar",
+    "alternativas": [
+      "Laos",
+      "Camboja",
+      "Tailândia",
+      "Mianmar"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a87c2d5363",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual gladiador liderou a maior revolta de escravos contra Roma?",
+    "resposta": "Spartacus",
+    "alternativas": [
+      "Aníbal",
+      "Vercingetórix",
+      "Átila",
+      "Spartacus"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1100 (E2 mesma resposta + assunto em comum (28.1))",
+    "dup": "certa",
+    "dup_ref": "banco:1100",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta + assunto em comum (28.1)"
+  },
+  {
+    "id": "5de83c8822",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual general chinês da Antiguidade é apontado como autor de \"A Arte da Guerra\"?",
+    "resposta": "Sun Tzu",
+    "alternativas": [
+      "Sun Tzu",
+      "Mêncio",
+      "Lao-Tsé",
+      "Confúcio"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "29cf7b9633",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual líder sioux, famoso pela vitória em Little Bighorn, depois se apresentou no show de Buffalo Bill?",
+    "resposta": "Touro Sentado",
+    "alternativas": [
+      "Cochise",
+      "Touro Sentado",
+      "Gerônimo",
+      "Nuvem Vermelha"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8124854cef",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual fundador dos Estados Unidos, primeiro secretário do Tesouro, virou tema de um musical da Broadway?",
+    "resposta": "Alexander Hamilton",
+    "alternativas": [
+      "Alexander Hamilton",
+      "John Adams",
+      "Benjamin Franklin",
+      "Thomas Jefferson"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2530",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "4cbc227ec5",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual neto de Gengis Khan fundou a dinastia Yuan e recebeu Marco Polo na China?",
+    "resposta": "Kublai Khan",
+    "alternativas": [
+      "Tamerlão",
+      "Ogedei Khan",
+      "Kublai Khan",
+      "Átila"
+    ],
+    "subtema": "Idade Média",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:791 (E2c mesma resposta e ela aparece no outro enunciado (5.9))",
+    "dup": "certa",
+    "dup_ref": "banco:791",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.9)"
+  },
+  {
+    "id": "d12b451a25",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual vice-presidente assumiu o governo após a morte de Getúlio Vargas, em 1954?",
+    "resposta": "Café Filho",
+    "alternativas": [
+      "Jânio Quadros",
+      "Juscelino Kubitschek",
+      "Café Filho",
+      "Carlos Lacerda"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1316 (E5 resposta antiga citada no texto novo + assunto (14.3))",
+    "dup": "certa",
+    "dup_ref": "banco:1316",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.3)"
+  },
+  {
+    "id": "f1a5586405",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual imperador da Etiópia é venerado pelo movimento rastafári?",
+    "resposta": "Haile Selassie",
+    "alternativas": [
+      "Haile Selassie",
+      "Menelik II",
+      "Tewodros II",
+      "Mansa Musa"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "50bd9b81cd",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual presidente foi deposto pela Revolução de 1930, dias antes de terminar o mandato?",
+    "resposta": "Washington Luís",
+    "alternativas": [
+      "Júlio Prestes",
+      "Washington Luís",
+      "Artur Bernardes",
+      "Epitácio Pessoa"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3b176ce232",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+  },
+  {
+    "id": "7432ac5110",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual militar gaúcho, herói da Guerra do Paraguai, é o patrono da Cavalaria do Exército?",
+    "resposta": "General Osório",
+    "alternativas": [
+      "Duque de Caxias",
+      "General Osório",
+      "Barão do Rio Branco",
+      "Marquês de Tamandaré"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dab1859388",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta é o herói da independência de Cuba, morto em combate em 1895?",
+    "resposta": "José Martí",
+    "alternativas": [
+      "Simón Bolívar",
+      "Che Guevara",
+      "Fidel Castro",
+      "José Martí"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1228",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "d287f74ae0",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pensador inglês escreveu \"Utopia\", livro sobre uma ilha com uma sociedade ideal?",
+    "resposta": "Thomas More",
+    "alternativas": [
+      "Francis Bacon",
+      "Thomas Hobbes",
+      "Thomas More",
+      "John Locke"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "86cc130a01",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arcebispo foi assassinado dentro da Catedral de Cantuária, em 1170?",
+    "resposta": "Tomás Becket",
+    "alternativas": [
+      "Anselmo de Cantuária",
+      "Thomas Cranmer",
+      "Tomás Becket",
+      "Tomás de Aquino"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d16b49791d",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dramaturgo liderou a Revolução de Veludo e virou presidente da Tchecoslováquia?",
+    "resposta": "Václav Havel",
+    "alternativas": [
+      "Milan Kundera",
+      "Václav Havel",
+      "Alexander Dubček",
+      "Lech Walesa"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "32a8f8741c",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual padre foi o primeiro regente único do Império, durante a menoridade de Dom Pedro II?",
+    "resposta": "Diogo Feijó",
+    "alternativas": [
+      "Diogo Feijó",
+      "José Bonifácio",
+      "Frei Caneca",
+      "Araújo Lima"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:a9d5f2de76",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "1e7d33f5e6",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual revolta liberal de 1848, em Pernambuco, foi a última grande rebelião do Império?",
+    "resposta": "Revolução Praieira",
+    "alternativas": [
+      "Sabinada",
+      "Revolução Praieira",
+      "Confederação do Equador",
+      "Balaiada"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c29c30797",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantas patas tem um inseto adulto?",
+    "resposta": "Seis",
+    "alternativas": [
+      "Dez",
+      "Quatro",
+      "Oito",
+      "Seis"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0d97c0dc72",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "O prefixo \"quilo\", de quilograma e quilômetro, vale quantas vezes a unidade?",
+    "resposta": "Mil",
+    "alternativas": [
+      "Mil",
+      "Cem",
+      "Um milhão",
+      "Dez"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:235fea3d1a",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (7.7)"
+  },
+  {
+    "id": "54dd6dc08a",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual marsupial australiano passa o dia dormindo e se alimenta quase só de folhas de eucalipto?",
+    "resposta": "Coala",
+    "alternativas": [
+      "Coala",
+      "Canguru",
+      "Gambá",
+      "Vombate"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2192",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)"
+  },
+  {
+    "id": "f194ebc65d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual teorema diz que, no triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos?",
+    "resposta": "Teorema de Pitágoras",
+    "alternativas": [
+      "Teorema de Euclides",
+      "Teorema de Tales",
+      "Teorema de Pitágoras",
+      "Teorema de Fermat"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:666c476df3 (E5 resposta antiga citada no texto novo + assunto (14.6))",
+    "dup": "certa",
+    "dup_ref": "id:666c476df3",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.6)"
+  },
+  {
+    "id": "795439751b",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Jacarés, cobras e tartarugas pertencem a qual grupo de animais?",
+    "resposta": "Répteis",
+    "alternativas": [
+      "Peixes",
+      "Répteis",
+      "Anfíbios",
+      "Mamíferos"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5d66c35b29",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Quanto é 5 fatorial (5!)?",
+    "resposta": "120",
+    "alternativas": [
+      "25",
+      "100",
+      "60",
+      "120"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "da824a8286",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Em estatística, como se chama o valor que fica no meio de uma lista de números em ordem?",
+    "resposta": "Mediana",
+    "alternativas": [
+      "Moda",
+      "Amplitude",
+      "Mediana",
+      "Média"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c5b79c8201",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual doença, comum depois de enchentes, é transmitida pela urina de ratos?",
+    "resposta": "Leptospirose",
+    "alternativas": [
+      "Dengue",
+      "Raiva",
+      "Leptospirose",
+      "Toxoplasmose"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2deadb662b",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual substância é conhecida popularmente como soda cáustica?",
+    "resposta": "Hidróxido de sódio",
+    "alternativas": [
+      "Carbonato de cálcio",
+      "Cloreto de sódio",
+      "Hidróxido de sódio",
+      "Bicarbonato de sódio"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1800",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "c4c8692b5d",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual mineral ocupa o topo da escala de Mohs, com dureza 10?",
+    "resposta": "Diamante",
+    "alternativas": [
+      "Coríndon",
+      "Quartzo",
+      "Topázio",
+      "Diamante"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2069",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.1)"
+  },
+  {
+    "id": "68bdbc3f4f",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual é a maior glândula do corpo humano?",
+    "resposta": "Fígado",
+    "alternativas": [
+      "Pâncreas",
+      "Tireoide",
+      "Baço",
+      "Fígado"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1686 (E2 mesma resposta + assunto em comum (9.7))",
+    "dup": "certa",
+    "dup_ref": "banco:1686",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta + assunto em comum (9.7)"
+  },
+  {
+    "id": "4494d3a964",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cientista americano criou a primeira vacina contra a poliomielite, aplicada por injeção?",
+    "resposta": "Jonas Salk",
+    "alternativas": [
+      "Albert Sabin",
+      "Jonas Salk",
+      "Louis Pasteur",
+      "Edward Jenner"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3009",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "196b65a483",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cientista holandês inventou o relógio de pêndulo, no século XVII?",
+    "resposta": "Christiaan Huygens",
+    "alternativas": [
+      "Christiaan Huygens",
+      "Blaise Pascal",
+      "Robert Hooke",
+      "Isaac Newton"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f1382f2e53",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual médico persa, autor do \"Cânone da Medicina\", foi referência na Europa por séculos?",
+    "resposta": "Avicena",
+    "alternativas": [
+      "Galeno",
+      "Hipócrates",
+      "Avicena",
+      "Averróis"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bdb0231647",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual físico francês dividiu o Nobel de 1903 com a esposa, Marie Curie?",
+    "resposta": "Pierre Curie",
+    "alternativas": [
+      "Louis Pasteur",
+      "Paul Langevin",
+      "Pierre Curie",
+      "André-Marie Ampère"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2158 (E2c mesma resposta e ela aparece no outro enunciado (8.6))",
+    "dup": "certa",
+    "dup_ref": "banco:2158",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (8.6)"
+  },
+  {
+    "id": "7f56370e4c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No tênis, como se chama o game especial que desempata um set empatado em 6 a 6?",
+    "resposta": "Tie-break",
+    "alternativas": [
+      "Deuce",
+      "Match point",
+      "Tie-break",
+      "Break point"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a50baafb13",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a parada nos boxes para trocar pneus durante uma corrida?",
+    "resposta": "Pit stop",
+    "alternativas": [
+      "Safety car",
+      "Drive-through",
+      "Pole position",
+      "Pit stop"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3d3fcbe9bd",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual clube inglês ganhou a Champions League de 2012, vencendo o Bayern em Munique nos pênaltis?",
+    "resposta": "Chelsea",
+    "alternativas": [
+      "Manchester United",
+      "Chelsea",
+      "Arsenal",
+      "Liverpool"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2562",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.6)"
+  },
+  {
+    "id": "c498fa6209",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual goleiro foi o capitão da Espanha campeã do mundo em 2010?",
+    "resposta": "Iker Casillas",
+    "alternativas": [
+      "Víctor Valdés",
+      "Pepe Reina",
+      "Iker Casillas",
+      "David de Gea"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "51a85ad6b0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No golfe, como se chama o buraco feito com uma tacada abaixo do par?",
+    "resposta": "Birdie",
+    "alternativas": [
+      "Bogey",
+      "Albatross",
+      "Birdie",
+      "Eagle"
+    ],
+    "subtema": "Tênis",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0f058194dc (E5 resposta antiga citada no texto novo + assunto (15.2))",
+    "dup": "certa",
+    "dup_ref": "id:0f058194dc",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.2)"
+  },
+  {
+    "id": "0a54122943",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube foi campeão brasileiro de 2010, com Muricy Ramalho como técnico?",
+    "resposta": "Fluminense",
+    "alternativas": [
+      "Cruzeiro",
+      "Fluminense",
+      "Grêmio",
+      "Corinthians"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:3016 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:3016",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (6.4)"
+  },
+  {
+    "id": "082945cf58",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube foi campeão brasileiro de 1971, com gols de Dadá Maravilha?",
+    "resposta": "Atlético Mineiro",
+    "alternativas": [
+      "Botafogo",
+      "Internacional",
+      "Palmeiras",
+      "Atlético Mineiro"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7399e4dc89",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube nordestino foi campeão brasileiro de 1988, com Bobô como destaque?",
+    "resposta": "Bahia",
+    "alternativas": [
+      "Bahia",
+      "Sport",
+      "Vitória",
+      "Fortaleza"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "510dddcfd7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual foi o primeiro clube francês a ganhar a Champions League, em 1993?",
+    "resposta": "Olympique de Marseille",
+    "alternativas": [
+      "Lyon",
+      "Monaco",
+      "Paris Saint-Germain",
+      "Olympique de Marseille"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "36c7a96bfe",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atacante inglês do Liverpool ganhou a Bola de Ouro de 2001?",
+    "resposta": "Michael Owen",
+    "alternativas": [
+      "Steven Gerrard",
+      "Alan Shearer",
+      "David Beckham",
+      "Michael Owen"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2760",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "319386b7a7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual piloto, filho do campeão Graham Hill, foi campeão da Fórmula 1 em 1996?",
+    "resposta": "Damon Hill",
+    "alternativas": [
+      "Jacques Villeneuve",
+      "David Coulthard",
+      "Nigel Mansell",
+      "Damon Hill"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ccbd73b875",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual finlandês foi campeão da Fórmula 1 em 1998 e 1999 pela McLaren?",
+    "resposta": "Mika Häkkinen",
+    "alternativas": [
+      "Mika Häkkinen",
+      "Keke Rosberg",
+      "Valtteri Bottas",
+      "Kimi Räikkönen"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "141ee0e68c",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atleta russa, bicampeã olímpica, foi a primeira mulher a saltar 5 metros no salto com vara?",
+    "resposta": "Yelena Isinbayeva",
+    "alternativas": [
+      "Jenn Suhr",
+      "Stacy Dragila",
+      "Yelena Isinbayeva",
+      "Fabiana Murer"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "771c87b092",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atacante russo marcou cinco gols numa só partida de Copa do Mundo, contra Camarões, em 1994?",
+    "resposta": "Oleg Salenko",
+    "alternativas": [
+      "Oleg Salenko",
+      "Hristo Stoichkov",
+      "Igor Kolyvanov",
+      "Andrei Arshavin"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2624b819ff",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube de Campinas foi campeão brasileiro de 1978?",
+    "resposta": "Guarani",
+    "alternativas": [
+      "Bragantino",
+      "Guarani",
+      "São Paulo",
+      "Ponte Preta"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2820 (E2 mesma resposta + assunto em comum (10.2))",
+    "dup": "certa",
+    "dup_ref": "banco:2820",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta + assunto em comum (10.2)"
+  },
+  {
+    "id": "1592f6ac89",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube paranaense foi campeão brasileiro de 1985, batendo o Bangu na final?",
+    "resposta": "Coritiba",
+    "alternativas": [
+      "Coritiba",
+      "Paraná Clube",
+      "Athletico Paranaense",
+      "Londrina"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2536 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "banco:2536",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "78f3c97747",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube catarinense ganhou a Copa do Brasil de 1991, com Felipão como técnico?",
+    "resposta": "Criciúma",
+    "alternativas": [
+      "Figueirense",
+      "Joinville",
+      "Avaí",
+      "Criciúma"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2824",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (5.4)"
+  },
+  {
+    "id": "139115696a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube colombiano ganhou a Libertadores de 2004, batendo o Boca Juniors nos pênaltis?",
+    "resposta": "Once Caldas",
+    "alternativas": [
+      "Millonarios",
+      "Once Caldas",
+      "Atlético Nacional",
+      "América de Cali"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ab69f8ef27",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube alemão ganhou a Champions League de 1997, vencendo a Juventus na final?",
+    "resposta": "Borussia Dortmund",
+    "alternativas": [
+      "Bayern de Munique",
+      "Werder Bremen",
+      "Bayer Leverkusen",
+      "Borussia Dortmund"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:455f2dc5a9 (E4 resposta nova (rara) citada no texto antigo (5.1))",
+    "dup": "certa",
+    "dup_ref": "id:455f2dc5a9",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.1)"
+  },
+  {
+    "id": "07667f8fe0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual meia tcheco da Juventus ganhou a Bola de Ouro de 2003?",
+    "resposta": "Pavel Nedvěd",
+    "alternativas": [
+      "Jan Koller",
+      "Petr Čech",
+      "Tomáš Rosický",
+      "Pavel Nedvěd"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d1e8838a4b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual apresentador jogava aviõezinhos de dinheiro para a plateia perguntando \"Quem quer dinheiro?\"",
+    "resposta": "Silvio Santos",
+    "alternativas": [
+      "Gugu Liberato",
+      "Raul Gil",
+      "Silvio Santos",
+      "Faustão"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:bdafa9fa58 (E4 resposta nova (rara) citada no texto antigo (6.6))",
+    "dup": "certa",
+    "dup_ref": "id:bdafa9fa58",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.6)"
+  },
+  {
+    "id": "fc519dcab2",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual apresentador ficou famoso pelo bordão \"Ô loco, meu!\", no \"Domingão\"?",
+    "resposta": "Fausto Silva",
+    "alternativas": [
+      "Luciano Huck",
+      "Rodrigo Faro",
+      "Fausto Silva",
+      "Gugu Liberato"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9eba8991ed",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual pintor espanhol ficou famoso pelos relógios derretidos de \"A Persistência da Memória\"?",
+    "resposta": "Salvador Dalí",
+    "alternativas": [
+      "Joan Miró",
+      "Salvador Dalí",
+      "Francisco Goya",
+      "Pablo Picasso"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3250 (E4 resposta nova (rara) citada no texto antigo (5.4))",
+    "dup": "certa",
+    "dup_ref": "banco:3250",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.4)"
+  },
+  {
+    "id": "130189ddf7",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual pintora mexicana ficou famosa pelos autorretratos e pelas sobrancelhas marcantes?",
+    "resposta": "Frida Kahlo",
+    "alternativas": [
+      "Georgia O'Keeffe",
+      "Frida Kahlo",
+      "Tarsila do Amaral",
+      "Anita Malfatti"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6ba552588b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora sertaneja gravou \"Infiel\", um de seus primeiros grandes sucessos?",
+    "resposta": "Marília Mendonça",
+    "alternativas": [
+      "Marília Mendonça",
+      "Paula Fernandes",
+      "Simone Mendes",
+      "Naiara Azevedo"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3225 (E2b mesma resposta rara + palavra em comum (6.5))",
+    "dup": "certa",
+    "dup_ref": "banco:3225",
+    "recente": false,
+    "dup_regra": "E2b mesma resposta rara + palavra em comum (6.5)"
+  },
+  {
+    "id": "d35e8586a9",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual banda gravou \"Faroeste Caboclo\", a saga de João de Santo Cristo?",
+    "resposta": "Legião Urbana",
+    "alternativas": [
+      "Capital Inicial",
+      "Os Paralamas do Sucesso",
+      "Legião Urbana",
+      "Titãs"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3222",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "84a3902a0e",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual figura do folclore brasileiro é uma mulher amaldiçoada que vira um animal sem cabeça e solta fogo?",
+    "resposta": "Mula sem cabeça",
+    "alternativas": [
+      "Boitatá",
+      "Cuca",
+      "Mula sem cabeça",
+      "Iara"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eced71af4c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantor gravou \"Azul da Cor do Mar\"?",
+    "resposta": "Tim Maia",
+    "alternativas": [
+      "Cassiano",
+      "Roberto Carlos",
+      "Jorge Ben Jor",
+      "Tim Maia"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6e9c6cdd88",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual banda gravou \"Eye of the Tiger\", tema de \"Rocky III\"?",
+    "resposta": "Survivor",
+    "alternativas": [
+      "Foreigner",
+      "Survivor",
+      "Toto",
+      "Journey"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a6d9db06e0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual programa de sábado da Globo foi comandado por Luciano Huck de 2000 a 2021?",
+    "resposta": "Caldeirão do Huck",
+    "alternativas": [
+      "Altas Horas",
+      "Domingão do Faustão",
+      "Caldeirão do Huck",
+      "Esquenta!"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "4daa9f3dbc",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor norueguês criou \"O Grito\"?",
+    "resposta": "Edvard Munch",
+    "alternativas": [
+      "Egon Schiele",
+      "Edvard Munch",
+      "Gustav Klimt",
+      "Vincent van Gogh"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "401bafecc6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor italiano do Renascimento pintou \"O Nascimento de Vênus\"?",
+    "resposta": "Sandro Botticelli",
+    "alternativas": [
+      "Sandro Botticelli",
+      "Caravaggio",
+      "Rafael",
+      "Ticiano"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "808727be47",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantora gravou \"Ovelha Negra\", em 1975?",
+    "resposta": "Rita Lee",
+    "alternativas": [
+      "Gal Costa",
+      "Elis Regina",
+      "Rita Lee",
+      "Maria Bethânia"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3235",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "d0ab89a15f",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantor paraibano gravou \"Admirável Gado Novo\"?",
+    "resposta": "Zé Ramalho",
+    "alternativas": [
+      "Geraldo Azevedo",
+      "Zé Ramalho",
+      "Alceu Valença",
+      "Fagner"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3664 (E2b mesma resposta rara + palavra em comum (6.5))",
+    "dup": "certa",
+    "dup_ref": "banco:3664",
+    "recente": false,
+    "dup_regra": "E2b mesma resposta rara + palavra em comum (6.5)"
+  },
+  {
+    "id": "34a2d70443",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual banda gravou \"Epitáfio\", com o verso \"devia ter amado mais\"?",
+    "resposta": "Titãs",
+    "alternativas": [
+      "Titãs",
+      "Engenheiros do Hawaii",
+      "Legião Urbana",
+      "Barão Vermelho"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4ad829d435",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual banda santista gravou \"Só os Loucos Sabem\"?",
+    "resposta": "Charlie Brown Jr.",
+    "alternativas": [
+      "Charlie Brown Jr.",
+      "Raimundos",
+      "O Rappa",
+      "CPM 22"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e921351026",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantora gravou o hino da disco \"I Will Survive\"?",
+    "resposta": "Gloria Gaynor",
+    "alternativas": [
+      "Gloria Gaynor",
+      "Diana Ross",
+      "Tina Turner",
+      "Donna Summer"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "91fdf0c26b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual série infantil o menino Lucas Silva e Silva narrava a própria vida num gravador?",
+    "resposta": "Mundo da Lua",
+    "alternativas": [
+      "Sítio do Picapau Amarelo",
+      "Confissões de Adolescente",
+      "Mundo da Lua",
+      "Castelo Rá-Tim-Bum"
+    ],
+    "subtema": "TV infantil brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2249",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.6)"
+  },
+  {
+    "id": "7c8d1aed8d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual anime Tanjiro vira caçador de demônios para salvar a irmã Nezuko?",
+    "resposta": "Demon Slayer",
+    "alternativas": [
+      "Jujutsu Kaisen",
+      "Demon Slayer",
+      "Naruto",
+      "Bleach"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e295d0eec3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual diretor canadense lançou \"Duna\" em 2021?",
+    "resposta": "Denis Villeneuve",
+    "alternativas": [
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Denis Villeneuve",
+      "Guillermo del Toro"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "963a933dd1",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual diretor fez \"Gladiador\" e \"Alien, o Oitavo Passageiro\"?",
+    "resposta": "Ridley Scott",
+    "alternativas": [
+      "James Cameron",
+      "Ridley Scott",
+      "Tony Scott",
+      "Steven Spielberg"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4449",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "a0830e269d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor holandês criou \"Moça com Brinco de Pérola\"?",
+    "resposta": "Johannes Vermeer",
+    "alternativas": [
+      "Rembrandt",
+      "Frans Hals",
+      "Johannes Vermeer",
+      "Jan Steen"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7e2a4a6b44",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor francês criou \"Impressão, Nascer do Sol\", obra que deu nome ao impressionismo?",
+    "resposta": "Claude Monet",
+    "alternativas": [
+      "Edgar Degas",
+      "Paul Cézanne",
+      "Pierre-Auguste Renoir",
+      "Claude Monet"
+    ],
+    "subtema": "Artes plásticas e folclore",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f7df1f019",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quem venceu o BBB 6, em 2006?",
+    "resposta": "Mara Viana",
+    "alternativas": [
+      "Mara Viana",
+      "Fernanda Keulla",
+      "Vanessa Mesquita",
+      "Cida dos Santos"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e4f8e6df3",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quem venceu o BBB 15, em 2015?",
+    "resposta": "Cézar Lima",
+    "alternativas": [
+      "Vanessa Mesquita",
+      "Cézar Lima",
+      "Munik Nunes",
+      "Fernanda Keulla"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:66",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "e17158d06a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor gaúcho escreveu a trilogia \"O Tempo e o Vento\"?",
+    "resposta": "Erico Verissimo",
+    "alternativas": [
+      "Erico Verissimo",
+      "Moacyr Scliar",
+      "Mario Quintana",
+      "Luis Fernando Verissimo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "32185bca9d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor naturalista escreveu \"O Cortiço\"?",
+    "resposta": "Aluísio Azevedo",
+    "alternativas": [
+      "Raul Pompeia",
+      "José de Alencar",
+      "Aluísio Azevedo",
+      "Machado de Assis"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d4c92174be",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rapper gravou \"Gangsta's Paradise\", tema do filme \"Mentes Perigosas\"?",
+    "resposta": "Coolio",
+    "alternativas": [
+      "Coolio",
+      "Ice Cube",
+      "Snoop Dogg",
+      "Dr. Dre"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a742bd2f3",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diretor adaptou \"O Iluminado\", de Stephen King, com Jack Nicholson?",
+    "resposta": "Stanley Kubrick",
+    "alternativas": [
+      "Rob Reiner",
+      "John Carpenter",
+      "Stanley Kubrick",
+      "Brian De Palma"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3483 (E5 resposta antiga citada no texto novo + assunto (22.2))",
+    "dup": "certa",
+    "dup_ref": "banco:3483",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (22.2)"
+  },
+  {
+    "id": "09d2e3031d",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual tecla do teclado atualiza a página no navegador?",
+    "resposta": "F5",
+    "alternativas": [
+      "F1",
+      "F2",
+      "F12",
+      "F5"
+    ],
+    "subtema": "Internet e redes",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:3702 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:3702",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.3)"
+  },
+  {
+    "id": "e0188dc82a",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual figura aparece no logotipo do Snapchat?",
+    "resposta": "Um fantasma",
+    "alternativas": [
+      "Um fantasma",
+      "Uma câmera",
+      "Um raio",
+      "Um pássaro"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8cdff18827",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho transforma um documento em papel numa imagem digital?",
+    "resposta": "Scanner",
+    "alternativas": [
+      "Scanner",
+      "Impressora",
+      "Projetor",
+      "Webcam"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b210ae3a81",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aplicativo de namoro popularizou o gesto de deslizar o dedo para a direita para curtir alguém?",
+    "resposta": "Tinder",
+    "alternativas": [
+      "Badoo",
+      "OkCupid",
+      "Tinder",
+      "Par Perfeito"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "439a21cf4d",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual estúdio criou a série Halo antes de fazer Destiny?",
+    "resposta": "Bungie",
+    "alternativas": [
+      "Valve",
+      "343 Industries",
+      "Epic Games",
+      "Bungie"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "70bde040a6",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "O que significa a sigla GPU?",
+    "resposta": "Graphics Processing Unit",
+    "alternativas": [
+      "Graphics Processing Unit",
+      "Global Processing Unit",
+      "Graphics Power Unit",
+      "General Processing Unit"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bdc4b0573c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a técnica de ajustar um site para ele aparecer melhor nas buscas do Google?",
+    "resposta": "SEO",
+    "alternativas": [
+      "CSS",
+      "API",
+      "SMS",
+      "SEO"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9fa8c222d0",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "A linguagem Python ganhou esse nome em homenagem a quê?",
+    "resposta": "Ao grupo de humor Monty Python",
+    "alternativas": [
+      "A uma cobra",
+      "A um personagem de videogame",
+      "Ao grupo de humor Monty Python",
+      "A um deus grego"
+    ],
+    "subtema": "Programação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4436 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:4436",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "d2ab681e75",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual engenheira assumiu o comando da AMD em 2014 e liderou a virada da empresa?",
+    "resposta": "Lisa Su",
+    "alternativas": [
+      "Ginni Rometty",
+      "Sheryl Sandberg",
+      "Lisa Su",
+      "Marissa Mayer"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4484",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "045e7a436a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual programador canadense criou a linguagem Java?",
+    "resposta": "James Gosling",
+    "alternativas": [
+      "Bjarne Stroustrup",
+      "Guido van Rossum",
+      "Dennis Ritchie",
+      "James Gosling"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "378ffa5507",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual empresário japonês fundou a Sony ao lado de Masaru Ibuka?",
+    "resposta": "Akio Morita",
+    "alternativas": [
+      "Hiroshi Yamauchi",
+      "Akio Morita",
+      "Konosuke Matsushita",
+      "Soichiro Honda"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "92019e6d8f",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual matemático americano é chamado de \"pai da teoria da informação\"?",
+    "resposta": "Claude Shannon",
+    "alternativas": [
+      "John von Neumann",
+      "Claude Shannon",
+      "Alan Turing",
+      "Norbert Wiener"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "06fa4c5ae0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual engenheiro cofundou a Intel e é um dos inventores do circuito integrado?",
+    "resposta": "Robert Noyce",
+    "alternativas": [
+      "Steve Wozniak",
+      "Bill Hewlett",
+      "Robert Noyce",
+      "Seymour Cray"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2572c7f74b",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual programador criou o sistema Unix ao lado de Dennis Ritchie?",
+    "resposta": "Ken Thompson",
+    "alternativas": [
+      "Bill Joy",
+      "Richard Stallman",
+      "Linus Torvalds",
+      "Ken Thompson"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "005fa81f15",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual programador criou o motor gráfico de \"Doom\" e cofundou a id Software?",
+    "resposta": "John Carmack",
+    "alternativas": [
+      "Tim Sweeney",
+      "Gabe Newell",
+      "Sid Meier",
+      "John Carmack"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7242ba6b73",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Pamukkale, com terraços brancos de calcário e piscinas termais, fica em qual país?",
+    "resposta": "Turquia",
+    "alternativas": [
+      "Hungria",
+      "Grécia",
+      "Islândia",
+      "Turquia"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52eba014d2",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Quem foi o primeiro presidente dos Estados Unidos?",
+    "resposta": "George Washington",
+    "alternativas": [
+      "George Washington",
+      "John Adams",
+      "Abraham Lincoln",
+      "Thomas Jefferson"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "adbf6b3a95",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual viajante marroquino do século XIV percorreu boa parte do mundo islâmico, da África à China?",
+    "resposta": "Ibn Battuta",
+    "alternativas": [
+      "Averróis",
+      "Saladino",
+      "Ibn Battuta",
+      "Ibn Khaldun"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "43edf6cf7f",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jornalista foi um dos principais autores do Manifesto Republicano de 1870?",
+    "resposta": "Quintino Bocaiuva",
+    "alternativas": [
+      "José do Patrocínio",
+      "Joaquim Nabuco",
+      "Rui Barbosa",
+      "Quintino Bocaiuva"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b051f4e6c2",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual físico britânico previu a existência da antimatéria, na década de 1920?",
+    "resposta": "Paul Dirac",
+    "alternativas": [
+      "James Chadwick",
+      "Max Born",
+      "Paul Dirac",
+      "Ernest Rutherford"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "71ce2c1bd8",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual zagueiro espanhol, capitão do Real Madrid, marcou de cabeça o gol de empate nos acréscimos da final da Champions de 2014?",
+    "resposta": "Sergio Ramos",
+    "alternativas": [
+      "Gerard Piqué",
+      "Carles Puyol",
+      "Raphaël Varane",
+      "Sergio Ramos"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "153e9ceb8e",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual corredor britânico de origem somali ganhou os 5.000 e os 10.000 metros nos Jogos de 2012 e 2016?",
+    "resposta": "Mo Farah",
+    "alternativas": [
+      "Kenenisa Bekele",
+      "Haile Gebrselassie",
+      "Eliud Kipchoge",
+      "Mo Farah"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b05f91fdec",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atacante turco marcou o gol mais rápido da história das Copas, com 11 segundos, em 2002?",
+    "resposta": "Hakan Şükür",
+    "alternativas": [
+      "Nihat Kahveci",
+      "Hakan Şükür",
+      "Ilhan Mansiz",
+      "Arda Turan"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "69162e019a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube de Jundiaí ganhou a Copa do Brasil de 2005?",
+    "resposta": "Paulista",
+    "alternativas": [
+      "Santo André",
+      "Paulista",
+      "Ituano",
+      "Bragantino"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2853",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (6.5)"
+  },
+  {
+    "id": "33be18de6d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantor jamaicano é o maior nome do reggae e gravou \"No Woman, No Cry\"?",
+    "resposta": "Bob Marley",
+    "alternativas": [
+      "Shaggy",
+      "Jimmy Cliff",
+      "Bob Marley",
+      "Peter Tosh"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cded5c6ab9",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora americana ficou conhecida como a \"Rainha do Pop\"?",
+    "resposta": "Madonna",
+    "alternativas": [
+      "Cyndi Lauper",
+      "Janet Jackson",
+      "Madonna",
+      "Cher"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cebe9d7726",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora americana lançou os álbuns \"Fearless\" e \"1989\"?",
+    "resposta": "Taylor Swift",
+    "alternativas": [
+      "Lady Gaga",
+      "Ariana Grande",
+      "Katy Perry",
+      "Taylor Swift"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4173",
+    "recente": false,
+    "dup_regra": "mesma resposta rara (0.0)"
+  },
+  {
+    "id": "165e94200b",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cantor country era conhecido como \"O Homem de Preto\"?",
+    "resposta": "Johnny Cash",
+    "alternativas": [
+      "Johnny Cash",
+      "Elvis Presley",
+      "Willie Nelson",
+      "Kenny Rogers"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ebafb802e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual engenheiro é chamado de \"pai dos videogames\" por criar o Magnavox Odyssey?",
+    "resposta": "Ralph Baer",
+    "alternativas": [
+      "Ralph Baer",
+      "Shigeru Miyamoto",
+      "Gunpei Yokoi",
+      "Nolan Bushnell"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

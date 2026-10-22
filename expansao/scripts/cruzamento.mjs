@@ -40,7 +40,12 @@ const MOLDE = new Set(['chamad', 'conhec', 'famos', 'nome', 'tipo', 'maior', 'me
   'time', 'clube', 'seleca', 'campea', 'histor', 'ano', 'anos', 'vez', 'veze', 'criou', 'criad', 'cerca', 'venceu', 'ficou',
   'tinha', 'durant', 'depois', 'antes', 'princi', 'parte', 'fez', 'deu', 'todo', 'toda', 'todos', 'outro', 'usado', 'usada',
   'sao', 'mais', 'qual', 'quai', 'como', 'qu', 'faz', 'fazer', 'ganhou', 'conqui', 'lancad', 'lancou', 'apelid', 'fica',
-  'possui', 'pode', 'leva', 'alem', 'aparec', 'onde', 'chama', 'existe', 'grupo', 'nasceu', 'surgiu', 'tambem', 'personag']);
+  'possui', 'pode', 'leva', 'alem', 'aparec', 'onde', 'chama', 'existe', 'grupo', 'nasceu', 'surgiu', 'tambem', 'personag',
+  // papéis e verbos de autoria: "Qual cantor gravou X?" e "Qual cantor gravou Y?" são fatos diferentes
+  // palavras de tipo (estreito, rio, guerra...): dizem a classe da resposta, não o assunto
+  'estreit', 'oceano', 'rio', 'lago', 'monte', 'ilha', 'serra', 'deserto', 'guerra', 'batalha', 'revolta', 'tratado', 'dinasti',
+  'imperio', 'reino', 'teorema', 'lei', 'planeta', 'element', 'festiva', 'copa', 'campeon', 'torneio', 'estadio', 'album', 'premio',
+  'gravou', 'cantor', 'cantora', 'banda', 'escreve', 'escreveu', 'pintou', 'pintor', 'dirigiu', 'diretor', 'compos', 'campeao', 'venceu', 'ganhou']);
 
 // Sinônimos / formas equivalentes (já sem acento). Lado esquerdo vira o direito.
 const SINONIMOS = {
@@ -48,7 +53,7 @@ const SINONIMOS = {
   zn: 'zinco', ca: 'calcio', mg: 'magnesio', he: 'helio', ne: 'neonio', ar: 'argonio', cl: 'cloro', co2: 'dioxido carbono',
   h2o: 'agua', o2: 'oxigenio', n2: 'nitrogenio', nacl: 'cloreto sodio', u: 'uranio', pu: 'plutonio', ti: 'titanio',
   king: 'rei', queen: 'rainha', invincibles: 'invenciveis', gta: 'grand theft auto', eua: 'estados unidos', usa: 'estados unidos',
-  urss: 'uniao sovietica', onu: 'nacoes unidas', ue: 'uniao europeia', nba: 'nba', f1: 'formula 1', psg: 'paris saint germain',
+  urss: 'uniao sovietica', spartacus: 'espartaco', onu: 'nacoes unidas', ue: 'uniao europeia', nba: 'nba', f1: 'formula 1', psg: 'paris saint germain',
   'man utd': 'manchester united', ww2: 'segunda guerra', ia: 'inteligencia artificial', ai: 'inteligencia artificial',
   ufc: 'ufc', dna: 'dna', 'dr': 'doutor', sr: 'senhor', sto: 'santo', sta: 'santa', 'st': 'saint', mt: 'mato',
 };
@@ -171,15 +176,20 @@ function respostaEm(a, b) {
 }
 
 /** As respostas dividem uma palavra rara (ou são iguais)? */
-function sobreposicao(a, b) {
+function sobreposicao(a, b, fraca = false) {
   const { idf } = ctx();
   if (a.respStr && a.respStr === b.respStr) return true;
   // a palavra mais rara da resposta MAIS CURTA tem que estar na outra ("Rupia" x "Rupia indiana"; não "Oceano Índico" x "Oceano Pacífico")
   const ra = a.resp.filter((t) => !MOLDE.has(t) && t.length >= 2), rb = b.resp.filter((t) => !MOLDE.has(t) && t.length >= 2);
   if (!ra.length || !rb.length) return false;
   const [c, l] = ra.length <= rb.length ? [ra, rb] : [rb, ra];
+  if (fraca) return c.some((t) => t.length >= 4 && idf(t) >= 5.5 && l.includes(t));
   const rara = c.reduce((m, t) => (idf(t) > idf(m) || (idf(t) === idf(m) && t.length > m.length) ? t : m), c[0]);
-  return (rara.length >= 4 || /\d/.test(rara) || idf(rara) >= 6) && l.includes(rara) && (idf(rara) >= 4.2 || c.length === 1);
+  if (!((rara.length >= 4 || /\d/.test(rara) || idf(rara) >= 6) && l.includes(rara) && (idf(rara) >= 4.2 || c.length === 1))) return false;
+  // nomes compostos: a mais curta inteira dentro da outra ("Jan Koum" x "Jan Koum e Brian Acton"), ou o mesmo
+  // sobrenome no fim ("Maria Leopoldina" x "Imperatriz Leopoldina"); não basta o primeiro nome ("Pierre Curie" x "Pierre de Coubertin")
+  if (fraca || c.length === 1 || c.every((t) => l.includes(t))) return true;
+  return c[c.length - 1] === l[l.length - 1] && idf(c[c.length - 1]) >= 4.2;
 }
 
 /** Peso do assunto em comum nos dois textos, fora as respostas. Nome próprio pesa 1,5x. */
@@ -202,7 +212,7 @@ function jac(a, b) {
   return a.size + b.size - i ? i / (a.size + b.size - i) : 0;
 }
 
-export const LIM_E2 = 7, LIM_E3 = 10, LIM_E5 = 14, LIM_E6 = 0.6, LIM_IDF_COMUM = 4.5;
+export const LIM_E2 = 7, LIM_E3 = 10, LIM_E5 = 14, LIM_E6 = 0.6, LIM_IDF_COMUM = 4.5, LIM_E2B = 6;
 
 /** Respostas "comuns" (aparecem em muitos enunciados): país, estado, cor, número pequeno. Exigem mais assunto. */
 function respostaComum(a) {
@@ -220,25 +230,27 @@ export function compararE(a, b) {
   const inAB = respostaEm(a, b);
   const inBA = respostaEm(b, a);
   const sobre = sobreposicao(a, b);
+  const sobreFraca = sobre || sobreposicao(a, b, true); // só a palavra mais rara em comum ("Fábrica de papel" x "Papel e celulose")
   const { s: comum, n } = assuntoComum(a, b);
   const comumA = respostaComum(a), comumB = respostaComum(b);
   const f = (x) => x.toFixed(1);
-  if (inAB && inBA && !sobre) {
+  if (inAB && inBA && !sobreFraca) {
     if (!(comumA && comumB) || comum >= 3) return { nivel: 'certa', sim, regra: `E1 pergunta invertida (respostas cruzadas nos textos, assunto ${f(comum)})` };
   }
+  if (sobreFraca && (inAB || inBA) && comum >= 3) return { nivel: 'certa', sim, regra: `E2c mesma resposta e ela aparece no outro enunciado (${f(comum)})` };
+  if (sobreFraca && !sobre && comum >= 13) return { nivel: 'certa', sim, regra: `E2d respostas dividem a palavra rara + muito assunto em comum (${f(comum)})` };
   if (sobre) {
-    if ((inAB || inBA) && comum >= 3) return { nivel: 'certa', sim, regra: `E2c mesma resposta e ela aparece no outro enunciado (${f(comum)})` };
     if (comum >= LIM_E2 * (comumA ? 2 : 1) || sim >= 0.5) return { nivel: 'certa', sim, regra: `E2 mesma resposta + assunto em comum (${f(comum)})` };
-    if (respostaRara(a) && n >= 1) return { nivel: 'certa', sim, regra: `E2b mesma resposta rara + palavra em comum (${f(comum)})` };
+    if (respostaRara(a) && comum >= LIM_E2B) return { nivel: 'certa', sim, regra: `E2b mesma resposta rara + palavra em comum (${f(comum)})` };
     if (respostaRara(a)) return { nivel: 'suspeita', sim, regra: `mesma resposta rara (${f(comum)})` };
   }
-  if (inAB && !sobre) {
+  if (inAB && !sobreFraca) {
     if (comum >= LIM_E3 * (comumA ? 2 : 1)) return { nivel: 'certa', sim, regra: `E3 resposta nova citada no texto antigo + assunto (${f(comum)})` };
     if (respostaRara(a) && n >= 1) return { nivel: 'certa', sim, regra: `E4 resposta nova (rara) citada no texto antigo (${f(comum)})` };
     if (respostaRara(a) && a.p.categoria === b.p.categoria) return { nivel: 'suspeita', sim, regra: `resposta nova (rara) citada no texto antigo da mesma categoria` };
     if (!comumA && comum >= 3) return { nivel: 'suspeita', sim, regra: `resposta nova citada no texto antigo (${f(comum)})` };
   }
-  if (inBA && !sobre) {
+  if (inBA && !sobreFraca) {
     if (comum >= LIM_E5 * (comumB ? 1.5 : 1)) return { nivel: 'certa', sim, regra: `E5 resposta antiga citada no texto novo + assunto (${f(comum)})` };
   }
   if (sim >= LIM_E6 && n >= 2) return { nivel: 'suspeita', sim, regra: `enunciados quase iguais, respostas diferentes (${f(sim)})` };

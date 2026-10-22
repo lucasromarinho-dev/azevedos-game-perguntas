@@ -23,11 +23,14 @@ const lote = lerJson(join(PASTA_LOTES, `lote-${n}.json`));
 const validas = lote.filter((p) => p.status !== 'descartada').length;
 const desc = lote.length - validas;
 const m = lerJson(join(RAIZ_EXP, 'metricas.json'));
-const L = { arquivos: usadas, linhas: 0, existem: 0, risco: 0, tokens_aprox: 0 };
+const L = { arquivos: usadas, linhas: 0, existem: 0, risco: 0, tokens_aprox: 0, nomes_sondados: 0, nomes_ausentes: 0 };
 for (const u of usadas) {
   const x = m.listas?.[u];
   if (!x) { console.error(`lista ${u} não registrada (rode candidatas.mjs --registrar)`); process.exit(1); }
-  L.linhas += x.linhas; L.existem += x.existem; L.risco += x.risco; L.tokens_aprox += x.tokens_aprox;
+  L.tokens_aprox += x.tokens_aprox;
+  // sonda de nomes (ausentes.mjs) conta no custo, mas não como candidata
+  if (x.tipo === 'sonda de nomes') { L.nomes_sondados += x.linhas; L.nomes_ausentes += x.livres; continue; }
+  L.linhas += x.linhas; L.existem += x.existem; L.risco += x.risco;
 }
 L.descarte = +(L.existem / (L.linhas || 1)).toFixed(2);
 L.candidatas_por_valida = +(L.linhas / (validas || 1)).toFixed(2);

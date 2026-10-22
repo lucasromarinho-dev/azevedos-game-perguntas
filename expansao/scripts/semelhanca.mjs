@@ -23,10 +23,12 @@ export const GENERICAS = new Set(['brasi', 'maior', 'menor', 'prime', 'segun', '
   'numer', 'grand', 'pequ', 'pais', 'paise', 'cidad', 'nome', 'tipo', 'serie', 'filme', 'jogo', 'time', 'clube', 'selec',
   'campe', 'histo', 'anos', 'vezes', 'chama', 'conhe', 'famos', 'usado', 'usada', 'criou', 'criad', 'cerca',
   'vence', 'copa', 'dispu', 'final', 'ganho', 'conqu', 'press', 'lider', 'brasileiro', 'parte', 'ficou', 'tinha', 'durante',
-  'duran', 'depoi', 'onlin', 'antes', 'princ', 'regia', 'estad', 'fez', 'deu', 'tem', 'ser', 'fazer', 'todo', 'toda', 'todos', 'outro']);
+  'duran', 'depoi', 'onlin', 'antes', 'princ', 'regia', 'estad', 'fez', 'deu', 'tem', 'ser', 'fazer', 'todo', 'toda', 'todos', 'outro',
+  // v3: verbos e papéis de autoria ("Qual cantor gravou X?" x "Qual cantor gravou Y?" é outro fato)
+  'gravo', 'canto', 'banda', 'escre', 'pinto', 'pinto', 'dirig', 'compo', 'cantou', 'music', 'sucess']);
 
 export const LIM_CERTA_SIM = 0.45;
-export const LIM_MESMA_RARA = 4; // resposta rara (até 3 perguntas com ela): basta um radical pouco comum em comum
+export const LIM_MESMA_RARA = 8; // resposta rara (até 3 perguntas com ela): basta um radical pouco comum em comum
 export const LIM_MESMA = 11; // resposta comum (países, estados, clubes): precisa de mais assunto em comum
 export const LIM_CRUZ = 14;
 export const LIM_CRUZ_COMUM = 15; // resposta é palavra comum nos enunciados (Brasil, França): precisa de mais assunto

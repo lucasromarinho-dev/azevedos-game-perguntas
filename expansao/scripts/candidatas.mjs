@@ -113,12 +113,10 @@ if (args.includes('--registrar')) {
   // métrica da lista (por arquivo): quantas linhas, quantas já existiam, tamanho em caracteres e tokens aproximados
   const camM = join(RAIZ_EXP, 'metricas.json');
   const met = lerJson(camM);
-  const linhasArq = readFileSync(arq, 'utf8').split(/?
-/).map((l) => l.trim()).filter((l) => l && !l.startsWith('#') && !l.startsWith('@'));
-  const chars = linhasArq.join('
-').length;
+  const linhasArq = readFileSync(arq, 'utf8').split(/\r?\n/).map((l) => l.trim()).filter((l) => l && !l.startsWith('#') && !l.startsWith('@'));
+  const chars = linhasArq.join('\n').length;
   met.listas = met.listas || {};
-  met.listas[arq.replace(/^.*candidatas[/]/, '')] = { linhas: resultado.length, existem: resultado.filter((r) => r.nivel === 'EXISTE').length,
+  met.listas[arq.replace(/^.*candidatas[\/\\]/, '')] = { linhas: resultado.length, existem: resultado.filter((r) => r.nivel === 'EXISTE').length,
     risco: resultado.filter((r) => r.nivel === 'RISCO').length, livres: resultado.filter((r) => r.nivel === 'LIVRE').length,
     caracteres: chars, tokens_aprox: Math.round(chars / 3.5) };
   gravarJson(camM, met);

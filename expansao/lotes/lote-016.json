@@ -12,12 +12,13 @@
       "Melbourne"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:122",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "641062da63",
@@ -32,12 +33,13 @@
       "Louisiana"
     ],
     "subtema": "Biomas, clima e natureza",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:517",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ae18a5347f",
@@ -52,12 +54,13 @@
       "Recife"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "aea1a360b6",
@@ -72,12 +75,13 @@
       "Samoa"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:c26ba75f27",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "24a5947f88",
@@ -132,12 +136,13 @@
       "Estreito de Bering"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada invertida: banco:125 (o Estreito de Magalhães fica no extremo sul da América do Sul)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "817af25c23",
@@ -152,12 +157,13 @@
       "Croácia"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2298f0ccef",
@@ -172,12 +178,13 @@
       "China"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "6f0825f40a",
@@ -192,12 +199,13 @@
       "Diamantina"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e73f0e0b1f",
@@ -212,18 +220,19 @@
       "Romanche"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "819c6dc9f0",
     "categoria": "Geografia",
     "dificuldade": "dificil",
-    "pergunta": "Qual é a montanha mais alta da Europa, no Cáucaso russo?",
+    "pergunta": "Qual montanha do Cáucaso russo é muitas vezes apontada como a mais alta da Europa?",
     "resposta": "Monte Elbrus",
     "alternativas": [
       "Mont Blanc",
@@ -232,12 +241,14 @@
       "Matterhorn"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "o título de 'mais alta da Europa' depende de onde se traça a fronteira; enunciado passou a 'muitas vezes apontada como'",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "66230a9869",
@@ -252,12 +263,13 @@
       "País de Gales"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "517ec45b76",
@@ -272,12 +284,13 @@
       "Mianmar"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "a87c2d5363",
@@ -312,12 +325,13 @@
       "Confúcio"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "29cf7b9633",
@@ -332,12 +346,13 @@
       "Nuvem Vermelha"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8124854cef",
@@ -352,12 +367,13 @@
       "Thomas Jefferson"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2530",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "4cbc227ec5",
@@ -412,12 +428,13 @@
       "Mansa Musa"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "50bd9b81cd",
@@ -432,12 +449,13 @@
       "Epitácio Pessoa"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3b176ce232",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7432ac5110",
@@ -452,12 +470,13 @@
       "Marquês de Tamandaré"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "dab1859388",
@@ -472,12 +491,13 @@
       "José Martí"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1228",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d287f74ae0",
@@ -492,12 +512,13 @@
       "John Locke"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "86cc130a01",
@@ -512,12 +533,13 @@
       "Tomás de Aquino"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d16b49791d",
@@ -532,12 +554,13 @@
       "Lech Walesa"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "32a8f8741c",
@@ -552,12 +575,13 @@
       "Araújo Lima"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a9d5f2de76",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "1e7d33f5e6",
@@ -572,12 +596,13 @@
       "Balaiada"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "1c29c30797",
@@ -592,12 +617,13 @@
       "Seis"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "0d97c0dc72",
@@ -612,12 +638,13 @@
       "Dez"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:235fea3d1a",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (7.7)"
+    "dup_regra": "resposta nova citada no texto antigo (7.7)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "54dd6dc08a",
@@ -632,12 +659,13 @@
       "Vombate"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2192",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f194ebc65d",
@@ -672,12 +700,13 @@
       "Mamíferos"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "5d66c35b29",
@@ -692,12 +721,13 @@
       "120"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "da824a8286",
@@ -712,12 +742,13 @@
       "Média"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "c5b79c8201",
@@ -732,12 +763,13 @@
       "Toxoplasmose"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2deadb662b",
@@ -752,12 +784,13 @@
       "Bicarbonato de sódio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1800",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "c4c8692b5d",
@@ -772,12 +805,13 @@
       "Diamante"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2069",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.1)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.1)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "68bdbc3f4f",
@@ -812,12 +846,13 @@
       "Edward Jenner"
     ],
     "subtema": "Cientistas e descobertas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3009",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "196b65a483",
@@ -832,12 +867,13 @@
       "Isaac Newton"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "f1382f2e53",
@@ -852,12 +888,13 @@
       "Averróis"
     ],
     "subtema": "Cientistas e descobertas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "bdb0231647",
@@ -892,12 +929,13 @@
       "Break point"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "a50baafb13",
@@ -912,12 +950,13 @@
       "Pit stop"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "3d3fcbe9bd",
@@ -932,12 +971,13 @@
       "Liverpool"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2562",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.6)"
+    "dup_regra": "resposta nova citada no texto antigo (5.6)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "c498fa6209",
@@ -952,12 +992,13 @@
       "David de Gea"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "51a85ad6b0",
@@ -1012,12 +1053,13 @@
       "Atlético Mineiro"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7399e4dc89",
@@ -1032,12 +1074,13 @@
       "Fortaleza"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "510dddcfd7",
@@ -1052,12 +1095,13 @@
       "Olympique de Marseille"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "36c7a96bfe",
@@ -1072,12 +1116,13 @@
       "Michael Owen"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2760",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "319386b7a7",
@@ -1092,12 +1137,13 @@
       "Damon Hill"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ccbd73b875",
@@ -1112,12 +1158,13 @@
       "Kimi Räikkönen"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "141ee0e68c",
@@ -1132,12 +1179,13 @@
       "Fabiana Murer"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "771c87b092",
@@ -1152,12 +1200,13 @@
       "Andrei Arshavin"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2624b819ff",
@@ -1212,12 +1261,13 @@
       "Criciúma"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2824",
     "recente": false,
-    "dup_regra": "mesma resposta rara (5.4)"
+    "dup_regra": "mesma resposta rara (5.4)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "139115696a",
@@ -1232,12 +1282,13 @@
       "América de Cali"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "ab69f8ef27",
@@ -1272,12 +1323,13 @@
       "Pavel Nedvěd"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d1e8838a4b",
@@ -1312,12 +1364,13 @@
       "Gugu Liberato"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "9eba8991ed",
@@ -1352,12 +1405,13 @@
       "Anita Malfatti"
     ],
     "subtema": "Artes plásticas e folclore",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "6ba552588b",
@@ -1392,12 +1446,13 @@
       "Titãs"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3222",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "84a3902a0e",
@@ -1412,12 +1467,13 @@
       "Iara"
     ],
     "subtema": "Artes plásticas e folclore",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "eced71af4c",
@@ -1432,12 +1488,13 @@
       "Tim Maia"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "6e9c6cdd88",
@@ -1452,12 +1509,13 @@
       "Journey"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "a6d9db06e0",
@@ -1472,12 +1530,13 @@
       "Esquenta!"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "4daa9f3dbc",
@@ -1492,12 +1551,13 @@
       "Vincent van Gogh"
     ],
     "subtema": "Artes plásticas e folclore",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "401bafecc6",
@@ -1512,12 +1572,13 @@
       "Ticiano"
     ],
     "subtema": "Artes plásticas e folclore",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "808727be47",
@@ -1532,12 +1593,13 @@
       "Maria Bethânia"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3235",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d0ab89a15f",
@@ -1563,7 +1625,7 @@
     "id": "34a2d70443",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual banda gravou \"Epitáfio\", com o verso \"devia ter amado mais\"?",
+    "pergunta": "Qual banda paulistana gravou a canção \"Epitáfio\", em 2001?",
     "resposta": "Titãs",
     "alternativas": [
       "Titãs",
@@ -1572,12 +1634,14 @@
       "Barão Vermelho"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "citava um verso da letra; reescrita sem citar a letra",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "4ad829d435",
@@ -1592,12 +1656,13 @@
       "CPM 22"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e921351026",
@@ -1612,12 +1677,13 @@
       "Donna Summer"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "91fdf0c26b",
@@ -1632,12 +1698,13 @@
       "Castelo Rá-Tim-Bum"
     ],
     "subtema": "TV infantil brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2249",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.6)"
+    "dup_regra": "resposta nova citada no texto antigo (5.6)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7c8d1aed8d",
@@ -1652,12 +1719,13 @@
       "Bleach"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e295d0eec3",
@@ -1672,12 +1740,13 @@
       "Guillermo del Toro"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "963a933dd1",
@@ -1692,12 +1761,13 @@
       "Steven Spielberg"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4449",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "a0830e269d",
@@ -1712,12 +1782,13 @@
       "Jan Steen"
     ],
     "subtema": "Artes plásticas e folclore",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7e2a4a6b44",
@@ -1732,12 +1803,13 @@
       "Claude Monet"
     ],
     "subtema": "Artes plásticas e folclore",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "6f7df1f019",
@@ -1752,12 +1824,13 @@
       "Cida dos Santos"
     ],
     "subtema": "Reality shows (BBB, A Fazenda etc.)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "9e4f8e6df3",
@@ -1772,12 +1845,13 @@
       "Fernanda Keulla"
     ],
     "subtema": "Reality shows (BBB, A Fazenda etc.)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:66",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "e17158d06a",
@@ -1792,12 +1866,13 @@
       "Luis Fernando Verissimo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "32185bca9d",
@@ -1812,12 +1887,13 @@
       "Machado de Assis"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "d4c92174be",
@@ -1832,12 +1908,13 @@
       "Dr. Dre"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "0a742bd2f3",
@@ -1892,12 +1969,13 @@
       "Um pássaro"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "8cdff18827",
@@ -1912,12 +1990,13 @@
       "Webcam"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "b210ae3a81",
@@ -1932,12 +2011,13 @@
       "Par Perfeito"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "439a21cf4d",
@@ -1952,12 +2032,13 @@
       "Bungie"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "70bde040a6",
@@ -1972,12 +2053,13 @@
       "General Processing Unit"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "bdc4b0573c",
@@ -1992,12 +2074,13 @@
       "SEO"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "9fa8c222d0",
@@ -2032,12 +2115,13 @@
       "Marissa Mayer"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4484",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "045e7a436a",
@@ -2052,12 +2136,13 @@
       "James Gosling"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "378ffa5507",
@@ -2072,12 +2157,13 @@
       "Soichiro Honda"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "92019e6d8f",
@@ -2092,12 +2178,13 @@
       "Norbert Wiener"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "06fa4c5ae0",
@@ -2112,12 +2199,13 @@
       "Seymour Cray"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "2572c7f74b",
@@ -2132,12 +2220,13 @@
       "Ken Thompson"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "005fa81f15",
@@ -2152,12 +2241,13 @@
       "John Carmack"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "7242ba6b73",
@@ -2172,12 +2262,13 @@
       "Turquia"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "52eba014d2",
@@ -2192,12 +2283,13 @@
       "Thomas Jefferson"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "adbf6b3a95",
@@ -2212,12 +2304,13 @@
       "Ibn Khaldun"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "43edf6cf7f",
@@ -2232,12 +2325,13 @@
       "Quintino Bocaiuva"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "b051f4e6c2",
@@ -2252,12 +2346,13 @@
       "Ernest Rutherford"
     ],
     "subtema": "Cientistas e descobertas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "71ce2c1bd8",
@@ -2272,12 +2367,13 @@
       "Sergio Ramos"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "153e9ceb8e",
@@ -2292,12 +2388,13 @@
       "Mo Farah"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "b05f91fdec",
@@ -2312,12 +2409,13 @@
       "Arda Turan"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "69162e019a",
@@ -2332,12 +2430,13 @@
       "Bragantino"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2853",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.5)"
+    "dup_regra": "resposta nova citada no texto antigo (6.5)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "33be18de6d",
@@ -2352,12 +2451,13 @@
       "Peter Tosh"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "cded5c6ab9",
@@ -2372,12 +2472,13 @@
       "Cher"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "cebe9d7726",
@@ -2392,12 +2493,13 @@
       "Taylor Swift"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4173",
     "recente": false,
-    "dup_regra": "mesma resposta rara (0.0)"
+    "dup_regra": "mesma resposta rara (0.0)",
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "165e94200b",
@@ -2412,12 +2514,13 @@
       "Kenny Rogers"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   },
   {
     "id": "1ebafb802e",
@@ -2432,11 +2535,12 @@
       "Nolan Bushnell"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v1"
   }
 ]

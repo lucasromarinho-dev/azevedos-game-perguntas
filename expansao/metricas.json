@@ -1493,229 +1493,57 @@
           "081021e44c: 'é o homem mais rápido do mundo' envelhece; enunciado passou a 'ficou conhecido como'",
           "aefcfce63c: alternativa 'Salamandra-de-fogo' também é anfíbio de pele úmida que respira pela pele (duas certas); trocada por 'Jacaré'"
         ]
+      },
+      {
+        "lote": "016",
+        "conferidas_sem_mudanca": 99,
+        "corrigidas": 2,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "duplicada invertida": 1
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 11,
+            "corrigidas": 1,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "descartadas": 0
+          }
+        },
+        "minutos_aprox": 4,
+        "descartes": [
+          "8e61848edf: duplicada invertida: banco:125 (o Estreito de Magalhães fica no extremo sul da América do Sul)"
+        ],
+        "correcoes": [
+          "819c6dc9f0: o título de 'mais alta da Europa' depende de onde se traça a fronteira; enunciado passou a 'muitas vezes apontada como'",
+          "34a2d70443: citava um verso da letra; reescrita sem citar a letra"
+        ]
       }
     ]
-  },
-  "listas": {
-    "r2-016.txt": {
-      "linhas": 139,
-      "existem": 109,
-      "risco": 7,
-      "livres": 23,
-      "caracteres": 6403,
-      "tokens_aprox": 1829
-    },
-    "r2-016b.txt": {
-      "linhas": 186,
-      "existem": 138,
-      "risco": 29,
-      "livres": 19,
-      "caracteres": 8518,
-      "tokens_aprox": 2434
-    },
-    "r2-016c.txt": {
-      "linhas": 93,
-      "existem": 78,
-      "risco": 10,
-      "livres": 5,
-      "caracteres": 3998,
-      "tokens_aprox": 1142
-    },
-    "r2-016d.txt": {
-      "linhas": 51,
-      "existem": 8,
-      "risco": 10,
-      "livres": 33,
-      "caracteres": 2456,
-      "tokens_aprox": 702
-    },
-    "nomes-r2-a.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 537,
-      "existem": 412,
-      "risco": 0,
-      "livres": 125,
-      "caracteres": 6431,
-      "tokens_aprox": 1837
-    },
-    "nomes-r2-b.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 513,
-      "existem": 317,
-      "risco": 0,
-      "livres": 196,
-      "caracteres": 6736,
-      "tokens_aprox": 1925
-    },
-    "nomes-r2-c.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 434,
-      "existem": 304,
-      "risco": 0,
-      "livres": 130,
-      "caracteres": 4350,
-      "tokens_aprox": 1243
-    },
-    "nomes-r2-d.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 619,
-      "existem": 438,
-      "risco": 0,
-      "livres": 181,
-      "caracteres": 7554,
-      "tokens_aprox": 2158
-    },
-    "nomes-r2-e.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 497,
-      "existem": 369,
-      "risco": 0,
-      "livres": 128,
-      "caracteres": 7241,
-      "tokens_aprox": 2069
-    },
-    "nomes-r2-f.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 610,
-      "existem": 506,
-      "risco": 0,
-      "livres": 104,
-      "caracteres": 7393,
-      "tokens_aprox": 2112
-    },
-    "r2-020-his.txt": {
-      "linhas": 75,
-      "existem": 46,
-      "risco": 9,
-      "livres": 20,
-      "caracteres": 3796,
-      "tokens_aprox": 1085
-    },
-    "nomes-r2-g.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 361,
-      "existem": 230,
-      "risco": 0,
-      "livres": 131,
-      "caracteres": 4024,
-      "tokens_aprox": 1150
-    },
-    "nomes-r2-h.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 248,
-      "existem": 176,
-      "risco": 0,
-      "livres": 72,
-      "caracteres": 3509,
-      "tokens_aprox": 1003
-    },
-    "nomes-r2-i.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 229,
-      "existem": 176,
-      "risco": 0,
-      "livres": 53,
-      "caracteres": 2834,
-      "tokens_aprox": 810
-    },
-    "nomes-r2-j.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 283,
-      "existem": 199,
-      "risco": 0,
-      "livres": 84,
-      "caracteres": 3548,
-      "tokens_aprox": 1014
-    },
-    "nomes-r2-k.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 120,
-      "existem": 94,
-      "risco": 0,
-      "livres": 26,
-      "caracteres": 2065,
-      "tokens_aprox": 590
-    },
-    "r2-025-cie.txt": {
-      "linhas": 18,
-      "existem": 16,
-      "risco": 1,
-      "livres": 1,
-      "caracteres": 792,
-      "tokens_aprox": 226
-    },
-    "nomes-r2-l.txt": {
-      "tipo": "sonda de nomes",
-      "linhas": 129,
-      "existem": 82,
-      "risco": 0,
-      "livres": 47,
-      "caracteres": 1578,
-      "tokens_aprox": 451
-    }
-  },
-  "diretriz_resposta_igual": {
-    "_leia": "Diretriz do Lucas (22/10): resposta igual NÃO é duplicada; só o mesmo par entidade-fato ou pergunta respondida pelo texto de outra. Medido com as listas do lote 016 (comparando só com banco + lotes até 015) e com as perguntas do lote 016.",
-    "listas_lote016": {
-      "linhas": 469,
-      "antes": {
-        "existe": 318,
-        "risco": 71,
-        "livre": 80
-      },
-      "depois": {
-        "existe": 320,
-        "risco": 35,
-        "livre": 114
-      },
-      "liberadas": "36 linhas que eram RISCO só por \"mesma resposta já usada na categoria\" viraram LIVRE; 2 EXISTE viraram RISCO. Os EXISTE restantes são, numa amostra de 60, quase todos o mesmo fato (Círio de Nazaré/Belém, pierogi/Polônia, Cabanagem/Pará...): as listas de 016 bateram em fatos que o banco já tem, não em respostas repetidas."
-    },
-    "perguntas_lote016": {
-      "primeira_passada_certa": 24,
-      "detector_atual_certa": 14,
-      "liberadas": "Tim Maia, Legião Urbana, Rita Lee, Titãs, Charlie Brown Jr., Marília Mendonça, Zé Ramalho, Borussia Dortmund, Salvador Dalí, Coritiba/Criciúma (gentílico não conta como assunto) e outras com mesma resposta e outro fato"
-    },
-    "teste_rodada1": {
-      "antes": "69/76 certa",
-      "depois": "69/76 certa (+3 suspeita)"
-    },
-    "conferidas_marcadas_certa": {
-      "antes": "117 de 1409 (8,3%)",
-      "depois": "118 de 1409 (8,4%)"
-    },
-    "mudancas": [
-      "semelhanca.mjs R2 (mesma resposta + palavras em comum) virou só suspeita",
-      "cruzamento.mjs: mesma resposta só é certa com enunciados parecidos ou assunto em comum (gentílicos e papéis como cantor/gravou/clube não contam)",
-      "candidatas.mjs: mesma resposta na categoria deixou de ser RISCO",
-      "resposta que é palavra vazia (Pará) passou a ser comparada"
-    ]
-  },
-  "rodada2_resumo": {
-    "lotes": "016-025",
-    "escritas": 1101,
-    "validas": 1020,
-    "descartadas_detector": 81,
-    "descarte": 0.074,
-    "tokens_listas": 23780,
-    "tokens_perguntas": 46988,
-    "tokens_por_valida": {
-      "listas": 23,
-      "perguntas": 46,
-      "total": 69
-    },
-    "por_categoria": {
-      "Geografia": 132,
-      "História": 92,
-      "Ciências": 127,
-      "Esportes": 175,
-      "Entretenimento": 321,
-      "Tecnologia": 173
-    },
-    "por_dificuldade": {
-      "facil": 258,
-      "medio": 427,
-      "dificil": 335
-    },
-    "recentes": 40
   }
 }

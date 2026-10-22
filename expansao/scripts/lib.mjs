@@ -59,8 +59,26 @@ export function jaccard(a, b) {
 }
 
 /** Resposta normalizada (tira artigos iniciais como "O", "Os", "A"). */
+const NUMEROS = { zero: '0', um: '1', uma: '1', dois: '2', duas: '2', tres: '3', quatro: '4', cinco: '5', seis: '6', sete: '7',
+  oito: '8', nove: '9', dez: '10', onze: '11', doze: '12', treze: '13', quatorze: '14', catorze: '14', quinze: '15',
+  dezesseis: '16', dezessete: '17', dezoito: '18', dezenove: '19', vinte: '20' };
 export function respostaNorm(r) {
-  return limpar(r).replace(/^(o|a|os|as|um|uma) /, '');
+  const t = limpar(r);
+  if (NUMEROS[t]) return NUMEROS[t];
+  return t.replace(/^(o|a|os|as|um|uma) /, '');
+}
+
+/** Distância de edição (Levenshtein) simples, para pegar grafias diferentes ("Gengis" x "Genghis"). */
+export function distancia(a, b) {
+  if (Math.abs(a.length - b.length) > 2) return 99;
+  let ant = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++)
+      cur[j] = Math.min(ant[j] + 1, cur[j - 1] + 1, ant[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    ant = cur;
+  }
+  return ant[b.length];
 }
 
 /** id curto e estável: hash do texto da pergunta + resposta. */

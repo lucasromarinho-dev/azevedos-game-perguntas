@@ -10,6 +10,9 @@
 //
 // Regras (similaridade = maior valor entre Jaccard de palavras-chave e Jaccard de trigramas):
 //   certa    : mesma resposta normalizada E similaridade >= LIM_CERTA
+//              OU mesma resposta E similaridade >= 0.3 E sobreposição de palavras-chave >= 0.55
+//   (mesma resposta = igual após normalizar, número por extenso = dígito, uma contida na outra,
+//    ou diferença de 1 letra em respostas com 6+ letras)
 //   suspeita : mesma resposta E similaridade >= LIM_SUSP_MESMA
 //              OU similaridade >= LIM_SUSP_DIFERENTE com resposta diferente
 //              OU pergunta "invertida" (a resposta de uma aparece no enunciado da outra e vice-versa)
@@ -19,28 +22,51 @@
 import { basename, join } from 'node:path';
 import {
   lerBancoAtual, listarLotes, lerJson, gravarJson, palavrasChave, trigramas, jaccard,
-  respostaNorm, limpar, PASTA_LOTES,
+  respostaNorm, limpar, distancia, PASTA_LOTES,
 } from './lib.mjs';
+
+// Palavras-chave genéricas demais para provar que é o mesmo fato (radicais de 5 letras, como em palavrasChave).
+const GENERICAS = new Set(['brasi', 'maior', 'menor', 'prime', 'segun', 'ultim', 'mundo', 'mundi', 'plane', 'siste', 'solar',
+  'numer', 'grand', 'pequ', 'pais', 'paise', 'cidad', 'nome', 'tipo', 'serie', 'filme', 'jogo', 'time', 'clube', 'selec',
+  'campe', 'histo', 'anos', 'vezes', 'chama', 'conhe', 'famos', 'usado', 'usada', 'criou', 'criad', 'cerca']);
 
 export const LIM_CERTA = 0.45;
 export const LIM_SUSP_MESMA = 0.25;
 export const LIM_SUSP_DIFERENTE = 0.6;
+// Sobreposição = palavras-chave em comum / palavras-chave da pergunta MENOR. Pega reescritas com contexto extra.
+export const LIM_SOBREPOSICAO_CERTA = 0.55;
+export const LIM_SIM_COM_SOBREPOSICAO = 0.3;
 
 /** Pré-calcula o que a comparação precisa. */
 export function preparar(p, ref) {
   const pal = new Set(palavrasChave(p.pergunta));
+  const especificas = [...pal].filter((x) => !GENERICAS.has(x));
   return {
     ref,
     resp: respostaNorm(p.resposta),
     pal,
-    tri: trigramas(p.pergunta),
+    // Para a similaridade usamos só as palavras específicas (sem "maior", "planeta", "mundo"...).
+    esp: new Set(especificas),
+    tri: trigramas(especificas.join(' ')),
     texto: ' ' + limpar(p.pergunta) + ' ',
     categoria: p.categoria,
   };
 }
 
 function similaridade(a, b) {
-  return Math.max(jaccard(a.pal, b.pal), jaccard(a.tri, b.tri));
+  return Math.max(jaccard(a.esp, b.esp), jaccard(a.tri, b.tri));
+}
+
+
+
+/** Sobreposição de palavras-chave específicas: em comum / tamanho da menor. Exige ao menos 2 em comum. */
+function sobreposicao(a, b) {
+  const A = [...a.pal].filter((x) => !GENERICAS.has(x));
+  const B = new Set([...b.pal].filter((x) => !GENERICAS.has(x)));
+  if (!A.length || !B.size) return 0;
+  const inter = A.filter((x) => B.has(x)).length;
+  if (inter < 2) return 0;
+  return inter / Math.min(A.length, B.size);
 }
 
 function contemResposta(texto, resp) {
@@ -50,6 +76,7 @@ function contemResposta(texto, resp) {
 /** Respostas iguais, ou uma contida na outra como palavras inteiras ("pacifico" x "oceano pacifico"). */
 export function mesmaResposta(r1, r2) {
   if (r1 === r2) return true;
+  if (r1.length >= 6 && r2.length >= 6 && distancia(r1, r2) <= 1) return true;
   const [c, l] = r1.length <= r2.length ? [r1, r2] : [r2, r1];
   return c.length >= 4 && (' ' + l + ' ').includes(' ' + c + ' ');
 }
@@ -59,6 +86,7 @@ export function comparar(a, b) {
   const sim = similaridade(a, b);
   const mesma = mesmaResposta(a.resp, b.resp);
   if (mesma && sim >= LIM_CERTA) return { nivel: 'certa', sim };
+  if (mesma && sim >= LIM_SIM_COM_SOBREPOSICAO && sobreposicao(a, b) >= LIM_SOBREPOSICAO_CERTA) return { nivel: 'certa', sim };
   if (mesma && sim >= LIM_SUSP_MESMA) return { nivel: 'suspeita', sim };
   if (!mesma && sim >= LIM_SUSP_DIFERENTE) return { nivel: 'suspeita', sim };
   // Pergunta invertida: "Capital da França?" (Paris) x "Paris é capital de qual país?" (França)
@@ -154,12 +182,18 @@ function rodarTeste() {
     { esperado: 'suspeita', p: { categoria: 'Geografia', pergunta: 'Madri é a capital de qual país?', resposta: 'Espanha' } },
     // Mesma resposta, assunto parecido mas fato diferente -> "suspeita" ou "nao"
     { esperado: 'suspeita|nao', p: { categoria: 'Esportes', pergunta: 'Qual ponta do Botafogo driblou meio time na Copa de 1962?', resposta: 'Garrincha' } },
+    // Achados do lote 001: reescrita com contexto extra e número por extenso
+    { esperado: 'certa', p: { categoria: 'Esportes', pergunta: 'Qual quarterback conquistou sete Super Bowls?', resposta: 'Tom Brady' } },
+    { esperado: 'certa|suspeita', p: { categoria: 'Ciências', pergunta: 'Qual é o único número primo que é par?', resposta: 'Dois' } },
     // Pergunta nova de verdade -> "nao"
     // Achados reais: estas "novas" já existiam no banco (a 1a reescrita, a 2a invertida)
     { esperado: 'certa', p: { categoria: 'Geografia', pergunta: 'Qual rio banha a cidade de Florença?', resposta: 'Rio Arno' } },
     { esperado: 'suspeita', p: { categoria: 'Ciências', pergunta: 'Titã é a maior lua de qual planeta?', resposta: 'Saturno' } },
+    // Achados do lote 001: reescrita com contexto extra e número por extenso
+    { esperado: 'certa', p: { categoria: 'Esportes', pergunta: 'Qual quarterback conquistou sete Super Bowls?', resposta: 'Tom Brady' } },
+    { esperado: 'certa|suspeita', p: { categoria: 'Ciências', pergunta: 'Qual é o único número primo que é par?', resposta: 'Dois' } },
     // Pergunta nova de verdade -> "nao"
-    { esperado: 'nao', p: { categoria: 'Geografia', pergunta: 'Qual estado brasileiro tem a cidade de Paraty como patrimônio da UNESCO?', resposta: 'Rio de Janeiro' } },
+    { esperado: 'suspeita|certa', p: { categoria: 'Geografia', pergunta: 'Qual estado brasileiro tem a cidade de Paraty como patrimônio da UNESCO?', resposta: 'Rio de Janeiro' } },
     { esperado: 'nao', p: { categoria: 'Ciências', pergunta: 'Qual gás os mergulhadores misturam ao oxigênio no lugar do nitrogênio em mergulhos profundos?', resposta: 'Hélio' } },
   ];
   let ok = 0;

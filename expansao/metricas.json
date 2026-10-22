@@ -461,6 +461,45 @@
         "total": 47
       },
       "obs": "assuntos das sondas já contadas nos lotes 016 a 020 (sobras); História reduzida por falta de espaço livre, cota passada a Entretenimento, Tecnologia e Ciências"
+    },
+    {
+      "lote": "022",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 107,
+      "validas": 102,
+      "descartadas": 5,
+      "taxa_descarte": 0.05,
+      "caracteres": 16325,
+      "tokens_aprox": 4664,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "nomes-r2-j.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r2-j.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 1014,
+        "nomes_sondados": 283,
+        "nomes_ausentes": 84,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 107,
+        "validas": 102,
+        "descartadas_detector": 5,
+        "descarte": 0.05,
+        "tokens_aprox": 4664
+      },
+      "tokens_por_valida": {
+        "listas": 10,
+        "perguntas": 46,
+        "total": 56
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1463,6 +1502,15 @@
       "livres": 53,
       "caracteres": 2834,
       "tokens_aprox": 810
+    },
+    "nomes-r2-j.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 283,
+      "existem": 199,
+      "risco": 0,
+      "livres": 84,
+      "caracteres": 3548,
+      "tokens_aprox": 1014
     }
   },
   "diretriz_resposta_igual": {

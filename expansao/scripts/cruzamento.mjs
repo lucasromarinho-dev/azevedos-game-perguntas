@@ -167,7 +167,8 @@ function bateEm(t, conj) {
   for (const u of conj) {
     if (u.length < 5) continue;
     const n = Math.min(t.length, u.length);
-    if (n >= 5 && t.slice(0, n) === u.slice(0, n) && Math.abs(t.length - u.length) <= (n >= 6 ? 2 : 1)) return true;
+    // prefixo comum só vale para palavras longas ("goiania" ~ "goianio"); "lingua" x "linguado" não
+    if (n >= 7 && t.slice(0, n) === u.slice(0, n) && Math.abs(t.length - u.length) <= 1) return true;
   }
   return false;
 }

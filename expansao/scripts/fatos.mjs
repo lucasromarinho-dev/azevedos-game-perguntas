@@ -2,7 +2,7 @@
 // FATOS JÁ USADOS (zero IA): para cada nome de uma lista, mostra quantas perguntas (banco + novas válidas) o citam
 // e até 4 delas, em uma linha. Serve para escrever um ÂNGULO NOVO sobre um nome que já aparece no banco
 // (ex.: "Capivara" só aparecia em "Serra da Capivara"; "maior roedor do mundo" estava livre).
-// Uso: node expansao/scripts/fatos.mjs arquivo.txt   (nomes separados por vírgula ou um por linha; "#" = comentário)
+// Uso: node expansao/scripts/fatos.mjs arquivo.txt [--curto] [--registrar]   (nomes separados por vírgula ou um por linha; "#" = comentário)
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { lerBancoAtual, listarLotes, lerJson, gravarJson, limpar, RAIZ_EXP } from './lib.mjs';
@@ -19,6 +19,7 @@ for (const t of termos) {
   const k = ' ' + limpar(t) + ' ';
   const h = todas.filter((p) => p.t.includes(k));
   if (!h.length) livres++;
+  if (process.argv.includes('--curto') && h.length > 1) continue; // --curto: só os nomes com 0 ou 1 pergunta (o que interessa)
   saida += `## ${t} (${h.length}): ${h.slice(0, 2).map((p) => p.s.slice(0, 70)).join(' | ')}
 `;
 }

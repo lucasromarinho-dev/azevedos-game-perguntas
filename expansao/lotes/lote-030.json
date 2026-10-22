@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "058f2938a9",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O churrasco gaúcho tradicional é temperado só com qual ingrediente?",
+    "resposta": "Sal grosso",
+    "alternativas": [
+      "Alho",
+      "Pimenta-do-reino",
+      "Sal grosso",
+      "Chimichurri"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8fe50b894b",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O strogonoff, prato muito popular no Brasil, tem origem em qual país?",
+    "resposta": "Rússia",
+    "alternativas": [
+      "Alemanha",
+      "Rússia",
+      "França",
+      "Áustria"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:50e73a265d",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (4.6)"
+  },
+  {
+    "id": "e03fa10e09",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O burrito, tortilha de trigo enrolada com recheio, é típico de qual país?",
+    "resposta": "México",
+    "alternativas": [
+      "Peru",
+      "Colômbia",
+      "México",
+      "Espanha"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "20ea96e0c2",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O kebab, carne assada num espeto vertical e servida no pão, é típico de qual país?",
+    "resposta": "Turquia",
+    "alternativas": [
+      "Índia",
+      "Marrocos",
+      "Turquia",
+      "Grécia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:f643112414",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.6, 11% do fato)"
+  },
+  {
+    "id": "fa4250a400",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A buchada, feita com o estômago do bode, é típica de qual região do Brasil?",
+    "resposta": "Nordeste",
+    "alternativas": [
+      "Sul",
+      "Centro-Oeste",
+      "Nordeste",
+      "Norte"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:6ff44c784e",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
+  },
+  {
+    "id": "4323ff99cc",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a cheia que faz um rio transbordar e alagar ruas e casas?",
+    "resposta": "Enchente",
+    "alternativas": [
+      "Pororoca",
+      "Enchente",
+      "Estiagem",
+      "Vazante"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "81d2081fe1",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual município do Rio de Janeiro ficam as usinas nucleares Angra 1 e Angra 2?",
+    "resposta": "Angra dos Reis",
+    "alternativas": [
+      "Paraty",
+      "Itaguaí",
+      "Mangaratiba",
+      "Angra dos Reis"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1729 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 13.3))",
+    "dup": "certa",
+    "dup_ref": "banco:1729",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 13.3)"
+  },
+  {
+    "id": "7d277bc17c",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O udon, macarrão grosso de trigo servido em caldo, é típico de qual país?",
+    "resposta": "Japão",
+    "alternativas": [
+      "Vietnã",
+      "Japão",
+      "Coreia do Sul",
+      "China"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:cff2553ae0",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.6, 16% do fato)"
+  },
+  {
+    "id": "fb0f5f5f57",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O naan, pão achatado e macio que acompanha o curry, é típico de qual país?",
+    "resposta": "Índia",
+    "alternativas": [
+      "Turquia",
+      "Tailândia",
+      "Índia",
+      "Paquistão"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:1cf0798bfb",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.6, 13% do fato)"
+  },
+  {
+    "id": "f4252c7b3b",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O tom yum, sopa picante e azeda com capim-limão, é típico de qual país?",
+    "resposta": "Tailândia",
+    "alternativas": [
+      "Japão",
+      "Vietnã",
+      "Tailândia",
+      "Índia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a605c71871",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A Costa Amalfitana, com cidades como Positano e Ravello, fica em qual país?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Itália",
+      "França",
+      "Croácia",
+      "Grécia"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fb5fee0202 (E2 mesma resposta e mesmo assunto (21.0, 49% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:fb5fee0202",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (21.0, 49% do fato)"
+  },
+  {
+    "id": "d4ed9a7eb5",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "As Bermudas, arquipélago do Atlântico Norte, são território de qual país?",
+    "resposta": "Reino Unido",
+    "alternativas": [
+      "Estados Unidos",
+      "Canadá",
+      "Reino Unido",
+      "França"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0044ba4353 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "id:0044ba4353",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "08c43ca33b",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama uma pequena reentrância do mar na costa, menor que uma baía?",
+    "resposta": "Enseada",
+    "alternativas": [
+      "Istmo",
+      "Golfo",
+      "Enseada",
+      "Estreito"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2235ec87b6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O laksa, sopa de macarrão com leite de coco e curry, é típico de qual país?",
+    "resposta": "Malásia",
+    "alternativas": [
+      "Filipinas",
+      "Vietnã",
+      "Malásia",
+      "Tailândia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:641",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ff9d4ec7a4",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "A cachoeira de Gullfoss, uma das atrações do \"Círculo Dourado\", fica em qual país?",
+    "resposta": "Islândia",
+    "alternativas": [
+      "Finlândia",
+      "Canadá",
+      "Islândia",
+      "Noruega"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:586",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "e8f9113272",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Siena, cidade da corrida de cavalos chamada Palio, fica em qual região da Itália?",
+    "resposta": "Toscana",
+    "alternativas": [
+      "Lombardia",
+      "Úmbria",
+      "Toscana",
+      "Vêneto"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:1694c4750f (E4 resposta nova (rara) citada no texto antigo (7.7))",
+    "dup": "certa",
+    "dup_ref": "id:1694c4750f",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.7)"
+  },
+  {
+    "id": "c96f929e75",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O fiorde de Milford Sound fica em qual país?",
+    "resposta": "Nova Zelândia",
+    "alternativas": [
+      "Noruega",
+      "Canadá",
+      "Nova Zelândia",
+      "Chile"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "68b299f888",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava o mensageiro que anunciava em voz alta as ordens do rei nas praças?",
+    "resposta": "Arauto",
+    "alternativas": [
+      "Menestrel",
+      "Escudeiro",
+      "Arauto",
+      "Bobo da corte"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c84616d3b3",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a ponte dos castelos que podia ser erguida para impedir a entrada de inimigos?",
+    "resposta": "Ponte levadiça",
+    "alternativas": [
+      "Passarela",
+      "Ponte pênsil",
+      "Ponte levadiça",
+      "Ponte de cordas"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1df93ff2be",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a prisão subterrânea dos castelos?",
+    "resposta": "Masmorra",
+    "alternativas": [
+      "Capela",
+      "Torre de menagem",
+      "Masmorra",
+      "Adega"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9b6aad75e2",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual armadura flexível era feita de pequenos anéis de metal entrelaçados?",
+    "resposta": "Cota de malha",
+    "alternativas": [
+      "Gibão",
+      "Cota de malha",
+      "Couraça",
+      "Elmo"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e6f5a9c9e",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual sistema de numeração usa letras como I, V, X, L, C, D e M?",
+    "resposta": "Numerais romanos",
+    "alternativas": [
+      "Numerais romanos",
+      "Escrita cuneiforme",
+      "Numerais arábicos",
+      "Numerais gregos"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f66d652b65",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava o monge que copiava livros à mão nos mosteiros medievais?",
+    "resposta": "Copista",
+    "alternativas": [
+      "Arauto",
+      "Tipógrafo",
+      "Escriba real",
+      "Copista"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "78953825b6",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam as pinturas decorativas feitas nas páginas dos manuscritos medievais?",
+    "resposta": "Iluminuras",
+    "alternativas": [
+      "Afrescos",
+      "Iluminuras",
+      "Tapeçarias",
+      "Mosaicos"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3d03018f92",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "A palavra \"quarentena\" vem do isolamento de quantos dias imposto a navios durante a peste?",
+    "resposta": "40",
+    "alternativas": [
+      "100",
+      "14",
+      "30",
+      "40"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "569f088e66",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a bandeira pirata com uma caveira e ossos cruzados?",
+    "resposta": "Jolly Roger",
+    "alternativas": [
+      "Union Jack",
+      "Black Pearl",
+      "Jolly Roger",
+      "Skull Flag"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fabd3a1d1e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual oficial romano comandava uma centúria, com cerca de 80 a 100 soldados?",
+    "resposta": "Centurião",
+    "alternativas": [
+      "Tribuno",
+      "Centurião",
+      "Legado",
+      "Pretor"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fbde3e429b",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os grandes navios espanhóis que levavam a prata da América para a Europa?",
+    "resposta": "Galeões",
+    "alternativas": [
+      "Caravelas",
+      "Juncos",
+      "Galeões",
+      "Drakkars"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a5711e2f6e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Os alquimistas buscavam a pedra filosofal principalmente para quê?",
+    "resposta": "Transformar metais em ouro",
+    "alternativas": [
+      "Curar a peste",
+      "Achar tesouros enterrados",
+      "Prever o futuro",
+      "Transformar metais em ouro"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4050bbc544",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual papa instituiu, em 1582, o calendário que se tornou o padrão civil na maior parte do mundo?",
+    "resposta": "Gregório XIII",
+    "alternativas": [
+      "Pio V",
+      "Gregório XIII",
+      "Júlio II",
+      "Leão X"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1296 (E2 mesma resposta e mesmo assunto (13.1, 68% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:1296",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (13.1, 68% do fato)"
+  },
+  {
+    "id": "385a0cff81",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquiteto egípcio projetou a pirâmide de degraus de Djoser, em Saqqara?",
+    "resposta": "Imhotep",
+    "alternativas": [
+      "Senenmut",
+      "Ptahotep",
+      "Hemiunu",
+      "Imhotep"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b81ab9d2a2",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arma medieval combinava lança e machado numa haste longa?",
+    "resposta": "Alabarda",
+    "alternativas": [
+      "Mangual",
+      "Maça",
+      "Alabarda",
+      "Tridente"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3fc26b33fe",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamavam os piratas que atacavam navios espanhóis no Caribe no século XVII, a partir de ilhas como Tortuga?",
+    "resposta": "Bucaneiros",
+    "alternativas": [
+      "Corsários berberes",
+      "Vikings",
+      "Mamelucos",
+      "Bucaneiros"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3ee67a3dd8",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual região da França ficam os milhares de menires alinhados de Carnac?",
+    "resposta": "Bretanha",
+    "alternativas": [
+      "Alsácia",
+      "Bretanha",
+      "Provença",
+      "Normandia"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "57a662a4ce",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual reflexo de abrir a boca e inspirar fundo costuma \"contagiar\" quem está perto?",
+    "resposta": "Bocejo",
+    "alternativas": [
+      "Bocejo",
+      "Espirro",
+      "Soluço",
+      "Suspiro"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "635451687d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a dor e a rigidez no pescoço que impedem de virar a cabeça?",
+    "resposta": "Torcicolo",
+    "alternativas": [
+      "Torcicolo",
+      "Câimbra",
+      "Enxaqueca",
+      "Bursite"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b4329dccdd",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a perda de cabelo que deixa a cabeça careca, comum em homens?",
+    "resposta": "Calvície",
+    "alternativas": [
+      "Calvície",
+      "Alopecia areata",
+      "Seborreia",
+      "Caspa"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b88ef2765",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as escamas brancas que se soltam do couro cabeludo?",
+    "resposta": "Caspa",
+    "alternativas": [
+      "Acne",
+      "Piolho",
+      "Lêndea",
+      "Caspa"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8f33c96c48",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual micose aparece entre os dedos dos pés, com coceira e pele descascando?",
+    "resposta": "Frieira",
+    "alternativas": [
+      "Frieira",
+      "Bolha",
+      "Unha encravada",
+      "Calo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "85eade4b44",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o aparelho que corrige a posição dos dentes com bráquetes e fios?",
+    "resposta": "Aparelho ortodôntico",
+    "alternativas": [
+      "Placa de bruxismo",
+      "Implante",
+      "Prótese dentária",
+      "Aparelho ortodôntico"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b8b0e0bca8",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual exame mede a quantidade de açúcar no sangue?",
+    "resposta": "Glicemia",
+    "alternativas": [
+      "Glicemia",
+      "Creatinina",
+      "Colesterol total",
+      "Hemograma"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bfbd786e88",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o ritmo irregular dos batimentos do coração?",
+    "resposta": "Arritmia",
+    "alternativas": [
+      "Sopro",
+      "Taquicardia de esforço",
+      "Arritmia",
+      "Hipertensão"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "813b443f4b",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual sigla designa o transtorno de déficit de atenção com hiperatividade?",
+    "resposta": "TDAH",
+    "alternativas": [
+      "TEA",
+      "TOC",
+      "TAG",
+      "TDAH"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6b138e475f",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual inflamação da parede do estômago causa queimação e dor?",
+    "resposta": "Gastrite",
+    "alternativas": [
+      "Apendicite",
+      "Hepatite",
+      "Colite",
+      "Gastrite"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e345a3c06f",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a volta do ácido do estômago para o esôfago, que causa azia?",
+    "resposta": "Refluxo",
+    "alternativas": [
+      "Refluxo",
+      "Úlcera",
+      "Cólica",
+      "Gastrite"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7bfe5ac6c7",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual pequeno macaco brasileiro, de tufos brancos nas orelhas, é comum até em parques das cidades?",
+    "resposta": "Sagui",
+    "alternativas": [
+      "Macaco-prego",
+      "Mico-leão-dourado",
+      "Sagui",
+      "Bugio"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "38ab45bd1b",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual forma da peste, transmitida por pulgas de ratos, causava ínguas inchadas chamadas bubões?",
+    "resposta": "Peste bubônica",
+    "alternativas": [
+      "Cólera",
+      "Peste bubônica",
+      "Peste pneumônica",
+      "Varíola"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2032 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:2032",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "f5d293af08",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual marsupial australiano é famoso por fazer cocô em formato de cubo?",
+    "resposta": "Vombate",
+    "alternativas": [
+      "Coala",
+      "Diabo-da-tasmânia",
+      "Canguru",
+      "Vombate"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:ed0636e99b (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:ed0636e99b",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "1b13fccbd6",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual curvatura exagerada da coluna lombar deixa o bumbum \"empinado\"?",
+    "resposta": "Lordose",
+    "alternativas": [
+      "Hérnia de disco",
+      "Escoliose",
+      "Cifose",
+      "Lordose"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9988d5c272",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual elemento químico é usado como combustível nas usinas nucleares de Angra dos Reis?",
+    "resposta": "Urânio",
+    "alternativas": [
+      "Tório",
+      "Plutônio",
+      "Urânio",
+      "Rádio"
+    ],
+    "subtema": "Química",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1716 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:1716",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "b0c50a9021",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No boxe, como se chama o canto do ringue onde o lutador descansa entre os rounds?",
+    "resposta": "Córner",
+    "alternativas": [
+      "Córner",
+      "Cerco",
+      "Pódio",
+      "Box"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8737d6d782",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No boxe, qual instrumento marca o começo e o fim de cada round?",
+    "resposta": "Gongo",
+    "alternativas": [
+      "Cronômetro de areia",
+      "Apito",
+      "Sirene",
+      "Gongo"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b1669d0818",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual acessório de borracha os lutadores põem na boca para proteger os dentes?",
+    "resposta": "Protetor bucal",
+    "alternativas": [
+      "Protetor bucal",
+      "Caneleira",
+      "Bandagem",
+      "Coquilha"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dfac2ffc0c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o professor de artes marciais japonesas?",
+    "resposta": "Sensei",
+    "alternativas": [
+      "Sensei",
+      "Sumotori",
+      "Shogun",
+      "Ronin"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba08fe677d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o local de treino das artes marciais japonesas?",
+    "resposta": "Dojo",
+    "alternativas": [
+      "Tatame",
+      "Dohyo",
+      "Ringue",
+      "Dojo"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "65405177d9",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual uniforme de algodão grosso é usado no judô e no jiu-jítsu?",
+    "resposta": "Quimono",
+    "alternativas": [
+      "Agasalho",
+      "Collant",
+      "Sunga",
+      "Quimono"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "731767f40a",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual estilo de natação é o mais lento das provas olímpicas e tem pernada parecida com a do sapo?",
+    "resposta": "Peito",
+    "alternativas": [
+      "Peito",
+      "Costas",
+      "Borboleta",
+      "Crawl"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b9af110924",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual esporte usa uma prancha com uma vela presa a um mastro?",
+    "resposta": "Windsurf",
+    "alternativas": [
+      "Bodyboard",
+      "Windsurf",
+      "Stand up paddle",
+      "Kitesurf"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9a724dbd65",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Nas artes marciais, como se chama o grito dado no momento do golpe?",
+    "resposta": "Kiai",
+    "alternativas": [
+      "Ippon",
+      "Kiai",
+      "Banzai",
+      "Kata"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ffba261b33",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual estilo de natação é o único em que o atleta larga de dentro da piscina?",
+    "resposta": "Costas",
+    "alternativas": [
+      "Peito",
+      "Crawl",
+      "Borboleta",
+      "Costas"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:316",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.5)"
+  },
+  {
+    "id": "ea4f78e47e",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a modalidade olímpica em que duplas ou equipes fazem coreografias na piscina?",
+    "resposta": "Nado artístico",
+    "alternativas": [
+      "Nado artístico",
+      "Saltos ornamentais",
+      "Polo aquático",
+      "Maratona aquática"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9314064f22",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No skate, como se chama a manobra básica em que o skatista salta com o skate preso aos pés, sem usar as mãos?",
+    "resposta": "Ollie",
+    "alternativas": [
+      "Grind",
+      "Kickflip",
+      "Manual",
+      "Ollie"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "acb34ef51d",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a pista de skate em forma de U, com paredes altas dos dois lados?",
+    "resposta": "Half-pipe",
+    "alternativas": [
+      "Bowl",
+      "Half-pipe",
+      "Street",
+      "Quarter"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3f8692a3af",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual modalidade da escalada esportiva é feita em paredes baixas, sem corda, com colchões embaixo?",
+    "resposta": "Boulder",
+    "alternativas": [
+      "Rapel",
+      "Guiada",
+      "Velocidade",
+      "Boulder"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7abd9fb218",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No surfe, como se chama a manobra em que o surfista sai voando acima da onda?",
+    "resposta": "Aéreo",
+    "alternativas": [
+      "Batida",
+      "Tubo",
+      "Aéreo",
+      "Cutback"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "486517c8c5",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a tática em que o goleiro sai da área e joga como um jogador de linha?",
+    "resposta": "Goleiro-linha",
+    "alternativas": [
+      "Goleiro-linha",
+      "Líbero",
+      "Falso nove",
+      "Ponta de lança"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "76bc1d8613",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "No caratê, como se chama o combate de treino entre dois praticantes?",
+    "resposta": "Kumite",
+    "alternativas": [
+      "Kata",
+      "Kihon",
+      "Kumite",
+      "Randori"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "36ce4cb467",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "No skate, qual manobra faz a prancha girar no ar pela borda, logo depois de um ollie?",
+    "resposta": "Kickflip",
+    "alternativas": [
+      "Kickflip",
+      "Heelflip",
+      "Nollie",
+      "Shove-it"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:9314064f22 (E5 resposta antiga citada no texto novo + assunto (15.1))",
+    "dup": "certa",
+    "dup_ref": "id:9314064f22",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.1)"
+  },
+  {
+    "id": "d0ffe6a971",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual prova olímpica de atletismo tem barreiras fixas e um fosso com água?",
+    "resposta": "3.000 metros com obstáculos",
+    "alternativas": [
+      "400 metros com barreiras",
+      "3.000 metros com obstáculos",
+      "110 metros com barreiras",
+      "Pentatlo moderno"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:7ad0f4ef3b (E2d respostas dividem a palavra rara + muito assunto em comum (17.6))",
+    "dup": "certa",
+    "dup_ref": "id:7ad0f4ef3b",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (17.6)"
+  },
+  {
+    "id": "eed747c376",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual fantasminha camarada de desenho prefere fazer amigos a assustar as pessoas?",
+    "resposta": "Gasparzinho",
+    "alternativas": [
+      "Pac-Man",
+      "Slimer",
+      "Geleia",
+      "Gasparzinho"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5fadc5796d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual menino dos quadrinhos é conhecido como \"o garoto mais rico do mundo\"?",
+    "resposta": "Riquinho",
+    "alternativas": [
+      "Tio Patinhas",
+      "Riquinho",
+      "Bruce Wayne",
+      "Professor Pardal"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cf097dc0cf",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual menina dos quadrinhos tem um amigo gordinho chamado Bolinha?",
+    "resposta": "Luluzinha",
+    "alternativas": [
+      "Luluzinha",
+      "Mônica",
+      "Mafalda",
+      "Magali"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d745f7d954",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual soldado preguiçoso dos quadrinhos vive fugindo do Sargento Tainha?",
+    "resposta": "Recruta Zero",
+    "alternativas": [
+      "Zé Colmeia",
+      "Recruta Zero",
+      "Popeye",
+      "Hagar"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f13f8b6e6b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual viking dos quadrinhos, de capacete com chifres, é casado com Helga?",
+    "resposta": "Hagar, o Horrível",
+    "alternativas": [
+      "Vicky",
+      "Obelix",
+      "Hagar, o Horrível",
+      "Asterix"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fccafa52f6",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cachorro de língua de fora é o companheiro bobão do gato Garfield?",
+    "resposta": "Odie",
+    "alternativas": [
+      "Snoopy",
+      "Muttley",
+      "Odie",
+      "Bidu"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "58f78f81a3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual boneca, lançada em 1959, tem o namorado Ken?",
+    "resposta": "Barbie",
+    "alternativas": [
+      "Emília",
+      "Barbie",
+      "Susi",
+      "Polly"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f1c9f30b4d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de tabuleiro brasileiro faz os jogadores comprarem ruas e cobrarem aluguel?",
+    "resposta": "Banco Imobiliário",
+    "alternativas": [
+      "Jogo da Vida",
+      "War",
+      "Detetive",
+      "Banco Imobiliário"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2648ccf5fb",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em qual jogo de cartas é preciso avisar quando sobra só uma carta na mão?",
+    "resposta": "Uno",
+    "alternativas": [
+      "Paciência",
+      "Uno",
+      "Truco",
+      "Buraco"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1bcfa8d822",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual quebra-cabeça de faces coloridas que giram foi inventado por Ernő Rubik em 1974?",
+    "resposta": "Cubo mágico",
+    "alternativas": [
+      "Cubo mágico",
+      "Jenga",
+      "Tangram",
+      "Resta Um"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c290064554",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual jogo de tabuleiro com pinos e furos o objetivo é terminar com uma única peça?",
+    "resposta": "Resta Um",
+    "alternativas": [
+      "Pega-varetas",
+      "Resta Um",
+      "Ludo",
+      "Damas"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "99c887d4e0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca alemã de brinquedos tem bonequinhos sorridentes com mãos em forma de C?",
+    "resposta": "Playmobil",
+    "alternativas": [
+      "Playmobil",
+      "Estrela",
+      "Hot Wheels",
+      "Lego"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8f90de44cb",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem de desenho dos anos 1930, de cabelo curtinho e voz fina, era uma cantora de jazz?",
+    "resposta": "Betty Boop",
+    "alternativas": [
+      "Betty Boop",
+      "Minnie",
+      "Lulu",
+      "Olívia Palito"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "94e08bb835",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual capitão barbudo e mal-humorado é o melhor amigo de Tintim?",
+    "resposta": "Capitão Haddock",
+    "alternativas": [
+      "Capitão Haddock",
+      "Capitão Gancho",
+      "Capitão Nemo",
+      "Capitão Caverna"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "16c8299fc9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o nome do cachorrinho de Obelix?",
+    "resposta": "Idéfix",
+    "alternativas": [
+      "Milu",
+      "Totó",
+      "Bidu",
+      "Idéfix"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "36ce2292eb",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual caubói dos quadrinhos \"atira mais rápido que a própria sombra\"?",
+    "resposta": "Lucky Luke",
+    "alternativas": [
+      "Tex Willer",
+      "Jonah Hex",
+      "Lucky Luke",
+      "Zorro"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "279f8f3c6b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual linha de bonequinhas cabia dentro de um estojo em forma de concha?",
+    "resposta": "Polly Pocket",
+    "alternativas": [
+      "Polly Pocket",
+      "Moranguinho",
+      "Susi",
+      "Barbie"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f92301b5cb",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Com qual nome os bonecos militares G.I. Joe foram vendidos no Brasil?",
+    "resposta": "Comandos em Ação",
+    "alternativas": [
+      "Tropa de Elite",
+      "Comandos em Ação",
+      "Soldados de Aço",
+      "Falcon"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d72cfa8a6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cachorro gigante e trapalhão das tirinhas é da raça dogue alemão?",
+    "resposta": "Marmaduke",
+    "alternativas": [
+      "Marmaduke",
+      "Snoopy",
+      "Odie",
+      "Bidu"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d5b58c4300",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual faixa de filmes da Globo vai ao ar nas noites de sábado?",
+    "resposta": "Supercine",
+    "alternativas": [
+      "Corujão",
+      "Sessão da Tarde",
+      "Tela Quente",
+      "Supercine"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:17aa836cb5",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "4123e48efa",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor americano, nascido na Letônia, ficou famoso por grandes retângulos de cor de bordas borradas?",
+    "resposta": "Mark Rothko",
+    "alternativas": [
+      "Barnett Newman",
+      "Jackson Pollock",
+      "Mark Rothko",
+      "Willem de Kooning"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f4308a4483",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista brasileiro, pioneiro da arte cinética, criou o \"Aparelho Cinecromático\"?",
+    "resposta": "Abraham Palatnik",
+    "alternativas": [
+      "Abraham Palatnik",
+      "Waldemar Cordeiro",
+      "Lygia Clark",
+      "Hélio Oiticica"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c7671ff1ed",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme de Glauber Rocha, de 1967, se passa no país fictício de Eldorado?",
+    "resposta": "Terra em Transe",
+    "alternativas": [
+      "O Dragão da Maldade contra o Santo Guerreiro",
+      "Terra em Transe",
+      "Deus e o Diabo na Terra do Sol",
+      "Barravento"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b82c0795a8",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta russo escreveu o romance em versos \"Eugênio Onêguin\"?",
+    "resposta": "Aleksandr Púchkin",
+    "alternativas": [
+      "Ivan Turguêniev",
+      "Aleksandr Púchkin",
+      "Nikolai Gogol",
+      "Mikhail Lermontov"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c66e6574a0",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor italiano criou o boneco Pinóquio?",
+    "resposta": "Carlo Collodi",
+    "alternativas": [
+      "Carlo Collodi",
+      "Umberto Eco",
+      "Gianni Rodari",
+      "Italo Calvino"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b172cefc13",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista nipo-brasileira ficou famosa por pinturas abstratas e grandes esculturas curvas de cores fortes?",
+    "resposta": "Tomie Ohtake",
+    "alternativas": [
+      "Tomie Ohtake",
+      "Lygia Pape",
+      "Beatriz Milhazes",
+      "Yayoi Kusama"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6395b8f5f8",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquiteta ítalo-brasileira projetou o MASP, com seu grande vão livre?",
+    "resposta": "Lina Bo Bardi",
+    "alternativas": [
+      "Zaha Hadid",
+      "Lina Bo Bardi",
+      "Paulo Mendes da Rocha",
+      "Ruy Ohtake"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "58ffec1573",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão aparece na tela quando o jogador perde todas as vidas?",
+    "resposta": "Game over",
+    "alternativas": [
+      "Pause",
+      "Game over",
+      "Level up",
+      "Checkpoint"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dc0e2d7b46",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a versão gratuita e curta de um jogo, para experimentar antes de comprar?",
+    "resposta": "Demo",
+    "alternativas": [
+      "Remaster",
+      "Beta fechado",
+      "DLC",
+      "Demo"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ec8a13a59d",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a nova versão de um programa que corrige erros e traz novidades?",
+    "resposta": "Atualização",
+    "alternativas": [
+      "Formatação",
+      "Atualização",
+      "Backup",
+      "Desinstalação"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f1f1859a6",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o cartão da operadora que fica dentro do celular e identifica a linha?",
+    "resposta": "Chip SIM",
+    "alternativas": [
+      "Bateria",
+      "Chip SIM",
+      "Cartão SD",
+      "Pen drive"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "25a68b08a6",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o sistema de pagamento por aproximação da Apple?",
+    "resposta": "Apple Pay",
+    "alternativas": [
+      "Apple Pay",
+      "Apple Card",
+      "Apple Wallet Plus",
+      "iCloud Pay"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac0fc231e3",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual forma de pagamento brasileira tem código de barras e data de vencimento?",
+    "resposta": "Boleto bancário",
+    "alternativas": [
+      "Pix",
+      "Boleto bancário",
+      "Cheque",
+      "Cartão de débito"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dfd85e01ad",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam os personagens de um jogo controlados pelo computador, e não por jogadores?",
+    "resposta": "NPC",
+    "alternativas": [
+      "Skin",
+      "NPC",
+      "Avatar",
+      "Mod"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3939 (E2 mesma resposta e enunciados parecidos (1.0))",
+    "dup": "certa",
+    "dup_ref": "banco:3939",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (1.0)"
+  },
+  {
+    "id": "10ee5147b6",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual código desbloqueia o chip do celular depois de errar o PIN três vezes?",
+    "resposta": "PUK",
+    "alternativas": [
+      "Token",
+      "CVV",
+      "IMEI",
+      "PUK"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc5454bf4a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam as caixas de recompensas aleatórias compradas em jogos, criticadas por lembrar jogos de azar?",
+    "resposta": "Loot box",
+    "alternativas": [
+      "Season pass",
+      "Battle pass",
+      "Gift card",
+      "Loot box"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7bbdd9b3dd",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o servidor intermediário entre o navegador e os sites, usado para filtrar ou esconder acessos?",
+    "resposta": "Proxy",
+    "alternativas": [
+      "DNS",
+      "Roteador",
+      "Firewall",
+      "Proxy"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6628b71f7f",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual computador de 1977, projetado por Steve Wozniak, foi o primeiro grande sucesso da Apple?",
+    "resposta": "Apple II",
+    "alternativas": [
+      "Lisa",
+      "Apple III",
+      "Macintosh",
+      "Apple II"
+    ],
+    "subtema": "História da computação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4483 (E2c mesma resposta e ela aparece no outro enunciado (4.6))",
+    "dup": "certa",
+    "dup_ref": "banco:4483",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (4.6)"
+  },
+  {
+    "id": "930bbac1c8",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual linguagem simples vinha embutida nos micros dos anos 80, com comandos como PRINT e GOTO?",
+    "resposta": "BASIC",
+    "alternativas": [
+      "COBOL",
+      "BASIC",
+      "Fortran",
+      "Pascal"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d2b7c6410e",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual computador da Prológica, compatível com o TRS-80 Color, foi vendido no Brasil nos anos 80?",
+    "resposta": "CP 400",
+    "alternativas": [
+      "Hotbit",
+      "CP 400",
+      "Expert",
+      "TK 85"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "488bd4cb43",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual linguagem de script, criada por Larry Wall em 1987, tem um camelo como símbolo famoso?",
+    "resposta": "Perl",
+    "alternativas": [
+      "Ruby",
+      "Python",
+      "Lua",
+      "Perl"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b2af74bec9",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual banco de dados relacional de código aberto tem um elefante como mascote?",
+    "resposta": "PostgreSQL",
+    "alternativas": [
+      "MariaDB",
+      "MySQL",
+      "PostgreSQL",
+      "SQLite"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "454731dcc8",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual videogame da Dynacom, compatível com o Atari, fez sucesso no Brasil nos anos 80?",
+    "resposta": "Dynavision",
+    "alternativas": [
+      "Dynavision",
+      "Phantom System",
+      "Odyssey",
+      "Supergame"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

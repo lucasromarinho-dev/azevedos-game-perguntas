@@ -171,6 +171,20 @@
       "candidatas_usadas": [
         "pool r1-*"
       ]
+    },
+    {
+      "lote": "013",
+      "metodo": "respostas_primeiro",
+      "escritas": 105,
+      "validas": 97,
+      "descartadas": 8,
+      "taxa_descarte": 0.08,
+      "caracteres": 14306,
+      "tokens_aprox": 4087,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "pool r1-*"
+      ]
     }
   ],
   "validacao_respostas_primeiro": {
@@ -520,6 +534,11 @@
       "linhas": 229,
       "caracteres": 13771,
       "tokens_aprox": 3935
+    },
+    "r1-x4.txt": {
+      "linhas": 64,
+      "caracteres": 4100,
+      "tokens_aprox": 1171
     }
   }
 }

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "842b4643f1",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual batalha de 1896 a Etiópia derrotou a Itália e manteve sua independência?",
+    "resposta": "Batalha de Adwa",
+    "alternativas": [
+      "Batalha de Isandlwana",
+      "Batalha de Omdurman",
+      "Batalha de El Alamein",
+      "Batalha de Adwa"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac0c961dea",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual secretário de Estado americano dos governos Nixon e Ford ganhou o Nobel da Paz de 1973?",
+    "resposta": "Henry Kissinger",
+    "alternativas": [
+      "Robert McNamara",
+      "Henry Kissinger",
+      "Dean Rusk",
+      "Zbigniew Brzezinski"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e399294890",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estrela, a segunda mais brilhante do céu noturno, fica na constelação de Carina?",
+    "resposta": "Canopus",
+    "alternativas": [
+      "Canopus",
+      "Vega",
+      "Rigel",
+      "Sirius"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2008",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "e012491543",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filósofo alemão criou o cálculo diferencial ao mesmo tempo que Newton, de forma independente?",
+    "resposta": "Gottfried Leibniz",
+    "alternativas": [
+      "Immanuel Kant",
+      "Gottfried Leibniz",
+      "Carl Friedrich Gauss",
+      "Leonhard Euler"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0200a91bb8",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual velocista paralímpico brasileiro venceu Oscar Pistorius na final dos 200 metros em Londres 2012?",
+    "resposta": "Alan Fonteles",
+    "alternativas": [
+      "Petrúcio Ferreira",
+      "Daniel Dias",
+      "Yohansson Nascimento",
+      "Alan Fonteles"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bfb2b53505",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O banh mi, sanduíche na baguete com recheios asiáticos, é típico de qual país?",
+    "resposta": "Vietnã",
+    "alternativas": [
+      "Tailândia",
+      "Vietnã",
+      "Camboja",
+      "Laos"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:633f92573b",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.6, 17% do fato)"
+  },
+  {
+    "id": "cc41ba27a0",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava a força alemã comandada por Rommel no norte da África?",
+    "resposta": "Afrika Korps",
+    "alternativas": [
+      "Legião Condor",
+      "Wehrmacht Ost",
+      "Divisão Azul",
+      "Afrika Korps"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b607ecb0cc",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual líder sérvio foi levado a julgamento em Haia por crimes nas guerras da antiga Iugoslávia?",
+    "resposta": "Slobodan Milosevic",
+    "alternativas": [
+      "Slobodan Milosevic",
+      "Josip Broz Tito",
+      "Franjo Tudjman",
+      "Alija Izetbegovic"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "57916eab7a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a molécula gigante formada pela repetição de unidades menores, como nos plásticos?",
+    "resposta": "Polímero",
+    "alternativas": [
+      "Íon",
+      "Catalisador",
+      "Isômero",
+      "Polímero"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db6e09fd8f",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o ringue circular de argila onde se luta o sumô?",
+    "resposta": "Dohyo",
+    "alternativas": [
+      "Dojo",
+      "Dohyo",
+      "Octógono",
+      "Tatami"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "39fd7ca483",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor austríaco é famoso pelo quadro \"O Beijo\", cheio de dourado?",
+    "resposta": "Gustav Klimt",
+    "alternativas": [
+      "Gustav Klimt",
+      "Paul Gauguin",
+      "Oskar Kokoschka",
+      "Egon Schiele"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "95ab857dac",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor francês se mudou para o Taiti e pintou mulheres polinésias?",
+    "resposta": "Paul Gauguin",
+    "alternativas": [
+      "Paul Cézanne",
+      "Paul Gauguin",
+      "Henri Matisse",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c67ba5ce04",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor americano espalhava tinta sobre telas estendidas no chão, na técnica do gotejamento?",
+    "resposta": "Jackson Pollock",
+    "alternativas": [
+      "Andy Warhol",
+      "Mark Rothko",
+      "Jackson Pollock",
+      "Jean-Michel Basquiat"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c9bb34bef",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor belga pintou um cachimbo com a frase \"Isto não é um cachimbo\"?",
+    "resposta": "René Magritte",
+    "alternativas": [
+      "Max Ernst",
+      "Salvador Dalí",
+      "Joan Miró",
+      "René Magritte"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "35adb71259",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista criou os painéis de azulejos azuis e brancos espalhados pelos prédios de Brasília?",
+    "resposta": "Athos Bulcão",
+    "alternativas": [
+      "Candido Portinari",
+      "Bruno Giorgi",
+      "Athos Bulcão",
+      "Roberto Burle Marx"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "26d36675b3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual lenda gaúcha fala de um menino escravizado que, depois de castigado, ajuda as pessoas a achar objetos perdidos?",
+    "resposta": "Negrinho do Pastoreio",
+    "alternativas": [
+      "Curupira",
+      "Negrinho do Pastoreio",
+      "Caipora",
+      "Saci-Pererê"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f3d9b9625b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dança pernambucana de roda, de mãos dadas, tem Lia de Itamaracá como grande símbolo?",
+    "resposta": "Ciranda",
+    "alternativas": [
+      "Maracatu",
+      "Frevo",
+      "Ciranda",
+      "Xaxado"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ef8b9bd8a6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dança do cangaço ganhou o nome do som das sandálias arrastadas no chão?",
+    "resposta": "Xaxado",
+    "alternativas": [
+      "Xaxado",
+      "Xote",
+      "Baião",
+      "Coco"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49a518cb98",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator e diretor criou o caipira Jeca e lotou cinemas do interior entre os anos 1950 e 1980?",
+    "resposta": "Mazzaropi",
+    "alternativas": [
+      "Grande Otelo",
+      "Oscarito",
+      "Renato Aragão",
+      "Mazzaropi"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "543cdc44ca",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme de Glauber Rocha acompanha o vaqueiro Manuel entre um beato e um cangaceiro?",
+    "resposta": "Deus e o Diabo na Terra do Sol",
+    "alternativas": [
+      "Deus e o Diabo na Terra do Sol",
+      "O Pagador de Promessas",
+      "Vidas Secas",
+      "Terra em Transe"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "073f8c3007",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme de 2002 conta a história do malandro e artista João Francisco dos Santos, na Lapa carioca?",
+    "resposta": "Madame Satã",
+    "alternativas": [
+      "Madame Satã",
+      "Carandiru",
+      "Cidade de Deus",
+      "O Invasor"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f9883f1982",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual comediante formava dupla com Oliver Hardy em \"O Gordo e o Magro\"?",
+    "resposta": "Stan Laurel",
+    "alternativas": [
+      "Harold Lloyd",
+      "Stan Laurel",
+      "Charlie Chaplin",
+      "Buster Keaton"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "09df43392b",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual comediante foi o grande astro das chanchadas da Atlântida, muitas vezes em dupla com Grande Otelo?",
+    "resposta": "Oscarito",
+    "alternativas": [
+      "Renato Aragão",
+      "Oscarito",
+      "Chico Anysio",
+      "Mazzaropi"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49d403ccb1",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jogo da série Command & Conquer, de 1996, imagina uma guerra entre os Aliados e a União Soviética?",
+    "resposta": "Red Alert",
+    "alternativas": [
+      "Red Alert",
+      "Renegade",
+      "Tiberian Sun",
+      "Generals"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ab9b725c0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual console da Coleco, lançado em 1982, concorreu com o Atari 2600?",
+    "resposta": "ColecoVision",
+    "alternativas": [
+      "Vectrex",
+      "ColecoVision",
+      "Odyssey",
+      "Intellivision"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "43d5048543",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de tiro do Nintendo 64, de 1997, tem um caçador de dinossauros como herói?",
+    "resposta": "Turok",
+    "alternativas": [
+      "GoldenEye 007",
+      "Turok",
+      "Perfect Dark",
+      "Doom 64"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "37a46856d4",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A canjica doce, chamada de mungunzá no Nordeste, é feita com grãos de qual cereal?",
+    "resposta": "Milho branco",
+    "alternativas": [
+      "Cevada",
+      "Trigo",
+      "Milho branco",
+      "Arroz"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc83dbf186",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava a tropa de elite que fazia a guarda pessoal dos imperadores romanos?",
+    "resposta": "Guarda Pretoriana",
+    "alternativas": [
+      "Legião Fulminata",
+      "Guarda Pretoriana",
+      "Falange",
+      "Guarda Suíça"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

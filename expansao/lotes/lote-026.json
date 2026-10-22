@@ -1,0 +1,3364 @@
+[
+  {
+    "id": "0d281180f4",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O Cânion do Xingó, formado pelo Rio São Francisco, fica na divisa de Sergipe com qual estado?",
+    "resposta": "Alagoas",
+    "alternativas": [
+      "Alagoas",
+      "Pernambuco",
+      "Paraíba",
+      "Bahia"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:568 (E2c mesma resposta e ela aparece no outro enunciado (15.2))",
+    "dup": "certa",
+    "dup_ref": "banco:568",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (15.2)"
+  },
+  {
+    "id": "d73f9a5e6e",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O Parque Nacional do Catimbau, com pinturas rupestres e paredões de arenito, fica em qual estado?",
+    "resposta": "Pernambuco",
+    "alternativas": [
+      "Pernambuco",
+      "Piauí",
+      "Paraíba",
+      "Bahia"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "17652ac137",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A fronteira agrícola chamada MATOPIBA reúne partes do Maranhão, do Tocantins, do Piauí e de qual outro estado?",
+    "resposta": "Bahia",
+    "alternativas": [
+      "Goiás",
+      "Bahia",
+      "Pará",
+      "Ceará"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fd76af6ae5",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Cachoeira e Santo Amaro são cidades históricas de qual região da Bahia, em volta da Baía de Todos-os-Santos?",
+    "resposta": "Recôncavo",
+    "alternativas": [
+      "Chapada Diamantina",
+      "Recôncavo",
+      "Sertão do São Francisco",
+      "Costa do Descobrimento"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f0ef66f551",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O goulash, ensopado de carne temperado com páprica, é típico de qual país?",
+    "resposta": "Hungria",
+    "alternativas": [
+      "Romênia",
+      "Hungria",
+      "Áustria",
+      "Polônia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fb41c236e3 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:fb41c236e3",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "9c942b1055",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O ceviche, peixe cru marinado no limão, é o prato símbolo de qual país?",
+    "resposta": "Peru",
+    "alternativas": [
+      "Peru",
+      "Colômbia",
+      "México",
+      "Chile"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:256 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:256",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "4aead27acb",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O kimchi, acelga fermentada e apimentada, é um prato típico de qual país?",
+    "resposta": "Coreia do Sul",
+    "alternativas": [
+      "Tailândia",
+      "China",
+      "Coreia do Sul",
+      "Japão"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:255 (E2 mesma resposta e mesmo assunto (7.7, 27% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:255",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.7, 27% do fato)"
+  },
+  {
+    "id": "b362fd6bec",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O pad thai, macarrão de arroz frito com amendoim, é típico de qual país?",
+    "resposta": "Tailândia",
+    "alternativas": [
+      "Indonésia",
+      "Vietnã",
+      "Malásia",
+      "Tailândia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:9bafda20ef (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "id:9bafda20ef",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "c882179065",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O tiramisù, sobremesa com café e queijo mascarpone, é típico de qual país?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Itália",
+      "Espanha",
+      "França",
+      "Suíça"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:5d5b46a73d (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:5d5b46a73d",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "68ffb6bb07",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A poutine, batata frita com pedaços de coalhada de queijo e molho de carne, é típica de qual país?",
+    "resposta": "Canadá",
+    "alternativas": [
+      "Bélgica",
+      "Estados Unidos",
+      "Irlanda",
+      "Canadá"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:f5c36d9625 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:f5c36d9625",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "55b4602b9d",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O haggis, feito com miúdos de carneiro cozidos no estômago do animal, é típico de qual país?",
+    "resposta": "Escócia",
+    "alternativas": [
+      "Islândia",
+      "País de Gales",
+      "Irlanda",
+      "Escócia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:4ae257eba3 (E2 mesma resposta e mesmo assunto (24.6, 48% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:4ae257eba3",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (24.6, 48% do fato)"
+  },
+  {
+    "id": "08139244b4",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A moussaka, com camadas de berinjela e carne moída, é típica de qual país?",
+    "resposta": "Grécia",
+    "alternativas": [
+      "Grécia",
+      "Turquia",
+      "Líbano",
+      "Itália"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9d7a789167",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Os pierogi, pasteizinhos cozidos recheados com batata ou queijo, são típicos de qual país?",
+    "resposta": "Polônia",
+    "alternativas": [
+      "Alemanha",
+      "Polônia",
+      "Hungria",
+      "Croácia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:3b80cd1079 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:3b80cd1079",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "692e332819",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O tacacá, servido em cuia com tucupi e jambu, é típico de qual região do Brasil?",
+    "resposta": "Norte",
+    "alternativas": [
+      "Norte",
+      "Sul",
+      "Nordeste",
+      "Centro-Oeste"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:247 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:247",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "65041bdac5",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O baião de dois, feito com arroz, feijão e queijo coalho, é prato típico de qual estado?",
+    "resposta": "Ceará",
+    "alternativas": [
+      "Goiás",
+      "Maranhão",
+      "Ceará",
+      "Bahia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:7056603bb8 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:7056603bb8",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "8ae26727ff",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual navegador viking chegou à América do Norte por volta do ano 1000, séculos antes de Colombo?",
+    "resposta": "Leif Erikson",
+    "alternativas": [
+      "Erik, o Vermelho",
+      "Ragnar Lothbrok",
+      "Harald Cabelo Belo",
+      "Leif Erikson"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1252 (E2d respostas dividem a palavra rara + muito assunto em comum (35.0))",
+    "dup": "certa",
+    "dup_ref": "banco:1252",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (35.0)"
+  },
+  {
+    "id": "a8e57e6d07",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual chefe viking recebeu do rei da França as terras que deram origem à Normandia?",
+    "resposta": "Rollo",
+    "alternativas": [
+      "Ivar, o Sem-Ossos",
+      "Rollo",
+      "Ragnar Lothbrok",
+      "Harald Hardrada"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4e9789301f",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamavam os barcos longos, com cabeça de dragão na proa, usados pelos vikings?",
+    "resposta": "Drakkar",
+    "alternativas": [
+      "Drakkar",
+      "Caravela",
+      "Galeão",
+      "Trirreme"
+    ],
+    "subtema": "Idade Média",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1363 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:1363",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "32f985f691",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual estudioso francês decifrou os hieróglifos egípcios usando a Pedra de Roseta?",
+    "resposta": "Jean-François Champollion",
+    "alternativas": [
+      "Auguste Mariette",
+      "Jean-François Champollion",
+      "Howard Carter",
+      "Gaston Maspero"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1091",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 20.3)"
+  },
+  {
+    "id": "5ffad477c5",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual batalha naval Otávio derrotou Marco Antônio e Cleópatra, em 31 a.C.?",
+    "resposta": "Batalha de Áccio",
+    "alternativas": [
+      "Batalha de Lepanto",
+      "Batalha de Salamina",
+      "Batalha de Zama",
+      "Batalha de Áccio"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1435 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:1435",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "491c38e075",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como os muçulmanos chamavam a parte da Península Ibérica que dominaram na Idade Média?",
+    "resposta": "Al-Andalus",
+    "alternativas": [
+      "Al-Andalus",
+      "Hispânia",
+      "Levante",
+      "Magreb"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bc9e4e3e54",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual sistema medieval se baseava na relação entre senhores e vassalos e no trabalho dos servos na terra?",
+    "resposta": "Feudalismo",
+    "alternativas": [
+      "Mercantilismo",
+      "Capitalismo",
+      "Absolutismo",
+      "Feudalismo"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:830",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.7)"
+  },
+  {
+    "id": "f840e17ced",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "No feudalismo, como se chamava o senhor que concedia terras a um vassalo em troca de lealdade?",
+    "resposta": "Suserano",
+    "alternativas": [
+      "Suserano",
+      "Cavaleiro",
+      "Burguês",
+      "Servo"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:bc9e4e3e54",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 17.8)"
+  },
+  {
+    "id": "c67966bdd5",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Em qual tipo de construção romana, como o Coliseu, os gladiadores lutavam diante do público?",
+    "resposta": "Anfiteatro",
+    "alternativas": [
+      "Aqueduto",
+      "Anfiteatro",
+      "Fórum",
+      "Termas"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:43a2367513 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.3))",
+    "dup": "certa",
+    "dup_ref": "id:43a2367513",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.3)"
+  },
+  {
+    "id": "39cb28010a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual moeda de prata era a mais comum no Império Romano?",
+    "resposta": "Denário",
+    "alternativas": [
+      "Ducado",
+      "Denário",
+      "Florim",
+      "Dracma"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1374 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:1374",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "61c3fdf4cb",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "No Japão feudal, como se chamava o samurai que ficava sem um senhor para servir?",
+    "resposta": "Ronin",
+    "alternativas": [
+      "Ronin",
+      "Daimio",
+      "Xogum",
+      "Ninja"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bcae39750c",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual conferência de 1942, perto de Berlim, líderes nazistas organizaram a chamada \"Solução Final\"?",
+    "resposta": "Conferência de Wannsee",
+    "alternativas": [
+      "Conferência de Munique",
+      "Conferência de Wannsee",
+      "Conferência de Casablanca",
+      "Conferência de Potsdam"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f57c293e6b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual batalha de 1954 os vietnamitas derrotaram a França, encerrando o domínio francês na Indochina?",
+    "resposta": "Dien Bien Phu",
+    "alternativas": [
+      "Ofensiva do Tet",
+      "Khe Sanh",
+      "Dien Bien Phu",
+      "Batalha de Hue"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7ff329aa8c",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual região da Nigéria tentou se tornar independente e viveu uma guerra entre 1967 e 1970?",
+    "resposta": "Biafra",
+    "alternativas": [
+      "Ogaden",
+      "Darfur",
+      "Biafra",
+      "Katanga"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c87c1ada70",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rei guerreiro unificou os zulus no início do século XIX?",
+    "resposta": "Shaka",
+    "alternativas": [
+      "Menelik",
+      "Cetshwayo",
+      "Shaka",
+      "Mzilikazi"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ee4dd42ac",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual missionário e explorador escocês foi o primeiro europeu a ver as Cataratas Vitória?",
+    "resposta": "David Livingstone",
+    "alternativas": [
+      "Henry Morton Stanley",
+      "Mungo Park",
+      "David Livingstone",
+      "Richard Burton"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "70087a066d",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o nome da colônia grega que deu lugar a Constantinopla e, depois, a Istambul?",
+    "resposta": "Bizâncio",
+    "alternativas": [
+      "Troia",
+      "Antioquia",
+      "Bizâncio",
+      "Esmirna"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:968 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.5))",
+    "dup": "certa",
+    "dup_ref": "banco:968",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.5)"
+  },
+  {
+    "id": "d159f9dffb",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual planeta é chamado popularmente de Estrela-d'Alva por brilhar no céu ao amanhecer?",
+    "resposta": "Vênus",
+    "alternativas": [
+      "Mercúrio",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1975",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 11.6)"
+  },
+  {
+    "id": "f685d917bc",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Em qual região da Lua pousou o módulo da Apollo 11, em 1969?",
+    "resposta": "Mar da Tranquilidade",
+    "alternativas": [
+      "Oceano das Tempestades",
+      "Cratera Tycho",
+      "Mar da Serenidade",
+      "Mar da Tranquilidade"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6c05908d79",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "O nome de qual matemático persa deu origem à palavra \"algoritmo\"?",
+    "resposta": "Al-Khwarizmi",
+    "alternativas": [
+      "Avicena",
+      "Al-Khwarizmi",
+      "Omar Khayyam",
+      "Al-Biruni"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7484151a0a",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual físico francês demonstrou a rotação da Terra com um grande pêndulo em Paris, em 1851?",
+    "resposta": "Léon Foucault",
+    "alternativas": [
+      "Blaise Pascal",
+      "André-Marie Ampère",
+      "Léon Foucault",
+      "Augustin Fresnel"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a026d99946",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual isótopo é usado para datar ossos, madeira e outros restos de seres vivos de até cerca de 50 mil anos?",
+    "resposta": "Carbono-14",
+    "alternativas": [
+      "Potássio-40",
+      "Carbono-14",
+      "Urânio-238",
+      "Carbono-12"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "26370b462d",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual fibra sintética, criada pela DuPont nos anos 1930, substituiu a seda nas meias femininas?",
+    "resposta": "Náilon",
+    "alternativas": [
+      "Raiom",
+      "Lycra",
+      "Náilon",
+      "Poliéster"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "df3f7ee28d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual revestimento antiaderente é famoso por evitar que a comida grude na frigideira?",
+    "resposta": "Teflon",
+    "alternativas": [
+      "Silicone",
+      "Baquelite",
+      "Teflon",
+      "Esmalte"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c4a51bf598",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual fecho de \"ganchinhos e laços\" foi inspirado nos carrapichos que grudavam no pelo de um cachorro?",
+    "resposta": "Velcro",
+    "alternativas": [
+      "Botão de pressão",
+      "Velcro",
+      "Zíper",
+      "Colchete"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c44f71d12",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foi o primeiro plástico totalmente sintético, criado em 1907 e usado em telefones antigos?",
+    "resposta": "Baquelite",
+    "alternativas": [
+      "PVC",
+      "Baquelite",
+      "Celuloide",
+      "Acrílico"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "794f8f8e39",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual inventor americano descobriu a vulcanização da borracha, em 1839?",
+    "resposta": "Charles Goodyear",
+    "alternativas": [
+      "Harvey Firestone",
+      "John Dunlop",
+      "Charles Goodyear",
+      "André Michelin"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "510b861930",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual índice da gasolina mede a resistência do combustível à detonação no motor?",
+    "resposta": "Octanagem",
+    "alternativas": [
+      "Viscosidade",
+      "Octanagem",
+      "Teor de enxofre",
+      "Ponto de fulgor"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e98884cd3",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a substância estranha ao corpo que provoca a produção de anticorpos?",
+    "resposta": "Antígeno",
+    "alternativas": [
+      "Antígeno",
+      "Hormônio",
+      "Plaqueta",
+      "Enzima"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "700e112dc9",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual máquina simples é formada por uma roda com um sulco por onde passa uma corda?",
+    "resposta": "Polia",
+    "alternativas": [
+      "Cunha",
+      "Polia",
+      "Alavanca",
+      "Parafuso"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "56d524b56e",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a faixa de cores que aparece quando a luz branca atravessa um prisma?",
+    "resposta": "Espectro",
+    "alternativas": [
+      "Aurora",
+      "Espectro",
+      "Miragem",
+      "Halo"
+    ],
+    "subtema": "Física e unidades",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1924 (E5 resposta antiga citada no texto novo + assunto (15.3))",
+    "dup": "certa",
+    "dup_ref": "banco:1924",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.3)"
+  },
+  {
+    "id": "8ecbddc3f8",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "O que mede o anemômetro?",
+    "resposta": "Velocidade do vento",
+    "alternativas": [
+      "Temperatura",
+      "Umidade do ar",
+      "Pressão atmosférica",
+      "Velocidade do vento"
+    ],
+    "subtema": "Física e unidades",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1830 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.6))",
+    "dup": "certa",
+    "dup_ref": "banco:1830",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.6)"
+  },
+  {
+    "id": "bc4577d9e9",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual nadador brasileiro é o maior medalhista paralímpico do país, com 27 medalhas?",
+    "resposta": "Daniel Dias",
+    "alternativas": [
+      "Clodoaldo Silva",
+      "Daniel Dias",
+      "Phelipe Rodrigues",
+      "André Brasil"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ec4a452bc3",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual esporte paralímpico para atletas com deficiência visual usa uma bola com guizos e equipes de três jogadores?",
+    "resposta": "Goalball",
+    "alternativas": [
+      "Vôlei sentado",
+      "Bocha",
+      "Futebol de 5",
+      "Goalball"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a06886bc8b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual esporte paralímpico de precisão consiste em lançar bolas o mais perto possível de uma bola-alvo branca?",
+    "resposta": "Bocha",
+    "alternativas": [
+      "Bocha",
+      "Goalball",
+      "Bilhar",
+      "Boliche"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "16764da5d2",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual armadora brasileira de handebol foi eleita a melhor jogadora do mundo em 2014?",
+    "resposta": "Duda Amorim",
+    "alternativas": [
+      "Alexandra Nascimento",
+      "Duda Amorim",
+      "Ana Paula Rodrigues",
+      "Babi Arenhart"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8073fb4b68",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é a principal liga de hóquei no gelo dos Estados Unidos e do Canadá?",
+    "resposta": "NHL",
+    "alternativas": [
+      "MLS",
+      "MLB",
+      "NFL",
+      "NHL"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0fd76f10e6",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Na sinuca, qual é a única bola que o jogador pode acertar diretamente com o taco?",
+    "resposta": "Bola branca",
+    "alternativas": [
+      "Bola branca",
+      "Bola preta",
+      "Bola rosa",
+      "Bola vermelha"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c6cf3e1eb4",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No snooker, qual bola vale mais pontos, 7 no total?",
+    "resposta": "Bola preta",
+    "alternativas": [
+      "Bola azul",
+      "Bola verde",
+      "Bola preta",
+      "Bola rosa"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "238209aa1f",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a pontuação máxima de uma tacada contínua no snooker, a famosa \"tacada máxima\"?",
+    "resposta": "147",
+    "alternativas": [
+      "155",
+      "180",
+      "147",
+      "100"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "30acbffaf3",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cavalo levou Rodrigo Pessoa ao ouro olímpico em Atenas 2004?",
+    "resposta": "Baloubet du Rouet",
+    "alternativas": [
+      "Jappeloup",
+      "Big Star",
+      "Baloubet du Rouet",
+      "Ratina Z"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:12393f3b1e (R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 27.2))",
+    "dup": "certa",
+    "dup_ref": "id:12393f3b1e",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 27.2)"
+  },
+  {
+    "id": "729a23ad91",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o título do campeão máximo do sumô?",
+    "resposta": "Yokozuna",
+    "alternativas": [
+      "Sekiwake",
+      "Yokozuna",
+      "Komusubi",
+      "Ozeki"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9efba8840c",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No xadrez, como se chama a abertura em que um jogador sacrifica um peão em troca de vantagem?",
+    "resposta": "Gambito",
+    "alternativas": [
+      "Gambito",
+      "Zugzwang",
+      "Roque",
+      "En passant"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ce4c4d2aa7",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual armador brasileiro jogou duas temporadas pelo Los Angeles Lakers depois de brilhar no Barcelona?",
+    "resposta": "Marcelinho Huertas",
+    "alternativas": [
+      "Raulzinho Neto",
+      "Leandrinho",
+      "Marcelinho Huertas",
+      "Nenê"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52231b0238",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual dupla brasileira ganhou o primeiro ouro olímpico do vôlei de praia feminino, em Atlanta 1996?",
+    "resposta": "Jacqueline e Sandra Pires",
+    "alternativas": [
+      "Adriana Behar e Shelda",
+      "Ágatha e Bárbara",
+      "Jacqueline e Sandra Pires",
+      "Larissa e Juliana"
+    ],
+    "subtema": "Vôlei",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3002 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:3002",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "b8868f41c5",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dupla brasileira ficou com a prata no vôlei de praia feminino em Sydney 2000 e em Atenas 2004?",
+    "resposta": "Adriana Behar e Shelda",
+    "alternativas": [
+      "Jacqueline e Sandra Pires",
+      "Adriana Behar e Shelda",
+      "Larissa e Juliana",
+      "Talita e Taiana"
+    ],
+    "subtema": "Vôlei",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f7acc25243",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto brasileiro foi campeão da Fórmula Indy (CART) em 2002?",
+    "resposta": "Cristiano da Matta",
+    "alternativas": [
+      "Tony Kanaan",
+      "Gil de Ferran",
+      "Cristiano da Matta",
+      "Hélio Castroneves"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3d1e41c0bc",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual piloto brasileiro venceu as 500 Milhas de Indianápolis quatro vezes?",
+    "resposta": "Hélio Castroneves",
+    "alternativas": [
+      "Hélio Castroneves",
+      "Tony Kanaan",
+      "Emerson Fittipaldi",
+      "Gil de Ferran"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2834 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:2834",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "444b547df0",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Isaquias Queiroz foi campeão olímpico em Tóquio 2020 em qual modalidade?",
+    "resposta": "Canoagem",
+    "alternativas": [
+      "Remo",
+      "Canoagem",
+      "Maratona aquática",
+      "Vela"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "ff8e9e551f",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual esporte olímpico consiste em erguer uma barra com anilhas nos movimentos de arranco e arremesso?",
+    "resposta": "Levantamento de peso",
+    "alternativas": [
+      "Crossfit",
+      "Levantamento de peso",
+      "Arremesso de peso",
+      "Fisiculturismo"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:3463dec39f (E4 resposta nova (rara) citada no texto antigo (4.6))",
+    "dup": "certa",
+    "dup_ref": "id:3463dec39f",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.6)"
+  },
+  {
+    "id": "fef00ff978",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual time de beisebol de Boston quebrou a \"Maldição do Bambino\" em 2004?",
+    "resposta": "Boston Red Sox",
+    "alternativas": [
+      "New York Yankees",
+      "Boston Red Sox",
+      "Chicago Cubs",
+      "St. Louis Cardinals"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5feb28d4f8",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual franquia da NFL tem uma estrela azul no capacete?",
+    "resposta": "Dallas Cowboys",
+    "alternativas": [
+      "Dallas Cowboys",
+      "Chicago Bears",
+      "Miami Dolphins",
+      "Green Bay Packers"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1d64b33cf3",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual esporte se usam os termos \"strike\" e \"spare\"?",
+    "resposta": "Boliche",
+    "alternativas": [
+      "Boliche",
+      "Golfe",
+      "Críquete",
+      "Sinuca"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb5dd7147b",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual esporte é jogado com um disco de borracha chamado puck?",
+    "resposta": "Hóquei no gelo",
+    "alternativas": [
+      "Hóquei no gelo",
+      "Lacrosse",
+      "Curling",
+      "Polo aquático"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:c472e1d268",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ee8b4fc24f",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme de 2017 conta a história de um palhaço de TV inspirado no intérprete brasileiro do Bozo?",
+    "resposta": "Bingo: O Rei das Manhãs",
+    "alternativas": [
+      "Chacrinha: O Velho Guerreiro",
+      "Coringa",
+      "Bingo: O Rei das Manhãs",
+      "O Palhaço"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c16d47703e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual comédia cearense se passa numa pequena cidade onde um homem tenta manter um cinema funcionando?",
+    "resposta": "Cine Holliúdy",
+    "alternativas": [
+      "Cine Holliúdy",
+      "Lisbela e o Prisioneiro",
+      "O Auto da Compadecida",
+      "O Shaolin do Sertão"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c067b85b0a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de Kleber Mendonça Filho tem Sonia Braga como Clara, que se recusa a vender seu apartamento?",
+    "resposta": "Aquarius",
+    "alternativas": [
+      "Bacurau",
+      "Que Horas Ela Volta?",
+      "O Som ao Redor",
+      "Aquarius"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b48e527eb7",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual apresentador comandou por muitos anos o policial \"Brasil Urgente\", na Band?",
+    "resposta": "José Luiz Datena",
+    "alternativas": [
+      "Sikêra Jr.",
+      "Wagner Montes",
+      "José Luiz Datena",
+      "Marcelo Rezende"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac6c0ccf41",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintora brasileira retratou dezenas de rostos de trabalhadores no quadro \"Operários\", de 1933?",
+    "resposta": "Tarsila do Amaral",
+    "alternativas": [
+      "Djanira",
+      "Lygia Clark",
+      "Anita Malfatti",
+      "Tarsila do Amaral"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3387",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+  },
+  {
+    "id": "f653589f97",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista brasileira criou os \"Bichos\", esculturas de metal com dobradiças que o público podia manipular?",
+    "resposta": "Lygia Clark",
+    "alternativas": [
+      "Lygia Pape",
+      "Tomie Ohtake",
+      "Anita Malfatti",
+      "Lygia Clark"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f59031b953",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor brasileiro ficou conhecido pelas telas cheias de bandeirinhas de festa junina?",
+    "resposta": "Alfredo Volpi",
+    "alternativas": [
+      "Di Cavalcanti",
+      "Alfredo Volpi",
+      "Candido Portinari",
+      "Alberto da Veiga Guignard"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b465d3f56c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista paulistano é famoso por murais gigantes de rostos coloridos, como o de Ayrton Senna na Avenida Paulista?",
+    "resposta": "Eduardo Kobra",
+    "alternativas": [
+      "Romero Britto",
+      "Eduardo Kobra",
+      "Os Gêmeos",
+      "Vik Muniz"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3cd1c9f55a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista pernambucano radicado em Miami ficou famoso pelo estilo pop de cores fortes e contornos pretos?",
+    "resposta": "Romero Britto",
+    "alternativas": [
+      "Vik Muniz",
+      "Romero Britto",
+      "Eduardo Kobra",
+      "Beatriz Milhazes"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:7eb85cbff5 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:7eb85cbff5",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "e671aeabb4",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista brasileiro criou retratos com materiais recolhidos no aterro de Gramacho, mostrados no documentário \"Lixo Extraordinário\"?",
+    "resposta": "Vik Muniz",
+    "alternativas": [
+      "Ernesto Neto",
+      "Romero Britto",
+      "Eduardo Kobra",
+      "Vik Muniz"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b83bfe548c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual chef francês é jurado do MasterChef Brasil desde a primeira temporada?",
+    "resposta": "Érick Jacquin",
+    "alternativas": [
+      "Érick Jacquin",
+      "Alex Atala",
+      "Henrique Fogaça",
+      "Paola Carosella"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0c4681dccb (R5 parte da resposta citada + muito assunto em comum (peso 21.8))",
+    "dup": "certa",
+    "dup_ref": "id:0c4681dccb",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 21.8)"
+  },
+  {
+    "id": "f059b3327a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual filme de 1994 tem o prisioneiro Andy Dufresne, que foge por um túnel cavado durante anos?",
+    "resposta": "Um Sonho de Liberdade",
+    "alternativas": [
+      "Fuga de Alcatraz",
+      "Papillon",
+      "Um Sonho de Liberdade",
+      "À Espera de um Milagre"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4c5e8ab405",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em qual filme de 1999 o menino Cole diz que vê gente morta?",
+    "resposta": "O Sexto Sentido",
+    "alternativas": [
+      "O Sexto Sentido",
+      "Os Outros",
+      "A Vila",
+      "Corpo Fechado"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3484 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:3484",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "aef1cefd8a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de Martin Scorsese tem Robert De Niro como o taxista Travis Bickle?",
+    "resposta": "Taxi Driver",
+    "alternativas": [
+      "Os Bons Companheiros",
+      "Taxi Driver",
+      "Touro Indomável",
+      "Caminhos Perigosos"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3436 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "banco:3436",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "09891ea456",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual série britânica acompanha a família Shelby, uma gangue de Birmingham?",
+    "resposta": "Peaky Blinders",
+    "alternativas": [
+      "Peaky Blinders",
+      "Gangs of London",
+      "Downton Abbey",
+      "Boardwalk Empire"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3333 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:3333",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "5bcb4c31da",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série acompanha Don Draper, um publicitário de Nova York nos anos 1960?",
+    "resposta": "Mad Men",
+    "alternativas": [
+      "Boardwalk Empire",
+      "Mad Men",
+      "Suits",
+      "The Americans"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:63729b62ba (R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.8))",
+    "dup": "certa",
+    "dup_ref": "id:63729b62ba",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.8)"
+  },
+  {
+    "id": "e7f40e7e10",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual sitcom tem os amigos Ted, Marshall, Lily, Robin e Barney?",
+    "resposta": "How I Met Your Mother",
+    "alternativas": [
+      "Two and a Half Men",
+      "The Big Bang Theory",
+      "How I Met Your Mother",
+      "Friends"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:f83d1aa24e (E4 resposta nova (rara) citada no texto antigo (5.8))",
+    "dup": "certa",
+    "dup_ref": "id:f83d1aa24e",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.8)"
+  },
+  {
+    "id": "637a27f494",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série de comédia acompanha os policiais do 99º distrito do Brooklyn?",
+    "resposta": "Brooklyn Nine-Nine",
+    "alternativas": [
+      "Brooklyn Nine-Nine",
+      "The Office",
+      "Community",
+      "Parks and Recreation"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0bab4a23df",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quantas cordas tem um cavaquinho?",
+    "resposta": "Quatro",
+    "alternativas": [
+      "Cinco",
+      "Seis",
+      "Oito",
+      "Quatro"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c1b4cf2c51",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual instrumento indiano de cordas foi popularizado no Ocidente por Ravi Shankar?",
+    "resposta": "Cítara",
+    "alternativas": [
+      "Cítara",
+      "Bandolim",
+      "Harmônio",
+      "Tabla"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6a4034f250",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual festival de música acontece no deserto de Indio, na Califórnia?",
+    "resposta": "Coachella",
+    "alternativas": [
+      "Woodstock",
+      "Lollapalooza",
+      "Coachella",
+      "Tomorrowland"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f3f8445eb1",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grande festival de música eletrônica nasceu na Bélgica, em 2005?",
+    "resposta": "Tomorrowland",
+    "alternativas": [
+      "Sónar",
+      "Ultra Music Festival",
+      "Tomorrowland",
+      "Creamfields"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c29f6d4f0e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor brasileiro retratou mulatas, sambistas e a vida boêmia carioca em obras como \"Cinco Moças de Guaratinguetá\"?",
+    "resposta": "Di Cavalcanti",
+    "alternativas": [
+      "Candido Portinari",
+      "Lasar Segall",
+      "Alfredo Volpi",
+      "Di Cavalcanti"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d9953bcae3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual dupla de irmãos grafiteiros de São Paulo ficou famosa pelos personagens de pele amarela?",
+    "resposta": "Os Gêmeos",
+    "alternativas": [
+      "Romero Britto",
+      "Eduardo Kobra",
+      "Os Gêmeos",
+      "Speto"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1006 (E4 resposta nova (rara) citada no texto antigo (6.1))",
+    "dup": "certa",
+    "dup_ref": "banco:1006",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.1)"
+  },
+  {
+    "id": "6154264f99",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 1976 acompanha um boxeador desconhecido da Filadélfia que ganha a chance de lutar pelo título?",
+    "resposta": "Rocky",
+    "alternativas": [
+      "O Lutador",
+      "Menina de Ouro",
+      "Touro Indomável",
+      "Rocky"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:6302d95eaa (E4 resposta nova (rara) citada no texto antigo (6.0))",
+    "dup": "certa",
+    "dup_ref": "id:6302d95eaa",
+    "recente": false,
+    "universo": "Rocky",
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.0)"
+  },
+  {
+    "id": "0b9813a142",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme dos irmãos Coen tem o matador Anton Chigurh, que decide vidas no cara ou coroa?",
+    "resposta": "Onde os Fracos Não Têm Vez",
+    "alternativas": [
+      "Sangue Negro",
+      "Onde os Fracos Não Têm Vez",
+      "O Grande Lebowski",
+      "Fargo"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c2a85877de",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual animação da Pixar acompanha um rato que sonha em ser chef em Paris?",
+    "resposta": "Ratatouille",
+    "alternativas": [
+      "Valente",
+      "O Bom Dinossauro",
+      "Up: Altas Aventuras",
+      "Ratatouille"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3272 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:3272",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "7364dc5ef8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual animação da DreamWorks tem um viking adolescente que faz amizade com o dragão Banguela?",
+    "resposta": "Como Treinar o Seu Dragão",
+    "alternativas": [
+      "Rio",
+      "Shrek",
+      "Como Treinar o Seu Dragão",
+      "Valente"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:81ef1bb631 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "id:81ef1bb631",
+    "recente": false,
+    "universo": "Como Treinar o Seu Dragão",
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "8d69827e65",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual programa de chat dos anos 90 conectava usuários a canais de IRC com nomes começando por \"#\"?",
+    "resposta": "mIRC",
+    "alternativas": [
+      "ICQ",
+      "MSN Messenger",
+      "mIRC",
+      "Skype"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a9393117fa",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual sala de conversa de um portal brasileiro fez sucesso nos anos 2000, com salas por cidade e idade?",
+    "resposta": "Bate-papo UOL",
+    "alternativas": [
+      "MSN Messenger",
+      "Chat Terra",
+      "Orkut",
+      "Bate-papo UOL"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4084",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.8, 18% do fato)"
+  },
+  {
+    "id": "5800b760cb",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o nome da banda larga da Telemar, concorrente do Speedy?",
+    "resposta": "Velox",
+    "alternativas": [
+      "Velox",
+      "Ajato",
+      "Turbo",
+      "Virtua"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f57edc695",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual tecnologia de banda larga usava a linha telefônica comum sem deixar o telefone ocupado?",
+    "resposta": "ADSL",
+    "alternativas": [
+      "Internet discada",
+      "Fibra óptica",
+      "ADSL",
+      "Rádio"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "95dd40a3e7",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual celular de flip, muito fino, foi febre em 2004 e ficou conhecido como Razr?",
+    "resposta": "Motorola V3",
+    "alternativas": [
+      "Samsung SGH-E700",
+      "Nokia N95",
+      "Sony Ericsson W800",
+      "Motorola V3"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4089 (E2 mesma resposta e mesmo assunto (12.9, 48% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:4089",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (12.9, 48% do fato)"
+  },
+  {
+    "id": "ed0bf05c27",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome da rede online da Sony para jogar e comprar jogos no PlayStation?",
+    "resposta": "PlayStation Network",
+    "alternativas": [
+      "PlayStation Network",
+      "Nintendo eShop",
+      "Steam",
+      "Xbox Live"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3868 (E2e mesma resposta rara e algum assunto em comum (20.7, sim 0.5))",
+    "dup": "certa",
+    "dup_ref": "banco:3868",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (20.7, sim 0.5)"
+  },
+  {
+    "id": "402ad81383",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual serviço online da Blizzard é usado para jogar World of Warcraft e Diablo?",
+    "resposta": "Battle.net",
+    "alternativas": [
+      "Uplay",
+      "Steam",
+      "Origin",
+      "Battle.net"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3995 (E5 resposta antiga citada no texto novo + assunto (31.0))",
+    "dup": "certa",
+    "dup_ref": "banco:3995",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (31.0)"
+  },
+  {
+    "id": "d4399ba6a9",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual celular da Nokia, lançado em 2000, virou meme por ser praticamente indestrutível?",
+    "resposta": "Nokia 3310",
+    "alternativas": [
+      "Nokia 1100",
+      "Nokia 8110",
+      "Nokia 3310",
+      "Nokia N95"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4188",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.1)"
+  },
+  {
+    "id": "944c3f2d75",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual player dos anos 90 era usado para ouvir rádios e ver vídeos pela internet no formato .rm?",
+    "resposta": "RealPlayer",
+    "alternativas": [
+      "QuickTime",
+      "RealPlayer",
+      "Windows Media Player",
+      "Winamp"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d9800a5356",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual buscador tinha como mascote um mordomo a quem o usuário fazia perguntas?",
+    "resposta": "Ask Jeeves",
+    "alternativas": [
+      "Lycos",
+      "Excite",
+      "AltaVista",
+      "Ask Jeeves"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "27afc72410",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de 1999 permitia construir parques de diversões com montanhas-russas?",
+    "resposta": "RollerCoaster Tycoon",
+    "alternativas": [
+      "RollerCoaster Tycoon",
+      "SimCity",
+      "Theme Hospital",
+      "Zoo Tycoon"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4402 (E2e mesma resposta rara e algum assunto em comum (24.2, sim 0.5))",
+    "dup": "certa",
+    "dup_ref": "banco:4402",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (24.2, sim 0.5)"
+  },
+  {
+    "id": "7f6caf571a",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de dança da Ubisoft pede que o jogador imite os passos de um dançarino na tela?",
+    "resposta": "Just Dance",
+    "alternativas": [
+      "Dance Dance Revolution",
+      "SingStar",
+      "Guitar Hero",
+      "Just Dance"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fdd4e59c0d (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:fdd4e59c0d",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "2e41d6d6c5",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual atalho do Windows abre diretamente o Gerenciador de Tarefas?",
+    "resposta": "Ctrl+Shift+Esc",
+    "alternativas": [
+      "Alt+F4",
+      "Windows+D",
+      "Ctrl+Shift+Esc",
+      "Ctrl+Shift+T"
+    ],
+    "subtema": "Hardware",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3718 (E2 mesma resposta e mesmo assunto (13.8, 41% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:3718",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (13.8, 41% do fato)"
+  },
+  {
+    "id": "a5b1bdd17c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual empresa fabrica os processadores Snapdragon, usados em muitos celulares Android?",
+    "resposta": "Qualcomm",
+    "alternativas": [
+      "Samsung",
+      "Qualcomm",
+      "MediaTek",
+      "Intel"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4001 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:4001",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "61e936b2c7",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual formato de imagem animada foi criado pela CompuServe em 1987?",
+    "resposta": "GIF",
+    "alternativas": [
+      "JPEG",
+      "BMP",
+      "GIF",
+      "PNG"
+    ],
+    "subtema": "Internet e redes",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:a1d1c4a44d (E2 mesma resposta e mesmo assunto (11.8, 30% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:a1d1c4a44d",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (11.8, 30% do fato)"
+  },
+  {
+    "id": "3b10f0b70c",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual é a extensão mais comum dos documentos do Word?",
+    "resposta": ".docx",
+    "alternativas": [
+      ".xlsx",
+      ".pptx",
+      ".txt",
+      ".docx"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "954207fd72",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual tecla do teclado captura uma imagem da tela no Windows?",
+    "resposta": "Print Screen",
+    "alternativas": [
+      "Insert",
+      "Print Screen",
+      "Pause Break",
+      "Scroll Lock"
+    ],
+    "subtema": "Hardware",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0de0619c94 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:0de0619c94",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "56d36b204c",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual empresa sueca desenvolveu a tecnologia Bluetooth?",
+    "resposta": "Ericsson",
+    "alternativas": [
+      "Ericsson",
+      "Saab",
+      "Nokia",
+      "Electrolux"
+    ],
+    "subtema": "História da computação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4299 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:4299",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "34ea459376",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de quebra-cabeça em 3D tem portais azuis e laranjas e a inteligência artificial GLaDOS?",
+    "resposta": "Portal",
+    "alternativas": [
+      "Antichamber",
+      "The Talos Principle",
+      "Braid",
+      "Portal"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:c29a33ab8c (R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.9))",
+    "dup": "certa",
+    "dup_ref": "id:c29a33ab8c",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.9)"
+  },
+  {
+    "id": "f10abe33c2",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A pamonha é feita principalmente com qual ingrediente?",
+    "resposta": "Milho verde",
+    "alternativas": [
+      "Mandioca",
+      "Arroz",
+      "Trigo",
+      "Milho verde"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "88307ccd53",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A tapioca é feita com a goma de qual raiz?",
+    "resposta": "Mandioca",
+    "alternativas": [
+      "Batata-doce",
+      "Mandioca",
+      "Cará",
+      "Inhame"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:c73b4f0574 (E2e mesma resposta rara e algum assunto em comum (7.0, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "id:c73b4f0574",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.0, sim 0.1)"
+  },
+  {
+    "id": "a3a214d2db",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A feijoada tradicional do Rio de Janeiro é feita com qual tipo de feijão?",
+    "resposta": "Feijão-preto",
+    "alternativas": [
+      "Feijão-carioca",
+      "Feijão-fradinho",
+      "Feijão-preto",
+      "Feijão-branco"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:722515f394",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "796bc75fd5",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O falafel, bolinho frito de grão-de-bico, é típico de qual região do mundo?",
+    "resposta": "Oriente Médio",
+    "alternativas": [
+      "Leste Europeu",
+      "América Latina",
+      "Sudeste Asiático",
+      "Oriente Médio"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1cef57d26e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Rovaniemi, cidade da \"vila do Papai Noel\" no Círculo Polar Ártico, fica em qual país?",
+    "resposta": "Finlândia",
+    "alternativas": [
+      "Noruega",
+      "Islândia",
+      "Finlândia",
+      "Suécia"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:409 (E2 mesma resposta e mesmo assunto (22.6, 41% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:409",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (22.6, 41% do fato)"
+  },
+  {
+    "id": "53f0ed28d5",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Tulum, com ruínas maias à beira do Mar do Caribe, fica em qual país?",
+    "resposta": "México",
+    "alternativas": [
+      "México",
+      "Belize",
+      "Honduras",
+      "Guatemala"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:59506eb63f (E2 mesma resposta e mesmo assunto (7.0, 25% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:59506eb63f",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.0, 25% do fato)"
+  },
+  {
+    "id": "f5a90f588c",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Hallstatt, vilarejo de casinhas à beira de um lago nos Alpes, fica em qual país?",
+    "resposta": "Áustria",
+    "alternativas": [
+      "Áustria",
+      "Alemanha",
+      "Eslovênia",
+      "Suíça"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c2ef6071b0",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Chefchaouen, a cidade de casas pintadas de azul nas montanhas, fica em qual país?",
+    "resposta": "Marrocos",
+    "alternativas": [
+      "Argélia",
+      "Marrocos",
+      "Grécia",
+      "Tunísia"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ecae176c18",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O stroopwafel, biscoito fino recheado com calda de caramelo, é típico de qual país?",
+    "resposta": "Holanda",
+    "alternativas": [
+      "Holanda",
+      "Bélgica",
+      "Dinamarca",
+      "Alemanha"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3c9b626268",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O deserto de Wadi Rum, de areia avermelhada e usado em filmes como \"Perdido em Marte\", fica em qual país?",
+    "resposta": "Jordânia",
+    "alternativas": [
+      "Egito",
+      "Arábia Saudita",
+      "Jordânia",
+      "Omã"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:593",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "6c0508ac64",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "As grandes dunas vermelhas de Sossusvlei ficam em qual país africano?",
+    "resposta": "Namíbia",
+    "alternativas": [
+      "Namíbia",
+      "África do Sul",
+      "Angola",
+      "Botsuana"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:638 (E4 resposta nova (rara) citada no texto antigo (7.0))",
+    "dup": "certa",
+    "dup_ref": "banco:638",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.0)"
+  },
+  {
+    "id": "cf8975827c",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "A injera, pão esponjoso e azedo feito de teff, é a base da cozinha de qual país?",
+    "resposta": "Etiópia",
+    "alternativas": [
+      "Egito",
+      "Marrocos",
+      "Etiópia",
+      "Nigéria"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:574",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "4d14a47013",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual povo da Mesopotâmia construiu os primeiros zigurates, templos em forma de pirâmide de degraus?",
+    "resposta": "Sumérios",
+    "alternativas": [
+      "Sumérios",
+      "Egípcios",
+      "Persas",
+      "Hititas"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:80caebec8a (R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 31.1))",
+    "dup": "certa",
+    "dup_ref": "id:80caebec8a",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 31.1)"
+  },
+  {
+    "id": "6e25847991",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como eram chamados os soldados romanos organizados em legiões?",
+    "resposta": "Legionários",
+    "alternativas": [
+      "Mamelucos",
+      "Legionários",
+      "Cavaleiros templários",
+      "Hoplitas"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b21f325c42",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual instrumento, usado para medir a altura dos astros, ajudou os navegadores a saber a latitude?",
+    "resposta": "Astrolábio",
+    "alternativas": [
+      "Astrolábio",
+      "Ampulheta",
+      "Telescópio",
+      "Sextante de bolso"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1110 (E2e mesma resposta rara e algum assunto em comum (26.2, sim 0.4))",
+    "dup": "certa",
+    "dup_ref": "banco:1110",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (26.2, sim 0.4)"
+  },
+  {
+    "id": "c71e4875c6",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual povo germânico deu nome à França?",
+    "resposta": "Francos",
+    "alternativas": [
+      "Saxões",
+      "Francos",
+      "Godos",
+      "Vândalos"
+    ],
+    "subtema": "Idade Média",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1031 (E2 mesma resposta e mesmo assunto (7.2, 39% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:1031",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.2, 39% do fato)"
+  },
+  {
+    "id": "b1c0ea0ba9",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual povo das estepes conquistou a China e fundou a dinastia Yuan?",
+    "resposta": "Mongóis",
+    "alternativas": [
+      "Turcos",
+      "Hunos",
+      "Tibetanos",
+      "Mongóis"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6764880fbd",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual fenômeno da luz permite que a gente veja a própria imagem num espelho?",
+    "resposta": "Reflexão",
+    "alternativas": [
+      "Difração",
+      "Refração",
+      "Dispersão",
+      "Reflexão"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0b83b997d5",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam os jogos olímpicos disputados por atletas com deficiência?",
+    "resposta": "Jogos Paralímpicos",
+    "alternativas": [
+      "Jogos da Commonwealth",
+      "Jogos Pan-Americanos",
+      "Jogos Universitários",
+      "Jogos Paralímpicos"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:ec4a452bc3 (E3 resposta nova citada no texto antigo + assunto (14.7))",
+    "dup": "certa",
+    "dup_ref": "id:ec4a452bc3",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (14.7)"
+  },
+  {
+    "id": "647e217514",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção venceu a primeira Copa do Mundo de rúgbi, em 1987?",
+    "resposta": "Nova Zelândia",
+    "alternativas": [
+      "África do Sul",
+      "Nova Zelândia",
+      "Inglaterra",
+      "Austrália"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2604",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (7.7)"
+  },
+  {
+    "id": "eaa225acc8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual pintor impressionista francês ficou famoso por retratar bailarinas?",
+    "resposta": "Edgar Degas",
+    "alternativas": [
+      "Edgar Degas",
+      "Pierre-Auguste Renoir",
+      "Claude Monet",
+      "Édouard Manet"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e67d6c324a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor holandês criou quadros com linhas pretas e retângulos nas cores primárias?",
+    "resposta": "Piet Mondrian",
+    "alternativas": [
+      "Paul Klee",
+      "Wassily Kandinsky",
+      "Piet Mondrian",
+      "Kazimir Malevich"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ab0ebf147c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista japonês criou a gravura \"A Grande Onda de Kanagawa\"?",
+    "resposta": "Hokusai",
+    "alternativas": [
+      "Hokusai",
+      "Utamaro",
+      "Hiroshige",
+      "Yayoi Kusama"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b3bc5c2b6d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista de rua britânico, de identidade secreta, teve um quadro que se autodestruiu logo após ser leiloado?",
+    "resposta": "Banksy",
+    "alternativas": [
+      "Invader",
+      "Eduardo Kobra",
+      "Shepard Fairey",
+      "Banksy"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db60bf8156",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual escultor francês criou \"O Pensador\"?",
+    "resposta": "Auguste Rodin",
+    "alternativas": [
+      "Aristide Maillol",
+      "Auguste Rodin",
+      "Edgar Degas",
+      "Camille Claudel"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "08b7054822",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista holandês ficou famoso por gravuras de escadas impossíveis e mãos que desenham uma à outra?",
+    "resposta": "M. C. Escher",
+    "alternativas": [
+      "M. C. Escher",
+      "Piet Mondrian",
+      "Salvador Dalí",
+      "René Magritte"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66e46fd87b",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor criou o Monumento às Bandeiras, no Parque Ibirapuera, em São Paulo?",
+    "resposta": "Victor Brecheret",
+    "alternativas": [
+      "Victor Brecheret",
+      "Bruno Giorgi",
+      "Alfredo Ceschiatti",
+      "Di Cavalcanti"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "34568e89d0",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual festa popular celebra a visita dos Reis Magos, com grupos que cantam de casa em casa?",
+    "resposta": "Folia de Reis",
+    "alternativas": [
+      "Festa do Divino",
+      "Folia de Reis",
+      "Congada",
+      "Cavalhada"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "be8e07ff20",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de terror, de capa preta e unhas enormes, foi criado por José Mojica Marins?",
+    "resposta": "Zé do Caixão",
+    "alternativas": [
+      "Corpo-Seco",
+      "Homem do Saco",
+      "Coisa Ruim",
+      "Zé do Caixão"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ff9283d67d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual filme de terror de 1973 mostra a menina Regan possuída por um demônio?",
+    "resposta": "O Exorcista",
+    "alternativas": [
+      "A Profecia",
+      "Poltergeist",
+      "O Exorcista",
+      "O Bebê de Rosemary"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c61b7cd804",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual editor de texto simples vinha no Windows, entre o Bloco de Notas e o Word?",
+    "resposta": "WordPad",
+    "alternativas": [
+      "WordPad",
+      "Notepad++",
+      "Paint",
+      "Write"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bb36ea301c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo tem pequenas criaturas de cabelo verde que andam em fila e precisam ser guiadas até a saída?",
+    "resposta": "Lemmings",
+    "alternativas": [
+      "Lemmings",
+      "Worms",
+      "Oddworld",
+      "Pikmin"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "24df0b2f6d",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual herói da Ubisoft não tem braços nem pernas, só mãos e pés flutuando?",
+    "resposta": "Rayman",
+    "alternativas": [
+      "Crash Bandicoot",
+      "Gex",
+      "Spyro",
+      "Rayman"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5ecc698c40",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual minhoca com um traje espacial estrelou jogos de plataforma nos anos 90?",
+    "resposta": "Earthworm Jim",
+    "alternativas": [
+      "Earthworm Jim",
+      "Gex",
+      "Bubsy",
+      "Ecco"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9fafe41fc6",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo do Mega Drive tem um golfinho como protagonista?",
+    "resposta": "Ecco the Dolphin",
+    "alternativas": [
+      "Vectorman",
+      "Kid Chameleon",
+      "ToeJam & Earl",
+      "Ecco the Dolphin"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7a14a9b745",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo educativo tinha uma ladra de casaco e chapéu vermelhos que fugia pelo mundo?",
+    "resposta": "Carmen Sandiego",
+    "alternativas": [
+      "Math Blaster",
+      "Lemmings",
+      "Oregon Trail",
+      "Carmen Sandiego"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0e8401dbc4",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jogo educativo de 1971 simulava uma viagem de carroça pelos Estados Unidos, em que se podia morrer de disenteria?",
+    "resposta": "The Oregon Trail",
+    "alternativas": [
+      "Number Munchers",
+      "Lemonade Stand",
+      "Carmen Sandiego",
+      "The Oregon Trail"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3569fed3bf",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual aventura da LucasArts, de 1998, tem o esqueleto Manny Calavera na Terra dos Mortos?",
+    "resposta": "Grim Fandango",
+    "alternativas": [
+      "Full Throttle",
+      "The Curse of Monkey Island",
+      "Day of the Tentacle",
+      "Grim Fandango"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "488b85904a",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A paçoca, doce de festa junina, é feita principalmente com qual ingrediente?",
+    "resposta": "Amendoim",
+    "alternativas": [
+      "Amendoim",
+      "Gergelim",
+      "Milho",
+      "Castanha-de-caju"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1e05f98a73",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O quentão, bebida quente das festas juninas, leva cachaça e qual tempero marcante?",
+    "resposta": "Gengibre",
+    "alternativas": [
+      "Hortelã",
+      "Alecrim",
+      "Gengibre",
+      "Pimenta-do-reino"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bb6029afc0",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual liga metálica dá nome ao período entre a Idade do Cobre e a Idade do Ferro?",
+    "resposta": "Bronze",
+    "alternativas": [
+      "Aço",
+      "Latão",
+      "Estanho",
+      "Bronze"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1984 (R4 resposta nova citada no enunciado antigo + assunto em comum (peso 17.7))",
+    "dup": "certa",
+    "dup_ref": "banco:1984",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 17.7)"
+  },
+  {
+    "id": "e4fda31313",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual período da história começa com a invenção da escrita, por volta de 4000 a.C.?",
+    "resposta": "Idade Antiga",
+    "alternativas": [
+      "Idade Média",
+      "Pré-história",
+      "Idade Moderna",
+      "Idade Antiga"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b17cf10c8c",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual era o idioma falado pelos romanos antigos?",
+    "resposta": "Latim",
+    "alternativas": [
+      "Latim",
+      "Aramaico",
+      "Etrusco",
+      "Grego"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:4b0dd5ee7a",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "d8379a666b",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No tênis, como se chama o empate em 40 a 40 dentro de um game?",
+    "resposta": "Iguais (deuce)",
+    "alternativas": [
+      "Love",
+      "Tie-break",
+      "Iguais (deuce)",
+      "Vantagem"
+    ],
+    "subtema": "Tênis",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:44657e7859 (E2 mesma resposta e mesmo assunto (6.6, 44% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:44657e7859",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.6, 44% do fato)"
+  },
+  {
+    "id": "a1488c27d7",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No golfe, como se chama acertar o buraco com uma única tacada?",
+    "resposta": "Hole in one",
+    "alternativas": [
+      "Eagle",
+      "Par",
+      "Birdie",
+      "Hole in one"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0f058194dc (E5 resposta antiga citada no texto novo + assunto (23.7))",
+    "dup": "certa",
+    "dup_ref": "id:0f058194dc",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.7)"
+  },
+  {
+    "id": "3433da11a4",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual atalho de teclado fecha a janela ativa no Windows?",
+    "resposta": "Alt+F4",
+    "alternativas": [
+      "Ctrl+P",
+      "Alt+F4",
+      "Ctrl+Z",
+      "Alt+Tab"
+    ],
+    "subtema": "Hardware",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3721 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:3721",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "0697a4ba83",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual era o nome do clipe animado que oferecia ajuda no Microsoft Office?",
+    "resposta": "Clippy",
+    "alternativas": [
+      "Merlin",
+      "Bob",
+      "Clippy",
+      "Cortana"
+    ],
+    "subtema": "História da computação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4023 (E2e mesma resposta rara e algum assunto em comum (21.2, sim 0.3))",
+    "dup": "certa",
+    "dup_ref": "banco:4023",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (21.2, sim 0.3)"
+  },
+  {
+    "id": "388e254945",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual esporte de raquete, jogado em quadra cercada por paredes de vidro, é febre na Espanha e na Argentina?",
+    "resposta": "Padel",
+    "alternativas": [
+      "Tênis",
+      "Padel",
+      "Badminton",
+      "Pickleball"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ee7489e7ba",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual esporte de raquete a \"peteca\" oficial é chamada de volante?",
+    "resposta": "Badminton",
+    "alternativas": [
+      "Tênis de mesa",
+      "Squash",
+      "Padel",
+      "Badminton"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fcc3e4cf3f (E2e mesma resposta rara e algum assunto em comum (26.0, sim 0.4))",
+    "dup": "certa",
+    "dup_ref": "id:fcc3e4cf3f",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (26.0, sim 0.4)"
+  },
+  {
+    "id": "4de3c48ff0",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aplicativo de mensagens tem um avião de papel no ícone?",
+    "resposta": "Telegram",
+    "alternativas": [
+      "Messenger",
+      "Signal",
+      "WhatsApp",
+      "Telegram"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:cd42c98cb9 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:cd42c98cb9",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "bdc9d25bae",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aplicativo de namoro ficou famoso pelo gesto de deslizar o dedo para a direita para curtir alguém?",
+    "resposta": "Tinder",
+    "alternativas": [
+      "Bumble",
+      "Badoo",
+      "Happn",
+      "Tinder"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:b210ae3a81 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:b210ae3a81",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "55671d10de",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual relógio inteligente da Apple foi lançado em 2015?",
+    "resposta": "Apple Watch",
+    "alternativas": [
+      "Apple Watch",
+      "Fitbit",
+      "Galaxy Watch",
+      "Mi Band"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:e4941e7140 (E2e mesma resposta rara e algum assunto em comum (12.3, sim 0.8))",
+    "dup": "certa",
+    "dup_ref": "id:e4941e7140",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.3, sim 0.8)"
+  }
+]

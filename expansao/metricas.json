@@ -615,6 +615,54 @@
         "perguntas": 43,
         "total": 50
       }
+    },
+    {
+      "lote": "026",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 168,
+      "validas": 106,
+      "descartadas": 62,
+      "taxa_descarte": 0.37,
+      "caracteres": 30514,
+      "tokens_aprox": 8718,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "nomes-r3-a.txt",
+        "nomes-r3-b.txt",
+        "nomes-r3-c.txt",
+        "nomes-r3-d.txt",
+        "nomes-r3-e.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "nomes-r3-a.txt",
+          "nomes-r3-b.txt",
+          "nomes-r3-c.txt",
+          "nomes-r3-d.txt",
+          "nomes-r3-e.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 5222,
+        "nomes_sondados": 1592,
+        "nomes_ausentes": 311,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 168,
+        "validas": 106,
+        "descartadas_detector": 62,
+        "descarte": 0.37,
+        "tokens_aprox": 8718
+      },
+      "tokens_por_valida": {
+        "listas": 49,
+        "perguntas": 82,
+        "total": 132
+      },
+      "obs": "1a rodada escrita de cabeça (sem sonda): 45 de 121 já existiam (37%). Daí em diante, só nomes ausentes nas sondas. 28 válidas excedentes (escritas nas fontes do 026) passaram para o lote 027. As sondas a-e (1.592 nomes) servem também aos lotes seguintes."
     }
   ],
   "validacao_respostas_primeiro": {
@@ -1971,5 +2019,52 @@
         "correcoes": []
       }
     ]
+  },
+  "listas": {
+    "nomes-r3-a.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 419,
+      "existem": 396,
+      "risco": 0,
+      "livres": 23,
+      "caracteres": 4971,
+      "tokens_aprox": 1420
+    },
+    "nomes-r3-b.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 334,
+      "existem": 274,
+      "risco": 0,
+      "livres": 60,
+      "caracteres": 3475,
+      "tokens_aprox": 993
+    },
+    "nomes-r3-c.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 345,
+      "existem": 303,
+      "risco": 0,
+      "livres": 42,
+      "caracteres": 4294,
+      "tokens_aprox": 1227
+    },
+    "nomes-r3-d.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 246,
+      "existem": 137,
+      "risco": 0,
+      "livres": 109,
+      "caracteres": 2458,
+      "tokens_aprox": 702
+    },
+    "nomes-r3-e.txt": {
+      "tipo": "sonda de nomes",
+      "linhas": 248,
+      "existem": 171,
+      "risco": 0,
+      "livres": 77,
+      "caracteres": 3081,
+      "tokens_aprox": 880
+    }
   }
 }

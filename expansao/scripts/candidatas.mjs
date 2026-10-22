@@ -10,7 +10,9 @@
 //   ex.: Esportes|Ayrton Senna - piloto brasileiro campeão da Fórmula 1 em 1988 pela McLaren
 //   Uma linha "@microtema Nome" abre um microtema; vale até o próximo "@microtema".
 //
-// Usa o MESMO detector das perguntas completas (semelhanca.mjs), tratando o fato como se fosse o enunciado:
+// Usa o MESMO detector das perguntas completas (semelhanca.mjs + cruzamento.mjs), tratando o fato como se fosse o enunciado.
+// O cruzamento (v3) procura a resposta e os nomes próprios da candidata no TEXTO de cada pergunta do banco e das novas
+// (e vice-versa), com grafia normalizada (Guerra da Cisplatina = Guerra Cisplatina, Dust 2 = Dust2, Fe = ferro).
 //   EXISTE : o detector daria "certa" (mesma resposta + assunto, pergunta invertida, resposta citada no banco...)
 //   RISCO  : o detector daria "suspeita", ou a mesma resposta já existe na categoria (escreva um ângulo bem diferente)
 //   LIVRE  : nada parecido
@@ -20,6 +22,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { lerBancoAtual, listarLotes, lerJson, gravarJson, respostaNorm, RAIZ_EXP } from './lib.mjs';
 import { preparar, comparar, mesmaResposta } from './semelhanca.mjs';
+import { indexar, procurarE, prepararE, compararE } from './cruzamento.mjs';
 
 const args = process.argv.slice(2);
 const arq = args.find((a) => !a.startsWith('--'));
@@ -30,6 +33,8 @@ const base = [
   ...(args.includes('--so-banco') ? [] : listarLotes().flatMap((f) => lerJson(f)).filter((p) => p.status !== 'descartada').map((p) => ({ ...p, ref: `id:${p.id}` }))),
 ];
 const preparadas = base.map((p) => ({ prep: preparar(p, p.ref), p }));
+const indiceE = indexar(base.map((p) => ({ p, ref: p.ref })));
+const porRef = new Map(base.map((p) => [p.ref, p]));
 
 let microtema = null;
 const resultado = [];
@@ -48,6 +53,21 @@ for (const linha of readFileSync(arq, 'utf8').split(/\r?\n/).map((l) => l.trim()
     if (nivel === 'LIVRE' && (r.nivel === 'suspeita' || (p.categoria === categoria && mesmaResposta(alvo.resp, prep.resp)))) {
       nivel = 'RISCO'; ref = prep.ref; parecida = p; regra = r.regra || 'mesma resposta já usada na categoria';
     }
+  }
+  // camada v3: cruzamento de entidades (banco + novas pelo índice; candidatas aceitas antes, direto)
+  if (nivel !== 'EXISTE') {
+    const cand = { categoria, pergunta: fato, resposta };
+    let r = procurarE(cand, indiceE);
+    let pr = r.ref ? porRef.get(r.ref) : null;
+    if (r.nivel !== 'certa') {
+      const ea = prepararE(cand);
+      for (const { p } of aceitas) {
+        const x = compararE(ea, prepararE(p));
+        if (x.nivel === 'certa' || (x.nivel === 'suspeita' && r.nivel === 'nao')) { r = { ...x, ref: `cand:${p.resposta}` }; pr = p; if (x.nivel === 'certa') break; }
+      }
+    }
+    if (r.nivel === 'certa') { nivel = 'EXISTE'; ref = r.ref; parecida = pr; regra = r.regra; }
+    else if (r.nivel === 'suspeita' && nivel === 'LIVRE') { nivel = 'RISCO'; ref = r.ref; parecida = pr; regra = r.regra; }
   }
   if (nivel !== 'EXISTE') aceitas.push({ prep: preparar({ categoria, pergunta: fato, resposta }, `cand:${resposta}`), p: { categoria, pergunta: fato, resposta } });
   resultado.push({ microtema, categoria, resposta, fato, nivel, ref, regra, parecida: parecida ? `${parecida.pergunta} => ${parecida.resposta}` : null });

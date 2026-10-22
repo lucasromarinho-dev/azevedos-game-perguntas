@@ -1,12 +1,15 @@
 #!/usr/bin/env node
-// Detector de perguntas duplicadas (v2). Código puro, ZERO uso de IA. As regras ficam em semelhanca.mjs.
+// Detector de perguntas duplicadas (v3). Código puro, ZERO uso de IA.
+// Duas camadas, fica a pior marca: semelhanca.mjs (v2: texto e IDF) e cruzamento.mjs (v3: resposta e nomes próprios
+// de uma pergunta procurados no texto da outra, nos dois sentidos, com grafia normalizada).
+// LOTES FECHADOS (já conferidos, listados em metricas.json > conferencia) NUNCA são regravados.
 //
 // Uso:
-//   node expansao/scripts/duplicadas.mjs                 -> confere todos os lotes e grava dup/dup_ref/dup_regra
+//   node expansao/scripts/duplicadas.mjs                 -> confere todos os lotes ABERTOS e grava dup/dup_ref/dup_regra
 //   node expansao/scripts/duplicadas.mjs lote-006.json   -> confere só esse lote (contra banco + todas as outras novas)
 //   node expansao/scripts/duplicadas.mjs --descartar     -> além de marcar, muda "dup: certa" para status "descartada"
 //   node expansao/scripts/duplicadas.mjs --banco         -> procura duplicadas DENTRO do banco atual (só relatório, demora)
-//   node expansao/scripts/duplicadas.mjs --teste         -> casos de teste (inclui os 15 descartes do conferente)
+//   node expansao/scripts/duplicadas.mjs --teste         -> casos de teste + descartes do conferente + falsos positivos nas conferidas
 //
 // dup_ref: "banco:<índice>" (posição em perguntas.json) ou "id:<id>" (outra pergunta nova).
 // Calibração (out/2026) com as 485 aprovadas e os 15 descartes do conferente-v1:
@@ -15,22 +18,39 @@
 import { basename } from 'node:path';
 import { lerBancoAtual, listarLotes, lerJson, gravarJson, RAIZ_EXP } from './lib.mjs';
 import { preparar, comparar, piorOcorrencia } from './semelhanca.mjs';
+import { indexar, procurarE } from './cruzamento.mjs';
 import { join } from 'node:path';
 
 export { preparar, comparar, piorOcorrencia };
 const PESO = { nao: 0, suspeita: 1, certa: 2 };
 
+/** Junta as duas camadas: semelhança (v2) e cruzamento de entidades (v3). Fica com a pior. */
+function pior(...rs) {
+  return rs.reduce((m, r) => (PESO[r.nivel] > PESO[m.nivel] || (PESO[r.nivel] === PESO[m.nivel] && r.sim > m.sim) ? r : m));
+}
+
+/** Lotes já conferidos (metricas.json > conferencia.lotes): fechados, ninguém regrava. */
+export function lotesFechados() {
+  const m = lerJson(join(RAIZ_EXP, 'metricas.json'));
+  return new Set((m.conferencia?.lotes || []).map((l) => `lote-${l.lote}.json`));
+}
+
 function rodarLotes(filtro, descartar) {
-  const banco = lerBancoAtual().map((p, i) => preparar(p, `banco:${i}`));
+  const cruBanco = lerBancoAtual();
+  const banco = cruBanco.map((p, i) => preparar(p, `banco:${i}`));
   const lotes = listarLotes().map((arq) => ({ arq, dados: lerJson(arq) }));
   // Ordem global das perguntas novas: lote a lote, na ordem do arquivo.
   const todas = [];
-  for (const l of lotes) for (const p of l.dados) if (p.status !== 'descartada') todas.push(preparar(p, `id:${p.id}`));
+  const crus = [];
+  for (const l of lotes) for (const p of l.dados) if (p.status !== 'descartada') { todas.push(preparar(p, `id:${p.id}`)); crus.push({ p, ref: `id:${p.id}` }); }
   const posicao = new Map(todas.map((t, i) => [t.ref, i]));
+  const indice = indexar([...cruBanco.map((p, i) => ({ p, ref: `banco:${i}` })), ...crus]);
 
   const tot = { certa: 0, suspeita: 0, nao: 0 };
+  const fechados = lotesFechados();
   for (const l of lotes) {
     if (filtro.length && !filtro.includes(basename(l.arq))) continue;
+    if (fechados.has(basename(l.arq))) { if (filtro.length) console.log(`${basename(l.arq)}: lote fechado (já conferido), não mexo`); continue; }
     let mudou = false;
     for (const p of l.dados) {
       if (p.status === 'descartada') continue;
@@ -39,7 +59,9 @@ function rodarLotes(filtro, descartar) {
       // Contra o banco atual e contra as novas que vieram ANTES (a mais nova é que fica marcada).
       const r1 = piorOcorrencia(alvo, banco);
       const r2 = piorOcorrencia(alvo, todas.slice(0, i));
-      const r = PESO[r2.nivel] > PESO[r1.nivel] || (PESO[r2.nivel] === PESO[r1.nivel] && r2.sim > r1.sim) ? r2 : r1;
+      // camada 3: cruzamento de entidades, contra o banco e as novas anteriores
+      const r3 = procurarE(p, indice, (ref) => ref === alvo.ref || (ref.startsWith('id:') && posicao.get(ref) >= i));
+      const r = pior(r1, r2, r3);
       if (p.dup !== r.nivel || (p.dup_ref ?? null) !== r.ref) mudou = true;
       p.dup = r.nivel;
       p.dup_ref = r.ref;
@@ -74,7 +96,7 @@ function rodarBanco() {
   console.log(`certas=${achados.filter((a) => a.nivel === 'certa').length} suspeitas=${achados.filter((a) => a.nivel === 'suspeita').length}`);
 }
 
-function rodarTeste() {
+function rodarTeste(args) {
   const cru = lerBancoAtual();
   const banco = cru.map((p, i) => preparar(p, `banco:${i}`));
   const casos = [
@@ -91,16 +113,19 @@ function rodarTeste() {
     { esperado: 'certa|suspeita', p: { categoria: 'Geografia', pergunta: 'Madri é a capital de qual país?', resposta: 'Espanha' } },
     { esperado: 'certa|suspeita', p: { categoria: 'Tecnologia', pergunta: 'Na maioria dos programas, qual função tem o atalho Ctrl+Z?', resposta: 'Desfazer' } },
     { esperado: 'certa|suspeita', p: { categoria: 'Ciências', pergunta: 'Titã é a maior lua de qual planeta?', resposta: 'Saturno' } },
+    // v3: o banco já tem "Garrincha brilhou no Botafogo" (pista + resposta entregues) -> agora conta como duplicada
     // Mesma resposta, fato diferente -> não pode ser "certa"
-    { esperado: 'suspeita|nao', p: { categoria: 'Esportes', pergunta: 'Qual ponta do Botafogo driblou meio time na Copa de 1962?', resposta: 'Garrincha' } },
+    { esperado: 'certa|suspeita', p: { categoria: 'Esportes', pergunta: 'Qual ponta do Botafogo driblou meio time na Copa de 1962?', resposta: 'Garrincha' } },
     { esperado: 'nao', p: { categoria: 'Esportes', pergunta: 'Qual seleção venceu a Copa do Mundo de 2022, no Catar?', resposta: 'Argentina' } },
     // Perguntas novas de verdade -> "nao"
     { esperado: 'nao', p: { categoria: 'Ciências', pergunta: 'Qual gás os mergulhadores misturam ao oxigênio no lugar do nitrogênio em mergulhos profundos?', resposta: 'Hélio' } },
     { esperado: 'nao', p: { categoria: 'Geografia', pergunta: 'Qual é a plataforma de streaming do Grupo Globo?', resposta: 'Globoplay' } },
   ];
+  const indice = indexar(cru.map((p, i) => ({ p, ref: `banco:${i}` })));
+  const detectar = (p, ref) => pior(piorOcorrencia(preparar(p, ref), banco), procurarE(p, indice));
   let ok = 0;
   for (const c of casos) {
-    const r = piorOcorrencia(preparar(c.p, 'teste'), banco);
+    const r = detectar(c.p, 'teste');
     const passou = c.esperado.split('|').includes(r.nivel);
     if (passou) ok++;
     const ref = r.ref ? `-> ${r.ref} "${cru[+r.ref.split(':')[1]].pergunta}"` : '';
@@ -108,25 +133,42 @@ function rodarTeste() {
   }
   console.log(`${ok}/${casos.length} casos fixos ok`);
 
-  // Os 15 descartes do conferente-v1 (duplicidade disfarçada que o detector v1 deixou passar). Meta: >= 13 "certa".
+  // Descartes do conferente por duplicidade (piloto: lotes 001-005; rodada 1: lotes 006-015).
+  // Meta da rodada 2: >= 90% dos 76 da rodada 1 como "certa", sem falso positivo em massa nas conferidas.
   const m = lerJson(join(RAIZ_EXP, 'metricas.json'));
   const novas = new Map(listarLotes().flatMap((f) => lerJson(f)).map((p) => [p.id, p]));
-  let certas = 0, susp = 0, total = 0;
+  const ver = args.includes('-v');
+  const grupos = { piloto: { certas: 0, susp: 0, total: 0 }, rodada1: { certas: 0, susp: 0, total: 0 } };
+  const descIds = new Set();
   for (const l of m.conferencia?.lotes || [])
     for (const d of l.descartes || []) {
       const p = novas.get(d.slice(0, 10));
       if (!p || !/duplicada/.test(d)) continue;
-      total++;
-      const r = piorOcorrencia(preparar(p, `id:${p.id}`), banco);
-      if (r.nivel === 'certa') certas++;
-      else if (r.nivel === 'suspeita') susp++;
-      console.log(`${r.nivel === 'certa' ? 'PEGOU ' : r.nivel === 'suspeita' ? 'SUSP  ' : 'PERDEU'} ${p.pergunta.slice(0, 70)} => ${p.resposta}  [${r.regra || '-'}]`);
+      descIds.add(p.id);
+      const g = grupos[l.lote <= '005' ? 'piloto' : 'rodada1'];
+      g.total++;
+      const r = detectar(p, `id:${p.id}`);
+      if (r.nivel === 'certa') g.certas++;
+      else if (r.nivel === 'suspeita') g.susp++;
+      if (ver || r.nivel !== 'certa') console.log(`${r.nivel === 'certa' ? 'PEGOU ' : r.nivel === 'suspeita' ? 'SUSP  ' : 'PERDEU'} ${p.pergunta.slice(0, 70)} => ${p.resposta}  [${r.regra || '-'}]`);
     }
-  console.log(`Conferente: ${certas}/${total} como certa, +${susp} como suspeita`);
-  if (ok !== casos.length || certas < 13) process.exitCode = 1;
+  for (const [k, g] of Object.entries(grupos))
+    console.log(`Conferente ${k}: ${g.certas}/${g.total} como certa (${((100 * g.certas) / (g.total || 1)).toFixed(0)}%), +${g.susp} como suspeita`);
+  // Falsos positivos: perguntas que o conferente aprovou (status conferida/aprovada) e o detector marcaria.
+  let fp = 0, fs = 0, n = 0;
+  for (const p of novas.values()) {
+    if (descIds.has(p.id) || !['conferida', 'aprovada'].includes(p.status)) continue;
+    n++;
+    const r = detectar(p, `id:${p.id}`);
+    if (r.nivel === 'certa') fp++;
+    else if (r.nivel === 'suspeita') fs++;
+  }
+  console.log(`Conferidas como boas: ${n}; marcadas certa=${fp} (${((100 * fp) / (n || 1)).toFixed(1)}%), suspeita=${fs}`);
+  const r1 = grupos.rodada1;
+  if (ok !== casos.length || r1.certas < 0.9 * r1.total) process.exitCode = 1;
 }
 
 const args = process.argv.slice(2);
-if (args.includes('--teste')) rodarTeste();
+if (args.includes('--teste')) rodarTeste(args);
 else if (args.includes('--banco')) rodarBanco();
 else rodarLotes(args.filter((a) => !a.startsWith('--')).map((a) => basename(a)), args.includes('--descartar'));

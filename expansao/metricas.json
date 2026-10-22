@@ -82,6 +82,25 @@
         "r1-b.txt",
         "r1-c.txt"
       ]
+    },
+    {
+      "lote": "007",
+      "metodo": "respostas_primeiro",
+      "escritas": 119,
+      "validas": 101,
+      "descartadas": 18,
+      "taxa_descarte": 0.15,
+      "caracteres": 16701,
+      "tokens_aprox": 4772,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r1-geo.txt",
+        "r1-his.txt",
+        "r1-cie.txt",
+        "r1-esp.txt",
+        "r1-ent.txt",
+        "r1-tec.txt"
+      ]
     }
   ],
   "validacao_respostas_primeiro": {
@@ -391,6 +410,36 @@
       "linhas": 23,
       "caracteres": 1341,
       "tokens_aprox": 383
+    },
+    "r1-cie.txt": {
+      "linhas": 164,
+      "caracteres": 9472,
+      "tokens_aprox": 2706
+    },
+    "r1-ent.txt": {
+      "linhas": 432,
+      "caracteres": 26537,
+      "tokens_aprox": 7582
+    },
+    "r1-esp.txt": {
+      "linhas": 192,
+      "caracteres": 12195,
+      "tokens_aprox": 3484
+    },
+    "r1-geo.txt": {
+      "linhas": 112,
+      "caracteres": 6899,
+      "tokens_aprox": 1971
+    },
+    "r1-his.txt": {
+      "linhas": 162,
+      "caracteres": 11601,
+      "tokens_aprox": 3315
+    },
+    "r1-tec.txt": {
+      "linhas": 245,
+      "caracteres": 14383,
+      "tokens_aprox": 4109
     }
   }
 }

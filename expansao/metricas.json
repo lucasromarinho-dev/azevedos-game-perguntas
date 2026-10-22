@@ -504,437 +504,65 @@
           "a34d11b922: alternativa 'Temu' trocada por 'Wish': a Temu também é asiática, laranja e de frete barato, o que deixava duas respostas defensáveis",
           "ed5615f490: fato de 2020 em diante sem ano: incluído 'lançada em 2022' e marcado recente"
         ]
+      },
+      {
+        "lote": "006",
+        "conferidas_sem_mudanca": 92,
+        "corrigidas": 0,
+        "descartadas": 10,
+        "motivos_descarte": {
+          "duplicada": 2,
+          "duplicada invertida": 5,
+          "duplicada disfarçada": 3
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "descartadas": 2
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "descartadas": 2
+          },
+          "Entretenimento": {
+            "conferidas": 26,
+            "corrigidas": 0,
+            "descartadas": 2
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 2
+          }
+        },
+        "minutos_aprox": 6,
+        "descartes": [
+          "dbc78829cc: duplicada: mesmo fato que banco:320 (moeda da Índia)",
+          "7cac12d0f8: duplicada invertida: banco:1505 pergunta quem assassinou Abraham Lincoln num teatro",
+          "df90f1c32d: duplicada disfarçada: banco:1153 já liga Hernán Cortés à conquista dos astecas (e n4 La Malinche também)",
+          "ac6a8b4ab9: duplicada invertida: banco:1953 (Vital Brazil e os soros contra veneno de serpentes)",
+          "95e8277542: duplicada invertida: banco:2657 (estádio Beira-Rio fica em Porto Alegre)",
+          "eccbc13f28: duplicada invertida: banco:2746 (clube chamado de 'Furacão' = Athletico Paranaense)",
+          "1846943b25: duplicada disfarçada: banco:3358 (Marisa Monte integra os Tribalistas)",
+          "612697b214: duplicada disfarçada: banco:3585 já diz que Titanic tem o recorde de 11 Oscars",
+          "07ab34c923: duplicada: mesmo fato que banco:4440 (fundadores do WhatsApp: Jan Koum e Brian Acton)",
+          "6c81f025e7: duplicada invertida: banco:4331 (brasileiro cofundador do Instagram ao lado de Systrom)"
+        ],
+        "correcoes": []
       }
-    ]
-  },
-  "candidatas": {
-    "r1-a.txt": {
-      "linhas": 217,
-      "caracteres": 14026,
-      "tokens_aprox": 4007
-    },
-    "r1-b.txt": {
-      "linhas": 138,
-      "caracteres": 9252,
-      "tokens_aprox": 2643
-    },
-    "r1-c.txt": {
-      "linhas": 23,
-      "caracteres": 1341,
-      "tokens_aprox": 383
-    },
-    "r1-cie.txt": {
-      "linhas": 164,
-      "caracteres": 9472,
-      "tokens_aprox": 2706
-    },
-    "r1-ent.txt": {
-      "linhas": 432,
-      "caracteres": 26537,
-      "tokens_aprox": 7582
-    },
-    "r1-esp.txt": {
-      "linhas": 192,
-      "caracteres": 12195,
-      "tokens_aprox": 3484
-    },
-    "r1-geo.txt": {
-      "linhas": 112,
-      "caracteres": 6899,
-      "tokens_aprox": 1971
-    },
-    "r1-his.txt": {
-      "linhas": 162,
-      "caracteres": 11601,
-      "tokens_aprox": 3315
-    },
-    "r1-tec.txt": {
-      "linhas": 245,
-      "caracteres": 14383,
-      "tokens_aprox": 4109
-    },
-    "r1-x2.txt": {
-      "linhas": 275,
-      "caracteres": 16319,
-      "tokens_aprox": 4663
-    },
-    "r1-x3.txt": {
-      "linhas": 229,
-      "caracteres": 13771,
-      "tokens_aprox": 3935
-    },
-    "r1-x4.txt": {
-      "linhas": 64,
-      "caracteres": 4100,
-      "tokens_aprox": 1171
-    },
-    "r1-x5.txt": {
-      "linhas": 88,
-      "caracteres": 4856,
-      "tokens_aprox": 1387
-    }
-  },
-  "detector_v2": {
-    "_leia": "Detector reescrito (scripts/semelhanca.mjs): peso IDF dos radicais em comum, cruzamento da resposta com o texto da outra pergunta nos dois sentidos, resposta rara x comum. Calibrado com as 485 aprovadas e os 15 descartes do conferente-v1.",
-    "descartes_do_conferente_pegos_como_certa": 13,
-    "total_descartes_conferente": 15,
-    "pegos_como_suspeita": 1,
-    "perdidos": [
-      "Copa de 1962 (Brasil) x craque da Copa do Chile",
-      "Chicago Windy City x Cidade dos Ventos (vira suspeita)"
-    ],
-    "falsas_certas_nas_485_aprovadas": 24,
-    "taxa_falsa_certa": 0.049,
-    "suspeitas_nas_485_aprovadas": 12,
-    "antes": {
-      "descartes_pegos": 0,
-      "suspeitas_no_piloto": 21,
-      "suspeitas_que_eram_dup": 0
-    },
-    "candidatas_mjs": "usa o mesmo detector; validação com a 1a rodada do lote 1: pegou 56 de 62 duplicadas antes de escrever, 6 falsos alarmes (antes: 19)",
-    "obs_idf": "IDF calculado só sobre o banco atual (estável). Com isso o detector pegou mais 2 duplicadas na rodada 1 (formiga-cortadeira x saúva; 404 invertida), descartadas e repostas."
-  },
-  "rodada1": {
-    "_leia": "Rodada 1 da meta 3x: lotes 006 a 015, método respostas primeiro. Tokens = caracteres escritos / 3,5 (só o que foi escrito em arquivo: listas de candidatas e perguntas). Não inclui raciocínio nem chamadas de ferramenta.",
-    "validas": 1000,
-    "perguntas_escritas": 1091,
-    "descartadas_pelo_detector_ou_revisao": 91,
-    "taxa_descarte_perguntas": 0.083,
-    "candidatas_escritas": 2341,
-    "candidatas_ja_existentes": 955,
-    "taxa_descarte_candidatas": 0.41,
-    "microtemas_testados": 157,
-    "microtemas_saturados": [
-      {
-        "microtema": "Apelidos de cidades brasileiras",
-        "categoria": "Geografia",
-        "candidatas": 5,
-        "existem": 4
-      },
-      {
-        "microtema": "Bandeiras e moedas",
-        "categoria": "Geografia",
-        "candidatas": 10,
-        "existem": 8
-      },
-      {
-        "microtema": "Brasil República, de Collor à redemocratização",
-        "categoria": "História",
-        "candidatas": 12,
-        "existem": 10
-      },
-      {
-        "microtema": "Mitologia grega, nórdica e egípcia",
-        "categoria": "História",
-        "candidatas": 10,
-        "existem": 8
-      },
-      {
-        "microtema": "Corpo humano",
-        "categoria": "Ciências",
-        "candidatas": 9,
-        "existem": 8
-      },
-      {
-        "microtema": "Vilãs e personagens de novelas",
-        "categoria": "Entretenimento",
-        "candidatas": 10,
-        "existem": 8
-      },
-      {
-        "microtema": "Música internacional: canções e artistas",
-        "categoria": "Entretenimento",
-        "candidatas": 12,
-        "existem": 11
-      },
-      {
-        "microtema": "Séries de TV e streaming",
-        "categoria": "Entretenimento",
-        "candidatas": 8,
-        "existem": 6
-      },
-      {
-        "microtema": "Oscar e cinema",
-        "categoria": "Entretenimento",
-        "candidatas": 5,
-        "existem": 3
-      },
-      {
-        "microtema": "Personagens de games",
-        "categoria": "Tecnologia",
-        "candidatas": 15,
-        "existem": 14
-      },
-      {
-        "microtema": "Executivos e fundadores de tecnologia",
-        "categoria": "Tecnologia",
-        "candidatas": 13,
-        "existem": 8
-      },
-      {
-        "microtema": "Segunda Guerra: episódios e personagens",
-        "categoria": "História",
-        "candidatas": 9,
-        "existem": 7
-      },
-      {
-        "microtema": "Guerra Fria e conflitos do século XX",
-        "categoria": "História",
-        "candidatas": 10,
-        "existem": 7
-      },
-      {
-        "microtema": "Antiguidade: figuras e episódios",
-        "categoria": "História",
-        "candidatas": 8,
-        "existem": 6
-      },
-      {
-        "microtema": "Idade Moderna e século XIX",
-        "categoria": "História",
-        "candidatas": 7,
-        "existem": 5
-      },
-      {
-        "microtema": "Química do dia a dia",
-        "categoria": "Ciências",
-        "candidatas": 6,
-        "existem": 4
-      },
-      {
-        "microtema": "Física e unidades",
-        "categoria": "Ciências",
-        "candidatas": 6,
-        "existem": 4
-      },
-      {
-        "microtema": "Astronomia: planetas e missões",
-        "categoria": "Ciências",
-        "candidatas": 9,
-        "existem": 8
-      },
-      {
-        "microtema": "Dinossauros e pré-história",
-        "categoria": "Ciências",
-        "candidatas": 9,
-        "existem": 5
-      },
-      {
-        "microtema": "Cientistas e descobertas",
-        "categoria": "Ciências",
-        "candidatas": 8,
-        "existem": 7
-      },
-      {
-        "microtema": "Empresas e marcas pelo mundo",
-        "categoria": "Tecnologia",
-        "candidatas": 10,
-        "existem": 6
-      },
-      {
-        "microtema": "IA e robôs",
-        "categoria": "Tecnologia",
-        "candidatas": 6,
-        "existem": 4
-      },
-      {
-        "microtema": "Consoles e curiosidades",
-        "categoria": "Tecnologia",
-        "candidatas": 6,
-        "existem": 4
-      },
-      {
-        "microtema": "Personagens do século XX",
-        "categoria": "História",
-        "candidatas": 8,
-        "existem": 5
-      },
-      {
-        "microtema": "Países: curiosidades",
-        "categoria": "Geografia",
-        "candidatas": 20,
-        "existem": 12
-      },
-      {
-        "microtema": "Brasil Império (2)",
-        "categoria": "História",
-        "candidatas": 15,
-        "existem": 9
-      },
-      {
-        "microtema": "Primeira República e Era Vargas (2)",
-        "categoria": "História",
-        "candidatas": 17,
-        "existem": 10
-      },
-      {
-        "microtema": "Corpo humano (2)",
-        "categoria": "Ciências",
-        "candidatas": 15,
-        "existem": 9
-      },
-      {
-        "microtema": "Química: elementos e substâncias",
-        "categoria": "Ciências",
-        "candidatas": 18,
-        "existem": 12
-      },
-      {
-        "microtema": "Astronomia (2)",
-        "categoria": "Ciências",
-        "candidatas": 19,
-        "existem": 11
-      },
-      {
-        "microtema": "Terra e clima (2)",
-        "categoria": "Ciências",
-        "candidatas": 10,
-        "existem": 7
-      },
-      {
-        "microtema": "Ecologia (2)",
-        "categoria": "Ciências",
-        "candidatas": 13,
-        "existem": 8
-      },
-      {
-        "microtema": "Clássicos do futebol brasileiro",
-        "categoria": "Esportes",
-        "candidatas": 12,
-        "existem": 10
-      },
-      {
-        "microtema": "Ídolos dos clubes brasileiros",
-        "categoria": "Esportes",
-        "candidatas": 12,
-        "existem": 7
-      },
-      {
-        "microtema": "Libertadores dos clubes brasileiros",
-        "categoria": "Esportes",
-        "candidatas": 11,
-        "existem": 6
-      },
-      {
-        "microtema": "Futebol europeu: apelidos, clássicos e técnicos",
-        "categoria": "Esportes",
-        "candidatas": 28,
-        "existem": 15
-      },
-      {
-        "microtema": "Fórmula 1 (2)",
-        "categoria": "Esportes",
-        "candidatas": 20,
-        "existem": 12
-      },
-      {
-        "microtema": "Olimpíadas (2)",
-        "categoria": "Esportes",
-        "candidatas": 20,
-        "existem": 14
-      },
-      {
-        "microtema": "Lutas e boxe (2)",
-        "categoria": "Esportes",
-        "candidatas": 12,
-        "existem": 8
-      },
-      {
-        "microtema": "Games: personagens e detalhes (2)",
-        "categoria": "Tecnologia",
-        "candidatas": 96,
-        "existem": 49
-      },
-      {
-        "microtema": "Consoles e hardware de games (2)",
-        "categoria": "Tecnologia",
-        "candidatas": 20,
-        "existem": 12
-      },
-      {
-        "microtema": "Hardware (2)",
-        "categoria": "Tecnologia",
-        "candidatas": 12,
-        "existem": 8
-      },
-      {
-        "microtema": "Segurança digital (2)",
-        "categoria": "Tecnologia",
-        "candidatas": 12,
-        "existem": 9
-      },
-      {
-        "microtema": "IA, robôs e ficção (2)",
-        "categoria": "Tecnologia",
-        "candidatas": 21,
-        "existem": 14
-      },
-      {
-        "microtema": "NBA: times e lendas",
-        "categoria": "Esportes",
-        "candidatas": 12,
-        "existem": 11
-      },
-      {
-        "microtema": "Geografia do mundo (3)",
-        "categoria": "Geografia",
-        "candidatas": 28,
-        "existem": 20
-      },
-      {
-        "microtema": "Tecnologia (4)",
-        "categoria": "Tecnologia",
-        "candidatas": 24,
-        "existem": 16
-      },
-      {
-        "microtema": "Bandeiras e moedas (2)",
-        "categoria": "Geografia",
-        "candidatas": 12,
-        "existem": 9
-      },
-      {
-        "microtema": "Instrumentos de medida (2)",
-        "categoria": "Ciências",
-        "candidatas": 5,
-        "existem": 5
-      },
-      {
-        "microtema": "Programas e sistemas",
-        "categoria": "Tecnologia",
-        "candidatas": 8,
-        "existem": 5
-      }
-    ],
-    "caracteres_perguntas": 153061,
-    "caracteres_candidatas": 144752,
-    "tokens_por_valida": {
-      "so_perguntas": 43.7,
-      "candidatas": 41.4,
-      "total": 85.1
-    },
-    "comparacao": {
-      "lote_001_metodo_antigo": {
-        "taxa_descarte": 0.55,
-        "tokens_por_valida": 94,
-        "obs": "só perguntas completas, metade jogada fora"
-      },
-      "lotes_003_005_intermediario": {
-        "taxa_descarte": "0.01 a 0.06",
-        "tokens_por_valida": "52 a 57",
-        "obs": "checagem de termo-chave com grep-banco antes de escrever"
-      },
-      "rodada1_respostas_primeiro": {
-        "taxa_descarte": 0.083,
-        "tokens_por_valida": 85.1,
-        "obs": "quase nenhuma pergunta desperdiçada (43,6 tokens/válida), mas as listas de candidatas saíram longas demais: 2,3 linhas por válida e ~62 caracteres por linha"
-      }
-    },
-    "licoes": [
-      "A resposta da candidata tem que ser exatamente a resposta da pergunta. Quando a pergunta trocou a resposta (ex.: candidata Gunners, pergunta Arsenal), o filtro não protegeu e a pergunta caiu no detector depois.",
-      "Escrever só a partir da lista LIVRE impressa pelo script; no lote 007 usei de memória candidatas marcadas EXISTE e o descarte foi a 15%.",
-      "O banco está saturado no que é famoso: 41% das candidatas já existiam. Microtemas abertos: BBB e realities, humor e TV, anime, literatura, estádios, torcidas, curiosidades de games e empresas, comidas típicas.",
-      "Para baratear: linha de candidata mais curta (resposta + 3 a 5 palavras-chave), gerar ~1,3 candidata por válida e abandonar o microtema no primeiro sinal de saturação."
     ]
   }
 }

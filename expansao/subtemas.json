@@ -1,0 +1,543 @@
+{
+  "_leia": "Estimativa por palavras-chave (scripts/subtemas.mjs). Cada pergunta conta no primeiro subtema que casar. Serve para ver onde há espaço para crescer, não é classificação exata.",
+  "Geografia": {
+    "total": 782,
+    "subtemas": {
+      "Capitais estaduais e regiões do Brasil": {
+        "facil": 26,
+        "medio": 10,
+        "dificil": 6,
+        "total": 42
+      },
+      "Cidades e turismo no Brasil": {
+        "facil": 27,
+        "medio": 50,
+        "dificil": 18,
+        "total": 95
+      },
+      "Rios, bacias e hidrografia": {
+        "facil": 44,
+        "medio": 41,
+        "dificil": 32,
+        "total": 117
+      },
+      "Relevo, montanhas e vulcões": {
+        "facil": 13,
+        "medio": 13,
+        "dificil": 18,
+        "total": 44
+      },
+      "Biomas, clima e vegetação": {
+        "facil": 7,
+        "medio": 7,
+        "dificil": 3,
+        "total": 17
+      },
+      "Oceanos, mares, ilhas e estreitos": {
+        "facil": 21,
+        "medio": 29,
+        "dificil": 22,
+        "total": 72
+      },
+      "Capitais do mundo": {
+        "facil": 19,
+        "medio": 26,
+        "dificil": 56,
+        "total": 101
+      },
+      "Bandeiras, moedas e idiomas": {
+        "facil": 21,
+        "medio": 18,
+        "dificil": 29,
+        "total": 68
+      },
+      "Fronteiras, continentes e países": {
+        "facil": 8,
+        "medio": 4,
+        "dificil": 9,
+        "total": 21
+      },
+      "Cidades e monumentos do mundo": {
+        "facil": 35,
+        "medio": 36,
+        "dificil": 19,
+        "total": 90
+      },
+      "Coordenadas, fusos e cartografia": {
+        "facil": 6,
+        "medio": 3,
+        "dificil": 1,
+        "total": 10
+      },
+      "Economia e população": {
+        "facil": 0,
+        "medio": 5,
+        "dificil": 4,
+        "total": 9
+      },
+      "Outros (sem palavra-chave)": {
+        "facil": 38,
+        "medio": 31,
+        "dificil": 27,
+        "total": 96
+      }
+    }
+  },
+  "História": {
+    "total": 820,
+    "subtemas": {
+      "Brasil Colônia": {
+        "facil": 24,
+        "medio": 17,
+        "dificil": 10,
+        "total": 51
+      },
+      "Brasil Império": {
+        "facil": 19,
+        "medio": 23,
+        "dificil": 26,
+        "total": 68
+      },
+      "Brasil República e Era Vargas": {
+        "facil": 16,
+        "medio": 13,
+        "dificil": 10,
+        "total": 39
+      },
+      "Ditadura militar e redemocratização": {
+        "facil": 6,
+        "medio": 16,
+        "dificil": 5,
+        "total": 27
+      },
+      "Antiguidade (Egito, Grécia, Roma)": {
+        "facil": 37,
+        "medio": 36,
+        "dificil": 23,
+        "total": 96
+      },
+      "Mitologia": {
+        "facil": 13,
+        "medio": 15,
+        "dificil": 11,
+        "total": 39
+      },
+      "Idade Média e feudalismo": {
+        "facil": 16,
+        "medio": 6,
+        "dificil": 5,
+        "total": 27
+      },
+      "Grandes Navegações e Américas pré-colombianas": {
+        "facil": 2,
+        "medio": 9,
+        "dificil": 5,
+        "total": 16
+      },
+      "Revoluções e Idade Moderna": {
+        "facil": 14,
+        "medio": 14,
+        "dificil": 9,
+        "total": 37
+      },
+      "Guerras Mundiais": {
+        "facil": 13,
+        "medio": 21,
+        "dificil": 20,
+        "total": 54
+      },
+      "Guerra Fria e século XX": {
+        "facil": 10,
+        "medio": 6,
+        "dificil": 13,
+        "total": 29
+      },
+      "Ásia, África e Oriente Médio": {
+        "facil": 11,
+        "medio": 10,
+        "dificil": 12,
+        "total": 33
+      },
+      "Filosofia e pensadores": {
+        "facil": 6,
+        "medio": 3,
+        "dificil": 3,
+        "total": 12
+      },
+      "Arte e cultura na história": {
+        "facil": 6,
+        "medio": 2,
+        "dificil": 2,
+        "total": 10
+      },
+      "Colonização e imigração": {
+        "facil": 4,
+        "medio": 13,
+        "dificil": 5,
+        "total": 22
+      },
+      "Personagens e invenções históricas": {
+        "facil": 15,
+        "medio": 18,
+        "dificil": 17,
+        "total": 50
+      },
+      "Outros (sem palavra-chave)": {
+        "facil": 64,
+        "medio": 70,
+        "dificil": 76,
+        "total": 210
+      }
+    }
+  },
+  "Ciências": {
+    "total": 850,
+    "subtemas": {
+      "Corpo humano e saúde": {
+        "facil": 83,
+        "medio": 81,
+        "dificil": 55,
+        "total": 219
+      },
+      "Animais e zoologia": {
+        "facil": 44,
+        "medio": 36,
+        "dificil": 29,
+        "total": 109
+      },
+      "Plantas e botânica": {
+        "facil": 17,
+        "medio": 20,
+        "dificil": 21,
+        "total": 58
+      },
+      "Ecologia e meio ambiente": {
+        "facil": 3,
+        "medio": 3,
+        "dificil": 3,
+        "total": 9
+      },
+      "Genética e evolução": {
+        "facil": 2,
+        "medio": 4,
+        "dificil": 10,
+        "total": 16
+      },
+      "Química e elementos": {
+        "facil": 22,
+        "medio": 31,
+        "dificil": 24,
+        "total": 77
+      },
+      "Física, energia e unidades": {
+        "facil": 29,
+        "medio": 40,
+        "dificil": 26,
+        "total": 95
+      },
+      "Astronomia e espaço": {
+        "facil": 24,
+        "medio": 14,
+        "dificil": 29,
+        "total": 67
+      },
+      "Terra: geologia e clima": {
+        "facil": 3,
+        "medio": 9,
+        "dificil": 13,
+        "total": 25
+      },
+      "Matemática": {
+        "facil": 0,
+        "medio": 6,
+        "dificil": 4,
+        "total": 10
+      },
+      "Dinossauros e pré-história": {
+        "facil": 3,
+        "medio": 3,
+        "dificil": 0,
+        "total": 6
+      },
+      "Instrumentos e medições": {
+        "facil": 0,
+        "medio": 6,
+        "dificil": 2,
+        "total": 8
+      },
+      "Cientistas e descobertas": {
+        "facil": 2,
+        "medio": 2,
+        "dificil": 6,
+        "total": 10
+      },
+      "Outros (sem palavra-chave)": {
+        "facil": 43,
+        "medio": 51,
+        "dificil": 47,
+        "total": 141
+      }
+    }
+  },
+  "Esportes": {
+    "total": 769,
+    "subtemas": {
+      "Copa do Mundo": {
+        "facil": 22,
+        "medio": 12,
+        "dificil": 5,
+        "total": 39
+      },
+      "Seleção brasileira e craques históricos": {
+        "facil": 35,
+        "medio": 34,
+        "dificil": 18,
+        "total": 87
+      },
+      "Brasileirão e clubes brasileiros": {
+        "facil": 72,
+        "medio": 79,
+        "dificil": 67,
+        "total": 218
+      },
+      "Libertadores e futebol sul-americano": {
+        "facil": 4,
+        "medio": 2,
+        "dificil": 0,
+        "total": 6
+      },
+      "Futebol europeu e Champions": {
+        "facil": 15,
+        "medio": 12,
+        "dificil": 6,
+        "total": 33
+      },
+      "Basquete e NBA": {
+        "facil": 33,
+        "medio": 50,
+        "dificil": 53,
+        "total": 136
+      },
+      "Fórmula 1 e automobilismo": {
+        "facil": 11,
+        "medio": 10,
+        "dificil": 6,
+        "total": 27
+      },
+      "Olimpíadas e atletismo": {
+        "facil": 20,
+        "medio": 16,
+        "dificil": 12,
+        "total": 48
+      },
+      "Tênis e golfe": {
+        "facil": 6,
+        "medio": 4,
+        "dificil": 4,
+        "total": 14
+      },
+      "Lutas, UFC e boxe": {
+        "facil": 19,
+        "medio": 19,
+        "dificil": 23,
+        "total": 61
+      },
+      "Vôlei e outros esportes de quadra": {
+        "facil": 3,
+        "medio": 2,
+        "dificil": 1,
+        "total": 6
+      },
+      "Esportes americanos (NFL, MLB, NHL)": {
+        "facil": 0,
+        "medio": 1,
+        "dificil": 2,
+        "total": 3
+      },
+      "Ciclismo, xadrez e outros": {
+        "facil": 3,
+        "medio": 3,
+        "dificil": 4,
+        "total": 10
+      },
+      "Apelidos e clubes regionais": {
+        "facil": 6,
+        "medio": 8,
+        "dificil": 12,
+        "total": 26
+      },
+      "Regras e termos do esporte": {
+        "facil": 6,
+        "medio": 0,
+        "dificil": 0,
+        "total": 6
+      },
+      "Outros (sem palavra-chave)": {
+        "facil": 20,
+        "medio": 20,
+        "dificil": 9,
+        "total": 49
+      }
+    }
+  },
+  "Entretenimento": {
+    "total": 445,
+    "subtemas": {
+      "Novelas e TV brasileira": {
+        "facil": 10,
+        "medio": 8,
+        "dificil": 10,
+        "total": 28
+      },
+      "Música brasileira": {
+        "facil": 17,
+        "medio": 16,
+        "dificil": 8,
+        "total": 41
+      },
+      "Música internacional e pop": {
+        "facil": 25,
+        "medio": 28,
+        "dificil": 20,
+        "total": 73
+      },
+      "Cinema brasileiro": {
+        "facil": 5,
+        "medio": 3,
+        "dificil": 3,
+        "total": 11
+      },
+      "Super-heróis e quadrinhos": {
+        "facil": 22,
+        "medio": 14,
+        "dificil": 8,
+        "total": 44
+      },
+      "Animação, Disney e Pixar": {
+        "facil": 15,
+        "medio": 12,
+        "dificil": 6,
+        "total": 33
+      },
+      "Anime e mangá": {
+        "facil": 6,
+        "medio": 5,
+        "dificil": 1,
+        "total": 12
+      },
+      "Séries de TV e streaming": {
+        "facil": 16,
+        "medio": 15,
+        "dificil": 11,
+        "total": 42
+      },
+      "Sagas e franquias de cinema": {
+        "facil": 13,
+        "medio": 6,
+        "dificil": 8,
+        "total": 27
+      },
+      "Cinema internacional e Oscar": {
+        "facil": 11,
+        "medio": 21,
+        "dificil": 15,
+        "total": 47
+      },
+      "Literatura e personagens": {
+        "facil": 12,
+        "medio": 5,
+        "dificil": 9,
+        "total": 26
+      },
+      "Outros (sem palavra-chave)": {
+        "facil": 19,
+        "medio": 19,
+        "dificil": 23,
+        "total": 61
+      }
+    }
+  },
+  "Tecnologia": {
+    "total": 914,
+    "subtemas": {
+      "Videogames: Nintendo e Mario": {
+        "facil": 32,
+        "medio": 30,
+        "dificil": 25,
+        "total": 87
+      },
+      "Videogames: consoles e história": {
+        "facil": 12,
+        "medio": 17,
+        "dificil": 16,
+        "total": 45
+      },
+      "Videogames: franquias e personagens": {
+        "facil": 69,
+        "medio": 62,
+        "dificil": 55,
+        "total": 186
+      },
+      "Redes sociais e apps": {
+        "facil": 37,
+        "medio": 38,
+        "dificil": 25,
+        "total": 100
+      },
+      "Empresas e fundadores": {
+        "facil": 35,
+        "medio": 59,
+        "dificil": 55,
+        "total": 149
+      },
+      "Hardware e componentes": {
+        "facil": 32,
+        "medio": 15,
+        "dificil": 7,
+        "total": 54
+      },
+      "Internet, redes e protocolos": {
+        "facil": 16,
+        "medio": 24,
+        "dificil": 14,
+        "total": 54
+      },
+      "Programação e software": {
+        "facil": 14,
+        "medio": 13,
+        "dificil": 16,
+        "total": 43
+      },
+      "Segurança digital": {
+        "facil": 7,
+        "medio": 3,
+        "dificil": 7,
+        "total": 17
+      },
+      "Celulares e gadgets": {
+        "facil": 8,
+        "medio": 9,
+        "dificil": 6,
+        "total": 23
+      },
+      "IA, robótica e ficção científica": {
+        "facil": 8,
+        "medio": 7,
+        "dificil": 10,
+        "total": 25
+      },
+      "História da computação e invenções": {
+        "facil": 3,
+        "medio": 7,
+        "dificil": 13,
+        "total": 23
+      },
+      "Outros (sem palavra-chave)": {
+        "facil": 27,
+        "medio": 39,
+        "dificil": 42,
+        "total": 108
+      }
+    }
+  }
+}

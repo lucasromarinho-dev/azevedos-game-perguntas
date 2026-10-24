@@ -2761,6 +2761,62 @@
           "3f6284cebd: tirada a palavra 'atuais'",
           "bc6da213fd: 'bicicleta' é gíria do tênis para dois sets a 6-0, próxima demais; errada trocada"
         ]
+      },
+      {
+        "lote": "033",
+        "conferente": "conferente-v3",
+        "conferidas_sem_mudanca": 85,
+        "corrigidas": 6,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "mesmo fato": 2
+        },
+        "perguntas_com_busca_web": 0,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 2,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "descartadas": 1
+          }
+        },
+        "minutos_aprox": 14,
+        "descartes": [
+          "fd334883ea: mesmo fato que id:8113826bb8 (suspeita confirmada na geração)",
+          "a044a29f37: mesmo fato que banco:4103 (suspeita confirmada na geração)"
+        ],
+        "correcoes": [
+          "3cbd5c0aa7: o Alasca tem saída para o mar e nem sempre é aceito como exclave; exemplo trocado por Kaliningrado e definição precisada",
+          "923df91d30: 'bolhinhas de herpes' no enunciado entregava a resposta",
+          "33904bdc2d: desde 2024-25 a Champions tem 'fase de liga', sem grupos; enunciado datado",
+          "6d7a7efe52: a SAF é de 2021: ano no texto e marcada recente",
+          "42d5214c2d: pela regra da Ancine, filme de 15 a 70 minutos é média-metragem, então 'menos de 30 minutos' era ambíguo; enunciado e errada ajustados",
+          "e9fe7d1e77: no Brasil 'dublar' uma música também é fingir cantar; errada trocada"
+        ]
       }
     ]
   },

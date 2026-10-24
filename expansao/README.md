@@ -64,6 +64,7 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 - Campo opcional `U=Universo` no fim da linha da fonte (ex.: `|U=Star Wars`) grava `universo` na ficha; o `variedade.mjs` também detecta universos conhecidos pelo texto.
 - Detector v4 (`cruzamento.mjs`): tabela `ENTIDADES_TXT` de sinônimos (Riad = Riade, Yalta = Ialta, Polaris = Estrela Polar, Palm Pilot = Palm, Vila da Folha = Vila Oculta da Folha...). Para acrescentar um sinônimo, basta uma linha `forma canônica = variante | variante`.
 - Lição da rodada: escrever de cabeça repete o banco (37% no lote 026). Termos e conceitos (sinuca, clave de sol, kernel, peneira) estão muito menos explorados que nomes famosos.
+- Conferência da rodada 3 (conferente-v3, independente do gerador): 1.000 perguntas dos lotes 026 a 035, 955 sem mudança, 41 corrigidas (quase todas errada defensável trocada ou enunciado que entregava a resposta) e 4 descartadas por duplicidade; detalhes por lote em `metricas.json` (`conferencia.lotes`) e amostra de 30 em `amostra-lucas-r3.md`.
 
 ## Fluxo de um lote
 

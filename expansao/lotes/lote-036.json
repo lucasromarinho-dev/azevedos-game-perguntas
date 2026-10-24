@@ -7,17 +7,18 @@
     "resposta": "Ramen",
     "alternativas": [
       "Sashimi",
-      "Tempurá",
+      "Ramen",
       "Yakissoba",
-      "Ramen"
+      "Tempurá"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "15e6d62423",
@@ -32,12 +33,13 @@
       "Tarê"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e5d546e08e",
@@ -52,12 +54,13 @@
       "Waffle"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "3669547969",
@@ -72,12 +75,13 @@
       "Croissant"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9802c1d4bd",
@@ -92,12 +96,13 @@
       "Canjica"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "fe0a679f25",
@@ -112,12 +117,13 @@
       "Babaganuche"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "bd72f1549d",
@@ -132,12 +138,13 @@
       "Guacamole"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "86d7b85e1f",
@@ -152,12 +159,13 @@
       "Amatriciana"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2338",
     "recente": false,
-    "dup_regra": "mesma resposta, assunto vizinho (6.0, 16% do fato)"
+    "dup_regra": "mesma resposta, assunto vizinho (6.0, 16% do fato)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "65a527db28",
@@ -172,12 +180,13 @@
       "Bobó"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e405285719",
@@ -192,17 +201,18 @@
       "Suaíli"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f1beea38bb",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual sopa vermelha, feita de beterraba, é a mais famosa da culinária ucraniana?",
     "resposta": "Borscht",
     "alternativas": [
@@ -212,17 +222,20 @@
       "Solyanka"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "c1b5a2b61b",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual ensopado de peixes e frutos do mar é o prato típico de Marselha?",
     "resposta": "Bouillabaisse",
     "alternativas": [
@@ -232,12 +245,15 @@
       "Cassoulet"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "6ccb0f02b3",
@@ -252,12 +268,14 @@
       "Mungunzá"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "cf8581316f",
@@ -272,12 +290,13 @@
       "Feitor"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:920 (capitães do mato, no plural; o detector não pegou)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f8776aa928",
@@ -292,12 +311,13 @@
       "Punk"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b9a172cf97",
@@ -312,12 +332,13 @@
       "Caveira"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2d520e0dc2",
@@ -332,12 +353,13 @@
       "Planadores"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:1146 (dirigíveis alemães chamados Zeppelin)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "acaa212c11",
@@ -352,12 +374,13 @@
       "Voto secreto"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "86353df550",
@@ -372,12 +395,13 @@
       "Meia-Lua Dourada"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "409d7dc0b2",
@@ -392,12 +416,13 @@
       "Gerião"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ae9a6eee22",
@@ -412,12 +437,13 @@
       "Jaci"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1a3223e838",
@@ -432,12 +458,14 @@
       "República do Café com Leite"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "29b6f78ae3",
@@ -452,12 +480,14 @@
       "Revolta dos Malês"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:908",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.2)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.2)",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "8998a2278b",
@@ -472,12 +502,14 @@
       "Penitência"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9c01d68712",
@@ -492,12 +524,14 @@
       "Zigurates"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "b00094745a",
@@ -512,12 +546,14 @@
       "Plebeus"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "3b0085e55a",
@@ -532,12 +568,14 @@
       "Musas"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "66797eed29",
@@ -552,12 +590,13 @@
       "Solitária"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "3be1eedf16",
@@ -572,12 +611,13 @@
       "Marimbondo"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2af0442e90",
@@ -592,12 +632,13 @@
       "Eczema"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "7fc65dc8cf",
@@ -612,12 +653,13 @@
       "Nadadeiras"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1176bd52d3",
@@ -632,12 +674,13 @@
       "Larva"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b168738101",
@@ -652,12 +695,13 @@
       "Flamingo"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f28d805a0e",
@@ -672,12 +716,13 @@
       "Diabo-da-tasmânia"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c3c138fb14",
@@ -692,12 +737,14 @@
       "Bisão"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "2406f753ba",
@@ -712,12 +759,13 @@
       "Náutilo"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2d8bea5c9b",
@@ -732,12 +780,13 @@
       "Fusível"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "285483709a",
@@ -752,12 +801,14 @@
       "Maracanã"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "8fb175cb47",
@@ -792,12 +843,14 @@
       "Áxis"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9cb23f0024",
@@ -812,12 +865,13 @@
       "Lateral"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "20c88ccfc7",
@@ -832,12 +886,13 @@
       "Tocha olímpica"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ba5c842fb8",
@@ -852,12 +907,13 @@
       "Velódromo"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "debabf675b",
@@ -872,12 +928,13 @@
       "Ginástica rítmica"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "5ee5ca13ab",
@@ -892,12 +949,13 @@
       "Dupla falta"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "28c14aefe7",
@@ -912,12 +970,13 @@
       "Ginga"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "159898ba05",
@@ -932,12 +991,13 @@
       "Breu"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "67a858c9d3",
@@ -952,12 +1012,13 @@
       "Bola ao chão"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:9efba8840c",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "64a1b87182",
@@ -972,12 +1033,14 @@
       "Mesa de salto"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "c1fb9ed740",
@@ -992,12 +1055,13 @@
       "24"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1442a40877",
@@ -1012,12 +1076,13 @@
       "Mestre FIDE"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "85781c5961",
@@ -1032,12 +1097,13 @@
       "Grampo"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "4fd9614b65",
@@ -1052,12 +1118,13 @@
       "Undercut"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1817ef23d8",
@@ -1072,12 +1139,14 @@
       "Peso-palha"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "57c41d1c85",
@@ -1092,12 +1161,14 @@
       "Ponte Preta"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "da50069638",
@@ -1132,12 +1203,14 @@
       "Omnium"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "f68bc43474",
@@ -1152,12 +1225,14 @@
       "Defesa Francesa"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "1a57d0c0e6",
@@ -1172,12 +1247,14 @@
       "Triângulo"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9b746a97d5",
@@ -1192,12 +1269,14 @@
       "Coldzera"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "c293d6e65e",
@@ -1232,12 +1311,13 @@
       "Cravo"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1d8dd86899",
@@ -1252,12 +1332,13 @@
       "Gutural"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "40afc00c15",
@@ -1272,12 +1353,13 @@
       "Comissão de frente"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "7264346460",
@@ -1312,12 +1394,13 @@
       "Spoiler"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1cf7562bd8",
@@ -1332,12 +1415,13 @@
       "Doramas"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c66c7a83fc",
@@ -1352,12 +1436,13 @@
       "Shippar"
     ],
     "subtema": "Memes e internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "02af96e42a",
@@ -1372,12 +1457,13 @@
       "Hipérbole"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6b28a811ed",
@@ -1412,12 +1498,13 @@
       "Buraco"
     ],
     "subtema": "Brinquedos e jogos de mesa",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8a0aeb16b5",
@@ -1432,12 +1519,13 @@
       "Hot Wheels"
     ],
     "subtema": "Brinquedos e jogos de mesa",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "874fbbb6fd",
@@ -1452,12 +1540,13 @@
       "Semibreve"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b37ad1a3b0",
@@ -1472,12 +1561,13 @@
       "Embolada"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "47565c557e",
@@ -1492,12 +1582,13 @@
       "Roda a Roda"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "58acd928b0",
@@ -1512,12 +1603,13 @@
       "Plot twist"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ee2d36649c",
@@ -1532,12 +1624,13 @@
       "Plano-sequência"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "bbb9b23f7c",
@@ -1547,17 +1640,19 @@
     "resposta": "MacGuffin",
     "alternativas": [
       "Red herring",
-      "Plot device",
+      "Arma de Tchekhov",
       "Easter egg",
       "MacGuffin"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "correcao": "errada 'Plot device' era defensável (o MacGuffin é um tipo de plot device); trocada por 'Arma de Tchekhov'"
   },
   {
     "id": "6ce5f58ce5",
@@ -1572,12 +1667,13 @@
       "Slice of life"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6a59e349a1",
@@ -1592,12 +1688,13 @@
       "Crush"
     ],
     "subtema": "Memes e internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "dfa064f7d5",
@@ -1612,12 +1709,13 @@
       "Eufemismo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "85315d2837",
@@ -1632,12 +1730,13 @@
       "Afresco"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "5846fe4a96",
@@ -1652,12 +1751,14 @@
       "Oboé"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "abe1ffc580",
@@ -1672,12 +1773,14 @@
       "Atabaque"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "0ac144ad57",
@@ -1692,18 +1795,20 @@
       "Vanerão"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "435b0d9db1",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual programa infantil brasileiro dos anos 1970, versão de \"Sesame Street\", teve Sonia Braga no elenco?",
+    "pergunta": "Qual programa infantil de 1972, coproduzido pela TV Cultura e pela Globo, teve Sonia Braga no elenco?",
     "resposta": "Vila Sésamo",
     "alternativas": [
       "Bambalalão",
@@ -1712,12 +1817,15 @@
       "Sítio do Picapau Amarelo"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "tirado 'versão de Sesame Street' do enunciado, que entregava Vila Sésamo; ano e emissoras no lugar (Sítio, de 1977, fica de fora)"
   },
   {
     "id": "49b4aeefe1",
@@ -1732,17 +1840,19 @@
       "Prêmio Camões"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "da28b64a51",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual museu de Florença guarda \"O Nascimento de Vênus\", de Botticelli?",
     "resposta": "Galeria Uffizi",
     "alternativas": [
@@ -1752,12 +1862,15 @@
       "Pinacoteca de Brera"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "46538c8828",
@@ -1772,12 +1885,14 @@
       "Maru"
     ],
     "subtema": "Memes e internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "6c350e5c0a",
@@ -1792,12 +1907,13 @@
       "Upload"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:9abd6d22a1",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "847b7a8c42",
@@ -1812,12 +1928,13 @@
       "Firewall"
     ],
     "subtema": "Segurança digital",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2488b36a1e",
@@ -1832,12 +1949,13 @@
       "Speedrun"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "77daa08ffa",
@@ -1852,12 +1970,13 @@
       "Aimbot"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "87f6d49071",
@@ -1872,12 +1991,13 @@
       "Respawn"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b209abe6ed",
@@ -1892,12 +2012,13 @@
       "Carry"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:3963 (camperar = ficar escondido esperando o inimigo passar)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "45487c4529",
@@ -1912,12 +2033,13 @@
       "NFC"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6b752dfb14",
@@ -1932,12 +2054,13 @@
       "Pay-to-win"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "19445e885e",
@@ -1952,12 +2075,13 @@
       "Battle royale"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "15ad1e5f42",
@@ -1972,12 +2096,13 @@
       "Point-and-click"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8182a36316",
@@ -1992,12 +2117,13 @@
       "Smurf"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d0a51c65ed",
@@ -2012,17 +2138,18 @@
       "Ragdoll"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "afbc1c0ade",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual algoritmo de hash de 128 bits, criado por Ron Rivest em 1991, foi abandonado para uso em segurança por ser fácil de quebrar?",
     "resposta": "MD5",
     "alternativas": [
@@ -2032,12 +2159,15 @@
       "Bcrypt"
     ],
     "subtema": "Segurança digital",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "f962a156a8",
@@ -2052,17 +2182,19 @@
       "Famicom"
     ],
     "subtema": "Games: Nintendo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "408d0b897d",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual acessório, encaixado no controle do Nintendo 64, fazia o controle vibrar?",
     "resposta": "Rumble Pak",
     "alternativas": [
@@ -2072,12 +2204,15 @@
       "Transfer Pak"
     ],
     "subtema": "Games: Nintendo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "f28f111d24",
@@ -2092,13 +2227,15 @@
       "Rondo of Blood"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Castlevania",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "398f67ec01",
@@ -2113,12 +2250,14 @@
       "Elon Musk"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "86549e151c",
@@ -2133,12 +2272,14 @@
       "Quíchua"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "d00cac46ba",
@@ -2153,12 +2294,13 @@
       "Criptas"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "0fab14c384",
@@ -2173,12 +2315,14 @@
       "Âmbar-gris"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "15c28feb65",
@@ -2193,12 +2337,14 @@
       "Fúrcula"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "d79a4b8bc3",
@@ -2213,12 +2359,13 @@
       "Pipe"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "57dbd51ee2",
@@ -2253,12 +2400,13 @@
       "Passa ou Repassa"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d1e85e0211",
@@ -2273,11 +2421,13 @@
       "Weserstadion"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   }
 ]

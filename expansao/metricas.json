@@ -3463,6 +3463,72 @@
         "correcoes": [
           "c53af7d1ba: a Nouvelle Vague começou em 1958-59; período precisado"
         ]
+      },
+      {
+        "lote": "036",
+        "conferente": "conferente-v4",
+        "conferidas_sem_mudanca": 98,
+        "corrigidas": 2,
+        "rebaixadas": 5,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "duplicada": 3
+        },
+        "perguntas_com_busca_web": 35,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 21,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "cf8581316f: duplicada: mesmo fato que banco:920 (capitães do mato, no plural; o detector não pegou)",
+          "2d520e0dc2: duplicada: mesmo fato que banco:1146 (dirigíveis alemães chamados Zeppelin)",
+          "b209abe6ed: duplicada: mesmo fato que banco:3963 (camperar = ficar escondido esperando o inimigo passar)"
+        ],
+        "correcoes": [
+          "bbb9b23f7c: errada 'Plot device' era defensável (o MacGuffin é um tipo de plot device); trocada por 'Arma de Tchekhov'",
+          "435b0d9db1: tirado 'versão de Sesame Street' do enunciado, que entregava Vila Sésamo; ano e emissoras no lugar (Sítio, de 1977, fica de fora)"
+        ],
+        "rebaixamentos": [
+          "f1beea38bb: dificil -> medio",
+          "c1b5a2b61b: dificil -> medio",
+          "da28b64a51: dificil -> medio",
+          "afbc1c0ade: dificil -> medio",
+          "408d0b897d: dificil -> medio"
+        ]
       }
     ],
     "rebaixamentos_r3": {

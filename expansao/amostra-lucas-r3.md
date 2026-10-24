@@ -1,6 +1,6 @@
 # Amostra para o Lucas - rodada 3 (lotes 026 a 035) - 30 perguntas conferidas
 
-Sorteio fixo (semente 20261025) entre as 996 perguntas com status "conferida" pelo conferente-v3: 5 por categoria e 10 por dificuldade. A resposta certa está em **negrito** com ✔.
+Sorteio fixo (semente 20261025) entre as 995 perguntas com status "conferida" pelo conferente-v3: 5 por categoria e 10 por dificuldade. A resposta certa está em **negrito** com ✔.
 
 ## Geografia
 
@@ -14,34 +14,34 @@ Sorteio fixo (semente 20261025) entre as 996 perguntas com status "conferida" pe
 *Geografia - fácil - lote 026, id 796bc75fd5*  
 Sem correção.
 
-### 2. Como se chama a junção de cidades vizinhas que crescem até se encostar?
+### 2. Como se chama a valorização de um bairro que acaba expulsando os moradores mais pobres pelo aumento dos custos?
 
-- A) Favelização
-- B) **Conurbação** ✔
-- C) Êxodo rural
-- D) Gentrificação
+- A) Conurbação
+- B) Periferização
+- C) **Gentrificação** ✔
+- D) Favelização
 
-*Geografia - médio - lote 032, id 861e8bd160*  
+*Geografia - médio - lote 034, id b11d647684*  
 Sem correção.
 
-### 3. Em qual praça de Brasília ficam o Congresso, o Palácio do Planalto e o Supremo Tribunal Federal?
+### 3. O sarapatel, feito com miúdos e sangue de porco, é típico de qual região do Brasil?
 
-- A) Esplanada dos Ministérios
-- B) Praça da Liberdade
-- C) Praça da Sé
-- D) **Praça dos Três Poderes** ✔
+- A) **Nordeste** ✔
+- B) Sudeste
+- C) Sul
+- D) Centro-Oeste
 
-*Geografia - fácil - lote 033, id 641653609e*  
+*Geografia - fácil - lote 028, id 6ff44c784e*  
 Sem correção.
 
-### 4. Qual fenômeno causado por algas deixa o mar avermelhado e pode contaminar frutos do mar?
+### 4. Como se chama a pessoa que não tem a nacionalidade de nenhum país?
 
-- A) **Maré vermelha** ✔
-- B) Pororoca
-- C) Ressaca
-- D) Maré de sizígia
+- A) Refugiada
+- B) Expatriada
+- C) Imigrante
+- D) **Apátrida** ✔
 
-*Geografia - médio - lote 032, id 392c7a3cc8*  
+*Geografia - médio - lote 032, id be58073f96*  
 Sem correção.
 
 ### 5. Qual rodovia federal percorre quase todo o litoral brasileiro, do Rio Grande do Norte ao Rio Grande do Sul?
@@ -56,106 +56,106 @@ Sem correção.
 
 ## História
 
-### 6. Como se chamava a praça central das cidades romanas, centro da política e do comércio?
+### 6. Qual objeto, um bastão enfeitado, simboliza o poder do rei junto com a coroa?
 
-- A) Coliseu
-- B) Panteão
-- C) Ágora
-- D) **Fórum** ✔
+- A) Báculo
+- B) Tridente
+- C) Mangual
+- D) **Cetro** ✔
 
-*História - fácil - lote 035, id fe9aeca145*  
+*História - fácil - lote 031, id 76eaf8cdb4*  
 Sem correção.
 
-### 7. Como se chama o governo de reis absolutistas que adotaram ideias iluministas, como Catarina, a Grande?
+### 7. Qual era a torre principal e mais forte de um castelo medieval?
 
-- A) Monarquia parlamentar
-- B) **Despotismo esclarecido** ✔
-- C) Teocracia
-- D) República oligárquica
+- A) Torre de vigia
+- B) Torre sineira
+- C) Barbacã
+- D) **Torre de menagem** ✔
 
-*História - médio - lote 033, id 0a8ae1f9de*  
+*História - médio - lote 035, id 0a2c95507a*  
 Sem correção.
 
-### 8. Qual chanceler austríaco comandou o Congresso de Viena, em 1815?
+### 8. Qual cidade grega era o reino de Agamenon, líder dos gregos na Guerra de Troia?
 
-- A) Talleyrand
-- B) **Metternich** ✔
-- C) Bismarck
-- D) Castlereagh
+- A) Corinto
+- B) Esparta
+- C) **Micenas** ✔
+- D) Tebas
 
-*História - difícil - lote 035, id be5b7ab5d8*  
+*História - difícil - lote 029, id d93495fa6c*  
 Sem correção.
 
-### 9. Qual sistema medieval se baseava na relação entre senhores e vassalos e no trabalho dos servos na terra?
+### 9. Como se chamava o artista que divertia o rei com piadas e acrobacias nas cortes medievais?
 
-- A) Mercantilismo
-- B) Capitalismo
-- C) Absolutismo
-- D) **Feudalismo** ✔
+- A) Arauto
+- B) Menestrel
+- C) Escudeiro
+- D) **Bobo da corte** ✔
 
-*História - fácil - lote 026, id bc9e4e3e54*  
+*História - fácil - lote 029, id fff3d443f7*  
 Sem correção.
 
-### 10. Qual rei guerreiro unificou os zulus no início do século XIX?
+### 10. Qual região da Tchecoslováquia, de maioria alemã, foi entregue a Hitler em 1938?
 
-- A) Menelik
-- B) Cetshwayo
-- C) **Shaka** ✔
-- D) Mzilikazi
+- A) Alsácia
+- B) Silésia
+- C) **Sudetos** ✔
+- D) Prússia Oriental
 
-*História - difícil - lote 026, id c87c1ada70*  
+*História - difícil - lote 035, id 37095f269e*  
 Sem correção.
 
 ## Ciências
 
-### 11. Como se chamam os tremores de frio que costumam vir junto com a febre?
+### 11. Como se chama o filhote do cavalo?
 
-- A) **Calafrios** ✔
-- B) Convulsões
-- C) Câimbras
-- D) Soluços
+- A) Leitão
+- B) Cabrito
+- C) **Potro** ✔
+- D) Bezerro
 
-*Ciências - fácil - lote 034, id 61c5aac406*  
+*Ciências - fácil - lote 027, id 2b96fbf6f8*  
 Sem correção.
 
-### 12. Como se chama o ritmo irregular dos batimentos do coração?
+### 12. Como se chama a sensação de que tudo está girando, comum em problemas no ouvido interno?
 
-- A) Sopro
-- B) Taquicardia de esforço
-- C) **Arritmia** ✔
-- D) Hipertensão
+- A) Miopia
+- B) Síncope
+- C) Taquicardia
+- D) **Vertigem** ✔
 
-*Ciências - médio - lote 030, id bfbd786e88*  
+*Ciências - médio - lote 034, id 4f9da51be7*  
 Sem correção.
 
-### 13. Como se chamam os animais cujos ovos eclodem dentro do corpo da mãe, como alguns tubarões?
+### 13. Qual elemento químico tem o símbolo W, de "wolfram"?
 
-- A) Ovíparos
-- B) Vivíparos
-- C) **Ovovivíparos** ✔
-- D) Marsupiais
+- A) Tálio
+- B) Ósmio
+- C) **Tungstênio** ✔
+- D) Vanádio
 
-*Ciências - difícil - lote 032, id ce9577d269*  
+*Ciências - difícil - lote 029, id 26431fca2a*  
 Sem correção.
 
-### 14. Qual fibra sintética, criada pela DuPont nos anos 1930, substituiu a seda nas meias femininas?
+### 14. Como se chamam átomos do mesmo elemento com números diferentes de nêutrons?
 
-- A) Raiom
-- B) Lycra
-- C) **Náilon** ✔
-- D) Poliéster
+- A) Isóbaros
+- B) **Isótopos** ✔
+- C) Alótropos
+- D) Íons
 
-*Ciências - médio - lote 026, id 26370b462d*  
+*Ciências - médio - lote 029, id f0fc009119*  
 Sem correção.
 
-### 15. Qual neurocientista brasileiro coordenou o exoesqueleto que deu o pontapé inicial da Copa de 2014?
+### 15. Qual físico francês demonstrou a rotação da Terra com um grande pêndulo em Paris, em 1851?
 
-- A) Marcelo Gleiser
-- B) **Miguel Nicolelis** ✔
-- C) Suzana Herculano-Houzel
-- D) Carlos Chagas Filho
+- A) Blaise Pascal
+- B) André-Marie Ampère
+- C) **Léon Foucault** ✔
+- D) Augustin Fresnel
 
-*Ciências - difícil - lote 028, id bac1c99971*  
+*Ciências - difícil - lote 026, id 7484151a0a*  
 Sem correção.
 
 ## Esportes
@@ -170,146 +170,146 @@ Sem correção.
 *Esportes - fácil - lote 028, id f8505c8b64*  
 Sem correção.
 
-### 17. Qual dupla brasileira ganhou o bronze nas duplas femininas de tênis em Tóquio 2020?
+### 17. Qual meia holandês, quatro vezes campeão da Champions, jogou no Botafogo em 2012 e 2013?
 
-- A) Teliana Pereira e Paula Gonçalves
-- B) **Laura Pigossi e Luisa Stefani** ✔
-- C) Bia Haddad e Carolina Meligeni
-- D) Bia Haddad e Luisa Stefani
+- A) **Clarence Seedorf** ✔
+- B) Edgar Davids
+- C) Patrick Kluivert
+- D) Ruud Gullit
 
-*Esportes - médio - lote 028, id d828d3650b*  
+*Esportes - médio - lote 034, id 45525e58ea*  
 Sem correção.
 
-### 18. No basquete, como se chama o bloqueio de um arremesso, tocando na bola do adversário?
+### 18. Qual esporte consiste em se equilibrar e fazer manobras sobre uma fita esticada entre dois pontos?
 
-- A) Rebote
-- B) Falta técnica
-- C) **Toco** ✔
-- D) Enterrada
+- A) Trampolim
+- B) Parkour
+- C) **Slackline** ✔
+- D) Corda bamba de circo
 
-*Esportes - fácil - lote 029, id 91097bb2dc*  
+*Esportes - fácil - lote 031, id 396e0ac6a5*  
 Sem correção.
 
-### 19. Qual estádio de Campinas é a casa da Ponte Preta?
+### 19. No boxe, como se chama o soco rápido e reto dado com a mão da frente?
 
-- A) Arena Barueri
-- B) Canindé
-- C) Brinco de Ouro
-- D) **Moisés Lucarelli** ✔
+- A) Uppercut
+- B) Cruzado
+- C) **Jab** ✔
+- D) Gancho
 
-*Esportes - médio - lote 027, id 7f82d3ff66*  
+*Esportes - médio - lote 029, id 031d848281*  
 Sem correção.
 
-### 20. Como se chama a fase extra em que seleções disputam as últimas vagas para a Copa do Mundo?
+### 20. Qual estádio de Florianópolis é a casa do Figueirense?
 
-- A) Pré-Copa
-- B) Liguilla
-- C) **Repescagem** ✔
-- D) Fase de grupos
+- A) Heriberto Hülse
+- B) Ressacada
+- C) **Orlando Scarpelli** ✔
+- D) Arena Condá
 
-*Esportes - difícil - lote 033, id cd49dffa5e*  
+*Esportes - difícil - lote 027, id 4051d53ee9*  
 Sem correção.
 
 ## Entretenimento
 
-### 21. Qual dupla de ratos de laboratório tenta todas as noites dominar o mundo?
+### 21. Qual vinheta da Globo, com música tensa, interrompe a programação para notícias urgentes?
 
-- A) Tico e Teco
-- B) **Pinky e Cérebro** ✔
-- C) Remy e Emile
-- D) Chip e Dale
+- A) Jornal Hoje
+- B) Fantástico
+- C) Globo Repórter
+- D) **Plantão da Globo** ✔
 
-*Entretenimento - fácil - lote 029, id 3e9cee05ca*  
+*Entretenimento - fácil - lote 029, id 4b6e300b6e*  
 Sem correção.
 
-### 22. Em "Grande Sertão: Veredas", qual jagunço narra a história?
+### 22. Qual instrumento indiano de cordas foi popularizado no Ocidente por Ravi Shankar?
 
-- A) Diadorim
-- B) Hermógenes
-- C) Zé Bebelo
-- D) **Riobaldo** ✔
+- A) **Cítara** ✔
+- B) Bandolim
+- C) Harmônio
+- D) Tabla
 
-*Entretenimento - médio - lote 028, id 1ada6b539e*  
+*Entretenimento - médio - lote 026, id c1b4cf2c51*  
 Sem correção.
 
-### 23. Qual escritor argentino escreveu o romance "O Jogo da Amarelinha"?
+### 23. Qual dança de Mato Grosso é acompanhada pela viola de cocho?
 
-- A) Jorge Luis Borges
-- B) Ernesto Sabato
-- C) **Julio Cortázar** ✔
-- D) Adolfo Bioy Casares
+- A) Catira
+- B) Chula
+- C) **Siriri** ✔
+- D) Fandango
 
-*Entretenimento - difícil - lote 028, id 93b3824a9c*  
+*Entretenimento - difícil - lote 029, id c87921fe8d*  
 Sem correção.
 
-### 24. Qual instrumento da capoeira tem um arco de madeira, um arame e uma cabaça?
+### 24. Qual pintor impressionista francês ficou famoso por retratar bailarinas?
 
-- A) Atabaque
-- B) **Berimbau** ✔
-- C) Pandeiro
-- D) Agogô
+- A) **Edgar Degas** ✔
+- B) Pierre-Auguste Renoir
+- C) Claude Monet
+- D) Édouard Manet
 
-*Entretenimento - fácil - lote 032, id 2817dd1dc4*  
+*Entretenimento - fácil - lote 026, id eaa225acc8*  
 Sem correção.
 
-### 25. Qual subgênero de terror tem um assassino que persegue jovens, como em "Halloween"?
+### 25. Qual instrumento eletrônico é tocado sem contato, movendo as mãos perto de duas antenas?
 
-- A) **Slasher** ✔
-- B) Thriller psicológico
-- C) Found footage
-- D) Gore
+- A) Vocoder
+- B) Ondas Martenot
+- C) **Teremim** ✔
+- D) Sintetizador
 
-*Entretenimento - difícil - lote 032, id 209b0ff0e1*  
-Sem correção.
+*Entretenimento - difícil - lote 032, id 1fc2d8a614*  
+Correção: 'Theremino' era pegadinha de grafia da certa; errada trocada por Ondas Martenot.
 
 ## Tecnologia
 
-### 26. Como se chama a caixa de som com assistente que responde a comandos de voz, como a Echo?
+### 26. Como se chama a lista de sites que você salva no navegador para acessar depois?
 
-- A) **Smart speaker** ✔
-- B) Subwoofer
-- C) Soundbar
-- D) Home theater
+- A) **Favoritos** ✔
+- B) Cache
+- C) Downloads
+- D) Histórico
 
-*Tecnologia - fácil - lote 034, id 4fb5bcd441*  
+*Tecnologia - fácil - lote 028, id 8e3074dc5d*  
 Sem correção.
 
-### 27. Qual programa de chat dos anos 90 conectava usuários a canais de IRC com nomes começando por "#"?
+### 27. Qual tecnologia de banda larga usava a linha telefônica comum sem deixar o telefone ocupado?
 
-- A) ICQ
-- B) MSN Messenger
-- C) **mIRC** ✔
-- D) Skype
+- A) Internet discada
+- B) Fibra óptica
+- C) **ADSL** ✔
+- D) Rádio
 
-*Tecnologia - médio - lote 026, id 8d69827e65*  
+*Tecnologia - médio - lote 026, id 7f57edc695*  
 Sem correção.
 
-### 28. Como se chama o celular com tela flexível que se fecha como um livro?
+### 28. Qual programa executa o código linha por linha, sem gerar antes um arquivo executável, como no Python?
 
-- A) Phablet
-- B) Celular modular
-- C) **Celular dobrável** ✔
-- D) Celular rugged
+- A) **Interpretador** ✔
+- B) Montador
+- C) Ligador
+- D) Compilador
 
-*Tecnologia - difícil - lote 032, id 3c9f894241*  
+*Tecnologia - difícil - lote 035, id 5b63ce0020*  
 Sem correção.
 
-### 29. Como se chama o conjunto pronto de ferramentas e regras que acelera o desenvolvimento, como o Django?
+### 29. Qual impressora barulhenta imprimia com agulhas sobre uma fita, usada em formulários contínuos?
 
-- A) Firmware
-- B) **Framework** ✔
-- C) Compilador
-- D) Sistema operacional
+- A) Jato de tinta
+- B) **Matricial** ✔
+- C) Térmica
+- D) Laser
 
-*Tecnologia - médio - lote 035, id 18e8e33d36*  
+*Tecnologia - médio - lote 031, id 37323c71ac*  
 Sem correção.
 
-### 30. Qual banco de dados relacional de código aberto tem um elefante como mascote?
+### 30. Qual jogo da série Command & Conquer, de 1996, imagina uma guerra entre os Aliados e a União Soviética?
 
-- A) MariaDB
-- B) MySQL
-- C) **PostgreSQL** ✔
-- D) SQLite
+- A) **Red Alert** ✔
+- B) Renegade
+- C) Tiberian Sun
+- D) Generals
 
-*Tecnologia - difícil - lote 030, id b2af74bec9*  
+*Tecnologia - difícil - lote 027, id 49d403ccb1*  
 Sem correção.

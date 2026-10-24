@@ -6,18 +6,20 @@
     "pergunta": "Como se chamam as colinas suaves e arredondadas dos pampas gaúchos?",
     "resposta": "Coxilhas",
     "alternativas": [
-      "Coxilhas",
+      "Cuestas",
       "Chapadas",
       "Tabuleiros",
-      "Cuestas"
+      "Coxilhas"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "60d7f71afb",
@@ -32,12 +34,13 @@
       "Cosmologia"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8d9a943c35",
@@ -52,12 +55,13 @@
       "Rabo-de-andorinha"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "a4d55210d9",
@@ -72,12 +76,14 @@
       "Fiandeiras"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "c4282dbba3",
@@ -92,12 +98,14 @@
       "Flauta"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3446",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "759ca0e222",
@@ -112,12 +120,13 @@
       "Real Gabinete Português de Leitura"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "da693927a8",
@@ -132,12 +141,13 @@
       "Lençóis Maranhenses"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d4183332ab",
@@ -183,7 +193,7 @@
     "id": "cc0bdc35c6",
     "categoria": "Geografia",
     "dificuldade": "facil",
-    "pergunta": "Qual grupo de países emergentes teve como membros originais Brasil, Rússia, Índia, China e África do Sul?",
+    "pergunta": "Qual sigla de grupo de países emergentes vem das iniciais de Brasil, Rússia, Índia, China e África do Sul?",
     "resposta": "BRICS",
     "alternativas": [
       "OPEP",
@@ -192,12 +202,15 @@
       "Mercosul"
     ],
     "subtema": "População, curiosidades e recordes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "fato errado: a África do Sul não era membro original (entrou em 2010-2011); enunciado refeito"
   },
   {
     "id": "9653af7e58",
@@ -212,12 +225,13 @@
       "FAO"
     ],
     "subtema": "População, curiosidades e recordes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e826c8715c",
@@ -232,13 +246,14 @@
       "Rua Augusta"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "universo": "São Paulo (bairros)"
+    "universo": "São Paulo (bairros)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d302c8c955",
@@ -253,12 +268,13 @@
       "Teatro Positivo"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b08c73fa1e",
@@ -273,12 +289,13 @@
       "Costa Azul"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ba1c04d80f",
@@ -293,12 +310,13 @@
       "Igapós"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6752ccbbfc",
@@ -313,12 +331,14 @@
       "Veredas"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "3f2d3f604d",
@@ -373,12 +393,13 @@
       "Détente"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:859",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1d93cec407",
@@ -393,12 +414,14 @@
       "Monarquia parlamentarista"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "b4f56a8ba2",
@@ -413,12 +436,13 @@
       "Ninfa"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "07068075b6",
@@ -433,12 +457,13 @@
       "Hera"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ac18893634",
@@ -453,12 +478,13 @@
       "México"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "341dddc263",
@@ -473,12 +499,13 @@
       "Manifesto Comunista"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "4903efaa81",
@@ -493,12 +520,14 @@
       "Hilotas"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "25401787ea",
@@ -513,12 +542,14 @@
       "Questão Militar"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "0f0bbf68b3",
@@ -533,12 +564,14 @@
       "Blenheim Palace"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "df91b3466b",
@@ -553,12 +586,14 @@
       "Sharpeville"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "aadc18f15a",
@@ -573,12 +608,13 @@
       "Cupinzeiro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "701560a1c3",
@@ -593,12 +629,13 @@
       "Pulga"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "13f963d7d2",
@@ -613,12 +650,13 @@
       "Varejeira"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "7fccb47fab",
@@ -633,12 +671,13 @@
       "Ursa Maior"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "3b7410b9a2",
@@ -653,12 +692,13 @@
       "Spationautas"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "628af2b1db",
@@ -673,12 +713,14 @@
       "Carapaça"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "f471cd7a0c",
@@ -693,12 +735,14 @@
       "Mandíbula"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "a7429b78ba",
@@ -713,12 +757,13 @@
       "Sinalizador"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "53e0710144",
@@ -753,12 +798,13 @@
       "Contra-ataque"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "edddbd3df2",
@@ -773,12 +819,13 @@
       "Pé-quente"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c464900600",
@@ -793,12 +840,13 @@
       "Fominha"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "48b3c783d6",
@@ -813,12 +861,13 @@
       "Z-4"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6d6484a4cf",
@@ -833,18 +882,19 @@
       "Ultimate Team"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "4e95a45b7b",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Qual loteria da Caixa, criada em 1970, pedia palpites para os resultados de jogos de futebol?",
+    "pergunta": "Qual loteria da Caixa, que começou a funcionar em 1970, pedia palpites para os resultados de jogos de futebol?",
     "resposta": "Loteria Esportiva",
     "alternativas": [
       "Timemania",
@@ -853,12 +903,15 @@
       "Loteria Esportiva"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "criada por decreto em 1969 e iniciada em 1970; 'criada' trocado por 'começou a funcionar'"
   },
   {
     "id": "d003fde8f0",
@@ -873,12 +926,13 @@
       "Retranca"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "cbbe065cf8",
@@ -893,12 +947,13 @@
       "Forward"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "03df12cd13",
@@ -913,12 +968,13 @@
       "Cartão Verde"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "626591522d",
@@ -933,12 +989,13 @@
       "CT Rei Pelé"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e2d69a0b21",
@@ -953,12 +1010,13 @@
       "Família Scolari"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "4de96b09ba",
@@ -973,12 +1031,14 @@
       "1970"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:ff011a6bce",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "c3729d3370",
@@ -989,16 +1049,19 @@
     "alternativas": [
       "Arnaldo Cezar Coelho",
       "Armando Marques",
-      "Pablo Silva",
+      "Márcio Rezende de Freitas",
       "Heine Allemagne"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "errada 'Pablo Silva' trocada: o argentino divide o crédito do spray com Heine Allemagne"
   },
   {
     "id": "36be95de7c",
@@ -1013,12 +1076,14 @@
       "Petrobras"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "a7c127cb29",
@@ -1033,12 +1098,14 @@
       "De Kuip"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "6ce4b4d7a1",
@@ -1053,12 +1120,14 @@
       "Feminejo"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "cac763dc53",
@@ -1073,12 +1142,13 @@
       "GR6"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "91b6ac7984",
@@ -1093,12 +1163,13 @@
       "Rita Cadillac"
     ],
     "subtema": "Memes e internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e3c7f92311",
@@ -1113,12 +1184,13 @@
       "Contatinho"
     ],
     "subtema": "Memes e internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "cff7faf5b4",
@@ -1133,12 +1205,13 @@
       "Vitral"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4339",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d379af0f97",
@@ -1153,12 +1226,13 @@
       "Textão"
     ],
     "subtema": "Memes e internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c9780b1a33",
@@ -1173,12 +1247,13 @@
       "Paradoxo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "172ed32f8f",
@@ -1193,12 +1268,13 @@
       "Ferrorama"
     ],
     "subtema": "Brinquedos e jogos de mesa",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "cbc0b66392",
@@ -1213,18 +1289,20 @@
       "Partido-alto"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9303149684",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual ritmo, dançado em pares nos bailes de São Paulo, misturava o samba com a guitarra de Jorge Ben?",
+    "pergunta": "Qual ritmo, dançado em pares nos bailes black de São Paulo, tem Jorge Ben como precursor?",
     "resposta": "Samba-rock",
     "alternativas": [
       "Samba-reggae",
@@ -1233,12 +1311,15 @@
       "Forró universitário"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:1bef453c90",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "'guitarra de Jorge Ben' era impreciso (ele tocava violão); enunciado refeito"
   },
   {
     "id": "cd679364bc",
@@ -1253,12 +1334,14 @@
       "Exaltasamba"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "21f89a4052",
@@ -1273,12 +1356,13 @@
       "Show do Milhão"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "0296e45b6b",
@@ -1293,12 +1377,13 @@
       "True crime"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8c8e82ed3f",
@@ -1313,12 +1398,13 @@
       "Bienal do Livro"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "7ede9ce4ac",
@@ -1333,12 +1419,14 @@
       "MASP"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "7d2b8c3b6e",
@@ -1353,12 +1441,13 @@
       "Pogobol"
     ],
     "subtema": "Brinquedos e jogos de mesa",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "43f657d4be",
@@ -1373,18 +1462,20 @@
       "Manguebeat"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "f694203e43",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual pianista e compositor carioca escreveu o tango brasileiro \"Odeon\", de 1909?",
+    "pergunta": "Qual pianista e compositor carioca publicou o tango brasileiro \"Odeon\", em 1909?",
     "resposta": "Ernesto Nazareth",
     "alternativas": [
       "Pixinguinha",
@@ -1393,12 +1484,15 @@
       "Joaquim Callado"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "Odeon foi publicado em 1909 (há fontes que dão 1910 para a composição); 'escreveu' trocado por 'publicou'"
   },
   {
     "id": "741cb29053",
@@ -1413,18 +1507,20 @@
       "Samba de roda"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "81c6a88b1d",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Como se chamam os romances japoneses curtos e ilustrados que deram origem a animes como \"Sword Art Online\"?",
+    "pergunta": "Como se chamam os romances japoneses curtos e ilustrados que deram origem a animes como \"A Melancolia de Haruhi Suzumiya\"?",
     "resposta": "Light novels",
     "alternativas": [
       "Visual novels",
@@ -1433,12 +1529,15 @@
       "Light novels"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "Sword Art Online começou como web novel antes da light novel; exemplo trocado por Haruhi Suzumiya, light novel desde o início"
   },
   {
     "id": "9edea1d712",
@@ -1453,12 +1552,13 @@
       "Lu"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que 027:38d70f0110 (assistente virtual Lu do Magazine Luiza, pergunta invertida)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b5f2089bd9",
@@ -1473,12 +1573,13 @@
       "Nextel"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f5deac3379",
@@ -1493,12 +1594,14 @@
       "Casas Bahia"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "8690f25dee",
@@ -1513,12 +1616,14 @@
       "Nokia 3310"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "cac074211c",
@@ -1533,12 +1638,14 @@
       "Telerj"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "7847b35705",
@@ -1553,12 +1660,14 @@
       "CCE"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "não confirmado em fonte: o apelido da CCE circula só oralmente e em variantes ('Comprou, Chiou, Estragou')",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "db1c6cab72",
@@ -1573,12 +1682,14 @@
       "Ponto Frio"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9db232092d",
@@ -1593,12 +1704,14 @@
       "Kiwify"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "56fb1bec76",
@@ -1633,12 +1746,14 @@
       "Ares"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "67da5b164f",
@@ -1653,12 +1768,14 @@
       "Zap Imóveis"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "e2affd2987",
@@ -1673,12 +1790,14 @@
       "Igreja da Pampulha"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:283",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "ff900c8868",
@@ -1693,12 +1812,14 @@
       "Cuestas"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:29",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "6c4d85efca",
@@ -1713,12 +1834,13 @@
       "Haraquiri"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6aa0e404d8",
@@ -1733,12 +1855,13 @@
       "República presidencialista"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1187",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c22f41ea03",
@@ -1773,12 +1896,13 @@
       "Sebo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "46e4b046c4",
@@ -1793,12 +1917,13 @@
       "Herbívoro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "85ea155f23",
@@ -1813,12 +1938,14 @@
       "Almeidão"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "40db4f8913",
@@ -1833,12 +1960,13 @@
       "Youtuber"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1242dda264",
@@ -1853,18 +1981,20 @@
       "Adoniran Barbosa"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9c1028ed1a",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual sanfoneiro paraibano, albino, é o autor de \"Feira de Mangaio\"?",
+    "pergunta": "Qual sanfoneiro paraibano, albino, é um dos autores de \"Feira de Mangaio\"?",
     "resposta": "Sivuca",
     "alternativas": [
       "Luiz Gonzaga",
@@ -1873,12 +2003,15 @@
       "Dominguinhos"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "a música é de Sivuca e Glorinha Gadelha; 'o autor' trocado por 'um dos autores'"
   },
   {
     "id": "abf4116a2c",
@@ -1893,12 +2026,13 @@
       "Leitor de digital"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "061385eec5",
@@ -1913,12 +2047,13 @@
       "Corporativo"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1b30bf7f52",
@@ -1933,12 +2068,13 @@
       "Status"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3860",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "516fc23917",
@@ -1953,12 +2089,14 @@
       "Speedy"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "edf09de840",
@@ -1973,12 +2111,14 @@
       "AOL"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "ddcebc7ca1",
@@ -1993,11 +2133,12 @@
       "Bonde"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   }
 ]

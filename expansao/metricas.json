@@ -1499,6 +1499,57 @@
         "perguntas": 48,
         "total": 139
       }
+    },
+    {
+      "lote": "044",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 112,
+      "validas": 107,
+      "descartadas": 5,
+      "taxa_descarte": 0.04,
+      "caracteres": 17099,
+      "tokens_aprox": 4885,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "fatos-r4-044.txt",
+        "fatos-r4-044b.txt",
+        "fatos-r4-044c.txt",
+        "fatos-r4-044d.txt",
+        "fatos-r4-044e.txt",
+        "r4-044.txt",
+        "r4-044b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r4-044.txt",
+          "fatos-r4-044b.txt",
+          "fatos-r4-044c.txt",
+          "fatos-r4-044d.txt",
+          "fatos-r4-044e.txt",
+          "r4-044.txt",
+          "r4-044b.txt"
+        ],
+        "linhas": 153,
+        "existem": 18,
+        "risco": 16,
+        "tokens_aprox": 7640,
+        "nomes_sondados": 314,
+        "nomes_ausentes": 181,
+        "descarte": 0.12,
+        "candidatas_por_valida": 1.43
+      },
+      "perguntas": {
+        "escritas": 112,
+        "validas": 107,
+        "descartadas_detector": 5,
+        "descarte": 0.04,
+        "tokens_aprox": 4885
+      },
+      "tokens_por_valida": {
+        "listas": 71,
+        "perguntas": 46,
+        "total": 117
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -4363,6 +4414,67 @@
       "livres": 1,
       "caracteres": 117,
       "tokens_aprox": 33
+    },
+    "fatos-r4-044.txt": {
+      "tipo": "fatos",
+      "linhas": 123,
+      "existem": 78,
+      "risco": 0,
+      "livres": 45,
+      "caracteres": 7086,
+      "tokens_aprox": 2025
+    },
+    "fatos-r4-044b.txt": {
+      "tipo": "fatos",
+      "linhas": 58,
+      "existem": 13,
+      "risco": 0,
+      "livres": 45,
+      "caracteres": 2476,
+      "tokens_aprox": 707
+    },
+    "fatos-r4-044c.txt": {
+      "tipo": "fatos",
+      "linhas": 27,
+      "existem": 7,
+      "risco": 0,
+      "livres": 20,
+      "caracteres": 1066,
+      "tokens_aprox": 305
+    },
+    "fatos-r4-044d.txt": {
+      "tipo": "fatos",
+      "linhas": 42,
+      "existem": 23,
+      "risco": 0,
+      "livres": 19,
+      "caracteres": 2594,
+      "tokens_aprox": 741
+    },
+    "r4-044.txt": {
+      "linhas": 107,
+      "existem": 13,
+      "risco": 13,
+      "livres": 81,
+      "caracteres": 7516,
+      "tokens_aprox": 2147
+    },
+    "fatos-r4-044e.txt": {
+      "tipo": "fatos",
+      "linhas": 64,
+      "existem": 12,
+      "risco": 0,
+      "livres": 52,
+      "caracteres": 2897,
+      "tokens_aprox": 828
+    },
+    "r4-044b.txt": {
+      "linhas": 46,
+      "existem": 5,
+      "risco": 3,
+      "livres": 38,
+      "caracteres": 3106,
+      "tokens_aprox": 887
     }
   },
   "rodada3": {

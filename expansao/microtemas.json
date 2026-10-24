@@ -3373,13 +3373,14 @@
   },
   "Saúde: especialidades e primeiros socorros": {
     "categoria": "Ciências",
-    "candidatas": 15,
-    "existem": 0,
-    "descarte": 0,
+    "candidatas": 24,
+    "existem": 2,
+    "descarte": 0.08,
     "status": "aberto",
     "arquivos": [
       "r4-041.txt",
-      "r4-043b.txt"
+      "r4-043b.txt",
+      "r4-044b.txt"
     ]
   },
   "Atletismo, ciclismo, tênis e lutas: detalhes": {
@@ -3525,12 +3526,13 @@
   },
   "Copa do Mundo: mascotes, bolas e símbolos": {
     "categoria": "Esportes",
-    "candidatas": 7,
+    "candidatas": 8,
     "existem": 1,
-    "descarte": 0.14,
+    "descarte": 0.13,
     "status": "aberto",
     "arquivos": [
-      "r4-042.txt"
+      "r4-042.txt",
+      "r4-044b.txt"
     ]
   },
   "E-sports: termos": {
@@ -3545,12 +3547,13 @@
   },
   "TV brasileira: quadros e programas de auditório": {
     "categoria": "Entretenimento",
-    "candidatas": 9,
-    "existem": 0,
-    "descarte": 0,
+    "candidatas": 12,
+    "existem": 1,
+    "descarte": 0.08,
     "status": "aberto",
     "arquivos": [
-      "r4-042.txt"
+      "r4-042.txt",
+      "r4-044.txt"
     ]
   },
   "Youtubers e streamers brasileiros": {
@@ -3627,14 +3630,16 @@
   },
   "Revolução Russa e Brasil Joanino (termos)": {
     "categoria": "História",
-    "candidatas": 18,
+    "candidatas": 27,
     "existem": 5,
-    "descarte": 0.28,
+    "descarte": 0.19,
     "status": "aberto",
     "arquivos": [
       "r4-043.txt",
       "r4-043b.txt",
-      "r4-043c.txt"
+      "r4-043c.txt",
+      "r4-044.txt",
+      "r4-044b.txt"
     ]
   },
   "Plantas úteis e curiosas": {
@@ -3681,28 +3686,19 @@
   },
   "Música: fandoms, apelidos e termos": {
     "categoria": "Entretenimento",
-    "candidatas": 12,
-    "existem": 0,
-    "descarte": 0,
+    "candidatas": 25,
+    "existem": 1,
+    "descarte": 0.04,
     "status": "aberto",
     "arquivos": [
       "r4-043.txt",
-      "r4-043b.txt"
+      "r4-043b.txt",
+      "r4-044.txt",
+      "r4-044b.txt"
     ]
   },
   "Séries: cidades, empresas e lugares": {
     "categoria": "Entretenimento",
-    "candidatas": 13,
-    "existem": 0,
-    "descarte": 0,
-    "status": "aberto",
-    "arquivos": [
-      "r4-043.txt",
-      "r4-043b.txt"
-    ]
-  },
-  "Games: mapas, mundos e empresas": {
-    "categoria": "Tecnologia",
     "candidatas": 20,
     "existem": 0,
     "descarte": 0,
@@ -3710,17 +3706,32 @@
     "arquivos": [
       "r4-043.txt",
       "r4-043b.txt",
-      "r4-043e.txt"
+      "r4-044.txt",
+      "r4-044b.txt"
+    ]
+  },
+  "Games: mapas, mundos e empresas": {
+    "categoria": "Tecnologia",
+    "candidatas": 29,
+    "existem": 2,
+    "descarte": 0.07,
+    "status": "aberto",
+    "arquivos": [
+      "r4-043.txt",
+      "r4-043b.txt",
+      "r4-043e.txt",
+      "r4-044.txt"
     ]
   },
   "Armas, tropas e guerra (termos)": {
     "categoria": "História",
-    "candidatas": 1,
+    "candidatas": 9,
     "existem": 0,
     "descarte": 0,
     "status": "aberto",
     "arquivos": [
-      "r4-043f.txt"
+      "r4-043f.txt",
+      "r4-044.txt"
     ]
   },
   "Doces, pães e pratos de padaria": {
@@ -3733,6 +3744,98 @@
       "r4-043g.txt",
       "r4-043h.txt",
       "r4-043i.txt"
+    ]
+  },
+  "Churrasco e mesa brasileira": {
+    "categoria": "Geografia",
+    "candidatas": 9,
+    "existem": 0,
+    "descarte": 0,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt"
+    ]
+  },
+  "Turismo brasileiro: natureza de segunda linha": {
+    "categoria": "Geografia",
+    "candidatas": 11,
+    "existem": 0,
+    "descarte": 0,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt",
+      "r4-044b.txt"
+    ]
+  },
+  "Instrumentos e máquinas (física do dia a dia)": {
+    "categoria": "Ciências",
+    "candidatas": 14,
+    "existem": 2,
+    "descarte": 0.14,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt"
+    ]
+  },
+  "Narradores, comentaristas e TV esportiva": {
+    "categoria": "Esportes",
+    "candidatas": 13,
+    "existem": 1,
+    "descarte": 0.08,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt",
+      "r4-044b.txt"
+    ]
+  },
+  "Vôlei, basquete, handebol e automobilismo nacionais": {
+    "categoria": "Esportes",
+    "candidatas": 10,
+    "existem": 1,
+    "descarte": 0.1,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt"
+    ]
+  },
+  "Brincadeiras e versinhos de criança": {
+    "categoria": "Entretenimento",
+    "candidatas": 8,
+    "existem": 1,
+    "descarte": 0.13,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt"
+    ]
+  },
+  "Tecnologia de casa dos anos 1980-2000": {
+    "categoria": "Tecnologia",
+    "candidatas": 8,
+    "existem": 4,
+    "descarte": 0.5,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044.txt"
+    ]
+  },
+  "Internet dos anos 2000: Orkut, MSN e jogos de navegador": {
+    "categoria": "Tecnologia",
+    "candidatas": 7,
+    "existem": 1,
+    "descarte": 0.14,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044b.txt"
+    ]
+  },
+  "Lojas, plataformas e programas de criadores": {
+    "categoria": "Tecnologia",
+    "candidatas": 14,
+    "existem": 2,
+    "descarte": 0.14,
+    "status": "aberto",
+    "arquivos": [
+      "r4-044b.txt"
     ]
   }
 }

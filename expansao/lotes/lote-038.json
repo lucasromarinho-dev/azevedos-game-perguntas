@@ -340,27 +340,6 @@
     "dup_regra": null
   },
   {
-    "id": "705ee87913",
-    "categoria": "História",
-    "dificuldade": "facil",
-    "pergunta": "Como se chama o reino dos deuses nórdicos, lar de Odin e de Thor?",
-    "resposta": "Asgard",
-    "alternativas": [
-      "Olimpo",
-      "Asgard",
-      "Midgard",
-      "Avalon"
-    ],
-    "subtema": "Mitologia",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
-    "recente": false,
-    "dup_regra": null,
-    "universo": "Mitologia nórdica"
-  },
-  {
     "id": "f223b07d70",
     "categoria": "História",
     "dificuldade": "facil",
@@ -568,9 +547,9 @@
     "resposta": "Guerra nas Estrelas",
     "alternativas": [
       "Domo de Ferro",
-      "Tempestade no Deserto",
+      "Guerra nas Estrelas",
       "Escudo Atlântico",
-      "Guerra nas Estrelas"
+      "Tempestade no Deserto"
     ],
     "subtema": "Guerra Fria e século XX",
     "status": "gerada",
@@ -1864,26 +1843,6 @@
     "dup_regra": null
   },
   {
-    "id": "0f270002db",
-    "categoria": "Tecnologia",
-    "dificuldade": "facil",
-    "pergunta": "No WhatsApp, o que indicam os dois tiques azuis numa mensagem?",
-    "resposta": "Que ela foi lida",
-    "alternativas": [
-      "Que ela foi entregue",
-      "Que ela foi enviada",
-      "Que ela foi lida",
-      "Que ela foi apagada"
-    ],
-    "subtema": "Redes sociais e apps",
-    "status": "descartada",
-    "motivo": "duplicada certa de banco:3792 (R5 parte da resposta citada + muito assunto em comum (peso 24.7))",
-    "dup": "certa",
-    "dup_ref": "banco:3792",
-    "recente": false,
-    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 24.7)"
-  },
-  {
     "id": "c6cbdef600",
     "categoria": "Tecnologia",
     "dificuldade": "facil",
@@ -2316,6 +2275,26 @@
       "Elizeth Cardoso"
     ],
     "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9ec009b759",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o reino dos deuses nórdicos, onde fica o salão de Odin?",
+    "resposta": "Asgard",
+    "alternativas": [
+      "Avalon",
+      "Midgard",
+      "Olimpo",
+      "Asgard"
+    ],
+    "subtema": "Mitologia",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

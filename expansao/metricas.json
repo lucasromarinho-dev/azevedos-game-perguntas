@@ -3529,6 +3529,65 @@
           "afbc1c0ade: dificil -> medio",
           "408d0b897d: dificil -> medio"
         ]
+      },
+      {
+        "lote": "037",
+        "conferente": "conferente-v4",
+        "conferidas_sem_mudanca": 89,
+        "corrigidas": 0,
+        "rebaixadas": 2,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 2
+        },
+        "perguntas_com_busca_web": 29,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "9f8129e640: espelho: o enunciado de 036:409d7dc0b2 ('Qual ciclope, filho de Poseidon...') entrega a resposta Ciclopes",
+          "cdd4f05a4d: espelho: segunda pergunta sobre os instrumentos de 'Pedro e o Lobo' (036:5846fe4a96, o avô); uma tem a resposta da outra entre as alternativas"
+        ],
+        "correcoes": [],
+        "rebaixamentos": [
+          "e3700bd88e: dificil -> medio",
+          "b2f43972d3: dificil -> medio"
+        ]
       }
     ],
     "rebaixamentos_r3": {

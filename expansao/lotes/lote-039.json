@@ -6,10 +6,10 @@
     "pergunta": "Como se chamam as colinas suaves e arredondadas dos pampas gaúchos?",
     "resposta": "Coxilhas",
     "alternativas": [
-      "Cuestas",
+      "Coxilhas",
       "Chapadas",
       "Tabuleiros",
-      "Coxilhas"
+      "Cuestas"
     ],
     "subtema": "Relevo, vulcões e desertos",
     "status": "gerada",
@@ -86,10 +86,10 @@
     "pergunta": "Qual instrumento Waldir Azevedo tocava no clássico \"Brasileirinho\", de 1947?",
     "resposta": "Cavaquinho",
     "alternativas": [
-      "Flauta",
+      "Cavaquinho",
       "Bandolim",
       "Violão de sete cordas",
-      "Cavaquinho"
+      "Flauta"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -98,5 +98,1905 @@
     "dup_ref": "banco:3446",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
+  },
+  {
+    "id": "759ca0e222",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual antigo aqueduto do Rio de Janeiro passou a servir de caminho para o bondinho de Santa Teresa?",
+    "resposta": "Arcos da Lapa",
+    "alternativas": [
+      "Paço Imperial",
+      "Escadaria Selarón",
+      "Arcos da Lapa",
+      "Real Gabinete Português de Leitura"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "da693927a8",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Quais dunas perto de Natal são famosas pelos passeios de buggy \"com emoção\"?",
+    "resposta": "Genipabu",
+    "alternativas": [
+      "Genipabu",
+      "Canoa Quebrada",
+      "Jericoacoara",
+      "Lençóis Maranhenses"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d4183332ab",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual região de Minas Gerais, com Uberlândia e Uberaba, tem nome de figura geométrica?",
+    "resposta": "Triângulo Mineiro",
+    "alternativas": [
+      "Vale do Aço",
+      "Quadrilátero Ferrífero",
+      "Triângulo Mineiro",
+      "Zona da Mata"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:ba99a51ff4 (E5 resposta antiga citada no texto novo + assunto (15.1))",
+    "dup": "certa",
+    "dup_ref": "id:ba99a51ff4",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.1)"
+  },
+  {
+    "id": "1b1e0be77e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual área criada em 1967 dá incentivos fiscais para fábricas de eletrônicos e motos em Manaus?",
+    "resposta": "Zona Franca",
+    "alternativas": [
+      "Porto Seco",
+      "Polo de Camaçari",
+      "Vale do Silício",
+      "Zona Franca"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:938fa52cd0 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "id:938fa52cd0",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "cc0bdc35c6",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual grupo de países emergentes teve como membros originais Brasil, Rússia, Índia, China e África do Sul?",
+    "resposta": "BRICS",
+    "alternativas": [
+      "OPEP",
+      "BRICS",
+      "G20",
+      "Mercosul"
+    ],
+    "subtema": "População, curiosidades e recordes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9653af7e58",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual agência da ONU cuida da saúde pública no mundo?",
+    "resposta": "OMS",
+    "alternativas": [
+      "Unicef",
+      "Unesco",
+      "OMS",
+      "FAO"
+    ],
+    "subtema": "População, curiosidades e recordes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e826c8715c",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual viela da Vila Madalena, em São Paulo, é famosa pelos muros cobertos de grafites?",
+    "resposta": "Beco do Batman",
+    "alternativas": [
+      "Rua 25 de Março",
+      "Beco do Batman",
+      "Beco das Garrafas",
+      "Rua Augusta"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d302c8c955",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual teatro de Curitiba, feito de tubos de aço e cercado por um lago numa antiga pedreira, é cartão-postal da cidade?",
+    "resposta": "Ópera de Arame",
+    "alternativas": [
+      "Teatro Guaíra",
+      "Ópera de Arame",
+      "Paiol",
+      "Teatro Positivo"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b08c73fa1e",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o litoral entre o Rio de Janeiro e Paraty, com Angra dos Reis e Ilha Grande?",
+    "resposta": "Costa Verde",
+    "alternativas": [
+      "Região dos Lagos",
+      "Costa do Sol",
+      "Costa Verde",
+      "Costa Azul"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba1c04d80f",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam, na Amazônia, os riozinhos e canais estreitos que correm por dentro da mata?",
+    "resposta": "Igarapés",
+    "alternativas": [
+      "Igarapés",
+      "Várzeas",
+      "Paranás",
+      "Igapós"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6752ccbbfc",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamam, no Pantanal, os canais que ligam as baías e enchem na época das cheias?",
+    "resposta": "Corixos",
+    "alternativas": [
+      "Corixos",
+      "Igarapés",
+      "Furos",
+      "Veredas"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3f2d3f604d",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamam, no Nordeste, as chuvas rápidas de setembro e outubro, época da safra de uma fruta?",
+    "resposta": "Chuva de caju",
+    "alternativas": [
+      "Chuva de caju",
+      "Chuva de jabuticaba",
+      "Chuva de pequi",
+      "Chuva de goiaba"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1611 (E2 mesma resposta e mesmo assunto (6.2, 25% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:1611",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.2, 25% do fato)"
+  },
+  {
+    "id": "c35236cb7e",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Na sociedade feudal, qual grupo era dono das terras e tinha os servos trabalhando para ele?",
+    "resposta": "Nobreza",
+    "alternativas": [
+      "Artesãos",
+      "Mercadores",
+      "Burguesia",
+      "Nobreza"
+    ],
+    "subtema": "Idade Média",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:830 (E5 resposta antiga citada no texto novo + assunto (19.7))",
+    "dup": "certa",
+    "dup_ref": "banco:830",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.7)"
+  },
+  {
+    "id": "6aa5e73d6a",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamou a disputa entre Estados Unidos e União Soviética para acumular mais armas nucleares?",
+    "resposta": "Corrida armamentista",
+    "alternativas": [
+      "Guerra por procuração",
+      "Corrida armamentista",
+      "Corrida espacial",
+      "Détente"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:859",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "1d93cec407",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual sistema de governo venceu o plebiscito de 1993 no Brasil, derrotando o parlamentarismo?",
+    "resposta": "Presidencialismo",
+    "alternativas": [
+      "Presidencialismo",
+      "Diretório",
+      "Semipresidencialismo",
+      "Monarquia parlamentarista"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b4f56a8ba2",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava a sacerdotisa que dizia as profecias do oráculo de Delfos?",
+    "resposta": "Pitonisa",
+    "alternativas": [
+      "Vestal",
+      "Bacante",
+      "Pitonisa",
+      "Ninfa"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "07068075b6",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual deusa grega personificava a Terra e era a mãe dos Titãs?",
+    "resposta": "Gaia",
+    "alternativas": [
+      "Deméter",
+      "Gaia",
+      "Reia",
+      "Hera"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac18893634",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em qual país os protestos estudantis de maio de 1968 viraram uma greve geral que parou o país?",
+    "resposta": "França",
+    "alternativas": [
+      "Alemanha Ocidental",
+      "Itália",
+      "França",
+      "México"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "341dddc263",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como ficou conhecido o livrinho de citações de Mao Tsé-tung carregado pelos guardas vermelhos?",
+    "resposta": "Livro Vermelho",
+    "alternativas": [
+      "Livro Amarelo",
+      "Pequeno Livro Azul",
+      "Livro Vermelho",
+      "Manifesto Comunista"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4903efaa81",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em Esparta, como se chamavam os habitantes livres, sem cidadania, que cuidavam do comércio e do artesanato?",
+    "resposta": "Periecos",
+    "alternativas": [
+      "Esparciatas",
+      "Metecos",
+      "Periecos",
+      "Hilotas"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "25401787ea",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual crise do Segundo Reinado, nos anos 1870, levou à prisão dos bispos de Olinda e de Belém?",
+    "resposta": "Questão Religiosa",
+    "alternativas": [
+      "Questão Christie",
+      "Questão Platina",
+      "Questão Religiosa",
+      "Questão Militar"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0f0bbf68b3",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual mansão inglesa Alan Turing e sua equipe decifraram os códigos da máquina Enigma?",
+    "resposta": "Bletchley Park",
+    "alternativas": [
+      "Bletchley Park",
+      "Highclere",
+      "Chequers",
+      "Blenheim Palace"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "df91b3466b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual bairro de Joanesburgo foi palco do levante estudantil de 1976 contra o apartheid?",
+    "resposta": "Soweto",
+    "alternativas": [
+      "Alexandra",
+      "Langa",
+      "Soweto",
+      "Sharpeville"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aadc18f15a",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a estrutura de cera, cheia de células de seis lados, onde as abelhas guardam o mel?",
+    "resposta": "Favo",
+    "alternativas": [
+      "Casulo",
+      "Favo",
+      "Ninho",
+      "Cupinzeiro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "701560a1c3",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual inseto de cama pica à noite e se esconde nas frestas do colchão?",
+    "resposta": "Percevejo",
+    "alternativas": [
+      "Traça",
+      "Percevejo",
+      "Piolho",
+      "Pulga"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "13f963d7d2",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual mosca grande, de brilho verde-metálico, põe ovos em carne e em ferimentos?",
+    "resposta": "Varejeira",
+    "alternativas": [
+      "Mutuca",
+      "Mosca-tsé-tsé",
+      "Mosca-das-frutas",
+      "Varejeira"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7fccb47fab",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual constelação contém as sete estrelas do \"Grande Carro\", também chamado de Caçarola?",
+    "resposta": "Ursa Maior",
+    "alternativas": [
+      "Ursa Menor",
+      "Cassiopeia",
+      "Órion",
+      "Ursa Maior"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3b7410b9a2",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como são chamados os astronautas da China?",
+    "resposta": "Taikonautas",
+    "alternativas": [
+      "Cosmonautas",
+      "Taikonautas",
+      "Vyomanautas",
+      "Spationautas"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "628af2b1db",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a parte de baixo, achatada, do casco da tartaruga?",
+    "resposta": "Plastrão",
+    "alternativas": [
+      "Escudo",
+      "Plastrão",
+      "Quilha",
+      "Carapaça"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f471cd7a0c",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a \"língua\" enrolada em espiral das borboletas, usada para sugar o néctar?",
+    "resposta": "Probóscide",
+    "alternativas": [
+      "Quelícera",
+      "Antena",
+      "Probóscide",
+      "Mandíbula"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a7429b78ba",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a bandeira gigante que a torcida estende sobre a arquibancada?",
+    "resposta": "Bandeirão",
+    "alternativas": [
+      "Bandeirão",
+      "Faixa",
+      "Mosaico",
+      "Sinalizador"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "53e0710144",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o drible em que o jogador toca a bola de um lado do marcador e corre pelo outro para buscá-la?",
+    "resposta": "Drible da vaca",
+    "alternativas": [
+      "Elástico",
+      "Drible da vaca",
+      "Caneta",
+      "Chapéu"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2580 (R5 parte da resposta citada + muito assunto em comum (peso 22.1))",
+    "dup": "certa",
+    "dup_ref": "banco:2580",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 22.1)"
+  },
+  {
+    "id": "6bd21775a6",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a troca rápida de passes entre dois jogadores para furar a marcação?",
+    "resposta": "Tabelinha",
+    "alternativas": [
+      "Cruzamento",
+      "Tabelinha",
+      "Ligação direta",
+      "Contra-ataque"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "edddbd3df2",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o torcedor que, segundo a superstição, dá azar ao time quando vai ao jogo?",
+    "resposta": "Pé-frio",
+    "alternativas": [
+      "Secador",
+      "Pé-frio",
+      "Zebra",
+      "Pé-quente"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c464900600",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o jogador que se joga no chão o tempo todo para cavar faltas?",
+    "resposta": "Cai-cai",
+    "alternativas": [
+      "Perna de pau",
+      "Matador",
+      "Cai-cai",
+      "Fominha"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "48b3c783d6",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como os torcedores chamam as quatro últimas posições do Brasileirão, que levam à Série B?",
+    "resposta": "Z-4",
+    "alternativas": [
+      "G-6",
+      "G-4",
+      "Lanterna",
+      "Z-4"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d6484a4cf",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de fantasia da Globo faz os torcedores escalarem jogadores do Brasileirão a cada rodada?",
+    "resposta": "Cartola FC",
+    "alternativas": [
+      "Cartola FC",
+      "Bolão FC",
+      "Rei do Pitaco",
+      "Ultimate Team"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4e95a45b7b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual loteria da Caixa, criada em 1970, pedia palpites para os resultados de jogos de futebol?",
+    "resposta": "Loteria Esportiva",
+    "alternativas": [
+      "Timemania",
+      "Quina",
+      "Lotomania",
+      "Loteria Esportiva"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d003fde8f0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a malandragem de fazer cera, provocar e irritar o adversário durante o jogo?",
+    "resposta": "Catimba",
+    "alternativas": [
+      "Catimba",
+      "Firula",
+      "Chuveirinho",
+      "Retranca"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cbbe065cf8",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual palavra antiga do futebol, vinda do inglês \"back\", quer dizer zagueiro?",
+    "resposta": "Beque",
+    "alternativas": [
+      "Beque",
+      "Center-half",
+      "Golquíper",
+      "Forward"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "03df12cd13",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual programa de debate esportivo da TV Gazeta ficou famoso pelas brigas entre os comentaristas?",
+    "resposta": "Mesa Redonda",
+    "alternativas": [
+      "Os Donos da Bola",
+      "Mesa Redonda",
+      "Bate-Bola",
+      "Cartão Verde"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "626591522d",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o centro de treinamento da Seleção Brasileira em Teresópolis?",
+    "resposta": "Granja Comary",
+    "alternativas": [
+      "Toca da Raposa",
+      "Ninho do Urubu",
+      "Granja Comary",
+      "CT Rei Pelé"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e2d69a0b21",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como ficou conhecido o grupo de jogadores do penta de 2002, pelo clima de união com o técnico?",
+    "resposta": "Família Scolari",
+    "alternativas": [
+      "Galácticos",
+      "Esquadrão Canarinho",
+      "Dream Team",
+      "Família Scolari"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4de96b09ba",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Em que ano a taça Jules Rimet foi roubada da sede da CBF, no Rio de Janeiro?",
+    "resposta": "1983",
+    "alternativas": [
+      "1994",
+      "1983",
+      "1978",
+      "1970"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ff011a6bce",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "c3729d3370",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual brasileiro inventou o spray de espuma que o juiz usa para marcar a barreira?",
+    "resposta": "Heine Allemagne",
+    "alternativas": [
+      "Arnaldo Cezar Coelho",
+      "Armando Marques",
+      "Pablo Silva",
+      "Heine Allemagne"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "36be95de7c",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Com qual nome de patrocinador ficou conhecida a equipe brasileira de F1 criada pelos irmãos Fittipaldi?",
+    "resposta": "Copersucar",
+    "alternativas": [
+      "Varig",
+      "Brahma",
+      "Copersucar",
+      "Petrobras"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a7c127cb29",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como é apelidado o estádio do Feyenoord, em Roterdã?",
+    "resposta": "De Kuip",
+    "alternativas": [
+      "De Meer",
+      "Philips Stadion",
+      "Abe Lenstra",
+      "De Kuip"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6ce4b4d7a1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como ficou conhecida a onda de cantoras sertanejas como Marília Mendonça e Maiara e Maraisa?",
+    "resposta": "Feminejo",
+    "alternativas": [
+      "Arrocha",
+      "Sertanejo universitário",
+      "Piseiro",
+      "Feminejo"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cac763dc53",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual produtora de clipes de funk virou um dos maiores canais do YouTube no Brasil?",
+    "resposta": "KondZilla",
+    "alternativas": [
+      "KondZilla",
+      "Furacão 2000",
+      "Funk Explode",
+      "GR6"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "91b6ac7984",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora, a \"Rainha do Bumbum\" dos anos 1980, virou a rainha dos memes no Brasil?",
+    "resposta": "Gretchen",
+    "alternativas": [
+      "Sula Miranda",
+      "Gretchen",
+      "Carla Perez",
+      "Rita Cadillac"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e3c7f92311",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Na gíria, como se chama a pessoa com quem se fica de vez em quando, sem compromisso?",
+    "resposta": "Contatinho",
+    "alternativas": [
+      "Ex",
+      "Crush",
+      "Date",
+      "Contatinho"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cff7faf5b4",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a arte de formar imagens juntando pedacinhos de pedra, vidro ou cerâmica?",
+    "resposta": "Mosaico",
+    "alternativas": [
+      "Afresco",
+      "Mosaico",
+      "Colagem",
+      "Vitral"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4339",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+  },
+  {
+    "id": "d379af0f97",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Na gíria das redes, como se chama um post enorme de desabafo ou opinião?",
+    "resposta": "Textão",
+    "alternativas": [
+      "Story",
+      "Thread",
+      "Meme",
+      "Textão"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c9780b1a33",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a repetição desnecessária de uma ideia, como em \"subir para cima\"?",
+    "resposta": "Pleonasmo",
+    "alternativas": [
+      "Metáfora",
+      "Elipse",
+      "Pleonasmo",
+      "Paradoxo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "172ed32f8f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual brinquedo da Estrela tinha um trenzinho elétrico correndo em trilhos?",
+    "resposta": "Ferrorama",
+    "alternativas": [
+      "Aquaplay",
+      "Pogobol",
+      "Autorama",
+      "Ferrorama"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cbc0b66392",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual estilo de samba tem versos improvisados entre os cantores e um refrão cantado pelo coro, como nas rodas de Zeca Pagodinho?",
+    "resposta": "Partido-alto",
+    "alternativas": [
+      "Samba-canção",
+      "Samba-enredo",
+      "Bossa nova",
+      "Partido-alto"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9303149684",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ritmo, dançado em pares nos bailes de São Paulo, misturava o samba com a guitarra de Jorge Ben?",
+    "resposta": "Samba-rock",
+    "alternativas": [
+      "Samba-reggae",
+      "Lambada",
+      "Samba-rock",
+      "Forró universitário"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:1bef453c90",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "cd679364bc",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo de pagode nasceu nas rodas do bloco Cacique de Ramos, no fim dos anos 1970?",
+    "resposta": "Fundo de Quintal",
+    "alternativas": [
+      "Fundo de Quintal",
+      "Raça Negra",
+      "Revelação",
+      "Exaltasamba"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "21f89a4052",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual carnê de Silvio Santos dava direito a concorrer a prêmios e trocar as parcelas por mercadorias?",
+    "resposta": "Baú da Felicidade",
+    "alternativas": [
+      "Baú da Felicidade",
+      "Tele Sena",
+      "Porta da Esperança",
+      "Show do Milhão"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0296e45b6b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o gênero de documentários, séries e podcasts sobre crimes reais?",
+    "resposta": "True crime",
+    "alternativas": [
+      "Thriller",
+      "Slasher",
+      "Noir",
+      "True crime"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8c8e82ed3f",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual festa literária internacional acontece todos os anos em Paraty?",
+    "resposta": "Flip",
+    "alternativas": [
+      "Jornada de Passo Fundo",
+      "Flip",
+      "Feira do Livro de Porto Alegre",
+      "Bienal do Livro"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7ede9ce4ac",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu de arte, o mais antigo da cidade de São Paulo, fica ao lado da Estação da Luz?",
+    "resposta": "Pinacoteca",
+    "alternativas": [
+      "Pinacoteca",
+      "Museu do Ipiranga",
+      "MAM",
+      "MASP"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7d2b8c3b6e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual brinquedo dos anos 1980 era um disco de plástico com uma bola embaixo, para pular em cima?",
+    "resposta": "Pogobol",
+    "alternativas": [
+      "Pula-pula",
+      "Rolimã",
+      "Bambolê",
+      "Pogobol"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "43f657d4be",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual movimento cultural, criado por Ariano Suassuna em 1970, buscava uma arte erudita a partir das raízes populares do Nordeste?",
+    "resposta": "Movimento Armorial",
+    "alternativas": [
+      "Movimento Armorial",
+      "Cinema Novo",
+      "Tropicalismo",
+      "Manguebeat"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f694203e43",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pianista e compositor carioca escreveu o tango brasileiro \"Odeon\", de 1909?",
+    "resposta": "Ernesto Nazareth",
+    "alternativas": [
+      "Pixinguinha",
+      "Chiquinha Gonzaga",
+      "Ernesto Nazareth",
+      "Joaquim Callado"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "741cb29053",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estilo de samba tem paradas súbitas para o cantor falar frases engraçadas, marca de Moreira da Silva?",
+    "resposta": "Samba de breque",
+    "alternativas": [
+      "Samba de breque",
+      "Samba-canção",
+      "Partido-alto",
+      "Samba de roda"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "81c6a88b1d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamam os romances japoneses curtos e ilustrados que deram origem a animes como \"Sword Art Online\"?",
+    "resposta": "Light novels",
+    "alternativas": [
+      "Visual novels",
+      "Mangás",
+      "Doujinshis",
+      "Light novels"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9edea1d712",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome da assistente virtual que é a garota-propaganda do Magazine Luiza?",
+    "resposta": "Lu",
+    "alternativas": [
+      "Bia",
+      "Nat",
+      "Sofia",
+      "Lu"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b5f2089bd9",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual operadora de celular ficou famosa pelo \"rádio\", em que se apertava um botão para falar?",
+    "resposta": "Nextel",
+    "alternativas": [
+      "Tim",
+      "Vivo",
+      "Claro",
+      "Nextel"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f5deac3379",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual rede de varejo tinha o slogan \"Dedicação total a você\"?",
+    "resposta": "Casas Bahia",
+    "alternativas": [
+      "Lojas Americanas",
+      "Magazine Luiza",
+      "Ponto Frio",
+      "Casas Bahia"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8690f25dee",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual celular dobrável da Motorola, de 1996, foi o primeiro \"flip\" de grande sucesso?",
+    "resposta": "StarTAC",
+    "alternativas": [
+      "Ericsson T28",
+      "StarTAC",
+      "Razr V3",
+      "Nokia 3310"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cac074211c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual estatal fazia as ligações de longa distância no Brasil antes da privatização de 1998?",
+    "resposta": "Embratel",
+    "alternativas": [
+      "Telesp",
+      "Embratel",
+      "Oi",
+      "Telerj"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7847b35705",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca brasileira de eletrônicos ganhou o apelido de \"Começou, Chiou, Estragou\"?",
+    "resposta": "CCE",
+    "alternativas": [
+      "Semp",
+      "Gradiente",
+      "Philco",
+      "CCE"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db1c6cab72",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual rede de varejo tinha um pinguim como mascote?",
+    "resposta": "Ponto Frio",
+    "alternativas": [
+      "Insinuante",
+      "Casas Bahia",
+      "Magazine Luiza",
+      "Ponto Frio"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9db232092d",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual plataforma de venda de cursos online foi fundada em Belo Horizonte em 2011?",
+    "resposta": "Hotmart",
+    "alternativas": [
+      "Udemy",
+      "Hotmart",
+      "Eduzz",
+      "Kiwify"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "56fb1bec76",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual formato de disco de música regravável, lançado pela Sony em 1992, ficava dentro de um pequeno cartucho?",
+    "resposta": "MiniDisc",
+    "alternativas": [
+      "MiniDisc",
+      "CD-R",
+      "Laserdisc",
+      "DAT"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4146 (E4 resposta nova (rara) citada no texto antigo (5.7))",
+    "dup": "certa",
+    "dup_ref": "banco:4146",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.7)"
+  },
+  {
+    "id": "edfe18f0ea",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual programa de compartilhamento de arquivos dos anos 2000 foi criado pelos mesmos fundadores do Skype?",
+    "resposta": "Kazaa",
+    "alternativas": [
+      "Kazaa",
+      "LimeWire",
+      "eMule",
+      "Ares"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "67da5b164f",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual startup brasileira de aluguel de imóveis sem fiador virou unicórnio em 2019?",
+    "resposta": "QuintoAndar",
+    "alternativas": [
+      "Creditas",
+      "Loft",
+      "QuintoAndar",
+      "Zap Imóveis"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e2affd2987",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual igreja moderna tem 16 colunas curvas de concreto que lembram mãos unidas em oração?",
+    "resposta": "Catedral de Brasília",
+    "alternativas": [
+      "Santuário de Aparecida",
+      "Catedral de Brasília",
+      "Catedral da Sé",
+      "Igreja da Pampulha"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:283",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ff900c8868",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual expressão do geógrafo Aziz Ab'Sáber descreve o relevo de morros arredondados do Sudeste, coberto pela Mata Atlântica?",
+    "resposta": "Mar de morros",
+    "alternativas": [
+      "Mar de morros",
+      "Pães de açúcar",
+      "Chapadões",
+      "Cuestas"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:29",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "6c4d85efca",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava o suicídio ritual dos samurais, feito com uma espada curta?",
+    "resposta": "Haraquiri",
+    "alternativas": [
+      "Ronin",
+      "Kamikaze",
+      "Bushido",
+      "Haraquiri"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6aa0e404d8",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual regime tem um rei como chefe de Estado, mas quem governa é um primeiro-ministro eleito, como no Reino Unido?",
+    "resposta": "Monarquia constitucional",
+    "alternativas": [
+      "Monarquia constitucional",
+      "Monarquia absoluta",
+      "Teocracia",
+      "República presidencialista"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1187",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "c22f41ea03",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual bomba termonuclear, testada pelos Estados Unidos em 1952, é muito mais potente que a de Hiroshima?",
+    "resposta": "Bomba de hidrogênio",
+    "alternativas": [
+      "Bomba de nêutrons",
+      "Bomba suja",
+      "Bomba de hidrogênio",
+      "Napalm"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:860 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:860",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "3c1cef929c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual líquido o corpo libera pela pele para baixar a temperatura?",
+    "resposta": "Suor",
+    "alternativas": [
+      "Linfa",
+      "Plasma",
+      "Suor",
+      "Sebo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "46e4b046c4",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o animal que se alimenta de carne de bichos já mortos, como o urubu?",
+    "resposta": "Carniceiro",
+    "alternativas": [
+      "Frugívoro",
+      "Insetívoro",
+      "Carniceiro",
+      "Herbívoro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "85ea155f23",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o estádio estadual de João Pessoa, casa do Botafogo da Paraíba?",
+    "resposta": "Almeidão",
+    "alternativas": [
+      "Arruda",
+      "Amigão",
+      "Rei Pelé",
+      "Almeidão"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "40db4f8913",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o fã fanático de anime e mangá?",
+    "resposta": "Otaku",
+    "alternativas": [
+      "Gamer",
+      "Otaku",
+      "Cosplayer",
+      "Youtuber"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1242dda264",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor gaúcho, autor de \"Vingança\", é apontado como criador da expressão \"dor de cotovelo\"?",
+    "resposta": "Lupicínio Rodrigues",
+    "alternativas": [
+      "Noel Rosa",
+      "Teixeirinha",
+      "Lupicínio Rodrigues",
+      "Adoniran Barbosa"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c1028ed1a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sanfoneiro paraibano, albino, é o autor de \"Feira de Mangaio\"?",
+    "resposta": "Sivuca",
+    "alternativas": [
+      "Luiz Gonzaga",
+      "Sivuca",
+      "Oswaldinho do Acordeon",
+      "Dominguinhos"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "abf4116a2c",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o recurso que libera o celular reconhecendo o rosto do dono?",
+    "resposta": "Desbloqueio facial",
+    "alternativas": [
+      "Senha numérica",
+      "Padrão de desenho",
+      "Desbloqueio facial",
+      "Leitor de digital"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "061385eec5",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o plano de celular em que se coloca crédito antes de usar?",
+    "resposta": "Pré-pago",
+    "alternativas": [
+      "Pós-pago",
+      "Controle",
+      "Pré-pago",
+      "Corporativo"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b30bf7f52",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a função do WhatsApp que publica fotos e vídeos que somem em 24 horas?",
+    "resposta": "Status",
+    "alternativas": [
+      "Reels",
+      "Canais",
+      "Stories",
+      "Status"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3860",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "516fc23917",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o nome da internet banda larga via cabo da NET?",
+    "resposta": "Virtua",
+    "alternativas": [
+      "Turbo",
+      "Virtua",
+      "Velox",
+      "Speedy"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "edf09de840",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual empresa israelense criou o ICQ, em 1996?",
+    "resposta": "Mirabilis",
+    "alternativas": [
+      "Mirabilis",
+      "Wix",
+      "Check Point",
+      "AOL"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ddcebc7ca1",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como era chamada popularmente no Brasil a locomotiva a vapor?",
+    "resposta": "Maria-fumaça",
+    "alternativas": [
+      "Maria-fumaça",
+      "Litorina",
+      "Trem-bala",
+      "Bonde"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
   }
 ]

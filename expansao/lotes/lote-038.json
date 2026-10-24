@@ -6,10 +6,10 @@
     "pergunta": "Qual pastel assado, recheado de carne moída com cebola e ovo, é típico da Argentina e do Chile?",
     "resposta": "Empanada",
     "alternativas": [
-      "Tamal",
+      "Empanada",
       "Choripán",
       "Alfajor",
-      "Empanada"
+      "Tamal"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
     "status": "gerada",
@@ -46,12 +46,2275 @@
     "pergunta": "Qual passatempo preenche uma grade de 9x9 com os números de 1 a 9, sem repetir em linhas, colunas e quadrados?",
     "resposta": "Sudoku",
     "alternativas": [
-      "Palavras cruzadas",
       "Sudoku",
+      "Palavras cruzadas",
       "Tangram",
       "Kakuro"
     ],
     "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "79f34a38af",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as casas construídas sobre estacas de madeira, acima da água, comuns na Amazônia?",
+    "resposta": "Palafitas",
+    "alternativas": [
+      "Palafitas",
+      "Mocambos",
+      "Malocas",
+      "Ocas"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0f7a6177dc",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual grande parque fica no meio da ilha de Manhattan, em Nova York?",
+    "resposta": "Central Park",
+    "alternativas": [
+      "Central Park",
+      "Prospect Park",
+      "Hyde Park",
+      "Golden Gate Park"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a2b091f7ea",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual ilha-prisão, na baía de São Francisco, teve Al Capone entre seus presos?",
+    "resposta": "Alcatraz",
+    "alternativas": [
+      "Alcatraz",
+      "Rikers Island",
+      "Ilha do Diabo",
+      "Robben Island"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "95462c8992",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a sede do governo argentino, em Buenos Aires, famosa pela fachada cor-de-rosa?",
+    "resposta": "Casa Rosada",
+    "alternativas": [
+      "Palácio San Martín",
+      "Casa Rosada",
+      "Palácio de La Moneda",
+      "Palácio Barolo"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1904 (E4 resposta nova (rara) citada no texto antigo (4.6))",
+    "dup": "certa",
+    "dup_ref": "banco:1904",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.6)"
+  },
+  {
+    "id": "9f42f0f1d1",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as curvas sinuosas que um rio faz ao atravessar uma planície?",
+    "resposta": "Meandros",
+    "alternativas": [
+      "Meandros",
+      "Estuários",
+      "Afluentes",
+      "Deltas"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "76c2bd4a55",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a queda brusca de temperatura que atinge a Amazônia quando chega uma massa de ar polar?",
+    "resposta": "Friagem",
+    "alternativas": [
+      "Veranico",
+      "Geada",
+      "Friagem",
+      "Minuano"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b42b912009",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o solo vermelho e fértil que fez a riqueza do café no Paraná e em São Paulo?",
+    "resposta": "Terra roxa",
+    "alternativas": [
+      "Terra roxa",
+      "Massapê",
+      "Solo de várzea",
+      "Salmourão"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6999d34f8b",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ponte medieval de pedra, cheia de estátuas, atravessa o rio Moldava em Praga?",
+    "resposta": "Ponte Carlos",
+    "alternativas": [
+      "Ponte de Rialto",
+      "Ponte Vecchio",
+      "Ponte das Correntes",
+      "Ponte Carlos"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:685 (E5 resposta antiga citada no texto novo + assunto (16.0))",
+    "dup": "certa",
+    "dup_ref": "banco:685",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.0)"
+  },
+  {
+    "id": "1888ee2e83",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual monumento de Bruxelas, feito para a Expo 58, imita um cristal de ferro ampliado bilhões de vezes?",
+    "resposta": "Atomium",
+    "alternativas": [
+      "Manneken Pis",
+      "Grand-Place",
+      "Atomium",
+      "Mini-Europe"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7dfdc97a6d",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual rua colorida do bairro La Boca, em Buenos Aires, é famosa pelo tango?",
+    "resposta": "Caminito",
+    "alternativas": [
+      "Avenida de Mayo",
+      "Calle Defensa",
+      "Caminito",
+      "Calle Florida"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fe5f4fa8a3",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o solo escuro e argiloso da Zona da Mata nordestina, ideal para a cana-de-açúcar?",
+    "resposta": "Massapê",
+    "alternativas": [
+      "Massapê",
+      "Salmourão",
+      "Tabatinga",
+      "Terra roxa"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f6e021576",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ponte suspensa sobre o Danúbio, guardada por leões de pedra, foi a primeira a ligar Buda e Peste?",
+    "resposta": "Ponte das Correntes",
+    "alternativas": [
+      "Ponte da Liberdade",
+      "Ponte das Correntes",
+      "Ponte Elizabeth",
+      "Ponte Margarida"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "584361d26e",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual mosteiro do bairro de Belém, em Lisboa, guarda o túmulo de Vasco da Gama?",
+    "resposta": "Mosteiro dos Jerónimos",
+    "alternativas": [
+      "Mosteiro de Alcobaça",
+      "Mosteiro da Batalha",
+      "Mosteiro dos Jerónimos",
+      "Convento de Mafra"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:f89a0ab71e",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "8a531169c9",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade americana tem o Gateway Arch, arco de aço de 192 metros às margens do Mississippi?",
+    "resposta": "St. Louis",
+    "alternativas": [
+      "Chicago",
+      "St. Louis",
+      "Nova Orleans",
+      "Memphis"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "705ee87913",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o reino dos deuses nórdicos, lar de Odin e de Thor?",
+    "resposta": "Asgard",
+    "alternativas": [
+      "Olimpo",
+      "Asgard",
+      "Midgard",
+      "Avalon"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f223b07d70",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamavam as nove deusas gregas que inspiravam as artes e as ciências?",
+    "resposta": "Musas",
+    "alternativas": [
+      "Moiras",
+      "Musas",
+      "Graças",
+      "Ninfas"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1569",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "beefc3d043",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão, nascida da história do Cavalo de Troia, quer dizer um presente que traz prejuízo?",
+    "resposta": "Presente de grego",
+    "alternativas": [
+      "Presente de grego",
+      "Caixa de Pandora",
+      "Calcanhar de Aquiles",
+      "Trabalho de Hércules"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "723a183fba",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o apelido da escritora modernista e militante Patrícia Galvão, presa política nos anos 1930?",
+    "resposta": "Pagu",
+    "alternativas": [
+      "Pagu",
+      "Dadá",
+      "Tarsila",
+      "Bidu"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7c016118f7",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual baiana se tornou pioneira da enfermagem no Brasil ao cuidar de feridos na Guerra do Paraguai?",
+    "resposta": "Ana Néri",
+    "alternativas": [
+      "Ana Néri",
+      "Maria Quitéria",
+      "Anita Garibaldi",
+      "Joana Angélica"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f2084353f3",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "O que recebiam como prêmio os vencedores dos Jogos Olímpicos da Grécia antiga?",
+    "resposta": "Coroa de ramos de oliveira",
+    "alternativas": [
+      "Medalha de ouro",
+      "Coroa de ouro",
+      "Taça de prata",
+      "Coroa de ramos de oliveira"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:964 (R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 18.9))",
+    "dup": "certa",
+    "dup_ref": "banco:964",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 18.9)"
+  },
+  {
+    "id": "c7dc58c5d5",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual partido americano dos anos 1960, de jaquetas de couro e boinas pretas, defendia a autodefesa armada da população negra?",
+    "resposta": "Panteras Negras",
+    "alternativas": [
+      "Black Lives Matter",
+      "Panteras Negras",
+      "Ku Klux Klan",
+      "Nação do Islã"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "189723a019",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "O nome da morfina, remédio que alivia a dor e dá sono, vem de qual deus grego dos sonhos?",
+    "resposta": "Morfeu",
+    "alternativas": [
+      "Morfeu",
+      "Hermes",
+      "Hipnos",
+      "Tânatos"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "88b15a8340",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual princesa do Congo, escravizada no Brasil, é apontada pela tradição como avó de Zumbi dos Palmares?",
+    "resposta": "Aqualtune",
+    "alternativas": [
+      "Aqualtune",
+      "Nzinga",
+      "Acotirene",
+      "Dandara"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "54e965cedf",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual navio inglês foi tomado num famoso motim contra o capitão William Bligh, em 1789?",
+    "resposta": "Bounty",
+    "alternativas": [
+      "Endeavour",
+      "Victory",
+      "Bounty",
+      "Beagle"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bcd260e7d0",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sigla, formada pelas iniciais de quatro jovens mortos em 1932, virou símbolo da Revolução Constitucionalista?",
+    "resposta": "MMDC",
+    "alternativas": [
+      "MMDC",
+      "ANL",
+      "PRP",
+      "UDN"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ae5b71af7a",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como foi apelidado o projeto de defesa antimísseis no espaço anunciado por Ronald Reagan em 1983?",
+    "resposta": "Guerra nas Estrelas",
+    "alternativas": [
+      "Domo de Ferro",
+      "Tempestade no Deserto",
+      "Escudo Atlântico",
+      "Guerra nas Estrelas"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5ffe2c380a",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como ficou conhecido o período de 1815 entre a volta de Napoleão do exílio em Elba e a derrota em Waterloo?",
+    "resposta": "Governo dos Cem Dias",
+    "alternativas": [
+      "Governo dos Cem Dias",
+      "Restauração",
+      "Diretório",
+      "Consulado"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1534 (E5 resposta antiga citada no texto novo + assunto (19.3))",
+    "dup": "certa",
+    "dup_ref": "banco:1534",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.3)"
+  },
+  {
+    "id": "2de8a4fdeb",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a Lua avermelhada que aparece durante um eclipse lunar total?",
+    "resposta": "Lua de sangue",
+    "alternativas": [
+      "Lua azul",
+      "Lua de sangue",
+      "Lua nova",
+      "Superlua"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d688413d5",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a Lua cheia que parece maior e mais brilhante por estar mais perto da Terra?",
+    "resposta": "Superlua",
+    "alternativas": [
+      "Lua de sangue",
+      "Lua minguante",
+      "Lua azul",
+      "Superlua"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "94cc6d796f",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual resina produzida pelas abelhas é muito usada em sprays para a garganta?",
+    "resposta": "Própolis",
+    "alternativas": [
+      "Melado",
+      "Própolis",
+      "Cera",
+      "Pólen"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e4fc5f6fa",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam os ovos do piolho, presos aos fios de cabelo?",
+    "resposta": "Lêndeas",
+    "alternativas": [
+      "Pulgas",
+      "Caspas",
+      "Lêndeas",
+      "Larvas"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8854029bea",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam planetas como Júpiter e Saturno, formados principalmente de hidrogênio e hélio?",
+    "resposta": "Gigantes gasosos",
+    "alternativas": [
+      "Planetas rochosos",
+      "Planetas anões",
+      "Gigantes vermelhas",
+      "Gigantes gasosos"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1804",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "e4840123f6",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a matéria invisível, detectada só pela gravidade, que forma a maior parte da massa das galáxias?",
+    "resposta": "Matéria escura",
+    "alternativas": [
+      "Poeira cósmica",
+      "Antimatéria",
+      "Plasma",
+      "Matéria escura"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:079d22044a",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "c9fad7f1a2",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a faixa ao redor de uma estrela em que um planeta pode ter água em estado líquido?",
+    "resposta": "Zona habitável",
+    "alternativas": [
+      "Cinturão de Kuiper",
+      "Zona habitável",
+      "Heliosfera",
+      "Nuvem de Oort"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8a573b8440",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Quais duas galáxias anãs, visíveis a olho nu no céu do hemisfério sul, levam o nome de um navegador?",
+    "resposta": "Nuvens de Magalhães",
+    "alternativas": [
+      "Nuvens de Magalhães",
+      "Plêiades",
+      "Nuvens de Colombo",
+      "Nuvens de Cabral"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:5b48a251fb",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "a234fa7d4a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual foguete da SpaceX tem o primeiro estágio que pousa de volta na Terra para ser reaproveitado?",
+    "resposta": "Falcon 9",
+    "alternativas": [
+      "Soyuz",
+      "Falcon 9",
+      "Saturno V",
+      "Ariane 5"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "67d37bed50",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "As folhas de qual árvore alimentam o bicho-da-seda?",
+    "resposta": "Amoreira",
+    "alternativas": [
+      "Eucalipto",
+      "Amoreira",
+      "Figueira",
+      "Laranjeira"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "18ff6ec515",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o ponto da órbita em que a Terra fica mais distante do Sol?",
+    "resposta": "Afélio",
+    "alternativas": [
+      "Solstício",
+      "Afélio",
+      "Periélio",
+      "Apogeu"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "42251667c5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual unidade de distância usada na astronomia equivale a cerca de 3,26 anos-luz?",
+    "resposta": "Parsec",
+    "alternativas": [
+      "Unidade astronômica",
+      "Ano-luz galáctico",
+      "Megâmetro",
+      "Parsec"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dfe25dd1d5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual lua de Júpiter tem a superfície mais coberta de crateras do Sistema Solar?",
+    "resposta": "Calisto",
+    "alternativas": [
+      "Ganimedes",
+      "Calisto",
+      "Io",
+      "Europa"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bd0d44bff1",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual astronauta ficou sozinho em órbita da Lua, no módulo Columbia, enquanto os colegas pisavam nela em 1969?",
+    "resposta": "Michael Collins",
+    "alternativas": [
+      "Buzz Aldrin",
+      "Gene Cernan",
+      "Jim Lovell",
+      "Michael Collins"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dbec17d39d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual estádio de Paris é a casa do PSG?",
+    "resposta": "Parc des Princes",
+    "alternativas": [
+      "Stade Vélodrome",
+      "Stade Louis II",
+      "Stade de France",
+      "Parc des Princes"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "599eefeff3",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual estádio é a casa do Manchester City?",
+    "resposta": "Etihad Stadium",
+    "alternativas": [
+      "Emirates Stadium",
+      "Anfield",
+      "Old Trafford",
+      "Etihad Stadium"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bef17a791c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como ficou conhecido o Real Madrid dos anos 2000, com Zidane, Figo, Ronaldo e Beckham?",
+    "resposta": "Galácticos",
+    "alternativas": [
+      "Carrossel",
+      "Galácticos",
+      "Dream Team",
+      "Invencíveis"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "019c110a38",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No tênis, como se chama o golpe dado do mesmo lado da mão que segura a raquete?",
+    "resposta": "Forehand",
+    "alternativas": [
+      "Smash",
+      "Voleio",
+      "Forehand",
+      "Backhand"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "163cac1f7a",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No tênis, como se chama o ponto que pode dar a quem recebe a quebra do saque adversário?",
+    "resposta": "Break point",
+    "alternativas": [
+      "Match point",
+      "Set point",
+      "Game point",
+      "Break point"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0f93d27b6e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o grupo principal de ciclistas que pedala junto numa prova de estrada?",
+    "resposta": "Pelotão",
+    "alternativas": [
+      "Esquadra",
+      "Comboio",
+      "Fuga",
+      "Pelotão"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a7c8e799e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o carro de corrida de um lugar só, com as rodas expostas, como os da F1?",
+    "resposta": "Monoposto",
+    "alternativas": [
+      "Protótipo",
+      "Monoposto",
+      "Turismo",
+      "Stock car"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9364cac25b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o nome do estádio do Atlético de Madrid, inaugurado em 2017?",
+    "resposta": "Metropolitano",
+    "alternativas": [
+      "Vicente Calderón",
+      "Riazor",
+      "Metropolitano",
+      "Mestalla"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4b33c7fc33",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual estádio é a casa do Olympique de Marselha?",
+    "resposta": "Vélodrome",
+    "alternativas": [
+      "Vélodrome",
+      "Groupama Stadium",
+      "Stade de la Beaujoire",
+      "Parc des Princes"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e851fd060b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o estádio do Avaí, em Florianópolis?",
+    "resposta": "Ressacada",
+    "alternativas": [
+      "Heriberto Hülse",
+      "Orlando Scarpelli",
+      "Ressacada",
+      "Arena Condá"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b4db09d108",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No tênis, como se chama a bola alta que passa por cima do adversário que subiu à rede?",
+    "resposta": "Lob",
+    "alternativas": [
+      "Slice",
+      "Lob",
+      "Smash",
+      "Drop shot"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5f7c6f5913",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No ciclismo de estrada, como se chama o corredor que trabalha para o líder da equipe, protegendo-o do vento?",
+    "resposta": "Gregário",
+    "alternativas": [
+      "Contrarrelogista",
+      "Gregário",
+      "Escalador",
+      "Velocista"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b0e7328b69",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o pneu liso, sem sulcos, usado em pista seca nas corridas?",
+    "resposta": "Slick",
+    "alternativas": [
+      "Intermediário",
+      "Radial",
+      "Biscoito",
+      "Slick"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f0b60c525f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube do interior paulista disputou a Série A do Brasileirão pela primeira vez em 2025?",
+    "resposta": "Mirassol",
+    "alternativas": [
+      "Botafogo-SP",
+      "Novorizontino",
+      "Mirassol",
+      "Ituano"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "20241fcb2f",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual troféu do jornal Marca premia o artilheiro do Campeonato Espanhol?",
+    "resposta": "Pichichi",
+    "alternativas": [
+      "Zamora",
+      "Capocannoniere",
+      "Di Stéfano",
+      "Pichichi"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "10e7aa9fb2",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como os italianos chamam o volante armador que organiza o jogo lá de trás, como Pirlo fazia?",
+    "resposta": "Regista",
+    "alternativas": [
+      "Libero",
+      "Mezzala",
+      "Trequartista",
+      "Regista"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "535f6a6202",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual prêmio da revista France Football elege o melhor jogador com menos de 21 anos?",
+    "resposta": "Troféu Kopa",
+    "alternativas": [
+      "Troféu Yashin",
+      "Troféu Gerd Müller",
+      "Troféu Kopa",
+      "Golden Boy"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "984fe43636",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estádio da Mooca, em São Paulo, é a casa do Juventus?",
+    "resposta": "Rua Javari",
+    "alternativas": [
+      "Parque São Jorge",
+      "Nicolau Alayon",
+      "Rua Javari",
+      "Canindé"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2f88148b22",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estádio do Rio de Janeiro é a casa do Bangu?",
+    "resposta": "Moça Bonita",
+    "alternativas": [
+      "Luso-Brasileiro",
+      "Ítalo del Cima",
+      "Figueira de Melo",
+      "Moça Bonita"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dfcf98b690",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o estádio próprio do ABC, de Natal?",
+    "resposta": "Frasqueirão",
+    "alternativas": [
+      "Machadão",
+      "Juvenal Lamartine",
+      "Frasqueirão",
+      "Barretão"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2bfac92305",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "No desfile de escola de samba, quem dança ao lado da porta-bandeira e a protege?",
+    "resposta": "Mestre-sala",
+    "alternativas": [
+      "Puxador",
+      "Carnavalesco",
+      "Mestre de bateria",
+      "Mestre-sala"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0580db4bb3 (E5 resposta antiga citada no texto novo + assunto (21.8))",
+    "dup": "certa",
+    "dup_ref": "id:0580db4bb3",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (21.8)"
+  },
+  {
+    "id": "0e24bfec23",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a famosa que desfila à frente da bateria da escola de samba?",
+    "resposta": "Rainha de bateria",
+    "alternativas": [
+      "Rainha de bateria",
+      "Baiana",
+      "Destaque de carro",
+      "Porta-bandeira"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:da693b7d3b (R5 parte da resposta citada + muito assunto em comum (peso 20.2))",
+    "dup": "certa",
+    "dup_ref": "id:da693b7d3b",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 20.2)"
+  },
+  {
+    "id": "620d8c4956",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Na gíria da internet, como se chama algo que dá vergonha alheia?",
+    "resposta": "Cringe",
+    "alternativas": [
+      "Flop",
+      "Cringe",
+      "Hype",
+      "Crush"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "978efa41a8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão comemora a chegada do fim de semana nas redes sociais?",
+    "resposta": "Sextou",
+    "alternativas": [
+      "Tbt",
+      "Sextou",
+      "Partiu",
+      "Fui"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "098b02e2db",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a história escrita por fãs com personagens de uma obra que já existe?",
+    "resposta": "Fanfic",
+    "alternativas": [
+      "Fanart",
+      "Cosplay",
+      "Fanfic",
+      "Spin-off"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "69e734a909",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a pegadinha de TV filmada sem a pessoa saber que está sendo gravada?",
+    "resposta": "Câmera escondida",
+    "alternativas": [
+      "Reality show",
+      "Câmera escondida",
+      "Esquete",
+      "Making of"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5308b7a53d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de tabuleiro da Grow faz os times adivinharem palavras por desenhos e mímica?",
+    "resposta": "Imagem e Ação",
+    "alternativas": [
+      "Detetive",
+      "Imagem e Ação",
+      "Perfil",
+      "Cara a Cara"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f35976814",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em qual jogo de tabuleiro de quatro cores é preciso tirar 6 no dado para tirar o peão da casa?",
+    "resposta": "Ludo",
+    "alternativas": [
+      "Ludo",
+      "War",
+      "Gamão",
+      "Damas"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b5bf0ea2c4",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual marca da Mattel faz carrinhos de metal em miniatura e pistas laranja com loopings?",
+    "resposta": "Hot Wheels",
+    "alternativas": [
+      "Matchbox",
+      "Autorama",
+      "Hot Wheels",
+      "Tamiya"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a4bf11cee8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a mesa em que se sentavam os cavaleiros do Rei Arthur?",
+    "resposta": "Távola Redonda",
+    "alternativas": [
+      "Mesa de Camelot",
+      "Mesa Real",
+      "Távola Redonda",
+      "Távola Sagrada"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Rei Arthur",
+    "dup_regra": null
+  },
+  {
+    "id": "f31eb19490",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual mago era o conselheiro do Rei Arthur?",
+    "resposta": "Merlin",
+    "alternativas": [
+      "Merlin",
+      "Gandalf",
+      "Lancelote",
+      "Morgana"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Rei Arthur",
+    "dup_regra": null
+  },
+  {
+    "id": "f469caaebe",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os romances publicados em capítulos nos jornais do século XIX, avós das novelas?",
+    "resposta": "Folhetins",
+    "alternativas": [
+      "Almanaques",
+      "Cordéis",
+      "Folhetins",
+      "Crônicas"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "979472ed06",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de tabuleiro antigo usa dois dados e 15 peças para cada lado, que percorrem 24 casas?",
+    "resposta": "Gamão",
+    "alternativas": [
+      "Mancala",
+      "Gamão",
+      "Ludo",
+      "Damas"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4b142509db",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo da Grow dá dicas sobre uma pessoa, coisa, lugar ou ano até alguém adivinhar o que é?",
+    "resposta": "Perfil",
+    "alternativas": [
+      "Detetive",
+      "Perfil",
+      "Imagem e Ação",
+      "Master"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "65f15890f4",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual figura de linguagem repete o mesmo som de consoante, como em \"o rato roeu a roupa do rei de Roma\"?",
+    "resposta": "Aliteração",
+    "alternativas": [
+      "Aliteração",
+      "Assonância",
+      "Rima",
+      "Onomatopeia"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2c07dd7af6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual figura de linguagem aproxima palavras de sentido oposto, como em \"quando um ri, o outro chora\"?",
+    "resposta": "Antítese",
+    "alternativas": [
+      "Eufemismo",
+      "Hipérbole",
+      "Antítese",
+      "Metonímia"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0c28335b13",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu de Paris, numa antiga estação de trem, é famoso pela coleção de impressionistas?",
+    "resposta": "Museu d'Orsay",
+    "alternativas": [
+      "Museu Rodin",
+      "Louvre",
+      "Centro Pompidou",
+      "Museu d'Orsay"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8318b429bc",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ritmo gaúcho dançado em pares, também chamado de vaneira, anima os bailes do Sul?",
+    "resposta": "Vanerão",
+    "alternativas": [
+      "Milonga",
+      "Vanerão",
+      "Xote",
+      "Chamamé"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db33ca6379",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a mistura de duas ou mais músicas diferentes numa só faixa?",
+    "resposta": "Mashup",
+    "alternativas": [
+      "Playback",
+      "Cover",
+      "Jingle",
+      "Mashup"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e20e66efd5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o gênero de mangá voltado a garotas adolescentes, como \"Sailor Moon\"?",
+    "resposta": "Shoujo",
+    "alternativas": [
+      "Shonen",
+      "Seinen",
+      "Kodomo",
+      "Shoujo"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1774e80ba9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cálice sagrado era buscado pelos cavaleiros do Rei Arthur?",
+    "resposta": "Santo Graal",
+    "alternativas": [
+      "Excalibur",
+      "Arca da Aliança",
+      "Velo de Ouro",
+      "Santo Graal"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Rei Arthur",
+    "dup_regra": null
+  },
+  {
+    "id": "d5831b8b26",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foi a primeira novela em cores da TV brasileira, exibida pela Globo em 1973?",
+    "resposta": "O Bem-Amado",
+    "alternativas": [
+      "Irmãos Coragem",
+      "Selva de Pedra",
+      "Gabriela",
+      "O Bem-Amado"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3553 (E3 resposta nova citada no texto antigo + assunto (14.8))",
+    "dup": "certa",
+    "dup_ref": "banco:3553",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (14.8)"
+  },
+  {
+    "id": "40aa49800a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual gênero de livro \"Dom Quixote\" satiriza, enlouquecendo o fidalgo que o lia sem parar?",
+    "resposta": "Novelas de cavalaria",
+    "alternativas": [
+      "Novelas de cavalaria",
+      "Autos religiosos",
+      "Romances pastoris",
+      "Epopeias gregas"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "96268aee3f",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "De qual cidade italiana vem o mármore branco usado por Michelangelo no \"Davi\"?",
+    "resposta": "Carrara",
+    "alternativas": [
+      "Siena",
+      "Pisa",
+      "Carrara",
+      "Verona"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0dec05874f",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estúdio japonês produziu o anime \"Cowboy Bebop\"?",
+    "resposta": "Sunrise",
+    "alternativas": [
+      "Madhouse",
+      "Studio Ghibli",
+      "Gainax",
+      "Sunrise"
+    ],
+    "subtema": "Anime",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2534227ad7",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual roteirista britânico criou a série \"Black Mirror\"?",
+    "resposta": "Charlie Brooker",
+    "alternativas": [
+      "Steven Moffat",
+      "Russell T Davies",
+      "Charlie Brooker",
+      "Jesse Armstrong"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a7e8520883",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atriz chocou o país ao aparecer grávida, de biquíni, na praia, em 1971?",
+    "resposta": "Leila Diniz",
+    "alternativas": [
+      "Leila Diniz",
+      "Regina Duarte",
+      "Dina Sfat",
+      "Betty Faria"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "573d81dcb4",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o modo em que o celular vibra em vez de tocar?",
+    "resposta": "Vibracall",
+    "alternativas": [
+      "Vibracall",
+      "Hotspot",
+      "Viva-voz",
+      "Modo avião"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "75c7f827c9",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a função que joga a ligação no alto-falante para todos ouvirem?",
+    "resposta": "Viva-voz",
+    "alternativas": [
+      "Caixa postal",
+      "Vibracall",
+      "Conferência",
+      "Viva-voz"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0f270002db",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "No WhatsApp, o que indicam os dois tiques azuis numa mensagem?",
+    "resposta": "Que ela foi lida",
+    "alternativas": [
+      "Que ela foi entregue",
+      "Que ela foi enviada",
+      "Que ela foi lida",
+      "Que ela foi apagada"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3792 (R5 parte da resposta citada + muito assunto em comum (peso 24.7))",
+    "dup": "certa",
+    "dup_ref": "banco:3792",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 24.7)"
+  },
+  {
+    "id": "c6cbdef600",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a animação que aparecia no monitor parado, como os canos 3D do Windows?",
+    "resposta": "Protetor de tela",
+    "alternativas": [
+      "Área de trabalho",
+      "Papel de parede",
+      "Protetor de tela",
+      "Tela azul"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2544d29a13",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a função do teclado do celular que troca palavras sozinha, causando mensagens engraçadas?",
+    "resposta": "Autocorretor",
+    "alternativas": [
+      "Ditado por voz",
+      "Leitor de tela",
+      "Autocorretor",
+      "Tradutor"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "09b4a0a024",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o toque musical que o celular faz quando chega uma ligação?",
+    "resposta": "Ringtone",
+    "alternativas": [
+      "Ringtone",
+      "Notificação",
+      "Vibracall",
+      "Bipe"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "15a43d2cdd",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual sigla designava as mensagens de celular com foto, áudio ou vídeo, antes do WhatsApp?",
+    "resposta": "MMS",
+    "alternativas": [
+      "MMS",
+      "SMS",
+      "GPRS",
+      "WAP"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4ab0df133c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual caçadora ruiva protagoniza \"Horizon Zero Dawn\"?",
+    "resposta": "Aloy",
+    "alternativas": [
+      "Ciri",
+      "Lara Croft",
+      "Ellie",
+      "Aloy"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "22ce37711c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual heroína britânica de \"Overwatch\" volta no tempo com a habilidade \"Recall\"?",
+    "resposta": "Tracer",
+    "alternativas": [
+      "D.Va",
+      "Tracer",
+      "Widowmaker",
+      "Mercy"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "678809604b",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de Hideo Kojima, de 2019, tem Norman Reedus como um entregador num mundo arrasado?",
+    "resposta": "Death Stranding",
+    "alternativas": [
+      "Death Stranding",
+      "Days Gone",
+      "The Evil Within",
+      "Metal Gear Solid V"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2805be9e21",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual série de corrida da Criterion ficou famosa por premiar as batidas espetaculares?",
+    "resposta": "Burnout",
+    "alternativas": [
+      "Destruction Derby",
+      "Need for Speed",
+      "Burnout",
+      "FlatOut"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7c31e17654",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "No WhatsApp, qual aviso aparece nas mensagens repassadas muitas vezes, para combater boatos?",
+    "resposta": "Encaminhada com frequência",
+    "alternativas": [
+      "Mensagem apagada",
+      "Visto por último",
+      "Encaminhada com frequência",
+      "Mensagem temporária"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "870ddb62e0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Quem é o protagonista do primeiro \"Red Dead Redemption\", de 2010?",
+    "resposta": "John Marston",
+    "alternativas": [
+      "Arthur Morgan",
+      "Dutch van der Linde",
+      "John Marston",
+      "Micah Bell"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "96a9ca55ac",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual lutador de \"Tekken\" é neto de Heihachi Mishima?",
+    "resposta": "Jin Kazama",
+    "alternativas": [
+      "Lars Alexandersson",
+      "Jin Kazama",
+      "Kazuya Mishima",
+      "Paul Phoenix"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d800c8b41",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual lutador de \"Street Fighter\" é o irmão mais novo de Gouken e domina o golpe Shun Goku Satsu?",
+    "resposta": "Akuma",
+    "alternativas": [
+      "Sagat",
+      "Ken",
+      "Ryu",
+      "Akuma"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b63858155e",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Quem criou \"Prince of Persia\", de 1989, animando o herói a partir de vídeos do próprio irmão?",
+    "resposta": "Jordan Mechner",
+    "alternativas": [
+      "John Romero",
+      "Jordan Mechner",
+      "Richard Garriott",
+      "Sid Meier"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f472cc60a0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estúdio australiano criou o jogo \"Hollow Knight\"?",
+    "resposta": "Team Cherry",
+    "alternativas": [
+      "Team Cherry",
+      "Supergiant Games",
+      "Motion Twin",
+      "Moon Studios"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "42046b6234",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como são chamadas as tropas de paz da ONU, por causa da cor do capacete?",
+    "resposta": "Capacetes Azuis",
+    "alternativas": [
+      "Boinas Verdes",
+      "Legião Estrangeira",
+      "Capacetes Azuis",
+      "Fuzileiros Navais"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2532 (E4 resposta nova (rara) citada no texto antigo (4.6))",
+    "dup": "certa",
+    "dup_ref": "banco:2532",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.6)"
+  },
+  {
+    "id": "f3ca605778",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as artistas japonesas tradicionais, treinadas em dança, música e na arte da conversa?",
+    "resposta": "Gueixas",
+    "alternativas": [
+      "Samurais",
+      "Xoguns",
+      "Daimios",
+      "Gueixas"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "85394dd220",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o título do chefe militar que governava de fato o Japão feudal, enquanto o imperador tinha papel simbólico?",
+    "resposta": "Xogum",
+    "alternativas": [
+      "Daimio",
+      "Ronin",
+      "Xogum",
+      "Mikado"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5a9b8391f7",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamou o movimento bizantino dos séculos VIII e IX que destruía imagens religiosas?",
+    "resposta": "Iconoclastia",
+    "alternativas": [
+      "Cisma do Oriente",
+      "Iconoclastia",
+      "Monofisismo",
+      "Arianismo"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4e3e749412",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual brinquedo eletrônico educativo da Tec Toy, de 1988, usava livrinhos com perguntas e respostas?",
+    "resposta": "Pense Bem",
+    "alternativas": [
+      "Pense Bem",
+      "Tamagotchi",
+      "Aquaplay",
+      "Genius"
+    ],
+    "subtema": "Brinquedos e jogos de mesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3515",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "dd42ac9785",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Quando o celular está desligado, para onde vai a ligação, para a pessoa deixar um recado?",
+    "resposta": "Caixa postal",
+    "alternativas": [
+      "Bina",
+      "Viva-voz",
+      "SAC",
+      "Caixa postal"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9db2bfafd1",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como os romanos chamavam os povos celtas que Júlio César venceu, os mesmos da aldeia de Asterix?",
+    "resposta": "Gauleses",
+    "alternativas": [
+      "Iberos",
+      "Bretões",
+      "Germanos",
+      "Gauleses"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "62e95aa7ab",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cantora lançou em 1958 o disco 'Canção do Amor Demais', com a primeira gravação de 'Chega de Saudade'?",
+    "resposta": "Elizeth Cardoso",
+    "alternativas": [
+      "Maysa",
+      "Dolores Duran",
+      "Nara Leão",
+      "Elizeth Cardoso"
+    ],
+    "subtema": "Música brasileira",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

@@ -6,18 +6,19 @@
     "pergunta": "Qual doce de tabuleiro baiano é feito de coco ralado cozido com açúcar?",
     "resposta": "Cocada",
     "alternativas": [
-      "Cocada",
+      "Pé de moleque",
       "Rapadura",
       "Paçoca",
-      "Pé de moleque"
+      "Cocada"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f41082254e",
@@ -32,12 +33,13 @@
       "Bolinha de queijo"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "0ed8e4dc8c",
@@ -52,12 +54,13 @@
       "Camafeu"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "70f0c45c17",
@@ -72,12 +75,13 @@
       "Sonho"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "cd7fb0d227",
@@ -92,12 +96,13 @@
       "Miami"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "5c72aefd2f",
@@ -112,12 +117,13 @@
       "Bifana"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9d521ce3f3",
@@ -132,12 +138,13 @@
       "Biscoito Mabel"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:ecae176c18",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "22856eb392",
@@ -172,17 +179,18 @@
       "Monção"
     ],
     "subtema": "Biomas, clima e natureza",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c62444a50e",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual cidade italiana era chamada de \"Sereníssima\" quando era uma república independente?",
     "resposta": "Veneza",
     "alternativas": [
@@ -192,12 +200,15 @@
       "Gênova"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0d7f495f70",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.4)",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "73713d3e31",
@@ -206,18 +217,21 @@
     "pergunta": "Qual capital europeia é chamada, assim como Roma, de \"Cidade das Sete Colinas\"?",
     "resposta": "Lisboa",
     "alternativas": [
-      "Madri",
-      "Atenas",
+      "Viena",
+      "Berlim",
       "Lisboa",
       "Paris"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "erradas 'Madri' e 'Atenas' também aparecem entre as cidades das sete colinas; trocadas por Viena e Berlim"
   },
   {
     "id": "7418027cac",
@@ -232,12 +246,13 @@
       "18"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c385b64bcc",
@@ -252,12 +267,13 @@
       "3"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9b3d07ec97",
@@ -272,12 +288,13 @@
       "5"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "843935a56c",
@@ -292,12 +309,14 @@
       "30 anos"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "a448ab5ad3",
@@ -312,12 +331,13 @@
       "Príapo"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c8ad713d7e",
@@ -332,12 +352,13 @@
       "Morfeu"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b028ad4439",
@@ -372,12 +393,14 @@
       "Raposa do Deserto"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "e07c0bc4ce",
@@ -392,12 +415,14 @@
       "Moema"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "be6604e8b6",
@@ -412,12 +437,14 @@
       "Dandara"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "f978c167c5",
@@ -432,12 +459,14 @@
       "Nísia Floresta"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "4131812eb4",
@@ -452,12 +481,14 @@
       "450"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "89e0850b79",
@@ -472,12 +503,13 @@
       "Pediatra"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "cb9880bbde",
@@ -492,12 +524,13 @@
       "Oftalmologista"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "3506646d8f",
@@ -512,12 +545,13 @@
       "Soro caseiro"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "54bece2fa1",
@@ -532,12 +566,13 @@
       "Tala"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "374d150865",
@@ -552,12 +587,13 @@
       "Quarto grau"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d445279def",
@@ -572,18 +608,19 @@
       "Neurologista"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "818f5abd7a",
     "categoria": "Ciências",
     "dificuldade": "medio",
-    "pergunta": "Qual profissional trata problemas da fala, da voz, da deglutição e da audição?",
+    "pergunta": "Qual profissional, sem ser médico, faz a terapia da fala, da voz e da deglutição?",
     "resposta": "Fonoaudiólogo",
     "alternativas": [
       "Neurologista",
@@ -592,12 +629,14 @@
       "Fisioterapeuta"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "correcao": "o otorrino também cuida de voz e audição, o que deixava duas defensáveis; enunciado restringido a quem não é médico e faz a terapia"
   },
   {
     "id": "ed64b38f8f",
@@ -612,12 +651,13 @@
       "Biópsia"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2543636a7a",
@@ -632,12 +672,13 @@
       "Miopia"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c029816c53",
@@ -652,17 +693,19 @@
       "Odontopediatra"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "54d4ab8a5c",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama o médico especialista nas doenças do sangue, como anemias e leucemias?",
     "resposta": "Hematologista",
     "alternativas": [
@@ -672,17 +715,19 @@
       "Nefrologista"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "dfcba233e4",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual exame usa ultrassom para ver o coração batendo e o funcionamento das válvulas?",
     "resposta": "Ecocardiograma",
     "alternativas": [
@@ -692,12 +737,14 @@
       "Ecocardiograma"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "3ce6bff24f",
@@ -712,12 +759,13 @@
       "Massagista"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "80b0525b39",
@@ -732,12 +780,13 @@
       "Alambrado"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "a1d26520ad",
@@ -752,12 +801,13 @@
       "Gandula"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c5816a8bc8",
@@ -772,12 +822,13 @@
       "G-4"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b51f1d32b8",
@@ -792,12 +843,13 @@
       "Tabelinha"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9326eceebd",
@@ -812,12 +864,13 @@
       "Volante"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "967a25938f",
@@ -832,12 +885,13 @@
       "Área técnica"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "067ffeabe3",
@@ -852,12 +906,13 @@
       "Cadeira cativa"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "65405e4be3",
@@ -872,12 +927,14 @@
       "Timemania"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "3d8b9618be",
@@ -912,12 +969,13 @@
       "Top spin"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "363176a926",
@@ -932,12 +990,13 @@
       "Hemograma"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "34aefb24b2",
@@ -952,12 +1011,14 @@
       "Keirin"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "fb10c093b2",
@@ -972,18 +1033,20 @@
       "9"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "893cb97ce6",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual é o diâmetro do aro da cesta de basquete?",
+    "pergunta": "Qual é, aproximadamente, o diâmetro do aro da cesta de basquete?",
     "resposta": "45 centímetros",
     "alternativas": [
       "45 centímetros",
@@ -992,12 +1055,15 @@
       "60 centímetros"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:64a1b87182",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "a FIBA admite de 45 a 45,9 cm e a NBA usa 18 polegadas (cerca de 46 cm); acrescentado 'aproximadamente'"
   },
   {
     "id": "157e69c741",
@@ -1012,12 +1078,14 @@
       "9"
     ],
     "subtema": "Esportes americanos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "bfaeeb2b25",
@@ -1032,12 +1100,13 @@
       "Capitão Nascimento"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:401bafecc6",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "4b80996a82",
@@ -1052,12 +1121,13 @@
       "Os Normais"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f2602d29b9",
@@ -1072,12 +1142,13 @@
       "Minha Vida em Marte"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "51b2cc492b",
@@ -1092,13 +1163,14 @@
       "Batgirl"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "DC",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1d55e208bd",
@@ -1113,13 +1185,14 @@
       "Electro"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3591",
     "recente": false,
     "universo": "Marvel",
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b3357db4ca",
@@ -1134,13 +1207,14 @@
       "Tia Mary"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Marvel",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1e41328e4f",
@@ -1155,12 +1229,14 @@
       "O Auto da Compadecida"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "e9128e9e10",
@@ -1175,12 +1251,14 @@
       "Saneamento Básico"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3229",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "c14efb36bf",
@@ -1195,12 +1273,14 @@
       "Abril Despedaçado"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "0edfd87020",
@@ -1215,12 +1295,14 @@
       "Bené"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "58082bdf7e",
@@ -1235,13 +1317,14 @@
       "Surfista Prateado"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Marvel",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6da91ee16a",
@@ -1256,13 +1339,14 @@
       "Salão da Justiça"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:4a16d13b87",
     "recente": false,
     "universo": "DC",
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ff043597ce",
@@ -1277,12 +1361,14 @@
       "Que Horas Ela Volta?"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "2d6596f2bc",
@@ -1297,18 +1383,20 @@
       "Bacurau"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3285",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "6631d21ba6",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual filme de Cao Hamburger mostra um menino deixado com o avô no Bom Retiro durante a Copa de 1970?",
+    "pergunta": "Qual filme de Cao Hamburger mostra um menino levado para a casa do avô no Bom Retiro durante a Copa de 1970?",
     "resposta": "O Ano em que Meus Pais Saíram de Férias",
     "alternativas": [
       "Castelo Rá-Tim-Bum, o Filme",
@@ -1317,12 +1405,15 @@
       "O Ano em que Meus Pais Saíram de Férias"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "no filme o avô morre no mesmo dia e o menino fica com o vizinho; 'deixado com o avô' trocado por 'levado para a casa do avô'"
   },
   {
     "id": "64f4c5f2e4",
@@ -1337,12 +1428,14 @@
       "Xica da Silva"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "8f0b29a671",
@@ -1357,12 +1450,14 @@
       "Pixote"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "051be1acd6",
@@ -1377,13 +1472,15 @@
       "Sinestro"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "DC",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "311bfba5b9",
@@ -1398,12 +1495,14 @@
       "Anselmo Duarte"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "d75a4b0e96",
@@ -1418,12 +1517,13 @@
       "Sensor de proximidade"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9b7090ca2a",
@@ -1438,12 +1538,13 @@
       "Roaming"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3829",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "66a9b28116",
@@ -1458,12 +1559,13 @@
       "Grupo do trabalho"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "54451f1ac7",
@@ -1478,12 +1580,13 @@
       "Conferência"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "707c3bc597",
@@ -1498,12 +1601,14 @@
       "Embratel"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "8966a878a4",
@@ -1518,12 +1623,14 @@
       "MU Online"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "e5abd18130",
@@ -1538,12 +1645,14 @@
       "PagSeguro"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "a7a1c31b0e",
@@ -1558,12 +1667,13 @@
       "ABNT2"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f2f7a154f7",
@@ -1578,12 +1688,14 @@
       "Ragnarok"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "57b297896f",
@@ -1598,12 +1710,14 @@
       "Rappi"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "1ad015a678",
@@ -1618,17 +1732,19 @@
       "Stone"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "47a72a211a",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual era a velocidade máxima de uma conexão discada pelos modems mais comuns?",
     "resposta": "56 kbps",
     "alternativas": [
@@ -1638,12 +1754,15 @@
       "14 kbps"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "1aa8414e2c",
@@ -1653,17 +1772,20 @@
     "resposta": "Savassi",
     "alternativas": [
       "Pampulha",
-      "Santa Tereza",
+      "Buritis",
       "Savassi",
-      "Lourdes"
+      "Mangabeiras"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "erradas 'Santa Tereza' e 'Lourdes' eram defensáveis (bairros também famosos por bares); trocadas por Buritis e Mangabeiras"
   },
   {
     "id": "1a5541002a",
@@ -1675,15 +1797,18 @@
       "Batel",
       "Água Verde",
       "Juvevê",
-      "Santa Felicidade"
+      "Boqueirão"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "errada 'Santa Felicidade' era defensável (famosa pelos restaurantes italianos); trocada por Boqueirão"
   },
   {
     "id": "72c29a97ba",
@@ -1698,12 +1823,13 @@
       "Trabalho infantil"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2faf38532d",
@@ -1718,12 +1844,14 @@
       "Luís XIV"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1224",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 8.4)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 8.4)",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "87fa747cd7",
@@ -1738,12 +1866,14 @@
       "Kimura"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "55f66b2a22",
@@ -1758,12 +1888,14 @@
       "Laranja"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "33d59939b6",
@@ -1778,12 +1910,13 @@
       "Paredão"
     ],
     "subtema": "Reality shows (BBB, A Fazenda etc.)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "fcd2714bf8",
@@ -1798,12 +1931,13 @@
       "Prova de resistência"
     ],
     "subtema": "Reality shows (BBB, A Fazenda etc.)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b5df4b9db5",
@@ -1838,12 +1972,14 @@
       "Sinhozinho Malta"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "não confirmado em fonte: o bordão e o gesto da pulseira de Sinhozinho Malta não aparecem nas fontes abertas (busca na web esgotada)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "a494dccc75",
@@ -1858,12 +1994,14 @@
       "Raquel Accioli"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:204889788b",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "2bc17098cd",
@@ -1878,12 +2016,13 @@
       "Ícone"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:139bb4fba3",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.4)"
+    "dup_regra": "resposta nova citada no texto antigo (5.4)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9bdad079e7",
@@ -1898,12 +2037,14 @@
       "Reagir"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:b210ae3a81",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "4b6a315416",
@@ -1918,12 +2059,13 @@
       "Painel de Controle"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b21bddcebd",
@@ -1938,11 +2080,13 @@
       "Dona Lurdes"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   }
 ]

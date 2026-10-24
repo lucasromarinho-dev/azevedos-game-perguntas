@@ -5,8 +5,8 @@ import { join } from 'node:path';
 import { lerJson, PASTA_LOTES, RAIZ_EXP, CATEGORIAS, DIFICULDADES } from './lib.mjs';
 const arq = process.argv[2];
 const n = parseInt(arq.match(/\d+/)[0], 10);
-// Lotes 001-005: piloto (plano.json, 5 lotes). 006-015: rodada 1 (plano-r1.json, 10 lotes). 016-025: rodada 2 (plano-r2.json, 10 lotes). 026-035: rodada 3 (plano-r3.json).
-const [plano, NL, k] = n >= 26 ? ['plano-r3.json', 10, n - 25] : n >= 16 ? ['plano-r2.json', 10, n - 15] : n >= 6 ? ['plano-r1.json', 10, n - 5] : ['plano.json', 5, n];
+// Lotes 001-005: piloto (plano.json, 5 lotes). 006-015: rodada 1 (plano-r1.json, 10 lotes). 016-025: rodada 2 (plano-r2.json, 10 lotes). 026-035: rodada 3 (plano-r3.json). 036-045: rodada 4 (plano-r4.json).
+const [plano, NL, k] = n >= 36 ? ['plano-r4.json', 10, n - 35] : n >= 26 ? ['plano-r3.json', 10, n - 25] : n >= 16 ? ['plano-r2.json', 10, n - 15] : n >= 6 ? ['plano-r1.json', 10, n - 5] : ['plano.json', 5, n];
 const metas = lerJson(join(RAIZ_EXP, plano)).metas;
 const lote = lerJson(join(PASTA_LOTES, arq)).filter((p) => p.status !== 'descartada');
 // Cota do lote k: parte inteira de meta*k/NL menos a de meta*(k-1)/NL (distribui o resto entre os lotes)

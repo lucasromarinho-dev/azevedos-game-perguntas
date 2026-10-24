@@ -1,0 +1,20 @@
+{
+  "_leia": "Rodada 4 da meta 3x: 1.000 novas válidas em 10 lotes (036 a 045). Mesma composição categoria x dificuldade da rodada 3 (36,5% fácil). Dentro de cada categoria, prioridade para os subtemas com mais 'falta' em arvore.json (lista em 'prioridade'). Variedade como na rodada 3: no máximo 3 perguntas por universo ou franquia na rodada, música até 1/3 do Entretenimento, Esportes espalhado por subtemas (scripts/variedade.mjs 36 45). Método: termos e conceitos checados com fatos.mjs --curto e candidatas.mjs antes de escrever. faltam.mjs usa este arquivo para lotes 036+.",
+  "lotes": [36, 45],
+  "metas": {
+    "Geografia": { "facil": 50, "medio": 45, "dificil": 35 },
+    "História": { "facil": 45, "medio": 50, "dificil": 45 },
+    "Ciências": { "facil": 50, "medio": 45, "dificil": 35 },
+    "Esportes": { "facil": 65, "medio": 65, "dificil": 55 },
+    "Entretenimento": { "facil": 95, "medio": 95, "dificil": 65 },
+    "Tecnologia": { "facil": 60, "medio": 55, "dificil": 45 }
+  },
+  "prioridade": {
+    "Geografia": ["Brasil: cidades, turismo e apelidos", "Comidas e bebidas típicas, Brasil e mundo", "Brasil: estados, capitais e regiões", "Bandeiras, moedas e idiomas", "Cidades e monumentos do mundo", "População, curiosidades e recordes"],
+    "História": ["Brasil República, Vargas, ditadura e redemocratização", "Brasil Colônia", "Antiguidade", "Brasil Império", "Guerras Mundiais", "Personagens, invenções e filosofia", "Mitologia", "Guerra Fria e século XX"],
+    "Ciências": ["Animais", "Astronomia", "Corpo humano e saúde", "Química", "Física e unidades", "Cientistas e descobertas", "Terra, geologia e clima"],
+    "Esportes": ["Brasileirão e clubes brasileiros", "Futebol europeu", "Seleção e craques", "Copa do Mundo", "Libertadores e futebol sul-americano", "Olimpíadas e atletismo", "F1 e automobilismo", "Basquete e NBA", "Lutas, UFC e boxe", "Vôlei", "Tênis", "Outros (xadrez, surfe, skate, e-sports)"],
+    "Entretenimento": ["Música brasileira", "Novelas e TV brasileira", "Música internacional", "Séries e streaming", "Cinema internacional e Oscar", "Sagas e franquias", "Super-heróis", "Animação", "Anime", "Reality shows (BBB, A Fazenda etc.)", "Memes e internet", "Cinema brasileiro", "Humor e programas de auditório", "Literatura"],
+    "Tecnologia": ["Games: franquias e personagens", "Empresas, marcas e fundadores", "Games: consoles e história", "IA, robótica e ficção científica", "Redes sociais e apps", "História da computação", "Celulares e gadgets", "Games: Nintendo"]
+  }
+}

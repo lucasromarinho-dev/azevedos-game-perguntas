@@ -12,12 +12,13 @@
       "Coro"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ab65901194",
@@ -32,12 +33,13 @@
       "Cruz de São Jorge"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e80af5c78a",
@@ -52,12 +54,13 @@
       "Bolonhesa"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "94fcf66a07",
@@ -72,12 +75,13 @@
       "Brownie"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "fff0a58919",
@@ -92,12 +96,13 @@
       "Tofu"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8411fa0b4e",
@@ -112,12 +117,13 @@
       "Galinhada"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "fcaece65a8",
@@ -132,12 +138,13 @@
       "Dorsal Atlântica"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "e201755f13",
@@ -146,18 +153,21 @@
     "pergunta": "Qual falha geológica famosa atravessa a Califórnia, nos Estados Unidos?",
     "resposta": "Falha de San Andreas",
     "alternativas": [
-      "Falha de Hayward",
+      "Falha da Anatólia do Norte",
       "Falha do Mar Morto",
       "Falha Alpina",
       "Falha de San Andreas"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "errada 'Falha de Hayward' era defensável (também fica na Califórnia, na região da baía); trocada por 'Falha da Anatólia do Norte'"
   },
   {
     "id": "83b9984a4d",
@@ -172,12 +182,13 @@
       "Êxodo rural"
     ],
     "subtema": "População, curiosidades e recordes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "956c86a78a",
@@ -192,12 +203,13 @@
       "Matcha"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "bc38c84ca6",
@@ -212,12 +224,14 @@
       "Space Needle"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "7843d5d372",
@@ -252,12 +266,14 @@
       "Farofa de ovo"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:488b85904a",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "042cd200b9",
@@ -272,17 +288,19 @@
       "Pastelão de forno"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "702f4c5929",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual é a ponte mais antiga sobre o Grande Canal de Veneza?",
     "resposta": "Ponte de Rialto",
     "alternativas": [
@@ -292,12 +310,15 @@
       "Ponte degli Scalzi"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "51859d0020",
@@ -312,12 +333,14 @@
       "Palácio de Miraflores"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "37888f629a",
@@ -332,12 +355,13 @@
       "Bloco de notas"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "80332d67bd",
@@ -372,12 +396,13 @@
       "Pitágoras"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9a47723b05",
@@ -392,12 +417,14 @@
       "Albert Einstein"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2242",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "9833d3f3f9",
@@ -412,12 +439,14 @@
       "Relógio de pulso"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "fc989bc36f",
@@ -432,12 +461,14 @@
       "Caneta esferográfica"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "0f8451be57",
@@ -452,12 +483,13 @@
       "Nó de Delfos"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "2671727404",
@@ -472,12 +504,14 @@
       "Hel"
     ],
     "subtema": "Mitologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "2563ece3af",
@@ -492,12 +526,13 @@
       "Luditas"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8add40899a",
@@ -512,17 +547,18 @@
       "Toyotismo"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:985 (Henry Ford e a linha de montagem); com Ford no enunciado, 'Fordismo' sai direto",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "0ee3965d6e",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual invenção foi patenteada nos Estados Unidos por Gideon Sundback em 1917 e substituiu botões em muitas roupas?",
     "resposta": "Zíper",
     "alternativas": [
@@ -532,17 +568,20 @@
       "Elástico"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "945003e2d4",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual rei de Uruk é o herói do mais antigo poema épico conhecido?",
     "resposta": "Gilgamesh",
     "alternativas": [
@@ -552,18 +591,21 @@
       "Sargão"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "12b58e66f0",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Qual acessório masculino deriva do lenço usado no pescoço por mercenários croatas no século XVII?",
+    "pergunta": "Segundo a tradição, qual acessório masculino deriva do lenço usado no pescoço por mercenários croatas no século XVII?",
     "resposta": "Gravata",
     "alternativas": [
       "Gravata",
@@ -572,12 +614,15 @@
       "Suspensório"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "a origem croata é a versão tradicional, contestada por algumas fontes; acrescentado 'segundo a tradição'"
   },
   {
     "id": "fe26ddbdf2",
@@ -612,12 +657,14 @@
       "Academia"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "ada3f902ed",
@@ -632,12 +679,13 @@
       "Mistura heterogênea"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "825df5bf54",
@@ -652,12 +700,13 @@
       "Filtração"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1e9a239439",
@@ -672,12 +721,13 @@
       "Aterramento"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1780",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.9)"
+    "dup_regra": "resposta nova citada no texto antigo (5.9)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "85f1676f2e",
@@ -692,12 +742,13 @@
       "Garrafa térmica"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2240",
     "recente": false,
-    "dup_regra": "mesma resposta, assunto vizinho (6.2, 18% do fato)"
+    "dup_regra": "mesma resposta, assunto vizinho (6.2, 18% do fato)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "15b7d60548",
@@ -732,12 +783,13 @@
       "Giroscópio"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "d0abcff5e0",
@@ -752,12 +804,13 @@
       "Watt"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8bb2535697",
@@ -772,12 +825,14 @@
       "Polegada"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "51a256861e",
@@ -787,17 +842,18 @@
     "resposta": "Quilate",
     "alternativas": [
       "Onça",
-      "Grau",
       "Quilate",
+      "Grau",
       "Grama"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "0466efee11",
@@ -812,17 +868,18 @@
       "Olhos simples"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "4090befc27",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual unidade usada na navegação equivale a 1.852 metros?",
     "resposta": "Milha náutica",
     "alternativas": [
@@ -832,12 +889,15 @@
       "Légua"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "b38c216300",
@@ -852,12 +912,14 @@
       "Alqueire"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "f50b2df41c",
@@ -872,12 +934,14 @@
       "Horace Wells"
     ],
     "subtema": "Cientistas e descobertas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "0578d0e621",
@@ -912,12 +976,13 @@
       "Altinha"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "de0cd046cf",
@@ -932,12 +997,13 @@
       "Badminton"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "a7eaec56df",
@@ -952,12 +1018,13 @@
       "Patinete"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "82de9c16d8",
@@ -972,12 +1039,13 @@
       "15"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1849",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "020544004a",
@@ -1012,12 +1080,13 @@
       "Zumba"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "6c13d9ee9a",
@@ -1032,12 +1101,13 @@
       "Levantamento de peso"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "f7aac0fc0b",
@@ -1052,12 +1122,13 @@
       "Asa-delta"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "63ef3d6537",
@@ -1072,12 +1143,14 @@
       "Mr. Universo"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:ef4295f947",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "5ac5776991",
@@ -1092,12 +1165,13 @@
       "Corrida da Lagoa"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "bb2ed5f42f",
@@ -1112,12 +1186,13 @@
       "Padel"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "76f2de571b",
@@ -1132,12 +1207,13 @@
       "Clinch"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "56208b6b6c",
@@ -1152,12 +1228,13 @@
       "Jungler"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "284652e6b0",
@@ -1192,12 +1269,14 @@
       "Maratona de Boston"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "35433c3fba",
@@ -1212,12 +1291,14 @@
       "7"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "c08eee973e",
@@ -1232,12 +1313,14 @@
       "Escócia"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "05b035a281",
@@ -1252,17 +1335,19 @@
       "2,35 metros"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "fd926499bf",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual é a largura oficial do gol de futebol?",
     "resposta": "7,32 metros",
     "alternativas": [
@@ -1272,12 +1357,15 @@
       "6,80 metros"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "6560a37ebb",
@@ -1292,12 +1380,14 @@
       "150"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "e57f3901df",
@@ -1312,12 +1402,13 @@
       "Garotas do Tchan"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "0f3abb56fe",
@@ -1332,12 +1423,13 @@
       "Barney"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "322442a578",
@@ -1352,12 +1444,13 @@
       "Jaspion"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "9a61eb3bb5",
@@ -1372,12 +1465,13 @@
       "Um Maluco no Pedaço"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3347",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "28dc500d1a",
@@ -1392,12 +1486,13 @@
       "Os Flintstones"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "33fffa3613",
@@ -1432,12 +1527,13 @@
       "Bonecos de Olinda"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "196abdad3a",
@@ -1452,12 +1548,13 @@
       "Paquitas"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "3f35378c38",
@@ -1472,12 +1569,13 @@
       "Doug"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "07a764b8bc",
@@ -1492,12 +1590,13 @@
       "Palhaço Atchim"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "5acc3d6eb8",
@@ -1512,12 +1611,13 @@
       "Ligeirinho"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "784fad55fa",
@@ -1532,12 +1632,13 @@
       "Hora de Aventura"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "56e5158f8f",
@@ -1552,12 +1653,13 @@
       "Kim Possible"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "61ecfe06f3",
@@ -1572,12 +1674,13 @@
       "Du, Dudu e Edu"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "876e008f65",
@@ -1592,12 +1695,14 @@
       "Ultraman"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "fba62abef8",
@@ -1612,12 +1717,13 @@
       "Jiraiya"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "b2f50ef067",
@@ -1632,12 +1738,14 @@
       "Chiquititas"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "7d7945329c",
@@ -1652,12 +1760,13 @@
       "Pogobol"
     ],
     "subtema": "Brinquedos e jogos de mesa",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "025dc87d01",
@@ -1672,12 +1781,14 @@
       "Flashman"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "5aab5c9e61",
@@ -1692,17 +1803,19 @@
       "Malhação"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "1f4ed4bcf8",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Em qual desenho de Craig McCracken amigos imaginários abandonados vivem numa casa de adoção?",
     "resposta": "A Mansão Foster para Amigos Imaginários",
     "alternativas": [
@@ -1712,12 +1825,15 @@
       "As Meninas Superpoderosas"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "6554e0ea80",
@@ -1732,17 +1848,19 @@
       "O Incrível Mundo de Gumball"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "42c75b0503",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual tipo de samba, de letras ufanistas, tem \"Aquarela do Brasil\" como maior exemplo?",
     "resposta": "Samba-exaltação",
     "alternativas": [
@@ -1752,12 +1870,15 @@
       "Samba-enredo"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v4)"
   },
   {
     "id": "8e3c125d64",
@@ -1772,12 +1893,14 @@
       "Pilantragem"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3257",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (7.0)"
+    "dup_regra": "resposta nova citada no texto antigo (7.0)",
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "a41593e743",
@@ -1792,18 +1915,20 @@
       "Mary Quant"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "7ea24b626c",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual desenho de 1990, produzido por Spielberg, trazia versões jovens dos Looney Tunes, como Babs e Buster?",
+    "pergunta": "Qual desenho de 1990, produzido por Spielberg, trazia jovens aprendizes dos Looney Tunes, como Babs e Buster?",
     "resposta": "Tiny Toons",
     "alternativas": [
       "Baby Looney Tunes",
@@ -1812,12 +1937,15 @@
       "Animaniacs"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "Babs e Buster são pupilos dos Looney Tunes, não versões jovens deles; enunciado precisado"
   },
   {
     "id": "2a37ffd923",
@@ -1832,12 +1960,13 @@
       "JPEG"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "5dc9f1295a",
@@ -1852,12 +1981,13 @@
       "Airbnb"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "1eda6a86dc",
@@ -1872,12 +2002,13 @@
       "Copiar e colar"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "139bb4fba3",
@@ -1892,12 +2023,13 @@
       "Área de trabalho"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "859be104fd",
@@ -1912,12 +2044,13 @@
       "Downloads"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "78c95b4542",
@@ -1932,12 +2065,13 @@
       "Tique duplo"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "dedc8a997b",
@@ -1952,12 +2086,13 @@
       "Grindr"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "c2ae620a9b",
@@ -1972,12 +2107,13 @@
       "OLX"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "42363b0687",
@@ -1992,12 +2128,14 @@
       "Formspring"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "1d8f4c3054",
@@ -2012,12 +2150,14 @@
       "Ipanema"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "3b8653ec7a",
@@ -2032,12 +2172,14 @@
       "Nexcare"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "55998f241a",
@@ -2052,12 +2194,13 @@
       "Visualização única"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "30a1af81d3",
@@ -2092,12 +2235,14 @@
       "Tellonym"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "dfe33b8f4f",
@@ -2112,12 +2257,14 @@
       "Joint Photographic Experts Group"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "8fc95b0422",
@@ -2132,12 +2279,14 @@
       "General Image Format"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "75a302d6b7",
@@ -2152,12 +2301,13 @@
       "Serrote e machado"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "05f7c66853",
@@ -2192,12 +2342,13 @@
       "Filtração"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "8df8e62ea7",
@@ -2212,12 +2363,14 @@
       "Apicultura"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "f399c335bd",
@@ -2232,12 +2385,13 @@
       "Polo aquático"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "64f037d20c",
@@ -2252,12 +2406,13 @@
       "Asa-delta"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2616",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "31fd288319",
@@ -2272,12 +2427,13 @@
       "Danny Phantom"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:b91feba8d9",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v4"
   },
   {
     "id": "ce492802e9",
@@ -2292,12 +2448,14 @@
       "Airbnb"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "eba232bf13",
@@ -2312,18 +2470,20 @@
       "2014"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true
   },
   {
     "id": "3c387f5be7",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Como eram chamados os trabalhadores e artesãos radicais de Paris na Revolução Francesa, que usavam calças compridas em vez de culotes?",
+    "pergunta": "Como eram chamados os trabalhadores e artesãos radicais de Paris que pressionavam a Convenção na Revolução Francesa?",
     "resposta": "Sans-culottes",
     "alternativas": [
       "Girondinos",
@@ -2332,11 +2492,14 @@
       "Sans-culottes"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v4",
+    "verificado_web": true,
+    "correcao": "o enunciado ('calças compridas em vez de culotes') traduzia o nome e entregava a resposta"
   }
 ]

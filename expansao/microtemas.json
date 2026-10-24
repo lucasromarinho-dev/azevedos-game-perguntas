@@ -2934,15 +2934,17 @@
   },
   "Celulares e apps: termos do dia a dia": {
     "categoria": "Tecnologia",
-    "candidatas": 12,
-    "existem": 1,
-    "descarte": 0.08,
+    "candidatas": 25,
+    "existem": 8,
+    "descarte": 0.32,
     "status": "aberto",
     "arquivos": [
       "r4-037e.txt",
       "r4-038.txt",
       "r4-038b.txt",
-      "r4-038e.txt"
+      "r4-038e.txt",
+      "r4-041.txt",
+      "r4-041b.txt"
     ]
   },
   "Abelhas e insetos: termos": {
@@ -3085,12 +3087,13 @@
   },
   "Mitologia nas palavras do dia a dia": {
     "categoria": "História",
-    "candidatas": 7,
+    "candidatas": 9,
     "existem": 2,
-    "descarte": 0.29,
+    "descarte": 0.22,
     "status": "aberto",
     "arquivos": [
-      "r4-038d.txt"
+      "r4-038d.txt",
+      "r4-041.txt"
     ]
   },
   "Povos, títulos e organizações (termos fáceis)": {
@@ -3140,12 +3143,15 @@
   },
   "Futebol brasileiro: gírias e termos": {
     "categoria": "Esportes",
-    "candidatas": 12,
-    "existem": 1,
-    "descarte": 0.08,
+    "candidatas": 25,
+    "existem": 3,
+    "descarte": 0.12,
     "status": "aberto",
     "arquivos": [
-      "r4-039.txt"
+      "r4-039.txt",
+      "r4-041.txt",
+      "r4-041b.txt",
+      "r4-041d.txt"
     ]
   },
   "Seleção brasileira: detalhes": {
@@ -3173,14 +3179,15 @@
   },
   "Tecnologia brasileira e anos 1990-2000": {
     "categoria": "Tecnologia",
-    "candidatas": 24,
-    "existem": 8,
-    "descarte": 0.33,
+    "candidatas": 31,
+    "existem": 9,
+    "descarte": 0.29,
     "status": "aberto",
     "arquivos": [
       "r4-039.txt",
       "r4-039b.txt",
-      "r4-039c.txt"
+      "r4-039c.txt",
+      "r4-041.txt"
     ]
   },
   "Corpo e animais: termos fáceis (2)": {
@@ -3205,23 +3212,25 @@
   },
   "Cartografia, fusos e bandeiras (termos)": {
     "categoria": "Geografia",
-    "candidatas": 13,
-    "existem": 8,
-    "descarte": 0.62,
+    "candidatas": 15,
+    "existem": 9,
+    "descarte": 0.6,
     "status": "saturado",
     "arquivos": [
-      "r4-040.txt"
+      "r4-040.txt",
+      "r4-041b.txt"
     ]
   },
   "Invenções do dia a dia": {
     "categoria": "História",
-    "candidatas": 9,
+    "candidatas": 11,
     "existem": 1,
-    "descarte": 0.11,
+    "descarte": 0.09,
     "status": "aberto",
     "arquivos": [
       "r4-040.txt",
-      "r4-040b.txt"
+      "r4-040b.txt",
+      "r4-041c.txt"
     ]
   },
   "Antiguidade: nomes pouco citados": {
@@ -3258,13 +3267,16 @@
   },
   "Regras de esportes pouco citados": {
     "categoria": "Esportes",
-    "candidatas": 9,
-    "existem": 3,
-    "descarte": 0.33,
+    "candidatas": 16,
+    "existem": 7,
+    "descarte": 0.44,
     "status": "aberto",
     "arquivos": [
       "r4-040.txt",
-      "r4-040b.txt"
+      "r4-040b.txt",
+      "r4-041b.txt",
+      "r4-041c.txt",
+      "r4-041d.txt"
     ]
   },
   "TV infantil e desenhos dos anos 1990-2000": {
@@ -3303,12 +3315,149 @@
   },
   "Computador e celular: termos do dia a dia": {
     "categoria": "Tecnologia",
+    "candidatas": 18,
+    "existem": 10,
+    "descarte": 0.56,
+    "status": "saturado",
+    "arquivos": [
+      "r4-040b.txt",
+      "r4-041c.txt",
+      "r4-041d.txt",
+      "r4-041e.txt"
+    ]
+  },
+  "Salgados, doces e sanduíches (Brasil e Portugal)": {
+    "categoria": "Geografia",
     "candidatas": 9,
     "existem": 3,
     "descarte": 0.33,
     "status": "aberto",
     "arquivos": [
-      "r4-040b.txt"
+      "r4-041.txt"
+    ]
+  },
+  "Apelidos de cidades": {
+    "categoria": "Geografia",
+    "candidatas": 6,
+    "existem": 2,
+    "descarte": 0.33,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041.txt"
+    ]
+  },
+  "Eleições e voto no Brasil (fatos neutros)": {
+    "categoria": "História",
+    "candidatas": 7,
+    "existem": 1,
+    "descarte": 0.14,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041.txt",
+      "r4-041b.txt"
+    ]
+  },
+  "Mulheres e povos na história (nomes pouco citados)": {
+    "categoria": "História",
+    "candidatas": 4,
+    "existem": 1,
+    "descarte": 0.25,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041.txt"
+    ]
+  },
+  "Saúde: especialidades e primeiros socorros": {
+    "categoria": "Ciências",
+    "candidatas": 12,
+    "existem": 0,
+    "descarte": 0,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041.txt"
+    ]
+  },
+  "Atletismo, ciclismo, tênis e lutas: detalhes": {
+    "categoria": "Esportes",
+    "candidatas": 7,
+    "existem": 4,
+    "descarte": 0.57,
+    "status": "saturado",
+    "arquivos": [
+      "r4-041.txt"
+    ]
+  },
+  "Cinema brasileiro: filmes e personagens": {
+    "categoria": "Entretenimento",
+    "candidatas": 15,
+    "existem": 2,
+    "descarte": 0.13,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041.txt"
+    ]
+  },
+  "Super-heróis: nomes de segunda linha": {
+    "categoria": "Entretenimento",
+    "candidatas": 7,
+    "existem": 1,
+    "descarte": 0.14,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041.txt",
+      "r4-041b.txt"
+    ]
+  },
+  "Novelas: personagens de segunda linha": {
+    "categoria": "Entretenimento",
+    "candidatas": 3,
+    "existem": 0,
+    "descarte": 0,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041c.txt",
+      "r4-041g.txt"
+    ]
+  },
+  "Reality e programas: termos": {
+    "categoria": "Entretenimento",
+    "candidatas": 4,
+    "existem": 1,
+    "descarte": 0.25,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041c.txt",
+      "r4-041d.txt"
+    ]
+  },
+  "Bairros famosos das capitais": {
+    "categoria": "Geografia",
+    "candidatas": 2,
+    "existem": 0,
+    "descarte": 0,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041c.txt"
+    ]
+  },
+  "Lutas: detalhes": {
+    "categoria": "Esportes",
+    "candidatas": 2,
+    "existem": 0,
+    "descarte": 0,
+    "status": "aberto",
+    "arquivos": [
+      "r4-041e.txt"
+    ]
+  },
+  "Celulares e gadgets: acessórios": {
+    "categoria": "Tecnologia",
+    "candidatas": 3,
+    "existem": 2,
+    "descarte": 0.67,
+    "status": "saturado",
+    "arquivos": [
+      "r4-041f.txt"
     ]
   }
 }

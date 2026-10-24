@@ -2559,11 +2559,12 @@
       {
         "lote": "029",
         "conferente": "conferente-v3",
-        "conferidas_sem_mudanca": 90,
+        "conferidas_sem_mudanca": 89,
         "corrigidas": 6,
-        "descartadas": 1,
+        "descartadas": 2,
         "motivos_descarte": {
-          "mesmo fato": 1
+          "mesmo fato": 1,
+          "espelho": 1
         },
         "perguntas_com_busca_web": 0,
         "por_categoria": {
@@ -2593,14 +2594,15 @@
             "descartadas": 0
           },
           "Tecnologia": {
-            "conferidas": 16,
+            "conferidas": 15,
             "corrigidas": 1,
-            "descartadas": 0
+            "descartadas": 1
           }
         },
         "minutos_aprox": 12,
         "descartes": [
-          "fe8979a520: mesmo fato que id:09c5dce2f0 (suspeita confirmada na geração)"
+          "fe8979a520: mesmo fato que id:09c5dce2f0 (suspeita confirmada na geração)",
+          "8da5da733f: espelho da pergunta 86a89f2407 (Hotbit), uma entrega a resposta da outra; mesmo conjunto de alternativas repetido no microtema"
         ],
         "correcoes": [
           "9ecaf5784d: a crema catalana espanhola é praticamente o mesmo doce; errada trocada por Áustria",
@@ -2614,15 +2616,15 @@
       {
         "lote": "030",
         "conferente": "conferente-v3",
-        "conferidas_sem_mudanca": 99,
-        "corrigidas": 1,
+        "conferidas_sem_mudanca": 98,
+        "corrigidas": 2,
         "descartadas": 0,
         "motivos_descarte": {},
         "perguntas_com_busca_web": 0,
         "por_categoria": {
           "Geografia": {
             "conferidas": 13,
-            "corrigidas": 1,
+            "corrigidas": 2,
             "descartadas": 0
           },
           "História": {
@@ -2654,7 +2656,8 @@
         "minutos_aprox": 10,
         "descartes": [],
         "correcoes": [
-          "fb0f5f5f57: o naan também é típico do Paquistão; errada trocada por Indonésia"
+          "fb0f5f5f57: o naan também é típico do Paquistão; errada trocada por Indonésia",
+          "20ea96e0c2: o gyros grego também é carne em espeto vertical servida no pão; errada Grécia trocada por Itália"
         ]
       },
       {

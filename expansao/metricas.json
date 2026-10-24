@@ -3588,6 +3588,69 @@
           "e3700bd88e: dificil -> medio",
           "b2f43972d3: dificil -> medio"
         ]
+      },
+      {
+        "lote": "038",
+        "conferente": "conferente-v4",
+        "conferidas_sem_mudanca": 100,
+        "corrigidas": 1,
+        "rebaixadas": 5,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 38,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "9db2bfafd1: duplicada: mesmo fato que banco:3381 ('guerreiro gaulês' Asterix) e 003:fc6492bc50 ('chefe gaulês' contra Júlio César); os enunciados entregam Gauleses"
+        ],
+        "correcoes": [
+          "9364cac25b: o Metropolitano não foi inaugurado em 2017: é o antigo La Peineta (1994), reformado e reaberto em 2017; enunciado ajustado"
+        ],
+        "rebaixamentos": [
+          "8a531169c9: dificil -> medio",
+          "18ff6ec515: dificil -> medio",
+          "40aa49800a: dificil -> medio",
+          "96268aee3f: dificil -> medio",
+          "5a9b8391f7: dificil -> medio"
+        ]
       }
     ],
     "rebaixamentos_r3": {

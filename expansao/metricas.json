@@ -1550,6 +1550,57 @@
         "perguntas": 46,
         "total": 117
       }
+    },
+    {
+      "lote": "045",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 99,
+      "validas": 94,
+      "descartadas": 5,
+      "taxa_descarte": 0.05,
+      "caracteres": 15438,
+      "tokens_aprox": 4411,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "fatos-r4-045.txt",
+        "fatos-r4-045b.txt",
+        "fatos-r4-045c.txt",
+        "r4-045.txt",
+        "r4-045b.txt",
+        "r4-045c.txt",
+        "r4-045d.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r4-045.txt",
+          "fatos-r4-045b.txt",
+          "fatos-r4-045c.txt",
+          "r4-045.txt",
+          "r4-045b.txt",
+          "r4-045c.txt",
+          "r4-045d.txt"
+        ],
+        "linhas": 86,
+        "existem": 8,
+        "risco": 10,
+        "tokens_aprox": 3606,
+        "nomes_sondados": 131,
+        "nomes_ausentes": 81,
+        "descarte": 0.09,
+        "candidatas_por_valida": 0.91
+      },
+      "perguntas": {
+        "escritas": 99,
+        "validas": 94,
+        "descartadas_detector": 5,
+        "descarte": 0.05,
+        "tokens_aprox": 4411
+      },
+      "tokens_por_valida": {
+        "listas": 38,
+        "perguntas": 47,
+        "total": 85
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -4475,6 +4526,65 @@
       "livres": 38,
       "caracteres": 3106,
       "tokens_aprox": 887
+    },
+    "fatos-r4-045.txt": {
+      "tipo": "fatos",
+      "linhas": 83,
+      "existem": 29,
+      "risco": 0,
+      "livres": 54,
+      "caracteres": 4086,
+      "tokens_aprox": 1167
+    },
+    "fatos-r4-045b.txt": {
+      "tipo": "fatos",
+      "linhas": 36,
+      "existem": 20,
+      "risco": 0,
+      "livres": 16,
+      "caracteres": 2109,
+      "tokens_aprox": 603
+    },
+    "r4-045.txt": {
+      "linhas": 66,
+      "existem": 7,
+      "risco": 8,
+      "livres": 51,
+      "caracteres": 4629,
+      "tokens_aprox": 1323
+    },
+    "fatos-r4-045c.txt": {
+      "tipo": "fatos",
+      "linhas": 12,
+      "existem": 1,
+      "risco": 0,
+      "livres": 11,
+      "caracteres": 381,
+      "tokens_aprox": 109
+    },
+    "r4-045b.txt": {
+      "linhas": 17,
+      "existem": 1,
+      "risco": 2,
+      "livres": 14,
+      "caracteres": 1186,
+      "tokens_aprox": 339
+    },
+    "r4-045c.txt": {
+      "linhas": 1,
+      "existem": 0,
+      "risco": 0,
+      "livres": 1,
+      "caracteres": 88,
+      "tokens_aprox": 25
+    },
+    "r4-045d.txt": {
+      "linhas": 2,
+      "existem": 0,
+      "risco": 0,
+      "livres": 2,
+      "caracteres": 141,
+      "tokens_aprox": 40
     }
   },
   "rodada3": {
@@ -4520,5 +4630,90 @@
       "Custo por válida subiu de cerca de 50 tokens (rodada 2) para cerca de 108: os nomes famosos acabaram e cada válida exige checar mais termos."
     ],
     "detector": "v4: tabela de sinônimos de entidades (transliterações e nomes alternativos), diminutivos, regras E2e, E7 e E8; pega 10/10 da rodada 2 e 69/76 (91%) da rodada 1. v4.1: resposta só numérica precisa de enunciado parecido para ser duplicada (field goal 3 x cesta de 3)."
+  },
+  "rodada4": {
+    "_leia": "Resumo da rodada 4 (lotes 036 a 045), gerada na branch expansao-r4. Status das novas: gerada (falta a conferência). Tokens estimados como nas outras rodadas.",
+    "validas": 1002,
+    "escritas": 1070,
+    "descartadas_detector": 68,
+    "descarte_detector": 0.064,
+    "validas_por_lote": {
+      "036": 108,
+      "037": 93,
+      "038": 107,
+      "039": 93,
+      "040": 107,
+      "041": 93,
+      "042": 107,
+      "043": 93,
+      "044": 107,
+      "045": 94
+    },
+    "composicao": {
+      "facil": 366,
+      "medio": 356,
+      "dificil": 280,
+      "recentes": 9,
+      "posicao_certa_ABCD": [
+        255,
+        251,
+        250,
+        246
+      ]
+    },
+    "por_categoria": {
+      "Geografia": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "História": {
+        "facil": 46,
+        "medio": 50,
+        "dificil": 45
+      },
+      "Ciências": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "Esportes": {
+        "facil": 65,
+        "medio": 66,
+        "dificil": 55
+      },
+      "Entretenimento": {
+        "facil": 95,
+        "medio": 95,
+        "dificil": 65
+      },
+      "Tecnologia": {
+        "facil": 60,
+        "medio": 55,
+        "dificil": 45
+      }
+    },
+    "filtro_antes_de_escrever": {
+      "termos_sondados_fatos": 4976,
+      "termos_com_zero_perguntas": 2031,
+      "candidatas": 1348,
+      "candidatas_existem": 246,
+      "candidatas_risco": 118,
+      "descarte_candidatas": 0.18
+    },
+    "variedade": {
+      "musica_no_entretenimento": "58 de 255 (23%), nenhuma do tipo qual banda gravou X",
+      "universos": "no máximo 3 por universo; o aviso de DC com 4 é falso positivo do variedade.mjs (Beco do Batman, bairro de São Paulo, casa com a palavra batman)",
+      "esportes": "13 subtemas; Brasileirão 56, outros esportes e e-sports 37, Olimpíadas 23"
+    },
+    "regua_dificil": "A partir do aviso da conferência r3 (65 difíceis rebaixadas), difícil só para detalhe, nome específico, data ou relação menos óbvia. Revisadas as difíceis já fechadas: Pipe (036) e Cavaquinho (038) rebaixadas para médio e repostas (Westfalenstadion, Elizeth Cardoso).",
+    "retiradas_pelo_gerador": "Lote 043: 9 gentílicos derivados do nome da cidade (Recifense, Teresinense...) retirados antes da entrega por serem fáceis demais e terem alternativas quase iguais; repostos por perguntas de comida e relevo.",
+    "metodo": "Respostas primeiro, sem exceção: sondas largas de termos e nomes de segunda linha com fatos.mjs --curto (só 0 ou 1 pergunta no banco), lista curta em candidatas/r4-0NN*.txt com candidatas.mjs --registrar, perguntas só das LIVRES. Microtemas novos que renderam: comidas de padaria e de restaurante, sons e coletivos de animais, especialidades médicas, instrumentos de medida, narradores e TV esportiva, futebol de rua, fandoms, lugares fictícios de séries e games, internet dos anos 2000 (Orkut, MSN), brincadeiras e cantigas, Velho Oeste.",
+    "saturados": "Termo com 0 pergunta ainda pode existir com outra grafia ou pergunta invertida: cerca de 18% das candidatas sem nenhuma citação já existiam (fusos e bandeiras, atalhos e telas de computador, detalhes famosos de esportes, especialidades médicas óbvias, piratas e Napoleão). Nomes famosos de todas as categorias seguem esgotados.",
+    "aprendizados": [
+      "A sonda de termos de segunda linha (lugares fictícios, bordões, apelidos, objetos do cotidiano) rende muito mais que nomes famosos: 41% dos termos sondados tinham 0 pergunta.",
+      "Falso positivo do detector continua comum quando a resposta é palavra do cotidiano citada em outra pergunta (Teresina, Sessão da Tarde, Natureza-morta, Casa de Vidro); foram aceitos como descarte, sem mexer no detector.",
+      "Os maiores gargalos foram História fácil e Tecnologia média; Esportes rendeu com narradores, futebol de rua, surfe e sinuca."
+    ]
   }
 }

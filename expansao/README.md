@@ -66,6 +66,15 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 - Lição da rodada: escrever de cabeça repete o banco (37% no lote 026). Termos e conceitos (sinuca, clave de sol, kernel, peneira) estão muito menos explorados que nomes famosos.
 - Conferência da rodada 3 (conferente-v3, independente do gerador): 1.000 perguntas dos lotes 026 a 035, 955 sem mudança, 41 corrigidas (quase todas errada defensável trocada ou enunciado que entregava a resposta) e 4 descartadas por duplicidade; detalhes por lote em `metricas.json` (`conferencia.lotes`) e amostra de 30 em `amostra-lucas-r3.md`.
 
+## Rodada 4 (lotes 036 a 045, branch `expansao-r4`)
+
+- 1.002 válidas (status `gerada`, falta conferir) de 1.070 escritas; descarte do detector de 6,4%. Composição igual à da rodada 3 (`plano-r4.json`): 366 fáceis, 356 médias, 280 difíceis; resumo completo em `metricas.json` (`rodada4`).
+- `faltam.mjs` passou a ler `plano-r4.json` para os lotes 036+ (antes só conhecia até a rodada 3). `variedade.mjs` só ganhou a nota de uso `36 45` no comentário; a lógica não mudou. O detector não foi alterado.
+- Sondas largas com `fatos.mjs --curto` (4.976 termos, 41% com zero perguntas) e listas `candidatas/r4-0NN*.txt`: cerca de 18% das candidatas sem citação ainda existiam com outra grafia ou invertidas.
+- Microtemas que renderam: comidas de padaria e de restaurante, sons e coletivos de animais, especialidades médicas, instrumentos de medida, narradores e TV esportiva, futebol de rua, fandoms, lugares fictícios de séries e games, Orkut e MSN, brincadeiras e cantigas, Velho Oeste.
+- Régua de difícil mais rígida (aviso da conferência r3): conceito conhecido pelo nome não é difícil. Pipe (036) e Cavaquinho (038) rebaixadas e repostas; no 043, nove gentílicos derivados do nome da cidade foram retirados antes da entrega.
+- Aviso de DC com 4 no `variedade.mjs` é falso positivo (Beco do Batman, bairro de São Paulo).
+
 ## Fluxo de um lote
 
 1. Escrever `fontes/lote-NNN.txt` (formato no topo de `montar-lote.mjs`), seguindo o guia de estilo e priorizando subtemas com pouca cobertura.

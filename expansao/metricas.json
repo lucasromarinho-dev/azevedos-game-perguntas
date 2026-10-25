@@ -3923,6 +3923,65 @@
           "2488c038ad: dificil -> medio",
           "9c188281aa: dificil -> medio"
         ]
+      },
+      {
+        "lote": "043",
+        "conferente": "conferente-v4",
+        "conferidas_sem_mudanca": 89,
+        "corrigidas": 3,
+        "rebaixadas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "fato ambíguo": 1
+        },
+        "perguntas_com_busca_web": 40,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "a113aae899: fato ambíguo: 'pingado' varia por região (leite com gotas de café no dicionário, café com leite em SP) e 'cortado' também é café com pouco leite"
+        ],
+        "correcoes": [
+          "eba851320d: errada 'Batalhão da Guarda Presidencial' era defensável em parte (também guarda o Planalto); trocada por 'Guarda Nacional'",
+          "7aee241a4c: errada 'Mop Tops' também foi apelido dos Beatles na imprensa; trocada por 'Golden Boys'",
+          "d398fd7d6d: 'cabelo penteado para trás' não se confirmou na fonte; descrição trocada pela da fonte"
+        ],
+        "rebaixamentos": []
       }
     ],
     "rebaixamentos_r3": {

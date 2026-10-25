@@ -3855,6 +3855,74 @@
           "dfcba233e4: dificil -> medio",
           "47a72a211a: dificil -> medio"
         ]
+      },
+      {
+        "lote": "042",
+        "conferente": "conferente-v4",
+        "conferidas_sem_mudanca": 95,
+        "corrigidas": 8,
+        "rebaixadas": 3,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 27,
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "41a1712bf5: duplicada: mesmo fato que banco:2588 (vuvuzelas na Copa da África do Sul, 2010), pergunta invertida"
+        ],
+        "correcoes": [
+          "7de9d3ea57: errada 'Grasnar' era defensável (o dicionário também a dá para o corvo); trocada por 'Trinar'",
+          "89fe4299b4: o recém-eclodido é tecnicamente 'larva', e alevino é a fase seguinte; enunciado e errada 'Larva' ajustados",
+          "2fda394e6b: o Hernando Siles fica a cerca de 3.580 m, não 'mais de 3.600'; número ajustado",
+          "ff2df66778: errada 'Ace' era próxima demais (matar os cinco sozinho); trocada por 'Flank'",
+          "599acebba5: a década varia entre as fontes (anos 1980 ou 1990), tirada do texto; errada 'Roda a Roda' (mesmo formato, de 2003) trocada por 'Qual É a Música?'",
+          "1ff1e44c07: fato errado: o Quarto Branco estreou no BBB 9 (2009), não no BBB 15; resposta corrigida",
+          "a463f4a134: errada 'Moobot' era defensável (também é bot de chat da Twitch com comandos); trocada por 'Cortana'",
+          "231057a985: errada 'Shin Bet' era defensável (é o serviço de segurança interna de Israel); trocada por 'Savak'"
+        ],
+        "rebaixamentos": [
+          "68f235c3cf: dificil -> medio",
+          "2488c038ad: dificil -> medio",
+          "9c188281aa: dificil -> medio"
+        ]
       }
     ],
     "rebaixamentos_r3": {

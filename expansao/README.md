@@ -2,6 +2,12 @@
 
 Pipeline para crescer o banco (`perguntas.json`, 4.580 perguntas) sem perder qualidade. Tudo acontece na branch `expansao`. **Nada aqui altera `perguntas.json` nem a branch `main`**, que o jogo e o app de TV leem em produção.
 
+## Publicação (24/10/2026)
+
+As rodadas 1 a 4 (lotes 001 a 045) foram publicadas na `main` em 24/10/2026, commit `8fbf0a3` ("Banco v4: +4402 perguntas da expansão conferida (8982 no total)"), com autorização do Lucas. As 4.402 `conferida` viraram `aprovada` (`aprovado_em: "2026-10-24"`, commit `73bfbf5` nesta branch) e entraram depois das 4.580 da `main` (base com a auditoria `d18a698`), na ordem dos lotes, só com os campos do jogo. Validador do jogo (`montarBanco`): 8.982 válidas, 0 descartadas; nenhum enunciado repetido; as 4.580 antigas idênticas byte a byte. A pasta `expansao/` não foi para a `main`.
+
+Atenção para a próxima rodada: o `perguntas.json` desta branch ainda é o banco antigo (4.580). Antes de gerar lotes novos, trazer o da `main` (`git checkout origin/main -- perguntas.json`) para o detector de duplicadas comparar com as 8.982, e não reaproveitar status `aprovada` dos lotes 001 a 045 (já estão publicadas).
+
 ## Arquivos
 
 | Caminho | O que é |

@@ -5372,5 +5372,22 @@
       "Falso positivo do detector continua comum quando a resposta é palavra do cotidiano citada em outra pergunta (Teresina, Sessão da Tarde, Natureza-morta, Casa de Vidro); foram aceitos como descarte, sem mexer no detector.",
       "Os maiores gargalos foram História fácil e Tecnologia média; Esportes rendeu com narradores, futebol de rua, surfe e sinuca."
     ]
+  },
+  "publicacao": {
+    "data": "2026-10-24",
+    "rodadas": "1 a 4 (lotes 001 a 045)",
+    "commit_main": "8fbf0a3",
+    "commit_aprovacao_expansao": "73bfbf5",
+    "base_main": "d18a698",
+    "antigas": 4580,
+    "novas": 4402,
+    "total": 8982,
+    "validador_jogo": {
+      "validas": 8982,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 2091071,
+    "obs": "As 4.402 conferida viraram aprovada (aprovado_em 2026-10-24) e foram anexadas depois das 4.580 da main, na ordem dos lotes, so com os campos do jogo. Pasta expansao/ nao foi para a main."
   }
 }

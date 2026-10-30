@@ -12,14 +12,16 @@
       "Cuca"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:d69f2dde08",
     "recente": false,
     "verificado_web": "pt.wikipedia: Lista de personagens de Sítio do Picapau Amarelo",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Lista de personagens de Sítio do Picapau Amarelo"
   },
   {
     "id": "c96e010b51",
@@ -34,13 +36,15 @@
       "Maria Bethânia"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Maria Bethânia",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Caetano Veloso"
   },
   {
     "id": "b146689acb",
@@ -55,13 +59,15 @@
       "Escobar"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Clone",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: O Clone"
   },
   {
     "id": "814cd3a0e9",
@@ -76,14 +82,16 @@
       "Rafael Portugal"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3223",
     "recente": false,
     "verificado_web": "pt.wikipedia: Escolinha do Professor Raimundo",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (31.2)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Bruno Mazzeo"
   },
   {
     "id": "90b1db0ac8",
@@ -98,13 +106,15 @@
       "Marreco"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Cultura Genial e TV Tropes",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Cidade de Deus (filme)"
   },
   {
     "id": "36833f9444",
@@ -119,13 +129,15 @@
       "Edinalva"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Força do Querer",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: A Força do Querer"
   },
   {
     "id": "c982ca13c2",
@@ -140,13 +152,15 @@
       "Clara Nunes"
     ],
     "subtema": "musica",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte1): sambas dos anos 1970; os títulos são pouco reconhecidos fora de quem gosta de samba antigo",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Clara Nunes",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Clara Nunes"
   },
   {
     "id": "d7d7b25d04",
@@ -161,13 +175,15 @@
       "Prova do Anjo"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Big Brother Brasil",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Big Brother Brasil 25"
   },
   {
     "id": "4959680810",
@@ -182,14 +198,16 @@
       "Rex"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:744cf8800f",
     "recente": false,
     "verificado_web": "pt.wikipedia: Monicão",
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.3)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Mônica"
   },
   {
     "id": "b558fd960e",
@@ -204,14 +222,16 @@
       "Casablanca"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3404",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Clone",
     "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.2)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: O Clone"
   },
   {
     "id": "df845040b6",
@@ -221,19 +241,22 @@
     "resposta": "Sandy & Junior",
     "alternativas": [
       "Sandy & Junior",
-      "Tchakabum",
-      "Jeito Moleque",
-      "Twister"
+      "Bruno & Marrone",
+      "Rionegro & Solimões",
+      "Edson & Hudson"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3403",
     "recente": false,
     "verificado_web": "pt.wikipedia: Sandy & Junior",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Sandy & Junior",
+    "correcao": "erradas eram grupos e a pergunta pede uma dupla; trocadas por duplas (Bruno & Marrone, Rionegro & Solimões, Edson & Hudson) (conferente-reposicao-2-br-parte1)"
   },
   {
     "id": "8fa2dc9a75",
@@ -248,14 +271,16 @@
       "Carrinho de mão"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:8427",
     "recente": false,
     "verificado_web": "web: NSC Total",
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (8.1, sim 0.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: NSC Total e SBT News (\"Taca-le pau, Marcos\", carrinho de rolimã)"
   },
   {
     "id": "957700e47f",
@@ -270,13 +295,15 @@
       "Thiago Brava"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Pantanal (2022)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Gabriel Sater"
   },
   {
     "id": "d267c6d80c",
@@ -291,13 +318,15 @@
       "Lexa"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Whindersson Nunes",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Luísa Sonza"
   },
   {
     "id": "39f94db9b8",
@@ -312,13 +341,15 @@
       "Indústrias Acme"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Casseta & Planeta",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Casseta & Planeta"
   },
   {
     "id": "b02e2e5847",
@@ -333,14 +364,16 @@
       "Cezar & Paulinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:41a647396b",
     "recente": false,
     "verificado_web": "pt.wikipedia: Zezé Di Camargo & Luciano",
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.8)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Discografia de Zezé Di Camargo & Luciano"
   },
   {
     "id": "0d99b4eccf",
@@ -355,13 +388,15 @@
       "Fanny"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Verdades Secretas",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Camila Queiroz"
   },
   {
     "id": "06825c2a23",
@@ -376,14 +411,16 @@
       "Padre João"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3370",
     "recente": false,
     "verificado_web": "web: Correio Braziliense e O Povo",
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (20.7)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Chicó"
   },
   {
     "id": "784a345362",
@@ -398,14 +435,16 @@
       "Thiaguinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3629",
     "recente": false,
     "verificado_web": "pt.wikipedia: Thiaguinho",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Thiaguinho"
   },
   {
     "id": "94a6e60ad6",
@@ -420,14 +459,16 @@
       "Bruna Lombardi"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3284",
     "recente": true,
     "verificado_web": "pt.wikipedia: Vale Tudo (2025)",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "en.wikipedia: Vale Tudo (2025 TV series)"
   },
   {
     "id": "4498678e4c",
@@ -442,13 +483,15 @@
       "Sete"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cebolinha (personagem)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Lista de personagens de Turma da Mônica"
   },
   {
     "id": "d80e845869",
@@ -463,13 +506,15 @@
       "Christiane Pelajo"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Metrópoles e Rolling Stone Brasil",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Rolling Stone Brasil (memes de 2011) e Metrópoles (Sandra Annenberg, Jornal Hoje)"
   },
   {
     "id": "d6175de40c",
@@ -484,13 +529,15 @@
       "Gabi Martins"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 22",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Jade Picon"
   },
   {
     "id": "a0f667a506",
@@ -505,13 +552,15 @@
       "Paulo"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Carrossel (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Carrossel 2: O Sumiço de Maria Joaquina"
   },
   {
     "id": "aff2e9833e",
@@ -526,14 +575,16 @@
       "Reginaldo Rossi"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3392",
     "recente": false,
     "verificado_web": "pt.wikipedia: Reginaldo Rossi",
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.2, sim 0.3)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Reginaldo Rossi"
   },
   {
     "id": "59c7d06b1c",
@@ -548,14 +599,16 @@
       "Beijo do Gordo"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:4d32215f07",
     "recente": false,
     "verificado_web": "pt.wikipedia: Jô Soares",
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (11.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Jô Soares"
   },
   {
     "id": "f83d5989e9",
@@ -570,13 +623,15 @@
       "Pequena Travessa"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Carinha de Anjo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Carinha de Anjo"
   },
   {
     "id": "49c89961fb",
@@ -591,14 +646,16 @@
       "Sai daí, Jéssica!"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3085",
     "recente": false,
     "verificado_web": "web: O Imparcial e Know Your Meme",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.7)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Know Your Meme e O Imparcial (\"Já acabou, Jéssica?\", 2015)"
   },
   {
     "id": "170a449650",
@@ -613,13 +670,15 @@
       "Padre Zezinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "en.wikipedia: Músicas para Louvar ao Senhor; web: eBiografia",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Músicas para Louvar ao Senhor"
   },
   {
     "id": "8b9991d454",
@@ -634,13 +693,15 @@
       "Pitoco e Taco"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte1): personagens do \"Xou da Xuxa\" (1986-1992) pouco lembrados; antigo para a régua",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Xou da Xuxa",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Xou da Xuxa"
   },
   {
     "id": "c4cda62298",
@@ -655,14 +716,16 @@
       "Toicinho"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5205",
     "recente": true,
     "verificado_web": "web: Correio Braziliense e Meio & Mensagem",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.8)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Correio Braziliense, Meio & Mensagem e Know Your Meme (\"calma, calabreso\")"
   },
   {
     "id": "a7a1f4b05e",
@@ -677,14 +740,16 @@
       "Sophia Abrahão"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3658",
     "recente": false,
     "verificado_web": "web: Metrópoles e Lance",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Metrópoles, Lance e Bem Paraná (namoro de 2012 a 2018)"
   },
   {
     "id": "c4e206854a",
@@ -699,13 +764,15 @@
       "Banco de praça"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Hebe Camargo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Hebe Camargo"
   },
   {
     "id": "0cc1d11923",
@@ -720,14 +787,16 @@
       "Vila do Rock"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:c0953f166a",
     "recente": false,
     "verificado_web": "pt.wikipedia: Rock in Rio",
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 16.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Rock in Rio"
   },
   {
     "id": "6565221843",
@@ -742,14 +811,16 @@
       "Miá Mello"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4530",
     "recente": false,
     "verificado_web": "pt.wikipedia: Mônica Martelli",
     "dup_regra": "mesma resposta, assunto vizinho (6.7, 13% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Mônica Martelli"
   },
   {
     "id": "86813e783b",
@@ -764,13 +835,15 @@
       "Marcos Plonka"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Ivo Holanda",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Ivo Holanda"
   },
   {
     "id": "e968ecdc2e",
@@ -785,13 +858,15 @@
       "Divã"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Meu Passado Me Condena",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Meu Passado Me Condena"
   },
   {
     "id": "145069aaf3",
@@ -806,14 +881,16 @@
       "Viradouro"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4935",
     "recente": false,
     "verificado_web": "pt.wikipedia: Beija-flor",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Beija-Flor (escola de samba)"
   },
   {
     "id": "3321708656",
@@ -828,14 +905,16 @@
       "Anderson Varejão"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:2544",
     "recente": false,
     "verificado_web": "pt.wikipedia: Oscar Schmidt",
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Tadeu Schmidt"
   },
   {
     "id": "65c277234f",
@@ -850,13 +929,15 @@
       "Band"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Faustão",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Faustão na Band"
   },
   {
     "id": "be4833837b",
@@ -871,13 +952,15 @@
       "Daniella Cicarelli"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Daniella Cicarelli",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Daniella Cicarelli"
   },
   {
     "id": "6789e827b3",
@@ -892,14 +975,16 @@
       "Você Sabia?"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5441",
     "recente": false,
     "verificado_web": "pt.wikipedia: Você Sabia?",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Lista de personalidades do YouTube"
   },
   {
     "id": "45f7801ec3",
@@ -914,14 +999,16 @@
       "Thaeme & Thiago"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6963",
     "recente": false,
     "verificado_web": "pt.wikipedia: João Neto & Frederico",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: João Neto & Frederico"
   },
   {
     "id": "729ef3c724",
@@ -936,13 +1023,15 @@
       "Pedaço de Mim"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Pedaço de Mim (série de televisão)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Pedaço de Mim (série de televisão)"
   },
   {
     "id": "5cce60d272",
@@ -957,14 +1046,16 @@
       "A Máquina"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3239",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Homem do Futuro",
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (17.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Wagner Moura"
   },
   {
     "id": "b9957f1cbf",
@@ -979,13 +1070,15 @@
       "Bacon"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cascão",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Cascão"
   },
   {
     "id": "464e17c443",
@@ -1000,13 +1093,15 @@
       "São Paulo"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Marília Mendonça",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Marília Mendonça"
   },
   {
     "id": "b2bb5a5a0a",
@@ -1021,13 +1116,15 @@
       "Cinema Especial"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Intercine",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Filmow (Intercine, votação por telefone 0800 no intervalo)"
   },
   {
     "id": "3a50167d8c",
@@ -1042,13 +1139,15 @@
       "Holofote"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: DCI e Folha de Pernambuco",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: DCI (o que é o raio-x do BBB)"
   },
   {
     "id": "8a7539705e",
@@ -1063,13 +1162,15 @@
       "Conversa Fiada"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Greg News",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Gregorio Duvivier"
   },
   {
     "id": "879f88a8e6",
@@ -1084,13 +1185,15 @@
       "Raul"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Viagem (1994)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: A Viagem (1994)"
   },
   {
     "id": "6160055a58",
@@ -1105,13 +1208,15 @@
       "MC Pipokinha"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: MC Loma e As Gêmeas Lacração",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: MC Loma e As Gêmeas Lacração"
   },
   {
     "id": "e89a135e17",
@@ -1126,13 +1231,15 @@
       "Rafael Cardoso"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Tatá Werneck",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Tatá Werneck"
   },
   {
     "id": "932564e5d5",
@@ -1147,14 +1254,16 @@
       "Atropelando com o carro"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3457",
     "recente": false,
     "verificado_web": "pt.wikipedia: Senhora do Destino",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Senhora do Destino"
   },
   {
     "id": "477b664aa5",
@@ -1169,13 +1278,15 @@
       "Gina Atrevida"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Know Your Meme",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Know Your Meme e Acontecendo Aqui (página Gina Indelicada, palitos Gina)"
   },
   {
     "id": "8bd3ce561e",
@@ -1190,13 +1301,15 @@
       "MC Daleste"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: MC Guimê",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: MC Guimê"
   },
   {
     "id": "2c055cf92b",
@@ -1211,13 +1324,15 @@
       "SBT"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Pantanal (1990)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Rede Manchete"
   },
   {
     "id": "b357958c02",
@@ -1232,13 +1347,15 @@
       "Rosi Campos"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sai de Baixo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Sai de Baixo"
   },
   {
     "id": "01a62a8f3e",
@@ -1253,14 +1370,16 @@
       "Uma cachorra"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3302",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Auto da Compadecida (filme)",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: O Auto da Compadecida (filme)"
   },
   {
     "id": "ed06e4168e",
@@ -1275,14 +1394,16 @@
       "Socorro, Meu Restaurante!"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9624",
     "recente": false,
     "verificado_web": "pt.wikipedia: Pesadelo na Cozinha",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Pesadelo na Cozinha"
   },
   {
     "id": "ef0b709d6b",
@@ -1297,13 +1418,15 @@
       "Lívia"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Outro Lado do Paraíso",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: O Outro Lado do Paraíso"
   },
   {
     "id": "70436cf42f",
@@ -1318,13 +1441,15 @@
       "MC Sapão"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Dança do Créu",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Dança do Créu"
   },
   {
     "id": "a9cae7702e",
@@ -1339,13 +1464,15 @@
       "Rochelle"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Segundo Sol",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Adriana Esteves"
   },
   {
     "id": "ddb15e2439",
@@ -1360,14 +1487,16 @@
       "Bom Gosto"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5505",
     "recente": false,
     "verificado_web": "pt.wikipedia: Grupo Revelação",
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 11.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Tá Escrito"
   },
   {
     "id": "29eca28d3e",
@@ -1382,13 +1511,15 @@
       "Draw Something"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Gartic",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Gartic"
   },
   {
     "id": "1a4afbc6d4",
@@ -1403,13 +1534,15 @@
       "Sete Vidas"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Babilônia (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Babilônia (telenovela)"
   },
   {
     "id": "de90b25b4b",
@@ -1424,13 +1557,15 @@
       "Girl from Rio"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Anitta",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Girl from Rio"
   },
   {
     "id": "1215acfbd3",
@@ -1445,14 +1580,16 @@
       "Eduardo e Mônica"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:d5498f0cdd",
     "recente": true,
     "verificado_web": "pt.wikipedia: Eduardo e Mônica (filme)",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Legião Urbana"
   },
   {
     "id": "54b9018d3b",
@@ -1467,13 +1604,15 @@
       "Dona Cotinha"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Chico Bento",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Chico Bento"
   },
   {
     "id": "6cde86abd1",
@@ -1488,13 +1627,15 @@
       "Troca de Esposas"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Troca de Esposas",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Troca de Esposas"
   },
   {
     "id": "6fffacbd7c",
@@ -1509,13 +1650,15 @@
       "Lídia"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Por Amor (telenovela brasileira)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Susana Vieira"
   },
   {
     "id": "72920dcf98",
@@ -1530,13 +1673,15 @@
       "Tradição"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Michel Teló",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Michel Teló"
   },
   {
     "id": "e92e568a93",
@@ -1551,14 +1696,16 @@
       "Diógenes"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3283",
     "recente": false,
     "verificado_web": "pt.wikipedia: Avenida Brasil (telenovela)",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.8)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Avenida Brasil (telenovela)"
   },
   {
     "id": "be623f2bb3",
@@ -1573,13 +1720,15 @@
       "Naiara Azevedo"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Naiara Azevedo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Naiara Azevedo"
   },
   {
     "id": "f52861add3",
@@ -1594,13 +1743,15 @@
       "Azambuja"
     ],
     "subtema": "humor",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte1): personagem secundário de Chico Anysio, pouco lembrado hoje (os conhecidos são Professor Raimundo, Bento Carneiro, Justo Veríssimo)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Chico Anysio",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Chico Anysio"
   },
   {
     "id": "7b940e8675",
@@ -1615,13 +1766,15 @@
       "Marcos Palmeira"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Velho Chico (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Domingos Montagner"
   },
   {
     "id": "da4ebfef35",
@@ -1636,14 +1789,16 @@
       "Vera Fischer"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:95412ead88",
     "recente": false,
     "verificado_web": "pt.wikipedia: Vera Fischer",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Vera Fischer"
   },
   {
     "id": "523bc335aa",
@@ -1658,13 +1813,15 @@
       "Caio"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 21",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Viih Tube"
   },
   {
     "id": "eac6fca154",
@@ -1679,13 +1836,15 @@
       "Na Moral"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Amor & Sexo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Amor & Sexo"
   },
   {
     "id": "e942e78be8",
@@ -1700,14 +1859,16 @@
       "Preta Gil"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:6367",
     "recente": false,
     "verificado_web": "pt.wikipedia: Preta Gil",
     "dup_regra": "E2 mesma resposta e mesmo assunto (33.5, 100% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Preta Gil"
   },
   {
     "id": "00b944e979",
@@ -1722,13 +1883,15 @@
       "Doutor Tristeza"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Super Xuxa contra Baixo Astral",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Xuxa"
   },
   {
     "id": "7290c97439",
@@ -1743,13 +1906,15 @@
       "Escola em Casa"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Telecurso",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Telecurso"
   },
   {
     "id": "c9c1a8ea16",
@@ -1764,13 +1929,15 @@
       "Família Becel"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Revista Repensar e Recanto das Letras",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "web: Recanto das Letras (\"Família Doriana é sinônimo de família feliz?\") e Revista Repensar"
   },
   {
     "id": "af12345372",
@@ -1785,14 +1952,16 @@
       "A Turma do Didi"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5122",
     "recente": false,
     "verificado_web": "pt.wikipedia: A Turma do Didi",
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: A Turma do Didi"
   },
   {
     "id": "87204bca4f",
@@ -1807,13 +1976,15 @@
       "Dinheiro na Mão"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Nathalia Arcuri",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Nathalia Arcuri"
   },
   {
     "id": "a840655b26",
@@ -1828,13 +1999,15 @@
       "Homem com H"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Homem com H",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Ney Matogrosso"
   },
   {
     "id": "9ae0aa1b0e",
@@ -1849,13 +2022,15 @@
       "CCXP"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: CCXP",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: CCXP"
   },
   {
     "id": "dce6a8365c",
@@ -1870,13 +2045,15 @@
       "Bruno Gagliasso"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6654",
     "recente": false,
     "verificado_web": "pt.wikipedia: Cauã Reymond",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte1",
+    "verificado_web_conferente": "pt.wikipedia: Grazi Massafera"
   }
 ]

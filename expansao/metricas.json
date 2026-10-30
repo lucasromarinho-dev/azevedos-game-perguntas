@@ -7754,25 +7754,14 @@
       "checagem_web_complementar": {
         "data": "30/10/2026",
         "alvo": "risco_sem_verificado_web (210 ids)",
-        "buscas_web": 200,
+        "buscas_web": 209,
         "obs_buscas": "WebSearch e leitura de páginas (Wikipédia, dicionários Dicio e Priberam, imprensa); uma página confirmando até 6 fatos quando possível (signos, datas comemorativas, notas de dólar, domínios)",
-        "confirmadas_sem_mudanca": 189,
+        "confirmadas_sem_mudanca": 197,
         "corrigidas": 9,
         "rebaixadas": 3,
         "descartadas": 1,
-        "sem_checar": 8,
-        "ids_sem_checar": {
-          "063": [
-            "28dab6c759",
-            "5cce87d6e5",
-            "82d601bd5e",
-            "a2008a5e47",
-            "c386c14364",
-            "73958b6507",
-            "87e8cec80a",
-            "0662b8b37e"
-          ]
-        },
+        "sem_checar": 0,
+        "ids_sem_checar": {},
         "corrigidas_detalhe": {
           "d66873a061": "errada Quirguistanês é gentílico válido; trocada por Quirguense",
           "88192f5193": "canastra não é 'a que vale mais pontos'; enunciado reescrito",
@@ -7800,11 +7789,29 @@
           "060": "21/0/0",
           "061": "18/1/0",
           "062": "25/0/0 (+1 rebaixada)",
-          "063": "27/1/0, 8 sem checar",
+          "063": "35/1/0",
           "064": "16/1/0",
           "065": "18/0/0"
         },
-        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas e rebaixadas também ganharam verificado_web; correções anotadas no campo correcao da ficha com '(checagem web complementar r6)'"
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas e rebaixadas também ganharam verificado_web; correções anotadas no campo correcao da ficha com '(checagem web complementar r6)'",
+        "checagem_final_063": {
+          "data": "30/10/2026",
+          "buscas_web": 9,
+          "confirmadas_sem_mudanca": 8,
+          "corrigidas": 0,
+          "descartadas": 0,
+          "ids": [
+            "28dab6c759",
+            "5cce87d6e5",
+            "82d601bd5e",
+            "a2008a5e47",
+            "c386c14364",
+            "73958b6507",
+            "87e8cec80a",
+            "0662b8b37e"
+          ],
+          "obs": "yuppies (young urban professionals, anos 1980), orégano na pizza, trufa farejada por cães e porcos, Amanita muscaria, endro = dill (erva-doce é funcho, outra planta), visual punk dos anos 1970, Linguado (nome oficial da Disney Brasil), botão soneca; nenhuma errada defensável"
+        }
       }
     }
   },

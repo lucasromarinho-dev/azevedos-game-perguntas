@@ -19381,5 +19381,147 @@
       "erradas_trocadas_aprox": 100,
       "enunciados_reescritos_aprox": 30
     }
+  },
+  "entretenimento_limpeza_2": {
+    "data": "2026-10-30",
+    "status": "proposta (nada publicado, nada gerado)",
+    "_leia": "Segunda limpeza de Entretenimento sobre a v11. Ver README, seção Entretenimento: segunda limpeza.",
+    "banco": "origin/main 66c0421 (v11)",
+    "total_entretenimento": 2898,
+    "sai": 707,
+    "fica": 2191,
+    "sai_por_motivo": {
+      "estrangeira-nicho": 215,
+      "br-nicho": 192,
+      "estrangeira-antiga": 130,
+      "arte-literatura": 91,
+      "bastidor": 67,
+      "outro": 12
+    },
+    "sai_por_dificuldade": {
+      "facil": 8,
+      "medio": 253,
+      "dificil": 446
+    },
+    "fica_por_dificuldade": {
+      "facil": 972,
+      "medio": 961,
+      "dificil": 258
+    },
+    "sai_por_origem": {
+      "estrangeira": 398,
+      "br": 292,
+      "mista": 17
+    },
+    "sai_da_reposicao_111_114": 92,
+    "fatia_br": {
+      "antes": "43,6% (1263/2898)",
+      "depois_sem_reposicao": "44,3% (971/2191)",
+      "com_plano_441_br": "48,7%",
+      "com_707_br": "57,9%"
+    },
+    "plano_reposicao": {
+      "total": 707,
+      "pop_br": {
+        "total": 441,
+        "facil": 8,
+        "medio": 253,
+        "dificil": 180,
+        "por_subtema": {
+          "tv-novela": [
+            2,
+            70,
+            48
+          ],
+          "musica": [
+            2,
+            65,
+            43
+          ],
+          "humor": [
+            1,
+            22,
+            17
+          ],
+          "celebridades": [
+            0,
+            15,
+            10
+          ],
+          "cinema-nacional": [
+            1,
+            20,
+            14
+          ],
+          "quadrinhos": [
+            0,
+            12,
+            8
+          ],
+          "games-internet": [
+            1,
+            20,
+            14
+          ],
+          "reality": [
+            1,
+            17,
+            12
+          ],
+          "esporte-entretenimento": [
+            0,
+            12,
+            14
+          ]
+        },
+        "_ordem": "[facil, medio, dificil]"
+      },
+      "estrangeiro_muito_popular_dificil": 266,
+      "capacidade_estimada_br": {
+        "tv-novela": [
+          200,
+          60
+        ],
+        "musica": [
+          180,
+          50
+        ],
+        "humor": [
+          60,
+          20
+        ],
+        "celebridades": [
+          40,
+          10
+        ],
+        "cinema-nacional": [
+          50,
+          15
+        ],
+        "quadrinhos": [
+          35,
+          10
+        ],
+        "games-internet": [
+          60,
+          15
+        ],
+        "reality": [
+          50,
+          15
+        ],
+        "esporte-entretenimento": [
+          40,
+          15
+        ],
+        "_ordem": "[total, dificeis]"
+      }
+    },
+    "amostra": {
+      "arquivo": "amostra-lucas-entretenimento-2.md",
+      "semente": 20261109,
+      "sai": 25,
+      "estrangeiras_fica": 15
+    }
   }
 }

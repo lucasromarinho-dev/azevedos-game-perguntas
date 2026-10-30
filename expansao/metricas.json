@@ -12094,5 +12094,22 @@
     "gargalo": "Fáceis de Esportes e de Tecnologia e difíceis de Esportes. O lote 075 ficou com 90 (faltaram 2 fáceis e 4 difíceis de Esportes); 070 e 074 com 106.",
     "sobreposicao_r6": "A rodada 6 escolheu os mesmos microtemas sugeridos (dança, circo, tirinhas, laboratório, bairros, técnicos campeões, olimpíadas, Kentucky Derby, Victoria). A cada merge as perguntas da r7 que repetiam fato da r6 foram descartadas e repostas; antes de montar cada lote as respostas foram cruzadas com o checkout da r6, inclusive com o trabalho não commitado. Ver motivo das descartadas.",
     "suspeitas_revisadas": "Válidas com dup certa que eram falso positivo (mesma resposta ou termo, fato diferente) foram mantidas com dup suspeita e campo dup_revisado."
+  },
+  "publicacao_r7": {
+    "data": "2026-10-30",
+    "rodadas": "7 (lotes 066 a 075)",
+    "commit_main": "db476d1",
+    "commit_aprovacao_expansao": "e73ef51",
+    "base_main": "68ff1de",
+    "antigas": 10933,
+    "novas": 972,
+    "total": 11905,
+    "validador_jogo": {
+      "validas": 11905,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 2762760,
+    "obs": "As 972 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 10.933 da main (banco v6), na ordem dos lotes, so com os campos do jogo. Antes, as 22 que faltavam na checagem web complementar foram confirmadas (commit 71396c7). Pasta expansao/ nao foi para a main."
   }
 }

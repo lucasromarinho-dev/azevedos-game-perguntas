@@ -86,10 +86,10 @@
     "pergunta": "Qual estado americano tem o apelido de \"Aloha State\"?",
     "resposta": "Havaí",
     "alternativas": [
-      "Califórnia",
+      "Oregon",
       "Havaí",
       "Flórida",
-      "Alasca"
+      "Louisiana"
     ],
     "subtema": "Capitais e países do mundo",
     "status": "gerada",
@@ -97,7 +97,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Califórnia\" trocada por \"Oregon\" (era resposta de outra pergunta); gerador r8: errada \"Alasca\" trocada por \"Louisiana\" (era resposta de outra pergunta)"
   },
   {
     "id": "3e56247ef1",
@@ -146,9 +147,9 @@
     "pergunta": "Qual ilha do litoral sul paulista, com quase 70 km de praia contínua, é também um município?",
     "resposta": "Ilha Comprida",
     "alternativas": [
-      "Ilha Anchieta",
+      "Ilha de Superagui",
       "Ilhabela",
-      "Ilha do Cardoso",
+      "Ilha do Bom Abrigo",
       "Ilha Comprida"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
@@ -157,7 +158,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Ilha Anchieta\" trocada por \"Ilha de Superagui\" (era resposta de outra pergunta); gerador r8: errada \"Ilha do Cardoso\" trocada por \"Ilha do Bom Abrigo\" (era resposta de outra pergunta)"
   },
   {
     "id": "bc2889931c",
@@ -307,7 +309,7 @@
     "resposta": "Roquette-Pinto",
     "alternativas": [
       "Ary Barroso",
-      "Assis Chateaubriand",
+      "Renato Murce",
       "Roquette-Pinto",
       "César Ladeira"
     ],
@@ -317,7 +319,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Assis Chateaubriand\" trocada por \"Renato Murce\" (era resposta de outra pergunta)"
   },
   {
     "id": "2f847a96bf",
@@ -386,10 +389,10 @@
     "pergunta": "Como se chama o abrigo coberto onde ficam cavalos e vacas?",
     "resposta": "Estábulo",
     "alternativas": [
-      "Galinheiro",
-      "Aprisco",
+      "Pombal",
+      "Viveiro",
       "Estábulo",
-      "Canil"
+      "Redil"
     ],
     "subtema": "Animais",
     "status": "gerada",
@@ -397,7 +400,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Galinheiro\" trocada por \"Pombal\" (era resposta de outra pergunta); gerador r8: errada \"Aprisco\" trocada por \"Viveiro\" (era resposta de outra pergunta); gerador r8: errada \"Canil\" trocada por \"Redil\" (era resposta de outra pergunta)"
   },
   {
     "id": "ee48327254",
@@ -407,7 +411,7 @@
     "resposta": "Galinheiro",
     "alternativas": [
       "Colmeia",
-      "Canil",
+      "Coelheira",
       "Galinheiro",
       "Pombal"
     ],
@@ -417,7 +421,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Canil\" trocada por \"Coelheira\" (era resposta de outra pergunta)"
   },
   {
     "id": "c3e8ff4493",
@@ -427,8 +432,8 @@
     "resposta": "Cloaca",
     "alternativas": [
       "Cloaca",
-      "Moela",
-      "Siringe",
+      "Uropígio",
+      "Bico",
       "Papo"
     ],
     "subtema": "Animais",
@@ -437,7 +442,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Moela\" trocada por \"Uropígio\" (era resposta de outra pergunta); gerador r8: errada \"Siringe\" trocada por \"Esôfago\" (era resposta de outra pergunta); gerador r8: errada \"Esôfago\" trocada por \"Bico\" (era resposta de outra pergunta)"
   },
   {
     "id": "f91dbd99e8",
@@ -448,7 +454,7 @@
     "alternativas": [
       "Cerdas",
       "Vibrissas",
-      "Cílios",
+      "Sobrancelhas",
       "Antenas"
     ],
     "subtema": "Animais",
@@ -457,7 +463,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cílios\" trocada por \"Sobrancelhas\" (era resposta de outra pergunta)"
   },
   {
     "id": "d3e252d033",
@@ -469,7 +476,7 @@
       "Lura",
       "Furna",
       "Ninho",
-      "Covil"
+      "Malhada"
     ],
     "subtema": "Animais",
     "status": "gerada",
@@ -477,7 +484,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Covil\" trocada por \"Malhada\" (era resposta de outra pergunta)"
   },
   {
     "id": "9d494d8574",
@@ -528,8 +536,8 @@
     "alternativas": [
       "Dilema do prisioneiro",
       "Equilíbrio de Pareto",
-      "Paradoxo de Zenão",
-      "Problema de Monty Hall"
+      "Jogo da galinha",
+      "Tragédia dos comuns"
     ],
     "subtema": "Matemática e lógica",
     "status": "gerada",
@@ -537,7 +545,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Paradoxo de Zenão\" trocada por \"Jogo da galinha\" (era resposta de outra pergunta); gerador r8: errada \"Problema de Monty Hall\" trocada por \"Tragédia dos comuns\" (era resposta de outra pergunta)"
   },
   {
     "id": "e51a4f59b3",
@@ -646,9 +655,9 @@
     "pergunta": "Qual brasileira foi eleita várias vezes a melhor jogadora de futsal do mundo?",
     "resposta": "Amandinha",
     "alternativas": [
-      "Marta",
-      "Debinha",
-      "Formiga",
+      "Cris Rozeira",
+      "Luciléia",
+      "Vanessinha",
       "Amandinha"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -657,7 +666,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Marta\" trocada por \"Cris Rozeira\" (era resposta de outra pergunta); gerador r8: errada \"Debinha\" trocada por \"Luciléia\" (era resposta de outra pergunta); gerador r8: errada \"Formiga\" trocada por \"Vanessinha\" (era resposta de outra pergunta)"
   },
   {
     "id": "eca041b9ad",
@@ -686,7 +696,7 @@
     "pergunta": "Qual mascote azul e esquisito, criado por computador, representou os Jogos de Atlanta 1996?",
     "resposta": "Izzy",
     "alternativas": [
-      "Cobi",
+      "Amik",
       "Izzy",
       "Hidy",
       "Sam"
@@ -697,7 +707,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cobi\" trocada por \"Waldi\" (era resposta de outra pergunta); gerador r8: errada \"Waldi\" trocada por \"Amik\" (era resposta de outra pergunta)"
   },
   {
     "id": "3ccd2ef407",
@@ -748,7 +759,7 @@
     "alternativas": [
       "Manoel Tobias",
       "Lenísio",
-      "Falcão",
+      "Vander Iacovino",
       "Schumacher"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -757,7 +768,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Falcão\" trocada por \"Vander Iacovino\" (era resposta de outra pergunta)"
   },
   {
     "id": "4e2b944d03",
@@ -808,7 +820,7 @@
     "alternativas": [
       "Quem Mexeu no Meu Queijo?",
       "A Arte da Guerra",
-      "O Monge e o Executivo",
+      "A Lição dos Gansos",
       "O Poder do Hábito"
     ],
     "subtema": "Literatura",
@@ -817,7 +829,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"O Monge e o Executivo\" trocada por \"A Lição dos Gansos\" (era resposta de outra pergunta)"
   },
   {
     "id": "3a86ecf9b5",
@@ -826,7 +839,7 @@
     "pergunta": "Qual saga de James Dashner começa com jovens presos numa clareira cercada por um labirinto?",
     "resposta": "Maze Runner",
     "alternativas": [
-      "Jogos Vorazes",
+      "Delírio",
       "Maze Runner",
       "Divergente",
       "A Seleção"
@@ -837,7 +850,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Jogos Vorazes\" trocada por \"Delírio\" (era resposta de outra pergunta)"
   },
   {
     "id": "e339e6c8f6",
@@ -966,9 +980,9 @@
     "pergunta": "Qual cantor pernambucano gravou \"Dia Branco\" e \"Barcarola do São Francisco\"?",
     "resposta": "Geraldo Azevedo",
     "alternativas": [
-      "Fagner",
+      "Xangai",
       "Lenine",
-      "Alceu Valença",
+      "Flávio José",
       "Geraldo Azevedo"
     ],
     "subtema": "Música brasileira",
@@ -977,7 +991,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Fagner\" trocada por \"Xangai\" (era resposta de outra pergunta); gerador r8: errada \"Alceu Valença\" trocada por \"Flávio José\" (era resposta de outra pergunta)"
   },
   {
     "id": "69080ad781",
@@ -986,8 +1001,8 @@
     "pergunta": "Qual cantor cearense gravou \"Pavão Mysteriozo\", tema da novela \"Saramandaia\"?",
     "resposta": "Ednardo",
     "alternativas": [
-      "Belchior",
-      "Fagner",
+      "Rodger Rogério",
+      "Petrúcio Maia",
       "Amelinha",
       "Ednardo"
     ],
@@ -997,7 +1012,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Belchior\" trocada por \"Rodger Rogério\" (era resposta de outra pergunta); gerador r8: errada \"Fagner\" trocada por \"Petrúcio Maia\" (era resposta de outra pergunta)"
   },
   {
     "id": "bc01a233bd",
@@ -1007,8 +1023,8 @@
     "resposta": "14 Bis",
     "alternativas": [
       "Roupa Nova",
-      "Biquini Cavadão",
-      "Skank",
+      "Roupa Nova de Minas",
+      "Som Imaginário",
       "14 Bis"
     ],
     "subtema": "Música brasileira",
@@ -1017,7 +1033,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Biquini Cavadão\" trocada por \"Roupa Nova de Minas\" (era resposta de outra pergunta); gerador r8: errada \"Skank\" trocada por \"Som Imaginário\" (era resposta de outra pergunta)"
   },
   {
     "id": "2a29b8f1a3",
@@ -1026,10 +1043,10 @@
     "pergunta": "Qual banda carioca de música instrumental e pop gravou \"Abri a Porta\" e \"Beleza Pura\"?",
     "resposta": "A Cor do Som",
     "alternativas": [
-      "Os Paralamas do Sucesso",
+      "Brylho",
       "A Cor do Som",
       "Roupa Nova",
-      "Barão Vermelho"
+      "Painel de Controle"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1037,7 +1054,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Os Paralamas do Sucesso\" trocada por \"Brylho\" (era resposta de outra pergunta); gerador r8: errada \"Barão Vermelho\" trocada por \"Painel de Controle\" (era resposta de outra pergunta)"
   },
   {
     "id": "56e678794f",
@@ -1067,8 +1085,8 @@
     "resposta": "Joelho de Porco",
     "alternativas": [
       "Casa das Máquinas",
-      "Os Mutantes",
-      "Made in Brazil",
+      "Tutti Frutti",
+      "Patrulha do Espaço",
       "Joelho de Porco"
     ],
     "subtema": "Música brasileira",
@@ -1077,7 +1095,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Os Mutantes\" trocada por \"Tutti Frutti\" (era resposta de outra pergunta); gerador r8: errada \"Made in Brazil\" trocada por \"Patrulha do Espaço\" (era resposta de outra pergunta)"
   },
   {
     "id": "5f3f028659",
@@ -1086,7 +1105,7 @@
     "pergunta": "Qual tecla leva o cursor para o começo da linha?",
     "resposta": "Home",
     "alternativas": [
-      "Insert",
+      "Pause",
       "End",
       "Home",
       "Page Up"
@@ -1097,7 +1116,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Insert\" trocada por \"Pause\" (era resposta de outra pergunta)"
   },
   {
     "id": "bf77dd5f34",
@@ -1148,8 +1168,8 @@
     "alternativas": [
       "Responder",
       "Responder a todos",
-      "Cco",
-      "Encaminhar"
+      "Responder com anexo",
+      "Reenviar ao remetente"
     ],
     "subtema": "Internet e redes",
     "status": "gerada",
@@ -1157,7 +1177,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:7192",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.6)"
+    "dup_regra": "resposta nova citada no texto antigo (5.6)",
+    "correcao": "gerador r8: errada \"Cco\" trocada por \"Responder com anexo\" (era resposta de outra pergunta); gerador r8: errada \"Encaminhar\" trocada por \"Reenviar ao remetente\" (era resposta de outra pergunta)"
   },
   {
     "id": "4f8c4458f7",
@@ -1167,7 +1188,7 @@
     "resposta": "Barra de endereço",
     "alternativas": [
       "Barra de endereço",
-      "Barra de tarefas",
+      "Barra de menus",
       "Barra de status",
       "Barra de favoritos"
     ],
@@ -1177,7 +1198,8 @@
     "dup": "suspeita",
     "dup_ref": "id:085482c388",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.3)"
+    "dup_regra": "resposta nova citada no texto antigo (5.3)",
+    "correcao": "gerador r8: errada \"Barra de tarefas\" trocada por \"Barra de menus\" (era resposta de outra pergunta)"
   },
   {
     "id": "0dfeaf5f5c",
@@ -1187,7 +1209,7 @@
     "resposta": "Microfone cortado",
     "alternativas": [
       "Câmera",
-      "Fone de ouvido",
+      "Câmera cortada",
       "Alto-falante",
       "Microfone cortado"
     ],
@@ -1197,7 +1219,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Fone de ouvido\" trocada por \"Câmera cortada\" (era resposta de outra pergunta)"
   },
   {
     "id": "84ce46e4a3",
@@ -1208,8 +1231,8 @@
     "alternativas": [
       "Fn",
       "Ctrl",
-      "Alt Gr",
-      "Tab"
+      "Super",
+      "Option"
     ],
     "subtema": "Hardware",
     "status": "gerada",
@@ -1217,7 +1240,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Alt Gr\" trocada por \"Super\" (era resposta de outra pergunta); gerador r8: errada \"Tab\" trocada por \"Option\" (era resposta de outra pergunta)"
   },
   {
     "id": "c17c126bdb",
@@ -1227,8 +1251,8 @@
     "resposta": "CGI.br",
     "alternativas": [
       "NIC.br",
-      "RNP",
-      "Anatel",
+      "Abranet",
+      "Ministério das Comunicações",
       "CGI.br"
     ],
     "subtema": "Internet e redes",
@@ -1237,7 +1261,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"RNP\" trocada por \"Abranet\" (era resposta de outra pergunta); gerador r8: errada \"Anatel\" trocada por \"Telebrás\" (era resposta de outra pergunta); gerador r8: errada \"Telebrás\" trocada por \"Ministério das Comunicações\" (era resposta de outra pergunta)"
   },
   {
     "id": "1508e881c5",
@@ -1248,8 +1273,8 @@
     "alternativas": [
       "Serpro",
       "RNP",
-      "Embratel",
-      "Fapesp"
+      "Embrapa",
+      "Datasus"
     ],
     "subtema": "Internet e redes",
     "status": "gerada",
@@ -1257,7 +1282,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Fapesp\" trocada por \"Telebrás\" (era resposta de outra pergunta); gerador r8: errada \"Embratel\" trocada por \"Embrapa\" (era resposta de outra pergunta); gerador r8: errada \"Telebrás\" trocada por \"Datasus\" (era resposta de outra pergunta)"
   },
   {
     "id": "a99ae49909",
@@ -1306,7 +1332,7 @@
     "pergunta": "Como se chamavam as vendedoras de rua que ofereciam frutas, doces e quitutes em tabuleiros, no Rio do século XIX?",
     "resposta": "Quitandeiras",
     "alternativas": [
-      "Amas de leite",
+      "Aguadeiras",
       "Lavadeiras",
       "Mucamas",
       "Quitandeiras"
@@ -1317,7 +1343,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Amas de leite\" trocada por \"Aguadeiras\" (era resposta de outra pergunta)"
   },
   {
     "id": "8581d0ed97",
@@ -1328,7 +1355,7 @@
     "alternativas": [
       "Escravo de casa",
       "Escravo de ganho",
-      "Feitor",
+      "Escravo de aluguel",
       "Escravo de eito"
     ],
     "subtema": "Brasil Império",
@@ -1337,7 +1364,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Feitor\" trocada por \"Escravo de aluguel\" (era resposta de outra pergunta)"
   },
   {
     "id": "859067a31e",
@@ -1348,7 +1376,7 @@
     "alternativas": [
       "Curandeiro",
       "Cirurgião-mor",
-      "Boticário",
+      "Prático",
       "Barbeiro-sangrador"
     ],
     "subtema": "Brasil Império",
@@ -1357,7 +1385,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Boticário\" trocada por \"Prático\" (era resposta de outra pergunta)"
   },
   {
     "id": "88982db075",
@@ -1367,8 +1396,8 @@
     "resposta": "Gatil",
     "alternativas": [
       "Gatil",
-      "Canil",
-      "Aprisco",
+      "Coelheira",
+      "Pombal",
       "Viveiro"
     ],
     "subtema": "Animais",
@@ -1377,7 +1406,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Canil\" trocada por \"Coelheira\" (era resposta de outra pergunta); gerador r8: errada \"Aprisco\" trocada por \"Pombal\" (era resposta de outra pergunta)"
   },
   {
     "id": "516bf776a3",
@@ -1408,7 +1438,7 @@
     "alternativas": [
       "Ofidiário real",
       "Serpentário",
-      "Terrário",
+      "Insetário",
       "Herpetódromo"
     ],
     "subtema": "Animais",
@@ -1417,7 +1447,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Terrário\" trocada por \"Insetário\" (era resposta de outra pergunta)"
   },
   {
     "id": "de39693c0d",
@@ -1428,7 +1459,7 @@
     "alternativas": [
       "Número racional",
       "Número imaginário",
-      "Número primo",
+      "Número complexo",
       "Número irracional"
     ],
     "subtema": "Matemática e lógica",
@@ -1437,7 +1468,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Número primo\" trocada por \"Número complexo\" (era resposta de outra pergunta)"
   },
   {
     "id": "8da83283a2",
@@ -1467,9 +1499,9 @@
     "resposta": "Bandagem",
     "alternativas": [
       "Bandagem",
-      "Munhequeira",
-      "Caneleira",
-      "Joelheira"
+      "Atadura de gesso",
+      "Fita de grip",
+      "Cotoveleira"
     ],
     "subtema": "Lutas, UFC e boxe",
     "status": "gerada",
@@ -1477,7 +1509,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Munhequeira\" trocada por \"Atadura de gesso\" (era resposta de outra pergunta); gerador r8: errada \"Caneleira\" trocada por \"Fita de grip\" (era resposta de outra pergunta); gerador r8: errada \"Joelheira\" trocada por \"Cotoveleira\" (era resposta de outra pergunta)"
   },
   {
     "id": "6db9f4a5f8",
@@ -1486,9 +1519,9 @@
     "pergunta": "Como se chama a folha áspera colada em cima da prancha do skate, para o tênis não escorregar?",
     "resposta": "Lixa",
     "alternativas": [
-      "Truck",
+      "Rolamento",
       "Lixa",
-      "Parafina",
+      "Borracha de freio",
       "Shape"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -1497,7 +1530,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Truck\" trocada por \"Rolamento\" (era resposta de outra pergunta); gerador r8: errada \"Parafina\" trocada por \"Borracha de freio\" (era resposta de outra pergunta)"
   },
   {
     "id": "028c6bb6bf",
@@ -1506,10 +1540,10 @@
     "pergunta": "Qual atacante foi, em 2016, a primeira brasileira contratada pelo time feminino do Barcelona?",
     "resposta": "Andressa Alves",
     "alternativas": [
-      "Marta",
-      "Bia Zaneratto",
+      "Rosana",
+      "Thaisa Moreno",
       "Andressa Alves",
-      "Debinha"
+      "Gabi Nunes"
     ],
     "subtema": "Seleção e craques",
     "status": "gerada",
@@ -1517,7 +1551,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Marta\" trocada por \"Rosana\" (era resposta de outra pergunta); gerador r8: errada \"Bia Zaneratto\" trocada por \"Thaisa Moreno\" (era resposta de outra pergunta); gerador r8: errada \"Debinha\" trocada por \"Gabi Nunes\" (era resposta de outra pergunta)"
   },
   {
     "id": "277a90c22c",
@@ -1607,9 +1642,9 @@
     "resposta": "Os Donos do Jogo",
     "alternativas": [
       "Os Donos do Jogo",
-      "Bom Dia, Verônica",
-      "Sintonia",
-      "DNA do Crime"
+      "Pedaço de Mim",
+      "Sob Pressão",
+      "Olhar Indiscreto"
     ],
     "subtema": "Séries e streaming",
     "status": "gerada",
@@ -1617,7 +1652,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:9046",
     "recente": true,
-    "dup_regra": "resposta nova citada no texto antigo (7.6)"
+    "dup_regra": "resposta nova citada no texto antigo (7.6)",
+    "correcao": "gerador r8: errada \"Bom Dia, Verônica\" trocada por \"Pedaço de Mim\" (era resposta de outra pergunta); gerador r8: errada \"Sintonia\" trocada por \"Cidade Invisível\" (era resposta de outra pergunta); gerador r8: errada \"DNA do Crime\" trocada por \"Olhar Indiscreto\" (era resposta de outra pergunta); gerador r8: errada \"Cidade Invisível\" trocada por \"Sob Pressão\" (era resposta de outra pergunta)"
   },
   {
     "id": "b316ed4d63",
@@ -1629,7 +1665,7 @@
       "Sessão de Terapia",
       "Coisa Mais Linda",
       "Aruanas",
-      "Irmandade"
+      "Samantha!"
     ],
     "subtema": "Séries e streaming",
     "status": "gerada",
@@ -1637,7 +1673,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:6262",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Irmandade\" trocada por \"Samantha!\" (era resposta de outra pergunta)"
   },
   {
     "id": "fab1856b94",
@@ -1646,9 +1683,9 @@
     "pergunta": "Qual série brasileira da Netflix, de 2023, mostra policiais federais atrás de quadrilhas de assalto na fronteira com o Paraguai?",
     "resposta": "DNA do Crime",
     "alternativas": [
-      "Cangaço Novo",
-      "Bom Dia, Verônica",
-      "Os Donos do Jogo",
+      "3%",
+      "O Mecanismo",
+      "Pedaço de Mim",
       "DNA do Crime"
     ],
     "subtema": "Séries e streaming",
@@ -1657,7 +1694,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cangaço Novo\" trocada por \"Sintonia\" (era resposta de outra pergunta); gerador r8: errada \"Bom Dia, Verônica\" trocada por \"O Mecanismo\" (era resposta de outra pergunta); gerador r8: errada \"Os Donos do Jogo\" trocada por \"Pedaço de Mim\" (era resposta de outra pergunta); gerador r8: errada \"Sintonia\" trocada por \"3%\" (era resposta de outra pergunta)"
   },
   {
     "id": "297b9b7e4d",
@@ -1747,9 +1785,9 @@
     "resposta": "Restauração do sistema",
     "alternativas": [
       "Limpeza de disco",
-      "Desfragmentação",
+      "Verificação de disco",
       "Restauração do sistema",
-      "Modo avião"
+      "Modo de compatibilidade"
     ],
     "subtema": "Hardware",
     "status": "gerada",
@@ -1757,7 +1795,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Desfragmentação\" trocada por \"Verificação de disco\" (era resposta de outra pergunta); gerador r8: errada \"Modo avião\" trocada por \"Modo de compatibilidade\" (era resposta de outra pergunta)"
   },
   {
     "id": "117ea54d08",
@@ -1826,10 +1865,10 @@
     "pergunta": "Em qual esporte o brasileiro Abner Teixeira ganhou a medalha de bronze em Tóquio 2020?",
     "resposta": "Boxe",
     "alternativas": [
-      "Judô",
+      "Kickboxing",
       "Boxe",
       "Luta olímpica",
-      "Taekwondo"
+      "Sambo"
     ],
     "subtema": "Lutas, UFC e boxe",
     "status": "gerada",
@@ -1837,7 +1876,8 @@
     "dup": "suspeita",
     "dup_ref": "id:d261a83920",
     "recente": true,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)",
+    "correcao": "gerador r8: errada \"Judô\" trocada por \"Caratê\" (era resposta de outra pergunta); gerador r8: errada \"Taekwondo\" trocada por \"Luta greco-romana\" (era resposta de outra pergunta); gerador r8: errada \"Caratê\" trocada por \"Kickboxing\" (era resposta de outra pergunta); gerador r8: errada \"Luta greco-romana\" trocada por \"Sambo\" (era resposta de outra pergunta)"
   },
   {
     "id": "1a2647c0bf",
@@ -1886,7 +1926,7 @@
     "pergunta": "Qual MC paulista gravou \"País do Futebol\", com participação de Emicida, em 2014?",
     "resposta": "MC Guimê",
     "alternativas": [
-      "MC Kevinho",
+      "MC Daleste",
       "MC Livinho",
       "MC Guimê",
       "MC Gui"
@@ -1897,7 +1937,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"MC Kevinho\" trocada por \"MC Daleste\" (era resposta de outra pergunta)"
   },
   {
     "id": "62badee682",
@@ -1906,10 +1947,10 @@
     "pergunta": "Qual banda paulistana de rock, dos irmãos Vecchione, está na estrada desde o fim dos anos 1960?",
     "resposta": "Made in Brazil",
     "alternativas": [
-      "Os Incríveis",
+      "Tutti Frutti",
       "Casa das Máquinas",
       "Made in Brazil",
-      "Joelho de Porco"
+      "Patrulha do Espaço"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1917,7 +1958,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Os Incríveis\" trocada por \"Tutti Frutti\" (era resposta de outra pergunta); gerador r8: errada \"Joelho de Porco\" trocada por \"Patrulha do Espaço\" (era resposta de outra pergunta)"
   },
   {
     "id": "62a9be2a27",

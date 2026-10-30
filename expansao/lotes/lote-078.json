@@ -6,7 +6,7 @@
     "pergunta": "Qual é a avenida mais famosa do centro de Madri, cheia de teatros, cinemas e lojas?",
     "resposta": "Gran Vía",
     "alternativas": [
-      "Las Ramblas",
+      "Calle de Alcalá",
       "Via del Corso",
       "Gran Vía",
       "Champs-Élysées"
@@ -17,7 +17,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Las Ramblas\" trocada por \"Calle de Alcalá\" (era resposta de outra pergunta)"
   },
   {
     "id": "f4b9dfbce9",
@@ -166,7 +167,7 @@
     "pergunta": "Qual carnavalesco ficou famoso pelas alegorias com pessoas formando figuras, na Unidos da Tijuca?",
     "resposta": "Paulo Barros",
     "alternativas": [
-      "Joãosinho Trinta",
+      "Max Lopes",
       "Renato Lage",
       "Milton Cunha",
       "Paulo Barros"
@@ -177,7 +178,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Joãosinho Trinta\" trocada por \"Max Lopes\" (era resposta de outra pergunta)"
   },
   {
     "id": "3b6e17118a",
@@ -208,7 +210,7 @@
     "alternativas": [
       "Carlos Heitor Cony",
       "Paulo Mendes Campos",
-      "Fernando Sabino",
+      "Antônio Maria",
       "Rubem Braga"
     ],
     "subtema": "Literatura",
@@ -217,7 +219,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Fernando Sabino\" trocada por \"Antônio Maria\" (era resposta de outra pergunta)"
   },
   {
     "id": "792b532697",
@@ -288,8 +291,8 @@
     "alternativas": [
       "New England Patriots",
       "Denver Broncos",
-      "Pittsburgh Steelers",
-      "Green Bay Packers"
+      "Baltimore Ravens",
+      "New York Giants"
     ],
     "subtema": "Esportes americanos",
     "status": "gerada",
@@ -297,7 +300,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pittsburgh Steelers\" trocada por \"Baltimore Ravens\" (era resposta de outra pergunta); gerador r8: errada \"Green Bay Packers\" trocada por \"New York Giants\" (era resposta de outra pergunta)"
   },
   {
     "id": "c97bae6c6f",
@@ -408,7 +412,7 @@
     "alternativas": [
       "Afonso Pena",
       "Hercílio Luz",
-      "Pinto Martins",
+      "Canoas",
       "Salgado Filho"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
@@ -417,7 +421,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pinto Martins\" trocada por \"Viracopos\" (era resposta de outra pergunta); gerador r8: errada \"Viracopos\" trocada por \"Canoas\" (era resposta de outra pergunta)"
   },
   {
     "id": "09c1f656eb",
@@ -528,7 +533,7 @@
     "alternativas": [
       "Cruzeiro do Sul",
       "VASP",
-      "Transbrasil",
+      "Real Aerovias",
       "Varig"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
@@ -537,7 +542,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Transbrasil\" trocada por \"Real Aerovias\" (era resposta de outra pergunta)"
   },
   {
     "id": "2fc31b0529",
@@ -607,7 +613,7 @@
     "resposta": "Transbrasil",
     "alternativas": [
       "Varig",
-      "Panair do Brasil",
+      "Sadia Transportes Aéreos",
       "Transbrasil",
       "Real Aerovias"
     ],
@@ -617,7 +623,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Panair do Brasil\" trocada por \"Sadia Transportes Aéreos\" (era resposta de outra pergunta)"
   },
   {
     "id": "70f8bc856c",
@@ -728,7 +735,7 @@
     "alternativas": [
       "Joseph Swan",
       "John Walker",
-      "James Watt",
+      "Robert Boyle",
       "Humphry Davy"
     ],
     "subtema": "Personagens, invenções e filosofia",
@@ -737,7 +744,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"James Watt\" trocada por \"Robert Boyle\" (era resposta de outra pergunta)"
   },
   {
     "id": "e5deac67b9",
@@ -766,10 +774,10 @@
     "pergunta": "Como se chama o número de cima de uma fração?",
     "resposta": "Numerador",
     "alternativas": [
-      "Expoente",
+      "Radicando",
       "Numerador",
-      "Quociente",
-      "Dividendo"
+      "Resto",
+      "Coeficiente"
     ],
     "subtema": "Matemática e lógica",
     "status": "gerada",
@@ -777,7 +785,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Expoente\" trocada por \"Radicando\" (era resposta de outra pergunta); gerador r8: errada \"Quociente\" trocada por \"Resto\" (era resposta de outra pergunta); gerador r8: errada \"Dividendo\" trocada por \"Coeficiente\" (era resposta de outra pergunta)"
   },
   {
     "id": "7c3806fa1e",
@@ -808,8 +817,8 @@
     "alternativas": [
       "Retângulo",
       "Equilátero",
-      "Escaleno",
-      "Isósceles"
+      "Obtusângulo",
+      "Acutângulo"
     ],
     "subtema": "Matemática e lógica",
     "status": "gerada",
@@ -817,7 +826,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Escaleno\" trocada por \"Obtusângulo\" (era resposta de outra pergunta); gerador r8: errada \"Isósceles\" trocada por \"Acutângulo\" (era resposta de outra pergunta)"
   },
   {
     "id": "3f009730a2",
@@ -888,7 +898,7 @@
     "alternativas": [
       "Mediatriz",
       "Bissetriz",
-      "Mediana",
+      "Ceviana",
       "Altura"
     ],
     "subtema": "Matemática e lógica",
@@ -897,7 +907,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Mediana\" trocada por \"Ceviana\" (era resposta de outra pergunta)"
   },
   {
     "id": "30d06f6958",
@@ -927,7 +938,7 @@
     "resposta": "Dízima periódica",
     "alternativas": [
       "Fração imprópria",
-      "Número primo",
+      "Número transcendente",
       "Dízima periódica",
       "Número irracional"
     ],
@@ -937,7 +948,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Número primo\" trocada por \"Número transcendente\" (era resposta de outra pergunta)"
   },
   {
     "id": "cb6c5694ff",
@@ -1027,8 +1039,8 @@
     "resposta": "Billie Jean King Cup",
     "alternativas": [
       "Hopman Cup",
-      "Laver Cup",
-      "Copa Davis",
+      "United Cup",
+      "Wightman Cup",
       "Billie Jean King Cup"
     ],
     "subtema": "Olimpíadas e atletismo",
@@ -1037,7 +1049,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Laver Cup\" trocada por \"United Cup\" (era resposta de outra pergunta); gerador r8: errada \"Copa Davis\" trocada por \"Wightman Cup\" (era resposta de outra pergunta)"
   },
   {
     "id": "e1312e2709",
@@ -1126,10 +1139,10 @@
     "pergunta": "Como se chama o esporte de se equilibrar numa fita esticada a grande altura, entre montanhas ou prédios?",
     "resposta": "Highline",
     "alternativas": [
-      "Slackline",
+      "Longline",
       "Highline",
-      "Tirolesa",
-      "Rapel"
+      "Waterline",
+      "Trickline"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
@@ -1137,7 +1150,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Slackline\" trocada por \"Longline\" (era resposta de outra pergunta); gerador r8: errada \"Tirolesa\" trocada por \"Waterline\" (era resposta de outra pergunta); gerador r8: errada \"Rapel\" trocada por \"Trickline\" (era resposta de outra pergunta)"
   },
   {
     "id": "a0bad0cbda",
@@ -1146,9 +1160,9 @@
     "pergunta": "Como se chama o salto de paraquedas feito de um ponto fixo, como prédio, antena ou penhasco?",
     "resposta": "Base jump",
     "alternativas": [
-      "Paraquedismo",
-      "Bungee jump",
-      "Parapente",
+      "Wingsuit",
+      "Salto de balão",
+      "Paramotor",
       "Base jump"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -1157,7 +1171,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Paraquedismo\" trocada por \"Wingsuit de avião\" (era resposta de outra pergunta); gerador r8: errada \"Bungee jump\" trocada por \"Salto livre de balão\" (era resposta de outra pergunta); gerador r8: errada \"Parapente\" trocada por \"Paramotor\" (era resposta de outra pergunta); gerador r8: errada \"Wingsuit de avião\" trocada por \"Wingsuit\" (era resposta de outra pergunta); gerador r8: errada \"Salto livre de balão\" trocada por \"Asa-delta\" (era resposta de outra pergunta); gerador r8: errada \"Asa-delta\" trocada por \"Salto de balão\" (era resposta de outra pergunta)"
   },
   {
     "id": "1f0e72c0fe",
@@ -1168,7 +1183,7 @@
     "alternativas": [
       "Corrida de orientação",
       "Enduro",
-      "Trekking",
+      "Rali a pé",
       "Geocaching"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -1177,7 +1192,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:5079",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (7.3)"
+    "dup_regra": "resposta nova citada no texto antigo (7.3)",
+    "correcao": "gerador r8: errada \"Trekking\" trocada por \"Rali a pé\" (era resposta de outra pergunta)"
   },
   {
     "id": "c08d35199f",
@@ -1186,7 +1202,7 @@
     "pergunta": "Qual programa de debate esportivo da ESPN Brasil reunia comentaristas como Juca Kfouri e José Trajano?",
     "resposta": "Linha de Passe",
     "alternativas": [
-      "Cartão Verde",
+      "Debate Final",
       "Linha de Passe",
       "Troca de Passes",
       "Bate-Bola"
@@ -1197,7 +1213,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cartão Verde\" trocada por \"Debate Final\" (era resposta de outra pergunta)"
   },
   {
     "id": "ee7b802f75",
@@ -1267,7 +1284,7 @@
     "resposta": "Paula Fernandes",
     "alternativas": [
       "Roberta Miranda",
-      "Marília Mendonça",
+      "Bruna Viola",
       "Paula Fernandes",
       "Naiara Azevedo"
     ],
@@ -1277,7 +1294,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Marília Mendonça\" trocada por \"Bruna Viola\" (era resposta de outra pergunta)"
   },
   {
     "id": "a7ce055876",
@@ -1287,7 +1305,7 @@
     "resposta": "Henrique & Juliano",
     "alternativas": [
       "Henrique & Juliano",
-      "Zé Neto & Cristiano",
+      "Hugo & Guilherme",
       "Jorge & Mateus",
       "Matheus & Kauan"
     ],
@@ -1297,7 +1315,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Zé Neto & Cristiano\" trocada por \"Hugo & Guilherme\" (era resposta de outra pergunta)"
   },
   {
     "id": "cf8baa0dda",
@@ -1306,10 +1325,10 @@
     "pergunta": "Qual banda carioca de rock gravou \"Quando o Sol se For\" e \"O Dia Que Não Terminou\"?",
     "resposta": "Detonautas",
     "alternativas": [
-      "CPM 22",
+      "Hateen",
       "Detonautas",
       "Forfun",
-      "Los Hermanos"
+      "Dibob"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1317,7 +1336,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"CPM 22\" trocada por \"Hateen\" (era resposta de outra pergunta); gerador r8: errada \"Los Hermanos\" trocada por \"Dibob\" (era resposta de outra pergunta)"
   },
   {
     "id": "5d3155016f",
@@ -1328,7 +1348,7 @@
     "alternativas": [
       "Chimarruts",
       "Maneva",
-      "Natiruts",
+      "Mato Seco",
       "Ponto de Equilíbrio"
     ],
     "subtema": "Música brasileira",
@@ -1337,7 +1357,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Natiruts\" trocada por \"Mato Seco\" (era resposta de outra pergunta)"
   },
   {
     "id": "7ad763c8a3",
@@ -1368,7 +1389,7 @@
     "alternativas": [
       "Conversa com Bial",
       "Lady Night",
-      "Altas Horas",
+      "Encontro com Fátima",
       "Programa do Jô"
     ],
     "subtema": "Humor e programas de auditório",
@@ -1377,7 +1398,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Altas Horas\" trocada por \"Encontro com Fátima\" (era resposta de outra pergunta)"
   },
   {
     "id": "16dfd0dd21",
@@ -1409,7 +1431,7 @@
       "Água de Colônia",
       "Leite de Rosas",
       "Avanço",
-      "Rexona"
+      "Contouré"
     ],
     "subtema": "Novelas e TV brasileira",
     "status": "gerada",
@@ -1417,7 +1439,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Rexona\" trocada por \"Contouré\" (era resposta de outra pergunta)"
   },
   {
     "id": "4a7c600ad3",
@@ -1426,7 +1449,7 @@
     "pergunta": "Qual revista eletrônica de domingo à noite da Record concorre com o Fantástico?",
     "resposta": "Domingo Espetacular",
     "alternativas": [
-      "Hoje em Dia",
+      "Repórter Record Investigação",
       "Câmera Record",
       "Domingo Espetacular",
       "Repórter Record"
@@ -1437,7 +1460,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Hoje em Dia\" trocada por \"Repórter Record Investigação\" (era resposta de outra pergunta)"
   },
   {
     "id": "829c1133bf",
@@ -1447,7 +1471,7 @@
     "resposta": "Roda Viva",
     "alternativas": [
       "Conexão",
-      "Sem Censura",
+      "Diálogo Brasil",
       "Canal Livre",
       "Roda Viva"
     ],
@@ -1457,7 +1481,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Sem Censura\" trocada por \"Diálogo Brasil\" (era resposta de outra pergunta)"
   },
   {
     "id": "5aa65d06ca",
@@ -1467,7 +1492,7 @@
     "resposta": "Cidade Alerta",
     "alternativas": [
       "Balanço Geral",
-      "Aqui Agora",
+      "SP no Ar",
       "Cidade Alerta",
       "Brasil Urgente"
     ],
@@ -1477,7 +1502,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Aqui Agora\" trocada por \"SP no Ar\" (era resposta de outra pergunta)"
   },
   {
     "id": "87fcdf5f95",
@@ -1506,8 +1532,8 @@
     "pergunta": "Qual programa da TV Cultura tinha o ator Antônio Abujamra fazendo perguntas incômodas aos convidados?",
     "resposta": "Provocações",
     "alternativas": [
-      "Roda Viva",
-      "Metrópolis",
+      "Entrelinhas",
+      "Vitrine",
       "Persona",
       "Provocações"
     ],
@@ -1517,7 +1543,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Roda Viva\" trocada por \"Entrelinhas\" (era resposta de outra pergunta); gerador r8: errada \"Metrópolis\" trocada por \"Vitrine\" (era resposta de outra pergunta)"
   },
   {
     "id": "00fbca7460",
@@ -1567,9 +1594,9 @@
     "resposta": "Ignácio de Loyola Brandão",
     "alternativas": [
       "Ignácio de Loyola Brandão",
-      "Raduan Nassar",
+      "Antônio Callado",
       "Moacyr Scliar",
-      "Rubem Fonseca"
+      "José J. Veiga"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -1577,7 +1604,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Raduan Nassar\" trocada por \"Antônio Callado\" (era resposta de outra pergunta); gerador r8: errada \"Rubem Fonseca\" trocada por \"José J. Veiga\" (era resposta de outra pergunta)"
   },
   {
     "id": "cb047c9134",
@@ -1586,10 +1614,10 @@
     "pergunta": "Qual escritor paulista publicou \"Malagueta, Perus e Bacanaço\", contos sobre malandros e jogadores de sinuca?",
     "resposta": "João Antônio",
     "alternativas": [
-      "Plínio Marcos",
+      "Roniwalter Jatobá",
       "João Antônio",
-      "Rubem Fonseca",
-      "Ignácio de Loyola Brandão"
+      "Oswaldo França Júnior",
+      "Ricardo Ramos"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -1597,7 +1625,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Plínio Marcos\" trocada por \"Roniwalter Jatobá\" (era resposta de outra pergunta); gerador r8: errada \"Rubem Fonseca\" trocada por \"Oswaldo França Júnior\" (era resposta de outra pergunta); gerador r8: errada \"Ignácio de Loyola Brandão\" trocada por \"Ricardo Ramos\" (era resposta de outra pergunta)"
   },
   {
     "id": "b96c839849",
@@ -1607,7 +1636,7 @@
     "resposta": "Fernando Pamplona",
     "alternativas": [
       "Fernando Pamplona",
-      "Joãosinho Trinta",
+      "Renato Lage",
       "Arlindo Rodrigues",
       "Fernando Pinto"
     ],
@@ -1617,7 +1646,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Joãosinho Trinta\" trocada por \"Renato Lage\" (era resposta de outra pergunta)"
   },
   {
     "id": "bc75f7ca34",
@@ -1727,7 +1757,7 @@
     "resposta": "Seta circular",
     "alternativas": [
       "Seta para baixo",
-      "Estrela",
+      "Lápis",
       "Seta circular",
       "Casinha"
     ],
@@ -1737,7 +1767,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Estrela\" trocada por \"Lápis\" (era resposta de outra pergunta)"
   },
   {
     "id": "b2e3b4b17b",
@@ -1787,7 +1818,7 @@
     "resposta": "Booleano",
     "alternativas": [
       "Ponto flutuante",
-      "String",
+      "Caractere",
       "Booleano",
       "Inteiro"
     ],
@@ -1797,7 +1828,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"String\" trocada por \"Caractere\" (era resposta de outra pergunta)"
   },
   {
     "id": "4e842b8e3a",
@@ -1846,10 +1878,10 @@
     "pergunta": "Qual programa de compartilhamento de músicas dos anos 2000 tinha o nome de um deus grego da guerra?",
     "resposta": "Ares Galaxy",
     "alternativas": [
-      "eMule",
-      "LimeWire",
+      "Soulseek",
+      "BearShare",
       "Ares Galaxy",
-      "Kazaa"
+      "WinMX"
     ],
     "subtema": "Internet e redes",
     "status": "gerada",
@@ -1857,7 +1889,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"eMule\" trocada por \"Soulseek\" (era resposta de outra pergunta); gerador r8: errada \"LimeWire\" trocada por \"BearShare\" (era resposta de outra pergunta); gerador r8: errada \"Kazaa\" trocada por \"WinMX\" (era resposta de outra pergunta)"
   },
   {
     "id": "c981a0abe3",
@@ -1927,7 +1960,7 @@
     "resposta": "Ilha do Governador",
     "alternativas": [
       "Ilha do Governador",
-      "Ilha de Paquetá",
+      "Ilha do Fundão",
       "Ilha das Enxadas",
       "Ilha Fiscal"
     ],
@@ -1937,7 +1970,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Ilha de Paquetá\" trocada por \"Ilha do Fundão\" (era resposta de outra pergunta)"
   },
   {
     "id": "3d2e965f9a",
@@ -1988,8 +2022,8 @@
     "alternativas": [
       "Ilha do Cardoso",
       "Ilha de São Sebastião",
-      "Ilha Comprida",
-      "Ilha Anchieta"
+      "Ilha de Superagui",
+      "Ilha do Bom Abrigo"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
@@ -1997,7 +2031,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Ilha Comprida\" trocada por \"Ilha de Superagui\" (era resposta de outra pergunta); gerador r8: errada \"Ilha Anchieta\" trocada por \"Ilha do Bom Abrigo\" (era resposta de outra pergunta)"
   },
   {
     "id": "9cf40030ff",
@@ -2048,7 +2083,7 @@
     "alternativas": [
       "Conjectura de Collatz",
       "Conjectura de Goldbach",
-      "Hipótese de Riemann",
+      "Conjectura dos primos gêmeos",
       "Último Teorema de Fermat"
     ],
     "subtema": "Matemática e lógica",
@@ -2057,7 +2092,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Hipótese de Riemann\" trocada por \"Conjectura dos primos gêmeos\" (era resposta de outra pergunta)"
   },
   {
     "id": "9e5a34a837",
@@ -2227,7 +2263,7 @@
     "resposta": "Saint-Étienne",
     "alternativas": [
       "Nantes",
-      "Lyon",
+      "Bordeaux",
       "Olympique de Marselha",
       "Saint-Étienne"
     ],
@@ -2237,7 +2273,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lyon\" trocada por \"Bordeaux\" (era resposta de outra pergunta)"
   },
   {
     "id": "2874b8305a",
@@ -2268,7 +2305,7 @@
     "alternativas": [
       "Encontro",
       "Estrelas",
-      "Mais Você",
+      "Sabadão",
       "É de Casa"
     ],
     "subtema": "Novelas e TV brasileira",
@@ -2277,7 +2314,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Mais Você\" trocada por \"Sabadão\" (era resposta de outra pergunta)"
   },
   {
     "id": "1a8f5fbcb3",
@@ -2287,8 +2325,8 @@
     "resposta": "Hoje em Dia",
     "alternativas": [
       "Hoje em Dia",
-      "Melhor da Tarde",
-      "Mais Você",
+      "Programa da Tarde",
+      "Fala Brasil",
       "Encontro"
     ],
     "subtema": "Novelas e TV brasileira",
@@ -2297,7 +2335,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Melhor da Tarde\" trocada por \"Programa da Tarde\" (era resposta de outra pergunta); gerador r8: errada \"Mais Você\" trocada por \"Fala Brasil\" (era resposta de outra pergunta)"
   },
   {
     "id": "ec18ed95e7",
@@ -2309,7 +2348,7 @@
       "A Tarde É Sua",
       "Superpop",
       "Pânico",
-      "TV Fama"
+      "Leitura Dinâmica"
     ],
     "subtema": "Humor e programas de auditório",
     "status": "gerada",
@@ -2317,7 +2356,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:7368",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.6)"
+    "dup_regra": "resposta nova citada no texto antigo (5.6)",
+    "correcao": "gerador r8: errada \"TV Fama\" trocada por \"Leitura Dinâmica\" (era resposta de outra pergunta)"
   },
   {
     "id": "4d59a7b9ba",
@@ -2328,8 +2368,8 @@
     "alternativas": [
       "Alice Ruiz",
       "Ana Cristina Cesar",
-      "Cora Coralina",
-      "Adélia Prado"
+      "Leila Míccolis",
+      "Sônia Queiroz"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -2337,7 +2377,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cora Coralina\" trocada por \"Leila Míccolis\" (era resposta de outra pergunta); gerador r8: errada \"Adélia Prado\" trocada por \"Sônia Queiroz\" (era resposta de outra pergunta)"
   },
   {
     "id": "70412168d6",
@@ -2428,7 +2469,7 @@
     "alternativas": [
       "Bandeira",
       "Apito",
-      "Cronômetro",
+      "Bandeirola",
       "Cartão"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
@@ -2437,7 +2478,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cronômetro\" trocada por \"Bandeirola\" (era resposta de outra pergunta)"
   },
   {
     "id": "fd8635766e",
@@ -2507,8 +2549,8 @@
     "resposta": "Meu INSS",
     "alternativas": [
       "Meu INSS",
-      "Gov.br",
-      "Caixa Tem",
+      "Carteira Digital",
+      "FGTS App",
       "Carteira de Trabalho Digital"
     ],
     "subtema": "Celulares e gadgets",
@@ -2517,6 +2559,7 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Gov.br\" trocada por \"Carteira Digital\" (era resposta de outra pergunta); gerador r8: errada \"Caixa Tem\" trocada por \"FGTS App\" (era resposta de outra pergunta)"
   }
 ]

@@ -208,7 +208,7 @@
     "alternativas": [
       "Arroz de pequi",
       "Arroz de cuxá",
-      "Galinhada",
+      "Arroz de forno",
       "Maria Isabel"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
@@ -217,7 +217,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Galinhada\" trocada por \"Arroz de forno\" (era resposta de outra pergunta)"
   },
   {
     "id": "2f0ca743d5",
@@ -267,7 +268,7 @@
     "resposta": "Rubacão",
     "alternativas": [
       "Mungunzá",
-      "Paçoca de pilão",
+      "Feijão de corda",
       "Rubacão",
       "Arrumadinho"
     ],
@@ -277,7 +278,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Paçoca de pilão\" trocada por \"Feijão de corda\" (era resposta de outra pergunta)"
   },
   {
     "id": "d6675c3566",
@@ -366,7 +368,7 @@
     "pergunta": "Qual cartilha de alfabetização, que desenhava cada letra dentro de uma figura, ensinou gerações de brasileiros a ler?",
     "resposta": "Caminho Suave",
     "alternativas": [
-      "Barsa",
+      "Cartilha do Povo Brasileiro",
       "Tesouro da Juventude",
       "Almanaque Fontoura",
       "Caminho Suave"
@@ -377,7 +379,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Barsa\" trocada por \"Cartilha do Povo Brasileiro\" (era resposta de outra pergunta)"
   },
   {
     "id": "51e5a2188e",
@@ -388,7 +391,7 @@
     "alternativas": [
       "Décimo terceiro",
       "Vale-refeição",
-      "FGTS",
+      "Auxílio-creche",
       "Vale-transporte"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
@@ -397,7 +400,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"FGTS\" trocada por \"Auxílio-creche\" (era resposta de outra pergunta)"
   },
   {
     "id": "7840134006",
@@ -469,7 +473,7 @@
       "Gamela",
       "Cuia",
       "Moringa",
-      "Pilão"
+      "Alguidar"
     ],
     "subtema": "Brasil Colônia",
     "status": "gerada",
@@ -477,7 +481,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pilão\" trocada por \"Alguidar\" (era resposta de outra pergunta)"
   },
   {
     "id": "ab7e26ca93",
@@ -547,7 +552,7 @@
     "resposta": "Monóculo",
     "alternativas": [
       "Pincenê",
-      "Luneta",
+      "Lornhão",
       "Monóculo",
       "Binóculo"
     ],
@@ -557,7 +562,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Luneta\" trocada por \"Lornhão\" (era resposta de outra pergunta)"
   },
   {
     "id": "3a2517d98c",
@@ -566,9 +572,9 @@
     "pergunta": "Como se chama a reação entre açúcares e proteínas que doura a casca do pão e a carne na chapa?",
     "resposta": "Reação de Maillard",
     "alternativas": [
-      "Fermentação",
+      "Hidrólise",
       "Reação de Maillard",
-      "Oxidação",
+      "Gelatinização",
       "Caramelização"
     ],
     "subtema": "Química",
@@ -577,7 +583,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Fermentação\" trocada por \"Hidrólise\" (era resposta de outra pergunta); gerador r8: errada \"Oxidação\" trocada por \"Gelatinização\" (era resposta de outra pergunta)"
   },
   {
     "id": "7990badc5c",
@@ -586,9 +593,9 @@
     "pergunta": "Qual enzima do mamão é usada para amaciar carnes?",
     "resposta": "Papaína",
     "alternativas": [
-      "Amilase",
-      "Pepsina",
-      "Lactase",
+      "Lisozima",
+      "Tripsina",
+      "Invertase",
       "Papaína"
     ],
     "subtema": "Química",
@@ -597,7 +604,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Amilase\" trocada por \"Lisozima\" (era resposta de outra pergunta); gerador r8: errada \"Pepsina\" trocada por \"Tripsina\" (era resposta de outra pergunta); gerador r8: errada \"Lactase\" trocada por \"Invertase\" (era resposta de outra pergunta)"
   },
   {
     "id": "cde4e54161",
@@ -646,9 +654,9 @@
     "pergunta": "Qual substância das frutas, abundante na casca da maçã e dos cítricos, dá o ponto da geleia?",
     "resposta": "Pectina",
     "alternativas": [
-      "Lactose",
+      "Lignina",
       "Pectina",
-      "Frutose",
+      "Quitina",
       "Celulose"
     ],
     "subtema": "Química",
@@ -657,7 +665,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lactose\" trocada por \"Lignina\" (era resposta de outra pergunta); gerador r8: errada \"Frutose\" trocada por \"Quitina\" (era resposta de outra pergunta)"
   },
   {
     "id": "ae8090d268",
@@ -706,8 +715,8 @@
     "pergunta": "Qual enzima do coalho faz o leite talhar na fabricação do queijo?",
     "resposta": "Quimosina",
     "alternativas": [
-      "Lactase",
-      "Amilase",
+      "Lisozima",
+      "Invertase",
       "Lipase",
       "Quimosina"
     ],
@@ -717,7 +726,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lactase\" trocada por \"Lisozima\" (era resposta de outra pergunta); gerador r8: errada \"Amilase\" trocada por \"Invertase\" (era resposta de outra pergunta)"
   },
   {
     "id": "4418e64860",
@@ -729,7 +739,7 @@
       "Liofilização",
       "Esterilização",
       "Defumação",
-      "Pasteurização"
+      "Cristalização"
     ],
     "subtema": "Química",
     "status": "gerada",
@@ -737,7 +747,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pasteurização\" trocada por \"Cristalização\" (era resposta de outra pergunta)"
   },
   {
     "id": "f1bd906315",
@@ -767,9 +778,9 @@
     "resposta": "Septo nasal",
     "alternativas": [
       "Septo nasal",
-      "Tímpano",
+      "Corneto",
       "Palato",
-      "Úvula"
+      "Vômer"
     ],
     "subtema": "Corpo humano e saúde",
     "status": "gerada",
@@ -777,7 +788,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Tímpano\" trocada por \"Corneto\" (era resposta de outra pergunta); gerador r8: errada \"Úvula\" trocada por \"Vômer\" (era resposta de outra pergunta)"
   },
   {
     "id": "72f0982b1f",
@@ -809,7 +821,7 @@
       "Dois dribles",
       "Goaltending",
       "Andada",
-      "Falta técnica"
+      "Falta de ataque"
     ],
     "subtema": "Basquete e NBA",
     "status": "gerada",
@@ -817,7 +829,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Falta técnica\" trocada por \"Falta de ataque\" (era resposta de outra pergunta)"
   },
   {
     "id": "0d597b03a2",
@@ -849,7 +862,7 @@
       "Grand slam",
       "Double-double",
       "Triple-double",
-      "Hat-trick"
+      "Quadruple-double"
     ],
     "subtema": "Basquete e NBA",
     "status": "gerada",
@@ -857,7 +870,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Hat-trick\" trocada por \"Quadruple-double\" (era resposta de outra pergunta)"
   },
   {
     "id": "de2903c99a",
@@ -1088,7 +1102,7 @@
     "alternativas": [
       "Raymond Kopa",
       "Lucien Laurent",
-      "Just Fontaine",
+      "Lucien Gamblin",
       "Marcel Langiller"
     ],
     "subtema": "Copa do Mundo",
@@ -1097,7 +1111,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Just Fontaine\" trocada por \"Lucien Gamblin\" (era resposta de outra pergunta)"
   },
   {
     "id": "95684de5c8",
@@ -1126,10 +1141,10 @@
     "pergunta": "Qual programa do SBT, apresentado por Silvio Santos, tinha participantes escolhendo maletas com valores escondidos?",
     "resposta": "Topa ou Não Topa",
     "alternativas": [
-      "Show do Milhão",
-      "Porta da Esperança",
+      "Qual é o Seu Talento?",
+      "Sorteio da Tele Sena",
       "Topa ou Não Topa",
-      "Roda a Roda"
+      "Nada Além da Verdade"
     ],
     "subtema": "Humor e programas de auditório",
     "status": "gerada",
@@ -1137,7 +1152,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Show do Milhão\" trocada por \"Qual é o Seu Talento?\" (era resposta de outra pergunta); gerador r8: errada \"Porta da Esperança\" trocada por \"Sorteio da Tele Sena\" (era resposta de outra pergunta); gerador r8: errada \"Roda a Roda\" trocada por \"Nada Além da Verdade\" (era resposta de outra pergunta)"
   },
   {
     "id": "69866c6738",
@@ -1146,9 +1162,9 @@
     "pergunta": "Qual apresentador comandou por cerca de 20 anos o \"Clube do Bolinha\", programa de auditório da Band?",
     "resposta": "Edson Cury",
     "alternativas": [
-      "Raul Gil",
+      "Moacyr Franco",
       "J. Silvestre",
-      "Flávio Cavalcanti",
+      "Barros de Alencar",
       "Edson Cury"
     ],
     "subtema": "Humor e programas de auditório",
@@ -1157,7 +1173,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Raul Gil\" trocada por \"Moacyr Franco\" (era resposta de outra pergunta); gerador r8: errada \"Flávio Cavalcanti\" trocada por \"Barros de Alencar\" (era resposta de outra pergunta)"
   },
   {
     "id": "7d00abf535",
@@ -1166,7 +1183,7 @@
     "pergunta": "Qual apresentador de TV ficou famoso por quebrar no ar os discos de que não gostava?",
     "resposta": "Flávio Cavalcanti",
     "alternativas": [
-      "Hebe Camargo",
+      "Blota Júnior",
       "Flávio Cavalcanti",
       "Silvio Santos",
       "Chacrinha"
@@ -1177,7 +1194,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Hebe Camargo\" trocada por \"Blota Júnior\" (era resposta de outra pergunta)"
   },
   {
     "id": "7798066a17",
@@ -1206,10 +1224,10 @@
     "pergunta": "Qual cartunista criou Geraldão, personagem que vivia com a mãe e era viciado em tudo?",
     "resposta": "Glauco",
     "alternativas": [
-      "Angeli",
-      "Laerte",
+      "Paulo Caruso",
+      "Chico Caruso",
       "Glauco",
-      "Henfil"
+      "Luis Fernando Verissimo"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -1217,7 +1235,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Angeli\" trocada por \"Paulo Caruso\" (era resposta de outra pergunta); gerador r8: errada \"Laerte\" trocada por \"Chico Caruso\" (era resposta de outra pergunta); gerador r8: errada \"Henfil\" trocada por \"Luis Fernando Verissimo\" (era resposta de outra pergunta)"
   },
   {
     "id": "a62a6175b5",
@@ -1306,7 +1325,7 @@
     "pergunta": "Qual marca de amortecedores tinha como garoto-propaganda um cachorrinho salsicha?",
     "resposta": "Cofap",
     "alternativas": [
-      "Bosch",
+      "Cofran",
       "Monroe",
       "Cofap",
       "Nakata"
@@ -1317,7 +1336,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bosch\" trocada por \"Cofran\" (era resposta de outra pergunta)"
   },
   {
     "id": "1a433a3f64",
@@ -1406,10 +1426,10 @@
     "pergunta": "Qual cantor paulista lançou em 1985 \"Primeiros Erros (Chove)\", que voltou às rádios num acústico 15 anos depois?",
     "resposta": "Kiko Zambianchi",
     "alternativas": [
-      "Lulu Santos",
+      "Ritchie",
       "Kiko Zambianchi",
       "Léo Jaime",
-      "Lobão"
+      "Leo Jaime"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1417,7 +1437,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lulu Santos\" trocada por \"Ritchie\" (era resposta de outra pergunta); gerador r8: errada \"Lobão\" trocada por \"Leo Jaime\" (era resposta de outra pergunta)"
   },
   {
     "id": "88c36e2495",
@@ -1427,7 +1448,7 @@
     "resposta": "Biquini Cavadão",
     "alternativas": [
       "Biquini Cavadão",
-      "Barão Vermelho",
+      "Hojerizah",
       "Kid Abelha",
       "Hanoi-Hanoi"
     ],
@@ -1437,7 +1458,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Barão Vermelho\" trocada por \"Hojerizah\" (era resposta de outra pergunta)"
   },
   {
     "id": "4641d8401d",
@@ -1449,7 +1471,7 @@
       "Nenhum de Nós",
       "TNT",
       "Os Replicantes",
-      "Engenheiros do Hawaii"
+      "Garotos da Rua"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1457,7 +1479,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Engenheiros do Hawaii\" trocada por \"Garotos da Rua\" (era resposta de outra pergunta)"
   },
   {
     "id": "462f8d0889",
@@ -1468,7 +1491,7 @@
     "alternativas": [
       "Cidade Negra",
       "Planta e Raiz",
-      "Natiruts",
+      "Big Up",
       "Tribo de Jah"
     ],
     "subtema": "Música brasileira",
@@ -1477,7 +1500,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Natiruts\" trocada por \"Big Up\" (era resposta de outra pergunta)"
   },
   {
     "id": "40adefba52",
@@ -1527,9 +1551,9 @@
     "resposta": "Esc",
     "alternativas": [
       "Esc",
-      "Insert",
+      "Pause",
       "F1",
-      "Home"
+      "Scroll Lock"
     ],
     "subtema": "Hardware",
     "status": "gerada",
@@ -1537,7 +1561,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Insert\" trocada por \"Pause\" (era resposta de outra pergunta); gerador r8: errada \"Home\" trocada por \"Scroll Lock\" (era resposta de outra pergunta)"
   },
   {
     "id": "10d0365471",
@@ -1626,7 +1651,7 @@
     "pergunta": "Qual ícone costuma representar as configurações num celular ou programa?",
     "resposta": "Engrenagem",
     "alternativas": [
-      "Estrela",
+      "Chave inglesa",
       "Casinha",
       "Lupa",
       "Engrenagem"
@@ -1637,7 +1662,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Estrela\" trocada por \"Chave inglesa\" (era resposta de outra pergunta)"
   },
   {
     "id": "8e91fc2cd7",
@@ -1647,9 +1673,9 @@
     "resposta": "Bloatware",
     "alternativas": [
       "Bloatware",
-      "Malware",
-      "Freeware",
-      "Shareware"
+      "Trialware",
+      "Firmware",
+      "Middleware"
     ],
     "subtema": "Celulares e gadgets",
     "status": "gerada",
@@ -1657,7 +1683,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Malware\" trocada por \"Crapware de rede\" (era resposta de outra pergunta); gerador r8: errada \"Freeware\" trocada por \"Firmware\" (era resposta de outra pergunta); gerador r8: errada \"Shareware\" trocada por \"Middleware\" (era resposta de outra pergunta); gerador r8: errada \"Crapware de rede\" trocada por \"Trialware\" (era resposta de outra pergunta)"
   },
   {
     "id": "7fe3a2d074",
@@ -1668,7 +1695,7 @@
     "alternativas": [
       "Painel de Controle",
       "Meu Computador",
-      "Prompt de Comando",
+      "Central de Ações",
       "Gerenciador de Dispositivos"
     ],
     "subtema": "História da computação",
@@ -1677,7 +1704,8 @@
     "dup": "suspeita",
     "dup_ref": "id:e9f50d819c",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Prompt de Comando\" trocada por \"Central de Ações\" (era resposta de outra pergunta)"
   },
   {
     "id": "e26fa27b68",
@@ -1688,7 +1716,7 @@
     "alternativas": [
       "Barra de ferramentas",
       "Barra de rolagem",
-      "Área de trabalho",
+      "Barra de menus",
       "Barra de tarefas"
     ],
     "subtema": "Hardware",
@@ -1697,7 +1725,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:4651",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (8.1)"
+    "dup_regra": "resposta nova citada no texto antigo (8.1)",
+    "correcao": "gerador r8: errada \"Área de trabalho\" trocada por \"Barra de menus\" (era resposta de outra pergunta)"
   },
   {
     "id": "dfaf3bd2f2",
@@ -1706,10 +1735,10 @@
     "pergunta": "Qual editor de vídeo simples vinha com o Windows nos anos 2000 e foi usado em muitos trabalhos escolares?",
     "resposta": "Movie Maker",
     "alternativas": [
-      "Premiere",
+      "Pinnacle Studio",
       "iMovie",
       "Movie Maker",
-      "Sony Vegas"
+      "Ulead VideoStudio"
     ],
     "subtema": "História da computação",
     "status": "gerada",
@@ -1717,7 +1746,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Premiere\" trocada por \"Pinnacle Studio\" (era resposta de outra pergunta); gerador r8: errada \"Sony Vegas\" trocada por \"Ulead VideoStudio\" (era resposta de outra pergunta)"
   },
   {
     "id": "547878b48b",
@@ -1748,7 +1778,7 @@
     "alternativas": [
       "Controle de alterações",
       "Corretor ortográfico",
-      "Localizar e substituir",
+      "Hifenização",
       "Contador de palavras"
     ],
     "subtema": "Programação",
@@ -1757,7 +1787,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Localizar e substituir\" trocada por \"Mala direta\" (era resposta de outra pergunta); gerador r8: errada \"Mala direta\" trocada por \"Hifenização\" (era resposta de outra pergunta)"
   },
   {
     "id": "eaff8d1175",
@@ -1769,7 +1800,7 @@
       "Alan Kay",
       "Larry Tesler",
       "Bill Atkinson",
-      "Douglas Engelbart"
+      "Butler Lampson"
     ],
     "subtema": "História da computação",
     "status": "gerada",
@@ -1777,7 +1808,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Douglas Engelbart\" trocada por \"Butler Lampson\" (era resposta de outra pergunta)"
   },
   {
     "id": "4517960163",
@@ -1786,7 +1818,7 @@
     "pergunta": "Qual fonte com serifa, criada para o jornal The Times de Londres, foi por anos a padrão do Word?",
     "resposta": "Times New Roman",
     "alternativas": [
-      "Calibri",
+      "Verdana",
       "Times New Roman",
       "Garamond",
       "Georgia"
@@ -1797,7 +1829,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Calibri\" trocada por \"Verdana\" (era resposta de outra pergunta)"
   },
   {
     "id": "9e93a5b4e2",
@@ -1808,7 +1841,7 @@
     "alternativas": [
       "Itálico",
       "Tachado",
-      "Negrito",
+      "Versalete",
       "Sublinhado"
     ],
     "subtema": "Programação",
@@ -1817,7 +1850,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Negrito\" trocada por \"Versalete\" (era resposta de outra pergunta)"
   },
   {
     "id": "db4313945a",
@@ -1827,8 +1861,8 @@
     "resposta": "Bateria da placa-mãe",
     "alternativas": [
       "Bateria da placa-mãe",
-      "Fonte de alimentação",
-      "Memória RAM",
+      "Placa de vídeo",
+      "Cooler",
       "Disco rígido"
     ],
     "subtema": "Hardware",
@@ -1837,7 +1871,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:3683",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)",
+    "correcao": "gerador r8: errada \"Fonte de alimentação\" trocada por \"Placa de vídeo\" (era resposta de outra pergunta); gerador r8: errada \"Memória RAM\" trocada por \"Cooler\" (era resposta de outra pergunta)"
   },
   {
     "id": "50f59259e5",
@@ -1869,7 +1904,7 @@
       "25 de Março",
       "Oscar Freire",
       "Avenida Paulista",
-      "Rua Augusta"
+      "Rua Haddock Lobo"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
@@ -1877,7 +1912,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Rua Augusta\" trocada por \"Rua Haddock Lobo\" (era resposta de outra pergunta)"
   },
   {
     "id": "77b065ccfd",
@@ -1949,7 +1985,7 @@
       "Zona de classificação",
       "Zona mista",
       "Zona de rebaixamento",
-      "Repescagem"
+      "Zona da degola"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
     "status": "gerada",
@@ -1957,7 +1993,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:6235",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Repescagem\" trocada por \"Zona da degola\" (era resposta de outra pergunta)"
   },
   {
     "id": "d8041d8dee",
@@ -2026,9 +2063,9 @@
     "pergunta": "Qual programa esportivo da Band teve o ex-jogador Neto como apresentador?",
     "resposta": "Os Donos da Bola",
     "alternativas": [
-      "Mesa Redonda",
-      "Cartão Verde",
-      "Bem, Amigos!",
+      "Arena SporTV",
+      "Troca de Passes",
+      "Esporte Total",
       "Os Donos da Bola"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
@@ -2037,7 +2074,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Mesa Redonda\" trocada por \"Arena SporTV\" (era resposta de outra pergunta); gerador r8: errada \"Cartão Verde\" trocada por \"Troca de Passes\" (era resposta de outra pergunta); gerador r8: errada \"Bem, Amigos!\" trocada por \"Esporte Total\" (era resposta de outra pergunta)"
   },
   {
     "id": "a2c6084984",
@@ -2386,9 +2424,9 @@
     "pergunta": "Qual escritor mineiro, autor de contos violentos como \"Feliz Ano Novo\", teve um livro censurado pela ditadura em 1976?",
     "resposta": "Rubem Fonseca",
     "alternativas": [
-      "Luiz Vilela",
-      "Dalton Trevisan",
-      "Fernando Sabino",
+      "Murilo Rubião",
+      "Autran Dourado",
+      "Roberto Drummond",
       "Rubem Fonseca"
     ],
     "subtema": "Literatura",
@@ -2397,7 +2435,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Luiz Vilela\" trocada por \"Murilo Rubião\" (era resposta de outra pergunta); gerador r8: errada \"Dalton Trevisan\" trocada por \"Autran Dourado\" (era resposta de outra pergunta); gerador r8: errada \"Fernando Sabino\" trocada por \"Roberto Drummond\" (era resposta de outra pergunta)"
   },
   {
     "id": "3f5f2af09b",
@@ -2407,9 +2446,9 @@
     "resposta": "Raduan Nassar",
     "alternativas": [
       "Raduan Nassar",
-      "Milton Hatoum",
-      "João Antônio",
-      "Ignácio de Loyola Brandão"
+      "Lourenço Mutarelli",
+      "Marçal Aquino",
+      "Antônio Torres"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -2417,7 +2456,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Milton Hatoum\" trocada por \"Lourenço Mutarelli\" (era resposta de outra pergunta); gerador r8: errada \"João Antônio\" trocada por \"Marçal Aquino\" (era resposta de outra pergunta); gerador r8: errada \"Ignácio de Loyola Brandão\" trocada por \"Antônio Torres\" (era resposta de outra pergunta)"
   },
   {
     "id": "b8530e7c25",
@@ -2446,8 +2486,8 @@
     "pergunta": "Qual planilha a Microsoft lançou em 1982, antes de criar o Excel?",
     "resposta": "Multiplan",
     "alternativas": [
-      "Lotus 1-2-3",
-      "VisiCalc",
+      "Quattro",
+      "Calc Pro",
       "Multiplan",
       "SuperCalc"
     ],
@@ -2457,7 +2497,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lotus 1-2-3\" trocada por \"Quattro\" (era resposta de outra pergunta); gerador r8: errada \"VisiCalc\" trocada por \"Calc Pro\" (era resposta de outra pergunta)"
   },
   {
     "id": "57eb86f4df",
@@ -2467,7 +2508,7 @@
     "resposta": "King Gillette",
     "alternativas": [
       "King Gillette",
-      "Henry Ford",
+      "Charles Goodyear",
       "George Eastman",
       "John Pemberton"
     ],
@@ -2477,7 +2518,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Henry Ford\" trocada por \"Charles Goodyear\" (era resposta de outra pergunta)"
   },
   {
     "id": "d5a85ae790",
@@ -2488,7 +2530,7 @@
     "alternativas": [
       "George Westinghouse",
       "Elisha Otis",
-      "Thomas Edison",
+      "Nikola Tesla",
       "Willis Carrier"
     ],
     "subtema": "Personagens, invenções e filosofia",
@@ -2497,7 +2539,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Thomas Edison\" trocada por \"Nikola Tesla\" (era resposta de outra pergunta)"
   },
   {
     "id": "046bc0e2e2",
@@ -2529,7 +2572,7 @@
       "Bom Dia & Cia",
       "Sábado Animado",
       "Disney Club",
-      "TV Globinho"
+      "Sessão Desenho"
     ],
     "subtema": "Novelas e TV brasileira",
     "status": "gerada",
@@ -2537,7 +2580,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"TV Globinho\" trocada por \"Sessão Desenho\" (era resposta de outra pergunta)"
   },
   {
     "id": "fbce5ac92e",
@@ -2546,7 +2590,7 @@
     "pergunta": "Qual grupo infantil dos anos 1980 tinha Juninho Bill, Patrícia Marx e Luciano Nassyn?",
     "resposta": "Trem da Alegria",
     "alternativas": [
-      "Dominó",
+      "Polegar",
       "Trem da Alegria",
       "Balão Mágico",
       "Abelhudos"
@@ -2557,6 +2601,7 @@
     "dup": "suspeita",
     "dup_ref": "banco:6368",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Dominó\" trocada por \"Polegar\" (era resposta de outra pergunta)"
   }
 ]

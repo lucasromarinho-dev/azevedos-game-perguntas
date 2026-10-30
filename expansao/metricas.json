@@ -9236,6 +9236,583 @@
           "1dcadc7253: MetLife Stadium - a final já aconteceu (19/07/2026); 'vai receber' trocado por 'recebeu'"
         ],
         "verificadas_passe_final": 6
+      },
+      {
+        "lote": "076",
+        "conferente": "conferente-v8",
+        "conferidas": 100,
+        "conferidas_sem_mudanca": 92,
+        "com_mudanca": 8,
+        "corrigidas": 5,
+        "rebaixadas": 4,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 10,
+        "buscas_web": 8,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 13,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 26,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 1,
+            "rebaixadas": 2,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "7840134006: Cassino da Urca - erradas Canecão, Circo Voador e Teatro Municipal não eram cassinos (só a certa cabia no enunciado); trocadas por cassinos da época; fechamento em 1946 confirmado (Decreto-Lei 9.215)",
+          "3a2517d98c: Reação de Maillard - reação de Maillard é conceito conhecido pelo nome; rebaixada",
+          "4418e64860: Liofilização - liofilização é conceito conhecido pelo nome; rebaixada",
+          "20fa7cddc2: Kiko Zambianchi - erradas Léo Jaime e Leo Jaime eram a mesma pessoa (alternativa repetida); trocada",
+          "4517960163: Times New Roman - enunciado citava o jornal The Times, que entregava Times New Roman; reescrito sem o nome e rebaixada",
+          "db4313945a: Bateria da placa-mãe - bateria da placa-mãe é conhecida de quem mexe em PC; rebaixada",
+          "8b621931b7: Oscar Freire - errada Rua Haddock Lobo também fica nos Jardins e tem lojas de grife (defensável); trocada",
+          "9b9420e6c6: Zona de rebaixamento - errada Zona da degola é apelido popular da própria zona de rebaixamento (defensável); trocada"
+        ],
+        "rebaixamentos": [
+          "3a2517d98c: Reação de Maillard dificil -> medio",
+          "4418e64860: Liofilização dificil -> medio",
+          "4517960163: Times New Roman dificil -> medio",
+          "db4313945a: Bateria da placa-mãe dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "alternativa fora do tipo": 1,
+          "dificuldade": 3,
+          "alternativa repetida": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 2
+        },
+        "exemplos_erro": {
+          "alternativa fora do tipo": "7840134006: erradas Canecão, Circo Voador e Teatro Municipal não eram cassinos (só a certa cabia no enunciado); trocadas por cassinos da época; fechamento em 1946 confirmado (Decreto-Lei 9.215)",
+          "dificuldade": "3a2517d98c: reação de Maillard é conceito conhecido pelo nome; rebaixada",
+          "alternativa repetida": "20fa7cddc2: erradas Léo Jaime e Leo Jaime eram a mesma pessoa (alternativa repetida); trocada",
+          "entrega a resposta": "4517960163: enunciado citava o jornal The Times, que entregava Times New Roman; reescrito sem o nome e rebaixada",
+          "errada defensavel": "8b621931b7: errada Rua Haddock Lobo também fica nos Jardins e tem lojas de grife (defensável); trocada"
+        }
+      },
+      {
+        "lote": "077",
+        "conferente": "conferente-v8",
+        "conferidas": 91,
+        "conferidas_sem_mudanca": 85,
+        "com_mudanca": 6,
+        "corrigidas": 4,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "duplicada (banco)": 1
+        },
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 6,
+        "suspeitas": {
+          "total": 16,
+          "mantidas": 16,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "6a765ba0c2: fato impreciso: a parada de 30 segundos pedida pelo técnico é o pedido de tempo (o tempo técnico era a parada automática, conferido na web); corrigida, viraria duplicada de banco:9277 (pedido de tempo no vôlei e no basquete)"
+        ],
+        "correcoes": [
+          "3bf649dd8b: Gaiola de Faraday - gaiola de Faraday é conceito conhecido pelo nome; rebaixada",
+          "c73d0565cf: Torre de Hanói - Torre de Hanói é conhecida pelo nome; rebaixada",
+          "f19c1a6b0d: Arvorismo - errada Canopy também é usada para o circuito de arvorismo e tirolesa nas copas (defensável); trocada",
+          "ab6b6090c0: Tirolesa - erradas Escalada e Escalada em rocha eram quase a mesma alternativa; trocada",
+          "6c3ab356df: Garfinho - errada Forky Jr. imitava o nome original do Garfinho (Forky) e confundia; trocada",
+          "d0387885fd: Stonks - errada Meme Man Says usava o nome do próprio boneco do Stonks (Meme Man), defensável; trocada"
+        ],
+        "rebaixamentos": [
+          "3bf649dd8b: Gaiola de Faraday dificil -> medio",
+          "c73d0565cf: Torre de Hanói dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "dificuldade": 2,
+          "duplicada (banco)": 1,
+          "errada defensavel": 3,
+          "alternativa repetida": 1
+        },
+        "exemplos_erro": {
+          "dificuldade": "3bf649dd8b: gaiola de Faraday é conceito conhecido pelo nome; rebaixada",
+          "duplicada (banco)": "6a765ba0c2: fato impreciso: a parada de 30 segundos pedida pelo técnico é o pedido de tempo (o tempo técnico era a parada automática, conferido na web); corrigida, viraria duplicada de banco:9277 (pedido de tempo no vôlei e no basquete)",
+          "errada defensavel": "f19c1a6b0d: errada Canopy também é usada para o circuito de arvorismo e tirolesa nas copas (defensável); trocada",
+          "alternativa repetida": "ab6b6090c0: erradas Escalada e Escalada em rocha eram quase a mesma alternativa; trocada"
+        }
+      },
+      {
+        "lote": "078",
+        "conferente": "conferente-v8",
+        "conferidas": 100,
+        "conferidas_sem_mudanca": 92,
+        "com_mudanca": 8,
+        "corrigidas": 3,
+        "rebaixadas": 5,
+        "subidas": 0,
+        "descartadas": 5,
+        "motivos_descarte": {
+          "molde repetido": 4,
+          "entrega a resposta": 1
+        },
+        "perguntas_com_busca_web": 12,
+        "buscas_web": 11,
+        "suspeitas": {
+          "total": 11,
+          "mantidas": 11,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 3,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 4
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "015196c637: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8, ficando as melhores (Paula Fernandes saiu)",
+          "a7ce055876: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Henrique & Juliano já é resposta de banco:4935 e banco:6546)",
+          "cf8baa0dda: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Detonautas saiu)",
+          "5d3155016f: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Maneva saiu)",
+          "2874b8305a: enunciado entrega a resposta: o estádio Villa Park leva o nome do Aston Villa"
+        ],
+        "correcoes": [
+          "df2f547252: Kibon - a empresa nasceu em 1941 (Harkson) e os primeiros sorvetes saíram em 1942; 'criada em 1942' trocado por 'nos anos 1940' (checagem web)",
+          "24f3c27ed0: Mappin - o Mappin faliu em 1999, mas o prédio seguiu como Extra Mappin até 2003; 'fechou' trocado por 'faliu' (checagem web)",
+          "bd6a6462c0: Dízima periódica - dízima periódica é conceito de escola conhecido pelo nome; rebaixada",
+          "b96c839849: Fernando Pamplona - errada Arlindo Rodrigues fazia parte da equipe de Pamplona no Salgueiro dos anos 1960 (defensável); trocada",
+          "62eb8a7aeb: IDE - IDE é sigla conhecida de quem programa; rebaixada",
+          "86f9845b0b: Camel case - camel case é conceito conhecido pelo nome; rebaixada",
+          "9cf40030ff: Logaritmo - logaritmo é conceito de escola conhecido pelo nome; rebaixada",
+          "7737844850: Número de Euler - o número e (de Euler) é conceito conhecido pelo nome; rebaixada"
+        ],
+        "rebaixamentos": [
+          "bd6a6462c0: Dízima periódica dificil -> medio",
+          "62eb8a7aeb: IDE dificil -> medio",
+          "86f9845b0b: Camel case dificil -> medio",
+          "9cf40030ff: Logaritmo dificil -> medio",
+          "7737844850: Número de Euler dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 2,
+          "dificuldade": 5,
+          "molde repetido": 4,
+          "errada defensavel": 1,
+          "entrega a resposta": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "df2f547252: a empresa nasceu em 1941 (Harkson) e os primeiros sorvetes saíram em 1942; 'criada em 1942' trocado por 'nos anos 1940' (checagem web)",
+          "dificuldade": "bd6a6462c0: dízima periódica é conceito de escola conhecido pelo nome; rebaixada",
+          "molde repetido": "015196c637: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8, ficando as melhores (Paula Fernandes saiu)",
+          "errada defensavel": "b96c839849: errada Arlindo Rodrigues fazia parte da equipe de Pamplona no Salgueiro dos anos 1960 (defensável); trocada",
+          "entrega a resposta": "2874b8305a: enunciado entrega a resposta: o estádio Villa Park leva o nome do Aston Villa"
+        }
+      },
+      {
+        "lote": "079",
+        "conferente": "conferente-v8",
+        "conferidas": 91,
+        "conferidas_sem_mudanca": 82,
+        "com_mudanca": 9,
+        "corrigidas": 8,
+        "rebaixadas": 1,
+        "subidas": 1,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "entrega a resposta": 1
+        },
+        "perguntas_com_busca_web": 11,
+        "buscas_web": 11,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 13,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "82a3f6bbcf: enunciado entrega a resposta ('rúgbi de sete' => 7); a versão com o rúgbi union já existe (056:604d5d)"
+        ],
+        "correcoes": [
+          "2ed4331e50: Fita de Möbius - fita de Möbius é conceito conhecido pelo nome; rebaixada",
+          "4d3861999c: A Hora do Faro - errada Programa do Faro Fino era título inventado com o mesmo 'Faro' da certa; trocada pelo programa anterior de Faro na Record, que não leva o nome dele",
+          "b1994d5c32: Parque Nacional das Emas - 'batizado com o nome de uma ave grande' entregava Emas (única ave entre as alternativas); tirado e subida para médio",
+          "92141b49ef: Crivo de Eratóstenes - errada Peneira de Atkin é um crivo real de primos (crivo = peneira), defensável; trocada",
+          "5559ce3b8c: Acesso - errada Rebaixo técnico era termo inventado; trocada",
+          "c7e203d9de: São Caetano - erradas São Bernardo e São Bernardo FC eram quase a mesma alternativa; trocada",
+          "c20e108402: Casamento às Cegas Brasil - errada Love Is Blind Japão tem o mesmo formato (casais que não se veem), defensável, e Too Hot to Handle é o próprio Brincando com Fogo (resposta de ae2975); trocadas",
+          "27f1870894: TV Fama - 'está no ar desde 1999' pode envelhecer; trocado por 'estreou em 1999'",
+          "d1d7ec7c82: Capinam - Waly Salomão chegou depois do movimento (pós-tropicalismo) e Capinam, baiano e letrista do disco-manifesto, também cabia no enunciado; reescrita com Capinam (parceria com Gil confirmada na web)"
+        ],
+        "rebaixamentos": [
+          "2ed4331e50: Fita de Möbius dificil -> medio"
+        ],
+        "subidas_lista": [
+          "b1994d5c32: Parque Nacional das Emas facil -> medio"
+        ],
+        "tipos_erro": {
+          "dificuldade": 1,
+          "entrega a resposta": 2,
+          "alternativa repetida": 2,
+          "errada defensavel": 2,
+          "alternativa fora do tipo": 1,
+          "fato que pode mudar": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "dificuldade": "2ed4331e50: fita de Möbius é conceito conhecido pelo nome; rebaixada",
+          "entrega a resposta": "82a3f6bbcf: enunciado entrega a resposta ('rúgbi de sete' => 7); a versão com o rúgbi union já existe (056:604d5d)",
+          "alternativa repetida": "4d3861999c: errada Programa do Faro Fino era título inventado com o mesmo 'Faro' da certa; trocada pelo programa anterior de Faro na Record, que não leva o nome dele",
+          "errada defensavel": "92141b49ef: errada Peneira de Atkin é um crivo real de primos (crivo = peneira), defensável; trocada",
+          "alternativa fora do tipo": "5559ce3b8c: errada Rebaixo técnico era termo inventado; trocada",
+          "fato que pode mudar": "27f1870894: 'está no ar desde 1999' pode envelhecer; trocado por 'estreou em 1999'",
+          "fato impreciso": "d1d7ec7c82: Waly Salomão chegou depois do movimento (pós-tropicalismo) e Capinam, baiano e letrista do disco-manifesto, também cabia no enunciado; reescrita com Capinam (parceria com Gil confirmada na web)"
+        }
+      },
+      {
+        "lote": "080",
+        "conferente": "conferente-v8",
+        "conferidas": 103,
+        "conferidas_sem_mudanca": 94,
+        "com_mudanca": 9,
+        "corrigidas": 8,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 5,
+        "motivos_descarte": {
+          "molde repetido": 4,
+          "entrega a resposta": 1
+        },
+        "perguntas_com_busca_web": 12,
+        "buscas_web": 11,
+        "suspeitas": {
+          "total": 19,
+          "mantidas": 17,
+          "reescritas": 0,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 16,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 21,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 5
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "865f7ec3f1: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Kid Vinil saiu)",
+          "647e660b46: molde repetido: 7 personagens de Chico Anysio no mesmo lote; cortado o excesso (Coalhada)",
+          "a704ef6683: enunciado entrega a resposta ('pedia ofertas com seu \"Tim Tones\"' => Tim Tones) e 7 personagens de Chico Anysio no mesmo lote",
+          "940c7d3fdc: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Falamansa saiu)",
+          "6d97ecdc79: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Gloria Groove saiu)"
+        ],
+        "correcoes": [
+          "141e25261a: Rádio de válvula - 'por causa das válvulas' entregava Rádio de válvula; tirado",
+          "912da74a11: Caixeiro-viajante - errada Mascate também viajava de cidade em cidade vendendo mercadorias (defensável); trocada",
+          "94d5199536: Radiano - radiano é conceito de escola conhecido pelo nome; rebaixada",
+          "a829fdfd2c: Margem - errada Medianiz é a margem interna de encadernação (defensável); trocada",
+          "45711c82c2: Espaçamento entre linhas - errada Entrelinha dupla é sinônimo de espaçamento duplo entre linhas (defensável); trocada",
+          "9d8f9b1162: CIH - erradas Jerusalém e Jerusalém B eram a mesma família de vírus; trocada",
+          "0fc8f10dc2: Kelly Key - errada Kelly Lilica era nome inventado que imitava a certa; trocada",
+          "90b84ff63a: Paradoxo do aniversário - errada Paradoxo de Monty Hall era a resposta de ba4534 (mesmo lote); trocada",
+          "11c73ee55f: Seth Wheeler - a patente de Seth Wheeler é de 1871 (refinada em 1891), não exatamente do 'fim do século XIX'; ano posto no enunciado (checagem web)"
+        ],
+        "rebaixamentos": [
+          "94d5199536: Radiano dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "entrega a resposta": 2,
+          "errada defensavel": 3,
+          "dificuldade": 1,
+          "molde repetido": 4,
+          "alternativa repetida": 1,
+          "alternativa fora do tipo": 1,
+          "espelho/duplicada": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "entrega a resposta": "141e25261a: 'por causa das válvulas' entregava Rádio de válvula; tirado",
+          "errada defensavel": "912da74a11: errada Mascate também viajava de cidade em cidade vendendo mercadorias (defensável); trocada",
+          "dificuldade": "94d5199536: radiano é conceito de escola conhecido pelo nome; rebaixada",
+          "molde repetido": "865f7ec3f1: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Kid Vinil saiu)",
+          "alternativa repetida": "9d8f9b1162: erradas Jerusalém e Jerusalém B eram a mesma família de vírus; trocada",
+          "alternativa fora do tipo": "0fc8f10dc2: errada Kelly Lilica era nome inventado que imitava a certa; trocada",
+          "espelho/duplicada": "90b84ff63a: errada Paradoxo de Monty Hall era a resposta de ba4534 (mesmo lote); trocada",
+          "fato impreciso": "11c73ee55f: a patente de Seth Wheeler é de 1871 (refinada em 1891), não exatamente do 'fim do século XIX'; ano posto no enunciado (checagem web)"
+        }
+      },
+      {
+        "lote": "081",
+        "conferente": "conferente-v8",
+        "conferidas": 78,
+        "conferidas_sem_mudanca": 72,
+        "com_mudanca": 6,
+        "corrigidas": 4,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 7,
+        "motivos_descarte": {
+          "molde repetido": 7
+        },
+        "perguntas_com_busca_web": 5,
+        "buscas_web": 4,
+        "suspeitas": {
+          "total": 8,
+          "mantidas": 7,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 7
+          },
+          "Tecnologia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "a7de837f92: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Geraldo Azevedo saiu)",
+          "bc01a233bd: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (14 Bis saiu; tinha também a errada repetida Roupa Nova/Roupa Nova de Minas)",
+          "2a29b8f1a3: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (A Cor do Som saiu)",
+          "56e678794f: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Boca Livre saiu)",
+          "297b9b7e4d: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Calcinha Preta saiu)",
+          "3ddb751ce4: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Walter Franco saiu)",
+          "a73986668c: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (MC Guimê saiu)"
+        ],
+        "correcoes": [
+          "62673fe4dd: Iguatemi - o título de primeiro é disputado com o Shopping do Méier (Rio, 1965); 'foi o primeiro' trocado por 'é tido como o primeiro' (checagem web)",
+          "cf2c75aad6: Banguê - grafia com trema (Bangüê) abolida no Acordo Ortográfico; corrigida para Banguê",
+          "ef650a04bd: Dilema do prisioneiro - dilema do prisioneiro é conceito conhecido pelo nome; rebaixada",
+          "cf87b23ecf: Liga Nacional de Futsal - a sigla LNF e o futsal no enunciado praticamente entregam Liga Nacional de Futsal; descida para fácil",
+          "3ccd2ef407: Fuwa - errada Beibei é um dos próprios Fuwa (defensável/confusa); trocada pela mascote de Vancouver 2010",
+          "e5fa47a5aa: Serpentário - errada Ofidiário real usava sinônimo de serpentário (defensável) e Herpetódromo era termo inventado; trocadas"
+        ],
+        "rebaixamentos": [
+          "ef650a04bd: Dilema do prisioneiro dificil -> medio",
+          "cf87b23ecf: Liga Nacional de Futsal medio -> facil"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "grafia": 1,
+          "dificuldade": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 2,
+          "molde repetido": 7
+        },
+        "exemplos_erro": {
+          "fato impreciso": "62673fe4dd: o título de primeiro é disputado com o Shopping do Méier (Rio, 1965); 'foi o primeiro' trocado por 'é tido como o primeiro' (checagem web)",
+          "grafia": "cf2c75aad6: grafia com trema (Bangüê) abolida no Acordo Ortográfico; corrigida para Banguê",
+          "dificuldade": "ef650a04bd: dilema do prisioneiro é conceito conhecido pelo nome; rebaixada",
+          "entrega a resposta": "cf87b23ecf: a sigla LNF e o futsal no enunciado praticamente entregam Liga Nacional de Futsal; descida para fácil",
+          "errada defensavel": "3ccd2ef407: errada Beibei é um dos próprios Fuwa (defensável/confusa); trocada pela mascote de Vancouver 2010",
+          "molde repetido": "a7de837f92: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Geraldo Azevedo saiu)"
+        }
       }
     ],
     "rebaixamentos_r3": {

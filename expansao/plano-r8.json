@@ -1,0 +1,101 @@
+{
+  "_leia": "Rodada 8 da meta 3x: 1.000 novas válidas em 10 lotes (076 a 085). Mesma composição categoria x dificuldade das rodadas 3 a 7 (36,5% fácil). Gerada em paralelo com a conferência das rodadas 6 e 7, na branch expansao-r8 (worktree azevedos-game-perguntas-r8), com merge de origin/expansao antes de cada lote. Veios novos priorizados: geografia urbana brasileira, rios e serras do Brasil, culinária regional por estado, história do cotidiano, esportes olímpicos por regra simples, objetos e gestos do dia a dia, corpo humano fácil, química da cozinha, astronomia básica, tecnologia do cotidiano, publicidade e marcas brasileiras, quadrinhos brasileiros, programas de auditório, música brasileira por década. Gargalo: fáceis de Esportes, História e Tecnologia e difíceis de Esportes. Variedade: no máximo 3 perguntas por universo ou franquia, música até 1/3 do Entretenimento, no máximo ~5 perguntas do mesmo molde na rodada (scripts/variedade.mjs 76 85). Método: respostas primeiro, sonda com candidatas.mjs --registrar e checa-resposta.mjs; fato com número, data, recorde ou nome pouco conhecido confirmado na web. Evitar os microtemas saturados das rodadas anteriores. faltam.mjs usa este arquivo para lotes 076+.",
+  "lotes": [
+    76,
+    85
+  ],
+  "metas": {
+    "Geografia": {
+      "facil": 50,
+      "medio": 45,
+      "dificil": 35
+    },
+    "História": {
+      "facil": 45,
+      "medio": 50,
+      "dificil": 45
+    },
+    "Ciências": {
+      "facil": 50,
+      "medio": 45,
+      "dificil": 35
+    },
+    "Esportes": {
+      "facil": 65,
+      "medio": 65,
+      "dificil": 55
+    },
+    "Entretenimento": {
+      "facil": 95,
+      "medio": 95,
+      "dificil": 65
+    },
+    "Tecnologia": {
+      "facil": 60,
+      "medio": 55,
+      "dificil": 45
+    }
+  },
+  "prioridade": {
+    "Geografia": [
+      "Brasil: cidades, turismo e apelidos",
+      "Rios, oceanos, mares e ilhas",
+      "Relevo, vulcões e desertos",
+      "Comidas e bebidas típicas, Brasil e mundo",
+      "Brasil: estados, capitais e regiões",
+      "Biomas, clima e natureza",
+      "Cidades e monumentos do mundo",
+      "Capitais e países do mundo"
+    ],
+    "História": [
+      "Brasil República, Vargas, ditadura e redemocratização",
+      "Brasil Império",
+      "Brasil Colônia",
+      "Personagens, invenções e filosofia",
+      "Guerra Fria e século XX",
+      "Antiguidade",
+      "Guerras Mundiais",
+      "Revoluções e Idade Moderna"
+    ],
+    "Ciências": [
+      "Corpo humano e saúde",
+      "Química",
+      "Astronomia",
+      "Física e unidades",
+      "Animais",
+      "Plantas",
+      "Terra, geologia e clima",
+      "Matemática e lógica"
+    ],
+    "Esportes": [
+      "Olimpíadas e atletismo",
+      "Brasileirão e clubes brasileiros",
+      "Seleção e craques",
+      "Copa do Mundo",
+      "Vôlei",
+      "Basquete e NBA",
+      "Lutas, UFC e boxe",
+      "Outros (xadrez, surfe, skate, e-sports)"
+    ],
+    "Entretenimento": [
+      "Humor e programas de auditório",
+      "Música brasileira",
+      "Novelas e TV brasileira",
+      "Literatura",
+      "Memes e internet",
+      "Animação",
+      "Cinema internacional e Oscar",
+      "Música internacional"
+    ],
+    "Tecnologia": [
+      "Celulares e gadgets",
+      "Internet e redes",
+      "Hardware",
+      "Empresas, marcas e fundadores",
+      "Redes sociais e apps",
+      "História da computação",
+      "Programação",
+      "Games: consoles e história"
+    ]
+  }
+}

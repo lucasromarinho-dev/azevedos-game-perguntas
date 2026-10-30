@@ -1,0 +1,88 @@
+{
+  "_leia": "Rodada 10 da meta 3x, a última desta etapa: até ~1.000 novas válidas em 10 lotes (096 a 105), qualidade acima do número. Composição ajustada à saturação: as fáceis de Esportes, História, Ciências e Tecnologia estão quase esgotadas (r9 fez 15% de fáceis), então o plano tem 19,5% de fáceis, concentradas em Entretenimento e Geografia, e mais médias. Worktree azevedos-game-perguntas-r10, branch expansao-r10, com git fetch + merge de origin/expansao antes de cada lote. Veios irmãos dos que renderam na r9, sem repetir fatos: rios e lagos do mundo, desertos, capitais antigas, tratados, constituições, revoltas regionais, Nobel por área, unidades e constantes, instrumentos científicos, recordes olímpicos, clubes europeus por títulos, novelas clássicas da Globo, MPB por álbum, literatura mundial por personagem, jogos de tabuleiro, linguagens de programação por criador, marcos da computação. No máximo ~5 perguntas do mesmo molde na rodada; nenhuma errada que seja resposta de outra pergunta (alternativas.mjs). Todo fato com número, data, recorde ou nome pouco conhecido confirmado na web (WebSearch ou API da Wikipedia) e marcado verificado_web; sem confirmação, não entra. faltam.mjs e mover-excedentes.mjs usam este arquivo para lotes 096+.",
+  "lotes": [
+    96,
+    105
+  ],
+  "metas": {
+    "Geografia": {
+      "facil": 30,
+      "medio": 60,
+      "dificil": 40
+    },
+    "História": {
+      "facil": 20,
+      "medio": 70,
+      "dificil": 50
+    },
+    "Ciências": {
+      "facil": 20,
+      "medio": 65,
+      "dificil": 45
+    },
+    "Esportes": {
+      "facil": 25,
+      "medio": 90,
+      "dificil": 70
+    },
+    "Entretenimento": {
+      "facil": 80,
+      "medio": 110,
+      "dificil": 65
+    },
+    "Tecnologia": {
+      "facil": 20,
+      "medio": 80,
+      "dificil": 60
+    }
+  },
+  "prioridade": {
+    "Geografia": [
+      "Rios e lagos do mundo",
+      "Desertos, montanhas e relevo do mundo",
+      "Capitais antigas e mudanças de capital",
+      "Cidades e monumentos do mundo",
+      "Brasil: cidades, turismo e apelidos"
+    ],
+    "História": [
+      "Tratados e acordos históricos",
+      "Constituições e marcos legais",
+      "Revoltas regionais brasileiras",
+      "Prêmios Nobel por área",
+      "Antiguidade e Idade Média",
+      "Guerra Fria e século XX"
+    ],
+    "Ciências": [
+      "Unidades, constantes e leis",
+      "Instrumentos científicos",
+      "Nobel de Física, Química e Medicina",
+      "Química e elementos",
+      "Astronomia e espaço",
+      "Biologia e corpo"
+    ],
+    "Esportes": [
+      "Recordes olímpicos marcantes",
+      "Clubes europeus por títulos",
+      "Copa do Mundo e seleções",
+      "Tênis, F1 e outros",
+      "Brasileirão e clubes brasileiros",
+      "Basquete, vôlei e lutas"
+    ],
+    "Entretenimento": [
+      "Novelas clássicas da Globo",
+      "MPB por álbum",
+      "Literatura mundial por personagem",
+      "Jogos de tabuleiro",
+      "Cinema internacional e Oscar",
+      "Música internacional"
+    ],
+    "Tecnologia": [
+      "Linguagens de programação por criador",
+      "Marcos da computação",
+      "Empresas, marcas e fundadores",
+      "Internet e protocolos",
+      "Games: consoles e história",
+      "Hardware"
+    ]
+  }
+}

@@ -11,7 +11,7 @@ const [de, para] = process.argv.slice(2);
 const fechados = new Set((lerJson(join(RAIZ_EXP, 'metricas.json')).conferencia?.lotes || []).map((l) => `lote-${l.lote}.json`));
 if (fechados.has(de) || fechados.has(para)) { console.error('lote fechado (já conferido): não mexo'); process.exit(1); }
 const n = parseInt(de.match(/\d+/)[0], 10);
-const [plano, NL, k] = n >= 86 ? ['plano-r9.json', 10, n - 85] : n >= 76 ? ['plano-r8.json', 10, n - 75] : n >= 26 ? ['plano-r3.json', 10, n - 25] : n >= 16 ? ['plano-r2.json', 10, n - 15] : ['plano-r1.json', 10, n - 5];
+const [plano, NL, k] = n >= 96 ? ['plano-r10.json', 10, n - 95] : n >= 86 ? ['plano-r9.json', 10, n - 85] : n >= 76 ? ['plano-r8.json', 10, n - 75] : n >= 26 ? ['plano-r3.json', 10, n - 25] : n >= 16 ? ['plano-r2.json', 10, n - 15] : ['plano-r1.json', 10, n - 5];
 const metas = lerJson(join(RAIZ_EXP, plano)).metas;
 const origem = lerJson(join(PASTA_LOTES, de));
 const arqDestino = join(PASTA_LOTES, para);

@@ -17623,5 +17623,22 @@
     "sem_verificado_web": "13 válidas sem verificado_web: definições consolidadas (Damas, comandos grep/pwd/ping, enzimas e exames: lipase, glicogênio, mioglobina, surfactante, creatinina) e autorias clássicas (Beckett, Ibsen, Molière), mais CSKA Moscou",
     "scripts": "faltam.mjs e mover-excedentes.mjs leem plano-r10.json para os lotes 096+; variedade.mjs com a nota 96 105. Nenhum script novo. duplicadas.mjs rodado SEM --descartar a partir do lote 097: falsos positivos marcados com dup suspeita e dup_revisado; não rode --descartar nos lotes 096 a 105.",
     "meta_nao_batida": "~555 de ~1.000: rendimento das sondas caiu de ~60% de livres nos primeiros lotes para ~30% nos últimos; fáceis quase inexistentes (o banco não tem mais fácil inédita fora de Entretenimento, e mesmo lá a sonda devolveu quase tudo como existente)."
+  },
+  "publicacao_r10": {
+    "data": "2026-10-30",
+    "rodadas": "10 (lotes 096 a 105)",
+    "commit_main": "b6e5436",
+    "commit_aprovacao_expansao": "69154df",
+    "base_main": "e283f13",
+    "antigas": 13458,
+    "novas": 528,
+    "total": 13986,
+    "validador_jogo": {
+      "validas": 13986,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 3297580,
+    "obs": "As 528 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 13.458 da main (banco v9), na ordem dos lotes, so com os campos do jogo. Checagem web final concluida antes (commit 116ecde): 9 confirmadas, 0 corrigidas, 0 descartadas, sem pendencias. Antigas identicas byte a byte; nenhum enunciado repetido, nem sem maiusculas e espacos; 4 alternativas distintas com a resposta entre elas; sem BOM, uma linha, sem quebra final. Pasta expansao/ nao foi para a main. Ultima rodada desta etapa."
   }
 }

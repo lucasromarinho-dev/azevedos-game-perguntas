@@ -13902,7 +13902,29 @@
             "96ba8c39fe"
           ]
         },
-        "obs": "a cota não acabou (34 de ~200); são fichas cuja fonte lida (resumo da Wikipédia) não trazia o detalhe, conferidas de memória com fatos consolidados: João Romão em O Cortiço, irmãos Dalton do mais baixo ao mais alto, voto de Cotegipe contra a abolição, Vasconcelos e o Regresso, gnaisse dos morros do Rio, Tom Simpson no Mont Ventoux em 1967, Thomas Müller artilheiro da Copa de 2010, Paraty e Ilha Grande na UNESCO em 2019, cores invertidas no arco secundário; ficam para a checagem web complementar"
+        "obs": "a cota não acabou (34 de ~200); são fichas cuja fonte lida (resumo da Wikipédia) não trazia o detalhe, conferidas de memória com fatos consolidados: João Romão em O Cortiço, irmãos Dalton do mais baixo ao mais alto, voto de Cotegipe contra a abolição, Vasconcelos e o Regresso, gnaisse dos morros do Rio, Tom Simpson no Mont Ventoux em 1967, Thomas Müller artilheiro da Copa de 2010, Paraty e Ilha Grande na UNESCO em 2019, cores invertidas no arco secundário; ficam para a checagem web complementar",
+        "pendente": 0,
+        "resolvido_em": "checagem_web_complementar (9 confirmadas)"
+      },
+      "checagem_web_complementar": {
+        "data": "30/10/2026",
+        "alvo": "risco_sem_checagem_conferente (9 ids)",
+        "buscas_web": 9,
+        "obs_buscas": "9 WebSearch, uma por ficha (Tom Simpson/Mont Ventoux 1967, irmãos Dalton por altura, João Romão em O Cortiço, Cotegipe contra a Lei Áurea, Vasconcelos e o Regresso, gnaisse facoidal dos morros do Rio, Müller artilheiro de 2010 com 5 gols e 3 assistências, Paraty e Ilha Grande patrimônio misto em 2019, cores invertidas no arco secundário)",
+        "confirmadas_sem_mudanca": 9,
+        "corrigidas": 0,
+        "rebaixadas": 0,
+        "descartadas": 0,
+        "sem_checar": 0,
+        "ids_sem_checar": {},
+        "erradas_defensaveis": 0,
+        "por_lote": {
+          "096": "1/0/0",
+          "097": "2/0/0",
+          "098": "4/0/0",
+          "100": "2/0/0"
+        },
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; as 9 ganharam verificado_web_conferente: true. Erradas conferidas: nenhuma defensável (Cotegipe é o único baiano entre as opções e os outros votos contrários foram de Paulino de Souza, Belisário, Ribeiro da Luz e Cavalcanti, fora das alternativas; Klose fora das alternativas de 2010; Miranda é vizinho, não dono do cortiço)"
       }
     }
   },

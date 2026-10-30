@@ -250,7 +250,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "ffdb142301",
@@ -466,7 +467,7 @@
   {
     "id": "cfb59b9da6",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Em espanhol, o que quer dizer o verbo \"brincar\"?",
     "resposta": "Pular",
     "alternativas": [
@@ -482,12 +483,14 @@
     "dup_ref": "id:5bf6abe652",
     "recente": false,
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 8.4)",
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "dificuldade_ajuste": "dificil -> medio (checagem web complementar: brincar/pular é o falso cognato clássico do espanhol)",
+    "verificado_web": true
   },
   {
     "id": "13ef5e5006",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Em espanhol, o que quer dizer a palavra \"éxito\"?",
     "resposta": "Sucesso",
     "alternativas": [
@@ -503,7 +506,9 @@
     "dup_ref": "id:e39494f0d0",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "dificuldade_ajuste": "dificil -> medio (checagem web complementar: éxito/sucesso é o falso cognato clássico do espanhol)",
+    "verificado_web": true
   },
   {
     "id": "6843e18849",
@@ -670,7 +675,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "5fc0b00c76",
@@ -822,7 +828,8 @@
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (4.7)",
     "conferido_por": "conferente-v5",
-    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)"
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)",
+    "verificado_web": true
   },
   {
     "id": "a51cc5e8b9",
@@ -905,7 +912,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "8f9abecbf2",
@@ -926,7 +934,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "5c561bc427",
@@ -947,7 +956,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "17be0279d6",
@@ -1179,7 +1189,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "66440078eb",
@@ -1518,7 +1529,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "7aea25b923",
@@ -1561,7 +1573,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "670c9d4d73",
@@ -1966,7 +1979,8 @@
     "recente": false,
     "dup_regra": null,
     "conferido_por": "conferente-v5",
-    "correcao": "mesmas 4 alternativas de b36200bc6a (Clásico de Avellaneda), uma resolvia a outra; errada trocada por Clásico Santafesino"
+    "correcao": "mesmas 4 alternativas de b36200bc6a (Clásico de Avellaneda), uma resolvia a outra; errada trocada por Clásico Santafesino",
+    "verificado_web": true
   },
   {
     "id": "d14405240f",
@@ -2078,7 +2092,7 @@
     "id": "bfe201bdcd",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual tartaruga gigante voadora é a rival japonesa de Godzilla nos filmes da Daiei?",
+    "pergunta": "Qual tartaruga gigante voadora a Daiei criou para rivalizar com o Godzilla da Toho?",
     "resposta": "Gamera",
     "alternativas": [
       "King Ghidorah",
@@ -2093,7 +2107,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v5"
+    "conferido_por": "conferente-v5",
+    "correcao": "enunciado: Gamera é a rival do Godzilla como franquia (criada pela Daiei para competir com a Toho); os dois nunca se enfrentaram nos filmes da Daiei",
+    "verificado_web": true
   },
   {
     "id": "fa91b8d630",

@@ -18,5 +18,2365 @@
     "dup_ref": "banco:7349",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
+  },
+  {
+    "id": "86eb763a0e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Konnichiwa\" é um olá em qual língua?",
+    "resposta": "Japonês",
+    "alternativas": [
+      "Coreano",
+      "Japonês",
+      "Chinês",
+      "Vietnamita"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3cca25e004",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "f6814ae294",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A palavra \"grazie\" quer dizer obrigado em qual língua?",
+    "resposta": "Italiano",
+    "alternativas": [
+      "Romeno",
+      "Italiano",
+      "Francês",
+      "Espanhol"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3cca25e004",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "ed271c6fe8",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A palavra \"merci\" quer dizer obrigado em qual língua?",
+    "resposta": "Francês",
+    "alternativas": [
+      "Italiano",
+      "Catalão",
+      "Romeno",
+      "Francês"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:66e48a5bf7 (E2 mesma resposta e mesmo assunto (10.7, 28% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:66e48a5bf7",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.7, 28% do fato)"
+  },
+  {
+    "id": "b6c166cbf1",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Adiós\" quer dizer tchau em qual língua?",
+    "resposta": "Espanhol",
+    "alternativas": [
+      "Romeno",
+      "Francês",
+      "Italiano",
+      "Espanhol"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "37fc55179e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Auf Wiedersehen\" quer dizer adeus em qual língua?",
+    "resposta": "Alemão",
+    "alternativas": [
+      "Sueco",
+      "Holandês",
+      "Norueguês",
+      "Alemão"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:8e3bb2355a",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)"
+  },
+  {
+    "id": "796f903ebc",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ilha asiática os navegadores portugueses chamaram de \"Formosa\"?",
+    "resposta": "Taiwan",
+    "alternativas": [
+      "Okinawa",
+      "Taiwan",
+      "Hainan",
+      "Luzon"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7eaaed5852",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade mineira se chamava Arraial do Tijuco?",
+    "resposta": "Diamantina",
+    "alternativas": [
+      "Mariana",
+      "Diamantina",
+      "Sabará",
+      "Ouro Preto"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "190abfde93",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual capital nasceu como Porto dos Casais, povoada por açorianos?",
+    "resposta": "Porto Alegre",
+    "alternativas": [
+      "Rio Grande",
+      "Porto Alegre",
+      "Pelotas",
+      "Florianópolis"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4a56b15dcd",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual capital nordestina se chamava Parahyba até 1930?",
+    "resposta": "João Pessoa",
+    "alternativas": [
+      "Natal",
+      "João Pessoa",
+      "Recife",
+      "Campina Grande"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8b82fe4bdb",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "\"Ni hao\" é um olá em qual língua?",
+    "resposta": "Mandarim",
+    "alternativas": [
+      "Tailandês",
+      "Japonês",
+      "Coreano",
+      "Mandarim"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:240",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "1e4acf603f",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual país africano se chamava Daomé até 1975?",
+    "resposta": "Benin",
+    "alternativas": [
+      "Gana",
+      "Benin",
+      "Togo",
+      "Burkina Faso"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d66393a34c",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual país africano era a colônia britânica da Costa do Ouro?",
+    "resposta": "Gana",
+    "alternativas": [
+      "Costa do Marfim",
+      "Serra Leoa",
+      "Nigéria",
+      "Gana"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bfebf18336",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual capital foi fundada em 1616 com o nome de Feliz Lusitânia?",
+    "resposta": "Belém",
+    "alternativas": [
+      "São Luís",
+      "Fortaleza",
+      "Natal",
+      "Belém"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "50328d5252",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual país asiático foi chamado de Kampuchea nos anos 1970?",
+    "resposta": "Camboja",
+    "alternativas": [
+      "Mianmar",
+      "Camboja",
+      "Vietnã",
+      "Laos"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "055613ee8e",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem bíblico perdeu a força quando lhe cortaram os cabelos?",
+    "resposta": "Sansão",
+    "alternativas": [
+      "Golias",
+      "Sansão",
+      "Davi",
+      "Gideão"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "48c3fd767a",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Com qual arma o jovem Davi derrubou o gigante Golias?",
+    "resposta": "Funda",
+    "alternativas": [
+      "Espada",
+      "Lança",
+      "Funda",
+      "Arco"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "518aa9c36d",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual profeta bíblico passou três dias dentro de um grande peixe?",
+    "resposta": "Jonas",
+    "alternativas": [
+      "Elias",
+      "Isaías",
+      "Daniel",
+      "Jonas"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4e8e5f5ef4",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual torre bíblica explicaria a origem das muitas línguas do mundo?",
+    "resposta": "Torre de Babel",
+    "alternativas": [
+      "Torre de Davi",
+      "Torre de Sião",
+      "Torre de Babel",
+      "Torre de Jericó"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3495bfcb5e",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Quais presentes os Reis Magos levaram ao menino Jesus?",
+    "resposta": "Ouro, incenso e mirra",
+    "alternativas": [
+      "Ouro, prata e marfim",
+      "Seda, mel e azeite",
+      "Prata, vinho e pão",
+      "Ouro, incenso e mirra"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "72bd495f82",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem bíblico é o homem que mais viveu, 969 anos?",
+    "resposta": "Matusalém",
+    "alternativas": [
+      "Abraão",
+      "Noé",
+      "Adão",
+      "Matusalém"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f59f49827",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual amigo de Jesus foi ressuscitado quatro dias depois de morto?",
+    "resposta": "Lázaro",
+    "alternativas": [
+      "Tomé",
+      "Lázaro",
+      "Pedro",
+      "Zaqueu"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ca14ac8c0c",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Segundo a Bíblia, por quantas moedas de prata Judas traiu Jesus?",
+    "resposta": "Trinta",
+    "alternativas": [
+      "Quarenta",
+      "Trinta",
+      "Doze",
+      "Dez"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1525",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "450444a5d7",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam as associações medievais de artesãos e comerciantes de um mesmo ofício?",
+    "resposta": "Guildas",
+    "alternativas": [
+      "Comunas",
+      "Guildas",
+      "Feudos",
+      "Burgos"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "93db9e8b30",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual título usavam os líderes mongóis, como Gengis?",
+    "resposta": "Cã",
+    "alternativas": [
+      "Xá",
+      "Califa",
+      "Sultão",
+      "Cã"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4740da31ea",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sanitarista paulista dá nome ao famoso hospital de doenças infecciosas de São Paulo?",
+    "resposta": "Emílio Ribas",
+    "alternativas": [
+      "Carlos Chagas",
+      "Emílio Ribas",
+      "Adolfo Lutz",
+      "Vital Brazil"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1fa7ec6be3",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o nome maia da serpente emplumada, cultuada em Chichén Itzá?",
+    "resposta": "Kukulcán",
+    "alternativas": [
+      "Itzamná",
+      "Ixchel",
+      "Kinich Ahau",
+      "Kukulcán"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "133b97b8b6",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava a tabela que convertia dívidas no Plano Cruzado, em 1986?",
+    "resposta": "Tablita",
+    "alternativas": [
+      "Gatilho",
+      "Tabelinha",
+      "URV",
+      "Tablita"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f1425a7e58",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "O que aparece nas notas de euro no lugar dos rostos de pessoas?",
+    "resposta": "Pontes, janelas e portais",
+    "alternativas": [
+      "Animais da Europa",
+      "Mapas dos países",
+      "Pontes, janelas e portais",
+      "Castelos famosos"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9deb3e954c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer a sigla IMC, usada para avaliar o peso?",
+    "resposta": "Índice de massa corporal",
+    "alternativas": [
+      "Índice médio de calorias",
+      "Índice de massa corporal",
+      "Índice metabólico central",
+      "Indicador de músculo corporal"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f6394c1d09",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o batimento do coração sentido no punho?",
+    "resposta": "Pulso",
+    "alternativas": [
+      "Fôlego",
+      "Pulso",
+      "Ritmo",
+      "Tônus"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a9ffc14aa8",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "A jaca, comum no Brasil, é nativa de qual país?",
+    "resposta": "Índia",
+    "alternativas": [
+      "Tailândia",
+      "Indonésia",
+      "Índia",
+      "Brasil"
+    ],
+    "subtema": "Plantas",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fcb59ad458 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:fcb59ad458",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "5418802a45",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como é chamado no Brasil o peixinho dourado de aquário?",
+    "resposta": "Kinguio",
+    "alternativas": [
+      "Guppy",
+      "Neon",
+      "Kinguio",
+      "Molinésia"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b8094150e7",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o remédio que alivia coceira, espirro e outros sinais de alergia?",
+    "resposta": "Antialérgico",
+    "alternativas": [
+      "Antialérgico",
+      "Analgésico",
+      "Antitérmico",
+      "Anti-inflamatório"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7983 (E2e mesma resposta rara e algum assunto em comum (30.2, sim 0.4))",
+    "dup": "certa",
+    "dup_ref": "banco:7983",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (30.2, sim 0.4)"
+  },
+  {
+    "id": "ae9100464e",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o lugar onde ficam os cavalos?",
+    "resposta": "Estrebaria",
+    "alternativas": [
+      "Pocilga",
+      "Galinheiro",
+      "Estrebaria",
+      "Aprisco"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c5f4fc30ce",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama, em inglês, o espírito de jogo limpo no esporte?",
+    "resposta": "Fair play",
+    "alternativas": [
+      "Fair play",
+      "Free kick",
+      "Kick-off",
+      "Game over"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "20fefed81e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a fase de mata-mata das ligas americanas, como a NBA?",
+    "resposta": "Playoffs",
+    "alternativas": [
+      "Playoffs",
+      "Season",
+      "All-Star",
+      "Draft"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "783a6a6f6d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o termo em inglês para impedimento?",
+    "resposta": "Offside",
+    "alternativas": [
+      "Outside",
+      "Corner",
+      "Throw-in",
+      "Offside"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0b10f2bf3a",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama, em inglês, a virada de um time que estava perdendo?",
+    "resposta": "Comeback",
+    "alternativas": [
+      "Upset",
+      "Rebound",
+      "Turnover",
+      "Comeback"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "96017790f5",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o atleta novato, na primeira temporada nas ligas americanas?",
+    "resposta": "Rookie",
+    "alternativas": [
+      "Rookie",
+      "Junior",
+      "Trainee",
+      "Veteran"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b0cf1307b2",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama, em inglês, o time considerado azarão?",
+    "resposta": "Underdog",
+    "alternativas": [
+      "Bad boy",
+      "Top player",
+      "Big shot",
+      "Underdog"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c689e2a2f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube de Araraquara é chamado de \"Locomotiva\"?",
+    "resposta": "Ferroviária",
+    "alternativas": [
+      "Ponte Preta",
+      "Ituano",
+      "Ferroviária",
+      "XV de Piracicaba"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bfd01ac0ae",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube de São Luís é o \"Bolívia Querida\"?",
+    "resposta": "Sampaio Corrêa",
+    "alternativas": [
+      "Sampaio Corrêa",
+      "Moto Club",
+      "Maranhão",
+      "River"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9d1d45382b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube paulista é o \"Galo de Itu\"?",
+    "resposta": "Ituano",
+    "alternativas": [
+      "Ituano",
+      "Comercial",
+      "Ferroviária",
+      "Botafogo-SP"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8044",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+  },
+  {
+    "id": "e78486aa40",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama, em inglês, o jogo em que o goleiro não sofre gol?",
+    "resposta": "Clean sheet",
+    "alternativas": [
+      "Hat-trick",
+      "Golden goal",
+      "Clean sheet",
+      "Full time"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5adb12fe1c",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube é o \"Galo da Borborema\", de Campina Grande?",
+    "resposta": "Treze",
+    "alternativas": [
+      "Botafogo-PB",
+      "Sousa",
+      "Treze",
+      "Campinense"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3b7fd0aaa1",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube mineiro leva o nome da pequena cidade de Tombos?",
+    "resposta": "Tombense",
+    "alternativas": [
+      "Ipatinga",
+      "Caldense",
+      "Tombense",
+      "Uberlândia"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "27b57ffb4b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube paulista é o \"Tigre do Vale\", de Novo Horizonte?",
+    "resposta": "Novorizontino",
+    "alternativas": [
+      "Ituano",
+      "Guarani",
+      "Mirassol",
+      "Novorizontino"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ca22ee5eaa",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual rena do Papai Noel tem o nariz vermelho que brilha?",
+    "resposta": "Rudolph",
+    "alternativas": [
+      "Relâmpago",
+      "Dançarina",
+      "Rudolph",
+      "Corredora"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7154 (E5 resposta antiga citada no texto novo + assunto (23.1))",
+    "dup": "certa",
+    "dup_ref": "banco:7154",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.1)"
+  },
+  {
+    "id": "df5042b522",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Segundo a tradição, onde mora o Papai Noel?",
+    "resposta": "Polo Norte",
+    "alternativas": [
+      "Lapônia",
+      "Polo Norte",
+      "Groenlândia",
+      "Alasca"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:409",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "aa296e7f54",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a montagem com Maria, José e o menino Jesus na manjedoura?",
+    "resposta": "Presépio",
+    "alternativas": [
+      "Nicho",
+      "Oratório",
+      "Altar",
+      "Presépio"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "96726799d2",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual bicho traz os ovos de chocolate na tradição da Páscoa?",
+    "resposta": "Coelho",
+    "alternativas": [
+      "Pato",
+      "Coelho",
+      "Galinha",
+      "Esquilo"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "287bf18f33",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual alimento muita gente come na Sexta-feira Santa no lugar da carne vermelha?",
+    "resposta": "Peixe",
+    "alternativas": [
+      "Ovo",
+      "Frango",
+      "Porco",
+      "Peixe"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3fafd50424",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual ave de carne clara, criada para a ceia de Natal, tem nome de marca registrada?",
+    "resposta": "Chester",
+    "alternativas": [
+      "Chester",
+      "Bruster",
+      "Faisão",
+      "Peru"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3bce254686",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam os papeizinhos coloridos jogados no carnaval?",
+    "resposta": "Confetes",
+    "alternativas": [
+      "Serpentinas",
+      "Purpurinas",
+      "Confetes",
+      "Lantejoulas"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a889449b8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem é o rei do carnaval, que recebe a chave da cidade?",
+    "resposta": "Rei Momo",
+    "alternativas": [
+      "Rei Baco",
+      "Rei Momo",
+      "Rei Pierrô",
+      "Rei Zé Pereira"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2c87de4412",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em qual dia acontece a apuração das escolas de samba do Rio?",
+    "resposta": "Quarta-feira de Cinzas",
+    "alternativas": [
+      "Quarta-feira de Cinzas",
+      "Domingo de carnaval",
+      "Segunda de carnaval",
+      "Sábado das Campeãs"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fa9b9f96b8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a música de carnaval antiga, como \"Ó Abre Alas\" e \"Mamãe Eu Quero\"?",
+    "resposta": "Marchinha",
+    "alternativas": [
+      "Samba-enredo",
+      "Frevo",
+      "Marchinha",
+      "Axé"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3470 (R4 resposta nova citada no enunciado antigo + assunto em comum (peso 14.8))",
+    "dup": "certa",
+    "dup_ref": "banco:3470",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 14.8)"
+  },
+  {
+    "id": "e8219dbb7f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a camiseta que dá acesso aos blocos com corda no carnaval da Bahia?",
+    "resposta": "Abadá",
+    "alternativas": [
+      "Bata",
+      "Camisão",
+      "Mortalha",
+      "Abadá"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1981daf09e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o pão doce de Páscoa em forma de pomba?",
+    "resposta": "Colomba pascal",
+    "alternativas": [
+      "Colomba pascal",
+      "Rosca",
+      "Panetone",
+      "Brioche"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c53fa980e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual domingo abre a Semana Santa, uma semana antes da Páscoa?",
+    "resposta": "Domingo de Ramos",
+    "alternativas": [
+      "Domingo de Ramos",
+      "Domingo da Trindade",
+      "Domingo de Pentecostes",
+      "Domingo de Cinzas"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "615da17e37",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o bloco de carnaval mais antigo do Rio, fundado em 1918?",
+    "resposta": "Cordão da Bola Preta",
+    "alternativas": [
+      "Monobloco",
+      "Simpatia É Quase Amor",
+      "Cordão da Bola Preta",
+      "Suvaco do Cristo"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d22f2ee54e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "No carnaval baiano, como se chama o folião que pula do lado de fora da corda, sem abadá?",
+    "resposta": "Pipoca",
+    "alternativas": [
+      "Camarote",
+      "Pipoca",
+      "Cordeiro",
+      "Avulso"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a64b185ade",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor francês criou o \"Bolero\"?",
+    "resposta": "Ravel",
+    "alternativas": [
+      "Debussy",
+      "Bizet",
+      "Ravel",
+      "Satie"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6cbe2112db",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor criou a ópera \"Carmen\"?",
+    "resposta": "Bizet",
+    "alternativas": [
+      "Puccini",
+      "Rossini",
+      "Bizet",
+      "Verdi"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b0d9c9e5e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor italiano criou a ópera \"O Barbeiro de Sevilha\"?",
+    "resposta": "Rossini",
+    "alternativas": [
+      "Puccini",
+      "Verdi",
+      "Rossini",
+      "Vivaldi"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "299349c4a9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor italiano criou a ópera \"Madame Butterfly\"?",
+    "resposta": "Puccini",
+    "alternativas": [
+      "Puccini",
+      "Verdi",
+      "Donizetti",
+      "Rossini"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8c1eeb5f04",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor austríaco criou a valsa \"Danúbio Azul\"?",
+    "resposta": "Johann Strauss II",
+    "alternativas": [
+      "Franz Schubert",
+      "Joseph Haydn",
+      "Mozart",
+      "Johann Strauss II"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d69f2dde08",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série brasileira da Netflix, de 2021, traz o Saci e a Cuca no mundo moderno?",
+    "resposta": "Cidade Invisível",
+    "alternativas": [
+      "Sintonia",
+      "Ninguém Tá Olhando",
+      "Cidade Invisível",
+      "O Escolhido"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "a0efcfabcf",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor alemão criou a \"Marcha Nupcial\" de \"Sonho de uma Noite de Verão\"?",
+    "resposta": "Mendelssohn",
+    "alternativas": [
+      "Brahms",
+      "Handel",
+      "Bach",
+      "Mendelssohn"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6ef44f836e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor francês criou \"Clair de Lune\"?",
+    "resposta": "Debussy",
+    "alternativas": [
+      "Chopin",
+      "Ravel",
+      "Satie",
+      "Debussy"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a5b3f994b9",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor italiano criou a ópera \"Aida\", passada no Egito?",
+    "resposta": "Verdi",
+    "alternativas": [
+      "Verdi",
+      "Bellini",
+      "Rossini",
+      "Puccini"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "46bda6e730",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor lituano-brasileiro pintou \"Navio de Emigrantes\"?",
+    "resposta": "Lasar Segall",
+    "alternativas": [
+      "Candido Portinari",
+      "Alfredo Volpi",
+      "Di Cavalcanti",
+      "Lasar Segall"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8daa14bcce",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintora carioca contemporânea é famosa pelas telas cheias de círculos coloridos?",
+    "resposta": "Beatriz Milhazes",
+    "alternativas": [
+      "Beatriz Milhazes",
+      "Adriana Varejão",
+      "Tomie Ohtake",
+      "Lygia Clark"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d30577ef3",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintora naïf paulista retratou festas populares e o trabalho no campo?",
+    "resposta": "Djanira",
+    "alternativas": [
+      "Tarsila do Amaral",
+      "Tomie Ohtake",
+      "Djanira",
+      "Anita Malfatti"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "085482c388",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "O que significa o \".com\" dos endereços de sites?",
+    "resposta": "Comercial",
+    "alternativas": [
+      "Comunidade",
+      "Computador",
+      "Comunicação",
+      "Comercial"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "56222b7a56",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como os motoristas apelidam o radar fixo de velocidade?",
+    "resposta": "Pardal",
+    "alternativas": [
+      "Bem-te-vi",
+      "Gavião",
+      "Pardal",
+      "Coruja"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f995e2a046",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o radar com placar que mostra a velocidade do carro?",
+    "resposta": "Lombada eletrônica",
+    "alternativas": [
+      "Lombada eletrônica",
+      "Sinaleiro",
+      "Pardal digital",
+      "Cancela"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "79f2f806c9",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o adesivo no para-brisa que abre a cancela do pedágio sozinho?",
+    "resposta": "Tag",
+    "alternativas": [
+      "Selo",
+      "QR Code",
+      "Tag",
+      "Chip"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "135365e243",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o conjunto de curtidas, comentários e compartilhamentos de uma postagem?",
+    "resposta": "Engajamento",
+    "alternativas": [
+      "Alcance",
+      "Algoritmo",
+      "Engajamento",
+      "Feed"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6c09f7bff3",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual domínio de internet é usado tradicionalmente por organizações sem fins lucrativos?",
+    "resposta": ".org",
+    "alternativas": [
+      ".biz",
+      ".net",
+      ".com",
+      ".org"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "517531f791",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual domínio identifica as universidades dos Estados Unidos?",
+    "resposta": ".edu",
+    "alternativas": [
+      ".sch",
+      ".acad",
+      ".uni",
+      ".edu"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dfe2fd074e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o trem que corre sobre um único trilho elevado?",
+    "resposta": "Monotrilho",
+    "alternativas": [
+      "Funicular",
+      "VLT",
+      "Maglev",
+      "Monotrilho"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "93eab0ccaf",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual cidade nasceu a Positivo, fabricante brasileira de computadores?",
+    "resposta": "Curitiba",
+    "alternativas": [
+      "Curitiba",
+      "Joinville",
+      "São Paulo",
+      "Manaus"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ce13fa5b5",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual cidade paulista nasceu o Magazine Luiza, em 1957?",
+    "resposta": "Franca",
+    "alternativas": [
+      "Ribeirão Preto",
+      "Franca",
+      "Campinas",
+      "Bauru"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e4b16f4ede",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual domínio genérico foi criado para empresas ligadas a redes e provedores de internet?",
+    "resposta": ".net",
+    "alternativas": [
+      ".int",
+      ".org",
+      ".net",
+      ".web"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8383",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.3)"
+  },
+  {
+    "id": "23826ffcbd",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual estado brasileiro tem a sigla RR?",
+    "resposta": "Roraima",
+    "alternativas": [
+      "Roraima",
+      "Rio de Janeiro",
+      "Rondônia",
+      "Rio Grande do Sul"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8ec2398d3d",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava o menino nobre que servia na corte antes de virar escudeiro?",
+    "resposta": "Pajem",
+    "alternativas": [
+      "Valete",
+      "Pajem",
+      "Arauto",
+      "Bobo"
+    ],
+    "subtema": "Idade Média",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7898 (E2e mesma resposta rara e algum assunto em comum (33.7, sim 0.8))",
+    "dup": "certa",
+    "dup_ref": "banco:7898",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (33.7, sim 0.8)"
+  },
+  {
+    "id": "d242617ab6",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o avental branco usado por médicos e cientistas?",
+    "resposta": "Jaleco",
+    "alternativas": [
+      "Guarda-pó",
+      "Bata",
+      "Jaleco",
+      "Macacão"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7370 (E4 resposta nova (rara) citada no texto antigo (5.3))",
+    "dup": "certa",
+    "dup_ref": "banco:7370",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.3)"
+  },
+  {
+    "id": "c729f33621",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantos anos de casamento comemoram as bodas de prata?",
+    "resposta": "25",
+    "alternativas": [
+      "15",
+      "30",
+      "25",
+      "10"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28b5cb643d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama um período de dois anos?",
+    "resposta": "Biênio",
+    "alternativas": [
+      "Biênio",
+      "Bimestre",
+      "Triênio",
+      "Semestre"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "504aaad5d2",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a placa redonda e rasa usada para cultivar bactérias?",
+    "resposta": "Placa de Petri",
+    "alternativas": [
+      "Béquer",
+      "Placa de Petri",
+      "Proveta",
+      "Lâmina"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "399c42c85f",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o queimador a gás dos laboratórios de química?",
+    "resposta": "Bico de Bunsen",
+    "alternativas": [
+      "Bico de Bunsen",
+      "Lamparina",
+      "Maçarico",
+      "Fogareiro"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "517d6ac47a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o pacote de 500 folhas de papel?",
+    "resposta": "Resma",
+    "alternativas": [
+      "Resma",
+      "Bloco",
+      "Fardo",
+      "Caderno"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5d73664edf",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o frasco de laboratório de corpo cônico e gargalo estreito?",
+    "resposta": "Erlenmeyer",
+    "alternativas": [
+      "Proveta",
+      "Béquer",
+      "Erlenmeyer",
+      "Balão volumétrico"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "59cdbb5aa5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Quantas unidades tem uma grosa?",
+    "resposta": "144",
+    "alternativas": [
+      "200",
+      "100",
+      "144",
+      "120"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1f9e4b48d7",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Um lustro é um período de quantos anos?",
+    "resposta": "5",
+    "alternativas": [
+      "5",
+      "3",
+      "10",
+      "15"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6b8f37b521",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Quantos anos comemora um sesquicentenário?",
+    "resposta": "150",
+    "alternativas": [
+      "175",
+      "150",
+      "125",
+      "50"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fb58c1a9d6",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o drible em que a bola passa por cima da cabeça do adversário?",
+    "resposta": "Lençol",
+    "alternativas": [
+      "Elástico",
+      "Lençol",
+      "Pedalada",
+      "Caneta"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "547ff9c21c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o gol que o jogador marca, sem querer, na própria meta?",
+    "resposta": "Gol contra",
+    "alternativas": [
+      "Gol olímpico",
+      "Gol de placa",
+      "Gol contra",
+      "Gol de honra"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e8ada2ded4",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o gol bobo em que a bola escapa fácil das mãos do goleiro?",
+    "resposta": "Frango",
+    "alternativas": [
+      "Pato",
+      "Galo",
+      "Frango",
+      "Peru"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3007015667",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o drible em que a bola passa de um lado do adversário e o jogador corre pelo outro?",
+    "resposta": "Drible da vaca",
+    "alternativas": [
+      "Caneta",
+      "Elástico",
+      "Drible da vaca",
+      "Pedalada"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fb58c1a9d6 (R5 parte da resposta citada + muito assunto em comum (peso 21.8))",
+    "dup": "certa",
+    "dup_ref": "id:fb58c1a9d6",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 21.8)"
+  },
+  {
+    "id": "8a859e3ce0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o toque em que o jogador cruza a perna de chute por trás da perna de apoio?",
+    "resposta": "Letra",
+    "alternativas": [
+      "Letra",
+      "Trivela",
+      "Bicicleta",
+      "Voleio"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:7645 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:7645",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.9)"
+  },
+  {
+    "id": "6490f8ad3e",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o toque de calcanhar dado por trás da outra perna, com a bola no ar?",
+    "resposta": "Chaleira",
+    "alternativas": [
+      "Bicicleta",
+      "Chaleira",
+      "Trivela",
+      "Voleio"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cb90df60af",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as luzinhas que acendem e apagam na árvore de Natal?",
+    "resposta": "Pisca-pisca",
+    "alternativas": [
+      "Pisca-pisca",
+      "Brilha-brilha",
+      "Vagalume",
+      "Lanterninha"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8456",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "b9474a90e0",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor alemão criou a \"Cavalgada das Valquírias\", famosa no filme \"Apocalypse Now\"?",
+    "resposta": "Wagner",
+    "alternativas": [
+      "Wagner",
+      "Haydn",
+      "Brahms",
+      "Beethoven"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3653",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "4e238c4416",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual número de emergência é famoso nos Estados Unidos?",
+    "resposta": "911",
+    "alternativas": [
+      "911",
+      "999",
+      "000",
+      "190"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7defba88ee",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o bastão que segura o celular para tirar foto de mais longe?",
+    "resposta": "Pau de selfie",
+    "alternativas": [
+      "Pau de selfie",
+      "Gimbal",
+      "Tripé",
+      "Monopé"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7675 (E2e mesma resposta rara e algum assunto em comum (21.1, sim 0.4))",
+    "dup": "certa",
+    "dup_ref": "banco:7675",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (21.1, sim 0.4)"
+  },
+  {
+    "id": "ec254db90b",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual número único de emergência vale em toda a União Europeia?",
+    "resposta": "112",
+    "alternativas": [
+      "117",
+      "112",
+      "190",
+      "999"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "50e3442405",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual número chama a Polícia Rodoviária Federal?",
+    "resposta": "191",
+    "alternativas": [
+      "191",
+      "190",
+      "192",
+      "194"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "af7ea704e4",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual número de telefone chama a Defesa Civil?",
+    "resposta": "199",
+    "alternativas": [
+      "199",
+      "194",
+      "198",
+      "196"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d3e480851b",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foi o primeiro celular vendido comercialmente, o \"tijolão\" da Motorola de 1983?",
+    "resposta": "DynaTAC 8000X",
+    "alternativas": [
+      "StarTAC",
+      "DynaTAC 8000X",
+      "MicroTAC",
+      "Razr V3"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4304 (E5 resposta antiga citada no texto novo + assunto (18.6))",
+    "dup": "certa",
+    "dup_ref": "banco:4304",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.6)"
+  },
+  {
+    "id": "bdb4711fe6",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual plano econômico de 1987, do governo Sarney, sucedeu o Cruzado e congelou preços por 90 dias?",
+    "resposta": "Plano Bresser",
+    "alternativas": [
+      "Plano Collor",
+      "Plano Real",
+      "Plano Verão",
+      "Plano Bresser"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:d4c2058f4b (E2d respostas dividem a palavra rara + muito assunto em comum (34.3))",
+    "dup": "certa",
+    "dup_ref": "id:d4c2058f4b",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (34.3)"
+  },
+  {
+    "id": "610d314853",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantos anos de casamento comemoram as bodas de ouro?",
+    "resposta": "50",
+    "alternativas": [
+      "50",
+      "40",
+      "60",
+      "75"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:c729f33621",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "bb46315e1f",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se diz do atacante que fica parado perto do gol, esperando a bola em posição irregular?",
+    "resposta": "Na banheira",
+    "alternativas": [
+      "Na piscina",
+      "Na janela",
+      "Na banheira",
+      "No chuveiro"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "82320e10d9",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual país se joga o chinlone, em que uma bola de vime é mantida no ar com os pés?",
+    "resposta": "Mianmar",
+    "alternativas": [
+      "Mianmar",
+      "Tailândia",
+      "Vietnã",
+      "Laos"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "debebb9e01",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o ar-condicionado com uma parte dentro e outra fora de casa?",
+    "resposta": "Split",
+    "alternativas": [
+      "Portátil",
+      "Cassete",
+      "Split",
+      "Janela"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ec698b8c71",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o número do Disque-Denúncia?",
+    "resposta": "181",
+    "alternativas": [
+      "181",
+      "188",
+      "185",
+      "180"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "039534c961",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual líder aparece em todas as cédulas de yuan da série chinesa lançada em 1999?",
+    "resposta": "Mao Tsé-tung",
+    "alternativas": [
+      "Deng Xiaoping",
+      "Mao Tsé-tung",
+      "Zhou Enlai",
+      "Sun Yat-sen"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:845",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
   }
 ]

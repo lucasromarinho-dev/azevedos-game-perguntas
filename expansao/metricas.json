@@ -2339,6 +2339,90 @@
       }
     },
     {
+      "lote": "062",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 119,
+      "validas": 107,
+      "descartadas": 12,
+      "taxa_descarte": 0.1,
+      "caracteres": 15466,
+      "tokens_aprox": 4419,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "r6-062.txt",
+        "r6-062b.txt",
+        "r6-062c.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r6-062.txt",
+          "r6-062b.txt",
+          "r6-062c.txt"
+        ],
+        "linhas": 231,
+        "existem": 84,
+        "risco": 21,
+        "tokens_aprox": 3156,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.36,
+        "candidatas_por_valida": 2.16
+      },
+      "perguntas": {
+        "escritas": 119,
+        "validas": 107,
+        "descartadas_detector": 12,
+        "descarte": 0.1,
+        "tokens_aprox": 4419
+      },
+      "tokens_por_valida": {
+        "listas": 29,
+        "perguntas": 41,
+        "total": 71
+      }
+    },
+    {
+      "lote": "063",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 109,
+      "validas": 93,
+      "descartadas": 16,
+      "taxa_descarte": 0.15,
+      "caracteres": 14097,
+      "tokens_aprox": 4028,
+      "rodadas_de_reposicao": 6,
+      "candidatas_usadas": [
+        "r6-063.txt",
+        "r6-063b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r6-063.txt",
+          "r6-063b.txt"
+        ],
+        "linhas": 151,
+        "existem": 48,
+        "risco": 14,
+        "tokens_aprox": 2185,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.32,
+        "candidatas_por_valida": 1.62
+      },
+      "perguntas": {
+        "escritas": 109,
+        "validas": 93,
+        "descartadas_detector": 16,
+        "descarte": 0.15,
+        "tokens_aprox": 4028
+      },
+      "tokens_por_valida": {
+        "listas": 23,
+        "perguntas": 43,
+        "total": 67
+      }
+    },
+    {
       "lote": "066",
       "metodo": "respostas_primeiro_v3",
       "escritas": 131,
@@ -7709,6 +7793,46 @@
       "livres": 30,
       "caracteres": 3102,
       "tokens_aprox": 886
+    },
+    "r6-062.txt": {
+      "linhas": 127,
+      "existem": 60,
+      "risco": 12,
+      "livres": 55,
+      "caracteres": 6106,
+      "tokens_aprox": 1745
+    },
+    "r6-062b.txt": {
+      "linhas": 59,
+      "existem": 12,
+      "risco": 7,
+      "livres": 40,
+      "caracteres": 2882,
+      "tokens_aprox": 823
+    },
+    "r6-062c.txt": {
+      "linhas": 45,
+      "existem": 12,
+      "risco": 2,
+      "livres": 31,
+      "caracteres": 2059,
+      "tokens_aprox": 588
+    },
+    "r6-063.txt": {
+      "linhas": 99,
+      "existem": 27,
+      "risco": 13,
+      "livres": 59,
+      "caracteres": 4943,
+      "tokens_aprox": 1412
+    },
+    "r6-063b.txt": {
+      "linhas": 52,
+      "existem": 21,
+      "risco": 1,
+      "livres": 30,
+      "caracteres": 2705,
+      "tokens_aprox": 773
     },
     "r7-066.txt": {
       "linhas": 167,

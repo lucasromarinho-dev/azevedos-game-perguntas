@@ -2032,6 +2032,47 @@
         "perguntas": 44,
         "total": 70
       }
+    },
+    {
+      "lote": "055",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 111,
+      "validas": 96,
+      "descartadas": 15,
+      "taxa_descarte": 0.14,
+      "caracteres": 15159,
+      "tokens_aprox": 4331,
+      "rodadas_de_reposicao": 4,
+      "candidatas_usadas": [
+        "r5-055.txt",
+        "r5-055b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r5-055.txt",
+          "r5-055b.txt"
+        ],
+        "linhas": 118,
+        "existem": 34,
+        "risco": 10,
+        "tokens_aprox": 1965,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.29,
+        "candidatas_por_valida": 1.23
+      },
+      "perguntas": {
+        "escritas": 111,
+        "validas": 96,
+        "descartadas_detector": 15,
+        "descarte": 0.14,
+        "tokens_aprox": 4331
+      },
+      "tokens_por_valida": {
+        "listas": 20,
+        "perguntas": 45,
+        "total": 66
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -6098,6 +6139,22 @@
       "livres": 13,
       "caracteres": 1145,
       "tokens_aprox": 327
+    },
+    "r5-055.txt": {
+      "linhas": 76,
+      "existem": 24,
+      "risco": 5,
+      "livres": 47,
+      "caracteres": 4330,
+      "tokens_aprox": 1237
+    },
+    "r5-055b.txt": {
+      "linhas": 42,
+      "existem": 10,
+      "risco": 5,
+      "livres": 27,
+      "caracteres": 2547,
+      "tokens_aprox": 728
     }
   },
   "rodada3": {

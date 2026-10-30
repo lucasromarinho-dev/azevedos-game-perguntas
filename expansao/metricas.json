@@ -11724,6 +11724,99 @@
         "risco_sem_checagem_conferente": [
           "d16827b86e"
         ]
+      },
+      {
+        "lote": "100",
+        "conferente": "conferente-v10",
+        "conferidas": 49,
+        "conferidas_sem_mudanca": 44,
+        "com_mudanca": 5,
+        "corrigidas": 2,
+        "rebaixadas": 3,
+        "subidas": 0,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "duplicada (banco)": 1,
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 47,
+        "suspeitas": {
+          "total": 6,
+          "mantidas": 5,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 4,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 6,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 3,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 7,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "2d61dbef20: duplicada (banco): mesmo fato que banco:1227 (\"Qual revolucionário russo, rival de Stalin, foi assassinado no México?\" => Leon Trótski)",
+          "e7368d3fd1: molde repetido: molde \"xadrez/enxadrista\" tinha 8 no lote 100; cortada (Ding Liren)"
+        ],
+        "correcoes": [
+          "1d09bc3ac2: Golpe de agosto de 1991 - \"em agosto de 1991\" entregava a resposta \"Golpe de agosto de 1991\"; enunciado refeito (antes: \"Qual tentativa de golpe, em agosto de 1991, tentou tirar Gorbachev do poder e acelerou o fim da URSS?\")",
+          "d89321651a: Mycobacterium leprae - hanseníase = lepra e o nome científico (leprae) é deduzível; rebaixada",
+          "97e082da6b: Bacillus anthracis - antraz e \"anthracis\" se ligam pelo nome; deduzível; rebaixada",
+          "d768e790fa: Príon - príon é o agente da vaca louca muito divulgado; rebaixada",
+          "9ed91bd063: Arthur Miller - \"A Morte do Caixeiro-Viajante\" citava a resposta de 080:912da74a11 (Caixeiro-viajante); trocada por outra peça do mesmo autor (checagem web) (antes: \"Qual dramaturgo americano escreveu \"A Morte do Caixeiro-Viajante\", de 1949?\")"
+        ],
+        "rebaixamentos": [
+          "d89321651a: Mycobacterium leprae (dificil -> medio)",
+          "97e082da6b: Bacillus anthracis (dificil -> medio)",
+          "d768e790fa: Príon (dificil -> medio)"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "duplicada (banco)": 1,
+          "entrega a resposta": 2,
+          "dificuldade": 3,
+          "molde repetido": 1
+        },
+        "exemplos_erro": {
+          "duplicada (banco)": "2d61dbef20: duplicada (banco): mesmo fato que banco:1227 (\"Qual revolucionário russo, rival de Stalin, foi assassinado no México?\" => Leon Trótski)",
+          "entrega a resposta": "1d09bc3ac2: Golpe de agosto de 1991 - \"em agosto de 1991\" entregava a resposta \"Golpe de agosto de 1991\"; enunciado refeito (antes: \"Qual tentativa de golpe, em agosto de 1991, tentou tirar Gorbachev do poder e acelerou o fim da URSS?\")",
+          "dificuldade": "d89321651a: Mycobacterium leprae - hanseníase = lepra e o nome científico (leprae) é deduzível; rebaixada",
+          "molde repetido": "e7368d3fd1: molde repetido: molde \"xadrez/enxadrista\" tinha 8 no lote 100; cortada (Ding Liren)"
+        },
+        "risco_sem_checagem_conferente": [
+          "8f01be3d16",
+          "cb819d91c2"
+        ]
       }
     ],
     "rebaixamentos_r3": {

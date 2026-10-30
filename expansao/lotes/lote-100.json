@@ -12,14 +12,16 @@
       "Floresta da Tijuca"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4988",
     "recente": true,
     "dup_regra": "mesma resposta, assunto vizinho (8.5, 14% do fato)",
     "correcao": "errada \"Parque Lage\" trocada por \"Parque Guinle\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "8f01be3d16",
@@ -34,13 +36,14 @@
       "Angra e Mangaratiba"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8306",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (5.8)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "f94ddd2917",
@@ -55,14 +58,16 @@
       "Couthon"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual jovem jacobino, aliado de Robespierre, ganhou o apelido de \"Arcanjo do Terror\"?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "0e7d63b054",
@@ -77,14 +82,16 @@
       "Germinal"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Como ficou conhecido o golpe de 1794 que derrubou Robespierre, batizado com um mês do calendário revolucionário?\"); enunciado reescrito na geração (antes: \"Como ficou conhecido o golpe de julho de 1794 que derrubou o líder jacobino do Terror, batizado com um mês do calendário revolucionário?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "5c5b3053b7",
@@ -99,13 +106,15 @@
       "Madame Roland"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2d61dbef20",
@@ -120,13 +129,14 @@
       "Kamenev"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada (banco): mesmo fato que banco:1227 (\"Qual revolucionário russo, rival de Stalin, foi assassinado no México?\" => Leon Trótski)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "993bf792a0",
@@ -141,13 +151,15 @@
       "Plano Quinquenal"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d4c948e8ec",
@@ -162,19 +174,21 @@
       "Revolta de Sebastopol"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "1d09bc3ac2",
     "categoria": "História",
     "dificuldade": "medio",
-    "pergunta": "Qual tentativa de golpe, em agosto de 1991, tentou tirar Gorbachev do poder e acelerou o fim da URSS?",
+    "pergunta": "Como ficou conhecida a tentativa da linha-dura comunista de tirar Gorbachev do poder, que acelerou o fim da URSS?",
     "resposta": "Golpe de agosto de 1991",
     "alternativas": [
       "Crise constitucional de 1993",
@@ -183,15 +197,17 @@
       "Revolta de Novocherkassk"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1462",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.5)",
-    "correcao": "errada \"Primavera de Praga\" trocada por \"Revolução Laranja\" na geração (era resposta de outra pergunta); errada \"Revolução Laranja\" trocada por \"Revolta de Novocherkassk\" na geração (era resposta de outra pergunta)",
+    "correcao": "errada \"Primavera de Praga\" trocada por \"Revolução Laranja\" na geração (era resposta de outra pergunta); errada \"Revolução Laranja\" trocada por \"Revolta de Novocherkassk\" na geração (era resposta de outra pergunta) | conferente-v10: \"em agosto de 1991\" entregava a resposta \"Golpe de agosto de 1991\"; enunciado refeito (antes: \"Qual tentativa de golpe, em agosto de 1991, tentou tirar Gorbachev do poder e acelerou o fim da URSS?\")",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "6f86f53cb4",
@@ -206,13 +222,15 @@
       "Listeria monocytogenes"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "9e4027bd7b",
@@ -227,18 +245,20 @@
       "Vibrio vulnificus"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d89321651a",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual bacilo, descoberto pelo norueguês Armauer Hansen, causa a hanseníase?",
     "resposta": "Mycobacterium leprae",
     "alternativas": [
@@ -248,13 +268,17 @@
       "Corynebacterium diphtheriae"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: hanseníase = lepra e o nome científico (leprae) é deduzível; rebaixada"
   },
   {
     "id": "f634217a63",
@@ -280,7 +304,7 @@
   {
     "id": "97e082da6b",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual bactéria causa o antraz, usado em cartas envenenadas nos EUA em 2001?",
     "resposta": "Bacillus anthracis",
     "alternativas": [
@@ -290,13 +314,17 @@
       "Coxiella burnetii"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: antraz e \"anthracis\" se ligam pelo nome; deduzível; rebaixada"
   },
   {
     "id": "400643cd8f",
@@ -311,19 +339,21 @@
       "Viroide"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1685",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (8.1)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d768e790fa",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual agente infeccioso, feito só de proteína mal dobrada, causa a doença da vaca louca?",
     "resposta": "Príon",
     "alternativas": [
@@ -333,13 +363,17 @@
       "Plasmídeo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: príon é o agente da vaca louca muito divulgado; rebaixada"
   },
   {
     "id": "648574a654",
@@ -354,14 +388,16 @@
       "Toxoplasma gondii"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual protozoário, transmitido pelo barbeiro, causa a doença de Chagas?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "ae590cca49",
@@ -397,14 +433,16 @@
       "Gegenschein"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Raio verde\" trocada por \"Coluna de luz\" na geração (era resposta de outra pergunta); errada \"Fogo-de-santelmo\" trocada por \"Luz zodiacal\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Como se chama a miragem complexa que faz navios e costas parecerem flutuar ou se esticar no horizonte?\"); errada \"Luz zodiacal\" trocada por \"Gegenschein\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "eb466e03db",
@@ -439,14 +477,15 @@
       "Ficam só azuladas"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:bc27e917e7",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.8)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "3395222a4b",
@@ -461,13 +500,15 @@
       "Glória"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "8f1d289c31",
@@ -482,14 +523,16 @@
       "Gegenschein"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Fogo-de-santelmo\" trocada por \"Coluna de luz\" na geração (era resposta de outra pergunta); errada \"Fata Morgana\" trocada por \"Luz zodiacal\" na geração (era resposta de outra pergunta); errada \"Luz zodiacal\" trocada por \"Gegenschein\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "36bb13b021",
@@ -504,14 +547,16 @@
       "Baitova"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Tsukahara\" trocada por \"Cheng\" na geração (era resposta de outra pergunta); errada \"Yurchenko\" trocada por \"Baitova\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "152b92a7f3",
@@ -526,13 +571,15 @@
       "Fark"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "bc72ec887e",
@@ -547,13 +594,15 @@
       "iPhoto"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "ffad820ea3",
@@ -568,14 +617,16 @@
       "Delicious"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Digg\" trocada por \"Furl\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "85d7de04d9",
@@ -590,12 +641,15 @@
       "Sean O'Casey"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "ae0459a686",
@@ -610,19 +664,21 @@
       "Sam Shepard"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "9ed91bd063",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual dramaturgo americano escreveu \"A Morte do Caixeiro-Viajante\", de 1949?",
+    "pergunta": "Qual dramaturgo americano escreveu \"As Bruxas de Salem\", de 1953?",
     "resposta": "Arthur Miller",
     "alternativas": [
       "Arthur Miller",
@@ -631,13 +687,16 @@
       "Eugene O'Neill"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "correcao": "conferente-v10: \"A Morte do Caixeiro-Viajante\" citava a resposta de 080:912da74a11 (Caixeiro-viajante); trocada por outra peça do mesmo autor (checagem web) (antes: \"Qual dramaturgo americano escreveu \"A Morte do Caixeiro-Viajante\", de 1949?\")"
   },
   {
     "id": "9eec75eef9",
@@ -652,12 +711,15 @@
       "August Strindberg"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "2a0c96d274",
@@ -692,13 +754,15 @@
       "Bertolt Brecht"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "bb08d7a294",
@@ -733,12 +797,15 @@
       "Molière"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "4e4039e00a",
@@ -793,13 +860,15 @@
       "As Moscas"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "4f558067e8",
@@ -814,14 +883,16 @@
       "Seattle Sounders"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
     "correcao": "errada \"LA Galaxy\" trocada por \"New York Red Bulls\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "951872ee7c",
@@ -836,13 +907,15 @@
       "Gamba Osaka"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "52a8c6a2c0",
@@ -857,13 +930,15 @@
       "AS Vita Club"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "cd578700a9",
@@ -878,13 +953,15 @@
       "Alekhine"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "16ce454d52",
@@ -899,13 +976,15 @@
       "Tigran Petrosian"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "0c70ff63e0",
@@ -920,13 +999,15 @@
       "Viswanathan Anand"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "b4692a43df",
@@ -941,13 +1022,15 @@
       "Gukesh"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "e7368d3fd1",
@@ -962,13 +1045,14 @@
       "Ding Liren"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"xadrez/enxadrista\" tinha 8 no lote 100; cortada (Ding Liren)",
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "f1955e485a",
@@ -983,13 +1067,15 @@
       "Susan Polgár"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "01d9fb0f8d",
@@ -1004,13 +1090,15 @@
       "Ruy López"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "943b8fffd4",
@@ -1025,13 +1113,15 @@
       "Defesa Francesa"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "4117af418e",
@@ -1046,13 +1136,15 @@
       "Mandrake"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2500bdb361",
@@ -1067,14 +1159,16 @@
       "Fedora"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:65f5e3a4c4",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 20.3)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "fab52a584d",
@@ -1089,13 +1183,15 @@
       "Manjaro"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "219491366e",
@@ -1110,13 +1206,15 @@
       "OnlyOffice"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "cad511f386",
@@ -1131,13 +1229,16 @@
       "grep"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual comando de terminal Unix busca um texto dentro de arquivos?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual comando de terminal Unix busca um texto dentro de arquivos?\")",
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "7c13e9b0e6",
@@ -1152,13 +1253,16 @@
       "whoami"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"cd\" trocada por \"ls\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual comando de terminal Unix mostra a pasta em que o usuário está?\")"
+    "correcao": "errada \"cd\" trocada por \"ls\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual comando de terminal Unix mostra a pasta em que o usuário está?\")",
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "05cf1e8450",
@@ -1173,12 +1277,15 @@
       "ipconfig"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "7104ef2389",
@@ -1193,14 +1300,16 @@
       "Nauru"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Kiribati\" trocada por \"Ilhas Marshall\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "1ea6298bab",
@@ -1215,13 +1324,15 @@
       "Seicheles"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual arquipélago do Oceano Índico é o menor país da África?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   }
 ]

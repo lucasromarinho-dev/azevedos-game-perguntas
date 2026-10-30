@@ -4779,6 +4779,98 @@
           "704e140df2 (Ecrã) tem Rato e Ficheiro como erradas, que são respostas de perguntas do lote 054 (decisão fica com o 054)",
           "7461a18f46 (Aggro) citava \"tank\", resposta de id:806205d624 do lote 046: reescrita sem o termo"
         ]
+      },
+      {
+        "lote": "048",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 94,
+        "corrigidas": 5,
+        "rebaixadas": 3,
+        "descartadas": 5,
+        "motivos_descarte": {
+          "espelho": 2,
+          "duplicada": 3
+        },
+        "perguntas_com_busca_web": 22,
+        "buscas_web": 20,
+        "suspeitas": {
+          "total": 10,
+          "mantidas": 9,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 3
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "6b005a80a0: espelho: o enunciado de banco:1042 (valquírias escolhem os guerreiros mortos para Valhalla) entrega a resposta Valhala",
+          "59dad69ecf: duplicada: mesmo fato que id:6c4d85efca (lote 039, suicídio ritual dos samurais => Haraquiri; seppuku é o mesmo ritual)",
+          "9f1baa069a: duplicada: mesmo fato que banco:1146 (aeronaves de gás alemãs da Primeira Guerra => Zeppelin)",
+          "48fbaa2624: duplicada: mesmo fato que id:bb55d39c91 (lote 032, tática de recuar o time inteiro => Retranca)",
+          "542ff83b66: espelho: banco:3729 (mascote do Android => Um robô verde) e esta pergunta tratam do mesmo mascote; o enunciado entrega a resposta da outra"
+        ],
+        "correcoes": [
+          "137ba9c085: \"Capital Nacional dos Cânions\" sem confirmação em fonte; apelido corrente é \"Terra dos Cânions\"",
+          "fd1c06f1c0: Papagaio também é usado no Sul para a pipa (errada defensável); trocada por Cafifa (termo carioca)",
+          "1dd62bd2e5: Terror Bicolor foi extinta pela Justiça (2004) e virou Torcida Bicolor; verbo no passado",
+          "f9671f998b: Desk pad também é tapete onde o mouse desliza (errada defensável); trocada por Mesa digitalizadora",
+          "0b0c589cbc: Shoptime (canal de vendas na TV) era errada defensável; trocada por Imaginarium"
+        ],
+        "rebaixamentos": [
+          "cf41a02df2: dificil -> medio",
+          "7e637fda41: dificil -> medio",
+          "afd99b196c: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 3,
+          "entrega a resposta": 0,
+          "fato impreciso": 2,
+          "espelho/duplicada": 5,
+          "dificuldade": 3,
+          "outro": 0
+        },
+        "exemplos_erro": {
+          "errada defensavel": "0b0c589cbc: marca de comerciais longos na TV e lojas -> Shoptime também vendia pela TV",
+          "fato impreciso": "137ba9c085: Cambará do Sul 'Capital Nacional dos Cânions' -> título sem fonte; apelido é 'Terra dos Cânions'",
+          "espelho/duplicada": "9f1baa069a: dirigíveis alemães => Zepelim -> banco:1146 já pergunta o mesmo",
+          "dificuldade": "7e637fda41: fascite plantar como difícil -> termo conhecido pelo nome"
+        },
+        "espelhos_r5": []
       }
     ],
     "rebaixamentos_r3": {

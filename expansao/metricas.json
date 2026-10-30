@@ -6286,7 +6286,7 @@
           "d4c2058f4b: Plano Verão - enunciado citava o Cruzado Novo, resposta de banco:7526 (moeda de 1989 a 1990); reescrito sem o nome da moeda",
           "1cd96dcd6f: Tartaruga - errada Jabuti defensável (é a tartaruga terrestre, como a da fábula); trocada por Porco-espinho",
           "ca5d9bb759: Que estão verdes - errada 'azedas' defensável (é a versão em inglês e em várias traduções, 'sour grapes'); trocada",
-          "90dae7d2e6: Ribalta - errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina",
+          "90dae7d2e6: Ribalta - errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina; errada Bambolina trocada por Fosso (Bambolina é resposta de 7752b, lote 061)",
           "a92e7ab820: Diapasão - errada Afinador defensável (o diapasão é um afinador); trocada por Batuta",
           "7df91a84d7: 789 - o prefixo 789 indica o registro na GS1 Brasil, não o país de fabricação (Aos Fatos); enunciado ajustado"
         ],
@@ -6311,9 +6311,9 @@
         "lote": "060",
         "conferente": "conferente-v6",
         "conferidas": 107,
-        "conferidas_sem_mudanca": 93,
-        "com_mudanca": 14,
-        "corrigidas": 13,
+        "conferidas_sem_mudanca": 92,
+        "com_mudanca": 15,
+        "corrigidas": 14,
         "rebaixadas": 3,
         "subidas": 0,
         "descartadas": 0,
@@ -6353,7 +6353,7 @@
           },
           "Entretenimento": {
             "conferidas": 27,
-            "corrigidas": 5,
+            "corrigidas": 6,
             "rebaixadas": 2,
             "descartadas": 0
           },
@@ -6378,7 +6378,8 @@
           "090a6fdc63: Monólogo - errada Solilóquio (fala de um ator sozinho) defensável; trocada por Sarau",
           "b4f34e76f0: Adagio - Allegro era a resposta de c8dca91b35 (lote 059), que tinha Adagio entre as erradas (respostas cruzadas); trocada por Fortissimo",
           "7622dfb071: Olho de peixe - errada Grande angular defensável (olho de peixe é uma grande angular extrema); trocada por Zoom",
-          "ebd56baa03: Molinete - carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado"
+          "ebd56baa03: Molinete - carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado",
+          "34c9244d11: Rotunda - errada Bambolina era a resposta de 7752b (lote 061), que tinha Rotunda entre as erradas; trocada por Urdimento"
         ],
         "rebaixamentos": [
           "35179b5f57: Puro-sangue inglês dificil -> medio",
@@ -6390,7 +6391,7 @@
           "outro": 1,
           "entrega a resposta": 6,
           "errada defensavel": 3,
-          "espelho/duplicada": 2,
+          "espelho/duplicada": 3,
           "dificuldade": 1,
           "fato impreciso": 1
         },
@@ -6401,6 +6402,101 @@
           "espelho/duplicada": "ca26240b14: errada Centroavante é a resposta de banco:7699 (camisa 9), do mesmo molde; trocada por Volante",
           "dificuldade": "929a8c7d69: undefined",
           "fato impreciso": "ebd56baa03: carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado"
+        }
+      },
+      {
+        "lote": "061",
+        "conferente": "conferente-v6",
+        "conferidas": 92,
+        "conferidas_sem_mudanca": 79,
+        "com_mudanca": 13,
+        "corrigidas": 12,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "espelho": 1
+        },
+        "perguntas_com_busca_web": 4,
+        "buscas_web": 4,
+        "suspeitas": {
+          "total": 16,
+          "mantidas": 15,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 5,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "47ac65f7fc: espelho: a resposta (cartões perfurados) está no enunciado de banco:5340 (inventor dos cartões perfurados do censo de 1890 => Herman Hollerith)"
+        ],
+        "correcoes": [
+          "707198af55: Solidificação - errada Condensação era a resposta de 63b71d5d0b (mesmo lote); trocada por Vaporização",
+          "ba6e58f249: Carlos Barbosa - enunciado citava a Tramontina, resposta de 7f4a474d00 (mesmo lote); reescrito sem a marca",
+          "5d9bdc2ede: Whirlpool - enunciado citava a Brastemp, resposta de 31dbb83a40 (mesmo lote); trocada pela Consul, do mesmo grupo",
+          "9448b6c6a5: Christopher Sholes - enunciado citava QWERTY, resposta de banco:3795; reescrito",
+          "538fae90ac: Fram - enunciado citava Roald Amundsen, resposta de banco:1456 (primeiro a chegar ao Polo Sul); reescrito",
+          "2241eb881e: Gêmeos - 'representado por dois irmãos' praticamente entregava Gêmeos; trocado pela data",
+          "47ae4bf7e7: Lygia Bojunga - Ruth Rocha era a resposta de ea87e43... (mesmo lote), que tinha Lygia Bojunga entre as erradas (respostas cruzadas); trocada",
+          "7752b995a4: Bambolina - erradas cruzadas com outras perguntas de teatro da rodada (Ribalta é resposta de 90dae, lote 059); trocada por Gambiarra",
+          "faec2ca516: Proscênio - Rotunda é resposta de 34c92 (lote 060), que tinha Proscênio entre as erradas (respostas cruzadas); trocada",
+          "bf877201b5: Gálio - errada Frâncio também homenageia a França (Francia); trocada por Rutênio",
+          "542c92db6f: Pelota basca - Jai-alai e Frontão são modalidades da própria pelota basca (erradas defensáveis); trocadas por Bocha e Padel",
+          "e555e3e78d: Fofolete - a Fofolete nasceu em 1978 pela Troll, não pela Estrela; tirada a marca. Errada Polly (Polly Pocket, também minúscula) trocada por Barbie"
+        ],
+        "rebaixamentos": [
+          "66d1e8efb3: Quem vai a todas as festas dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 5,
+          "entrega a resposta": 5,
+          "errada defensavel": 2,
+          "dificuldade": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "707198af55: errada Condensação era a resposta de 63b71d5d0b (mesmo lote); trocada por Vaporização",
+          "entrega a resposta": "ba6e58f249: enunciado citava a Tramontina, resposta de 7f4a474d00 (mesmo lote); reescrito sem a marca",
+          "errada defensavel": "bf877201b5: errada Frâncio também homenageia a França (Francia); trocada por Rutênio",
+          "dificuldade": "66d1e8efb3: undefined",
+          "fato impreciso": "e555e3e78d: a Fofolete nasceu em 1978 pela Troll, não pela Estrela; tirada a marca. Errada Polly (Polly Pocket, também minúscula) trocada por Barbie"
         }
       }
     ],

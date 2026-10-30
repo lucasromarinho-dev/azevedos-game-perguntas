@@ -26,9 +26,9 @@
     "pergunta": "Qual peça de roupa íntima masculina antiga, comprida até os tornozelos, ficava por baixo das calças?",
     "resposta": "Ceroulas",
     "alternativas": [
-      "Culotes",
-      "Pantalonas",
       "Ceroulas",
+      "Pantalonas",
+      "Culotes",
       "Bombachas"
     ],
     "subtema": "Brasil Império",
@@ -1497,9 +1497,10 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "banco:8650",
+    "dup_ref": "banco:6044",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 27.8)",
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8: o enunciado descreve o programa de Luciano Huck sem citar o nome que é resposta de banco:6044"
   },
   {
     "id": "f98fb43ba5",
@@ -1698,10 +1699,10 @@
     "subtema": "Animação",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:3270",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": true,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.1)"
+    "dup_regra": null
   },
   {
     "id": "21a5a8ee32",
@@ -2136,6 +2137,86 @@
       "Times New Roman"
     ],
     "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de1f854239",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "As praias de Ponta Verde e Pajuçara ficam em qual capital nordestina?",
+    "resposta": "Maceió",
+    "alternativas": [
+      "Aracaju",
+      "Natal",
+      "Maceió",
+      "João Pessoa"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:16",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
+  },
+  {
+    "id": "b58fcf7ad5",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual carro da Fiat, lançado em 1990, abriu no Brasil a era dos carros populares de motor 1.0?",
+    "resposta": "Uno Mille",
+    "alternativas": [
+      "Gol 1000",
+      "Fusca Itamar",
+      "Uno Mille",
+      "Chevette Junior"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7e597bdbd6",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o esporte de descer corredeiras sentado numa boia, famoso em Brotas, no interior paulista?",
+    "resposta": "Boia-cross",
+    "alternativas": [
+      "Canoagem",
+      "Rafting",
+      "Stand up paddle",
+      "Boia-cross"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5b6cb969a5",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o mergulho feito com um cilindro de ar nas costas, sem depender da superfície para respirar?",
+    "resposta": "Mergulho autônomo",
+    "alternativas": [
+      "Apneia",
+      "Mergulho autônomo",
+      "Mergulho livre",
+      "Snorkel"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

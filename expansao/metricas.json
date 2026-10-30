@@ -5974,6 +5974,91 @@
           "32358725f3 (lote 054, Porto pede-se 'Fino', Imperial entre as erradas) x 055e5f12ff (lote 055, Lisboa pede-se 'Imperial', Fino entre as erradas): par em cadeia; mantida a do 054, avaliar descartar a do 055",
           "047:704e140df2 (Ecrã, com Rato e Ficheiro como erradas) x 96c81f3b04 (Rato) e 1c3c03ecd9 (Ficheiro): avaliado, não é espelho (a errada não diz o que a palavra significa); mantidas"
         ]
+      },
+      {
+        "lote": "056",
+        "conferente": "conferente-v6",
+        "conferidas": 106,
+        "conferidas_sem_mudanca": 102,
+        "com_mudanca": 4,
+        "corrigidas": 3,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 6,
+        "suspeitas": {
+          "total": 17,
+          "mantidas": 16,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "0d537514a8: molde repetido: 28 perguntas de domínio de internet na rodada; cortado o excesso (.me)"
+        ],
+        "correcoes": [
+          "8fe5af8f8f: Taínos - errada Maias trocada por Guaranis: há hipótese de origem no deus maia-quiché Huracán (errada defensável)",
+          "9e62ead325: Maine Coon - enunciado citava o estado do Maine, que entregava a resposta; reescrito com a pista do guaxinim (raccoon)",
+          "e98648d3e3: Pilão - errada Almofariz é o próprio conjunto de pilão e socador (errada defensável); trocada por Gamela"
+        ],
+        "rebaixamentos": [
+          "9e62ead325: Maine Coon dificil -> medio",
+          "e7bd8dc3c0: Border collie dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "errada defensavel": 2,
+          "entrega a resposta": 1,
+          "dificuldade": 1,
+          "molde repetido": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "8fe5af8f8f: errada Maias trocada por Guaranis: há hipótese de origem no deus maia-quiché Huracán (errada defensável)",
+          "entrega a resposta": "9e62ead325: enunciado citava o estado do Maine, que entregava a resposta; reescrito com a pista do guaxinim (raccoon)",
+          "dificuldade": "e7bd8dc3c0: undefined",
+          "molde repetido": "0d537514a8: molde repetido: 28 perguntas de domínio de internet na rodada; cortado o excesso (.me)"
+        }
       }
     ],
     "rebaixamentos_r3": {

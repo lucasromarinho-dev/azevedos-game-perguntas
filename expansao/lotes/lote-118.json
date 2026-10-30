@@ -12,13 +12,15 @@
       "Celeste"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Castelo Rá-Tim-Bum",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Castelo Rá-Tim-Bum"
   },
   {
     "id": "7fd8787d6c",
@@ -33,13 +35,15 @@
       "Zé Luís"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lista de personagens de Turma da Mônica",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Lista de personagens de Turma da Mônica"
   },
   {
     "id": "76f3c841e1",
@@ -54,14 +58,16 @@
       "Uma águia com asas abertas"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:6321e6111f",
     "recente": false,
     "verificado_web": "pt.wikipedia: Tropa de Elite (filme)",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.6)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Batalhão de Operações Policiais Especiais"
   },
   {
     "id": "9894bfe0d5",
@@ -76,13 +82,15 @@
       "Unidos da Tijuca"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Acadêmicos do Grande Rio",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Acadêmicos do Grande Rio"
   },
   {
     "id": "bdcdaaf7ee",
@@ -91,19 +99,22 @@
     "pergunta": "Em \"A Grande Família\", qual filha de Lineu e Nenê era casada com Agostinho?",
     "resposta": "Bebel",
     "alternativas": [
-      "Nenê",
+      "Lurdinha",
       "Marilda",
       "Kelly",
       "Bebel"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Grande Família (2001)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Grande Família (2001)",
+    "correcao": "errada \"Nenê\" (citada no enunciado como a mãe) trocada por \"Lurdinha\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "b26ebb7371",
@@ -118,13 +129,15 @@
       "Felipe Prior"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 22",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Big Brother Brasil 20"
   },
   {
     "id": "a826351e37",
@@ -139,13 +152,15 @@
       "Tom na Casa"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Show do Tom",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Show do Tom"
   },
   {
     "id": "a7a65dc936",
@@ -160,19 +175,21 @@
       "Rebeca Abravanel"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:f781e74cb7",
     "recente": false,
     "verificado_web": "pt.wikipedia: Patrícia Abravanel",
     "dup_regra": "E2 mesma resposta e mesmo assunto (17.5, 48% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Patrícia Abravanel"
   },
   {
     "id": "9d463f0b16",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "O filme \"Carandiru\" foi baseado no livro de qual médico?",
     "resposta": "Drauzio Varella",
     "alternativas": [
@@ -182,13 +199,16 @@
       "Drauzio Varella"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Carandiru (filme)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Carandiru (filme)",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: o livro de Drauzio Varella por trás de \"Carandiru\" é muito conhecido)"
   },
   {
     "id": "8c9e4ef81e",
@@ -203,19 +223,21 @@
       "Bidê ou Balde"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Humberto Gessinger",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Engenheiros do Hawaii"
   },
   {
     "id": "da4ce9d5cf",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Em \"Amor à Vida\", qual médico, pai de Félix, foi vivido por Antonio Fagundes?",
+    "pergunta": "Qual médico, pai do vilão Félix, foi vivido por Antonio Fagundes na novela das nove de 2013?",
     "resposta": "César",
     "alternativas": [
       "Thales",
@@ -224,14 +246,17 @@
       "Atílio"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:793",
     "recente": false,
     "verificado_web": "pt.wikipedia: Amor à Vida",
     "dup_regra": "resposta nova citada no texto antigo (9.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Amor à Vida",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Amor à Vida, de banco:3475, com Félix); enunciado anterior: \"Em \"Amor à Vida\", qual médico, pai de Félix, foi vivido por Antonio Fagundes?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "212846997c",
@@ -246,20 +271,22 @@
       "Ronaldão"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): nicho gamer dos anos 1990: Allejo é cultuado por quem jogou o ISS, mas o adulto comum não reconhece",
     "dup": "certa",
     "dup_ref": "banco:4559",
     "recente": false,
     "verificado_web": "pt.wikipedia: Allejo",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: International Superstar Soccer"
   },
   {
     "id": "d1b9f951a1",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual cantora baiana gravou \"Sorte Grande\", sucesso do carnaval de 2003?",
+    "pergunta": "Qual cantora baiana gravou \"Sorte Grande\", lançada em 2003?",
     "resposta": "Ivete Sangalo",
     "alternativas": [
       "Márcia Freire",
@@ -268,14 +295,17 @@
       "Sarajane"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:93248feeb7",
     "recente": false,
     "verificado_web": "pt.wikipedia: Sorte Grande",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sorte Grande",
+    "correcao": "a música saiu em agosto de 2003 (pt.wikipedia: Sorte Grande), então não foi \"sucesso do carnaval de 2003\"; enunciado corrigido; enunciado anterior: \"Qual cantora baiana gravou \"Sorte Grande\", sucesso do carnaval de 2003?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "3de9bc5158",
@@ -290,13 +320,15 @@
       "Yalla"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Insha'Allah",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Insha'Allah"
   },
   {
     "id": "4d6c359127",
@@ -311,14 +343,16 @@
       "Pião do Baú"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): quadro antigo (anos 1980 e 1990) do Programa Silvio Santos; quem tem menos de 35 anos dificilmente lembra o nome",
     "dup": "suspeita",
     "dup_ref": "banco:7558",
     "recente": false,
     "verificado_web": "pt.wikipedia: Tentação (programa de televisão)",
     "dup_regra": "mesma resposta, assunto vizinho (6.2, 17% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Programa Silvio Santos; web: Correio Braziliense e Tribuna PR (Pião da Casa Própria no Programa Silvio Santos)"
   },
   {
     "id": "222521ab21",
@@ -333,13 +367,15 @@
       "Di Ferrero"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: NX Zero",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: NX Zero"
   },
   {
     "id": "76bfaa6f6b",
@@ -354,14 +390,16 @@
       "Luccas Neto"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:4155",
     "recente": false,
     "verificado_web": "pt.wikipedia: Luccas Neto",
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (21.7)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Luccas Neto"
   },
   {
     "id": "1104ba86ca",
@@ -376,20 +414,22 @@
       "2004"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:62f7643bd6",
     "recente": false,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 1",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Big Brother Brasil 1"
   },
   {
     "id": "3a959c983c",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual cinebiografia de 2023 conta a vida do trapalhão famoso pelo \"cacildis\"?",
+    "pergunta": "Qual cinebiografia de 2023 tem Aílton Graça no papel de um dos Trapalhões?",
     "resposta": "Mussum, o Filmis",
     "alternativas": [
       "Mussum, o Filmis",
@@ -398,19 +438,22 @@
       "Didi e Mussum"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5117",
     "recente": true,
     "verificado_web": "pt.wikipedia: Mussum, o Filmis",
-    "dup_regra": "E2 mesma resposta e mesmo assunto (20.2, 45% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (11.1, 25% do fato)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Mussum, o Filmis",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (\"cacildis\", pista de banco:5117); enunciado anterior: \"Qual cinebiografia de 2023 conta a vida do trapalhão famoso pelo \"cacildis\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "4226051e6c",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual modelo brasileira namorou Leonardo DiCaprio no começo dos anos 2000?",
     "resposta": "Gisele Bündchen",
     "alternativas": [
@@ -420,14 +463,17 @@
       "Alessandra Ambrósio"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:d22922f151",
     "recente": false,
     "verificado_web": "pt.wikipedia: Gisele Bündchen",
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.3, sim 0.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Gisele Bündchen",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: namoro de Gisele com DiCaprio foi muito noticiado e é lembrado por quase todos)"
   },
   {
     "id": "35aa3aeb14",
@@ -442,13 +488,15 @@
       "Beleza Fatal"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Beleza Fatal",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Beleza Fatal"
   },
   {
     "id": "b027c5f116",
@@ -463,13 +511,15 @@
       "Marcelo Nova"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: RPM (banda)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: RPM (banda)"
   },
   {
     "id": "ca29539aae",
@@ -484,20 +534,22 @@
       "Ponto de Equilíbrio"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3827a34300",
     "recente": false,
     "verificado_web": "pt.wikipedia: Skank",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Skank; pt.wikipedia: É uma Partida de Futebol"
   },
   {
     "id": "40e00c8083",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual comédia de 2018, com Monica Martelli e Paulo Gustavo, continua a história de \"Os Homens São de Marte\"?",
+    "pergunta": "Qual comédia de 2018, com Paulo Gustavo, continua a história de \"Os Homens São de Marte\"?",
     "resposta": "Minha Vida em Marte",
     "alternativas": [
       "Minha Vida em Marte",
@@ -506,20 +558,23 @@
       "De Volta a Marte"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
-    "dup_ref": "id:6565221843",
+    "dup_ref": "banco:4708",
     "recente": false,
     "verificado_web": "pt.wikipedia: Minha Vida em Marte",
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Minha Vida em Marte",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Monica Martelli, de id:6565221843); enunciado anterior: \"Qual comédia de 2018, com Monica Martelli e Paulo Gustavo, continua a história de \"Os Homens São de Marte\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "a58bbef567",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"O Rei do Gado\", qual sem-terra, vivida por Patrícia Pillar, se apaixona por Bruno Mezenga?",
+    "pergunta": "Em \"O Rei do Gado\", qual sem-terra foi vivida por Patrícia Pillar?",
     "resposta": "Luana",
     "alternativas": [
       "Marieta",
@@ -528,20 +583,23 @@
       "Rafaela"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:4838",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Rei do Gado",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (22.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Rei do Gado",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (O Rei do Gado, de banco:4838, com Bruno Mezenga); enunciado anterior: \"Em \"O Rei do Gado\", qual sem-terra, vivida por Patrícia Pillar, se apaixona por Bruno Mezenga?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "4522b2b104",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual banda de rock tocava ao vivo no talk show \"The Noite\", de Danilo Gentili?",
+    "pergunta": "Qual banda de rock é a banda da casa do talk show \"The Noite\", do SBT?",
     "resposta": "Ultraje a Rigor",
     "alternativas": [
       "Velhas Virgens",
@@ -550,14 +608,17 @@
       "Golpe de Estado"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:5607",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Ultraje a Rigor",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: The Noite com Danilo Gentili",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Danilo Gentili, de banco:5607); enunciado anterior: \"Qual banda de rock tocava ao vivo no talk show \"The Noite\", de Danilo Gentili?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "6b7873a6e6",
@@ -572,13 +633,15 @@
       "Marina"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): personagem recente (2017/2019) pouco conhecida fora dos leitores atuais, e \"família de veterinários\" é impreciso (só a mãe, Sílvia, é veterinária)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Milena (personagem)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Turma da Mônica; pt.wikipedia: Milena (personagem)"
   },
   {
     "id": "4d4394afb0",
@@ -593,14 +656,16 @@
       "Paredão falso"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5206",
     "recente": false,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 22",
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (11.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Big Brother Brasil 22"
   },
   {
     "id": "4312042328",
@@ -615,13 +680,15 @@
       "Monica Iozzi"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Monica Iozzi",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Monica Iozzi"
   },
   {
     "id": "fd87c2c60a",
@@ -636,13 +703,15 @@
       "Penélope"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Haja Coração",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Haja Coração"
   },
   {
     "id": "2d64862867",
@@ -657,35 +726,41 @@
       "MC Lan"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: MC Binn",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: MC Binn"
   },
   {
     "id": "eed5a4c29b",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Além de Pelé, qual astro do esporte também namorou Xuxa nos anos 1980?",
+    "dificuldade": "medio",
+    "pergunta": "Qual piloto brasileiro de Fórmula 1 namorou Xuxa no fim dos anos 1980?",
     "resposta": "Ayrton Senna",
     "alternativas": [
       "Emerson Fittipaldi",
       "Nelson Piquet",
       "Ayrton Senna",
-      "Zico"
+      "Rubens Barrichello"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
-    "dup_ref": "id:55ad3d68c8",
+    "dup_ref": "id:11b679c162",
     "recente": false,
     "verificado_web": "pt.wikipedia: Xuxa",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (26.3)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (11.1, 36% do fato)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Xuxa; pt.wikipedia: Ayrton Senna",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: namoro de Xuxa com Senna é dos mais lembrados da TV brasileira)",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Pelé, de id:55ad3d68c8 \"namorou Xuxa\"); errada \"Zico\" trocada por \"Rubens Barrichello\" (o enunciado agora pede piloto); enunciado anterior: \"Além de Pelé, qual astro do esporte também namorou Xuxa nos anos 1980?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "49201be5e6",
@@ -700,14 +775,16 @@
       "Mariana Godoy"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:c5d6510ef3",
     "recente": true,
     "verificado_web": "pt.wikipedia: Encontro com Patrícia Poeta",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Encontro com Patrícia Poeta"
   },
   {
     "id": "e90da976ac",
@@ -722,19 +799,21 @@
       "Hugo & Guilherme"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Matheus & Kauan",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Matheus & Kauan"
   },
   {
     "id": "bdd992e702",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual canal de humor do YouTube, criado por Felipe Neto, disputava espaço com o Porta dos Fundos?",
+    "pergunta": "Qual canal de esquetes de humor do YouTube foi criado por Felipe Neto?",
     "resposta": "Parafernalha",
     "alternativas": [
       "Desce a Letra",
@@ -743,20 +822,23 @@
       "Parafernalha"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:4154",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Parafernalha",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (21.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Parafernalha",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Porta dos Fundos, de banco:4154, como canal de humor do YouTube); enunciado anterior: \"Qual canal de humor do YouTube, criado por Felipe Neto, disputava espaço com o Porta dos Fundos?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "170c8c6a14",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Tropa de Elite 2\", qual apresentador de TV sensacionalista vira político ligado à milícia?",
+    "pergunta": "Em \"Tropa de Elite 2\", qual apresentador de TV sensacionalista vira deputado?",
     "resposta": "Fortunato",
     "alternativas": [
       "Guaracy",
@@ -765,14 +847,17 @@
       "Fraga"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:d2c05e868e",
     "recente": false,
     "verificado_web": "pt.wikipedia: Tropa de Elite 2: O Inimigo Agora É Outro",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Tropa de Elite 2: O Inimigo Agora É Outro",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Tropa de Elite 2, de 086:fb933f03ad, com as milícias); enunciado anterior: \"Em \"Tropa de Elite 2\", qual apresentador de TV sensacionalista vira político ligado à milícia?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "3db2e90f7d",
@@ -787,13 +872,15 @@
       "Angel Mix"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Angel Mix",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Angel Mix"
   },
   {
     "id": "e7423dfd5b",
@@ -808,20 +895,22 @@
       "Black Alien"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5133",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Rappa",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Rappa"
   },
   {
     "id": "ee04760b67",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual personagem da turma do Penadinho representa o fim da vida, com capa preta e foice?",
+    "pergunta": "Qual personagem de Mauricio de Sousa representa o fim da vida, com capa preta e foice?",
     "resposta": "Dona Morte",
     "alternativas": [
       "Dona Foice",
@@ -830,13 +919,16 @@
       "Dona Morte"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Turma do Penadinho",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Turma do Penadinho",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Penadinho, de banco:3663); enunciado anterior: \"Qual personagem da turma do Penadinho representa o fim da vida, com capa preta e foice?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "5e312a79b8",
@@ -851,13 +943,15 @@
       "Suel"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Diogo Nogueira",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Paolla Oliveira"
   },
   {
     "id": "9f787ebda9",
@@ -872,13 +966,15 @@
       "Malhação: Toda Forma de Amar"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Bom Sucesso (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Bom Sucesso (telenovela)"
   },
   {
     "id": "a492e60912",
@@ -893,19 +989,21 @@
       "Netinho de Paula"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Molejo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Anderson Leonardo"
   },
   {
     "id": "abac7b6e9c",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Em quem Paulo Gustavo se inspirou para criar Dona Hermínia?",
+    "pergunta": "Em quem o criador de Dona Hermínia se inspirou para criar a personagem?",
     "resposta": "Na própria mãe",
     "alternativas": [
       "Numa tia",
@@ -914,14 +1012,17 @@
       "Numa vizinha"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:4708",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Paulo Gustavo",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (21.8)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Minha Mãe É uma Peça",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Paulo Gustavo, de banco:4708, com Dona Hermínia); enunciado anterior: \"Em quem Paulo Gustavo se inspirou para criar Dona Hermínia?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "5d93cd6cd9",
@@ -936,13 +1037,15 @@
       "Lucas Penteado"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 21",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Israel & Rodolffo"
   },
   {
     "id": "62b4cfdf02",
@@ -957,13 +1060,15 @@
       "Leon e Nilce"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Coisa de Nerd",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Coisa de Nerd"
   },
   {
     "id": "9f3d3cd254",
@@ -978,19 +1083,21 @@
       "CNT"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Eliana",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Eliana"
   },
   {
     "id": "e1c30afefa",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual cantor foi vocalista da Banda Eva por mais de dez anos, depois da saída de Ivete Sangalo?",
+    "pergunta": "Qual cantor baiano assumiu os vocais da banda em que Ivete Sangalo começou e ficou nela por onze anos?",
     "resposta": "Saulo Fernandes",
     "alternativas": [
       "Tuca Fernandes",
@@ -999,14 +1106,17 @@
       "Ricardo Chaves"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:4635",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Saulo Fernandes",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (32.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Banda Eva",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Banda Eva, de banco:4635, com Ivete); \"mais de dez anos\" trocado pelos onze anos do verbete; enunciado anterior: \"Qual cantor foi vocalista da Banda Eva por mais de dez anos, depois da saída de Ivete Sangalo?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "0854f42fab",
@@ -1016,19 +1126,22 @@
     "resposta": "A Praça É Nossa",
     "alternativas": [
       "Show de Calouros",
-      "A Praça da Alegria",
+      "Escolinha do Barulho",
       "Escolinha do Golias",
       "A Praça É Nossa"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5698",
     "recente": false,
     "verificado_web": "pt.wikipedia: Carlos Alberto de Nóbrega",
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Carlos Alberto de Nóbrega",
+    "correcao": "errada \"A Praça da Alegria\" era o programa original de Manoel de Nóbrega (resposta defensável); trocada por \"Escolinha do Barulho\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "f4b1b83b7e",
@@ -1043,13 +1156,15 @@
       "Milene Domingues"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Milene Domingues",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Milene Domingues"
   },
   {
     "id": "d1c57ccca3",
@@ -1064,14 +1179,16 @@
       "Famosos em Cena"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8941",
     "recente": false,
     "verificado_web": "pt.wikipedia: Show dos Famosos",
     "dup_regra": "resposta nova citada no texto antigo (6.8)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Domingão com Huck"
   },
   {
     "id": "b3de79f4dd",
@@ -1086,20 +1203,22 @@
       "Thaeme & Thiago"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8342",
     "recente": false,
     "verificado_web": "pt.wikipedia: Maiara & Maraisa",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Maiara & Maraisa"
   },
   {
     "id": "09391b3179",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Que Horas Ela Volta?\", como se chama a filha de Val, que vem do Nordeste e mexe com a casa dos patrões?",
+    "pergunta": "Em \"Que Horas Ela Volta?\", como se chama a filha da empregada, que vem do Nordeste e mexe com a casa dos patrões?",
     "resposta": "Jéssica",
     "alternativas": [
       "Fabinho",
@@ -1108,13 +1227,16 @@
       "Bárbara"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Que Horas Ela Volta?",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Que Horas Ela Volta?",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Que Horas Ela Volta?, de banco:8552, com a empregada Val); enunciado anterior: \"Em \"Que Horas Ela Volta?\", como se chama a filha de Val, que vem do Nordeste e mexe com a casa dos patrões?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "6d142a5d8f",
@@ -1129,13 +1251,15 @@
       "Ara Ketu"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Ilê Aiyê",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Ilê Aiyê"
   },
   {
     "id": "01f4142404",
@@ -1150,13 +1274,15 @@
       "Jade"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Clone",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Clone"
   },
   {
     "id": "4e487de779",
@@ -1171,14 +1297,16 @@
       "Joelma"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3514",
     "recente": false,
     "verificado_web": "pt.wikipedia: Voando pro Pará",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Joelma"
   },
   {
     "id": "9765a61735",
@@ -1193,13 +1321,15 @@
       "Comédia da Vida Privada"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Comédia da Vida Privada",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Comédia da Vida Privada"
   },
   {
     "id": "fe19edf2b8",
@@ -1214,13 +1344,15 @@
       "Venus Podcast"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Flow Podcast",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Flow Podcast"
   },
   {
     "id": "8a152dff94",
@@ -1235,13 +1367,15 @@
       "Pernambucanas"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Pernambucanas",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Revista Oeste e Meio & Mensagem (jingle do frio, Pernambucanas)"
   },
   {
     "id": "5c5b95a117",
@@ -1256,13 +1390,15 @@
       "MC Lan"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: MC G15",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: MC G15"
   },
   {
     "id": "20599c6253",
@@ -1272,19 +1408,22 @@
     "resposta": "Disney Club",
     "alternativas": [
       "Sessão Disney",
-      "Disney Cruj",
+      "Disney Kids",
       "Disney Club",
       "Clube do Mickey"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:89ec369b72",
     "recente": false,
     "verificado_web": "pt.wikipedia: Disney Club",
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Disney Club",
+    "correcao": "errada \"Disney Cruj\" era o mesmo programa do SBT renomeado em 2001 (resposta defensável); trocada por \"Disney Kids\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "fcca7f1e30",
@@ -1299,14 +1438,16 @@
       "Tony Salles"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f31911bb35",
     "recente": false,
     "verificado_web": "pt.wikipedia: Psirico",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Psirico"
   },
   {
     "id": "ca87c6389a",
@@ -1321,13 +1462,15 @@
       "Cinzento"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Flicts",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Flicts"
   },
   {
     "id": "e7c1068e36",
@@ -1342,20 +1485,22 @@
       "Juliano Cazarré"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:c022b1e916",
     "recente": true,
     "verificado_web": "pt.wikipedia: Selton Mello",
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 31.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Selton Mello"
   },
   {
     "id": "7b6a4bccaf",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual jornalista apresentou a primeira edição do \"No Limite\", em 2000?",
+    "pergunta": "Qual jornalista apresentou as primeiras temporadas do \"No Limite\"?",
     "resposta": "Zeca Camargo",
     "alternativas": [
       "Zeca Camargo",
@@ -1364,13 +1509,16 @@
       "Renato Machado"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Zeca Camargo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: No Limite",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (No Limite, de banco:5499, com o ano 2000); enunciado anterior: \"Qual jornalista apresentou a primeira edição do \"No Limite\", em 2000?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "3bea37a662",
@@ -1385,14 +1533,16 @@
       "Salve Jorge"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:9e0058e0f4",
     "recente": true,
     "verificado_web": "pt.wikipedia: Travessia (telenovela)",
     "dup_regra": "resposta nova citada no texto antigo (7.8)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Travessia (telenovela)"
   },
   {
     "id": "ac61fe95d4",
@@ -1407,13 +1557,15 @@
       "Tati Quebra Barraco"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Perlla",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Perlla"
   },
   {
     "id": "243b0ae51a",
@@ -1428,13 +1580,15 @@
       "Mirtes"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sai de Baixo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sai de Baixo"
   },
   {
     "id": "756c0cb1c5",
@@ -1449,20 +1603,22 @@
       "Izabel Goulart"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a9cae7702e",
     "recente": false,
     "verificado_web": "pt.wikipedia: Adriana Lima",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Adriana Lima"
   },
   {
     "id": "2a2f26af69",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Em \"Amor à Vida\", qual médica, irmã de Félix, foi vivida por Paolla Oliveira?",
+    "pergunta": "Qual médica, irmã do vilão Félix, foi vivida por Paolla Oliveira na novela das nove de 2013?",
     "resposta": "Paloma",
     "alternativas": [
       "Glauce",
@@ -1471,13 +1627,16 @@
       "Paloma"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Amor à Vida",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Amor à Vida",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Amor à Vida, de banco:3475, com Félix); enunciado anterior: \"Em \"Amor à Vida\", qual médica, irmã de Félix, foi vivida por Paolla Oliveira?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "54c43b9f47",
@@ -1492,13 +1651,15 @@
       "Marina Sena"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Marina Sena",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Marina Sena"
   },
   {
     "id": "549e9569ac",
@@ -1513,13 +1674,15 @@
       "Mentholatum"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: O Povo e Mackenzie",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: O Povo e Mackenzie (Gelol, 1982)"
   },
   {
     "id": "9c825e87a6",
@@ -1534,20 +1697,22 @@
       "Ciência Todo Dia"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): canal de divulgação científica de nicho; o apresentador Pedro Loos não é reconhecido pelo adulto comum",
     "dup": "certa",
     "dup_ref": "banco:2188",
     "recente": false,
     "verificado_web": "pt.wikipedia: Pedro Loos",
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Pedro Loos"
   },
   {
     "id": "f6a7976df2",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual sugador de sangue é amigo de Penadinho, na turma do cemitério de Mauricio de Sousa?",
+    "pergunta": "Qual sugador de sangue faz parte da turma do cemitério, nos quadrinhos de Mauricio de Sousa?",
     "resposta": "Zé Vampir",
     "alternativas": [
       "Morcegão",
@@ -1556,14 +1721,17 @@
       "Conde Vlad"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:3663",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Zé Vampir",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (29.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Turma do Penadinho",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Penadinho, de banco:3663, com o cemitério); enunciado anterior: \"Qual sugador de sangue é amigo de Penadinho, na turma do cemitério de Mauricio de Sousa?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "472c3252ff",
@@ -1578,13 +1746,15 @@
       "Saúde em Dia"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Bem Estar",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Bem Estar"
   },
   {
     "id": "dc637b3a52",
@@ -1599,14 +1769,16 @@
       "Vamo Pulá"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9157",
     "recente": false,
     "verificado_web": "pt.wikipedia: Maria Chiquinha",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sandy & Junior"
   },
   {
     "id": "8fa48bc16c",
@@ -1621,13 +1793,15 @@
       "Thiago Brava"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lucas Lucco",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Lucas Lucco"
   },
   {
     "id": "aedb0be11c",
@@ -1642,13 +1816,15 @@
       "Pirata Maluco"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Pula Pirata",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Pula Pirata"
   },
   {
     "id": "fd7529306c",
@@ -1663,13 +1839,15 @@
       "PodDelas"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): podcast de nicho; Rogério Vilela não é nome conhecido do adulto comum",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Inteligência Ltda.",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Rogério Vilela"
   },
   {
     "id": "6d59e10634",
@@ -1684,14 +1862,16 @@
       "Gato Félix"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3c5746bd38",
     "recente": false,
     "verificado_web": "pt.wikipedia: Castelo Rá-Tim-Bum",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Castelo Rá-Tim-Bum"
   },
   {
     "id": "31630ea367",
@@ -1706,14 +1886,16 @@
       "Sessão de Terapia"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7359",
     "recente": false,
     "verificado_web": "pt.wikipedia: Sessão de Terapia",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sessão de Terapia"
   },
   {
     "id": "14029e9a9a",
@@ -1728,13 +1910,15 @@
       "Alinne Rosa"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "en.wikipedia: We Are One (Ole Ola); web: Rolling Stone Brasil",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: We Are One (Ole Ola)"
   },
   {
     "id": "3648360b3a",
@@ -1749,14 +1933,16 @@
       "Martinho da Vila"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3755a4d870",
     "recente": false,
     "verificado_web": "pt.wikipedia: Martinho da Vila",
     "dup_regra": "resposta nova citada no texto antigo (7.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Martinho da Vila"
   },
   {
     "id": "3cf34bdca5",
@@ -1771,14 +1957,16 @@
       "Verde"
     ],
     "subtema": "quadrinhos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:da8ad1b54e",
     "recente": false,
     "verificado_web": "pt.wikipedia: Magali",
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Magali"
   },
   {
     "id": "d4f9811058",
@@ -1793,13 +1981,15 @@
       "Joyce"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Força do Querer",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Força do Querer"
   },
   {
     "id": "45887ed0cc",
@@ -1814,13 +2004,15 @@
       "Tiê"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Vanessa da Mata",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Boa Sorte / Good Luck"
   },
   {
     "id": "5acd051880",
@@ -1835,14 +2027,16 @@
       "Heroes"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8742",
     "recente": false,
     "verificado_web": "pt.wikipedia: Rodrigo Santoro",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Rodrigo Santoro"
   },
   {
     "id": "e6229c9c3f",
@@ -1857,13 +2051,15 @@
       "Nívea Maria"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0cc1d11923",
     "recente": false,
     "verificado_web": "web: Jornal do Brasil e Viva",
     "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Christiane Torloni"
   }
 ]

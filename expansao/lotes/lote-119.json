@@ -3,7 +3,7 @@
     "id": "a459ad0947",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"O Palhaço\", qual é o nome artístico do palhaço vivido por Selton Mello?",
+    "pergunta": "No filme de Selton Mello sobre o circo Esperança, qual é o nome artístico do palhaço que ele vive?",
     "resposta": "Pangaré",
     "alternativas": [
       "Biribinha",
@@ -12,35 +12,41 @@
       "Arrelia"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:8547",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Palhaço",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (22.6)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (41.3)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Palhaço",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (O Palhaço, de banco:8547, com Selton Mello); enunciado anterior: \"Em \"O Palhaço\", qual é o nome artístico do palhaço vivido por Selton Mello?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "fa40fc6c3b",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual perfil de fofocas viralizou nas redes com posts que costumam começar com \"URGENTE\"?",
+    "pergunta": "Qual perfil de fofocas, um dos maiores do Instagram, costuma abrir as postagens com o emoji de sirene?",
     "resposta": "Choquei",
     "alternativas": [
       "Choquei",
-      "Hugo Gloss",
+      "Fofoquei",
       "Fofoca Urgente",
       "Gossip do Dia"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Choquei",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "en.wikipedia: Choquei (emoji de sirene no começo dos posts); web: Gazeta SP e O Povo",
+    "correcao": "o \"URGENTE\" no começo dos posts não foi confirmado; enunciado refeito com o emoji de sirene (en.wikipedia: Choquei); errada \"Hugo Gloss\" (perfil real de fofoca, podia gerar dúvida) trocada por \"Fofoquei\"; enunciado anterior: \"Qual perfil de fofocas viralizou nas redes com posts que costumam começar com \"URGENTE\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "1e5acab597",
@@ -55,13 +61,15 @@
       "Discoteca do Chacrinha"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cassino do Chacrinha",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Cassino do Chacrinha"
   },
   {
     "id": "38478450cf",
@@ -76,19 +84,21 @@
       "Mumuzinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Dilsinho",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Dilsinho"
   },
   {
     "id": "650e4f1b44",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual atriz viveu Jéssica, a vizinha atrevida da pensão em \"Vai que Cola\"?",
+    "pergunta": "Qual atriz viveu Jéssica, a vizinha atrevida do sitcom \"Vai que Cola\"?",
     "resposta": "Samantha Schmütz",
     "alternativas": [
       "Catarina Abdalla",
@@ -97,14 +107,17 @@
       "Samantha Schmütz"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:02faee3ee9",
     "recente": false,
     "verificado_web": "pt.wikipedia: Samantha Schmütz",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Vai que Cola",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Vai que Cola, de banco:6948, com a pensão); enunciado anterior: \"Qual atriz viveu Jéssica, a vizinha atrevida da pensão em \"Vai que Cola\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "61fce78dff",
@@ -119,20 +132,22 @@
       "Pelé Eterno"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): filme americano pouco visto no Brasil; título difícil de reconhecer",
     "dup": "certa",
     "dup_ref": "id:078f00aeab",
     "recente": false,
     "verificado_web": "pt.wikipedia: Pelé: O Nascimento de uma Lenda",
     "dup_regra": "E2 mesma resposta e mesmo assunto (7.0, 50% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Pelé: O Nascimento de uma Lenda"
   },
   {
     "id": "e15b384b46",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual MC gravou \"Glamurosa\", clássico do funk melody?",
+    "pergunta": "Qual MC gravou \"Glamurosa\"?",
     "resposta": "MC Marcinho",
     "alternativas": [
       "MC Sapão",
@@ -141,14 +156,17 @@
       "MC Marcinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:8942",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: MC Marcinho",
-    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 14.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: MC Marcinho",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (funk melody, de banco:8942, com MC Marcinho); enunciado anterior: \"Qual MC gravou \"Glamurosa\", clássico do funk melody?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "7abe2a9e9f",
@@ -163,13 +181,15 @@
       "Escobar"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Clone",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Clone"
   },
   {
     "id": "104057055a",
@@ -184,14 +204,16 @@
       "Festival de Sucessos"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5121",
     "recente": false,
     "verificado_web": "pt.wikipedia: Sessão da Tarde",
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sessão da Tarde"
   },
   {
     "id": "683deb0fec",
@@ -206,13 +228,15 @@
       "Pedro Sampaio"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Pedro Sampaio",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Pedro Sampaio"
   },
   {
     "id": "1151d03e74",
@@ -227,13 +251,15 @@
       "Professor Bartolomeu"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "en.wikipedia: Marcelo Tas; web: Olhar Digital",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Rá-Tim-Bum; pt.wikipedia: Marcelo Tas"
   },
   {
     "id": "f66bee7ecb",
@@ -248,13 +274,15 @@
       "Tia Surica"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Não Deixe o Samba Morrer",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Não Deixe o Samba Morrer"
   },
   {
     "id": "8661243173",
@@ -269,14 +297,16 @@
       "Simão Abravanel"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:a7a65dc936",
     "recente": false,
     "verificado_web": "pt.wikipedia: Silvio Santos",
     "dup_regra": "E2 mesma resposta e mesmo assunto (17.5, 67% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Silvio Santos"
   },
   {
     "id": "af3cd9a130",
@@ -291,13 +321,15 @@
       "Papo de Mulher"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Saia Justa",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Saia Justa"
   },
   {
     "id": "db22c92750",
@@ -312,13 +344,15 @@
       "Badauí"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: CPM 22",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: CPM 22"
   },
   {
     "id": "d20b9405b3",
@@ -333,19 +367,21 @@
       "Felipe Neto"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Metrópoles e Band",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Júlio Cocielo"
   },
   {
     "id": "d5cc61b17f",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual jornalista passou a dividir a bancada do \"Jornal Nacional\" com William Bonner a partir de 2014?",
+    "pergunta": "Qual jornalista assumiu a bancada do \"Jornal Nacional\" em 2014?",
     "resposta": "Renata Vasconcellos",
     "alternativas": [
       "Ana Paula Araújo",
@@ -354,14 +390,17 @@
       "Mariana Godoy"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:6643",
+    "dup": "suspeita",
+    "dup_ref": "id:ccc8ba5c88",
     "recente": false,
     "verificado_web": "pt.wikipedia: Renata Vasconcellos",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.2)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Renata Vasconcellos",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (William Bonner, de banco:6643, com o Jornal Nacional); enunciado anterior: \"Qual jornalista passou a dividir a bancada do \"Jornal Nacional\" com William Bonner a partir de 2014?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "a15762454c",
@@ -376,13 +415,15 @@
       "João Paulo & Daniel"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Gian & Giovani",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Gian & Giovani"
   },
   {
     "id": "7896aadc54",
@@ -397,13 +438,15 @@
       "Ó Paí, Ó 2"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cine Holliúdy",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Diário do Nordeste (Aluísio, padeiro) e Guia da Semana; pt.wikipedia: O Shaolin do Sertão"
   },
   {
     "id": "87e89a7822",
@@ -418,20 +461,22 @@
       "Lexa"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4635",
     "recente": true,
     "verificado_web": "pt.wikipedia: The Masked Singer Brasil",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: The Masked Singer Brasil"
   },
   {
     "id": "62758dcdf0",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Toma Lá, Dá Cá\", qual síndica fofoqueira do condomínio foi vivida por Arlete Salles?",
+    "pergunta": "Em \"Toma Lá, Dá Cá\", qual síndica fofoqueira do condomínio foi vivida por Stella Miranda?",
     "resposta": "Dona Álvara",
     "alternativas": [
       "Dona Celinha",
@@ -440,13 +485,16 @@
       "Dona Mirtes"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Toma Lá, Dá Cá",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Toma Lá, Dá Cá",
+    "correcao": "atriz errada: Arlete Salles vivia Copélia; a síndica Dona Álvara era de Stella Miranda (pt.wikipedia: Toma Lá, Dá Cá); enunciado corrigido; enunciado anterior: \"Em \"Toma Lá, Dá Cá\", qual síndica fofoqueira do condomínio foi vivida por Arlete Salles?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "387e4676dc",
@@ -461,13 +509,15 @@
       "Zé Vacininha"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Zé Gotinha",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Zé Gotinha"
   },
   {
     "id": "d701b4c317",
@@ -482,18 +532,20 @@
       "Odair José"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Odair José",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Odair José"
   },
   {
     "id": "c24bb22865",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual modelo desfilou ao som de \"Garota de Ipanema\" na abertura das Olimpíadas do Rio, em 2016?",
     "resposta": "Gisele Bündchen",
     "alternativas": [
@@ -503,14 +555,17 @@
       "Alessandra Ambrósio"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:d22922f151",
     "recente": false,
     "verificado_web": "pt.wikipedia: Jogos Olímpicos de Verão de 2016",
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.3, sim 0.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Cerimônia de abertura dos Jogos Olímpicos de Verão de 2016",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: o desfile de Gisele na abertura da Rio 2016 é muito lembrado)"
   },
   {
     "id": "37978d4f07",
@@ -525,13 +580,15 @@
       "Desimpedidos"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Desimpedidos",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Desimpedidos"
   },
   {
     "id": "32e9f7269c",
@@ -546,20 +603,22 @@
       "Tempo de Amar"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8637",
     "recente": false,
     "verificado_web": "pt.wikipedia: Pega Pega",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Pega Pega"
   },
   {
     "id": "51f276ef4b",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual comédia de 2019 se tornou um dos maiores públicos da história do cinema nacional, com mais de 11 milhões de espectadores?",
+    "pergunta": "Qual comédia de 2019 ultrapassou o público de \"Tropa de Elite 2\" e virou um dos filmes nacionais mais vistos da história?",
     "resposta": "Minha Mãe É uma Peça 3",
     "alternativas": [
       "Os Parças",
@@ -568,14 +627,17 @@
       "Minha Mãe É uma Peça 3"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4708",
     "recente": false,
     "verificado_web": "pt.wikipedia: Minha Mãe É uma Peça 3",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Minha Mãe É uma Peça 3",
+    "correcao": "\"mais de 11 milhões de espectadores\" não confirmado no verbete; refeito com o fato do verbete (passou \"Tropa de Elite 2\", O Globo); enunciado anterior: \"Qual comédia de 2019 se tornou um dos maiores públicos da história do cinema nacional, com mais de 11 milhões de espectadores?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "626454d071",
@@ -590,19 +652,21 @@
       "Cezar & Paulinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sinônimos",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sinônimos"
   },
   {
     "id": "709a446985",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual personagem de \"A Praça É Nossa\", um malandro carioca, conta causos do morro ao lado de Carlos Alberto?",
+    "pergunta": "Qual personagem de \"A Praça É Nossa\" é um malandro carioca que conta causos do morro?",
     "resposta": "Paulinho Gogó",
     "alternativas": [
       "Seu Boneco",
@@ -611,14 +675,17 @@
       "João Plenário"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:5698",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Paulinho Gogó",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (21.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Paulinho Gogó",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Carlos Alberto, de banco:5698); enunciado anterior: \"Qual personagem de \"A Praça É Nossa\", um malandro carioca, conta causos do morro ao lado de Carlos Alberto?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "802a2f5e7f",
@@ -633,20 +700,22 @@
       "Banda Pequenos Grandes"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3464",
     "recente": false,
     "verificado_web": "pt.wikipedia: A Turma do Balão Mágico (álbum de 1983)",
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.3)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Turma do Balão Mágico (álbum de 1983)"
   },
   {
     "id": "98af515659",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual marca de eletrônicos usava o slogan \"Tem coisas que só a ... faz por você\"?",
+    "pergunta": "Qual marca de eletrônicos usa o slogan \"Tem coisas que só a ... faz pra você\"?",
     "resposta": "Philco",
     "alternativas": [
       "Semp Toshiba",
@@ -655,20 +724,23 @@
       "CCE"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:82dabb8a98",
     "recente": false,
     "verificado_web": "pt.wikipedia: Philco",
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 9.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: ABC da Comunicação e Marcas pelo Mundo (slogan \"Tem coisas que só a Philco faz pra você\")",
+    "correcao": "slogan corrigido de \"faz por você\" para \"faz pra você\", forma das campanhas da marca; enunciado anterior: \"Qual marca de eletrônicos usava o slogan \"Tem coisas que só a ... faz por você\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "c14a8db4eb",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual produtor musical ficou famoso como o jurado mais severo do \"Ídolos\", no SBT?",
+    "pergunta": "Qual produtor musical ficou famoso como o jurado mais severo do \"Ídolos\"?",
     "resposta": "Arnaldo Saccomani",
     "alternativas": [
       "Arnaldo Saccomani",
@@ -677,13 +749,16 @@
       "Aracy de Almeida"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Arnaldo Saccomani",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Arnaldo Saccomani; pt.wikipedia: Ídolos (Brasil)",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Ídolos, de banco:5601, com o SBT); enunciado anterior: \"Qual produtor musical ficou famoso como o jurado mais severo do \"Ídolos\", no SBT?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "671eda4c53",
@@ -698,13 +773,15 @@
       "Alice Wegmann"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "verificado_web": "pt.wikipedia: Meu Nome É Gal",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Meu Nome É Gal"
   },
   {
     "id": "b7c6e49712",
@@ -719,13 +796,15 @@
       "MCs Zaac & Jerry"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Bumbum Granada",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Bumbum Granada"
   },
   {
     "id": "eb62b0526a",
@@ -740,13 +819,15 @@
       "Frangolino"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sadia",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sadia"
   },
   {
     "id": "a0ef601a38",
@@ -761,13 +842,15 @@
       "Larissa Manoela"
     ],
     "subtema": "cinema",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): nome de atriz mirim de 2019, pouco lembrado por quem não é fã",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "en.wikipedia: Giulia Benite; web: AdoroCinema",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Giulia Benite"
   },
   {
     "id": "ff4d6d5e9a",
@@ -782,14 +865,16 @@
       "Babado Novo"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:2eefd3d5ce",
     "recente": false,
     "verificado_web": "pt.wikipedia: Cheiro de Amor",
     "dup_regra": "resposta nova citada no texto antigo (9.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Cheiro de Amor"
   },
   {
     "id": "a224a64d34",
@@ -804,14 +889,16 @@
       "Velhas Virgens"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:02ee5aa114",
     "recente": false,
     "verificado_web": "pt.wikipedia: Mamonas Assassinas",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Mamonas Assassinas"
   },
   {
     "id": "6fe5a23d39",
@@ -826,13 +913,15 @@
       "Caras e Bocas"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Estrelas (programa de televisão)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Estrelas (programa de televisão)"
   },
   {
     "id": "a64bad9709",
@@ -847,13 +936,15 @@
       "Leandro Firmino"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Leandro Firmino",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Cidade de Deus (filme)"
   },
   {
     "id": "c93b66041d",
@@ -868,18 +959,20 @@
       "Márcio Garcia"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Britto Júnior",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Fazenda (1.ª temporada)"
   },
   {
     "id": "5bb2acb26d",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual atriz e apresentadora é casada com Bruno Gagliasso?",
     "resposta": "Giovanna Ewbank",
     "alternativas": [
@@ -889,14 +982,17 @@
       "Giovanna Lancellotti"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:154b21661e",
     "recente": false,
     "verificado_web": "pt.wikipedia: Giovanna Ewbank",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Bruno Gagliasso",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: casal muito conhecido da TV)"
   },
   {
     "id": "47032c244a",
@@ -911,14 +1007,16 @@
       "MC Koringa"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:8942",
     "recente": false,
     "verificado_web": "pt.wikipedia: Rap do Silva",
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 20.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: MC Bob Rum"
   },
   {
     "id": "6ef549bf45",
@@ -933,13 +1031,15 @@
       "Xerém"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Zeca Apresenta o Quintal do Pagodinho ao Vivo, Vol. 3",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Zeca Pagodinho"
   },
   {
     "id": "3624b13c80",
@@ -954,14 +1054,16 @@
       "Rainha da Bateria"
     ],
     "subtema": "celebridades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8344",
     "recente": false,
     "verificado_web": "pt.wikipedia: Andressa Urach",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Andressa Urach"
   },
   {
     "id": "653cb32cbd",
@@ -976,13 +1078,15 @@
       "Fedor"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Copag (loja Casas Bahia) e USP CDCC",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: USP CDCC e Copag (quem fica com o mico perde)"
   },
   {
     "id": "346cc6d29f",
@@ -997,20 +1101,22 @@
       "Forte Apache"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): brinquedo antigo (1977 a 1980s) e a \"barba e cicatriz\" do enunciado não foi confirmada na web",
     "dup": "suspeita",
     "dup_ref": "banco:5213",
     "recente": false,
     "verificado_web": "pt.wikipedia: Falcon (boneco)",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Falcon (boneco); web: UFPB e Viva (barba e cicatriz não confirmadas)"
   },
   {
     "id": "8c95145c61",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Até que a Sorte nos Separe\", como se chama o personagem de Leandro Hassum que gasta toda a fortuna da loteria?",
+    "pergunta": "Em \"Até que a Sorte nos Separe\", como se chama o protagonista que gasta toda a fortuna ganha na loteria?",
     "resposta": "Tino",
     "alternativas": [
       "Tino",
@@ -1019,20 +1125,23 @@
       "Juca"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:6755",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Até que a Sorte Nos Separe",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Até que a Sorte Nos Separe",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Leandro Hassum, de banco:6755); enunciado anterior: \"Em \"Até que a Sorte nos Separe\", como se chama o personagem de Leandro Hassum que gasta toda a fortuna da loteria?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "10548f95de",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Quais personagens Marcius Melhem e Leandro Hassum viviam em \"Os Caras de Pau\"?",
+    "pergunta": "Como se chamavam os dois protagonistas do humorístico \"Os Caras de Pau\", da Globo?",
     "resposta": "Pedrão e Jorginho",
     "alternativas": [
       "Pedrão e Carlinhos",
@@ -1041,20 +1150,23 @@
       "Tino e Jorginho"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:797ec863b3",
     "recente": false,
     "verificado_web": "pt.wikipedia: Os Caras de Pau",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (52.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.4)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Os Caras de Pau",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Os Caras de Pau, de id:797ec863b3, com Melhem e Hassum); enunciado anterior: \"Quais personagens Marcius Melhem e Leandro Hassum viviam em \"Os Caras de Pau\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "f5ad7665ec",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual atriz viveu a esposa de Leandro Hassum em \"Até que a Sorte nos Separe\"?",
+    "pergunta": "Qual atriz viveu a esposa do protagonista em \"Até que a Sorte nos Separe\", de 2012?",
     "resposta": "Danielle Winits",
     "alternativas": [
       "Kiara Sasso",
@@ -1063,19 +1175,22 @@
       "Heloísa Périssé"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:6755",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Danielle Winits",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": null,
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Até que a Sorte Nos Separe",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Leandro Hassum, de banco:6755); enunciado anterior: \"Qual atriz viveu a esposa de Leandro Hassum em \"Até que a Sorte nos Separe\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "e40675c63a",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual atriz viveu a Compadecida no filme \"O Auto da Compadecida\", de 2000?",
     "resposta": "Fernanda Montenegro",
     "alternativas": [
@@ -1085,14 +1200,17 @@
       "Cássia Kis"
     ],
     "subtema": "cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3579",
     "recente": false,
     "verificado_web": "pt.wikipedia: Fernanda Montenegro",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.3)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Auto da Compadecida (filme)",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: Fernanda Montenegro como a Compadecida é muito lembrada (filme reprisado sempre))"
   },
   {
     "id": "b30e96938e",
@@ -1107,18 +1225,20 @@
       "Você está demitido!"
     ],
     "subtema": "reality",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Correio Braziliense e Jovem Pan",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Correio Braziliense e Jovem Pan (\"Você está demitido\", Roberto Justus)"
   },
   {
     "id": "e8493fadb7",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual narração virou piada repetida pelos brasileiros depois da derrota por 7 a 1, em 2014?",
     "resposta": "Gol da Alemanha",
     "alternativas": [
@@ -1128,14 +1248,17 @@
       "Lá vem eles de novo"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:f9d7a1b2b6",
     "recente": false,
     "verificado_web": "pt.wikipedia: Brasil 1–7 Alemanha (2014)",
     "dup_regra": "E2 mesma resposta e mesmo assunto (14.0, 60% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Brasil 1–7 Alemanha (2014)",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2-br-parte2: \"Gol da Alemanha\" é piada que quase todo brasileiro conhece)"
   },
   {
     "id": "2f1b063a5f",
@@ -1150,14 +1273,16 @@
       "Paródia"
     ],
     "subtema": "humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:45c87c39b6",
     "recente": false,
     "verificado_web": "pt.wikipedia: Esquete",
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 16.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Esquete"
   },
   {
     "id": "81936f3e93",
@@ -1172,14 +1297,16 @@
       "Márcio Garcia"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:6044",
     "recente": true,
     "verificado_web": "pt.wikipedia: Marcos Mion",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (21.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Caldeirão com Mion"
   },
   {
     "id": "37c4c5af8a",
@@ -1194,13 +1321,15 @@
       "Melhoral"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Melhoral",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Melhoral"
   },
   {
     "id": "43327af700",
@@ -1215,13 +1344,15 @@
       "Jorge Ben Jor"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Jorge Ben Jor",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: W/Brasil (Chama o Síndico)"
   },
   {
     "id": "0e60dbb3d5",
@@ -1236,13 +1367,15 @@
       "Lulu Santos"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lulu Santos",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Tempos Modernos (álbum)"
   },
   {
     "id": "4443edb866",
@@ -1257,13 +1390,15 @@
       "Aretuza Lovi"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Iza (cantora)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Dona de Mim (canção)"
   },
   {
     "id": "808cab0286",
@@ -1278,14 +1413,16 @@
       "MC Rebecca"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3513",
     "recente": false,
     "verificado_web": "pt.wikipedia: Ludmilla",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Ludmilla"
   },
   {
     "id": "6290f83a15",
@@ -1300,13 +1437,15 @@
       "Suel"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Os Travessos",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Os Travessos"
   },
   {
     "id": "16e7bc7a0b",
@@ -1321,13 +1460,15 @@
       "Waguinho"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sorriso Maroto",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Sorriso Maroto"
   },
   {
     "id": "76d92e4e01",
@@ -1342,20 +1483,22 @@
       "Rainhas"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3615",
     "recente": false,
     "verificado_web": "pt.wikipedia: Patroas",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Patroas"
   },
   {
     "id": "11c23c84e1",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual cantor de pagode, ex-Exaltasamba, gravou \"Melhor Eu Ir\"?",
+    "pergunta": "Qual cantor de pagode gravou \"Melhor Eu Ir\", em carreira solo?",
     "resposta": "Péricles",
     "alternativas": [
       "Péricles",
@@ -1364,14 +1507,17 @@
       "Suel"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3629",
     "recente": false,
     "verificado_web": "pt.wikipedia: Péricles (cantor)",
-    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.0)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Péricles (cantor)",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Exaltasamba, de banco:3629, com Péricles); enunciado anterior: \"Qual cantor de pagode, ex-Exaltasamba, gravou \"Melhor Eu Ir\"?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "335fae62be",
@@ -1386,14 +1532,16 @@
       "Dona Ivone"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4837",
     "recente": false,
     "verificado_web": "pt.wikipedia: Beth Carvalho",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.1)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Coisinha do Pai"
   },
   {
     "id": "818c55229b",
@@ -1408,20 +1556,22 @@
       "Carla Visi"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3342",
     "recente": false,
     "verificado_web": "pt.wikipedia: Daniela Mercury",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Daniela Mercury (álbum)"
   },
   {
     "id": "6b952c7645",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Em \"Avenida Brasil\", qual atriz viveu Nina, a protagonista que se vinga de Carminha?",
+    "pergunta": "Qual atriz viveu Nina, a protagonista que se vinga de Carminha?",
     "resposta": "Débora Falabella",
     "alternativas": [
       "Fernanda Vasconcellos",
@@ -1430,14 +1580,17 @@
       "Daniele Suzuki"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
-    "dup_ref": "banco:3283",
+    "dup_ref": "id:98785be5fb",
     "recente": false,
     "verificado_web": "pt.wikipedia: Avenida Brasil (telenovela)",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.2, sim 0.2)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Avenida Brasil (telenovela)",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Avenida Brasil, de banco:3283, com Carminha e Nina); enunciado anterior: \"Em \"Avenida Brasil\", qual atriz viveu Nina, a protagonista que se vinga de Carminha?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "73dcf2b355",
@@ -1452,13 +1605,15 @@
       "Serena"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Alma Gêmea",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Alma Gêmea"
   },
   {
     "id": "eb387259f3",
@@ -1473,13 +1628,15 @@
       "Tóia"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Regra do Jogo (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Regra do Jogo (telenovela)"
   },
   {
     "id": "b979642a21",
@@ -1494,14 +1651,16 @@
       "Fábio Juliano"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0a5136e7d0",
     "recente": false,
     "verificado_web": "pt.wikipedia: Lucas Silveira",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Fresno (banda)"
   },
   {
     "id": "c235c38c2b",
@@ -1516,13 +1675,15 @@
       "Humberto & Ronaldo"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: João Lucas & Marcelo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Eu Quero Tchu, Eu Quero Tcha"
   },
   {
     "id": "ba276ec2c9",
@@ -1537,14 +1698,16 @@
       "Cara Valente"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6461",
     "recente": false,
     "verificado_web": "pt.wikipedia: Maria Rita",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Senhora do Destino"
   },
   {
     "id": "3be99f1ce8",
@@ -1559,14 +1722,16 @@
       "Abel"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "id:3c5a778e95",
     "recente": false,
     "verificado_web": "pt.wikipedia: A Força do Querer",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.9)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: A Força do Querer"
   },
   {
     "id": "6fef9260a1",
@@ -1581,13 +1746,15 @@
       "Bianca"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Canaltech e Meio & Mensagem",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Canaltech, Exame e Jornal Opção (Bettina, Empiricus, 2019)"
   },
   {
     "id": "0b4061facf",
@@ -1602,13 +1769,15 @@
       "Carreta Maluca"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Mega Curioso e Know Your Meme",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Carreta Furacão"
   },
   {
     "id": "73111d2ed0",
@@ -1623,13 +1792,15 @@
       "Edílson"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Lance e Diário do Nordeste",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Denílson"
   },
   {
     "id": "79b0d53c97",
@@ -1644,13 +1815,15 @@
       "Moraes Moreira"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): canção pouco conhecida do adulto comum; Jorge Ben Jor já é resposta de 119:43327af700",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Zico",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Zico"
   },
   {
     "id": "cac619b1d2",
@@ -1665,20 +1838,22 @@
       "30"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): número decoreba e o enunciado cita o Perfil da Grow com as dicas, que é a resposta de banco:8259 com a pista dela",
     "dup": "certa",
     "dup_ref": "banco:8259",
     "recente": false,
     "verificado_web": "web: Rolling Stone Brasil e TecMundo",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.3)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Rolling Stone Brasil e lojas (Perfil clássico, 20 dicas por carta; Express tem 10)"
   },
   {
     "id": "3ad676418b",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Em \"Amor à Vida\", qual atriz viveu Pilar, a mãe de Félix?",
+    "pergunta": "Qual atriz viveu Pilar, a mãe do vilão Félix, na novela das nove de 2013?",
     "resposta": "Susana Vieira",
     "alternativas": [
       "Natália do Vale",
@@ -1687,14 +1862,17 @@
       "Elizabeth Savala"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
-    "dup": "certa",
-    "dup_ref": "banco:3475",
+    "dup": "suspeita",
+    "dup_ref": "id:6fffacbd7c",
     "recente": false,
     "verificado_web": "pt.wikipedia: Amor à Vida",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Amor à Vida",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Amor à Vida, de banco:3475, com Félix); enunciado anterior: \"Em \"Amor à Vida\", qual atriz viveu Pilar, a mãe de Félix?\" (conferente-reposicao-2-br-parte2)"
   },
   {
     "id": "b3caef657d",
@@ -1709,14 +1887,16 @@
       "Thiago Lacerda"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6655",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Clone",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.5)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: O Clone"
   },
   {
     "id": "a40878cb17",
@@ -1731,14 +1911,16 @@
       "Jorge & Mateus"
     ],
     "subtema": "musica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3475",
     "recente": false,
     "verificado_web": "pt.wikipedia: Jorge & Mateus",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Propaganda (canção)"
   },
   {
     "id": "8bcebfb717",
@@ -1753,13 +1935,15 @@
       "Márvio Lúcio"
     ],
     "subtema": "humor",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): o público conhece o personagem Carioca, não o nome real Márvio Lúcio",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Filmow e Mais Goiás",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Carioca (humorista)"
   },
   {
     "id": "f47d46c8c3",
@@ -1774,13 +1958,15 @@
       "Zapp-Zapp"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Olhar Digital e Blocktrends",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Olhar Digital e Meio & Mensagem (Zap, ZapZap)"
   },
   {
     "id": "0f930740a7",
@@ -1795,13 +1981,15 @@
       "Paulo Miranda Nascimento"
     ],
     "subtema": "games-internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Peter Jordan",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Peter Jordan"
   },
   {
     "id": "357969a580",
@@ -1816,14 +2004,16 @@
       "Gabriel Jesus"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a7a1f4b05e",
     "recente": false,
     "verificado_web": "web: Time e Know Your Meme",
     "dup_regra": "resposta nova citada no texto antigo (6.0)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Time e Gazeta Esportiva (\"Neymar challenge\", 2018)"
   },
   {
     "id": "e48388d737",
@@ -1838,13 +2028,15 @@
       "Vampeta"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Correio Braziliense e Jovem Pan",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "web: Correio Braziliense e Jovem Pan (Vampeta, rampa do Planalto, 2002)"
   },
   {
     "id": "9f384c5811",
@@ -1859,13 +2051,15 @@
       "Felipão"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "en.wikipedia: Muricy Ramalho; web: Máquina do Esporte e Goal",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Muricy Ramalho; web: Goal e Máquina do Esporte (\"Aqui é trabalho, meu filho\")"
   },
   {
     "id": "a6b4ad3d15",
@@ -1880,13 +2074,15 @@
       "Shankar"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Caminho das Índias",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Caminho das Índias"
   },
   {
     "id": "3b49c7afec",
@@ -1901,14 +2097,16 @@
       "Diego e Daniele Hypolito"
     ],
     "subtema": "esporte-entretenimento",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:2601",
     "recente": true,
     "verificado_web": "pt.wikipedia: Big Brother Brasil 25",
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.4, 27% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Big Brother Brasil 25"
   },
   {
     "id": "2fcbfed040",
@@ -1923,19 +2121,21 @@
       "Marcelo Valle"
     ],
     "subtema": "cinema",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-reposicao-2-br-parte2): ator coadjuvante; o adulto comum lembra o Capitão Fábio, não o nome de quem o viveu",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Tropa de Elite (filme)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Tropa de Elite (filme); pt.wikipedia: Milhem Cortaz"
   },
   {
     "id": "d64d3ef7b2",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Avenida Brasil\", como se chamava a filha da vilã Carminha, que sofria com o peso e o desprezo da mãe?",
+    "pergunta": "Como se chamava a filha da vilã Carminha, que sofria com o peso e o desprezo da mãe?",
     "resposta": "Agatha",
     "alternativas": [
       "Débora",
@@ -1944,13 +2144,16 @@
       "Agatha"
     ],
     "subtema": "tv-novela",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
-    "dup_ref": "id:edc9322b4c",
+    "dup_ref": "id:f5b823ecad",
     "recente": false,
     "verificado_web": "pt.wikipedia: Karol Lannes",
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (28.4)",
-    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)"
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.3)",
+    "dup_revisado": "falso positivo: fato diferente, lido um a um na reposição 2 (sem --descartar)",
+    "conferido_por": "conferente-reposicao-2-br-parte2",
+    "verificado_web_conferente": "pt.wikipedia: Avenida Brasil (telenovela)",
+    "correcao": "enunciado citava a resposta de outra pergunta junto com a pista dela (Avenida Brasil, de banco:3283, com Carminha); enunciado anterior: \"Em \"Avenida Brasil\", como se chamava a filha da vilã Carminha, que sofria com o peso e o desprezo da mãe?\" (conferente-reposicao-2-br-parte2)"
   }
 ]

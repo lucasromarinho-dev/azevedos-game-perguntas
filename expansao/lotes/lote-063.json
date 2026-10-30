@@ -6,8 +6,8 @@
     "pergunta": "Na Bíblia, quem matou o próprio irmão, Abel?",
     "resposta": "Caim",
     "alternativas": [
-      "Esaú",
       "Caim",
+      "Esaú",
       "Set",
       "Ismael"
     ],
@@ -26,8 +26,8 @@
     "pergunta": "Qual foi a primeira série brasileira original da Netflix, lançada em 2016?",
     "resposta": "3%",
     "alternativas": [
-      "Sintonia",
       "3%",
+      "Sintonia",
       "O Mecanismo",
       "Irmandade"
     ],
@@ -48,8 +48,8 @@
     "alternativas": [
       "Goal kick",
       "Kick-in",
-      "Start-up",
-      "Kick-off"
+      "Kick-off",
+      "Start-up"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
@@ -58,5 +58,2085 @@
     "dup_ref": "banco:8927",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "02e879bd50",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Sayonara\" quer dizer adeus em qual língua?",
+    "resposta": "Japonês",
+    "alternativas": [
+      "Coreano",
+      "Chinês",
+      "Japonês",
+      "Tailandês"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3cca25e004",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)"
+  },
+  {
+    "id": "7543e35dbf",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Bonjour\" quer dizer bom dia em qual língua?",
+    "resposta": "Francês",
+    "alternativas": [
+      "Italiano",
+      "Catalão",
+      "Francês",
+      "Romeno"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:238",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "d2440bf193",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Hola\" quer dizer olá em qual língua?",
+    "resposta": "Espanhol",
+    "alternativas": [
+      "Italiano",
+      "Galego",
+      "Espanhol",
+      "Romeno"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b6c166cbf1",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)"
+  },
+  {
+    "id": "9bf7402525",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O DDD 62 é de qual capital?",
+    "resposta": "Goiânia",
+    "alternativas": [
+      "Palmas",
+      "Campo Grande",
+      "Goiânia",
+      "Cuiabá"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ae13037858",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O DDD 48 é de qual capital?",
+    "resposta": "Florianópolis",
+    "alternativas": [
+      "Florianópolis",
+      "Porto Alegre",
+      "Curitiba",
+      "Joinville"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "579df57fbf",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "\"Annyeong\" é um olá em qual língua?",
+    "resposta": "Coreano",
+    "alternativas": [
+      "Vietnamita",
+      "Japonês",
+      "Coreano",
+      "Mandarim"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3481",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.4)"
+  },
+  {
+    "id": "756d7874fd",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A saudação \"salaam\", que quer dizer paz, é de qual língua?",
+    "resposta": "Árabe",
+    "alternativas": [
+      "Árabe",
+      "Turco",
+      "Persa",
+      "Hebraico"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:944c52251e",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "97fb32e94c",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O DDD 68 é de qual capital?",
+    "resposta": "Rio Branco",
+    "alternativas": [
+      "Boa Vista",
+      "Rio Branco",
+      "Porto Velho",
+      "Macapá"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "230ed720e6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "\"Hej\" é um olá informal em qual língua?",
+    "resposta": "Sueco",
+    "alternativas": [
+      "Sueco",
+      "Alemão",
+      "Islandês",
+      "Holandês"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4514a1a9ae",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade fluminense se chamava Vila Real da Praia Grande?",
+    "resposta": "Niterói",
+    "alternativas": [
+      "Petrópolis",
+      "Niterói",
+      "São Gonçalo",
+      "Cabo Frio"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d2a6342c5e",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual festival de música de 1969, nos Estados Unidos, virou símbolo da geração hippie?",
+    "resposta": "Woodstock",
+    "alternativas": [
+      "Woodstock",
+      "Monterey Pop",
+      "Altamont",
+      "Isle of Wight"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8071f28bcd",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como eram chamadas as moças modernas dos anos 1920, de cabelo curto e vestido solto?",
+    "resposta": "Melindrosas",
+    "alternativas": [
+      "Coquetes",
+      "Normalistas",
+      "Melindrosas",
+      "Vedetes"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28dab6c759",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como eram chamados os jovens executivos ambiciosos dos anos 1980?",
+    "resposta": "Yuppies",
+    "alternativas": [
+      "Punks",
+      "Hippies",
+      "Yuppies",
+      "Hipsters"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d2ba07054c",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava o guerreiro viking que lutava em fúria, quase em transe?",
+    "resposta": "Berserker",
+    "alternativas": [
+      "Jarl",
+      "Berserker",
+      "Valquíria",
+      "Skald"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc10ae32cb",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual rei da Babilônia teria mandado construir os Jardins Suspensos?",
+    "resposta": "Nabucodonosor",
+    "alternativas": [
+      "Hamurabi",
+      "Assurbanípal",
+      "Nabucodonosor",
+      "Sargão"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1124 (E5 resposta antiga citada no texto novo + assunto (28.0))",
+    "dup": "certa",
+    "dup_ref": "banco:1124",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (28.0)"
+  },
+  {
+    "id": "18ac7fec34",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual povo da Mesopotâmia criou a escrita cuneiforme?",
+    "resposta": "Sumérios",
+    "alternativas": [
+      "Sumérios",
+      "Hititas",
+      "Assírios",
+      "Fenícios"
+    ],
+    "subtema": "Antiguidade",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1089 (E5 resposta antiga citada no texto novo + assunto (17.9))",
+    "dup": "certa",
+    "dup_ref": "banco:1089",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (17.9)"
+  },
+  {
+    "id": "f00743c467",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual geração literária americana teve Jack Kerouac, autor de \"On the Road\"?",
+    "resposta": "Beatniks",
+    "alternativas": [
+      "Beatniks",
+      "Punks",
+      "Geração Perdida",
+      "Hippies"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cbbb63ebb0",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como eram chamados os jovens britânicos dos anos 1960 que andavam de lambreta e ternos justos?",
+    "resposta": "Mods",
+    "alternativas": [
+      "Rockers",
+      "Teddy Boys",
+      "Punks",
+      "Mods"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ff763315ee",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o alfabeto rúnico dos vikings, nome formado pelas primeiras letras?",
+    "resposta": "Futhark",
+    "alternativas": [
+      "Ogham",
+      "Futhark",
+      "Gótico",
+      "Glagolítico"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0845e504f6",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava a assembleia em que os vikings faziam leis e julgavam disputas?",
+    "resposta": "Thing",
+    "alternativas": [
+      "Thing",
+      "Senado",
+      "Witan",
+      "Conselho"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2db739c040",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "O umbigo é a cicatriz de qual estrutura do bebê?",
+    "resposta": "Cordão umbilical",
+    "alternativas": [
+      "Cordão umbilical",
+      "Placenta",
+      "Útero",
+      "Bolsa amniótica"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1696 (E3 resposta nova citada no texto antigo + assunto (12.3))",
+    "dup": "certa",
+    "dup_ref": "banco:1696",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.3)"
+  },
+  {
+    "id": "624883fe90",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual folha seca costuma ir no feijão para dar aroma?",
+    "resposta": "Louro",
+    "alternativas": [
+      "Manjericão",
+      "Boldo",
+      "Louro",
+      "Hortelã"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "941c6c0216",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o maço de salsinha com cebolinha vendido na feira?",
+    "resposta": "Cheiro-verde",
+    "alternativas": [
+      "Tempero-verde baiano",
+      "Bouquet garni",
+      "Cheiro-verde",
+      "Ervas finas"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5cce87d6e5",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual tempero seco é o mais usado por cima da pizza?",
+    "resposta": "Orégano",
+    "alternativas": [
+      "Páprica",
+      "Cominho",
+      "Orégano",
+      "Açafrão"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7a9f6448df",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o barulho causado pela vibração da garganta durante o sono?",
+    "resposta": "Ronco",
+    "alternativas": [
+      "Ronco",
+      "Soluço",
+      "Pigarro",
+      "Sibilo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9642 (E2 mesma resposta e mesmo assunto (7.8, 21% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:9642",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.8, 21% do fato)"
+  },
+  {
+    "id": "effeebe9e5",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual erva de sabor forte, querida no Norte e no Nordeste, vai na moqueca e divide opiniões?",
+    "resposta": "Coentro",
+    "alternativas": [
+      "Salsinha",
+      "Coentro",
+      "Manjericão",
+      "Cebolinha"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4bce5ce441",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual erva de folhas finas como agulhas tempera a batata assada e o cordeiro?",
+    "resposta": "Alecrim",
+    "alternativas": [
+      "Alecrim",
+      "Tomilho",
+      "Estragão",
+      "Sálvia"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e5598ca2b7",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual cogumelo branco, muito usado no estrogonofe, tem nome francês?",
+    "resposta": "Champignon",
+    "alternativas": [
+      "Shimeji",
+      "Cantarelo",
+      "Champignon",
+      "Portobello"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "925b25e3e2",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual cogumelo escuro e carnudo, de origem japonesa, é comum no yakisoba?",
+    "resposta": "Shitake",
+    "alternativas": [
+      "Portobello",
+      "Porcini",
+      "Shimeji",
+      "Shitake"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "82d601bd5e",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fungo subterrâneo caríssimo é farejado por porcos e cães treinados?",
+    "resposta": "Trufa",
+    "alternativas": [
+      "Porcini",
+      "Trufa",
+      "Morel",
+      "Shimeji"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a2008a5e47",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cogumelo vermelho de bolinhas brancas é venenoso e virou ícone dos contos de fadas?",
+    "resposta": "Amanita",
+    "alternativas": [
+      "Morel",
+      "Cantarelo",
+      "Amanita",
+      "Shimeji"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c386c14364",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual erva, também chamada de dill, acompanha bem o salmão?",
+    "resposta": "Endro",
+    "alternativas": [
+      "Cerefólio",
+      "Erva-doce",
+      "Estragão",
+      "Endro"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bf3f3079ea",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual seleção é a maior campeã mundial de futebol de areia?",
+    "resposta": "Brasil",
+    "alternativas": [
+      "Espanha",
+      "Brasil",
+      "Portugal",
+      "Rússia"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9b1038bedc",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No futsal, como se chama o jogador que atua pelos lados da quadra?",
+    "resposta": "Ala",
+    "alternativas": [
+      "Líbero",
+      "Fixo",
+      "Ala",
+      "Pivô"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "97612ba5df",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual zagueiro uruguaio foi ídolo do São Paulo campeão da Libertadores e do Mundial de 2005?",
+    "resposta": "Diego Lugano",
+    "alternativas": [
+      "Paolo Montero",
+      "Diego Lugano",
+      "Diego Godín",
+      "Sebastián Abreu"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:6830 (E2d respostas dividem a palavra rara + muito assunto em comum (13.1))",
+    "dup": "certa",
+    "dup_ref": "banco:6830",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (13.1)"
+  },
+  {
+    "id": "a41cdf43d3",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual lateral argentino foi ídolo do Cruzeiro no começo dos anos 2000?",
+    "resposta": "Sorín",
+    "alternativas": [
+      "Ayala",
+      "Zanetti",
+      "Pochettino",
+      "Sorín"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2849f00171",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual zagueiro paraguaio, famoso por quase não fazer faltas, jogou no Corinthians?",
+    "resposta": "Gamarra",
+    "alternativas": [
+      "Ayala",
+      "Gamarra",
+      "Arce",
+      "Chilavert"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7b1c5078fb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual torneio Masters de tênis é disputado no deserto da Califórnia?",
+    "resposta": "Indian Wells",
+    "alternativas": [
+      "Indian Wells",
+      "Cincinnati",
+      "Miami Open",
+      "Monte Carlo"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d60d249d66",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual extraterrestre do cinema dizia \"telefone, minha casa\"?",
+    "resposta": "E.T.",
+    "alternativas": [
+      "Stitch",
+      "E.T.",
+      "Yoda",
+      "Alf"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea70af61b3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o hino nacional do Reino Unido?",
+    "resposta": "God Save the King",
+    "alternativas": [
+      "Jerusalem",
+      "God Save the King",
+      "Rule, Britannia!",
+      "Land of Hope and Glory"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de920ad73a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual filme a personagem diz \"Acho que não estamos mais no Kansas\"?",
+    "resposta": "O Mágico de Oz",
+    "alternativas": [
+      "Alice no País das Maravilhas",
+      "A Noviça Rebelde",
+      "Mary Poppins",
+      "O Mágico de Oz"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9d6dedac19",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual filme o policial, ao ver o bicho, diz \"Vamos precisar de um barco maior\"?",
+    "resposta": "Tubarão",
+    "alternativas": [
+      "Tubarão",
+      "Orca",
+      "Piranha",
+      "Moby Dick"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "271a9bc8b5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual filme Patrick Swayze diz \"Ninguém deixa Baby de lado\"?",
+    "resposta": "Dirty Dancing",
+    "alternativas": [
+      "Dirty Dancing",
+      "Ghost",
+      "Grease",
+      "Footloose"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c646795ae9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu funciona na Estação da Luz, em São Paulo?",
+    "resposta": "Museu da Língua Portuguesa",
+    "alternativas": [
+      "MASP",
+      "Pinacoteca",
+      "Museu da Língua Portuguesa",
+      "Museu do Futebol"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8356 (R5 parte da resposta citada + muito assunto em comum (peso 22.3))",
+    "dup": "certa",
+    "dup_ref": "banco:8356",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 22.3)"
+  },
+  {
+    "id": "570c8de3f4",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu de Curitiba é apelidado de \"Olho\"?",
+    "resposta": "Museu Oscar Niemeyer",
+    "alternativas": [
+      "Museu do Expedicionário",
+      "Museu Paranaense",
+      "Museu Ferroviário",
+      "Museu Oscar Niemeyer"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ec24263c2",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu de Petrópolis guarda a coroa de Dom Pedro II?",
+    "resposta": "Museu Imperial",
+    "alternativas": [
+      "Museu Paulista",
+      "Palácio do Catete",
+      "Museu Histórico Nacional",
+      "Museu Imperial"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "af46ae4127",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo gravou \"Eu Te Amo, Meu Brasil\", sucesso de 1970?",
+    "resposta": "Os Incríveis",
+    "alternativas": [
+      "Golden Boys",
+      "Os Incríveis",
+      "Os Mutantes",
+      "Renato e Seus Blue Caps"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "716d039c50",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o hino nacional dos Estados Unidos?",
+    "resposta": "The Star-Spangled Banner",
+    "alternativas": [
+      "The Star-Spangled Banner",
+      "Yankee Doodle",
+      "America the Beautiful",
+      "God Bless America"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ea70af61b3",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "9d18c7570c",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual filme Jack Nicholson grita \"Você não aguenta a verdade!\" num tribunal?",
+    "resposta": "Questão de Honra",
+    "alternativas": [
+      "Os Infiltrados",
+      "O Iluminado",
+      "Melhor É Impossível",
+      "Questão de Honra"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6ea4562453",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual museu de Belém, com parque zoobotânico, é um dos mais antigos centros de pesquisa da Amazônia?",
+    "resposta": "Museu Goeldi",
+    "alternativas": [
+      "Museu Goeldi",
+      "Museu do Marajó",
+      "Museu do Círio",
+      "Museu de Arte Sacra"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "41522637d8",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual instituto de Recife fica num castelo com coleção de armas e de obras holandesas?",
+    "resposta": "Instituto Ricardo Brennand",
+    "alternativas": [
+      "Paço do Frevo",
+      "Museu do Homem do Nordeste",
+      "Instituto Moreira Salles",
+      "Instituto Ricardo Brennand"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b41319b423",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome oficial do Museu do Ipiranga, em São Paulo?",
+    "resposta": "Museu Paulista",
+    "alternativas": [
+      "Museu Paulista",
+      "Museu Bandeirante",
+      "Museu Imperial",
+      "Museu Nacional"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:135 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "banco:135",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "d4c45c9594",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quem escreveu a letra do Hino da Independência do Brasil?",
+    "resposta": "Evaristo da Veiga",
+    "alternativas": [
+      "Olavo Bilac",
+      "Evaristo da Veiga",
+      "Gonçalves Dias",
+      "Osório Duque Estrada"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ee1e4d966",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "De qual compositor é a melodia do hino nacional da Alemanha?",
+    "resposta": "Haydn",
+    "alternativas": [
+      "Brahms",
+      "Haydn",
+      "Bach",
+      "Beethoven"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "50ad55689a",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o liquidificador de mão, em forma de haste?",
+    "resposta": "Mixer",
+    "alternativas": [
+      "Mixer",
+      "Espremedor",
+      "Processador",
+      "Batedor"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fea50dddce",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho elétrico prensa o pão para fazer misto-quente?",
+    "resposta": "Sanduicheira",
+    "alternativas": [
+      "Chapa de crepe",
+      "Sanduicheira",
+      "Grill de mesa",
+      "Torradeira"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9576",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.8)"
+  },
+  {
+    "id": "64e02e1220",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o fogão sem forno, embutido na bancada da cozinha?",
+    "resposta": "Cooktop",
+    "alternativas": [
+      "Rechaud",
+      "Coifa",
+      "Cooktop",
+      "Fogareiro"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52695bbd69",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a cafeteira italiana de alumínio que vai ao fogão?",
+    "resposta": "Moka",
+    "alternativas": [
+      "Chemex",
+      "Moka",
+      "Aeropress",
+      "Coador de pano"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "814620381a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a cafeteira de vidro com êmbolo que empurra o pó para o fundo?",
+    "resposta": "Prensa francesa",
+    "alternativas": [
+      "Prensa francesa",
+      "Hario V60",
+      "Coador de pano",
+      "Chemex"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:fea50dddce",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "53b37678c0",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual tipo de fogão aquece a panela por meio de um campo magnético?",
+    "resposta": "Indução",
+    "alternativas": [
+      "Indução",
+      "Halógeno",
+      "Vitrocerâmico",
+      "Infravermelho"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0e23f50f11",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual peça do micro-ondas gera as ondas que aquecem a comida?",
+    "resposta": "Magnétron",
+    "alternativas": [
+      "Transistor",
+      "Resistor",
+      "Capacitor",
+      "Magnétron"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "692288d3c4",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O \"tchau\" dos brasileiros vem de uma saudação de qual língua?",
+    "resposta": "Italiano",
+    "alternativas": [
+      "Espanhol",
+      "Francês",
+      "Alemão",
+      "Italiano"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:f6814ae294",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "09f3940a27",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Ja\" quer dizer sim em qual língua?",
+    "resposta": "Alemão",
+    "alternativas": [
+      "Russo",
+      "Sueco",
+      "Alemão",
+      "Polonês"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:8e3bb2355a (E2 mesma resposta e mesmo assunto (16.4, 70% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:8e3bb2355a",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (16.4, 70% do fato)"
+  },
+  {
+    "id": "b06b2a14ca",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual data é o Dia da Árvore no Brasil, perto do início da primavera?",
+    "resposta": "21 de setembro",
+    "alternativas": [
+      "21 de setembro",
+      "15 de outubro",
+      "22 de abril",
+      "5 de junho"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5908 (E2 mesma resposta e mesmo assunto (6.6, 30% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:5908",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.6, 30% do fato)"
+  },
+  {
+    "id": "73958b6507",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual tribo urbana dos anos 1970 usava moicano, jaqueta de couro e alfinetes?",
+    "resposta": "Punks",
+    "alternativas": [
+      "Hippies",
+      "Punks",
+      "Mods",
+      "Góticos"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6795eff20b",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em qual data se comemora o Dia do Folclore no Brasil?",
+    "resposta": "22 de agosto",
+    "alternativas": [
+      "24 de junho",
+      "31 de outubro",
+      "22 de agosto",
+      "19 de abril"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:0e59d25c56",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "4d820dc359",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "O Dia Mundial do Rock, em 13 de julho, lembra qual festival de 1985?",
+    "resposta": "Live Aid",
+    "alternativas": [
+      "Woodstock",
+      "Lollapalooza",
+      "Rock in Rio",
+      "Live Aid"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8738",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (7.4, 18% do fato)"
+  },
+  {
+    "id": "9aec74a723",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam os pelinhos na borda das pálpebras que protegem os olhos?",
+    "resposta": "Cílios",
+    "alternativas": [
+      "Sobrancelhas",
+      "Vibrissas",
+      "Penugem",
+      "Cílios"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d1149aa7a1",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "A falta de qual pigmento deixa os cabelos brancos com a idade?",
+    "resposta": "Melanina",
+    "alternativas": [
+      "Clorofila",
+      "Hemoglobina",
+      "Caroteno",
+      "Melanina"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1703 (E2e mesma resposta rara e algum assunto em comum (7.6, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:1703",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.6, sim 0.1)"
+  },
+  {
+    "id": "cd42eb090f",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "O que os jogadores costumam trocar entre si no fim de um jogo?",
+    "resposta": "Camisas",
+    "alternativas": [
+      "Caneleiras",
+      "Camisas",
+      "Braçadeiras",
+      "Chuteiras"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "518e97f252",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como o árbitro sorteia qual time escolhe o lado do campo ou a saída de bola?",
+    "resposta": "Cara ou coroa",
+    "alternativas": [
+      "Par ou ímpar",
+      "Dado",
+      "Cara ou coroa",
+      "Palitinho"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "628a8a13d4",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a volta que o time campeão dá no gramado com a taça?",
+    "resposta": "Volta olímpica",
+    "alternativas": [
+      "Volta de honra",
+      "Volta da vitória",
+      "Volta da taça",
+      "Volta olímpica"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "029b05151e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como os torcedores chamam as quatro últimas posições do Brasileirão, que rebaixam?",
+    "resposta": "Z4",
+    "alternativas": [
+      "Zona da morte",
+      "Z4",
+      "Porão",
+      "G4"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8330 (E2 mesma resposta e enunciados parecidos (0.7))",
+    "dup": "certa",
+    "dup_ref": "banco:8330",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.7)"
+  },
+  {
+    "id": "6a509b7466",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o jogador que dá muitas assistências para os gols dos colegas?",
+    "resposta": "Garçom",
+    "alternativas": [
+      "Garçom",
+      "Carregador",
+      "Maestro",
+      "Motorzinho"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "19faa69067",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca inglesa fez a camisa da seleção brasileira no tetra de 1994?",
+    "resposta": "Umbro",
+    "alternativas": [
+      "Umbro",
+      "Adidas",
+      "Nike",
+      "Topper"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c63ac821b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca brasileira, famosa pelas bolas, tem nome de uma infração do futebol?",
+    "resposta": "Penalty",
+    "alternativas": [
+      "Topper",
+      "Kanxa",
+      "Penalty",
+      "Rainha"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "98abc09cd7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o nome da chuteira de lona com travas de borracha que marcou os anos 1970?",
+    "resposta": "Kichute",
+    "alternativas": [
+      "Kichute",
+      "Conga",
+      "Bamba",
+      "Topper"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a0128b78b",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca esportiva francesa tem um galo no logo?",
+    "resposta": "Le Coq Sportif",
+    "alternativas": [
+      "Lacoste",
+      "Hummel",
+      "Erreà",
+      "Le Coq Sportif"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b0895c06f6",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca italiana tem no logo um casal sentado de costas um para o outro?",
+    "resposta": "Kappa",
+    "alternativas": [
+      "Diadora",
+      "Lotto",
+      "Kappa",
+      "Fila"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "031921d8aa",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "O nome da marca japonesa Asics vem de qual frase em latim?",
+    "resposta": "Anima sana in corpore sano",
+    "alternativas": [
+      "Anima sana in corpore sano",
+      "Citius, altius, fortius",
+      "Carpe diem",
+      "Veni, vidi, vici"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9884",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.2, 16% do fato)"
+  },
+  {
+    "id": "5bcb6dbf10",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem verde e ranzinza odeia o Natal?",
+    "resposta": "Grinch",
+    "alternativas": [
+      "Hulk",
+      "Shrek",
+      "Gollum",
+      "Grinch"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e4b4b2ba56",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome do macaquinho ladrão de Aladdin?",
+    "resposta": "Abu",
+    "alternativas": [
+      "Iago",
+      "Rajah",
+      "Abu",
+      "Gênio"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "87e8cec80a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual peixinho amarelo e azul é o melhor amigo da Ariel?",
+    "resposta": "Linguado",
+    "alternativas": [
+      "Linguado",
+      "Sebastião",
+      "Sabidão",
+      "Nemo"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "02084d19d5",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem nasce em 1º de maio é de qual signo?",
+    "resposta": "Touro",
+    "alternativas": [
+      "Áries",
+      "Touro",
+      "Câncer",
+      "Gêmeos"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4554e7ba75",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem nasce em 1º de agosto é de qual signo?",
+    "resposta": "Leão",
+    "alternativas": [
+      "Libra",
+      "Virgem",
+      "Leão",
+      "Câncer"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:02084d19d5",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "0a9a318239",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer \"fazer vista grossa\"?",
+    "resposta": "Fingir que não viu",
+    "alternativas": [
+      "Ficar com raiva",
+      "Enxergar mal",
+      "Fingir que não viu",
+      "Prestar atenção"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8730",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "6e78a2495f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer \"tirar leite de pedra\"?",
+    "resposta": "Conseguir algo quase impossível",
+    "alternativas": [
+      "Trabalhar sem salário",
+      "Conseguir algo quase impossível",
+      "Perder tempo",
+      "Ser muito pão-duro"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1abfc736a2",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "O que faz quem \"dá uma de João-sem-braço\"?",
+    "resposta": "Finge que não entende",
+    "alternativas": [
+      "Trabalha demais",
+      "Foge da raia",
+      "Finge que não entende",
+      "Briga à toa"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7762",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "c07576ab91",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual filme um Papai Noel de loja vai a julgamento para provar que é o verdadeiro?",
+    "resposta": "Milagre na Rua 34",
+    "alternativas": [
+      "Expresso Polar",
+      "Um Duende em Nova York",
+      "Simplesmente Amor",
+      "Milagre na Rua 34"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0662b8b37e",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o botão do despertador que deixa dormir mais alguns minutos?",
+    "resposta": "Soneca",
+    "alternativas": [
+      "Pausa",
+      "Silêncio",
+      "Cochilo",
+      "Soneca"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0890f80f66",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual relógio de parede tem um passarinho que sai da casinha para marcar as horas?",
+    "resposta": "Cuco",
+    "alternativas": [
+      "Ampulheta",
+      "Carrilhão",
+      "Pêndulo",
+      "Cuco"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3e1f1007f7",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca japonesa ficou famosa pelo relógio digital com calculadora?",
+    "resposta": "Casio",
+    "alternativas": [
+      "Timex",
+      "Citizen",
+      "Orient",
+      "Casio"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d63a54dbcd",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual marca japonesa lançou, em 1969, o primeiro relógio de pulso a quartzo?",
+    "resposta": "Seiko",
+    "alternativas": [
+      "Citizen",
+      "Timex",
+      "Orient",
+      "Seiko"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4c53505c5c",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tipo de relógio usa as vibrações de átomos de césio para medir o tempo?",
+    "resposta": "Atômico",
+    "alternativas": [
+      "Atômico",
+      "Solar",
+      "Quartzo",
+      "Digital"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "78fa405d4d",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "\"Da\" quer dizer sim em qual língua?",
+    "resposta": "Russo",
+    "alternativas": [
+      "Polonês",
+      "Russo",
+      "Húngaro",
+      "Grego"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eeb0a7f723",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama um período de dez anos?",
+    "resposta": "Década",
+    "alternativas": [
+      "Lustro",
+      "Biênio",
+      "Século",
+      "Década"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e3dfb7019e",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as manchinhas marrons no rosto que aumentam com o sol?",
+    "resposta": "Sardas",
+    "alternativas": [
+      "Verrugas",
+      "Sardas",
+      "Cravos",
+      "Espinhas"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8132 (E2e mesma resposta rara e algum assunto em comum (13.7, sim 0.3))",
+    "dup": "certa",
+    "dup_ref": "banco:8132",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (13.7, sim 0.3)"
+  },
+  {
+    "id": "42960d1c7a",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o último colocado da tabela de um campeonato?",
+    "resposta": "Lanterna",
+    "alternativas": [
+      "Lanterna",
+      "Farol",
+      "Vagão",
+      "Rabeira"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9147 (E2 mesma resposta e mesmo assunto (7.1, 50% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:9147",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.1, 50% do fato)"
+  },
+  {
+    "id": "37f88535d2",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o relógio que mostra as horas só com números, sem ponteiros?",
+    "resposta": "Digital",
+    "alternativas": [
+      "Solar",
+      "Digital",
+      "Analógico",
+      "Mecânico"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7781",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.0)"
+  },
+  {
+    "id": "b65216a512",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca de pilhas tem como mascote um coelho rosa de óculos escuros tocando tambor?",
+    "resposta": "Energizer",
+    "alternativas": [
+      "Duracell",
+      "Energizer",
+      "Panasonic",
+      "Rayovac"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b189cc97cd",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "A Rolex, símbolo do relógio suíço, foi fundada em 1905 em qual cidade?",
+    "resposta": "Londres",
+    "alternativas": [
+      "Paris",
+      "Zurique",
+      "Genebra",
+      "Londres"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4791",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (6.4)"
+  },
+  {
+    "id": "6d7de6fcc1",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam os furinhos que aparecem nas bochechas de algumas pessoas ao sorrir?",
+    "resposta": "Covinhas",
+    "alternativas": [
+      "Covinhas",
+      "Sardas",
+      "Rugas",
+      "Pintas"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9012 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:9012",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "a4d7ae49ab",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer, no futebol, \"pendurar as chuteiras\"?",
+    "resposta": "Aposentar-se",
+    "alternativas": [
+      "Trocar de time",
+      "Aposentar-se",
+      "Ser expulso",
+      "Ficar no banco"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8d19ac7d25",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama, popularmente, a pele arrepiada de frio ou de susto?",
+    "resposta": "Pele de galinha",
+    "alternativas": [
+      "Pele de pêssego",
+      "Pele de galinha",
+      "Pele de sapo",
+      "Pele de cobra"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5480 (E2c mesma resposta e ela aparece no outro enunciado (4.5))",
+    "dup": "certa",
+    "dup_ref": "banco:5480",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (4.5)"
   }
 ]

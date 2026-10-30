@@ -14401,5 +14401,22 @@
       "animação: personagens secundários"
     ],
     "scripts": "faltam.mjs e mover-excedentes.mjs leem plano-r8.json para 076+; variedade.mjs com a nota 76 85; scripts/alternativas-cruzadas.mjs (novo)"
+  },
+  "publicacao_r8": {
+    "data": "2026-10-30",
+    "rodadas": "8 (lotes 076 a 085)",
+    "commit_main": "498496d",
+    "commit_aprovacao_expansao": "3564736",
+    "base_main": "db476d1",
+    "antigas": 11905,
+    "novas": 836,
+    "total": 12741,
+    "validador_jogo": {
+      "validas": 12741,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 2976279,
+    "obs": "As 836 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 11.905 da main (banco v7), na ordem dos lotes, so com os campos do jogo. Checagem web complementar concluida antes (commit 4db6341), sem pendencias. Integridade da b12fc901f5 (Sobrado, lote 082) conferida: resposta entre as 4 alternativas. Pasta expansao/ nao foi para a main."
   }
 }

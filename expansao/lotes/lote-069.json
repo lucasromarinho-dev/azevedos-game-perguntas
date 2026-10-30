@@ -112,12 +112,12 @@
       "Carbonato de cálcio"
     ],
     "subtema": "Química",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que pergunta do lote 064 da rodada 6",
+    "dup": "certa",
+    "dup_ref": "id:f81e12afed",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
   },
   {
     "id": "7aa4220ed0",
@@ -148,8 +148,8 @@
     "alternativas": [
       "Futurismo",
       "Impressionismo",
-      "Expressionismo",
-      "Surrealismo"
+      "Surrealismo",
+      "Expressionismo"
     ],
     "subtema": "Cinema internacional e Oscar",
     "status": "gerada",
@@ -412,12 +412,12 @@
       "Abbey Road"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:5538",
+    "status": "descartada",
+    "motivo": "mesmo fato que pergunta do lote 064 da rodada 6",
+    "dup": "certa",
+    "dup_ref": "id:040414c2df",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)"
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "16530bedd9",
@@ -1958,5 +1958,45 @@
     "dup_ref": "id:bc27e917e7",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "321184711a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o cultivo de oliveiras?",
+    "resposta": "Olivicultura",
+    "alternativas": [
+      "Silvicultura",
+      "Olivicultura",
+      "Viticultura",
+      "Citricultura"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a1f3842b30",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual ex-vice-presidente americano ganhou o Nobel da Paz de 2007 pela luta contra o aquecimento global?",
+    "resposta": "Al Gore",
+    "alternativas": [
+      "Joe Biden",
+      "Walter Mondale",
+      "Dick Cheney",
+      "Al Gore"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
   }
 ]

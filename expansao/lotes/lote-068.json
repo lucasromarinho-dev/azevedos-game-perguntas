@@ -288,8 +288,8 @@
     "alternativas": [
       "Major",
       "Maior",
-      "Prefeitura",
-      "Prefeito"
+      "Prefeito",
+      "Prefeitura"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
     "status": "gerada",
@@ -474,7 +474,7 @@
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:282c6f5769",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.3)"
@@ -1595,7 +1595,7 @@
     "subtema": "Cinema internacional e Oscar",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:472",
     "recente": false,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
@@ -1615,7 +1615,7 @@
     "subtema": "Cinema internacional e Oscar",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:519",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.2)"
@@ -2335,12 +2335,12 @@
       "Promoter"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que pergunta do lote 064 da rodada 6 (Cambista)",
+    "dup": "certa",
+    "dup_ref": "id:79663817a6",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (9.2, sim 0.1)"
   },
   {
     "id": "c8ebd61a64",
@@ -2415,6 +2415,26 @@
       "Marrone"
     ],
     "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "02be48db6a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o estado de transe em que a pessoa fica sujeita a sugestões, usado até em shows?",
+    "resposta": "Hipnose",
+    "alternativas": [
+      "Catalepsia",
+      "Sonambulismo",
+      "Meditação",
+      "Hipnose"
+    ],
+    "subtema": "Humor e programas de auditório",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

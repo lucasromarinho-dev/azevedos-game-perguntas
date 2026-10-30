@@ -434,10 +434,10 @@
     "subtema": "Antiguidade",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "id:60aa04e96a",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
   },
   {
     "id": "724d700253",
@@ -854,7 +854,7 @@
     "subtema": "Terra, geologia e clima",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "banco:6523",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.4, sim 0.2)"
@@ -1214,7 +1214,7 @@
     "subtema": "Copa do Mundo",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "banco:8821",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.3, sim 0.1)"
@@ -1574,7 +1574,7 @@
     "subtema": "Dança, teatro e circo",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "banco:189",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (9.7, 33% do fato)"
@@ -1834,7 +1834,7 @@
     "subtema": "Literatura",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "banco:5552",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.1, 33% do fato)"
@@ -2074,7 +2074,7 @@
     "subtema": "Programação",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "id:fd5e36c1ce",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 21.4)"
@@ -2134,7 +2134,7 @@
     "subtema": "Celulares e gadgets",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "id:d63a54dbcd",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (18.6)"

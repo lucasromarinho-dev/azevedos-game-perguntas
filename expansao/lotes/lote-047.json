@@ -12,12 +12,13 @@
       "Nescau"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0deaf65d7e",
@@ -32,18 +33,19 @@
       "Alfândega"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1388",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "be17105073",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Como se chamava a lança de mais de cinco metros usada pela falange macedônica?",
+    "pergunta": "Como se chamava a lança muito longa, de vários metros, usada pela falange macedônica?",
     "resposta": "Sarissa",
     "alternativas": [
       "Sarissa",
@@ -52,12 +54,15 @@
       "Dory"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "\"mais de cinco metros\" trocado por \"de vários metros\": as fontes dão de 4,5 a 7 m, comprimento disputado"
   },
   {
     "id": "0025679fce",
@@ -72,18 +77,19 @@
       "Arcada"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f5416ed342",
     "categoria": "Ciências",
     "dificuldade": "dificil",
-    "pergunta": "Como se chamam os pontos do espaço onde a gravidade do Sol e da Terra se equilibra, num dos quais está o telescópio James Webb?",
+    "pergunta": "Como se chamam os pontos do espaço onde a gravidade do Sol e da Terra e o movimento orbital se equilibram, usados para estacionar telescópios?",
     "resposta": "Pontos de Lagrange",
     "alternativas": [
       "Pontos de Lagrange",
@@ -92,12 +98,15 @@
       "Limites de Roche"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "tirada a menção ao James Webb (resposta de banco:1861) e precisado o fenômeno (gravidade + movimento orbital, não só gravidade)"
   },
   {
     "id": "f71bd2e797",
@@ -112,12 +121,13 @@
       "Mumblecore"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "2b68b43127",
@@ -132,12 +142,13 @@
       "Mixagem"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a34069789d",
@@ -152,12 +163,13 @@
       "Claquetista"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "c84f265dcf",
@@ -172,18 +184,19 @@
       "Asa Branca"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "82e3309b70",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual personagem do \"Casseta & Planeta\", vivido por Cláudio Manoel, falava tudo errado e se candidatava a presidente?",
+    "pergunta": "Qual personagem humorístico da Globo, vivido por Cláudio Manoel, falava tudo errado e se candidatou a presidente em 2002?",
     "resposta": "Seu Creysson",
     "alternativas": [
       "Seu Boneco",
@@ -192,12 +205,15 @@
       "Seu Creysson"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "tirado \"Casseta & Planeta\" do enunciado (resposta de banco:3480); ano da candidatura (2002) acrescentado"
   },
   {
     "id": "40c03f4c2f",
@@ -212,12 +228,13 @@
       "Poliziottesco"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "90ce88c070",
@@ -232,18 +249,20 @@
       "Beco do Batman"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "f5ddd2bc63",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em qual cidade fictícia o prefeito Feliciano Mota acreditava haver minas de ouro, na novela \"Fera Ferida\"?",
+    "pergunta": "Em qual cidade fictícia da novela \"Fera Ferida\", de 1993, Feliciano Mota acreditava haver minas de ouro?",
     "resposta": "Tubiacanga",
     "alternativas": [
       "Tubiacanga",
@@ -252,12 +271,15 @@
       "Asa Branca"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "tirado \"o prefeito\": as sinopses tratam Feliciano Mota como ex-prefeito; ano da novela acrescentado"
   },
   {
     "id": "c73fb6aa8d",
@@ -272,12 +294,13 @@
       "Marilan"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0661a850a6",
@@ -292,12 +315,13 @@
       "Capitão Crunch"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "5510b73bcb",
@@ -312,12 +336,13 @@
       "Chester"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "668facdba9",
@@ -332,12 +357,14 @@
       "Parmalat"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "cc9d6d5131",
@@ -352,12 +379,14 @@
       "Skol"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "5e7b19658e",
@@ -372,12 +401,14 @@
       "Tony Ramos"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "81afff3e43",
@@ -392,12 +423,13 @@
       "Despensa"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6d855ce19d",
@@ -412,12 +444,13 @@
       "Elétrico"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "4ac1d4485f",
@@ -432,12 +465,13 @@
       "Apetite"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:e39494f0d0",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d7a6028fd2",
@@ -452,12 +486,13 @@
       "Jerimum"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d3b82e5184",
@@ -492,12 +527,13 @@
       "Ficheiro"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "fd5a068001",
@@ -512,12 +548,13 @@
       "Empregada"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "2fdde0b21d",
@@ -532,12 +569,13 @@
       "Duna do Pôr do Sol"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6b8fa4a595",
@@ -552,12 +590,14 @@
       "Cachoeira do Sossego"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "dbdbce466a",
@@ -572,12 +612,13 @@
       "Quintal"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:72fe20ac35",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6e8300fcb3",
@@ -592,12 +633,14 @@
       "Lençóis"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "36d9e857c1",
@@ -612,12 +655,14 @@
       "Ibitipoca"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "3414bf2020",
@@ -632,12 +677,14 @@
       "Sege"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "22d682aff5",
@@ -652,12 +699,13 @@
       "Gládio"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f239d81910",
@@ -672,12 +720,13 @@
       "Fossos"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:844 (Primeira Guerra / guerra de trincheiras)",
     "dup": "suspeita",
     "dup_ref": "banco:844",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "45ca60a2c2",
@@ -712,12 +761,13 @@
       "Boticário"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3d03018f92",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "346dfa6749",
@@ -772,12 +822,13 @@
       "Cunha"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:628af2b1db",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (7.7)"
+    "dup_regra": "resposta nova citada no texto antigo (7.7)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ce45927531",
@@ -792,12 +843,14 @@
       "Jornal Nacional"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "1d0a8bd4e0",
@@ -852,12 +905,13 @@
       "Filatelia"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "929a1addca",
@@ -872,12 +926,14 @@
       "Marcha dos Trabalhadores Rurais"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "174a49b26f",
@@ -892,12 +948,14 @@
       "Brummel"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "9bdbf65b86",
@@ -922,8 +980,8 @@
   {
     "id": "9e8c8ec6ba",
     "categoria": "História",
-    "dificuldade": "dificil",
-    "pergunta": "Como era apelidado o navio negreiro, por causa das muitas mortes a bordo?",
+    "dificuldade": "medio",
+    "pergunta": "Como era apelidado o navio que trazia africanos escravizados, por causa das muitas mortes a bordo?",
     "resposta": "Tumbeiro",
     "alternativas": [
       "Bergantim",
@@ -932,12 +990,16 @@
       "Galeão"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "tirado \"navio negreiro\" do enunciado (resposta de id:4d4c446fd9, lote 032)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)"
   },
   {
     "id": "4f46603691",
@@ -952,12 +1014,13 @@
       "Cínicos"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "c7cdefc209",
@@ -972,12 +1035,13 @@
       "Tamanduá"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ff55df6719",
@@ -992,12 +1056,13 @@
       "Calango"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ac64214670",
@@ -1012,12 +1077,14 @@
       "Libélulas"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "354a20c450",
@@ -1032,12 +1099,13 @@
       "Galinha-d'angola"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "1864efc4e4",
@@ -1052,12 +1120,14 @@
       "Faisão"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "e48dd6f73d",
@@ -1072,12 +1142,13 @@
       "Saruê"
     ],
     "subtema": "Animais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: o enunciado (\"outro nome do gambá, marsupial comum nos quintais\") entrega a resposta Gambá de banco:2237 (marsupial comum nas cidades)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3619e67f03",
@@ -1092,12 +1163,14 @@
       "Novilha"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "65e4bd3f25",
@@ -1112,12 +1185,14 @@
       "Borrachudo"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1898",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "e45292bbea",
@@ -1132,12 +1207,13 @@
       "Uacari"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "c73ba04363",
@@ -1152,12 +1228,14 @@
       "Bólido"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "23aaeaee6a",
@@ -1172,12 +1250,13 @@
       "Canoa"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "db89256459",
@@ -1192,12 +1271,13 @@
       "Mergulho"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:5c5339c4af",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8248d7c8d3",
@@ -1212,12 +1292,13 @@
       "Argolas"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a5cf9f2b6e",
@@ -1232,12 +1313,13 @@
       "Paralelas assimétricas"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8bc839aae7",
@@ -1252,12 +1334,13 @@
       "Voilà"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "4a6dec5986",
@@ -1272,12 +1355,13 @@
       "Aquatlo"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "9d4e4c1467",
@@ -1292,12 +1376,14 @@
       "Futevôlei"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "9e04ebaab0",
@@ -1312,12 +1398,13 @@
       "Snowcat"
     ],
     "subtema": "Esportes americanos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "de8f16d8c4",
@@ -1332,12 +1419,13 @@
       "Walk"
     ],
     "subtema": "Esportes americanos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3774fc8ea1",
@@ -1352,12 +1440,13 @@
       "Voga"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a5c12b4754",
@@ -1372,12 +1461,13 @@
       "Sack"
     ],
     "subtema": "Esportes americanos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8987a81656",
@@ -1392,12 +1482,13 @@
       "Futevôlei"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e29384c5f5",
@@ -1412,12 +1503,14 @@
       "Camisa preta"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "033480cf9b",
@@ -1432,12 +1525,14 @@
       "Turkey"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "3c6bc08697",
@@ -1452,12 +1547,13 @@
       "Quatro com"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "833d86d283",
@@ -1472,12 +1568,14 @@
       "Produnova"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "208c93155d",
@@ -1492,12 +1590,14 @@
       "Pistola de ar"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "aacd602c71",
@@ -1512,12 +1612,13 @@
       "Dick Vigarista"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "280f5a9670",
@@ -1532,13 +1633,14 @@
       "Taz"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Looney Tunes",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "208f169271",
@@ -1553,13 +1655,14 @@
       "Mumm-Ra"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "ThunderCats",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d54e069a96",
@@ -1574,13 +1677,14 @@
       "Mentor"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "He-Man",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e1293f1344",
@@ -1595,12 +1699,13 @@
       "Inspetor Bugiganga"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "2d263514c5",
@@ -1615,12 +1720,13 @@
       "Florzinha"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a9dacbbebf",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "766cc14bae",
@@ -1675,18 +1781,19 @@
       "Mariachi"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e85fa319c8",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual príncipe banido da Nação do Fogo caça Aang em \"Avatar: A Lenda de Aang\"?",
+    "pergunta": "Qual príncipe banido da Nação do Fogo caça o último dobrador de ar no desenho da Nickelodeon?",
     "resposta": "Zuko",
     "alternativas": [
       "Ozai",
@@ -1695,12 +1802,14 @@
       "Iroh"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirado o título \"Avatar: A Lenda de Aang\" do enunciado, que entregava a resposta de id:80d61d3e33 (lote 023)"
   },
   {
     "id": "561ba894a7",
@@ -1715,12 +1824,13 @@
       "Mancha Negra"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "833d58ee88",
@@ -1735,13 +1845,15 @@
       "Glória"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Chaves",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "33ffc7cfbb",
@@ -1756,12 +1868,13 @@
       "Bandolim"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d52bc4fe73",
@@ -1776,12 +1889,13 @@
       "Highlife"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "15e5801318",
@@ -1796,12 +1910,14 @@
       "Bole-Bole"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "9e2f0da5d3",
@@ -1816,13 +1932,14 @@
       "Massive Dynamic"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Alien",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e4a0a1c90f",
@@ -1837,12 +1954,13 @@
       "Cartão SIM"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "7ce8e9ca95",
@@ -1857,12 +1975,13 @@
       "Game Boy"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a56f03ee78",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d5e43907c8",
@@ -1877,12 +1996,13 @@
       "Torpedo"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d14b6eb7d0",
@@ -1897,12 +2017,13 @@
       "Slide"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0160ad2c30",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "299d7916de",
@@ -1917,12 +2038,13 @@
       "Buff"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3915",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.0)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.0)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "54e410a18d",
@@ -1947,7 +2069,7 @@
   {
     "id": "3eaf4ea45b",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual protocolo permitia abrir versões simplificadas de sites nos celulares antigos?",
     "resposta": "WAP",
     "alternativas": [
@@ -1957,12 +2079,14 @@
       "SMS"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)"
   },
   {
     "id": "6767e82958",
@@ -1977,18 +2101,19 @@
       "Camping"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "7461a18f46",
     "categoria": "Tecnologia",
     "dificuldade": "dificil",
-    "pergunta": "Nos MMOs, como se chama a atenção dos monstros, que o tank tenta puxar para si?",
+    "pergunta": "Nos MMOs, como se chama a atenção dos monstros sobre um jogador, que decide quem eles vão atacar?",
     "resposta": "Aggro",
     "alternativas": [
       "Respawn",
@@ -1997,12 +2122,14 @@
       "Aggro"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirado \"tank\" do enunciado, que entregava a resposta de id:806205d624 (lote 046)"
   },
   {
     "id": "9d1c2c0044",
@@ -2037,18 +2164,19 @@
       "Marceline"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6eb15ab786",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8e13230055",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Como se chama o bisão voador de seis patas que acompanha Aang em \"Avatar: A Lenda de Aang\"?",
+    "pergunta": "Como se chama o bisão voador de seis patas do último dobrador de ar, no desenho da Nickelodeon?",
     "resposta": "Appa",
     "alternativas": [
       "Appa",
@@ -2057,12 +2185,14 @@
       "Naga"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirado o título \"Avatar: A Lenda de Aang\" do enunciado, que entregava a resposta de id:80d61d3e33 (lote 023)"
   },
   {
     "id": "2d24cad7dc",
@@ -2077,11 +2207,12 @@
       "Cutscene"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   }
 ]

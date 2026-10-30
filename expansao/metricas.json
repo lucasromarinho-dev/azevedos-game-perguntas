@@ -4685,6 +4685,100 @@
           "dificuldade": "b1185bd1e4: Panenka como dificil -> conhecido pelo nome entre fãs, virou medio"
         },
         "espelhos_r5": []
+      },
+      {
+        "lote": "047",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 82,
+        "corrigidas": 8,
+        "rebaixadas": 2,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "duplicada": 1,
+          "espelho": 1
+        },
+        "perguntas_com_busca_web": 28,
+        "buscas_web": 22,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 12,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 11,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "f239d81910: duplicada: mesmo fato que banco:844 (Primeira Guerra / guerra de trincheiras)",
+          "e48dd6f73d: espelho: o enunciado (\"outro nome do gambá, marsupial comum nos quintais\") entrega a resposta Gambá de banco:2237 (marsupial comum nas cidades)"
+        ],
+        "correcoes": [
+          "be17105073: \"mais de cinco metros\" trocado por \"de vários metros\": as fontes dão de 4,5 a 7 m, comprimento disputado",
+          "f5416ed342: tirada a menção ao James Webb (resposta de banco:1861) e precisado o fenômeno (gravidade + movimento orbital, não só gravidade)",
+          "82e3309b70: tirado \"Casseta & Planeta\" do enunciado (resposta de banco:3480); ano da candidatura (2002) acrescentado",
+          "f5ddd2bc63: tirado \"o prefeito\": as sinopses tratam Feliciano Mota como ex-prefeito; ano da novela acrescentado",
+          "9e8c8ec6ba: tirado \"navio negreiro\" do enunciado (resposta de id:4d4c446fd9, lote 032)",
+          "e85fa319c8: tirado o título \"Avatar: A Lenda de Aang\" do enunciado, que entregava a resposta de id:80d61d3e33 (lote 023)",
+          "7461a18f46: tirado \"tank\" do enunciado, que entregava a resposta de id:806205d624 (lote 046)",
+          "8e13230055: tirado o título \"Avatar: A Lenda de Aang\" do enunciado, que entregava a resposta de id:80d61d3e33 (lote 023)"
+        ],
+        "rebaixamentos": [
+          "9e8c8ec6ba: dificil -> medio",
+          "3eaf4ea45b: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 0,
+          "entrega a resposta": 6,
+          "fato impreciso": 2,
+          "espelho/duplicada": 2,
+          "dificuldade": 2,
+          "outro": 0
+        },
+        "exemplos_erro": {
+          "entrega a resposta": "e85fa319c8: príncipe banido em \"Avatar: A Lenda de Aang\" -> o título no enunciado entregava a resposta de id:80d61d3e33 (lote 023)",
+          "fato impreciso": "be17105073: sarissa \"de mais de cinco metros\" -> comprimento disputado (4,5 a 7 m)",
+          "espelho/duplicada": "f239d81910: valas da Primeira Guerra -> mesmo fato que banco:844 (guerra de trincheiras)",
+          "dificuldade": "3eaf4ea45b: WAP como difícil -> termo conhecido pelo nome, rebaixado a médio"
+        },
+        "espelhos_r5": [
+          "704e140df2 (Ecrã) tem Rato e Ficheiro como erradas, que são respostas de perguntas do lote 054 (decisão fica com o 054)",
+          "7461a18f46 (Aggro) citava \"tank\", resposta de id:806205d624 do lote 046: reescrita sem o termo"
+        ]
       }
     ],
     "rebaixamentos_r3": {

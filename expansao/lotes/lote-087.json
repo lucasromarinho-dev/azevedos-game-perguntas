@@ -6,10 +6,10 @@
     "pergunta": "O Rio Ganges deságua em qual baía do Oceano Índico?",
     "resposta": "Baía de Bengala",
     "alternativas": [
-      "Golfo de Omã",
+      "Baía de Bengala",
       "Golfo de Mannar",
       "Mar de Andamão",
-      "Baía de Bengala"
+      "Golfo de Omã"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
@@ -27,10 +27,10 @@
     "pergunta": "Qual estado produz quase todo o sal marinho do Brasil, nas salinas de Macau e Areia Branca?",
     "resposta": "Rio Grande do Norte",
     "alternativas": [
-      "Ceará",
+      "Rio Grande do Norte",
       "Alagoas",
       "Piauí",
-      "Rio Grande do Norte"
+      "Ceará"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
     "status": "gerada",
@@ -48,9 +48,9 @@
     "pergunta": "Qual estado é o maior produtor brasileiro de café conilon, o robusta?",
     "resposta": "Espírito Santo",
     "alternativas": [
-      "Minas Gerais",
       "Espírito Santo",
-      "Bahia",
+      "Minas Gerais",
+      "Pará",
       "Rondônia"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
@@ -59,7 +59,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada \"Bahia\" trocada por \"Goiás\" na geração (era resposta de outra pergunta); errada \"Goiás\" trocada por \"Pará\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "e7e2ad9119",
@@ -68,8 +69,8 @@
     "pergunta": "Qual cidade do interior paulista é conhecida como a capital do calçado masculino?",
     "resposta": "Franca",
     "alternativas": [
-      "Presidente Prudente",
       "Franca",
+      "Presidente Prudente",
       "Jaú",
       "Sertãozinho"
     ],
@@ -132,8 +133,8 @@
     "pergunta": "Qual prédio residencial sinuoso, com mais de mil apartamentos, é um ícone do centro de São Paulo?",
     "resposta": "Edifício Copan",
     "alternativas": [
-      "Edifício Esther",
       "Edifício Copan",
+      "Edifício Esther",
       "Edifício Louveira",
       "Edifício Viadutos"
     ],
@@ -174,8 +175,8 @@
     "pergunta": "Como se chama a camada do mar ou de um lago em que a temperatura cai bruscamente com a profundidade?",
     "resposta": "Termoclina",
     "alternativas": [
-      "Picnoclina",
       "Termoclina",
+      "Picnoclina",
       "Haloclina",
       "Tropopausa"
     ],
@@ -351,5 +352,1678 @@
     "recente": true,
     "dup_regra": null,
     "correcao": "errada \"Lupin\" trocada por \"Ginny & Georgia\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "17854dc679",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade paraguaia é colada a Ponta Porã, em Mato Grosso do Sul, separada só por uma avenida?",
+    "resposta": "Pedro Juan Caballero",
+    "alternativas": [
+      "Encarnación",
+      "Salto del Guairá",
+      "Pedro Juan Caballero",
+      "Concepción"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea07a2ab50",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade argentina fica do outro lado da ponte sobre o Rio Uruguai, em frente a Uruguaiana?",
+    "resposta": "Paso de los Libres",
+    "alternativas": [
+      "Monte Caseros",
+      "Santo Tomé",
+      "Posadas",
+      "Paso de los Libres"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0799b96482",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade da Guiana Francesa fica em frente ao Oiapoque, do outro lado do rio?",
+    "resposta": "Saint-Georges",
+    "alternativas": [
+      "Saint-Georges",
+      "Kourou",
+      "Saint-Laurent-du-Maroni",
+      "Régina"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a9da22b110",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade boliviana, capital do departamento de Pando, fica colada a Brasileia, do outro lado do Rio Acre?",
+    "resposta": "Cobija",
+    "alternativas": [
+      "Riberalta",
+      "Guayaramerín",
+      "Cobija",
+      "Trinidad"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual cidade boliviana, capital do departamento de Pando, faz fronteira com Brasileia, no Acre?\")",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:448)"
+  },
+  {
+    "id": "7c3dcbdc89",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade venezuelana fica logo depois da fronteira com Pacaraima, em Roraima?",
+    "resposta": "Santa Elena de Uairén",
+    "alternativas": [
+      "Santa Elena de Uairén",
+      "Ciudad Bolívar",
+      "Ciudad Guayana",
+      "Puerto Ayacucho"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "68ce3f5229",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual engenheiro paraense chefiou o planejamento de Belo Horizonte, inaugurada em 1897?",
+    "resposta": "Aarão Reis",
+    "alternativas": [
+      "Saturnino de Brito",
+      "Francisco Bicalho",
+      "Aarão Reis",
+      "Pereira Passos"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Lúcio Costa\" trocada por \"Francisco Bicalho\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "c624a317f2",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual capitão português fundou Belém, em 1616, com o Forte do Presépio?",
+    "resposta": "Francisco Caldeira Castelo Branco",
+    "alternativas": [
+      "Pedro Teixeira",
+      "Jerônimo de Albuquerque",
+      "Bento Maciel Parente",
+      "Francisco Caldeira Castelo Branco"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:850bb1ef83 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:850bb1ef83",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.4)"
+  },
+  {
+    "id": "b5bd9aa7d7",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual forte holandês, erguido em 1649, deu origem à cidade de Fortaleza?",
+    "resposta": "Forte Schoonenborch",
+    "alternativas": [
+      "Forte das Cinco Pontas",
+      "Forte de Nassau",
+      "Forte Orange",
+      "Forte Schoonenborch"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d9236431a2",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava a cidade holandesa erguida no século XVII na ilha de Antônio Vaz, ao lado do Recife?",
+    "resposta": "Mauritsstad",
+    "alternativas": [
+      "Frederikstad",
+      "Nassaustad",
+      "Mauritsstad",
+      "Nova Amsterdã"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Como se chamava a cidade erguida por Maurício de Nassau ao lado do Recife?\")"
+  },
+  {
+    "id": "86b7b0805a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual chanceler alemão ficou famoso por se ajoelhar diante do memorial do gueto de Varsóvia, em 1970?",
+    "resposta": "Willy Brandt",
+    "alternativas": [
+      "Willy Brandt",
+      "Helmut Schmidt",
+      "Kurt Georg Kiesinger",
+      "Ludwig Erhard"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "605c4dd0ae",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual chanceler governava a Alemanha Ocidental na reunificação de 1990?",
+    "resposta": "Helmut Kohl",
+    "alternativas": [
+      "Helmut Kohl",
+      "Helmut Schmidt",
+      "Ludwig Erhard",
+      "Gerhard Schröder"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:55181e529a",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (16.9)",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:55181e529a)"
+  },
+  {
+    "id": "6e732e352c",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Quem foi o primeiro chanceler da Alemanha Ocidental, a partir de 1949?",
+    "resposta": "Konrad Adenauer",
+    "alternativas": [
+      "Ludwig Erhard",
+      "Konrad Adenauer",
+      "Kurt Schumacher",
+      "Theodor Heuss"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1e7f2e8751",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual presidente socialista governou a França de 1981 a 1995?",
+    "resposta": "François Mitterrand",
+    "alternativas": [
+      "Valéry Giscard d'Estaing",
+      "Georges Pompidou",
+      "Lionel Jospin",
+      "François Mitterrand"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3c0966f5db",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual rei comandou a volta da Espanha à democracia depois da morte de Franco?",
+    "resposta": "Juan Carlos",
+    "alternativas": [
+      "Afonso XIII",
+      "Juan Carlos",
+      "Filipe VI",
+      "Fernando VII"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c29e19357",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual presidente uruguaio ficou famoso por viver numa chácara e dirigir um fusca velho?",
+    "resposta": "José Mujica",
+    "alternativas": [
+      "Julio María Sanguinetti",
+      "Tabaré Vázquez",
+      "Luis Lacalle Pou",
+      "José Mujica"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "256f1edc73",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual presidente venezuelano liderou a chamada revolução bolivariana a partir de 1999?",
+    "resposta": "Hugo Chávez",
+    "alternativas": [
+      "Hugo Chávez",
+      "Carlos Andrés Pérez",
+      "Juan Guaidó",
+      "Rafael Caldera"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "77d829822b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual família de ditadores da Nicarágua foi derrubada pela revolução sandinista em 1979?",
+    "resposta": "Somoza",
+    "alternativas": [
+      "Trujillo",
+      "Batista",
+      "Somoza",
+      "Duvalier"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:5918 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "banco:5918",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.1)"
+  },
+  {
+    "id": "dc678e01cf",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual ditador panamenho foi capturado pelos Estados Unidos depois de uma invasão em 1989?",
+    "resposta": "Manuel Noriega",
+    "alternativas": [
+      "Omar Torrijos",
+      "Manuel Noriega",
+      "Fulgencio Batista",
+      "Efraín Ríos Montt"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Rafael Trujillo\" trocada por \"Efraín Ríos Montt\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "25cceea548",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual presidente mexicano nacionalizou o petróleo do país em 1938?",
+    "resposta": "Lázaro Cárdenas",
+    "alternativas": [
+      "Plutarco Elías Calles",
+      "Lázaro Cárdenas",
+      "Porfirio Díaz",
+      "Venustiano Carranza"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Emiliano Zapata\" trocada por \"Plutarco Elías Calles\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "ee2ca7760e",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual fenômeno previsto por Einstein foi detectado pela primeira vez em 2015 pelo observatório LIGO?",
+    "resposta": "Ondas gravitacionais",
+    "alternativas": [
+      "Neutrinos solares",
+      "Táquions",
+      "Ondas gravitacionais",
+      "Monopolos magnéticos"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Radiação cósmica de fundo\" trocada por \"Partículas táquions\" na geração (era resposta de outra pergunta); errada \"Matéria escura\" trocada por \"Monopolos magnéticos\" na geração (era resposta de outra pergunta); errada \"Partículas táquions\" trocada por \"Táquions\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "3204f9fd0e",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual é a maior arraia do mundo, que pode passar de sete metros de envergadura?",
+    "resposta": "Arraia-jamanta",
+    "alternativas": [
+      "Arraia-de-fogo",
+      "Arraia-jamanta",
+      "Arraia-pintada",
+      "Raia-elétrica"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5838",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "538e3c8268",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual peixe tem a mandíbula de cima alongada como uma lâmina, o rostro?",
+    "resposta": "Peixe-espada",
+    "alternativas": [
+      "Peixe-agulha",
+      "Barracuda",
+      "Peixe-espada",
+      "Marlim-azul"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "57737cf6b2",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jovem de família inglesa fundou o Fluminense em 1902?",
+    "resposta": "Oscar Cox",
+    "alternativas": [
+      "Archie McLean",
+      "Harry Robinson",
+      "Oscar Cox",
+      "Harry Welfare"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Charles Miller\" trocada por \"Arthur Friedenreich Sênior\" na geração (era resposta de outra pergunta); errada \"Arthur Friedenreich Sênior\" trocada por \"Harry Robinson\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "40ff661ff7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "O nome do Corinthians homenageia um time amador de qual país?",
+    "resposta": "Inglaterra",
+    "alternativas": [
+      "Itália",
+      "País de Gales",
+      "Escócia",
+      "Inglaterra"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2522bbb35d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Quais irmãos, vindos de São Paulo, fundaram o Internacional em 1909?",
+    "resposta": "Irmãos Poppe",
+    "alternativas": [
+      "Irmãos Grünewald",
+      "Irmãos Kirsch",
+      "Irmãos Schneider",
+      "Irmãos Poppe"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c4557bfcd",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Até 2025, qual clube era o maior campeão do Campeonato Paranaense?",
+    "resposta": "Coritiba",
+    "alternativas": [
+      "Paraná Clube",
+      "Londrina",
+      "Athletico Paranaense",
+      "Coritiba"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2468",
+    "recente": true,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:2468)"
+  },
+  {
+    "id": "d422f3ed3f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Até 2025, qual clube era o maior campeão do Campeonato Goiano?",
+    "resposta": "Goiás",
+    "alternativas": [
+      "Anápolis",
+      "Goiás",
+      "Goiânia",
+      "Vila Nova"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null,
+    "correcao": "errada \"Atlético Goianiense\" trocada por \"Anápolis\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "6be12753d9",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Até 2025, qual clube era o maior campeão do Campeonato Potiguar?",
+    "resposta": "ABC",
+    "alternativas": [
+      "Potiguar de Mossoró",
+      "Alecrim",
+      "América de Natal",
+      "ABC"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "ab40888576",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Até 2025, qual clube era o maior campeão do Campeonato Baiano?",
+    "resposta": "Bahia",
+    "alternativas": [
+      "Fluminense de Feira",
+      "Bahia",
+      "Galícia",
+      "Ypiranga"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7835",
+    "recente": true,
+    "dup_regra": "R1 mesma resposta e texto parecido",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:7835)",
+    "correcao": "errada \"Vitória\" trocada por \"Fluminense de Feira\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "5da9c136eb",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o grito de comemoração de Fred Flintstone?",
+    "resposta": "Yabba-dabba-doo",
+    "alternativas": [
+      "Scooby-dooby-doo",
+      "Eureca",
+      "Yabba-dabba-doo",
+      "Shazam"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "844ff83d8a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual grito de surfista as Tartarugas Ninja soltam quando partem para a ação?",
+    "resposta": "Cowabunga",
+    "alternativas": [
+      "Banzai",
+      "Cowabunga",
+      "Excelsior",
+      "Geronimo"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cb92766f5a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o bordão do Buzz Lightyear em \"Toy Story\"?",
+    "resposta": "Ao infinito e além",
+    "alternativas": [
+      "Até o fim do universo",
+      "Rumo às estrelas",
+      "Avante, patrulheiros",
+      "Ao infinito e além"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "adf3ade503",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual conselho a peixinha Dory vive repetindo em \"Procurando Nemo\"?",
+    "resposta": "Continue a nadar",
+    "alternativas": [
+      "Não olhe para trás",
+      "Continue a nadar",
+      "Siga a corrente",
+      "Respire fundo"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual conselho a Dory repete para o Marlin em \"Procurando Nemo\"?\")"
+  },
+  {
+    "id": "c217f9c5b0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual palavra havaiana, que quer dizer \"família\", é o lema do Experimento 626 e da menina que o adota?",
+    "resposta": "Ohana",
+    "alternativas": [
+      "Mahalo",
+      "Ohana",
+      "Aloha",
+      "Kahuna"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual palavra havaiana, que quer dizer \"família\", é o lema de \"Lilo & Stitch\"?\")"
+  },
+  {
+    "id": "bae047e271",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de Chloé Zhao, sobre uma mulher que vive numa van, ganhou o Oscar de melhor filme em 2021?",
+    "resposta": "Nomadland",
+    "alternativas": [
+      "Mank",
+      "Meu Pai",
+      "Nomadland",
+      "Minari"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "0ef72c8cb1",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme sobre a filha ouvinte de uma família surda ganhou o Oscar de melhor filme em 2022?",
+    "resposta": "CODA",
+    "alternativas": [
+      "CODA",
+      "Duna",
+      "Belfast",
+      "Ataque dos Cães"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "dd1e9a05f3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de multiversos com Michelle Yeoh ganhou o Oscar de melhor filme em 2023?",
+    "resposta": "Tudo em Todo Lugar ao Mesmo Tempo",
+    "alternativas": [
+      "Triângulo da Tristeza",
+      "Tudo em Todo Lugar ao Mesmo Tempo",
+      "Os Banshees de Inisherin",
+      "Os Fabelmans"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "0d5805cfc1",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de Sean Baker sobre uma dançarina que se casa com o filho de um oligarca russo ganhou o Oscar de melhor filme em 2025?",
+    "resposta": "Anora",
+    "alternativas": [
+      "Conclave",
+      "Emilia Pérez",
+      "O Brutalista",
+      "Anora"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "cf92569bd8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator irlandês ganhou o Oscar de 2024 por viver o pai da bomba atômica?",
+    "resposta": "Cillian Murphy",
+    "alternativas": [
+      "Barry Keoghan",
+      "Michael Fassbender",
+      "Colin Farrell",
+      "Cillian Murphy"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "63440e067c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz ganhou o Oscar de 2024 por \"Pobres Criaturas\"?",
+    "resposta": "Emma Stone",
+    "alternativas": [
+      "Margot Robbie",
+      "Carey Mulligan",
+      "Emma Stone",
+      "Sandra Hüller"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "44a6c1620c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator ganhou o Oscar de 2023 por viver um professor com obesidade grave em \"A Baleia\"?",
+    "resposta": "Brendan Fraser",
+    "alternativas": [
+      "Austin Butler",
+      "Paul Mescal",
+      "Brendan Fraser",
+      "Colin Farrell"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "4e63127180",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz ganhou o Oscar de 2025 pelo papel-título de \"Anora\"?",
+    "resposta": "Mikey Madison",
+    "alternativas": [
+      "Cynthia Erivo",
+      "Mikey Madison",
+      "Demi Moore",
+      "Fernanda Torres"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:0d5805cfc1 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:0d5805cfc1",
+    "recente": true,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.6)"
+  },
+  {
+    "id": "db52da851e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o nome do tigre medroso que vira o Gato Guerreiro de He-Man?",
+    "resposta": "Pacato",
+    "alternativas": [
+      "Pantro",
+      "Pacato",
+      "Rufião",
+      "Mandíbula"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5750276550",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome do bichinho mascote dos Thundercats que vive dizendo o próprio nome?",
+    "resposta": "Snarf",
+    "alternativas": [
+      "Orko",
+      "Snarf",
+      "Grublin",
+      "Wilykit"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b8f94bb73e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual macaco gênio do mal vive tentando destruir as Meninas Superpoderosas?",
+    "resposta": "Macaco Louco",
+    "alternativas": [
+      "Gangue Gangrena",
+      "Princesa Mais Grana",
+      "Ele",
+      "Macaco Louco"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5209",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "enunciado reescrito na geração (antes: \"Qual chimpanzé gênio do mal vive tentando destruir as Meninas Superpoderosas?\")",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:1688)"
+  },
+  {
+    "id": "cac12b11ac",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o maior avião do mundo, um cargueiro soviético de seis motores destruído na Ucrânia em 2022?",
+    "resposta": "Antonov An-225",
+    "alternativas": [
+      "Antonov An-124",
+      "Antonov An-225",
+      "Tupolev Tu-160",
+      "Ilyushin Il-76"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "6e9e056953",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual bombardeiro americano de oito motores voa desde os anos 1950 e virou símbolo da Guerra Fria?",
+    "resposta": "B-52",
+    "alternativas": [
+      "B-29",
+      "B-52",
+      "B-1",
+      "B-17"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6802b3c751",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual caça sueco foi escolhido pela FAB e ganhou o nome de F-39 no Brasil?",
+    "resposta": "Gripen",
+    "alternativas": [
+      "Mirage",
+      "Rafale",
+      "Eurofighter",
+      "Gripen"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8d67f26f23",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pequeno avião de Santos Dumont, de 1907, é considerado um dos primeiros ultraleves?",
+    "resposta": "Demoiselle",
+    "alternativas": [
+      "Oiseau de Proie",
+      "Santos 6",
+      "Libellule",
+      "Demoiselle"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e710f8c811",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual avião espião americano detém há décadas o recorde de velocidade de um avião a jato tripulado?",
+    "resposta": "SR-71 Blackbird",
+    "alternativas": [
+      "SR-71 Blackbird",
+      "F-22 Raptor",
+      "X-15",
+      "U-2 Dragon Lady"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "10b3c67e6d",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foi o primeiro satélite feito no Brasil, lançado em 1993 para coletar dados ambientais?",
+    "resposta": "SCD-1",
+    "alternativas": [
+      "Brasilsat A1",
+      "SGDC-1",
+      "SCD-1",
+      "CBERS-1"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Amazonia-1\" trocada por \"SGDC-1\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "08c889e3ec",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual satélite de observação da Terra, todo projetado no Brasil, foi lançado da Índia em 2021?",
+    "resposta": "Amazonia-1",
+    "alternativas": [
+      "SCD-2",
+      "CBERS-4A",
+      "Brasilsat B4",
+      "Amazonia-1"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "830190185f",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foguete brasileiro explodiu na base de Alcântara em 2003, matando 21 técnicos?",
+    "resposta": "VLS-1",
+    "alternativas": [
+      "VLS-1",
+      "Brasil-1",
+      "Sonda IV",
+      "VSB-30"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a25385521e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual RPG da Larian Studios foi eleito o jogo do ano no The Game Awards de 2023?",
+    "resposta": "Baldur's Gate 3",
+    "alternativas": [
+      "Diablo IV",
+      "Hogwarts Legacy",
+      "Baldur's Gate 3",
+      "Alan Wake 2"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null,
+    "correcao": "errada \"Starfield\" trocada por \"Hogwarts Legacy\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "94bb37316f",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo do robozinho da Sony foi eleito o jogo do ano no The Game Awards de 2024?",
+    "resposta": "Astro Bot",
+    "alternativas": [
+      "Knack",
+      "Astro Bot",
+      "Sackboy",
+      "LocoRoco"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null,
+    "correcao": "errada \"Ratchet & Clank\" trocada por \"LocoRoco\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "748e5860f8",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de 2024, com criaturas e armas de fogo, ganhou o apelido de \"Pokémon com armas\"?",
+    "resposta": "Palworld",
+    "alternativas": [
+      "Palworld",
+      "Temtem",
+      "Cassette Beasts",
+      "Monster Sanctuary"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "11f13d9a08",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo chinês de 2024 leva o jogador a viver o Rei Macaco da lenda \"Jornada ao Oeste\"?",
+    "resposta": "Black Myth: Wukong",
+    "alternativas": [
+      "Naraka: Bladepoint",
+      "Honkai: Star Rail",
+      "Black Myth: Wukong",
+      "Wuthering Waves"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null,
+    "correcao": "errada \"Genshin Impact\" trocada por \"Wuthering Waves\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "5ad2d78f47",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de 2025, aguardado por anos, tem a heroína Hornet como protagonista?",
+    "resposta": "Hollow Knight: Silksong",
+    "alternativas": [
+      "Celeste 2",
+      "Dead Cells 2",
+      "Ori and the Will of the Wisps",
+      "Hollow Knight: Silksong"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8287",
+    "recente": true,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "368d6a7227",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual fita de áudio pequena, também chamada de cassete, era usada nos walkmans?",
+    "resposta": "Fita K7",
+    "alternativas": [
+      "Fita de rolo",
+      "Fita VHS",
+      "Fita K7",
+      "Fita DAT"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4d8b2e9d3a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atirador conquistou a primeira medalha olímpica do Brasil, uma prata nos Jogos de Antuérpia, em 1920?",
+    "resposta": "Afrânio da Costa",
+    "alternativas": [
+      "Dario Barbosa",
+      "Afrânio da Costa",
+      "Fernando Soledade",
+      "Sebastião Wolf"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3187",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.0)",
+    "correcao": "enunciado reescrito na geração (antes: \"Qual atirador conquistou a primeira medalha olímpica do Brasil, uma prata em 1920, um dia antes do ouro de Guilherme Paraense?\")",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:3187)",
+    "verificado_web": true
+  },
+  {
+    "id": "8d11d5f43b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube foi o primeiro campeão paulista de futebol, em 1902?",
+    "resposta": "São Paulo Athletic Club",
+    "alternativas": [
+      "São Paulo Athletic Club",
+      "Germânia",
+      "Paulistano",
+      "Mackenzie College"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual clube de Charles Miller foi o primeiro campeão paulista, em 1902?\")"
+  },
+  {
+    "id": "87152d50cb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube inglês foi o adversário do primeiro jogo da seleção brasileira, em 1914, no Rio?",
+    "resposta": "Exeter City",
+    "alternativas": [
+      "Exeter City",
+      "Corinthian",
+      "Plymouth Argyle",
+      "Southampton"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ebd409ec9",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual torneio entre Brasil e Argentina, criado em 1914, levava o nome de um presidente argentino?",
+    "resposta": "Copa Roca",
+    "alternativas": [
+      "Copa Rio Branco",
+      "Copa Newton",
+      "Copa Roca",
+      "Copa Lipton"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8398c709e0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual foi o primeiro título oficial da seleção brasileira, em 1919, com gol de Friedenreich na final?",
+    "resposta": "Campeonato Sul-Americano",
+    "alternativas": [
+      "Copa Lipton",
+      "Campeonato Sul-Americano",
+      "Copa Rio Branco",
+      "Taça do Atlântico"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:287",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (4.9)"
+  },
+  {
+    "id": "3bd7124bd6",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual armador, ao lado de Wlamir Marques, foi astro do Brasil bicampeão mundial de basquete em 1959 e 1963?",
+    "resposta": "Amaury Pasos",
+    "alternativas": [
+      "Rosa Branca",
+      "Ubiratan Maciel",
+      "Algodão",
+      "Amaury Pasos"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:8328b2b3f6 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:8328b2b3f6",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (33.7)"
+  },
+  {
+    "id": "acd204bf87",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual time venceu o Super Bowl disputado em fevereiro de 2025, contra o Kansas City Chiefs?",
+    "resposta": "Philadelphia Eagles",
+    "alternativas": [
+      "Baltimore Ravens",
+      "Buffalo Bills",
+      "Detroit Lions",
+      "Philadelphia Eagles"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "7f27769a54",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual ideia da teoria do caos diz que o bater de asas de uma borboleta pode causar um tornado do outro lado do mundo?",
+    "resposta": "Efeito borboleta",
+    "alternativas": [
+      "Efeito cascata",
+      "Efeito dominó",
+      "Efeito borboleta",
+      "Efeito rebote"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a9d4fef513",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o fenômeno em que a água quente, em certas condições, congela antes da água fria?",
+    "resposta": "Efeito Mpemba",
+    "alternativas": [
+      "Efeito Joule",
+      "Efeito Mpemba",
+      "Efeito Seebeck",
+      "Efeito Peltier"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "caab8b28b5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o efeito em que gotas d'água \"dançam\" sobre uma chapa muito quente, protegidas por uma camada de vapor?",
+    "resposta": "Efeito Leidenfrost",
+    "alternativas": [
+      "Efeito Leidenfrost",
+      "Efeito Venturi",
+      "Efeito Bernoulli",
+      "Efeito Magnus"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "67bfe13971",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o espalhamento da luz que deixa visível o facho do farol do carro na neblina?",
+    "resposta": "Efeito Tyndall",
+    "alternativas": [
+      "Efeito Zeeman",
+      "Efeito Tyndall",
+      "Efeito Compton",
+      "Efeito Kerr"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "923aee333f",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual efeito da psicologia descreve quem sabe pouco sobre um assunto e se acha muito competente?",
+    "resposta": "Efeito Dunning-Kruger",
+    "alternativas": [
+      "Efeito Zeigarnik",
+      "Efeito halo",
+      "Efeito Pigmaleão",
+      "Efeito Dunning-Kruger"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db543737f3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome do ursinho de gravata que vive no Parque Jellystone ao lado do urso mais famoso de lá?",
+    "resposta": "Catatau",
+    "alternativas": [
+      "Pooh",
+      "Barnabé",
+      "Bubu",
+      "Catatau"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual é o nome do ursinho pequeno de gravata que acompanha o Zé Colmeia?\")"
+  },
+  {
+    "id": "e4cbb09b27",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome do vizinho baixinho e melhor amigo de Fred Flintstone?",
+    "resposta": "Barney Rubble",
+    "alternativas": [
+      "Bambam Rubble",
+      "Gazoo",
+      "Wilma Pedregulho",
+      "Barney Rubble"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e1ffb1d984",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome do dinossauro de estimação dos Flintstones?",
+    "resposta": "Dino",
+    "alternativas": [
+      "Rex",
+      "Dino",
+      "Fred Jr.",
+      "Bronto"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0d74b532d6",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual velhinho míope de desenho vive se metendo em confusão por não enxergar quase nada?",
+    "resposta": "Mister Magoo",
+    "alternativas": [
+      "Vovô Simpson",
+      "Vovô Metralha",
+      "Mister Magoo",
+      "Senhor Burns"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Professor Girafales\" trocada por \"Vovô Metralha\" na geração (era resposta de outra pergunta); errada \"Seu Madruga\" trocada por \"Senhor Burns\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "4fe1402204",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cão azul de desenho, de chapéu, vive cantando \"Clementine\" desafinado?",
+    "resposta": "Dom Pixote",
+    "alternativas": [
+      "Bibo",
+      "Dum Dum",
+      "Dom Pixote",
+      "Droopy Jr."
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Pateta\" trocada por \"Droopy Jr.\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "7e5f85a52c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o nome do herói atrapalhado em que o cachorro amigo do Mickey se transforma depois de comer amendoins?",
+    "resposta": "Super Pateta",
+    "alternativas": [
+      "Capitão Pateta",
+      "Super Pateta",
+      "Pateta Voador",
+      "Pateta Biônico"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6932",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (7.1)",
+    "correcao": "enunciado reescrito na geração (antes: \"Qual é o nome do herói atrapalhado em que o Pateta se transforma depois de comer amendoins?\")",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:6932)"
+  },
+  {
+    "id": "bc7767460c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual herói espacial de capuz dos anos 1960 voltou nos anos 1990 apresentando um talk show de desenho?",
+    "resposta": "Space Ghost",
+    "alternativas": [
+      "Galaxy Trio",
+      "Capitão Planeta",
+      "Space Ghost",
+      "Homem-Pássaro"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e35f64f1a1",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto da \"Corrida Maluca\" é um cientista com um carro cheio de invenções que viram asas e hélices?",
+    "resposta": "Professor Aéreo",
+    "alternativas": [
+      "Professor Utônio",
+      "Professor Aéreo",
+      "Doutor Zangão",
+      "Doutor Silvana"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Professor Pardal\" trocada por \"Doutor Zangão\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "ab7c70b09d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grupo de gângsteres da \"Corrida Maluca\" anda num carro preto blindado?",
+    "resposta": "Quadrilha de Morte",
+    "alternativas": [
+      "Quadrilha de Morte",
+      "Gangue do Bairro",
+      "Gangue dos Chapéus",
+      "Turma da Pesada"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:752b246917",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "errada \"Irmãos Metralha\" trocada por \"Gangue dos Chapéus\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "7a5d90c1de",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o desenho em que um vilão de bigode e seu cão risonho pilotam aviões tentando pegar um pombo mensageiro?",
+    "resposta": "Esquadrilha Abutre",
+    "alternativas": [
+      "Esquadrilha da Fumaça",
+      "Esquadrilha Abutre",
+      "Asas da Tempestade",
+      "Patrulha Celeste"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Barão Vermelho\" trocada por \"Patrulha Celeste\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Como se chama o desenho em que um vilão de bigode e seu cão risonho pilotam aviões tentando pegar um pombo-correio?\")"
+  },
+  {
+    "id": "2dd0c07b4f",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual tipo de lâmpada, que gasta bem menos energia, substituiu as incandescentes e fluorescentes nas casas?",
+    "resposta": "Lâmpada de LED",
+    "alternativas": [
+      "Lâmpada de vapor de sódio",
+      "Lâmpada de neon",
+      "Lâmpada halógena",
+      "Lâmpada de LED"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
   }
 ]

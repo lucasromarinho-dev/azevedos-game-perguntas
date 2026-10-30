@@ -12,13 +12,14 @@
       "Dique do Tororó"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f94afae73f",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "gerador r8: errada \"Lagoa do Abaeté\" trocada por \"Lagoa dos Frades\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Lagoa do Abaeté\" trocada por \"Lagoa dos Frades\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "2717c3af24",
@@ -33,12 +34,13 @@
       "Bangalô"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5991",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "19d302dc02",
@@ -47,18 +49,20 @@
     "pergunta": "Como se chama o apartamento pequeno, de um só cômodo, com a cozinha no mesmo ambiente?",
     "resposta": "Quitinete",
     "alternativas": [
-      "Loft triplex",
+      "Casa geminada",
       "Cobertura",
       "Quitinete",
       "Duplex"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Loft triplex era termo inventado e estranho; trocada"
   },
   {
     "id": "b12fc901f5",
@@ -73,12 +77,13 @@
       "Barraco"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "619d363451",
@@ -93,12 +98,13 @@
       "Palafita"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "37b5ed09d0",
@@ -113,12 +119,13 @@
       "Ponte Encontro das Águas"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a2b945bd24",
@@ -133,12 +140,13 @@
       "Quinta da Boa Vista"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "630794c88a",
@@ -153,12 +161,13 @@
       "Marinha"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "3363429489",
@@ -173,12 +182,13 @@
       "Praça Portugal"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "50e78ba2a0",
@@ -190,16 +200,18 @@
       "Mercado Modelo",
       "Feira de Itapuã",
       "Feira de São Joaquim",
-      "Feira de Água de Meninos"
+      "Mercado do Rio Vermelho"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3d2e965f9a",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (10.2)",
-    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (Feira de São Joaquim x Joaquim Manuel de Macedo no enunciado de outra); antes: duplicada certa de id:3d2e965f9a (E3 resposta nova citada no texto antigo + assunto (10.2))"
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (Feira de São Joaquim x Joaquim Manuel de Macedo no enunciado de outra); antes: duplicada certa de id:3d2e965f9a (E3 resposta nova citada no texto antigo + assunto (10.2))",
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Feira de Água de Meninos foi a antecessora da própria Feira de São Joaquim, no mesmo lugar (defensável); trocada"
   },
   {
     "id": "a1b45a70d6",
@@ -234,12 +246,13 @@
       "Wigwam"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "86c31baf79",
@@ -248,18 +261,20 @@
     "pergunta": "Qual ponte de Natal, sobre o rio Potengi, liga a cidade às praias do litoral norte?",
     "resposta": "Ponte Newton Navarro",
     "alternativas": [
-      "Ponte Forte-Redinha",
+      "Ponte Tancredo Neves",
       "Ponte Potengi Velha",
       "Ponte Igapó",
       "Ponte Newton Navarro"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Ponte Forte-Redinha é o outro nome da própria Ponte Newton Navarro (defensável); trocada"
   },
   {
     "id": "f42c0967ea",
@@ -294,12 +309,13 @@
       "Ponte da Integração"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3132",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.0)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.0)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a05c986592",
@@ -314,12 +330,13 @@
       "Parque Olhos d'Água"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "e41f6589fc",
@@ -334,12 +351,14 @@
       "Mercado de Casa Amarela"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "ff84db0ec8",
@@ -354,12 +373,13 @@
       "Barraco"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "1587d2c554",
@@ -374,12 +394,13 @@
       "Vietnã"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "68682f6bdc",
@@ -434,12 +455,13 @@
       "Poloneses"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "4e89644cd3",
@@ -454,12 +476,13 @@
       "Alemanha"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:944",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (9.5)"
+    "dup_regra": "resposta nova citada no texto antigo (9.5)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "ba6237cd8e",
@@ -494,12 +517,13 @@
       "Ruth Rocha"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "f4c99772e6",
@@ -514,12 +538,13 @@
       "Ianques"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "29c24cc320",
@@ -534,13 +559,14 @@
       "Pomeranos"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Saxões\" trocada por \"Vestfalianos\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Saxões\" trocada por \"Vestfalianos\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "f6eeb56951",
@@ -549,18 +575,20 @@
     "pergunta": "Qual cidade da antiga civilização do Vale do Indo, no território do Paquistão, tinha ruas planejadas e esgoto?",
     "resposta": "Mohenjo-daro",
     "alternativas": [
-      "Harappa Velha",
+      "Uruk",
       "Mohenjo-daro",
       "Persépolis",
       "Ur"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Harappa Velha remetia a Harappa, outra cidade planejada e com esgoto do Vale do Indo (defensável); trocada"
   },
   {
     "id": "3ef6ddb741",
@@ -575,13 +603,14 @@
       "Çatalhöyük"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Göbekli Tepe\" trocada por \"Hattusa\" (era resposta de outra pergunta); gerador r8: errada \"Jericó\" trocada por \"Éfeso\" (era resposta de outra pergunta); gerador r8: errada \"Hattusa\" trocada por \"Ugarit\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Göbekli Tepe\" trocada por \"Hattusa\" (era resposta de outra pergunta); gerador r8: errada \"Jericó\" trocada por \"Éfeso\" (era resposta de outra pergunta); gerador r8: errada \"Hattusa\" trocada por \"Ugarit\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "d5da5ac9b1",
@@ -596,12 +625,13 @@
       "Gráfico de pizza"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "509749b8dc",
@@ -616,13 +646,14 @@
       "Estrófulo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Sarampo\" trocada por \"Impetigo\" (era resposta de outra pergunta); gerador r8: errada \"Catapora\" trocada por \"Estrófulo\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Sarampo\" trocada por \"Impetigo\" (era resposta de outra pergunta); gerador r8: errada \"Catapora\" trocada por \"Estrófulo\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "4559efc055",
@@ -637,12 +668,13 @@
       "Álcool"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "e00b5fe143",
@@ -677,13 +709,14 @@
       "Média ponderada"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Mediana\" trocada por \"Média geométrica\" (era resposta de outra pergunta); gerador r8: errada \"Moda\" trocada por \"Média harmônica\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Mediana\" trocada por \"Média geométrica\" (era resposta de outra pergunta); gerador r8: errada \"Moda\" trocada por \"Média harmônica\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "2e16019cd3",
@@ -698,12 +731,13 @@
       "Juros nominais"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "033c81a97f",
@@ -718,13 +752,14 @@
       "Cunha"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Alavanca\" trocada por \"Polia móvel\" (era resposta de outra pergunta); gerador r8: errada \"Roldana\" trocada por \"Manivela\" (era resposta de outra pergunta); gerador r8: errada \"Manivela\" trocada por \"Cremalheira\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Alavanca\" trocada por \"Polia móvel\" (era resposta de outra pergunta); gerador r8: errada \"Roldana\" trocada por \"Manivela\" (era resposta de outra pergunta); gerador r8: errada \"Manivela\" trocada por \"Cremalheira\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "665df05f2e",
@@ -739,13 +774,14 @@
       "Roséola"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Escarlatina\" trocada por \"Eritema infeccioso\" (era resposta de outra pergunta); gerador r8: errada \"Catapora\" trocada por \"Exantema por alergia\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Escarlatina\" trocada por \"Eritema infeccioso\" (era resposta de outra pergunta); gerador r8: errada \"Catapora\" trocada por \"Exantema por alergia\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "b05360a8ee",
@@ -760,17 +796,18 @@
       "Posição fetal"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "93d6be6eb7",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama cada uma das medidas que dividem um conjunto ordenado de dados em quatro partes iguais?",
     "resposta": "Quartil",
     "alternativas": [
@@ -780,13 +817,15 @@
       "Percentil"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Mediana\" trocada por \"Quintil\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Mediana\" trocada por \"Quintil\" (era resposta de outra pergunta) | conferente-v8: quartil é conceito conhecido pelo nome; rebaixada",
+    "conferido_por": "conferente-v8",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v8)"
   },
   {
     "id": "45252f7654",
@@ -801,13 +840,14 @@
       "Cunha"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Roldana\" trocada por \"Polia\" (era resposta de outra pergunta); gerador r8: errada \"Plano inclinado\" trocada por \"Rosca sem fim\" (era resposta de outra pergunta); gerador r8: errada \"Polia\" trocada por \"Biela\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Roldana\" trocada por \"Polia\" (era resposta de outra pergunta); gerador r8: errada \"Plano inclinado\" trocada por \"Rosca sem fim\" (era resposta de outra pergunta); gerador r8: errada \"Polia\" trocada por \"Biela\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "0a2c3a7cb7",
@@ -822,13 +862,14 @@
       "Martín Demichelis"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Jorge Sampaoli\" trocada por \"Gustavo Quinteros\" (era resposta de outra pergunta); gerador r8: errada \"Eduardo Coudet\" trocada por \"Ariel Holan\" (era resposta de outra pergunta); gerador r8: errada \"Ramón Díaz\" trocada por \"Martín Demichelis\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Jorge Sampaoli\" trocada por \"Gustavo Quinteros\" (era resposta de outra pergunta); gerador r8: errada \"Eduardo Coudet\" trocada por \"Ariel Holan\" (era resposta de outra pergunta); gerador r8: errada \"Ramón Díaz\" trocada por \"Martín Demichelis\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "f8f6ba49a6",
@@ -843,13 +884,14 @@
       "Paulo Sousa"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2966",
     "recente": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "gerador r8: errada \"Abel Ferreira\" trocada por \"Luís Castro\" (era resposta de outra pergunta); gerador r8: errada \"Jorge Jesus\" trocada por \"Pedro Caixinha\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Abel Ferreira\" trocada por \"Luís Castro\" (era resposta de outra pergunta); gerador r8: errada \"Jorge Jesus\" trocada por \"Pedro Caixinha\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a2f66bcad8",
@@ -864,13 +906,14 @@
       "Ricardo Gareca"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Ramón Díaz\" trocada por \"Gabriel Milito\" (era resposta de outra pergunta); gerador r8: errada \"Jorge Sampaoli\" trocada por \"Diego Aguirre\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Ramón Díaz\" trocada por \"Gabriel Milito\" (era resposta de outra pergunta); gerador r8: errada \"Jorge Sampaoli\" trocada por \"Diego Aguirre\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "5849ab552f",
@@ -885,13 +928,15 @@
       "Rui Vitória"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Abel Ferreira\" trocada por \"Pedro Martins\" (era resposta de outra pergunta); gerador r8: errada \"Artur Jorge\" trocada por \"Rui Vitória\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Abel Ferreira\" trocada por \"Pedro Martins\" (era resposta de outra pergunta); gerador r8: errada \"Artur Jorge\" trocada por \"Rui Vitória\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "bcd8c63152",
@@ -906,12 +951,13 @@
       "COI"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "5633c24759",
@@ -926,12 +972,13 @@
       "STJD"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "b0b5a064d0",
@@ -946,13 +993,14 @@
       "FIS"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"FIVB\" trocada por \"FIS\" (era resposta de outra pergunta); gerador r8: errada \"FIBA\" trocada por \"FIG\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"FIVB\" trocada por \"FIS\" (era resposta de outra pergunta); gerador r8: errada \"FIBA\" trocada por \"FIG\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "8d0a460705",
@@ -963,17 +1011,18 @@
     "alternativas": [
       "FIFA",
       "FIH",
-      "Fivolley",
+      "CEV",
       "FIVB"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"FIBA\" trocada por \"FIH\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"FIBA\" trocada por \"FIH\" (era resposta de outra pergunta) | conferente-v8: errada Fivolley era sigla inventada; trocada pela confederação europeia",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "9ad118b20f",
@@ -988,13 +1037,14 @@
       "Psicólogo do esporte"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Massagista\" trocada por \"Supervisor de futebol\" (era resposta de outra pergunta); gerador r8: errada \"Olheiro\" trocada por \"Nutricionista\" (era resposta de outra pergunta); gerador r8: errada \"Roupeiro\" trocada por \"Psicólogo do esporte\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Massagista\" trocada por \"Supervisor de futebol\" (era resposta de outra pergunta); gerador r8: errada \"Olheiro\" trocada por \"Nutricionista\" (era resposta de outra pergunta); gerador r8: errada \"Roupeiro\" trocada por \"Psicólogo do esporte\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "4692593325",
@@ -1009,13 +1059,14 @@
       "Analista de desempenho"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Fisiologista\" trocada por \"Gerente de futebol\" (era resposta de outra pergunta); gerador r8: errada \"Delegado da partida\" trocada por \"Ouvidor da liga\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Fisiologista\" trocada por \"Gerente de futebol\" (era resposta de outra pergunta); gerador r8: errada \"Delegado da partida\" trocada por \"Ouvidor da liga\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "c914faf7cc",
@@ -1030,12 +1081,13 @@
       "Corte Arbitral do Esporte"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "53da0da528",
@@ -1050,13 +1102,14 @@
       "Ouvidor"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Quarto árbitro\" trocada por \"Assessor de arbitragem\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Quarto árbitro\" trocada por \"Assessor de arbitragem\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a022d0340a",
@@ -1071,13 +1124,14 @@
       "Sai de Baixo"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Toma Lá Dá Cá\" trocada por \"Sob Nova Direção\" (era resposta de outra pergunta); gerador r8: errada \"A Grande Família\" trocada por \"Os Aspones\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Toma Lá Dá Cá\" trocada por \"Sob Nova Direção\" (era resposta de outra pergunta); gerador r8: errada \"A Grande Família\" trocada por \"Os Aspones\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "5237fd5d11",
@@ -1092,13 +1146,14 @@
       "Louco por Elas"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Tapas & Beijos\" trocada por \"Divertics\" (era resposta de outra pergunta); gerador r8: errada \"Amor de Mãe\" trocada por \"Cilada\" (era resposta de outra pergunta); gerador r8: errada \"Pé na Cova\" trocada por \"Louco por Elas\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Tapas & Beijos\" trocada por \"Divertics\" (era resposta de outra pergunta); gerador r8: errada \"Amor de Mãe\" trocada por \"Cilada\" (era resposta de outra pergunta); gerador r8: errada \"Pé na Cova\" trocada por \"Louco por Elas\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "81e4d1153e",
@@ -1113,13 +1168,14 @@
       "Amigos do Bem"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Teleton\" trocada por \"Natal Solidário\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Teleton\" trocada por \"Natal Solidário\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "6e367f5a1f",
@@ -1134,13 +1190,14 @@
       "Natal sem Fome"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Troféu Imprensa\" trocada por \"Bom de Bola Solidário\" (era resposta de outra pergunta); gerador r8: errada \"Show da Virada\" trocada por \"Dia de Ajudar\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Troféu Imprensa\" trocada por \"Bom de Bola Solidário\" (era resposta de outra pergunta); gerador r8: errada \"Show da Virada\" trocada por \"Dia de Ajudar\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "5de0d4e5d0",
@@ -1155,13 +1212,14 @@
       "Especial de Fim de Ano"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6228",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (5.2)",
-    "correcao": "gerador r8: errada \"Festival de Verão\" trocada por \"Especial de Fim de Ano\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Festival de Verão\" trocada por \"Especial de Fim de Ano\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "aba4652463",
@@ -1176,13 +1234,14 @@
       "Louco por Elas"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"A Diarista\" trocada por \"Sexo Frágil\" (era resposta de outra pergunta); gerador r8: errada \"Vai que Cola\" trocada por \"Os Aspones\" (era resposta de outra pergunta); gerador r8: errada \"Toma Lá Dá Cá\" trocada por \"Louco por Elas\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"A Diarista\" trocada por \"Sexo Frágil\" (era resposta de outra pergunta); gerador r8: errada \"Vai que Cola\" trocada por \"Os Aspones\" (era resposta de outra pergunta); gerador r8: errada \"Toma Lá Dá Cá\" trocada por \"Louco por Elas\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "797ec863b3",
@@ -1197,13 +1256,14 @@
       "Os Caras de Pau"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Zorra Total\" trocada por \"Toma Lá Dá Cá Show\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Zorra Total\" trocada por \"Toma Lá Dá Cá Show\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "af51b1e875",
@@ -1218,12 +1278,13 @@
       "Troféu Domingão"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8732",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "cd817ead34",
@@ -1238,13 +1299,14 @@
       "Central do Brasil"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Aquarius\" trocada por \"Tatuagem\" (era resposta de outra pergunta); gerador r8: errada \"Que Horas Ela Volta?\" trocada por \"Califórnia\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Aquarius\" trocada por \"Tatuagem\" (era resposta de outra pergunta); gerador r8: errada \"Que Horas Ela Volta?\" trocada por \"Califórnia\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "264cf046eb",
@@ -1279,13 +1341,14 @@
       "Até que a Sorte nos Separe"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"De Pernas pro Ar\" trocada por \"Cine Holliúdy\" (era resposta de outra pergunta); gerador r8: errada \"Cine Holliúdy\" trocada por \"Vai que Dá Certo\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"De Pernas pro Ar\" trocada por \"Cine Holliúdy\" (era resposta de outra pergunta); gerador r8: errada \"Cine Holliúdy\" trocada por \"Vai que Dá Certo\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "97009907be",
@@ -1300,19 +1363,20 @@
       "Ana Maria Gonçalves"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4709",
     "recente": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "gerador r8: errada \"Conceição Evaristo\" trocada por \"Eliana Alves Cruz\" (era resposta de outra pergunta); gerador r8: errada \"Djamila Ribeiro\" trocada por \"Cidinha da Silva\" (era resposta de outra pergunta); gerador r8: errada \"Carolina Maria de Jesus\" trocada por \"Lívia Natália\" (era resposta de outra pergunta); gerador r8: errada \"Eliana Alves Cruz\" trocada por \"Jarid Arraes\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Conceição Evaristo\" trocada por \"Eliana Alves Cruz\" (era resposta de outra pergunta); gerador r8: errada \"Djamila Ribeiro\" trocada por \"Cidinha da Silva\" (era resposta de outra pergunta); gerador r8: errada \"Carolina Maria de Jesus\" trocada por \"Lívia Natália\" (era resposta de outra pergunta); gerador r8: errada \"Eliana Alves Cruz\" trocada por \"Jarid Arraes\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "c3cec3939c",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual pensador indígena escreveu \"Ideias para Adiar o Fim do Mundo\" e entrou na Academia Brasileira de Letras em 2023?",
+    "pergunta": "Qual pensador indígena escreveu \"Ideias para Adiar o Fim do Mundo\" e foi eleito para a Academia Brasileira de Letras em 2023?",
     "resposta": "Ailton Krenak",
     "alternativas": [
       "Raoni",
@@ -1321,13 +1385,15 @@
       "Ailton Krenak"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Davi Kopenawa\" trocada por \"Kaká Werá\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Davi Kopenawa\" trocada por \"Kaká Werá\" (era resposta de outra pergunta) | conferente-v8: Krenak foi eleito em 2023 e tomou posse em 2024; 'entrou' trocado por 'foi eleito' (checagem web)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "6e0d152e4e",
@@ -1342,13 +1408,14 @@
       "Bianca Santana"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Conceição Evaristo\" trocada por \"Bianca Santana\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Conceição Evaristo\" trocada por \"Bianca Santana\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "4e9aba6927",
@@ -1363,13 +1430,14 @@
       "Miguel Sanches Neto"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Dalton Trevisan\" trocada por \"Rogério Pereira\" (era resposta de outra pergunta); gerador r8: errada \"Paulo Leminski\" trocada por \"Assionara Souza\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Dalton Trevisan\" trocada por \"Rogério Pereira\" (era resposta de outra pergunta); gerador r8: errada \"Paulo Leminski\" trocada por \"Assionara Souza\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a3c3d4b838",
@@ -1384,13 +1452,14 @@
       "Natércia Campos"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Rachel de Queiroz\" trocada por \"Jarid Arraes\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Rachel de Queiroz\" trocada por \"Jarid Arraes\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "1b268f2601",
@@ -1405,13 +1474,14 @@
       "Nelson de Oliveira"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Bernardo Carvalho\" trocada por \"Marcelino Freire\" (era resposta de outra pergunta); gerador r8: errada \"Milton Hatoum\" trocada por \"Nelson de Oliveira\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Bernardo Carvalho\" trocada por \"Marcelino Freire\" (era resposta de outra pergunta); gerador r8: errada \"Milton Hatoum\" trocada por \"Nelson de Oliveira\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "034751a278",
@@ -1426,13 +1496,14 @@
       "Alessandro Buzo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Ferréz\" trocada por \"Sacolinha\" (era resposta de outra pergunta); gerador r8: errada \"Marcelo Rubens Paiva\" trocada por \"Allan da Rosa\" (era resposta de outra pergunta); gerador r8: errada \"Paulo Lins\" trocada por \"Alessandro Buzo\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Ferréz\" trocada por \"Sacolinha\" (era resposta de outra pergunta); gerador r8: errada \"Marcelo Rubens Paiva\" trocada por \"Allan da Rosa\" (era resposta de outra pergunta); gerador r8: errada \"Paulo Lins\" trocada por \"Alessandro Buzo\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "0f033c3557",
@@ -1447,12 +1518,13 @@
       "Daniel Munduruku"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "11099c51a3",
@@ -1467,13 +1539,14 @@
       "Joca Reiners Terron"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Milton Hatoum\" trocada por \"Marcelo Mirisola\" (era resposta de outra pergunta); gerador r8: errada \"Daniel Galera\" trocada por \"Joca Reiners Terron\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Milton Hatoum\" trocada por \"Marcelo Mirisola\" (era resposta de outra pergunta); gerador r8: errada \"Daniel Galera\" trocada por \"Joca Reiners Terron\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "018e2daf78",
@@ -1488,12 +1561,13 @@
       "Tela de bloqueio"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "d42c7d8e7b",
@@ -1503,18 +1577,19 @@
     "resposta": "Luz noturna",
     "alternativas": [
       "Modo cinema",
-      "Modo leitura",
+      "Modo desempenho",
       "Luz noturna",
       "Brilho máximo"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Modo retrato\" trocada por \"Modo foco\" (era resposta de outra pergunta); gerador r8: errada \"Modo avião\" trocada por \"Modo leitura\" (era resposta de outra pergunta); gerador r8: errada \"Modo foco\" trocada por \"Modo cinema\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Modo retrato\" trocada por \"Modo foco\" (era resposta de outra pergunta); gerador r8: errada \"Modo avião\" trocada por \"Modo leitura\" (era resposta de outra pergunta); gerador r8: errada \"Modo foco\" trocada por \"Modo cinema\" (era resposta de outra pergunta) | conferente-v8: errada Modo leitura também filtra a luz azul em vários celulares (defensável); trocada",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a398998c4b",
@@ -1524,18 +1599,19 @@
     "resposta": "Força bruta",
     "alternativas": [
       "Força bruta",
-      "Spoofing de DNS",
+      "Sniffing",
       "Spoofing",
       "Injeção de SQL"
     ],
     "subtema": "Segurança digital",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Phishing\" trocada por \"Spoofing de DNS\" (era resposta de outra pergunta); gerador r8: errada \"Engenharia social\" trocada por \"Injeção de SQL\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Phishing\" trocada por \"Spoofing de DNS\" (era resposta de outra pergunta); gerador r8: errada \"Engenharia social\" trocada por \"Injeção de SQL\" (era resposta de outra pergunta) | conferente-v8: erradas Spoofing e Spoofing de DNS eram quase a mesma alternativa; trocada",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "665e5e8183",
@@ -1550,12 +1626,13 @@
       "Donut"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "e08d6f9e2d",
@@ -1570,13 +1647,14 @@
       "Lady Driver"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Cabify\" trocada por \"Lady Driver\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Cabify\" trocada por \"Lady Driver\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "8f3fea8571",
@@ -1611,13 +1689,14 @@
       "Honeypot"
     ],
     "subtema": "Segurança digital",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Firewall\" trocada por \"Bastion host\" (era resposta de outra pergunta); gerador r8: errada \"Sandbox\" trocada por \"Tarpit\" (era resposta de outra pergunta); gerador r8: errada \"Proxy\" trocada por \"DMZ\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Firewall\" trocada por \"Bastion host\" (era resposta de outra pergunta); gerador r8: errada \"Sandbox\" trocada por \"Tarpit\" (era resposta de outra pergunta); gerador r8: errada \"Proxy\" trocada por \"DMZ\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "3852ea06e4",
@@ -1629,16 +1708,18 @@
       "Redstone",
       "Threshold",
       "Sun Valley",
-      "Cobalt"
+      "Blue"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:bfa9736eeb",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
-    "correcao": "gerador r8: errada \"Longhorn\" trocada por \"Cobalt\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Longhorn\" trocada por \"Cobalt\" (era resposta de outra pergunta) | conferente-v8: errada Cobalt era o codinome da plataforma da versão 21H2 do próprio Windows 11 (defensável, checagem web); trocada",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "c7d7052967",
@@ -1653,12 +1734,13 @@
       "Hoary Hedgehog"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "92485cfee3",
@@ -1668,17 +1750,19 @@
     "resposta": "Copland",
     "alternativas": [
       "Rhapsody",
-      "Taligent",
+      "Sierra",
       "Copland",
-      "Pink"
+      "El Capitan"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "erradas Pink e Taligent também foram projetos de sistema da Apple abandonados (defensáveis); trocadas"
   },
   {
     "id": "e6677053b6",
@@ -1693,13 +1777,15 @@
       "Nokia 1100"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4188",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.2)",
-    "correcao": "gerador r8: errada \"Nokia 3310\" trocada por \"Nokia 6020\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Nokia 3310\" trocada por \"Nokia 6020\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "a6652912e6",
@@ -1714,12 +1800,13 @@
       "Aparador"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "176a80e06f",
@@ -1734,12 +1821,13 @@
       "Chaleira elétrica"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "1f530d4aed",
@@ -1754,12 +1842,13 @@
       "Abajur"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "4f7ec9af5e",
@@ -1768,18 +1857,20 @@
     "pergunta": "Como se chama o material esmaltado, branco com borda azul, de bacias e canecas antigas?",
     "resposta": "Ágata",
     "alternativas": [
-      "Pewter",
+      "Folha de flandres",
       "Alpaca",
       "Baquelite",
       "Ágata"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Pewter era palavra em inglês; trocada"
   },
   {
     "id": "bb24086f96",
@@ -1794,12 +1885,13 @@
       "Batata"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "9c4102f8d1",
@@ -1811,15 +1903,17 @@
       "Bolha dos Mares do Sul",
       "Pânico de 1873",
       "Crise das Tulipas",
-      "Bolha do Mississipi Inglês"
+      "Bolha do Mississippi"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Bolha do Mississipi Inglês era nome inventado; trocada pela bolha francesa do mesmo ano"
   },
   {
     "id": "0d33885507",
@@ -1834,12 +1928,13 @@
       "Great Drought"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "45baeead42",
@@ -1874,13 +1969,14 @@
       "Cloreto de amônio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Salitre\" trocada por \"Sal de Glauber\" (era resposta de outra pergunta); gerador r8: errada \"Sal amargo\" trocada por \"Cloreto de amônio\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Salitre\" trocada por \"Sal de Glauber\" (era resposta de outra pergunta); gerador r8: errada \"Sal amargo\" trocada por \"Cloreto de amônio\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "175d4d075d",
@@ -1895,12 +1991,13 @@
       "Vitríolo azul"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "6058cf9fc8",
@@ -1915,12 +2012,13 @@
       "Manto sagrado"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "bda8258b0b",
@@ -1955,18 +2053,19 @@
       "Naming rights"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8097",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "6fc8373545",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual ala brasileiro foi descrito no draft da NBA de 2014 como \"dois anos longe de estar pronto\"?",
+    "pergunta": "Qual ala brasileiro foi descrito no draft da NBA de 2014 como \"a dois anos de estar a dois anos de ficar pronto\"?",
     "resposta": "Bruno Caboclo",
     "alternativas": [
       "Leo Meindl",
@@ -1975,13 +2074,15 @@
       "Vítor Faverani"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Didi Louzada\" trocada por \"Leo Meindl\" (era resposta de outra pergunta); gerador r8: errada \"Lucas Bebê\" trocada por \"Vítor Faverani\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Didi Louzada\" trocada por \"Leo Meindl\" (era resposta de outra pergunta); gerador r8: errada \"Lucas Bebê\" trocada por \"Vítor Faverani\" (era resposta de outra pergunta) | conferente-v8: a frase de Fran Fraschilla foi 'two years away from being two years away'; enunciado corrigido (checagem web)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "772295f9ff",
@@ -1996,13 +2097,15 @@
       "Georginho"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Marcelinho Huertas\" trocada por \"Fúlvio\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Marcelinho Huertas\" trocada por \"Fúlvio\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "32f07423e7",
@@ -2017,18 +2120,20 @@
       "Cristiano Felício"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "9ca8296f8c",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual ala brasileiro, revelado no Franca, foi escolhido no draft de 2019 e jogou pelo New Orleans Pelicans?",
+    "pergunta": "Qual ala brasileiro, que jogava no Franca, foi escolhido no draft de 2019 e jogou pelo New Orleans Pelicans?",
     "resposta": "Didi Louzada",
     "alternativas": [
       "Gui Santos",
@@ -2037,13 +2142,15 @@
       "Didi Louzada"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3066",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
-    "correcao": "gerador r8: errada \"Bruno Caboclo\" trocada por \"Yago dos Santos\" (era resposta de outra pergunta); gerador r8: errada \"Raulzinho\" trocada por \"Benite\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Bruno Caboclo\" trocada por \"Yago dos Santos\" (era resposta de outra pergunta); gerador r8: errada \"Raulzinho\" trocada por \"Benite\" (era resposta de outra pergunta) | conferente-v8: Didi é capixaba e chegou ao Franca já formado; 'revelado no Franca' trocado por 'que jogava no Franca' (checagem web)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "416d10944a",
@@ -2055,15 +2162,17 @@
       "Baianinho",
       "Casinha",
       "Pequeno Lojista",
-      "Bahianinho Jr."
+      "Pequeno Polegar"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8",
+    "correcao": "errada Bahianinho Jr. era variação da própria resposta; trocada"
   },
   {
     "id": "5601358acb",
@@ -2078,12 +2187,13 @@
       "Bunny"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "0922ec5834",
@@ -2098,12 +2208,13 @@
       "Refrigerinho"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "12532053ee",
@@ -2118,13 +2229,14 @@
       "Pedro Sampaio"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Pedro Sampaio saiu)",
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Alok\" trocada por \"KVSH\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Alok\" trocada por \"KVSH\" (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "330c00469f",
@@ -2159,12 +2271,13 @@
       "Repetir cena"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:10d0365471",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "a7501cc02d",
@@ -2179,12 +2292,13 @@
       "Perfil convidado"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8979",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.2)"
+    "dup_regra": "resposta nova citada no texto antigo (5.2)",
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "8bcaeba6aa",
@@ -2199,12 +2313,13 @@
       "Pix saque"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v8"
   },
   {
     "id": "fa25cee090",
@@ -2219,11 +2334,12 @@
       "Chave virtual"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7498",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v8"
   }
 ]

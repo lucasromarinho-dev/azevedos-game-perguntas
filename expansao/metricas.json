@@ -9643,6 +9643,107 @@
           "errada defensavel": "3ccd2ef407: errada Beibei é um dos próprios Fuwa (defensável/confusa); trocada pela mascote de Vancouver 2010",
           "molde repetido": "a7de837f92: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Geraldo Azevedo saiu)"
         }
+      },
+      {
+        "lote": "082",
+        "conferente": "conferente-v8",
+        "conferidas": 97,
+        "conferidas_sem_mudanca": 81,
+        "com_mudanca": 16,
+        "corrigidas": 15,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 9,
+        "buscas_web": 8,
+        "suspeitas": {
+          "total": 16,
+          "mantidas": 15,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 16,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 18,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 22,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "12532053ee: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Pedro Sampaio saiu)"
+        ],
+        "correcoes": [
+          "19d302dc02: Quitinete - errada Loft triplex era termo inventado e estranho; trocada",
+          "50e78ba2a0: Feira de São Joaquim - errada Feira de Água de Meninos foi a antecessora da própria Feira de São Joaquim, no mesmo lugar (defensável); trocada",
+          "86c31baf79: Ponte Newton Navarro - errada Ponte Forte-Redinha é o outro nome da própria Ponte Newton Navarro (defensável); trocada",
+          "f6eeb56951: Mohenjo-daro - errada Harappa Velha remetia a Harappa, outra cidade planejada e com esgoto do Vale do Indo (defensável); trocada",
+          "93d6be6eb7: Quartil - quartil é conceito conhecido pelo nome; rebaixada",
+          "8d0a460705: FIVB - errada Fivolley era sigla inventada; trocada pela confederação europeia",
+          "c3cec3939c: Ailton Krenak - Krenak foi eleito em 2023 e tomou posse em 2024; 'entrou' trocado por 'foi eleito' (checagem web)",
+          "d42c7d8e7b: Luz noturna - errada Modo leitura também filtra a luz azul em vários celulares (defensável); trocada",
+          "a398998c4b: Força bruta - erradas Spoofing e Spoofing de DNS eram quase a mesma alternativa; trocada",
+          "3852ea06e4: Sun Valley - errada Cobalt era o codinome da plataforma da versão 21H2 do próprio Windows 11 (defensável, checagem web); trocada",
+          "92485cfee3: Copland - erradas Pink e Taligent também foram projetos de sistema da Apple abandonados (defensáveis); trocadas",
+          "4f7ec9af5e: Ágata - errada Pewter era palavra em inglês; trocada",
+          "9c4102f8d1: Bolha dos Mares do Sul - errada Bolha do Mississipi Inglês era nome inventado; trocada pela bolha francesa do mesmo ano",
+          "6fc8373545: Bruno Caboclo - a frase de Fran Fraschilla foi 'two years away from being two years away'; enunciado corrigido (checagem web)",
+          "9ca8296f8c: Didi Louzada - Didi é capixaba e chegou ao Franca já formado; 'revelado no Franca' trocado por 'que jogava no Franca' (checagem web)",
+          "416d10944a: Baianinho - errada Bahianinho Jr. era variação da própria resposta; trocada"
+        ],
+        "rebaixamentos": [
+          "93d6be6eb7: Quartil dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "alternativa fora do tipo": 4,
+          "errada defensavel": 6,
+          "dificuldade": 1,
+          "fato impreciso": 3,
+          "alternativa repetida": 2,
+          "molde repetido": 1
+        },
+        "exemplos_erro": {
+          "alternativa fora do tipo": "19d302dc02: errada Loft triplex era termo inventado e estranho; trocada",
+          "errada defensavel": "50e78ba2a0: errada Feira de Água de Meninos foi a antecessora da própria Feira de São Joaquim, no mesmo lugar (defensável); trocada",
+          "dificuldade": "93d6be6eb7: quartil é conceito conhecido pelo nome; rebaixada",
+          "fato impreciso": "c3cec3939c: Krenak foi eleito em 2023 e tomou posse em 2024; 'entrou' trocado por 'foi eleito' (checagem web)",
+          "alternativa repetida": "a398998c4b: erradas Spoofing e Spoofing de DNS eram quase a mesma alternativa; trocada",
+          "molde repetido": "12532053ee: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Pedro Sampaio saiu)"
+        }
       }
     ],
     "rebaixamentos_r3": {

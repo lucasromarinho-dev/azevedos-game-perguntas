@@ -12,32 +12,36 @@
       "Vêneto"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:512",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6fc15df88f",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "O halloumi, queijo que vai direto na grelha sem derreter, é típico de qual ilha?",
     "resposta": "Chipre",
     "alternativas": [
       "Chipre",
       "Creta",
-      "Sicília",
-      "Malta"
+      "Sardenha",
+      "Rodes"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4778",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "errada Malta era a resposta de banco:5807, que tem Chipre entre as erradas (respostas cruzadas), e Sicília a de banco:293; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a3a7c56a45",
@@ -46,18 +50,20 @@
     "pergunta": "Qual antropólogo escreveu \"O Povo Brasileiro\" e ajudou a fundar a Universidade de Brasília?",
     "resposta": "Darcy Ribeiro",
     "alternativas": [
-      "Sérgio Buarque de Holanda",
-      "Gilberto Freyre",
+      "Caio Prado Júnior",
+      "Roberto DaMatta",
       "Darcy Ribeiro",
-      "Florestan Fernandes"
+      "Antonio Candido"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:5460, banco:1192 e 075:2d8556, com Darcy Ribeiro entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fb69b5ab8a",
@@ -72,12 +78,13 @@
       "Jimmy Carter"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "851d5cf9f0",
@@ -88,16 +95,18 @@
     "alternativas": [
       "Clement Attlee",
       "Harold Wilson",
-      "Neville Chamberlain",
-      "Winston Churchill"
+      "Stanley Baldwin",
+      "Anthony Eden"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Neville Chamberlain e Winston Churchill eram respostas de banco:1471 e banco:5150, com Clement Attlee entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "37fb1bdcfc",
@@ -112,12 +121,13 @@
       "Benjamin Disraeli"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7ebd2cb5b0",
@@ -127,17 +137,19 @@
     "resposta": "Ostreicultura",
     "alternativas": [
       "Ostreicultura",
-      "Malacocultura",
-      "Carcinicultura",
+      "Algicultura",
+      "Mitilicultura",
       "Piscicultura"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Malacocultura (cultivo de moluscos) inclui as ostras (defensável); Carcinicultura era a resposta de 067:43152d; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ef7059b583",
@@ -148,16 +160,18 @@
     "alternativas": [
       "Ramón Díaz",
       "Marcelo Gallardo",
-      "Jorge Sampaoli",
+      "Ariel Holan",
       "Ricardo Gareca"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Jorge Sampaoli era a resposta de 067:2f80fa, do mesmo molde (técnico argentino no Brasil); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "89177349db",
@@ -172,12 +186,13 @@
       "Stansted"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8084d219de",
@@ -192,12 +207,13 @@
       "Orly"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7b43cf9258",
@@ -212,12 +228,13 @@
       "Viracopos"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0effe0794d",
@@ -232,12 +249,13 @@
       "Galeão"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5fe3dfee0a",
@@ -247,17 +265,19 @@
     "resposta": "Trafalgar Square",
     "alternativas": [
       "Leicester Square",
-      "Piccadilly Circus",
+      "Russell Square",
       "Trafalgar Square",
       "Parliament Square"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Piccadilly Circus era a resposta de 071:23a875, que tem Trafalgar Square entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "16b1ef6168",
@@ -272,12 +292,13 @@
       "Saara"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e393a24933",
@@ -292,12 +313,13 @@
       "Pampulha"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "855e1de651",
@@ -306,18 +328,20 @@
     "pergunta": "Como se chama o centésimo da libra esterlina?",
     "resposta": "Pêni",
     "alternativas": [
-      "Cêntimo",
+      "Cent",
       "Xelim",
       "Pêni",
       "Centavo"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Cêntimo era a resposta de 072:59b3eb, que tem Pêni entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b743f27bb8",
@@ -326,18 +350,20 @@
     "pergunta": "Como se chama o centésimo do rublo russo?",
     "resposta": "Copeque",
     "alternativas": [
-      "Paisa",
-      "Sen",
-      "Pêni",
+      "Grosz",
+      "Halala",
+      "Øre",
       "Copeque"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 075:13afc6 (respostas cruzadas), df79c e 855e1 (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f8b74aa060",
@@ -352,12 +378,13 @@
       "Coyoacán"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "df79cd1482",
@@ -372,12 +399,13 @@
       "Won"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d433d285a3",
@@ -392,12 +420,13 @@
       "Tverskaya"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8a2ac94fb0",
@@ -412,12 +441,13 @@
       "António Guterres"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3be742e1c4",
@@ -426,18 +456,20 @@
     "pergunta": "Qual paquistanesa se tornou, aos 17 anos, a pessoa mais jovem a ganhar o Nobel da Paz?",
     "resposta": "Malala",
     "alternativas": [
-      "Rigoberta Menchú",
+      "Shirin Ebadi",
       "Malala",
       "Benazir Bhutto",
-      "Wangari Maathai"
+      "Tawakkol Karman"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Rigoberta Menchú e Wangari Maathai eram respostas de 071:13d95c (respostas cruzadas) e 0f9a8 (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5401f2259b",
@@ -452,12 +484,13 @@
       "Dez"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "743110e084",
@@ -472,12 +505,13 @@
       "Estados Unidos"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6f5c97f8e8",
@@ -492,12 +526,13 @@
       "Boutros Boutros-Ghali"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f74e2d5d4b",
@@ -512,13 +547,14 @@
       "Jean-Jacques Rousseau"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7105",
     "recente": false,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (18.6)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b42aff33d5",
@@ -533,12 +569,13 @@
       "Muralha de Adriano"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "83b9d7d766",
@@ -553,12 +590,13 @@
       "Linha Siegfried"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0f9a8e0431",
@@ -573,12 +611,13 @@
       "Winnie Mandela"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9436d16552",
@@ -589,16 +628,18 @@
     "alternativas": [
       "Amartya Sen",
       "Muhammad Yunus",
-      "Kofi Annan",
+      "Mahbub ul Haq",
       "Mahatma Gandhi"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Kofi Annan era a resposta de 6f5c9 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "610df45e5c",
@@ -613,12 +654,13 @@
       "Oswaldo Aranha"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3543a53fb7",
@@ -633,12 +675,13 @@
       "Gotejamento"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "230a4d8fb0",
@@ -653,12 +696,13 @@
       "Piscívoro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 8 perguntas 'como se chama o animal que se alimenta de X' na rodada, com as respostas cruzadas nas alternativas; cortado o excesso (piscívoro)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fbe400dcbc",
@@ -673,12 +717,13 @@
       "Mergulhia"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9db33d48bf",
@@ -693,12 +738,13 @@
       "Piscívoro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 8 perguntas 'como se chama o animal que se alimenta de X' na rodada, com as respostas cruzadas nas alternativas; cortado o excesso (folívoro)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "77c6789e76",
@@ -713,12 +759,13 @@
       "100"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4311c41276",
@@ -727,18 +774,20 @@
     "pergunta": "Como se chama o cultivo de arroz?",
     "resposta": "Orizicultura",
     "alternativas": [
-      "Citricultura",
-      "Olivicultura",
+      "Cafeicultura",
+      "Cotonicultura",
       "Orizicultura",
       "Triticultura"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Citricultura e Olivicultura eram respostas de 068:c15e2c e 069:321184, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dba53cc9d9",
@@ -753,12 +802,13 @@
       "Joaninha"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ee1e2f5de4",
@@ -773,12 +823,13 @@
       "Poda"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "72e78e7bcd",
@@ -793,12 +844,14 @@
       "Vassoura-de-bruxa"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "30e092b230",
@@ -813,12 +866,13 @@
       "Ferrugem"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "37e89b475f",
@@ -833,12 +887,13 @@
       "Calagem"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0e52bb488c",
@@ -853,12 +908,13 @@
       "Joaninha"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9557d786aa",
@@ -868,17 +924,19 @@
     "resposta": "Primatologia",
     "alternativas": [
       "Antropologia",
-      "Mastozoologia",
+      "Ornitologia",
       "Primatologia",
-      "Etologia"
+      "Botânica"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Mastozoologia (estudo dos mamíferos) inclui os primatas (defensável); Etologia era a resposta de 068:bff6b3; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fb08215587",
@@ -893,12 +951,13 @@
       "Badminton"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: banco:5024 ('Qual mesa-tenista brasileiro chegou ao top 10 do ranking mundial?' => Hugo Calderano) é o mesmo fato invertido",
     "dup": "suspeita",
     "dup_ref": "banco:9957",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0fc73abea4",
@@ -910,15 +969,17 @@
       "Trampolim",
       "Saltos ornamentais",
       "Ginástica artística",
-      "Ginástica rítmica"
+      "Ginástica acrobática"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2543",
     "recente": true,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)",
+    "correcao": "errada Ginástica rítmica era a resposta de banco:8033, que tem Ginástica artística entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "072f8ac6e9",
@@ -933,13 +994,14 @@
       "Lançamento de disco"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4920",
     "recente": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (12.2, 24% do fato)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a3b3a00438",
@@ -950,37 +1012,42 @@
     "alternativas": [
       "Badminton",
       "Esgrima",
-      "Tênis de mesa",
-      "Squash"
+      "Frescobol",
+      "Raquetebol"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4699",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.1, sim 0.3)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "erradas Tênis de mesa e Squash eram respostas de banco:9957 e banco:7918, com Badminton entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "889d54df5e",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Qual pernambucana foi a primeira nadadora brasileira campeã mundial, nos 50 metros costas em 2017?",
+    "pergunta": "Qual pernambucana foi a primeira brasileira campeã mundial de natação em piscina longa, nos 50 metros costas em 2017?",
     "resposta": "Etiene Medeiros",
     "alternativas": [
-      "Ana Marcela Cunha",
+      "Larissa Oliveira",
       "Joanna Maranhão",
-      "Poliana Okimoto",
+      "Graciele Herrmann",
       "Etiene Medeiros"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "Ana Marcela já tinha título mundial em águas abertas (2011) e a própria Etiene em piscina curta (2014): 'primeira campeã mundial' sem 'piscina longa' era impreciso e deixava Ana Marcela defensável; trocadas Ana Marcela e Poliana (respostas cruzadas com banco:2797 e banco:6242)",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "14de943610",
@@ -990,17 +1057,19 @@
     "resposta": "Alison dos Santos",
     "alternativas": [
       "Paulo André",
-      "Caio Bonfim",
+      "Mahau Suguimati",
       "Alison dos Santos",
       "Thiago Braz"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Caio Bonfim era a resposta de banco:5935, que tem Alison dos Santos entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "56cde2f7d7",
@@ -1009,18 +1078,20 @@
     "pergunta": "Qual clube catarinense revelou o atacante Roberto Firmino?",
     "resposta": "Figueirense",
     "alternativas": [
-      "Avaí",
+      "Brusque",
       "Joinville",
-      "Criciúma",
+      "Marcílio Dias",
       "Figueirense"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Avaí e Criciúma eram respostas de banco:2823 e banco:6035, com Figueirense entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "23becb4247",
@@ -1030,17 +1101,19 @@
     "resposta": "Athletico Paranaense",
     "alternativas": [
       "Londrina",
-      "Coritiba",
+      "Operário-PR",
       "Athletico Paranaense",
       "Paraná Clube"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Coritiba era a resposta de banco:2560, que tem Athletico Paranaense entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "71e5399230",
@@ -1055,12 +1128,13 @@
       "Tombense"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8146",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.2)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.2)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8d09a9a92a",
@@ -1090,17 +1164,20 @@
     "resposta": "Robson Caetano",
     "alternativas": [
       "Vicente Lenílson",
-      "Joaquim Cruz",
+      "Arnaldo de Oliveira",
       "Robson Caetano",
       "Claudinei Quirino"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Joaquim Cruz era a resposta de banco:3176, que tem Robson Caetano entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "aebacc37af",
@@ -1132,15 +1209,17 @@
       "Romualdo Arppi Filho",
       "Armando Marques",
       "José Roberto Wright",
-      "Arnaldo Cezar Coelho"
+      "Dulcídio Wanderley Boschilia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Arnaldo Cezar Coelho era a resposta de banco:8821 e 066:88dbc3 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7b9b57c046",
@@ -1151,16 +1230,18 @@
     "alternativas": [
       "Faustino Asprilla",
       "Radamel Falcao",
-      "Freddy Rincón",
+      "Adolfo Valencia",
       "Carlos Valderrama"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Freddy Rincón era a resposta de 075:8b3158, que tem Asprilla entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c10bf0da66",
@@ -1175,12 +1256,13 @@
       "Jules Rimet"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "014d78c7ad",
@@ -1195,12 +1277,13 @@
       "Slalom"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d92ac90164",
@@ -1209,18 +1292,20 @@
     "pergunta": "Qual fotógrafo mineiro ficou famoso pelas fotos em preto e branco de Serra Pelada e do projeto \"Gênesis\"?",
     "resposta": "Sebastião Salgado",
     "alternativas": [
-      "Pierre Verger",
+      "Walter Firmo",
       "Sebastião Salgado",
       "Evandro Teixeira",
       "Bob Wolfenson"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Pierre Verger era a resposta de a2d88 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6819c4b57c",
@@ -1235,32 +1320,36 @@
       "Aleijadinho"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6da5836a2a",
     "categoria": "Entretenimento",
-    "dificuldade": "facil",
-    "pergunta": "Qual quadrinista belga criou o repórter Tintim?",
+    "dificuldade": "medio",
+    "pergunta": "Qual quadrinista belga criou o Capitão Haddock e o professor Girassol?",
     "resposta": "Hergé",
     "alternativas": [
       "Uderzo",
-      "Goscinny",
+      "Franquin",
       "Hergé",
-      "Peyo"
+      "Morris"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3382",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.0)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.0)",
+    "dificuldade_ajuste": "facil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "'repórter Tintim' respondia banco:3382 (repórter belga de topete => Tintim); reescrito; erradas Goscinny e Peyo eram respostas de 7e675 (mesmo lote) e 058:6efd65 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9a7f0a958d",
@@ -1275,12 +1364,13 @@
       "Pixo"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e8363c13e9",
@@ -1289,18 +1379,20 @@
     "pergunta": "Qual fotógrafo fez a famosa foto da menina afegã de olhos verdes, capa da National Geographic?",
     "resposta": "Steve McCurry",
     "alternativas": [
-      "Sebastião Salgado",
-      "Robert Capa",
-      "Annie Leibovitz",
+      "James Nachtwey",
+      "Don McCullin",
+      "Nick Ut",
       "Steve McCurry"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de d92ac, f7a08 (mesmo lote, respostas cruzadas) e 066:add01e; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e0b1818df0",
@@ -1309,18 +1401,20 @@
     "pergunta": "Qual escritor escocês criou Peter Pan?",
     "resposta": "J. M. Barrie",
     "alternativas": [
-      "Lewis Carroll",
+      "Kenneth Grahame",
       "J. M. Barrie",
       "Robert Louis Stevenson",
       "Arthur Conan Doyle"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Lewis Carroll era a resposta de banco:7268, que tem J. M. Barrie entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0a3dac91e0",
@@ -1335,12 +1429,13 @@
       "César"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4686106d7c",
@@ -1349,18 +1444,20 @@
     "pergunta": "Qual compositor criou a música de abertura de \"Game of Thrones\"?",
     "resposta": "Ramin Djawadi",
     "alternativas": [
-      "Howard Shore",
+      "Bear McCreary",
       "Ramin Djawadi",
-      "Hans Zimmer",
-      "John Williams"
+      "Murray Gold",
+      "Jeff Beal"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 067:e9a5d2, 067:58968a e 067:7e6cb7, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f7a08b3b74",
@@ -1369,18 +1466,20 @@
     "pergunta": "Qual fotógrafo húngaro fez as fotos do desembarque do Dia D na praia de Omaha?",
     "resposta": "Robert Capa",
     "alternativas": [
-      "Steve McCurry",
-      "Ansel Adams",
-      "Henri Cartier-Bresson",
+      "Weegee",
+      "Robert Frank",
+      "Alfred Eisenstaedt",
       "Robert Capa"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de e8363, 073:7dc27f e 176f6 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7e675dc46a",
@@ -1391,16 +1490,18 @@
     "alternativas": [
       "Goscinny",
       "Morris",
-      "Peyo",
-      "Hergé"
+      "Jean Giraud",
+      "Jean-Michel Charlier"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Peyo e Hergé eram respostas de 058:6efd65 e 6da58 (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "75dc88157e",
@@ -1412,15 +1513,18 @@
       "Kleber Mendonça Filho",
       "Karim Aïnouz",
       "Walter Salles",
-      "Fernando Meirelles"
+      "Marcelo Gomes"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Fernando Meirelles era a resposta de ffd8a (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "3c2953e76d",
@@ -1446,21 +1550,23 @@
     "id": "ffd8ac31ff",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual diretor de \"Cidade de Deus\" fez também \"Dois Papas\", da Netflix?",
+    "pergunta": "Qual diretor brasileiro fez \"Dois Papas\", da Netflix, e \"Ensaio sobre a Cegueira\"?",
     "resposta": "Fernando Meirelles",
     "alternativas": [
-      "José Padilha",
+      "Cacá Diegues",
       "Fernando Meirelles",
-      "Walter Salles",
+      "Bruno Barreto",
       "Hector Babenco"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3409",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)",
+    "correcao": "'diretor de Cidade de Deus' respondia banco:3409 (quem dirigiu Cidade de Deus); reescrito; erradas José Padilha e Walter Salles eram respostas de banco:3414 e banco:3542 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0111546738",
@@ -1469,18 +1575,20 @@
     "pergunta": "Qual diretor criou o Teatro do Oprimido?",
     "resposta": "Augusto Boal",
     "alternativas": [
-      "Zé Celso",
+      "Paulo Autran",
       "Antunes Filho",
       "Gerald Thomas",
       "Augusto Boal"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Zé Celso era a resposta de 231db (mesmo lote), que tinha Augusto Boal entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7bb4bd2fe8",
@@ -1495,12 +1603,13 @@
       "Plínio Marcos"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "176f63146a",
@@ -1511,16 +1620,18 @@
     "alternativas": [
       "Henri Cartier-Bresson",
       "Robert Doisneau",
-      "Robert Capa",
+      "Eugène Atget",
       "Brassaï"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Robert Capa era a resposta de f7a08 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7559154559",
@@ -1535,12 +1646,13 @@
       "Guel Arraes"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ac9558a1d2",
@@ -1549,18 +1661,20 @@
     "pergunta": "Qual ator e dramaturgo escreveu a peça \"Eles Não Usam Black-Tie\", de 1958?",
     "resposta": "Gianfrancesco Guarnieri",
     "alternativas": [
-      "Plínio Marcos",
+      "Jorge Andrade",
       "Gianfrancesco Guarnieri",
-      "Oduvaldo Vianna Filho",
+      "Lauro César Muniz",
       "Augusto Boal"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Plínio Marcos e Oduvaldo Vianna Filho eram respostas de 7bb4b (mesmo lote) e 072:fc403a (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "231dbf903e",
@@ -1571,16 +1685,18 @@
     "alternativas": [
       "Zé Celso",
       "Antunes Filho",
-      "Augusto Boal",
+      "José Renato",
       "Gerald Thomas"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Augusto Boal era a resposta de 01115 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a94d3f2821",
@@ -1591,16 +1707,18 @@
     "alternativas": [
       "Dorothea Lange",
       "Diane Arbus",
-      "Annie Leibovitz",
+      "Margaret Bourke-White",
       "Vivian Maier"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Annie Leibovitz era a resposta de 066:add01e, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a2d88a3938",
@@ -1609,18 +1727,20 @@
     "pergunta": "Qual fotógrafo francês viveu na Bahia e registrou a cultura afro-brasileira?",
     "resposta": "Pierre Verger",
     "alternativas": [
-      "Henri Cartier-Bresson",
+      "Robert Doisneau",
       "Pierre Verger",
       "Claude Lévi-Strauss",
       "Marcel Gautherot"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Henri Cartier-Bresson era a resposta de 176f6 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3d6177c458",
@@ -1630,17 +1750,20 @@
     "resposta": "Bruno Giorgi",
     "alternativas": [
       "Bruno Giorgi",
-      "Victor Brecheret",
-      "Alfredo Ceschiatti",
+      "Amilcar de Castro",
+      "Sergio Camargo",
       "Oscar Niemeyer"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Victor Brecheret e Alfredo Ceschiatti eram respostas de banco:7087 e 074:b1bd8d, com Bruno Giorgi entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "ce431dc345",
@@ -1649,18 +1772,20 @@
     "pergunta": "Qual marinheiro aventureiro dos quadrinhos foi criado pelo italiano Hugo Pratt?",
     "resposta": "Corto Maltese",
     "alternativas": [
-      "Capitão Haddock",
+      "Mandrake",
       "Dylan Dog",
       "Tex Willer",
       "Corto Maltese"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Capitão Haddock passou a estar no enunciado de 6da58 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8319983d4c",
@@ -1669,18 +1794,20 @@
     "pergunta": "Qual máquina de obra ergue cargas pesadas com um braço longo e cabos de aço?",
     "resposta": "Guindaste",
     "alternativas": [
-      "Empilhadeira",
+      "Bate-estaca",
       "Guindaste",
-      "Betoneira",
-      "Retroescavadeira"
+      "Perfuratriz",
+      "Draga"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 066:5032ce (respostas cruzadas), 066:df9023 e 066:2da902, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b013f2c871",
@@ -1695,12 +1822,13 @@
       "Grade aradora"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9e0e2d8a8c",
@@ -1709,18 +1837,20 @@
     "pergunta": "Como se chama o caminhão de dois andares que transporta carros novos?",
     "resposta": "Cegonha",
     "alternativas": [
-      "Basculante",
+      "Prancha",
       "Bitrem",
       "Cegonha",
       "Caminhão-baú"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Basculante era a resposta de 072:eac89a, que tem Cegonha entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "337947ba0f",
@@ -1729,18 +1859,20 @@
     "pergunta": "Como se chama a estrutura provisória de tubos e tábuas usada para trabalhar em altura na obra?",
     "resposta": "Andaime",
     "alternativas": [
-      "Tapume",
+      "Marquise",
       "Escoramento",
       "Andaime",
       "Viga"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Tapume era a resposta de 068:586945, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "91507ffb25",
@@ -1755,12 +1887,13 @@
       "Google Sheets"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "384a21f53e",
@@ -1775,12 +1908,13 @@
       "Cem mil"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "19958d5893",
@@ -1795,12 +1929,13 @@
       "Filtro avançado"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:debebb9e01",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c73364ebc9",
@@ -1815,12 +1950,13 @@
       "Macro"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:cd524ffba6",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "28d5bd5ba2",
@@ -1829,18 +1965,20 @@
     "pergunta": "No Excel, qual símbolo se coloca antes da letra e do número para travar uma referência?",
     "resposta": "Cifrão",
     "alternativas": [
-      "E comercial",
-      "Cerquilha",
-      "Arroba",
+      "Asterisco",
+      "Porcentagem",
+      "Exclamação",
       "Cifrão"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 069:bf6906, 069:ede461 e banco:4717, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "72191662ee",
@@ -1855,12 +1993,13 @@
       "Thomas Edison"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ae80782181",
@@ -1875,12 +2014,13 @@
       "Transformador"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9d9c5ab3ac",
@@ -1895,12 +2035,13 @@
       "Prius"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a9d223bd4b",
@@ -1915,12 +2056,13 @@
       "Freio motor"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9ea5aec37e",
@@ -1930,17 +2072,19 @@
     "resposta": "Open Finance",
     "alternativas": [
       "Cadastro positivo",
-      "Internet banking",
+      "Débito automático",
       "Pix",
       "Open Finance"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Internet banking era a resposta de 072:edb593, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1476379265",
@@ -1949,18 +2093,20 @@
     "pergunta": "Qual cláusula SQL agrupa linhas com o mesmo valor para calcular totais?",
     "resposta": "GROUP BY",
     "alternativas": [
-      "WHERE",
+      "DELETE",
       "LIMIT",
       "GROUP BY",
-      "ORDER BY"
+      "UNION"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas WHERE e ORDER BY eram respostas de 069:5f780f e 069:3b5cc0, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b3e790f28e",
@@ -1975,12 +2121,13 @@
       "Periscópio"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0fedd77fe9",
@@ -1989,18 +2136,20 @@
     "pergunta": "Como se chama o drible em que a bola passa entre as pernas do adversário?",
     "resposta": "Caneta",
     "alternativas": [
-      "Pedalada",
+      "Carretilha",
       "Chapéu",
-      "Elástico",
+      "Letra",
       "Caneta"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Pedalada e Elástico eram respostas de banco:2542 e banco:2580, com Caneta entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "82558ac2e5",
@@ -2031,16 +2180,18 @@
     "alternativas": [
       "Match point",
       "Set point",
-      "Break point",
+      "Deuce",
       "Game point"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Break point era a resposta de banco:8232, que tem Match point entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3de968c661",
@@ -2055,12 +2206,13 @@
       "Sprint"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "49b04e21a9",
@@ -2095,12 +2247,13 @@
       "Luiz Mattar"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d80a9bd05c",
@@ -2112,15 +2265,17 @@
       "Houdini",
       "Penn Jillette",
       "Mister M",
-      "David Copperfield"
+      "Harry Blackstone"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada David Copperfield era a resposta de 0d390 (mesmo lote), que tinha Houdini entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4e50121762",
@@ -2135,12 +2290,13 @@
       "Cartola"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8bde2149a1",
@@ -2151,16 +2307,18 @@
     "alternativas": [
       "Mímica",
       "Ventriloquismo",
-      "Dublagem",
-      "Prestidigitação"
+      "Pantomima",
+      "Declamação"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Dublagem e Prestidigitação eram respostas de 067:3e1735 e 071:24270d (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0d3907918d",
@@ -2169,18 +2327,20 @@
     "pergunta": "Qual mágico americano fez a Estátua da Liberdade \"desaparecer\" num especial de TV, em 1983?",
     "resposta": "David Copperfield",
     "alternativas": [
-      "Houdini",
+      "Lance Burton",
       "David Copperfield",
       "Mister M",
       "Criss Angel"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Houdini era a resposta de d80a9 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8ec412ae74",
@@ -2190,17 +2350,20 @@
     "resposta": "Wendel Bezerra",
     "alternativas": [
       "Guilherme Briggs",
-      "Orlando Drummond",
+      "Márcio Seixas",
       "Wendel Bezerra",
       "Marco Ribeiro"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Orlando Drummond era a resposta de 071:043aee, que tem Wendel Bezerra entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "910bff67b3",
@@ -2215,12 +2378,13 @@
       "npm"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "986999070f",

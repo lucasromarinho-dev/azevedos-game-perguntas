@@ -12,12 +12,13 @@
       "Gran Vía"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "897a946e36",
@@ -32,12 +33,13 @@
       "Plaza Dorrego"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ea77974e0d",
@@ -52,12 +54,13 @@
       "Castro Street"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "483acb3fe1",
@@ -72,12 +75,13 @@
       "Storebælt"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "907eabf9da",
@@ -92,12 +96,13 @@
       "U Thant"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5b82b6c035",
@@ -108,16 +113,18 @@
     "alternativas": [
       "Silvicultura",
       "Fruticultura",
-      "Floricultura",
+      "Pomicultura",
       "Horticultura"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Floricultura era a resposta de 067:5e0d24, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "471bae54c6",
@@ -129,15 +136,17 @@
       "Espeleologia",
       "Geomorfologia",
       "Vulcanologia",
-      "Sismologia"
+      "Glaciologia"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Sismologia era a resposta de 067:abc709, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "928ecd7f98",
@@ -152,12 +161,13 @@
       "Glauber Rocha"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "31dca52253",
@@ -172,12 +182,13 @@
       "Curto-circuito"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6934170ee8",
@@ -188,16 +199,19 @@
     "alternativas": [
       "Vítor Pereira",
       "Renato Paiva",
-      "Artur Jorge",
-      "Abel Ferreira"
+      "Pedro Caixinha",
+      "Luís Castro"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Artur Jorge e Abel Ferreira eram respostas de banco:3031 e banco:2682, do mesmo molde (técnico português no Brasil); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "23a8750fa1",
@@ -208,16 +222,18 @@
     "alternativas": [
       "Covent Garden",
       "Piccadilly Circus",
-      "Trafalgar Square",
+      "Soho Square",
       "Leicester Square"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Trafalgar Square era a resposta de 070:5fe3df (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "906b2d1895",
@@ -252,12 +268,13 @@
       "LaGuardia"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b3c6fbcca9",
@@ -272,12 +289,13 @@
       "Mojito"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a08b88a635",
@@ -292,12 +310,13 @@
       "Bolo de rolo"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2c81d95306",
@@ -312,12 +331,13 @@
       "Ir às compras"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f2718260ef",
@@ -332,12 +352,13 @@
       "Comté"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f52a4e4005",
@@ -348,16 +369,18 @@
     "alternativas": [
       "Gion",
       "Asakusa",
-      "Shibuya",
+      "Harajuku",
       "Ginza"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Shibuya era a resposta de 064:06d7cf, do mesmo molde (bairro japonês); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c530f80770",
@@ -372,12 +395,13 @@
       "Carlos III"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bbff60ee37",
@@ -392,12 +416,13 @@
       "Poupança"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1320",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0e8449fbef",
@@ -412,12 +437,13 @@
       "Cheque especial"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "24d1187b63",
@@ -452,12 +478,13 @@
       "João Paulo III"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3792bd233e",
@@ -472,12 +499,13 @@
       "B3"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f91c997358",
@@ -492,12 +520,13 @@
       "Marechal"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2f93d442d9",
@@ -512,12 +541,13 @@
       "John Kenneth Galbraith"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8a19926888",
@@ -529,15 +559,17 @@
       "Inventário",
       "Testamento",
       "Procuração",
-      "Usucapião"
+      "Interdição"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Usucapião era a resposta de 067:195b43, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6c3291570f",
@@ -546,18 +578,20 @@
     "pergunta": "Qual economista inglês criou a teoria das vantagens comparativas no comércio entre países?",
     "resposta": "David Ricardo",
     "alternativas": [
-      "Keynes",
-      "Malthus",
+      "Alfred Marshall",
+      "John Stuart Mill",
       "Adam Smith",
       "David Ricardo"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Keynes e Malthus eram respostas de 069:2762eb e 069:9683b9 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c767d57782",
@@ -572,12 +606,13 @@
       "1934"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "13d95c45b8",
@@ -586,18 +621,20 @@
     "pergunta": "Qual guatemalteca indígena ganhou o Nobel da Paz em 1992?",
     "resposta": "Rigoberta Menchú",
     "alternativas": [
-      "Wangari Maathai",
+      "Leymah Gbowee",
       "Rigoberta Menchú",
-      "Malala",
-      "Aung San Suu Kyi"
+      "Shirin Ebadi",
+      "Jody Williams"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 070:0f9a8e, 070:3be742 e 073:49b757 (respostas cruzadas), do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "01afb90516",
@@ -612,12 +649,13 @@
       "35"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1122e9d8cf",
@@ -628,16 +666,18 @@
     "alternativas": [
       "LDL",
       "Triglicerídeo",
-      "HDL",
+      "Ômega 3",
       "Glicose"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada HDL era a resposta de banco:2015, que tem LDL entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c949452b2c",
@@ -646,19 +686,21 @@
     "pergunta": "Como se chama o tubo de vidro fino, fechado numa ponta, usado para pequenas reações no laboratório?",
     "resposta": "Tubo de ensaio",
     "alternativas": [
-      "Béquer",
+      "Proveta",
       "Funil",
       "Condensador",
       "Tubo de ensaio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:7c0ed5e7e5",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.5)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Béquer era a resposta de 065:eb65d8, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "64a03616f4",
@@ -668,17 +710,19 @@
     "resposta": "Granívoro",
     "alternativas": [
       "Piscívoro",
-      "Frugívoro",
+      "Hematófago",
       "Granívoro",
       "Folívoro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Frugívoro era a resposta de 069:a24301, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9b1a24a2be",
@@ -688,17 +732,19 @@
     "resposta": "Ultravioleta",
     "alternativas": [
       "Micro-ondas",
-      "Infravermelho",
+      "Ondas de rádio",
       "Ultravioleta",
       "Raio X"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Infravermelho era a resposta de banco:1836, que tem Ultravioleta entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "11add17e20",
@@ -713,12 +759,13 @@
       "Taquicardia"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5ae5571609",
@@ -730,15 +777,17 @@
       "Cadinho",
       "Condensador",
       "Almofariz",
-      "Dessecador"
+      "Bico de Bunsen"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Dessecador era a resposta de 072:694533, que tem Almofariz entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "eedffc5e70",
@@ -753,12 +802,13 @@
       "Incubadora"
     ],
     "subtema": "Cientistas e descobertas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5c2febff3e",
@@ -768,17 +818,19 @@
     "resposta": "Fosseta loreal",
     "alternativas": [
       "Órgão vomeronasal",
-      "Linha lateral",
+      "Ampola de Lorenzini",
       "Glândula de Jacobson",
       "Fosseta loreal"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Linha lateral era a resposta de 072:87f802, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4eab0c55cc",
@@ -787,18 +839,20 @@
     "pergunta": "Como se chama o sentido que permite a aves migratórias perceberem o campo magnético da Terra?",
     "resposta": "Magnetorrecepção",
     "alternativas": [
-      "Ecolocalização",
+      "Quimiorrecepção",
       "Magnetorrecepção",
       "Eletrorrecepção",
       "Termorrecepção"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Ecolocalização era a resposta de banco:8103, que tem Magnetorrecepção entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6706a2b348",
@@ -813,12 +867,13 @@
       "Arábia Saudita"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fa89f99ea1",
@@ -833,12 +888,13 @@
       "Palmeiras"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f36b7467f3",
@@ -847,18 +903,20 @@
     "pergunta": "Em que ano o Corinthians foi rebaixado no Brasileirão?",
     "resposta": "2007",
     "alternativas": [
-      "2005",
+      "2004",
       "2010",
-      "2002",
+      "2009",
       "2007"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas 2005 e 2002 eram respostas de 072:16235a e 62f76 (mesmo lote, respostas cruzadas), do mesmo molde (ano do rebaixamento); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "df4cf4538a",
@@ -873,12 +931,13 @@
       "Nova York"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "47dc9a4ae5",
@@ -893,12 +952,13 @@
       "Londres"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ee709a3e1c",
@@ -908,17 +968,19 @@
     "resposta": "Senegal",
     "alternativas": [
       "Nigéria",
-      "Camarões",
+      "Gana",
       "Senegal",
       "Tunísia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Camarões era a resposta de banco:3214, que tem Senegal entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "62f7643bd6",
@@ -928,17 +990,19 @@
     "resposta": "2002",
     "alternativas": [
       "2012",
-      "2007",
+      "2003",
       "1999",
       "2002"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada 2007 era a resposta de f36b7 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "aa2e6a1352",
@@ -947,18 +1011,20 @@
     "pergunta": "Qual seleção asiática eliminou a Itália na Copa de 1966?",
     "resposta": "Coreia do Norte",
     "alternativas": [
-      "Coreia do Sul",
+      "Indonésia",
       "Irã",
       "Japão",
       "Coreia do Norte"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Coreia do Sul era a resposta de 064:e68e23, que tem Coreia do Norte entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a0d09a6c95",
@@ -973,12 +1039,13 @@
       "15 km"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "cadeia: banco:2454 já pergunta a distância da maratona (42,195 km), e a meia maratona é a metade (as outras alternativas não chegam perto); pergunta em cadeia sobre o mesmo fato",
     "dup": "suspeita",
     "dup_ref": "banco:2454",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b356792b25",
@@ -993,12 +1060,13 @@
       "ATP Finals"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c59a02035d",
@@ -1013,12 +1081,13 @@
       "The Open"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "87576e41c4",
@@ -1027,18 +1096,20 @@
     "pergunta": "Qual técnico comandou a Itália nos títulos mundiais de 1934 e 1938?",
     "resposta": "Vittorio Pozzo",
     "alternativas": [
-      "Enzo Bearzot",
+      "Carlo Carcano",
       "Vittorio Pozzo",
       "Ferruccio Valcareggi",
       "Helenio Herrera"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Enzo Bearzot era a resposta de 064:5d64a8, do mesmo molde (técnico campeão da Itália); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "332b029e2f",
@@ -1053,12 +1124,13 @@
       "Michael Essien"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e78af297ea",
@@ -1067,18 +1139,21 @@
     "pergunta": "Qual snowboarder brasileira ficou em nono lugar nos Jogos de Inverno de Turim 2006?",
     "resposta": "Isabel Clark",
     "alternativas": [
-      "Jaqueline Mourão",
+      "Nicole Silveira",
       "Mirlene Picin",
       "Josi Santos",
       "Isabel Clark"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Jaqueline Mourão era a resposta de 072:109639, que tem Isabel Clark entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "178cbeac8f",
@@ -1090,15 +1165,17 @@
       "Laver Cup",
       "Hopman Cup",
       "United Cup",
-      "Copa Davis"
+      "ATP Cup"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Copa Davis era a resposta de banco:2988, que tem Laver Cup entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dce877b6b8",
@@ -1133,12 +1210,14 @@
       "Oto Glória"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "522a023a2d",
@@ -1147,18 +1226,20 @@
     "pergunta": "Qual jogo de tabuleiro consiste em colonizar uma ilha trocando madeira, tijolo, trigo e ovelha?",
     "resposta": "Catan",
     "alternativas": [
-      "Ticket to Ride",
-      "Carcassonne",
+      "Puerto Rico",
+      "Agricola",
       "Catan",
-      "War"
+      "Pandemic"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Ticket to Ride e Carcassonne eram respostas de 0ba2c e 7477d (mesmo lote, respostas cruzadas) e War a de banco:3311; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fec6ba7841",
@@ -1173,12 +1254,13 @@
       "Paladino"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "47449c10ec",
@@ -1193,12 +1275,13 @@
       "Bluey"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f08ba36427",
@@ -1213,12 +1296,13 @@
       "After party"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f0ceeb60ac",
@@ -1233,12 +1317,13 @@
       "Marrone"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9fe8b5353c",
@@ -1250,15 +1335,17 @@
       "Grafiteiro",
       "B-boy",
       "DJ",
-      "MC"
+      "Beatboxer"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada MC era a resposta de 069:3dcc08, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0ea53dcbc3",
@@ -1267,18 +1354,20 @@
     "pergunta": "Qual jogo de cartas tem dois times de espiões tentando adivinhar as palavras-código do parceiro?",
     "resposta": "Codenames",
     "alternativas": [
-      "Imagem e Ação",
-      "Dixit",
-      "Uno",
+      "Love Letter",
+      "Exploding Kittens",
+      "Dobble",
       "Codenames"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:8252, 0d299 (respostas cruzadas) e banco:7472; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cb6e547fc9",
@@ -1293,12 +1382,13 @@
       "Stratford-upon-Avon"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d007617ea1",
@@ -1313,12 +1403,13 @@
       "Polônio"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "24270dc52a",
@@ -1330,15 +1421,17 @@
       "Hipnose",
       "Prestidigitação",
       "Levitação",
-      "Ventriloquismo"
+      "Escapismo"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Ventriloquismo era a resposta de 070:8bde21 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "043aee4a12",
@@ -1348,17 +1441,19 @@
     "resposta": "Orlando Drummond",
     "alternativas": [
       "Mário Monjardim",
-      "Wendel Bezerra",
+      "Garcia Júnior",
       "Orlando Drummond",
       "Guilherme Briggs"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Wendel Bezerra era a resposta de 070:8ec412 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f2d8f66749",
@@ -1393,12 +1488,13 @@
       "Produtor"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "000b273d2f",
@@ -1413,12 +1509,13 @@
       "Martin Garrix"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2011f5e38a",
@@ -1427,18 +1524,20 @@
     "pergunta": "Qual agiota de Shakespeare exige uma libra de carne de quem não paga a dívida?",
     "resposta": "Shylock",
     "alternativas": [
-      "Falstaff",
+      "Petruchio",
       "Iago",
       "Malvólio",
       "Shylock"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Falstaff era a resposta de 65676 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9e0058e0f4",
@@ -1450,15 +1549,17 @@
       "Puck",
       "Ariel",
       "Caliban",
-      "Oberon"
+      "Bottom"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Oberon era a resposta de banco:6328, que tem Puck entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0ba2c7a6b3",
@@ -1467,18 +1568,20 @@
     "pergunta": "Qual jogo de tabuleiro tem os jogadores ligando cidades com rotas de trem?",
     "resposta": "Ticket to Ride",
     "alternativas": [
-      "Banco Imobiliário",
-      "Catan",
+      "Pandemic",
+      "Splendor",
       "Ticket to Ride",
-      "Carcassonne"
+      "Wingspan"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:7471, 522a0 e 7477d (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7477d09dfb",
@@ -1487,18 +1590,20 @@
     "pergunta": "Qual jogo de tabuleiro forma uma paisagem medieval com peças de cidades, estradas e mosteiros?",
     "resposta": "Carcassonne",
     "alternativas": [
-      "Dixit",
+      "Agricola",
       "Carcassonne",
-      "Catan",
-      "Ticket to Ride"
+      "7 Wonders",
+      "Puerto Rico"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 0d299, 522a0 e 0ba2c (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7939e4c55d",
@@ -1513,12 +1618,13 @@
       "Oberon"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6567602ca3",
@@ -1528,17 +1634,19 @@
     "resposta": "Falstaff",
     "alternativas": [
       "Falstaff",
-      "Mercúcio",
+      "Benvólio",
       "Malvólio",
       "Polônio"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Mercúcio era a resposta de f0eba (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f0eba6267a",
@@ -1553,12 +1661,13 @@
       "Polônio"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "08e40269a3",
@@ -1573,12 +1682,13 @@
       "Old Vic"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0d29950db4",
@@ -1587,18 +1697,20 @@
     "pergunta": "Qual jogo de cartas ilustradas pede dicas poéticas para os outros adivinharem a carta?",
     "resposta": "Dixit",
     "alternativas": [
-      "Codenames",
+      "Love Letter",
       "Dixit",
-      "Uno",
-      "Magic: The Gathering"
+      "Dobble",
+      "Exploding Kittens"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 0ea53 (mesmo lote, respostas cruzadas), banco:7472 e banco:4285; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ebf12270dd",
@@ -1609,16 +1721,18 @@
     "alternativas": [
       "Maquininha",
       "Leitor de código de barras",
-      "Caixa eletrônico",
+      "Cofre",
       "Token"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Caixa eletrônico era a resposta de banco:9632, que tem Maquininha entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "17c2077a2b",
@@ -1628,17 +1742,19 @@
     "resposta": "Pilar",
     "alternativas": [
       "Telha",
-      "Calha",
+      "Rufo",
       "Pilar",
-      "Sapata"
+      "Platibanda"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:cf05cb9ec9",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "erradas Sapata e Calha eram respostas de 067:cf05cb e 067:ce000f, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "abe3d9da69",
@@ -1653,12 +1769,13 @@
       "Caixa de saída"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a731137b9b",
@@ -1667,18 +1784,20 @@
     "pergunta": "Qual aparelho de escritório prende folhas com um grampo de metal?",
     "resposta": "Grampeador",
     "alternativas": [
-      "Fragmentadora",
+      "Etiquetadora",
       "Perfurador",
       "Clipe",
       "Grampeador"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Fragmentadora era a resposta de 068:3c8f7e, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9ad17e9deb",
@@ -1687,19 +1806,21 @@
     "pergunta": "Qual máquina de obra, com lâmina na frente e esteiras no lugar das rodas, empurra terra?",
     "resposta": "Trator de esteira",
     "alternativas": [
-      "Betoneira",
+      "Bate-estaca",
       "Trator de esteira",
-      "Rolo compressor",
-      "Guindaste"
+      "Perfuratriz",
+      "Draga"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:4b847e6c5d",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.5)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "as três erradas eram respostas de 066:df9023, 066:2cdb68 e 070:831998, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bbd3f6a377",
@@ -1708,18 +1829,20 @@
     "pergunta": "Qual formato de arquivo do Photoshop guarda as camadas da imagem?",
     "resposta": "PSD",
     "alternativas": [
-      "PNG",
-      "PDF",
+      "BMP",
+      "EPS",
       "JPEG",
       "PSD"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas PNG e PDF eram respostas de banco:4107 e banco:4637, do mesmo molde (formato de arquivo); PDF ainda pode guardar camadas do Photoshop (defensável); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "07458be96c",
@@ -1734,12 +1857,13 @@
       "TIFF"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8f300f8a1b",
@@ -1748,18 +1872,20 @@
     "pergunta": "Qual formato de imagem é vetorial e não perde qualidade ao ser ampliado?",
     "resposta": "SVG",
     "alternativas": [
-      "GIF",
+      "TIFF",
       "JPEG",
       "SVG",
       "BMP"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada GIF era a resposta de banco:4758, que tem SVG entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5e59350b0c",
@@ -1770,16 +1896,18 @@
     "alternativas": [
       "NPC",
       "Skin",
-      "Lag",
+      "Spawn",
       "HUD"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Lag era a resposta de banco:7403, do mesmo molde (gíria de games); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "65a9b4fa65",
@@ -1788,18 +1916,20 @@
     "pergunta": "Qual máquina de escritório envolve documentos numa película de plástico?",
     "resposta": "Plastificadora",
     "alternativas": [
-      "Fragmentadora",
+      "Impressora térmica",
       "Guilhotina",
       "Plastificadora",
       "Encadernadora"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Fragmentadora era a resposta de 068:3c8f7e (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "73f300458b",
@@ -1810,16 +1940,18 @@
     "alternativas": [
       "JPEG",
       "RAW",
-      "HEIC",
-      "PNG"
+      "BMP",
+      "WMF"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas HEIC e PNG eram respostas de 07458 (mesmo lote) e banco:4107, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "243d84545f",
@@ -1831,15 +1963,17 @@
       "WebP",
       "TIFF",
       "BMP",
-      "SVG"
+      "PCX"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada SVG era a resposta de 8f300 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d15eba2dc2",
@@ -1848,18 +1982,20 @@
     "pergunta": "No Git, como se chama a ramificação do código para desenvolver uma função sem mexer na versão principal?",
     "resposta": "Branch",
     "alternativas": [
-      "Commit",
+      "Stash",
       "Branch",
       "Clone",
       "Push"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Commit era a resposta de banco:7970, que tem Branch entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "61e9a81ea2",
@@ -1874,12 +2010,13 @@
       "JSON"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e8f4011101",
@@ -1894,12 +2031,13 @@
       "Praça do Campo"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "27a572b473",
@@ -1914,12 +2052,13 @@
       "João Paulo II"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "368cd642e6",
@@ -1934,11 +2073,13 @@
       "Teatro Bolshoi"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   }
 ]

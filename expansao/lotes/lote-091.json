@@ -12,13 +12,15 @@
       "Santa Fe"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Rosário\" trocada por \"Salta\" na geração (era resposta de outra pergunta); errada \"Córdoba\" trocada por \"Santa Fe\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Rosário\" trocada por \"Salta\" na geração (era resposta de outra pergunta); errada \"Córdoba\" trocada por \"Santa Fe\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3afc0e2714",
@@ -33,12 +35,13 @@
       "Puerto Montt"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:125",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "94f0a66577",
@@ -53,12 +56,14 @@
       "Tarapoto"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8650c82cce",
@@ -73,12 +78,13 @@
       "Des Moines"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "541c1c96d4",
@@ -113,14 +119,15 @@
       "Memphis"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3074",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (10.4, 36% do fato)",
     "correcao": "errada \"Atlanta\" trocada por \"Charlotte\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3074)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3074)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "44c92c1de5",
@@ -135,12 +142,13 @@
       "Boston"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "deab27f73e",
@@ -155,17 +163,18 @@
       "MST"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1351a1c8d0",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual central sindical brasileira foi fundada em 1983, em São Bernardo do Campo?",
     "resposta": "CUT",
     "alternativas": [
@@ -175,12 +184,16 @@
       "CGT"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: a CUT é central sindical muito conhecida e o enunciado dá São Bernardo; rebaixada"
   },
   {
     "id": "54e5dbe57c",
@@ -189,19 +202,21 @@
     "pergunta": "Como ficaram conhecidos os grandes protestos de 2013 no Brasil, que começaram contra o aumento das passagens?",
     "resposta": "Jornadas de Junho",
     "alternativas": [
-      "Revolta do Vinagre",
+      "Movimento Fora Collor",
       "Jornadas de Junho",
       "Primavera Brasileira",
       "Marcha das Passagens"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5646",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 22.0)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5646)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5646)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Revolta do Vinagre foi um dos apelidos dos próprios protestos de junho de 2013 (defensável); trocada"
   },
   {
     "id": "caf4b3c7f8",
@@ -212,16 +227,19 @@
     "alternativas": [
       "Coletivo Catraca Livre",
       "Frente Ônibus Já",
-      "Movimento Tarifa Zero",
+      "Frente Popular de Luta",
       "Movimento Passe Livre"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Movimento Tarifa Zero lembrava a própria bandeira do MPL (tarifa zero), defensável; trocada"
   },
   {
     "id": "2369f93204",
@@ -236,12 +254,13 @@
       "Ariosto"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2ac6f26f33",
@@ -256,12 +275,13 @@
       "Boccaccio"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4ed0418371",
@@ -272,17 +292,20 @@
     "alternativas": [
       "Francesco Sforza",
       "Ludovico Sforza",
-      "Lourenço de Médici",
+      "Cosme de Médici",
       "César Bórgia"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7973",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.3, 22% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7973)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7973)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Lourenço de Médici é a quem \"O Príncipe\" foi dedicado (defensável para quem lê \"inspirou\"); trocada"
   },
   {
     "id": "b35595b6ca",
@@ -297,12 +320,13 @@
       "Prata de lei"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1e08656206",
@@ -312,18 +336,20 @@
     "resposta": "Peltre",
     "alternativas": [
       "Bronze-alumínio",
-      "Metal patente",
+      "Metal Monel",
       "Peltre",
       "Similor"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Alpaca\" trocada por \"Metal patente\" na geração (era resposta de outra pergunta); errada \"Latão\" trocada por \"Similor\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Alpaca\" trocada por \"Metal patente\" na geração (era resposta de outra pergunta); errada \"Latão\" trocada por \"Similor\" na geração (era resposta de outra pergunta) | conferente-v9: errada Metal patente era nome inventado; trocada por Monel (liga de níquel e cobre)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0adb1c273e",
@@ -332,18 +358,21 @@
     "pergunta": "Qual liga leve de alumínio com cobre foi usada na estrutura dos zepelins e dos primeiros aviões?",
     "resposta": "Duralumínio",
     "alternativas": [
-      "Titânio-gama",
+      "Invar",
       "Magnálio",
       "Zamak",
       "Duralumínio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Titânio-gama era nome inventado; trocada por Invar"
   },
   {
     "id": "6b0dca0433",
@@ -358,12 +387,14 @@
       "Avery-MacLeod"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0cc8b7d303",
@@ -378,12 +409,14 @@
       "Michelson-Morley"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "593c3f182b",
@@ -398,13 +431,14 @@
       "James Joule"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Michael Faraday\" trocada por \"Humphry Davy\" na geração (era resposta de outra pergunta); errada \"Robert Boyle\" trocada por \"Joseph Priestley\" na geração (era resposta de outra pergunta); errada \"Joseph Priestley\" trocada por \"William Gilbert\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Michael Faraday\" trocada por \"Humphry Davy\" na geração (era resposta de outra pergunta); errada \"Robert Boyle\" trocada por \"Joseph Priestley\" na geração (era resposta de outra pergunta); errada \"Joseph Priestley\" trocada por \"William Gilbert\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bf72363a2a",
@@ -419,12 +453,13 @@
       "B. F. Skinner"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ca23b4d321",
@@ -439,13 +474,15 @@
       "Philip Zimbardo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Leon Festinger\" trocada por \"Stanley Schachter\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Leon Festinger\" trocada por \"Stanley Schachter\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8a68851595",
@@ -460,12 +497,13 @@
       "Procrastinação"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "69cd481e7e",
@@ -480,12 +518,13 @@
       "Pirâmide de Rogers"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "53aa0f3df4",
@@ -500,12 +539,13 @@
       "Efeito manada"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d08e8c9ca3",
@@ -520,12 +560,13 @@
       "Alfred Adler"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "082adae4af",
@@ -540,12 +581,13 @@
       "Wilhelm Reich"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "afc206a601",
@@ -560,13 +602,14 @@
       "Arrows"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Lotus\" trocada por \"Ligier\" na geração (era resposta de outra pergunta); errada \"McLaren\" trocada por \"Renault\" na geração (era resposta de outra pergunta); errada \"Williams\" trocada por \"Arrows\" na geração (era resposta de outra pergunta); errada \"Ligier\" trocada por \"Lola\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Lotus\" trocada por \"Ligier\" na geração (era resposta de outra pergunta); errada \"McLaren\" trocada por \"Renault\" na geração (era resposta de outra pergunta); errada \"Williams\" trocada por \"Arrows\" na geração (era resposta de outra pergunta); errada \"Ligier\" trocada por \"Lola\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "eb5f26fc67",
@@ -581,18 +624,19 @@
       "Larrousse"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Williams\" trocada por \"Ligier\" na geração (era resposta de outra pergunta); errada \"Ligier\" trocada por \"Footwork\" na geração (era resposta de outra pergunta); errada \"Jordan\" trocada por \"Larrousse\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Williams\" trocada por \"Ligier\" na geração (era resposta de outra pergunta); errada \"Ligier\" trocada por \"Footwork\" na geração (era resposta de outra pergunta); errada \"Jordan\" trocada por \"Larrousse\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1279d216a0",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Por qual equipe Ayrton Senna estreou na Fórmula 1, em 1984?",
     "resposta": "Toleman",
     "alternativas": [
@@ -602,13 +646,16 @@
       "Spirit"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Lotus\" trocada por \"Theodore\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Lotus\" trocada por \"Theodore\" na geração (era resposta de outra pergunta) | conferente-v9: a estreia de Senna pela Toleman (Mônaco 1984) é muito lembrada; rebaixada",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fc292cf997",
@@ -623,13 +670,14 @@
       "Matra"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: \"equipe de Ken Tyrrell\" entregava Tyrrell; e o molde \"equipe de F1 de X\" tinha 8 no lote (ficaram 5)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual equipe de Ken Tyrrell levou Jackie Stewart aos títulos de 1971 e 1973?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual equipe de Ken Tyrrell levou Jackie Stewart aos títulos de 1971 e 1973?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d265085d4e",
@@ -644,13 +692,15 @@
       "Osella"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual pequena equipe italiana de Faenza revelou Fernando Alonso na Fórmula 1?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual pequena equipe italiana de Faenza revelou Fernando Alonso na Fórmula 1?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "672c9d28e9",
@@ -665,12 +715,13 @@
       "Steve Timmons"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bc36fc8350",
@@ -685,12 +736,14 @@
       "Regla Torres"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1d79188789",
@@ -705,13 +758,14 @@
       "Buster Keaton"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8467",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "errada \"Stan Laurel\" trocada por \"Fatty Arbuckle\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Stan Laurel\" trocada por \"Fatty Arbuckle\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "77cb5aeb24",
@@ -726,13 +780,14 @@
       "Os Três Patetas"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Abbott e Costello\" trocada por \"Os Batutinhas\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Abbott e Costello\" trocada por \"Os Batutinhas\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3c5746bd38",
@@ -747,12 +802,13 @@
       "W. C. Fields"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6b7accb673",
@@ -767,12 +823,14 @@
       "Danny Kaye"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cc261cb6c2",
@@ -787,12 +845,13 @@
       "Clavillazo"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9119f4badf",
@@ -807,12 +866,13 @@
       "John Cleese"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8aaf634fc9",
@@ -827,12 +887,13 @@
       "Peter Benchley"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a51ea299ae",
@@ -847,12 +908,14 @@
       "Ira Levin"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5dcc7b4040",
@@ -867,12 +930,14 @@
       "Ira Levin"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7f1252e023",
@@ -907,12 +972,13 @@
       "Elmore Leonard"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "26f06b8dcd",
@@ -927,12 +993,13 @@
       "Ray Bradbury"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a97d2cb3be",
@@ -967,12 +1034,14 @@
       "Louca Obsessão"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "70b9c768da",
@@ -987,12 +1056,13 @@
       "Philips Videopac"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4298",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.8)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "327093d790",
@@ -1007,12 +1077,14 @@
       "Ouya"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fd58a6851f",
@@ -1027,12 +1099,13 @@
       "Motor Stirling"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "63f82b4f3f",
@@ -1047,14 +1120,15 @@
       "Célula de combustível"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1783",
     "recente": false,
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 19.4)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual dispositivo gera eletricidade juntando hidrogênio e oxigênio, soltando só água?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:1783)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:1783)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "abb4ad31f6",
@@ -1069,12 +1143,13 @@
       "THX"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "301c01cf9d",
@@ -1089,13 +1164,14 @@
       "24"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"12\" trocada por \"48\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"12\" trocada por \"48\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cbfa63e58d",
@@ -1110,12 +1186,13 @@
       "Eastmancolor"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "22e2e2d404",
@@ -1130,12 +1207,13 @@
       "Cinerama"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6f452944e8",
@@ -1150,13 +1228,14 @@
       "Monopé"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Gimbal\" trocada por \"Tripé\" na geração (era resposta de outra pergunta); errada \"Tripé\" trocada por \"Monopé\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Gimbal\" trocada por \"Tripé\" na geração (era resposta de outra pergunta); errada \"Tripé\" trocada por \"Monopé\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8e93283f65",
@@ -1171,12 +1250,13 @@
       "Captura de movimento"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "48f5e9170e",
@@ -1191,13 +1271,14 @@
       "Praga"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Bratislava\" trocada por \"Lviv\" na geração (era resposta de outra pergunta); errada \"Liubliana\" trocada por \"Tallinn\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Bratislava\" trocada por \"Lviv\" na geração (era resposta de outra pergunta); errada \"Liubliana\" trocada por \"Tallinn\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "24f0801801",
@@ -1212,13 +1293,14 @@
       "Inverness"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:349",
     "recente": false,
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 9.7)",
-    "correcao": "errada \"Cardiff\" trocada por \"Glasgow\" na geração (era resposta de outra pergunta); errada \"Belfast\" trocada por \"Inverness\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Cardiff\" trocada por \"Glasgow\" na geração (era resposta de outra pergunta); errada \"Belfast\" trocada por \"Inverness\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "95b4e224dd",
@@ -1233,14 +1315,15 @@
       "Antuérpia"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:667",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.7)",
     "correcao": "errada \"Gante\" trocada por \"Antuérpia\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:667)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:667)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ed9df72037",
@@ -1255,12 +1338,13 @@
       "Potsdam"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6200",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.3)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.3)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9f4d6b3a85",
@@ -1272,17 +1356,18 @@
       "Nacional da Barra Funda",
       "Clube Atlético Ypiranga",
       "Juventus",
-      "Nacional"
+      "Paulistano"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8245",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.8)",
-    "correcao": "errada \"Portuguesa\" trocada por \"Clube Atlético Ypiranga\" na geração (era resposta de outra pergunta); errada \"Ypiranga\" trocada por \"Nacional da Barra Funda\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:8245)"
+    "correcao": "errada \"Portuguesa\" trocada por \"Clube Atlético Ypiranga\" na geração (era resposta de outra pergunta); errada \"Ypiranga\" trocada por \"Nacional da Barra Funda\" na geração (era resposta de outra pergunta) | conferente-v9: erradas Nacional e Nacional da Barra Funda eram o mesmo clube; uma trocada por Paulistano",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:8245)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5e613f795b",
@@ -1297,13 +1382,14 @@
       "Onyx"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: \"equipe do irlandês Eddie Jordan\" entregava Jordan; e o molde \"equipe de F1\" tinha 8 no lote (ficaram 5)",
     "dup": "suspeita",
     "dup_ref": "banco:2693",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (8.7)",
-    "correcao": "errada \"Benetton\" trocada por \"Leyton House\" na geração (era resposta de outra pergunta); errada \"Tyrrell\" trocada por \"Onyx\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Benetton\" trocada por \"Leyton House\" na geração (era resposta de outra pergunta); errada \"Tyrrell\" trocada por \"Onyx\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f5e933598f",
@@ -1318,13 +1404,14 @@
       "Prost"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2516",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.6)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2516)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2516)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3f6645c089",
@@ -1339,12 +1426,13 @@
       "Alpine"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: \"de Guy Ligier\" entregava Ligier; e o molde \"equipe de F1\" tinha 8 no lote (ficaram 5)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8505af469e",
@@ -1359,12 +1447,13 @@
       "Labirinto de Watson"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dd153a6908",
@@ -1379,12 +1468,13 @@
       "Kurt Lewin"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "42e0ec34fb",
@@ -1399,12 +1489,14 @@
       "Duende de Kelvin"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "345d3c102f",
@@ -1439,12 +1531,13 @@
       "Simon & Garfunkel"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "77a891bc73",
@@ -1459,13 +1552,14 @@
       "Army of Lovers"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"ABBA\" trocada por \"Army of Lovers\" na geração (era resposta de outra pergunta); errada \"Europe\" trocada por \"The Cardigans\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"ABBA\" trocada por \"Army of Lovers\" na geração (era resposta de outra pergunta); errada \"Europe\" trocada por \"The Cardigans\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2dc65dbe62",
@@ -1480,12 +1574,14 @@
       "Laurel e Hardy"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7035b7cf6c",
@@ -1500,12 +1596,14 @@
       "Hall & Oates"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "55384cf531",
@@ -1520,12 +1618,13 @@
       "The Cowsills"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f9c104c956",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "700b0d8957",
@@ -1540,11 +1639,13 @@
       "Isley Brothers"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   }
 ]

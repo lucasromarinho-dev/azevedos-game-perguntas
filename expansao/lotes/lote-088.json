@@ -12,14 +12,15 @@
       "Hyderabad"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:519",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:519)",
-    "correcao": "errada \"Nova Délhi\" trocada por \"Ahmedabad\" na geração (era resposta de outra pergunta); errada \"Chennai\" trocada por \"Hyderabad\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Nova Délhi\" trocada por \"Ahmedabad\" na geração (era resposta de outra pergunta); errada \"Chennai\" trocada por \"Hyderabad\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d48db472a7",
@@ -34,12 +35,13 @@
       "Boise"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f949afe3ea",
@@ -54,12 +56,13 @@
       "Denver"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"capital de estado/região\" passou de 5 na rodada (14); ficaram Salt Lake City, Hobart, Funchal, Stuttgart e Cagliari",
     "dup": "suspeita",
     "dup_ref": "banco:3088",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.4)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ee90588faa",
@@ -74,12 +77,13 @@
       "Atlanta"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"capital de estado/região\" passou de 5 na rodada (14); cortada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "369e2a18b1",
@@ -94,12 +98,13 @@
       "Tucson"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"capital de estado/região\" passou de 5 na rodada (14); cortada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9779cd21f4",
@@ -114,12 +119,14 @@
       "Burnie"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b5efa29686",
@@ -134,12 +141,13 @@
       "Leiria"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8280e11e7c",
@@ -154,12 +162,13 @@
       "Porto Santo"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bee06e8a35",
@@ -174,12 +183,14 @@
       "Angra do Heroísmo"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ee190c49fd",
@@ -194,13 +205,14 @@
       "Albufeira"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"capital de estado/região\" passou de 5 na rodada (14); cortada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Lagos\" trocada por \"Tavira\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Lagos\" trocada por \"Tavira\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e769015fef",
@@ -215,12 +227,13 @@
       "Guimarães"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a349274a3e",
@@ -235,12 +248,13 @@
       "Perugia"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "543496d14a",
@@ -255,12 +269,14 @@
       "Pune"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:403",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "17ffdd19ba",
@@ -275,12 +291,13 @@
       "Jodhpur"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7c474d6f60",
@@ -295,14 +312,15 @@
       "Napoleão Bonaparte"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5539",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (22.1)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5539)",
-    "correcao": "errada \"Luís XIV\" trocada por \"Napoleão III\" na geração (era resposta de outra pergunta); errada \"Carlos Magno\" trocada por \"Luís Filipe I\" na geração (era resposta de outra pergunta); errada \"Luís XVI\" trocada por \"Carlos X\" na geração (era resposta de outra pergunta); errada \"Napoleão III\" trocada por \"Francisco I\" na geração (era resposta de outra pergunta); errada \"Luís Filipe I\" trocada por \"Henrique IV\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Luís XIV\" trocada por \"Napoleão III\" na geração (era resposta de outra pergunta); errada \"Carlos Magno\" trocada por \"Luís Filipe I\" na geração (era resposta de outra pergunta); errada \"Luís XVI\" trocada por \"Carlos X\" na geração (era resposta de outra pergunta); errada \"Napoleão III\" trocada por \"Francisco I\" na geração (era resposta de outra pergunta); errada \"Luís Filipe I\" trocada por \"Henrique IV\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "91ba9499e3",
@@ -317,18 +335,20 @@
       "Frederico, o Grande"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Guilherme II\" trocada por \"Oto I da Grécia\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Guilherme II\" trocada por \"Oto I da Grécia\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "79ac9378fc",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual região da Sibéria sofreu, em 1908, uma explosão misteriosa que derrubou milhões de árvores?",
     "resposta": "Tunguska",
     "alternativas": [
@@ -338,12 +358,15 @@
       "Chelyabinsk"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: o evento de Tunguska é muito conhecido pelo nome; rebaixada"
   },
   {
     "id": "68851e8c04",
@@ -358,12 +381,14 @@
       "Tuberculose"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1279",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.2)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.2)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1755450213",
@@ -378,12 +403,14 @@
       "Escorpião-marrom"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2111",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4d6574c10b",
@@ -398,13 +425,15 @@
       "Tubarão-frade"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Tubarão-baleia\" trocada por \"Tubarão-frade\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Tubarão-baleia\" trocada por \"Tubarão-frade\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b462d94997",
@@ -419,13 +448,14 @@
       "Diprotodonte"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Toxodonte\" trocada por \"Diprotodonte\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Toxodonte\" trocada por \"Diprotodonte\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b6b705bded",
@@ -437,15 +467,17 @@
       "Gliptodonte",
       "Pampatério",
       "Eutatus",
-      "Doedicuro"
+      "Eremotério"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Doedicuro também era um gliptodontídeo gigante de carapaça enorme (defensável); trocada por Eremotério (preguiça-gigante)"
   },
   {
     "id": "b5a2c7816e",
@@ -460,13 +492,15 @@
       "Tilacino"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Diabo-da-tasmânia\" trocada por \"Dunnart\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Diabo-da-tasmânia\" trocada por \"Dunnart\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "23dab22a52",
@@ -476,18 +510,20 @@
     "resposta": "Moa",
     "alternativas": [
       "Elefante-pássaro",
-      "Dinornis-anão",
+      "Fororraco",
       "Moa",
-      "Kiwi-gigante"
+      "Dromornis"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Casuar\" trocada por \"Elefante-pássaro\" na geração (era resposta de outra pergunta); errada \"Emu\" trocada por \"Dinornis-anão\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Casuar\" trocada por \"Elefante-pássaro\" na geração (era resposta de outra pergunta); errada \"Emu\" trocada por \"Dinornis-anão\" na geração (era resposta de outra pergunta) | conferente-v9: errada Dinornis-anão: Dinornis é o próprio gênero da moa gigante (defensável) e Kiwi-gigante era nome inventado; trocadas; errada \"Kiwi-gigante\" trocada por \"Dromornis\"",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a394eb2718",
@@ -502,13 +538,14 @@
       "Aranha-marrom"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:dc00136122",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (5.2)",
-    "correcao": "errada \"Armadeira\" trocada por \"Aranha-lobo\" na geração (era resposta de outra pergunta); errada \"Caranguejeira\" trocada por \"Aranha-saltadora\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Armadeira\" trocada por \"Aranha-lobo\" na geração (era resposta de outra pergunta); errada \"Caranguejeira\" trocada por \"Aranha-saltadora\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "054cb0801d",
@@ -523,12 +560,13 @@
       "Polvo-mímico"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "81bb92dbb6",
@@ -543,13 +581,15 @@
       "Peixe-pedra"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Peixe-leão\" trocada por \"Peixe-gato\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Peixe-leão\" trocada por \"Peixe-gato\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "08fce1c11e",
@@ -558,18 +598,20 @@
     "pergunta": "Qual lagarta brasileira tem um veneno que pode causar hemorragias graves?",
     "resposta": "Lonomia",
     "alternativas": [
-      "Bicho-cabeludo",
+      "Lagarta-militar",
       "Lonomia",
-      "Taturana-de-fogo",
+      "Lagarta-rosca",
       "Mandarová"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Taturana-de-fogo e Bicho-cabeludo são nomes populares da própria Lonomia (defensáveis); trocadas; errada \"Bicho-cabeludo\" trocada por \"Lagarta-militar\""
   },
   {
     "id": "8361d9744e",
@@ -584,13 +626,15 @@
       "Ray Ewry"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Jesse Owens\" trocada por \"Jim Hines\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual atleta americano de origem indígena ganhou o pentatlo e o decatlo dos Jogos de 1912?\")"
+    "correcao": "errada \"Jesse Owens\" trocada por \"Jim Hines\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual atleta americano de origem indígena ganhou o pentatlo e o decatlo dos Jogos de 1912?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "409186ced9",
@@ -605,12 +649,14 @@
       "Dimitrios Golemis"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0034050d19",
@@ -625,12 +671,14 @@
       "Raymond Hecht"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bf81833e2e",
@@ -645,12 +693,13 @@
       "Gene Tunney"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9f12b71a22",
@@ -686,13 +735,15 @@
       "Middlesbrough"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a79e0c1225",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (6.3)",
-    "correcao": "errada \"Liverpool\" trocada por \"Newcastle\" na geração (era resposta de outra pergunta); errada \"Chelsea\" trocada por \"Leeds United\" na geração (era resposta de outra pergunta); errada \"Arsenal\" trocada por \"Aston Villa\" na geração (era resposta de outra pergunta); errada \"Newcastle\" trocada por \"Sheffield Wednesday\" na geração (era resposta de outra pergunta); errada \"Aston Villa\" trocada por \"Middlesbrough\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Liverpool\" trocada por \"Newcastle\" na geração (era resposta de outra pergunta); errada \"Chelsea\" trocada por \"Leeds United\" na geração (era resposta de outra pergunta); errada \"Arsenal\" trocada por \"Aston Villa\" na geração (era resposta de outra pergunta); errada \"Newcastle\" trocada por \"Sheffield Wednesday\" na geração (era resposta de outra pergunta); errada \"Aston Villa\" trocada por \"Middlesbrough\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fa7ad0a7bb",
@@ -707,13 +758,14 @@
       "Montreal"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:518",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.6)",
-    "correcao": "errada \"Toronto\" trocada por \"Ottawa\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Toronto\" trocada por \"Ottawa\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e7eed2efcf",
@@ -728,12 +780,14 @@
       "Estocolmo"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d335e4cb17",
@@ -748,12 +802,14 @@
       "Estrela Vermelha"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1277",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7bcd65c5c0",
@@ -768,14 +824,16 @@
       "Avatar: Era de Pandora"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual continuação de 2022 levou os Na'vi de Pandora para o mar?\"); enunciado reescrito na geração (antes: \"Qual continuação de 2022 levou os Na'vi a viver entre um povo dos recifes e do mar?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3264)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3264)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3082ae527d",
@@ -790,14 +848,16 @@
       "Sing 2"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual continuação da Disney, de 2025, voltou com a coelha policial Judy Hopps e a raposa Nick Wilde?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3609)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3609)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1e27af8dd7",
@@ -812,13 +872,15 @@
       "Red Tour"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8728",
     "recente": true,
     "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.4)",
-    "correcao": "errada \"1989 World Tour\" trocada por \"Lover Tour\" na geração (era resposta de outra pergunta); errada \"Fearless Tour\" trocada por \"Red Tour\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"1989 World Tour\" trocada por \"Lover Tour\" na geração (era resposta de outra pergunta); errada \"Fearless Tour\" trocada por \"Red Tour\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "02690317cd",
@@ -833,13 +895,15 @@
       "Envolver"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Vai Malandra\" trocada por \"Paradinha\" na geração (era resposta de outra pergunta); errada \"Show das Poderosas\" trocada por \"Sua Cara\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Vai Malandra\" trocada por \"Paradinha\" na geração (era resposta de outra pergunta); errada \"Show das Poderosas\" trocada por \"Sua Cara\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e0480315e6",
@@ -854,12 +918,14 @@
       "Maiara"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b27a6f9979",
@@ -874,12 +940,14 @@
       "Sign of the Times"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f9c104c956",
@@ -894,12 +962,14 @@
       "Cappuccino"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5d872985f1",
@@ -914,12 +984,14 @@
       "Soju"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4d9de27044",
@@ -934,13 +1006,15 @@
       "Leave the Door Open"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Shallow\" trocada por \"Rain on Me\" na geração (era resposta de outra pergunta); errada \"Uptown Funk\" trocada por \"Leave the Door Open\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Shallow\" trocada por \"Rain on Me\" na geração (era resposta de outra pergunta); errada \"Uptown Funk\" trocada por \"Leave the Door Open\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "46f386cfc2",
@@ -955,12 +1029,14 @@
       "Not Like Us"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d3dd5e7203",
@@ -975,13 +1051,15 @@
       "Texas Hold 'Em"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Lemonade\" trocada por \"B'Day\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Lemonade\" trocada por \"B'Day\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8b6684153d",
@@ -992,17 +1070,19 @@
     "alternativas": [
       "The Staircase",
       "Dahmer",
-      "Monstro",
+      "Inacreditável",
       "Você"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Mindhunter\" trocada por \"Monstro\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Mindhunter\" trocada por \"Monstro\" na geração (era resposta de outra pergunta) | conferente-v9: errada Monstro é o nome da antologia de que a própria série de Dahmer faz parte (defensável); trocada",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6c07a622c2",
@@ -1017,12 +1097,14 @@
       "Vinyl"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f2ff8a86db",
@@ -1037,12 +1119,13 @@
       "Godzilla e Kong"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "609c4c8cdd",
@@ -1057,14 +1140,16 @@
       "Coringa: Loucura Coletiva"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual continuação de 2024 transformou em musical a história do palhaço de Joaquin Phoenix, com Lady Gaga?\"); errada \"Arlequina\" trocada por \"Gotham Rhapsody\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3486)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3486)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6b23a160a5",
@@ -1079,12 +1164,14 @@
       "Jurassic World: Domínio"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5e78bc863c",
@@ -1119,12 +1206,13 @@
       "Alta Mar"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4933",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (7.3)"
+    "dup_regra": "resposta nova citada no texto antigo (7.3)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "62e8dc9ae3",
@@ -1139,13 +1227,14 @@
       "Justified"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Westworld\" trocada por \"Justified\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Westworld\" trocada por \"Justified\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6321e6111f",
@@ -1156,16 +1245,18 @@
     "alternativas": [
       "Symbolic",
       "Wingdings",
-      "Webdings",
+      "Verdana",
       "Dingbats Sans"
     ],
     "subtema": "Programas e sistemas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Webdings também é fonte de símbolos do Windows (defensável); trocada; Arial era resposta de 077:e98b45aca0; trocada por Verdana"
   },
   {
     "id": "56ed8dd12c",
@@ -1180,13 +1271,14 @@
       "Garamond"
     ],
     "subtema": "Programas e sistemas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual fonte de letras com o mesmo espaçamento imita a máquina de escrever?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual fonte de letras com o mesmo espaçamento imita a máquina de escrever?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a95a752bcd",
@@ -1201,12 +1293,13 @@
       "Papyrus"
     ],
     "subtema": "Programas e sistemas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a58c020e7e",
@@ -1221,12 +1314,13 @@
       "401"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "92f1ea2e80",
@@ -1241,13 +1335,15 @@
       "Workman"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual layout de teclado, criado nos anos 1930 para digitar mais rápido, é o grande alternativo ao QWERTY?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual layout de teclado, criado nos anos 1930 para digitar mais rápido, é o grande alternativo ao QWERTY?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5f5e7244c8",
@@ -1262,12 +1358,13 @@
       "QZERTY"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1fa434c89a",
@@ -1282,12 +1379,14 @@
       "Sputnik Nav"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "960edfe712",
@@ -1302,12 +1401,13 @@
       "Galileo"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "44df07a59e",
@@ -1322,12 +1422,14 @@
       "Long March"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "09ada40f0d",
@@ -1342,13 +1444,14 @@
       "DJI"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Xiaomi\" trocada por \"Huawei\" na geração (era resposta de outra pergunta); errada \"Huawei\" trocada por \"Hikvision\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Xiaomi\" trocada por \"Huawei\" na geração (era resposta de outra pergunta); errada \"Huawei\" trocada por \"Hikvision\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "076b1925ab",
@@ -1363,12 +1466,14 @@
       "Riachuelo"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1e7b489d46",
@@ -1383,12 +1488,14 @@
       "Itapiru"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3fd73aa96a",
@@ -1403,12 +1510,14 @@
       "Artur Oscar"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d3e146f517",
@@ -1423,12 +1532,14 @@
       "Guerra dos Bálcãs"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1248",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fa9d3d0e9f",
@@ -1443,14 +1554,16 @@
       "Guerra do Líbano"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:894",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (25.5, 38% do fato)",
     "correcao": "errada \"Guerra do Golfo\" trocada por \"Guerra de Ogaden\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:894)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:894)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f75187fb3c",
@@ -1465,13 +1578,15 @@
       "Robert Kennedy"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1329",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (14.3)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:1329)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:1329)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "672a18f783",
@@ -1486,13 +1601,15 @@
       "Antonio Carbajal"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Jorge Campos\" trocada por \"Antonio Mota\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Jorge Campos\" trocada por \"Antonio Mota\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5eb32a5520",
@@ -1507,13 +1624,14 @@
       "Fausto"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ea91d12b57",
@@ -1528,14 +1646,16 @@
       "Arrigo Sacchi"
     ],
     "subtema": "Futebol europeu e técnicos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual técnico comandou o Milan dos holandeses Gullit, Van Basten e Rijkaard, campeão europeu em 1989 e 1990?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2832)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2832)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f7a489ed3e",
@@ -1550,12 +1670,14 @@
       "Juan Carlos Lorenzo"
     ],
     "subtema": "Futebol europeu e técnicos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "949768a1e1",
@@ -1570,12 +1692,14 @@
       "Bill Shankly"
     ],
     "subtema": "Futebol europeu e técnicos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "efd8500638",
@@ -1590,12 +1714,14 @@
       "Konstantin Beskov"
     ],
     "subtema": "Futebol europeu e técnicos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e8a1863e31",
@@ -1610,13 +1736,15 @@
       "Udo Lattek"
     ],
     "subtema": "Futebol europeu e técnicos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual técnico austríaco foi campeão europeu com o Feyenoord, em 1970, e com o Hamburgo, em 1983?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual técnico austríaco foi campeão europeu com o Feyenoord, em 1970, e com o Hamburgo, em 1983?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6a626bd964",
@@ -1631,12 +1759,14 @@
       "Loftus Versfeld"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a1cda89bb0",
@@ -1651,13 +1781,15 @@
       "Estádio Olímpico de Berlim"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Westfalenstadion\" trocada por \"Waldstadion\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Westfalenstadion\" trocada por \"Waldstadion\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "23434e8900",
@@ -1672,13 +1804,15 @@
       "Stade de la Beaujoire"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Parc des Princes\" trocada por \"Stade de la Beaujoire\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Parc des Princes\" trocada por \"Stade de la Beaujoire\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "81fbd358d1",
@@ -1693,13 +1827,15 @@
       "Stadio San Paolo"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"San Siro\" trocada por \"Stadio Artemio Franchi\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"San Siro\" trocada por \"Stadio Artemio Franchi\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "94809fe634",
@@ -1714,18 +1850,20 @@
       "Estadio Sausalito"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6f28cc8439",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Qual arqueiro brasileiro foi vice-campeão mundial de tiro com arco em 2023?",
+    "pergunta": "Qual arqueiro brasileiro foi vice-campeão mundial de tiro com arco em 2021, a primeira medalha do país num Mundial?",
     "resposta": "Marcus D'Almeida",
     "alternativas": [
       "Marcus D'Almeida",
@@ -1734,12 +1872,15 @@
       "Daniel Xavier"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: em 2023 (Berlim) Marcus D'Almeida foi bronze; a prata foi em 2021 (Yankton), primeira medalha do Brasil em Mundiais (e de novo em 2025); enunciado corrigido (checagem web) (antes: \"Qual arqueiro brasileiro foi vice-campeão mundial de tiro com arco em 2023?\")"
   },
   {
     "id": "4d29d8c53f",
@@ -1754,13 +1895,14 @@
       "Ary Barroso"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7f1bd48553",
@@ -1775,13 +1917,15 @@
       "Max Brod"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Gregor Samsa\" trocada por \"Klamm\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Gregor Samsa\" trocada por \"Klamm\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "739b6f9bd7",
@@ -1796,12 +1940,14 @@
       "Meursault"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "38edf3e332",
@@ -1816,13 +1962,14 @@
       "Edmond Dantès"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Jean Valjean\" trocada por \"Albert de Morcerf\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Jean Valjean\" trocada por \"Albert de Morcerf\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "457e48f355",
@@ -1837,14 +1984,16 @@
       "Comala"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Macondo\" trocada por \"Santa Teresa\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual cidade de mortos é visitada em \"Pedro Páramo\", de Juan Rulfo?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:5ac110ab87)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:5ac110ab87)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a5b0bfae87",
@@ -1859,12 +2008,13 @@
       "Trópico de Câncer"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0166ac3bdb",
@@ -1879,12 +2029,14 @@
       "Matadouro-Cinco"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:aa9a6ce672",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "398c8b2505",
@@ -1899,12 +2051,13 @@
       "Lava-jato portátil"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4095",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dfb61e5a49",
@@ -1919,13 +2072,14 @@
       "Cafeteira de filtro"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:52695bbd69",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "errada \"Prensa francesa\" trocada por \"Cafeteira de filtro\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Prensa francesa\" trocada por \"Cafeteira de filtro\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "46f592fc75",
@@ -1940,18 +2094,20 @@
       "Arara-azul-de-lear"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "04e0a4941d",
     "categoria": "Ciências",
     "dificuldade": "medio",
-    "pergunta": "Qual mamífero pré-histórico sul-americano, parecido com um hipopótamo, foi descrito por Darwin?",
+    "pergunta": "Qual mamífero pré-histórico sul-americano, parecido com um hipopótamo, teve fósseis achados por Darwin?",
     "resposta": "Toxodonte",
     "alternativas": [
       "Toxodonte",
@@ -1960,11 +2116,13 @@
       "Macrauquênia"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: o toxodonte foi descrito por Richard Owen a partir de fósseis achados por Darwin; enunciado corrigido (antes: \"Qual mamífero pré-histórico sul-americano, parecido com um hipopótamo, foi descrito por Darwin?\")"
   }
 ]

@@ -11323,6 +11323,105 @@
           "fato impreciso": "c94eaa99cf: Allyson Felix - no geral, Paavo Nurmi tem 12 medalhas olímpicas no atletismo; Felix é a mulher com mais; enunciado corrigido (antes: \"Qual americana é a atleta com mais medalhas olímpicas no atletismo, com 11?\")",
           "errada defensavel": "c821bed30c: JBL - errada Harman é a dona da própria JBL e também faz caixas (Harman Kardon), defensável; trocada"
         }
+      },
+      {
+        "lote": "096",
+        "conferente": "conferente-v10",
+        "conferidas": 94,
+        "conferidas_sem_mudanca": 88,
+        "com_mudanca": 6,
+        "corrigidas": 4,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "entrega a resposta": 1,
+          "espelho/duplicada": 2
+        },
+        "perguntas_com_busca_web": 87,
+        "suspeitas": {
+          "total": 20,
+          "mantidas": 17,
+          "reescritas": 1,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 11,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 22,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "3c79d82c1b: entrega a resposta: o enunciado (\"criou o Rust... na Mozilla\") responde banco:4579 (\"Qual linguagem, nascida na Mozilla...?\" => Rust); sem o nome da linguagem a pergunta fica sem sentido, e o criador é decoreba de especialista",
+          "8fbc92058e: espelho/duplicada: cadeia com banco:1081 (Polaca => Estado Novo) e banco:6105 (golpe do Estado Novo de 1937, que já dá o ano)",
+          "35655ed99c: espelho/duplicada: espelho de banco:2077 (\"Qual cientista italiano inventou a pilha elétrica?\" => Alessandro Volta): mesmo fato invertido (detector marcou suspeita, sem dup_revisado)"
+        ],
+        "correcoes": [
+          "4e86225aa6: Negev - \"cerca de 60%\" sem fonte firme (as fontes dão de 55% a 60%); enunciado ajustado para \"mais da metade\" (antes: \"Qual deserto ocupa cerca de 60% do território de Israel, no sul do país?\")",
+          "3094ae7c5a: Constituição de Cádis - errada \"Constituição de Toledo\" era nome inventado; trocada pela Constituição espanhola de 1837 (real)",
+          "722d6014d1: Bill of Rights - a Bill of Rights inglesa é conteúdo de escola (Revolução Gloriosa); rebaixada",
+          "e6edbb8247: Knight Capital - o valor varia nas fontes (440 milhões no anúncio da empresa, 460 milhões na Wikipedia); enunciado ajustado (checagem web) (antes: \"Qual corretora americana perdeu 440 milhões de dólares em cerca de 45 minutos, em 2012, por causa de um software defeituoso?\")",
+          "7493ba54e4: Garrafa de Leyden - \"desenvolvido na cidade holandesa de Leiden\" entregava \"Garrafa de Leyden\"; enunciado refeito (antes: \"Qual jarro de vidro revestido de metal, desenvolvido na cidade holandesa de Leiden por volta de 1745, foi o primeiro aparelho a guardar eletricidade estática?\")",
+          "133b3a0020: Microscópio eletrônico - microscópio eletrônico é conceito conhecido pelo nome e o enunciado diz que aumenta mais que o óptico; rebaixada"
+        ],
+        "rebaixamentos": [
+          "722d6014d1: Bill of Rights (dificil -> medio)",
+          "133b3a0020: Microscópio eletrônico (dificil -> medio)"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 2,
+          "entrega a resposta": 2,
+          "espelho/duplicada": 2,
+          "alternativa fora do tipo": 1,
+          "dificuldade": 2
+        },
+        "exemplos_erro": {
+          "fato impreciso": "4e86225aa6: Negev - \"cerca de 60%\" sem fonte firme (as fontes dão de 55% a 60%); enunciado ajustado para \"mais da metade\" (antes: \"Qual deserto ocupa cerca de 60% do território de Israel, no sul do país?\")",
+          "entrega a resposta": "3c79d82c1b: entrega a resposta: o enunciado (\"criou o Rust... na Mozilla\") responde banco:4579 (\"Qual linguagem, nascida na Mozilla...?\" => Rust); sem o nome da linguagem a pergunta fica sem sentido, e o criador é decoreba de especialista",
+          "espelho/duplicada": "8fbc92058e: espelho/duplicada: cadeia com banco:1081 (Polaca => Estado Novo) e banco:6105 (golpe do Estado Novo de 1937, que já dá o ano)",
+          "alternativa fora do tipo": "3094ae7c5a: Constituição de Cádis - errada \"Constituição de Toledo\" era nome inventado; trocada pela Constituição espanhola de 1837 (real)",
+          "dificuldade": "722d6014d1: Bill of Rights - a Bill of Rights inglesa é conteúdo de escola (Revolução Gloriosa); rebaixada"
+        },
+        "risco_sem_checagem_conferente": [
+          "04b494b258",
+          "f90e996999",
+          "cc6f5e24ac",
+          "9480661f7d",
+          "7493ba54e4"
+        ]
       }
     ],
     "rebaixamentos_r3": {

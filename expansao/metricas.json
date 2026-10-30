@@ -19620,5 +19620,71 @@
       "sai": 25,
       "estrangeiras_fica": 15
     }
+  },
+  "reposicao_2_franquias": {
+    "data": "2026-10-30",
+    "status": "gerada (falta conferência independente; nada publicado)",
+    "_leia": "Parte Misto da reposição da segunda limpeza de Entretenimento: 266 difíceis de fã de franquias estrangeiras muito populares no Brasil. Lotes 120-122. Ver README, seção Reposição 2 (franquias).",
+    "lotes": {
+      "120": 88,
+      "121": 90,
+      "122": 88
+    },
+    "escritas": 278,
+    "validas": 266,
+    "descartadas": 12,
+    "descarte_por_motivo": {
+      "nome_brasileiro_ou_traco_nao_confirmado": 6,
+      "repete_ou_adivinhavel_pelo_banco": 3,
+      "conhecida_demais_para_dificil": 2,
+      "trocada_por_outra_do_mesmo_personagem": 1
+    },
+    "composicao": {
+      "Entretenimento": {
+        "facil": 0,
+        "medio": 0,
+        "dificil": 266
+      }
+    },
+    "por_franquia": {
+      "Harry Potter": 31,
+      "Marvel": 23,
+      "Dragon Ball": 23,
+      "Star Wars": 22,
+      "Os Simpsons": 22,
+      "Friends": 18,
+      "Chaves": 17,
+      "Senhor dos Anéis": 17,
+      "DC": 15,
+      "Pokémon": 13,
+      "Bob Esponja": 11,
+      "De Volta para o Futuro": 8,
+      "Velozes e Furiosos": 8,
+      "Cavaleiros do Zodíaco": 8,
+      "Stranger Things": 7,
+      "Shrek": 6,
+      "Jurassic Park": 6,
+      "Naruto": 6,
+      "Toy Story e Pixar": 3,
+      "Turma do Scooby-Doo": 2
+    },
+    "web": {
+      "chamadas_api": 1189,
+      "wikipedia": 372,
+      "fandom_mediawiki": 817,
+      "websearch": 9,
+      "com_verificado_web": 266,
+      "log": "expansao/fontes/reposicao-2-franquias-chamadas.log"
+    },
+    "checagens": {
+      "entrega_suspeitas": 0,
+      "duplicadas_certa": 9,
+      "duplicadas_suspeita": 38,
+      "duplicadas_descartar_rodado": false,
+      "alternativas_LOTE": 0,
+      "alternativas_RARA": 3,
+      "erradas_trocadas": 70,
+      "enunciados_reescritos": 24
+    }
   }
 }

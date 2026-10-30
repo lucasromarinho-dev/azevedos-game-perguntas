@@ -8,6 +8,12 @@ As rodadas 1 a 4 (lotes 001 a 045) foram publicadas na `main` em 24/10/2026, com
 
 Atenção para a próxima rodada: o `perguntas.json` desta branch ainda é o banco antigo (4.580). Antes de gerar lotes novos, trazer o da `main` (`git checkout origin/main -- perguntas.json`) para o detector de duplicadas comparar com as 8.982, e não reaproveitar status `aprovada` dos lotes 001 a 045 (já estão publicadas).
 
+## Publicação da rodada 9 (30/10/2026)
+
+A rodada 9 (lotes 086 a 095) foi publicada na `main` em 30/10/2026, commit `e283f13` ("Banco v9: +717 perguntas da rodada 9 (total 13.458)"), com autorização do Lucas. Antes, a checagem web complementar da rodada foi concluída sem pendências (commit `4a8e11a`: 93 confirmadas, 5 corrigidas, 0 descartadas). As 717 `conferida` viraram `aprovada` (`aprovado_em: "2026-10-30"`, commit `2601c0a` nesta branch) e entraram depois das 12.741 da `main` (banco v8, base `498496d`), na ordem dos lotes, só com os campos do jogo. Validador do jogo (`montarBanco`): 13.458 válidas, 0 descartadas; nenhum enunciado repetido (nem sem maiúsculas e espaços); as 12.741 antigas idênticas byte a byte. A pasta `expansao/` não foi para a `main`.
+
+Atenção para a próxima rodada: trazer o `perguntas.json` da `main` (13.458) antes de gerar lotes novos, e não reaproveitar status `aprovada` dos lotes 001 a 095 (já estão publicadas).
+
 ## Publicação da rodada 8 (30/10/2026)
 
 A rodada 8 (lotes 076 a 085) foi publicada na `main` em 30/10/2026, commit `498496d` ("Banco v8: +836 perguntas da rodada 8 (total 12.741)"), com autorização do Lucas. Antes, a checagem web complementar da rodada foi concluída sem pendências (commit `4db6341`) e a integridade da `b12fc901f5` (Sobrado, lote 082) foi conferida. As 836 `conferida` viraram `aprovada` (`aprovado_em: "2026-10-30"`, commit `3564736` nesta branch) e entraram depois das 11.905 da `main` (banco v7, base `db476d1`), na ordem dos lotes, só com os campos do jogo. Validador do jogo (`montarBanco`): 12.741 válidas, 0 descartadas; nenhum enunciado repetido (nem sem maiúsculas e espaços); as 11.905 antigas idênticas byte a byte. A pasta `expansao/` não foi para a `main`.

@@ -2,7 +2,7 @@
 
 Banco de perguntas do Quest (Azevedo's Games).
 
-- **11905 perguntas** em `perguntas.json` (banco v7: rodada 7 da expansão conferida, +972 sobre as 10933 do banco v6)
+- **12741 perguntas** em `perguntas.json` (banco v8: rodada 8 da expansão conferida, +836 sobre as 11905 do banco v7)
 - **6 categorias**: Geografia, História, Ciências, Esportes, Entretenimento e Tecnologia
 - **3 níveis**: fácil, médio e difícil
 - Régua de dificuldade calibrada para **adultos competitivos**, com fatos conferidos em fonte

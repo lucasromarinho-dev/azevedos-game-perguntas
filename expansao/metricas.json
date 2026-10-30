@@ -9156,6 +9156,94 @@
           "entrega a resposta": "4517960163: enunciado citava o jornal The Times, que entregava Times New Roman; reescrito sem o nome e rebaixada",
           "errada defensavel": "8b621931b7: errada Rua Haddock Lobo também fica nos Jardins e tem lojas de grife (defensável); trocada"
         }
+      },
+      {
+        "lote": "077",
+        "conferente": "conferente-v8",
+        "conferidas": 91,
+        "conferidas_sem_mudanca": 85,
+        "com_mudanca": 6,
+        "corrigidas": 4,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "duplicada (banco)": 1
+        },
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 6,
+        "suspeitas": {
+          "total": 16,
+          "mantidas": 16,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "6a765ba0c2: fato impreciso: a parada de 30 segundos pedida pelo técnico é o pedido de tempo (o tempo técnico era a parada automática, conferido na web); corrigida, viraria duplicada de banco:9277 (pedido de tempo no vôlei e no basquete)"
+        ],
+        "correcoes": [
+          "3bf649dd8b: Gaiola de Faraday - gaiola de Faraday é conceito conhecido pelo nome; rebaixada",
+          "c73d0565cf: Torre de Hanói - Torre de Hanói é conhecida pelo nome; rebaixada",
+          "f19c1a6b0d: Arvorismo - errada Canopy também é usada para o circuito de arvorismo e tirolesa nas copas (defensável); trocada",
+          "ab6b6090c0: Tirolesa - erradas Escalada e Escalada em rocha eram quase a mesma alternativa; trocada",
+          "6c3ab356df: Garfinho - errada Forky Jr. imitava o nome original do Garfinho (Forky) e confundia; trocada",
+          "d0387885fd: Stonks - errada Meme Man Says usava o nome do próprio boneco do Stonks (Meme Man), defensável; trocada"
+        ],
+        "rebaixamentos": [
+          "3bf649dd8b: Gaiola de Faraday dificil -> medio",
+          "c73d0565cf: Torre de Hanói dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "dificuldade": 2,
+          "duplicada (banco)": 1,
+          "errada defensavel": 3,
+          "alternativa repetida": 1
+        },
+        "exemplos_erro": {
+          "dificuldade": "3bf649dd8b: gaiola de Faraday é conceito conhecido pelo nome; rebaixada",
+          "duplicada (banco)": "6a765ba0c2: fato impreciso: a parada de 30 segundos pedida pelo técnico é o pedido de tempo (o tempo técnico era a parada automática, conferido na web); corrigida, viraria duplicada de banco:9277 (pedido de tempo no vôlei e no basquete)",
+          "errada defensavel": "f19c1a6b0d: errada Canopy também é usada para o circuito de arvorismo e tirolesa nas copas (defensável); trocada",
+          "alternativa repetida": "ab6b6090c0: erradas Escalada e Escalada em rocha eram quase a mesma alternativa; trocada"
+        }
       }
     ],
     "rebaixamentos_r3": {

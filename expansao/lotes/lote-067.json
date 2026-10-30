@@ -6,9 +6,9 @@
     "pergunta": "Qual expressão italiana descreve a massa cozida no ponto, ainda firme ao morder?",
     "resposta": "Al dente",
     "alternativas": [
-      "Al forno",
-      "Al pesto",
       "Al dente",
+      "Al pesto",
+      "Al forno",
       "Al sugo"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
@@ -26,9 +26,9 @@
     "pergunta": "Qual mês do ano homenageia o romano Júlio César?",
     "resposta": "Julho",
     "alternativas": [
-      "Junho",
-      "Março",
       "Julho",
+      "Março",
+      "Junho",
       "Agosto"
     ],
     "subtema": "Antiguidade",
@@ -146,9 +146,9 @@
     "pergunta": "Rolex, Omega e Swatch são marcas de relógio de qual país?",
     "resposta": "Suíça",
     "alternativas": [
-      "França",
-      "Alemanha",
       "Suíça",
+      "Alemanha",
+      "França",
       "Japão"
     ],
     "subtema": "Celulares e gadgets",
@@ -174,10 +174,10 @@
     "subtema": "Celulares e gadgets",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "id:6c49e639dd",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
   },
   {
     "id": "9b75567639",
@@ -186,12 +186,1852 @@
     "pergunta": "A palavra \"linchamento\" vem do sobrenome de um juiz improvisado de qual país?",
     "resposta": "Estados Unidos",
     "alternativas": [
-      "Austrália",
-      "Inglaterra",
       "Estados Unidos",
+      "Inglaterra",
+      "Austrália",
       "Irlanda"
     ],
     "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8fd1788b69",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em japonês, como se diz \"obrigado\"?",
+    "resposta": "Arigatô",
+    "alternativas": [
+      "Kawaii",
+      "Konnichiwa",
+      "Sayonara",
+      "Arigatô"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb1eaee6bd",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em alemão, como se diz \"obrigado\"?",
+    "resposta": "Danke",
+    "alternativas": [
+      "Danke",
+      "Bitte",
+      "Tschüss",
+      "Hallo"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:8fd1788b69",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "9cc00e64d4",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em inglês, o que significa a palavra \"retired\"?",
+    "resposta": "Aposentado",
+    "alternativas": [
+      "Aposentado",
+      "Cansado",
+      "Demitido",
+      "Retirado"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d6b9c9540e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o profissional que indica e serve os vinhos num restaurante?",
+    "resposta": "Sommelier",
+    "alternativas": [
+      "Sommelier",
+      "Chef",
+      "Maître",
+      "Barista"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6940f1d931",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em russo, como se diz \"obrigado\"?",
+    "resposta": "Spasibo",
+    "alternativas": [
+      "Do svidaniya",
+      "Spasibo",
+      "Privet",
+      "Pozhaluysta"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:8fd1788b69",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "52d4ccf11d",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual palavra hebraica, usada como saudação, significa \"paz\"?",
+    "resposta": "Shalom",
+    "alternativas": [
+      "Lechaim",
+      "Shalom",
+      "Toda",
+      "Mazel tov"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0cc7d2f128",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em árabe, como se diz \"obrigado\"?",
+    "resposta": "Shukran",
+    "alternativas": [
+      "Yalla",
+      "Shukran",
+      "Inshallah",
+      "Habibi"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:8fd1788b69",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "264f9edb56",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em chinês mandarim, como se diz \"olá\"?",
+    "resposta": "Ni hao",
+    "alternativas": [
+      "Kanpai",
+      "Zàijiàn",
+      "Xièxie",
+      "Ni hao"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9008fb82ac",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em coreano, como se diz \"obrigado\" de forma educada?",
+    "resposta": "Kamsahamnida",
+    "alternativas": [
+      "Kamsahamnida",
+      "Mianhamnida",
+      "Annyeonghaseyo",
+      "Saranghae"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9d113fe449",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em grego, como se diz \"obrigado\"?",
+    "resposta": "Efcharistó",
+    "alternativas": [
+      "Efcharistó",
+      "Kalimera",
+      "Yassou",
+      "Parakaló"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:8fd1788b69",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "4d7fad8f3b",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em suaíli, língua da África Oriental, como se diz \"obrigado\"?",
+    "resposta": "Asante",
+    "alternativas": [
+      "Hakuna matata",
+      "Karibu",
+      "Jambo",
+      "Asante"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "23b7a0d622",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual mês do ano leva o nome do deus romano da guerra?",
+    "resposta": "Março",
+    "alternativas": [
+      "Maio",
+      "Junho",
+      "Março",
+      "Janeiro"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6730",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.7, 100% do fato)"
+  },
+  {
+    "id": "1d9f757ffc",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual animal simboliza o mercado financeiro em alta?",
+    "resposta": "Touro",
+    "alternativas": [
+      "Leão",
+      "Urso",
+      "Águia",
+      "Touro"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4ea5b32342",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual rua de Nova York virou sinônimo do mercado financeiro americano?",
+    "resposta": "Wall Street",
+    "alternativas": [
+      "Broadway",
+      "Madison Avenue",
+      "Fifth Avenue",
+      "Wall Street"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5f9f628b31",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual comitê do Banco Central define a taxa básica de juros do Brasil?",
+    "resposta": "Copom",
+    "alternativas": [
+      "Conab",
+      "CMN",
+      "Cade",
+      "Copom"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e4d9f3b85e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual índice, medido pelo IBGE, é a inflação oficial do Brasil?",
+    "resposta": "IPCA",
+    "alternativas": [
+      "IPCA",
+      "IOF",
+      "CDI",
+      "IGP-M"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d3b6e441ab",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o principal índice da bolsa de valores brasileira?",
+    "resposta": "Ibovespa",
+    "alternativas": [
+      "Dow Jones",
+      "Ibovespa",
+      "Merval",
+      "Nasdaq"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "460318d847",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o programa do governo para pessoas físicas comprarem títulos públicos pela internet?",
+    "resposta": "Tesouro Direto",
+    "alternativas": [
+      "Tesouro Direto",
+      "Tesouro Nacional",
+      "Renda Fixa",
+      "Previdência Privada"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "713a37463b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o crédito caro que o cartão cobra quando o cliente não paga a fatura inteira?",
+    "resposta": "Rotativo",
+    "alternativas": [
+      "Consignado",
+      "Crediário",
+      "Rotativo",
+      "Cheque especial"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ca6456c84",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual taxa negociada entre bancos serve de referência para o rendimento de CDBs e fundos de renda fixa?",
+    "resposta": "CDI",
+    "alternativas": [
+      "CDI",
+      "TR",
+      "IGP-M",
+      "IPCA"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c0ece66b33",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "O chauvinismo, patriotismo exagerado, leva o nome de um soldado lendário de qual exército?",
+    "resposta": "Exército de Napoleão",
+    "alternativas": [
+      "Exército de César",
+      "Exército de Wellington",
+      "Exército de Frederico, o Grande",
+      "Exército de Napoleão"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2851874d75",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a criação de porcos?",
+    "resposta": "Suinocultura",
+    "alternativas": [
+      "Bovinocultura",
+      "Suinocultura",
+      "Ovinocultura",
+      "Avicultura"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5e0d24a60d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o cultivo de flores para venda?",
+    "resposta": "Floricultura",
+    "alternativas": [
+      "Fruticultura",
+      "Silvicultura",
+      "Floricultura",
+      "Horticultura"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "abc70960b0",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a ciência que estuda os terremotos?",
+    "resposta": "Sismologia",
+    "alternativas": [
+      "Sismologia",
+      "Meteorologia",
+      "Vulcanologia",
+      "Geodésia"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c8c6c829ea",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual músculo forma o famoso \"tanquinho\" da barriga?",
+    "resposta": "Reto abdominal",
+    "alternativas": [
+      "Diafragma",
+      "Reto abdominal",
+      "Oblíquo externo",
+      "Transverso"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cbf02002ed",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a criação de coelhos?",
+    "resposta": "Cunicultura",
+    "alternativas": [
+      "Ovinocultura",
+      "Caprinocultura",
+      "Cunicultura",
+      "Ranicultura"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ce7cba5d38",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual ramo da biologia estuda os peixes?",
+    "resposta": "Ictiologia",
+    "alternativas": [
+      "Ornitologia",
+      "Ictiologia",
+      "Malacologia",
+      "Herpetologia"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1610ee9561",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual ciência estuda os fungos, como cogumelos e bolores?",
+    "resposta": "Micologia",
+    "alternativas": [
+      "Ficologia",
+      "Micologia",
+      "Bacteriologia",
+      "Briologia"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "514f44fd56",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o cultivo da seringueira para a extração do látex?",
+    "resposta": "Heveicultura",
+    "alternativas": [
+      "Olivicultura",
+      "Heveicultura",
+      "Citricultura",
+      "Silvicultura"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "43152dbd50",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a criação de camarões em viveiros?",
+    "resposta": "Carcinicultura",
+    "alternativas": [
+      "Ostreicultura",
+      "Carcinicultura",
+      "Malacocultura",
+      "Piscicultura"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ad5092a36",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o menor músculo do corpo humano, que fica no ouvido médio?",
+    "resposta": "Estapédio",
+    "alternativas": [
+      "Bigorna",
+      "Estribo",
+      "Estapédio",
+      "Martelo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1960",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "4e29d85601",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em que dia do ano é disputada a tradicional Corrida de São Silvestre?",
+    "resposta": "31 de dezembro",
+    "alternativas": [
+      "25 de dezembro",
+      "7 de setembro",
+      "31 de dezembro",
+      "1º de janeiro"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5193 (E5 resposta antiga citada no texto novo + assunto (18.0))",
+    "dup": "certa",
+    "dup_ref": "banco:5193",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.0)"
+  },
+  {
+    "id": "4885260bd2",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual avenida de São Paulo fica a chegada da Corrida de São Silvestre?",
+    "resposta": "Avenida Paulista",
+    "alternativas": [
+      "Avenida Ipiranga",
+      "Rua Augusta",
+      "Avenida Rebouças",
+      "Avenida Paulista"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5193 (E5 resposta antiga citada no texto novo + assunto (14.8))",
+    "dup": "certa",
+    "dup_ref": "banco:5193",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.8)"
+  },
+  {
+    "id": "d710b046b1",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual marca brasileira de bolas tem nome em inglês de uma cobrança do futebol?",
+    "resposta": "Penalty",
+    "alternativas": [
+      "Topper",
+      "Kappa",
+      "Penalty",
+      "Umbro"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b059e19094",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a liga profissional de futebol dos Estados Unidos?",
+    "resposta": "MLS",
+    "alternativas": [
+      "MLS",
+      "NFL",
+      "NBA",
+      "NHL"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d179613e27",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual goleiro paraguaio ficou famoso por bater faltas e pênaltis nos anos 1990?",
+    "resposta": "Chilavert",
+    "alternativas": [
+      "Gato Fernández",
+      "Jorge Campos",
+      "Chilavert",
+      "Higuita"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d963e39c80",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual goleiro italiano foi campeão do mundo em 2006 e jogou até os 45 anos?",
+    "resposta": "Buffon",
+    "alternativas": [
+      "Buffon",
+      "Zenga",
+      "Peruzzi",
+      "Zoff"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2610 (E2 mesma resposta e mesmo assunto (12.1, 65% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:2610",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (12.1, 65% do fato)"
+  },
+  {
+    "id": "22a7652f80",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual goleiro mexicano ficou famoso pelas camisas coloridas que ele mesmo desenhava?",
+    "resposta": "Jorge Campos",
+    "alternativas": [
+      "Oswaldo Sánchez",
+      "Guillermo Ochoa",
+      "Chilavert",
+      "Jorge Campos"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cc85583e25",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual brasileira chegou à semifinal de Roland Garros em 2023?",
+    "resposta": "Bia Haddad",
+    "alternativas": [
+      "Laura Pigossi",
+      "Teliana Pereira",
+      "Bia Haddad",
+      "Luisa Stefani"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "6f3892acc1",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual americana de cabelo colorido foi eleita a melhor jogadora do mundo em 2019?",
+    "resposta": "Megan Rapinoe",
+    "alternativas": [
+      "Megan Rapinoe",
+      "Alex Morgan",
+      "Carli Lloyd",
+      "Hope Solo"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c7568b76a",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o uniforme usado pelos atletas de judô?",
+    "resposta": "Judogi",
+    "alternativas": [
+      "Dobok",
+      "Hakama",
+      "Mawashi",
+      "Judogi"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2f80fafbcb",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual técnico argentino comandou o Santos em 2019 e o Atlético-MG em 2020?",
+    "resposta": "Jorge Sampaoli",
+    "alternativas": [
+      "Marcelo Bielsa",
+      "Ricardo Gareca",
+      "Eduardo Coudet",
+      "Jorge Sampaoli"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2681",
+    "recente": true,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (15.5)"
+  },
+  {
+    "id": "8280d48d04",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual goleiro inglês fez a famosa defesa da cabeçada de Pelé na Copa de 1970?",
+    "resposta": "Gordon Banks",
+    "alternativas": [
+      "Ray Clemence",
+      "Gordon Banks",
+      "Peter Shilton",
+      "Pat Jennings"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "358e4ef676",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual goleiro foi campeão do mundo aos 40 anos, como capitão da Itália em 1982?",
+    "resposta": "Dino Zoff",
+    "alternativas": [
+      "Gianluca Pagliuca",
+      "Walter Zenga",
+      "Dino Zoff",
+      "Enrico Albertosi"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a79e0c1225",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual goleiro dinamarquês foi o paredão do Manchester United campeão europeu de 1999?",
+    "resposta": "Peter Schmeichel",
+    "alternativas": [
+      "Edwin van der Sar",
+      "Fabien Barthez",
+      "Peter Schmeichel",
+      "Mark Bosnich"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "107f7bf83f",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube peruano ganhou a Copa Sul-Americana de 2003?",
+    "resposta": "Cienciano",
+    "alternativas": [
+      "Cienciano",
+      "Alianza Lima",
+      "Sporting Cristal",
+      "Universitario"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "afc9995979",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jornalista criou a Corrida de São Silvestre, em 1925?",
+    "resposta": "Cásper Líbero",
+    "alternativas": [
+      "Assis Chateaubriand",
+      "Cásper Líbero",
+      "Mário Filho",
+      "Roberto Marinho"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7e6cb7bfba",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual compositor criou as trilhas de \"Star Wars\", \"Tubarão\" e \"E.T.\"?",
+    "resposta": "John Williams",
+    "alternativas": [
+      "Hans Zimmer",
+      "Danny Elfman",
+      "James Horner",
+      "John Williams"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "58968ab297",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual compositor alemão fez as trilhas de \"O Rei Leão\", \"Gladiador\" e \"Interestelar\"?",
+    "resposta": "Hans Zimmer",
+    "alternativas": [
+      "John Williams",
+      "Alan Silvestri",
+      "Hans Zimmer",
+      "Howard Shore"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bf7e34af04",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como os brasileiros costumam chamar as séries de TV asiáticas, sobretudo as coreanas?",
+    "resposta": "Doramas",
+    "alternativas": [
+      "Mangás",
+      "Tokusatsus",
+      "Animes",
+      "Doramas"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8053 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:8053",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "f7c6754a06",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em qual filme o chefe de polícia, ao ver o tubarão, diz \"vamos precisar de um barco maior\"?",
+    "resposta": "Tubarão",
+    "alternativas": [
+      "Mar Aberto",
+      "Moby Dick",
+      "Tubarão",
+      "Do Fundo do Mar"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5181",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.8)"
+  },
+  {
+    "id": "8f61858795",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual vilã de \"Maria do Bairro\" virou meme no Brasil gritando \"maldita lisiada\"?",
+    "resposta": "Soraya Montenegro",
+    "alternativas": [
+      "Paola Bracho",
+      "Catalina Creel",
+      "Cristina Bracho",
+      "Soraya Montenegro"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a5c81a4095",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual filme de 1939 tem a frase \"não há lugar como o nosso lar\", dita batendo os calcanhares?",
+    "resposta": "O Mágico de Oz",
+    "alternativas": [
+      "O Mágico de Oz",
+      "Pinóquio",
+      "Alice no País das Maravilhas",
+      "Branca de Neve"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6939",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.6)"
+  },
+  {
+    "id": "976cc7eddc",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o sambódromo de São Paulo?",
+    "resposta": "Anhembi",
+    "alternativas": [
+      "Ibirapuera",
+      "Anhembi",
+      "Pacaembu",
+      "Interlagos"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b6bed764f5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual italiano compôs as trilhas dos faroestes de Sergio Leone e de \"Cinema Paradiso\"?",
+    "resposta": "Ennio Morricone",
+    "alternativas": [
+      "Ennio Morricone",
+      "Luis Bacalov",
+      "Riz Ortolani",
+      "Nino Rota"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e9a5d22e3d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor fez a trilha da trilogia \"O Senhor dos Anéis\"?",
+    "resposta": "Howard Shore",
+    "alternativas": [
+      "Hans Zimmer",
+      "John Williams",
+      "Howard Shore",
+      "James Horner"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3364",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "5879dbe154",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositor criou o tema de abertura de \"Os Simpsons\"?",
+    "resposta": "Danny Elfman",
+    "alternativas": [
+      "John Williams",
+      "Danny Elfman",
+      "Hans Zimmer",
+      "Alan Silvestri"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1050b2eaf2",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual italiano compôs a trilha de \"O Poderoso Chefão\"?",
+    "resposta": "Nino Rota",
+    "alternativas": [
+      "Armando Trovajoli",
+      "Ennio Morricone",
+      "Nino Rota",
+      "Riz Ortolani"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "26f2fd2756",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual filme Tom Cruise grita ao telefone \"Me mostre o dinheiro!\"?",
+    "resposta": "Jerry Maguire",
+    "alternativas": [
+      "Top Gun",
+      "Negócio Arriscado",
+      "Missão Impossível",
+      "Jerry Maguire"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4c95b69b8e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dorama conta a história de uma herdeira sul-coreana que cai de parapente na Coreia do Norte?",
+    "resposta": "Pousando no Amor",
+    "alternativas": [
+      "Descendentes do Sol",
+      "Vincenzo",
+      "Goblin",
+      "Pousando no Amor"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3658ec893e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual diretor sul-coreano fez \"Parasita\", vencedor do Oscar de melhor filme em 2020?",
+    "resposta": "Bong Joon-ho",
+    "alternativas": [
+      "Lee Chang-dong",
+      "Bong Joon-ho",
+      "Kim Ki-duk",
+      "Park Chan-wook"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3481 (E5 resposta antiga citada no texto novo + assunto (14.2))",
+    "dup": "certa",
+    "dup_ref": "banco:3481",
+    "recente": true,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.2)"
+  },
+  {
+    "id": "28e02733d8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual emissora mexicana produziu novelas exibidas pelo SBT, como \"A Usurpadora\"?",
+    "resposta": "Televisa",
+    "alternativas": [
+      "TV Azteca",
+      "Telemundo",
+      "Univision",
+      "Televisa"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3557 (E5 resposta antiga citada no texto novo + assunto (14.4))",
+    "dup": "certa",
+    "dup_ref": "banco:3557",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.4)"
+  },
+  {
+    "id": "02953d3cb8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escola de samba carioca tem uma estrela-guia como símbolo?",
+    "resposta": "Mocidade Independente",
+    "alternativas": [
+      "Mocidade Independente",
+      "Unidos da Tijuca",
+      "Vila Isabel",
+      "Imperatriz Leopoldinense"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "db2c96abb2",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escola de samba paulistana nasceu no bairro do Bixiga?",
+    "resposta": "Vai-Vai",
+    "alternativas": [
+      "Mocidade Alegre",
+      "Rosas de Ouro",
+      "Gaviões da Fiel",
+      "Vai-Vai"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d5c26179a5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual carnavalesco ficou famoso pela frase \"quem gosta de miséria é intelectual; pobre gosta de luxo\"?",
+    "resposta": "Joãosinho Trinta",
+    "alternativas": [
+      "Fernando Pamplona",
+      "Joãosinho Trinta",
+      "Rosa Magalhães",
+      "Paulo Barros"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "48c0491545",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor grego criou o tema de \"Carruagens de Fogo\"?",
+    "resposta": "Vangelis",
+    "alternativas": [
+      "Jean-Michel Jarre",
+      "Vangelis",
+      "Mikis Theodorakis",
+      "Yanni"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d182604d46",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor fez a trilha de \"De Volta para o Futuro\"?",
+    "resposta": "Alan Silvestri",
+    "alternativas": [
+      "Danny Elfman",
+      "Alan Silvestri",
+      "James Horner",
+      "John Williams"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8287fa6828",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a \"onda\" de popularidade mundial da cultura sul-coreana, do K-pop aos doramas?",
+    "resposta": "Hallyu",
+    "alternativas": [
+      "Hallyu",
+      "Hanbok",
+      "Chaebol",
+      "Aegyo"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c7d92a5fa2",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dorama coreano tem um grupo de herdeiros ricos e mimados chamado F4?",
+    "resposta": "Boys Over Flowers",
+    "alternativas": [
+      "Herdeiros",
+      "Vincenzo",
+      "Goblin",
+      "Boys Over Flowers"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5154a83fe3",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual novela mexicana tem uma protagonista ambiciosa que troca o amor pelo dinheiro, vivida por Bárbara Mori?",
+    "resposta": "Rubi",
+    "alternativas": [
+      "Rosalinda",
+      "Marimar",
+      "Maria Mercedes",
+      "Rubi"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "043d3c8eae",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escola de samba carioca é do bairro de Ramos?",
+    "resposta": "Imperatriz Leopoldinense",
+    "alternativas": [
+      "Mangueira",
+      "Beija-Flor",
+      "Imperatriz Leopoldinense",
+      "Portela"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:db2c96abb2",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "b0a984fefb",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual barra de aço vai dentro do concreto armado?",
+    "resposta": "Vergalhão",
+    "alternativas": [
+      "Arame",
+      "Cantoneira",
+      "Vergalhão",
+      "Perfil"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c72991a73f",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a mistura de cimento, areia e água usada para assentar tijolos?",
+    "resposta": "Argamassa",
+    "alternativas": [
+      "Concreto",
+      "Rejunte",
+      "Gesso",
+      "Argamassa"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "90674ed9f5",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a placa de concreto que forma o teto ou o piso entre andares?",
+    "resposta": "Laje",
+    "alternativas": [
+      "Viga",
+      "Laje",
+      "Sapata",
+      "Pilar"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ddc3c2f5b",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a parede de placas de gesso acartonado, comum em escritórios?",
+    "resposta": "Drywall",
+    "alternativas": [
+      "Alvenaria",
+      "Taipa",
+      "Pau a pique",
+      "Drywall"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ce000fc3e9",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual peça do telhado recolhe a água da chuva e leva até o cano?",
+    "resposta": "Calha",
+    "alternativas": [
+      "Cumeeira",
+      "Telha",
+      "Rufo",
+      "Calha"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c210839a2b",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a camada fina e áspera de cimento jogada na parede antes do reboco?",
+    "resposta": "Chapisco",
+    "alternativas": [
+      "Contrapiso",
+      "Massa corrida",
+      "Chapisco",
+      "Emboço"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "736616aa34",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a parte mais alta do telhado, onde as águas se encontram?",
+    "resposta": "Cumeeira",
+    "alternativas": [
+      "Rufo",
+      "Calha",
+      "Cumeeira",
+      "Beiral"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aae3926cb8",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual território fica Kourou, base de lançamento dos foguetes europeus?",
+    "resposta": "Guiana Francesa",
+    "alternativas": [
+      "Guiana Francesa",
+      "Guiana",
+      "Martinica",
+      "Suriname"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2363 (E2 mesma resposta e mesmo assunto (12.4, 39% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:2363",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (12.4, 39% do fato)"
+  },
+  {
+    "id": "800686c095",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual país fica Baikonur, base de onde partiu Iuri Gagarin?",
+    "resposta": "Cazaquistão",
+    "alternativas": [
+      "Cazaquistão",
+      "Uzbequistão",
+      "Rússia",
+      "Ucrânia"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "04b4b48eb3",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o nome da nave gigante da SpaceX, pensada para levar pessoas a Marte?",
+    "resposta": "Starship",
+    "alternativas": [
+      "New Glenn",
+      "Dragon",
+      "Starship",
+      "Falcon Heavy"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8ee1285b64",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foguete levou as missões Apollo à Lua?",
+    "resposta": "Saturno V",
+    "alternativas": [
+      "Atlas",
+      "Titan II",
+      "Delta IV",
+      "Saturno V"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1718",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.4)"
+  },
+  {
+    "id": "e3817ce381",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a família de satélites de observação da Terra feita por Brasil e China?",
+    "resposta": "CBERS",
+    "alternativas": [
+      "SGDC",
+      "Amazonia",
+      "SCD",
+      "CBERS"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cf05cb9ec9",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a fundação rasa, em forma de bloco, que fica sob um pilar?",
+    "resposta": "Sapata",
+    "alternativas": [
+      "Estaca",
+      "Radier",
+      "Sapata",
+      "Baldrame"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "11d104a8e6",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o efeito de fundo desfocado com bolinhas de luz numa foto?",
+    "resposta": "Bokeh",
+    "alternativas": [
+      "Bokeh",
+      "Vinheta",
+      "Granulado",
+      "HDR"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "435b5c1988",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o ciclismo praticado em trilhas de terra, com bicicletas de suspensão e pneus largos?",
+    "resposta": "Mountain bike",
+    "alternativas": [
+      "Ciclismo de pista",
+      "Mountain bike",
+      "Fixa",
+      "Ciclismo de estrada"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5623bece5c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a caminhada longa por trilhas na natureza, às vezes de vários dias?",
+    "resposta": "Trekking",
+    "alternativas": [
+      "Orientação",
+      "Cooper",
+      "Trekking",
+      "Marcha atlética"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "37c266d1cf",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual modalidade olímpica de bicicleta, também chamada de BMX, tem pistas de terra com rampas e curvas inclinadas?",
+    "resposta": "Bicicross",
+    "alternativas": [
+      "Ciclismo de pista",
+      "Bicicross",
+      "Ciclismo de estrada",
+      "Mountain bike"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5028 (E5 resposta antiga citada no texto novo + assunto (19.6))",
+    "dup": "certa",
+    "dup_ref": "banco:5028",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.6)"
+  },
+  {
+    "id": "371c495a00",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a prévia de poucos minutos que divulga um filme antes da estreia?",
+    "resposta": "Trailer",
+    "alternativas": [
+      "Spoiler",
+      "Making of",
+      "Trailer",
+      "Teaser"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3e17350a58",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a gravação das vozes de um filme estrangeiro em português?",
+    "resposta": "Dublagem",
+    "alternativas": [
+      "Sonoplastia",
+      "Mixagem",
+      "Dublagem",
+      "Legendagem"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c0231749c6",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual palavra inglesa designa um filme de grande sucesso de bilheteria, um \"arrasa-quarteirão\"?",
+    "resposta": "Blockbuster",
+    "alternativas": [
+      "Spin-off",
+      "Blockbuster",
+      "Cult",
+      "Remake"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4b847e6c5d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho de academia permite correr ou caminhar sem sair do lugar?",
+    "resposta": "Esteira",
+    "alternativas": [
+      "Esteira",
+      "Step",
+      "Remo seco",
+      "Elíptico"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

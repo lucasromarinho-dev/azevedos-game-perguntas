@@ -186,8 +186,8 @@
     "pergunta": "O que significa a expressão francesa \"tête-à-tête\"?",
     "resposta": "Conversa a dois, cara a cara",
     "alternativas": [
-      "Briga de rua",
       "Conversa a dois, cara a cara",
+      "Briga de rua",
       "Dança em pares",
       "Jantar de gala"
     ],
@@ -992,12 +992,12 @@
       "Rouba-bandeira"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:31e0a95e81 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:31e0a95e81",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.4, 29% do fato)"
   },
   {
     "id": "954b2304b5",
@@ -2532,6 +2532,26 @@
       "Ilusionista"
     ],
     "subtema": "Dança, teatro e circo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "248a9cb143",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama qualquer corrida a pé mais longa que os 42,195 km da maratona?",
+    "resposta": "Ultramaratona",
+    "alternativas": [
+      "Triatlo",
+      "Ultramaratona",
+      "Maratona aquática",
+      "Meia maratona"
+    ],
+    "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

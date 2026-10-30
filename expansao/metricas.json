@@ -7335,6 +7335,131 @@
           "errada defensavel": "b1dbbbb0db: errada Camomila também tem flor branca de miolo amarelo (errada defensável pela descrição); trocada",
           "dificuldade": "de5b94fc7c: undefined"
         }
+      },
+      {
+        "lote": "066",
+        "conferente": "conferente-v7",
+        "conferidas": 105,
+        "conferidas_sem_mudanca": 68,
+        "com_mudanca": 37,
+        "corrigidas": 32,
+        "rebaixadas": 9,
+        "subidas": 1,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "duplicada": 1,
+          "espelho": 1
+        },
+        "perguntas_com_busca_web": 12,
+        "buscas_web": 12,
+        "suspeitas": {
+          "total": 10,
+          "mantidas": 7,
+          "reescritas": 2,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 8,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 8,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 26,
+            "corrigidas": 7,
+            "rebaixadas": 2,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 5,
+            "rebaixadas": 3,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "ea87e9e58a: duplicada: mesma pergunta (Marcelo, Marmelo, Martelo => Ruth Rocha) já publicada na rodada 6 (lote 061, id ea87e9...)",
+          "c2485786b6: espelho: o enunciado de 063:d63a54 ('primeiro relógio de pulso a quartzo') entrega a resposta; e Diamante cruzado com banco:6019"
+        ],
+        "correcoes": [
+          "64884929c4: Lei Maria da Penha - errada Lei Carolina Dieckmann era a resposta de banco:3935, que tem Lei Maria da Penha entre as erradas (respostas cruzadas); trocada",
+          "683e3149fd: Voto de Minerva - 'deusa romana da sabedoria' entregava a resposta de banco:1599 (Minerva = Atena); pista reduzida",
+          "6d19b8ab91: Jean Nicot - o nome nicotina praticamente entrega Jean Nicot; rebaixada",
+          "c0d7af8492: Acrofobia - erradas Claustrofobia e Agorafobia eram respostas de banco:2143 e banco:2376, que têm Acrofobia entre as erradas (respostas cruzadas); trocadas",
+          "e5ed5484b2: Isósceles - errada Escaleno era a resposta de banco:2155, que tem Isósceles entre as erradas (respostas cruzadas); trocada",
+          "56116f0664: Trapézio - errada Losango era a resposta de 1f93e5 (mesmo lote), que tinha Trapézio entre as erradas (respostas cruzadas); trocada",
+          "3d4414aa44: Nictofobia - errada Acrofobia era a resposta de c0d7a (mesmo lote); trocada",
+          "242eb198f8: Glossofobia - errada Agorafobia era a resposta de banco:2376, do mesmo molde; trocada",
+          "21c10fcdc8: Coulrofobia - errada Agorafobia era a resposta de banco:2376, do mesmo molde; trocada",
+          "84fb978b1d: Raiva - erradas Tétano e Leptospirose eram respostas de banco:1691 e banco:6017, que têm Raiva entre as erradas (respostas cruzadas); trocadas",
+          "10bdd6feb5: Icosaedro - errada Dodecaedro era a resposta de banco:5931, que tem Icosaedro entre as erradas (respostas cruzadas); trocada",
+          "efded293e7: Quarto árbitro - errada Bandeirinha era a resposta de banco:8527, que tem Quarto árbitro entre as erradas (respostas cruzadas); trocada",
+          "941a8aba60: Bispo - errada Cavalo era a resposta de 5746c (mesmo lote), que tinha Bispo entre as erradas (respostas cruzadas); trocada",
+          "5746ca4eb9: Cavalo - errada Bispo era a resposta de 941a8 (mesmo lote); trocada",
+          "f3507ef64d: Marcha atlética - regra da marcha atlética não é de quase todo adulto; subida para médio",
+          "c89e093aa5: Grécia - errada Dinamarca era a resposta de 061:b2aabf (zebra da Eurocopa de 1992), do mesmo molde; trocada",
+          "beb9c35ee8: Contorcionista - errada Malabarista era a resposta de a39e1 (mesmo lote), que tinha Contorcionista entre as erradas (respostas cruzadas); trocada",
+          "a39e19b617: Malabarista - errada Contorcionista era a resposta de beb9c (mesmo lote); trocada",
+          "975dfc7ea3: Aardman - errada Illumination era a resposta de 34b1a (mesmo lote), do mesmo molde; trocada",
+          "0352d54545: O Escaravelho do Diabo - 'besouro' entregava Escaravelho (resposta de banco:5552, besouro sagrado do Egito); errada A Ilha Perdida era a resposta de 061:5c8820, que tinha O Escaravelho do Diabo entre as erradas (respostas cruzadas); trocada",
+          "5032cedb72: Empilhadeira - errada Guindaste era a resposta de 070:831998, que tem Empilhadeira entre as erradas (respostas cruzadas); trocada",
+          "2cdb6824c3: Rolo compressor - erradas Betoneira e Motoniveladora eram respostas de df902 e 2e354 (mesmo lote), com respostas cruzadas; trocadas",
+          "2da902020e: Retroescavadeira - errada Motoniveladora era a resposta de 2e354 (mesmo lote), que tinha Retroescavadeira entre as erradas (respostas cruzadas); trocada",
+          "2e354528ce: Motoniveladora - erradas Retroescavadeira, Rolo compressor e Trator de esteira eram respostas de 2da90, 2cdb6 (mesmo lote) e 071:9ad17e (respostas cruzadas); trocadas; o apelido 'patrol' é conhecido, rebaixada",
+          "ec5d1192ac: Teleobjetiva - erradas Grande angular e Olho de peixe eram respostas de banco:3833 e 060:7622df, com Teleobjetiva entre as erradas (respostas cruzadas); trocadas",
+          "f8d83d6683: Zumba - errada Spinning era a resposta de banco:9644, que tem Zumba entre as erradas (respostas cruzadas); trocada",
+          "244c706ed0: Alex Barros - errada 'Alexandre Barros Filho' era quase o nome de batismo da certa (Alexandre Barros); trocada; enunciado fixado nos anos 1990 para Diogo Moreira (MotoGP desde 2026) não virar defensável",
+          "3cf71d498a: Ana Maria Machado - errada Ruth Rocha era a resposta de 061:ea87e9, que tem Ana Maria Machado entre as erradas (respostas cruzadas); trocada",
+          "c1f6b9740a: Henfil - errada Ziraldo era a resposta de banco:3307, que tem Henfil entre as erradas (respostas cruzadas); trocada",
+          "add01e2ede: Annie Leibovitz - errada Dorothea Lange era a resposta de 070:a94d3f, que tem Annie Leibovitz entre as erradas (respostas cruzadas); trocada",
+          "88dbc32322: Arnaldo Cezar Coelho - errada Armando Marques era a resposta de 070:eff2b7, que tem Arnaldo Cezar Coelho entre as erradas (respostas cruzadas); trocada",
+          "6f07ed0142: Mise en place - expressão conhecida pelo nome (programas de culinária); rebaixada"
+        ],
+        "rebaixamentos": [
+          "6d19b8ab91: Jean Nicot dificil -> medio",
+          "5f03a0c7ee: Édito de Nantes dificil -> medio",
+          "0ed2b0331c: Ritmo circadiano dificil -> medio",
+          "e192842cdc: Plié dificil -> medio",
+          "0352d54545: O Escaravelho do Diabo dificil -> medio",
+          "2e354528ce: Motoniveladora dificil -> medio",
+          "dc8a6d33b7: Daguerreótipo dificil -> medio",
+          "cd524ffba6: VBA dificil -> medio",
+          "6f07ed0142: Mise en place dificil -> medio"
+        ],
+        "subidas_lista": [
+          "f3507ef64d: Marcha atlética facil -> medio"
+        ],
+        "tipos_erro": {
+          "espelho/duplicada": 28,
+          "entrega a resposta": 2,
+          "dificuldade": 8,
+          "errada defensavel": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "64884929c4: errada Lei Carolina Dieckmann era a resposta de banco:3935, que tem Lei Maria da Penha entre as erradas (respostas cruzadas); trocada",
+          "entrega a resposta": "683e3149fd: 'deusa romana da sabedoria' entregava a resposta de banco:1599 (Minerva = Atena); pista reduzida",
+          "dificuldade": "6d19b8ab91: o nome nicotina praticamente entrega Jean Nicot; rebaixada",
+          "errada defensavel": "244c706ed0: errada 'Alexandre Barros Filho' era quase o nome de batismo da certa (Alexandre Barros); trocada; enunciado fixado nos anos 1990 para Diogo Moreira (MotoGP desde 2026) não virar defensável"
+        }
       }
     ],
     "rebaixamentos_r3": {

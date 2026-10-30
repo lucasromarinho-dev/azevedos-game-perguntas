@@ -9545,6 +9545,104 @@
           "espelho/duplicada": "90b84ff63a: errada Paradoxo de Monty Hall era a resposta de ba4534 (mesmo lote); trocada",
           "fato impreciso": "11c73ee55f: a patente de Seth Wheeler é de 1871 (refinada em 1891), não exatamente do 'fim do século XIX'; ano posto no enunciado (checagem web)"
         }
+      },
+      {
+        "lote": "081",
+        "conferente": "conferente-v8",
+        "conferidas": 78,
+        "conferidas_sem_mudanca": 72,
+        "com_mudanca": 6,
+        "corrigidas": 4,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 7,
+        "motivos_descarte": {
+          "molde repetido": 7
+        },
+        "perguntas_com_busca_web": 5,
+        "buscas_web": 4,
+        "suspeitas": {
+          "total": 8,
+          "mantidas": 7,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 7
+          },
+          "Tecnologia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "a7de837f92: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Geraldo Azevedo saiu)",
+          "bc01a233bd: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (14 Bis saiu; tinha também a errada repetida Roupa Nova/Roupa Nova de Minas)",
+          "2a29b8f1a3: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (A Cor do Som saiu)",
+          "56e678794f: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Boca Livre saiu)",
+          "297b9b7e4d: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Calcinha Preta saiu)",
+          "3ddb751ce4: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Walter Franco saiu)",
+          "a73986668c: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (MC Guimê saiu)"
+        ],
+        "correcoes": [
+          "62673fe4dd: Iguatemi - o título de primeiro é disputado com o Shopping do Méier (Rio, 1965); 'foi o primeiro' trocado por 'é tido como o primeiro' (checagem web)",
+          "cf2c75aad6: Banguê - grafia com trema (Bangüê) abolida no Acordo Ortográfico; corrigida para Banguê",
+          "ef650a04bd: Dilema do prisioneiro - dilema do prisioneiro é conceito conhecido pelo nome; rebaixada",
+          "cf87b23ecf: Liga Nacional de Futsal - a sigla LNF e o futsal no enunciado praticamente entregam Liga Nacional de Futsal; descida para fácil",
+          "3ccd2ef407: Fuwa - errada Beibei é um dos próprios Fuwa (defensável/confusa); trocada pela mascote de Vancouver 2010",
+          "e5fa47a5aa: Serpentário - errada Ofidiário real usava sinônimo de serpentário (defensável) e Herpetódromo era termo inventado; trocadas"
+        ],
+        "rebaixamentos": [
+          "ef650a04bd: Dilema do prisioneiro dificil -> medio",
+          "cf87b23ecf: Liga Nacional de Futsal medio -> facil"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "grafia": 1,
+          "dificuldade": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 2,
+          "molde repetido": 7
+        },
+        "exemplos_erro": {
+          "fato impreciso": "62673fe4dd: o título de primeiro é disputado com o Shopping do Méier (Rio, 1965); 'foi o primeiro' trocado por 'é tido como o primeiro' (checagem web)",
+          "grafia": "cf2c75aad6: grafia com trema (Bangüê) abolida no Acordo Ortográfico; corrigida para Banguê",
+          "dificuldade": "ef650a04bd: dilema do prisioneiro é conceito conhecido pelo nome; rebaixada",
+          "entrega a resposta": "cf87b23ecf: a sigla LNF e o futsal no enunciado praticamente entregam Liga Nacional de Futsal; descida para fácil",
+          "errada defensavel": "3ccd2ef407: errada Beibei é um dos próprios Fuwa (defensável/confusa); trocada pela mascote de Vancouver 2010",
+          "molde repetido": "a7de837f92: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Geraldo Azevedo saiu)"
+        }
       }
     ],
     "rebaixamentos_r3": {

@@ -7825,6 +7825,144 @@
           "entrega a resposta": "952878bb82: o enunciado ligava Magritte a 'Isto Não É um Cachimbo', o que respondia banco:7117 (pintor do cachimbo => René Magritte); reescrito",
           "errada defensavel": "a24301befa: errada Herbívoro também é defensável (quem come frutas é herbívoro); Necrófago era a resposta de 583c6 (mesmo lote); trocadas"
         }
+      },
+      {
+        "lote": "070",
+        "conferente": "conferente-v7",
+        "conferidas": 103,
+        "conferidas_sem_mudanca": 53,
+        "com_mudanca": 50,
+        "corrigidas": 50,
+        "rebaixadas": 1,
+        "subidas": 1,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "molde repetido": 2,
+          "espelho": 1
+        },
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 6,
+        "suspeitas": {
+          "total": 12,
+          "mantidas": 9,
+          "reescritas": 2,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 4,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Esportes": {
+            "conferidas": 18,
+            "corrigidas": 12,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 21,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 6,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "230a4d8fb0: molde repetido: 8 perguntas 'como se chama o animal que se alimenta de X' na rodada, com as respostas cruzadas nas alternativas; cortado o excesso (piscívoro)",
+          "9db33d48bf: molde repetido: 8 perguntas 'como se chama o animal que se alimenta de X' na rodada, com as respostas cruzadas nas alternativas; cortado o excesso (folívoro)",
+          "fb08215587: espelho: banco:5024 ('Qual mesa-tenista brasileiro chegou ao top 10 do ranking mundial?' => Hugo Calderano) é o mesmo fato invertido"
+        ],
+        "correcoes": [
+          "1476379265: GROUP BY - erradas WHERE e ORDER BY eram respostas de 069:5f780f e 069:3b5cc0, do mesmo molde; trocadas",
+          "337947ba0f: Andaime - errada Tapume era a resposta de 068:586945, do mesmo molde; trocada",
+          "4686106d7c: Ramin Djawadi - as três erradas eram respostas de 067:e9a5d2, 067:58968a e 067:7e6cb7, do mesmo molde; trocadas",
+          "8319983d4c: Guindaste - as três erradas eram respostas de 066:5032ce (respostas cruzadas), 066:df9023 e 066:2da902, do mesmo molde; trocadas",
+          "6fc15df88f: Chipre - errada Malta era a resposta de banco:5807, que tem Chipre entre as erradas (respostas cruzadas), e Sicília a de banco:293; trocadas",
+          "a3a7c56a45: Darcy Ribeiro - as três erradas eram respostas de banco:5460, banco:1192 e 075:2d8556, com Darcy Ribeiro entre as erradas (respostas cruzadas); trocadas",
+          "851d5cf9f0: Clement Attlee - erradas Neville Chamberlain e Winston Churchill eram respostas de banco:1471 e banco:5150, com Clement Attlee entre as erradas (respostas cruzadas); trocadas",
+          "7ebd2cb5b0: Ostreicultura - errada Malacocultura (cultivo de moluscos) inclui as ostras (defensável); Carcinicultura era a resposta de 067:43152d; trocadas",
+          "ef7059b583: Ramón Díaz - errada Jorge Sampaoli era a resposta de 067:2f80fa, do mesmo molde (técnico argentino no Brasil); trocada",
+          "5fe3dfee0a: Trafalgar Square - errada Piccadilly Circus era a resposta de 071:23a875, que tem Trafalgar Square entre as erradas (respostas cruzadas); trocada",
+          "855e1de651: Pêni - errada Cêntimo era a resposta de 072:59b3eb, que tem Pêni entre as erradas (respostas cruzadas); trocada",
+          "b743f27bb8: Copeque - as três erradas eram respostas de 075:13afc6 (respostas cruzadas), df79c e 855e1 (mesmo lote); trocadas",
+          "3be742e1c4: Malala - erradas Rigoberta Menchú e Wangari Maathai eram respostas de 071:13d95c (respostas cruzadas) e 0f9a8 (mesmo lote); trocadas",
+          "9436d16552: Muhammad Yunus - errada Kofi Annan era a resposta de 6f5c9 (mesmo lote), do mesmo molde; trocada",
+          "4311c41276: Orizicultura - erradas Citricultura e Olivicultura eram respostas de 068:c15e2c e 069:321184, do mesmo molde; trocadas",
+          "9557d786aa: Primatologia - errada Mastozoologia (estudo dos mamíferos) inclui os primatas (defensável); Etologia era a resposta de 068:bff6b3; trocadas",
+          "a3b3a00438: Badminton - erradas Tênis de mesa e Squash eram respostas de banco:9957 e banco:7918, com Badminton entre as erradas (respostas cruzadas); trocadas",
+          "0fc73abea4: Ginástica artística - errada Ginástica rítmica era a resposta de banco:8033, que tem Ginástica artística entre as erradas (respostas cruzadas); trocada",
+          "889d54df5e: Etiene Medeiros - Ana Marcela já tinha título mundial em águas abertas (2011) e a própria Etiene em piscina curta (2014): 'primeira campeã mundial' sem 'piscina longa' era impreciso e deixava Ana Marcela defensável; trocadas Ana Marcela e Poliana (respostas cruzadas com banco:2797 e banco:6242)",
+          "14de943610: Alison dos Santos - errada Caio Bonfim era a resposta de banco:5935, que tem Alison dos Santos entre as erradas (respostas cruzadas); trocada",
+          "56cde2f7d7: Figueirense - erradas Avaí e Criciúma eram respostas de banco:2823 e banco:6035, com Figueirense entre as erradas (respostas cruzadas); trocadas",
+          "23becb4247: Athletico Paranaense - errada Coritiba era a resposta de banco:2560, que tem Athletico Paranaense entre as erradas (respostas cruzadas); trocada",
+          "87c6b1fa06: Robson Caetano - errada Joaquim Cruz era a resposta de banco:3176, que tem Robson Caetano entre as erradas (respostas cruzadas); trocada",
+          "eff2b78d44: Armando Marques - errada Arnaldo Cezar Coelho era a resposta de banco:8821 e 066:88dbc3 (respostas cruzadas); trocada",
+          "7b9b57c046: Faustino Asprilla - errada Freddy Rincón era a resposta de 075:8b3158, que tem Asprilla entre as erradas (respostas cruzadas); trocada",
+          "d92ac90164: Sebastião Salgado - errada Pierre Verger era a resposta de a2d88 (mesmo lote), do mesmo molde; trocada",
+          "6da5836a2a: Hergé - 'repórter Tintim' respondia banco:3382 (repórter belga de topete => Tintim); reescrito; erradas Goscinny e Peyo eram respostas de 7e675 (mesmo lote) e 058:6efd65 (respostas cruzadas); trocadas",
+          "e8363c13e9: Steve McCurry - as três erradas eram respostas de d92ac, f7a08 (mesmo lote, respostas cruzadas) e 066:add01e; trocadas",
+          "e0b1818df0: J. M. Barrie - errada Lewis Carroll era a resposta de banco:7268, que tem J. M. Barrie entre as erradas (respostas cruzadas); trocada",
+          "f7a08b3b74: Robert Capa - as três erradas eram respostas de e8363, 073:7dc27f e 176f6 (respostas cruzadas); trocadas",
+          "7e675dc46a: Goscinny - erradas Peyo e Hergé eram respostas de 058:6efd65 e 6da58 (mesmo lote, respostas cruzadas); trocadas",
+          "75dc88157e: Karim Aïnouz - errada Fernando Meirelles era a resposta de ffd8a (mesmo lote), do mesmo molde; trocada",
+          "ffd8ac31ff: Fernando Meirelles - 'diretor de Cidade de Deus' respondia banco:3409 (quem dirigiu Cidade de Deus); reescrito; erradas José Padilha e Walter Salles eram respostas de banco:3414 e banco:3542 (respostas cruzadas); trocadas",
+          "0111546738: Augusto Boal - errada Zé Celso era a resposta de 231db (mesmo lote), que tinha Augusto Boal entre as erradas (respostas cruzadas); trocada",
+          "231dbf903e: Zé Celso - errada Augusto Boal era a resposta de 01115 (mesmo lote); trocada",
+          "ac9558a1d2: Gianfrancesco Guarnieri - erradas Plínio Marcos e Oduvaldo Vianna Filho eram respostas de 7bb4b (mesmo lote) e 072:fc403a (respostas cruzadas); trocadas",
+          "176f63146a: Henri Cartier-Bresson - errada Robert Capa era a resposta de f7a08 (mesmo lote); trocada",
+          "a94d3f2821: Dorothea Lange - errada Annie Leibovitz era a resposta de 066:add01e, do mesmo molde; trocada",
+          "a2d88a3938: Pierre Verger - errada Henri Cartier-Bresson era a resposta de 176f6 (mesmo lote), do mesmo molde; trocada",
+          "3d6177c458: Bruno Giorgi - erradas Victor Brecheret e Alfredo Ceschiatti eram respostas de banco:7087 e 074:b1bd8d, com Bruno Giorgi entre as erradas (respostas cruzadas); trocadas",
+          "ce431dc345: Corto Maltese - errada Capitão Haddock passou a estar no enunciado de 6da58 (mesmo lote); trocada",
+          "9e0e2d8a8c: Cegonha - errada Basculante era a resposta de 072:eac89a, que tem Cegonha entre as erradas (respostas cruzadas); trocada",
+          "28d5bd5ba2: Cifrão - as três erradas eram respostas de 069:bf6906, 069:ede461 e banco:4717, do mesmo molde; trocadas",
+          "9ea5aec37e: Open Finance - errada Internet banking era a resposta de 072:edb593, do mesmo molde; trocada",
+          "0fedd77fe9: Caneta - erradas Pedalada e Elástico eram respostas de banco:2542 e banco:2580, com Caneta entre as erradas (respostas cruzadas); trocadas",
+          "b3cfb6ecdc: Match point - errada Break point era a resposta de banco:8232, que tem Match point entre as erradas (respostas cruzadas); trocada",
+          "d80a9bd05c: Houdini - errada David Copperfield era a resposta de 0d390 (mesmo lote), que tinha Houdini entre as erradas (respostas cruzadas); trocada",
+          "0d3907918d: David Copperfield - errada Houdini era a resposta de d80a9 (mesmo lote); trocada",
+          "8bde2149a1: Ventriloquismo - erradas Dublagem e Prestidigitação eram respostas de 067:3e1735 e 071:24270d (respostas cruzadas); trocadas",
+          "8ec412ae74: Wendel Bezerra - errada Orlando Drummond era a resposta de 071:043aee, que tem Wendel Bezerra entre as erradas (respostas cruzadas); trocada"
+        ],
+        "rebaixamentos": [
+          "6fc15df88f: Chipre dificil -> medio"
+        ],
+        "subidas_lista": [
+          "6da5836a2a: Hergé facil -> medio"
+        ],
+        "tipos_erro": {
+          "espelho/duplicada": 46,
+          "molde repetido": 2,
+          "errada defensavel": 2,
+          "fato impreciso": 1,
+          "entrega a resposta": 2
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "1476379265: erradas WHERE e ORDER BY eram respostas de 069:5f780f e 069:3b5cc0, do mesmo molde; trocadas",
+          "molde repetido": "230a4d8fb0: molde repetido: 8 perguntas 'como se chama o animal que se alimenta de X' na rodada, com as respostas cruzadas nas alternativas; cortado o excesso (piscívoro)",
+          "errada defensavel": "7ebd2cb5b0: errada Malacocultura (cultivo de moluscos) inclui as ostras (defensável); Carcinicultura era a resposta de 067:43152d; trocadas",
+          "fato impreciso": "889d54df5e: Ana Marcela já tinha título mundial em águas abertas (2011) e a própria Etiene em piscina curta (2014): 'primeira campeã mundial' sem 'piscina longa' era impreciso e deixava Ana Marcela defensável; trocadas Ana Marcela e Poliana (respostas cruzadas com banco:2797 e banco:6242)",
+          "entrega a resposta": "6da5836a2a: 'repórter Tintim' respondia banco:3382 (repórter belga de topete => Tintim); reescrito; erradas Goscinny e Peyo eram respostas de 7e675 (mesmo lote) e 058:6efd65 (respostas cruzadas); trocadas"
+        }
       }
     ],
     "rebaixamentos_r3": {

@@ -40,7 +40,8 @@
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "858bfe808b",
@@ -448,7 +449,7 @@
     "id": "acbe3ea312",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Qual forte de Mato Grosso do Sul resistiu ao primeiro ataque paraguaio na Guerra do Paraguai, em 1864?",
+    "pergunta": "Qual forte de Mato Grosso do Sul resistiu por dois dias à invasão paraguaia, no começo da Guerra do Paraguai, em 1864?",
     "resposta": "Forte de Coimbra",
     "alternativas": [
       "Forte de Itaipu",
@@ -463,8 +464,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "erradas Forte Príncipe da Beira e Forte de Copacabana eram respostas de 068:9e30f1 e 073:43a5be, do mesmo molde; trocadas",
-    "conferido_por": "conferente-v7"
+    "correcao": "erradas Forte Príncipe da Beira e Forte de Copacabana eram respostas de 068:9e30f1 e 073:43a5be, do mesmo molde; trocadas; o ataque de dezembro de 1864 foi o segundo da história do forte e a guarnição acabou se retirando; enunciado ajustado para 'resistiu por dois dias' (checagem web) (correção depois do lote fechado, conferente-v7)",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "7a33f3ce54",
@@ -582,7 +584,7 @@
     "alternativas": [
       "Escama",
       "Carapaça",
-      "Plastrão",
+      "Couro",
       "Concha"
     ],
     "subtema": "Animais",
@@ -592,7 +594,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada Couraça é quase sinônimo de carapaça (defensável); trocada",
+    "correcao": "errada Couraça é quase sinônimo de carapaça (defensável); trocada; errada Plastrão (posta na conferência) era a resposta de banco:8324, que tem Carapaça entre as erradas; trocada por Couro (correção depois do lote fechado, conferente-v7)",
     "conferido_por": "conferente-v7"
   },
   {
@@ -902,7 +904,7 @@
     "alternativas": [
       "Alex Sandro",
       "Emerson Palmieri",
-      "Thiago Motta",
+      "Amauri",
       "Rafael Tolói"
     ],
     "subtema": "Futebol europeu",
@@ -912,7 +914,7 @@
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada Jorginho era a resposta de banco:5769 (campeão da mesma Eurocopa, respostas cruzadas); trocada",
+    "correcao": "errada Jorginho era a resposta de banco:5769 (campeão da mesma Eurocopa, respostas cruzadas); trocada; errada Thiago Motta (posta na conferência) era a resposta de banco:5855 (respostas cruzadas); trocada (correção depois do lote fechado, conferente-v7)",
     "conferido_por": "conferente-v7",
     "verificado_web": true
   },
@@ -1194,7 +1196,8 @@
     "dup_ref": "banco:7285",
     "recente": true,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "cbbbf96477",
@@ -1320,7 +1323,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "eaa35f41b9",
@@ -1363,7 +1367,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "erradas Bruno Giorgi e Victor Brecheret eram respostas de 070:3d6177 e banco:7087, do mesmo molde; trocadas",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "0b979d61b8",
@@ -1845,7 +1850,7 @@
     "id": "1dcadc7253",
     "categoria": "Esportes",
     "dificuldade": "facil",
-    "pergunta": "Qual estádio de Nova Jersey vai receber a final da Copa do Mundo de 2026?",
+    "pergunta": "Qual estádio de Nova Jersey recebeu a final da Copa do Mundo de 2026?",
     "resposta": "MetLife Stadium",
     "alternativas": [
       "SoFi Stadium",
@@ -1860,7 +1865,9 @@
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "correcao": "a final já aconteceu (19/07/2026); 'vai receber' trocado por 'recebeu' (correção depois do lote fechado, conferente-v7)",
+    "verificado_web": true
   },
   {
     "id": "62990fa75c",

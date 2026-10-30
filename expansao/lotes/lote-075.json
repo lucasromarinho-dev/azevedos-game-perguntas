@@ -6,18 +6,20 @@
     "pergunta": "Qual medida estatística é a diferença entre o maior e o menor valor de uma lista?",
     "resposta": "Amplitude",
     "alternativas": [
-      "Moda",
-      "Mediana",
+      "Quartil",
+      "Variância",
       "Média",
       "Amplitude"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Moda e Mediana eram respostas de 068:f4362c e banco:6016, com Amplitude entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "afd6430ba2",
@@ -32,12 +34,13 @@
       "Jon Fosse"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "858bfe808b",
@@ -52,12 +55,13 @@
       "Salud"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4e86bc4e68",
@@ -72,12 +76,13 @@
       "Cheers"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:858bfe808b",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "998a2828d8",
@@ -92,12 +97,13 @@
       "Prego"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0aa7aa4345",
@@ -112,12 +118,13 @@
       "Merci"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6940f1d931",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ed99af47e8",
@@ -132,12 +139,13 @@
       "Gracias"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 12 perguntas de 'obrigado' em outras línguas entre as rodadas 6 e 7 (6 só na r7); cortado o excesso (Gracias, a mais óbvia)",
     "dup": "suspeita",
     "dup_ref": "id:6940f1d931",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "731dd86684",
@@ -152,12 +160,13 @@
       "Salud"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:4e86bc4e68",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "329f61aed6",
@@ -172,12 +181,13 @@
       "Good afternoon"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0a997ba5ee",
@@ -192,12 +202,13 @@
       "Callao"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "94f7863c68",
@@ -212,12 +223,13 @@
       "Montparnasse"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e4af0ac8f0",
@@ -232,12 +244,13 @@
       "Gānbēi"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:4e86bc4e68",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "13afc6e5df",
@@ -246,18 +259,20 @@
     "pergunta": "Como se chama o centésimo da rúpia indiana?",
     "resposta": "Paisa",
     "alternativas": [
-      "Kuruş",
+      "Fils",
       "Halala",
-      "Copeque",
+      "Satang",
       "Paisa"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Kuruş e Copeque eram respostas de 072:64fe05 e 070:b743f2 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e4159b3fdd",
@@ -272,12 +287,13 @@
       "Rímac"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e6bd3870f7",
@@ -292,12 +308,13 @@
       "Noruega"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ca960fbab0",
@@ -312,13 +329,14 @@
       "Trianon"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5628",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (9.7)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3ff85d0fc8",
@@ -333,12 +351,13 @@
       "Croácia"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "094f256003",
@@ -353,12 +372,13 @@
       "Polônia"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d0a7b68536",
@@ -373,12 +393,13 @@
       "Embratel"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bb4cb452f6",
@@ -393,12 +414,13 @@
       "Ludismo"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "897d45a059",
@@ -408,17 +430,19 @@
     "resposta": "Ponte de Glienicke",
     "alternativas": [
       "Ponte de Glienicke",
-      "Checkpoint Charlie",
+      "Portão de Brandemburgo",
       "Ponte Oberbaum",
       "Ponte Carlos"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Checkpoint Charlie era a resposta de banco:5079 e também teve trocas de presos (defensável); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "acbe3ea312",
@@ -428,17 +452,19 @@
     "resposta": "Forte de Coimbra",
     "alternativas": [
       "Forte de Itaipu",
-      "Forte Príncipe da Beira",
-      "Forte de Copacabana",
+      "Forte Junqueira",
+      "Forte de Santa Cruz",
       "Forte de Coimbra"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Forte Príncipe da Beira e Forte de Copacabana eram respostas de 068:9e30f1 e 073:43a5be, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7a33f3ce54",
@@ -453,12 +479,13 @@
       "Wat Tyler"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2d855608ab",
@@ -468,17 +495,19 @@
     "resposta": "Florestan Fernandes",
     "alternativas": [
       "Florestan Fernandes",
-      "Gilberto Freyre",
-      "Sérgio Buarque de Holanda",
-      "Darcy Ribeiro"
+      "Antonio Candido",
+      "Caio Prado Júnior",
+      "Roberto DaMatta"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:1192, banco:5460 e 070:a3a7c5 (respostas cruzadas), do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "467cfc0c62",
@@ -493,12 +522,13 @@
       "Richard Byrd"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b251c6709e",
@@ -510,15 +540,17 @@
       "Clorofila",
       "Caroteno",
       "Hemoglobina",
-      "Melanina"
+      "Xantofila"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1744",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)",
+    "correcao": "errada Melanina era a resposta de banco:1703 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "44c80f48f3",
@@ -533,12 +565,13 @@
       "Alcateia"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8c0b39b9af",
@@ -549,16 +582,18 @@
     "alternativas": [
       "Escama",
       "Carapaça",
-      "Couraça",
+      "Plastrão",
       "Concha"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Couraça é quase sinônimo de carapaça (defensável); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "924f077a39",
@@ -573,12 +608,13 @@
       "Penacho"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "906ec63d3e",
@@ -590,15 +626,17 @@
       "Sépala",
       "Estigma",
       "Pétala",
-      "Antera"
+      "Filete"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Antera era a resposta de 074:9a35bc (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0047d76cfa",
@@ -613,12 +651,13 @@
       "Natura"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bdbb66660b",
@@ -630,15 +669,17 @@
       "Stibium",
       "Silicium",
       "Stannum",
-      "Stannus"
+      "Aurichalcum"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0047d76cfa",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "errada Stannus era quase igual à certa (pegadinha de grafia); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1065f43a4f",
@@ -647,18 +688,20 @@
     "pergunta": "Qual sonda da Nasa, lançada em 2018, é o objeto feito pelo homem que chegou mais perto do Sol?",
     "resposta": "Parker Solar Probe",
     "alternativas": [
-      "New Horizons",
-      "Juno",
+      "Mariner 10",
+      "Kepler",
       "Parker Solar Probe",
-      "Voyager 1"
+      "Pioneer 10"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:2253, 074:00dc57 e banco:2252, do mesmo molde (sonda); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1e69490017",
@@ -673,12 +716,13 @@
       "Faixa"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d1eb6359fb",
@@ -693,12 +737,13 @@
       "Tetracampeão"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8c297c43ca",
@@ -733,12 +778,13 @@
       "Rapel"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7460",
     "recente": true,
-    "dup_regra": "resposta nova citada no texto antigo (5.8)"
+    "dup_regra": "resposta nova citada no texto antigo (5.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fdc5a05517",
@@ -753,12 +799,13 @@
       "Phil Foden"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1dfea64fa1",
@@ -773,12 +820,13 @@
       "Julien Alfred"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ebcc37e02b",
@@ -793,12 +841,13 @@
       "Karsten Warholm"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6814c84f73",
@@ -807,18 +856,20 @@
     "pergunta": "Qual skatista brasileiro ganhou o bronze no park em Paris 2024?",
     "resposta": "Augusto Akio",
     "alternativas": [
-      "Kelvin Hoefler",
+      "Pedro Quintas",
       "Pedro Barros",
       "Gui Khury",
       "Augusto Akio"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Kelvin Hoefler era a resposta de banco:8721, do mesmo molde (medalhista do skate); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "694a2dc379",
@@ -829,16 +880,18 @@
     "alternativas": [
       "Coco Gauff",
       "Victoria Azarenka",
-      "Iga Świątek",
+      "Elena Rybakina",
       "Aryna Sabalenka"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Iga Świątek era a resposta de banco:6732 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "475cf179e9",
@@ -849,16 +902,19 @@
     "alternativas": [
       "Alex Sandro",
       "Emerson Palmieri",
-      "Jorginho",
+      "Thiago Motta",
       "Rafael Tolói"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Jorginho era a resposta de banco:5769 (campeão da mesma Eurocopa, respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "d2bea268b5",
@@ -869,16 +925,19 @@
     "alternativas": [
       "Marílson Gomes dos Santos",
       "Franck Caldeira",
-      "Vanderlei Cordeiro de Lima",
+      "José Telles",
       "Ronaldo da Costa"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Vanderlei Cordeiro de Lima era a resposta de banco:2733 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "ca09e4be1b",
@@ -893,12 +952,13 @@
       "Novela das sete"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "120ebe1da9",
@@ -913,12 +973,13 @@
       "Din-don"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "94f3116b8f",
@@ -929,16 +990,18 @@
     "alternativas": [
       "Legendas",
       "Sinopse",
-      "Trailer",
+      "Teaser",
       "Créditos"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Trailer era a resposta de 067:371c49, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ccf2993603",
@@ -953,12 +1016,13 @@
       "Lançamento em DVD"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f2d628f97d",
@@ -973,12 +1037,13 @@
       "Plateia"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cff5580589",
@@ -989,16 +1054,18 @@
     "alternativas": [
       "Narrador",
       "Protagonista",
-      "Antagonista",
+      "Roteirista",
       "Coadjuvante"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Antagonista era a resposta de 4ec30 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4ec30158ac",
@@ -1010,15 +1077,17 @@
       "Antagonista",
       "Coadjuvante",
       "Narrador",
-      "Figurante"
+      "Roteirista"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Figurante era a resposta de banco:9040, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "df2385a105",
@@ -1033,12 +1102,13 @@
       "Churros"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0a6a90d635",
@@ -1053,12 +1123,13 @@
       "Montador"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "282f0a67ea",
@@ -1067,18 +1138,20 @@
     "pergunta": "Qual série do Globoplay, de 2023, começa com uma briga entre vizinhos de condomínio?",
     "resposta": "Os Outros",
     "alternativas": [
-      "Irmandade",
-      "Cidade Invisível",
-      "Sintonia",
+      "Rensga Hits!",
+      "Todas as Flores",
+      "Justiça",
       "Os Outros"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 62990 (mesmo lote), 062:d69f2d e 065:2c5dbd, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8f661ef16d",
@@ -1087,18 +1160,20 @@
     "pergunta": "Qual sueco ganhou o Oscar de 2024 pela trilha de \"Oppenheimer\"?",
     "resposta": "Ludwig Göransson",
     "alternativas": [
-      "Hans Zimmer",
+      "Alexandre Desplat",
       "Ludwig Göransson",
       "Max Richter",
       "Jóhann Jóhannsson"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Hans Zimmer era a resposta de 067:58968a, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b5b6e0b748",
@@ -1113,12 +1188,13 @@
       "Annie Ernaux"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7285",
     "recente": true,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cbbbf96477",
@@ -1129,16 +1205,18 @@
     "alternativas": [
       "Libreto",
       "Prólogo",
-      "Partitura",
+      "Abertura",
       "Roteiro"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Partitura era a resposta de banco:7760 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3754c4c922",
@@ -1153,12 +1231,13 @@
       "Genebra"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c755296d84",
@@ -1173,12 +1252,13 @@
       "Chico Canta"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "38d51219e0",
@@ -1213,12 +1293,13 @@
       "Scratch"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5b5873e6c9",
@@ -1233,12 +1314,13 @@
       "Rosalinda"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "eaa35f41b9",
@@ -1253,12 +1335,13 @@
       "Santo Daime"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3518",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "19faf3cde9",
@@ -1269,16 +1352,18 @@
     "alternativas": [
       "Lasar Segall",
       "Frans Krajcberg",
-      "Bruno Giorgi",
-      "Victor Brecheret"
+      "Franz Weissmann",
+      "Mário Cravo Júnior"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Bruno Giorgi e Victor Brecheret eram respostas de 070:3d6177 e banco:7087, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0b979d61b8",
@@ -1290,15 +1375,17 @@
       "Grunge",
       "Rockabilly",
       "Surf music",
-      "Bluegrass"
+      "Soul"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Bluegrass era a resposta de banco:9248 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "29e7fe1da6",
@@ -1310,15 +1397,17 @@
       "Coala",
       "Festival de Verão",
       "João Rock",
-      "Planeta Atlântida"
+      "Universo Paralello"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Planeta Atlântida era a resposta de 074:f219fd (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "906b2de42e",
@@ -1328,17 +1417,19 @@
     "resposta": "Capinha",
     "alternativas": [
       "Capinha",
-      "Película",
+      "Skin adesiva",
       "Pop socket",
       "Carregador"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Película era a resposta de banco:9368 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6645797227",
@@ -1353,12 +1444,13 @@
       "Amplificador"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "41b4dc8fb4",
@@ -1367,18 +1459,20 @@
     "pergunta": "Qual função do celular toca um som na hora marcada para acordar?",
     "resposta": "Alarme",
     "alternativas": [
-      "Lanterna",
-      "Calendário",
+      "Modo silencioso",
+      "Bússola",
       "Cronômetro",
       "Alarme"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Lanterna e Calendário eram respostas de 073:1e93d3 e 020a3 (mesmo lote), do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "020a3d6739",
@@ -1393,12 +1487,13 @@
       "Calendário"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f99525e212",
@@ -1413,12 +1508,13 @@
       "Gravador"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7091",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.6)"
+    "dup_regra": "resposta nova citada no texto antigo (6.6)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b1f740796b",
@@ -1433,12 +1529,14 @@
       "Neon"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "fd5610e275",
@@ -1448,17 +1546,19 @@
     "resposta": "After Effects",
     "alternativas": [
       "InDesign",
-      "Lightroom",
+      "Audition",
       "After Effects",
       "Illustrator"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Lightroom era a resposta de banco:8960, do mesmo molde (programa da Adobe); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2986d14400",
@@ -1468,17 +1568,19 @@
     "resposta": "Final Cut",
     "alternativas": [
       "Final Cut",
-      "DaVinci Resolve",
+      "Vegas",
       "CapCut",
       "Premiere"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada DaVinci Resolve era a resposta de 3060c (mesmo lote), que tinha Final Cut entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "916c43dbd8",
@@ -1487,18 +1589,20 @@
     "pergunta": "No futebol, qual tecnologia avisa ao árbitro, no relógio, se a bola cruzou a linha do gol?",
     "resposta": "Tecnologia da linha do gol",
     "alternativas": [
-      "Impedimento semiautomático",
-      "VAR",
+      "Chip na caneleira",
+      "Cronômetro oficial",
       "Spray de barreira",
       "Tecnologia da linha do gol"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Impedimento semiautomático e VAR eram respostas de 074:e515c4 e banco:5473, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "33b3ca0cb1",
@@ -1510,15 +1614,17 @@
       "MATLAB",
       "Excel",
       "SPSS",
-      "AutoCAD"
+      "Photoshop"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada AutoCAD era a resposta de banco:3959 e também é muito usado por engenheiros (defensável); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3060cea4d1",
@@ -1528,17 +1634,19 @@
     "resposta": "DaVinci Resolve",
     "alternativas": [
       "DaVinci Resolve",
-      "Final Cut",
+      "Avid Media Composer",
       "Premiere",
       "iMovie"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Final Cut era a resposta de 2986d (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c9d47b4374",
@@ -1547,18 +1655,21 @@
     "pergunta": "Qual micro MSX dos anos 1980 foi lançado pela Gradiente?",
     "resposta": "Expert",
     "alternativas": [
-      "Hotbit",
-      "TK-85",
-      "CP-500",
+      "MC-1000",
+      "Itautec I-7000",
+      "Apple II",
       "Expert"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:7303, banco:7394 e banco:9637, com Expert entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "23b859b515",
@@ -1567,18 +1678,20 @@
     "pergunta": "Qual componente funciona como um interruptor acionado por um sinal elétrico?",
     "resposta": "Relé",
     "alternativas": [
-      "Capacitor",
+      "Potenciômetro",
       "Relé",
-      "Resistor",
-      "Diodo"
+      "Fusível",
+      "LED"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 074:3bdcf8, 074:fbf6b4 e 074:7ebdb4 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d94ee7590b",
@@ -1587,18 +1700,20 @@
     "pergunta": "Qual robô humanoide branco, com um tablet no peito, foi lançado pela SoftBank em 2014?",
     "resposta": "Pepper",
     "alternativas": [
-      "Atlas",
+      "Kismet",
       "Pepper",
-      "Asimo",
-      "Sophia"
+      "Ameca",
+      "Robonaut"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de banco:4537, banco:4374 e banco:4306, com Pepper entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "945f145a8c",
@@ -1613,12 +1728,13 @@
       "Pluto TV"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3017ceba56",
@@ -1633,12 +1749,13 @@
       "Brasília"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "64f65e5391",
@@ -1653,12 +1770,13 @@
       "Rio de Janeiro"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "825b7d26e3",
@@ -1673,12 +1791,13 @@
       "Fermium"
     ],
     "subtema": "Química",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 8 perguntas 'qual palavra latina deu o símbolo X' na rodada; cortado o excesso (Ferrum, ainda em cadeia com banco:1649 'Fe representa qual elemento')",
     "dup": "suspeita",
     "dup_ref": "id:0047d76cfa",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3407eadacd",
@@ -1693,12 +1812,13 @@
       "Cobrum"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ad91f0143b",
@@ -1713,12 +1833,13 @@
       "Sabulum"
     ],
     "subtema": "Química",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 8 perguntas 'qual palavra latina deu o símbolo X' na rodada, com Stannum e Stibium cruzados nas alternativas (bdbb6); cortado o excesso (Stibium)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1dcadc7253",
@@ -1733,12 +1854,13 @@
       "AT&T Stadium"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "62990fa75c",
@@ -1747,18 +1869,20 @@
     "pergunta": "Qual série da Netflix, de 2019, tem Seu Jorge como líder de uma facção criminosa nos anos 1990?",
     "resposta": "Irmandade",
     "alternativas": [
-      "Cidade Invisível",
+      "Coisa Mais Linda",
       "DNA do Crime",
-      "Sintonia",
+      "O Escolhido",
       "Irmandade"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Cidade Invisível e Sintonia eram respostas de 062:d69f2d e 065:2c5dbd (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6f122f999b",
@@ -1767,18 +1891,21 @@
     "pergunta": "Qual judoca ganhou a primeira medalha olímpica do judô brasileiro, um bronze em Munique 1972?",
     "resposta": "Chiaki Ishii",
     "alternativas": [
-      "Rogério Sampaio",
+      "Luiz Onmura",
       "Chiaki Ishii",
-      "Aurélio Miguel",
+      "Douglas Vieira",
       "Walter Carmona"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Rogério Sampaio e Aurélio Miguel eram respostas de banco:3182 e banco:2759 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "0dc11cba5b",
@@ -1804,7 +1931,7 @@
     "id": "2b6627dcb5",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual meia uruguaio, campeão brasileiro de 1977, é um dos maiores ídolos do São Paulo?",
+    "pergunta": "Qual meia uruguaio, ídolo dos anos 1970, é o maior artilheiro estrangeiro da história do São Paulo?",
     "resposta": "Pedro Rocha",
     "alternativas": [
       "Pedro Rocha",
@@ -1813,12 +1940,15 @@
       "Lugano"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "não há confirmação de que Pedro Rocha jogou o Brasileiro de 1977 (saiu do clube naquele ano); reescrito com o fato confirmado (119 gols, maior artilheiro estrangeiro do São Paulo)",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "8b31581be5",
@@ -1827,18 +1957,20 @@
     "pergunta": "Qual meia colombiano foi o capitão do Corinthians campeão mundial de clubes em 2000?",
     "resposta": "Freddy Rincón",
     "alternativas": [
-      "Faustino Asprilla",
+      "Iván Valenciano",
       "Juan Pablo Ángel",
       "Carlos Valderrama",
       "Freddy Rincón"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Faustino Asprilla era a resposta de 070:7b9b57 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b08cc1ed9e",
@@ -1853,11 +1985,12 @@
       "Zinho"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   }
 ]

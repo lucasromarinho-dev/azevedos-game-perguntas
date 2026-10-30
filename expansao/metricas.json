@@ -11539,6 +11539,104 @@
           "f2fd4f9d54",
           "2966cb503e"
         ]
+      },
+      {
+        "lote": "098",
+        "conferente": "conferente-v10",
+        "conferidas": 65,
+        "conferidas_sem_mudanca": 59,
+        "com_mudanca": 6,
+        "corrigidas": 6,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "espelho/duplicada": 1,
+          "fato que pode mudar": 1,
+          "duplicada (banco)": 1
+        },
+        "perguntas_com_busca_web": 58,
+        "suspeitas": {
+          "total": 9,
+          "mantidas": 8,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 6,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 8,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "949056be22: espelho/duplicada: espelho de banco:5380 (\"Qual missão europeia pousou um robô num cometa pela primeira vez?\" => Rosetta): mesmo fato, pede o módulo em vez da missão",
+          "a660469116: fato que pode mudar: o prédio foi rebatizado (Wikipedia: Merdeka Maybank Tower, \"formerly known as Merdeka 118\"); a resposta deixou de ser o nome oficial",
+          "3dc20db8f5: duplicada (banco): mesmo fato que banco:2596 (\"Qual boxeador baiano, conhecido como Popó, foi campeão mundial?\" => Acelino Freitas)"
+        ],
+        "correcoes": [
+          "7441f55e5b: BioWare - a BioWare foi fundada por três médicos (Muzyka, Zeschuk e Yip), não dois; enunciado corrigido (checagem web) (antes: \"Qual estúdio canadense, fundado por dois médicos em 1995, criou as séries Dragon Age e Neverwinter Nights?\")",
+          "81532917a6: The Shard - \"projetado por Renzo Piano\" citava a resposta de 056:f1e8ae81dc (arquiteto do Pompidou => Renzo Piano); enunciado refeito (antes: \"Qual arranha-céu de vidro em forma de pirâmide, projetado por Renzo Piano, é o prédio mais alto do Reino Unido?\")",
+          "88ed8de952: Visconde do Rio Branco - \"Lei do Ventre Livre\" é a resposta de banco:806; enunciado refeito sem o nome da lei (a lei também é chamada de Lei Rio Branco) (antes: \"Qual chefe de gabinete do Império deu nome à Lei do Ventre Livre, de 1871?\")",
+          "0a82a96a55: Barão de Cotegipe - \"Lei Áurea\" é a resposta de banco:5909; enunciado refeito (antes: \"Qual senador baiano foi um dos poucos a votar contra a Lei Áurea, em 1888?\")",
+          "c020e31b5d: Bernardo Pereira de Vasconcelos - \"Período Regencial\" é a resposta de banco:1074; enunciado refeito (antes: \"Qual político mineiro defendeu o \"Regresso\" conservador no Período Regencial, nos anos 1830?\")",
+          "7b5093dcab: Gnaisse - \"Baía de Guanabara\" é a resposta de banco:215; enunciado refeito (antes: \"Qual rocha metamórfica, com cristais em forma de \"olhos\", forma os morros íngremes que cercam a Baía de Guanabara?\")"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 1,
+          "fato impreciso": 1,
+          "fato que pode mudar": 1,
+          "entrega a resposta": 5,
+          "duplicada (banco)": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "949056be22: espelho/duplicada: espelho de banco:5380 (\"Qual missão europeia pousou um robô num cometa pela primeira vez?\" => Rosetta): mesmo fato, pede o módulo em vez da missão",
+          "fato impreciso": "7441f55e5b: BioWare - a BioWare foi fundada por três médicos (Muzyka, Zeschuk e Yip), não dois; enunciado corrigido (checagem web) (antes: \"Qual estúdio canadense, fundado por dois médicos em 1995, criou as séries Dragon Age e Neverwinter Nights?\")",
+          "fato que pode mudar": "a660469116: fato que pode mudar: o prédio foi rebatizado (Wikipedia: Merdeka Maybank Tower, \"formerly known as Merdeka 118\"); a resposta deixou de ser o nome oficial",
+          "entrega a resposta": "81532917a6: The Shard - \"projetado por Renzo Piano\" citava a resposta de 056:f1e8ae81dc (arquiteto do Pompidou => Renzo Piano); enunciado refeito (antes: \"Qual arranha-céu de vidro em forma de pirâmide, projetado por Renzo Piano, é o prédio mais alto do Reino Unido?\")",
+          "duplicada (banco)": "3dc20db8f5: duplicada (banco): mesmo fato que banco:2596 (\"Qual boxeador baiano, conhecido como Popó, foi campeão mundial?\" => Acelino Freitas)"
+        },
+        "risco_sem_checagem_conferente": [
+          "0a82a96a55",
+          "a848474638",
+          "c020e31b5d",
+          "7b5093dcab",
+          "8bdb3dd069",
+          "96ba8c39fe"
+        ]
       }
     ],
     "rebaixamentos_r3": {

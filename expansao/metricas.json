@@ -7750,6 +7750,61 @@
         "dominios_internet": "30 -> 18",
         "ddd": "20 -> 18",
         "palavra_em_qual_lingua": "2 cortadas no 063 (Sayonara, terceira resposta Japonês; Hola, repetia Adiós)"
+      },
+      "checagem_web_complementar": {
+        "data": "30/10/2026",
+        "alvo": "risco_sem_verificado_web (210 ids)",
+        "buscas_web": 200,
+        "obs_buscas": "WebSearch e leitura de páginas (Wikipédia, dicionários Dicio e Priberam, imprensa); uma página confirmando até 6 fatos quando possível (signos, datas comemorativas, notas de dólar, domínios)",
+        "confirmadas_sem_mudanca": 189,
+        "corrigidas": 9,
+        "rebaixadas": 3,
+        "descartadas": 1,
+        "sem_checar": 8,
+        "ids_sem_checar": {
+          "063": [
+            "28dab6c759",
+            "5cce87d6e5",
+            "82d601bd5e",
+            "a2008a5e47",
+            "c386c14364",
+            "73958b6507",
+            "87e8cec80a",
+            "0662b8b37e"
+          ]
+        },
+        "corrigidas_detalhe": {
+          "d66873a061": "errada Quirguistanês é gentílico válido; trocada por Quirguense",
+          "88192f5193": "canastra não é 'a que vale mais pontos'; enunciado reescrito",
+          "8b8def2280": "amárico divide desde 2020 o status federal com outras línguas; 'a principal língua oficial'",
+          "fb7c0c7d04": "errada Ligadura também prolonga a nota; trocada por Sustenido",
+          "b0a3f51817": "CNPJ alfanumérico desde julho de 2026; 'dígitos' virou 'caracteres'",
+          "696a167f56": "a língua do pica-pau se enrola por fora do crânio, não por dentro",
+          "96fcdff4de": "sepak takraw permite joelho, peito e cabeça; 'só com os pés' virou 'sem as mãos, principalmente com os pés'",
+          "aae28ebbb9": "errada Boto-cinza também é pequena, do litoral Sul/Sudeste e vulnerável; trocada por Boto-cor-de-rosa",
+          "f00743c467": "resposta Beatniks trocada por Geração Beat (nome do movimento literário)"
+        },
+        "rebaixadas_detalhe": [
+          "e1423d6f27 sem eira nem beira",
+          "2a72fd3c70 onde Judas perdeu as botas",
+          "e78486aa40 clean sheet"
+        ],
+        "descartadas_detalhe": {
+          "5c2afbe1ea": "fato que vai mudar: BWF aprovou o 3x15 no badminton a partir de janeiro de 2027"
+        },
+        "por_lote": {
+          "056": "10/0/1",
+          "057": "14/0/0",
+          "058": "14/2/0 (+2 rebaixadas)",
+          "059": "26/4/0",
+          "060": "21/0/0",
+          "061": "18/1/0",
+          "062": "25/0/0 (+1 rebaixada)",
+          "063": "27/1/0, 8 sem checar",
+          "064": "16/1/0",
+          "065": "18/0/0"
+        },
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas e rebaixadas também ganharam verificado_web; correções anotadas no campo correcao da ficha com '(checagem web complementar r6)'"
       }
     }
   },

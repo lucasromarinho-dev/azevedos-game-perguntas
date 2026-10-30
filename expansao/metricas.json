@@ -2988,6 +2988,47 @@
         "perguntas": 70,
         "total": 221
       }
+    },
+    {
+      "lote": "077",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 107,
+      "validas": 88,
+      "descartadas": 19,
+      "taxa_descarte": 0.18,
+      "caracteres": 16371,
+      "tokens_aprox": 4677,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r8-077.txt",
+        "r8-077b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r8-077.txt",
+          "r8-077b.txt"
+        ],
+        "linhas": 272,
+        "existem": 93,
+        "risco": 26,
+        "tokens_aprox": 3965,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.34,
+        "candidatas_por_valida": 3.09
+      },
+      "perguntas": {
+        "escritas": 107,
+        "validas": 88,
+        "descartadas_detector": 19,
+        "descarte": 0.18,
+        "tokens_aprox": 4677
+      },
+      "tokens_por_valida": {
+        "listas": 45,
+        "perguntas": 53,
+        "total": 98
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -10259,6 +10300,22 @@
       "livres": 11,
       "caracteres": 2655,
       "tokens_aprox": 759
+    },
+    "r8-077.txt": {
+      "linhas": 203,
+      "existem": 57,
+      "risco": 19,
+      "livres": 127,
+      "caracteres": 10242,
+      "tokens_aprox": 2926
+    },
+    "r8-077b.txt": {
+      "linhas": 69,
+      "existem": 36,
+      "risco": 7,
+      "livres": 26,
+      "caracteres": 3635,
+      "tokens_aprox": 1039
     }
   },
   "rodada3": {

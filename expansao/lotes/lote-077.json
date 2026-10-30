@@ -46,8 +46,8 @@
     "pergunta": "Qual creme deixava o cabelo dos homens brilhante e penteado para trás nos anos 1950?",
     "resposta": "Brilhantina",
     "alternativas": [
-      "Henna",
       "Brilhantina",
+      "Henna",
       "Pó de arroz",
       "Talco"
     ],
@@ -168,8 +168,8 @@
     "alternativas": [
       "Margem",
       "Cabeçalho",
-      "Sumário",
-      "Rodapé"
+      "Rodapé",
+      "Sumário"
     ],
     "subtema": "Programação",
     "status": "gerada",
@@ -208,8 +208,8 @@
     "alternativas": [
       "Juazeiro do Norte",
       "Olinda",
-      "Caruaru",
-      "Nova Jerusalém"
+      "Nova Jerusalém",
+      "Caruaru"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
@@ -360,26 +360,6 @@
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
   },
   {
-    "id": "427464a5a1",
-    "categoria": "Geografia",
-    "dificuldade": "medio",
-    "pergunta": "Qual é a avenida mais famosa do centro de Madri, cheia de teatros, cinemas e lojas?",
-    "resposta": "Gran Vía",
-    "alternativas": [
-      "Las Ramblas",
-      "Gran Vía",
-      "Via del Corso",
-      "Champs-Élysées"
-    ],
-    "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
-    "recente": false,
-    "dup_regra": null
-  },
-  {
     "id": "6a765ba0c2",
     "categoria": "Esportes",
     "dificuldade": "medio",
@@ -472,6 +452,1690 @@
       "Torresmo"
     ],
     "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "45587a3b49",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual região de Minas Gerais ficam as cidades de Uberlândia e Uberaba?",
+    "resposta": "Triângulo Mineiro",
+    "alternativas": [
+      "Vale do Jequitinhonha",
+      "Sul de Minas",
+      "Zona da Mata",
+      "Triângulo Mineiro"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5260 (E5 resposta antiga citada no texto novo + assunto (16.1))",
+    "dup": "certa",
+    "dup_ref": "banco:5260",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.1)"
+  },
+  {
+    "id": "2f18f97798",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama quem nasce em João Pessoa?",
+    "resposta": "Pessoense",
+    "alternativas": [
+      "Pessoano",
+      "Pessoês",
+      "Joanino",
+      "Pessoense"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7599d5018a",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama quem nasce em Campo Grande, capital de Mato Grosso do Sul?",
+    "resposta": "Campo-grandense",
+    "alternativas": [
+      "Grandino",
+      "Campo-grandense",
+      "Campo-grandino",
+      "Campestre"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:97 (E2c mesma resposta e ela aparece no outro enunciado (17.6))",
+    "dup": "certa",
+    "dup_ref": "banco:97",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (17.6)"
+  },
+  {
+    "id": "40d2bb811e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o trecho do litoral sul da Bahia, com Porto Seguro e Trancoso, onde chegou a esquadra de Cabral?",
+    "resposta": "Costa do Descobrimento",
+    "alternativas": [
+      "Costa do Sauípe",
+      "Costa do Descobrimento",
+      "Costa do Dendê",
+      "Costa dos Coqueiros"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:915 (E5 resposta antiga citada no texto novo + assunto (30.0))",
+    "dup": "certa",
+    "dup_ref": "banco:915",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (30.0)"
+  },
+  {
+    "id": "bf1bcd5795",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Blumenau, a cidade da Oktoberfest, fica em qual vale de Santa Catarina?",
+    "resposta": "Vale do Itajaí",
+    "alternativas": [
+      "Vale do Paraíba",
+      "Vale dos Vinhedos",
+      "Vale do Ribeira",
+      "Vale do Itajaí"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:146 (E5 resposta antiga citada no texto novo + assunto (25.5))",
+    "dup": "certa",
+    "dup_ref": "banco:146",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (25.5)"
+  },
+  {
+    "id": "5a32bc27c0",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a região de pampas na fronteira do Rio Grande do Sul com Uruguai e Argentina, terra de estâncias e gado?",
+    "resposta": "Campanha Gaúcha",
+    "alternativas": [
+      "Missões",
+      "Litoral Norte",
+      "Serra Gaúcha",
+      "Campanha Gaúcha"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:499 (E5 resposta antiga citada no texto novo + assunto (21.3))",
+    "dup": "certa",
+    "dup_ref": "banco:499",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (21.3)"
+  },
+  {
+    "id": "53be35e7dc",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual apelido brincalhão recebem os nascidos em Niterói?",
+    "resposta": "Papa-goiaba",
+    "alternativas": [
+      "Barriga-verde",
+      "Papa-siri",
+      "Papa-jerimum",
+      "Papa-goiaba"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8690 (E2d respostas dividem a palavra rara + muito assunto em comum (22.4))",
+    "dup": "certa",
+    "dup_ref": "banco:8690",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (22.4)"
+  },
+  {
+    "id": "e7d954450d",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o extremo oeste do estado de São Paulo, na divisa com Paraná e Mato Grosso do Sul?",
+    "resposta": "Pontal do Paranapanema",
+    "alternativas": [
+      "Vale do Ribeira",
+      "Pontal do Paranapanema",
+      "Alta Mogiana",
+      "Alta Paulista"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:773 (E5 resposta antiga citada no texto novo + assunto (31.9))",
+    "dup": "certa",
+    "dup_ref": "banco:773",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (31.9)"
+  },
+  {
+    "id": "babada7a6a",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o extremo norte do Tocantins, entre os rios Araguaia e Tocantins?",
+    "resposta": "Bico do Papagaio",
+    "alternativas": [
+      "Cabeça do Cachorro",
+      "Ponta do Tucano",
+      "Bico do Papagaio",
+      "Bico da Arara"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:6810 (E5 resposta antiga citada no texto novo + assunto (15.4))",
+    "dup": "certa",
+    "dup_ref": "banco:6810",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.4)"
+  },
+  {
+    "id": "804310dac7",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Por causa de um prato de farinha com água, qual apelido brincalhão recebem os paraenses?",
+    "resposta": "Papa-chibé",
+    "alternativas": [
+      "Papa-jerimum",
+      "Papa-tacacá",
+      "Papa-chibé",
+      "Papa-goma"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8690 (E2d respostas dividem a palavra rara + muito assunto em comum (16.3))",
+    "dup": "certa",
+    "dup_ref": "banco:8690",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (16.3)"
+  },
+  {
+    "id": "72c7950478",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual apelido, nome de um povo indígena da região, é dado a quem nasce em Manaus?",
+    "resposta": "Baré",
+    "alternativas": [
+      "Baré",
+      "Potiguar",
+      "Tupi",
+      "Caeté"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "514fb46dd3",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual jornalista e empresário fundou a TV Globo, em 1965?",
+    "resposta": "Roberto Marinho",
+    "alternativas": [
+      "Silvio Santos",
+      "Roberto Marinho",
+      "Assis Chateaubriand",
+      "Adolpho Bloch"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f45ff50092",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual feriado católico móvel cai sempre numa quinta-feira, cerca de 60 dias depois da Páscoa?",
+    "resposta": "Corpus Christi",
+    "alternativas": [
+      "Corpus Christi",
+      "Pentecostes",
+      "Quarta-feira de Cinzas",
+      "Sexta-feira Santa"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "98bc4d8b3b",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual boneca foi criada pela americana Ruth Handler em 1959?",
+    "resposta": "Barbie",
+    "alternativas": [
+      "Polly",
+      "Emília",
+      "Susi",
+      "Barbie"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7470 (E2e mesma resposta rara e algum assunto em comum (14.7, sim 0.3))",
+    "dup": "certa",
+    "dup_ref": "banco:7470",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (14.7, sim 0.3)"
+  },
+  {
+    "id": "eb32e95451",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual brinquedo de peças de encaixe foi criado pelo carpinteiro dinamarquês Ole Kirk Christiansen?",
+    "resposta": "Lego",
+    "alternativas": [
+      "Lego",
+      "Playmobil",
+      "Pequeno Engenheiro",
+      "Mecano"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7562 (E2e mesma resposta rara e algum assunto em comum (6.6, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:7562",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.6, sim 0.1)"
+  },
+  {
+    "id": "59c834cae1",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em 2024, qual data passou a ser feriado nacional no Brasil, como Dia da Consciência Negra?",
+    "resposta": "20 de novembro",
+    "alternativas": [
+      "13 de maio",
+      "21 de março",
+      "20 de novembro",
+      "22 de novembro"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:567b0d045e",
+    "recente": true,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (13.6)",
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de id:567b0d045e (E3 resposta nova citada no texto antigo + assunto (13.6))"
+  },
+  {
+    "id": "676dcc75e3",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual empresário, dono dos Diários Associados, inaugurou a primeira emissora de TV do Brasil, em 1950?",
+    "resposta": "Assis Chateaubriand",
+    "alternativas": [
+      "Roberto Marinho",
+      "Assis Chateaubriand",
+      "Adolpho Bloch",
+      "Samuel Wainer"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9aae5db23c",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual americano criou em 1946 os potes plásticos de tampa hermética que levam o seu sobrenome?",
+    "resposta": "Earl Tupper",
+    "alternativas": [
+      "Henry Heinz",
+      "John Kellogg",
+      "Earl Tupper",
+      "Ray Kroc"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "595d5a859f",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual mecânico americano inventou o alfinete de segurança, em 1849, e vendeu a patente por pouco dinheiro?",
+    "resposta": "Walter Hunt",
+    "alternativas": [
+      "Samuel Colt",
+      "Walter Hunt",
+      "Isaac Singer",
+      "Elias Howe"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c89646cef",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual americana criou nos anos 1930, na pousada Toll House, o biscoito com gotas de chocolate?",
+    "resposta": "Ruth Wakefield",
+    "alternativas": [
+      "Ruth Wakefield",
+      "Julia Child",
+      "Betty Crocker",
+      "Fannie Farmer"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb38f448e7",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual foi a primeira telenovela brasileira, exibida pela TV Tupi em 1951?",
+    "resposta": "Sua Vida Me Pertence",
+    "alternativas": [
+      "Sua Vida Me Pertence",
+      "Beto Rockfeller",
+      "2-5499 Ocupado",
+      "O Direito de Nascer"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "90891401ae",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual emissora carioca da Era do Rádio, rival da Rádio Nacional, teve a concessão encerrada em 1965, no início do regime militar?",
+    "resposta": "Rádio Mayrink Veiga",
+    "alternativas": [
+      "Rádio Tupi",
+      "Rádio Mayrink Veiga",
+      "Rádio Jornal do Brasil",
+      "Rádio Globo"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:f834faff73 (E2c mesma resposta e ela aparece no outro enunciado (8.5))",
+    "dup": "certa",
+    "dup_ref": "id:f834faff73",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (8.5)"
+  },
+  {
+    "id": "1691f41912",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual americana patenteou em 1914 o sutiã moderno, feito com dois lenços e uma fita?",
+    "resposta": "Mary Phelps Jacob",
+    "alternativas": [
+      "Ida Rosenthal",
+      "Mary Phelps Jacob",
+      "Coco Chanel",
+      "Margaret Knight"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a54a158c2",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama um período de quinze dias?",
+    "resposta": "Quinzena",
+    "alternativas": [
+      "Quinzena",
+      "Quinquênio",
+      "Bimestre",
+      "Dezena"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8afe3ddc90",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama um período de dois meses?",
+    "resposta": "Bimestre",
+    "alternativas": [
+      "Bimestre",
+      "Biênio",
+      "Trimestre",
+      "Semestre"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:28b5cb643d",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "821243b9ee",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantas faces tem um cubo?",
+    "resposta": "6",
+    "alternativas": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de13967f74",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual sólido geométrico tem a forma de uma lata de refrigerante?",
+    "resposta": "Cilindro",
+    "alternativas": [
+      "Prisma",
+      "Cone",
+      "Esfera",
+      "Cilindro"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9568",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "61f8196f69",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o ponto onde se encontram dois lados de um triângulo?",
+    "resposta": "Vértice",
+    "alternativas": [
+      "Mediana",
+      "Diagonal",
+      "Aresta",
+      "Vértice"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ae2f963902",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual sistema de numeração usa letras como I, V, X, L e C?",
+    "resposta": "Romano",
+    "alternativas": [
+      "Binário",
+      "Romano",
+      "Arábico",
+      "Maia"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7422 (E2 mesma resposta e enunciados parecidos (1.0))",
+    "dup": "certa",
+    "dup_ref": "banco:7422",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (1.0)"
+  },
+  {
+    "id": "57541746c4",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual período de tempo corresponde a um quinquênio?",
+    "resposta": "5 anos",
+    "alternativas": [
+      "5 meses",
+      "50 anos",
+      "5 anos",
+      "15 anos"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "defdaa7e4c",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual quebra-cabeça chinês forma figuras com sete peças, entre triângulos, um quadrado e um paralelogramo?",
+    "resposta": "Tangram",
+    "alternativas": [
+      "Mahjong",
+      "Sudoku",
+      "Tangram",
+      "Go"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "41eb5185eb",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a linha em que se encontram duas faces de um sólido, como as quinas de um dado?",
+    "resposta": "Aresta",
+    "alternativas": [
+      "Lado",
+      "Aresta",
+      "Vértice",
+      "Altura"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c73d0565cf",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual quebra-cabeça de discos de tamanhos diferentes deve ser passado de um pino a outro sem nunca pôr um disco maior sobre um menor?",
+    "resposta": "Torre de Hanói",
+    "alternativas": [
+      "Cubo de Rubik",
+      "Torre de Hanói",
+      "Resta Um",
+      "Torre de Babel"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f19c1a6b0d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a atividade de aventura de atravessar pontes, redes e cabos entre as copas das árvores?",
+    "resposta": "Arvorismo",
+    "alternativas": [
+      "Canopy",
+      "Trekking",
+      "Rapel",
+      "Arvorismo"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ab6b6090c0",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o cabo de aço inclinado em que a pessoa desliza presa por uma roldana?",
+    "resposta": "Tirolesa",
+    "alternativas": [
+      "Tirolesa",
+      "Bungee jump",
+      "Escalada",
+      "Rapel"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7b997bbfdf",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "O krav maga é o sistema de defesa pessoal das forças armadas de qual país?",
+    "resposta": "Israel",
+    "alternativas": [
+      "Tailândia",
+      "Coreia do Sul",
+      "Japão",
+      "Israel"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "81e3d5ee4a",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantos quilômetros tem a Corrida de São Silvestre, disputada em São Paulo no último dia do ano?",
+    "resposta": "15 km",
+    "alternativas": [
+      "10 km",
+      "21 km",
+      "15 km",
+      "42 km"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5193 (R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 20.6))",
+    "dup": "certa",
+    "dup_ref": "banco:5193",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 20.6)"
+  },
+  {
+    "id": "26ed8965a4",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual arte marcial japonesa, criada por Morihei Ueshiba, usa a força do próprio adversário para derrubá-lo?",
+    "resposta": "Aikidô",
+    "alternativas": [
+      "Sumô",
+      "Aikidô",
+      "Kendô",
+      "Kyudo"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "56e0ab22a7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Por qual time da NFL Tom Brady ganhou seis títulos do Super Bowl?",
+    "resposta": "New England Patriots",
+    "alternativas": [
+      "Tampa Bay Buccaneers",
+      "Green Bay Packers",
+      "New England Patriots",
+      "Denver Broncos"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2992 (E5 resposta antiga citada no texto novo + assunto (24.5))",
+    "dup": "certa",
+    "dup_ref": "banco:2992",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.5)"
+  },
+  {
+    "id": "3bbc3be106",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o nome do programa de debates esportivos de Galvão Bueno no SporTV?",
+    "resposta": "Bem, Amigos!",
+    "alternativas": [
+      "Redação SporTV",
+      "Bem, Amigos!",
+      "Seleção SporTV",
+      "Troca de Passes"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6c5b8c37cd",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual apresentador comandou por anos o programa esportivo \"Terceiro Tempo\"?",
+    "resposta": "Milton Neves",
+    "alternativas": [
+      "Juca Kfouri",
+      "Flávio Prado",
+      "Neto",
+      "Milton Neves"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "243a9982c6",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "A quantos metros da bola deve ficar a barreira numa cobrança de falta?",
+    "resposta": "9,15 m",
+    "alternativas": [
+      "11 m",
+      "5,5 m",
+      "9,15 m",
+      "7 m"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "546c549f6b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual time de beisebol ficou 108 anos sem título, entre 1908 e 2016, e falava na \"maldição do bode\"?",
+    "resposta": "Chicago Cubs",
+    "alternativas": [
+      "New York Mets",
+      "Cleveland Guardians",
+      "Boston Red Sox",
+      "Chicago Cubs"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba5eeef313",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual time de beisebol se mudou do Brooklyn, em Nova York, para a Califórnia, em 1958?",
+    "resposta": "Los Angeles Dodgers",
+    "alternativas": [
+      "San Francisco Giants",
+      "Oakland Athletics",
+      "San Diego Padres",
+      "Los Angeles Dodgers"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2478",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "4fafceb267",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual time da NFL tem no nome uma homenagem aos garimpeiros que chegaram a São Francisco em 1849?",
+    "resposta": "San Francisco 49ers",
+    "alternativas": [
+      "Denver Broncos",
+      "Las Vegas Raiders",
+      "San Francisco 49ers",
+      "Pittsburgh Steelers"
+    ],
+    "subtema": "Esportes americanos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "085d39dbde",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube escocês manda seus jogos no Celtic Park, em Glasgow?",
+    "resposta": "Celtic",
+    "alternativas": [
+      "Hearts",
+      "Aberdeen",
+      "Rangers",
+      "Celtic"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9712 (E2c mesma resposta e ela aparece no outro enunciado (6.4))",
+    "dup": "certa",
+    "dup_ref": "banco:9712",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.4)"
+  },
+  {
+    "id": "258a28dc08",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube espanhol manda seus jogos no Estádio Ramón Sánchez-Pizjuán?",
+    "resposta": "Sevilla",
+    "alternativas": [
+      "Sevilla",
+      "Villarreal",
+      "Real Betis",
+      "Valencia"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6339",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+  },
+  {
+    "id": "a3a49be2de",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual modalidade da canoagem obriga o atleta a descer corredeiras passando por portas penduradas?",
+    "resposta": "Canoagem slalom",
+    "alternativas": [
+      "Canoagem de velocidade",
+      "Rafting",
+      "Canoagem slalom",
+      "Remo"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:014d78c7ad",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (13.6, 23% do fato)",
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de id:014d78c7ad (E2 mesma resposta e mesmo assunto (13.6, 23% do fato))"
+  },
+  {
+    "id": "98ac448f1a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual reality de confeitaria do SBT põe amadores para disputar com bolos e doces?",
+    "resposta": "Bake Off Brasil",
+    "alternativas": [
+      "Hell's Kitchen",
+      "Cake Boss",
+      "MasterChef",
+      "Bake Off Brasil"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d7b6a01ba9",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual programa do SBT tinha Cris Poli ensinando pais a educar filhos bagunceiros?",
+    "resposta": "Super Nanny",
+    "alternativas": [
+      "Casos de Família",
+      "Esquadrão da Moda",
+      "Fala Que Eu Te Escuto",
+      "Super Nanny"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5d9b887609",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual programa do SBT transformava o visual de uma pessoa mal vestida, indicada por amigos?",
+    "resposta": "Esquadrão da Moda",
+    "alternativas": [
+      "Troca de Esposas",
+      "Lata Velha",
+      "Esquadrão da Moda",
+      "Super Nanny"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dec5b0aaee",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual quadro de sábado da Globo, apresentado por Luciano Huck, desafiava estudantes a soletrar palavras difíceis?",
+    "resposta": "Soletrando",
+    "alternativas": [
+      "Lata Velha",
+      "Lar Doce Lar",
+      "Soletrando",
+      "Agora ou Nunca"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8650",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+  },
+  {
+    "id": "f98fb43ba5",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual desafio viral de 2016 tinha grupos de pessoas paradas como estátuas enquanto a câmera passava?",
+    "resposta": "Mannequin Challenge",
+    "alternativas": [
+      "Harlem Shake",
+      "Planking",
+      "Kiki Challenge",
+      "Mannequin Challenge"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4501",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (14.8)",
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de banco:4501 (E2d respostas dividem a palavra rara + muito assunto em comum (14.8))"
+  },
+  {
+    "id": "6c3ab356df",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de Toy Story 4 é um garfo de plástico transformado em brinquedo por Bonnie?",
+    "resposta": "Garfinho",
+    "alternativas": [
+      "Duke Caboom",
+      "Lotso",
+      "Garfinho",
+      "Forky Jr."
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:a92e7ab820",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "a6c740ff09",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual escola de samba carioca tem Martinho da Vila como seu maior ícone?",
+    "resposta": "Vila Isabel",
+    "alternativas": [
+      "Mangueira",
+      "Portela",
+      "Salgueiro",
+      "Vila Isabel"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b8a418c338",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual nutricionista virou meme ao repetir \"sanduíche-iche\" numa entrevista ao vivo no Recife, em 2004?",
+    "resposta": "Ruth Lemos",
+    "alternativas": [
+      "Valesca Popozuda",
+      "Inês Brasil",
+      "Gretchen",
+      "Ruth Lemos"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f15ac7e106",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual reality mostrava empreendedores apresentando negócios a investidores milionários, os \"tubarões\"?",
+    "resposta": "Shark Tank Brasil",
+    "alternativas": [
+      "O Aprendiz",
+      "Shark Tank Brasil",
+      "Fortuna Brasil",
+      "Negócio Fechado"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66a37346eb",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual reality da Band, de 2012, acompanhava a vida de socialites como Val Marchiori?",
+    "resposta": "Mulheres Ricas",
+    "alternativas": [
+      "Casa Linda",
+      "Absolutamente Ricos",
+      "Mulheres Ricas",
+      "Mulheres Poderosas"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f71a93b2ac",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual reality da MTV levava ex-namorados para conviver numa casa de praia?",
+    "resposta": "De Férias com o Ex",
+    "alternativas": [
+      "Túnel do Amor",
+      "Are You the One",
+      "De Férias com o Ex",
+      "Solteiros, Vinde a Mim"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8453",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.6)",
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de banco:8453 (E4 resposta nova (rara) citada no texto antigo (4.6))"
+  },
+  {
+    "id": "438b97efcc",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual vídeo de bar mitzvah, com uma música sobre o aniversariante, viralizou em 2012?",
+    "resposta": "Nissim Ourfali",
+    "alternativas": [
+      "Rolê de Bike",
+      "Para Nossa Alegria",
+      "Luiza no Canadá",
+      "Nissim Ourfali"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d0387885fd",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual meme mostra um homem de terno, desenhado de forma tosca, ao lado de um gráfico subindo?",
+    "resposta": "Stonks",
+    "alternativas": [
+      "Meme Man Says",
+      "Stonks",
+      "Wojak",
+      "Pepe"
+    ],
+    "subtema": "Memes e internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7ea061f83b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual nova emoção, de cor laranja, toma conta da cabeça da protagonista na sequência de 2024 da animação da Pixar sobre as emoções?",
+    "resposta": "Ansiedade",
+    "alternativas": [
+      "Ansiedade",
+      "Tristeza",
+      "Nojinho",
+      "Medo"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3270",
+    "recente": true,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.1)"
+  },
+  {
+    "id": "21a5a8ee32",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual jovem da família Madrigal é a única sem dom mágico em Encanto, de 2021?",
+    "resposta": "Mirabel",
+    "alternativas": [
+      "Luisa",
+      "Isabela",
+      "Mirabel",
+      "Dolores"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3330 (E5 resposta antiga citada no texto novo + assunto (24.5))",
+    "dup": "certa",
+    "dup_ref": "banco:3330",
+    "recente": true,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (24.5)"
+  },
+  {
+    "id": "8fc54a9cd8",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escola de samba carioca, da Serrinha, tem uma coroa como símbolo?",
+    "resposta": "Império Serrano",
+    "alternativas": [
+      "Império Serrano",
+      "Portela",
+      "Vila Isabel",
+      "Imperatriz Leopoldinense"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b1d3e5f610",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual carnavalesca foi campeã várias vezes com a Imperatriz Leopoldinense, entre 1994 e 2001?",
+    "resposta": "Rosa Magalhães",
+    "alternativas": [
+      "Rosa Lobato",
+      "Maria Augusta",
+      "Rosa Magalhães",
+      "Leandro Vieira"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bfda82d219",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual samba-enredo campeão do carnaval carioca de 1982 tem um nome que imita o som da bateria?",
+    "resposta": "Bum Bum Paticumbum Prugurundum",
+    "alternativas": [
+      "Tum Tum Tum",
+      "Lá Vem o Samba",
+      "Bum Bum Paticumbum Prugurundum",
+      "Ziriguidum"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d91e4b8b38",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista curitibano, avesso a entrevistas e fotos, era chamado de Vampiro de Curitiba?",
+    "resposta": "Dalton Trevisan",
+    "alternativas": [
+      "Cristovão Tezza",
+      "Paulo Leminski",
+      "Rubem Fonseca",
+      "Dalton Trevisan"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e4adc0d5e5",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora paulista publicou \"As Meninas\", romance de 1973 sobre três estudantes?",
+    "resposta": "Lygia Fagundes Telles",
+    "alternativas": [
+      "Clarice Lispector",
+      "Lygia Fagundes Telles",
+      "Rachel de Queiroz",
+      "Hilda Hilst"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "67c75eab02",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta e escritora paulista viveu reclusa na Casa do Sol, em Campinas?",
+    "resposta": "Hilda Hilst",
+    "alternativas": [
+      "Cecília Meireles",
+      "Adélia Prado",
+      "Ana Cristina Cesar",
+      "Hilda Hilst"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dbccfdc9fc",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor gaúcho publicou \"Morangos Mofados\", em 1982?",
+    "resposta": "Caio Fernando Abreu",
+    "alternativas": [
+      "Erico Verissimo",
+      "Caio Fernando Abreu",
+      "Luis Fernando Verissimo",
+      "Moacyr Scliar"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "10f69ab77c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual fonte substituiu a Calibri como padrão do Microsoft Office em 2023?",
+    "resposta": "Aptos",
+    "alternativas": [
+      "Arial",
+      "Helvetica",
+      "Segoe UI",
+      "Aptos"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:807c1758e0 (E5 resposta antiga citada no texto novo + assunto (29.8))",
+    "dup": "certa",
+    "dup_ref": "id:807c1758e0",
+    "recente": true,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (29.8)"
+  },
+  {
+    "id": "bfa9736eeb",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o codinome do Windows Vista durante o desenvolvimento?",
+    "resposta": "Longhorn",
+    "alternativas": [
+      "Cairo",
+      "Blackcomb",
+      "Longhorn",
+      "Chicago"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e1121208a2",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o nome provisório do Windows 1.0 durante o desenvolvimento?",
+    "resposta": "Interface Manager",
+    "alternativas": [
+      "Interface Manager",
+      "Desktop Manager",
+      "Windows Shell",
+      "Graphic DOS"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8f9137aedc",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual felino deu nome à primeira versão do Mac OS X, de 2001?",
+    "resposta": "Cheetah",
+    "alternativas": [
+      "Jaguar",
+      "Tiger",
+      "Cheetah",
+      "Puma"
+    ],
+    "subtema": "História da computação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4310 (E5 resposta antiga citada no texto novo + assunto (16.2))",
+    "dup": "certa",
+    "dup_ref": "banco:4310",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.2)"
+  },
+  {
+    "id": "4259e2c7d7",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual engenheiro indiano-americano da Intel é tido como coinventor do USB?",
+    "resposta": "Ajay Bhatt",
+    "alternativas": [
+      "Satya Nadella",
+      "Vinod Khosla",
+      "Sundar Pichai",
+      "Ajay Bhatt"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "31c493de73",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o codinome do Windows XP durante o desenvolvimento?",
+    "resposta": "Whistler",
+    "alternativas": [
+      "Memphis",
+      "Chicago",
+      "Whistler",
+      "Neptune"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:bfa9736eeb",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "fd0ffba422",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual região do oeste de Minas Gerais, entre os rios Grande e Paranaíba, tem o nome da forma que desenha no mapa?",
+    "resposta": "Triângulo Mineiro",
+    "alternativas": [
+      "Triângulo Mineiro",
+      "Bico Mineiro",
+      "Quadrilátero Mineiro",
+      "Pontal Mineiro"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "97620ef5d4",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual trecho do litoral baiano leva o nome do primeiro desembarque dos portugueses no Brasil?",
+    "resposta": "Costa do Descobrimento",
+    "alternativas": [
+      "Costa do Sauípe",
+      "Costa do Descobrimento",
+      "Costa do Dendê",
+      "Costa dos Coqueiros"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2b9004a3b4",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual vale de colonização alemã, cortado por um rio de mesmo nome, abriga Blumenau e Pomerode?",
+    "resposta": "Vale do Itajaí",
+    "alternativas": [
+      "Vale do Ribeira",
+      "Vale dos Vinhedos",
+      "Vale do Paraíba",
+      "Vale do Itajaí"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:527",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ec5e7b0099",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a região do extremo oeste paulista, conhecida pelos conflitos de terra dos anos 1990?",
+    "resposta": "Pontal do Paranapanema",
+    "alternativas": [
+      "Pontal do Paranapanema",
+      "Alta Paulista",
+      "Vale do Ribeira",
+      "Alta Mogiana"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "565265058f",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o extremo norte tocantinense, cujo desenho no mapa lembra a cabeça de uma ave?",
+    "resposta": "Bico do Papagaio",
+    "alternativas": [
+      "Ponta do Tucano",
+      "Bico do Papagaio",
+      "Cabeça do Cachorro",
+      "Bico da Arara"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6616",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.2)"
+  },
+  {
+    "id": "42d3acc02d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantos quilômetros tem a tradicional corrida de rua paulistana disputada no dia 31 de dezembro?",
+    "resposta": "15 km",
+    "alternativas": [
+      "15 km",
+      "10 km",
+      "42 km",
+      "21 km"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a699b0978",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o nome da primeira versão do Mac OS X, lançada em 2001?",
+    "resposta": "Cheetah",
+    "alternativas": [
+      "Tiger",
+      "Cheetah",
+      "Puma",
+      "Jaguar"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e98b45aca0",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual fonte sem serifa, parecida com a Helvetica, foi padrão em muitas versões do Windows e do Office?",
+    "resposta": "Arial",
+    "alternativas": [
+      "Arial",
+      "Garamond",
+      "Courier",
+      "Times New Roman"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

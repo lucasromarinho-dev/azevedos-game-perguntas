@@ -19729,5 +19729,104 @@
       "alternativas_lote": 0,
       "alternativas_rara": 3
     }
+  },
+  "reposicao_2_br": {
+    "data": "2026-10-30",
+    "status": "gerada (falta conferência independente; nada publicado)",
+    "_leia": "Parte pop brasileiro do plano Misto da segunda limpeza de Entretenimento. Lotes 115-119. Ver README, seção Reposição 2 (pop BR).",
+    "lotes": {
+      "115": 87,
+      "116": 88,
+      "117": 88,
+      "118": 87,
+      "119": 91
+    },
+    "escritas": 477,
+    "validas": 441,
+    "descartadas": 36,
+    "descarte_por_motivo": {
+      "fato_repetido_banco_ou_lote": 29,
+      "sem_confirmacao_web": 3,
+      "entrega_resposta_de_outra": 2,
+      "corte_de_cota": 2
+    },
+    "composicao": {
+      "facil": 8,
+      "medio": 253,
+      "dificil": 180
+    },
+    "subtemas": {
+      "tv-novela": [
+        2,
+        70,
+        48
+      ],
+      "musica": [
+        2,
+        65,
+        43
+      ],
+      "humor": [
+        1,
+        22,
+        17
+      ],
+      "celebridades": [
+        0,
+        15,
+        10
+      ],
+      "cinema": [
+        1,
+        20,
+        14
+      ],
+      "quadrinhos": [
+        0,
+        12,
+        8
+      ],
+      "games-internet": [
+        1,
+        20,
+        14
+      ],
+      "reality": [
+        1,
+        17,
+        12
+      ],
+      "esporte-entretenimento": [
+        0,
+        12,
+        14
+      ]
+    },
+    "_subtemas_leia": "fácil, média, difícil",
+    "recentes": 44,
+    "web": {
+      "paginas_wikipedia_lidas": 393,
+      "chamadas_api_em_lote": 27,
+      "buscas_api_wikipedia": 64,
+      "leituras_avulsas_api": 10,
+      "websearch": 58,
+      "conferidas_pela_wikipedia": 388,
+      "conferidas_por_websearch": 53,
+      "com_verificado_web": 441,
+      "sem_verificado_web": 0
+    },
+    "checagens": {
+      "entrega_suspeitas": 0,
+      "enunciados_reescritos_entrega": 19,
+      "duplicadas_sem_descartar": {
+        "certa": 115,
+        "suspeita": 87,
+        "mantidas_com_dup_revisado": 202
+      },
+      "alternativas_lote": 0,
+      "alternativas_rara_restantes": 3,
+      "erradas_trocadas_aprox": 310,
+      "checa_resposta_reescritas": 2
+    }
   }
 }

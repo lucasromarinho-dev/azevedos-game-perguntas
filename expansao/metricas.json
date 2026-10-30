@@ -5052,6 +5052,102 @@
         "espelhos_r5": [
           "f9de684649 (Kizomba, lote 050) x 055:eb6af8aad3 (Semba deu origem à kizomba): fatos diferentes, mas 055 cita kizomba e a nossa tem Semba como alternativa; 050 é o menor, mantida"
         ]
+      },
+      {
+        "lote": "051",
+        "conferente": "conferente-v5",
+        "total_geradas": 93,
+        "conferidas_sem_mudanca": 80,
+        "corrigidas": 7,
+        "rebaixadas": 4,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 2
+        },
+        "perguntas_com_busca_web": 15,
+        "buscas_web": 15,
+        "nota_buscas": "12 WebSearch + 3 WebFetch (pt.wikipedia); a cota de WebSearch compartilhada da sessão (200) esgotou no meio da conferência, o resto foi checado por conhecimento e cruzamento com o banco",
+        "suspeitas": {
+          "total": 8,
+          "mantidas": 6,
+          "reescritas": 1,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "e18f8d2f2a: espelho: par de 047 (remo, tripulante que comanda o ritmo => Timoneiro) com as mesmas 4 alternativas (Capitão/Proeiro/Timoneiro/Voga); aquele enunciado também torna o Timoneiro defensável aqui; lote 047 é o menor",
+          "4e6c0410f1: espelho: par de 048:25ff6e9b24 (\"O Mágico de Oz\", quem queria um coração => Homem de Lata), mesmas alternativas e mesmo fato em cadeia; lote 048 é o menor"
+        ],
+        "correcoes": [
+          "4e00f997a2: Quantum trocado por Smersh: em \"Spectre\" (2015) a Quantum é braço da organização de Blofeld (errada defensável)",
+          "dd2b58f991: tirado \"rainha de Asgard\": entregava a resposta de 038:9ec009b759 (reino dos deuses nórdicos => Asgard)",
+          "627565666e: seriguela é doce (não ácida); \"ácida\" trocado por \"doce\"",
+          "2cbf41ec2b: Corneta trocada por Tuba: a corneta também é parecida com o trompete e de som mais suave (errada defensável)",
+          "b66081910f: Classic Controller trocado por Wii Wheel: o Classic Controller também tem analógico e liga por fio ao Wiimote (errada defensável)",
+          "0493a2b500: alternativa Domus trocada por Tabernas: Domus é a resposta de 9c8bb5a57e no mesmo lote (dica cruzada)",
+          "d4955d823f: enunciado (\"como um roteador\") entregava \"Roteamento\", que é termo de redes (encaminhamento de pacotes), não o compartilhamento; reescrita com resposta Hotspot"
+        ],
+        "rebaixamentos": [
+          "cc247fd536: dificil -> medio (régua do GUIA-ESTILO, conferente-v5)",
+          "c801ae1543: dificil -> medio (régua do GUIA-ESTILO, conferente-v5)",
+          "9cdd29c874: dificil -> medio (régua do GUIA-ESTILO, conferente-v5)",
+          "d5a41a19f6: facil -> medio (subida: apelido da era do rádio é decoreba, régua do GUIA-ESTILO, conferente-v5)"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 3,
+          "entrega a resposta": 3,
+          "fato impreciso": 1,
+          "espelho/duplicada": 2,
+          "dificuldade": 4,
+          "outro": 0
+        },
+        "exemplos_erro": {
+          "errada defensavel": "2cbf41ec2b: instrumento parecido com o trompete de som mais aveludado (Flugelhorn) -> Corneta entre as erradas também se encaixa",
+          "entrega a resposta": "d4955d823f: compartilhar internet do celular \"como um roteador\" => Roteamento -> enunciado entregava e o termo nem é o certo (virou Hotspot)",
+          "fato impreciso": "627565666e: seriguela descrita como \"ácida\" -> a fruta é bastante doce",
+          "espelho/duplicada": "e18f8d2f2a: remo, quem dá a cadência => Voga -> par do Timoneiro do lote 047, mesmas 4 alternativas",
+          "dificuldade": "cc247fd536: Tamale (\"pamonha mexicana\") estava dificil -> medio"
+        },
+        "espelhos_r5": [
+          "5e0e5c2465 (Capitão Gancho, medo do crocodilo) x 055:640432e227 (Sr. Smee, \"imediato do Capitão Gancho\"): o enunciado do 055 cita a resposta deste; mantida aqui por ser o lote menor"
+        ]
       }
     ],
     "rebaixamentos_r3": {

@@ -9744,6 +9744,87 @@
           "alternativa repetida": "a398998c4b: erradas Spoofing e Spoofing de DNS eram quase a mesma alternativa; trocada",
           "molde repetido": "12532053ee: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Pedro Sampaio saiu)"
         }
+      },
+      {
+        "lote": "083",
+        "conferente": "conferente-v8",
+        "conferidas": 72,
+        "conferidas_sem_mudanca": 68,
+        "com_mudanca": 4,
+        "corrigidas": 3,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 8,
+        "buscas_web": 8,
+        "suspeitas": {
+          "total": 3,
+          "mantidas": 3,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 8,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 9,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 9,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "ce06a6911d: Wilton Pereira Sampaio - na Copa de 2018 Wilton Pereira Sampaio só atuou como árbitro de vídeo (VAR), não apitou em campo; enunciado refeito com o jogo de 2022 (checagem web)",
+          "491b93185b: Dulcídio Wanderley Boschilia - 'com Wanderley no meio' entregava a resposta (única alternativa com Wanderley); tirado",
+          "76cb99aa69: Encapsulamento - errada Abstração de dados também é esconder detalhes internos de uma classe (defensável); trocada",
+          "9e12135d5a: Branquear - branquear é técnica conhecida pelo nome na cozinha; rebaixada"
+        ],
+        "rebaixamentos": [
+          "9e12135d5a: Branquear dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 1,
+          "dificuldade": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "ce06a6911d: na Copa de 2018 Wilton Pereira Sampaio só atuou como árbitro de vídeo (VAR), não apitou em campo; enunciado refeito com o jogo de 2022 (checagem web)",
+          "entrega a resposta": "491b93185b: 'com Wanderley no meio' entregava a resposta (única alternativa com Wanderley); tirado",
+          "errada defensavel": "76cb99aa69: errada Abstração de dados também é esconder detalhes internos de uma classe (defensável); trocada",
+          "dificuldade": "9e12135d5a: branquear é técnica conhecida pelo nome na cozinha; rebaixada"
+        }
       }
     ],
     "rebaixamentos_r3": {

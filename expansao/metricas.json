@@ -11338,7 +11338,7 @@
           "entrega a resposta": 1,
           "espelho/duplicada": 2
         },
-        "perguntas_com_busca_web": 87,
+        "perguntas_com_busca_web": 91,
         "suspeitas": {
           "total": 20,
           "mantidas": 17,
@@ -11416,12 +11416,9 @@
           "dificuldade": "722d6014d1: Bill of Rights - a Bill of Rights inglesa é conteúdo de escola (Revolução Gloriosa); rebaixada"
         },
         "risco_sem_checagem_conferente": [
-          "04b494b258",
-          "f90e996999",
-          "cc6f5e24ac",
-          "9480661f7d",
-          "7493ba54e4"
-        ]
+          "9480661f7d"
+        ],
+        "verificadas_passe_final": 4
       },
       {
         "lote": "097",
@@ -11437,7 +11434,7 @@
           "molde repetido": 12,
           "duplicada (banco)": 1
         },
-        "perguntas_com_busca_web": 63,
+        "perguntas_com_busca_web": 69,
         "suspeitas": {
           "total": 9,
           "mantidas": 8,
@@ -11529,16 +11526,9 @@
         },
         "risco_sem_checagem_conferente": [
           "84d44af2c4",
-          "c601d16c5e",
-          "7f172818bf",
-          "37da9c7174",
-          "a46b1127df",
-          "7a68762b33",
-          "93f09a9abe",
-          "39f0639f76",
-          "f2fd4f9d54",
-          "2966cb503e"
-        ]
+          "37da9c7174"
+        ],
+        "verificadas_passe_final": 6
       },
       {
         "lote": "098",
@@ -11555,7 +11545,7 @@
           "fato que pode mudar": 1,
           "duplicada (banco)": 1
         },
-        "perguntas_com_busca_web": 58,
+        "perguntas_com_busca_web": 60,
         "suspeitas": {
           "total": 9,
           "mantidas": 8,
@@ -11631,12 +11621,11 @@
         },
         "risco_sem_checagem_conferente": [
           "0a82a96a55",
-          "a848474638",
           "c020e31b5d",
           "7b5093dcab",
-          "8bdb3dd069",
           "96ba8c39fe"
-        ]
+        ],
+        "verificadas_passe_final": 2
       },
       {
         "lote": "099",
@@ -11652,7 +11641,7 @@
           "molde repetido": 2,
           "duplicada (banco)": 1
         },
-        "perguntas_com_busca_web": 61,
+        "perguntas_com_busca_web": 62,
         "suspeitas": {
           "total": 7,
           "mantidas": 4,
@@ -11721,9 +11710,8 @@
           "molde repetido": "4aa4bb23ef: molde repetido: molde \"filme de terror\" tinha 8 no lote 099; cortada (A Profecia)",
           "duplicada (banco)": "0a9f5da264: duplicada (banco): mesmo fato que banco:7056 (\"Qual instrumento indiano de cordas foi popularizado no Ocidente por Ravi Shankar?\" => Cítara); Sitar e Cítara são o mesmo instrumento"
         },
-        "risco_sem_checagem_conferente": [
-          "d16827b86e"
-        ]
+        "risco_sem_checagem_conferente": [],
+        "verificadas_passe_final": 1
       },
       {
         "lote": "100",
@@ -12059,7 +12047,7 @@
         "motivos_descarte": {
           "molde repetido": 1
         },
-        "perguntas_com_busca_web": 26,
+        "perguntas_com_busca_web": 27,
         "suspeitas": {
           "total": 2,
           "mantidas": 2,
@@ -12104,9 +12092,8 @@
         "exemplos_erro": {
           "molde repetido": "b7982d5bfa: molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Krejčíková)"
         },
-        "risco_sem_checagem_conferente": [
-          "9c679b341d"
-        ]
+        "risco_sem_checagem_conferente": [],
+        "verificadas_passe_final": 1
       },
       {
         "lote": "105",
@@ -13803,6 +13790,119 @@
           "095": "0/1/0"
         },
         "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha terminando em \"(checagem web complementar r9)\". As erradas novas (Cronometrista, Charles Seeberger) passaram pelo checa-resposta.mjs --lote e pelo alternativas.mjs sem criar cruzamento (Sparring foi evitado por ser resposta de 086:ff30ccc266)"
+      }
+    },
+    "resumo_r10": {
+      "conferente": "conferente-v10",
+      "data": "2026-10-30",
+      "lotes": "096-105",
+      "total": 555,
+      "conferidas": 528,
+      "sem_mudanca": 493,
+      "com_mudanca": 35,
+      "corrigidas": 23,
+      "rebaixadas": 12,
+      "subidas": 0,
+      "descartadas": 27,
+      "motivos_descarte": {
+        "entrega a resposta": 1,
+        "espelho/duplicada": 3,
+        "molde repetido": 17,
+        "duplicada (banco)": 5,
+        "fato que pode mudar": 1
+      },
+      "tipos_erro": {
+        "fato impreciso": 8,
+        "entrega a resposta": 13,
+        "espelho/duplicada": 3,
+        "alternativa fora do tipo": 1,
+        "dificuldade": 12,
+        "molde repetido": 17,
+        "duplicada (banco)": 5,
+        "fato que pode mudar": 1,
+        "errada defensavel": 2
+      },
+      "suspeitas": {
+        "total": 68,
+        "mantidas": 59,
+        "reescritas": 7,
+        "descartadas": 2
+      },
+      "dup_revisado": {
+        "total": 31,
+        "mantidas": 29,
+        "reescritas": 2,
+        "descartadas": 0,
+        "obs": "as 31 fichas com dup_revisado foram decididas uma a uma: 29 falso positivo (fato diferente) e 2 reescritas porque o enunciado citava a resposta de outra (Fiordland x banco:7417 Milford Sound; Golpe de agosto de 1991, que entregava a resposta). Nenhuma era duplicada de verdade. As duplicadas de verdade que escaparam do gerador estavam fora do dup_revisado (Ideiafix x banco:7478 Idéfix, Popó x banco:2596, Sitar x banco:7056 Cítara, BonziBuddy x banco:9550, Trotsky x banco:1227) ou marcadas suspeita sem revisão (Pilha de Volta x banco:2077). duplicadas.mjs --descartar não foi rodado."
+      },
+      "perguntas_com_busca_web": 502,
+      "buscas_web": 34,
+      "buscas_web_detalhe": {
+        "leituras_wikipedia_api": 33,
+        "buscas": 1,
+        "obs": "33 leituras pela API da Wikipédia (en e pt) com até 20 verbetes por chamada (cerca de 620 verbetes, agrupados por tema) e 1 WebSearch (Art Popular). verificado_web_conferente: true marca as fichas cujo fato central a fonte lida confirmou nesta sessão; a marca verificado_web do gerador foi mantida nas demais. As 13 sem verificado_web do gerador (Damas, grep, pwd, ping, lipase, glicogênio, mioglobina, surfactante, creatinina, Beckett, Ibsen, Molière, CSKA Moscou) foram reconferidas e ganharam a marca. A cota de ~200 buscas não acabou."
+      },
+      "por_lote": {
+        "100": "44/5/2",
+        "101": "44/0/0",
+        "102": "40/3/1",
+        "103": "30/4/1",
+        "104": "29/0/1",
+        "105": "24/1/0",
+        "096": "88/6/3",
+        "097": "72/7/13",
+        "098": "59/6/3",
+        "099": "63/3/3"
+      },
+      "obs_por_lote": "ok (sem mudança) / com mudança / descartadas",
+      "distribuicao_final": {
+        "dificil": 211,
+        "medio": 314,
+        "facil": 3
+      },
+      "por_categoria": {
+        "Geografia": 80,
+        "História": 83,
+        "Tecnologia": 70,
+        "Ciências": 74,
+        "Entretenimento": 152,
+        "Esportes": 69
+      },
+      "moldes_cortados": {
+        "montanha/vulcão mais alto(a) (lote 097)": "11 para 7 (saíram Pico Duarte, Kinabalu, Kosciuszko, Nanga Parbat)",
+        "dinastia/casa real (097)": "8 para 7 (Bernadotte)",
+        "tenista/Grand Slam (097 e 104)": "10 para 7 (Connors, Michael Chang, Krejčíková)",
+        "sistema operacional (097)": "10 para 7 (QDOS, Tizen, KaiOS)",
+        "quadrinhos europeus (097)": "10 para 7 (Diabolik, Moebius; Ideiafix saiu por duplicada)",
+        "filme de terror (099)": "8 para 7 (A Profecia)",
+        "placas de vídeo e APIs gráficas (099)": "8 para 7 (SLI)",
+        "xadrez (100)": "8 para 7 (Ding Liren)",
+        "poeta (103 e 104)": "8 para 7 (Ginsberg)",
+        "instrumento musical do mundo (099)": "8 para 7 (Sitar saiu por duplicada)"
+      },
+      "risco_sem_checagem_conferente": {
+        "criterio": "conferida, sem verificado_web_conferente, com dígito, primeiro/maior/único/menor/mais/recorde/melhor no enunciado, dificuldade dificil ou recente",
+        "total": 9,
+        "ids_por_lote": {
+          "100": [
+            "8f01be3d16",
+            "cb819d91c2"
+          ],
+          "096": [
+            "9480661f7d"
+          ],
+          "097": [
+            "84d44af2c4",
+            "37da9c7174"
+          ],
+          "098": [
+            "0a82a96a55",
+            "c020e31b5d",
+            "7b5093dcab",
+            "96ba8c39fe"
+          ]
+        },
+        "obs": "a cota não acabou (34 de ~200); são fichas cuja fonte lida (resumo da Wikipédia) não trazia o detalhe, conferidas de memória com fatos consolidados: João Romão em O Cortiço, irmãos Dalton do mais baixo ao mais alto, voto de Cotegipe contra a abolição, Vasconcelos e o Regresso, gnaisse dos morros do Rio, Tom Simpson no Mont Ventoux em 1967, Thomas Müller artilheiro da Copa de 2010, Paraty e Ilha Grande na UNESCO em 2019, cores invertidas no arco secundário; ficam para a checagem web complementar"
       }
     }
   },

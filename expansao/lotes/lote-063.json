@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bbd16cd5f1",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Na Bíblia, quem matou o próprio irmão, Abel?",
+    "resposta": "Caim",
+    "alternativas": [
+      "Esaú",
+      "Caim",
+      "Set",
+      "Ismael"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3117a71170",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual foi a primeira série brasileira original da Netflix, lançada em 2016?",
+    "resposta": "3%",
+    "alternativas": [
+      "Sintonia",
+      "3%",
+      "O Mecanismo",
+      "Irmandade"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8f5655b3bc",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama, em inglês, o pontapé inicial de uma partida?",
+    "resposta": "Kick-off",
+    "alternativas": [
+      "Goal kick",
+      "Kick-in",
+      "Start-up",
+      "Kick-off"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8927",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  }
+]

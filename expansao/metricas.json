@@ -6064,9 +6064,9 @@
         "lote": "057",
         "conferente": "conferente-v6",
         "conferidas": 93,
-        "conferidas_sem_mudanca": 89,
-        "com_mudanca": 4,
-        "corrigidas": 4,
+        "conferidas_sem_mudanca": 88,
+        "com_mudanca": 5,
+        "corrigidas": 5,
         "rebaixadas": 1,
         "subidas": 0,
         "descartadas": 0,
@@ -6088,7 +6088,7 @@
           },
           "História": {
             "conferidas": 13,
-            "corrigidas": 1,
+            "corrigidas": 2,
             "rebaixadas": 0,
             "descartadas": 0
           },
@@ -6122,14 +6122,15 @@
           "2a0e07f401: Springboks - errada Wallabies era a resposta de 36fe0a (lote 056) e vice-versa (respostas cruzadas); trocada por Brave Blossoms",
           "3835e7a886: Bulldog francês - Boston terrier também tem orelhas eretas descritas como de morcego (errada defensável); trocada por Shih-tzu",
           "b287332546: Collant - Maiô de lycra e Body são praticamente sinônimos de collant (erradas defensáveis); trocadas por Bermuda de lycra e Legging",
-          "f1d8a2f202: China - sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'"
+          "f1d8a2f202: China - sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'",
+          "5ce67bd1f1: George Washington - errada Benjamin Franklin era a resposta de 69f9f71078 (lote 060, nota de 100 dólares); trocada por James Madison"
         ],
         "rebaixamentos": [
           "3835e7a886: Bulldog francês dificil -> medio"
         ],
         "subidas_lista": [],
         "tipos_erro": {
-          "espelho/duplicada": 1,
+          "espelho/duplicada": 2,
           "errada defensavel": 2,
           "fato impreciso": 1
         },
@@ -6304,6 +6305,102 @@
           "entrega a resposta": "69938338b4: as iniciais de \"Build Your Dreams\" no enunciado entregavam a sigla BYD; pergunta invertida (o que a sigla quer dizer)",
           "espelho/duplicada": "90dae7d2e6: errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina",
           "fato impreciso": "7df91a84d7: o prefixo 789 indica o registro na GS1 Brasil, não o país de fabricação (Aos Fatos); enunciado ajustado"
+        }
+      },
+      {
+        "lote": "060",
+        "conferente": "conferente-v6",
+        "conferidas": 107,
+        "conferidas_sem_mudanca": 93,
+        "com_mudanca": 14,
+        "corrigidas": 13,
+        "rebaixadas": 3,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 3,
+        "buscas_web": 3,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 12,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 3,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 5,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "21829e822e: Lágrimas de crocodilo - errada 'Lágrimas de jacaré' era quase igual à certa (pegadinha); trocada",
+          "35179b5f57: Puro-sangue inglês - 'criada na Inglaterra' entregava a resposta Puro-sangue inglês",
+          "8c92b9adbc: Páginas Amarelas - enunciado citava 'lista telefônica', resposta de 015dbca94e (mesmo lote); reescrito",
+          "1a194a0411: Steven Sasson - enunciado citava a Kodak, resposta de 7af05e795f (mesmo lote); tirado o nome da empresa",
+          "330b33436b: Edwin Land - enunciado citava a Polaroid, resposta de banco:5142; reescrito sem a marca",
+          "5afec639b2: Cingalês - Ceilonense é sinônimo dicionarizado de cingalês e Srilanquino lembra srilanquês (erradas defensáveis); trocadas",
+          "436e5b0f8e: Escorpião - 'representado por um escorpião' entregava a resposta Escorpião",
+          "f9f68daf29: Peixes - 'representado por dois peixes' entregava a resposta Peixes",
+          "ca26240b14: Goleiro - errada Centroavante é a resposta de banco:7699 (camisa 9), do mesmo molde; trocada por Volante",
+          "090a6fdc63: Monólogo - errada Solilóquio (fala de um ator sozinho) defensável; trocada por Sarau",
+          "b4f34e76f0: Adagio - Allegro era a resposta de c8dca91b35 (lote 059), que tinha Adagio entre as erradas (respostas cruzadas); trocada por Fortissimo",
+          "7622dfb071: Olho de peixe - errada Grande angular defensável (olho de peixe é uma grande angular extrema); trocada por Zoom",
+          "ebd56baa03: Molinete - carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado"
+        ],
+        "rebaixamentos": [
+          "35179b5f57: Puro-sangue inglês dificil -> medio",
+          "b4f34e76f0: Adagio dificil -> medio",
+          "929a8c7d69: Dar com os burros n'água dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "outro": 1,
+          "entrega a resposta": 6,
+          "errada defensavel": 3,
+          "espelho/duplicada": 2,
+          "dificuldade": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "outro": "21829e822e: errada 'Lágrimas de jacaré' era quase igual à certa (pegadinha); trocada",
+          "entrega a resposta": "35179b5f57: 'criada na Inglaterra' entregava a resposta Puro-sangue inglês",
+          "errada defensavel": "5afec639b2: Ceilonense é sinônimo dicionarizado de cingalês e Srilanquino lembra srilanquês (erradas defensáveis); trocadas",
+          "espelho/duplicada": "ca26240b14: errada Centroavante é a resposta de banco:7699 (camisa 9), do mesmo molde; trocada por Volante",
+          "dificuldade": "929a8c7d69: undefined",
+          "fato impreciso": "ebd56baa03: carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado"
         }
       }
     ],

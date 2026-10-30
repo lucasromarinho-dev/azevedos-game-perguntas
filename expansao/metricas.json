@@ -5442,6 +5442,106 @@
           "32358725f3 (lote 054, Porto pede-se 'Fino', Imperial entre as erradas) x 055e5f12ff (lote 055, Lisboa pede-se 'Imperial', Fino entre as erradas): par em cadeia; mantida a do 054, avaliar descartar a do 055",
           "047:704e140df2 (Ecrã, com Rato e Ficheiro como erradas) x 96c81f3b04 (Rato) e 1c3c03ecd9 (Ficheiro): avaliado, não é espelho (a errada não diz o que a palavra significa); mantidas"
         ]
+      },
+      {
+        "lote": "055",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 81,
+        "corrigidas": 11,
+        "rebaixadas": 2,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 1,
+          "entrega": 1
+        },
+        "perguntas_com_busca_web": 18,
+        "buscas_web": 14,
+        "suspeitas": {
+          "total": 10,
+          "mantidas": 10,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 18,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "055e5f12ff: espelho: par de 32358725f3 (lote 054, Fino no Porto), mesmas alternativas; uma pergunta resolve a outra (Porto x Lisboa)",
+          "eb6af8aad3: entrega: o enunciado (\"gênero angolano ... deu origem à kizomba\") entrega a resposta de f9de684649 (lote 050, Kizomba, dança angolana); 055 é o lote maior"
+        ],
+        "correcoes": [
+          "8933a9305f: \"Mariposa\" trocada por \"Abelha\": em espanhol \"mariposa\" também designa a mariposa noturna (errada defensável)",
+          "eed0af0627: \"bife fino\" também descrevia a bifana (fatias finas de porco); especificado \"carne bovina\"",
+          "0c7e735ce7: \"Sujeira\" e \"Poeira\" trocadas por \"Bagunça\" e \"Balde\": o dicionário da RAE dá \"suciedad\" como acepção de \"basura\" (errada defensável)",
+          "fa36179ee4: certa encurtada para não ser a única alternativa longa",
+          "94dc5317af: o apelido \"Pistola\" surgiu em 2017, não na Copa de 2018; enunciado ajustado",
+          "ec98365a2e: \"inspirada na dança argentina\" entregava Tango; reescrito",
+          "539984525a: \"Jai alai\" é justamente a modalidade de pelota basca com cesta (errada defensável); certa passou a ser Jai alai e erradas trocadas por Racquetball e Padel",
+          "3c4f0b5d24: \"Changelog de fã\" trocado por \"Leaderboard\" (changelog é praticamente sinônimo de patch notes)",
+          "9e075f4db1: enunciado citava \"conquistas no Xbox\" e entregava a resposta de 0137b44613 (mesmo lote); reescrito",
+          "e6b62fdc6e: \"Sublimação\" trocada por \"Fusão\": muitos livros didáticos chamam de sublimação também a passagem gasoso -> sólido (errada defensável)",
+          "ac096be248: \"o tênis jogado sobre uma mesa\" entregava Tênis de mesa; reescrito"
+        ],
+        "rebaixamentos": [
+          "8d4f1df183: dificil -> medio",
+          "8b8ba188ac: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 6,
+          "entrega a resposta": 4,
+          "fato impreciso": 1,
+          "espelho/duplicada": 1,
+          "dificuldade": 2,
+          "outro": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "539984525a: esporte basco com cesta -> Pelota basca, mas Jai alai (entre as erradas) é a própria modalidade com cesta",
+          "entrega a resposta": "ac096be248: o tênis jogado sobre uma mesa -> Tênis de mesa",
+          "fato impreciso": "94dc5317af: apelido Canarinho Pistola surgiu em 2017, não na Copa de 2018",
+          "espelho/duplicada": "eb6af8aad3: Semba deu origem à kizomba -> entrega Kizomba de f9de684649 (lote 050)",
+          "dificuldade": "8d4f1df183: lato sensu com \"sentido amplo\" no enunciado era dificil",
+          "outro": "fa36179ee4: certa era a única alternativa longa"
+        },
+        "espelhos_r5": [
+          "640432e227 (Sr. Smee, imediato do Capitão Gancho) x 5e0e5c2465 (lote 051, Capitão Gancho medo do crocodilo): fatos diferentes, enunciado não entrega; mantida",
+          "eb6af8aad3 x f9de684649 (lote 050): descartada a do 055"
+        ],
+        "obs": "Orçamento de WebSearch da sessão esgotou após 14 buscas; guaiamum e sublimação/ressublimação não foram checados na web (sublimação trocada por precaução)."
       }
     ],
     "rebaixamentos_r3": {

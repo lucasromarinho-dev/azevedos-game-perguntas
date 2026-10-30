@@ -12,12 +12,14 @@
       "Bolívia"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "965e45d998",
@@ -32,12 +34,13 @@
       "Índia"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ada2b06e79",
@@ -52,13 +55,14 @@
       "Venezuela"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:565",
     "recente": false,
     "dup_regra": "R1 mesma resposta e texto parecido",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:565)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:565)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fa1c076b0f",
@@ -73,13 +77,14 @@
       "Nova Zelândia"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:80",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (10.9, 42% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:80)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:80)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1f588e739c",
@@ -114,17 +119,19 @@
       "Tailândia"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0ed0253ef0",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual país africano produz a maior parte do cobalto do mundo, usado em baterias?",
     "resposta": "República Democrática do Congo",
     "alternativas": [
@@ -134,12 +141,15 @@
       "Zâmbia"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: o Congo como maior produtor de cobalto é fato muito noticiado; rebaixada"
   },
   {
     "id": "55ce1a9cd8",
@@ -154,12 +164,13 @@
       "Júcar"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6d874c48e9",
@@ -174,12 +185,14 @@
       "Piave"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5aa8a8c512",
@@ -194,13 +207,15 @@
       "Llobregat"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6406",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (16.9, 39% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6406)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6406)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0e9dcb447d",
@@ -215,13 +230,14 @@
       "Reduções do Guairá"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6288",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.3, 22% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6288)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6288)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7b0b22181c",
@@ -236,13 +252,15 @@
       "Moses Hess"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"David Ben-Gurion\" trocada por \"Max Nordau\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"David Ben-Gurion\" trocada por \"Max Nordau\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0fa774fb8f",
@@ -277,12 +295,13 @@
       "Conjunção"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "663bdc3b73",
@@ -297,12 +316,13 @@
       "Luz zodiacal"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "88fde947ef",
@@ -317,13 +337,15 @@
       "Croácia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Dinamarca\" trocada por \"Rússia\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Dinamarca\" trocada por \"Rússia\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "66a1b7ae7a",
@@ -338,12 +360,13 @@
       "Finlândia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d2c3ed3abd",
@@ -358,13 +381,15 @@
       "El Salvador"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5071",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 24% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5071)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5071)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dffbdfe823",
@@ -379,13 +404,15 @@
       "Turquia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Senegal\" trocada por \"Espanha\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Senegal\" trocada por \"Espanha\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "418b84d971",
@@ -400,13 +427,14 @@
       "África do Sul"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7839",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (5.8)",
-    "correcao": "errada \"Costa do Marfim\" trocada por \"Argélia\" na geração (era resposta de outra pergunta); errada \"Nigéria\" trocada por \"Paraguai\" na geração (era resposta de outra pergunta); errada \"Camarões\" trocada por \"África do Sul\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Costa do Marfim\" trocada por \"Argélia\" na geração (era resposta de outra pergunta); errada \"Nigéria\" trocada por \"Paraguai\" na geração (era resposta de outra pergunta); errada \"Camarões\" trocada por \"África do Sul\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "169dbd428a",
@@ -421,12 +449,13 @@
       "Alemanha"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3437f90591",
@@ -441,13 +470,14 @@
       "Wolfgang Petersen"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"qual diretor fez o filme X\" passou de 5 na rodada (8); ficaram Waititi, Cuarón, Wes Anderson, Raimi e James Gunn",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Ridley Scott\" trocada por \"Antoine Fuqua\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre a batalha das Termópilas?\"); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre os guerreiros espartanos do rei Leônidas?\")"
+    "correcao": "errada \"Ridley Scott\" trocada por \"Antoine Fuqua\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre a batalha das Termópilas?\"); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre os guerreiros espartanos do rei Leônidas?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dab7ca636c",
@@ -462,13 +492,14 @@
       "Taika Waititi"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Peter Jackson\" trocada por \"Lee Tamahori\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Peter Jackson\" trocada por \"Lee Tamahori\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "133e6b353c",
@@ -483,12 +514,13 @@
       "Robert Eggers"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"qual diretor fez o filme X\" passou de 5 na rodada (8); cortada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0d574d08cc",
@@ -503,12 +535,13 @@
       "Alfonso Cuarón"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a76ae2a89a",
@@ -523,17 +556,18 @@
       "Wes Anderson"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c7d2a266f9",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual diretor comandou a trilogia do Homem-Aranha com Tobey Maguire?",
     "resposta": "Sam Raimi",
     "alternativas": [
@@ -543,12 +577,15 @@
       "Jon Watts"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: Sam Raimi é diretor conhecido de quem gosta de cinema; rebaixada"
   },
   {
     "id": "189fbf90d6",
@@ -563,13 +600,14 @@
       "Patty Jenkins"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"qual diretor fez o filme X\" passou de 5 na rodada (8); cortada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Kathryn Bigelow\" trocada por \"Niki Caro\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Kathryn Bigelow\" trocada por \"Niki Caro\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3bbb30881a",
@@ -584,12 +622,14 @@
       "O Rei do Show"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "698b8cfacd",
@@ -624,13 +664,15 @@
       "Xanadu"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Footloose\" trocada por \"Xanadu\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Footloose\" trocada por \"Xanadu\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "983cd12fe2",
@@ -645,12 +687,14 @@
       "Dreamgirls"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "082516daea",
@@ -685,12 +729,13 @@
       "Speed Racer"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "eb0dd19885",
@@ -705,13 +750,14 @@
       "Flame of Recca"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Inuyasha\" trocada por \"Rave Master\" na geração (era resposta de outra pergunta); errada \"Beyblade\" trocada por \"Zatch Bell\" na geração (era resposta de outra pergunta); errada \"Yu-Gi-Oh!\" trocada por \"Flame of Recca\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Inuyasha\" trocada por \"Rave Master\" na geração (era resposta de outra pergunta); errada \"Beyblade\" trocada por \"Zatch Bell\" na geração (era resposta de outra pergunta); errada \"Yu-Gi-Oh!\" trocada por \"Flame of Recca\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e22accc444",
@@ -726,12 +772,14 @@
       "Gatchaman"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6143cf2a96",
@@ -746,12 +794,14 @@
       "Os Defensores"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "86569d0804",
@@ -766,12 +816,14 @@
       "Wedding Peach"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3381",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "07eacf53de",
@@ -786,14 +838,15 @@
       "PageRank"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual algoritmo criado por Larry Page e Sergey Brin ordenava as páginas pelo número de links que recebiam?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4016)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4016)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9295460209",
@@ -808,12 +861,13 @@
       "Código Morse"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "09c13b2a84",
@@ -828,12 +882,14 @@
       "DES"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7c0e59d50f",
@@ -848,12 +904,14 @@
       "Merge sort"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3f3e2433ab",
@@ -868,12 +926,14 @@
       "Algoritmo de Dijkstra"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0264f86535",
@@ -888,12 +948,14 @@
       "SECAM"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "67cd578e26",
@@ -908,12 +970,14 @@
       "Peru"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4580",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.4)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8a8de4b0cc",
@@ -928,12 +992,13 @@
       "Camboja"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "971d888c3e",
@@ -948,12 +1013,13 @@
       "Elba"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:683",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 12.0)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 12.0)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ecaa8f630b",
@@ -968,12 +1034,14 @@
       "Estatuto da Criança e do Adolescente"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2efa868402",
@@ -988,12 +1056,13 @@
       "Código Comercial"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ba7accf413",
@@ -1008,12 +1077,14 @@
       "Cúpula de Estocolmo"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "93d0ebf46a",
@@ -1028,12 +1099,14 @@
       "Lei Anticorrupção"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "11960bc6b8",
@@ -1048,12 +1121,13 @@
       "Lei do Teto de Gastos"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:d7126d28da",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2212d12978",
@@ -1068,12 +1142,14 @@
       "Primavera de Kiev"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a81f5e682c",
@@ -1088,12 +1164,14 @@
       "Carta de Atlântico"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5008ab4ede",
@@ -1108,12 +1186,14 @@
       "Moscou"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c813af5cfa",
@@ -1128,13 +1208,14 @@
       "Lucrécio"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual poeta romano escreveu a \"Eneida\", sobre a fuga de Eneias depois da queda de Troia?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual poeta romano escreveu a \"Eneida\", sobre a fuga de Eneias depois da queda de Troia?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2bf1e9f8e4",
@@ -1149,12 +1230,14 @@
       "Propércio"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d17d4f354a",
@@ -1169,12 +1252,14 @@
       "Arquíloco"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a4e9ef054c",
@@ -1189,13 +1274,15 @@
       "Xenofonte"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Políbio\" trocada por \"Arriano\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Políbio\" trocada por \"Arriano\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f58a34db4e",
@@ -1210,13 +1297,14 @@
       "Metais alcalinos"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual família da tabela periódica reúne sódio, potássio e lítio?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual família da tabela periódica reúne sódio, potássio e lítio?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4192af25ae",
@@ -1231,17 +1319,18 @@
       "Metaloides"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "68f1b120bf",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama a família do oxigênio e do enxofre na tabela periódica?",
     "resposta": "Calcogênios",
     "alternativas": [
@@ -1251,17 +1340,21 @@
       "Pnictogênios"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: calcogênios é conceito de escola conhecido pelo nome; rebaixada"
   },
   {
     "id": "af2eca503c",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama a série de 15 elementos, do lantânio ao lutécio, das terras raras?",
     "resposta": "Lantanídeos",
     "alternativas": [
@@ -1271,12 +1364,16 @@
       "Actinídeos"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: lantanídeos é conceito de escola conhecido pelo nome; rebaixada"
   },
   {
     "id": "5ffcb46add",
@@ -1286,18 +1383,20 @@
     "resposta": "Metais alcalino-terrosos",
     "alternativas": [
       "Metais de transição",
-      "Metais representativos",
+      "Metais nobres",
       "Metais alcalino-terrosos",
       "Metais pesados"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f58a34db4e",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (25.3, 54% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:f58a34db4e)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:f58a34db4e)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Metais representativos: os alcalino-terrosos (grupo 2) são elementos representativos (defensável); trocada"
   },
   {
     "id": "88dff084dc",
@@ -1312,13 +1411,14 @@
       "Magnetosfera"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Troposfera\" trocada por \"Mesopausa\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Troposfera\" trocada por \"Mesopausa\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d26bb61c89",
@@ -1333,13 +1433,15 @@
       "Tropopausa"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Mesosfera\" trocada por \"Ozonosfera\" na geração (era resposta de outra pergunta); errada \"Termosfera\" trocada por \"Estratopausa\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Mesosfera\" trocada por \"Ozonosfera\" na geração (era resposta de outra pergunta); errada \"Termosfera\" trocada por \"Estratopausa\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fc5564d608",
@@ -1354,12 +1456,13 @@
       "Doença de Chagas"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dab771ad1f",
@@ -1374,12 +1477,13 @@
       "Hwang Hee-chan"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "080f62aabe",
@@ -1394,14 +1498,16 @@
       "Xherdan Shaqiri"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2609",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.2)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual atacante senegalês formou com Salah e Firmino o trio do Liverpool campeão europeu em 2019?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2609)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2609)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d457a24025",
@@ -1416,13 +1522,15 @@
       "Oleg Protasov"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Hristo Stoichkov\" trocada por \"Oleg Protasov\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Hristo Stoichkov\" trocada por \"Oleg Protasov\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c62c693a53",
@@ -1437,12 +1545,13 @@
       "Shinji Kagawa"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a763c567c5",
@@ -1457,12 +1566,13 @@
       "Jay-Jay Okocha"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d5efbef756",
@@ -1477,13 +1587,15 @@
       "Michael Laudrup"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Peter Schmeichel\" trocada por \"Jon Dahl Tomasson\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Peter Schmeichel\" trocada por \"Jon Dahl Tomasson\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a5fe810109",
@@ -1498,12 +1610,13 @@
       "Brandon Flowers"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3827a34300",
@@ -1518,14 +1631,15 @@
       "Samuel Rosa"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Quem é o vocalista do Skank, de \"Garota Nacional\"?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3405)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3405)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9e7e7cf8ac",
@@ -1540,12 +1654,13 @@
       "Dinho Ouro Preto"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "09e7e2c8fd",
@@ -1560,20 +1675,21 @@
       "Dinho Ouro Preto"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"quem é o vocalista da banda X\" passou de 5 na rodada; ficaram Chris Martin, Samuel Rosa, Rogério Flausino, Toni Garrido e Bruce Dickinson",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Quem foi o vocalista do NX Zero, de \"Razões e Emoções\"?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6150)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6150)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e15340a249",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Qual cantor foi a voz do Cidade Negra em \"Firmamento\" e \"A Estrada\"?",
+    "pergunta": "Qual cantor foi a voz da banda de reggae de \"Firmamento\" e \"A Estrada\"?",
     "resposta": "Toni Garrido",
     "alternativas": [
       "Edson Gomes",
@@ -1582,13 +1698,14 @@
       "Bino Farias"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Marcelo D2\" trocada por \"Lazão\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Marcelo D2\" trocada por \"Lazão\" na geração (era resposta de outra pergunta) | conferente-v9: o enunciado citava Cidade Negra, resposta de 076:462f8d0889; nome da banda tirado (antes: \"Qual cantor foi a voz do Cidade Negra em \"Firmamento\" e \"A Estrada\"?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fcaf68f6ff",
@@ -1603,12 +1720,13 @@
       "Paul Di'Anno"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5d1542d4ef",
@@ -1623,12 +1741,13 @@
       "Slash"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5fd8ae84f3",
@@ -1643,12 +1762,13 @@
       "Tony Iommi"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5955757893",
@@ -1663,17 +1783,19 @@
       "Tommy Lee"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9b862fc9bf",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual baterista do Led Zeppelin morreu em 1980, levando ao fim da banda?",
     "resposta": "John Bonham",
     "alternativas": [
@@ -1683,12 +1805,16 @@
       "Ginger Baker"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: John Bonham é nome muito conhecido de quem gosta de rock; rebaixada"
   },
   {
     "id": "9e2255d334",
@@ -1703,12 +1829,14 @@
       "Neil Peart"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3c759f41d0",
@@ -1723,17 +1851,18 @@
       "Tabela hash"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3ca1943c28",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama a estrutura de dados em que cada elemento guarda o endereço do próximo?",
     "resposta": "Lista ligada",
     "alternativas": [
@@ -1743,12 +1872,16 @@
       "Fila circular"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6143cf2a96",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.5)"
+    "dup_regra": "resposta nova citada no texto antigo (5.5)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: lista ligada é conceito básico de programação conhecido pelo nome; rebaixada"
   },
   {
     "id": "0ed8d6d331",
@@ -1763,12 +1896,13 @@
       "Creative Commons"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "eb86fb323d",
@@ -1778,17 +1912,20 @@
     "resposta": "Sojourner",
     "alternativas": [
       "Viking",
-      "Pathfinder Rover",
+      "Curiosity",
       "Sojourner",
       "Spirit"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Pathfinder Rover: o Sojourner era o próprio jipe da missão Mars Pathfinder (defensável); trocada"
   },
   {
     "id": "ff549806b8",
@@ -1803,11 +1940,13 @@
       "Phoenix"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   }
 ]

@@ -8,6 +8,12 @@ As rodadas 1 a 4 (lotes 001 a 045) foram publicadas na `main` em 24/10/2026, com
 
 Atenção para a próxima rodada: o `perguntas.json` desta branch ainda é o banco antigo (4.580). Antes de gerar lotes novos, trazer o da `main` (`git checkout origin/main -- perguntas.json`) para o detector de duplicadas comparar com as 8.982, e não reaproveitar status `aprovada` dos lotes 001 a 045 (já estão publicadas).
 
+## Publicação da rodada 5 (30/10/2026)
+
+A rodada 5 (lotes 046 a 055) foi publicada na `main` em 30/10/2026, commit `8d5a863` ("Banco v5: +977 perguntas da rodada 5 (total 9.959)"), com autorização do Lucas. As 977 `conferida` viraram `aprovada` (`aprovado_em: "2026-10-30"`, commit `224b206` nesta branch) e entraram depois das 8.982 da `main` (banco v4, base `04f928c`), na ordem dos lotes, só com os campos do jogo. Validador do jogo (`montarBanco`): 9.959 válidas, 0 descartadas; nenhum enunciado repetido; as 8.982 antigas idênticas byte a byte. A pasta `expansao/` não foi para a `main`.
+
+Atenção para a próxima rodada: trazer o `perguntas.json` da `main` (9.959) antes de gerar lotes novos, e não reaproveitar status `aprovada` dos lotes 001 a 055 (já estão publicadas).
+
 ## Arquivos
 
 | Caminho | O que é |

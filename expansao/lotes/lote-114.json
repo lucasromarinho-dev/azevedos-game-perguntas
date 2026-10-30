@@ -1,0 +1,89 @@
+[
+  {
+    "id": "b79995cc44",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país europeu é famoso pelos campos de tulipas e pelos moinhos de vento?",
+    "resposta": "Holanda",
+    "alternativas": [
+      "Bélgica",
+      "Holanda",
+      "Áustria",
+      "Suíça"
+    ],
+    "subtema": "Europa",
+    "status": "gerada",
+    "motivo": null,
+    "recente": false,
+    "verificado_web": "pt.wikipedia: Países Baixos",
+    "dup": "nao",
+    "dup_ref": null,
+    "dup_regra": null
+  },
+  {
+    "id": "f2f084ae0a",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual animal, que começou como provocação das torcidas rivais, acabou adotado como mascote pelo Palmeiras?",
+    "resposta": "Porco",
+    "alternativas": [
+      "Urso",
+      "Lobo",
+      "Porco",
+      "Gavião"
+    ],
+    "subtema": "Futebol brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "recente": false,
+    "verificado_web": "pt.wikipedia: Sociedade Esportiva Palmeiras",
+    "dup": "suspeita",
+    "dup_ref": "id:12525d5157",
+    "dup_regra": "mesma resposta, assunto vizinho (10.7, 19% do fato)",
+    "dup_revisado": "falso positivo: ref é a Guerra do Porco (História), fato diferente"
+  },
+  {
+    "id": "22cdbc6c9f",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como é chamado quem nasce na cidade do Rio de Janeiro?",
+    "resposta": "Carioca",
+    "alternativas": [
+      "Niteroiense",
+      "Paulistano",
+      "Carioca",
+      "Petropolitano"
+    ],
+    "subtema": "Brasil",
+    "status": "gerada",
+    "motivo": null,
+    "recente": false,
+    "verificado_web": "pt.wikipedia: Carioca",
+    "dup": "certa",
+    "dup_ref": "banco:8871",
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.5, 55% do fato)",
+    "dup_revisado": "falso positivo: ref é a Conjuração Carioca (História); o banco só pergunta o gentílico do estado (Fluminense), não o da cidade"
+  },
+  {
+    "id": "078f00aeab",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogador brasileiro, tricampeão mundial com a Seleção, ficou conhecido como o \"Rei do Futebol\"?",
+    "resposta": "Pelé",
+    "alternativas": [
+      "Careca",
+      "Pelé",
+      "Coutinho",
+      "Friedenreich"
+    ],
+    "subtema": "Futebol brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "recente": false,
+    "verificado_web": "pt.wikipedia: Pelé",
+    "dup": "suspeita",
+    "dup_ref": "banco:7745",
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)",
+    "dup_revisado": "falso positivo: ref é a Lei Pelé; nenhum item do banco pergunta o apelido Rei do Futebol"
+  }
+]

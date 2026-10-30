@@ -6219,6 +6219,92 @@
           "espelho/duplicada": "b52d80ff65: espelho: cadeia de algarismos romanos com banco:966 (L = 50) e banco:967 (M = 1000), mesmo molde e alternativas cruzadas (M e L)",
           "errada defensavel": "72e37b664d: errada Straight flush defensável (o royal é um straight flush); trocada por Flush"
         }
+      },
+      {
+        "lote": "059",
+        "conferente": "conferente-v6",
+        "conferidas": 93,
+        "conferidas_sem_mudanca": 84,
+        "com_mudanca": 9,
+        "corrigidas": 9,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 4,
+        "buscas_web": 4,
+        "suspeitas": {
+          "total": 12,
+          "mantidas": 10,
+          "reescritas": 2,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 6,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "32247203ac: Spalla - errada Concertino é sinônimo de spalla (errada defensável); trocada por Corifeu",
+          "69938338b4: Build Your Dreams - as iniciais de \"Build Your Dreams\" no enunciado entregavam a sigla BYD; pergunta invertida (o que a sigla quer dizer)",
+          "d321561351: La Fontaine - enunciado citava \"A Cigarra e a Formiga\", que entregava a resposta de 935031e875 (Formiga, mesmo lote); trocado por outra fábula dele",
+          "d4c2058f4b: Plano Verão - enunciado citava o Cruzado Novo, resposta de banco:7526 (moeda de 1989 a 1990); reescrito sem o nome da moeda",
+          "1cd96dcd6f: Tartaruga - errada Jabuti defensável (é a tartaruga terrestre, como a da fábula); trocada por Porco-espinho",
+          "ca5d9bb759: Que estão verdes - errada 'azedas' defensável (é a versão em inglês e em várias traduções, 'sour grapes'); trocada",
+          "90dae7d2e6: Ribalta - errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina",
+          "a92e7ab820: Diapasão - errada Afinador defensável (o diapasão é um afinador); trocada por Batuta",
+          "7df91a84d7: 789 - o prefixo 789 indica o registro na GS1 Brasil, não o país de fabricação (Aos Fatos); enunciado ajustado"
+        ],
+        "rebaixamentos": [
+          "69938338b4: Build Your Dreams dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "errada defensavel": 4,
+          "entrega a resposta": 3,
+          "espelho/duplicada": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "32247203ac: errada Concertino é sinônimo de spalla (errada defensável); trocada por Corifeu",
+          "entrega a resposta": "69938338b4: as iniciais de \"Build Your Dreams\" no enunciado entregavam a sigla BYD; pergunta invertida (o que a sigla quer dizer)",
+          "espelho/duplicada": "90dae7d2e6: errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina",
+          "fato impreciso": "7df91a84d7: o prefixo 789 indica o registro na GS1 Brasil, não o país de fabricação (Aos Fatos); enunciado ajustado"
+        }
       }
     ],
     "rebaixamentos_r3": {

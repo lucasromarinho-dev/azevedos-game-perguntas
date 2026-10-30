@@ -90,6 +90,15 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 - Saturaram: games de luta e retrô, banda larga e apps brasileiros, Império e República de segunda linha, ventos e clima, vacinas e nutrição, mascotes e bolas de Copa, sitcoms, Nintendo de segunda linha. Fáceis de História, Esportes e Tecnologia seguem sendo o gargalo.
 - 10 buscas na web, 9 fatos confirmados; os 2 sem confirmação ou que entregavam a resposta ficaram de fora. No 055, o enunciado do Canarinho Pistola foi reescrito direto no lote (a fonte guarda o original para o `montar-lote.mjs` não duplicar).
 
+### Conferência da rodada 5 (conferente-v5, 29/10/2026)
+
+- 1.003 perguntas dos lotes 046 a 055: **977 conferidas** (855 sem mudança, 122 com alguma mudança) e **26 descartadas** (13 duplicadas do banco publicado, 12 espelhos, 1 que entregava a resposta de outra). Detalhes por lote em `metricas.json` (`conferencia.lotes`, conferente-v5) e amostra de 30 em `amostra-lucas-r5.md`.
+- Por lote (ok / com mudança / descartadas): 046 83/21/3, 047 82/9/2, 048 94/8/5, 049 85/6/2, 050 90/17/0, 051 80/11/2, 052 96/8/3, 053 74/16/3, 054 90/13/4, 055 81/13/2.
+- Dificuldade: 30 rebaixadas (27 de difícil para médio, 3 de médio para fácil) e 2 subidas de fácil para médio por serem decoreba (Orlando Silva, Dólmã). Distribuição final das 977: 355 fáceis, 371 médias, 251 difíceis.
+- Tipos de erro mais achados: enunciado que entregava a resposta de outra pergunta do banco ou da própria rodada (35, quase sempre um título ou termo que é resposta de outra: "1984", "planeta Pandora", "cavadinha", "Avatar: A Lenda de Aang"); dificuldade (32); espelho ou duplicada que a grafia escondeu do detector (30, incluindo 4 pares com as respostas cruzadas nas alternativas, como Gondwana x Laurásia e Fino x Imperial); errada defensável (26: Atalanta também é "Nerazzurri", Acampamento Júpiter também é refúgio de semideuses); fato impreciso (21: o Hi-Top Game era da Milmar e não da CCE, ossobuco é de vitela, o Everton saiu de Goodison Park em 2025).
+- Suspeitas do detector: 112, das quais 95 mantidas (falso positivo, resposta igual com fato diferente é permitida), 11 reescritas e 6 descartadas.
+- Checagem na web: 218 perguntas checadas (`verificado_web`), com 189 buscas e algumas leituras diretas na Wikipedia. **A cota de 200 buscas por sessão acabou** no meio dos lotes 051 a 055, que ficaram com menos checagem (15 a 22 por lote). As 196 conferidas sem `verificado_web` que têm número, superlativo ou são difíceis foram revisadas de memória pelo coordenador (daí a Valfenda rebaixada e os 4 pares de alternativas cruzadas), mas não passaram por busca. Para uma checagem complementar numa sessão nova, filtre nos lotes 046-055: `status` "conferida", sem `verificado_web`, com dígito, "primeiro/maior/único" no enunciado ou dificuldade "dificil".
+
 ## Fluxo de um lote
 
 1. Escrever `fontes/lote-NNN.txt` (formato no topo de `montar-lote.mjs`), seguindo o guia de estilo e priorizando subtemas com pouca cobertura.

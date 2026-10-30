@@ -5634,6 +5634,36 @@
       "descartadas": 13,
       "perguntas_com_busca_web": 373,
       "_nota": "1 pergunta corrigida e rebaixada ao mesmo tempo (81c6a88b1d); lote 039 teve um segundo commit só para rebaixar 3 difíceis esquecidas no primeiro"
+    },
+    "resumo_r5": {
+      "conferente": "conferente-v5",
+      "lotes": "046-055",
+      "total": 1003,
+      "conferidas": 977,
+      "sem_mudanca": 855,
+      "com_mudanca": 122,
+      "rebaixadas": 30,
+      "subidas": 2,
+      "descartadas": 26,
+      "motivos_descarte": {
+        "duplicada": 13,
+        "espelho": 12,
+        "entrega": 1
+      },
+      "suspeitas": {
+        "total": 112,
+        "mantidas": 95,
+        "reescritas": 11,
+        "descartadas": 6
+      },
+      "perguntas_com_busca_web": 218,
+      "buscas_web": 189,
+      "distribuicao_final": {
+        "facil": 355,
+        "medio": 371,
+        "dificil": 251
+      },
+      "_nota": "cota de 200 WebSearch por sessão esgotou durante os lotes 051-055; 196 conferidas de risco sem verificado_web revisadas de memória pelo coordenador (commit afcc335)"
     }
   },
   "listas": {

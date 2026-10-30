@@ -9442,6 +9442,109 @@
           "fato que pode mudar": "27f1870894: 'está no ar desde 1999' pode envelhecer; trocado por 'estreou em 1999'",
           "fato impreciso": "d1d7ec7c82: Waly Salomão chegou depois do movimento (pós-tropicalismo) e Capinam, baiano e letrista do disco-manifesto, também cabia no enunciado; reescrita com Capinam (parceria com Gil confirmada na web)"
         }
+      },
+      {
+        "lote": "080",
+        "conferente": "conferente-v8",
+        "conferidas": 103,
+        "conferidas_sem_mudanca": 94,
+        "com_mudanca": 9,
+        "corrigidas": 8,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 5,
+        "motivos_descarte": {
+          "molde repetido": 4,
+          "entrega a resposta": 1
+        },
+        "perguntas_com_busca_web": 12,
+        "buscas_web": 11,
+        "suspeitas": {
+          "total": 19,
+          "mantidas": 17,
+          "reescritas": 0,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 16,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 21,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 5
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "865f7ec3f1: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Kid Vinil saiu)",
+          "647e660b46: molde repetido: 7 personagens de Chico Anysio no mesmo lote; cortado o excesso (Coalhada)",
+          "a704ef6683: enunciado entrega a resposta ('pedia ofertas com seu \"Tim Tones\"' => Tim Tones) e 7 personagens de Chico Anysio no mesmo lote",
+          "940c7d3fdc: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Falamansa saiu)",
+          "6d97ecdc79: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Gloria Groove saiu)"
+        ],
+        "correcoes": [
+          "141e25261a: Rádio de válvula - 'por causa das válvulas' entregava Rádio de válvula; tirado",
+          "912da74a11: Caixeiro-viajante - errada Mascate também viajava de cidade em cidade vendendo mercadorias (defensável); trocada",
+          "94d5199536: Radiano - radiano é conceito de escola conhecido pelo nome; rebaixada",
+          "a829fdfd2c: Margem - errada Medianiz é a margem interna de encadernação (defensável); trocada",
+          "45711c82c2: Espaçamento entre linhas - errada Entrelinha dupla é sinônimo de espaçamento duplo entre linhas (defensável); trocada",
+          "9d8f9b1162: CIH - erradas Jerusalém e Jerusalém B eram a mesma família de vírus; trocada",
+          "0fc8f10dc2: Kelly Key - errada Kelly Lilica era nome inventado que imitava a certa; trocada",
+          "90b84ff63a: Paradoxo do aniversário - errada Paradoxo de Monty Hall era a resposta de ba4534 (mesmo lote); trocada",
+          "11c73ee55f: Seth Wheeler - a patente de Seth Wheeler é de 1871 (refinada em 1891), não exatamente do 'fim do século XIX'; ano posto no enunciado (checagem web)"
+        ],
+        "rebaixamentos": [
+          "94d5199536: Radiano dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "entrega a resposta": 2,
+          "errada defensavel": 3,
+          "dificuldade": 1,
+          "molde repetido": 4,
+          "alternativa repetida": 1,
+          "alternativa fora do tipo": 1,
+          "espelho/duplicada": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "entrega a resposta": "141e25261a: 'por causa das válvulas' entregava Rádio de válvula; tirado",
+          "errada defensavel": "912da74a11: errada Mascate também viajava de cidade em cidade vendendo mercadorias (defensável); trocada",
+          "dificuldade": "94d5199536: radiano é conceito de escola conhecido pelo nome; rebaixada",
+          "molde repetido": "865f7ec3f1: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Kid Vinil saiu)",
+          "alternativa repetida": "9d8f9b1162: erradas Jerusalém e Jerusalém B eram a mesma família de vírus; trocada",
+          "alternativa fora do tipo": "0fc8f10dc2: errada Kelly Lilica era nome inventado que imitava a certa; trocada",
+          "espelho/duplicada": "90b84ff63a: errada Paradoxo de Monty Hall era a resposta de ba4534 (mesmo lote); trocada",
+          "fato impreciso": "11c73ee55f: a patente de Seth Wheeler é de 1871 (refinada em 1891), não exatamente do 'fim do século XIX'; ano posto no enunciado (checagem web)"
+        }
       }
     ],
     "rebaixamentos_r3": {

@@ -12,12 +12,13 @@
       "Yalu"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "32c3466f9a",
@@ -26,18 +27,20 @@
     "pergunta": "Qual é o nome, desde 2018, do país africano antes chamado de Suazilândia?",
     "resposta": "Essuatíni",
     "alternativas": [
-      "Lesoto",
+      "Zâmbia",
       "Botsuana",
       "Malawi",
       "Essuatíni"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Lesoto era a resposta de banco:765 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "87dbe18957",
@@ -52,12 +55,13 @@
       "Maipo"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "344eb772e8",
@@ -68,16 +72,18 @@
     "alternativas": [
       "Ludismo",
       "Taylorismo",
-      "Toyotismo",
-      "Fordismo"
+      "Stakhanovismo",
+      "Volvismo"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Toyotismo e Fordismo eram respostas de 072:f22e23 e 072:ae431e (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "788b253708",
@@ -92,12 +98,13 @@
       "Harvey Milk"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c7193e1709",
@@ -106,18 +113,20 @@
     "pergunta": "Como se chama o som grave demais para o ouvido humano, usado pelos elefantes para se comunicar?",
     "resposta": "Infrassom",
     "alternativas": [
-      "Ultrassom",
-      "Eco",
+      "Microfonia",
+      "Reverberação",
       "Ruído branco",
       "Infrassom"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Ultrassom e Eco eram respostas de banco:2132 (respostas cruzadas) e 063:5d2835; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0e93fac5cc",
@@ -128,16 +137,18 @@
     "alternativas": [
       "Pau-brasil",
       "Embaúba",
-      "Jatobá",
-      "Ipê"
+      "Peroba",
+      "Jequitibá"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Jatobá e Ipê eram respostas de 074:83d840 e banco:4899, do mesmo molde (árvore brasileira); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d157d9f00d",
@@ -146,18 +157,20 @@
     "pergunta": "Qual árvore dá a pimenta-rosa usada na culinária?",
     "resposta": "Aroeira",
     "alternativas": [
-      "Jatobá",
+      "Cedro",
       "Pimenteira-do-reino",
-      "Embaúba",
+      "Pitangueira",
       "Aroeira"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Jatobá e Embaúba eram respostas de 074:83d840 e 0e93f (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dd79bec2a9",
@@ -167,17 +180,19 @@
     "resposta": "Praia Clube",
     "alternativas": [
       "Sesc Flamengo",
-      "Minas Tênis Clube",
-      "Osasco",
+      "Barueri",
+      "Pinheiros",
       "Praia Clube"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Minas Tênis Clube e Osasco eram respostas de 595a0 (mesmo lote) e banco:8831, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "00d5dc1a76",
@@ -192,12 +207,13 @@
       "Peru"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7138",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (4.9)"
+    "dup_regra": "resposta nova citada no texto antigo (4.9)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "70cf95540f",
@@ -212,12 +228,13 @@
       "Alemanha"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d00356aa9e",
@@ -232,13 +249,14 @@
       "Porto Rico"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:42",
     "recente": false,
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ce6d3416c5",
@@ -253,12 +271,13 @@
       "Atrasado"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "78b7d12d09",
@@ -273,12 +292,13 @@
       "Castela"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "39f605d654",
@@ -288,17 +308,19 @@
     "resposta": "Lombardia",
     "alternativas": [
       "Vêneto",
-      "Toscana",
+      "Emília-Romanha",
       "Lombardia",
       "Piemonte"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Toscana era a resposta de 070:e2552a, do mesmo molde (região italiana); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5bde7280ed",
@@ -313,12 +335,13 @@
       "Morrer"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:de07dbdd99",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 11.0)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 11.0)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4ac98108a6",
@@ -333,12 +356,13 @@
       "Springfield"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f5df57add0",
@@ -349,16 +373,18 @@
     "alternativas": [
       "Valônia",
       "Flandres",
-      "Brabante",
+      "Hainaut",
       "Ardenas"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Brabante é defensável (o Brabante Flamengo fala holandês); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "922e6d9a19",
@@ -367,18 +393,20 @@
     "pergunta": "Qual é a capital do Alasca, que só se alcança de avião ou barco?",
     "resposta": "Juneau",
     "alternativas": [
-      "Anchorage",
+      "Kodiak",
       "Nome",
       "Juneau",
       "Fairbanks"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Anchorage era a resposta de banco:6498, que tem Juneau entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4cef639930",
@@ -393,12 +421,13 @@
       "Henderson"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "70e81a6a89",
@@ -413,12 +442,13 @@
       "CDI"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5793c3fe1e",
@@ -433,12 +463,13 @@
       "Socialismo"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "16b1892bac",
@@ -447,19 +478,21 @@
     "pergunta": "Como eram chamados os navegadores e guerreiros escandinavos dos barcos com cabeça de dragão?",
     "resposta": "Vikings",
     "alternativas": [
-      "Normandos",
+      "Celtas",
       "Saxões",
       "Godos",
       "Vikings"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1363",
     "recente": false,
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 18.5)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Normandos (descendentes dos vikings) é defensável; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9b42f855e6",
@@ -471,15 +504,17 @@
       "Galeão",
       "Caravela",
       "Jangada",
-      "Nau"
+      "Trirreme"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Nau era a resposta de banco:7900, que tem Caravela entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "43a5be3478",
@@ -494,12 +529,13 @@
       "Forte de São João"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "200b16440d",
@@ -514,12 +550,13 @@
       "Andrew Jackson"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ae38dfb32d",
@@ -528,18 +565,20 @@
     "pergunta": "Como se chama o posto do formando da academia militar antes de virar segundo-tenente?",
     "resposta": "Aspirante",
     "alternativas": [
-      "Cadete",
+      "Subtenente",
       "Sargento",
       "Recruta",
       "Aspirante"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Cadete (aluno da academia, resposta de 068:47281c) é defensável para quem ainda não se formou; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dfe47a273b",
@@ -554,12 +593,13 @@
       "Forte de São Marcelo"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0494aa5c30",
@@ -574,12 +614,13 @@
       "Zumbi"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "536849853e",
@@ -590,17 +631,19 @@
     "alternativas": [
       "Deodoro da Fonseca",
       "Rui Barbosa",
-      "Joaquim Nabuco",
+      "Silva Jardim",
       "Prudente de Morais"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1197",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 23% do fato)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Joaquim Nabuco era a resposta de banco:1178 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "49b757f25d",
@@ -609,18 +652,20 @@
     "pergunta": "Qual líder de Mianmar ganhou o Nobel da Paz de 1991 enquanto estava em prisão domiciliar?",
     "resposta": "Aung San Suu Kyi",
     "alternativas": [
-      "Rigoberta Menchú",
-      "Wangari Maathai",
+      "Corazon Aquino",
+      "Shirin Ebadi",
       "Aung San Suu Kyi",
       "Benazir Bhutto"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Rigoberta Menchú e Wangari Maathai eram respostas de 071:13d95c (respostas cruzadas) e 070:0f9a8e; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a4f606c8c8",
@@ -635,12 +680,13 @@
       "Sépala"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d91feb111a",
@@ -649,18 +695,20 @@
     "pergunta": "Como se chama o órgão reprodutor feminino da flor?",
     "resposta": "Pistilo",
     "alternativas": [
-      "Antera",
+      "Receptáculo",
       "Pistilo",
       "Sépala",
       "Pétala"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a4f606c8c8",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "errada Antera era a resposta de 074:9a35bc, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ff7b7170b8",
@@ -671,16 +719,18 @@
     "alternativas": [
       "Detritívoro",
       "Carnívoro",
-      "Nectarívoro",
+      "Ovívoro",
       "Herbívoro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Nectarívoro era a resposta de 069:c7bb16, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "977387800f",
@@ -695,12 +745,13 @@
       "Aurora"
     ],
     "subtema": "Química",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 8 perguntas 'qual palavra latina deu o símbolo X' na rodada (Aurum, Argentum, Plumbum, Hydrargyrum, Stannum, Cuprum, Ferrum, Natrium), com as respostas cruzadas nas alternativas; cortado o excesso (Aurum, a mais óbvia)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d4b0d824a6",
@@ -715,12 +766,13 @@
       "Estames"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5db5571086",
@@ -735,12 +787,13 @@
       "Platinum"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4465e8fbda",
@@ -755,12 +808,13 @@
       "Peristaltismo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1c80391f69",
@@ -775,12 +829,13 @@
       "Plumbum"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6f76d32a8e",
@@ -789,18 +844,20 @@
     "pergunta": "Qual palavra de origem grega, que quer dizer \"prata líquida\", deu ao mercúrio o símbolo Hg?",
     "resposta": "Hydrargyrum",
     "alternativas": [
-      "Argentum",
-      "Stannum",
+      "Wolfram",
+      "Kalium",
       "Hydrargyrum",
-      "Aurum"
+      "Stibium"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1890",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.0)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.0)",
+    "correcao": "as três erradas eram respostas de 5db55, 075:bdbb66 e da descartada 97738, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a7968898ce",
@@ -829,18 +886,20 @@
     "pergunta": "Qual arte marcial esteve no programa olímpico só nos Jogos de Tóquio, disputados em 2021?",
     "resposta": "Caratê",
     "alternativas": [
-      "Taekwondo",
+      "Wushu",
       "Judô",
       "Caratê",
       "Kung fu"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:ae3c960fbb",
     "recente": true,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 13.0)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 13.0)",
+    "correcao": "errada Taekwondo era a resposta de banco:5021, que tem Caratê entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "429703bda3",
@@ -889,18 +948,20 @@
     "pergunta": "Em que ano o Vasco foi rebaixado pela primeira vez no Brasileirão?",
     "resposta": "2008",
     "alternativas": [
-      "2002",
+      "2006",
       "2015",
       "2008",
       "2013"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada 2002 era a resposta de 071:62f764, do mesmo molde (ano do rebaixamento); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ec87109ed5",
@@ -912,15 +973,17 @@
       "2019",
       "2012",
       "2016",
-      "2008"
+      "2010"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada 2008 era a resposta de 6f92f (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8229eb3d5d",
@@ -955,12 +1018,13 @@
       "Veneza e Bolonha"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6923906a3f",
@@ -975,12 +1039,13 @@
       "Futebol australiano"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a8b8e812a0",
     "recente": true,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.7)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "03e9ead50d",
@@ -989,18 +1054,21 @@
     "pergunta": "Qual goleiro é o recordista de jogos pelo Fluminense e ídolo dos anos 1950?",
     "resposta": "Castilho",
     "alternativas": [
-      "Gilmar",
+      "Pompéia",
       "Castilho",
       "Félix",
-      "Barbosa"
+      "Valdir"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Gilmar e Barbosa eram respostas de banco:6433 e banco:2730, com Castilho entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "3de280809e",
@@ -1015,12 +1083,13 @@
       "TP Mazembe"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "595a06d1ca",
@@ -1035,12 +1104,13 @@
       "Montes Claros"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "67f2b2c86c",
@@ -1055,12 +1125,13 @@
       "Jared Diamond"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b9c211c30d",
@@ -1070,17 +1141,19 @@
     "resposta": "Colleen Hoover",
     "alternativas": [
       "Taylor Jenkins Reid",
-      "Sally Rooney",
+      "Emily Henry",
       "Jojo Moyes",
       "Colleen Hoover"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Sally Rooney era a resposta de 48844 (mesmo lote), que tinha Colleen Hoover entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fda9c128ea",
@@ -1091,22 +1164,24 @@
     "alternativas": [
       "KPop Demon Hunters",
       "Robô Selvagem",
-      "Flow",
+      "Elio",
       "Ne Zha 2"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Flow era a resposta de ac754 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "63ea191503",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Qual humorista do stand-up ficou famoso pelo bordão \"põe na conta\"?",
+    "pergunta": "Qual humorista do stand-up criou a \"pose de quebrada\", imitada por jogadores como Neymar e Gabriel Jesus?",
     "resposta": "Thiago Ventura",
     "alternativas": [
       "Fábio Porchat",
@@ -1115,12 +1190,15 @@
       "Murilo Couto"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "o bordão 'põe na conta' não foi confirmado em fonte; trocado pelo gesto 'pose de quebrada', confirmado (site do Palmeiras)",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "77342a48f1",
@@ -1135,12 +1213,13 @@
       "Boate"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1b6eb8d4e9",
@@ -1155,12 +1234,13 @@
       "Bookstagram"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c8d1ed0fb0",
@@ -1170,17 +1250,19 @@
     "resposta": "Audiolivro",
     "alternativas": [
       "Radionovela",
-      "E-book",
+      "Fanzine",
       "Podcast",
       "Audiolivro"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada E-book era a resposta de 074:b0c8da, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fc29a25203",
@@ -1195,12 +1277,13 @@
       "Antiquário"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1d533c6cd9",
@@ -1212,15 +1295,17 @@
       "Orelha",
       "Lombada",
       "Contracapa",
-      "Prefácio"
+      "Folha de rosto"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Prefácio era a resposta de 074:3533b9, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "522db715c3",
@@ -1232,15 +1317,17 @@
       "Kenzaburo Oe",
       "Haruki Murakami",
       "Yukio Mishima",
-      "Kazuo Ishiguro"
+      "Yasunari Kawabata"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Kazuo Ishiguro era a resposta de ac3ba (mesmo lote), que tinha Murakami entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8d261bb2c9",
@@ -1255,12 +1342,13 @@
       "Susanna Tamaro"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "48844a2cc6",
@@ -1271,16 +1359,18 @@
     "alternativas": [
       "Sally Rooney",
       "Zadie Smith",
-      "Elena Ferrante",
-      "Colleen Hoover"
+      "Anne Enright",
+      "Edna O'Brien"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Elena Ferrante e Colleen Hoover eram respostas de 8d261 e b9c21 (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "877a22f364",
@@ -1295,12 +1385,13 @@
       "Chimamanda Ngozi Adichie"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ac3ba6fa8b",
@@ -1312,15 +1403,17 @@
       "Salman Rushdie",
       "Bob Dylan",
       "Kazuo Ishiguro",
-      "Haruki Murakami"
+      "Ian McEwan"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Haruki Murakami era a resposta de 522db (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0e5dbe93db",
@@ -1335,12 +1428,13 @@
       "Adolescência"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8159",
     "recente": true,
-    "dup_regra": "resposta nova citada no texto antigo (6.1)"
+    "dup_regra": "resposta nova citada no texto antigo (6.1)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ac754b85e3",
@@ -1355,12 +1449,13 @@
       "Memórias de um Caracol"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1c48e27c54",
@@ -1375,12 +1470,13 @@
       "Bruna Linzmeyer"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3578",
     "recente": true,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "810a4a517b",
@@ -1395,12 +1491,14 @@
       "Blue Eye Samurai"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "49f9b8b19c",
@@ -1415,12 +1513,13 @@
       "José Luís Peixoto"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6570b0784e",
@@ -1435,12 +1534,14 @@
       "Comédia em Pé"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6755",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.2)"
+    "dup_regra": "resposta nova citada no texto antigo (6.2)",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "617341282e",
@@ -1455,12 +1556,13 @@
       "O Sole Mio"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3d3d4b6a9d",
@@ -1475,12 +1577,13 @@
       "São Paulo, Sinfonia da Metrópole"
     ],
     "subtema": "Cinema brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b15aea119e",
@@ -1509,18 +1612,20 @@
     "pergunta": "Qual fotógrafo americano ficou famoso pelas paisagens em preto e branco do Parque Yosemite?",
     "resposta": "Ansel Adams",
     "alternativas": [
-      "Dorothea Lange",
-      "Steve McCurry",
+      "Edward Weston",
+      "Walker Evans",
       "Ansel Adams",
-      "Robert Capa"
+      "Alfred Stieglitz"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 070:a94d3f, 070:e8363c e 070:f7a08b (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7b8c528f96",
@@ -1535,12 +1640,13 @@
       "Black Friday"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9e79639820",
@@ -1555,12 +1661,13 @@
       "Prime Day"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "719118e02e",
@@ -1575,12 +1682,13 @@
       "Bia"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "96e737d643",
@@ -1595,12 +1703,13 @@
       "Shein"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:5050 ('Qual loja online, de origem asiática e cor laranja, cresceu muito no Brasil...' => Shopee)",
     "dup": "suspeita",
     "dup_ref": "banco:5050",
     "recente": true,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7db58a0664",
@@ -1615,12 +1724,13 @@
       "Adaptador"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:5224 ('Como se chama a bateria portátil usada para recarregar o celular fora de casa?' => Power bank), com outro nome para a resposta",
     "dup": "suspeita",
     "dup_ref": "banco:5224",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cd70e76b4c",
@@ -1655,12 +1765,13 @@
       "Tóquio"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5543",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "222121134b",
@@ -1675,12 +1786,13 @@
       "Estocolmo"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "781c36ee4a",
@@ -1695,12 +1807,13 @@
       "Legacy"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "599fd9499f",
@@ -1715,12 +1828,13 @@
       "Tampere"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bca78a7fc8",
@@ -1731,16 +1845,18 @@
     "alternativas": [
       "San José",
       "Palo Alto",
-      "Cupertino",
+      "Redwood City",
       "Menlo Park"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Cupertino era a resposta de banco:4038, do mesmo molde (sede na Califórnia); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "923b638292",
@@ -1755,12 +1871,13 @@
       "Japão e Coreia do Sul"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "76b0303536",
@@ -1775,12 +1892,13 @@
       "Concepción"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:43f70abee7",
     "recente": true,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c9a0607081",
@@ -1795,12 +1913,13 @@
       "Uma"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e5b3fbd337",
@@ -1815,13 +1934,14 @@
       "Estádio Azteca"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4826",
     "recente": true,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "40aa2cbbd2",
@@ -1836,12 +1956,14 @@
       "Chico Landi"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "0200f4749c",
@@ -1853,15 +1975,17 @@
       "Tetsuo Okamoto",
       "Ricardo Prado",
       "Djan Madruga",
-      "Manoel dos Santos"
+      "Sylvio Fiolo"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Manoel dos Santos era a resposta de 074:ea618d, que tem Tetsuo Okamoto entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ea641ca760",
@@ -1896,12 +2020,13 @@
       "Dercy Gonçalves"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1e93d3fde3",
@@ -1916,12 +2041,13 @@
       "Zoom"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2cce1c9ef0",
@@ -1933,16 +2059,19 @@
       "Senior",
       "SAP",
       "Sankhya",
-      "TOTVS"
+      "Linx"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5260",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.1)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada TOTVS era a resposta de banco:4253, que tem Sankhya entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "0bec6935f9",
@@ -1954,15 +2083,17 @@
       "Qlik",
       "Tableau",
       "Looker",
-      "Power BI"
+      "Metabase"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Power BI era a resposta de 069:cf570a, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2b4fbb027c",
@@ -1971,18 +2102,20 @@
     "pergunta": "Qual ferramenta da Atlassian é muito usada por equipes de software para gerenciar tarefas e bugs?",
     "resposta": "Jira",
     "alternativas": [
-      "Trello",
+      "Monday",
       "Asana",
       "Jira",
       "Slack"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Trello também é da Atlassian e usada para gerenciar tarefas (defensável); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bf71518cf9",
@@ -1997,11 +2130,12 @@
       "Kanban"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   }
 ]

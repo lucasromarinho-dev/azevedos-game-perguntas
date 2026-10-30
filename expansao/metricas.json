@@ -4957,6 +4957,101 @@
           "dificuldade": "2259d6eeca: substância da hortelã que dá frescor -> Mentol é conhecido de quase todo adulto, medio -> facil"
         },
         "espelhos_r5": []
+      },
+      {
+        "lote": "050",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 90,
+        "corrigidas": 12,
+        "rebaixadas": 5,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 19,
+        "buscas_web": 16,
+        "suspeitas": {
+          "total": 11,
+          "mantidas": 9,
+          "reescritas": 2,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Esportes": {
+            "conferidas": 15,
+            "corrigidas": 5,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 3,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 11,
+            "corrigidas": 1,
+            "rebaixadas": 3,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "c66983b24c: \"Gaita\" trocada por \"Ocarina\": gaita é outro nome do próprio pífano no Nordeste (errada defensável)",
+          "4a3b3bcf10: enunciado sem a palavra \"água\", que entregava \"Aguadeiros\"",
+          "bd2437e08b: \"canela do boi\" -> \"canela da vitela\" (o ossobuco milanês é de vitela)",
+          "4844d935c1: tirado \"curry em pó\" do enunciado, que entregava \"Currywurst\"",
+          "183465b571: a pira é a estrutura, não a chama; enunciado ajustado",
+          "5c905c22a6: tirado \"campeão inglês surpresa em 2016\", que entregava a resposta de 3b97c88cdf (lote 011, Leicester campeão de 2016)",
+          "eed8daaa3a: \"Atalanta\" trocada por \"Roma\": a Atalanta também é chamada de Nerazzurri, preto e azul (errada defensável)",
+          "d6b3237354: o Everton deixou Goodison Park em 2025 (Hill Dickinson Stadium); enunciado no passado",
+          "6d6e5d62e2: pergunta passa a terminar com \"?\" fora das aspas",
+          "939799b052: desde 2019 a bola ao chão é dada a um só jogador, não \"entre os jogadores\"; enunciado ajustado",
+          "c07ddc15ff: resposta \"Hi-Top Game\" era da Milmar; o clone da CCE era o Top Game (fato errado)",
+          "2a5f94a697: entre o fim do Ultraman e o Ultraseven houve o Captain Ultra; \"logo depois\" trocado por \"no ano seguinte\""
+        ],
+        "rebaixamentos": [
+          "ee428a938b: medio -> facil",
+          "3d964ae2b8: medio -> facil",
+          "c50ff67b28: dificil -> medio",
+          "9997f88fc5: dificil -> medio",
+          "fe924a394b: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 2,
+          "entrega a resposta": 3,
+          "fato impreciso": 6,
+          "espelho/duplicada": 0,
+          "dificuldade": 5,
+          "outro": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "eed8daaa3a: Nerazzurri = Inter -> Atalanta (alternativa) também é Nerazzurri",
+          "entrega a resposta": "4844d935c1: salsicha com 'curry em pó' -> resposta Currywurst",
+          "fato impreciso": "c07ddc15ff: clone do Nintendinho da CCE -> Hi-Top Game era da Milmar; o da CCE era Top Game",
+          "dificuldade": "c50ff67b28: Quíron mestre de Aquiles -> nome conhecido, dificil -> medio",
+          "outro": "6d6e5d62e2: pergunta terminava com aspas, não com '?'"
+        },
+        "espelhos_r5": [
+          "f9de684649 (Kizomba, lote 050) x 055:eb6af8aad3 (Semba deu origem à kizomba): fatos diferentes, mas 055 cita kizomba e a nossa tem Semba como alternativa; 050 é o menor, mantida"
+        ]
       }
     ],
     "rebaixamentos_r3": {

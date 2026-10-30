@@ -11637,6 +11637,93 @@
           "8bdb3dd069",
           "96ba8c39fe"
         ]
+      },
+      {
+        "lote": "099",
+        "conferente": "conferente-v10",
+        "conferidas": 66,
+        "conferidas_sem_mudanca": 63,
+        "com_mudanca": 3,
+        "corrigidas": 3,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "molde repetido": 2,
+          "duplicada (banco)": 1
+        },
+        "perguntas_com_busca_web": 61,
+        "suspeitas": {
+          "total": 7,
+          "mantidas": 4,
+          "reescritas": 3,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 23,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 4,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 7,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 2,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 2
+          }
+        },
+        "descartes": [
+          "4aa4bb23ef: molde repetido: molde \"filme de terror\" tinha 8 no lote 099; cortada (A Profecia)",
+          "0a9f5da264: duplicada (banco): mesmo fato que banco:7056 (\"Qual instrumento indiano de cordas foi popularizado no Ocidente por Ravi Shankar?\" => Cítara); Sitar e Cítara são o mesmo instrumento",
+          "bac815ea67: molde repetido: molde \"placas de vídeo e APIs gráficas\" tinha 8 no lote 099; cortada (SLI)"
+        ],
+        "correcoes": [
+          "1448e8759d: Fiordland - \"onde fica o fiorde de Milford Sound\" entregava banco:7417 (Milford Sound => Nova Zelândia); enunciado refeito; dup_revisado: falso positivo depois de reescrito (antes: \"Qual é o maior parque nacional da Nova Zelândia, onde fica o fiorde de Milford Sound?\")",
+          "c5da83d6ab: Sexta-Feira 13 - no filme de 1980 a assassina é Pamela Voorhees; Jason só mata a partir da parte 2 (1981); enunciado corrigido (checagem web) (antes: \"Em qual filme de 1980 o assassino é Jason Voorhees, num acampamento de verão?\")",
+          "5e20d414b1: A Hora do Pesadelo - \"Freddy Krueger\" é a resposta de banco:3231; enunciado refeito (antes: \"Qual filme de Wes Craven, de 1984, apresentou Freddy Krueger, que mata nos sonhos?\")"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "entrega a resposta": 2,
+          "fato impreciso": 1,
+          "molde repetido": 2,
+          "duplicada (banco)": 1
+        },
+        "exemplos_erro": {
+          "entrega a resposta": "1448e8759d: Fiordland - \"onde fica o fiorde de Milford Sound\" entregava banco:7417 (Milford Sound => Nova Zelândia); enunciado refeito; dup_revisado: falso positivo depois de reescrito (antes: \"Qual é o maior parque nacional da Nova Zelândia, onde fica o fiorde de Milford Sound?\")",
+          "fato impreciso": "c5da83d6ab: Sexta-Feira 13 - no filme de 1980 a assassina é Pamela Voorhees; Jason só mata a partir da parte 2 (1981); enunciado corrigido (checagem web) (antes: \"Em qual filme de 1980 o assassino é Jason Voorhees, num acampamento de verão?\")",
+          "molde repetido": "4aa4bb23ef: molde repetido: molde \"filme de terror\" tinha 8 no lote 099; cortada (A Profecia)",
+          "duplicada (banco)": "0a9f5da264: duplicada (banco): mesmo fato que banco:7056 (\"Qual instrumento indiano de cordas foi popularizado no Ocidente por Ravi Shankar?\" => Cítara); Sitar e Cítara são o mesmo instrumento"
+        },
+        "risco_sem_checagem_conferente": [
+          "d16827b86e"
+        ]
       }
     ],
     "rebaixamentos_r3": {

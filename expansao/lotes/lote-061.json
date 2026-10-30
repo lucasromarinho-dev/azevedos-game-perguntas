@@ -27,8 +27,8 @@
     "resposta": "Pas de deux",
     "alternativas": [
       "Plié",
-      "Pas de deux",
       "Fouetté",
+      "Pas de deux",
       "Pas de chat"
     ],
     "subtema": "Novelas e TV brasileira",
@@ -52,6 +52,2206 @@
       "Thomas Edison"
     ],
     "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7cc10a0fd3",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual data se comemora o aniversário da cidade de São Paulo?",
+    "resposta": "25 de janeiro",
+    "alternativas": [
+      "1º de março",
+      "20 de janeiro",
+      "9 de julho",
+      "25 de janeiro"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:debf9c7926 (E2 mesma resposta e mesmo assunto (6.6, 23% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:debf9c7926",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.6, 23% do fato)"
+  },
+  {
+    "id": "ad0626b09d",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual alfabeto se escreve o idioma russo?",
+    "resposta": "Cirílico",
+    "alternativas": [
+      "Grego",
+      "Latino",
+      "Cirílico",
+      "Glagolítico"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c93960266c",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o alfabeto criado para escrever o coreano?",
+    "resposta": "Hangul",
+    "alternativas": [
+      "Hiragana",
+      "Kanji",
+      "Hangul",
+      "Devanágari"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4989ec063e",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual é o único grão-ducado do mundo?",
+    "resposta": "Luxemburgo",
+    "alternativas": [
+      "Liechtenstein",
+      "Andorra",
+      "Luxemburgo",
+      "Mônaco"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8585",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "14e7b8e17e",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual país asiático, que nunca fez parte da União Soviética, escreve seu idioma em alfabeto cirílico?",
+    "resposta": "Mongólia",
+    "alternativas": [
+      "Vietnã",
+      "Mongólia",
+      "Coreia do Norte",
+      "Laos"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:ad0626b09d (E5 resposta antiga citada no texto novo + assunto (14.2))",
+    "dup": "certa",
+    "dup_ref": "id:ad0626b09d",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.2)"
+  },
+  {
+    "id": "5b004726d9",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual país tem como chefes de Estado dois copríncipes: o presidente da França e um bispo espanhol?",
+    "resposta": "Andorra",
+    "alternativas": [
+      "San Marino",
+      "Mônaco",
+      "Andorra",
+      "Liechtenstein"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:761 (E2e mesma resposta rara e algum assunto em comum (7.5, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:761",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.5, sim 0.1)"
+  },
+  {
+    "id": "85c4f8cfbe",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual monarquia asiática escolhe seu rei em rodízio entre os sultões dos estados?",
+    "resposta": "Malásia",
+    "alternativas": [
+      "Tailândia",
+      "Brunei",
+      "Camboja",
+      "Malásia"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "633ce35c88",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escrita, usada no hindi e no sânscrito, tem as letras penduradas numa linha horizontal?",
+    "resposta": "Devanágari",
+    "alternativas": [
+      "Urdu",
+      "Bengali",
+      "Tâmil",
+      "Devanágari"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c914fb1f89",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual duende do folclore irlandês esconde um pote de ouro no fim do arco-íris?",
+    "resposta": "Leprechaun",
+    "alternativas": [
+      "Gnomo",
+      "Elfo",
+      "Troll",
+      "Leprechaun"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c74e798638",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual planta é símbolo de sorte quando nasce com quatro folhas?",
+    "resposta": "Trevo",
+    "alternativas": [
+      "Hortelã",
+      "Arruda",
+      "Trevo",
+      "Manjericão"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de8aae420a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual festa celta, de fim de colheita, deu origem ao Halloween?",
+    "resposta": "Samhain",
+    "alternativas": [
+      "Beltane",
+      "Yule",
+      "Samhain",
+      "Imbolc"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "498060b383",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual espírito feminino do folclore irlandês grita para anunciar uma morte na família?",
+    "resposta": "Banshee",
+    "alternativas": [
+      "Sereia",
+      "Harpia",
+      "Valquíria",
+      "Banshee"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e940052f16",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem de cartaz, de lenço vermelho e braço flexionado, simbolizou as operárias americanas na guerra?",
+    "resposta": "Rosie, a Rebitadeira",
+    "alternativas": [
+      "Lady Liberty",
+      "Betty Boop",
+      "Tia Jemima",
+      "Rosie, a Rebitadeira"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8df76ca280",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual médica sanitarista fundou a Pastoral da Criança?",
+    "resposta": "Zilda Arns",
+    "alternativas": [
+      "Nise da Silveira",
+      "Irmã Dulce",
+      "Zilda Arns",
+      "Bertha Lutz"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6ab08a2aec",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como os soldados apelidaram o enorme canhão alemão da Primeira Guerra que levava o nome de uma herdeira da Krupp?",
+    "resposta": "Grande Berta",
+    "alternativas": [
+      "Dora",
+      "Gustav",
+      "Grande Berta",
+      "Big Ben"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f146a204a1",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual paranaense foi a primeira engenheira negra do Brasil, formada em 1945?",
+    "resposta": "Enedina Marques",
+    "alternativas": [
+      "Enedina Marques",
+      "Antonieta de Barros",
+      "Carolina Maria de Jesus",
+      "Laudelina de Campos"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "538fae90ac",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual navio levou Roald Amundsen à Antártida na conquista do Polo Sul?",
+    "resposta": "Fram",
+    "alternativas": [
+      "Fram",
+      "Endurance",
+      "Discovery",
+      "Terra Nova"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "63b71d5d0b",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a formação de gotinhas por fora de um copo gelado?",
+    "resposta": "Condensação",
+    "alternativas": [
+      "Sublimação",
+      "Evaporação",
+      "Fusão",
+      "Condensação"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "707198af55",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a passagem da água líquida para gelo?",
+    "resposta": "Solidificação",
+    "alternativas": [
+      "Condensação",
+      "Sublimação",
+      "Fusão",
+      "Solidificação"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ee5d39c31",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual árvore produz a bolota, que os esquilos dos desenhos adoram?",
+    "resposta": "Carvalho",
+    "alternativas": [
+      "Carvalho",
+      "Castanheira",
+      "Pinheiro",
+      "Nogueira"
+    ],
+    "subtema": "Plantas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4452 (E4 resposta nova (rara) citada no texto antigo (4.8))",
+    "dup": "certa",
+    "dup_ref": "banco:4452",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.8)"
+  },
+  {
+    "id": "fcb59ad458",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "A manga, muito comum no Brasil, é nativa de qual país?",
+    "resposta": "Índia",
+    "alternativas": [
+      "Índia",
+      "Brasil",
+      "Filipinas",
+      "México"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "31f0d3815e",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "O abacaxi é nativo de qual continente?",
+    "resposta": "América do Sul",
+    "alternativas": [
+      "Oceania",
+      "América do Sul",
+      "Ásia",
+      "África"
+    ],
+    "subtema": "Plantas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:125 (E2 mesma resposta e mesmo assunto (6.1, 28% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:125",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.1, 28% do fato)"
+  },
+  {
+    "id": "d0d86a79e3",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "O tomate, base da cozinha italiana, é nativo de qual continente?",
+    "resposta": "América",
+    "alternativas": [
+      "Europa",
+      "Ásia",
+      "África",
+      "América"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:125",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)"
+  },
+  {
+    "id": "9d1000c8e7",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual roedor brasileiro, de corpo coberto de espinhos, vive nas árvores?",
+    "resposta": "Ouriço-cacheiro",
+    "alternativas": [
+      "Ouriço-cacheiro",
+      "Preá",
+      "Cutia",
+      "Tatu-bola"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9126 (R5 parte da resposta citada + muito assunto em comum (peso 24.4))",
+    "dup": "certa",
+    "dup_ref": "banco:9126",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 24.4)"
+  },
+  {
+    "id": "494d99e0c8",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "De que é feito o chifre do rinoceronte?",
+    "resposta": "Queratina",
+    "alternativas": [
+      "Queratina",
+      "Cartilagem",
+      "Osso",
+      "Marfim"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "856acd2c51",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "O kiwi, fruta ligada à Nova Zelândia, é originário de qual país?",
+    "resposta": "China",
+    "alternativas": [
+      "China",
+      "Austrália",
+      "Nova Zelândia",
+      "Chile"
+    ],
+    "subtema": "Plantas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1872 (E5 resposta antiga citada no texto novo + assunto (17.2))",
+    "dup": "certa",
+    "dup_ref": "banco:1872",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (17.2)"
+  },
+  {
+    "id": "0c94a76df5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual elemento químico tem nome em homenagem à Terra, a Tellus dos romanos?",
+    "resposta": "Telúrio",
+    "alternativas": [
+      "Térbio",
+      "Selênio",
+      "Titânio",
+      "Telúrio"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d14eed5df4",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a competição de tarefas e provas entre equipes, comum nas escolas?",
+    "resposta": "Gincana",
+    "alternativas": [
+      "Torneio",
+      "Maratona",
+      "Olimpíada",
+      "Gincana"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6e4a273888",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o exercício de esticar os músculos antes da atividade física?",
+    "resposta": "Alongamento",
+    "alternativas": [
+      "Alongamento",
+      "Musculação",
+      "Aquecimento",
+      "Relaxamento"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7e9e11042e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual exercício com corda é um clássico do treino dos boxeadores?",
+    "resposta": "Pular corda",
+    "alternativas": [
+      "Pular corda",
+      "Escalar corda",
+      "Cabo de guerra",
+      "Rapel"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7935",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)"
+  },
+  {
+    "id": "b2aabf249f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção ganhou a Eurocopa de 1992 depois de entrar de última hora no torneio?",
+    "resposta": "Dinamarca",
+    "alternativas": [
+      "Dinamarca",
+      "Holanda",
+      "Suécia",
+      "Noruega"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5fbb4251e8",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção ganhou a Copa América de 2015, em casa, sobre a Argentina?",
+    "resposta": "Chile",
+    "alternativas": [
+      "Uruguai",
+      "Chile",
+      "Colômbia",
+      "Peru"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:219 (E2 mesma resposta e mesmo assunto (7.4, 40% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:219",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.4, 40% do fato)"
+  },
+  {
+    "id": "badf312a23",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção africana ganhou o ouro no futebol olímpico em Sydney 2000?",
+    "resposta": "Camarões",
+    "alternativas": [
+      "Nigéria",
+      "Senegal",
+      "Camarões",
+      "Gana"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e1d7946613",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção ganhou o ouro no futebol olímpico de Atlanta 1996, batendo o Brasil na semifinal?",
+    "resposta": "Nigéria",
+    "alternativas": [
+      "Argentina",
+      "Gana",
+      "Nigéria",
+      "Camarões"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0c5c1b0fa3",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual brincadeira de puxar a corda já foi esporte olímpico, até os Jogos de 1920?",
+    "resposta": "Cabo de guerra",
+    "alternativas": [
+      "Corrida do saco",
+      "Pau de sebo",
+      "Pular corda",
+      "Cabo de guerra"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9556",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)"
+  },
+  {
+    "id": "50702301af",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em 2025, qual técnico italiano assumiu a seleção brasileira?",
+    "resposta": "Carlo Ancelotti",
+    "alternativas": [
+      "Antonio Conte",
+      "Carlo Ancelotti",
+      "Massimiliano Allegri",
+      "Roberto Mancini"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2691 (E2e mesma resposta rara e algum assunto em comum (12.1, sim 0.3))",
+    "dup": "certa",
+    "dup_ref": "banco:2691",
+    "recente": true,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.1, sim 0.3)"
+  },
+  {
+    "id": "30e2985687",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual seleção ganhou a Eurocopa de 1976, decidida nos pênaltis contra a Alemanha Ocidental?",
+    "resposta": "Tchecoslováquia",
+    "alternativas": [
+      "Polônia",
+      "Hungria",
+      "Tchecoslováquia",
+      "Iugoslávia"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc6e60a650",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual árbitro brasileiro apitou a final da Copa do Mundo de 1982?",
+    "resposta": "Arnaldo Cezar Coelho",
+    "alternativas": [
+      "José Roberto Wright",
+      "Armando Marques",
+      "Arnaldo Cezar Coelho",
+      "Romualdo Arppi Filho"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8821 (E2e mesma resposta rara e algum assunto em comum (7.3, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:8821",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.3, sim 0.1)"
+  },
+  {
+    "id": "ffad871291",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em 2021, qual árbitra brasileira foi a primeira mulher a apitar um jogo do Mundial de Clubes da FIFA?",
+    "resposta": "Edina Alves",
+    "alternativas": [
+      "Ana Paula Oliveira",
+      "Neuza Back",
+      "Edina Alves",
+      "Silvia Regina"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "905caa5074",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual árbitro gaúcho apitou jogos em três Copas do Mundo seguidas, de 2002 a 2010?",
+    "resposta": "Carlos Eugênio Simon",
+    "alternativas": [
+      "Carlos Eugênio Simon",
+      "Sálvio Spínola",
+      "Márcio Rezende de Freitas",
+      "Heber Roberto Lopes"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f1a596e3d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual seleção ganhou o ouro no futebol olímpico de Londres 2012, batendo o Brasil na final?",
+    "resposta": "México",
+    "alternativas": [
+      "Coreia do Sul",
+      "Espanha",
+      "México",
+      "Japão"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "583ef1c3ea",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a sala onde o artista se troca e se maquia antes do show?",
+    "resposta": "Camarim",
+    "alternativas": [
+      "Bastidor",
+      "Coxia",
+      "Saguão",
+      "Camarim"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ddfd1f860",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que a plateia grita pedindo que o artista repita a música?",
+    "resposta": "Bis",
+    "alternativas": [
+      "Bis",
+      "Mais um",
+      "Volta",
+      "Bravo"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:8975 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:8975",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)"
+  },
+  {
+    "id": "752b246917",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual dança árabe é marcada pelos movimentos de quadril e de barriga?",
+    "resposta": "Dança do ventre",
+    "alternativas": [
+      "Dança cigana",
+      "Flamenco",
+      "Tango",
+      "Dança do ventre"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5bda7fb9a3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual signo é representado pelo aguadeiro, que despeja água de um jarro?",
+    "resposta": "Aquário",
+    "alternativas": [
+      "Câncer",
+      "Aquário",
+      "Escorpião",
+      "Peixes"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2241eb881e",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual signo é representado por dois irmãos?",
+    "resposta": "Gêmeos",
+    "alternativas": [
+      "Gêmeos",
+      "Sagitário",
+      "Libra",
+      "Leão"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1006",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.7)"
+  },
+  {
+    "id": "82818b9d23",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem nasce em 7 de setembro é de qual signo?",
+    "resposta": "Virgem",
+    "alternativas": [
+      "Escorpião",
+      "Virgem",
+      "Libra",
+      "Leão"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3391",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "4fc1d1b945",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual menina órfã inventou o \"jogo do contente\"?",
+    "resposta": "Pollyanna",
+    "alternativas": [
+      "Heidi",
+      "Pollyanna",
+      "Matilda",
+      "Anne de Green Gables"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea87e9e58a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora escreveu \"Marcelo, Marmelo, Martelo\"?",
+    "resposta": "Ruth Rocha",
+    "alternativas": [
+      "Lygia Bojunga",
+      "Ruth Rocha",
+      "Ana Maria Machado",
+      "Eva Furnari"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f6a1aa5476",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor galês escreveu \"Matilda\" e \"A Fantástica Fábrica de Chocolate\"?",
+    "resposta": "Roald Dahl",
+    "alternativas": [
+      "Roald Dahl",
+      "J. M. Barrie",
+      "Lewis Carroll",
+      "C. S. Lewis"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9471dd70d6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série de livros tem como protagonista o garoto Greg Heffley?",
+    "resposta": "Diário de um Banana",
+    "alternativas": [
+      "Diário de um Banana",
+      "Diário de um Zumbi",
+      "Diário de Pilar",
+      "O Menino Maluquinho"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6765",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (6.1)"
+  },
+  {
+    "id": "e555e3e78d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava a bonequinha minúscula da Estrela que cabia na palma da mão?",
+    "resposta": "Fofolete",
+    "alternativas": [
+      "Moranguinho",
+      "Polly",
+      "Susi",
+      "Fofolete"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "47ae4bf7e7",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual autora gaúcha escreveu \"A Bolsa Amarela\"?",
+    "resposta": "Lygia Bojunga",
+    "alternativas": [
+      "Ruth Rocha",
+      "Ana Maria Machado",
+      "Marina Colasanti",
+      "Lygia Bojunga"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "815aefb3dc",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual livro da Série Vaga-Lume tem um besouro enviado às vítimas antes de cada crime?",
+    "resposta": "O Escaravelho do Diabo",
+    "alternativas": [
+      "Sozinha no Mundo",
+      "A Ilha Perdida",
+      "O Mistério do Cinco Estrelas",
+      "O Escaravelho do Diabo"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5552 (E2 mesma resposta e mesmo assunto (8.1, 33% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:5552",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (8.1, 33% do fato)"
+  },
+  {
+    "id": "faec2ca516",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama a parte da frente do palco, além da cortina?",
+    "resposta": "Proscênio",
+    "alternativas": [
+      "Coxia",
+      "Proscênio",
+      "Urdimento",
+      "Rotunda"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b7695425bd",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama quem cuida dos objetos de cena durante o espetáculo?",
+    "resposta": "Contrarregra",
+    "alternativas": [
+      "Iluminador",
+      "Contrarregra",
+      "Ponto",
+      "Cenógrafo"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "31dbb83a40",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual marca de eletrodoméstico virou a expressão \"não é nenhuma ...\"?",
+    "resposta": "Brastemp",
+    "alternativas": [
+      "Arno",
+      "Consul",
+      "Brastemp",
+      "Electrolux"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f4a474d00",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual empresa gaúcha é famosa por panelas, facas e talheres?",
+    "resposta": "Tramontina",
+    "alternativas": [
+      "Rochedo",
+      "Tramontina",
+      "Panelux",
+      "Tupperware"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3a365e0161",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual carro aparece no meme brasileiro de carro \"com escada no teto\"?",
+    "resposta": "Fiat Uno",
+    "alternativas": [
+      "Fusca",
+      "Fiat Uno",
+      "Gol",
+      "Celta"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "914ef080ef",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca virou sinônimo de liquidificador no Brasil?",
+    "resposta": "Walita",
+    "alternativas": [
+      "Walita",
+      "Britânia",
+      "Mondial",
+      "Arno"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a274eeed3",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "A Electrolux, de eletrodomésticos, é de qual país?",
+    "resposta": "Suécia",
+    "alternativas": [
+      "Alemanha",
+      "Estados Unidos",
+      "Suécia",
+      "Holanda"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a3ac991474",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual carro foi o primeiro movido a álcool produzido em série, em 1979?",
+    "resposta": "Fiat 147",
+    "alternativas": [
+      "Fiat 147",
+      "Chevette",
+      "Corcel",
+      "Fusca"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "524c75a26d",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual esportivo brasileiro dos anos 1970, de carroceria de fibra de vidro, tinha nome de felino?",
+    "resposta": "Puma",
+    "alternativas": [
+      "Jaguar",
+      "Gurgel",
+      "Puma",
+      "Lince"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:6117 (E2e mesma resposta rara e algum assunto em comum (6.6, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:6117",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.6, sim 0.1)"
+  },
+  {
+    "id": "d4f28286d3",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual marca de aspirador virou verbo para \"aspirar\" no inglês britânico?",
+    "resposta": "Hoover",
+    "alternativas": [
+      "Electrolux",
+      "Dyson",
+      "Hoover",
+      "Black & Decker"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3cca25e004",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A palavra \"arigatô\" quer dizer obrigado em qual língua?",
+    "resposta": "Japonês",
+    "alternativas": [
+      "Japonês",
+      "Coreano",
+      "Chinês",
+      "Tailandês"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:f3937e9464",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+  },
+  {
+    "id": "1be6be6ce1",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual saudação, feita com as mãos unidas diante do peito, é típica da Índia?",
+    "resposta": "Namastê",
+    "alternativas": [
+      "Namastê",
+      "Shalom",
+      "Salam",
+      "Aloha"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "76bd41f7b4",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual palavra havaiana serve tanto de olá quanto de tchau?",
+    "resposta": "Aloha",
+    "alternativas": [
+      "Ohana",
+      "Mahalo",
+      "Hula",
+      "Aloha"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8e3bb2355a",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "A palavra \"danke\" quer dizer obrigado em qual língua?",
+    "resposta": "Alemão",
+    "alternativas": [
+      "Dinamarquês",
+      "Alemão",
+      "Sueco",
+      "Holandês"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3cca25e004",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "944c52251e",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A saudação \"shalom\", que quer dizer paz, é de qual língua?",
+    "resposta": "Hebraico",
+    "alternativas": [
+      "Persa",
+      "Hebraico",
+      "Árabe",
+      "Aramaico"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:241",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "bbcc75261b",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "\"Jambo\" é uma forma de dizer olá em qual língua africana?",
+    "resposta": "Suaíli",
+    "alternativas": [
+      "Zulu",
+      "Hauçá",
+      "Suaíli",
+      "Iorubá"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5355",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+  },
+  {
+    "id": "37137828dc",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual santo casamenteiro é festejado em 13 de junho?",
+    "resposta": "Santo Antônio",
+    "alternativas": [
+      "Santo Antônio",
+      "São João",
+      "São Jorge",
+      "São Pedro"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1023 (E2 mesma resposta e mesmo assunto (7.3, 30% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:1023",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.3, 30% do fato)"
+  },
+  {
+    "id": "240c26e124",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Em qual mês se comemora o Dia das Mães no Brasil?",
+    "resposta": "Maio",
+    "alternativas": [
+      "Junho",
+      "Maio",
+      "Abril",
+      "Março"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:87943e3026 (E2 mesma resposta e mesmo assunto (14.7, 48% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:87943e3026",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (14.7, 48% do fato)"
+  },
+  {
+    "id": "00f07beaa7",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual santo das festas juninas, padroeiro dos pescadores, é festejado em 29 de junho?",
+    "resposta": "São Pedro",
+    "alternativas": [
+      "São Benedito",
+      "São João",
+      "São Pedro",
+      "Santo Antônio"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:990 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "banco:990",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "a1d3c2044b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual antigo título, usado no Ocidente, designava o imperador do Japão?",
+    "resposta": "Mikado",
+    "alternativas": [
+      "Mikado",
+      "Xogum",
+      "Daimio",
+      "Samurai"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f0ef49fafb",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o buraco onde vive o coelho selvagem?",
+    "resposta": "Toca",
+    "alternativas": [
+      "Colmeia",
+      "Ninho",
+      "Toca",
+      "Covil"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9899",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (4.8)"
+  },
+  {
+    "id": "8f64656fb0",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o lugar onde se criam ou abrigam cães?",
+    "resposta": "Canil",
+    "alternativas": [
+      "Pombal",
+      "Gatil",
+      "Haras",
+      "Canil"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "94e52255b0",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o morro de terra construído pelos cupins?",
+    "resposta": "Cupinzeiro",
+    "alternativas": [
+      "Colmeia",
+      "Cupinzeiro",
+      "Vespeiro",
+      "Formigueiro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cca01a3c78",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a toca de lobos e de outras feras?",
+    "resposta": "Covil",
+    "alternativas": [
+      "Covil",
+      "Pombal",
+      "Ninho",
+      "Viveiro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "69c4101b0b",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o abrigo onde se recolhem as ovelhas?",
+    "resposta": "Aprisco",
+    "alternativas": [
+      "Pombal",
+      "Pocilga",
+      "Galinheiro",
+      "Aprisco"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bf877201b5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual elemento químico homenageia a França com o nome dela em latim?",
+    "resposta": "Gálio",
+    "alternativas": [
+      "Polônio",
+      "Gálio",
+      "Germânio",
+      "Frâncio"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1301",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)"
+  },
+  {
+    "id": "81e3954dcb",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o esporte nacional do Japão, disputado num ringue de argila?",
+    "resposta": "Sumô",
+    "alternativas": [
+      "Kendo",
+      "Sumô",
+      "Caratê",
+      "Judô"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7113 (R4 resposta nova citada no enunciado antigo + assunto em comum (peso 15.6))",
+    "dup": "certa",
+    "dup_ref": "banco:7113",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 15.6)"
+  },
+  {
+    "id": "2e2dd4fb0d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de mesa usa botões para chutar uma bolinha num campinho?",
+    "resposta": "Futebol de botão",
+    "alternativas": [
+      "Subbuteo",
+      "Totó de dedo",
+      "Pebolim",
+      "Futebol de botão"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:8712 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "banco:8712",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.1, 19% do fato)"
+  },
+  {
+    "id": "679c71c941",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de fliperama tem um disco que desliza sobre um colchão de ar?",
+    "resposta": "Aero hockey",
+    "alternativas": [
+      "Shuffleboard",
+      "Aero hockey",
+      "Pebolim",
+      "Pinball"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "542c92db6f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de bola contra uma parede, com cesta ou raquete, é tradicional do País Basco?",
+    "resposta": "Pelota basca",
+    "alternativas": [
+      "Frontão",
+      "Jai-alai",
+      "Squash",
+      "Pelota basca"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "96fcdff4de",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual esporte do Sudeste Asiático é como um vôlei jogado só com os pés?",
+    "resposta": "Sepak takraw",
+    "alternativas": [
+      "Sepak takraw",
+      "Chinlone",
+      "Kabaddi",
+      "Futevôlei"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "14c36c7a78",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual seleção ganhou a Copa das Confederações de 1999, em casa, batendo o Brasil na final?",
+    "resposta": "México",
+    "alternativas": [
+      "Estados Unidos",
+      "Japão",
+      "México",
+      "Argentina"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:6f1a596e3d (E2 mesma resposta e mesmo assunto (6.8, 23% do fato))",
+    "dup": "certa",
+    "dup_ref": "id:6f1a596e3d",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.8, 23% do fato)"
+  },
+  {
+    "id": "de07dbdd99",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer \"bater as botas\"?",
+    "resposta": "Morrer",
+    "alternativas": [
+      "Desistir",
+      "Morrer",
+      "Fugir",
+      "Viajar"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f3801f0923",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer \"puxar o saco\" de alguém?",
+    "resposta": "Bajular",
+    "alternativas": [
+      "Atrapalhar",
+      "Bajular",
+      "Provocar",
+      "Roubar"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0163db0a23",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem é \"mão de vaca\" é como?",
+    "resposta": "Pão-duro",
+    "alternativas": [
+      "Desajeitado",
+      "Mal-educado",
+      "Pão-duro",
+      "Preguiçoso"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f7d113c0b4",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer \"comer mosca\"?",
+    "resposta": "Distrair-se e perder a chance",
+    "alternativas": [
+      "Distrair-se e perder a chance",
+      "Ficar doente",
+      "Comer demais",
+      "Mentir"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4f1552f182",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "O que quer dizer \"encher linguiça\"?",
+    "resposta": "Enrolar",
+    "alternativas": [
+      "Trabalhar dobrado",
+      "Enrolar",
+      "Comer demais",
+      "Economizar"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "27195765f9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "O que quer dizer \"dar o braço a torcer\"?",
+    "resposta": "Admitir que errou",
+    "alternativas": [
+      "Apostar alto",
+      "Admitir que errou",
+      "Machucar-se",
+      "Pedir ajuda"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3237e3b270",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "O que faz quem vive \"chorando as pitangas\"?",
+    "resposta": "Reclama demais",
+    "alternativas": [
+      "Chora de alegria",
+      "Pede comida",
+      "Reclama demais",
+      "Sente ciúme"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66d1e8efb3",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quem é chamado de \"arroz de festa\"?",
+    "resposta": "Quem vai a todas as festas",
+    "alternativas": [
+      "Quem cozinha nas festas",
+      "Quem chega atrasado",
+      "Quem sai cedo",
+      "Quem vai a todas as festas"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7752b995a4",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama a faixa de pano no alto do palco que esconde as luzes?",
+    "resposta": "Bambolina",
+    "alternativas": [
+      "Rotunda",
+      "Bambolina",
+      "Coxia",
+      "Ribalta"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c882060d1",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual livro de Maria José Dupré leva dois meninos a uma ilha misteriosa num rio?",
+    "resposta": "A Ilha Perdida",
+    "alternativas": [
+      "A Ilha Perdida",
+      "Sozinha no Mundo",
+      "Éramos Seis",
+      "O Escaravelho do Diabo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9815",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ae2295849f",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual modo do celular reduz o consumo quando a bateria está fraca?",
+    "resposta": "Modo economia",
+    "alternativas": [
+      "Modo economia",
+      "Modo avião",
+      "Modo silencioso",
+      "Modo noturno"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9dd0834dd1",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o pequeno visor na porta para ver quem está do lado de fora?",
+    "resposta": "Olho mágico",
+    "alternativas": [
+      "Postigo",
+      "Olho mágico",
+      "Trinco",
+      "Interfone"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c019ba9559",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama, no Brasil, o aparelho de karaokê com músicas numeradas e nota no final?",
+    "resposta": "Videokê",
+    "alternativas": [
+      "Vitrola",
+      "Videokê",
+      "Jukebox",
+      "Radiola"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "47ac65f7fc",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se davam instruções aos primeiros computadores, como os da IBM?",
+    "resposta": "Cartões perfurados",
+    "alternativas": [
+      "Pen drives",
+      "Disquetes",
+      "Fitas cassete",
+      "Cartões perfurados"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5340",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "233618412f",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual marca brasileira de eletrodomésticos é famosa pelos ventiladores e batedeiras?",
+    "resposta": "Arno",
+    "alternativas": [
+      "Esmaltec",
+      "Arno",
+      "Brastemp",
+      "Consul"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba6e58f249",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual cidade gaúcha nasceu a Tramontina, em 1911?",
+    "resposta": "Carlos Barbosa",
+    "alternativas": [
+      "Caxias do Sul",
+      "Garibaldi",
+      "Carlos Barbosa",
+      "Bento Gonçalves"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5d9bdc2ede",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "A Brastemp pertence a qual grupo americano de eletrodomésticos?",
+    "resposta": "Whirlpool",
+    "alternativas": [
+      "Electrolux",
+      "Frigidaire",
+      "Whirlpool",
+      "General Electric"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "26215ed3fe",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Em qual ano começou, oficialmente, o século XXI?",
+    "resposta": "2001",
+    "alternativas": [
+      "2000",
+      "2010",
+      "1999",
+      "2001"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5536",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
+  },
+  {
+    "id": "06a027a411",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer a sigla a.C. nas datas?",
+    "resposta": "Antes de Cristo",
+    "alternativas": [
+      "Antes de Cristo",
+      "Antiga Cronologia",
+      "Ano Cristão",
+      "Após Cristo"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fb77f4babd",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em qual data se comemora o Dia da Bandeira no Brasil?",
+    "resposta": "19 de novembro",
+    "alternativas": [
+      "7 de setembro",
+      "15 de novembro",
+      "19 de novembro",
+      "21 de abril"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4672 (E2 mesma resposta e mesmo assunto (13.7, 48% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:4672",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (13.7, 48% do fato)"
+  },
+  {
+    "id": "f70b1f05f8",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é a cor da camisa do uniforme reserva da seleção brasileira?",
+    "resposta": "Azul",
+    "alternativas": [
+      "Verde",
+      "Azul",
+      "Branca",
+      "Preta"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a891b0c818",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual gaúcho venceu, em 1953, o concurso que criou a camisa amarela da seleção?",
+    "resposta": "Aldyr Garcia Schlee",
+    "alternativas": [
+      "Aldyr Garcia Schlee",
+      "Mário Quintana",
+      "Carlos Scliar",
+      "Ziraldo"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "342c713df2",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual era o título do governante eleito da antiga República de Veneza?",
+    "resposta": "Doge",
+    "alternativas": [
+      "Gonfaloneiro",
+      "Doge",
+      "Podestà",
+      "Cônsul"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9acd496892",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Antes dos jogos da seleção, o que os jogadores cantam perfilados no gramado?",
+    "resposta": "Hino Nacional",
+    "alternativas": [
+      "Hino Nacional",
+      "Hino da Bandeira",
+      "Hino da Independência",
+      "Aquarela do Brasil"
+    ],
+    "subtema": "Seleção e craques",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

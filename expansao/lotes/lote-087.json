@@ -1,0 +1,355 @@
+[
+  {
+    "id": "1f4a3fb1f2",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O Rio Ganges deságua em qual baía do Oceano Índico?",
+    "resposta": "Baía de Bengala",
+    "alternativas": [
+      "Golfo de Omã",
+      "Golfo de Mannar",
+      "Mar de Andamão",
+      "Baía de Bengala"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Os rios Ganges e Bramaputra deságuam em qual baía do Oceano Índico?\")"
+  },
+  {
+    "id": "00a7e8b2d6",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual estado produz quase todo o sal marinho do Brasil, nas salinas de Macau e Areia Branca?",
+    "resposta": "Rio Grande do Norte",
+    "alternativas": [
+      "Ceará",
+      "Alagoas",
+      "Piauí",
+      "Rio Grande do Norte"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Sergipe\" trocada por \"Paraíba\" na geração (era resposta de outra pergunta); errada \"Paraíba\" trocada por \"Alagoas\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "d964529d7e",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual estado é o maior produtor brasileiro de café conilon, o robusta?",
+    "resposta": "Espírito Santo",
+    "alternativas": [
+      "Minas Gerais",
+      "Espírito Santo",
+      "Bahia",
+      "Rondônia"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e7e2ad9119",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade do interior paulista é conhecida como a capital do calçado masculino?",
+    "resposta": "Franca",
+    "alternativas": [
+      "Presidente Prudente",
+      "Franca",
+      "Jaú",
+      "Sertãozinho"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "dup": "suspeita",
+    "dup_ref": "id:e65a4d2414",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:e65a4d2414)",
+    "correcao": "errada \"Bauru\" trocada por \"Sertãozinho\" na geração (era resposta de outra pergunta)",
+    "motivo": null
+  },
+  {
+    "id": "04ec555e9b",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade do interior paulista é conhecida como a capital nacional do calçado infantil?",
+    "resposta": "Birigui",
+    "alternativas": [
+      "Araçatuba",
+      "Lins",
+      "Birigui",
+      "Marília"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8bf08626f5",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade do interior paulista é conhecida como a capital da joia folheada?",
+    "resposta": "Limeira",
+    "alternativas": [
+      "Santa Bárbara d'Oeste",
+      "Americana",
+      "Limeira",
+      "Rio Claro"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "dup": "suspeita",
+    "dup_ref": "id:e2977472ff",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.2, 27% do fato)",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:e2977472ff)",
+    "correcao": "errada \"Piracicaba\" trocada por \"Santa Bárbara d'Oeste\" na geração (era resposta de outra pergunta)",
+    "motivo": null
+  },
+  {
+    "id": "ead31c21e5",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual prédio residencial sinuoso, com mais de mil apartamentos, é um ícone do centro de São Paulo?",
+    "resposta": "Edifício Copan",
+    "alternativas": [
+      "Edifício Esther",
+      "Edifício Copan",
+      "Edifício Louveira",
+      "Edifício Viadutos"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "dup": "suspeita",
+    "dup_ref": "id:aaa946014b",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (18.8)",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:aaa946014b)",
+    "motivo": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual prédio residencial sinuoso de Oscar Niemeyer é um ícone do centro de São Paulo?\")"
+  },
+  {
+    "id": "7df6d7c2d0",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual largo do centro de São Paulo funciona desde 1827 o curso de Direito, um dos dois primeiros do Brasil?",
+    "resposta": "Largo de São Francisco",
+    "alternativas": [
+      "Largo do Arouche",
+      "Largo São Bento",
+      "Largo de São Francisco",
+      "Largo da Batata"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:328",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.9, 20% do fato)"
+  },
+  {
+    "id": "d7ce89694e",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a camada do mar ou de um lago em que a temperatura cai bruscamente com a profundidade?",
+    "resposta": "Termoclina",
+    "alternativas": [
+      "Picnoclina",
+      "Termoclina",
+      "Haloclina",
+      "Tropopausa"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4af0ddbc4a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual super-heroína minúscula dos desenhos dos anos 1960 usa capacete e tem força descomunal?",
+    "resposta": "Formiga Atômica",
+    "alternativas": [
+      "Formiga Atômica",
+      "Super Pulga",
+      "Abelhinha Biônica",
+      "Joaninha Atômica"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual super-heroína minúscula da Hanna-Barbera tem capacete e força descomunal?\")"
+  },
+  {
+    "id": "f1535e5709",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam as peças atravessadas sob os trilhos, de madeira ou concreto?",
+    "resposta": "Dormentes",
+    "alternativas": [
+      "Sapatas",
+      "Travessas de lastro",
+      "Calços",
+      "Dormentes"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "313e0d6448",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual filme de 1999 conta a rivalidade entre Steve Jobs e Bill Gates?",
+    "resposta": "Piratas do Vale do Silício",
+    "alternativas": [
+      "Piratas do Vale do Silício",
+      "Os Estagiários",
+      "Startup.com",
+      "Jobs"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4165",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "3558d9f3ed",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual teatro histórico de Belém, do tempo do ciclo da borracha, é um dos cartões-postais da cidade?",
+    "resposta": "Teatro da Paz",
+    "alternativas": [
+      "Theatro Carlos Gomes",
+      "Teatro Santa Isabel",
+      "Teatro José de Alencar",
+      "Teatro da Paz"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "dup": "suspeita",
+    "dup_ref": "banco:136",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (13.1)",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:136)",
+    "motivo": null
+  },
+  {
+    "id": "90894bece5",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual império antigo tinha Persépolis como capital cerimonial?",
+    "resposta": "Persa",
+    "alternativas": [
+      "Persa",
+      "Hitita",
+      "Assírio",
+      "Babilônico"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "13ac1daa66",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual empresário do Império trouxe a iluminação a gás para as ruas do Rio de Janeiro, em 1854?",
+    "resposta": "Barão de Mauá",
+    "alternativas": [
+      "Visconde de Mauá do Sul",
+      "Barão de Cotegipe",
+      "Barão de Mauá",
+      "Visconde de Cairu"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Barão do Rio Branco\" trocada por \"Barão de Cotegipe\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "621166006d",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual tamanduá brasileiro, menor que o bandeira, vive subindo em árvores com a cauda que agarra?",
+    "resposta": "Tamanduá-mirim",
+    "alternativas": [
+      "Tamanduá-mirim",
+      "Tamanduá-preto",
+      "Tamanduá-anão",
+      "Tamanduaí"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "dup": "suspeita",
+    "dup_ref": "banco:313",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.0)",
+    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:313)",
+    "motivo": null
+  },
+  {
+    "id": "df1b0f68a2",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual série de 2020 da Netflix mostra uma americana do marketing que vai trabalhar em Paris?",
+    "resposta": "Emily em Paris",
+    "alternativas": [
+      "Emily em Paris",
+      "Ginny & Georgia",
+      "Dix pour cent",
+      "Gossip Girl"
+    ],
+    "subtema": "Séries de TV e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null,
+    "correcao": "errada \"Lupin\" trocada por \"Ginny & Georgia\" na geração (era resposta de outra pergunta)"
+  }
+]

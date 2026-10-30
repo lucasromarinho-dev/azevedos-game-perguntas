@@ -9066,6 +9066,96 @@
           "1dcadc7253: MetLife Stadium - a final já aconteceu (19/07/2026); 'vai receber' trocado por 'recebeu'"
         ],
         "verificadas_passe_final": 6
+      },
+      {
+        "lote": "076",
+        "conferente": "conferente-v8",
+        "conferidas": 100,
+        "conferidas_sem_mudanca": 92,
+        "com_mudanca": 8,
+        "corrigidas": 5,
+        "rebaixadas": 4,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 10,
+        "buscas_web": 8,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 13,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 26,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 1,
+            "rebaixadas": 2,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "7840134006: Cassino da Urca - erradas Canecão, Circo Voador e Teatro Municipal não eram cassinos (só a certa cabia no enunciado); trocadas por cassinos da época; fechamento em 1946 confirmado (Decreto-Lei 9.215)",
+          "3a2517d98c: Reação de Maillard - reação de Maillard é conceito conhecido pelo nome; rebaixada",
+          "4418e64860: Liofilização - liofilização é conceito conhecido pelo nome; rebaixada",
+          "20fa7cddc2: Kiko Zambianchi - erradas Léo Jaime e Leo Jaime eram a mesma pessoa (alternativa repetida); trocada",
+          "4517960163: Times New Roman - enunciado citava o jornal The Times, que entregava Times New Roman; reescrito sem o nome e rebaixada",
+          "db4313945a: Bateria da placa-mãe - bateria da placa-mãe é conhecida de quem mexe em PC; rebaixada",
+          "8b621931b7: Oscar Freire - errada Rua Haddock Lobo também fica nos Jardins e tem lojas de grife (defensável); trocada",
+          "9b9420e6c6: Zona de rebaixamento - errada Zona da degola é apelido popular da própria zona de rebaixamento (defensável); trocada"
+        ],
+        "rebaixamentos": [
+          "3a2517d98c: Reação de Maillard dificil -> medio",
+          "4418e64860: Liofilização dificil -> medio",
+          "4517960163: Times New Roman dificil -> medio",
+          "db4313945a: Bateria da placa-mãe dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "alternativa fora do tipo": 1,
+          "dificuldade": 3,
+          "alternativa repetida": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 2
+        },
+        "exemplos_erro": {
+          "alternativa fora do tipo": "7840134006: erradas Canecão, Circo Voador e Teatro Municipal não eram cassinos (só a certa cabia no enunciado); trocadas por cassinos da época; fechamento em 1946 confirmado (Decreto-Lei 9.215)",
+          "dificuldade": "3a2517d98c: reação de Maillard é conceito conhecido pelo nome; rebaixada",
+          "alternativa repetida": "20fa7cddc2: erradas Léo Jaime e Leo Jaime eram a mesma pessoa (alternativa repetida); trocada",
+          "entrega a resposta": "4517960163: enunciado citava o jornal The Times, que entregava Times New Roman; reescrito sem o nome e rebaixada",
+          "errada defensavel": "8b621931b7: errada Rua Haddock Lobo também fica nos Jardins e tem lojas de grife (defensável); trocada"
+        }
       }
     ],
     "rebaixamentos_r3": {

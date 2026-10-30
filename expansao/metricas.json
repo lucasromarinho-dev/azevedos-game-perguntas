@@ -4871,6 +4871,92 @@
           "dificuldade": "7e637fda41: fascite plantar como difícil -> termo conhecido pelo nome"
         },
         "espelhos_r5": []
+      },
+      {
+        "lote": "049",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 86,
+        "corrigidas": 2,
+        "rebaixadas": 3,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 1,
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 22,
+        "buscas_web": 18,
+        "suspeitas": {
+          "total": 11,
+          "mantidas": 10,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "612f6b867e: espelho: o enunciado cita \"Billy e Mandy\", que é a resposta de id:61ecfe06f3 (lote 040, desenho em que duas crianças têm a Morte como amiga)",
+          "e7fb16586e: duplicada: mesmo fato que id:fd2ada9a29 (lote 037), \"área da IA em que o computador aprende padrões a partir de dados\" => Aprendizado de máquina"
+        ],
+        "correcoes": [
+          "1e291d9032: alternativa Rapaz trocada por Gajo: em Portugal \"rapaz\" também é usado para menino (errada defensável)",
+          "90261fb063: tirado \"gago\" do enunciado, entregava a resposta Gaguinho"
+        ],
+        "rebaixamentos": [
+          "2259d6eeca: medio -> facil",
+          "b09f813915: dificil -> medio",
+          "ef1b38853c: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 1,
+          "entrega a resposta": 1,
+          "fato impreciso": 0,
+          "espelho/duplicada": 2,
+          "dificuldade": 3,
+          "outro": 0
+        },
+        "exemplos_erro": {
+          "errada defensavel": "1e291d9032: palavra de Portugal para criança no lugar de menino -> Rapaz entre as erradas também serve para menino em Portugal",
+          "entrega a resposta": "90261fb063: porquinho gago da Warner -> \"gago\" entregava Gaguinho",
+          "espelho/duplicada": "e7fb16586e: ramo da IA que aprende com exemplos -> mesmo fato de fd2ada9a29 (lote 037)",
+          "dificuldade": "2259d6eeca: substância da hortelã que dá frescor -> Mentol é conhecido de quase todo adulto, medio -> facil"
+        },
+        "espelhos_r5": []
       }
     ],
     "rebaixamentos_r3": {

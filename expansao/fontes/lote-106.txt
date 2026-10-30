@@ -1,0 +1,103 @@
+# Lote 106 - piloto de formatos novos. Campos extras: F=formato, G=grupo, GC=grupo_com, V=verificado na web
+# nao-e
+G|f|Países da América do Sul|Qual destes NÃO é um país da América do Sul?|Honduras|Chile;Peru;Bolívia|F=nao-e
+G|f|Regiões do Brasil|Qual destes estados NÃO fica na região Nordeste?|Espírito Santo|Sergipe;Piauí;Alagoas|F=nao-e
+G|f|Capitais do mundo|Qual destas NÃO é uma capital europeia?|Cairo|Lisboa;Viena;Praga|F=nao-e
+G|m|Rios|Qual destes rios NÃO passa pelo território brasileiro?|Rio Orinoco|Rio Paraná;Rio Uruguai;Rio Paraguai|F=nao-e
+H|f|Roma Antiga|Qual destes NÃO foi imperador romano?|Péricles|Nero;Calígula;Trajano|F=nao-e
+H|m|Presidentes do Brasil|Qual destes NUNCA foi presidente do Brasil?|Rui Barbosa|Fernando Henrique Cardoso;Itamar Franco;Eurico Gaspar Dutra|F=nao-e
+H|f|Segunda Guerra|Qual destes países NÃO fazia parte do Eixo na Segunda Guerra Mundial?|Reino Unido|Alemanha;Itália;Japão|F=nao-e
+C|f|Animais|Qual destes animais NÃO é um mamífero?|Pinguim|Golfinho;Morcego;Baleia|F=nao-e
+C|m|Astronomia|Qual destes planetas NÃO tem anéis?|Marte|Saturno;Júpiter;Urano|F=nao-e
+C|m|Química|Qual destes NÃO é um gás nobre?|Nitrogênio|Hélio;Neônio;Argônio|F=nao-e
+C|f|Corpo humano|Qual destes NÃO é um osso do corpo humano?|Miocárdio|Fêmur;Tíbia;Úmero|F=nao-e
+E|m|Clubes brasileiros|Qual destes clubes NÃO é do estado de São Paulo?|Avaí|Ponte Preta;Guarani;Ituano|F=nao-e
+E|f|Esportes em geral|Qual destes esportes NÃO usa bola?|Esgrima|Polo aquático;Críquete;Handebol|F=nao-e
+E|m|Copa do Mundo|Qual destas seleções NUNCA ganhou a Copa do Mundo masculina?|Holanda|Uruguai;Inglaterra;Espanha|F=nao-e
+N|f|Quadrinhos brasileiros|Qual destes NÃO é personagem da Turma da Mônica?|Emília|Cebolinha;Cascão;Magali|F=nao-e
+N|f|Música internacional|Qual destes NÃO foi integrante dos Beatles?|Mick Jagger|John Lennon;Ringo Starr;George Harrison|F=nao-e
+N|f|Animação|Qual destes filmes NÃO é da Pixar?|Shrek|Toy Story;Ratatouille;Procurando Nemo|F=nao-e
+T|f|Internet|Qual destes NÃO é um navegador de internet?|Linux|Chrome;Firefox;Safari|F=nao-e
+T|f|Empresas de tecnologia|Qual destas empresas de tecnologia NÃO é americana?|Samsung|Apple;Microsoft;Google|F=nao-e
+T|f|Sistemas operacionais|Qual destes NÃO é um sistema operacional?|Intel|Windows;macOS;Android|F=nao-e
+# numero
+G|f|Regiões do Brasil|Quantos estados formam a região Sul do Brasil?|Três|Dois;Quatro;Cinco|F=numero|V
+G|m|Países da América do Sul|Quantos países independentes existem na América do Sul?|12|10;14;16|F=numero|V
+E|f|Xadrez|Quantas casas tem um tabuleiro de xadrez?|64|48;81;100|F=numero|V
+E|m|Xadrez|Com quantas peças cada jogador começa uma partida de xadrez?|16|12;14;18|F=numero|V
+E|f|Basquete|Quantos jogadores de cada time ficam em quadra numa partida de basquete?|Cinco|Quatro;Seis;Sete|F=numero|V
+E|m|Copa do Mundo|Quantas Copas do Mundo masculinas a Alemanha já venceu?|Quatro|Duas;Três;Cinco|F=numero|V
+N|m|Música|Quantas teclas tem um piano moderno padrão?|88|64;76;96|F=numero|V
+N|f|Jogos de cartas|Quantas cartas tem um baralho comum, sem os curingas?|52|48;54;56|F=numero|V
+N|m|Animação|Em que década estreou a série "Os Simpsons"?|Anos 1980|Anos 1970;Anos 1990;Anos 2000|F=numero|V
+N|m|Cinema|Em que década foi lançado o primeiro filme de "Star Wars"?|Anos 1970|Anos 1960;Anos 1980;Anos 1990|F=numero|G=star-wars|V
+H|m|Modernismo|Em que década aconteceu a Semana de Arte Moderna, em São Paulo?|Anos 1920|Anos 1900;Anos 1930;Anos 1950|F=numero|G=semana-de-arte-moderna|GC=banco:911|V
+H|m|Império do Brasil|Por quantos anos, aproximadamente, o Brasil foi um império?|67 anos|35 anos;49 anos;98 anos|F=numero|V
+H|m|Idade Média|Apesar do nome, quantos anos durou a Guerra dos Cem Anos?|116 anos|88 anos;100 anos;131 anos|F=numero|V
+T|f|Celulares|Em que década foi lançado o primeiro iPhone?|Anos 2000|Anos 1980;Anos 1990;Anos 2010|F=numero|V
+T|m|Empresas de tecnologia|Em que década a Apple foi fundada?|Anos 1970|Anos 1960;Anos 1980;Anos 1990|F=numero|V
+T|m|Games|Em que década foi lançado o jogo Pac-Man?|Anos 1980|Anos 1960;Anos 1970;Anos 1990|F=numero|V
+C|m|Astronomia|Quantas luas tem o planeta Marte?|Duas|Nenhuma;Uma;Quatro|F=numero|V
+G|m|Estados Unidos|Quantos estados formam os Estados Unidos?|50|48;51;52|F=numero|V
+# quem-disse
+H|m|Roma Antiga|A quem é atribuída a frase "Vim, vi, venci", sobre uma vitória rápida?|Júlio César|Augusto;Marco Antônio;Pompeu|F=quem-disse|V
+H|f|Filosofia|Qual filósofo grego é associado à frase "Só sei que nada sei"?|Sócrates|Platão;Aristóteles;Pitágoras|F=quem-disse|V
+H|m|Estados Unidos|Qual presidente americano disse na posse, em 1961: "Não pergunte o que seu país pode fazer por você"?|John F. Kennedy|Dwight Eisenhower;Lyndon Johnson;Richard Nixon|F=quem-disse|V
+H|m|Segunda Guerra|Qual primeiro-ministro britânico disse que só tinha a oferecer "sangue, labuta, lágrimas e suor"?|Winston Churchill|Neville Chamberlain;Clement Attlee;Anthony Eden|F=quem-disse|V
+H|m|Guerra Fria|Qual presidente americano desafiou em Berlim: "Senhor Gorbachev, derrube este muro!"?|Ronald Reagan|Jimmy Carter;George H. W. Bush;Richard Nixon|F=quem-disse|V
+C|m|Física|Qual cientista escreveu que, se viu mais longe, foi por estar "sobre ombros de gigantes"?|Isaac Newton|Galileu Galilei;Johannes Kepler;René Descartes|F=quem-disse|V
+C|m|Física|Qual cientista disse que Deus "não joga dados" com o universo, criticando a física quântica?|Albert Einstein|Niels Bohr;Max Planck;Werner Heisenberg|F=quem-disse|V
+C|m|Matemática|Qual sábio grego teria dito: "Dê-me uma alavanca e um ponto de apoio e moverei o mundo"?|Arquimedes|Euclides;Pitágoras;Tales de Mileto|F=quem-disse|V
+E|m|Futebol|Qual técnico da seleção brasileira desabafou "Vocês vão ter que me engolir!" após vencer a Copa América de 1997?|Zagallo|Carlos Alberto Parreira;Telê Santana;Felipão|F=quem-disse|V
+N|f|Cinema|Em qual saga de filmes os personagens desejam "Que a Força esteja com você"?|Star Wars|Star Trek;Duna;Matrix|F=quem-disse|V
+T|m|Redes sociais|Qual fundador de empresa popularizou o lema "Mova-se rápido e quebre coisas"?|Mark Zuckerberg|Jeff Bezos;Larry Page;Jack Dorsey|F=quem-disse|V
+T|m|Ficção científica|Qual escritor disse que "qualquer tecnologia suficientemente avançada é indistinguível da magia"?|Arthur C. Clarke|Isaac Asimov;Ray Bradbury;Philip K. Dick|F=quem-disse|V
+# qual-primeiro
+T|m|Internet|Qual destes surgiu primeiro?|Google|Facebook;YouTube;Instagram|F=qual-primeiro|V
+T|f|Invenções|Qual destas invenções surgiu primeiro?|Telefone|Televisão;Computador pessoal;Telefone celular|F=qual-primeiro|V
+H|f|História geral|Qual destes acontecimentos veio primeiro?|Revolução Francesa|Independência do Brasil;Abolição da escravatura no Brasil;Primeira Guerra Mundial|F=qual-primeiro|V
+H|m|História geral|Qual destes acontecimentos veio primeiro?|Queda de Constantinopla|Chegada de Cabral ao Brasil;Reforma Protestante;Revolução Gloriosa|F=qual-primeiro|V
+C|m|Cientistas|Qual destes cientistas nasceu primeiro?|Galileu Galilei|Isaac Newton;Charles Darwin;Albert Einstein|F=qual-primeiro|V
+C|m|Medicina|Qual destas descobertas aconteceu primeiro?|Penicilina|Estrutura do DNA;Vacina contra a pólio;Clonagem da ovelha Dolly|F=qual-primeiro|V
+G|m|Cidades brasileiras|Qual destas cidades brasileiras foi fundada primeiro?|Salvador|Rio de Janeiro;Belo Horizonte;Brasília|F=qual-primeiro|V
+G|m|Independências|Qual destes países se tornou independente primeiro?|Estados Unidos|Brasil;Índia;Angola|F=qual-primeiro|V
+E|m|Copa do Mundo|Qual destas Copas do Mundo aconteceu primeiro?|Copa da Suécia|Copa da Argentina;Copa da Espanha;Copa dos Estados Unidos|F=qual-primeiro|V
+E|m|Bola de Ouro|Qual destes brasileiros ganhou a Bola de Ouro primeiro?|Ronaldo|Rivaldo;Ronaldinho;Kaká|F=qual-primeiro|V
+N|m|Cinema|Qual destes filmes foi lançado primeiro?|Tubarão|E.T.: O Extraterrestre;Jurassic Park;Titanic|F=qual-primeiro|V
+N|m|Animação|Qual destes desenhos estreou primeiro na TV?|Os Flintstones|Os Simpsons;Pokémon;Bob Esponja|F=qual-primeiro|V
+# complete
+N|f|Ditados populares|Complete o ditado: "Quem não tem cão..."|caça com gato|late sozinho;dorme sem guarda;caça com rede|F=complete
+N|f|Ditados populares|Complete o ditado: "Casa de ferreiro..."|espeto de pau|panela de barro;porta de ferro;faca sem corte|F=complete
+N|f|Ditados populares|Complete o ditado: "Em boca fechada..."|não entra mosquito|não sai mentira;não cabe pão;não mora fofoca|F=complete
+G|f|Capitais do Brasil|Complete o nome da capital brasileira: "Campo..."|Grande|Belo;Verde;Alegre|F=complete
+G|f|Capitais do Brasil|Complete o nome da capital brasileira: "João..."|Pessoa|Pedro;Paulo;Monlevade|F=complete
+E|m|Clubes do mundo|Complete o nome do clube inglês: "Tottenham..."|Hotspur|Rovers;Wanderers;Albion|F=complete
+E|m|Clubes do mundo|Complete o nome do clube português: "Sport Lisboa e..."|Benfica|Porto;Sporting;Belenenses|F=complete
+T|f|Games|Complete o nome da franquia de tiro: "Call of..."|Duty|Honor;War;Battle|F=complete
+T|f|Games|Complete o nome do jogo online da Riot Games: "League of..."|Legends|Heroes;Champions;Warriors|F=complete
+C|f|Química|Complete a frase de Lavoisier: "Na natureza nada se cria, nada se perde..."|tudo se transforma|tudo se repete;tudo se mistura;tudo se divide|F=complete
+H|f|Filosofia|Complete a frase de Descartes: "Penso, logo..."|existo|aprendo;resisto;duvido|F=complete|G=descartes|GC=banco:852
+N|f|Teatro|Complete a fala de Hamlet: "Ser ou não ser, eis..."|a questão|o dilema;a resposta;o mistério|F=complete|G=hamlet|GC=banco:6840
+# mesmo-grupo / espelho
+E|f|Futebol brasileiro|Qual jogador marcou seu milésimo gol de pênalti, no Maracanã, em 1969?|Pelé|Garrincha;Tostão;Zico|F=espelho|G=pele|GC=banco:2769|V
+E|f|Futebol brasileiro|Qual craque brasileiro encerrou a carreira de jogador no New York Cosmos, dos Estados Unidos?|Pelé|Romário;Garrincha;Rivellino|F=espelho|G=pele|GC=banco:2633|V
+E|f|Fórmula 1|Qual piloto brasileiro foi campeão mundial de Fórmula 1 em 1988, 1990 e 1991?|Ayrton Senna|Nelson Piquet;Emerson Fittipaldi;Rubens Barrichello|F=mesmo-grupo|G=ayrton-senna|GC=banco:2599|V
+E|f|Futebol brasileiro|Qual era o apelido de Zico, ídolo do Flamengo?|Galinho de Quintino|Rei da Gávea;Príncipe Rubro-Negro;Craque da Zona Norte|F=espelho|G=zico|GC=banco:2575|V
+E|f|Futebol brasileiro|Qual era o apelido de Garrincha?|Anjo de Pernas Tortas|Diabo Loiro;Rei do Drible Curto;Moleque Travesso|F=espelho|G=garrincha|GC=banco:2465|V
+N|f|Pintura|Qual artista italiano pintou a Mona Lisa?|Leonardo da Vinci|Michelangelo;Rafael;Botticelli|F=mesmo-grupo|G=leonardo-da-vinci|GC=banco:948|V
+N|f|Literatura brasileira|Qual personagem de "Dom Casmurro" tem "olhos de cigana oblíqua e dissimulada"?|Capitu|Sofia;Helena;Iaiá Garcia|F=espelho|G=dom-casmurro|GC=banco:3373|V
+N|f|Música internacional|Qual álbum de Michael Jackson, de 1982, é considerado o mais vendido da história?|Thriller|Bad;Off the Wall;Dangerous|F=espelho|G=michael-jackson|GC=banco:6352|V
+N|f|TV brasileira|Qual apresentadora estreou o "Clube da Criança", na Rede Manchete, em 1983?|Xuxa|Mara Maravilha;Simony;Eliana|F=mesmo-grupo|G=xuxa|GC=banco:6646|V
+G|f|Monumentos|Em qual cidade fica a Torre Eiffel?|Paris|Lyon;Bruxelas;Londres|F=mesmo-grupo|G=torre-eiffel|GC=banco:4726|V
+G|f|Monumentos|Qual monumento fica no alto do morro do Corcovado, no Rio de Janeiro?|Cristo Redentor|Pão de Açúcar;Arcos da Lapa;Escadaria Selarón|F=espelho|G=corcovado|GC=banco:29|V
+H|f|Brasil Império|Qual imperador do Brasil foi deposto pela Proclamação da República, em 1889?|Dom Pedro II|Dom Pedro I;Dom João VI;Dom Miguel|F=mesmo-grupo|G=dom-pedro-ii|GC=banco:893|V
+H|f|Brasil República|Qual presidente mandou construir Brasília?|Juscelino Kubitschek|Getúlio Vargas;Jânio Quadros;João Goulart|F=mesmo-grupo|G=juscelino|GC=banco:909|V
+H|f|Grécia Antiga|O que Arquimedes teria gritado ao fazer uma descoberta na banheira?|Eureka|Ágora;Logos;Ápeiron|F=espelho|G=arquimedes|GC=banco:1677|V
+H|f|Brasil República|Qual apelido popular Getúlio Vargas ganhou por causa das leis trabalhistas?|Pai dos pobres|Pai da pátria;Patrono da nação;Leão do Norte|F=espelho|G=getulio-vargas|GC=banco:786|V
+C|f|Física|Qual cientista formulou a teoria da relatividade?|Albert Einstein|Max Planck;Niels Bohr;Stephen Hawking|F=mesmo-grupo|G=einstein|GC=banco:2242|V
+C|f|Física|Qual cientista inglês formulou a lei da gravitação universal?|Isaac Newton|Johannes Kepler;Robert Boyle;Robert Hooke|F=mesmo-grupo|G=newton|GC=banco:1924|V
+C|m|Biologia|Qual naturalista viajou ao redor do mundo a bordo do navio HMS Beagle?|Charles Darwin|Alfred Russel Wallace;Alexander von Humboldt;Gregor Mendel|F=espelho|G=darwin|GC=banco:2263|V
+T|f|Empresas de tecnologia|Quem fundou a Microsoft ao lado de Paul Allen?|Bill Gates|Steve Ballmer;Michael Dell;Gordon Moore|F=espelho|G=microsoft|GC=banco:4482|V
+T|f|Empresas de tecnologia|Qual empresário fundou a Apple ao lado de Steve Wozniak, em 1976?|Steve Jobs|Larry Ellison;Michael Dell;Jeff Bezos|F=mesmo-grupo|G=steve-jobs|GC=banco:12849|V
+N|f|Música brasileira|Qual cantor brasileiro é chamado de "o Rei"?|Roberto Carlos|Erasmo Carlos;Wanderléa;Ronnie Von|F=mesmo-grupo|G=roberto-carlos|GC=banco:6448|V
+N|f|Ditados populares|Complete o ditado: "Água mole em pedra dura..."|tanto bate até que fura|uma hora se parte;o tempo amolece;a chuva desgasta|F=complete

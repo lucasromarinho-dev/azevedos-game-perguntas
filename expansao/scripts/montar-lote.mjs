@@ -9,6 +9,8 @@
 //   R no fim = fato de 2020 em diante (recente)
 //   Campos extras opcionais no fim, em qualquer ordem: "R" e/ou "U=Universo" (franquia ou universo da pergunta, ex.: U=Sítio do Picapau
 //   Amarelo, U=Star Wars). A rodada 3 limita a 3 perguntas por universo (scripts/variedade.mjs confere).
+//   Piloto de formatos (lotes 106+): "F=formato" (nao-e, numero, quem-disse, qual-primeiro, complete, mesmo-grupo, espelho),
+//   "G=grupo" (kebab-case), "GC=ref1,ref2" (grupo_com: "banco:N" ou "lote-NNN:id") e "V" (verificado_web: true).
 // Linhas vazias e começadas por "#" são ignoradas.
 //
 // O script: valida (regras do jogo + regras do piloto), gera id estável, embaralha as alternativas
@@ -49,11 +51,17 @@ readFileSync(fonte, 'utf8').split(/\r?\n/).forEach((linha, n) => {
   if (!linha || linha.startsWith('#')) return;
   const c = linha.split('|').map((x) => x.trim());
   const onde = `linha ${n + 1}`;
-  if (c.length < 6 || c.length > 8) return erros.push(`${onde}: esperado de 6 a 8 campos, veio ${c.length}`);
+  if (c.length < 6 || c.length > 11) return erros.push(`${onde}: esperado de 6 a 8 campos, veio ${c.length}`);
   const [cat, dif, subtema, pergunta, resposta, erradasTxt, ...extras] = c;
   const flag = extras.includes('R') ? 'R' : null;
   const universo = (extras.find((x) => x.startsWith('U=')) || '').slice(2).trim() || null;
-  if (extras.some((x) => x !== 'R' && !x.startsWith('U='))) return erros.push(`${onde}: campo extra desconhecido (use R ou U=Universo)`);
+  const ex = (k) => (extras.find((x) => x.startsWith(k + '=')) || '').slice(k.length + 1).trim() || null;
+  const formato = ex('F'), grupo = ex('G'), gc = ex('GC'), verif = extras.includes('V');
+  const FORMATOS = ['nao-e', 'numero', 'quem-disse', 'qual-primeiro', 'complete', 'mesmo-grupo', 'espelho'];
+  if (formato && !FORMATOS.includes(formato)) return erros.push(`${onde}: formato desconhecido ${formato}`);
+  if (grupo && !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(grupo)) return erros.push(`${onde}: grupo fora do kebab-case ${grupo}`);
+  if ((formato === 'mesmo-grupo' || formato === 'espelho') && (!grupo || !gc)) return erros.push(`${onde}: ${formato} precisa de G= e GC=`);
+  if (extras.some((x) => x !== 'R' && x !== 'V' && !/^(U|F|G|GC)=/.test(x))) return erros.push(`${onde}: campo extra desconhecido (use R, V, U=, F=, G=, GC=)`);
   const erradas = erradasTxt.split(';').map((x) => x.trim());
   const base = { categoria: CAT[cat], dificuldade: DIF[dif], pergunta, resposta };
   const id = gerarId(base);
@@ -64,6 +72,10 @@ readFileSync(fonte, 'utf8').split(/\r?\n/).forEach((linha, n) => {
     id, ...base, alternativas: alts, subtema, status: 'gerada', motivo: null, dup: null, dup_ref: null,
     recente: flag === 'R',
     ...(universo ? { universo } : {}),
+    ...(formato ? { formato } : {}),
+    ...(grupo ? { grupo } : {}),
+    ...(gc ? { grupo_com: gc.split(',').map((x) => x.trim()).filter(Boolean) } : {}),
+    ...(verif ? { verificado_web: true } : {}),
   };
   const m = motivoInvalida(p) || (erradas.length !== 3 ? 'precisa de 3 erradas' : null);
   if (m) return erros.push(`${onde}: ${m} | ${pergunta}`);

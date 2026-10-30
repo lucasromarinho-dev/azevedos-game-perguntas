@@ -7,8 +7,8 @@
     "resposta": "Vinho verde",
     "alternativas": [
       "Vinho da Madeira",
-      "Moscatel",
       "Vinho verde",
+      "Moscatel",
       "Vinho do Porto"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
@@ -47,9 +47,9 @@
     "resposta": "1961",
     "alternativas": [
       "1964",
-      "1954",
+      "1961",
       "1946",
-      "1961"
+      "1954"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
@@ -107,9 +107,9 @@
     "resposta": "Óxido de cálcio",
     "alternativas": [
       "Cloreto de cálcio",
-      "Carbonato de cálcio",
+      "Óxido de cálcio",
       "Hidróxido de cálcio",
-      "Óxido de cálcio"
+      "Carbonato de cálcio"
     ],
     "subtema": "Química",
     "status": "gerada",
@@ -178,5 +178,1785 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null
+  },
+  {
+    "id": "bdfe1508ab",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em inglês, o que significa a palavra \"fabric\"?",
+    "resposta": "Tecido",
+    "alternativas": [
+      "Tecido",
+      "Fabricante",
+      "Ferramenta",
+      "Fábrica"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f61879ef97",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Numa loja de maquiagem nos Estados Unidos, o que é a \"mascara\"?",
+    "resposta": "Rímel",
+    "alternativas": [
+      "Máscara facial",
+      "Batom",
+      "Pó compacto",
+      "Rímel"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6a9f39504d",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Numa notícia esportiva em inglês, o que significa \"injury\"?",
+    "resposta": "Lesão",
+    "alternativas": [
+      "Lesão",
+      "Injúria",
+      "Multa",
+      "Insulto"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f1a4275ca7",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão francesa designa quem aproveita os prazeres da boa vida?",
+    "resposta": "Bon vivant",
+    "alternativas": [
+      "Bon vivant",
+      "Bon appétit",
+      "Savoir-faire",
+      "Joie de vivre"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "644cfb0ca0",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão francesa quer dizer \"encontro marcado\"?",
+    "resposta": "Rendez-vous",
+    "alternativas": [
+      "Rendez-vous",
+      "Déjà vu",
+      "Vis-à-vis",
+      "Savoir-faire"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d2ff349152",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em inglês, o que significa \"to attend\" uma reunião?",
+    "resposta": "Comparecer",
+    "alternativas": [
+      "Anotar",
+      "Comparecer",
+      "Adiar",
+      "Atender"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2c5bc42946",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual palavra italiana, que quer dizer \"garrafa\", virou em português sinônimo de fracasso vexatório?",
+    "resposta": "Fiasco",
+    "alternativas": [
+      "Flop",
+      "Fiasco",
+      "Vexame",
+      "Furo"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:f6814ae294",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.2)"
+  },
+  {
+    "id": "d8700a58c1",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O Old Fashioned, clássico de bar com açúcar e angostura, é feito com qual destilado?",
+    "resposta": "Uísque",
+    "alternativas": [
+      "Uísque",
+      "Cachaça",
+      "Gim",
+      "Rum"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d6239ac02f",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em inglês, o que significa a palavra \"ingenious\"?",
+    "resposta": "Engenhoso",
+    "alternativas": [
+      "Engenhoso",
+      "Ingênuo",
+      "Ingrato",
+      "Inocente"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4741b03496",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "A uva carménère, que se achava extinta na França, foi redescoberta em vinhedos de qual país?",
+    "resposta": "Chile",
+    "alternativas": [
+      "Chile",
+      "Argentina",
+      "Espanha",
+      "Uruguai"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7138",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (7.8)"
+  },
+  {
+    "id": "016632b615",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual presidente americano, apelidado de Teddy, deu nome ao ursinho de pelúcia?",
+    "resposta": "Theodore Roosevelt",
+    "alternativas": [
+      "William McKinley",
+      "Woodrow Wilson",
+      "Theodore Roosevelt",
+      "Franklin Roosevelt"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5fc69662df",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Em qual rua de Londres fica, no número 10, a residência oficial do primeiro-ministro britânico?",
+    "resposta": "Downing Street",
+    "alternativas": [
+      "Baker Street",
+      "Oxford Street",
+      "Downing Street",
+      "Abbey Road"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5538",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)"
+  },
+  {
+    "id": "16530bedd9",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual educador brasileiro escreveu \"Pedagogia do Oprimido\"?",
+    "resposta": "Paulo Freire",
+    "alternativas": [
+      "Darcy Ribeiro",
+      "Paulo Freire",
+      "Anísio Teixeira",
+      "Rubem Alves"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1034",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (8.1, sim 0.2)"
+  },
+  {
+    "id": "9f49cbdf05",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual metáfora de Adam Smith descreve o mercado se regulando sozinho?",
+    "resposta": "Mão invisível",
+    "alternativas": [
+      "Lei de Murphy",
+      "Mão de ferro",
+      "Ovo de Colombo",
+      "Mão invisível"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2762ebf50f",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual economista britânico defendeu que o governo gaste mais para tirar a economia da crise?",
+    "resposta": "Keynes",
+    "alternativas": [
+      "Milton Friedman",
+      "Keynes",
+      "Malthus",
+      "Adam Smith"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cd5468e90a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual primeiro-ministro trabalhista britânico, do \"New Labour\", governou de 1997 a 2007?",
+    "resposta": "Tony Blair",
+    "alternativas": [
+      "Gordon Brown",
+      "Tony Blair",
+      "David Cameron",
+      "John Major"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9683b9774d",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual economista inglês previu que a população cresceria mais rápido que a produção de alimentos?",
+    "resposta": "Malthus",
+    "alternativas": [
+      "Keynes",
+      "Adam Smith",
+      "David Ricardo",
+      "Malthus"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "934d6abf58",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual economista austríaco criou a ideia de \"destruição criativa\" no capitalismo?",
+    "resposta": "Schumpeter",
+    "alternativas": [
+      "Mises",
+      "Keynes",
+      "Hayek",
+      "Schumpeter"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f798fef8a2",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual economista escreveu \"Formação Econômica do Brasil\" e foi o primeiro chefe da Sudene?",
+    "resposta": "Celso Furtado",
+    "alternativas": [
+      "Celso Furtado",
+      "Delfim Netto",
+      "Mário Henrique Simonsen",
+      "Roberto Campos"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f563c638e9",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual médico pernambucano escreveu o clássico \"Geografia da Fome\", de 1946?",
+    "resposta": "Josué de Castro",
+    "alternativas": [
+      "Josué de Castro",
+      "Milton Santos",
+      "Paulo Freire",
+      "Gilberto Freyre"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bbff65c5eb",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o animal que se alimenta de insetos, como o tamanduá?",
+    "resposta": "Insetívoro",
+    "alternativas": [
+      "Frugívoro",
+      "Insetívoro",
+      "Granívoro",
+      "Herbívoro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bec3066248",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o cultivo de uvas?",
+    "resposta": "Viticultura",
+    "alternativas": [
+      "Floricultura",
+      "Citricultura",
+      "Viticultura",
+      "Olivicultura"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4a4eba4d28",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o hobby de colecionar selos?",
+    "resposta": "Filatelia",
+    "alternativas": [
+      "Heráldica",
+      "Filatelia",
+      "Cartofilia",
+      "Numismática"
+    ],
+    "subtema": "Cientistas e descobertas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a24301befa",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o animal que se alimenta principalmente de frutas, como muitos morcegos e macacos?",
+    "resposta": "Frugívoro",
+    "alternativas": [
+      "Herbívoro",
+      "Carnívoro",
+      "Frugívoro",
+      "Necrófago"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8b4811513e",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a criação de cabras?",
+    "resposta": "Caprinocultura",
+    "alternativas": [
+      "Ovinocultura",
+      "Caprinocultura",
+      "Equinocultura",
+      "Bovinocultura"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c7bb16490b",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o animal que se alimenta de néctar, como o beija-flor?",
+    "resposta": "Nectarívoro",
+    "alternativas": [
+      "Granívoro",
+      "Nectarívoro",
+      "Folívoro",
+      "Insetívoro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "583c6118cc",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o animal que se alimenta de carniça, como o urubu?",
+    "resposta": "Necrófago",
+    "alternativas": [
+      "Necrófago",
+      "Hematófago",
+      "Piscívoro",
+      "Detritívoro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f3366b97de",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual ramo da biologia estuda os répteis e os anfíbios?",
+    "resposta": "Herpetologia",
+    "alternativas": [
+      "Entomologia",
+      "Ictiologia",
+      "Ornitologia",
+      "Herpetologia"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "57d8943e87",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a reprodução em que a fêmea gera filhotes sem ser fecundada pelo macho?",
+    "resposta": "Partenogênese",
+    "alternativas": [
+      "Esporulação",
+      "Brotamento",
+      "Partenogênese",
+      "Fragmentação"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "684fb49623",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamam os mamíferos que botam ovos, como o ornitorrinco e a equidna?",
+    "resposta": "Monotremados",
+    "alternativas": [
+      "Marsupiais",
+      "Placentários",
+      "Monotremados",
+      "Edentados"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1797 (R5 parte da resposta citada + muito assunto em comum (peso 21.7))",
+    "dup": "certa",
+    "dup_ref": "banco:1797",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 21.7)"
+  },
+  {
+    "id": "1a63d79eb3",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ciência estuda lagos, rios e outras águas doces do interior?",
+    "resposta": "Limnologia",
+    "alternativas": [
+      "Hidrologia",
+      "Oceanografia",
+      "Limnologia",
+      "Talassologia"
+    ],
+    "subtema": "Ecologia e meio ambiente",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "23cc4853b1",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ramo da zoologia estuda os moluscos, como caracóis e polvos?",
+    "resposta": "Malacologia",
+    "alternativas": [
+      "Carcinologia",
+      "Herpetologia",
+      "Ictiologia",
+      "Malacologia"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fbdcf69512",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No automobilismo, qual bandeira avisa perigo na pista e proíbe ultrapassagens naquele trecho?",
+    "resposta": "Amarela",
+    "alternativas": [
+      "Branca",
+      "Amarela",
+      "Verde",
+      "Azul"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:479",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.0)"
+  },
+  {
+    "id": "102e74bc01",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a foto de alta precisão que decide uma chegada apertada no atletismo?",
+    "resposta": "Photochart",
+    "alternativas": [
+      "Photochart",
+      "Replay",
+      "VAR",
+      "Slow motion"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7595 (R5 parte da resposta citada + muito assunto em comum (peso 24.2))",
+    "dup": "certa",
+    "dup_ref": "banco:7595",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 24.2)"
+  },
+  {
+    "id": "9ab0b1a7db",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual marca brasileira de material esportivo fez as camisas da seleção na Copa de 1982?",
+    "resposta": "Topper",
+    "alternativas": [
+      "Umbro",
+      "Penalty",
+      "Rainha",
+      "Topper"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f8b3e58a5c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de discos de ferro arremessados para derrubar um pino é tradicional no Rio Grande do Sul?",
+    "resposta": "Malha",
+    "alternativas": [
+      "Bocha",
+      "Boliche",
+      "Malha",
+      "Petanca"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4d42585924",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de bolas de metal, parecido com a bocha, é popular nas praças da França?",
+    "resposta": "Petanca",
+    "alternativas": [
+      "Malha",
+      "Petanca",
+      "Croquet",
+      "Curling"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f6202d2930",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube ganhou a Liga dos Campeões pela primeira vez em 2025?",
+    "resposta": "Paris Saint-Germain",
+    "alternativas": [
+      "Inter de Milão",
+      "Paris Saint-Germain",
+      "Arsenal",
+      "Borussia Dortmund"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "fe0094d350",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual técnico espanhol levou o Bayer Leverkusen ao título alemão invicto em 2024?",
+    "resposta": "Xabi Alonso",
+    "alternativas": [
+      "Mikel Arteta",
+      "Xavi",
+      "Luis Enrique",
+      "Xabi Alonso"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6336",
+    "recente": true,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.3)"
+  },
+  {
+    "id": "a86145a548",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atacante nigeriano foi artilheiro do Napoli campeão italiano de 2023?",
+    "resposta": "Osimhen",
+    "alternativas": [
+      "Iheanacho",
+      "Osimhen",
+      "Lookman",
+      "Lukaku"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "dc096af697",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual meia espanhola ganhou a Bola de Ouro em 2023 e 2024?",
+    "resposta": "Aitana Bonmatí",
+    "alternativas": [
+      "Irene Paredes",
+      "Salma Paralluelo",
+      "Aitana Bonmatí",
+      "Jennifer Hermoso"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "2a4774934f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atacante empatou nos acréscimos a final da Copa América de 2004 contra a Argentina?",
+    "resposta": "Adriano",
+    "alternativas": [
+      "Luís Fabiano",
+      "Alex",
+      "Robinho",
+      "Adriano"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2470",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.6)"
+  },
+  {
+    "id": "0a5766facb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual esporte holandês de cesta é disputado por times mistos, com homens e mulheres?",
+    "resposta": "Korfball",
+    "alternativas": [
+      "Lacrosse",
+      "Netball",
+      "Korfball",
+      "Floorball"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8a9c0dd42a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual esporte irlandês mistura futebol e rúgbi e permite chutar e tocar a bola com as mãos?",
+    "resposta": "Futebol gaélico",
+    "alternativas": [
+      "Futebol gaélico",
+      "Rúgbi league",
+      "Hurling",
+      "Futebol australiano"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3691d3338b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube romeno foi o primeiro do Leste Europeu campeão da Copa dos Campeões, em 1986?",
+    "resposta": "Steaua Bucareste",
+    "alternativas": [
+      "Dínamo Bucareste",
+      "Estrela Vermelha",
+      "Dínamo de Kiev",
+      "Steaua Bucareste"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:580",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.1)"
+  },
+  {
+    "id": "d78e00c43b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube de Bruxelas é o maior campeão da história do futebol belga?",
+    "resposta": "Anderlecht",
+    "alternativas": [
+      "Anderlecht",
+      "Genk",
+      "Standard Liège",
+      "Club Brugge"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6acbda0a4b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual classe de barco Martine Grael e Kahena Kunze foram bicampeãs olímpicas?",
+    "resposta": "49erFX",
+    "alternativas": [
+      "Finn",
+      "Star",
+      "49erFX",
+      "Laser"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5196 (E5 resposta antiga citada no texto novo + assunto (36.4))",
+    "dup": "certa",
+    "dup_ref": "banco:5196",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (36.4)"
+  },
+  {
+    "id": "3dcc08f0e0",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama quem rima no rap, sigla para \"mestre de cerimônias\"?",
+    "resposta": "MC",
+    "alternativas": [
+      "MC",
+      "MV",
+      "VJ",
+      "DJ"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f218281f35",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a rima improvisada na hora, comum nas batalhas de rap?",
+    "resposta": "Freestyle",
+    "alternativas": [
+      "Sample",
+      "Playback",
+      "Remix",
+      "Freestyle"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fd743b3567",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual DJ se apresenta com um capacete branco em forma de marshmallow?",
+    "resposta": "Marshmello",
+    "alternativas": [
+      "Skrillex",
+      "Marshmello",
+      "Deadmau5",
+      "Daft Punk"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9589a93f16",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a arte de pintar muros com spray, ligada ao hip-hop?",
+    "resposta": "Grafite",
+    "alternativas": [
+      "Estêncil",
+      "Mural",
+      "Afresco",
+      "Grafite"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8304 (E4 resposta nova (rara) citada no texto antigo (7.4))",
+    "dup": "certa",
+    "dup_ref": "banco:8304",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.4)"
+  },
+  {
+    "id": "ecddcb8d6d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o disco curto, com poucas faixas, maior que um single e menor que um álbum?",
+    "resposta": "EP",
+    "alternativas": [
+      "LP",
+      "EP",
+      "Box",
+      "CD"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aacead4f80",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a participação especial de outro artista numa música, abreviada em inglês?",
+    "resposta": "Feat",
+    "alternativas": [
+      "Remix",
+      "Medley",
+      "Cover",
+      "Feat"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8fbd66961c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a banda que toca antes da atração principal de um show?",
+    "resposta": "Banda de abertura",
+    "alternativas": [
+      "Banda cover",
+      "Banda de apoio",
+      "Banda de abertura",
+      "Banda marcial"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5068656eab",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual estilo de rock britânico dos anos 1990 teve Oasis e Blur como grandes rivais?",
+    "resposta": "Britpop",
+    "alternativas": [
+      "Punk",
+      "Glam rock",
+      "Britpop",
+      "Grunge"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2cc729d908",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem faz dupla sertaneja com Gian?",
+    "resposta": "Giovani",
+    "alternativas": [
+      "Marrone",
+      "Giovani",
+      "Cristiano",
+      "Mateus"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c5de15e7aa",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora chilena escreveu \"A Casa dos Espíritos\"?",
+    "resposta": "Isabel Allende",
+    "alternativas": [
+      "Gabriela Mistral",
+      "Laura Esquivel",
+      "Clarice Lispector",
+      "Isabel Allende"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7e58bd8fb7",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora mexicana escreveu \"Como Água para Chocolate\"?",
+    "resposta": "Laura Esquivel",
+    "alternativas": [
+      "Isabel Allende",
+      "Elena Poniatowska",
+      "Frida Kahlo",
+      "Laura Esquivel"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "522594c76a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta mexicano ganhou o Nobel de Literatura de 1990?",
+    "resposta": "Octavio Paz",
+    "alternativas": [
+      "Juan Rulfo",
+      "Carlos Fuentes",
+      "Pablo Neruda",
+      "Octavio Paz"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "769bd9cc25",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual foi a primeira série brasileira original da Netflix, de 2016, sobre jovens disputando uma vaga no \"Maralto\"?",
+    "resposta": "3%",
+    "alternativas": [
+      "3%",
+      "Cidade Invisível",
+      "Sintonia",
+      "Irmandade"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3117a71170",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 18.2)"
+  },
+  {
+    "id": "8f0465d44f",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série do Prime Video, de 2023, mostra um novo bando de cangaceiros no sertão contemporâneo?",
+    "resposta": "Cangaço Novo",
+    "alternativas": [
+      "Cangaço Novo",
+      "Irmandade",
+      "DNA do Crime",
+      "Cidade Invisível"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "f529ea4ce4",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual DJ canadense se apresenta com um capacete de cabeça de rato?",
+    "resposta": "Deadmau5",
+    "alternativas": [
+      "Deadmau5",
+      "Skrillex",
+      "Marshmello",
+      "Tiësto"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5ac110ab87",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor mexicano escreveu \"Pedro Páramo\", que inspirou García Márquez?",
+    "resposta": "Juan Rulfo",
+    "alternativas": [
+      "Carlos Fuentes",
+      "Octavio Paz",
+      "Jorge Luis Borges",
+      "Juan Rulfo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4e4a4847e3",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor uruguaio escreveu \"As Veias Abertas da América Latina\"?",
+    "resposta": "Eduardo Galeano",
+    "alternativas": [
+      "Horacio Quiroga",
+      "Juan Carlos Onetti",
+      "Mario Benedetti",
+      "Eduardo Galeano"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ffeed5df30",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor uruguaio é autor do romance \"A Trégua\", de 1960?",
+    "resposta": "Mario Benedetti",
+    "alternativas": [
+      "Juan Carlos Onetti",
+      "Horacio Quiroga",
+      "Eduardo Galeano",
+      "Mario Benedetti"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "906bec3ba7",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dupla paulistana gravou \"Corpo Fechado\" e foi pioneira do rap no Brasil nos anos 1980?",
+    "resposta": "Thaíde e DJ Hum",
+    "alternativas": [
+      "RZO",
+      "Racionais MC's",
+      "Sabotage e Instituto",
+      "Thaíde e DJ Hum"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "87b932f0fc",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estilo de rock dos anos 1970, de David Bowie e T. Rex, abusava de purpurina e figurinos extravagantes?",
+    "resposta": "Glam rock",
+    "alternativas": [
+      "Glam rock",
+      "Punk",
+      "Britpop",
+      "Rock progressivo"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1123f7a23e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual animação brasileira de Luiz Bolognesi, com voz de Selton Mello, venceu o Festival de Annecy em 2013?",
+    "resposta": "Uma História de Amor e Fúria",
+    "alternativas": [
+      "O Menino e o Mundo",
+      "Até que a Sbórnia nos Separe",
+      "Uma História de Amor e Fúria",
+      "Rio"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ede4610e45",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o símbolo # usado nas hashtags?",
+    "resposta": "Cerquilha",
+    "alternativas": [
+      "Arroba",
+      "Asterisco",
+      "Cerquilha",
+      "E comercial"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bf6906fe0b",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o símbolo &, que significa \"e\"?",
+    "resposta": "E comercial",
+    "alternativas": [
+      "Til",
+      "Cerquilha",
+      "E comercial",
+      "Arroba"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:085482c388",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.2)"
+  },
+  {
+    "id": "f7bef792d0",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o traço baixo (_) usado em nomes de usuário e de arquivos?",
+    "resposta": "Underline",
+    "alternativas": [
+      "Hífen",
+      "Barra",
+      "Underline",
+      "Til"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "600065d8c4",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o símbolo * do teclado?",
+    "resposta": "Asterisco",
+    "alternativas": [
+      "Asterisco",
+      "Arroba",
+      "Cerquilha",
+      "Apóstrofo"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3acdca7e98",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o sinal gráfico que fica sobre o \"a\" de \"pão\"?",
+    "resposta": "Til",
+    "alternativas": [
+      "Trema",
+      "Acento agudo",
+      "Til",
+      "Cedilha"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "25c733e3d1",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual comando da linguagem SQL é usado para consultar dados de uma tabela?",
+    "resposta": "SELECT",
+    "alternativas": [
+      "DROP",
+      "UPDATE",
+      "CREATE",
+      "SELECT"
+    ],
+    "subtema": "Programação",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4174 (E5 resposta antiga citada no texto novo + assunto (18.7))",
+    "dup": "certa",
+    "dup_ref": "banco:4174",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.7)"
+  },
+  {
+    "id": "5f780f167a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cláusula SQL filtra as linhas de uma consulta conforme uma condição?",
+    "resposta": "WHERE",
+    "alternativas": [
+      "FROM",
+      "SET",
+      "WHERE",
+      "LIMIT"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c5162a969",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual comando SQL inclui uma nova linha numa tabela?",
+    "resposta": "INSERT",
+    "alternativas": [
+      "UPDATE",
+      "INSERT",
+      "ALTER",
+      "CREATE"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3b5cc0ffb6",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cláusula SQL ordena o resultado de uma consulta?",
+    "resposta": "ORDER BY",
+    "alternativas": [
+      "DISTINCT",
+      "UNION",
+      "LIMIT",
+      "ORDER BY"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cf570a05e2",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ferramenta da Microsoft cria painéis e relatórios interativos de dados?",
+    "resposta": "Power BI",
+    "alternativas": [
+      "Access",
+      "Power BI",
+      "Publisher",
+      "Visio"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d7b2b749a8",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual sigla designa os sistemas de gestão do relacionamento com clientes?",
+    "resposta": "CRM",
+    "alternativas": [
+      "API",
+      "CRM",
+      "SEO",
+      "ERP"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "df3e52b8ce",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual comando SQL combina linhas de duas tabelas a partir de uma coluna em comum?",
+    "resposta": "JOIN",
+    "alternativas": [
+      "JOIN",
+      "CASE",
+      "LIMIT",
+      "LIKE"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e79c50f600",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Num banco de dados, como se chama o campo que aponta para a chave primária de outra tabela?",
+    "resposta": "Chave estrangeira",
+    "alternativas": [
+      "Índice",
+      "Chave composta",
+      "Chave estrangeira",
+      "Gatilho"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7836",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (4.9)"
+  },
+  {
+    "id": "f8f8bbccce",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Num banco de dados, qual valor representa a ausência de informação num campo?",
+    "resposta": "NULL",
+    "alternativas": [
+      "NULL",
+      "ZERO",
+      "EMPTY",
+      "VOID"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c8aa56d5b",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a barra vertical do teclado, usada em programação para encadear comandos?",
+    "resposta": "Pipe",
+    "alternativas": [
+      "Hífen",
+      "Pipe",
+      "Til",
+      "Slash"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "029990b378",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o profissional que cuida do condicionamento físico de um time de futebol?",
+    "resposta": "Preparador físico",
+    "alternativas": [
+      "Fisioterapeuta",
+      "Massagista",
+      "Auxiliar técnico",
+      "Preparador físico"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e92faf3c4b",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o agente que negocia os contratos e transferências de um jogador?",
+    "resposta": "Empresário",
+    "alternativas": [
+      "Empresário",
+      "Olheiro",
+      "Procurador da Justiça",
+      "Diretor de futebol"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f9fd07c82b",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No futebol brasileiro, como se chama o prêmio em dinheiro pago aos jogadores por uma vitória?",
+    "resposta": "Bicho",
+    "alternativas": [
+      "Bicho",
+      "Cachê",
+      "Jeton",
+      "Comissão"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "810736bfeb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "No futebol, como se chama o bônus pago ao jogador na assinatura de um contrato?",
+    "resposta": "Luvas",
+    "alternativas": [
+      "Direito de imagem",
+      "Multa rescisória",
+      "Bicho",
+      "Luvas"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8122411a5f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem faz dupla sertaneja com Rionegro?",
+    "resposta": "Solimões",
+    "alternativas": [
+      "Mateus",
+      "Cristiano",
+      "Solimões",
+      "Marrone"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d16ee11a40",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o símbolo \\ do teclado, usado nos caminhos de pastas do Windows?",
+    "resposta": "Barra invertida",
+    "alternativas": [
+      "Barra vertical",
+      "Hífen",
+      "Barra invertida",
+      "Underline"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:bc27e917e7",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
   }
 ]

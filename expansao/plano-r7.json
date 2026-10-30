@@ -1,0 +1,101 @@
+{
+  "_leia": "Rodada 7 da meta 3x: 1.000 novas válidas em 10 lotes (066 a 075). Mesma composição categoria x dificuldade das rodadas 3 a 6 (36,5% fácil). Dentro de cada categoria, prioridade para os subtemas mais longe da meta 10x em arvore.json (meta 3x já batida; lista recalculada em 30/10/2026). Variedade como nas rodadas 3 a 6: no máximo 3 perguntas por universo ou franquia na rodada, música até 1/3 do Entretenimento, Esportes espalhado por subtemas (scripts/variedade.mjs 66 75). Método: respostas primeiro, sonda direto com candidatas.mjs --registrar (pega plural e grafia); fato com número, data ou recorde confirmado na web. Evitar os microtemas saturados das rodadas anteriores e os que a rodada 6 cobre (a rodada 6 foi gerada em paralelo; esta rodada fica na branch expansao-r7). faltam.mjs usa este arquivo para lotes 066+.",
+  "lotes": [
+    66,
+    75
+  ],
+  "metas": {
+    "Geografia": {
+      "facil": 50,
+      "medio": 45,
+      "dificil": 35
+    },
+    "História": {
+      "facil": 45,
+      "medio": 50,
+      "dificil": 45
+    },
+    "Ciências": {
+      "facil": 50,
+      "medio": 45,
+      "dificil": 35
+    },
+    "Esportes": {
+      "facil": 65,
+      "medio": 65,
+      "dificil": 55
+    },
+    "Entretenimento": {
+      "facil": 95,
+      "medio": 95,
+      "dificil": 65
+    },
+    "Tecnologia": {
+      "facil": 60,
+      "medio": 55,
+      "dificil": 45
+    }
+  },
+  "prioridade": {
+    "Geografia": [
+      "Capitais e países do mundo",
+      "Brasil: cidades, turismo e apelidos",
+      "Cidades e monumentos do mundo",
+      "População, curiosidades e recordes",
+      "Bandeiras, moedas e idiomas",
+      "Brasil: estados, capitais e regiões",
+      "Comidas e bebidas típicas, Brasil e mundo",
+      "Biomas, clima e natureza"
+    ],
+    "História": [
+      "Brasil República, Vargas, ditadura e redemocratização",
+      "Antiguidade",
+      "Guerras Mundiais",
+      "Personagens, invenções e filosofia",
+      "Mitologia",
+      "Guerra Fria e século XX",
+      "Brasil Colônia",
+      "Brasil Império"
+    ],
+    "Ciências": [
+      "Animais",
+      "Astronomia",
+      "Corpo humano e saúde",
+      "Cientistas e descobertas",
+      "Química",
+      "Terra, geologia e clima",
+      "Física e unidades",
+      "Plantas"
+    ],
+    "Esportes": [
+      "Brasileirão e clubes brasileiros",
+      "Futebol europeu",
+      "Seleção e craques",
+      "Copa do Mundo",
+      "Libertadores e futebol sul-americano",
+      "F1 e automobilismo",
+      "Olimpíadas e atletismo",
+      "Basquete e NBA"
+    ],
+    "Entretenimento": [
+      "Música brasileira",
+      "Novelas e TV brasileira",
+      "Música internacional",
+      "Séries e streaming",
+      "Cinema internacional e Oscar",
+      "Sagas e franquias",
+      "Super-heróis",
+      "Reality shows (BBB, A Fazenda etc.)"
+    ],
+    "Tecnologia": [
+      "Games: franquias e personagens",
+      "Empresas, marcas e fundadores",
+      "Games: consoles e história",
+      "IA, robótica e ficção científica",
+      "História da computação",
+      "Redes sociais e apps",
+      "Games: Nintendo",
+      "Celulares e gadgets"
+    ]
+  }
+}

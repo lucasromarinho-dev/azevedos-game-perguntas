@@ -12,12 +12,13 @@
       "Ismael"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "3117a71170",
@@ -32,17 +33,18 @@
       "Irmandade"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "8f5655b3bc",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama, em inglês, o pontapé inicial de uma partida?",
     "resposta": "Kick-off",
     "alternativas": [
@@ -52,12 +54,14 @@
       "Start-up"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8927",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v6)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "02e879bd50",
@@ -72,12 +76,13 @@
       "Tailandês"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: quarta pergunta da rodada com resposta Japonês no molde 'palavra X em qual língua' (tsunami, arigatô, konnichiwa); cortado o excesso",
     "dup": "suspeita",
     "dup_ref": "id:3cca25e004",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7543e35dbf",
@@ -92,12 +97,13 @@
       "Romeno"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:238",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d2440bf193",
@@ -112,12 +118,13 @@
       "Romeno"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 'Hola' repete o par de 'Adiós' (b6c166cbf1, lote 062), mesma resposta Espanhol no mesmo molde; cortado o excesso",
     "dup": "suspeita",
     "dup_ref": "id:b6c166cbf1",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 15.7)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9bf7402525",
@@ -132,12 +139,13 @@
       "Cuiabá"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ae13037858",
@@ -152,12 +160,13 @@
       "Joinville"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "579df57fbf",
@@ -172,12 +181,13 @@
       "Mandarim"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3481",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.4)"
+    "dup_regra": "resposta nova citada no texto antigo (5.4)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "756d7874fd",
@@ -192,12 +202,13 @@
       "Hebraico"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:944c52251e",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "97fb32e94c",
@@ -212,12 +223,13 @@
       "Macapá"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "230ed720e6",
@@ -232,12 +244,13 @@
       "Holandês"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4514a1a9ae",
@@ -252,12 +265,13 @@
       "Cabo Frio"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d2a6342c5e",
@@ -272,12 +286,13 @@
       "Isle of Wight"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: a resposta (Woodstock) está no enunciado de banco:3425 (Jimi Hendrix tocou o hino no Woodstock) e o enunciado ('geração hippie') entrega a resposta de banco:8006 (Hippie)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "8071f28bcd",
@@ -292,12 +307,13 @@
       "Vedetes"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "28dab6c759",
@@ -306,18 +322,20 @@
     "pergunta": "Como eram chamados os jovens executivos ambiciosos dos anos 1980?",
     "resposta": "Yuppies",
     "alternativas": [
-      "Punks",
+      "Dândis",
       "Hippies",
       "Yuppies",
       "Hipsters"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Punks era a resposta de 73958 (mesmo lote); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d2ba07054c",
@@ -332,12 +350,13 @@
       "Skald"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "fc10ae32cb",
@@ -387,17 +406,19 @@
     "resposta": "Beatniks",
     "alternativas": [
       "Beatniks",
-      "Punks",
+      "Modernistas",
       "Geração Perdida",
       "Hippies"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Punks era a resposta de 73958 (mesmo lote); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "cbbb63ebb0",
@@ -408,16 +429,18 @@
     "alternativas": [
       "Rockers",
       "Teddy Boys",
-      "Punks",
+      "Skinheads",
       "Mods"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Punks era a resposta de 73958 (mesmo lote), que tinha Mods entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ff763315ee",
@@ -432,12 +455,13 @@
       "Glagolítico"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0845e504f6",
@@ -452,12 +476,13 @@
       "Conselho"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "2db739c040",
@@ -492,12 +517,13 @@
       "Hortelã"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "941c6c0216",
@@ -512,12 +538,13 @@
       "Ervas finas"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "5cce87d6e5",
@@ -532,12 +559,13 @@
       "Açafrão"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7a9f6448df",
@@ -572,12 +600,13 @@
       "Cebolinha"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4bce5ce441",
@@ -592,12 +621,13 @@
       "Sálvia"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e5598ca2b7",
@@ -612,12 +642,13 @@
       "Portobello"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "925b25e3e2",
@@ -632,12 +663,13 @@
       "Shitake"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "82d601bd5e",
@@ -652,12 +684,13 @@
       "Shimeji"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "a2008a5e47",
@@ -672,12 +705,13 @@
       "Shimeji"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "c386c14364",
@@ -692,12 +726,13 @@
       "Endro"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "bf3f3079ea",
@@ -712,12 +747,13 @@
       "Rússia"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9b1038bedc",
@@ -732,12 +768,13 @@
       "Pivô"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "97612ba5df",
@@ -772,12 +809,13 @@
       "Sorín"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "2849f00171",
@@ -792,12 +830,13 @@
       "Chilavert"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7b1c5078fb",
@@ -812,12 +851,13 @@
       "Monte Carlo"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d60d249d66",
@@ -832,12 +872,13 @@
       "Alf"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ea70af61b3",
@@ -852,12 +893,13 @@
       "Land of Hope and Glory"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "de920ad73a",
@@ -872,12 +914,13 @@
       "O Mágico de Oz"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9d6dedac19",
@@ -892,12 +935,13 @@
       "Moby Dick"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "271a9bc8b5",
@@ -912,12 +956,13 @@
       "Footloose"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "c646795ae9",
@@ -952,12 +997,13 @@
       "Museu Oscar Niemeyer"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1ec24263c2",
@@ -972,12 +1018,13 @@
       "Museu Imperial"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "af46ae4127",
@@ -992,12 +1039,13 @@
       "Renato e Seus Blue Caps"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "716d039c50",
@@ -1012,12 +1060,13 @@
       "God Bless America"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:ea70af61b3",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9d18c7570c",
@@ -1032,12 +1081,13 @@
       "Questão de Honra"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "6ea4562453",
@@ -1052,12 +1102,13 @@
       "Museu de Arte Sacra"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "41522637d8",
@@ -1072,12 +1123,13 @@
       "Instituto Ricardo Brennand"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b41319b423",
@@ -1112,12 +1164,13 @@
       "Osório Duque Estrada"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1ee1e4d966",
@@ -1132,12 +1185,13 @@
       "Beethoven"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "50ad55689a",
@@ -1152,12 +1206,13 @@
       "Batedor"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "fea50dddce",
@@ -1172,12 +1227,13 @@
       "Torradeira"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9576",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.8)"
+    "dup_regra": "resposta nova citada no texto antigo (5.8)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "64e02e1220",
@@ -1192,12 +1248,13 @@
       "Fogareiro"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "52695bbd69",
@@ -1212,12 +1269,13 @@
       "Coador de pano"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "814620381a",
@@ -1232,12 +1290,13 @@
       "Chemex"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:fea50dddce",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "53b37678c0",
@@ -1252,12 +1311,13 @@
       "Infravermelho"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0e23f50f11",
@@ -1272,12 +1332,13 @@
       "Magnétron"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "692288d3c4",
@@ -1292,12 +1353,13 @@
       "Italiano"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f6814ae294",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.7)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "09f3940a27",
@@ -1348,16 +1410,18 @@
     "alternativas": [
       "Hippies",
       "Punks",
-      "Mods",
+      "Emos",
       "Góticos"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Mods era a resposta de cbbb6 (mesmo lote); trocada por Emos",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "6795eff20b",
@@ -1372,12 +1436,13 @@
       "19 de abril"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0e59d25c56",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4d820dc359",
@@ -1392,12 +1457,13 @@
       "Live Aid"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8738",
     "recente": false,
-    "dup_regra": "mesma resposta, assunto vizinho (7.4, 18% do fato)"
+    "dup_regra": "mesma resposta, assunto vizinho (7.4, 18% do fato)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9aec74a723",
@@ -1412,12 +1478,13 @@
       "Cílios"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d1149aa7a1",
@@ -1452,12 +1519,13 @@
       "Chuteiras"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "518e97f252",
@@ -1472,12 +1540,13 @@
       "Palitinho"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "628a8a13d4",
@@ -1492,12 +1561,13 @@
       "Volta olímpica"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "029b05151e",
@@ -1532,12 +1602,13 @@
       "Motorzinho"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "19faa69067",
@@ -1552,12 +1623,13 @@
       "Topper"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1c63ac821b",
@@ -1572,12 +1644,13 @@
       "Rainha"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "98abc09cd7",
@@ -1592,12 +1665,13 @@
       "Topper"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0a0128b78b",
@@ -1612,12 +1686,13 @@
       "Le Coq Sportif"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b0895c06f6",
@@ -1632,12 +1707,13 @@
       "Fila"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "031921d8aa",
@@ -1652,12 +1728,13 @@
       "Veni, vidi, vici"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9884",
     "recente": false,
-    "dup_regra": "mesma resposta, assunto vizinho (6.2, 16% do fato)"
+    "dup_regra": "mesma resposta, assunto vizinho (6.2, 16% do fato)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "5bcb6dbf10",
@@ -1672,12 +1749,13 @@
       "Grinch"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e4b4b2ba56",
@@ -1692,12 +1770,13 @@
       "Gênio"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "87e8cec80a",
@@ -1712,12 +1791,13 @@
       "Nemo"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "02084d19d5",
@@ -1732,12 +1812,13 @@
       "Gêmeos"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4554e7ba75",
@@ -1752,12 +1833,13 @@
       "Câncer"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:02084d19d5",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0a9a318239",
@@ -1772,12 +1854,13 @@
       "Prestar atenção"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8730",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "6e78a2495f",
@@ -1792,12 +1875,13 @@
       "Ser muito pão-duro"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1abfc736a2",
@@ -1807,17 +1891,19 @@
     "resposta": "Finge que não entende",
     "alternativas": [
       "Trabalha demais",
-      "Foge da raia",
+      "Fala demais",
       "Finge que não entende",
       "Briga à toa"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7762",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "errada 'Foge da raia' (esquivar-se) é quase o mesmo sentido de dar uma de João-sem-braço; trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "c07576ab91",
@@ -1832,12 +1918,13 @@
       "Milagre na Rua 34"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0662b8b37e",
@@ -1852,12 +1939,13 @@
       "Soneca"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0890f80f66",
@@ -1872,12 +1960,13 @@
       "Cuco"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "3e1f1007f7",
@@ -1892,12 +1981,13 @@
       "Casio"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d63a54dbcd",
@@ -1912,12 +2002,13 @@
       "Seiko"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4c53505c5c",
@@ -1932,12 +2023,13 @@
       "Digital"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "78fa405d4d",
@@ -1952,12 +2044,13 @@
       "Grego"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "eeb0a7f723",
@@ -1966,18 +2059,20 @@
     "pergunta": "Como se chama um período de dez anos?",
     "resposta": "Década",
     "alternativas": [
-      "Lustro",
-      "Biênio",
+      "Milênio",
+      "Semestre",
       "Século",
       "Década"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Lustro e Biênio eram respostas de 1f9e4 e 28b5c (lote 062); trocadas",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e3dfb7019e",
@@ -2032,12 +2127,13 @@
       "Mecânico"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7781",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.0)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.0)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b65216a512",
@@ -2052,12 +2148,13 @@
       "Rayovac"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b189cc97cd",
@@ -2072,12 +2169,13 @@
       "Londres"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4791",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.4)"
+    "dup_regra": "resposta nova citada no texto antigo (6.4)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "6d7de6fcc1",
@@ -2112,12 +2210,13 @@
       "Ficar no banco"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "8d19ac7d25",
@@ -2172,11 +2271,12 @@
       "Chiado"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   }
 ]

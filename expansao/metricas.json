@@ -6593,6 +6593,96 @@
           "molde repetido": "e4b16f4ede: molde repetido: quarta pergunta de domínio genérico no lote (.com, .org, .edu, .net), com respostas cruzadas nas alternativas; cortado o excesso",
           "errada defensavel": "df5042b522: errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado"
         }
+      },
+      {
+        "lote": "063",
+        "conferente": "conferente-v6",
+        "conferidas": 90,
+        "conferidas_sem_mudanca": 83,
+        "com_mudanca": 7,
+        "corrigidas": 6,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "espelho": 1,
+          "molde repetido": 2
+        },
+        "perguntas_com_busca_web": 0,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 18,
+          "mantidas": 16,
+          "reescritas": 0,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 5,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "d2a6342c5e: espelho: a resposta (Woodstock) está no enunciado de banco:3425 (Jimi Hendrix tocou o hino no Woodstock) e o enunciado ('geração hippie') entrega a resposta de banco:8006 (Hippie)",
+          "02e879bd50: molde repetido: quarta pergunta da rodada com resposta Japonês no molde 'palavra X em qual língua' (tsunami, arigatô, konnichiwa); cortado o excesso",
+          "d2440bf193: molde repetido: 'Hola' repete o par de 'Adiós' (b6c166cbf1, lote 062), mesma resposta Espanhol no mesmo molde; cortado o excesso"
+        ],
+        "correcoes": [
+          "73958b6507: Punks - errada Mods era a resposta de cbbb6 (mesmo lote); trocada por Emos",
+          "cbbb63ebb0: Mods - errada Punks era a resposta de 73958 (mesmo lote), que tinha Mods entre as erradas (respostas cruzadas); trocada",
+          "f00743c467: Beatniks - errada Punks era a resposta de 73958 (mesmo lote); trocada",
+          "28dab6c759: Yuppies - errada Punks era a resposta de 73958 (mesmo lote); trocada",
+          "eeb0a7f723: Década - erradas Lustro e Biênio eram respostas de 1f9e4 e 28b5c (lote 062); trocadas",
+          "1abfc736a2: Finge que não entende - errada 'Foge da raia' (esquivar-se) é quase o mesmo sentido de dar uma de João-sem-braço; trocada"
+        ],
+        "rebaixamentos": [
+          "8f5655b3bc: Kick-off dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 6,
+          "molde repetido": 2,
+          "errada defensavel": 1,
+          "dificuldade": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "73958b6507: errada Mods era a resposta de cbbb6 (mesmo lote); trocada por Emos",
+          "molde repetido": "02e879bd50: molde repetido: quarta pergunta da rodada com resposta Japonês no molde 'palavra X em qual língua' (tsunami, arigatô, konnichiwa); cortado o excesso",
+          "errada defensavel": "1abfc736a2: errada 'Foge da raia' (esquivar-se) é quase o mesmo sentido de dar uma de João-sem-braço; trocada",
+          "dificuldade": "8f5655b3bc: undefined"
+        }
       }
     ],
     "rebaixamentos_r3": {

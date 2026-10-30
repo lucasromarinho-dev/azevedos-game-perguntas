@@ -8332,6 +8332,131 @@
           "fato impreciso": "63ea191503: o bordão 'põe na conta' não foi confirmado em fonte; trocado pelo gesto 'pose de quebrada', confirmado (site do Palmeiras)",
           "errada defensavel": "f5df57add0: errada Brabante é defensável (o Brabante Flamengo fala holandês); trocada"
         }
+      },
+      {
+        "lote": "074",
+        "conferente": "conferente-v7",
+        "conferidas": 106,
+        "conferidas_sem_mudanca": 59,
+        "com_mudanca": 47,
+        "corrigidas": 46,
+        "rebaixadas": 3,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 5,
+        "suspeitas": {
+          "total": 11,
+          "mantidas": 11,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 8,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 7,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 17,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 8,
+            "rebaixadas": 1,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "163615a8c7: Al Rihla - errada Brazuca era a resposta de banco:5289, que tem Al Rihla entre as erradas (respostas cruzadas); trocada",
+          "302700c083: Go - erradas Rust e Kotlin eram respostas de banco:4579 e banco:4341, com Go entre as erradas (respostas cruzadas); trocadas",
+          "436846ccf1: Portabilidade numérica - erradas Pré-pago e Roaming eram respostas de banco:8381 e banco:3927, do mesmo molde (termo de telefonia); trocadas",
+          "99565846f2: Soluço - erradas Bocejo e Espirro eram respostas de banco:7434 e banco:9702, com Soluço entre as erradas (respostas cruzadas); trocadas",
+          "de6a2dc4d5: Uruguai, Argentina e Paraguai - a escolha foi anunciada pela FIFA em outubro de 2023 (ratificada em dezembro de 2024); tirado o 'escolhidos em 2024', que era impreciso",
+          "01f42cb678: Ponte dos Suspiros - errada Ponte de Rialto era a resposta de banco:8399 (respostas cruzadas); trocada",
+          "4710b14bfc: Vesálio - errada William Harvey era a resposta de banco:2279, do mesmo molde (médico pioneiro); trocada",
+          "053e9157b5: Pepsina - errada Amilase era a resposta de banco:2441, que tem Pepsina entre as erradas (respostas cruzadas); trocada",
+          "00dc57d364: Juno - erradas Cassini e New Horizons eram respostas de banco:2254 e banco:2253, com Juno entre as erradas (respostas cruzadas); trocadas",
+          "39d58ae166: Leão - errada Félix era a resposta de banco:5850, que tem Leão entre as erradas (respostas cruzadas); trocada",
+          "75d4fb8da5: Bienal do Livro - errada Flip era a resposta de banco:8355, que tem Bienal do Livro entre as erradas (respostas cruzadas); trocada",
+          "82b7b6364d: Savoir-faire - erradas Laissez-faire e Vis-à-vis eram respostas de 068:efc9bd e 072:80291c (respostas cruzadas); trocadas",
+          "ff76d456ee: Kanji - errada Hangul era a resposta de 061:c93960 (respostas cruzadas); trocada",
+          "1c76a4f7f3: Quenya - errada Dothraki era a resposta de banco:9050, que tem Quenya entre as erradas (respostas cruzadas); trocada",
+          "f0c29b386f: Lascaux - errada Chauvet também é caverna francesa com pinturas pré-históricas de cavalos (defensável); trocada",
+          "b366ea23d5: Fluorescência - errada Fosforescência era a resposta de 072:bbc80e, do mesmo molde; trocada",
+          "cd1966ccbf: Ureia - errada Pepsina era a resposta de 053e9 (mesmo lote); trocada",
+          "68c5c357df: Alicina - erradas Capsaicina e Mentol eram respostas de banco:2225 e banco:9281, do mesmo molde ('substância que dá X'); trocadas",
+          "9a35bc8c14: Antera - erradas Ovário e Estigma eram respostas de banco:2033 e 075:906ec6, com Antera entre as erradas (respostas cruzadas); trocadas",
+          "4a53b90609: Dor do membro fantasma - conceito conhecido pelo nome (membro fantasma); rebaixada",
+          "aa581ee93d: 32 - errada 48 era a resposta de banco:5677 (seleções da Copa de 2026), com 32 entre as erradas (respostas cruzadas); trocada",
+          "3fa85db206: Lewis Hamilton - errada Max Verstappen era a resposta de banco:2623 (respostas cruzadas); trocada",
+          "ea618dd4b0: Manoel dos Santos - errada Tetsuo Okamoto era a resposta de 073:0200f4 (respostas cruzadas); trocada",
+          "c9d60101b0: Maria Lenk - errada Aída dos Santos era a resposta de 054fa (mesmo lote), que tinha Maria Lenk entre as erradas (respostas cruzadas); trocada",
+          "054fa92e4a: Aída dos Santos - errada Maria Lenk era a resposta de c9d60 (mesmo lote); trocada",
+          "adfb0b8e51: The Town - errada Primavera Sound era a resposta de 5af80 (mesmo lote), do mesmo molde; trocada",
+          "af41bd8bdc: Interlagos - errada Jacarepaguá era a resposta de banco:5860 (respostas cruzadas); trocada",
+          "a784c9630b: Botero - errada Frida Kahlo era a resposta de banco:6039, do mesmo molde (artista latino-americano); trocada",
+          "b0c8da3fa8: E-book - errada PDF era a resposta de banco:4637 e pode ser defendida (muitos e-books são PDF); trocada",
+          "3b6990b672: Jeff Koons - errada Andy Warhol era a resposta de banco:7172, do mesmo molde (artista americano); trocada",
+          "460f1e1b72: Totalmente Demais - errada Verdades Secretas era a resposta de acbd7 (mesmo lote), que tinha Totalmente Demais entre as erradas (respostas cruzadas); trocada",
+          "acbd7b55d0: Verdades Secretas - errada Totalmente Demais era a resposta de 460f1 (mesmo lote); trocada",
+          "f219fd0392: Planeta Atlântida - errada Festival de Verão era a resposta de 075:29e7fe (respostas cruzadas); trocada",
+          "cc58f00b06: Vitória de Samotrácia - erradas Discóbolo e Laocoonte eram respostas de 57c18 e 59a04 (mesmo lote), do mesmo molde; trocadas",
+          "3e05fc0ae6: Bosch - errada Bruegel era a resposta de a272f (mesmo lote), do mesmo molde; trocada",
+          "384f97183a: Edward Hopper - erradas Jackson Pollock e Andy Warhol eram respostas de banco:7116 e banco:7172, do mesmo molde (pintor americano); trocadas",
+          "59a04fe73c: Laocoonte - errada Discóbolo era a resposta de 57c18 (mesmo lote), do mesmo molde; trocada",
+          "4f9711b17d: Louise Bourgeois - errada Frida Kahlo era a resposta de banco:6039; trocada por escultora",
+          "4ea819948f: Goya - errada El Greco era a resposta de 1b294 (mesmo lote), do mesmo molde; trocada",
+          "5af80a18df: Primavera Sound - as três erradas eram respostas de banco:8744, banco:7057 e banco:7058, do mesmo molde (festival de música); trocadas",
+          "482e127fae: Tomada inteligente - errada Estabilizador era a resposta de banco:7577, do mesmo molde; trocada",
+          "fbf6b4857a: Resistor - as três erradas eram respostas de banco:4215, 3bdcf e 7ebdb (mesmo lote, respostas cruzadas); trocadas",
+          "3bdcf8f225: Capacitor - erradas Resistor e Relé eram respostas de fbf6b (mesmo lote) e 075:23b859 (respostas cruzadas); trocadas",
+          "7ebdb4d02f: Diodo - as três erradas eram respostas de 075:23b859, 3bdcf e fbf6b (respostas cruzadas); trocadas; diodo é conhecido pelo nome, rebaixada",
+          "39712b9f94: R - errada Go era a resposta de 30270 (mesmo lote), do mesmo molde; trocada",
+          "b1bd8d75b4: Alfredo Ceschiatti - erradas Bruno Giorgi e Victor Brecheret eram respostas de 070:3d6177 e banco:7087 (respostas cruzadas); trocadas"
+        ],
+        "rebaixamentos": [
+          "df2934c96a: Gallus gallus dificil -> medio",
+          "4a53b90609: Dor do membro fantasma dificil -> medio",
+          "7ebdb4d02f: Diodo dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 42,
+          "fato impreciso": 1,
+          "errada defensavel": 2,
+          "dificuldade": 2
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "163615a8c7: errada Brazuca era a resposta de banco:5289, que tem Al Rihla entre as erradas (respostas cruzadas); trocada",
+          "fato impreciso": "de6a2dc4d5: a escolha foi anunciada pela FIFA em outubro de 2023 (ratificada em dezembro de 2024); tirado o 'escolhidos em 2024', que era impreciso",
+          "errada defensavel": "f0c29b386f: errada Chauvet também é caverna francesa com pinturas pré-históricas de cavalos (defensável); trocada",
+          "dificuldade": "df2934c96a: undefined"
+        }
       }
     ],
     "rebaixamentos_r3": {

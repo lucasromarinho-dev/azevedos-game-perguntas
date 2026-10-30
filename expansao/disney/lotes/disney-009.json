@@ -11,9 +11,10 @@
    "Grande Príncipe da Floresta",
    "Senhor das Matas"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Bambi",
-  "grupo": "bambi"
+  "grupo": "bambi",
+  "verificado_web_conferente": "wiki pt: Bambi (\"grande príncipe da floresta\")"
  },
  {
   "id": "a77837763e",
@@ -27,9 +28,10 @@
    "Ser corajoso, sincero e bondoso",
    "Ganhar dinheiro no teatro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Pinocchio (1940 film) (\"brave, truthful\")",
-  "grupo": "pinoquio"
+  "grupo": "pinoquio",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "bf38e75dfc",
@@ -43,9 +45,10 @@
    "Poço dos desejos",
    "Buraco de coelho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Alice in Wonderland (1951 film) (\"rabbit hole\")",
-  "grupo": "alice"
+  "grupo": "alice",
+  "verificado_web_conferente": "wiki pt (busca): Once Upon a Time in Wonderland"
  },
  {
   "id": "2308113154",
@@ -59,9 +62,10 @@
    "Numa caixa pelo correio",
    "Voando com ele numa trouxinha"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Dumbo (\"stork\")",
-  "grupo": "dumbo"
+  "grupo": "dumbo",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "f26cbc45ce",
@@ -75,9 +79,11 @@
    "Pantera",
    "Lobo"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "verificado_web": "wiki pt/en: The Jungle Book (1967 film)",
-  "grupo": "mogli"
+  "grupo": "mogli",
+  "motivo": "conferente: fato repetido: Shere Khan é tigre já é a pergunta a390faa2e6",
+  "verificado_web_conferente": "wiki pt/en: Mogli - O Menino Lobo (verbete)"
  },
  {
   "id": "d2ad5e8dfc",
@@ -91,9 +97,10 @@
    "Ásia",
    "Oceania"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Tarzan (1999 film)",
-  "grupo": "tarzan"
+  "grupo": "tarzan",
+  "verificado_web_conferente": "wiki pt/en: Tarzan (verbete)"
  },
  {
   "id": "51a3e0f700",
@@ -107,9 +114,10 @@
    "Para um museu",
    "Para os vizinhos"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Aristocats",
-  "grupo": "aristogatas"
+  "grupo": "aristogatas",
+  "verificado_web_conferente": "wiki pt/en: Aristogatas (verbete)"
  },
  {
   "id": "eaf221fae8",
@@ -123,9 +131,10 @@
    "No campanário da catedral",
    "Numa caverna"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Hunchback of Notre Dame (1996 film)",
-  "grupo": "corcunda"
+  "grupo": "corcunda",
+  "verificado_web_conferente": "wiki pt/en: O Corcunda de Notre Dame (verbete)"
  },
  {
   "id": "2667d1e214",
@@ -139,9 +148,10 @@
    "Sapo, cobra e coruja",
    "Cavalo, cachorro e gato"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Sword in the Stone (1963 film) (\"fish\", \"squirrel\", \"sparrow\")",
-  "grupo": "espada-lei"
+  "grupo": "espada-lei",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "9e9008319c",
@@ -155,9 +165,10 @@
    "Um soldado",
    "Um frade"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Robin Hood (1973 film) (\"stork\")",
-  "grupo": "robin-hood"
+  "grupo": "robin-hood",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "cad4bb108c",
@@ -171,9 +182,10 @@
    "Minotauro",
    "Ciclope"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Hercules (1997 film) (\"Hydra\")",
-  "grupo": "hercules"
+  "grupo": "hercules",
+  "verificado_web_conferente": "wiki pt (busca): Hidra de Lerna"
  },
  {
   "id": "2600688a02",
@@ -196,7 +208,7 @@
   "id": "fa44012dc9",
   "categoria": "Clássicos Disney",
   "dificuldade": "medio",
-  "pergunta": "No filme de 1977 dos ratinhos da Sociedade de Resgate, qual dos dois heróis é o zelador?",
+  "pergunta": "No filme de 1977 dos ratinhos que se reúnem no prédio da ONU, qual dos dois heróis é o zelador?",
   "resposta": "Bernardo",
   "alternativas": [
    "Orville",
@@ -204,9 +216,16 @@
    "Bernardo",
    "Evinrude"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Rescuers",
-  "grupo": "bernardo-bianca"
+  "grupo": "bernardo-bianca",
+  "correcao": {
+   "motivo": "nome brasileiro \"Sociedade de Resgate\" não confirmado",
+   "antes": {
+    "pergunta": "No filme de 1977 dos ratinhos da Sociedade de Resgate, qual dos dois heróis é o zelador?"
+   }
+  },
+  "verificado_web_conferente": "WebSearch: filmow (reunião no prédio da ONU) + wiki en: The Rescuers"
  },
  {
   "id": "e3dfb29f7b",
@@ -220,25 +239,39 @@
    "Hipopótamos",
    "Girafas"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Fantasia (1940 film)",
-  "grupo": "fantasia"
+  "grupo": "fantasia",
+  "verificado_web_conferente": "wiki pt (busca): Hippopotamidae"
  },
  {
   "id": "fed7b51e39",
   "categoria": "Clássicos Disney",
   "dificuldade": "dificil",
   "pergunta": "Em 101 Dálmatas (1961), qual é o nome da cozinheira da casa de Roger e Anita?",
-  "resposta": "Nanny",
+  "resposta": "Naná",
   "alternativas": [
-   "Nanny",
+   "Naná",
    "Martha",
    "Sarah",
    "Querida"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: One Hundred and One Dalmatians",
-  "grupo": "101-dalmatas"
+  "grupo": "101-dalmatas",
+  "correcao": {
+   "motivo": "na dublagem brasileira a cozinheira Nanny se chama Naná (Wikipédia pt)",
+   "antes": {
+    "resposta": "Nanny",
+    "alternativas": [
+     "Nanny",
+     "Martha",
+     "Sarah",
+     "Querida"
+    ]
+   }
+  },
+  "verificado_web_conferente": "wiki pt: 101 Dálmatas (Nanny/Naná)"
  },
  {
   "id": "03c912af9a",
@@ -252,10 +285,11 @@
    "Tantor",
    "Terk"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Tarzan (1999 film) (as 3 erradas constam)",
   "grupo": "tarzan",
-  "formato": "nao-e"
+  "formato": "nao-e",
+  "verificado_web_conferente": "wiki pt/en: Tarzan (verbete)"
  },
  {
   "id": "c034e10540",
@@ -269,10 +303,11 @@
    "Lei",
    "Rei"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Sword in the Stone (1963 film)",
   "grupo": "espada-lei",
-  "formato": "complete"
+  "formato": "complete",
+  "verificado_web_conferente": "wiki pt/en: A Espada Era a Lei (verbete)"
  },
  {
   "id": "d1984217e8",
@@ -286,10 +321,11 @@
    "A Fada Azul dá vida ao boneco",
    "Pinóquio procura Gepeto no fundo do mar"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Pinocchio (1940 film) (\"Blue Fairy\")",
   "grupo": "pinoquio",
-  "formato": "qual-primeiro"
+  "formato": "qual-primeiro",
+  "verificado_web_conferente": "wiki en: Pinocchio (1940 film) (enredo)"
  },
  {
   "id": "ddc85250ea",
@@ -303,9 +339,10 @@
    "No baile do castelo",
    "Na floresta"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Cinderella (1950 film) (\"ball\")",
-  "grupo": "cinderela"
+  "grupo": "cinderela",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "034b3c6534",
@@ -319,9 +356,10 @@
    "A Rainha Má",
    "Malévola"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Snow White and the Seven Dwarfs (1937 film)",
-  "grupo": "branca-de-neve"
+  "grupo": "branca-de-neve",
+  "verificado_web_conferente": "wiki pt/en: Branca de Neve e os Sete Anões (verbete)"
  },
  {
   "id": "0f4b2574bc",
@@ -335,9 +373,10 @@
    "Madeira",
    "Ouro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Moana (2016 film) (\"fish hook\")",
-  "grupo": "moana"
+  "grupo": "moana",
+  "verificado_web_conferente": "wiki pt (busca): 101 Dálmatas"
  },
  {
   "id": "ab11da753a",
@@ -351,9 +390,10 @@
    "Se vai aprender a voar",
    "Se vai ganhar um nariz novo"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "verificado_web": "wiki pt/en: Frozen 2 (\"When I Am Older\")",
-  "grupo": "frozen-2"
+  "grupo": "frozen-2",
+  "motivo": "conferente: fato repetido: Olaf e \"quando eu for mais velho\" já é a pergunta 63fddee923"
  },
  {
   "id": "d2ce82feac",
@@ -367,9 +407,10 @@
    "Da Inglaterra",
    "Da França"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Pocahontas (1995 film)",
-  "grupo": "pocahontas"
+  "grupo": "pocahontas",
+  "verificado_web_conferente": "wiki pt/en: Pocahontas (verbete)"
  },
  {
   "id": "3fc5642135",
@@ -383,9 +424,10 @@
    "Cupcakes",
    "Beignets"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Princess and the Frog",
-  "grupo": "princesa-sapo"
+  "grupo": "princesa-sapo",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "d4049cb2e2",
@@ -399,9 +441,10 @@
    "Uma maçã envenenada",
    "Um colar mágico"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Brave (2012 film) (\"cake\")",
-  "grupo": "valente"
+  "grupo": "valente",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "1537d63747",
@@ -415,9 +458,10 @@
    "Um búfalo",
    "Uma tartaruga"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Raya and the Last Dragon (\"Tuk Tuk\", \"pill bug\")",
-  "grupo": "raya"
+  "grupo": "raya",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "20857db257",
@@ -431,9 +475,10 @@
    "No porão",
    "Atrás de uma cortina"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Tangled (\"hides him\")",
-  "grupo": "enrolados"
+  "grupo": "enrolados",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "fa1103d4a9",
@@ -447,9 +492,10 @@
    "Tico, Teco e Pluto",
    "Huguinho, Zezinho e Luisinho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Mulan (1998 film)",
-  "grupo": "mulan"
+  "grupo": "mulan",
+  "verificado_web_conferente": "wiki pt/en: Mulan (verbete)"
  },
  {
   "id": "ad55ef5756",
@@ -463,9 +509,10 @@
    "Das florestas",
    "Do deserto"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Moana 2",
-  "grupo": "moana-2"
+  "grupo": "moana-2",
+  "verificado_web_conferente": "wiki pt/en: Moana 2 (verbete)"
  },
  {
   "id": "8746e4e4f5",
@@ -479,9 +526,10 @@
    "Benja",
    "Fergus"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Moana (2016 film)",
-  "grupo": "moana"
+  "grupo": "moana",
+  "verificado_web_conferente": "wiki pt/en: Moana: Um Mar de Aventuras (verbete)"
  },
  {
   "id": "3073dd1de5",
@@ -495,9 +543,10 @@
    "Angus",
    "Philippe"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Beauty and the Beast (1991 film)",
-  "grupo": "bela-fera"
+  "grupo": "bela-fera",
+  "verificado_web_conferente": "wiki pt (busca): Vincent Cassel"
  },
  {
   "id": "289d586117",
@@ -511,9 +560,10 @@
    "Kumandra",
    "Motunui"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Frozen 2",
-  "grupo": "frozen-2"
+  "grupo": "frozen-2",
+  "verificado_web_conferente": "wiki pt (busca): Show Yourself (canção)"
  },
  {
   "id": "52aaec9b9f",
@@ -527,10 +577,11 @@
    "Elinor",
    "Angus"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Brave (2012 film) (as 3 erradas constam)",
   "grupo": "valente",
-  "formato": "nao-e"
+  "formato": "nao-e",
+  "verificado_web_conferente": "wiki pt/en: Valente (verbete)"
  },
  {
   "id": "d5b72a03de",
@@ -562,10 +613,11 @@
    "2",
    "4"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Cinderella (1950 film) (\"stepsisters\")",
   "grupo": "cinderela",
-  "formato": "numero"
+  "formato": "numero",
+  "verificado_web_conferente": "wiki en: Cinderella (1950 film) (enredo)"
  },
  {
   "id": "4b4a8f9fee",
@@ -579,9 +631,10 @@
    "Um patrulheiro espacial de verdade",
    "Um brinquedo de corda"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Toy Story (\"Space Ranger\")",
-  "grupo": "toy-story"
+  "grupo": "toy-story",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "02bf9003b4",
@@ -595,9 +648,10 @@
    "Vende pneus na loja do Luigi",
    "Lava todos os carros"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Cars (film) (\"repaving\")",
-  "grupo": "carros"
+  "grupo": "carros",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "4d685666a0",
@@ -611,9 +665,10 @@
    "Japão",
    "África do Sul"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Finding Nemo",
-  "grupo": "nemo"
+  "grupo": "nemo",
+  "verificado_web_conferente": "wiki pt/en: Procurando Nemo (verbete)"
  },
  {
   "id": "15665dcb3c",
@@ -627,9 +682,10 @@
    "As portas",
    "O emprego"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Monsters, Inc. (\"laughter\")",
-  "grupo": "monstros"
+  "grupo": "monstros",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "1e11d037ab",
@@ -643,9 +699,10 @@
    "Um distintivo de escoteiro",
    "Uma bicicleta"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Up (2009 film) (\"badge\")",
-  "grupo": "up"
+  "grupo": "up",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "f61598e5cc",
@@ -659,9 +716,11 @@
    "Cores",
    "Máscaras"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "verificado_web": "wiki pt/en: The Incredibles (\"capes\")",
-  "grupo": "incriveis"
+  "grupo": "incriveis",
+  "motivo": "conferente: fato repetido: \"Sem capa!\" da Edna já é a pergunta 96ad7a1365",
+  "verificado_web_conferente": "wiki pt (busca): Os Incríveis (banda)"
  },
  {
   "id": "44589a371c",
@@ -675,25 +734,39 @@
    "Doces",
    "Cachorros"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Coco (2017 film)",
-  "grupo": "viva"
+  "grupo": "viva",
+  "verificado_web_conferente": "wiki pt/en: Viva: A Vida é uma Festa (verbete)"
  },
  {
   "id": "e2e55fdb94",
   "categoria": "Pixar",
   "dificuldade": "facil",
   "pergunta": "Em Divertida Mente, onde as emoções trabalham dentro da cabeça de Riley?",
-  "resposta": "Na Sala de Controle",
+  "resposta": "No Quartel-General",
   "alternativas": [
-   "Na Sala de Controle",
+   "No Quartel-General",
    "No Porão",
    "Na Biblioteca",
    "No Sótão"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Inside Out (2015 film) (\"Headquarters\")",
-  "grupo": "divertida-mente"
+  "grupo": "divertida-mente",
+  "correcao": {
+   "motivo": "na versão brasileira o lugar é o Quartel-General",
+   "antes": {
+    "resposta": "Na Sala de Controle",
+    "alternativas": [
+     "Na Sala de Controle",
+     "No Porão",
+     "Na Biblioteca",
+     "No Sótão"
+    ]
+   }
+  },
+  "verificado_web_conferente": "WebSearch: Quartel-General na versão brasileira"
  },
  {
   "id": "2e6ab66fe1",
@@ -707,9 +780,10 @@
    "Ver a lua cheia",
    "Emoções fortes"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Turning Red (\"emotion\")",
-  "grupo": "red"
+  "grupo": "red",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "efbf95ce25",
@@ -723,9 +797,10 @@
    "AUTO",
    "Zurg"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Lightyear (film)",
-  "grupo": "lightyear"
+  "grupo": "lightyear",
+  "verificado_web_conferente": "wiki pt/en: Lightyear (verbete)"
  },
  {
   "id": "2a3039f273",
@@ -739,9 +814,10 @@
    "Os Jogos do Susto",
    "A Copa Pistão"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Monsters University (\"Scare Games\")",
-  "grupo": "universidade-monstros"
+  "grupo": "universidade-monstros",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "e5deea289c",
@@ -755,9 +831,10 @@
    "Copa Pistão",
    "Rali Dakar"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Cars 2",
-  "grupo": "carros-2"
+  "grupo": "carros-2",
+  "verificado_web_conferente": "wiki pt/en: Carros 2 (verbete)"
  },
  {
   "id": "b6f1eb7035",
@@ -771,9 +848,10 @@
    "A chuva",
    "O Buzz voando"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Toy Story 3 (\"claw\", \"aliens\")",
-  "grupo": "toy-story-3"
+  "grupo": "toy-story-3",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "de46baf06c",
@@ -787,9 +865,10 @@
    "Ser diretor da escola",
    "Ganhar um prêmio de piano"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Soul (2020 film) (\"Dorothea Williams\")",
-  "grupo": "soul"
+  "grupo": "soul",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "322630ee0f",
@@ -803,9 +882,10 @@
    "Um pássaro falso",
    "Um espantalho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: A Bug's Life (\"bird\")",
-  "grupo": "vida-inseto"
+  "grupo": "vida-inseto",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "d48740afe2",
@@ -819,9 +899,10 @@
    "Pérola Negra",
    "Spirit of Adventure"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Up (2009 film)",
-  "grupo": "up"
+  "grupo": "up",
+  "verificado_web_conferente": "wiki pt (busca): Up (filme) + WebSearch"
  },
  {
   "id": "e27aa5ce53",
@@ -835,10 +916,11 @@
    "Hank",
    "Bruce"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Finding Dory (as 3 erradas constam)",
   "grupo": "dory",
-  "formato": "nao-e"
+  "formato": "nao-e",
+  "verificado_web_conferente": "wiki pt/en: Procurando Dory (verbete)"
  },
  {
   "id": "0576a040bf",
@@ -852,10 +934,11 @@
    "Slinky",
    "Porquinho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Toy Story 4",
   "grupo": "toy-story-4",
-  "formato": "quem-disse"
+  "formato": "quem-disse",
+  "verificado_web_conferente": "wiki pt/en: Toy Story 4 (verbete)"
  },
  {
   "id": "3c00ad73f5",
@@ -869,10 +952,11 @@
    "Peixe",
    "Dory"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Finding Nemo",
   "grupo": "nemo",
-  "formato": "complete"
+  "formato": "complete",
+  "verificado_web_conferente": "wiki pt/en: Procurando Nemo (verbete)"
  },
  {
   "id": "06287a9e1f",
@@ -886,9 +970,10 @@
    "Jafar",
    "Ratcliffe"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Aladdin (1992 Disney film)",
-  "grupo": "aladdin"
+  "grupo": "aladdin",
+  "verificado_web_conferente": "wiki pt/en: Aladdin (verbete)"
  },
  {
   "id": "0c8d276a5f",
@@ -902,9 +987,10 @@
    "Um morcego",
    "Um corvo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Maleficent (film)",
-  "grupo": "bela-adormecida"
+  "grupo": "bela-adormecida",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "21f036f66f",
@@ -935,9 +1021,10 @@
    "Numa velhinha",
    "Numa moça chamada Vanessa"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Little Mermaid (1989 film) (\"Vanessa\")",
-  "grupo": "pequena-sereia"
+  "grupo": "pequena-sereia",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "cdfa636851",
@@ -947,13 +1034,25 @@
   "resposta": "Um relógio",
   "alternativas": [
    "Um sino",
-   "Um despertador de corda",
+   "Uma bússola",
    "Um relógio",
    "Um metrônomo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Peter Pan (1953 film) (\"clock\")",
-  "grupo": "peter-pan"
+  "grupo": "peter-pan",
+  "correcao": {
+   "motivo": "despertador também é relógio: errada também certa",
+   "antes": {
+    "alternativas": [
+     "Um sino",
+     "Um despertador de corda",
+     "Um relógio",
+     "Um metrônomo"
+    ]
+   }
+  },
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "dcc6b29d75",
@@ -964,12 +1063,24 @@
   "alternativas": [
    "Roger e Anita",
    "Pongo e Prenda",
-   "Nanny e o Coronel",
+   "Naná e o Coronel",
    "Horácio e Gaspar"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: One Hundred and One Dalmatians",
-  "grupo": "101-dalmatas"
+  "grupo": "101-dalmatas",
+  "correcao": {
+   "motivo": "nome brasileiro da cozinheira é Naná",
+   "antes": {
+    "alternativas": [
+     "Roger e Anita",
+     "Pongo e Prenda",
+     "Nanny e o Coronel",
+     "Horácio e Gaspar"
+    ]
+   }
+  },
+  "verificado_web_conferente": "wiki pt: 101 Dálmatas"
  },
  {
   "id": "6c7dac43db",
@@ -983,9 +1094,11 @@
    "Lúcifer",
    "Anastácia"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "verificado_web": "wiki pt/en: Cinderella (1950 film) (\"Anastasia\")",
-  "grupo": "cinderela"
+  "grupo": "cinderela",
+  "motivo": "conferente: sem confirmação na web de qual meia-irmã prova o sapatinho primeiro; fontes divergem",
+  "verificado_web_conferente": "WebSearch: ordem das meias-irmãs não confirmada"
  },
  {
   "id": "f25e562a05",
@@ -999,9 +1112,10 @@
    "Pabbie",
    "Bulda"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Frozen (2013 film)",
-  "grupo": "frozen"
+  "grupo": "frozen",
+  "verificado_web_conferente": "wiki pt/en: Frozen: Uma Aventura Congelante (verbete)"
  },
  {
   "id": "16b6a80d43",
@@ -1015,9 +1129,10 @@
    "Roz",
    "Célia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Monsters, Inc.",
-  "grupo": "monstros"
+  "grupo": "monstros",
+  "verificado_web_conferente": "wiki pt/en: Monstros S.A. (verbete)"
  },
  {
   "id": "3e4e3e27b7",
@@ -1031,9 +1146,10 @@
    "Proteger a selva",
    "Estudá-los"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Tarzan (1999 film) (\"Clayton\", \"gorillas\")",
-  "grupo": "tarzan"
+  "grupo": "tarzan",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "75fe8881c7",
@@ -1047,14 +1163,15 @@
    "Grande Conselheira",
    "Rainha Galáctica"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Lilo & Stitch",
-  "grupo": "lilo-stitch"
+  "grupo": "lilo-stitch",
+  "verificado_web_conferente": "wiki pt/en: Lilo & Stitch (verbete)"
  },
  {
   "id": "3c7bb05a99",
   "categoria": "Vilões",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Em Alice no País das Maravilhas (1951), que soldados guardam a Rainha de Copas?",
   "resposta": "Cartas de baralho",
   "alternativas": [
@@ -1063,9 +1180,16 @@
    "Flamingos",
    "Peças de xadrez"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Alice in Wonderland (1951 film)",
-  "grupo": "alice"
+  "grupo": "alice",
+  "correcao": {
+   "motivo": "cartas de baralho é imagem marcante do filme: média",
+   "antes": {
+    "dificuldade": "dificil"
+   }
+  },
+  "verificado_web_conferente": "wiki pt (busca): Dama (baralho)"
  },
  {
   "id": "114096a611",
@@ -1079,9 +1203,10 @@
    "Sapo",
    "Gatinha"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Emperor's New Groove (\"kitten\")",
-  "grupo": "nova-onda"
+  "grupo": "nova-onda",
+  "verificado_web_conferente": "wiki en: The Emperor's New Groove (enredo)"
  },
  {
   "id": "4702c97883",
@@ -1095,9 +1220,10 @@
    "43",
    "20"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "WebSearch: Chick Hicks é o carro 86 (Pixar Wiki, Cars collector)",
-  "grupo": "carros"
+  "grupo": "carros",
+  "verificado_web_conferente": "wiki en: Cars (film) (enredo)"
  },
  {
   "id": "a261f2c6f9",
@@ -1111,10 +1237,11 @@
    "Flynn Rider",
    "Mamãe Gothel"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Tangled (\"Mother Knows Best\")",
   "grupo": "enrolados",
-  "formato": "quem-disse"
+  "formato": "quem-disse",
+  "verificado_web_conferente": "wiki pt (busca): Rapunzel (Disney)"
  },
  {
   "id": "1ed25b94b0",
@@ -1128,10 +1255,11 @@
    "Escavador",
    "Síndrome"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Incredibles (\"Syndrome\", \"Underminer\", \"Bomb Voyage\")",
   "grupo": "incriveis",
-  "formato": "nao-e"
+  "formato": "nao-e",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "1f5f2fb477",
@@ -1145,10 +1273,11 @@
    "Preparem",
    "Escondam"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Lion King",
   "grupo": "rei-leao",
-  "formato": "complete"
+  "formato": "complete",
+  "verificado_web_conferente": "wiki pt/en: O Rei Leão (verbete)"
  },
  {
   "id": "52d96c3909",
@@ -1179,9 +1308,10 @@
    "Hércules",
    "O Corcunda de Notre Dame"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Hunchback of Notre Dame (1996 film)",
-  "grupo": "corcunda"
+  "grupo": "corcunda",
+  "verificado_web_conferente": "wiki pt: O Corcunda de Notre Dame (\"Lá Fora\")"
  },
  {
   "id": "1916fd63bc",
@@ -1195,9 +1325,10 @@
    "Mamá Coco",
    "Tia Victoria"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Coco (2017 film)",
-  "grupo": "viva"
+  "grupo": "viva",
+  "verificado_web_conferente": "wiki pt (busca): Alanna Ubach"
  },
  {
   "id": "a314e05e9b",
@@ -1245,9 +1376,10 @@
    "Livre Estou",
    "Um Sonho É um Desejo d'Alma"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki en: A Dream Is a Wish Your Heart Makes; MusicBrainz: Um sonho é um desejo d'alma",
-  "grupo": "cinderela"
+  "grupo": "cinderela",
+  "verificado_web_conferente": "WebSearch: MusicBrainz (\"Um sonho é um desejo d'alma\")"
  },
  {
   "id": "220ff802f5",
@@ -1261,9 +1393,10 @@
    "Amigo Insuperável",
    "Noites da Arábia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Aladdin (1992 Disney film) (\"Arabian Nights\")",
-  "grupo": "aladdin"
+  "grupo": "aladdin",
+  "verificado_web_conferente": "wiki pt (busca): Aladdin (trilha sonora de 1992)"
  },
  {
   "id": "92fe36859d",
@@ -1277,9 +1410,10 @@
    "Sabidão",
    "Max"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Little Mermaid (1989 film)",
-  "grupo": "pequena-sereia"
+  "grupo": "pequena-sereia",
+  "verificado_web_conferente": "wiki pt (busca): A Pequena Sereia (trilha sonora)"
  },
  {
   "id": "2a1169427e",
@@ -1293,9 +1427,10 @@
    "De Nada",
    "Brilhe"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Moana (2016 film)",
-  "grupo": "moana"
+  "grupo": "moana",
+  "verificado_web_conferente": "wiki pt (busca): Any Gabrielly"
  },
  {
   "id": "66a22066a1",
@@ -1309,9 +1444,10 @@
    "Anna",
    "Olaf"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Frozen 2",
-  "grupo": "frozen-2"
+  "grupo": "frozen-2",
+  "verificado_web_conferente": "wiki pt (busca): Frozen 2 (trilha sonora)"
  },
  {
   "id": "caa5e804fc",
@@ -1325,9 +1461,10 @@
    "Espanhol",
    "Italiano"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Ratatouille (film)",
-  "grupo": "ratatouille"
+  "grupo": "ratatouille",
+  "verificado_web_conferente": "wiki pt (busca): Ratatouille (filme)"
  },
  {
   "id": "f3e975d2e0",
@@ -1341,9 +1478,11 @@
    "Shere Khan",
    "Rei Louie"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "verificado_web": "wiki pt/en: The Jungle Book (1967 film)",
-  "grupo": "mogli"
+  "grupo": "mogli",
+  "motivo": "conferente: fato repetido: Kaa hipnotiza Mogli já é a pergunta ba14ac3990",
+  "verificado_web_conferente": "wiki pt (busca): The Jungle Book 2"
  },
  {
   "id": "272e65dc61",
@@ -1357,9 +1496,10 @@
    "Mirabel",
    "Bruno"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Encanto (film)",
-  "grupo": "encanto"
+  "grupo": "encanto",
+  "verificado_web_conferente": "wiki pt (busca): Dos Oruguitas"
  },
  {
   "id": "fa1decf19e",
@@ -1373,9 +1513,10 @@
    "Tantor e os elefantes",
    "Os homens de Clayton"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Tarzan (1999 film) (\"Trashin' the Camp\")",
-  "grupo": "tarzan"
+  "grupo": "tarzan",
+  "verificado_web_conferente": "wiki pt: Tarzan (trilha sonora) (\"Estragando o Acampamento\") + wiki en"
  },
  {
   "id": "4337fa8553",
@@ -1389,10 +1530,11 @@
    "Luca",
    "Toy Story"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki: anos de lançamento nos verbetes dos filmes",
   "grupo": "viva",
-  "formato": "qual-primeiro"
+  "formato": "qual-primeiro",
+  "verificado_web_conferente": "wiki pt/en: anos de lançamento nos verbetes"
  },
  {
   "id": "19406ed0ba",
@@ -1406,10 +1548,11 @@
    "Noites da Arábia",
    "Príncipe Ali"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Aladdin (1992 Disney film) (as 3 erradas constam)",
   "grupo": "aladdin",
-  "formato": "nao-e"
+  "formato": "nao-e",
+  "verificado_web_conferente": "wiki pt (busca): A Whole New World"
  },
  {
   "id": "31a73c5417",
@@ -1423,9 +1566,10 @@
    "BTS",
    "Os Ursos"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Turning Red",
-  "grupo": "red"
+  "grupo": "red",
+  "verificado_web_conferente": "wiki pt (busca): Turning Red"
  },
  {
   "id": "621e9807f0",
@@ -1456,9 +1600,10 @@
    "Tartaruga",
    "Canário"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Pinocchio (1940 film)",
-  "grupo": "pinoquio"
+  "grupo": "pinoquio",
+  "verificado_web_conferente": "wiki pt/en: Pinóquio (verbete)"
  },
  {
   "id": "53a9ed351d",
@@ -1472,9 +1617,10 @@
    "Garça",
    "Pelicano"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Finding Nemo",
-  "grupo": "nemo"
+  "grupo": "nemo",
+  "verificado_web_conferente": "wiki pt/en: Procurando Nemo (verbete)"
  },
  {
   "id": "b4368f93bf",
@@ -1505,9 +1651,10 @@
    "Urso",
    "Lobo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Zootopia (\"Lionheart\", \"lion\")",
-  "grupo": "zootopia"
+  "grupo": "zootopia",
+  "verificado_web_conferente": "wiki pt (busca): Pete Docter"
  },
  {
   "id": "fe736859e7",
@@ -1521,9 +1668,10 @@
    "Azul",
    "Preto"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Big Hero 6 (film) (\"red\")",
-  "grupo": "big-hero"
+  "grupo": "big-hero",
+  "verificado_web_conferente": "wiki pt (busca): Big Hero 6: The Series"
  },
  {
   "id": "e8a6e754f3",
@@ -1537,9 +1685,10 @@
    "Leões e zebras",
    "Cangurus e coalas"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "WebSearch: onça Parce, capivara e tucanos no quarto de Antonio (Disney Wiki, Screen Rant)",
-  "grupo": "encanto"
+  "grupo": "encanto",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "ff31cd49ae",
@@ -1553,9 +1702,10 @@
    "Da praia",
    "De uma loja"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Lilo & Stitch (\"animal shelter\")",
-  "grupo": "lilo-stitch"
+  "grupo": "lilo-stitch",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "2faf16279c",
@@ -1569,9 +1719,10 @@
    "Shank",
    "Vanellope"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Wreck-It Ralph",
-  "grupo": "detona-ralph"
+  "grupo": "detona-ralph",
+  "verificado_web_conferente": "wiki pt/en: Detona Ralph (verbete)"
  },
  {
   "id": "b1ce27060d",
@@ -1585,9 +1736,10 @@
    "Vanellope",
    "Yesss"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Ralph Breaks the Internet",
-  "grupo": "wifi-ralph"
+  "grupo": "wifi-ralph",
+  "verificado_web_conferente": "wiki pt/en: WiFi Ralph: Quebrando a Internet (verbete)"
  },
  {
   "id": "49845e3ba9",
@@ -1601,9 +1753,10 @@
    "Dug",
    "Legend"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Strange World (film)",
-  "grupo": "mundo-estranho"
+  "grupo": "mundo-estranho",
+  "verificado_web_conferente": "wiki pt/en: Mundo Estranho (verbete)"
  },
  {
   "id": "6b979f1fb2",
@@ -1617,9 +1770,10 @@
    "Do futuro de Goob",
    "De outro planeta"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Meet the Robinsons (\"Wilbur\", \"future\")",
-  "grupo": "familia-futuro"
+  "grupo": "familia-futuro",
+  "verificado_web_conferente": "sem checagem web própria (fora da prioridade; conferida pelo enredo)"
  },
  {
   "id": "461c02c9d1",
@@ -1633,9 +1787,10 @@
    "Peter Pan",
    "A Ilha do Tesouro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Treasure Planet",
-  "grupo": "planeta-tesouro"
+  "grupo": "planeta-tesouro",
+  "verificado_web_conferente": "wiki pt/en: Planeta do Tesouro (verbete)"
  },
  {
   "id": "b211fe30c1",
@@ -1649,9 +1804,10 @@
    "Kida",
    "Nani"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Atlantis: The Lost Empire",
-  "grupo": "atlantis"
+  "grupo": "atlantis",
+  "verificado_web_conferente": "wiki pt (busca): Atlantis: The Lost Empire"
  },
  {
   "id": "f6be3b0649",
@@ -1665,9 +1821,10 @@
    "Pata",
    "Coruja"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Chicken Little (2005 film)",
-  "grupo": "chicken-little"
+  "grupo": "chicken-little",
+  "verificado_web_conferente": "wiki pt (busca): Chicken Little"
  },
  {
   "id": "0a95eb1236",
@@ -1681,9 +1838,10 @@
    "Abelha",
    "Libélula"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: The Rescuers",
-  "grupo": "bernardo-bianca"
+  "grupo": "bernardo-bianca",
+  "verificado_web_conferente": "wiki pt (busca): The Rescuers"
  },
  {
   "id": "43bab1b422",
@@ -1697,10 +1855,12 @@
    "Anchor",
    "Crush"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "verificado_web": "wiki pt/en: Finding Nemo",
   "grupo": "nemo",
-  "formato": "quem-disse"
+  "formato": "quem-disse",
+  "motivo": "conferente: fato repetido: Bruce e \"peixes são amigos\" já é a pergunta 7dfca516fb",
+  "verificado_web_conferente": "wiki pt/en: Procurando Nemo (verbete)"
  },
  {
   "id": "f7b026d473",
@@ -1732,9 +1892,10 @@
    "6",
    "2"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "verificado_web": "wiki pt/en: Toy Story (\"Slinky\")",
   "grupo": "toy-story",
-  "formato": "numero"
+  "formato": "numero",
+  "verificado_web_conferente": "wiki en: Toy Story (enredo)"
  }
 ]

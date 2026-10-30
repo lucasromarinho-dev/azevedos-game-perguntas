@@ -18742,5 +18742,126 @@
       "lote-109:9cd4fe7a4d",
       "lote-110:e4d0a9e820"
     ]
+  },
+  "disney": {
+    "data": "2026-10-30",
+    "agente": "disney-1000",
+    "status": "gerada (falta conferência independente; não publicar)",
+    "pedido": "Versão especial com 1.000 perguntas só de Disney e Pixar, dificuldade variada, para pessoas especiais do Lucas.",
+    "arquivos": {
+      "jogo": "expansao/disney/perguntas-disney.json",
+      "lotes": "expansao/disney/lotes/disney-001.json a disney-010.json",
+      "fontes": "expansao/disney/fontes/",
+      "amostra": "expansao/disney/amostra-lucas-disney.md",
+      "scripts": "expansao/disney/scripts/"
+    },
+    "total": 1000,
+    "por_dificuldade": {
+      "facil": 450,
+      "medio": 405,
+      "dificil": 145
+    },
+    "por_categoria": {
+      "Clássicos Disney": {
+        "facil": 83,
+        "medio": 60,
+        "dificil": 24
+      },
+      "Princesas": {
+        "facil": 76,
+        "medio": 68,
+        "dificil": 23
+      },
+      "Pixar": {
+        "facil": 84,
+        "medio": 65,
+        "dificil": 21
+      },
+      "Vilões": {
+        "facil": 61,
+        "medio": 78,
+        "dificil": 28
+      },
+      "Músicas": {
+        "facil": 72,
+        "medio": 73,
+        "dificil": 20
+      },
+      "Disney Moderno e Bichos": {
+        "facil": 74,
+        "medio": 61,
+        "dificil": 29
+      }
+    },
+    "formatos": {
+      "normal": 857,
+      "nao-e": 40,
+      "numero": 23,
+      "quem-disse": 28,
+      "qual-primeiro": 27,
+      "complete": 25
+    },
+    "filmes_diferentes": 86,
+    "filme_mais_frequente": {
+      "filme": "Frozen: Uma Aventura Congelante",
+      "perguntas": 37,
+      "percentual": "3,7%"
+    },
+    "top5_grupos": [
+      [
+        "frozen",
+        37
+      ],
+      [
+        "aladdin",
+        35
+      ],
+      [
+        "rei-leao",
+        34
+      ],
+      [
+        "pequena-sereia",
+        29
+      ],
+      [
+        "enrolados",
+        29
+      ]
+    ],
+    "lotes": {
+      "001": 103,
+      "002": 102,
+      "003": 102,
+      "004": 101,
+      "005": 103,
+      "006": 101,
+      "007": 97,
+      "008": 107,
+      "009": 98,
+      "010": 86
+    },
+    "descartadas_na_checagem": {
+      "total": 32,
+      "mesmo_fato_de_outra": 24,
+      "sem_confirmacao_web": 6,
+      "ambigua": 1,
+      "corte_para_fechar_1000": 1
+    },
+    "checagem_web": {
+      "consultas": 308,
+      "chamadas_api_wikipedia": 290,
+      "websearch": 18,
+      "verificadas": 1000,
+      "pelo_texto_dos_verbetes": 972,
+      "fonte_manual": 28
+    },
+    "entrega_mjs": "0 suspeitas em 1.000",
+    "montarBanco": {
+      "real": "0 válidas, 1.000 descartadas: \"categoria desconhecida\" para as 6 categorias Disney (o jogo só conhece as 6 normais; não foi alterado)",
+      "copia_com_categorias_disney": "1.000 válidas, 0 descartadas",
+      "enunciados_duplicados": 0,
+      "arquivo": "uma linha, UTF-8 sem BOM, sem quebra no fim"
+    }
   }
 }

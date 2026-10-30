@@ -6302,5 +6302,119 @@
     "enunciados_repetidos": 0,
     "tamanho_bytes": 2091071,
     "obs": "As 4.402 conferida viraram aprovada (aprovado_em 2026-10-24) e foram anexadas depois das 4.580 da main, na ordem dos lotes, so com os campos do jogo. Pasta expansao/ nao foi para a main."
+  },
+  "resumo_r5": {
+    "_leia": "Resumo da rodada 5 (lotes 046 a 055), gerada na branch expansao em 29/10/2026. Status das novas: gerada (falta a conferência). Plano em plano-r5.json (mesma composição das rodadas 3 e 4).",
+    "validas": 1003,
+    "escritas": 1135,
+    "descartadas_detector": 129,
+    "descarte_detector": 0.114,
+    "retiradas_pelo_gerador": 3,
+    "validas_por_lote": {
+      "046": 107,
+      "047": 93,
+      "048": 107,
+      "049": 93,
+      "050": 107,
+      "051": 93,
+      "052": 107,
+      "053": 93,
+      "054": 107,
+      "055": 96
+    },
+    "descartadas_por_lote": {
+      "046": 13,
+      "047": 11,
+      "048": 8,
+      "049": 11,
+      "050": 20,
+      "051": 13,
+      "052": 14,
+      "053": 14,
+      "054": 13,
+      "055": 15
+    },
+    "composicao": {
+      "facil": 365,
+      "medio": 355,
+      "dificil": 283,
+      "recentes": 1,
+      "posicao_certa_ABCD": [
+        255,
+        251,
+        251,
+        246
+      ]
+    },
+    "por_categoria": {
+      "Geografia": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 36
+      },
+      "História": {
+        "facil": 45,
+        "medio": 50,
+        "dificil": 45
+      },
+      "Ciências": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "Esportes": {
+        "facil": 65,
+        "medio": 65,
+        "dificil": 56
+      },
+      "Entretenimento": {
+        "facil": 95,
+        "medio": 95,
+        "dificil": 66
+      },
+      "Tecnologia": {
+        "facil": 60,
+        "medio": 55,
+        "dificil": 45
+      }
+    },
+    "variedade": {
+      "musica_no_entretenimento": "49 de 256 (19%), nenhuma do tipo qual banda gravou X",
+      "universos": "no máximo 3 por universo (Marvel, Peter Pan, Oz, Rei Arthur, Toy Story, Senhor dos Anéis, Final Fantasy, Ghibli, Turma da Mônica, Zelda e Tartarugas Ninja chegaram a 3)",
+      "esportes": "12 subtemas; outros esportes 50, Brasileirão 47, Olimpíadas 21, Futebol europeu 15, esportes americanos 15"
+    },
+    "web": {
+      "buscas": 10,
+      "fatos_confirmados": 9,
+      "nao_confirmados_e_descartados": [
+        "saque Viagem ao Fundo do Mar (autoria sem fonte)",
+        "Grotas de São Francisco (nome entregava a resposta)"
+      ],
+      "confirmados": [
+        "Carlos Moreno e o Guinness da Bombril",
+        "Tubiacanga (Fera Ferida)",
+        "Daiane dos Santos, duplo twist carpado em 2003",
+        "polícia de búfalos em Soure",
+        "Igatu, Machu Picchu baiana",
+        "Romi-Isetta 1956",
+        "desempate do Brasileirão por vitórias",
+        "Elaine Melo, No Limite 2000",
+        "Vanessa Jackson, Fama 2002"
+      ]
+    },
+    "retiradas": [
+      "Tempo técnico (048): é a parada automática, não a pedida pelo técnico",
+      "Ultraseven (050): Ultra Q veio antes do Ultraman, texto refeito",
+      "Vuvuzela (055): o banco já liga as vuvuzelas à Copa de 2010",
+      "Canarinho Pistola (055): enunciado reescrito no lote para não entregar a resposta"
+    ],
+    "metodo": "Respostas primeiro, sem exceção. Lotes 046-052: sondas largas com fatos.mjs --curto e listas candidatas/r5-0NN.txt com candidatas.mjs --registrar. Lotes 053-055: a sonda passou a ser feita direto com candidatas.mjs (pega plural e grafia que o fatos.mjs não pega). Excedentes de cada lote passados ao seguinte com mover-excedentes.mjs.",
+    "renderam": "português de Portugal e falsos cognatos do espanhol, regionalismos (guri, mainha, pandorga, cafuné), comidas do mundo de segunda linha, plantas e frutas brasileiras, termos de cinema e TV, idiomas, empresas e veículos fictícios, cidades fictícias de novela, vilões e coadjuvantes de animação, folclore e festas populares, música lusófona e instrumentos do mundo, tokusatsu e animes, profissões e objetos antigos, latim do dia a dia, filosofia, mitologia nórdica e egípcia, academia e ginástica, golfe, beisebol e futebol americano, apelidos e estádios de clubes europeus e sul-americanos, gíria de games e itens de jogos, mascotes de marcas e de software, robôs da ficção.",
+    "saturados": "Fáceis de História, Esportes e Tecnologia são o maior gargalo: a maioria dos termos do cotidiano já existia com outra grafia. Saturaram na r5: games de luta e retrô (Street Fighter, Mortal Kombat, Atari, Mega Drive), banda larga e apps brasileiros, Império e República de segunda linha (Questão Christie, Lei Feijó, Comício da Central), clima e ventos do Brasil, nutrição e vacinas, mascotes e bolas de Copa, series de sitcom (Barney, Dwight), Nintendo de segunda linha (Kirby, Star Fox, Animal Crossing).",
+    "aprendizados": [
+      "fatos.mjs --curto só procura o termo exato: cerca de 1 em 7 termos com zero citações já existia no plural ou com outra grafia (Monges copistas, Cookies, Hansoku-make). candidatas.mjs pega isso e virou o filtro principal no fim da rodada.",
+      "Perguntas do tipo em qual cidade fica o estádio X caem no detector como duplicadas de capitais; melhor perguntar o clube.",
+      "Faltaram fáceis de História e de Esportes em quase todos os lotes; profissões antigas, objetos de casa, latim, academia e esportes de mesa resolveram."
+    ]
   }
 }

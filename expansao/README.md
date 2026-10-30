@@ -81,6 +81,15 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 - Régua de difícil mais rígida (aviso da conferência r3): conceito conhecido pelo nome não é difícil. Pipe (036) e Cavaquinho (038) rebaixadas e repostas; no 043, nove gentílicos derivados do nome da cidade foram retirados antes da entrega.
 - Aviso de DC com 4 no `variedade.mjs` é falso positivo (Beco do Batman, bairro de São Paulo).
 
+## Rodada 5 (lotes 046 a 055, branch `expansao`)
+
+- 1.003 válidas (status `gerada`, falta conferir) de 1.135 escritas; descarte do detector de 11,4% (129), mais 3 retiradas pelo próprio gerador. Composição igual à das rodadas 3 e 4 (`plano-r5.json`): 365 fáceis, 355 médias, 283 difíceis; resumo completo em `metricas.json` (`resumo_r5`).
+- `faltam.mjs` passou a ler `plano-r5.json` para os lotes 046+; `variedade.mjs` só ganhou a nota de uso `46 55`. Detector sem mudanças. As excedentes de cada lote foram passadas ao seguinte com `mover-excedentes.mjs` (por isso os lotes alternam 107 e 93; o 055 ficou com 96).
+- Filtro: `fatos.mjs --curto` só acha o termo exato, e cerca de 1 em 7 termos com zero citações já existia no plural ou com outra grafia (Monges copistas, Cookies). Nos lotes 053 a 055 a sonda foi feita direto com `candidatas.mjs`, que pega essas variações.
+- Renderam: português de Portugal e falsos cognatos do espanhol, regionalismos, comidas do mundo, plantas e frutas brasileiras, termos de cinema, empresas e veículos fictícios, vilões de animação, folclore e festas, música lusófona, tokusatsu e animes, profissões e objetos antigos, latim do dia a dia, filosofia, mitologia nórdica e egípcia, academia, golfe e esportes americanos, gíria e itens de games, mascotes de marcas e de software.
+- Saturaram: games de luta e retrô, banda larga e apps brasileiros, Império e República de segunda linha, ventos e clima, vacinas e nutrição, mascotes e bolas de Copa, sitcoms, Nintendo de segunda linha. Fáceis de História, Esportes e Tecnologia seguem sendo o gargalo.
+- 10 buscas na web, 9 fatos confirmados; os 2 sem confirmação ou que entregavam a resposta ficaram de fora. No 055, o enunciado do Canarinho Pistola foi reescrito direto no lote (a fonte guarda o original para o `montar-lote.mjs` não duplicar).
+
 ## Fluxo de um lote
 
 1. Escrever `fontes/lote-NNN.txt` (formato no topo de `montar-lote.mjs`), seguindo o guia de estilo e priorizando subtemas com pouca cobertura.

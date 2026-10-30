@@ -6661,7 +6661,7 @@
         ],
         "correcoes": [
           "73958b6507: Punks - errada Mods era a resposta de cbbb6 (mesmo lote); trocada por Emos",
-          "cbbb63ebb0: Mods - errada Punks era a resposta de 73958 (mesmo lote), que tinha Mods entre as erradas (respostas cruzadas); trocada",
+          "cbbb63ebb0: Mods - errada Punks era a resposta de 73958 (mesmo lote), que tinha Mods entre as erradas (respostas cruzadas); trocada; errada Rockers era a resposta de b5813 (lote 065); trocada",
           "f00743c467: Beatniks - errada Punks era a resposta de 73958 (mesmo lote); trocada",
           "28dab6c759: Yuppies - errada Punks era a resposta de 73958 (mesmo lote); trocada",
           "eeb0a7f723: Década - erradas Lustro e Biênio eram respostas de 1f9e4 e 28b5c (lote 062); trocadas",
@@ -6688,9 +6688,9 @@
         "lote": "064",
         "conferente": "conferente-v6",
         "conferidas": 106,
-        "conferidas_sem_mudanca": 93,
-        "com_mudanca": 13,
-        "corrigidas": 11,
+        "conferidas_sem_mudanca": 90,
+        "com_mudanca": 16,
+        "corrigidas": 14,
         "rebaixadas": 2,
         "subidas": 0,
         "descartadas": 1,
@@ -6714,7 +6714,7 @@
           },
           "História": {
             "conferidas": 15,
-            "corrigidas": 3,
+            "corrigidas": 4,
             "rebaixadas": 0,
             "descartadas": 0
           },
@@ -6726,7 +6726,7 @@
           },
           "Esportes": {
             "conferidas": 20,
-            "corrigidas": 0,
+            "corrigidas": 2,
             "rebaixadas": 0,
             "descartadas": 0
           },
@@ -6757,7 +6757,10 @@
           "979bfd17ee: Estátua - errada Dança das cadeiras era a resposta de 6a68b (mesmo lote), que tinha Estátua entre as erradas (respostas cruzadas); trocada",
           "1aca2ff989: Start-stop - errada Cruise control é o piloto automático, resposta de ab40a (mesmo lote); trocada",
           "ab40abd654: Piloto automático - errada Start-stop era a resposta de 1aca2 (mesmo lote); trocada",
-          "2f3810d52f: Sair à francesa - errada 'Sair à inglesa' é a forma usada em francês para a mesma ideia (filer à l'anglaise); trocada"
+          "2f3810d52f: Sair à francesa - errada 'Sair à inglesa' é a forma usada em francês para a mesma ideia (filer à l'anglaise); trocada",
+          "3d89d13e85: Sepp Herberger - errada Helmut Schön era a resposta de 55181 (lote 065); trocada por Otto Nerz",
+          "dc16a3322a: Troféu Joan Gamper - errada Ramón de Carranza era a resposta de 43a44 (lote 065); trocada",
+          "4c3bd73855: Bode expiatório - errada Testa de ferro era a resposta de bf497 (lote 065); trocada"
         ],
         "rebaixamentos": [
           "ef325688dd: Cecília Meireles dificil -> medio",
@@ -6765,7 +6768,7 @@
         ],
         "subidas_lista": [],
         "tipos_erro": {
-          "espelho/duplicada": 7,
+          "espelho/duplicada": 10,
           "errada defensavel": 3,
           "dificuldade": 2,
           "fato impreciso": 1,
@@ -6777,6 +6780,117 @@
           "dificuldade": "ef325688dd: undefined",
           "fato impreciso": "2b82fe264d: Karakorum virou capital com Ögedei (1235), não com Gengis Khan, cujo nome também era a resposta de banco:791; reescrito",
           "entrega a resposta": "a22043bfb7: enunciado citava Carlos Magno, resposta de banco:1104; reescrito"
+        }
+      },
+      {
+        "lote": "065",
+        "conferente": "conferente-v6",
+        "conferidas": 78,
+        "conferidas_sem_mudanca": 67,
+        "com_mudanca": 11,
+        "corrigidas": 10,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 15,
+        "motivos_descarte": {
+          "molde repetido": 11,
+          "fato que pode mudar": 1,
+          "espelho": 3
+        },
+        "perguntas_com_busca_web": 0,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 25,
+          "mantidas": 15,
+          "reescritas": 0,
+          "descartadas": 10
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 15,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 10
+          }
+        },
+        "descartes": [
+          "426978e6da: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.nz)",
+          "473477cba8: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.fr)",
+          "5ad953c921: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.cn)",
+          "96a8625ed8: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.it)",
+          "b6b2d7f4df: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.ru)",
+          "256ce78529: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.nl)",
+          "fd8825e3b2: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.pe)",
+          "9938ef3ce5: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.cl)",
+          "e3b1d77985: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.dk)",
+          "80b00226a0: fato que pode mudar: o acordo de 2025 que transfere o arquipélago de Chagos para Maurício pode extinguir o Território Britânico do Oceano Índico e o .io; e molde repetido de domínios",
+          "373a283998: molde repetido: 20 perguntas 'O DDD NN é de qual capital?' na rodada; cortado o excesso (DDD 82)",
+          "77d616f7c1: molde repetido: 20 perguntas 'O DDD NN é de qual capital?' na rodada; cortado o excesso (DDD 95)",
+          "f2ac700cb8: espelho: a resposta (Paulistão) está no enunciado de banco:6240 e o molde repete banco:2673 (Gauchão)",
+          "d5d7f93cc2: espelho: a resposta (campeonato estadual) está no enunciado de banco:7835 ('O campeonato estadual chamado de Baianão...')",
+          "08acbf0084: espelho: banco:1216 (condenado a rolar a pedra eternamente => Sísifo) e esta (tarefa inútil e sem fim => Trabalho de Sísifo) se resolvem uma pela outra; a errada Tonel das Danaides também era defensável"
+        ],
+        "correcoes": [
+          "55181e529a: Helmut Schön - errada Sepp Herberger era a resposta de 3d89d (lote 064), que tinha Helmut Schön entre as erradas (respostas cruzadas); trocada",
+          "8f1cd3ee35: Canadá - enunciado citava James Naismith, resposta de banco:2799 (quem inventou o basquete); tirado o nome",
+          "43a44345fb: Troféu Ramón de Carranza - errada Troféu Colombino era a resposta de 6587b (mesmo lote), que tinha Ramón de Carranza entre as erradas (respostas cruzadas); trocada",
+          "6587b157b9: Troféu Colombino - errada Ramón de Carranza era a resposta de 43a44 (mesmo lote); trocada",
+          "24cbe59205: Daniel - errada Jonas era a resposta de 518aa (lote 062), que tinha Daniel entre as erradas (respostas cruzadas); trocada",
+          "2c4b9f50fe: Boca do estômago - errada Céu da boca era a resposta de ad35d (mesmo lote); trocada",
+          "eb65d86a33: Béquer - errada Erlenmeyer era a resposta de 5d736 (lote 062), que tinha Béquer entre as erradas (respostas cruzadas); trocada",
+          "5f3d209f40: Pipeta - errada Bureta era a resposta de 7c0ed (mesmo lote); trocada",
+          "b1dbbbb0db: Margarida - errada Camomila também tem flor branca de miolo amarelo (errada defensável pela descrição); trocada",
+          "b5813ee855: Rockers - errada Punks era a resposta de 73958 (lote 063); trocada"
+        ],
+        "rebaixamentos": [
+          "de5b94fc7c: Milão dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "molde repetido": 11,
+          "espelho/duplicada": 11,
+          "fato impreciso": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 1,
+          "dificuldade": 1
+        },
+        "exemplos_erro": {
+          "molde repetido": "426978e6da: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.nz)",
+          "espelho/duplicada": "55181e529a: errada Sepp Herberger era a resposta de 3d89d (lote 064), que tinha Helmut Schön entre as erradas (respostas cruzadas); trocada",
+          "fato impreciso": "80b00226a0: fato que pode mudar: o acordo de 2025 que transfere o arquipélago de Chagos para Maurício pode extinguir o Território Britânico do Oceano Índico e o .io; e molde repetido de domínios",
+          "entrega a resposta": "8f1cd3ee35: enunciado citava James Naismith, resposta de banco:2799 (quem inventou o basquete); tirado o nome",
+          "errada defensavel": "b1dbbbb0db: errada Camomila também tem flor branca de miolo amarelo (errada defensável pela descrição); trocada",
+          "dificuldade": "de5b94fc7c: undefined"
         }
       }
     ],

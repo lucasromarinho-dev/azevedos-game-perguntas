@@ -1989,6 +1989,49 @@
         "perguntas": 49,
         "total": 85
       }
+    },
+    {
+      "lote": "054",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 120,
+      "validas": 107,
+      "descartadas": 13,
+      "taxa_descarte": 0.11,
+      "caracteres": 16413,
+      "tokens_aprox": 4689,
+      "rodadas_de_reposicao": 4,
+      "candidatas_usadas": [
+        "r5-054.txt",
+        "r5-054b.txt",
+        "r5-054c.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r5-054.txt",
+          "r5-054b.txt",
+          "r5-054c.txt"
+        ],
+        "linhas": 162,
+        "existem": 54,
+        "risco": 15,
+        "tokens_aprox": 2852,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.33,
+        "candidatas_por_valida": 1.51
+      },
+      "perguntas": {
+        "escritas": 120,
+        "validas": 107,
+        "descartadas_detector": 13,
+        "descarte": 0.11,
+        "tokens_aprox": 4689
+      },
+      "tokens_por_valida": {
+        "listas": 27,
+        "perguntas": 44,
+        "total": 70
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -6031,6 +6074,30 @@
       "livres": 5,
       "caracteres": 875,
       "tokens_aprox": 250
+    },
+    "r5-054.txt": {
+      "linhas": 101,
+      "existem": 35,
+      "risco": 10,
+      "livres": 56,
+      "caracteres": 6261,
+      "tokens_aprox": 1789
+    },
+    "r5-054b.txt": {
+      "linhas": 43,
+      "existem": 16,
+      "risco": 3,
+      "livres": 24,
+      "caracteres": 2575,
+      "tokens_aprox": 736
+    },
+    "r5-054c.txt": {
+      "linhas": 18,
+      "existem": 3,
+      "risco": 2,
+      "livres": 13,
+      "caracteres": 1145,
+      "tokens_aprox": 327
     }
   },
   "rodada3": {

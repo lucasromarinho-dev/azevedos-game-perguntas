@@ -9293,8 +9293,8 @@
         "subidas": 0,
         "descartadas": 0,
         "motivos_descarte": {},
-        "perguntas_com_busca_web": 10,
-        "buscas_web": 8,
+        "perguntas_com_busca_web": 16,
+        "buscas_web": 14,
         "suspeitas": {
           "total": 13,
           "mantidas": 13,
@@ -9370,7 +9370,9 @@
           "alternativa repetida": "20fa7cddc2: erradas Léo Jaime e Leo Jaime eram a mesma pessoa (alternativa repetida); trocada",
           "entrega a resposta": "4517960163: enunciado citava o jornal The Times, que entregava Times New Roman; reescrito sem o nome e rebaixada",
           "errada defensavel": "8b621931b7: errada Rua Haddock Lobo também fica nos Jardins e tem lojas de grife (defensável); trocada"
-        }
+        },
+        "correcoes_pos": [],
+        "verificadas_passe_final": 6
       },
       {
         "lote": "077",
@@ -9385,8 +9387,8 @@
         "motivos_descarte": {
           "duplicada (banco)": 1
         },
-        "perguntas_com_busca_web": 6,
-        "buscas_web": 6,
+        "perguntas_com_busca_web": 12,
+        "buscas_web": 10,
         "suspeitas": {
           "total": 16,
           "mantidas": 16,
@@ -9458,7 +9460,9 @@
           "duplicada (banco)": "6a765ba0c2: fato impreciso: a parada de 30 segundos pedida pelo técnico é o pedido de tempo (o tempo técnico era a parada automática, conferido na web); corrigida, viraria duplicada de banco:9277 (pedido de tempo no vôlei e no basquete)",
           "errada defensavel": "f19c1a6b0d: errada Canopy também é usada para o circuito de arvorismo e tirolesa nas copas (defensável); trocada",
           "alternativa repetida": "ab6b6090c0: erradas Escalada e Escalada em rocha eram quase a mesma alternativa; trocada"
-        }
+        },
+        "correcoes_pos": [],
+        "verificadas_passe_final": 6
       },
       {
         "lote": "078",
@@ -9474,8 +9478,8 @@
           "molde repetido": 4,
           "entrega a resposta": 1
         },
-        "perguntas_com_busca_web": 12,
-        "buscas_web": 11,
+        "perguntas_com_busca_web": 17,
+        "buscas_web": 16,
         "suspeitas": {
           "total": 11,
           "mantidas": 11,
@@ -9546,7 +9550,7 @@
         ],
         "subidas_lista": [],
         "tipos_erro": {
-          "fato impreciso": 2,
+          "fato impreciso": 3,
           "dificuldade": 5,
           "molde repetido": 4,
           "errada defensavel": 1,
@@ -9558,7 +9562,11 @@
           "molde repetido": "015196c637: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8, ficando as melhores (Paula Fernandes saiu)",
           "errada defensavel": "b96c839849: errada Arlindo Rodrigues fazia parte da equipe de Pamplona no Salgueiro dos anos 1960 (defensável); trocada",
           "entrega a resposta": "2874b8305a: enunciado entrega a resposta: o estádio Villa Park leva o nome do Aston Villa"
-        }
+        },
+        "correcoes_pos": [
+          "e32b72674a: Billie Jean King Cup - a troca de nome foi anunciada em setembro de 2020 e o nome novo só valeu a partir de 2021; 'passou a ter, em 2020' trocado por 'foi rebatizado em 2020' (checagem web)"
+        ],
+        "verificadas_passe_final": 5
       },
       {
         "lote": "079",
@@ -9573,8 +9581,8 @@
         "motivos_descarte": {
           "entrega a resposta": 1
         },
-        "perguntas_com_busca_web": 11,
-        "buscas_web": 11,
+        "perguntas_com_busca_web": 20,
+        "buscas_web": 19,
         "suspeitas": {
           "total": 13,
           "mantidas": 13,
@@ -9646,7 +9654,7 @@
           "errada defensavel": 2,
           "alternativa fora do tipo": 1,
           "fato que pode mudar": 1,
-          "fato impreciso": 1
+          "fato impreciso": 2
         },
         "exemplos_erro": {
           "dificuldade": "2ed4331e50: fita de Möbius é conceito conhecido pelo nome; rebaixada",
@@ -9656,7 +9664,11 @@
           "alternativa fora do tipo": "5559ce3b8c: errada Rebaixo técnico era termo inventado; trocada",
           "fato que pode mudar": "27f1870894: 'está no ar desde 1999' pode envelhecer; trocado por 'estreou em 1999'",
           "fato impreciso": "d1d7ec7c82: Waly Salomão chegou depois do movimento (pós-tropicalismo) e Capinam, baiano e letrista do disco-manifesto, também cabia no enunciado; reescrita com Capinam (parceria com Gil confirmada na web)"
-        }
+        },
+        "correcoes_pos": [
+          "346def1bf3: Fofocalizando - o Fofocalizando estreou em 2016 (10 anos em 2026), não em 2018; ano tirado do enunciado (checagem web)"
+        ],
+        "verificadas_passe_final": 9
       },
       {
         "lote": "080",
@@ -9672,8 +9684,8 @@
           "molde repetido": 4,
           "entrega a resposta": 1
         },
-        "perguntas_com_busca_web": 12,
-        "buscas_web": 11,
+        "perguntas_com_busca_web": 17,
+        "buscas_web": 16,
         "suspeitas": {
           "total": 19,
           "mantidas": 17,
@@ -9759,7 +9771,9 @@
           "alternativa fora do tipo": "0fc8f10dc2: errada Kelly Lilica era nome inventado que imitava a certa; trocada",
           "espelho/duplicada": "90b84ff63a: errada Paradoxo de Monty Hall era a resposta de ba4534 (mesmo lote); trocada",
           "fato impreciso": "11c73ee55f: a patente de Seth Wheeler é de 1871 (refinada em 1891), não exatamente do 'fim do século XIX'; ano posto no enunciado (checagem web)"
-        }
+        },
+        "correcoes_pos": [],
+        "verificadas_passe_final": 5
       },
       {
         "lote": "081",
@@ -9774,8 +9788,8 @@
         "motivos_descarte": {
           "molde repetido": 7
         },
-        "perguntas_com_busca_web": 5,
-        "buscas_web": 4,
+        "perguntas_com_busca_web": 8,
+        "buscas_web": 6,
         "suspeitas": {
           "total": 8,
           "mantidas": 7,
@@ -9857,6 +9871,347 @@
           "entrega a resposta": "cf87b23ecf: a sigla LNF e o futsal no enunciado praticamente entregam Liga Nacional de Futsal; descida para fácil",
           "errada defensavel": "3ccd2ef407: errada Beibei é um dos próprios Fuwa (defensável/confusa); trocada pela mascote de Vancouver 2010",
           "molde repetido": "a7de837f92: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada (10 só neste lote); cortado para 8 (Geraldo Azevedo saiu)"
+        },
+        "correcoes_pos": [],
+        "verificadas_passe_final": 3
+      },
+      {
+        "lote": "082",
+        "conferente": "conferente-v8",
+        "conferidas": 97,
+        "conferidas_sem_mudanca": 81,
+        "com_mudanca": 16,
+        "corrigidas": 15,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 9,
+        "buscas_web": 8,
+        "suspeitas": {
+          "total": 16,
+          "mantidas": 15,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 16,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 18,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 22,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "12532053ee: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Pedro Sampaio saiu)"
+        ],
+        "correcoes": [
+          "19d302dc02: Quitinete - errada Loft triplex era termo inventado e estranho; trocada",
+          "50e78ba2a0: Feira de São Joaquim - errada Feira de Água de Meninos foi a antecessora da própria Feira de São Joaquim, no mesmo lugar (defensável); trocada",
+          "86c31baf79: Ponte Newton Navarro - errada Ponte Forte-Redinha é o outro nome da própria Ponte Newton Navarro (defensável); trocada",
+          "f6eeb56951: Mohenjo-daro - errada Harappa Velha remetia a Harappa, outra cidade planejada e com esgoto do Vale do Indo (defensável); trocada",
+          "93d6be6eb7: Quartil - quartil é conceito conhecido pelo nome; rebaixada",
+          "8d0a460705: FIVB - errada Fivolley era sigla inventada; trocada pela confederação europeia",
+          "c3cec3939c: Ailton Krenak - Krenak foi eleito em 2023 e tomou posse em 2024; 'entrou' trocado por 'foi eleito' (checagem web)",
+          "d42c7d8e7b: Luz noturna - errada Modo leitura também filtra a luz azul em vários celulares (defensável); trocada",
+          "a398998c4b: Força bruta - erradas Spoofing e Spoofing de DNS eram quase a mesma alternativa; trocada",
+          "3852ea06e4: Sun Valley - errada Cobalt era o codinome da plataforma da versão 21H2 do próprio Windows 11 (defensável, checagem web); trocada",
+          "92485cfee3: Copland - erradas Pink e Taligent também foram projetos de sistema da Apple abandonados (defensáveis); trocadas",
+          "4f7ec9af5e: Ágata - errada Pewter era palavra em inglês; trocada",
+          "9c4102f8d1: Bolha dos Mares do Sul - errada Bolha do Mississipi Inglês era nome inventado; trocada pela bolha francesa do mesmo ano",
+          "6fc8373545: Bruno Caboclo - a frase de Fran Fraschilla foi 'two years away from being two years away'; enunciado corrigido (checagem web)",
+          "9ca8296f8c: Didi Louzada - 'revelado no Franca' não confirmado (Didi é capixaba e a fonte só confirma que jogava no Franca); trocado por 'que jogava no Franca' (checagem web)",
+          "416d10944a: Baianinho - errada Bahianinho Jr. era variação da própria resposta; trocada"
+        ],
+        "rebaixamentos": [
+          "93d6be6eb7: Quartil dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "alternativa fora do tipo": 4,
+          "errada defensavel": 6,
+          "dificuldade": 1,
+          "fato impreciso": 3,
+          "alternativa repetida": 2,
+          "molde repetido": 1
+        },
+        "exemplos_erro": {
+          "alternativa fora do tipo": "19d302dc02: errada Loft triplex era termo inventado e estranho; trocada",
+          "errada defensavel": "50e78ba2a0: errada Feira de Água de Meninos foi a antecessora da própria Feira de São Joaquim, no mesmo lugar (defensável); trocada",
+          "dificuldade": "93d6be6eb7: quartil é conceito conhecido pelo nome; rebaixada",
+          "fato impreciso": "c3cec3939c: Krenak foi eleito em 2023 e tomou posse em 2024; 'entrou' trocado por 'foi eleito' (checagem web)",
+          "alternativa repetida": "a398998c4b: erradas Spoofing e Spoofing de DNS eram quase a mesma alternativa; trocada",
+          "molde repetido": "12532053ee: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Pedro Sampaio saiu)"
+        }
+      },
+      {
+        "lote": "083",
+        "conferente": "conferente-v8",
+        "conferidas": 72,
+        "conferidas_sem_mudanca": 68,
+        "com_mudanca": 4,
+        "corrigidas": 3,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 8,
+        "buscas_web": 8,
+        "suspeitas": {
+          "total": 3,
+          "mantidas": 3,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 8,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 9,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 9,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "ce06a6911d: Wilton Pereira Sampaio - na Copa de 2018 Wilton Pereira Sampaio só atuou como árbitro de vídeo (VAR), não apitou em campo; enunciado refeito com o jogo de 2022 (checagem web)",
+          "491b93185b: Dulcídio Wanderley Boschilia - 'com Wanderley no meio' entregava a resposta (única alternativa com Wanderley); tirado",
+          "76cb99aa69: Encapsulamento - errada Abstração de dados também é esconder detalhes internos de uma classe (defensável); trocada",
+          "9e12135d5a: Branquear - branquear é técnica conhecida pelo nome na cozinha; rebaixada"
+        ],
+        "rebaixamentos": [
+          "9e12135d5a: Branquear dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 1,
+          "dificuldade": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "ce06a6911d: na Copa de 2018 Wilton Pereira Sampaio só atuou como árbitro de vídeo (VAR), não apitou em campo; enunciado refeito com o jogo de 2022 (checagem web)",
+          "entrega a resposta": "491b93185b: 'com Wanderley no meio' entregava a resposta (única alternativa com Wanderley); tirado",
+          "errada defensavel": "76cb99aa69: errada Abstração de dados também é esconder detalhes internos de uma classe (defensável); trocada",
+          "dificuldade": "9e12135d5a: branquear é técnica conhecida pelo nome na cozinha; rebaixada"
+        }
+      },
+      {
+        "lote": "084",
+        "conferente": "conferente-v8",
+        "conferidas": 60,
+        "conferidas_sem_mudanca": 57,
+        "com_mudanca": 3,
+        "corrigidas": 3,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "sem fonte": 1
+        },
+        "perguntas_com_busca_web": 8,
+        "buscas_web": 9,
+        "suspeitas": {
+          "total": 4,
+          "mantidas": 4,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 9,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 22,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 8,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "4755176fb8: sem fonte: nenhuma busca confirmou 'quíper' como aportuguesamento antigo de 'keeper' (nem 'golquíper' em dicionário); na dúvida, não fica"
+        ],
+        "correcoes": [
+          "c75b45a2e0: Nova Serrana - o título de Nova Serrana é 'Capital Nacional do Calçado Esportivo'; enunciado ajustado (checagem web)",
+          "7d15242ebf: Recreio - não há fonte para o papagaio como mascote da Recreio; enunciado refeito com o lançamento em 1969 e o brinde (checagem web)",
+          "20b76664f0: Bizz - a Bizz circulou de 1985 a 2001, mas voltou de 2005 a 2007; 'circulou entre 1985 e 2001' trocado por 'lançada em 1985' (checagem web)"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 3,
+          "sem fonte": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "c75b45a2e0: o título de Nova Serrana é 'Capital Nacional do Calçado Esportivo'; enunciado ajustado (checagem web)",
+          "sem fonte": "4755176fb8: sem fonte: nenhuma busca confirmou 'quíper' como aportuguesamento antigo de 'keeper' (nem 'golquíper' em dicionário); na dúvida, não fica"
+        },
+        "correcoes_pos": [],
+        "verificadas_passe_final": 2
+      },
+      {
+        "lote": "085",
+        "conferente": "conferente-v8",
+        "conferidas": 44,
+        "conferidas_sem_mudanca": 40,
+        "com_mudanca": 4,
+        "corrigidas": 4,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 5,
+        "buscas_web": 5,
+        "suspeitas": {
+          "total": 10,
+          "mantidas": 10,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 5,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 3,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 5,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 1,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "a840636625: Lucas Bebê - Lucas Bebê foi escolhido no draft de 2013 (16ª escolha), não no de 2014, e 'revelado em São Paulo' não tem fonte; enunciado corrigido (checagem web); errada inventada Cristiano Felício Jr. trocada",
+          "d6e9d910a0: Salto São Francisco - errada Salto do Itiquira de Baixo era nome inventado (e o Itiquira fica em Goiás); trocada; 196 m e 'maior do Sul' conferidos na web",
+          "96b539d589: Confederação dos Cariris - errada Levante dos Tapuias do Sul lembrava 'tapuias', nome dado aos próprios cariris (defensável), e Guerra dos Emboabas Indígenas era nome inventado; trocadas por movimentos indígenas reais de outras regiões",
+          "597a54db80: Campos de Carvalho - errada Rubem Braga Filho era nome inventado; trocada por outro escritor mineiro"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "alternativa fora do tipo": 2,
+          "errada defensavel": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "a840636625: Lucas Bebê foi escolhido no draft de 2013 (16ª escolha), não no de 2014, e 'revelado em São Paulo' não tem fonte; enunciado corrigido (checagem web); errada inventada Cristiano Felício Jr. trocada",
+          "alternativa fora do tipo": "d6e9d910a0: errada Salto do Itiquira de Baixo era nome inventado (e o Itiquira fica em Goiás); trocada; 196 m e 'maior do Sul' conferidos na web",
+          "errada defensavel": "96b539d589: errada Levante dos Tapuias do Sul lembrava 'tapuias', nome dado aos próprios cariris (defensável), e Guerra dos Emboabas Indígenas era nome inventado; trocadas por movimentos indígenas reais de outras regiões"
         }
       }
     ],
@@ -10812,6 +11167,411 @@
             "23b859b515"
           ],
           "obs": "Bokeh (do japonês boke, desfoque; círculos de luz), Cumeeira (aresta mais alta, encontro das águas), Sapata (fundação rasa de concreto armado sob pilar; Radier é laje e Baldrame é viga), Coletânea (greatest hits), EP (mais faixas que single, menos que álbum), Pipe (| liga a saída de um comando à entrada de outro), Luvas (Lei 9.615/98: valor pago pela assinatura do contrato), Chave estrangeira, Câmara escura (orifício, imagem invertida), DOM, Praça de São Marcos (basílica do padroeiro São Marcos), Dessecador (sílica gel), VMA (Vídeo do Ano), Jira (Atlassian, rastreamento de bugs), Scrum (sprints; Kanban é fluxo contínuo), R (estatística e gráficos), Protoboard (montagem sem solda), Relé (interruptor acionado por eletroímã), Novela das nove (Quem Ama Cuida às 21h15, após o Jornal Nacional), Estreia, Pipoca, Pentacampeão (2 a 0 na Alemanha em 2002); nenhuma errada defensável"
+        }
+      }
+    },
+    "resumo_r8": {
+      "conferente": "conferente-v8",
+      "data": "2026-10-30",
+      "lotes": "076-085",
+      "total": 857,
+      "conferidas": 836,
+      "sem_mudanca": 763,
+      "com_mudanca": 73,
+      "corrigidas": 57,
+      "rebaixadas": 17,
+      "subidas": 1,
+      "descartadas": 21,
+      "motivos_descarte": {
+        "duplicada (banco)": 1,
+        "molde repetido": 16,
+        "entrega a resposta": 3,
+        "sem fonte": 1
+      },
+      "tipos_erro": {
+        "alternativa fora do tipo": 9,
+        "dificuldade": 15,
+        "alternativa repetida": 7,
+        "entrega a resposta": 8,
+        "errada defensavel": 21,
+        "duplicada (banco)": 1,
+        "fato impreciso": 15,
+        "molde repetido": 16,
+        "fato que pode mudar": 1,
+        "espelho/duplicada": 1,
+        "grafia": 1,
+        "sem fonte": 1
+      },
+      "suspeitas": {
+        "total": 113,
+        "mantidas": 109,
+        "reescritas": 1,
+        "descartadas": 3
+      },
+      "perguntas_com_busca_web": 120,
+      "buscas_web": 112,
+      "por_lote": {
+        "076": "92/8/0",
+        "077": "85/6/1",
+        "078": "92/8/5",
+        "079": "82/9/1",
+        "080": "94/9/5",
+        "081": "72/6/7",
+        "082": "81/16/1",
+        "083": "68/4/0",
+        "084": "57/3/1",
+        "085": "40/4/0"
+      },
+      "obs_por_lote": "ok (sem mudança) / com mudança / descartadas",
+      "distribuicao_final": {
+        "facil": 253,
+        "medio": 349,
+        "dificil": 234
+      },
+      "por_categoria": {
+        "Geografia": 121,
+        "História": 119,
+        "Ciências": 107,
+        "Esportes": 147,
+        "Entretenimento": 223,
+        "Tecnologia": 119
+      },
+      "buscas_web_detalhe": {
+        "durante_lotes": 80,
+        "passe_final": 32,
+        "obs": "buscas agrupadas por tema quando possível; verificado_web só quando a fonte confirmou; os 17 fatos que o gerador já tinha conferido na web só ganharam verificado_web quando reconferidos nesta sessão (Mayrink Veiga, Ruth Lemos, Clube do Bolinha; os demais seguem na lista de risco)"
+      },
+      "risco_sem_verificado_web": {
+        "criterio": "conferida, sem verificado_web, com dígito, primeiro/maior/único/menor/mais/recorde/melhor no enunciado ou dificuldade dificil",
+        "total": 306,
+        "obs": "conferidas de conhecimento consolidado (romances e datas de clássicos, técnicos, conceitos de matemática e programação), sem busca nesta sessão; ficam para a checagem web complementar",
+        "ids_por_lote": {
+          "076": [
+            "14c979e8b3",
+            "2f0ca743d5",
+            "a1c8172552",
+            "51e5a2188e",
+            "ab7e26ca93",
+            "09c63c22a5",
+            "c41e89259f",
+            "f7edb69f68",
+            "aa138b0187",
+            "176c772e77",
+            "8f7e1b6e91",
+            "a62a6175b5",
+            "3411b3ec18",
+            "1a433a3f64",
+            "20fa7cddc2",
+            "88c36e2495",
+            "4641d8401d",
+            "dfaf3bd2f2",
+            "4517960163",
+            "9b9420e6c6",
+            "6931da46dc",
+            "3f5f2af09b",
+            "57eb86f4df",
+            "f9347ac827",
+            "fbce5ac92e"
+          ],
+          "077": [
+            "8714a634c7",
+            "0d08c6b5d3",
+            "8e3838628b",
+            "cd68d64fb2",
+            "5f8e0cc356",
+            "72c7950478",
+            "514fb46dd3",
+            "f45ff50092",
+            "59c834cae1",
+            "676dcc75e3",
+            "9aae5db23c",
+            "c73d0565cf",
+            "546c549f6b",
+            "ba5eeef313",
+            "4fafceb267",
+            "258a28dc08",
+            "a3a49be2de",
+            "f98fb43ba5",
+            "6c3ab356df",
+            "a6c740ff09",
+            "66a37346eb",
+            "438b97efcc",
+            "7ea061f83b",
+            "d91e4b8b38",
+            "e4adc0d5e5",
+            "67c75eab02",
+            "dbccfdc9fc",
+            "31c493de73",
+            "97620ef5d4",
+            "ec5e7b0099",
+            "565265058f",
+            "42d3acc02d",
+            "b58fcf7ad5"
+          ],
+          "078": [
+            "427464a5a1",
+            "a0b5c0c80e",
+            "3b6e17118a",
+            "792b532697",
+            "180f29b837",
+            "c97bae6c6f",
+            "a0487d3f5e",
+            "616cebe072",
+            "38852cfe7e",
+            "2fc31b0529",
+            "1a3ece3e79",
+            "f23475e3c4",
+            "30d06f6958",
+            "bd6a6462c0",
+            "d1d3aafe88",
+            "e3808605d4",
+            "ee7b802f75",
+            "207c92f03d",
+            "16dfd0dd21",
+            "335f2523de",
+            "00fbca7460",
+            "8d31eff0fb",
+            "cb047c9134",
+            "b96c839849",
+            "9b96b689b3",
+            "b2e3b4b17b",
+            "74a6a8e2c1",
+            "cb17815097",
+            "7737844850",
+            "17353ca59a",
+            "0ac8e689f0",
+            "7f7d5a2716",
+            "ec18ed95e7",
+            "4d59a7b9ba",
+            "e483b93cb4",
+            "dd1b9d973a",
+            "9ef09fb82f"
+          ],
+          "079": [
+            "0e5dcdd153",
+            "329036cf86",
+            "e81bf93826",
+            "97f5d15a00",
+            "e8c59f0a51",
+            "e9560e0361",
+            "e5e52718b3",
+            "c806698be6",
+            "a2b605394b",
+            "658e2159ca",
+            "e9e078a9bb",
+            "c61a85e0ec",
+            "5c886e4e91",
+            "77f3358963",
+            "6e9e1963a9",
+            "e3db502e58",
+            "92141b49ef",
+            "c7e203d9de",
+            "6f3dc012b2",
+            "6e3179a12a",
+            "c20e108402",
+            "64292b5c41",
+            "14fe80c7b0",
+            "2eefd3d5ce",
+            "27f1870894",
+            "59eb7eb589",
+            "591001b224",
+            "e3b282fb48",
+            "fe383a0f4b",
+            "bc577787cb",
+            "f1b97c9dcc"
+          ],
+          "080": [
+            "c7682533fd",
+            "789083d6a5",
+            "9fe59d9b09",
+            "9ac1de31af",
+            "32e628637c",
+            "916f08a948",
+            "61b91601d2",
+            "7617130401",
+            "1803beadba",
+            "990fbd1d13",
+            "c0ff9dd030",
+            "1c9f241157",
+            "20219faa6e",
+            "0631d5fabd",
+            "d7532f6a6f",
+            "9e0c6e82fd",
+            "9aea65e399",
+            "242772c5b2",
+            "5354510874",
+            "45711c82c2",
+            "cdf3a6b135",
+            "9d8f9b1162",
+            "1c33ac734b",
+            "d0d320ff70",
+            "3e03b3b1af",
+            "688eb240c6",
+            "ae80401984",
+            "b3cbf361b0",
+            "6b016b33ef",
+            "ba4534aab0",
+            "90b84ff63a"
+          ],
+          "081": [
+            "b4998322e1",
+            "bc2889931c",
+            "346a401df2",
+            "522232519d",
+            "e69214ad91",
+            "5c1c9972cb",
+            "f9f0a2f06b",
+            "ca7bcf665b",
+            "cf2c75aad6",
+            "d3e252d033",
+            "49352ba0a6",
+            "5fd5bc16aa",
+            "31f14ea004",
+            "3ccd2ef407",
+            "4edbe798d8",
+            "69080ad781",
+            "5926c957f9",
+            "4d4103bab9",
+            "8581d0ed97",
+            "859067a31e",
+            "de39693c0d",
+            "028c6bb6bf",
+            "277a90c22c",
+            "6cf819165d",
+            "047e4f0008",
+            "ba6d85ef1e",
+            "283615c447",
+            "b316ed4d63",
+            "fab1856b94",
+            "1d4b57d9d0",
+            "62badee682"
+          ],
+          "082": [
+            "37b5ed09d0",
+            "86c31baf79",
+            "a0d8caac2e",
+            "a05c986592",
+            "ff84db0ec8",
+            "e02c65766b",
+            "194d5d7ecf",
+            "29c24cc320",
+            "f6eeb56951",
+            "3ef6ddb741",
+            "45252f7654",
+            "0a2c3a7cb7",
+            "f8f6ba49a6",
+            "bcd8c63152",
+            "c914faf7cc",
+            "53da0da528",
+            "5de0d4e5d0",
+            "cd817ead34",
+            "7abb55029d",
+            "97009907be",
+            "6e0d152e4e",
+            "4e9aba6927",
+            "a3c3d4b838",
+            "1b268f2601",
+            "034751a278",
+            "0f033c3557",
+            "11099c51a3",
+            "d42c7d8e7b",
+            "665e5e8183",
+            "7df56017c7",
+            "c7d7052967",
+            "92485cfee3",
+            "bb24086f96",
+            "9c4102f8d1",
+            "0d33885507",
+            "175d4d075d"
+          ],
+          "083": [
+            "7dc92ace3a",
+            "acc6063fe4",
+            "6e9f584f80",
+            "5b043746d7",
+            "b0cddbdb4a",
+            "6612603bec",
+            "3f49f0ce31",
+            "32bdeba1e4",
+            "23658ea782",
+            "cb07453fc7",
+            "491b93185b",
+            "e6547dc4f7",
+            "8942d82730",
+            "918f8c3b06",
+            "d530915796",
+            "76cb99aa69",
+            "9bd2543c0d",
+            "f4450877ea",
+            "2334290da8",
+            "aa9a6ce672",
+            "dc00136122",
+            "6d07db8575",
+            "2dfaaa72e0",
+            "21b7142cc2",
+            "417d9e9d55",
+            "daff604cfd",
+            "bb0a57dc56"
+          ],
+          "084": [
+            "e93bd86ff5",
+            "fed0352879",
+            "5c37835a2b",
+            "706a89e3a1",
+            "4481986428",
+            "e9e4ac167f",
+            "54335ab154",
+            "aa803e6210",
+            "f6f7b9dcb1",
+            "868302f9fe",
+            "42a8cce447",
+            "9588a5f0aa",
+            "50c96dc7e4",
+            "b4ecb524c9",
+            "7a7e4cc4b1",
+            "b088ba8143",
+            "e2e6697cd1",
+            "f2434d2c16",
+            "c224c47898",
+            "1e3b8dddee",
+            "f06a650b2a",
+            "d9af0af4ae",
+            "4da5154bbe"
+          ],
+          "085": [
+            "ee15fbccb6",
+            "3d5be02a8e",
+            "fddd7bf557",
+            "a4da824d4a",
+            "0f6f363260",
+            "cdab753e22",
+            "48302c6e72",
+            "e6f199ea8c",
+            "98dba43b70",
+            "055ea789dc",
+            "117ff7fa47",
+            "8e3bf1f493",
+            "3314f37771",
+            "a290a974f1",
+            "601c10f946",
+            "18e33a7396",
+            "f47b363709",
+            "f30508399b",
+            "1bed29f27e",
+            "43f6815cb5",
+            "b5c0fd6166",
+            "a6f29f3733",
+            "1b638ae1bf",
+            "fd9bef2261",
+            "1a910db6c0",
+            "d7a742b7d9",
+            "96b539d589",
+            "277b8731d6",
+            "e287937f0e",
+            "092b74bf5d",
+            "8d6d1a9733",
+            "e7c228e79b"
+          ]
         }
       }
     }

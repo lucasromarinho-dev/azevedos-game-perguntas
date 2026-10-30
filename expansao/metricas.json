@@ -2251,6 +2251,53 @@
       }
     },
     {
+      "lote": "060",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 118,
+      "validas": 107,
+      "descartadas": 11,
+      "taxa_descarte": 0.09,
+      "caracteres": 14899,
+      "tokens_aprox": 4257,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "r6-060.txt",
+        "r6-060b.txt",
+        "r6-060c.txt",
+        "r6-060d.txt",
+        "r6-060e.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r6-060.txt",
+          "r6-060b.txt",
+          "r6-060c.txt",
+          "r6-060d.txt",
+          "r6-060e.txt"
+        ],
+        "linhas": 241,
+        "existem": 120,
+        "risco": 25,
+        "tokens_aprox": 3668,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.5,
+        "candidatas_por_valida": 2.25
+      },
+      "perguntas": {
+        "escritas": 118,
+        "validas": 107,
+        "descartadas_detector": 11,
+        "descarte": 0.09,
+        "tokens_aprox": 4257
+      },
+      "tokens_por_valida": {
+        "listas": 34,
+        "perguntas": 40,
+        "total": 74
+      }
+    },
+    {
       "lote": "066",
       "metodo": "respostas_primeiro_v3",
       "escritas": 127,
@@ -7479,6 +7526,46 @@
       "livres": 5,
       "caracteres": 916,
       "tokens_aprox": 262
+    },
+    "r6-060.txt": {
+      "linhas": 130,
+      "existem": 64,
+      "risco": 14,
+      "livres": 52,
+      "caracteres": 6914,
+      "tokens_aprox": 1975
+    },
+    "r6-060b.txt": {
+      "linhas": 54,
+      "existem": 29,
+      "risco": 7,
+      "livres": 18,
+      "caracteres": 2947,
+      "tokens_aprox": 842
+    },
+    "r6-060c.txt": {
+      "linhas": 15,
+      "existem": 8,
+      "risco": 2,
+      "livres": 5,
+      "caracteres": 833,
+      "tokens_aprox": 238
+    },
+    "r6-060d.txt": {
+      "linhas": 32,
+      "existem": 17,
+      "risco": 2,
+      "livres": 13,
+      "caracteres": 1583,
+      "tokens_aprox": 452
+    },
+    "r6-060e.txt": {
+      "linhas": 10,
+      "existem": 2,
+      "risco": 0,
+      "livres": 8,
+      "caracteres": 563,
+      "tokens_aprox": 161
     },
     "r7-066.txt": {
       "linhas": 167,

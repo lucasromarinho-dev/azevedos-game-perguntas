@@ -64,6 +64,7 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 | `node expansao/scripts/contexto.mjs "Esportes" "Libertadores" "1963"` | Perguntas vizinhas que já existem |
 | `node expansao/scripts/candidatas.mjs arq.txt [--json] [--so-banco]` | Filtro de respostas candidatas, sem IA |
 | `node expansao/scripts/grep-banco.mjs termo1 termo2` | Conta quantas perguntas citam cada termo (checagem rápida de assunto) |
+| `node expansao/scripts/checa-resposta.mjs --lote lote-NNN.json` | Resposta já existente no banco ou citada em outro enunciado (também lê linhas de candidatas pelo stdin) |
 
 ## Rodada 3 (lotes 026 a 035): o que mudou
 
@@ -116,6 +117,18 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 - 11 buscas na web: confirmados Padre Azevedo (1861), Sissi e Sun Wen (1999), Tramontina (1911), Magazine Luiza (1957), Petrúcio Ferreira e o handebol francês; corrigidos no lote o enunciado do Santos (marchinha "Leão do Mar", hino popular) e o do Stereobelt (sem "em São Paulo"); retirados o gentílico "burquinense" (057) e a origem de "Jingle Bells" no Dia de Ação de Graças (065), sem fonte.
 - Edições feitas direto no lote (a fonte guarda o original, com nota): BYD sem "chinesa" (059), teia com resposta "Seda" (060), alternativas de Washington e Lincoln sem respostas cruzadas (057 e 060), erradas dos poetas e do ditado de Roma (064).
 - Para o conferente: muitos moldes repetidos de propósito (domínios, DDD, "obrigado em qual língua", signos), sempre com resposta e fato diferentes; vale olhar se alguma partida fica repetitiva.
+
+### Conferência da rodada 6 (conferente-v6, 30/10/2026)
+
+- 1.000 perguntas dos lotes 056 a 065: **975 conferidas** (875 sem mudança, 100 com alguma mudança) e **25 descartadas** (15 por excesso de molde repetido, 8 espelhos do banco ou da rodada, 1 cadeia, 1 fato que pode mudar). Detalhes por lote em `metricas.json` (`conferencia.lotes`, conferente-v6), resumo em `conferencia.resumo_r6` e amostra de 30 em `amostra-lucas-r6.md`.
+- Por lote (ok / com mudança / descartadas): 056 102/4/1, 057 87/6/0, 058 102/3/2, 059 84/9/0, 060 89/18/0, 061 79/13/1, 062 92/13/2, 063 83/7/3, 064 90/16/1, 065 67/11/15.
+- Moldes repetidos: as perguntas de domínio de internet eram 30 (15 só no 065) e ficaram 18; o DDD passou de 20 para 18; no molde "palavra X em qual língua" saíram Sayonara (quarta resposta Japonês) e Hola (repetia Adiós). Signos, siglas de estado, gentílicos e raças ficaram (respostas e fatos diferentes, espalhados pela rodada). O `.io` saiu também por risco de mudar (acordo de Chagos).
+- Dificuldade: 13 rebaixadas de difícil para médio (Maine Coon, Border collie, Cecília Meireles, Gonçalves Dias, panetone de Milão, entre outras). Distribuição final das 975: 354 fáceis, 360 médias, 261 difíceis.
+- Tipos de erro mais achados: respostas cruzadas e espelhos (52: Wallabies x Springboks, Ribalta x Coxia x Rotunda x Bambolina, óperas de Rossini, Puccini e Verdi, Hiragana x Hangul, moedas antes do euro cruzadas com o banco); errada defensável (21: Almofariz é o próprio pilão, Concertino é sinônimo de spalla, Jai-alai é pelota basca); enunciado que entregava a resposta (19: "originária do Maine", "sigla de Build Your Dreams", "representado por um escorpião"); fato impreciso (10: guarda-chuva dobrável chinês, Disque-Denúncia 181 não é nacional, Karakorum só virou capital com Ögedei); dificuldade (7 sem outra mudança).
+- Suspeitas do detector: 166, das quais 144 mantidas (molde parecido com fato diferente), 8 reescritas e 14 descartadas.
+- `scripts/checa-resposta.mjs` (novo): além da sonda por stdin usada pelo gerador, `--lote lote-NNN.json [--status gerada]` lista, para cada pergunta, outras do banco e dos lotes com a mesma resposta ou que citam essa resposta no enunciado (R) e respostas de outras citadas no enunciado dela (E). Foi o que achou a maior parte dos espelhos desta conferência (Woodstock, Positivo, Paulistão, Sísifo, cartões perfurados).
+- Checagem na web: 126 buscas (24 durante os lotes e 102 num passe final, muitas agrupadas por tema: lista de DDD, técnicos campeões, sedes do Pan, nomes de elementos), com 213 perguntas marcadas `verificado_web`. Ficaram **210 conferidas de risco sem `verificado_web`** (dígito, superlativo ou difícil), conferidas de conhecimento consolidado; a lista de ids por lote está em `metricas.json` (`conferencia.resumo_r6.risco_sem_verificado_web`) para uma checagem complementar.
+- Correções feitas depois do lote fechado (para desfazer respostas cruzadas com lotes seguintes) ficam na própria ficha (`correcao`) e na linha do lote em `conferencia.lotes`.
 
 ## Fluxo de um lote
 

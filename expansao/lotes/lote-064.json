@@ -12,12 +12,13 @@
       "Beverly Hills"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e22746ad8b",
@@ -32,12 +33,13 @@
       "Japantown"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "eff7ff7151",
@@ -52,12 +54,13 @@
       "Novembro"
     ],
     "subtema": "Biomas, clima e natureza",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "cadeia: mesmo molde de banco ('Em qual mês começa o inverno no Brasil?' => Junho); pergunta em cadeia sobre o mesmo fato (início das estações)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1f8a731ed2",
@@ -112,12 +115,13 @@
       "Shibuya"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "f4116bc124",
@@ -132,12 +136,13 @@
       "Notting Hill"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4bdebb8da8",
@@ -172,12 +177,14 @@
       "Rio de Janeiro"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "232ddde136",
@@ -192,12 +199,14 @@
       "Teresina"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "2755ca49fc",
@@ -208,16 +217,18 @@
     "alternativas": [
       "Katakana",
       "Hiragana",
-      "Hangul",
+      "Romaji",
       "Kanji"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Hangul era a resposta de c9396 (lote 061), que tinha Hiragana entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "321f87c4cf",
@@ -232,12 +243,13 @@
       "Testaccio"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9f275f5b64",
@@ -252,12 +264,13 @@
       "Kreuzberg"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1d219798b1",
@@ -272,12 +285,14 @@
       "Belém"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:183",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)",
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "e60c2bade1",
@@ -292,12 +307,13 @@
       "Maori"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d178a9602a",
@@ -312,12 +328,13 @@
       "Quem tem boca vai a Roma"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0a43a1e5ee",
@@ -332,12 +349,13 @@
       "Palácio Piratini"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ae8d0ae384",
@@ -372,12 +390,13 @@
       "Agora Inês é morta"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "60aa04e96a",
@@ -392,12 +411,13 @@
       "Vitória de Cadmo"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4110e64456",
@@ -412,12 +432,13 @@
       "Buriti"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "9ca634456a",
@@ -472,12 +493,13 @@
       "221B Baker Street"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5538",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d3202908ea",
@@ -492,12 +514,13 @@
       "Caixa de Pandora"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1192220539",
@@ -512,18 +535,20 @@
       "Chácara do Lago"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "2b82fe264d",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Qual era a capital do Império Mongol de Gengis Khan?",
+    "pergunta": "Qual foi a capital do Império Mongol de 1235 até a mudança da corte para a China?",
     "resposta": "Karakorum",
     "alternativas": [
       "Ulan Bator",
@@ -532,18 +557,21 @@
       "Bukhara"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1007",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.1)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.1)",
+    "correcao": "Karakorum virou capital com Ögedei (1235), não com Gengis Khan, cujo nome também era a resposta de banco:791; reescrito",
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "a22043bfb7",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Qual cidade foi a capital preferida de Carlos Magno?",
+    "pergunta": "Qual cidade alemã foi a capital preferida do imperador franco coroado pelo papa no ano 800?",
     "resposta": "Aachen",
     "alternativas": [
       "Ravena",
@@ -552,12 +580,15 @@
       "Aachen"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "enunciado citava Carlos Magno, resposta de banco:1104; reescrito",
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "5acd90e933",
@@ -572,12 +603,14 @@
       "Mênfis"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "a46089f5cd",
@@ -612,12 +645,13 @@
       "Lírio-da-paz"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b1717682b3",
@@ -632,12 +666,13 @@
       "Arruda"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "5cd3924ff7",
@@ -652,12 +687,13 @@
       "Antúrio"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "6903e1d0da",
@@ -672,12 +708,13 @@
       "Cascavel"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1748",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.4)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "58a6bbaa0e",
@@ -692,12 +729,13 @@
       "Trepadeiras"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2041",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0190c3265f",
@@ -712,12 +750,13 @@
       "Quatro meses"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ebbd088fd5",
@@ -732,12 +771,13 @@
       "21"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b38e2da073",
@@ -752,12 +792,13 @@
       "Soda cáustica"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "f81e12afed",
@@ -772,12 +813,13 @@
       "Cal virgem"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "8f10a2c604",
@@ -792,12 +834,13 @@
       "Seis meses"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:0190c3265f",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "3e17b8c678",
@@ -812,12 +855,13 @@
       "Sal-gema"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1855",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "acd7ab8e5c",
@@ -832,12 +876,13 @@
       "Água-forte"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "aae28ebbb9",
@@ -852,12 +897,13 @@
       "Toninha"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1adcfe3fbe",
@@ -872,12 +918,13 @@
       "Sócio-torcedor"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5384",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "79663817a6",
@@ -892,12 +939,13 @@
       "Cambista"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "25aaf3fb67",
@@ -912,12 +960,13 @@
       "Pelada"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "fe04b5d31a",
@@ -932,12 +981,13 @@
       "Três dentro, três fora"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e6fe01446b",
@@ -952,12 +1002,13 @@
       "O capitão"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "463a08f66f",
@@ -972,12 +1023,13 @@
       "Torcidas jovens"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "5df39221fd",
@@ -992,12 +1044,13 @@
       "Torcidas jovens"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "20c0a2bbd2",
@@ -1012,12 +1065,13 @@
       "Community Shield"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "cb76903ced",
@@ -1032,12 +1086,14 @@
       "Pep Guardiola"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "69e036ec88",
@@ -1052,12 +1108,14 @@
       "Hansi Flick"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "961f42f2af",
@@ -1072,12 +1130,14 @@
       "Laurent Blanc"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "3777601883",
@@ -1092,12 +1152,14 @@
       "Fabio Capello"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "dc16a3322a",
@@ -1106,18 +1168,21 @@
     "pergunta": "Qual torneio de pré-temporada o Barcelona disputa no Camp Nou todo ano?",
     "resposta": "Troféu Joan Gamper",
     "alternativas": [
-      "Troféu Ramón de Carranza",
+      "Troféu Villa de Madrid",
       "Troféu Teresa Herrera",
       "Troféu Joan Gamper",
       "Troféu Santiago Bernabéu"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "correcao": "errada Ramón de Carranza era a resposta de 43a44 (lote 065); trocada",
+    "verificado_web": true
   },
   {
     "id": "7dd3b73694",
@@ -1132,12 +1197,14 @@
       "Raymond Domenech"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:961f42f2af",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "4f0bcfa768",
@@ -1152,12 +1219,14 @@
       "Carlos Bilardo"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "09f48bc98d",
@@ -1192,12 +1261,13 @@
       "Dança das cadeiras"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ac7ccd5077",
@@ -1212,12 +1282,13 @@
       "Stop"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "15ec1ec9a3",
@@ -1252,12 +1323,13 @@
       "Caça-palavras"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "3213272dad",
@@ -1272,12 +1344,13 @@
       "Sudoku"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1b9a8dfca5",
@@ -1312,12 +1385,13 @@
       "Ovo choco"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4d64fff9a9",
@@ -1332,12 +1406,13 @@
       "Pião"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5965",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "fc09c1398c",
@@ -1346,18 +1421,20 @@
     "pergunta": "Qual vovó da culinária ficou famosa na TV com receitas simples e bordões?",
     "resposta": "Palmirinha",
     "alternativas": [
-      "Ofélia",
+      "Dona Florinda",
       "Palmirinha",
       "Tia Nastácia",
       "Dona Benta"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Ofélia (Ofélia Anunciato, apresentadora de culinária na TV) defensável; trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "a62149a5ee",
@@ -1372,12 +1449,13 @@
       "Heston Blumenthal"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "c0bdd6d123",
@@ -1392,12 +1470,13 @@
       "Ana Maria Braga"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "88923ae2bd",
@@ -1412,12 +1491,13 @@
       "Heston Blumenthal"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4190cc0b73",
@@ -1492,12 +1572,13 @@
       "Carlos Drummond de Andrade"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3377",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "0d04726df3",
@@ -1508,16 +1589,18 @@
     "alternativas": [
       "Eugénio de Andrade",
       "Fernando Pessoa",
-      "Florbela Espanca",
+      "Cesário Verde",
       "Luís de Camões"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5963",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.7)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.7)",
+    "correcao": "errada Florbela Espanca era a resposta de 7ef6e (mesmo lote); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "5349b42474",
@@ -1532,17 +1615,18 @@
       "Alice Ruiz"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ef325688dd",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual poetisa escreveu \"Eu canto porque o instante existe\"?",
     "resposta": "Cecília Meireles",
     "alternativas": [
@@ -1552,12 +1636,14 @@
       "Lya Luft"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7574",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 8.1)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 8.1)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v6)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b57bc81e8f",
@@ -1572,17 +1658,19 @@
       "Cruz e Sousa"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "c56d5478ac",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual poeta romântico escreveu \"I-Juca Pirama\", sobre um guerreiro tupi?",
     "resposta": "Gonçalves Dias",
     "alternativas": [
@@ -1592,12 +1680,14 @@
       "Casimiro de Abreu"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5441",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v6)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "3d4498e19c",
@@ -1612,12 +1702,14 @@
       "Ina Garten"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3320",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "55ce9b6c10",
@@ -1632,12 +1724,13 @@
       "Andrew Zimmern"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "82de6dd3c2",
@@ -1652,12 +1745,13 @@
       "Insulfilm"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ed64b65b1e",
@@ -1672,12 +1766,13 @@
       "Câmera de ré"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "50cd4e4def",
@@ -1692,12 +1787,13 @@
       "Pisca-alerta"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4120",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ed88a0e845",
@@ -1712,12 +1808,13 @@
       "Tração 4x4"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d89500458b",
@@ -1732,12 +1829,13 @@
       "Rádio-relógio"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1aca2ff989",
@@ -1748,16 +1846,18 @@
     "alternativas": [
       "Eco-drive",
       "Start-stop",
-      "Cruise control",
+      "Kickdown",
       "Neutral"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Cruise control é o piloto automático, resposta de ab40a (mesmo lote); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "472661cdd9",
@@ -1792,12 +1892,13 @@
       "Guarda-chuva"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "41107fd5e7",
@@ -1812,12 +1913,13 @@
       "Silenciador"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "70feb49802",
@@ -1832,12 +1934,13 @@
       "ESP"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e2ad4689dd",
@@ -1852,12 +1955,14 @@
       "Celeste"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "ab35a6903e",
@@ -1872,12 +1977,14 @@
       "Undertale"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "f79d4f9870",
@@ -1892,12 +1999,14 @@
       "Dandara"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "099fdc0fd2",
@@ -1907,17 +2016,19 @@
     "resposta": "Little Italy",
     "alternativas": [
       "Harlem",
-      "Chinatown",
+      "Tribeca",
       "Brooklyn",
       "Little Italy"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Chinatown era a resposta de e2274 (mesmo lote), que tinha Little Italy entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7705d2c7fa",
@@ -1946,18 +2057,20 @@
     "pergunta": "Qual expressão quer dizer ir embora sem se despedir de ninguém?",
     "resposta": "Sair à francesa",
     "alternativas": [
-      "Sair à inglesa",
+      "Sair à italiana",
       "Sair à francesa",
       "Sair de fininho à espanhola",
       "Sair pela tangente"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada 'Sair à inglesa' é a forma usada em francês para a mesma ideia (filer à l'anglaise); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7d727c7ec1",
@@ -1972,12 +2085,13 @@
       "O tempo é o senhor da razão"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "4c3bd73855",
@@ -1987,17 +2101,19 @@
     "resposta": "Bode expiatório",
     "alternativas": [
       "Bode expiatório",
-      "Testa de ferro",
+      "Ovelha negra",
       "Laranja",
       "Cordeiro de Deus"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "correcao": "errada Testa de ferro era a resposta de bf497 (lote 065); trocada"
   },
   {
     "id": "0b30033178",
@@ -2012,12 +2128,13 @@
       "Ovo de Cabral"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1288",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.4)"
+    "dup_regra": "resposta nova citada no texto antigo (5.4)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "45dd540d70",
@@ -2032,12 +2149,13 @@
       "Pedra-sabão"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "a6b10c1737",
@@ -2052,12 +2170,13 @@
       "Professor"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4071",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "d943d54ddc",
@@ -2072,12 +2191,14 @@
       "Don Revie"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "5d64a8f838",
@@ -2092,12 +2213,14 @@
       "Fulvio Bernardini"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3777601883",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "3d89d13e85",
@@ -2106,18 +2229,21 @@
     "pergunta": "Qual técnico comandou a Alemanha Ocidental no título mundial de 1954?",
     "resposta": "Sepp Herberger",
     "alternativas": [
-      "Helmut Schön",
+      "Otto Nerz",
       "Udo Lattek",
       "Sepp Herberger",
       "Jupp Derwall"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "correcao": "errada Helmut Schön era a resposta de 55181 (lote 065); trocada por Otto Nerz",
+    "verificado_web": true
   },
   {
     "id": "979bfd17ee",
@@ -2128,16 +2254,18 @@
     "alternativas": [
       "Morto-vivo",
       "Batata quente",
-      "Dança das cadeiras",
+      "Amarelinha",
       "Estátua"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Dança das cadeiras era a resposta de 6a68b (mesmo lote), que tinha Estátua entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "c0547e916b",
@@ -2152,12 +2280,13 @@
       "Cabra-cega"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "733f769528",
@@ -2172,12 +2301,14 @@
       "Orides Fontela"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "3b5f9e5820",
@@ -2187,17 +2318,19 @@
     "resposta": "Paulo Leminski",
     "alternativas": [
       "Paulo Leminski",
-      "Alice Ruiz",
+      "Dalton Trevisan",
       "Arnaldo Antunes",
       "Torquato Neto"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Alice Ruiz também é poeta curitibana famosa pelos haicais (errada defensável); trocada por Dalton Trevisan",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1259e90c7e",
@@ -2212,12 +2345,13 @@
       "Augusto Meyer"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9095",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7f0cdbb401",
@@ -2232,12 +2366,13 @@
       "Sousândrade"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "7ef6ea1465",
@@ -2252,12 +2387,13 @@
       "Sophia de Mello Breyner"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "2c2e444b88",
@@ -2272,12 +2408,13 @@
       "Álvares de Azevedo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8299",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "1631b4948d",
@@ -2292,12 +2429,13 @@
       "Henriqueta Lisboa"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ab40abd654",
@@ -2307,17 +2445,19 @@
     "resposta": "Piloto automático",
     "alternativas": [
       "Freio motor",
-      "Start-stop",
+      "Freio ABS",
       "Piloto automático",
       "Controle de tração"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7798",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.9)"
+    "dup_regra": "resposta nova citada no texto antigo (5.9)",
+    "correcao": "errada Start-stop era a resposta de 1aca2 (mesmo lote); trocada",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "b55b27021c",
@@ -2332,12 +2472,13 @@
       "Aerobarco"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9822",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e81b520c73",
@@ -2372,12 +2513,13 @@
       "Austrália"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:de8b9dc455",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "ea333f5e78",
@@ -2412,12 +2554,13 @@
       "Paris"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "725ae7ea4e",
@@ -2432,12 +2575,13 @@
       "Ouro"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5935",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.8)"
+    "dup_regra": "resposta nova citada no texto antigo (5.8)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "e68e23c5e5",
@@ -2452,12 +2596,13 @@
       "Croácia"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:de8b9dc455",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)",
+    "conferido_por": "conferente-v6"
   },
   {
     "id": "44092838c4",
@@ -2472,11 +2617,12 @@
       "Senegal"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:de8b9dc455",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v6"
   }
 ]

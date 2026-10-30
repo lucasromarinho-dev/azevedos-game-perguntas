@@ -6418,7 +6418,7 @@
         "motivos_descarte": {
           "molde repetido": 1
         },
-        "perguntas_com_busca_web": 6,
+        "perguntas_com_busca_web": 41,
         "buscas_web": 6,
         "suspeitas": {
           "total": 17,
@@ -6488,6 +6488,852 @@
           "entrega a resposta": "9e62ead325: enunciado citava o estado do Maine, que entregava a resposta; reescrito com a pista do guaxinim (raccoon)",
           "dificuldade": "e7bd8dc3c0: undefined",
           "molde repetido": "0d537514a8: molde repetido: 28 perguntas de domínio de internet na rodada; cortado o excesso (.me)"
+        },
+        "buscas_web_passe_final": 54
+      },
+      {
+        "lote": "057",
+        "conferente": "conferente-v6",
+        "conferidas": 93,
+        "conferidas_sem_mudanca": 87,
+        "com_mudanca": 6,
+        "corrigidas": 6,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 26,
+        "buscas_web": 2,
+        "suspeitas": {
+          "total": 12,
+          "mantidas": 11,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "2a0e07f401: Springboks - errada Wallabies era a resposta de 36fe0a (lote 056) e vice-versa (respostas cruzadas); trocada por Brave Blossoms",
+          "3835e7a886: Bulldog francês - Boston terrier também tem orelhas eretas descritas como de morcego (errada defensável); trocada por Shih-tzu",
+          "b287332546: Collant - Maiô de lycra e Body são praticamente sinônimos de collant (erradas defensáveis); trocadas por Bermuda de lycra e Legging",
+          "f1d8a2f202: China - sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'",
+          "5ce67bd1f1: George Washington - errada Benjamin Franklin era a resposta de 69f9f71078 (lote 060, nota de 100 dólares); trocada por James Madison",
+          "fa2642658e: Irlanda - o goleiro William McCrum, autor da ideia, era de Milford, hoje Irlanda do Norte; enunciado passou a citar a federação (Irish FA, de toda a ilha em 1891)"
+        ],
+        "rebaixamentos": [
+          "3835e7a886: Bulldog francês dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 2,
+          "errada defensavel": 2,
+          "fato impreciso": 2
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "2a0e07f401: errada Wallabies era a resposta de 36fe0a (lote 056) e vice-versa (respostas cruzadas); trocada por Brave Blossoms",
+          "errada defensavel": "3835e7a886: Boston terrier também tem orelhas eretas descritas como de morcego (errada defensável); trocada por Shih-tzu",
+          "fato impreciso": "f1d8a2f202: sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'"
+        },
+        "buscas_web_passe_final": 24
+      },
+      {
+        "lote": "058",
+        "conferente": "conferente-v6",
+        "conferidas": 105,
+        "conferidas_sem_mudanca": 102,
+        "com_mudanca": 3,
+        "corrigidas": 3,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 2
+        },
+        "perguntas_com_busca_web": 32,
+        "buscas_web": 5,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 13,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "b52d80ff65: espelho: cadeia de algarismos romanos com banco:966 (L = 50) e banco:967 (M = 1000), mesmo molde e alternativas cruzadas (M e L)",
+          "92d203b3dc: espelho: banco:3982 (o que se usava no orelhão => Ficha telefônica) e esta ('caiu a ficha' vem de qual aparelho => Telefone público) se resolvem uma pela outra"
+        ],
+        "correcoes": [
+          "76479d0fe9: Mamografia - mamografia detecta, não previne; 'prevenir' trocado por 'detectar cedo'",
+          "72e37b664d: Royal straight flush - errada Straight flush defensável (o royal é um straight flush); trocada por Flush",
+          "c6355f45e4: Carroça - erradas Bucha (nome regional do 6-6, uma dupla) e Pedra dupla (descrição da própria carroça) eram defensáveis; trocadas por Lasca e Curinga"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "espelho/duplicada": 2,
+          "errada defensavel": 2
+        },
+        "exemplos_erro": {
+          "fato impreciso": "76479d0fe9: mamografia detecta, não previne; 'prevenir' trocado por 'detectar cedo'",
+          "espelho/duplicada": "b52d80ff65: espelho: cadeia de algarismos romanos com banco:966 (L = 50) e banco:967 (M = 1000), mesmo molde e alternativas cruzadas (M e L)",
+          "errada defensavel": "72e37b664d: errada Straight flush defensável (o royal é um straight flush); trocada por Flush"
+        }
+      },
+      {
+        "lote": "059",
+        "conferente": "conferente-v6",
+        "conferidas": 93,
+        "conferidas_sem_mudanca": 84,
+        "com_mudanca": 9,
+        "corrigidas": 9,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 13,
+        "buscas_web": 4,
+        "suspeitas": {
+          "total": 12,
+          "mantidas": 10,
+          "reescritas": 2,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 6,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "32247203ac: Spalla - errada Concertino é sinônimo de spalla (errada defensável); trocada por Corifeu",
+          "69938338b4: Build Your Dreams - as iniciais de \"Build Your Dreams\" no enunciado entregavam a sigla BYD; pergunta invertida (o que a sigla quer dizer)",
+          "d321561351: La Fontaine - enunciado citava \"A Cigarra e a Formiga\", que entregava a resposta de 935031e875 (Formiga, mesmo lote); trocado por outra fábula dele",
+          "d4c2058f4b: Plano Verão - enunciado citava o Cruzado Novo, resposta de banco:7526 (moeda de 1989 a 1990); reescrito sem o nome da moeda",
+          "1cd96dcd6f: Tartaruga - errada Jabuti defensável (é a tartaruga terrestre, como a da fábula); trocada por Porco-espinho",
+          "ca5d9bb759: Que estão verdes - errada 'azedas' defensável (é a versão em inglês e em várias traduções, 'sour grapes'); trocada",
+          "90dae7d2e6: Ribalta - errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina; errada Bambolina trocada por Fosso (Bambolina é resposta de 7752b, lote 061)",
+          "a92e7ab820: Diapasão - errada Afinador defensável (o diapasão é um afinador); trocada por Batuta",
+          "7df91a84d7: 789 - o prefixo 789 indica o registro na GS1 Brasil, não o país de fabricação (Aos Fatos); enunciado ajustado"
+        ],
+        "rebaixamentos": [
+          "69938338b4: Build Your Dreams dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "errada defensavel": 4,
+          "entrega a resposta": 3,
+          "espelho/duplicada": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "32247203ac: errada Concertino é sinônimo de spalla (errada defensável); trocada por Corifeu",
+          "entrega a resposta": "69938338b4: as iniciais de \"Build Your Dreams\" no enunciado entregavam a sigla BYD; pergunta invertida (o que a sigla quer dizer)",
+          "espelho/duplicada": "90dae7d2e6: errada Coxia era a resposta de 22a55 (mesmo lote), que tinha Ribalta entre as erradas (respostas cruzadas); trocada por Bambolina",
+          "fato impreciso": "7df91a84d7: o prefixo 789 indica o registro na GS1 Brasil, não o país de fabricação (Aos Fatos); enunciado ajustado"
+        },
+        "buscas_web_passe_final": 6
+      },
+      {
+        "lote": "060",
+        "conferente": "conferente-v6",
+        "conferidas": 107,
+        "conferidas_sem_mudanca": 89,
+        "com_mudanca": 18,
+        "corrigidas": 17,
+        "rebaixadas": 3,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 23,
+        "buscas_web": 3,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 12,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 3,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 6,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "21829e822e: Lágrimas de crocodilo - errada 'Lágrimas de jacaré' era quase igual à certa (pegadinha); trocada",
+          "35179b5f57: Puro-sangue inglês - 'criada na Inglaterra' entregava a resposta Puro-sangue inglês",
+          "8c92b9adbc: Páginas Amarelas - enunciado citava 'lista telefônica', resposta de 015dbca94e (mesmo lote); reescrito",
+          "1a194a0411: Steven Sasson - enunciado citava a Kodak, resposta de 7af05e795f (mesmo lote); tirado o nome da empresa",
+          "330b33436b: Edwin Land - enunciado citava a Polaroid, resposta de banco:5142; reescrito sem a marca",
+          "5afec639b2: Cingalês - Ceilonense é sinônimo dicionarizado de cingalês e Srilanquino lembra srilanquês (erradas defensáveis); trocadas",
+          "436e5b0f8e: Escorpião - 'representado por um escorpião' entregava a resposta Escorpião",
+          "f9f68daf29: Peixes - 'representado por dois peixes' entregava a resposta Peixes",
+          "ca26240b14: Goleiro - errada Centroavante é a resposta de banco:7699 (camisa 9), do mesmo molde; trocada por Volante",
+          "090a6fdc63: Monólogo - errada Solilóquio (fala de um ator sozinho) defensável; trocada por Sarau",
+          "b4f34e76f0: Adagio - Allegro era a resposta de c8dca91b35 (lote 059), que tinha Adagio entre as erradas (respostas cruzadas); trocada por Fortissimo",
+          "7622dfb071: Olho de peixe - errada Grande angular defensável (olho de peixe é uma grande angular extrema); trocada por Zoom",
+          "ebd56baa03: Molinete - carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado",
+          "34c9244d11: Rotunda - errada Bambolina era a resposta de 7752b (lote 061), que tinha Rotunda entre as erradas; trocada por Urdimento",
+          "b1eeeba166: Dracma - errada Lira era a resposta de banco:999 (moeda da Itália antes do euro); trocada por Coroa",
+          "c60ef3f367: Xelim - errada Marco era a resposta de banco:998 (moeda da Alemanha antes do euro, com Xelim entre as erradas); trocada por Libra",
+          "49b5ce8e96: Markka - errada Xelim era a resposta de c60ef (mesmo lote); trocada por Rublo"
+        ],
+        "rebaixamentos": [
+          "35179b5f57: Puro-sangue inglês dificil -> medio",
+          "b4f34e76f0: Adagio dificil -> medio",
+          "929a8c7d69: Dar com os burros n'água dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "outro": 1,
+          "entrega a resposta": 6,
+          "errada defensavel": 3,
+          "espelho/duplicada": 6,
+          "dificuldade": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "outro": "21829e822e: errada 'Lágrimas de jacaré' era quase igual à certa (pegadinha); trocada",
+          "entrega a resposta": "35179b5f57: 'criada na Inglaterra' entregava a resposta Puro-sangue inglês",
+          "errada defensavel": "5afec639b2: Ceilonense é sinônimo dicionarizado de cingalês e Srilanquino lembra srilanquês (erradas defensáveis); trocadas",
+          "espelho/duplicada": "ca26240b14: errada Centroavante é a resposta de banco:7699 (camisa 9), do mesmo molde; trocada por Volante",
+          "dificuldade": "929a8c7d69: undefined",
+          "fato impreciso": "ebd56baa03: carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado"
+        },
+        "buscas_web_passe_final": 6
+      },
+      {
+        "lote": "061",
+        "conferente": "conferente-v6",
+        "conferidas": 92,
+        "conferidas_sem_mudanca": 79,
+        "com_mudanca": 13,
+        "corrigidas": 12,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "espelho": 1
+        },
+        "perguntas_com_busca_web": 16,
+        "buscas_web": 4,
+        "suspeitas": {
+          "total": 16,
+          "mantidas": 15,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 5,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "47ac65f7fc: espelho: a resposta (cartões perfurados) está no enunciado de banco:5340 (inventor dos cartões perfurados do censo de 1890 => Herman Hollerith)"
+        ],
+        "correcoes": [
+          "707198af55: Solidificação - errada Condensação era a resposta de 63b71d5d0b (mesmo lote); trocada por Vaporização",
+          "ba6e58f249: Carlos Barbosa - enunciado citava a Tramontina, resposta de 7f4a474d00 (mesmo lote); reescrito sem a marca",
+          "5d9bdc2ede: Whirlpool - enunciado citava a Brastemp, resposta de 31dbb83a40 (mesmo lote); trocada pela Consul, do mesmo grupo",
+          "9448b6c6a5: Christopher Sholes - enunciado citava QWERTY, resposta de banco:3795; reescrito",
+          "538fae90ac: Fram - enunciado citava Roald Amundsen, resposta de banco:1456 (primeiro a chegar ao Polo Sul); reescrito",
+          "2241eb881e: Gêmeos - 'representado por dois irmãos' praticamente entregava Gêmeos; trocado pela data",
+          "47ae4bf7e7: Lygia Bojunga - Ruth Rocha era a resposta de ea87e43... (mesmo lote), que tinha Lygia Bojunga entre as erradas (respostas cruzadas); trocada",
+          "7752b995a4: Bambolina - erradas cruzadas com outras perguntas de teatro da rodada (Ribalta é resposta de 90dae, lote 059); trocada por Gambiarra",
+          "faec2ca516: Proscênio - Rotunda é resposta de 34c92 (lote 060), que tinha Proscênio entre as erradas (respostas cruzadas); trocada",
+          "bf877201b5: Gálio - errada Frâncio também homenageia a França (Francia); trocada por Rutênio",
+          "542c92db6f: Pelota basca - Jai-alai e Frontão são modalidades da própria pelota basca (erradas defensáveis); trocadas por Bocha e Padel",
+          "e555e3e78d: Fofolete - a Fofolete nasceu em 1978 pela Troll, não pela Estrela; tirada a marca. Errada Polly (Polly Pocket, também minúscula) trocada por Barbie"
+        ],
+        "rebaixamentos": [
+          "66d1e8efb3: Quem vai a todas as festas dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 5,
+          "entrega a resposta": 5,
+          "errada defensavel": 2,
+          "dificuldade": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "707198af55: errada Condensação era a resposta de 63b71d5d0b (mesmo lote); trocada por Vaporização",
+          "entrega a resposta": "ba6e58f249: enunciado citava a Tramontina, resposta de 7f4a474d00 (mesmo lote); reescrito sem a marca",
+          "errada defensavel": "bf877201b5: errada Frâncio também homenageia a França (Francia); trocada por Rutênio",
+          "dificuldade": "66d1e8efb3: undefined",
+          "fato impreciso": "e555e3e78d: a Fofolete nasceu em 1978 pela Troll, não pela Estrela; tirada a marca. Errada Polly (Polly Pocket, também minúscula) trocada por Barbie"
+        }
+      },
+      {
+        "lote": "062",
+        "conferente": "conferente-v6",
+        "conferidas": 105,
+        "conferidas_sem_mudanca": 92,
+        "com_mudanca": 13,
+        "corrigidas": 13,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 1,
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 16,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 12,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 7,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 2
+          }
+        },
+        "descartes": [
+          "93eab0ccaf: espelho: o enunciado cita a Positivo, resposta de banco:3970 (marca brasileira de computadores das escolas públicas)",
+          "e4b16f4ede: molde repetido: quarta pergunta de domínio genérico no lote (.com, .org, .edu, .net), com respostas cruzadas nas alternativas; cortado o excesso"
+        ],
+        "correcoes": [
+          "299349c4a9: Puccini - erradas Verdi e Rossini eram respostas de outras perguntas de ópera do lote; trocadas",
+          "d22f2ee54e: Pipoca - 'sem abadá' entregava a resposta de e8219dbb7f (mesmo lote); tirado",
+          "6c09f7bff3: .org - erradas .net e .com eram respostas de outras perguntas da rodada; trocadas por .info e .gov",
+          "9d1d45382b: Ituano - errada Ferroviária era a resposta de 5c689e2a2f (mesmo lote); trocada",
+          "27b57ffb4b: Novorizontino - errada Ituano era a resposta de 9d1d45382b (mesmo lote); trocada",
+          "df5042b522: Polo Norte - errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado",
+          "6ef44f836e: Debussy - Ravel era a resposta de a64b1 (mesmo lote), que tinha Debussy entre as erradas (respostas cruzadas); trocado por Fauré",
+          "1b0d9c9e5e: Rossini - erradas Puccini e Verdi eram respostas de outras perguntas de ópera do lote (respostas cruzadas); trocadas",
+          "a5b3f994b9: Verdi - erradas Rossini e Puccini eram respostas de outras perguntas de ópera do lote; trocadas",
+          "6cbe2112db: Bizet - erradas Puccini, Rossini e Verdi eram respostas de outras perguntas do lote; trocadas por franceses",
+          "93db9e8b30: Cã - 'como Gengis' citava parte da resposta de banco (líder mongol que fundou o maior império => Gengis Khan); tirado",
+          "ec698b8c71: 181 - não existe Disque-Denúncia nacional: 181 vale em muitos estados, mas o do Rio é (21) 2253-1177; enunciado restrito a estados que usam 181",
+          "6490f8ad3e: Chaleira - definição de chaleira varia (calcanhar ou lado de fora do pé); tirado 'de calcanhar'"
+        ],
+        "rebaixamentos": [
+          "ec698b8c71: 181 dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 9,
+          "entrega a resposta": 2,
+          "molde repetido": 1,
+          "errada defensavel": 1,
+          "fato impreciso": 2
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "299349c4a9: erradas Verdi e Rossini eram respostas de outras perguntas de ópera do lote; trocadas",
+          "entrega a resposta": "d22f2ee54e: 'sem abadá' entregava a resposta de e8219dbb7f (mesmo lote); tirado",
+          "molde repetido": "e4b16f4ede: molde repetido: quarta pergunta de domínio genérico no lote (.com, .org, .edu, .net), com respostas cruzadas nas alternativas; cortado o excesso",
+          "errada defensavel": "df5042b522: errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado",
+          "fato impreciso": "ec698b8c71: não existe Disque-Denúncia nacional: 181 vale em muitos estados, mas o do Rio é (21) 2253-1177; enunciado restrito a estados que usam 181"
+        },
+        "buscas_web_passe_final": 6
+      },
+      {
+        "lote": "063",
+        "conferente": "conferente-v6",
+        "conferidas": 90,
+        "conferidas_sem_mudanca": 83,
+        "com_mudanca": 7,
+        "corrigidas": 6,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "espelho": 1,
+          "molde repetido": 2
+        },
+        "perguntas_com_busca_web": 7,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 18,
+          "mantidas": 16,
+          "reescritas": 0,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 5,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "d2a6342c5e: espelho: a resposta (Woodstock) está no enunciado de banco:3425 (Jimi Hendrix tocou o hino no Woodstock) e o enunciado ('geração hippie') entrega a resposta de banco:8006 (Hippie)",
+          "02e879bd50: molde repetido: quarta pergunta da rodada com resposta Japonês no molde 'palavra X em qual língua' (tsunami, arigatô, konnichiwa); cortado o excesso",
+          "d2440bf193: molde repetido: 'Hola' repete o par de 'Adiós' (b6c166cbf1, lote 062), mesma resposta Espanhol no mesmo molde; cortado o excesso"
+        ],
+        "correcoes": [
+          "73958b6507: Punks - errada Mods era a resposta de cbbb6 (mesmo lote); trocada por Emos",
+          "cbbb63ebb0: Mods - errada Punks era a resposta de 73958 (mesmo lote), que tinha Mods entre as erradas (respostas cruzadas); trocada; errada Rockers era a resposta de b5813 (lote 065); trocada",
+          "f00743c467: Beatniks - errada Punks era a resposta de 73958 (mesmo lote); trocada",
+          "28dab6c759: Yuppies - errada Punks era a resposta de 73958 (mesmo lote); trocada",
+          "eeb0a7f723: Década - erradas Lustro e Biênio eram respostas de 1f9e4 e 28b5c (lote 062); trocadas",
+          "1abfc736a2: Finge que não entende - errada 'Foge da raia' (esquivar-se) é quase o mesmo sentido de dar uma de João-sem-braço; trocada"
+        ],
+        "rebaixamentos": [
+          "8f5655b3bc: Kick-off dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 6,
+          "molde repetido": 2,
+          "errada defensavel": 1,
+          "dificuldade": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "73958b6507: errada Mods era a resposta de cbbb6 (mesmo lote); trocada por Emos",
+          "molde repetido": "02e879bd50: molde repetido: quarta pergunta da rodada com resposta Japonês no molde 'palavra X em qual língua' (tsunami, arigatô, konnichiwa); cortado o excesso",
+          "errada defensavel": "1abfc736a2: errada 'Foge da raia' (esquivar-se) é quase o mesmo sentido de dar uma de João-sem-braço; trocada",
+          "dificuldade": "8f5655b3bc: undefined"
+        }
+      },
+      {
+        "lote": "064",
+        "conferente": "conferente-v6",
+        "conferidas": 106,
+        "conferidas_sem_mudanca": 90,
+        "com_mudanca": 16,
+        "corrigidas": 14,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "cadeia": 1
+        },
+        "perguntas_com_busca_web": 23,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 27,
+          "mantidas": 24,
+          "reescritas": 3,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 4,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "eff7ff7151: cadeia: mesmo molde de banco ('Em qual mês começa o inverno no Brasil?' => Junho); pergunta em cadeia sobre o mesmo fato (início das estações)"
+        ],
+        "correcoes": [
+          "3b5f9e5820: Paulo Leminski - errada Alice Ruiz também é poeta curitibana famosa pelos haicais (errada defensável); trocada por Dalton Trevisan",
+          "0d04726df3: Fernando Pessoa - errada Florbela Espanca era a resposta de 7ef6e (mesmo lote); trocada",
+          "fc09c1398c: Palmirinha - errada Ofélia (Ofélia Anunciato, apresentadora de culinária na TV) defensável; trocada",
+          "099fdc0fd2: Little Italy - errada Chinatown era a resposta de e2274 (mesmo lote), que tinha Little Italy entre as erradas (respostas cruzadas); trocada",
+          "2755ca49fc: Hiragana - errada Hangul era a resposta de c9396 (lote 061), que tinha Hiragana entre as erradas (respostas cruzadas); trocada",
+          "2b82fe264d: Karakorum - Karakorum virou capital com Ögedei (1235), não com Gengis Khan, cujo nome também era a resposta de banco:791; reescrito",
+          "a22043bfb7: Aachen - enunciado citava Carlos Magno, resposta de banco:1104; reescrito",
+          "979bfd17ee: Estátua - errada Dança das cadeiras era a resposta de 6a68b (mesmo lote), que tinha Estátua entre as erradas (respostas cruzadas); trocada",
+          "1aca2ff989: Start-stop - errada Cruise control é o piloto automático, resposta de ab40a (mesmo lote); trocada",
+          "ab40abd654: Piloto automático - errada Start-stop era a resposta de 1aca2 (mesmo lote); trocada",
+          "2f3810d52f: Sair à francesa - errada 'Sair à inglesa' é a forma usada em francês para a mesma ideia (filer à l'anglaise); trocada",
+          "3d89d13e85: Sepp Herberger - errada Helmut Schön era a resposta de 55181 (lote 065); trocada por Otto Nerz",
+          "dc16a3322a: Troféu Joan Gamper - errada Ramón de Carranza era a resposta de 43a44 (lote 065); trocada",
+          "4c3bd73855: Bode expiatório - errada Testa de ferro era a resposta de bf497 (lote 065); trocada"
+        ],
+        "rebaixamentos": [
+          "ef325688dd: Cecília Meireles dificil -> medio",
+          "c56d5478ac: Gonçalves Dias dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 10,
+          "errada defensavel": 3,
+          "dificuldade": 2,
+          "fato impreciso": 1,
+          "entrega a resposta": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "eff7ff7151: cadeia: mesmo molde de banco ('Em qual mês começa o inverno no Brasil?' => Junho); pergunta em cadeia sobre o mesmo fato (início das estações)",
+          "errada defensavel": "3b5f9e5820: errada Alice Ruiz também é poeta curitibana famosa pelos haicais (errada defensável); trocada por Dalton Trevisan",
+          "dificuldade": "ef325688dd: undefined",
+          "fato impreciso": "2b82fe264d: Karakorum virou capital com Ögedei (1235), não com Gengis Khan, cujo nome também era a resposta de banco:791; reescrito",
+          "entrega a resposta": "a22043bfb7: enunciado citava Carlos Magno, resposta de banco:1104; reescrito"
+        },
+        "buscas_web_passe_final": 6
+      },
+      {
+        "lote": "065",
+        "conferente": "conferente-v6",
+        "conferidas": 78,
+        "conferidas_sem_mudanca": 67,
+        "com_mudanca": 11,
+        "corrigidas": 10,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 15,
+        "motivos_descarte": {
+          "molde repetido": 11,
+          "fato que pode mudar": 1,
+          "espelho": 3
+        },
+        "perguntas_com_busca_web": 16,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 25,
+          "mantidas": 15,
+          "reescritas": 0,
+          "descartadas": 10
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "História": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 15,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 10
+          }
+        },
+        "descartes": [
+          "426978e6da: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.nz)",
+          "473477cba8: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.fr)",
+          "5ad953c921: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.cn)",
+          "96a8625ed8: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.it)",
+          "b6b2d7f4df: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.ru)",
+          "256ce78529: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.nl)",
+          "fd8825e3b2: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.pe)",
+          "9938ef3ce5: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.cl)",
+          "e3b1d77985: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.dk)",
+          "80b00226a0: fato que pode mudar: o acordo de 2025 que transfere o arquipélago de Chagos para Maurício pode extinguir o Território Britânico do Oceano Índico e o .io; e molde repetido de domínios",
+          "373a283998: molde repetido: 20 perguntas 'O DDD NN é de qual capital?' na rodada; cortado o excesso (DDD 82)",
+          "77d616f7c1: molde repetido: 20 perguntas 'O DDD NN é de qual capital?' na rodada; cortado o excesso (DDD 95)",
+          "f2ac700cb8: espelho: a resposta (Paulistão) está no enunciado de banco:6240 e o molde repete banco:2673 (Gauchão)",
+          "d5d7f93cc2: espelho: a resposta (campeonato estadual) está no enunciado de banco:7835 ('O campeonato estadual chamado de Baianão...')",
+          "08acbf0084: espelho: banco:1216 (condenado a rolar a pedra eternamente => Sísifo) e esta (tarefa inútil e sem fim => Trabalho de Sísifo) se resolvem uma pela outra; a errada Tonel das Danaides também era defensável"
+        ],
+        "correcoes": [
+          "55181e529a: Helmut Schön - errada Sepp Herberger era a resposta de 3d89d (lote 064), que tinha Helmut Schön entre as erradas (respostas cruzadas); trocada",
+          "8f1cd3ee35: Canadá - enunciado citava James Naismith, resposta de banco:2799 (quem inventou o basquete); tirado o nome",
+          "43a44345fb: Troféu Ramón de Carranza - errada Troféu Colombino era a resposta de 6587b (mesmo lote), que tinha Ramón de Carranza entre as erradas (respostas cruzadas); trocada",
+          "6587b157b9: Troféu Colombino - errada Ramón de Carranza era a resposta de 43a44 (mesmo lote); trocada",
+          "24cbe59205: Daniel - errada Jonas era a resposta de 518aa (lote 062), que tinha Daniel entre as erradas (respostas cruzadas); trocada",
+          "2c4b9f50fe: Boca do estômago - errada Céu da boca era a resposta de ad35d (mesmo lote); trocada",
+          "eb65d86a33: Béquer - errada Erlenmeyer era a resposta de 5d736 (lote 062), que tinha Béquer entre as erradas (respostas cruzadas); trocada",
+          "5f3d209f40: Pipeta - errada Bureta era a resposta de 7c0ed (mesmo lote); trocada",
+          "b1dbbbb0db: Margarida - errada Camomila também tem flor branca de miolo amarelo (errada defensável pela descrição); trocada",
+          "b5813ee855: Rockers - errada Punks era a resposta de 73958 (lote 063); trocada"
+        ],
+        "rebaixamentos": [
+          "de5b94fc7c: Milão dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "molde repetido": 11,
+          "espelho/duplicada": 11,
+          "fato impreciso": 1,
+          "entrega a resposta": 1,
+          "errada defensavel": 1,
+          "dificuldade": 1
+        },
+        "exemplos_erro": {
+          "molde repetido": "426978e6da: molde repetido: 28 perguntas de domínio de internet na rodada (15 só no lote 065); cortado o excesso (.nz)",
+          "espelho/duplicada": "55181e529a: errada Sepp Herberger era a resposta de 3d89d (lote 064), que tinha Helmut Schön entre as erradas (respostas cruzadas); trocada",
+          "fato impreciso": "80b00226a0: fato que pode mudar: o acordo de 2025 que transfere o arquipélago de Chagos para Maurício pode extinguir o Território Britânico do Oceano Índico e o .io; e molde repetido de domínios",
+          "entrega a resposta": "8f1cd3ee35: enunciado citava James Naismith, resposta de banco:2799 (quem inventou o basquete); tirado o nome",
+          "errada defensavel": "b1dbbbb0db: errada Camomila também tem flor branca de miolo amarelo (errada defensável pela descrição); trocada",
+          "dificuldade": "de5b94fc7c: undefined"
         }
       }
     ],
@@ -6611,6 +7457,300 @@
         "dificil": 251
       },
       "_nota": "cota de 200 WebSearch por sessão esgotou durante os lotes 051-055; 196 conferidas de risco sem verificado_web revisadas de memória pelo coordenador (commit afcc335)"
+    },
+    "resumo_r6": {
+      "conferente": "conferente-v6",
+      "lotes": "056-065",
+      "total": 1000,
+      "conferidas": 975,
+      "sem_mudanca": 875,
+      "com_mudanca": 100,
+      "rebaixadas": 13,
+      "subidas": 0,
+      "descartadas": 25,
+      "motivos_descarte": {
+        "molde repetido": 15,
+        "espelho": 8,
+        "cadeia": 1,
+        "fato que pode mudar": 1
+      },
+      "tipos_erro": {
+        "errada defensavel": 21,
+        "entrega a resposta": 19,
+        "dificuldade": 7,
+        "molde repetido": 15,
+        "espelho/duplicada": 52,
+        "fato impreciso": 10,
+        "outro": 1
+      },
+      "suspeitas": {
+        "total": 166,
+        "mantidas": 144,
+        "reescritas": 8,
+        "descartadas": 14
+      },
+      "perguntas_com_busca_web": 213,
+      "buscas_web": 126,
+      "buscas_web_detalhe": {
+        "durante_lotes": 24,
+        "passe_final": 102,
+        "obs": "buscas agrupadas (uma busca confirmando 2 a 20 fatos do mesmo tema, como a lista de DDD ou de técnicos campeões); verificado_web só foi marcado quando o resultado confirmou o fato"
+      },
+      "distribuicao_final": {
+        "facil": 354,
+        "medio": 360,
+        "dificil": 261
+      },
+      "por_categoria": {
+        "Geografia": 125,
+        "História": 137,
+        "Ciências": 130,
+        "Esportes": 183,
+        "Entretenimento": 255,
+        "Tecnologia": 145
+      },
+      "risco_sem_verificado_web": {
+        "criterio": "conferida, sem verificado_web, com dígito, primeiro/maior/único/menor/mais/recorde/melhor no enunciado ou dificuldade dificil",
+        "total": 210,
+        "ids_por_lote": {
+          "056": [
+            "85c5f19042",
+            "b1e5c01ffb",
+            "2259994121",
+            "5f59f67e4f",
+            "9ae77fd6b8",
+            "1304c80f84",
+            "5c2afbe1ea",
+            "0508f56d21",
+            "604d5d69c8",
+            "2b798e0088",
+            "f9dce1f0fe"
+          ],
+          "057": [
+            "e9cc7bee5e",
+            "fb3db511f3",
+            "c6fbddae89",
+            "8626b9c8f4",
+            "6fa9ca9b16",
+            "1cabb3462f",
+            "ab95834848",
+            "ef2921c7bf",
+            "743952c7e4",
+            "f619dbc58a",
+            "be803cc2b0",
+            "5ce67bd1f1",
+            "737f6f33c6",
+            "af153ad32c"
+          ],
+          "058": [
+            "d66873a061",
+            "8a2fa970dd",
+            "796fbe6fb6",
+            "9d4a86e87f",
+            "87943e3026",
+            "6e896dec08",
+            "dd5f56d57c",
+            "a72ae195c6",
+            "ace8231556",
+            "8101162344",
+            "6aaeadab50",
+            "adcae6a66b",
+            "88192f5193",
+            "72e37b664d",
+            "e1423d6f27",
+            "2a72fd3c70",
+            "9b455930ee",
+            "567b0d045e"
+          ],
+          "059": [
+            "8b8def2280",
+            "2fa98870a4",
+            "0b38be22a5",
+            "bb9bc4bc6f",
+            "0e59d25c56",
+            "debf9c7926",
+            "a396335d5e",
+            "29d7db5f39",
+            "9f16e9ee25",
+            "64cdbba3d7",
+            "bdfd8f27bc",
+            "1b83097e74",
+            "d0c5976389",
+            "66e48a5bf7",
+            "eb07ac4edc",
+            "fb7c0c7d04",
+            "a92e7ab820",
+            "32247203ac",
+            "90dae7d2e6",
+            "c69ea940e2",
+            "97c75c531d",
+            "dbdbf89109",
+            "b0a3f51817",
+            "dece705723",
+            "88aa3ec742",
+            "e25e4d0039",
+            "301f271221",
+            "85f9ba2b69",
+            "696a167f56",
+            "3eaf08fa5d"
+          ],
+          "060": [
+            "359a5bc66e",
+            "27865259fa",
+            "2716aae836",
+            "436e5b0f8e",
+            "7d92f1f0af",
+            "49b5ce8e96",
+            "f24628548e",
+            "ca26240b14",
+            "090a6fdc63",
+            "2f247a27dd",
+            "5720c556c7",
+            "fe7997c8a3",
+            "7af05e795f",
+            "483de6e654",
+            "88f99e9c4a",
+            "33b7bc3820",
+            "d9e63a2999",
+            "0664cb8899",
+            "69f9f71078",
+            "34c9244d11",
+            "4f738369f8"
+          ],
+          "061": [
+            "4989ec063e",
+            "633ce35c88",
+            "b2aabf249f",
+            "0c5c1b0fa3",
+            "2241eb881e",
+            "82818b9d23",
+            "47ae4bf7e7",
+            "faec2ca516",
+            "b7695425bd",
+            "d4f28286d3",
+            "bbcc75261b",
+            "a1d3c2044b",
+            "69c4101b0b",
+            "96fcdff4de",
+            "7752b995a4",
+            "5c882060d1",
+            "ba6e58f249",
+            "5d9bdc2ede",
+            "26215ed3fe"
+          ],
+          "062": [
+            "d66393a34c",
+            "72bd495f82",
+            "4740da31ea",
+            "1fa7ec6be3",
+            "96017790f5",
+            "e78486aa40",
+            "3b7fd0aaa1",
+            "d69f2dde08",
+            "a0efcfabcf",
+            "6ef44f836e",
+            "a5b3f994b9",
+            "46bda6e730",
+            "8daa14bcce",
+            "6d30577ef3",
+            "dfe2fd074e",
+            "0ce13fa5b5",
+            "517d6ac47a",
+            "5d73664edf",
+            "59cdbb5aa5",
+            "1f9e4b48d7",
+            "6b8f37b521",
+            "6490f8ad3e",
+            "b9474a90e0",
+            "4e238c4416",
+            "ec254db90b",
+            "82320e10d9"
+          ],
+          "063": [
+            "230ed720e6",
+            "4514a1a9ae",
+            "8071f28bcd",
+            "28dab6c759",
+            "f00743c467",
+            "cbbb63ebb0",
+            "ff763315ee",
+            "0845e504f6",
+            "5cce87d6e5",
+            "82d601bd5e",
+            "a2008a5e47",
+            "c386c14364",
+            "bf3f3079ea",
+            "a41cdf43d3",
+            "2849f00171",
+            "7b1c5078fb",
+            "de920ad73a",
+            "9d6dedac19",
+            "af46ae4127",
+            "9d18c7570c",
+            "6ea4562453",
+            "41522637d8",
+            "d4c45c9594",
+            "1ee1e4d966",
+            "0e23f50f11",
+            "73958b6507",
+            "6795eff20b",
+            "19faa69067",
+            "98abc09cd7",
+            "031921d8aa",
+            "87e8cec80a",
+            "02084d19d5",
+            "4554e7ba75",
+            "c07576ab91",
+            "0662b8b37e",
+            "4c53505c5c"
+          ],
+          "064": [
+            "06d7cfebfd",
+            "321f87c4cf",
+            "9f275f5b64",
+            "e60c2bade1",
+            "040414c2df",
+            "d3202908ea",
+            "ebbd088fd5",
+            "8f10a2c604",
+            "3e17b8c678",
+            "acd7ab8e5c",
+            "aae28ebbb9",
+            "5df39221fd",
+            "55ce9b6c10",
+            "70feb49802",
+            "2c2e444b88",
+            "1631b4948d",
+            "44092838c4"
+          ],
+          "065": [
+            "bc5c5288ce",
+            "b72bd6e75d",
+            "232b81b4a8",
+            "5397f5abe4",
+            "2c5dbd3af6",
+            "8bd56bc60d",
+            "ce47947a81",
+            "a616274e79",
+            "6de25d7df1",
+            "7c0ed5e7e5",
+            "4c4527d6a9",
+            "4d992ef19a",
+            "b610e02a85",
+            "1fe09d0e92",
+            "284e4e00d0",
+            "de6d271f30",
+            "793886e5ca",
+            "b5813ee855"
+          ]
+        },
+        "obs": "conferidas de conhecimento consolidado pelo conferente-v6; candidatas a checagem complementar numa sessão nova"
+      },
+      "moldes": {
+        "dominios_internet": "30 -> 18",
+        "ddd": "20 -> 18",
+        "palavra_em_qual_lingua": "2 cortadas no 063 (Sayonara, terceira resposta Japonês; Hola, repetia Adiós)"
+      }
     }
   },
   "listas": {

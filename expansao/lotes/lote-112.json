@@ -12,14 +12,16 @@
       "Natália do Vale"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3c5a778e95",
     "recente": false,
     "verificado_web": "pt.wikipedia: Avenida Brasil (telenovela)",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "925506a7d0",
@@ -34,14 +36,16 @@
       "Sinfonia Amazônica"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3292",
     "recente": false,
     "verificado_web": "pt.wikipedia: Sinfonia Amazônica",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "29e41f7093",
@@ -56,13 +60,15 @@
       "Tocantins"
     ],
     "subtema": "Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Bahia",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "f4a4de792c",
@@ -77,14 +83,16 @@
       "Camilla"
     ],
     "subtema": "Século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:3637",
     "recente": false,
     "verificado_web": "pt.wikipedia: Diana, Princesa de Gales",
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.2, 34% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "7e1ee4c947",
@@ -99,13 +107,15 @@
       "Ney Gonçalves Dias"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Pedro de Lara",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "49980f79cb",
@@ -120,13 +130,15 @@
       "Brandão Filho"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lug de Paula",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "acc8577438",
@@ -141,14 +153,15 @@
       "Caldense"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada do banco: banco:2821 já pergunta qual clube mineiro tem o coelho como mascote (América Mineiro)",
     "dup": "certa",
     "dup_ref": "banco:5151",
     "recente": false,
     "verificado_web": "pt.wikipedia: América Futebol Clube (Belo Horizonte)",
     "dup_regra": "E2 mesma resposta e mesmo assunto (18.8, 58% do fato)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11"
   },
   {
     "id": "3fa2c975fe",
@@ -163,14 +176,16 @@
       "Márcio Garcia"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4934",
     "recente": false,
     "verificado_web": "pt.wikipedia: Programa Livre",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "0fe2c06450",
@@ -185,13 +200,15 @@
       "Borges de Barros"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Roni Rios",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "10b45f65ad",
@@ -206,14 +223,16 @@
       "Limão com Mel"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8769",
     "recente": false,
     "verificado_web": "pt.wikipedia: Calcinha Preta",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "e60801a883",
@@ -228,13 +247,15 @@
       "Lívia Falcão"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Auto da Compadecida (filme)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "78c4237659",
@@ -249,13 +270,15 @@
       "Denise"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Dorinha",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "f3662eaa99",
@@ -270,13 +293,15 @@
       "Fernando Vannucci"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lombardi (locutor)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "27f81fe598",
@@ -291,13 +316,15 @@
       "Sexo Frágil"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sob Nova Direção",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "edac0e98c6",
@@ -312,13 +339,15 @@
       "Ary Fontoura"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: O Bem-Amado (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "112b4db798",
@@ -333,13 +362,15 @@
       "Tromba Trem"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Tromba Trem",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a43d07e4bc",
@@ -354,13 +385,15 @@
       "Rastapé"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Nova Brasil FM, história de Xote dos Milagres",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "e8e98fc2f6",
@@ -375,13 +408,15 @@
       "Bruno Gagliasso"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cazuza – O Tempo Não Para",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "bbcf453d2e",
@@ -396,13 +431,15 @@
       "Zecão"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Humberto (Turma da Mônica)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "79ba115458",
@@ -417,14 +454,16 @@
       "Fani Pacheco"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:5508",
     "recente": false,
     "verificado_web": "pt.wikipedia: Sabrina Sato",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.8)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "623da6f994",
@@ -439,13 +478,15 @@
       "Geraldo Magela"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Pedro Bismarck",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "142847767a",
@@ -460,13 +501,15 @@
       "Marcello Antony"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Mulheres Apaixonadas",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b2a74f14c3",
@@ -481,13 +524,15 @@
       "Nelson Machado"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Marcelo Gastaldi",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "4f87943efc",
@@ -502,13 +547,15 @@
       "Márcio Victor"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Durval Lelys",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b1df8f6ed9",
@@ -523,18 +570,20 @@
       "Othon Bastos"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: 2 Filhos de Francisco",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "0fa86aa5a1",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual herói de Mauricio de Sousa viaja sozinho pelo espaço numa nave em forma de bola?",
     "resposta": "Astronauta",
     "alternativas": [
@@ -544,14 +593,17 @@
       "Zecão"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1669",
     "recente": false,
     "verificado_web": "pt.wikipedia: Astronauta (Mauricio de Sousa)",
     "dup_regra": "resposta nova citada no texto antigo (6.1)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "dificuldade_ajuste": "dificil -> medio (régua rígida, conferente-v11: o Astronauta é personagem conhecido de Mauricio de Sousa)",
+    "verificado_web_conferente": true
   },
   {
     "id": "7154b53858",
@@ -566,13 +618,15 @@
       "Carmen Mayrink Veiga"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Narcisa Tamborindeguy",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "73bc52cb43",
@@ -587,13 +641,15 @@
       "Barbixas"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Barbixas",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b6589aeb9a",
@@ -608,13 +664,15 @@
       "Gabriel Braga Nunes"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Insensato Coração",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "c9f5c2c85c",
@@ -629,13 +687,15 @@
       "Mauro Ramos"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "web: Olhar Digital e Rolling Stone Brasil, morte de Mário Monjardim (2021)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "c53c57c940",
@@ -650,13 +710,15 @@
       "Scheila Carvalho"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sheila Mello",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "39df2c502c",
@@ -671,13 +733,15 @@
       "Super Xuxa contra o Baixo Astral"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lua de Cristal",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "9c0007e978",
@@ -692,13 +756,15 @@
       "Pedrão"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Zé Carioca",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "cdc6ddbf24",
@@ -713,13 +779,15 @@
       "Nelson Rubens"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Nelson Rubens",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b2ce26e878",
@@ -734,13 +802,15 @@
       "Janete"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Rodrigo Sant'Anna",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "29ccc1b1b9",
@@ -755,14 +825,16 @@
       "Drica Moraes"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8651",
     "recente": false,
     "verificado_web": "pt.wikipedia: Império (telenovela)",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "db44acc332",
@@ -777,13 +849,15 @@
       "JoyMasher"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "en.wikipedia: Oniken",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a592eb2ec8",
@@ -798,13 +872,15 @@
       "Inocentes"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Ira!",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "2dac4b86f6",
@@ -819,13 +895,15 @@
       "Alinne Moraes"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: A Mulher Invisível",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "2376a04492",
@@ -840,13 +918,15 @@
       "Mesmo Delivery"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Daytripper",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "e07044d5f8",
@@ -861,13 +941,15 @@
       "Bianca Andrade"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Jout Jout",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "36554b7893",
@@ -882,13 +964,15 @@
       "Older Cazarré"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Francisco Milani",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b26bac8fdf",
@@ -903,14 +987,16 @@
       "Flávia Alessandra"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6088a98836",
     "recente": false,
     "verificado_web": "pt.wikipedia: Alma Gêmea",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "daa7471082",
@@ -925,13 +1011,15 @@
       "Walbercy Ribas"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Otto Guerra",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "8f59660745",
@@ -946,13 +1034,15 @@
       "Tihuana"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Tihuana",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "05dc6c1824",
@@ -967,13 +1057,15 @@
       "Cantar"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Estômago (filme)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "fca404ad5e",
@@ -988,14 +1080,16 @@
       "Aninha"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4530",
     "recente": false,
     "verificado_web": "pt.wikipedia: Mônica (personagem)",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.1)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "30a1959f58",
@@ -1010,13 +1104,15 @@
       "Adriane Galisteu"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Adriane Galisteu",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "70ad1140d6",
@@ -1031,13 +1127,15 @@
       "A Vila"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Tô de Graça",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "cb5136195b",
@@ -1052,13 +1150,15 @@
       "Marcelina"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Larissa Manoela",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "bc30cd24e8",
@@ -1073,13 +1173,15 @@
       "Minha Nada Mole Vida"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Os Aspones",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "cddd8f7c31",
@@ -1094,14 +1196,16 @@
       "Patrícia Poeta"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7361",
     "recente": false,
     "verificado_web": "pt.wikipedia: Glória Maria",
     "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.6)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "65719c1c48",
@@ -1116,13 +1220,15 @@
       "Walter D'Ávila"
     ],
     "subtema": "Humor",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Moacyr Franco",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "77a2430b31",
@@ -1137,14 +1243,16 @@
       "Fátima Bernardes"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:6643",
     "recente": false,
     "verificado_web": "pt.wikipedia: Fátima Bernardes",
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.5)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "51e4c3ad9f",
@@ -1159,14 +1267,16 @@
       "Wanderley Cardoso"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7992",
     "recente": false,
     "verificado_web": "pt.wikipedia: Erasmo Carlos",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "5b35f2772c",
@@ -1181,14 +1291,16 @@
       "Meu Nome Não É Johnny"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6940",
     "recente": false,
     "verificado_web": "pt.wikipedia: Meu Nome Não É Johnny",
     "dup_regra": "resposta nova citada no texto antigo (6.4)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "d0d1af3459",
@@ -1203,13 +1315,15 @@
       "Professor Aristóbulo"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Saramandaia (telenovela de 1976)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "d2f8ea50d8",
@@ -1224,19 +1338,21 @@
       "Angélica Santos"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Marli Bortoletto",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a67f9b0bbe",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual modelo fez a Feiticeira, personagem de véu e roupas de odalisca do programa \"H\"?",
+    "pergunta": "Qual modelo fez a Feiticeira, personagem de véu e roupas de odalisca que virou febre na TV em 1999?",
     "resposta": "Joana Prado",
     "alternativas": [
       "Carla Perez",
@@ -1245,13 +1361,16 @@
       "Joana Prado"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Joana Prado",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "correcao": "tirado \"do programa H\": o enunciado citava a resposta de 111:86fcbc8697 (programa de Luciano Huck na Band) (conferente-v11)",
+    "verificado_web_conferente": true
   },
   {
     "id": "399a23053d",
@@ -1266,13 +1385,15 @@
       "Angela Ro Ro"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Rosana (cantora)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "bb6a16359b",
@@ -1287,13 +1408,15 @@
       "Alinne Moraes"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Elis (filme)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "bdd5657b9b",
@@ -1308,14 +1431,16 @@
       "Lázaro Ramos"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:5237fd5d11",
     "recente": false,
     "verificado_web": "pt.wikipedia: Cobras & Lagartos",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "5aa6166bf8",
@@ -1330,13 +1455,15 @@
       "Tito e os Pássaros"
     ],
     "subtema": "Animação e games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Tito e os Pássaros",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "68e6388b84",
@@ -1351,13 +1478,15 @@
       "Maria Júlia Coutinho"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Maria Júlia Coutinho",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "29dc9f4149",
@@ -1372,14 +1501,16 @@
       "Belo"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6cca9b0828",
     "recente": false,
     "verificado_web": "pt.wikipedia: Latino (cantor)",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b575064d0e",
@@ -1394,14 +1525,16 @@
       "Iemanjá"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5698",
     "recente": false,
     "verificado_web": "pt.wikipedia: O Auto da Compadecida (filme)",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "b98e73c305",
@@ -1416,13 +1549,15 @@
       "Cauê Moura"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cauê Moura",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "874594030f",
@@ -1437,13 +1572,15 @@
       "Maitê Proença"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Dona Beija (telenovela)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "9ca4a109b3",
@@ -1458,13 +1595,15 @@
       "Tati Quebra Barraco"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Valesca Popozuda",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a8185f0ecd",
@@ -1479,13 +1618,15 @@
       "Vender bilhetes de trem"
     ],
     "subtema": "Cinema nacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Central do Brasil (filme)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "04374582e2",
@@ -1500,13 +1641,15 @@
       "Luís Ricardo"
     ],
     "subtema": "Celebridades e apresentadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Celso Portiolli",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a150cfc1c3",
@@ -1521,13 +1664,15 @@
       "Tarcísio Meira"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Carga Pesada",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a55202a603",
@@ -1542,13 +1687,15 @@
       "Luiz Ayrão"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Benito di Paula",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "5a23c28c59",
@@ -1563,13 +1710,15 @@
       "Jorge Aragão"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Agepê",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "18c206459a",
@@ -1584,13 +1733,15 @@
       "Demônios da Garoa"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Mussum",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "95615b3cdd",
@@ -1605,13 +1756,15 @@
       "Isabel Fillardis"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Explode Coração",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "6e47d62580",
@@ -1626,13 +1779,15 @@
       "Tony Tornado"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Wilson Simonal",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "bd98fc62d0",
@@ -1647,13 +1802,15 @@
       "Marcelo Tas"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Castelo Rá-Tim-Bum",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "d7c75efdcd",
@@ -1668,14 +1825,16 @@
       "Israel Novaes"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6773",
     "recente": false,
     "verificado_web": "pt.wikipedia: Cristiano Araújo",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "5d8771af0b",
@@ -1690,13 +1849,15 @@
       "Domingos Meirelles"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Linha Direta",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "26f6ec5b31",
@@ -1711,13 +1872,15 @@
       "Wando"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Wando",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "9cf0dd1e08",
@@ -1732,13 +1895,15 @@
       "Susana Vieira"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Senhora do Destino",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "a18d3c1fe9",
@@ -1753,13 +1918,15 @@
       "João Mineiro & Marciano"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: João Mineiro e Marciano",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "20926b14f8",
@@ -1774,13 +1941,15 @@
       "Em Família"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Páginas da Vida",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "d32265403b",
@@ -1795,13 +1964,15 @@
       "Nalva Aguiar"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Roberta Miranda",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "c9a1a3778f",
@@ -1816,13 +1987,15 @@
       "Êta Mundo Bom!"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Êta Mundo Bom!",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "994f79bb5e",
@@ -1837,13 +2010,15 @@
       "509-E"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: 509-E",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "23d1cefb72",
@@ -1858,14 +2033,16 @@
       "Luciano Huck"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "certa",
     "dup_ref": "banco:6044",
     "recente": true,
     "verificado_web": "pt.wikipedia: Domingão com Huck",
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (19.7)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "11e492de90",
@@ -1880,13 +2057,15 @@
       "Elias Muniz"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Evidências (canção)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "de1bd2cf0b",
@@ -1901,13 +2080,15 @@
       "Largo do Arouche"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sai de Baixo",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "e0b543255f",
@@ -1922,13 +2103,15 @@
       "Leo Canhoto & Robertinho"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Kleiton & Kledir",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "5a838fdba2",
@@ -1943,13 +2126,15 @@
       "Luxus"
     ],
     "subtema": "TV e novelas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Cobras & Lagartos",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "93248feeb7",
@@ -1964,14 +2149,16 @@
       "Alinne Rosa"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4635",
     "recente": false,
     "verificado_web": "pt.wikipedia: Ivete Sangalo",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "7a14d36fbf",
@@ -1986,14 +2173,16 @@
       "Só Pra Contrariar"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6151",
     "recente": false,
     "verificado_web": "pt.wikipedia: Alexandre Pires",
     "dup_regra": "R2 mesma resposta e assunto em comum (peso 11.5)",
-    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)"
+    "dup_revisado": "falso positivo: fato diferente, conferido um a um na reposição (sem --descartar)",
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "56c0284609",
@@ -2008,13 +2197,15 @@
       "Pinto do Acordeon"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Frank Aguiar",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "63f616d750",
@@ -2029,13 +2220,15 @@
       "Gal Costa"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Brasil (canção)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "7158368955",
@@ -2050,13 +2243,15 @@
       "Zeca Baleiro"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Lenine (cantor)",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   },
   {
     "id": "2ceda1a168",
@@ -2071,12 +2266,14 @@
       "Mestre Ambrósio"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Mundo Livre S/A",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v11",
+    "verificado_web_conferente": true
   }
 ]

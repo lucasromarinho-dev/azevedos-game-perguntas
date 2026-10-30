@@ -6,9 +6,9 @@
     "pergunta": "Qual ponte de Veneza levava os condenados do palácio dos doges para a prisão?",
     "resposta": "Ponte dos Suspiros",
     "alternativas": [
-      "Ponte da Academia",
-      "Ponte de Rialto",
       "Ponte dos Suspiros",
+      "Ponte de Rialto",
+      "Ponte da Academia",
       "Ponte dos Descalços"
     ],
     "subtema": "Cidades e monumentos do mundo",
@@ -26,10 +26,10 @@
     "pergunta": "Qual médico flamengo publicou em 1543 o grande tratado de anatomia \"De humani corporis fabrica\"?",
     "resposta": "Vesálio",
     "alternativas": [
-      "William Harvey",
+      "Vesálio",
       "Galeno",
       "Paracelso",
-      "Vesálio"
+      "William Harvey"
     ],
     "subtema": "Revoluções e Idade Moderna",
     "status": "gerada",
@@ -46,10 +46,10 @@
     "pergunta": "Qual enzima do estômago começa a digestão das proteínas?",
     "resposta": "Pepsina",
     "alternativas": [
-      "Amilase",
+      "Pepsina",
       "Lipase",
       "Insulina",
-      "Pepsina"
+      "Amilase"
     ],
     "subtema": "Corpo humano e saúde",
     "status": "gerada",
@@ -66,9 +66,9 @@
     "pergunta": "Qual é o maior cajueiro do mundo, no Rio Grande do Norte?",
     "resposta": "Cajueiro de Pirangi",
     "alternativas": [
-      "Cajueiro de Natal",
-      "Cajueiro do Ceará",
       "Cajueiro de Pirangi",
+      "Cajueiro do Ceará",
+      "Cajueiro de Natal",
       "Cajueiro de Tibau"
     ],
     "subtema": "Plantas",
@@ -126,9 +126,9 @@
     "pergunta": "Qual goleiro é o recordista de jogos pela história do Cruzeiro?",
     "resposta": "Fábio",
     "alternativas": [
-      "Raul Plassmann",
-      "Dida",
       "Fábio",
+      "Dida",
+      "Raul Plassmann",
       "Gomes"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
@@ -167,8 +167,8 @@
     "resposta": "Impedimento semiautomático",
     "alternativas": [
       "Árbitro de linha de gol",
-      "Chip na chuteira",
       "Impedimento semiautomático",
+      "Chip na chuteira",
       "Linha virtual manual"
     ],
     "subtema": "Copa do Mundo",
@@ -187,8 +187,8 @@
     "resposta": "Lucas Pinheiro Braathen",
     "alternativas": [
       "Aksel Lund Svindal",
-      "Michel Macedo",
       "Lucas Pinheiro Braathen",
+      "Michel Macedo",
       "Henrik Kristoffersen"
     ],
     "subtema": "Olimpíadas e atletismo",
@@ -237,6 +237,1946 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "82b7b6364d",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão francesa designa o \"saber fazer\", a habilidade de lidar bem com as situações?",
+    "resposta": "Savoir-faire",
+    "alternativas": [
+      "Laissez-faire",
+      "Vis-à-vis",
+      "Savoir-faire",
+      "Déjà vu"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5901b99e52",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o canudo de metal usado para tomar chimarrão?",
+    "resposta": "Bomba",
+    "alternativas": [
+      "Tereré",
+      "Guampa",
+      "Bomba",
+      "Cuia"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ce6db12acc",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual bairro de Londres é famoso pelo mercado alternativo e pela cena punk?",
+    "resposta": "Camden Town",
+    "alternativas": [
+      "Kensington",
+      "Mayfair",
+      "Camden Town",
+      "Chelsea"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "847a12c441",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual queijo artesanal mineiro leva o nome da serra onde nasce o Rio São Francisco?",
+    "resposta": "Canastra",
+    "alternativas": [
+      "Canastra",
+      "Araxá",
+      "Serro",
+      "Minas Padrão"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:731 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:731",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "2c41cae28f",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual ilha portuguesa no Atlântico dá nome a um vinho licoroso famoso?",
+    "resposta": "Madeira",
+    "alternativas": [
+      "Açores",
+      "Terceira",
+      "Madeira",
+      "Porto Santo"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "87c3c6917c",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam as cervejas belgas produzidas dentro de mosteiros, por monges?",
+    "resposta": "Trapistas",
+    "alternativas": [
+      "Lambics",
+      "Trapistas",
+      "Stouts",
+      "Witbiers"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6d158cc4bd",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual região espanhola é a mais famosa pelos vinhos tintos de uva tempranillo?",
+    "resposta": "Rioja",
+    "alternativas": [
+      "Rioja",
+      "Andaluzia",
+      "Galícia",
+      "Catalunha"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e3ef6b77a5",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual expressão italiana celebra o \"doce não fazer nada\"?",
+    "resposta": "Dolce far niente",
+    "alternativas": [
+      "Dolce vita",
+      "Sotto voce",
+      "Carpe diem",
+      "Dolce far niente"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ff76d456ee",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam os ideogramas de origem chinesa usados na escrita japonesa?",
+    "resposta": "Kanji",
+    "alternativas": [
+      "Katakana",
+      "Cirílico",
+      "Kanji",
+      "Hangul"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e1265753b6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual doce indiano é uma bolinha frita servida mergulhada em calda de açúcar?",
+    "resposta": "Gulab jamun",
+    "alternativas": [
+      "Naan",
+      "Samosa",
+      "Lassi",
+      "Gulab jamun"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9988740156",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava o centésimo do antigo marco alemão?",
+    "resposta": "Pfennig",
+    "alternativas": [
+      "Groschen",
+      "Pfennig",
+      "Heller",
+      "Kreuzer"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c76a4f7f3",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual língua élfica, falada pelos altos elfos, foi criada por Tolkien?",
+    "resposta": "Quenya",
+    "alternativas": [
+      "Dothraki",
+      "Klingon",
+      "Na'vi",
+      "Quenya"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e69a84b30",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rio atravessa Madri, a capital da Espanha?",
+    "resposta": "Manzanares",
+    "alternativas": [
+      "Guadalquivir",
+      "Tejo",
+      "Ebro",
+      "Manzanares"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "456934be55",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a linha direta entre a Casa Branca e o Kremlin, criada em 1963?",
+    "resposta": "Telefone vermelho",
+    "alternativas": [
+      "Fax de Moscou",
+      "Rádio Livre",
+      "Telefone vermelho",
+      "Linha azul"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49b77c85f3",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual conjunto de milhares de estátuas de soldados foi encontrado perto de Xi'an, em 1974?",
+    "resposta": "Exército de terracota",
+    "alternativas": [
+      "Exército de bronze",
+      "Exército de terracota",
+      "Guarda de jade",
+      "Legião de pedra"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:976",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.7)"
+  },
+  {
+    "id": "d7126d28da",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual área de incentivos fiscais foi criada no Amazonas em 1967?",
+    "resposta": "Zona Franca de Manaus",
+    "alternativas": [
+      "Zona Franca de Manaus",
+      "Porto de Suape",
+      "Distrito Industrial de Belém",
+      "Polo de Camaçari"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:136",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.0, 30% do fato)"
+  },
+  {
+    "id": "e09d6e57b7",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava originalmente o Cabo da Boa Esperança, por causa das tempestades?",
+    "resposta": "Cabo das Tormentas",
+    "alternativas": [
+      "Cabo das Agulhas",
+      "Cabo Bojador",
+      "Cabo do Medo",
+      "Cabo das Tormentas"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bb26613957",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual múmia de mais de 5 mil anos foi achada congelada nos Alpes em 1991?",
+    "resposta": "Ötzi",
+    "alternativas": [
+      "Lucy",
+      "Ötzi",
+      "Tutancâmon",
+      "Luzia"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "35a1745570",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual americano divulgou ao mundo as ruínas de Machu Picchu, em 1911?",
+    "resposta": "Hiram Bingham",
+    "alternativas": [
+      "Heinrich Schliemann",
+      "Hiram Bingham",
+      "Howard Carter",
+      "Indiana Jones"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b162ab49bb",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual mineradora foi criada como estatal em 1942 e privatizada em 1997?",
+    "resposta": "Vale do Rio Doce",
+    "alternativas": [
+      "Petrobras",
+      "Vale do Rio Doce",
+      "CSN",
+      "Usiminas"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "97e69ea9e0",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual banco público de desenvolvimento foi criado em 1952, no governo Vargas?",
+    "resposta": "BNDES",
+    "alternativas": [
+      "Banco Central",
+      "BNDES",
+      "Banco do Brasil",
+      "Caixa Econômica"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "47c6658830",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Quais textos antigos foram achados em 1947 em cavernas de Qumran, perto de Israel?",
+    "resposta": "Manuscritos do Mar Morto",
+    "alternativas": [
+      "Manuscritos do Mar Morto",
+      "Papiros de Oxirrinco",
+      "Pedra de Roseta",
+      "Códice de Leningrado"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f0c29b386f",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual caverna francesa tem famosas pinturas pré-históricas de cavalos e touros?",
+    "resposta": "Lascaux",
+    "alternativas": [
+      "Lascaux",
+      "Serra da Capivara",
+      "Altamira",
+      "Chauvet"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9bd7a4d739",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Quem foi a única mulher a reinar como imperatriz da China?",
+    "resposta": "Wu Zetian",
+    "alternativas": [
+      "Cixi",
+      "Mulan",
+      "Soong Mei-ling",
+      "Wu Zetian"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bc4f690e57",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sítio na Turquia tem o templo de pedra mais antigo conhecido, com cerca de 11 mil anos?",
+    "resposta": "Göbekli Tepe",
+    "alternativas": [
+      "Éfeso",
+      "Troia",
+      "Göbekli Tepe",
+      "Çatalhöyük"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7aa076b13a",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto americano foi capturado quando seu avião espião U-2 foi derrubado sobre a URSS em 1960?",
+    "resposta": "Gary Powers",
+    "alternativas": [
+      "Chuck Yeager",
+      "Gary Powers",
+      "John Glenn",
+      "Francis Drake"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3acfec2663",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual casal americano foi executado em 1953 acusado de passar segredos atômicos à URSS?",
+    "resposta": "Rosenberg",
+    "alternativas": [
+      "Hiss",
+      "Oppenheimer",
+      "Rosenberg",
+      "Kennedy"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "99565846f2",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a contração involuntária do diafragma que provoca um \"hic\"?",
+    "resposta": "Soluço",
+    "alternativas": [
+      "Tosse",
+      "Bocejo",
+      "Soluço",
+      "Espirro"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "616091016c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o plantio que mistura árvores, frutas e lavouras na mesma área?",
+    "resposta": "Agrofloresta",
+    "alternativas": [
+      "Monocultura",
+      "Agrofloresta",
+      "Hidroponia",
+      "Pousio"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b366ea23d5",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o brilho de certas substâncias sob luz ultravioleta, como o de um marca-texto?",
+    "resposta": "Fluorescência",
+    "alternativas": [
+      "Fosforescência",
+      "Incandescência",
+      "Combustão",
+      "Fluorescência"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cd1966ccbf",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual substância da urina também é usada como adubo nitrogenado?",
+    "resposta": "Ureia",
+    "alternativas": [
+      "Ureia",
+      "Glicose",
+      "Pepsina",
+      "Bile"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e3a6dea3d2",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o plantio feito sobre a palha da safra anterior, sem arar a terra?",
+    "resposta": "Plantio direto",
+    "alternativas": [
+      "Aração",
+      "Queimada",
+      "Terraceamento",
+      "Plantio direto"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:616091016c",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "68c5c357df",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual substância dá o cheiro forte ao alho amassado?",
+    "resposta": "Alicina",
+    "alternativas": [
+      "Cafeína",
+      "Capsaicina",
+      "Mentol",
+      "Alicina"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9a35bc8c14",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a ponta do estame onde fica guardado o pólen?",
+    "resposta": "Antera",
+    "alternativas": [
+      "Antera",
+      "Ovário",
+      "Sépala",
+      "Estigma"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "83d84053ed",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual árvore brasileira tem frutos de polpa farinhenta e cheiro forte, dentro de uma vagem dura?",
+    "resposta": "Jatobá",
+    "alternativas": [
+      "Baobá",
+      "Cajá",
+      "Pequi",
+      "Jatobá"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5f5c3ea101",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a massa ácida de alimento que sai do estômago para o intestino?",
+    "resposta": "Quimo",
+    "alternativas": [
+      "Bolo alimentar",
+      "Quimo",
+      "Quilo",
+      "Bile"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "df2934c96a",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome científico da galinha doméstica?",
+    "resposta": "Gallus gallus",
+    "alternativas": [
+      "Anas platyrhynchos",
+      "Gallus gallus",
+      "Columba livia",
+      "Meleagris gallopavo"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4a53b90609",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a dor sentida num braço ou numa perna que foi amputado?",
+    "resposta": "Dor do membro fantasma",
+    "alternativas": [
+      "Dor referida",
+      "Neuralgia",
+      "Dor do membro fantasma",
+      "Ciática"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "281dd3206b",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual time brasileiro foi campeão mundial de Valorant em 2022?",
+    "resposta": "LOUD",
+    "alternativas": [
+      "LOUD",
+      "Imperial",
+      "paiN Gaming",
+      "FURIA"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "5784ced815",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo de tiro para celular é um dos mais populares nos campeonatos brasileiros de e-sports?",
+    "resposta": "Free Fire",
+    "alternativas": [
+      "Free Fire",
+      "League of Legends",
+      "Valorant",
+      "Counter-Strike"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7c5199260d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual clube brasileiro chegou à semifinal do Mundial de Clubes da FIFA de 2025?",
+    "resposta": "Fluminense",
+    "alternativas": [
+      "Flamengo",
+      "Palmeiras",
+      "Fluminense",
+      "Botafogo"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "aa581ee93d",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantos clubes disputaram o Mundial de Clubes da FIFA de 2025, nos Estados Unidos?",
+    "resposta": "32",
+    "alternativas": [
+      "24",
+      "32",
+      "16",
+      "48"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5025",
+    "recente": true,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "3fa85db206",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual heptacampeão da Fórmula 1 trocou a Mercedes pela Ferrari em 2025?",
+    "resposta": "Lewis Hamilton",
+    "alternativas": [
+      "Sebastian Vettel",
+      "Max Verstappen",
+      "Lewis Hamilton",
+      "Fernando Alonso"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2530",
+    "recente": true,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.4)"
+  },
+  {
+    "id": "2fa7aa4325",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é a prova mais alta dos saltos ornamentais nas Olimpíadas?",
+    "resposta": "Plataforma de 10 metros",
+    "alternativas": [
+      "Trampolim de 1 metro",
+      "Plataforma de 5 metros",
+      "Trampolim de 3 metros",
+      "Plataforma de 10 metros"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "41cc07eb96",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual regata anual entre as universidades de Oxford e Cambridge acontece no Rio Tâmisa?",
+    "resposta": "Boat Race",
+    "alternativas": [
+      "America's Cup",
+      "Henley Royal",
+      "Volvo Ocean Race",
+      "Boat Race"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea618dd4b0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual nadador brasileiro bateu o recorde mundial dos 100 metros livre em 1961, no Rio?",
+    "resposta": "Manoel dos Santos",
+    "alternativas": [
+      "Manoel dos Santos",
+      "Tetsuo Okamoto",
+      "Ricardo Prado",
+      "Djan Madruga"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c9d60101b0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual nadadora foi a primeira mulher sul-americana a disputar uma Olimpíada, em 1932?",
+    "resposta": "Maria Lenk",
+    "alternativas": [
+      "Esther Bueno",
+      "Maria Lenk",
+      "Piedade Coutinho",
+      "Aída dos Santos"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "054fa92e4a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atleta brasileira ficou em quarto lugar no salto em altura em Tóquio 1964, quase sem apoio?",
+    "resposta": "Aída dos Santos",
+    "alternativas": [
+      "Esmeralda Garcia",
+      "Wanda dos Santos",
+      "Aída dos Santos",
+      "Maria Lenk"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea76ee719d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual armador, ao lado de Wlamir, foi astro do Brasil bicampeão mundial de basquete em 1959 e 1963?",
+    "resposta": "Amaury Pasos",
+    "alternativas": [
+      "Oscar Schmidt",
+      "Amaury Pasos",
+      "Marcel de Souza",
+      "Carioquinha"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:8328b2b3f6 (E5 resposta antiga citada no texto novo + assunto (33.7))",
+    "dup": "certa",
+    "dup_ref": "id:8328b2b3f6",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (33.7)"
+  },
+  {
+    "id": "1277f7fc8b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ponta marcou o gol do Brasil na decisão contra o Uruguai em 1950, no Maracanã?",
+    "resposta": "Friaça",
+    "alternativas": [
+      "Friaça",
+      "Chico",
+      "Ademir",
+      "Zizinho"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f769e7ea8",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual lateral-esquerdo da seleção foi um dos injustamente culpados pela derrota para o Uruguai em 1950, no Maracanã?",
+    "resposta": "Bigode",
+    "alternativas": [
+      "Bauer",
+      "Juvenal",
+      "Bigode",
+      "Augusto"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2582",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.6)"
+  },
+  {
+    "id": "adfb0b8e51",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual festival de música foi criado em São Paulo, em 2023, pelos donos do Rock in Rio?",
+    "resposta": "The Town",
+    "alternativas": [
+      "Lollapalooza",
+      "Primavera Sound",
+      "The Town",
+      "João Rock"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "af41bd8bdc",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em qual autódromo de São Paulo acontece o Lollapalooza Brasil?",
+    "resposta": "Interlagos",
+    "alternativas": [
+      "Goiânia",
+      "Velopark",
+      "Jacarepaguá",
+      "Interlagos"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2489",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (14.5, 65% do fato)"
+  },
+  {
+    "id": "a784c9630b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista colombiano ficou famoso pelas figuras gordinhas em pinturas e esculturas?",
+    "resposta": "Botero",
+    "alternativas": [
+      "Oswaldo Guayasamín",
+      "Frida Kahlo",
+      "Diego Rivera",
+      "Botero"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "41275377a1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual escultura de Michelangelo mostra a Virgem Maria com Cristo morto no colo?",
+    "resposta": "Pietà",
+    "alternativas": [
+      "Moisés",
+      "O Pensador",
+      "Davi",
+      "Pietà"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "27132631d5",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de Juliana Paes em \"A Força do Querer\" entrou para o crime por amor?",
+    "resposta": "Bibi Perigosa",
+    "alternativas": [
+      "Flora",
+      "Bibi Perigosa",
+      "Tereza Cristina",
+      "Carminha"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b0c8da3fa8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o livro em formato digital, lido numa tela?",
+    "resposta": "E-book",
+    "alternativas": [
+      "PDF",
+      "Fanzine",
+      "Blog",
+      "E-book"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3533b9d38a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o texto de apresentação no começo de um livro, muitas vezes escrito por outra pessoa?",
+    "resposta": "Prefácio",
+    "alternativas": [
+      "Posfácio",
+      "Sumário",
+      "Epílogo",
+      "Prefácio"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ad7b7f2fbd",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual vilã de \"Fina Estampa\" foi vivida por Christiane Torloni?",
+    "resposta": "Tereza Cristina",
+    "alternativas": [
+      "Carminha",
+      "Nazaré Tedesco",
+      "Flora",
+      "Tereza Cristina"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c0953f166a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual empresário criou o Rock in Rio, em 1985?",
+    "resposta": "Roberto Medina",
+    "alternativas": [
+      "Boni",
+      "Roberto Marinho",
+      "Roberto Medina",
+      "Nelson Motta"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3b6990b672",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista americano ficou famoso pelas esculturas brilhantes de cachorro de balão?",
+    "resposta": "Jeff Koons",
+    "alternativas": [
+      "Keith Haring",
+      "Andy Warhol",
+      "Jeff Koons",
+      "Damien Hirst"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "460f1e1b72",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual novela de 2015 conta a história de uma menina de rua que vira modelo, com Marina Ruy Barbosa?",
+    "resposta": "Totalmente Demais",
+    "alternativas": [
+      "Verdades Secretas",
+      "Cheias de Charme",
+      "Malhação",
+      "Totalmente Demais"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "acbd7b55d0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual novela das 23h, de 2015, mostrava modelos aliciadas por uma agência de luxo?",
+    "resposta": "Verdades Secretas",
+    "alternativas": [
+      "Justiça",
+      "Verdades Secretas",
+      "O Rebu",
+      "Totalmente Demais"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f219fd0392",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual festival de música acontece no verão do litoral gaúcho?",
+    "resposta": "Planeta Atlântida",
+    "alternativas": [
+      "João Rock",
+      "Coala",
+      "Festival de Verão",
+      "Planeta Atlântida"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cc58f00b06",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultura grega alada e sem cabeça fica no alto de uma escadaria do Louvre?",
+    "resposta": "Vitória de Samotrácia",
+    "alternativas": [
+      "Vênus de Milo",
+      "Discóbolo",
+      "Laocoonte",
+      "Vitória de Samotrácia"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "57c18ecf9d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultura grega antiga mostra um atleta prestes a lançar um disco?",
+    "resposta": "Discóbolo",
+    "alternativas": [
+      "Auriga de Delfos",
+      "Apoxiômeno",
+      "Doríforo",
+      "Discóbolo"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "89c330607c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultor suíço ficou famoso pelas figuras humanas muito finas e alongadas?",
+    "resposta": "Giacometti",
+    "alternativas": [
+      "Giacometti",
+      "Henry Moore",
+      "Rodin",
+      "Brancusi"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3e05fc0ae6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor holandês criou \"O Jardim das Delícias Terrenas\"?",
+    "resposta": "Bosch",
+    "alternativas": [
+      "Bruegel",
+      "Rembrandt",
+      "Bosch",
+      "Vermeer"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "384f97183a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor americano criou \"Nighthawks\", que mostra uma lanchonete de madrugada?",
+    "resposta": "Edward Hopper",
+    "alternativas": [
+      "Edward Hopper",
+      "Jackson Pollock",
+      "Norman Rockwell",
+      "Andy Warhol"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5da34bbe7b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora sul-coreana ganhou o Nobel de Literatura de 2024?",
+    "resposta": "Han Kang",
+    "alternativas": [
+      "Yoko Ogawa",
+      "Shin Kyung-sook",
+      "Han Kang",
+      "Cho Nam-joo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "59a04fe73c",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultura antiga mostra um sacerdote troiano e seus filhos atacados por serpentes?",
+    "resposta": "Laocoonte",
+    "alternativas": [
+      "Pugilista em Repouso",
+      "Galata Morente",
+      "Discóbolo",
+      "Laocoonte"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4f9711b17d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista criou \"Maman\", uma aranha gigante de bronze?",
+    "resposta": "Louise Bourgeois",
+    "alternativas": [
+      "Niki de Saint Phalle",
+      "Louise Bourgeois",
+      "Frida Kahlo",
+      "Yayoi Kusama"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a272f68d49",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor flamengo do século XVI retratou festas e jogos de camponeses?",
+    "resposta": "Bruegel",
+    "alternativas": [
+      "Van Eyck",
+      "Bruegel",
+      "Rubens",
+      "Memling"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b294585f1",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor nascido em Creta fez carreira em Toledo, na Espanha?",
+    "resposta": "El Greco",
+    "alternativas": [
+      "Murillo",
+      "El Greco",
+      "Velázquez",
+      "Zurbarán"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4ea819948f",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor espanhol fez o sombrio \"Saturno Devorando um Filho\"?",
+    "resposta": "Goya",
+    "alternativas": [
+      "Goya",
+      "El Greco",
+      "Dalí",
+      "Velázquez"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:0a3dac91e0",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+  },
+  {
+    "id": "5af80a18df",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual festival espanhol, de Barcelona, ganhou uma edição em São Paulo?",
+    "resposta": "Primavera Sound",
+    "alternativas": [
+      "Primavera Sound",
+      "Glastonbury",
+      "Coachella",
+      "Tomorrowland"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "545a8fca52",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho mede tensão, corrente e resistência elétrica?",
+    "resposta": "Multímetro",
+    "alternativas": [
+      "Termômetro",
+      "Barômetro",
+      "Multímetro",
+      "Velocímetro"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f260f240c1",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual agência regula as telecomunicações no Brasil?",
+    "resposta": "Anatel",
+    "alternativas": [
+      "Anatel",
+      "Aneel",
+      "ANP",
+      "Anvisa"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "436846ccf1",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o direito de trocar de operadora de celular mantendo o mesmo número?",
+    "resposta": "Portabilidade numérica",
+    "alternativas": [
+      "Portabilidade numérica",
+      "Pré-pago",
+      "Roaming",
+      "Desbloqueio"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "898413ac14",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual algarismo foi acrescentado no começo dos números de celular no Brasil?",
+    "resposta": "9",
+    "alternativas": [
+      "9",
+      "8",
+      "1",
+      "0"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "482e127fae",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho, encaixado na parede, permite ligar e desligar eletrodomésticos pelo celular?",
+    "resposta": "Tomada inteligente",
+    "alternativas": [
+      "Benjamim",
+      "Disjuntor",
+      "Estabilizador",
+      "Tomada inteligente"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7779",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.4)"
+  },
+  {
+    "id": "3e9fd4aa2a",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "O que permite que o tempo de cada corredor de uma maratona seja marcado automaticamente?",
+    "resposta": "Chip de cronometragem",
+    "alternativas": [
+      "Fotografia aérea",
+      "Cronômetro de mão",
+      "Chip de cronometragem",
+      "Juiz de chegada"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fbf6b4857a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual componente eletrônico limita a passagem da corrente elétrica num circuito?",
+    "resposta": "Resistor",
+    "alternativas": [
+      "Transistor",
+      "Resistor",
+      "Capacitor",
+      "Diodo"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3bdcf8f225",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual componente eletrônico armazena carga elétrica por um curto tempo?",
+    "resposta": "Capacitor",
+    "alternativas": [
+      "Resistor",
+      "Fusível",
+      "Capacitor",
+      "Relé"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "58867e3a1a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual app de corridas de origem espanhola concorre com Uber e 99?",
+    "resposta": "Cabify",
+    "alternativas": [
+      "Rappi",
+      "Lyft",
+      "Cabify",
+      "Didi"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "163615a8c7",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual bola da Copa de 2022 tinha um sensor que ajudava o VAR nos impedimentos?",
+    "resposta": "Al Rihla",
+    "alternativas": [
+      "Al Rihla",
+      "Jabulani",
+      "Telstar",
+      "Brazuca"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:e515c45284",
+    "recente": true,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 25.6)"
+  },
+  {
+    "id": "c52024922e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o envio em tempo real dos dados do carro de corrida para a equipe?",
+    "resposta": "Telemetria",
+    "alternativas": [
+      "Pit stop",
+      "Aerodinâmica",
+      "Telemetria",
+      "Downforce"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0727552dd2",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual serviço de streaming de música foi criado na França?",
+    "resposta": "Deezer",
+    "alternativas": [
+      "Tidal",
+      "Deezer",
+      "Spotify",
+      "Napster"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7ebdb4d02f",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual componente eletrônico deixa a corrente passar num só sentido?",
+    "resposta": "Diodo",
+    "alternativas": [
+      "Diodo",
+      "Relé",
+      "Capacitor",
+      "Resistor"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4818",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.9)"
+  },
+  {
+    "id": "8fbdccd51a",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a placa cheia de furinhos usada para montar circuitos sem solda?",
+    "resposta": "Protoboard",
+    "alternativas": [
+      "Arduino",
+      "Protoboard",
+      "Placa-mãe",
+      "Fibra óptica"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28e18b5aec",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual plástico de origem vegetal é o mais usado nas impressoras 3D domésticas?",
+    "resposta": "PLA",
+    "alternativas": [
+      "PET",
+      "Nylon",
+      "PLA",
+      "PVC"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "39712b9f94",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual linguagem de programação é muito usada para estatística e análise de dados?",
+    "resposta": "R",
+    "alternativas": [
+      "Go",
+      "Swift",
+      "C",
+      "R"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "302700c083",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual linguagem de programação foi criada pelo Google em 2009?",
+    "resposta": "Go",
+    "alternativas": [
+      "Go",
+      "Rust",
+      "Kotlin",
+      "Swift"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f6fe425212",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual praça central de Madri, cercada de prédios com arcadas, é uma das mais famosas da Espanha?",
+    "resposta": "Plaza Mayor",
+    "alternativas": [
+      "Plaza de España",
+      "Plaza de Cibeles",
+      "Plaza Mayor",
+      "Puerta del Sol"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de6a2dc4d5",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quais países sul-americanos foram escolhidos, em 2024, para receber jogos comemorativos do centenário na Copa de 2030?",
+    "resposta": "Uruguai, Argentina e Paraguai",
+    "alternativas": [
+      "Uruguai, Argentina e Paraguai",
+      "Uruguai, Brasil e Chile",
+      "Brasil, Chile e Peru",
+      "Argentina, Colômbia e Equador"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "a459b6d172",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual meia uruguaio, ídolo do River Plate, inspirou Zidane a dar seu nome ao filho mais velho?",
+    "resposta": "Enzo Francescoli",
+    "alternativas": [
+      "Álvaro Recoba",
+      "Enzo Francescoli",
+      "Daniel Fonseca",
+      "Rubén Sosa"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:6136 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:6136",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "b1bd8d75b4",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor fez \"A Justiça\", estátua de olhos vendados em frente ao STF, em Brasília?",
+    "resposta": "Alfredo Ceschiatti",
+    "alternativas": [
+      "Bruno Giorgi",
+      "Alfredo Ceschiatti",
+      "Frans Krajcberg",
+      "Victor Brecheret"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
     "dup_regra": null
   }
 ]

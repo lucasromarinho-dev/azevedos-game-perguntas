@@ -2722,6 +2722,45 @@
         "perguntas": 46,
         "total": 86
       }
+    },
+    {
+      "lote": "071",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 96,
+      "validas": 93,
+      "descartadas": 3,
+      "taxa_descarte": 0.03,
+      "caracteres": 14137,
+      "tokens_aprox": 4039,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r7-071.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r7-071.txt"
+        ],
+        "linhas": 174,
+        "existem": 83,
+        "risco": 12,
+        "tokens_aprox": 2885,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.48,
+        "candidatas_por_valida": 1.87
+      },
+      "perguntas": {
+        "escritas": 96,
+        "validas": 93,
+        "descartadas_detector": 3,
+        "descarte": 0.03,
+        "tokens_aprox": 4039
+      },
+      "tokens_por_valida": {
+        "listas": 31,
+        "perguntas": 43,
+        "total": 74
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -8171,6 +8210,14 @@
       "livres": 0,
       "caracteres": 548,
       "tokens_aprox": 157
+    },
+    "r7-071.txt": {
+      "linhas": 174,
+      "existem": 83,
+      "risco": 12,
+      "livres": 79,
+      "caracteres": 10097,
+      "tokens_aprox": 2885
     }
   },
   "rodada3": {

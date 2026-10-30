@@ -8,6 +8,12 @@ As rodadas 1 a 4 (lotes 001 a 045) foram publicadas na `main` em 24/10/2026, com
 
 Atenção para a próxima rodada: o `perguntas.json` desta branch ainda é o banco antigo (4.580). Antes de gerar lotes novos, trazer o da `main` (`git checkout origin/main -- perguntas.json`) para o detector de duplicadas comparar com as 8.982, e não reaproveitar status `aprovada` dos lotes 001 a 045 (já estão publicadas).
 
+## Publicação da rodada 8 (30/10/2026)
+
+A rodada 8 (lotes 076 a 085) foi publicada na `main` em 30/10/2026, commit `498496d` ("Banco v8: +836 perguntas da rodada 8 (total 12.741)"), com autorização do Lucas. Antes, a checagem web complementar da rodada foi concluída sem pendências (commit `4db6341`) e a integridade da `b12fc901f5` (Sobrado, lote 082) foi conferida. As 836 `conferida` viraram `aprovada` (`aprovado_em: "2026-10-30"`, commit `3564736` nesta branch) e entraram depois das 11.905 da `main` (banco v7, base `db476d1`), na ordem dos lotes, só com os campos do jogo. Validador do jogo (`montarBanco`): 12.741 válidas, 0 descartadas; nenhum enunciado repetido (nem sem maiúsculas e espaços); as 11.905 antigas idênticas byte a byte. A pasta `expansao/` não foi para a `main`.
+
+Atenção para a próxima rodada: trazer o `perguntas.json` da `main` (12.741) antes de gerar lotes novos, e não reaproveitar status `aprovada` dos lotes 001 a 085 (já estão publicadas).
+
 ## Publicação da rodada 7 (30/10/2026)
 
 A rodada 7 (lotes 066 a 075) foi publicada na `main` em 30/10/2026, commit `db476d1` ("Banco v7: +972 perguntas da rodada 7 (total 11.905)"), com autorização do Lucas. Antes, as 22 que tinham ficado fora da checagem web complementar foram confirmadas (commit `71396c7`). As 972 `conferida` viraram `aprovada` (`aprovado_em: "2026-10-30"`, commit `e73ef51` nesta branch) e entraram depois das 10.933 da `main` (banco v6, base `68ff1de`), na ordem dos lotes, só com os campos do jogo. Validador do jogo (`montarBanco`): 11.905 válidas, 0 descartadas; nenhum enunciado repetido (nem sem maiúsculas e espaços); as 10.933 antigas idênticas byte a byte. A pasta `expansao/` não foi para a `main`.

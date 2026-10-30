@@ -620,7 +620,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "536849853e",
@@ -643,7 +644,8 @@
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 23% do fato)",
     "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
     "correcao": "errada Joaquim Nabuco era a resposta de banco:1178 (respostas cruzadas); trocada",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "49b757f25d",
@@ -665,7 +667,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "erradas Rigoberta Menchú e Wangari Maathai eram respostas de 071:13d95c (respostas cruzadas) e 070:0f9a8e; trocadas",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "a4f606c8c8",
@@ -961,7 +964,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada 2002 era a resposta de 071:62f764, do mesmo molde (ano do rebaixamento); trocada",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "ec87109ed5",
@@ -983,7 +987,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada 2008 era a resposta de 6f92f (mesmo lote), do mesmo molde; trocada",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "8229eb3d5d",
@@ -1089,7 +1094,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "595a06d1ca",
@@ -1413,7 +1419,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada Haruki Murakami era a resposta de 522db (mesmo lote); trocada",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "0e5dbe93db",
@@ -1434,7 +1441,8 @@
     "dup_ref": "banco:8159",
     "recente": true,
     "dup_regra": "resposta nova citada no texto antigo (6.1)",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "ac754b85e3",
@@ -1519,7 +1527,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "6570b0784e",
@@ -1583,7 +1592,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "b15aea119e",
@@ -1985,7 +1995,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada Manoel dos Santos era a resposta de 074:ea618d, que tem Tetsuo Okamoto entre as erradas (respostas cruzadas); trocada",
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "ea641ca760",
@@ -2011,7 +2022,7 @@
     "id": "abc7969125",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual atriz, que dá nome a teatros em São Paulo e no Rio, passou mal em cena em 1969 e morreu semanas depois?",
+    "pergunta": "Qual atriz passou mal em cena durante \"Esperando Godot\", em 1969, e morreu semanas depois?",
     "resposta": "Cacilda Becker",
     "alternativas": [
       "Fernanda Montenegro",
@@ -2026,7 +2037,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v7"
+    "conferido_por": "conferente-v7",
+    "correcao": "'dá nome a teatros em São Paulo e no Rio' não foi confirmado em fonte; trocado pelo detalhe confirmado (Esperando Godot) (correção depois do lote fechado, conferente-v7)",
+    "verificado_web": true
   },
   {
     "id": "1e93d3fde3",

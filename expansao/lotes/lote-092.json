@@ -12,12 +12,13 @@
       "Kavir"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "aec847f9da",
@@ -32,12 +33,13 @@
       "Negev"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6791",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.3)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.3)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a92f40a5a5",
@@ -49,17 +51,18 @@
       "Lefkada",
       "Ítaca",
       "Zante",
-      "Cefalônia"
+      "Creta"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual ilha grega era o reino de Ulisses, o herói da \"Odisseia\"?\"); enunciado reescrito na geração (antes: \"Qual ilha grega do Mar Jônico era, na mitologia, o reino do herói que levou dez anos para voltar de Troia?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:961)"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual ilha grega era o reino de Ulisses, o herói da \"Odisseia\"?\"); enunciado reescrito na geração (antes: \"Qual ilha grega do Mar Jônico era, na mitologia, o reino do herói que levou dez anos para voltar de Troia?\") | conferente-v9: errada Cefalônia: há estudiosos que defendem que a Ítaca de Homero ficava na própria Cefalônia (defensável); trocada",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:961)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9b072a5dda",
@@ -74,12 +77,14 @@
       "Delos"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "71fee26874",
@@ -94,17 +99,18 @@
       "Giudecca"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "45a9626e5d",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual ilha da lagoa de Veneza é famosa pelas casinhas coloridas e pelas rendas?",
     "resposta": "Burano",
     "alternativas": [
@@ -114,12 +120,16 @@
       "Torcello"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:71fee26874",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 18.0)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 18.0)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: Burano é ilha turística muito conhecida, vizinha de Murano; rebaixada"
   },
   {
     "id": "b261279408",
@@ -134,12 +144,14 @@
       "Lipari"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "04cdfcbbcb",
@@ -154,13 +166,15 @@
       "João XXIII"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Pio XII\" trocada por \"Pio X\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Pio XII\" trocada por \"Pio X\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a1b228025a",
@@ -175,14 +189,15 @@
       "Paulo III"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual papa encomendou a Michelangelo a pintura do teto da Capela Sistina?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:853)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:853)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6b342e1416",
@@ -197,13 +212,15 @@
       "Clemente VII"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:d3bb6b5a03",
     "recente": false,
     "dup_regra": "mesma resposta, assunto vizinho (6.3, 18% do fato)",
-    "correcao": "enunciado reescrito na geração (antes: \"Qual papa da família Médici excomungou Martinho Lutero?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual papa da família Médici excomungou Martinho Lutero?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "10180118cd",
@@ -218,12 +235,13 @@
       "Pio XI"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "74b26b651a",
@@ -238,12 +256,14 @@
       "Suharto"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "eb6cb480e6",
@@ -258,12 +278,14 @@
       "Ramon Magsaysay"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1547",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6453948880",
@@ -278,13 +300,15 @@
       "Tansu Çiller"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Indira Gandhi\" trocada por \"Tansu Çiller\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Indira Gandhi\" trocada por \"Tansu Çiller\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9e3901ddf8",
@@ -299,12 +323,14 @@
       "Goh Chok Tong"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b2d7a0e946",
@@ -319,13 +345,15 @@
       "Kenneth Kaunda"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Jomo Kenyatta\" trocada por \"Daniel arap Moi\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Jomo Kenyatta\" trocada por \"Daniel arap Moi\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d0e696ed3a",
@@ -340,12 +368,14 @@
       "Holden Roberto"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "338652e9ad",
@@ -360,12 +390,14 @@
       "Aristides Pereira"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3ecbf5d810",
@@ -380,12 +412,14 @@
       "Sékou Touré"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5456566efb",
@@ -400,12 +434,14 @@
       "Hoodia"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ed4390d093",
@@ -420,12 +456,13 @@
       "Pinguicula"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7b4eb23a5c",
@@ -440,13 +477,14 @@
       "Síndrome de Burnout"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Síndrome de Down\" trocada por \"Síndrome de Rett\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Síndrome de Down\" trocada por \"Síndrome de Rett\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b68b84ef2a",
@@ -461,12 +499,13 @@
       "Síndrome de Münchausen"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1bd22ec41c",
@@ -481,12 +520,13 @@
       "Síndrome do pânico"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a56726f3e8",
@@ -501,12 +541,13 @@
       "Síndrome de Peter Pan"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "90ec7e1664",
@@ -521,12 +562,14 @@
       "Síndrome de Rett"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dad548989d",
@@ -541,13 +584,14 @@
       "Waimea"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Pipeline\" trocada por \"Banzai\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Pipeline\" trocada por \"Banzai\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "45b809afb0",
@@ -562,12 +606,14 @@
       "Jeffreys Bay"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "15f05660e3",
@@ -582,12 +628,13 @@
       "Canggu"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cc9c6137f9",
@@ -598,17 +645,19 @@
     "alternativas": [
       "World Series of Fighting",
       "Jungle Fight",
-      "Strikeforce",
+      "One Championship",
       "Bellator"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Pride\" trocada por \"World Series of Fighting\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Pride\" trocada por \"World Series of Fighting\" na geração (era resposta de outra pergunta) | conferente-v9: errada Strikeforce também foi por anos a segunda maior organização americana de MMA, até 2013 (defensável); trocada",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "496d8ceb88",
@@ -623,12 +672,13 @@
       "Anthony Perkins"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c742b5d7b3",
@@ -643,12 +693,13 @@
       "Linda Hamilton"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"qual ator/atriz viveu o personagem X\" tinha 7 no lote 092 e mais na rodada; ficaram Perkins, Keaton, Tautou, Bates e Tim Curry",
     "dup": "suspeita",
     "dup_ref": "banco:6262",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a39ba6eb53",
@@ -663,13 +714,14 @@
       "Diane Keaton"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Meryl Streep\" trocada por \"Shelley Duvall\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Meryl Streep\" trocada por \"Shelley Duvall\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ee1f950ec7",
@@ -684,12 +736,13 @@
       "Eva Green"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5167e9fd54",
@@ -704,12 +757,13 @@
       "Mike Judge"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6bdebbfcb4",
@@ -724,12 +778,13 @@
       "Butch Hartman"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6459b87f76",
@@ -744,12 +799,14 @@
       "Genndy Tartakovsky"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f69bb702a9",
@@ -764,12 +821,14 @@
       "J. G. Quintel"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cfb28f66b6",
@@ -784,12 +843,13 @@
       "Ben Bocquelet"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "483788fdc6",
@@ -804,12 +864,13 @@
       "Tiny Wings"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "948ae0c2d7",
@@ -824,13 +885,14 @@
       "Dinheirama"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"PicPay\" trocada por \"Dinheirama\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"PicPay\" trocada por \"Dinheirama\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a07e0a1f92",
@@ -845,12 +907,13 @@
       "RD Station"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "887eb73f37",
@@ -865,12 +928,13 @@
       "Ilha de Wight"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b34bcbf307",
@@ -885,12 +949,14 @@
       "Órcadas"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c83ed4e530",
@@ -905,12 +971,13 @@
       "Anglesey"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2d9f64a53e",
@@ -925,12 +992,14 @@
       "Ilha de Islay"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fe0b69141b",
@@ -945,12 +1014,14 @@
       "Saaremaa"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b738d99c31",
@@ -965,12 +1036,13 @@
       "Avinhão"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e184b44a0a",
@@ -985,12 +1057,14 @@
       "Sarnath"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "020d347c0e",
@@ -1005,13 +1079,15 @@
       "Anastasio Somoza"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual guerrilheiro nicaraguense dos anos 1920 e 1930 deu nome aos sandinistas?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual guerrilheiro nicaraguense dos anos 1920 e 1930 deu nome aos sandinistas?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "09d37bf974",
@@ -1026,12 +1102,14 @@
       "Alejandro Toledo"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cc467e6f37",
@@ -1046,13 +1124,15 @@
       "Omar Torrijos"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Manuel Noriega\" trocada por \"Ernesto Pérez Balladares\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Manuel Noriega\" trocada por \"Ernesto Pérez Balladares\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cd853edcb6",
@@ -1067,12 +1147,14 @@
       "Rodrigo Carazo"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "87fdfc0724",
@@ -1087,12 +1169,14 @@
       "Violeta Chamorro"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b80984ed45",
@@ -1107,12 +1191,14 @@
       "Gabriela Mistral"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "41d9f0b2d6",
@@ -1127,12 +1213,14 @@
       "Álvaro García Linera"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c9f362a3fc",
@@ -1147,13 +1235,14 @@
       "Corpo caloso"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Bulbo\" trocada por \"Ponte de Varólio\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Bulbo\" trocada por \"Ponte de Varólio\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8b2390463d",
@@ -1168,12 +1257,13 @@
       "Ínsula"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e408abaa66",
@@ -1188,12 +1278,14 @@
       "Área tegmental"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8814153584",
@@ -1208,12 +1300,13 @@
       "Neurônios motores"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4694",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.8)"
+    "dup_regra": "resposta nova citada no texto antigo (5.8)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b52fbf86dd",
@@ -1228,13 +1321,15 @@
       "Adrián"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Alisson\" trocada por \"Danny Ward\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Alisson\" trocada por \"Danny Ward\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "48401c72c3",
@@ -1249,12 +1344,13 @@
       "Aaron Ramsey"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "70445c0ea5",
@@ -1269,12 +1365,14 @@
       "Wojciech Szczęsny"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "468ee92a84",
@@ -1309,13 +1407,15 @@
       "Dínamo"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6025",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.4)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6025)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6025)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "814631946b",
@@ -1330,12 +1430,13 @@
       "Anjelica Huston"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "de6459bca9",
@@ -1350,13 +1451,15 @@
       "John Lithgow"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual ator viveu o palhaço Pennywise na minissérie \"It\", de 1990?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual ator viveu o palhaço Pennywise na minissérie \"It\", de 1990?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "537fef5294",
@@ -1371,13 +1474,14 @@
       "Tony Todd"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "conferente-v9: molde \"qual ator/atriz viveu o personagem X\" tinha 7 no lote 092; cortada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual ator viveu Freddy Krueger em \"A Hora do Pesadelo\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual ator viveu Freddy Krueger em \"A Hora do Pesadelo\"?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d2c05e868e",
@@ -1392,12 +1496,13 @@
       "Stabat Mater"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4f3906b916",
@@ -1412,12 +1517,14 @@
       "O Danúbio Azul"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "037af726a0",
@@ -1446,18 +1553,20 @@
     "pergunta": "Qual peça de Rimsky-Korsakov imita, com notas rapidíssimas, o zumbido de um inseto?",
     "resposta": "O Voo do Besouro",
     "alternativas": [
-      "O Moscardo",
+      "Scheherazade",
       "Bolero",
       "O Voo do Besouro",
       "A Dança do Sabre"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada O Moscardo lembrava \"O Voo do Moscardo\", nome com que a própria peça às vezes aparece em português (defensável); trocada por Scheherazade"
   },
   {
     "id": "f29d9a7fc5",
@@ -1472,12 +1581,14 @@
       "Rhapsody in Blue"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3251",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "369978a37c",
@@ -1492,12 +1603,14 @@
       "SketchUp"
     ],
     "subtema": "Programas e sistemas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "370fdb63ce",
@@ -1512,11 +1625,12 @@
       "Wayback Machine"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   }
 ]

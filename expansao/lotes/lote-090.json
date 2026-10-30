@@ -12,12 +12,13 @@
       "Highlands"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0dbcae1548",
@@ -32,13 +33,14 @@
       "Santa Lúcia"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Barbados\" trocada por \"São Vicente\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual ilha do Caribe, terra natal da imperatriz Josefina, é um departamento ultramarino da França?\")"
+    "correcao": "errada \"Barbados\" trocada por \"São Vicente\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual ilha do Caribe, terra natal da imperatriz Josefina, é um departamento ultramarino da França?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b8194523ec",
@@ -53,12 +55,14 @@
       "Cabo de São Vicente"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "baa6263dc5",
@@ -73,12 +77,14 @@
       "Cabo Lopez"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1f1aca6e4b",
@@ -87,18 +93,20 @@
     "pergunta": "Qual cabo do Rio Grande do Norte é chamado de \"esquina do continente\"?",
     "resposta": "Cabo de São Roque",
     "alternativas": [
-      "Cabo Branco do Norte",
-      "Cabo Calcanhar",
+      "Cabo Frio",
+      "Cabo de Santo Agostinho",
       "Cabo de São Roque",
       "Cabo de Santo Antônio"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Cabo Calcanhar: a Ponta do Calcanhar, em Touros, também é chamada de \"esquina do continente\" (defensável); Cabo Branco do Norte era nome inventado; trocadas; errada \"Cabo Branco do Norte\" trocada por \"Cabo Frio\""
   },
   {
     "id": "49cc97275a",
@@ -108,19 +116,20 @@
     "resposta": "Cabo Orange",
     "alternativas": [
       "Cabo Orange",
-      "Cabo Norte do Brasil",
+      "Cabo Norte",
       "Cabo Raso",
       "Cabo Cassiporé"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual cabo do extremo norte do Amapá dá nome a um parque nacional na fronteira com a Guiana Francesa?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:447)"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual cabo do extremo norte do Amapá dá nome a um parque nacional na fronteira com a Guiana Francesa?\") | conferente-v9: errada Cabo Norte do Brasil era nome inventado; trocada pelo Cabo Norte real do Amapá (longe do Oiapoque, sem parque)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:447)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "23f779acbc",
@@ -135,12 +144,14 @@
       "Cabo Ortegal"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b1b1becd3a",
@@ -155,12 +166,14 @@
       "Cabo Navarin"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "eb8feb9701",
@@ -175,12 +188,13 @@
       "Maastricht"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "af0b6d4f0c",
@@ -195,12 +209,13 @@
       "Pampas"
     ],
     "subtema": "Biomas, clima e natureza",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "59dcf81b75",
@@ -212,15 +227,18 @@
       "Veld",
       "Fynbos",
       "Bush",
-      "Karoo"
+      "Puszta"
     ],
     "subtema": "Biomas, clima e natureza",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Karoo também é região seca e aberta do interior sul-africano (defensável); trocada"
   },
   {
     "id": "ae8ee646d9",
@@ -230,18 +248,19 @@
     "resposta": "Maqui",
     "alternativas": [
       "Landa",
-      "Garrigue alpina",
+      "Pradaria",
       "Maqui",
       "Charneca atlântica"
     ],
     "subtema": "Biomas, clima e natureza",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Taiga\" trocada por \"Landa\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Taiga\" trocada por \"Landa\" na geração (era resposta de outra pergunta) | conferente-v9: errada Garrigue alpina: a garrigue é justamente outra vegetação de arbustos baixos e aromáticos do Mediterrâneo (defensável); trocada",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b5a28dd395",
@@ -251,18 +270,19 @@
     "resposta": "Mar de Bering",
     "alternativas": [
       "Mar de Bering",
-      "Mar de Chukchi",
+      "Mar Branco",
       "Mar de Okhotsk",
       "Mar de Kara"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Mar de Barents\" trocada por \"Mar de Chukchi\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Mar de Barents\" trocada por \"Mar de Chukchi\" na geração (era resposta de outra pergunta) | conferente-v9: errada Mar de Chukchi também fica entre o Alasca e a Sibéria, ao norte do Estreito de Bering (defensável); trocada",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "46058a6237",
@@ -277,14 +297,15 @@
       "Mar de Scotia"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual mar gelado da Antártida, onde afundou o navio Endurance de Shackleton, leva o nome de um navegador britânico?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:afa8d002a1)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:afa8d002a1)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8137661a7d",
@@ -299,13 +320,14 @@
       "Couraceiros Farrapos"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Dragões da Independência\" trocada por \"Guardas Pampeanos\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Dragões da Independência\" trocada por \"Guardas Pampeanos\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e61d1f39ae",
@@ -320,14 +342,16 @@
       "Caçapava"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:8137661a7d",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 24.7)",
     "correcao": "enunciado reescrito na geração (antes: \"Em qual cerro gaúcho os Lanceiros Negros foram massacrados em 1844, num episódio cercado de polêmica?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:8137661a7d)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:8137661a7d)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2d3266e2cb",
@@ -342,13 +366,14 @@
       "Rondon"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Barão do Rio Branco\" trocada por \"Coronel Siqueira\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Barão do Rio Branco\" trocada por \"Coronel Siqueira\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4c237be5dc",
@@ -360,16 +385,19 @@
       "Novo Detroit",
       "Fordlândia",
       "Vila Americana",
-      "Belterra do Norte"
+      "Nova Brasília"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1256",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.3)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:1256)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:1256)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Belterra do Norte imitava Belterra, a segunda cidade de Ford na Amazônia (defensável e inventada); trocada"
   },
   {
     "id": "bea19de721",
@@ -384,14 +412,16 @@
       "Império Austríaco"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7819",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
     "correcao": "enunciado reescrito na geração (antes: \"Qual império europeu, nascido com Oto I no século X, foi dissolvido em 1806 depois das vitórias de Napoleão?\"); errada \"Império Bizantino\" trocada por \"Império Habsburgo\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7819)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7819)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d845208fbb",
@@ -406,12 +436,13 @@
       "Toxicologia"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ee82416b92",
@@ -426,13 +457,14 @@
       "Formol"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Iodo\" trocada por \"Azul de metileno\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Iodo\" trocada por \"Azul de metileno\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a8b6193d1c",
@@ -447,12 +479,13 @@
       "Algor mortis"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c6e3f58c7a",
@@ -462,17 +495,19 @@
     "resposta": "Datiloscopia",
     "alternativas": [
       "Datiloscopia",
-      "Papiloscopia ocular",
+      "Iridologia",
       "Antropometria",
       "Grafologia"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Papiloscopia ocular era nome inventado e a papiloscopia inclui a própria identificação por digitais (defensável); trocada"
   },
   {
     "id": "929086b6f1",
@@ -487,12 +522,14 @@
       "Alphonse Bertillon"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "461cfcce9f",
@@ -507,12 +544,13 @@
       "Ciclone de Fujiwara"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a666ee2e0a",
@@ -527,12 +565,13 @@
       "Harmatão"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6d17c9ba1d",
@@ -547,13 +586,15 @@
       "Halo lunar"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Raio verde\" trocada por \"Aurora austral\" na geração (era resposta de outra pergunta); errada \"Luz zodiacal\" trocada por \"Halo lunar\" na geração (era resposta de outra pergunta); errada \"Aurora austral\" trocada por \"Relâmpago seco\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Raio verde\" trocada por \"Aurora austral\" na geração (era resposta de outra pergunta); errada \"Luz zodiacal\" trocada por \"Halo lunar\" na geração (era resposta de outra pergunta); errada \"Aurora austral\" trocada por \"Relâmpago seco\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "75c87f6317",
@@ -568,12 +609,13 @@
       "Downburst seco"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "800e80b525",
@@ -588,19 +630,21 @@
       "Ômega"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Lambda\" trocada por \"Sigma\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Lambda\" trocada por \"Sigma\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8f05da8a02",
     "categoria": "Ciências",
     "dificuldade": "dificil",
-    "pergunta": "Qual unidade, com nome de um físico sueco, mede a dose de radiação absorvida pelo corpo?",
+    "pergunta": "Qual unidade, com nome de um físico sueco, mede a dose equivalente de radiação, ligada ao efeito no corpo?",
     "resposta": "Sievert",
     "alternativas": [
       "Röntgen",
@@ -609,12 +653,15 @@
       "Gray"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: a dose absorvida é medida em gray; o sievert mede a dose equivalente/efetiva; enunciado corrigido (antes: \"Qual unidade, com nome de um físico sueco, mede a dose de radiação absorvida pelo corpo?\")"
   },
   {
     "id": "d0ad6373c8",
@@ -625,17 +672,19 @@
     "alternativas": [
       "Faraday",
       "Henry",
-      "Gauss",
+      "Siemens",
       "Weber"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Tesla\" trocada por \"Faraday\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Tesla\" trocada por \"Faraday\" na geração (era resposta de outra pergunta) | conferente-v9: errada Gauss também é unidade magnética com nome de físico alemão (densidade de fluxo), confunde com fluxo (defensável para o jogador); trocada por Siemens",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b5d225323e",
@@ -650,14 +699,15 @@
       "São Bento"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2820",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (10.5, 45% do fato)",
     "correcao": "errada \"Ponte Preta\" trocada por \"Paulista de Jundiaí\" na geração (era resposta de outra pergunta); errada \"XV de Piracicaba\" trocada por \"São Bento\" na geração (era resposta de outra pergunta)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2820)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2820)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fa530ca529",
@@ -672,13 +722,15 @@
       "Vila Nova"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Brasil de Pelotas\" trocada por \"Sport\" na geração (era resposta de outra pergunta); errada \"Sport\" trocada por \"Santa Cruz\" na geração (era resposta de outra pergunta); errada \"Santa Cruz\" trocada por \"Vila Nova\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Brasil de Pelotas\" trocada por \"Sport\" na geração (era resposta de outra pergunta); errada \"Sport\" trocada por \"Santa Cruz\" na geração (era resposta de outra pergunta); errada \"Santa Cruz\" trocada por \"Vila Nova\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "588e70fddf",
@@ -693,13 +745,15 @@
       "Paraná Clube"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Juventude\" trocada por \"Figueirense\" na geração (era resposta de outra pergunta); errada \"Coritiba\" trocada por \"Criciúma\" na geração (era resposta de outra pergunta); errada \"Figueirense\" trocada por \"Avaí\" na geração (era resposta de outra pergunta); errada \"Criciúma\" trocada por \"Joinville\" na geração (era resposta de outra pergunta); errada \"Avaí\" trocada por \"Brusque\" na geração (era resposta de outra pergunta); errada \"Brusque\" trocada por \"Tubarão\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Juventude\" trocada por \"Figueirense\" na geração (era resposta de outra pergunta); errada \"Coritiba\" trocada por \"Criciúma\" na geração (era resposta de outra pergunta); errada \"Figueirense\" trocada por \"Avaí\" na geração (era resposta de outra pergunta); errada \"Criciúma\" trocada por \"Joinville\" na geração (era resposta de outra pergunta); errada \"Avaí\" trocada por \"Brusque\" na geração (era resposta de outra pergunta); errada \"Brusque\" trocada por \"Tubarão\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "04263f3a98",
@@ -714,13 +768,15 @@
       "Kevin Young"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Jakob Ingebrigtsen\" trocada por \"Felix Sánchez\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Jakob Ingebrigtsen\" trocada por \"Felix Sánchez\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "04b1c4c82d",
@@ -735,12 +791,14 @@
       "Caterine Ibargüen"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ac47513e24",
@@ -755,18 +813,20 @@
       "Vivian Cheruiyot"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a67ea5b33c",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Qual holandesa ganhou o ouro dos 400 metros com barreiras nos Jogos de Paris 2024?",
+    "pergunta": "Qual holandesa ganhou o ouro dos 400 metros com barreiras no Mundial de Atletismo de Budapeste, em 2023?",
     "resposta": "Femke Bol",
     "alternativas": [
       "Lieke Klaver",
@@ -775,13 +835,15 @@
       "Femke Bol"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Sydney McLaughlin\" trocada por \"Anna Cockrell\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Sydney McLaughlin\" trocada por \"Anna Cockrell\" na geração (era resposta de outra pergunta) | conferente-v9: em Paris 2024 o ouro dos 400 m com barreiras foi de Sydney McLaughlin-Levrone, com Femke Bol em terceiro; enunciado refeito com o título mundial de 2023 (checagem web) (antes: \"Qual holandesa ganhou o ouro dos 400 metros com barreiras nos Jogos de Paris 2024?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4eda3d13c3",
@@ -796,13 +858,14 @@
       "Caio Ribeiro"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Edmílson\" trocada por \"Aloísio\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Edmílson\" trocada por \"Aloísio\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9987677c9c",
@@ -817,12 +880,14 @@
       "Powerage"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1f15b91fc3",
@@ -837,12 +902,14 @@
       "Born in the U.S.A."
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8465aaf52d",
@@ -857,12 +924,13 @@
       "I Am... Sasha Fierce"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "90cc205357",
@@ -877,17 +945,19 @@
       "Appetite for Destruction"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7becea80ce",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual álbum do Radiohead, de 1997, tem \"Paranoid Android\" e \"Karma Police\"?",
     "resposta": "OK Computer",
     "alternativas": [
@@ -897,12 +967,16 @@
       "Kid A"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: OK Computer é álbum muito conhecido e o enunciado dá as duas faixas; rebaixada"
   },
   {
     "id": "3e09fca353",
@@ -917,18 +991,20 @@
       "Random Access Memories"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f290c22313",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual álbum de 1959 de Miles Davis é o disco de jazz mais vendido da história?",
+    "pergunta": "Qual álbum de 1959 de Miles Davis, com \"So What\", é tido como a obra-prima do jazz modal?",
     "resposta": "Kind of Blue",
     "alternativas": [
       "A Love Supreme",
@@ -937,12 +1013,15 @@
       "Kind of Blue"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: \"o disco de jazz mais vendido da história\" não se sustenta: pela RIAA, Kind of Blue é o segundo, atrás de A Charlie Brown Christmas; enunciado refeito (checagem web) (antes: \"Qual álbum de 1959 de Miles Davis é o disco de jazz mais vendido da história?\")"
   },
   {
     "id": "3dafbbff00",
@@ -957,12 +1036,14 @@
       "Rent"
     ],
     "subtema": "Teatro e musicais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "085bac0d29",
@@ -977,12 +1058,13 @@
       "Urinetown"
     ],
     "subtema": "Teatro e musicais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3f79299282",
@@ -997,13 +1079,15 @@
       "Pippin"
     ],
     "subtema": "Teatro e musicais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Chicago\" trocada por \"Hello, Dolly!\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Chicago\" trocada por \"Hello, Dolly!\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f477ea9566",
@@ -1018,12 +1102,14 @@
       "Next to Normal"
     ],
     "subtema": "Teatro e musicais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "272d4ba405",
@@ -1033,18 +1119,20 @@
     "resposta": "Plantão Médico",
     "alternativas": [
       "Plantão Médico",
-      "Chicago Hope",
+      "St. Elsewhere",
       "Scrubs",
       "Doogie Howser"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Grey's Anatomy\" trocada por \"Doogie Howser\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual série dos anos 1990, passada num pronto-socorro de Chicago, revelou George Clooney?\")"
+    "correcao": "errada \"Grey's Anatomy\" trocada por \"Doogie Howser\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual série dos anos 1990, passada num pronto-socorro de Chicago, revelou George Clooney?\") | conferente-v9: errada Chicago Hope também era série dos anos 1990 passada num hospital de Chicago (defensável); trocada",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "44237743f6",
@@ -1059,12 +1147,14 @@
       "S.O.S. Malibu"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "16d3ee5c29",
@@ -1079,13 +1169,15 @@
       "The O.C."
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual série dos anos 1990 acompanhava jovens ricos de Beverly Hills, com o CEP 90210 no título original?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual série dos anos 1990 acompanhava jovens ricos de Beverly Hills, com o CEP 90210 no título original?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a37d486db9",
@@ -1100,13 +1192,15 @@
       "Google Allo"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Google Talk\" trocada por \"Google Allo\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Google Talk\" trocada por \"Google Allo\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0113f04776",
@@ -1121,13 +1215,15 @@
       "iMac G3"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3879",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (12.8, 38% do fato)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3879)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3879)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7b969bef70",
@@ -1142,13 +1238,15 @@
       "Odeo"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Blogger\" trocada por \"Digg\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Blogger\" trocada por \"Digg\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "40e8a028d7",
@@ -1163,12 +1261,13 @@
       "CDBurnerXP"
     ],
     "subtema": "Programas e sistemas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ed2f2323a3",
@@ -1183,14 +1282,16 @@
       "Messenger Plus"
     ],
     "subtema": "Programas e sistemas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4843",
     "recente": false,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (19.7)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4843)",
-    "correcao": "enunciado reescrito na geração (antes: \"Qual complemento do MSN Messenger permitia trocar apelidos coloridos e usar mais recursos?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual complemento do MSN Messenger permitia trocar apelidos coloridos e usar mais recursos?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "b5c4013498",
@@ -1205,12 +1306,13 @@
       "Simca Aronde"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f38a423f85",
@@ -1225,12 +1327,14 @@
       "Trabant"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "73a24c32d6",
@@ -1245,13 +1349,15 @@
       "Skoda"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual marca soviética de carros vendeu no Brasil o modelo Laika nos anos 1990?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual marca soviética de carros vendeu no Brasil o modelo Laika nos anos 1990?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cde928ba92",
@@ -1266,13 +1372,15 @@
       "Studebaker Champion"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual carro inovador de 1948 virou filme de Francis Ford Coppola sobre seu criador?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual carro inovador de 1948 virou filme de Francis Ford Coppola sobre seu criador?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c2ae2e91f4",
@@ -1287,13 +1395,14 @@
       "Piaggio Ciao"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:cbbb63ebb0",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.7)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:cbbb63ebb0)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:cbbb63ebb0)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "613cfb9125",
@@ -1302,18 +1411,20 @@
     "pergunta": "Qual moto da Honda é a mais vendida da história do Brasil?",
     "resposta": "Honda CG",
     "alternativas": [
-      "Honda Titan Pro",
+      "Honda XRE",
       "Honda CG",
       "Honda Pop",
       "Honda Biz"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Honda Titan: a Titan é versão da própria CG (CG 125/150 Titan), defensável; trocada"
   },
   {
     "id": "e3a6508d56",
@@ -1328,12 +1439,13 @@
       "Kawasaki"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bbe8f77cde",
@@ -1348,12 +1460,13 @@
       "Aprilia"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "87e8218d0a",
@@ -1368,13 +1481,15 @@
       "Boeing 777X"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:8a2fa970dd",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.1)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:8a2fa970dd)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:8a2fa970dd)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "434f89f79c",
@@ -1389,13 +1504,14 @@
       "LATAM"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Gol\" trocada por \"Webjet\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Gol\" trocada por \"Webjet\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dac79d8d12",
@@ -1410,12 +1526,13 @@
       "Genius"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "11487100f5",
@@ -1425,18 +1542,20 @@
     "resposta": "Lego Mindstorms",
     "alternativas": [
       "Lego Mindstorms",
-      "Lego Dacta",
+      "Lego Duplo",
       "Lego Technic",
       "Lego Robotix"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7562",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (7.8)",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7562)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7562)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Lego Dacta, a linha educacional, também tinha kits programáveis (Control Lab), defensável; trocada"
   },
   {
     "id": "bf32a73f95",
@@ -1445,19 +1564,20 @@
     "pergunta": "Como os brasileiros chamavam os videogames portáteis de uma tela só, com um jogo como o de Tetris?",
     "resposta": "Mini Game",
     "alternativas": [
-      "Brick Game",
+      "Game Gear",
       "Pense Bem",
       "Pocket Arcade",
       "Mini Game"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Game Boy\" trocada por \"Brick Game\" na geração (era resposta de outra pergunta); errada \"Tamagotchi\" trocada por \"Pocket Arcade\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Game Boy\" trocada por \"Brick Game\" na geração (era resposta de outra pergunta); errada \"Tamagotchi\" trocada por \"Pocket Arcade\" na geração (era resposta de outra pergunta) | conferente-v9: errada Brick Game é o nome de fábrica dos próprios minigames de Tetris (defensável); trocada por Game Gear",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a3178835a5",
@@ -1472,12 +1592,14 @@
       "Stanley Mortensen"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f5e9b39eb2",
@@ -1492,12 +1614,14 @@
       "Hennadiy Lytovchenko"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "117e74ee6d",
@@ -1512,12 +1636,14 @@
       "Éric Cantona"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "538d3dfa79",
@@ -1532,12 +1658,14 @@
       "Andreas Möller"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ad89960b17",
@@ -1552,13 +1680,15 @@
       "Luís Figo"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Deco\" trocada por \"Simão Sabrosa\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Deco\" trocada por \"Simão Sabrosa\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bf7d8ea886",
@@ -1573,13 +1703,14 @@
       "Ulf Kirsten"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Jürgen Klinsmann\" trocada por \"Ulf Kirsten\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual atacante alemão marcou o primeiro gol de ouro de uma final, na Eurocopa de 1996?\")"
+    "correcao": "errada \"Jürgen Klinsmann\" trocada por \"Ulf Kirsten\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual atacante alemão marcou o primeiro gol de ouro de uma final, na Eurocopa de 1996?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "074c53478e",
@@ -1594,12 +1725,14 @@
       "Homem-Aranha: Sem Volta para Casa"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8bab644366",
@@ -1614,13 +1747,14 @@
       "Cobra Kai"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual série retoma a rivalidade entre Daniel LaRusso e Johnny Lawrence, de \"Karatê Kid\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual série retoma a rivalidade entre Daniel LaRusso e Johnny Lawrence, de \"Karatê Kid\"?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e0fbe91bb7",
@@ -1635,13 +1769,14 @@
       "João Gomes"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual cantor pernambucano de piseiro estourou em 2021 com \"Meu Pedaço de Pecado\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual cantor pernambucano de piseiro estourou em 2021 com \"Meu Pedaço de Pecado\"?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7f3e1ca883",
@@ -1656,13 +1791,14 @@
       "Duda Beat"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Ludmilla\" trocada por \"Lexa\" na geração (era resposta de outra pergunta); errada \"Pabllo Vittar\" trocada por \"Duda Beat\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Ludmilla\" trocada por \"Lexa\" na geração (era resposta de outra pergunta); errada \"Pabllo Vittar\" trocada por \"Duda Beat\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1f1be2545e",
@@ -1717,13 +1853,15 @@
       "David Ayer"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Zack Snyder\" trocada por \"David Ayer\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Zack Snyder\" trocada por \"David Ayer\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7d697944d8",
@@ -1738,12 +1876,13 @@
       "Smiley Smile"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "874cc0ea09",
@@ -1778,13 +1917,14 @@
       "Sófocles"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Ésquilo\" trocada por \"Agatão\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Ésquilo\" trocada por \"Agatão\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7402df376c",
@@ -1799,12 +1939,13 @@
       "Aristófanes"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "babbdecf44",
@@ -1819,12 +1960,13 @@
       "Tácito"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "19c1f7a1b6",
@@ -1839,12 +1981,13 @@
       "Pausânias"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Heródoto\" trocada por \"Diodoro Sículo\" na geração (era resposta de outra pergunta); errada \"Tucídides\" trocada por \"Pausânias\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Heródoto\" trocada por \"Diodoro Sículo\" na geração (era resposta de outra pergunta); errada \"Tucídides\" trocada por \"Pausânias\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   }
 ]

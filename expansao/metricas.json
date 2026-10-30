@@ -5342,6 +5342,106 @@
         "espelhos_r5": [
           "5fce3834cb (Laurásia, 053) x 7b51fa2b66 (Gondwana, 052): fatos diferentes, mantida; não é espelho estrito"
         ]
+      },
+      {
+        "lote": "054",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 92,
+        "corrigidas": 8,
+        "rebaixadas": 3,
+        "descartadas": 4,
+        "motivos_descarte": {
+          "duplicada": 3,
+          "espelho": 1
+        },
+        "perguntas_com_busca_web": 15,
+        "buscas_web": 14,
+        "buscas_web_nota": "14 buscas executadas; 3 outras foram bloqueadas pelo limite de buscas da sessão (impingem, Diddy Kong Racing, Vince Lombardi/over), conferidas por conhecimento consolidado",
+        "suspeitas": {
+          "total": 14,
+          "mantidas": 10,
+          "reescritas": 2,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "Esportes": {
+            "conferidas": 18,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 2,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "c60a3d2176: duplicada: mesmo fato que banco:1443 (Qual imperador romano mandou construir uma muralha na Britânia? => Adriano), inverso",
+          "8e3d35f493: duplicada: mesma pergunta que id:8e3d35f493 (lote 031), já aprovada",
+          "892880e5b5: espelho: mesmo fato que id:4e95a45b7b (lote 039, Loteria Esportiva), e o enunciado cita \"loteria esportiva\", a resposta daquela",
+          "8a110f7a73: duplicada: mesmo fato que banco:3706 (No contexto das redes sociais, o que significa a sigla DM? => Mensagem direta), inverso"
+        ],
+        "correcoes": [
+          "0a28474c06: alternativas no mesmo formato (Troféu ...)",
+          "d73fcab9fb: erradas alongadas para ter a mesma cara da certa",
+          "6d3a2ddc52: trocada a errada Paraná-mirim (braço de rio, definição próxima de furo) por Remanso",
+          "38526b6b6a: Apatia trocada por Aporia (apatheia era a meta estoica, errada defensável) e enunciado só com epicuristas",
+          "4e991d9cb9: Acampamento Júpiter (também refúgio de semideuses na saga) trocado por Instituto Xavier",
+          "5cac252dfc: crença ajustada para \"traz sorte\" (forma confirmada nas fontes)",
+          "b41eb50a11: erradas Jafar e Úrsula (não são deuses, enunciado eliminava) trocadas por Ares e Poseidon",
+          "3ab361f0d8: erradas absurdas (fita isolante, linha de costura) trocadas por fios plausíveis"
+        ],
+        "rebaixamentos": [
+          "32ec275bfb: dificil -> medio",
+          "6311a4d45c: dificil -> medio",
+          "6481bc7427: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 3,
+          "entrega a resposta": 1,
+          "fato impreciso": 1,
+          "espelho/duplicada": 4,
+          "dificuldade": 3,
+          "outro": 3
+        },
+        "exemplos_erro": {
+          "errada defensavel": "38526b6b6a: Ataraxia buscada por epicuristas e estoicos -> Apatia (apatheia estoica) também defensável",
+          "entrega a resposta": "b41eb50a11: 'Qual deus...' com Jafar e Úrsula como erradas, eliminação imediata",
+          "fato impreciso": "5cac252dfc: esperança 'traz boa notícia' -> fontes dizem 'sorte'",
+          "espelho/duplicada": "8e3d35f493: End zone já aprovada no lote 031 com o mesmo id",
+          "dificuldade": "32ec275bfb: In vino veritas dificil, tradução literal no enunciado",
+          "outro": "d73fcab9fb / 0a28474c06 / 3ab361f0d8: alternativas com cara diferente ou absurdas"
+        },
+        "espelhos_r5": [
+          "32358725f3 (lote 054, Porto pede-se 'Fino', Imperial entre as erradas) x 055e5f12ff (lote 055, Lisboa pede-se 'Imperial', Fino entre as erradas): par em cadeia; mantida a do 054, avaliar descartar a do 055",
+          "047:704e140df2 (Ecrã, com Rato e Ficheiro como erradas) x 96c81f3b04 (Rato) e 1c3c03ecd9 (Ficheiro): avaliado, não é espelho (a errada não diz o que a palavra significa); mantidas"
+        ]
       }
     ],
     "rebaixamentos_r3": {

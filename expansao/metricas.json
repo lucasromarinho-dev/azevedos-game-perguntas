@@ -14973,5 +14973,180 @@
       "animação: personagens secundários"
     ],
     "scripts": "faltam.mjs e mover-excedentes.mjs leem plano-r8.json para 076+; variedade.mjs com a nota 76 85; scripts/alternativas-cruzadas.mjs (novo)"
+  },
+  "resumo_r9": {
+    "data": "2026-10-30",
+    "branch": "expansao-r9",
+    "worktree": "azevedos-game-perguntas-r9",
+    "lotes": [
+      86,
+      95
+    ],
+    "escritas": 787,
+    "validas": 742,
+    "descartadas": 45,
+    "taxa_descarte": 0.057,
+    "nota_descarte": "descarte depois de montar o lote; a maior parte do filtro acontece antes, nas listas de candidatas (39 arquivos r9-0NN*.txt, descarte típico de 30% a 70% por microtema)",
+    "por_lote": {
+      "086": {
+        "validas": 98,
+        "descartadas": 17
+      },
+      "087": {
+        "validas": 94,
+        "descartadas": 5
+      },
+      "088": {
+        "validas": 94,
+        "descartadas": 2
+      },
+      "089": {
+        "validas": 85,
+        "descartadas": 4
+      },
+      "090": {
+        "validas": 87,
+        "descartadas": 3
+      },
+      "091": {
+        "validas": 72,
+        "descartadas": 4
+      },
+      "092": {
+        "validas": 73,
+        "descartadas": 2
+      },
+      "093": {
+        "validas": 57,
+        "descartadas": 3
+      },
+      "094": {
+        "validas": 53,
+        "descartadas": 1
+      },
+      "095": {
+        "validas": 29,
+        "descartadas": 4
+      }
+    },
+    "composicao": {
+      "Geografia": {
+        "facil": 10,
+        "medio": 58,
+        "dificil": 47
+      },
+      "História": {
+        "facil": 9,
+        "medio": 55,
+        "dificil": 42
+      },
+      "Ciências": {
+        "facil": 11,
+        "medio": 46,
+        "dificil": 45
+      },
+      "Esportes": {
+        "facil": 10,
+        "medio": 54,
+        "dificil": 49
+      },
+      "Entretenimento": {
+        "facil": 50,
+        "medio": 107,
+        "dificil": 38
+      },
+      "Tecnologia": {
+        "facil": 22,
+        "medio": 54,
+        "dificil": 35
+      }
+    },
+    "dificuldade": {
+      "facil": 112,
+      "medio": 374,
+      "dificil": 256
+    },
+    "recentes": 62,
+    "verificado_web": 6,
+    "buscas_web": 6,
+    "trocas_de_erradas": "272 erradas trocadas e 75 enunciados reescritos na geração com scripts/alternativas.mjs (registradas em correcao e em fontes/lote-NNN-trocas.txt)",
+    "scripts_novos": [
+      "alternativas.mjs",
+      "trocar.mjs",
+      "reescrever.mjs",
+      "restaurar.mjs"
+    ],
+    "meta_nao_batida": "742 de ~1.000: rendimento das sondas caiu a partir do 091; fáceis muito abaixo do plano (112, 15%)",
+    "renderam": [
+      "cidades-gêmeas da fronteira",
+      "baías, golfos e penínsulas",
+      "cabos e pontos extremos",
+      "vegetações do mundo",
+      "produtos que marcam cada país",
+      "apelidos de cidades europeias e americanas",
+      "capitais regionais da Europa",
+      "ilhas britânicas, gregas e venezianas",
+      "história do Rio de Janeiro",
+      "leis brasileiras famosas",
+      "autores da Antiguidade",
+      "papas",
+      "líderes da Ásia, da África e da América Latina",
+      "ordens religiosas e batalhas antigas",
+      "famílias da tabela periódica",
+      "ciência forense",
+      "fenômenos naturais extremos",
+      "psicologia e grandes experimentos",
+      "síndromes e doenças com nome de pessoa",
+      "químicos e astrônomos",
+      "matemáticos",
+      "técnicos lendários e estádios de finais de Copa",
+      "Bola de Ouro antigos",
+      "equipes históricas da F1",
+      "lendas do atletismo e do tênis",
+      "picos de surfe",
+      "desenhos clássicos de segunda linha e bordões",
+      "Oscars de 2020 a 2025",
+      "séries e filmes de 2020 a 2025",
+      "música pop de 2020 a 2025",
+      "álbuns clássicos e musicais da Broadway",
+      "diretores e criadores de desenhos",
+      "livros que viraram filmes",
+      "comediantes clássicos",
+      "Hollywood clássica",
+      "música latina",
+      "K-pop",
+      "live-actions da Disney",
+      "algoritmos e criptografia",
+      "fontes tipográficas",
+      "carros e motos clássicos",
+      "tecnologia do cinema",
+      "pioneiros do rádio e da TV",
+      "marcas de eletrônicos"
+    ],
+    "saturaram": [
+      "história de São Paulo",
+      "biologia celular",
+      "portos e hidrelétricas",
+      "trens",
+      "tecnologia no cinema",
+      "Brasil fácil por estado",
+      "bichos do Brasil (fáceis)",
+      "esportes fáceis",
+      "genética",
+      "física moderna",
+      "animais marinhos",
+      "Copa do Mundo feminina",
+      "consoles fracassados",
+      "jogos de celular",
+      "produtos do Google, Microsoft, Apple e Amazon",
+      "guerras do século XX",
+      "medicina: pioneiros",
+      "lendas da NBA",
+      "clubes sul-americanos",
+      "inventores de objetos",
+      "territórios ultramarinos",
+      "regiões dos estados brasileiros",
+      "fáceis de Ciências, História e Tecnologia"
+    ]
   }
 }

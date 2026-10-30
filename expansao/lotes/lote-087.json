@@ -76,11 +76,11 @@
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:e65a4d2414",
     "recente": false,
     "dup_regra": "R1 mesma resposta e texto parecido",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:e65a4d2414)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:e65a4d2414)",
     "correcao": "errada \"Bauru\" trocada por \"Sertãozinho\" na geração (era resposta de outra pergunta)",
     "motivo": null
   },
@@ -118,11 +118,11 @@
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:e2977472ff",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.2, 27% do fato)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:e2977472ff)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:e2977472ff)",
     "correcao": "errada \"Piracicaba\" trocada por \"Santa Bárbara d'Oeste\" na geração (era resposta de outra pergunta)",
     "motivo": null
   },
@@ -140,11 +140,11 @@
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:aaa946014b",
     "recente": false,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (18.8)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:aaa946014b)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:aaa946014b)",
     "motivo": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual prédio residencial sinuoso de Oscar Niemeyer é um ícone do centro de São Paulo?\")"
   },
@@ -263,11 +263,11 @@
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:136",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (13.1)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:136)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:136)",
     "motivo": null
   },
   {
@@ -325,11 +325,11 @@
     ],
     "subtema": "Animais",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:313",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.0)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:313)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:313)",
     "motivo": null
   },
   {
@@ -572,11 +572,11 @@
     "subtema": "Guerra Fria e século XX",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:55181e529a",
     "recente": false,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (16.9)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:55181e529a)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:55181e529a)"
   },
   {
     "id": "6e732e352c",
@@ -705,7 +705,7 @@
     "pergunta": "Qual ditador panamenho foi capturado pelos Estados Unidos depois de uma invasão em 1989?",
     "resposta": "Manuel Noriega",
     "alternativas": [
-      "Omar Torrijos",
+      "Guillermo Endara",
       "Manuel Noriega",
       "Fulgencio Batista",
       "Efraín Ríos Montt"
@@ -717,7 +717,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Rafael Trujillo\" trocada por \"Efraín Ríos Montt\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Rafael Trujillo\" trocada por \"Efraín Ríos Montt\" na geração (era resposta de outra pergunta); errada \"Omar Torrijos\" trocada por \"Guillermo Endara\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "25cceea548",
@@ -877,11 +877,11 @@
     "subtema": "Brasileirão e clubes brasileiros",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:2468",
     "recente": true,
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:2468)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2468)"
   },
   {
     "id": "d422f3ed3f",
@@ -939,11 +939,11 @@
     "subtema": "Brasileirão e clubes brasileiros",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:7835",
     "recente": true,
     "dup_regra": "R1 mesma resposta e texto parecido",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:7835)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7835)",
     "correcao": "errada \"Vitória\" trocada por \"Fluminense de Feira\" na geração (era resposta de outra pergunta)"
   },
   {
@@ -1916,12 +1916,12 @@
     "subtema": "Animação",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:6932",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (29.2, 59% do fato)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual é o nome do herói atrapalhado em que o Pateta se transforma depois de comer amendoins?\")",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:6932)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6932)"
   },
   {
     "id": "bc7767460c",

@@ -969,7 +969,7 @@
     "pergunta": "Qual álbum country de Beyoncé ganhou o Grammy de álbum do ano em 2025?",
     "resposta": "Cowboy Carter",
     "alternativas": [
-      "Lemonade",
+      "B'Day",
       "Renaissance",
       "Cowboy Carter",
       "Texas Hold 'Em"
@@ -980,7 +980,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada \"Lemonade\" trocada por \"B'Day\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "8b6684153d",
@@ -1529,10 +1530,10 @@
     "subtema": "Futebol europeu e técnicos",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:2832",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 34.8)",
+    "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual técnico comandou o Milan dos holandeses Gullit, Van Basten e Rijkaard, campeão europeu em 1989 e 1990?\")",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2832)"
   },
@@ -1838,10 +1839,10 @@
     "subtema": "Literatura",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:5ac110ab87",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (22.3)",
+    "dup_regra": null,
     "correcao": "errada \"Macondo\" trocada por \"Santa Teresa\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual cidade de mortos é visitada em \"Pedro Páramo\", de Juan Rulfo?\")",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:5ac110ab87)"
   },

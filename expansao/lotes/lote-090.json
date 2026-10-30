@@ -251,7 +251,7 @@
     "resposta": "Mar de Bering",
     "alternativas": [
       "Mar de Bering",
-      "Mar de Barents",
+      "Mar de Chukchi",
       "Mar de Okhotsk",
       "Mar de Kara"
     ],
@@ -261,7 +261,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada \"Mar de Barents\" trocada por \"Mar de Chukchi\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "46058a6237",
@@ -1676,8 +1677,8 @@
       "Irmãos Wachowski"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "limite de 3 perguntas por universo (Marvel) na rodada, cortada na geração",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -1696,8 +1697,8 @@
       "Kevin Feige"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "limite de 3 perguntas por universo (Marvel) na rodada, cortada na geração",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -1772,7 +1773,7 @@
     "resposta": "Sófocles",
     "alternativas": [
       "Eurípides",
-      "Ésquilo",
+      "Agatão",
       "Menandro",
       "Sófocles"
     ],
@@ -1782,7 +1783,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada \"Ésquilo\" trocada por \"Agatão\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "7402df376c",

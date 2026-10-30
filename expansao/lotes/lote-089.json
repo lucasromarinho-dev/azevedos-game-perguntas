@@ -432,7 +432,7 @@
     "id": "3437f90591",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual diretor comandou o filme \"300\", de 2006, sobre os guerreiros espartanos do rei Leônidas?",
+    "pergunta": "Qual diretor comandou o filme \"300\", de 2006, baseado na graphic novel de Frank Miller?",
     "resposta": "Zack Snyder",
     "alternativas": [
       "Oliver Stone",
@@ -447,7 +447,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Ridley Scott\" trocada por \"Antoine Fuqua\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre a batalha das Termópilas?\")"
+    "correcao": "errada \"Ridley Scott\" trocada por \"Antoine Fuqua\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre a batalha das Termópilas?\"); enunciado reescrito na geração (antes: \"Qual diretor comandou o filme \"300\", de 2006, sobre os guerreiros espartanos do rei Leônidas?\")"
   },
   {
     "id": "dab7ca636c",
@@ -1185,7 +1185,7 @@
     "alternativas": [
       "Diodoro",
       "Plutarco",
-      "Políbio",
+      "Arriano",
       "Xenofonte"
     ],
     "subtema": "Antiguidade",
@@ -1194,7 +1194,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada \"Políbio\" trocada por \"Arriano\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "f58a34db4e",
@@ -1396,11 +1397,11 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "banco:5842",
+    "dup_ref": "banco:2609",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.2)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual atacante senegalês formou com Salah e Firmino o trio do Liverpool campeão europeu em 2019?\")",
-    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5842)"
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2609)"
   },
   {
     "id": "d457a24025",
@@ -1519,10 +1520,10 @@
     "subtema": "Música brasileira",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:3405",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.0)",
+    "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Quem é o vocalista do Skank, de \"Garota Nacional\"?\")",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3405)"
   },
@@ -1561,10 +1562,10 @@
     "subtema": "Música brasileira",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:6150",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.6)",
+    "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Quem foi o vocalista do NX Zero, de \"Razões e Emoções\"?\")",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6150)"
   },

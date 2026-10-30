@@ -173,11 +173,11 @@
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:4871",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.2)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:4871)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4871)",
     "motivo": null
   },
   {
@@ -194,11 +194,11 @@
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:569",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (7.1)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:569)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:569)",
     "motivo": null
   },
   {
@@ -318,11 +318,11 @@
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:5444",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (11.7, 44% do fato)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:5444)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5444)",
     "motivo": null
   },
   {
@@ -439,11 +439,11 @@
     ],
     "subtema": "Brasil Colônia",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:c729f33621",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (7.1, 25% do fato)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:c729f33621)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:c729f33621)",
     "motivo": null
   },
   {
@@ -460,11 +460,11 @@
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:7940",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.1)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:7940)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7940)",
     "motivo": null,
     "verificado_web": true
   },
@@ -482,11 +482,11 @@
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:8313",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.6)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:8313)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:8313)",
     "correcao": "errada \"Revolta da Chibata\" trocada por \"Quebra-quebra do Brás\" na geração (era resposta de outra pergunta)",
     "motivo": null
   },
@@ -504,11 +504,11 @@
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:7525",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.9)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:7525)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7525)",
     "motivo": null
   },
   {
@@ -811,11 +811,11 @@
     ],
     "subtema": "Seleção e craques",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:2493",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (11.1, 29% do fato)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:2493)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2493)",
     "motivo": null
   },
   {
@@ -873,11 +873,11 @@
     ],
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:659da8f54d",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (10.5)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:659da8f54d)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:659da8f54d)",
     "correcao": "errada \"Pequim\" trocada por \"Bangcoc\" na geração (era resposta de outra pergunta)",
     "motivo": null
   },
@@ -1054,17 +1054,17 @@
     "alternativas": [
       "Amsterdã",
       "Paris",
-      "Estocolmo",
+      "Antuérpia",
       "Bruxelas"
     ],
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:4627",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.5, 34% do fato)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:4627)",
-    "correcao": "errada \"Atenas\" trocada por \"Amsterdã\" na geração (era resposta de outra pergunta); errada \"Londres\" trocada por \"Bruxelas\" na geração (era resposta de outra pergunta)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4627)",
+    "correcao": "errada \"Atenas\" trocada por \"Amsterdã\" na geração (era resposta de outra pergunta); errada \"Londres\" trocada por \"Bruxelas\" na geração (era resposta de outra pergunta); errada \"Estocolmo\" trocada por \"Antuérpia\" na geração (era resposta de outra pergunta)",
     "motivo": null
   },
   {
@@ -1074,7 +1074,7 @@
     "pergunta": "Qual atleta aborígine acendeu a chama e depois venceu os 400 metros nos Jogos Olímpicos de 2000?",
     "resposta": "Cathy Freeman",
     "alternativas": [
-      "Marion Jones",
+      "Ana Guevara",
       "Marie-José Pérec",
       "Cathy Freeman",
       "Sally Pearson"
@@ -1086,7 +1086,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual atleta aborígine acendeu a pira e depois venceu os 400 metros nos Jogos de Sydney 2000?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual atleta aborígine acendeu a pira e depois venceu os 400 metros nos Jogos de Sydney 2000?\"); errada \"Marion Jones\" trocada por \"Ana Guevara\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "0fff9c0c93",
@@ -1391,11 +1391,11 @@
     ],
     "subtema": "Séries de TV e streaming",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:8289",
     "recente": true,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (15.6, sim 0.1)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:8289)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:8289)",
     "motivo": null,
     "verificado_web": true
   },
@@ -2245,18 +2245,19 @@
     "resposta": "Lilo & Stitch",
     "alternativas": [
       "Lilo & Stitch",
-      "A Pequena Sereia",
+      "Pocahontas",
       "Elementos",
       "Moana"
     ],
     "subtema": "Cinema internacional e Oscar",
     "status": "gerada",
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:5400",
     "recente": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (15.0, 35% do fato)",
-    "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. banco:5400)",
-    "motivo": null
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5400)",
+    "motivo": null,
+    "correcao": "errada \"A Pequena Sereia\" trocada por \"Pocahontas\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "6003360499",

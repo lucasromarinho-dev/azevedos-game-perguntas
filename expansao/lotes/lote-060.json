@@ -427,7 +427,7 @@
     "pergunta": "Qual era a moeda da Grécia antes do euro?",
     "resposta": "Dracma",
     "alternativas": [
-      "Lira",
+      "Coroa",
       "Dracma",
       "Óbolo",
       "Libra"
@@ -439,7 +439,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "correcao": "errada Lira era a resposta de banco:999 (moeda da Itália antes do euro); trocada por Coroa"
   },
   {
     "id": "c60ef3f367",
@@ -449,7 +450,7 @@
     "resposta": "Xelim",
     "alternativas": [
       "Coroa",
-      "Marco",
+      "Libra",
       "Florim",
       "Xelim"
     ],
@@ -460,7 +461,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "correcao": "errada Marco era a resposta de banco:998 (moeda da Alemanha antes do euro, com Xelim entre as erradas); trocada por Libra"
   },
   {
     "id": "7d92f1f0af",
@@ -531,7 +533,7 @@
     "pergunta": "Qual era a moeda da Finlândia antes do euro?",
     "resposta": "Markka",
     "alternativas": [
-      "Xelim",
+      "Rublo",
       "Florim",
       "Markka",
       "Coroa"
@@ -543,7 +545,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "correcao": "errada Xelim era a resposta de c60ef (mesmo lote); trocada por Rublo"
   },
   {
     "id": "ab6eb05d61",

@@ -6311,9 +6311,9 @@
         "lote": "060",
         "conferente": "conferente-v6",
         "conferidas": 107,
-        "conferidas_sem_mudanca": 92,
-        "com_mudanca": 15,
-        "corrigidas": 14,
+        "conferidas_sem_mudanca": 89,
+        "com_mudanca": 18,
+        "corrigidas": 17,
         "rebaixadas": 3,
         "subidas": 0,
         "descartadas": 0,
@@ -6329,7 +6329,7 @@
         "por_categoria": {
           "Geografia": {
             "conferidas": 14,
-            "corrigidas": 1,
+            "corrigidas": 4,
             "rebaixadas": 0,
             "descartadas": 0
           },
@@ -6379,7 +6379,10 @@
           "b4f34e76f0: Adagio - Allegro era a resposta de c8dca91b35 (lote 059), que tinha Adagio entre as erradas (respostas cruzadas); trocada por Fortissimo",
           "7622dfb071: Olho de peixe - errada Grande angular defensável (olho de peixe é uma grande angular extrema); trocada por Zoom",
           "ebd56baa03: Molinete - carretilha é outro tipo de equipamento (fica em cima da vara); tirada do enunciado",
-          "34c9244d11: Rotunda - errada Bambolina era a resposta de 7752b (lote 061), que tinha Rotunda entre as erradas; trocada por Urdimento"
+          "34c9244d11: Rotunda - errada Bambolina era a resposta de 7752b (lote 061), que tinha Rotunda entre as erradas; trocada por Urdimento",
+          "b1eeeba166: Dracma - errada Lira era a resposta de banco:999 (moeda da Itália antes do euro); trocada por Coroa",
+          "c60ef3f367: Xelim - errada Marco era a resposta de banco:998 (moeda da Alemanha antes do euro, com Xelim entre as erradas); trocada por Libra",
+          "49b5ce8e96: Markka - errada Xelim era a resposta de c60ef (mesmo lote); trocada por Rublo"
         ],
         "rebaixamentos": [
           "35179b5f57: Puro-sangue inglês dificil -> medio",
@@ -6391,7 +6394,7 @@
           "outro": 1,
           "entrega a resposta": 6,
           "errada defensavel": 3,
-          "espelho/duplicada": 3,
+          "espelho/duplicada": 6,
           "dificuldade": 1,
           "fato impreciso": 1
         },
@@ -6497,6 +6500,98 @@
           "errada defensavel": "bf877201b5: errada Frâncio também homenageia a França (Francia); trocada por Rutênio",
           "dificuldade": "66d1e8efb3: undefined",
           "fato impreciso": "e555e3e78d: a Fofolete nasceu em 1978 pela Troll, não pela Estrela; tirada a marca. Errada Polly (Polly Pocket, também minúscula) trocada por Barbie"
+        }
+      },
+      {
+        "lote": "062",
+        "conferente": "conferente-v6",
+        "conferidas": 105,
+        "conferidas_sem_mudanca": 94,
+        "com_mudanca": 11,
+        "corrigidas": 11,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 1,
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 0,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 12,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 7,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 2
+          }
+        },
+        "descartes": [
+          "93eab0ccaf: espelho: o enunciado cita a Positivo, resposta de banco:3970 (marca brasileira de computadores das escolas públicas)",
+          "e4b16f4ede: molde repetido: quarta pergunta de domínio genérico no lote (.com, .org, .edu, .net), com respostas cruzadas nas alternativas; cortado o excesso"
+        ],
+        "correcoes": [
+          "299349c4a9: Puccini - erradas Verdi e Rossini eram respostas de outras perguntas de ópera do lote; trocadas",
+          "d22f2ee54e: Pipoca - 'sem abadá' entregava a resposta de e8219dbb7f (mesmo lote); tirado",
+          "6c09f7bff3: .org - erradas .net e .com eram respostas de outras perguntas da rodada; trocadas por .info e .gov",
+          "9d1d45382b: Ituano - errada Ferroviária era a resposta de 5c689e2a2f (mesmo lote); trocada",
+          "27b57ffb4b: Novorizontino - errada Ituano era a resposta de 9d1d45382b (mesmo lote); trocada",
+          "df5042b522: Polo Norte - errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado",
+          "6ef44f836e: Debussy - Ravel era a resposta de a64b1 (mesmo lote), que tinha Debussy entre as erradas (respostas cruzadas); trocado por Fauré",
+          "1b0d9c9e5e: Rossini - erradas Puccini e Verdi eram respostas de outras perguntas de ópera do lote (respostas cruzadas); trocadas",
+          "a5b3f994b9: Verdi - erradas Rossini e Puccini eram respostas de outras perguntas de ópera do lote; trocadas",
+          "6cbe2112db: Bizet - erradas Puccini, Rossini e Verdi eram respostas de outras perguntas do lote; trocadas por franceses",
+          "93db9e8b30: Cã - 'como Gengis' citava parte da resposta de banco (líder mongol que fundou o maior império => Gengis Khan); tirado"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 9,
+          "entrega a resposta": 2,
+          "molde repetido": 1,
+          "errada defensavel": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "299349c4a9: erradas Verdi e Rossini eram respostas de outras perguntas de ópera do lote; trocadas",
+          "entrega a resposta": "d22f2ee54e: 'sem abadá' entregava a resposta de e8219dbb7f (mesmo lote); tirado",
+          "molde repetido": "e4b16f4ede: molde repetido: quarta pergunta de domínio genérico no lote (.com, .org, .edu, .net), com respostas cruzadas nas alternativas; cortado o excesso",
+          "errada defensavel": "df5042b522: errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado"
         }
       }
     ],

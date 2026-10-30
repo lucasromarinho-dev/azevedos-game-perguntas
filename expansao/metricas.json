@@ -18531,5 +18531,133 @@
       "quem-disse": "300 a 500: frases curtas, de domínio público e com atribuição aceita são poucas; 4 de 62 caíram por atribuição contestada.",
       "total": "8.000 a 14.000 boas, levando o banco a algo entre 22 e 28 mil. Os 50 mil não saem só destes caminhos sem perder qualidade."
     }
+  },
+  "entretenimento_80": {
+    "data": "2026-10-30",
+    "agente": "entretenimento-80",
+    "pedido": "Entretenimento com 80% de cultura pop e brasileira; arte e literatura estrangeira saem, salvo as famosas.",
+    "base": "origin/main:perguntas.json (13.986; Entretenimento 2.898)",
+    "arquivos": {
+      "classificacao": "expansao/classificacao/entretenimento.json",
+      "remocao": "expansao/correcoes/entretenimento-remocao.json",
+      "copia": "expansao/correcoes/perguntas-sem-arte.json",
+      "script": "expansao/scripts/aplicar-remocao-entretenimento.mjs",
+      "amostra": "expansao/amostra-lucas-entretenimento.md"
+    },
+    "composicao_hoje": {
+      "origem": {
+        "br": 1062,
+        "estrangeira": 1597,
+        "mista": 239
+      },
+      "tema": {
+        "tv-novela": 463,
+        "musica": 738,
+        "filme": 398,
+        "animacao-disney": 347,
+        "humor": 49,
+        "games-pop": 41,
+        "quadrinhos": 107,
+        "celebridades": 29,
+        "arte": 131,
+        "literatura": 300,
+        "teatro-danca": 78,
+        "outro": 217
+      }
+    },
+    "famosas": {
+      "estrangeira": 79,
+      "mista": 18,
+      "br": 45
+    },
+    "remover": {
+      "total": 193,
+      "por_tema": {
+        "arte": 77,
+        "literatura": 90,
+        "teatro-danca": 26
+      },
+      "por_dificuldade": {
+        "facil": 8,
+        "medio": 106,
+        "dificil": 79
+      }
+    },
+    "a_decidir": {
+      "total": 93,
+      "br": 85,
+      "mista": 8,
+      "todas_dificil": true
+    },
+    "dificuldade": {
+      "antes": {
+        "facil": 982,
+        "medio": 1203,
+        "dificil": 713,
+        "total": 2898
+      },
+      "depois": {
+        "facil": 974,
+        "medio": 1097,
+        "dificil": 634,
+        "total": 2705
+      }
+    },
+    "validacao_copia": {
+      "perguntas": 13793,
+      "campos_5": true,
+      "alternativas_4_distintas_com_resposta": true,
+      "enunciados_duplicados": 0,
+      "ordem_mantida": true,
+      "montarBanco": {
+        "validas": 13793,
+        "descartadas": 0
+      },
+      "menor_celula": "Ciências/dificil 596; Entretenimento/dificil 634"
+    },
+    "pop": {
+      "definicao": "origem br (qualquer tema) + filme, animacao-disney, musica, tv-novela, games-pop, quadrinhos, celebridades e humor de origem estrangeira ou mista",
+      "hoje": {
+        "pop": 2463,
+        "total": 2898,
+        "pct": 85
+      },
+      "depois": {
+        "pop": 2463,
+        "total": 2705,
+        "pct": 91.1
+      },
+      "sem_contar_mista": {
+        "hoje_pct": 80.7,
+        "depois_pct": 86.5
+      },
+      "novas_para_80_pop": 0
+    },
+    "origem_br": {
+      "hoje_pct": 36.6,
+      "depois_pct": 39.3,
+      "novas_para_50_br_hoje": 774,
+      "novas_para_50_br_depois": 581
+    },
+    "plano_proxima_rodada": {
+      "total": 600,
+      "por_subtema": {
+        "tv-novela": 150,
+        "musica": 150,
+        "filme": 80,
+        "humor": 60,
+        "celebridades": 60,
+        "quadrinhos": 40,
+        "animacao-disney": 30,
+        "games-pop": 30
+      },
+      "por_dificuldade": {
+        "facil": 240,
+        "medio": 240,
+        "dificil": 120
+      },
+      "status": "proposta; nada gerado"
+    },
+    "publicado": false
   }
 }

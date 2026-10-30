@@ -12,14 +12,16 @@
       "Canal de Xerxes"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual canal, concluído em 1893, corta o estreito istmo que liga o Peloponeso ao resto da Grécia?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "681d2db454",
@@ -34,13 +36,15 @@
       "Canal Dortmund-Ems"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "c9e6cd91bf",
@@ -55,13 +59,15 @@
       "Estreito de Torres"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "73cc9f698a",
@@ -76,13 +82,15 @@
       "Estreito de Foveaux"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "1e193c175b",
@@ -97,14 +105,16 @@
       "Estreito de Otranto"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:37b5ed09d0",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.2)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "5e0463f7e6",
@@ -119,13 +129,15 @@
       "Fehmarn Belt"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2378d18782",
@@ -140,13 +152,15 @@
       "Monte Kirkpatrick"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d11f0a6ef0",
@@ -161,13 +175,15 @@
       "Monte Giluwe"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "9020c716c0",
@@ -182,13 +198,14 @@
       "Monte Ossa"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Kosciuszko)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "fba8cf9677",
@@ -203,13 +220,15 @@
       "Cho Oyu"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "f19edea753",
@@ -224,13 +243,14 @@
       "Broad Peak"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Nanga Parbat)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "519a8a2f9c",
@@ -245,14 +265,16 @@
       "Weisshorn"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Jungfrau\" trocada por \"Weisshorn\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "b00a48fdca",
@@ -267,13 +289,15 @@
       "Licancabur"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "8dec1dd081",
@@ -288,7 +312,7 @@
       "Haleakalā"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8887",
@@ -296,7 +320,9 @@
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (17.1)",
     "correcao": "errada \"Kilauea\" trocada por \"Kohala\" na geração (era resposta de outra pergunta)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "954e9be477",
@@ -311,13 +337,14 @@
       "Blue Mountain Peak"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Pico Duarte)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "2ea96f18d7",
@@ -332,13 +359,14 @@
       "Gunung Mulu"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Kinabalu)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "7bfd2ddfce",
@@ -353,13 +381,15 @@
       "Pico de Orizaba"
     ],
     "subtema": "Relevo, vulcões e desertos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "07b9144c4e",
@@ -374,13 +404,15 @@
       "Wittelsbach"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "ba0ab3cf90",
@@ -395,13 +427,15 @@
       "Song"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "88a0e82b3a",
@@ -416,14 +450,16 @@
       "Lancaster"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7718",
     "recente": false,
     "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "45175a00a8",
@@ -438,13 +474,15 @@
       "Sforza"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "5d8cb16524",
@@ -459,13 +497,15 @@
       "Spinola"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a66a1ef8ae",
@@ -480,14 +520,15 @@
       "Wittelsbach"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"dinastia/casa real\" tinha 8 no lote 097; cortada (Bernadotte, decoreba)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "verificado_web": true,
-    "correcao": "errada \"Vasa\" trocada por \"Wittelsbach\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Vasa\" trocada por \"Wittelsbach\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "bc480370bf",
@@ -502,14 +543,16 @@
       "Antigônida"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual dinastia, fundada por um general de Alexandre, o Grande, governou o Egito até Cleópatra?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "3330583b1f",
@@ -524,14 +567,16 @@
       "Aquemênida"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual dinastia persa teve reis como Ciro, Dario e Xerxes?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "8f1aa83e26",
@@ -546,14 +591,16 @@
       "Escândio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Telúrio\" trocada por \"Tálio\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "f75e557d0a",
@@ -568,13 +615,15 @@
       "Astato"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2b9c6099de",
@@ -589,13 +638,15 @@
       "Escândio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "3849bec663",
@@ -610,14 +661,16 @@
       "Tântalo"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Paládio\" trocada por \"Irídio\" na geração (era resposta de outra pergunta); errada \"Ósmio\" trocada por \"Tântalo\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "efe78d6fd6",
@@ -632,13 +685,15 @@
       "Oganessônio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "325c5ba4b7",
@@ -653,13 +708,15 @@
       "Tenesso"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "6bfec92cdc",
@@ -674,13 +731,15 @@
       "Evonne Goolagong"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "acbfdebf59",
@@ -695,13 +754,15 @@
       "Arthur Ashe"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "24a3e88b15",
@@ -716,13 +777,15 @@
       "Althea Gibson"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2bf7e374d5",
@@ -737,14 +800,15 @@
       "Jay Berger"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Michael Chang)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual tenista americano venceu Roland Garros de 1989 com 17 anos, o homem mais jovem a ganhar um Grand Slam?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "150f880498",
@@ -759,13 +823,15 @@
       "Mardy Fish"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "b09c87b61e",
@@ -780,14 +846,15 @@
       "Vitas Gerulaitis"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Connors, decoreba de recorde)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"John McEnroe\" trocada por \"Brian Gottfried\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "8e9ca00879",
@@ -802,13 +869,15 @@
       "Wanamaker Trophy"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "b2a21d4260",
@@ -823,13 +892,14 @@
       "Muirfield"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "b78ad2bd92",
@@ -844,13 +914,15 @@
       "Miguel Ángel Jiménez"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d7ed58f653",
@@ -865,13 +937,15 @@
       "Sam Snead"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "0fa8b2d5e2",
@@ -886,13 +960,15 @@
       "Shane Lowry"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "498e7e8ff3",
@@ -907,13 +983,15 @@
       "CP/M"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2d91eafc77",
@@ -928,13 +1006,14 @@
       "TRSDOS"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"sistema operacional\" tinha 10 no lote 097; cortada (QDOS)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "88191012e2",
@@ -949,13 +1028,15 @@
       "Oberon"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "156d19db45",
@@ -970,13 +1051,15 @@
       "OS/2"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "e1a23e32b9",
@@ -991,13 +1074,15 @@
       "GEOS"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "e3e370e34b",
@@ -1012,14 +1097,16 @@
       "NeXTSTEP"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Copland\" trocada por \"MkLinux\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "be0269c769",
@@ -1034,13 +1121,15 @@
       "webOS"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a0e3dbeef0",
@@ -1055,13 +1144,14 @@
       "Fire OS"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"sistema operacional\" tinha 10 no lote 097; cortada (Tizen, repetia o ângulo de TV do webOS)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "df8af16368",
@@ -1076,13 +1166,14 @@
       "Windows NT"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "af11ea3529",
@@ -1097,13 +1188,14 @@
       "Bada"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"sistema operacional\" tinha 10 no lote 097; cortada (KaiOS)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "3cc8883f2a",
@@ -1118,14 +1210,16 @@
       "Lucasfilm"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Star Wars",
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "094495b872",
@@ -1140,13 +1234,15 @@
       "Trader Joe's"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "c5973748b6",
@@ -1161,14 +1257,16 @@
       "Sagem"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4304",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.2)",
     "correcao": "errada \"HTC\" trocada por \"Sony Ericsson\" na geração (era resposta de outra pergunta); errada \"Palm\" trocada por \"Siemens Mobile\" na geração (era resposta de outra pergunta); errada \"BlackBerry\" trocada por \"Sagem\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "33451dd9a2",
@@ -1183,13 +1281,15 @@
       "Tado"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "89a2891c33",
@@ -1204,13 +1304,15 @@
       "Johan"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "f7d1022190",
@@ -1259,7 +1361,7 @@
     "id": "c3f76a9e30",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual vilão baixinho dos quadrinhos de Goscinny e Tabary vive tentando tomar o trono do seu soberano em Bagdá?",
+    "pergunta": "Qual vilão baixinho dos quadrinhos franceses vive tentando tomar o trono do califa em Bagdá?",
     "resposta": "Iznogoud",
     "alternativas": [
       "Ali Babá",
@@ -1268,14 +1370,16 @@
       "Haroun El Poussah"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual grão-vizir dos quadrinhos de Goscinny quer \"ser califa no lugar do califa\"?\")",
-    "verificado_web": true
+    "correcao": "enunciado reescrito na geração (antes: \"Qual grão-vizir dos quadrinhos de Goscinny quer \"ser califa no lugar do califa\"?\") | conferente-v10: \"de Goscinny e Tabary\" citava a resposta de 070:7e675dc46a (roteirista de Asterix => Goscinny); enunciado refeito (antes: \"Qual vilão baixinho dos quadrinhos de Goscinny e Tabary vive tentando tomar o trono do seu soberano em Bagdá?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "e88a5341b3",
@@ -1290,13 +1394,15 @@
       "Isidoro Cañones"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "358fb74363",
@@ -1311,13 +1417,14 @@
       "Diabolik"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"quadrinhos europeus\" tinha 10 no lote 097; cortada (Diabolik)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "d1c7890f30",
@@ -1332,13 +1439,15 @@
       "Tex Willer"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "df85e555d1",
@@ -1374,13 +1483,14 @@
       "Moebius"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: molde \"quadrinhos europeus\" tinha 10 no lote 097; cortada (Moebius)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "0dc661f5ce",
@@ -1395,14 +1505,16 @@
       "Yoko Tsuno"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5136",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.4)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "ab5ef78ea9",
@@ -1417,7 +1529,7 @@
       "Lobo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -1425,7 +1537,9 @@
     "universo": "Lucky Luke",
     "dup_regra": null,
     "correcao": "errada \"Totó\" trocada por \"Lobo\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual é o nome do cão trapalhão, \"o mais burro do Oeste\", nas histórias de Lucky Luke?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "84d44af2c4",
@@ -1440,7 +1554,7 @@
       "Irmãos James"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8655",
@@ -1448,7 +1562,8 @@
     "universo": "Lucky Luke",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
     "correcao": "errada \"Irmãos Metralha\" trocada por \"Irmãos Clanton\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Como se chamam os irmãos bandidos que vivem fugindo da prisão nas histórias de Lucky Luke?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "599b439f73",
@@ -1463,15 +1578,16 @@
       "Ideiafix"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada (banco): mesmo fato que banco:7478 (\"Qual é o nome do cachorrinho de Obelix?\" => Idéfix); a grafia Ideiafix escondeu do detector",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Asterix",
     "dup_regra": null,
     "correcao": "errada \"Totó\" trocada por \"Thor\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "c601d16c5e",
@@ -1486,13 +1602,14 @@
       "Jesuíno Mendonça"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "b83e2059e9",
@@ -1507,19 +1624,20 @@
       "Professor"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual é o nome do líder do grupo de meninos de rua de \"Capitães da Areia\", de Jorge Amado?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "7f172818bf",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual personagem de \"O Cortiço\" é a mulata sedutora que encanta o português Jerônimo?",
     "resposta": "Rita Baiana",
     "alternativas": [
@@ -1529,13 +1647,16 @@
       "Leonie"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: Rita Baiana é personagem muito conhecida de leitura escolar; rebaixada"
   },
   {
     "id": "37da9c7174",
@@ -1550,20 +1671,21 @@
       "Firmo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual comerciante português é o dono do cortiço no romance de Aluísio Azevedo?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "842de12f5f",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual personagem, um funcionário aposentado que virou boêmio, \"morre duas vezes\" numa novela de 1959?",
+    "pergunta": "Qual personagem de Jorge Amado, funcionário aposentado que virou boêmio, \"morre duas vezes\" num livro de 1959?",
     "resposta": "Quincas Berro Dágua",
     "alternativas": [
       "Pedro Archanjo",
@@ -1572,19 +1694,21 @@
       "Quincas Berro Dágua"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual personagem de Jorge Amado \"morre duas vezes\", numa novela de 1959?\")",
-    "verificado_web": true
+    "correcao": "enunciado reescrito na geração (antes: \"Qual personagem de Jorge Amado \"morre duas vezes\", numa novela de 1959?\") | conferente-v10: \"numa novela de 1959\" faria o jogador pensar em novela de TV (é uma novela literária); enunciado ajustado (antes: \"Qual personagem, um funcionário aposentado que virou boêmio, \"morre duas vezes\" numa novela de 1959?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a46b1127df",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual personagem de \"Vidas Secas\", mulher do vaqueiro Fabiano, sonha com uma cama de couro?",
     "resposta": "Sinhá Vitória",
     "alternativas": [
@@ -1594,13 +1718,16 @@
       "Sinhá Vitória"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: Sinhá Vitória é personagem central de leitura escolar; rebaixada"
   },
   {
     "id": "a726fee0fd",
@@ -1615,14 +1742,16 @@
       "Camilo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual diplomata aposentado de Machado de Assis aparece em \"Esaú e Jacó\" e narra o último romance do autor?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "ae3e01903f",
@@ -1637,13 +1766,15 @@
       "Augusto Machado"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "1fb4dad7d3",
@@ -1658,13 +1789,14 @@
       "Lei de Snell"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "7a68762b33",
@@ -1679,13 +1811,14 @@
       "Lei de Henry"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "94e1ec23ce",
@@ -1711,7 +1844,7 @@
   {
     "id": "93f09a9abe",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual princípio diz que um equilíbrio químico se desloca para compensar uma mudança de pressão, temperatura ou concentração?",
     "resposta": "Princípio de Le Chatelier",
     "alternativas": [
@@ -1721,18 +1854,21 @@
       "Lei de Hess"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: Le Chatelier é conteúdo do ensino médio, conhecido pelo nome; rebaixada"
   },
   {
     "id": "39f0639f76",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual princípio da física quântica diz que dois elétrons de um átomo não podem ocupar o mesmo estado quântico?",
     "resposta": "Princípio de exclusão de Pauli",
     "alternativas": [
@@ -1742,13 +1878,16 @@
       "Princípio de exclusão de Pauli"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: exclusão de Pauli é conteúdo do ensino médio, conhecido pelo nome; rebaixada"
   },
   {
     "id": "f2fd4f9d54",
@@ -1763,13 +1902,14 @@
       "Lei de Kirchhoff"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "3f596d8d1a",
@@ -1784,13 +1924,14 @@
       "Efeito Seebeck"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1778",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "ad9a2df908",
@@ -1826,13 +1967,14 @@
       "Regra de Hund"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "3c1b1262e9",
@@ -1847,13 +1989,15 @@
       "Guerra de Paquisha"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "030f50fb7e",
@@ -1868,13 +2012,15 @@
       "Guerra da Orelha de Jenkins"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d7f28d5d40",
@@ -1889,34 +2035,39 @@
       "Guerra Anglo-Ashanti"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "12525d5157",
     "categoria": "História",
     "dificuldade": "dificil",
     "pergunta": "Qual disputa de fronteira de 1859, entre Estados Unidos e britânicos, começou com o tiro num animal numa ilha perto de Vancouver?",
-    "resposta": "Guerra dos Porcos",
+    "resposta": "Guerra do Porco",
     "alternativas": [
       "Guerra dos Patriotas",
-      "Guerra dos Porcos",
+      "Guerra do Porco",
       "Guerra de Toledo",
       "Guerra do Aroostook"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7157",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (4.6)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "correcao": "conferente-v10: o nome em português é \"Guerra do Porco\" (Wikipédia pt); resposta ajustada"
   },
   {
     "id": "b8400d83a5",
@@ -1931,13 +2082,15 @@
       "Guerra das Laranjas"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "bff97c36db",
@@ -1952,13 +2105,15 @@
       "Guerra da Lapônia"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "2966cb503e",
@@ -1973,13 +2128,14 @@
       "Guerra da Bósnia"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "6f63fa44cb",
@@ -1994,13 +2150,15 @@
       "A Morte de Marat"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "dea8b4cb78",
@@ -2015,13 +2173,15 @@
       "A Última Ceia"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:c5c4e0b110",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "e43e3b83fd",
@@ -2036,13 +2196,15 @@
       "Gótico Americano"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "14bdeab904",
@@ -2057,12 +2219,14 @@
       "Menino com Pião"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   }
 ]

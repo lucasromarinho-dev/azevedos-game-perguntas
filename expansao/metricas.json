@@ -11422,6 +11422,123 @@
           "9480661f7d",
           "7493ba54e4"
         ]
+      },
+      {
+        "lote": "097",
+        "conferente": "conferente-v10",
+        "conferidas": 79,
+        "conferidas_sem_mudanca": 72,
+        "com_mudanca": 7,
+        "corrigidas": 3,
+        "rebaixadas": 4,
+        "subidas": 0,
+        "descartadas": 13,
+        "motivos_descarte": {
+          "molde repetido": 12,
+          "duplicada (banco)": 1
+        },
+        "perguntas_com_busca_web": 63,
+        "suspeitas": {
+          "total": 9,
+          "mantidas": 8,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 4
+          },
+          "História": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 9,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "Tecnologia": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 3
+          },
+          "Entretenimento": {
+            "conferidas": 19,
+            "corrigidas": 2,
+            "rebaixadas": 2,
+            "descartadas": 3
+          }
+        },
+        "descartes": [
+          "9020c716c0: molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Kosciuszko)",
+          "f19edea753: molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Nanga Parbat)",
+          "954e9be477: molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Pico Duarte)",
+          "2ea96f18d7: molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Kinabalu)",
+          "a66a1ef8ae: molde repetido: molde \"dinastia/casa real\" tinha 8 no lote 097; cortada (Bernadotte, decoreba)",
+          "2bf7e374d5: molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Michael Chang)",
+          "b09c87b61e: molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Connors, decoreba de recorde)",
+          "2d91eafc77: molde repetido: molde \"sistema operacional\" tinha 10 no lote 097; cortada (QDOS)",
+          "a0e3dbeef0: molde repetido: molde \"sistema operacional\" tinha 10 no lote 097; cortada (Tizen, repetia o ângulo de TV do webOS)",
+          "af11ea3529: molde repetido: molde \"sistema operacional\" tinha 10 no lote 097; cortada (KaiOS)",
+          "358fb74363: molde repetido: molde \"quadrinhos europeus\" tinha 10 no lote 097; cortada (Diabolik)",
+          "d3e563770f: molde repetido: molde \"quadrinhos europeus\" tinha 10 no lote 097; cortada (Moebius)",
+          "599b439f73: duplicada (banco): mesmo fato que banco:7478 (\"Qual é o nome do cachorrinho de Obelix?\" => Idéfix); a grafia Ideiafix escondeu do detector"
+        ],
+        "correcoes": [
+          "c3f76a9e30: Iznogoud - \"de Goscinny e Tabary\" citava a resposta de 070:7e675dc46a (roteirista de Asterix => Goscinny); enunciado refeito (antes: \"Qual vilão baixinho dos quadrinhos de Goscinny e Tabary vive tentando tomar o trono do seu soberano em Bagdá?\")",
+          "7f172818bf: Rita Baiana - Rita Baiana é personagem muito conhecida de leitura escolar; rebaixada",
+          "842de12f5f: Quincas Berro Dágua - \"numa novela de 1959\" faria o jogador pensar em novela de TV (é uma novela literária); enunciado ajustado (antes: \"Qual personagem, um funcionário aposentado que virou boêmio, \"morre duas vezes\" numa novela de 1959?\")",
+          "a46b1127df: Sinhá Vitória - Sinhá Vitória é personagem central de leitura escolar; rebaixada",
+          "93f09a9abe: Princípio de Le Chatelier - Le Chatelier é conteúdo do ensino médio, conhecido pelo nome; rebaixada",
+          "39f0639f76: Princípio de exclusão de Pauli - exclusão de Pauli é conteúdo do ensino médio, conhecido pelo nome; rebaixada",
+          "12525d5157: Guerra do Porco - o nome em português é \"Guerra do Porco\" (Wikipédia pt); resposta ajustada"
+        ],
+        "rebaixamentos": [
+          "7f172818bf: Rita Baiana (dificil -> medio)",
+          "a46b1127df: Sinhá Vitória (dificil -> medio)",
+          "93f09a9abe: Princípio de Le Chatelier (dificil -> medio)",
+          "39f0639f76: Princípio de exclusão de Pauli (dificil -> medio)"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "molde repetido": 12,
+          "entrega a resposta": 1,
+          "duplicada (banco)": 1,
+          "dificuldade": 4,
+          "fato impreciso": 2
+        },
+        "exemplos_erro": {
+          "molde repetido": "9020c716c0: molde repetido: molde \"montanha/vulcão mais alto(a) de X\" tinha 11 no lote 097; cortada (Kosciuszko)",
+          "entrega a resposta": "c3f76a9e30: Iznogoud - \"de Goscinny e Tabary\" citava a resposta de 070:7e675dc46a (roteirista de Asterix => Goscinny); enunciado refeito (antes: \"Qual vilão baixinho dos quadrinhos de Goscinny e Tabary vive tentando tomar o trono do seu soberano em Bagdá?\")",
+          "duplicada (banco)": "599b439f73: duplicada (banco): mesmo fato que banco:7478 (\"Qual é o nome do cachorrinho de Obelix?\" => Idéfix); a grafia Ideiafix escondeu do detector",
+          "dificuldade": "7f172818bf: Rita Baiana - Rita Baiana é personagem muito conhecida de leitura escolar; rebaixada",
+          "fato impreciso": "842de12f5f: Quincas Berro Dágua - \"numa novela de 1959\" faria o jogador pensar em novela de TV (é uma novela literária); enunciado ajustado (antes: \"Qual personagem, um funcionário aposentado que virou boêmio, \"morre duas vezes\" numa novela de 1959?\")"
+        },
+        "risco_sem_checagem_conferente": [
+          "84d44af2c4",
+          "c601d16c5e",
+          "7f172818bf",
+          "37da9c7174",
+          "a46b1127df",
+          "7a68762b33",
+          "93f09a9abe",
+          "39f0639f76",
+          "f2fd4f9d54",
+          "2966cb503e"
+        ]
       }
     ],
     "rebaixamentos_r3": {

@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "8151cdb601",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade inglesa ganhou o nome por causa de suas termas romanas?",
+    "resposta": "Bath",
+    "alternativas": [
+      "Bath",
+      "Chester",
+      "York",
+      "Bristol"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Brighton\" trocada por \"Bristol\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "53e4b67372",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual balneário inglês, ao sul de Londres, é famoso pelo píer e pelo Pavilhão Real de estilo oriental?",
+    "resposta": "Brighton",
+    "alternativas": [
+      "Brighton",
+      "Torquay",
+      "Bournemouth",
+      "Blackpool"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8bdcc41968",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade da costa oeste da Irlanda é famosa pela cultura gaélica e pelo anel de Claddagh?",
+    "resposta": "Galway",
+    "alternativas": [
+      "Galway",
+      "Limerick",
+      "Sligo",
+      "Waterford"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "589105ab16",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade francesa, às margens do Ródano e do Saône, é chamada de capital gastronômica do país?",
+    "resposta": "Lyon",
+    "alternativas": [
+      "Marselha",
+      "Dijon",
+      "Grenoble",
+      "Lyon"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5852",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)"
+  },
+  {
+    "id": "d55a39c0d0",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pequena cidade belga de águas termais deu nome aos \"spas\" do mundo todo?",
+    "resposta": "Spa",
+    "alternativas": [
+      "Spa",
+      "Durbuy",
+      "Dinant",
+      "Ostende"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f0ecb1385",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual explorador espanhol foi o primeiro europeu a chegar ao Rio Mississippi, em 1541?",
+    "resposta": "Hernando de Soto",
+    "alternativas": [
+      "Francisco Coronado",
+      "Pánfilo de Narváez",
+      "Ponce de León",
+      "Hernando de Soto"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Cabeza de Vaca\" trocada por \"Pánfilo de Narváez\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "172ef4813d",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual navegador francês explorou o Rio São Lourenço e deu início à presença francesa no Canadá?",
+    "resposta": "Jacques Cartier",
+    "alternativas": [
+      "Jacques Marquette",
+      "Jacques Cartier",
+      "La Salle",
+      "Samuel de Champlain"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9d66fd39c2",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual navegador holandês deu nome à ilha ao sul da Austrália e chegou à Nova Zelândia em 1642?",
+    "resposta": "Abel Tasman",
+    "alternativas": [
+      "Dirk Hartog",
+      "Abel Tasman",
+      "Willem Janszoon",
+      "Jacob Roggeveen"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:804",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)"
+  },
+  {
+    "id": "c236f7b938",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual matemático suíço criou a fórmula considerada a mais bela da matemática, que liga e, pi e o número i?",
+    "resposta": "Leonhard Euler",
+    "alternativas": [
+      "Joseph Fourier",
+      "Leonhard Euler",
+      "Daniel Bernoulli",
+      "Jean d'Alembert"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "64df7f300c",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual matemático francês deixou um \"último teorema\" anotado na margem de um livro, provado só em 1994?",
+    "resposta": "Pierre de Fermat",
+    "alternativas": [
+      "Pierre de Fermat",
+      "Évariste Galois",
+      "Joseph Lagrange",
+      "René Descartes"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "descartada",
+    "motivo": "espelho de banco:5097 (Último Teorema de Fermat)",
+    "dup": "certa",
+    "dup_ref": "banco:5097",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.3)"
+  },
+  {
+    "id": "0df6991394",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual matemático americano, retratado em \"Uma Mente Brilhante\", ganhou o Nobel de Economia em 1994?",
+    "resposta": "John Nash",
+    "alternativas": [
+      "John von Neumann",
+      "Norbert Wiener",
+      "Paul Erdős",
+      "John Nash"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9432dfe9e8",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual gênio indiano da matemática, quase autodidata, foi levado a Cambridge por G. H. Hardy?",
+    "resposta": "Srinivasa Ramanujan",
+    "alternativas": [
+      "Brahmagupta",
+      "Srinivasa Ramanujan",
+      "Prasanta Mahalanobis",
+      "Aryabhata"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7435a7cee4",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual matemática alemã provou o teorema que liga simetrias e leis de conservação na física?",
+    "resposta": "Emmy Noether",
+    "alternativas": [
+      "Emmy Noether",
+      "Ada Lovelace",
+      "Sofia Kovalevskaya",
+      "Sophie Germain"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f929678148",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogador quebrou a barreira racial no beisebol das grandes ligas, em 1947, pelo Brooklyn Dodgers?",
+    "resposta": "Jackie Robinson",
+    "alternativas": [
+      "Willie Mays",
+      "Jackie Robinson",
+      "Hank Aaron",
+      "Satchel Paige"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b00ad99323",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor fez a trilha de violinos estridentes de \"Psicose\", de Hitchcock?",
+    "resposta": "Bernard Herrmann",
+    "alternativas": [
+      "Dimitri Tiomkin",
+      "Elmer Bernstein",
+      "Max Steiner",
+      "Bernard Herrmann"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual compositor fez a trilha de violinos estridentes da cena do chuveiro em \"Psicose\"?\")",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:3243)"
+  },
+  {
+    "id": "2a33265edd",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor francês fez a trilha de \"Lawrence da Arábia\" e \"Doutor Jivago\"?",
+    "resposta": "Maurice Jarre",
+    "alternativas": [
+      "Georges Delerue",
+      "Michel Legrand",
+      "Maurice Jarre",
+      "Francis Lai"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1552",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.5)"
+  },
+  {
+    "id": "8302aa7e91",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual maestro austríaco comandou a Filarmônica de Berlim por mais de 30 anos?",
+    "resposta": "Herbert von Karajan",
+    "alternativas": [
+      "Claudio Abbado",
+      "Wilhelm Furtwängler",
+      "Herbert von Karajan",
+      "Karl Böhm"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1705af5c1a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual maestro americano compôs a música de \"West Side Story\"?",
+    "resposta": "Leonard Bernstein",
+    "alternativas": [
+      "Leonard Bernstein",
+      "Richard Rodgers",
+      "Aaron Copland",
+      "Stephen Sondheim"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "07f84c24c6",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual ator dança e canta na chuva, agarrado a um poste, no musical de 1952?",
+    "resposta": "Gene Kelly",
+    "alternativas": [
+      "Gene Kelly",
+      "Howard Keel",
+      "Dean Martin",
+      "Mickey Rooney"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:19d5cf403e",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.9)",
+    "correcao": "errada \"Frank Sinatra\" trocada por \"Howard Keel\" na geração (era resposta de outra pergunta); errada \"Fred Astaire\" trocada por \"Mickey Rooney\" na geração (era resposta de outra pergunta)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:19d5cf403e)"
+  },
+  {
+    "id": "e377c82d32",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz britânica viveu Scarlett O'Hara em \"E o Vento Levou\"?",
+    "resposta": "Vivien Leigh",
+    "alternativas": [
+      "Joan Fontaine",
+      "Vivien Leigh",
+      "Greer Garson",
+      "Olivia de Havilland"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ff0f31ea3f",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz italiana foi a primeira a ganhar o Oscar por um papel falado em outra língua que não o inglês, em 1962?",
+    "resposta": "Sophia Loren",
+    "alternativas": [
+      "Anna Magnani",
+      "Claudia Cardinale",
+      "Sophia Loren",
+      "Gina Lollobrigida"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b75b0b842d",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual inventor afro-americano patenteou, em 1923, um semáforo com posição de alerta entre o \"pare\" e o \"siga\"?",
+    "resposta": "Garrett Morgan",
+    "alternativas": [
+      "Garrett Morgan",
+      "Granville Woods",
+      "Lewis Latimer",
+      "George Carver"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6986",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ec62aa39c0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual inventor americano criou o congelamento rápido de alimentos depois de ver a pesca no gelo do Canadá?",
+    "resposta": "Clarence Birdseye",
+    "alternativas": [
+      "Charles Seeburger",
+      "Clarence Birdseye",
+      "Willis Carrier",
+      "Earl Tupper"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Percy Spencer\" trocada por \"Charles Seeburger\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "fe5b2f3d48",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade neozelandesa, cheia de gêiseres e lama fervente, é centro da cultura maori?",
+    "resposta": "Rotorua",
+    "alternativas": [
+      "Queenstown",
+      "Rotorua",
+      "Napier",
+      "Nelson"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "62a91b6604",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade australiana do norte de Queensland é a principal porta de entrada para a Grande Barreira de Corais?",
+    "resposta": "Cairns",
+    "alternativas": [
+      "Mackay",
+      "Townsville",
+      "Cairns",
+      "Darwin"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ce411c68e6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade fica bem no meio do deserto australiano, a centenas de quilômetros de Uluru?",
+    "resposta": "Alice Springs",
+    "alternativas": [
+      "Alice Springs",
+      "Broken Hill",
+      "Kalgoorlie",
+      "Coober Pedy"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cd34b5a7e6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual porto canadense recebeu e enterrou muitos dos mortos do Titanic, em 1912?",
+    "resposta": "Halifax",
+    "alternativas": [
+      "Charlottetown",
+      "Sydney (Nova Escócia)",
+      "Saint John",
+      "Halifax"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Montreal\" trocada por \"Charlottetown\" na geração (era resposta de outra pergunta); errada \"Quebec\" trocada por \"Sydney (Nova Escócia)\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "1ccdfa5512",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade mexicana é famosa pelo mole negro, pelo mezcal e pela festa da Guelaguetza?",
+    "resposta": "Oaxaca",
+    "alternativas": [
+      "Puebla",
+      "Oaxaca",
+      "Morelia",
+      "Mérida"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "07fd0a4e32",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade colonial mexicana, de casas coloridas, tem ruas que passam por túneis subterrâneos?",
+    "resposta": "Guanajuato",
+    "alternativas": [
+      "Zacatecas",
+      "Querétaro",
+      "Guanajuato",
+      "Taxco"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1282af2b86",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual ordem religiosa seguia a regra \"ora et labora\", reza e trabalha?",
+    "resposta": "Beneditinos",
+    "alternativas": [
+      "Agostinianos",
+      "Capuchinhos",
+      "Franciscanos",
+      "Beneditinos"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4f78a42019",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ordem religiosa, fundada por São Domingos, era chamada de \"Ordem dos Pregadores\"?",
+    "resposta": "Dominicanos",
+    "alternativas": [
+      "Dominicanos",
+      "Franciscanos",
+      "Agostinianos",
+      "Premonstratenses"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:600",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:600)"
+  },
+  {
+    "id": "0c85c7c6a4",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual ordem religiosa teve como reformadora Santa Teresa de Ávila?",
+    "resposta": "Carmelitas",
+    "alternativas": [
+      "Ursulinas",
+      "Clarissas",
+      "Carmelitas",
+      "Beneditinas"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ddf6b0d89",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ordem de monges do silêncio deu nome ao licor Chartreuse?",
+    "resposta": "Cartuxos",
+    "alternativas": [
+      "Trapistas",
+      "Cartuxos",
+      "Cistercienses",
+      "Camaldulenses"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e9c731628e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual ordem militar alemã das Cruzadas conquistou terras no Báltico?",
+    "resposta": "Cavaleiros Teutônicos",
+    "alternativas": [
+      "Cavaleiros de Santiago",
+      "Cavaleiros de Calatrava",
+      "Cavaleiros Teutônicos",
+      "Cavaleiros Templários"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e605268dc6",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual batalha de 331 a.C. Alexandre, o Grande, derrotou de vez o rei persa Dario III?",
+    "resposta": "Gaugamela",
+    "alternativas": [
+      "Hidaspes",
+      "Gaugamela",
+      "Isso",
+      "Granico"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb6080645f",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em qual batalha de 216 a.C. Aníbal cercou e destruiu um enorme exército romano?",
+    "resposta": "Canas",
+    "alternativas": [
+      "Canas",
+      "Zama",
+      "Cartago Nova",
+      "Trébia"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b088ba8143",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+  },
+  {
+    "id": "8129fc3a23",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual batalha Ramsés II enfrentou os hititas, gerando o primeiro tratado de paz registrado?",
+    "resposta": "Kadesh",
+    "alternativas": [
+      "Qarqar",
+      "Megido",
+      "Kadesh",
+      "Carquemis"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0229951b7b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual batalha de 1314 Robert the Bruce derrotou os ingleses e garantiu a independência escocesa?",
+    "resposta": "Bannockburn",
+    "alternativas": [
+      "Falkirk",
+      "Culloden",
+      "Stirling",
+      "Bannockburn"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "95ef73abc4",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual doença inflamatória crônica do intestino leva o nome de um médico americano?",
+    "resposta": "Doença de Crohn",
+    "alternativas": [
+      "Doença de Whipple",
+      "Doença celíaca",
+      "Síndrome de Cushing",
+      "Doença de Crohn"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0f4234aa9e",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual doença hereditária destrói neurônios e causa movimentos involuntários, com nome de um médico americano?",
+    "resposta": "Doença de Huntington",
+    "alternativas": [
+      "Doença de Tay-Sachs",
+      "Doença de Gaucher",
+      "Doença de Huntington",
+      "Doença de Wilson"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fe273cd80d",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual doença das glândulas suprarrenais, que teria acometido John Kennedy, leva o nome de um médico inglês?",
+    "resposta": "Doença de Addison",
+    "alternativas": [
+      "Doença de Addison",
+      "Doença de Paget",
+      "Doença de Hashimoto",
+      "Síndrome de Conn"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3b87ef26f3",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual câncer do sistema linfático leva o nome de um médico inglês do século XIX?",
+    "resposta": "Linfoma de Hodgkin",
+    "alternativas": [
+      "Leucemia de Burkitt",
+      "Sarcoma de Ewing",
+      "Linfoma de Hodgkin",
+      "Tumor de Wilms"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4429169283",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual câncer de pele, de manchas arroxeadas, ficou ligado à aids nos anos 1980?",
+    "resposta": "Sarcoma de Kaposi",
+    "alternativas": [
+      "Melanoma de Hutchinson",
+      "Carcinoma de Merkel",
+      "Sarcoma de Kaposi",
+      "Linfoma de Burkitt"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6cca9b0828",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantora argentina, chamada de \"La Negra\", foi a grande voz da música folclórica latino-americana?",
+    "resposta": "Mercedes Sosa",
+    "alternativas": [
+      "Mercedes Sosa",
+      "Soledad Pastorutti",
+      "Susana Baca",
+      "Chabuca Granda"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1d20a1e716",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual compositora chilena escreveu \"Gracias a la vida\"?",
+    "resposta": "Violeta Parra",
+    "alternativas": [
+      "Mon Laferte",
+      "Gabriela Mistral",
+      "Isabel Parra",
+      "Violeta Parra"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f90003b705",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cantor chileno foi morto num estádio de Santiago dias depois do golpe de 1973?",
+    "resposta": "Víctor Jara",
+    "alternativas": [
+      "Quilapayún",
+      "Inti-Illimani",
+      "Patricio Manns",
+      "Víctor Jara"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Pablo Neruda\" trocada por \"Inti-Illimani\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "a7f1bb81b6",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cantor cubano é um dos criadores da Nova Trova, com \"Ojalá\"?",
+    "resposta": "Silvio Rodríguez",
+    "alternativas": [
+      "Ibrahim Ferrer",
+      "Silvio Rodríguez",
+      "Pablo Milanés",
+      "Compay Segundo"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c7345eb30",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantor mexicano, ídolo popular, compôs \"Querida\" e \"Amor eterno\"?",
+    "resposta": "Juan Gabriel",
+    "alternativas": [
+      "Pedro Infante",
+      "Vicente Fernández",
+      "José José",
+      "Juan Gabriel"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aa4779a7c9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual banda argentina de rock tinha Gustavo Cerati como vocalista?",
+    "resposta": "Soda Stereo",
+    "alternativas": [
+      "Los Prisioneros",
+      "Los Enanitos Verdes",
+      "Virus",
+      "Soda Stereo"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b48c27af90",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantora espanhola misturou flamenco e pop em \"Malamente\", em 2018?",
+    "resposta": "Rosalía",
+    "alternativas": [
+      "Aitana",
+      "Bad Gyal",
+      "Nathy Peluso",
+      "Rosalía"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d5fa29c421",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora colombiana fez sucesso com \"Tusa\", ao lado de Nicki Minaj?",
+    "resposta": "Karol G",
+    "alternativas": [
+      "Karol G",
+      "Danna Paola",
+      "Natti Natasha",
+      "Becky G"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Anitta\" trocada por \"Danna Paola\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "f81870ba36",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual sistema de ônibus com corredor exclusivo e estações próprias nasceu em Curitiba, nos anos 1970?",
+    "resposta": "BRT",
+    "alternativas": [
+      "Trólebus",
+      "Bonde articulado",
+      "BRT",
+      "Ônibus guiado"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"VLT\" trocada por \"Bonde articulado\" na geração (era resposta de outra pergunta); errada \"Monotrilho\" trocada por \"Ônibus guiado\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "9d2aba15bf",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual cartão de São Paulo, lançado em 2004, permite trocar de ônibus pagando uma tarifa só?",
+    "resposta": "Bilhete Único",
+    "alternativas": [
+      "Riocard",
+      "Bilhete Único",
+      "Passe Livre",
+      "Cartão BOM"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "48a6aa7ac2",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual trem leve, movido por ar soprado num duto, liga o metrô ao aeroporto de Porto Alegre?",
+    "resposta": "Aeromóvel",
+    "alternativas": [
+      "Funicular",
+      "Cremalheira",
+      "Aeromóvel",
+      "Trólebus"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Maglev\" trocada por \"Cremalheira\" na geração (era resposta de outra pergunta); errada \"Monotrilho\" trocada por \"Trólebus\" na geração (era resposta de outra pergunta)"
+  }
+]

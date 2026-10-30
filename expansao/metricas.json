@@ -9502,6 +9502,83 @@
             "b08cc1ed9e"
           ]
         }
+      },
+      "checagem_web_complementar": {
+        "data": "30/10/2026",
+        "alvo": "risco_sem_verificado_web (320 ids)",
+        "buscas_web": 200,
+        "obs_buscas": "WebSearch e leituras diretas da Wikipédia e do Wiktionary (Copa Sul-Americana, finais de Copa, fobias, obrigado em várias línguas, Armando Marques); perguntas agrupadas por tema, 2 ou 3 fatos por busca. A cota de cerca de 200 acabou antes das 22 últimas, deixadas de propósito para o fim por serem definições de baixo risco",
+        "confirmadas_sem_mudanca": 290,
+        "corrigidas": 8,
+        "rebaixadas": 0,
+        "descartadas": 0,
+        "sem_checar": 22,
+        "ids_sem_checar": {
+          "067": [
+            "736616aa34",
+            "cf05cb9ec9",
+            "11d104a8e6"
+          ],
+          "068": [
+            "1585405456"
+          ],
+          "069": [
+            "ecddcb8d6d",
+            "e79c50f600",
+            "5c8aa56d5b",
+            "810736bfeb"
+          ],
+          "070": [
+            "b3e790f28e"
+          ],
+          "071": [
+            "61e9a81ea2",
+            "e8f4011101"
+          ],
+          "072": [
+            "6945334cc0",
+            "29021f1110"
+          ],
+          "073": [
+            "2b4fbb027c",
+            "bf71518cf9"
+          ],
+          "074": [
+            "8fbdccd51a",
+            "39712b9f94"
+          ],
+          "075": [
+            "d1eb6359fb",
+            "ca09e4be1b",
+            "ccf2993603",
+            "df2385a105",
+            "23b859b515"
+          ]
+        },
+        "obs_sem_checar": "baixo risco, não conferidas de memória: Bokeh, Cumeeira, Sapata, Coletânea, Pipe, Luvas, Chave estrangeira, EP, DOM, VMA, Dessecador, Câmara escura, Praça de São Marcos, Jira, Scrum, R, Protoboard, Relé, Novela das nove, Estreia, Pipoca, Pentacampeão",
+        "corrigidas_detalhe": {
+          "aa2f4b0218": "Calleri voltou ao São Paulo em 2021 (empréstimo no fim da janela de agosto), não em 2022; enunciado passou a dizer 2021",
+          "df79cd1482": "o sen não \"quase não circula\": foi abolido como moeda em 1953 (lei japonesa de 15/07/1953); enunciado passou a dizer que foi abolido em 1953",
+          "dba53cc9d9": "o bicudo-do-algodoeiro (Anthonomus grandis) é um curculionídeo, ou seja, um gorgulho; a errada Gorgulho era defensável, trocada por Serra-pau, besouro que ataca árvores e não é resposta no banco (chegada ao Brasil em fevereiro de 1983 confirmada)",
+          "eff2b78d44": "a fama de estilo teatral e vaidoso não aparece nas fontes (Wikipédia e imprensa falam de árbitro polêmico, de 1962 a 1976, nas Copas de 1966 e 1974, depois presidente da Comissão Nacional de Arbitragem); enunciado reescrito com esses fatos",
+          "73f300458b": "RAW guarda os dados do sensor sem processamento, mas a compressão varia (sem compressão, com perda ou sem perda, conforme a câmera); \"sem compressão\" virou \"sem processamento\"",
+          "456934be55": "nunca houve telefone vermelho: a linha de 1963 usava teletipo (depois fax e e-mail); \"telefone vermelho\" é o apelido popular; enunciado reescrito como \"apelido popular\" da linha Washington-Moscou",
+          "d7126d28da": "a Zona Franca de Manaus foi criada em 1957 (Lei 3.173); o Decreto-Lei 288, de fevereiro de 1967, deu o modelo atual de incentivos fiscais; enunciado passou a dizer que ganhou em 1967 o modelo de incentivos",
+          "58867e3a1a": "a Cabify deixou o Brasil em 14 de junho de 2021; \"concorre com Uber e 99\" virou \"concorreu com Uber e 99 no Brasil até 2021\""
+        },
+        "por_lote": {
+          "066": "33/0/0",
+          "067": "17/0/0 (3 sem checar)",
+          "068": "24/1/0 (1 sem checar)",
+          "069": "25/0/0 (4 sem checar)",
+          "070": "24/3/0 (1 sem checar)",
+          "071": "29/1/0 (2 sem checar)",
+          "072": "34/0/0 (2 sem checar)",
+          "073": "29/0/0 (2 sem checar)",
+          "074": "40/3/0 (2 sem checar)",
+          "075": "35/0/0 (5 sem checar)"
+        },
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha com '(checagem web complementar r7)'. A troca de errada no bicudo (Gorgulho por Serra-pau) passou pelo checa-resposta.mjs --lote sem criar cruzamento novo; Vaga-lume foi evitado por ser resposta do banco"
       }
     }
   },

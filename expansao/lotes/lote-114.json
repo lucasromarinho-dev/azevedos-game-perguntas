@@ -12,13 +12,15 @@
       "Suíça"
     ],
     "subtema": "Europa",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-lote114): fato certo e fácil, mas repete o molde de banco:10083 (Qual país é famoso pelos tamancos de madeira? => Holanda; a Wikipédia lista moinhos, tulipas e tamancos juntos) e responde Holanda, que a rigor é região dos Países Baixos; Carioca ficou no lugar",
     "recente": false,
     "verificado_web": "pt.wikipedia: Países Baixos",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-lote114",
+    "verificado_web_conferente": true
   },
   {
     "id": "f2f084ae0a",
@@ -33,14 +35,16 @@
       "Gavião"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Sociedade Esportiva Palmeiras",
     "dup": "suspeita",
     "dup_ref": "id:12525d5157",
     "dup_regra": "mesma resposta, assunto vizinho (10.7, 19% do fato)",
-    "dup_revisado": "falso positivo: ref é a Guerra do Porco (História), fato diferente"
+    "dup_revisado": "falso positivo: ref é a Guerra do Porco (História), fato diferente",
+    "conferido_por": "conferente-lote114",
+    "verificado_web_conferente": true
   },
   {
     "id": "22cdbc6c9f",
@@ -55,14 +59,16 @@
       "Petropolitano"
     ],
     "subtema": "Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "recente": false,
     "verificado_web": "pt.wikipedia: Carioca",
     "dup": "certa",
     "dup_ref": "banco:8871",
     "dup_regra": "E2 mesma resposta e mesmo assunto (7.5, 55% do fato)",
-    "dup_revisado": "falso positivo: ref é a Conjuração Carioca (História); o banco só pergunta o gentílico do estado (Fluminense), não o da cidade"
+    "dup_revisado": "falso positivo: ref é a Conjuração Carioca (História); o banco só pergunta o gentílico do estado (Fluminense), não o da cidade",
+    "conferido_por": "conferente-lote114",
+    "verificado_web_conferente": true
   },
   {
     "id": "078f00aeab",
@@ -77,13 +83,15 @@
       "Friedenreich"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
-    "motivo": null,
+    "status": "reserva",
+    "motivo": "reserva (conferente-lote114): fato certo e fácil, mas o enunciado de banco:2589 (\"tricampeonato mundial, com Pelé e cia.\") cita a resposta junto com a pista do tricampeonato; Porco ficou no lugar",
     "recente": false,
     "verificado_web": "pt.wikipedia: Pelé",
     "dup": "suspeita",
     "dup_ref": "banco:7745",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)",
-    "dup_revisado": "falso positivo: ref é a Lei Pelé; nenhum item do banco pergunta o apelido Rei do Futebol"
+    "dup_revisado": "falso positivo: ref é a Lei Pelé; nenhum item do banco pergunta o apelido Rei do Futebol",
+    "conferido_por": "conferente-lote114",
+    "verificado_web_conferente": true
   }
 ]

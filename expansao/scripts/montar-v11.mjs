@@ -4,7 +4,8 @@
 //   1. aplica as trocas da correção "entrega" (correcoes/entrega-resposta.json, acao reescrever/alternativas, origem banco:N);
 //   2. remove as 8 "remover" da correção entrega e as 286 de correcoes/entretenimento-remocao.json (campo remover).
 //      Nas que estão nas duas listas (troca + remoção), a remoção vence;
-//   3. acrescenta no fim as `conferida` dos lotes 111 a 113 (reposição), na ordem dos lotes, só com os 5 campos.
+//   3. acrescenta no fim as `conferida` dos lotes 111 a 114 (reposição), na ordem dos lotes, só com os 5 campos
+//      (o lote 114 repõe as 2 fáceis descartadas na conferência; as `reserva` dele ficam fora).
 // Grava minificado, em uma linha, UTF-8 sem BOM e sem quebra de linha no fim, e valida:
 //   itens não tocados idênticos e na mesma ordem relativa; só os 5 campos na ordem do jogo; 4 alternativas distintas
 //   com a resposta; 0 enunciados repetidos (também sem caixa, acento e espaços); heurística entrega.mjs (só falsos
@@ -62,10 +63,12 @@ const trocasAplicadas = [...trocas.keys()].filter((i) => !remover.has(i)).length
 // 3) reposição conferida
 const reposicao = [];
 const descartadasRepo = [];
-for (const n of ['111', '112', '113']) {
+const reservasRepo = []; // lote 114: candidatas boas que não entraram (status reserva), ficam fora da v11
+for (const n of ['111', '112', '113', '114']) {
   for (const f of lerJson(join(PASTA_LOTES, `lote-${n}.json`))) {
     if (f.status === 'conferida') reposicao.push(so5(f));
     else if (f.status === 'descartada') descartadasRepo.push(`${n}:${f.id} ${f.categoria}/${f.dificuldade}`);
+    else if (f.status === 'reserva') reservasRepo.push(`${n}:${f.id} ${f.categoria}/${f.dificuldade}`);
     else falha(`lote-${n}:${f.id} com status ${f.status}`);
   }
 }
@@ -148,6 +151,7 @@ const resumo = {
   base_apos_correcoes: nBase,
   reposicao_conferidas: reposicao.length,
   reposicao_descartadas: descartadasRepo,
+  reposicao_reservas: reservasRepo,
   total_v11: v11.length,
   validacao: {
     nao_tocados_identicos_e_em_ordem: ordemOk && originaisCom5,

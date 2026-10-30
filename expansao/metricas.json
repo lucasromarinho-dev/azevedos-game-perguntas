@@ -14641,7 +14641,54 @@
         }
       },
       "total_v11": 13984,
-      "obs_total": "2 a menos que a main porque 2 da reposição saíram por duplicidade (Esportes fácil e Geografia fácil); nenhuma nova gerada no lugar."
+      "obs_total": "2 a menos que a main porque 2 da reposição saíram por duplicidade (Esportes fácil e Geografia fácil); nenhuma nova gerada no lugar.",
+      "reposicao_lote114": {
+        "conferente": "conferente-lote114",
+        "data": "2026-10-30",
+        "o_que_e": "repõe as 2 fáceis descartadas da reposição (Geografia e Esportes) para manter 13.986",
+        "candidatas": 4,
+        "conferidas": [
+          "114:22cdbc6c9f Geografia/facil Carioca",
+          "114:f2f084ae0a Esportes/facil Porco (mascote do Palmeiras)"
+        ],
+        "reservas": [
+          "114:b79995cc44 Geografia/facil Holanda: mesmo molde de banco:10083 (tamancos), Holanda x Países Baixos",
+          "114:078f00aeab Esportes/facil Pelé: banco:2589 cita Pelé com o tricampeonato"
+        ],
+        "checagem_web": {
+          "leituras_wikipedia": 4,
+          "paginas": [
+            "pt: Carioca",
+            "pt: Sociedade Esportiva Palmeiras",
+            "pt: Países Baixos",
+            "pt: Pelé"
+          ],
+          "user_agent": "genérico"
+        },
+        "total_v11": 13986,
+        "por_categoria": {
+          "Geografia": 2056,
+          "História": 2103,
+          "Ciências": 2110,
+          "Esportes": 2433,
+          "Entretenimento": 2898,
+          "Tecnologia": 2386
+        },
+        "validacao": {
+          "versao_anterior_identica_e_em_ordem": 13984,
+          "nao_tocados_main": 13146,
+          "campos_fora_do_padrao": 0,
+          "alternativas_com_problema": 0,
+          "enunciados_repetidos": 0,
+          "entrega_novas": 0,
+          "entrega_falsos_alarmes_mantidos": 12,
+          "montarBanco": {
+            "validas": 13986,
+            "descartadas": 0
+          },
+          "sem_bom_uma_linha_sem_quebra_final": true
+        }
+      }
     },
     "disney": {
       "data": "2026-10-30",

@@ -4,21 +4,21 @@ A versão 11 do banco junta as três mudanças que você pediu:
 
 1. **Perguntas que entregavam a resposta foram consertadas** (552 reescritas e 8 tiradas). Exemplo: "...ganhou o apelido de Safadão?" com a resposta "Wesley Safadão".
 2. **Saem 286 perguntas de Entretenimento** sobre arte, livros e teatro de fora, e sobre arte e livros brasileiros pouco conhecidos ("Tirar, salvo as famosas" e "Saem também").
-3. **Entram 292 perguntas novas** de cultura pop brasileira: novela, música, humor, cinema, quadrinhos e desenhos.
+3. **Entram 294 perguntas novas** de cultura pop brasileira: novela, música, humor, cinema, quadrinhos e desenhos.
 
-Hoje o banco tem **13.986** perguntas. A v11 fica com **13.984**: duas perguntas novas saíram na conferência porque repetiam perguntas que já existem (veja os pontos de atenção). Nada foi publicado. O arquivo pronto é `correcoes/perguntas-v11.json` e só vai para o jogo com o seu OK.
+Hoje o banco tem **13.986** perguntas e a v11 fica com as mesmas **13.986**: duas perguntas novas saíram na conferência porque repetiam perguntas que já existem e entraram duas fáceis no lugar (veja os pontos de atenção). Nada foi publicado. O arquivo pronto é `correcoes/perguntas-v11.json` e só vai para o jogo com o seu OK.
 
 ## Quantas perguntas por categoria e dificuldade
 
 | Categoria | Fácil hoje | Fácil v11 | Média hoje | Média v11 | Difícil hoje | Difícil v11 | Total hoje | Total v11 |
 |---|---|---|---|---|---|---|---|---|
-| Geografia | 651 | 648 | 796 | 799 | 609 | 608 | 2.056 | 2.055 |
+| Geografia | 651 | 649 | 796 | 799 | 609 | 608 | 2.056 | 2.056 |
 | História | 600 | 600 | 814 | 821 | 689 | 682 | 2.103 | 2.103 |
 | Ciências | 681 | 680 | 833 | 837 | 596 | 593 | 2.110 | 2.110 |
-| Esportes | 755 | 754 | 944 | 944 | 734 | 734 | 2.433 | 2.432 |
+| Esportes | 755 | 755 | 944 | 944 | 734 | 734 | 2.433 | 2.433 |
 | Entretenimento | 982 | 980 | 1.203 | 1.214 | 713 | 704 | 2.898 | 2.898 |
 | Tecnologia | 750 | 750 | 925 | 931 | 711 | 705 | 2.386 | 2.386 |
-| **Total** | **4.419** | **4.412** | **5.515** | **5.546** | **4.052** | **4.026** | **13.986** | **13.984** |
+| **Total** | **4.419** | **4.414** | **5.515** | **5.546** | **4.052** | **4.026** | **13.986** | **13.986** |
 
 O tamanho de cada categoria quase não muda. A diferença maior é que algumas perguntas difíceis viraram médias: sem a "dica" no enunciado, ou pela régua (difícil é pergunta de quem acompanha TV e música, não de quem decora detalhe).
 
@@ -95,7 +95,7 @@ O tamanho de cada categoria quase não muda. A diferença maior é que algumas p
 
 ## Pontos de atenção
 
-1. **O total fica em 13.984, duas a menos que hoje.** Duas perguntas novas repetiam perguntas que já estão no jogo: "Qual clube de BH é chamado de Coelho?" (já existe "Qual clube mineiro tem o coelho como mascote?") e "Qual destes países NÃO faz fronteira com o Brasil? Chile" (já existe "Quais dois países não fazem fronteira com o Brasil? Chile e Equador"). Saem uma fácil de Esportes e uma fácil de Geografia. Não criei outras no lugar.
+1. **O total fica em 13.986, igual a hoje.** Duas perguntas novas repetiam perguntas que já estão no jogo: "Qual clube de BH é chamado de Coelho?" (já existe "Qual clube mineiro tem o coelho como mascote?") e "Qual destes países NÃO faz fronteira com o Brasil? Chile" (já existe "Quais dois países não fazem fronteira com o Brasil? Chile e Equador"). Saíram uma fácil de Esportes e uma fácil de Geografia, e no lugar entraram duas fáceis conferidas: "Como é chamado quem nasce na cidade do Rio de Janeiro?" (Carioca) e "Qual animal, que começou como provocação das torcidas rivais, acabou adotado como mascote pelo Palmeiras?" (Porco). Holanda (tulipas e moinhos) e Pelé (Rei do Futebol) ficaram de reserva: a da Holanda é parecida com a dos tamancos que já existe, e uma pergunta do jogo já fala em "tricampeonato mundial, com Pelé".
 2. **Algumas perguntas novas foram corrigidas antes de entrar (9).** Exemplos: o bordão do Boris Casoy é "Isto é uma vergonha!" (e não "Isso"); Ronnie Von nasceu em Niterói, então virou "fluminense" e não "carioca"; o dublador clássico do Homer ficou no papel até 2007, não "por décadas". E 8 perguntas que estavam como difíceis viraram médias por serem muito conhecidas (Sérgio Reis, Chayene, Wagner Moura como Olavo, Raj, João Paulo & Daniel, Zé Lelé, Franjinha e o Astronauta).
 3. **Na lista de remoção de Entretenimento, olhei 40 perguntas sorteadas e não mudei nada.** Nenhuma é do tamanho da Mona Lisa. Mas algumas podem ser "famosas" pelo seu teste do tio no churrasco e talvez valha você olhar: "Crime e Castigo" (Dostoiévski), "O Velho e o Mar" (Hemingway), Saramago (Nobel em português), Klimt ("O Beijo") e, das brasileiras, Peri de "O Guarani" e o Simbolismo de Cruz e Sousa, que caem no vestibular.
 4. **As novas são quase todas de Entretenimento brasileiro.** Turma da Mônica aparece em cerca de 17 perguntas; com o banco inteiro isso pesa pouco, mas numa partida só de Entretenimento pode sair mais de uma.

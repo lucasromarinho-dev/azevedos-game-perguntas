@@ -1893,6 +1893,57 @@
         "perguntas": 47,
         "total": 72
       }
+    },
+    {
+      "lote": "052",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 121,
+      "validas": 107,
+      "descartadas": 14,
+      "taxa_descarte": 0.12,
+      "caracteres": 17649,
+      "tokens_aprox": 5043,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "fatos-r5-052.txt",
+        "fatos-r5-052b.txt",
+        "r5-052b.txt",
+        "r5-052c.txt",
+        "r5-052d.txt",
+        "r5-052e.txt",
+        "r5-052f.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r5-052.txt",
+          "fatos-r5-052b.txt",
+          "r5-052b.txt",
+          "r5-052c.txt",
+          "r5-052d.txt",
+          "r5-052e.txt",
+          "r5-052f.txt"
+        ],
+        "linhas": 61,
+        "existem": 22,
+        "risco": 10,
+        "tokens_aprox": 3755,
+        "nomes_sondados": 160,
+        "nomes_ausentes": 93,
+        "descarte": 0.36,
+        "candidatas_por_valida": 0.57
+      },
+      "perguntas": {
+        "escritas": 121,
+        "validas": 107,
+        "descartadas_detector": 14,
+        "descarte": 0.12,
+        "tokens_aprox": 5043
+      },
+      "tokens_por_valida": {
+        "listas": 35,
+        "perguntas": 47,
+        "total": 82
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -5845,6 +5896,64 @@
       "livres": 13,
       "caracteres": 446,
       "tokens_aprox": 127
+    },
+    "fatos-r5-052.txt": {
+      "tipo": "fatos",
+      "linhas": 147,
+      "existem": 62,
+      "risco": 0,
+      "livres": 85,
+      "caracteres": 8114,
+      "tokens_aprox": 2318
+    },
+    "fatos-r5-052b.txt": {
+      "tipo": "fatos",
+      "linhas": 13,
+      "existem": 5,
+      "risco": 0,
+      "livres": 8,
+      "caracteres": 822,
+      "tokens_aprox": 235
+    },
+    "r5-052b.txt": {
+      "linhas": 31,
+      "existem": 7,
+      "risco": 8,
+      "livres": 16,
+      "caracteres": 2093,
+      "tokens_aprox": 598
+    },
+    "r5-052c.txt": {
+      "linhas": 13,
+      "existem": 6,
+      "risco": 2,
+      "livres": 5,
+      "caracteres": 889,
+      "tokens_aprox": 254
+    },
+    "r5-052d.txt": {
+      "linhas": 9,
+      "existem": 6,
+      "risco": 0,
+      "livres": 3,
+      "caracteres": 649,
+      "tokens_aprox": 185
+    },
+    "r5-052e.txt": {
+      "linhas": 5,
+      "existem": 2,
+      "risco": 0,
+      "livres": 3,
+      "caracteres": 342,
+      "tokens_aprox": 98
+    },
+    "r5-052f.txt": {
+      "linhas": 3,
+      "existem": 1,
+      "risco": 0,
+      "livres": 2,
+      "caracteres": 234,
+      "tokens_aprox": 67
     }
   },
   "rodada3": {

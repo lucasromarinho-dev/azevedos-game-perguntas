@@ -7,8 +7,8 @@
     "resposta": "GNV",
     "alternativas": [
       "Etanol",
-      "GNV",
       "Diesel",
+      "GNV",
       "GLP"
     ],
     "subtema": "Química",
@@ -27,8 +27,8 @@
     "resposta": "Estalagmite",
     "alternativas": [
       "Fumarola",
-      "Estalagmite",
       "Estalactite",
+      "Estalagmite",
       "Gêiser"
     ],
     "subtema": "Terra, geologia e clima",
@@ -47,8 +47,8 @@
     "resposta": "Glicerina",
     "alternativas": [
       "Silicone",
-      "Glicerina",
       "Vaselina",
+      "Glicerina",
       "Parafina"
     ],
     "subtema": "Química",
@@ -67,8 +67,8 @@
     "resposta": "Carvão ativado",
     "alternativas": [
       "Cal",
-      "Carvão ativado",
       "Argila",
+      "Carvão ativado",
       "Sílica"
     ],
     "subtema": "Química",
@@ -106,9 +106,9 @@
     "pergunta": "Como se chama o paredão de rocha ou terra à beira-mar, esculpido pelas ondas?",
     "resposta": "Falésia",
     "alternativas": [
-      "Falésia",
-      "Mangue",
       "Restinga",
+      "Mangue",
+      "Falésia",
       "Duna"
     ],
     "subtema": "Terra, geologia e clima",
@@ -128,8 +128,8 @@
     "alternativas": [
       "Rodínia",
       "Laurásia",
-      "Pangeia",
-      "Gondwana"
+      "Gondwana",
+      "Pangeia"
     ],
     "subtema": "Terra, geologia e clima",
     "status": "gerada",
@@ -168,8 +168,8 @@
     "alternativas": [
       "Chivito",
       "Sándwich de miga",
-      "Lomito",
-      "Choripán"
+      "Choripán",
+      "Lomito"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
     "status": "gerada",
@@ -228,8 +228,8 @@
     "alternativas": [
       "Tablet",
       "Palmtop",
-      "Ultrabook",
-      "Netbook"
+      "Netbook",
+      "Ultrabook"
     ],
     "subtema": "Hardware",
     "status": "gerada",
@@ -237,6 +237,2194 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ffdb142301",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual sopa japonesa de pasta de soja, com tofu e cebolinha, acompanha as refeições no Japão?",
+    "resposta": "Missoshiru",
+    "alternativas": [
+      "Lámen",
+      "Udon",
+      "Missoshiru",
+      "Sukiyaki"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "da0234dc46",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual pão italiano achatado, regado com azeite e coberto de alecrim, é assado numa assadeira?",
+    "resposta": "Focaccia",
+    "alternativas": [
+      "Focaccia",
+      "Baguete",
+      "Ciabatta",
+      "Brioche"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b4e85c5762",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual interjeição de espanto é a marca registrada do falar mineiro?",
+    "resposta": "Uai",
+    "alternativas": [
+      "Bah",
+      "Oxente",
+      "Uai",
+      "Égua"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:c6bcf6fc2a",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "d75a62df7a",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a jaqueta branca, de botões duplos, usada pelos chefs de cozinha?",
+    "resposta": "Dólmã",
+    "alternativas": [
+      "Colete",
+      "Jaleco",
+      "Dólmã",
+      "Avental"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d02be8b750",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em espanhol, o que é uma \"escoba\"?",
+    "resposta": "Vassoura",
+    "alternativas": [
+      "Esponja",
+      "Pá",
+      "Vassoura",
+      "Escova"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28e3eb04c7",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual pastel indiano triangular é frito e recheado de batata e ervilha temperadas?",
+    "resposta": "Samosa",
+    "alternativas": [
+      "Samosa",
+      "Empanada",
+      "Gyoza",
+      "Coxinha"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ab8678d4c1",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual prato português mistura bacalhau desfiado, batata palha e ovos mexidos?",
+    "resposta": "Bacalhau à Brás",
+    "alternativas": [
+      "Bacalhau à Brás",
+      "Bacalhoada",
+      "Bacalhau à Gomes de Sá",
+      "Pastel de bacalhau"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fd64df5869",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade goiana é a principal porta de entrada da Chapada dos Veadeiros e é famosa pelo clima místico?",
+    "resposta": "Alto Paraíso de Goiás",
+    "alternativas": [
+      "Alto Paraíso de Goiás",
+      "Goiás Velho",
+      "Pirenópolis",
+      "Caldas Novas"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:323 (E2 mesma resposta e mesmo assunto (21.6, 50% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:323",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (21.6, 50% do fato)"
+  },
+  {
+    "id": "837c95f555",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade paulista ficou famosa como capital do rafting e do turismo de aventura?",
+    "resposta": "Brotas",
+    "alternativas": [
+      "Holambra",
+      "Brotas",
+      "Campos do Jordão",
+      "Olímpia"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5b57396053",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade mineira de casas de pedra é famosa pelo misticismo e pelas histórias de discos voadores?",
+    "resposta": "São Thomé das Letras",
+    "alternativas": [
+      "São Thomé das Letras",
+      "Carrancas",
+      "Tiradentes",
+      "Diamantina"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cfb59b9da6",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em espanhol, o que quer dizer o verbo \"brincar\"?",
+    "resposta": "Pular",
+    "alternativas": [
+      "Correr",
+      "Pular",
+      "Dançar",
+      "Brincar"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:5bf6abe652",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 8.4)"
+  },
+  {
+    "id": "13ef5e5006",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em espanhol, o que quer dizer a palavra \"éxito\"?",
+    "resposta": "Sucesso",
+    "alternativas": [
+      "Sucesso",
+      "Saída",
+      "Pressa",
+      "Fracasso"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:e39494f0d0",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "6843e18849",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquipélago fluvial do Rio Negro, entre Manaus e Novo Airão, é um parque nacional famoso pelos botos?",
+    "resposta": "Anavilhanas",
+    "alternativas": [
+      "Anavilhanas",
+      "Mariuá",
+      "Marajó",
+      "Bailique"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7f5c74f089",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual delta, na divisa do Piauí com o Maranhão, se abre direto no oceano e tem dezenas de ilhas?",
+    "resposta": "Delta do Parnaíba",
+    "alternativas": [
+      "Delta do Parnaíba",
+      "Delta do Orinoco",
+      "Foz do São Francisco",
+      "Delta do Jacuí"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:551 (E2 mesma resposta e mesmo assunto (18.9, 45% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:551",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (18.9, 45% do fato)"
+  },
+  {
+    "id": "a1c5e3fc87",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se diz em latim o \"penso, logo existo\" de Descartes?",
+    "resposta": "Cogito, ergo sum",
+    "alternativas": [
+      "Cogito, ergo sum",
+      "Carpe diem",
+      "Alea jacta est",
+      "Veni, vidi, vici"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:852 (E5 resposta antiga citada no texto novo + assunto (32.3))",
+    "dup": "certa",
+    "dup_ref": "banco:852",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (32.3)"
+  },
+  {
+    "id": "fcea993825",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como ficou conhecida a linha direta criada em 1963 entre a Casa Branca e o Kremlin?",
+    "resposta": "Telefone vermelho",
+    "alternativas": [
+      "Telefone vermelho",
+      "Linha amarela",
+      "Ponte aérea",
+      "Cortina de Ferro"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:e5dd6d54c4 (E4 resposta nova (rara) citada no texto antigo (5.1))",
+    "dup": "certa",
+    "dup_ref": "id:e5dd6d54c4",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.1)"
+  },
+  {
+    "id": "b8ccdf9f56",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual marca americana, de Isaac Singer, popularizou a máquina de costura doméstica?",
+    "resposta": "Singer",
+    "alternativas": [
+      "Bernina",
+      "Brother",
+      "Elgin",
+      "Singer"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fe2e09ff05",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual conceito de Karl Marx é o valor que o trabalhador produz além do que recebe como salário?",
+    "resposta": "Mais-valia",
+    "alternativas": [
+      "Fetiche da mercadoria",
+      "Luta de classes",
+      "Alienação",
+      "Mais-valia"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66c20bfbcd",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual expressão de John Locke compara a mente do recém-nascido a uma folha em branco?",
+    "resposta": "Tábula rasa",
+    "alternativas": [
+      "Cogito",
+      "Contrato social",
+      "Mito da caverna",
+      "Tábula rasa"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fa443e6f2b",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual princípio diz que, entre explicações que funcionam igual, a mais simples tende a ser a certa?",
+    "resposta": "Navalha de Occam",
+    "alternativas": [
+      "Princípio da incerteza",
+      "Lei de Murphy",
+      "Paradoxo de Zenão",
+      "Navalha de Occam"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5fc0b00c76",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o argumento que parece lógico, mas é falso e feito para enganar?",
+    "resposta": "Sofisma",
+    "alternativas": [
+      "Sofisma",
+      "Silogismo",
+      "Postulado",
+      "Axioma"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "33c39b071f",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual máquina, inventada por Edmund Cartwright em 1785, mecanizou a tecelagem?",
+    "resposta": "Tear mecânico",
+    "alternativas": [
+      "Spinning Jenny",
+      "Descaroçador de algodão",
+      "Máquina a vapor",
+      "Tear mecânico"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "68028f6482",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como foi apelidada a barreira política que isolava a China comunista do Ocidente?",
+    "resposta": "Cortina de Bambu",
+    "alternativas": [
+      "Cortina de Bambu",
+      "Linha Maginot",
+      "Cortina de Ferro",
+      "Muralha Vermelha"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "97955af638",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual conceito de Kant manda agir como se a regra da sua ação pudesse virar lei para todos?",
+    "resposta": "Imperativo categórico",
+    "alternativas": [
+      "Eterno retorno",
+      "Contrato social",
+      "Imperativo categórico",
+      "Vontade de potência"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "28ea9afd72",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ideia de Nietzsche imagina a vida se repetindo infinitas vezes, exatamente igual?",
+    "resposta": "Eterno retorno",
+    "alternativas": [
+      "Niilismo",
+      "Eterno retorno",
+      "Vontade de potência",
+      "Super-homem"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0483dea319",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual máquina de fiar, inventada por James Hargreaves por volta de 1764, tinha nome de mulher?",
+    "resposta": "Spinning Jenny",
+    "alternativas": [
+      "Mule",
+      "Lançadeira volante",
+      "Water frame",
+      "Spinning Jenny"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "acc7d5d90c",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual governo de cinco membros comandou a França de 1795 até o golpe de 1799?",
+    "resposta": "Diretório",
+    "alternativas": [
+      "Comitê de Salvação Pública",
+      "Diretório",
+      "Consulado",
+      "Convenção"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:2b9cd5d4e0",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (4.7)"
+  },
+  {
+    "id": "a51cc5e8b9",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o ovo do piolho, que fica grudado no fio de cabelo?",
+    "resposta": "Lêndea",
+    "alternativas": [
+      "Lêndea",
+      "Sebo",
+      "Caspa",
+      "Larva"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:9e4fc5f6fa (E2e mesma resposta rara e algum assunto em comum (25.9, sim 0.6))",
+    "dup": "certa",
+    "dup_ref": "id:9e4fc5f6fa",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (25.9, sim 0.6)"
+  },
+  {
+    "id": "fbb0156626",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama popularmente o caroço que aparece quando um gânglio linfático incha?",
+    "resposta": "Íngua",
+    "alternativas": [
+      "Calo",
+      "Terçol",
+      "Íngua",
+      "Cisto"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:d68e925339 (R4 resposta nova citada no enunciado antigo + assunto em comum (peso 15.1))",
+    "dup": "certa",
+    "dup_ref": "id:d68e925339",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 15.1)"
+  },
+  {
+    "id": "7a67334f9f",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a maior lua de Urano?",
+    "resposta": "Titânia",
+    "alternativas": [
+      "Ariel",
+      "Oberon",
+      "Miranda",
+      "Titânia"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c5212041cd",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a fronteira entre a crosta e o manto da Terra?",
+    "resposta": "Descontinuidade de Mohorovičić",
+    "alternativas": [
+      "Descontinuidade de Gutenberg",
+      "Descontinuidade de Mohorovičić",
+      "Descontinuidade de Lehmann",
+      "Descontinuidade de Conrad"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8f9abecbf2",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o morro isolado de rocha que se ergue numa planície, comum no sertão nordestino?",
+    "resposta": "Inselberg",
+    "alternativas": [
+      "Chapada",
+      "Mesa",
+      "Cuesta",
+      "Inselberg"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c561bc427",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a faixa de areia que liga uma ilha ao continente?",
+    "resposta": "Tômbolo",
+    "alternativas": [
+      "Tômbolo",
+      "Falésia",
+      "Restinga",
+      "Delta"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "17be0279d6",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual exercício de musculação empurra a barra para cima, deitado num banco?",
+    "resposta": "Supino",
+    "alternativas": [
+      "Agachamento",
+      "Supino",
+      "Remada",
+      "Rosca direta"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bbe4e8e0e7",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual exercício abre e fecha braços e pernas ao mesmo tempo, pulando?",
+    "resposta": "Polichinelo",
+    "alternativas": [
+      "Polichinelo",
+      "Burpee",
+      "Agachamento",
+      "Afundo"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ca11d951bf",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual método de exercícios, focado no centro de força do abdômen, leva o sobrenome do seu criador alemão?",
+    "resposta": "Pilates",
+    "alternativas": [
+      "Calistenia",
+      "Pilates",
+      "Crossfit",
+      "Ioga"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8a15ec3172",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão define a raça e a valentia do futebol uruguaio?",
+    "resposta": "Garra charrua",
+    "alternativas": [
+      "Catimba",
+      "Garra charrua",
+      "Tiki-taka",
+      "Jogo bonito"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3ed7417314",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual suplemento em pó, feito da proteína do soro do leite, é popular nas academias?",
+    "resposta": "Whey",
+    "alternativas": [
+      "Colágeno",
+      "Creatina",
+      "BCAA",
+      "Whey"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "02243acf3a",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual exercício combina agachamento, flexão de braço e salto num só movimento?",
+    "resposta": "Burpee",
+    "alternativas": [
+      "Prancha",
+      "Afundo",
+      "Polichinelo",
+      "Burpee"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5e008c3c4e",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o treino feito só com o peso do próprio corpo, em barras e paralelas?",
+    "resposta": "Calistenia",
+    "alternativas": [
+      "Calistenia",
+      "Pilates",
+      "Spinning",
+      "Musculação"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc746ae9fd",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Como são chamados os torcedores e jogadores do Boca Juniors, por causa dos imigrantes genoveses do bairro?",
+    "resposta": "Xeneizes",
+    "alternativas": [
+      "Millonarios",
+      "Xeneizes",
+      "Gallinas",
+      "Pinchas"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f8d7f6d83f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual suplemento, muito usado por atletas de força, aumenta o estoque de energia rápida nos músculos?",
+    "resposta": "Creatina",
+    "alternativas": [
+      "Creatina",
+      "Cafeína",
+      "Colágeno",
+      "Whey"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5838c42bc4",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube paraguaio é chamado de \"Decano\"?",
+    "resposta": "Olimpia",
+    "alternativas": [
+      "Libertad",
+      "Cerro Porteño",
+      "Guaraní",
+      "Olimpia"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:787de1e7ed",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.5)"
+  },
+  {
+    "id": "b36200bc6a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o clássico entre Racing e Independiente?",
+    "resposta": "Clásico de Avellaneda",
+    "alternativas": [
+      "Clásico de Avellaneda",
+      "Clásico Rosarino",
+      "Superclásico",
+      "Clásico de La Plata"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66440078eb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube argentino é chamado de \"Pincharratas\"?",
+    "resposta": "Estudiantes",
+    "alternativas": [
+      "Estudiantes",
+      "Gimnasia",
+      "Lanús",
+      "Banfield"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:67bece63be",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.6)"
+  },
+  {
+    "id": "1c00783d55",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "No \"The Voice\", como se chamam as primeiras provas, em que os técnicos ouvem os candidatos de costas?",
+    "resposta": "Audições às cegas",
+    "alternativas": [
+      "Tira-teima",
+      "Audições às cegas",
+      "Batalhas",
+      "Shows ao vivo"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "df8365b9c9",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual monstro imaginário, escondido no armário ou debaixo da cama, assustava criança que não queria dormir?",
+    "resposta": "Bicho-papão",
+    "alternativas": [
+      "Curupira",
+      "Bicho-papão",
+      "Saci",
+      "Boto"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0220cd13bf",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual figura do imaginário popular, um velho maltrapilho, carregaria nas costas as crianças desobedientes?",
+    "resposta": "Homem do saco",
+    "alternativas": [
+      "Bicho-papão",
+      "Saci",
+      "Lobisomem",
+      "Homem do saco"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6111aea250",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora foi chamada de \"A Pequena Notável\"?",
+    "resposta": "Carmen Miranda",
+    "alternativas": [
+      "Aracy de Almeida",
+      "Emilinha Borba",
+      "Carmen Miranda",
+      "Dalva de Oliveira"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "712f916dd8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de gibi dos anos 1990, um menino piloto de capacete amarelo, homenageava um tricampeão de F1 brasileiro?",
+    "resposta": "Senninha",
+    "alternativas": [
+      "Bidu",
+      "Senninha",
+      "Menino Maluquinho",
+      "Pererê"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2532 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.3))",
+    "dup": "certa",
+    "dup_ref": "banco:2532",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.3)"
+  },
+  {
+    "id": "7af0114b6e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual reality musical do SBT formou o grupo Rouge, em 2002?",
+    "resposta": "Popstars",
+    "alternativas": [
+      "Ídolos",
+      "Fama",
+      "The Voice",
+      "Popstars"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ba9a553b1",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo masculino saiu da segunda edição do reality \"Popstars\", em 2003?",
+    "resposta": "Br'oz",
+    "alternativas": [
+      "KLB",
+      "Polegar",
+      "Twister",
+      "Br'oz"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e519e9c8e9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantora venceu a primeira edição do reality \"Fama\", da Globo, em 2002?",
+    "resposta": "Vanessa Jackson",
+    "alternativas": [
+      "Vanessa Jackson",
+      "Kelly Key",
+      "Nalanda",
+      "Wanessa"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:ebd8be3ff1 (R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 19.3))",
+    "dup": "certa",
+    "dup_ref": "id:ebd8be3ff1",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + enunciados parecidos (peso 19.3)"
+  },
+  {
+    "id": "73d1cfe985",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual figura do folclore amazônico é uma velha que vira pássaro e assobia de noite pedindo tabaco?",
+    "resposta": "Matinta Perera",
+    "alternativas": [
+      "Boitatá",
+      "Matinta Perera",
+      "Curupira",
+      "Iara"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a45081e595",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual figura do folclore sobe no peito de quem dorme de barriga cheia e causa pesadelos?",
+    "resposta": "Pisadeira",
+    "alternativas": [
+      "Bicho-papão",
+      "Pisadeira",
+      "Cuca",
+      "Mula sem cabeça"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cf48f1b86b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual festa católica de Pentecostes tem bandeira vermelha com uma pomba branca e um \"imperador\" coroado?",
+    "resposta": "Festa do Divino",
+    "alternativas": [
+      "Festa do Divino",
+      "Círio de Nazaré",
+      "Folia de Reis",
+      "Festa de São João"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a24055ae88",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o teatro de bonecos popular de Pernambuco?",
+    "resposta": "Mamulengo",
+    "alternativas": [
+      "Cordel",
+      "Ciranda",
+      "Mamulengo",
+      "Maracatu"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "34899dd8c0",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quem venceu a primeira edição do \"No Limite\", da Globo, em 2000?",
+    "resposta": "Elaine Melo",
+    "alternativas": [
+      "Elaine Melo",
+      "Pipa Diniz",
+      "Kléber Bambam",
+      "Bárbara Paz"
+    ],
+    "subtema": "Reality shows (BBB, A Fazenda etc.)",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:b296b7f07d (E5 resposta antiga citada no texto novo + assunto (16.6))",
+    "dup": "certa",
+    "dup_ref": "id:b296b7f07d",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.6)"
+  },
+  {
+    "id": "b64b91f445",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual entidade das matas de Pernambuco é uma menina que faz tranças nas crinas dos cavalos e protege os bichos?",
+    "resposta": "Comadre Fulozinha",
+    "alternativas": [
+      "Comadre Fulozinha",
+      "Caipora",
+      "Matinta Perera",
+      "Iara"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "94aa0a3f0d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual figura do folclore nordestino é um homem doente que comeria o fígado de crianças?",
+    "resposta": "Papa-figo",
+    "alternativas": [
+      "Corpo-seco",
+      "Bicho-papão",
+      "Labatut",
+      "Papa-figo"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7aea25b923",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual folguedo natalino nordestino tem dois cordões de pastoras, o azul e o encarnado?",
+    "resposta": "Pastoril",
+    "alternativas": [
+      "Reisado",
+      "Pastoril",
+      "Bumba meu boi",
+      "Maracatu"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49178a546c",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o canto melancólico que o vaqueiro usa para chamar e guiar o gado?",
+    "resposta": "Aboio",
+    "alternativas": [
+      "Aboio",
+      "Embolada",
+      "Toada",
+      "Repente"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "670c9d4d73",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o aparelho de rua onde se paga pelo tempo de estacionamento?",
+    "resposta": "Parquímetro",
+    "alternativas": [
+      "Taxímetro",
+      "Parquímetro",
+      "Hidrômetro",
+      "Odômetro"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e994237a49",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a máquina do banco onde se saca dinheiro sem falar com um atendente?",
+    "resposta": "Caixa eletrônico",
+    "alternativas": [
+      "Guichê",
+      "Maquininha",
+      "Caixa eletrônico",
+      "Cofre"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a35b8736e",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual eletrodoméstico tem um copo com lâminas no fundo para bater sucos e vitaminas?",
+    "resposta": "Liquidificador",
+    "alternativas": [
+      "Batedeira",
+      "Torradeira",
+      "Espremedor",
+      "Liquidificador"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8a2bf84509",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual instrumento do painel do carro marca a quilometragem total já rodada?",
+    "resposta": "Odômetro",
+    "alternativas": [
+      "Manômetro",
+      "Odômetro",
+      "Velocímetro",
+      "Tacômetro"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2053",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 17.4)"
+  },
+  {
+    "id": "6ca1acd834",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual buscador da internet tinha um cachorro labrador preto como mascote?",
+    "resposta": "Lycos",
+    "alternativas": [
+      "Lycos",
+      "AltaVista",
+      "Yahoo!",
+      "Ask Jeeves"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "42342a38f3",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os sistemas acessados por modem, com fóruns e arquivos, antes da internet comercial?",
+    "resposta": "BBS",
+    "alternativas": [
+      "BBS",
+      "Wiki",
+      "Intranet",
+      "LAN house"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "755c9bfd77",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual celular da Sony Ericsson, de 2011, tinha um controle de videogame que deslizava da tela?",
+    "resposta": "Xperia Play",
+    "alternativas": [
+      "Galaxy Note",
+      "Xperia Play",
+      "N-Gage",
+      "Moto Z"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3961 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "banco:3961",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "dbc625527a",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual celular da Danger, de tela giratória sobre o teclado, fez sucesso entre celebridades nos EUA nos anos 2000?",
+    "resposta": "Sidekick",
+    "alternativas": [
+      "Treo",
+      "Razr",
+      "Sidekick",
+      "BlackBerry"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac3f8045d4",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual computador pessoal brasileiro dos anos 1980, da Prológica, era compatível com o TRS-80?",
+    "resposta": "CP-500",
+    "alternativas": [
+      "Hotbit",
+      "CP-500",
+      "Expert",
+      "TK-85"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5119c71ac6",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estatal brasileira fabricou computadores durante a política de reserva de mercado da informática?",
+    "resposta": "Cobra Computadores",
+    "alternativas": [
+      "Prológica",
+      "Embratel",
+      "Cobra Computadores",
+      "Itautec"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "844c845d3a",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em espanhol, o que é um \"vaso\" na mesa do jantar?",
+    "resposta": "Copo",
+    "alternativas": [
+      "Jarra",
+      "Copo",
+      "Garrafa",
+      "Vaso de flor"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:43f6fab20a",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "98dda6a763",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como ficou conhecido o primeiro selo postal do Brasil, lançado em 1843?",
+    "resposta": "Olho-de-boi",
+    "alternativas": [
+      "Olho-de-gato",
+      "Inclinado",
+      "Cabeça de Pedro",
+      "Olho-de-boi"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c3753e6484",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a sensação que faz a pessoa rir sem querer quando mexem nas axilas ou na barriga?",
+    "resposta": "Cócegas",
+    "alternativas": [
+      "Cócegas",
+      "Calafrio",
+      "Coceira",
+      "Arrepio"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1fb76b1021",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o barulho que algumas pessoas fazem ao respirar enquanto dormem?",
+    "resposta": "Ronco",
+    "alternativas": [
+      "Ronco",
+      "Bocejo",
+      "Soluço",
+      "Suspiro"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2107",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "df0d360bf8",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a unha que cresce para dentro da pele, causando dor e inflamação?",
+    "resposta": "Unha encravada",
+    "alternativas": [
+      "Micose",
+      "Frieira",
+      "Calo",
+      "Unha encravada"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:1a2d08bd2e",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "20cad58328",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a aula de bicicleta ergométrica em grupo, com música alta?",
+    "resposta": "Spinning",
+    "alternativas": [
+      "Jump",
+      "Zumba",
+      "Step",
+      "Spinning"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "58c2721939",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual exercício dá um passo largo à frente, descendo o joelho de trás quase até o chão?",
+    "resposta": "Afundo",
+    "alternativas": [
+      "Stiff",
+      "Afundo",
+      "Elevação pélvica",
+      "Agachamento"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9f162200f1",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual exercício levanta a barra do chão até a altura do quadril, com as costas retas?",
+    "resposta": "Levantamento terra",
+    "alternativas": [
+      "Levantamento terra",
+      "Remada curvada",
+      "Supino",
+      "Desenvolvimento"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3463dec39f",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "7c493e91fc",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o clássico entre Rosario Central e Newell's Old Boys?",
+    "resposta": "Clásico Rosarino",
+    "alternativas": [
+      "Clásico de Avellaneda",
+      "Clásico Rosarino",
+      "Superclásico",
+      "Clásico de La Plata"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d14405240f",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual torneio, de 1998 a 2001, reunia clubes da Colômbia, do Equador, da Venezuela e de outros países do norte do continente?",
+    "resposta": "Copa Merconorte",
+    "alternativas": [
+      "Copa Merconorte",
+      "Copa Conmebol",
+      "Recopa Sul-Americana",
+      "Copa Mercosul"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1520 (R5 parte da resposta citada + muito assunto em comum (peso 23.6))",
+    "dup": "certa",
+    "dup_ref": "banco:1520",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 23.6)"
+  },
+  {
+    "id": "a0e7aa659e",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual apelido o River Plate ganhou nos anos 1930 por causa das contratações caríssimas?",
+    "resposta": "Millonarios",
+    "alternativas": [
+      "Canallas",
+      "Millonarios",
+      "Pinchas",
+      "Xeneizes"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9a2c7f4eab",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual arara-azul de cativeiro, que não sabe voar, é o protagonista da animação \"Rio\"?",
+    "resposta": "Blu",
+    "alternativas": [
+      "Pedro",
+      "Nico",
+      "Blu",
+      "Rafael"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "75465610fc",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual indiozinho da Turma da Mônica vive na floresta e defende a natureza?",
+    "resposta": "Papa-Capim",
+    "alternativas": [
+      "Papa-Capim",
+      "Piteco",
+      "Pererê",
+      "Chico Bento"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Turma da Mônica",
+    "dup_regra": null
+  },
+  {
+    "id": "5e614aec85",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o gato da Magali, na Turma da Mônica?",
+    "resposta": "Mingau",
+    "alternativas": [
+      "Mingau",
+      "Bidu",
+      "Monicão",
+      "Floquinho"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:5a3fc9d248 (E5 resposta antiga citada no texto novo + assunto (22.0))",
+    "dup": "certa",
+    "dup_ref": "id:5a3fc9d248",
+    "recente": false,
+    "universo": "Turma da Mônica",
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (22.0)"
+  },
+  {
+    "id": "bfe201bdcd",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tartaruga gigante voadora é a rival japonesa de Godzilla nos filmes da Daiei?",
+    "resposta": "Gamera",
+    "alternativas": [
+      "King Ghidorah",
+      "Gamera",
+      "Rodan",
+      "Mothra"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fa91b8d630",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual herói japonês da TV Manchete era o \"Policial de Aço\"?",
+    "resposta": "Jiban",
+    "alternativas": [
+      "Jiraiya",
+      "Cybercops",
+      "Jiban",
+      "Spielvan"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e78e787eb5",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho mede o consumo de água de uma casa?",
+    "resposta": "Hidrômetro",
+    "alternativas": [
+      "Odômetro",
+      "Manômetro",
+      "Hidrômetro",
+      "Taxímetro"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2209",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.6)"
+  },
+  {
+    "id": "5a466d83bc",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama popularmente o medidor de consumo de energia elétrica da casa?",
+    "resposta": "Relógio de luz",
+    "alternativas": [
+      "Disjuntor",
+      "Hidrômetro",
+      "Benjamim",
+      "Relógio de luz"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:89746f99ef",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "d1b25d43ab",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho permite falar com quem toca a campainha lá embaixo, na portaria do prédio?",
+    "resposta": "Interfone",
+    "alternativas": [
+      "Telex",
+      "Walkie-talkie",
+      "Megafone",
+      "Interfone"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3324afe995",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "f58099a480",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual aparelho registra a velocidade e o tempo de direção de caminhões e ônibus?",
+    "resposta": "Tacógrafo",
+    "alternativas": [
+      "Tacógrafo",
+      "Odômetro",
+      "Velocímetro",
+      "Taxímetro"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d115cc8b72",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o tablet mágico que Link usa em \"Zelda: Breath of the Wild\"?",
+    "resposta": "Pedra Sheikah",
+    "alternativas": [
+      "Espada Mestra",
+      "Ocarina",
+      "Triforce",
+      "Pedra Sheikah"
+    ],
+    "subtema": "Games: Nintendo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Zelda",
+    "dup_regra": null
+  },
+  {
+    "id": "32b4401b7a",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual linha de smartphones da Palm misturava agenda eletrônica e celular nos anos 2000?",
+    "resposta": "Treo",
+    "alternativas": [
+      "Razr",
+      "Sidekick",
+      "BlackBerry",
+      "Treo"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "94120566df",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Quais pequenos espíritos da floresta escondem sementes por todo o mapa de \"Zelda: Breath of the Wild\"?",
+    "resposta": "Koroks",
+    "alternativas": [
+      "Gorons",
+      "Zoras",
+      "Koroks",
+      "Sheikahs"
+    ],
+    "subtema": "Games: Nintendo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Zelda",
+    "dup_regra": null
+  },
+  {
+    "id": "65905cfb13",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual spray aromático, usado nos bailes de Carnaval, foi proibido no Brasil em 1961?",
+    "resposta": "Lança-perfume",
+    "alternativas": [
+      "Serpentina",
+      "Pó de mico",
+      "Confete",
+      "Lança-perfume"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b81ab9d2a2",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "a58a5a441f",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava o caminhão com bancos de madeira na carroceria que levava migrantes nordestinos para o Sudeste?",
+    "resposta": "Pau de arara",
+    "alternativas": [
+      "Pau de arara",
+      "Boleia",
+      "Jardineira",
+      "Lotação"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dd7fe9be3a",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Segundo a tradição popular, qual gesto do público ou do imperador condenava o gladiador derrotado à morte?",
+    "resposta": "Polegar para baixo",
+    "alternativas": [
+      "Polegar para cima",
+      "Punho fechado",
+      "Polegar para baixo",
+      "Mão aberta"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "382f308905",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual aula de ginástica usa uma plataforma baixa para subir e descer no ritmo da música?",
+    "resposta": "Step",
+    "alternativas": [
+      "Jump",
+      "Step",
+      "Spinning",
+      "Zumba"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "01af3e0831",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual salto sobre a mesa, com meia pirueta na entrada, leva o nome de um ginasta japonês?",
+    "resposta": "Tsukahara",
+    "alternativas": [
+      "Tsukahara",
+      "Produnova",
+      "Amanar",
+      "Yurchenko"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8264bf649b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem idosa do programa do Bozo, vivida por um ator, fez sucesso no SBT nos anos 1980?",
+    "resposta": "Vovó Mafalda",
+    "alternativas": [
+      "Vovó Mafalda",
+      "Tia Nastácia",
+      "Vovó Donalda",
+      "Dona Clotilde"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c2c9f7111c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual pássaro amarelo gigante era o personagem principal da \"Vila Sésamo\" brasileira?",
+    "resposta": "Garibaldo",
+    "alternativas": [
+      "Funga-Funga",
+      "Garibaldo",
+      "Elmo",
+      "Come-Come"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1ba9a26e57",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual quadro do \"Domingo Legal\" tinha Gugu disfarçado de motorista surpreendendo os passageiros?",
+    "resposta": "Táxi do Gugu",
+    "alternativas": [
+      "Pegadinha do Malandro",
+      "Porta dos Desesperados",
+      "Táxi do Gugu",
+      "Banheira do Gugu"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:7652e239d4 (E2d respostas dividem a palavra rara + muito assunto em comum (22.0))",
+    "dup": "certa",
+    "dup_ref": "id:7652e239d4",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (22.0)"
+  },
+  {
+    "id": "183156c19e",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem da Turma da Mônica sempre faz tudo ao contrário dos outros?",
+    "resposta": "Do Contra",
+    "alternativas": [
+      "Cascão",
+      "Do Contra",
+      "Xaveco",
+      "Franjinha"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Turma da Mônica",
+    "dup_regra": null
+  },
+  {
+    "id": "6629f34f19",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual cidade toda verde mora o Mágico de Oz?",
+    "resposta": "Cidade das Esmeraldas",
+    "alternativas": [
+      "Camelot",
+      "Nárnia",
+      "Terra do Nunca",
+      "Cidade das Esmeraldas"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "O Mágico de Oz",
+    "dup_regra": null
+  },
+  {
+    "id": "580497ae9c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual guerreiro português se apaixona pela índia Iracema no romance de José de Alencar?",
+    "resposta": "Martim",
+    "alternativas": [
+      "Peri",
+      "Araquém",
+      "Martim",
+      "Poti"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "80f570031d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ritmo embala as apresentações do boi-bumbá no Festival de Parintins?",
+    "resposta": "Toada",
+    "alternativas": [
+      "Carimbó",
+      "Frevo",
+      "Xote",
+      "Toada"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "716ae97295",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual urubu trapaceiro é um dos vilões mais conhecidos dos desenhos do Pica-Pau?",
+    "resposta": "Zeca Urubu",
+    "alternativas": [
+      "Dick Vigarista",
+      "Bafo de Onça",
+      "Zeca Urubu",
+      "Leôncio"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:2e15c35bb8 (E2e mesma resposta rara e algum assunto em comum (28.9, sim 0.5))",
+    "dup": "certa",
+    "dup_ref": "id:2e15c35bb8",
+    "recente": false,
+    "universo": "Pica-Pau",
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (28.9, sim 0.5)"
+  },
+  {
+    "id": "ae46a5f223",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual morsa rabugenta vive perdendo a paciência com o Pica-Pau?",
+    "resposta": "Leôncio",
+    "alternativas": [
+      "Zeca Urubu",
+      "Catatau",
+      "Leôncio",
+      "Gaguinho"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Pica-Pau",
     "dup_regra": null
   }
 ]

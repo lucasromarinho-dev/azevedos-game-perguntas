@@ -1,0 +1,5253 @@
+{
+ "banco": "origin/main:perguntas.json (13.986 perguntas)",
+ "gerado_em": "2026-10-30",
+ "gerado_por": "agente entretenimento-80",
+ "criterio": "Sai toda arte, literatura e teatro-danca de origem estrangeira com famosa=false (pergunta: 'meu tio no churrasco sabe?'). Brasileiras ficam; as obscuras em difícil estão em a_decidir_pelo_lucas e NÃO são removidas.",
+ "total_remover": 193,
+ "remover": [
+  {
+   "ref": "banco:3369",
+   "indice": 3369,
+   "tema": "teatro-danca",
+   "motivo": "prêmio de teatro americano, pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O prêmio Tony Awards reconhece trabalhos artísticos em qual campo?",
+    "resposta": "Teatro da Broadway",
+    "alternativas": [
+     "Teatro da Broadway",
+     "Artes plásticas",
+     "Cinema independente",
+     "Música clássica"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5422",
+   "indice": 5422,
+   "tema": "literatura",
+   "motivo": "Crime e Castigo, romance russo do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estudante assassino é o protagonista de \"Crime e Castigo\"?",
+    "resposta": "Raskólnikov",
+    "alternativas": [
+     "Míchkin",
+     "Aliócha Karamázov",
+     "Raskólnikov",
+     "Oblómov"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5513",
+   "indice": 5513,
+   "tema": "literatura",
+   "motivo": "Macondo, detalhe de romance que não virou pop",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a cidade fictícia de \"Cem Anos de Solidão\", de García Márquez?",
+    "resposta": "Macondo",
+    "alternativas": [
+     "Santa Teresa",
+     "Yoknapatawpha",
+     "Comala",
+     "Macondo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5614",
+   "indice": 5614,
+   "tema": "literatura",
+   "motivo": "Dorian Gray, romance que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual personagem de Oscar Wilde fica jovem enquanto só o seu retrato envelhece?",
+    "resposta": "Dorian Gray",
+    "alternativas": [
+     "Henry Wotton",
+     "Basil Hallward",
+     "Sibyl Vane",
+     "Dorian Gray"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5616",
+   "indice": 5616,
+   "tema": "literatura",
+   "motivo": "O Morro dos Ventos Uivantes, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o protagonista sombrio de \"O Morro dos Ventos Uivantes\"?",
+    "resposta": "Heathcliff",
+    "alternativas": [
+     "Rochester",
+     "Darcy",
+     "Heathcliff",
+     "Edgar Linton"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5708",
+   "indice": 5708,
+   "tema": "literatura",
+   "motivo": "Capitão Ahab, detalhe de Moby Dick",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual capitão persegue obsessivamente a baleia Moby Dick?",
+    "resposta": "Capitão Ahab",
+    "alternativas": [
+     "Capitão Nemo",
+     "Capitão Ahab",
+     "Capitão Gancho",
+     "Capitão Smith"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5882",
+   "indice": 5882,
+   "tema": "literatura",
+   "motivo": "Kafka, A Metamorfose: leitura de escola, não popular",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual personagem de Kafka acorda transformado num inseto?",
+    "resposta": "Gregor Samsa",
+    "alternativas": [
+     "Gregor Samsa",
+     "Josef K.",
+     "Raskólnikov",
+     "Karl Rossmann"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5963",
+   "indice": 5963,
+   "tema": "literatura",
+   "motivo": "Fernando Pessoa e heterônimos, assunto de escola",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta português escreveu com heterônimos como Alberto Caeiro e Álvaro de Campos?",
+    "resposta": "Fernando Pessoa",
+    "alternativas": [
+     "Eça de Queirós",
+     "Fernando Pessoa",
+     "Florbela Espanca",
+     "Luís de Camões"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6046",
+   "indice": 6046,
+   "tema": "arte",
+   "motivo": "Botticelli, nome que o público geral não liga ao quadro",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor italiano do Renascimento pintou \"O Nascimento de Vênus\"?",
+    "resposta": "Sandro Botticelli",
+    "alternativas": [
+     "Sandro Botticelli",
+     "Caravaggio",
+     "Rafael",
+     "Ticiano"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6055",
+   "indice": 6055,
+   "tema": "arte",
+   "motivo": "Vermeer, pintor pouco conhecido do público geral",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor holandês criou \"Moça com Brinco de Pérola\"?",
+    "resposta": "Johannes Vermeer",
+    "alternativas": [
+     "Rembrandt",
+     "Frans Hals",
+     "Johannes Vermeer",
+     "Jan Steen"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6056",
+   "indice": 6056,
+   "tema": "arte",
+   "motivo": "detalhe de movimento artístico (impressionismo)",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor francês criou \"Impressão, Nascer do Sol\", obra que deu nome ao impressionismo?",
+    "resposta": "Claude Monet",
+    "alternativas": [
+     "Edgar Degas",
+     "Paul Cézanne",
+     "Pierre-Auguste Renoir",
+     "Claude Monet"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6847",
+   "indice": 6847,
+   "tema": "literatura",
+   "motivo": "Otelo, peça que o público geral não conhece a fundo",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual peça de Shakespeare tem um general mouro enganado por Iago?",
+    "resposta": "Otelo",
+    "alternativas": [
+     "Hamlet",
+     "Júlio César",
+     "Macbeth",
+     "Otelo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6848",
+   "indice": 6848,
+   "tema": "literatura",
+   "motivo": "Macbeth, enredo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual peça de Shakespeare tem um casal escocês que mata o rei para tomar o trono?",
+    "resposta": "Macbeth",
+    "alternativas": [
+     "Hamlet",
+     "Ricardo III",
+     "Macbeth",
+     "Rei Lear"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6849",
+   "indice": 6849,
+   "tema": "literatura",
+   "motivo": "Jane Austen, romance inglês do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual romance de Jane Austen tem Elizabeth Bennet e o senhor Darcy?",
+    "resposta": "Orgulho e Preconceito",
+    "alternativas": [
+     "Orgulho e Preconceito",
+     "Emma",
+     "Razão e Sensibilidade",
+     "Persuasão"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6850",
+   "indice": 6850,
+   "tema": "literatura",
+   "motivo": "Fahrenheit 451, romance que não virou pop aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual romance de Ray Bradbury mostra bombeiros que queimam livros?",
+    "resposta": "Fahrenheit 451",
+    "alternativas": [
+     "1984",
+     "Admirável Mundo Novo",
+     "Laranja Mecânica",
+     "Fahrenheit 451"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6851",
+   "indice": 6851,
+   "tema": "literatura",
+   "motivo": "Hemingway, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual livro de Hemingway tem um velho pescador cubano lutando contra um peixe gigante?",
+    "resposta": "O Velho e o Mar",
+    "alternativas": [
+     "O Velho e o Mar",
+     "Moby Dick",
+     "Adeus às Armas",
+     "Por Quem os Sinos Dobram"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6871",
+   "indice": 6871,
+   "tema": "literatura",
+   "motivo": "Rei Lear, peça pouco conhecida do público geral",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual peça de Shakespeare tem um rei que divide o reino entre as filhas e enlouquece?",
+    "resposta": "Rei Lear",
+    "alternativas": [
+     "Hamlet",
+     "Otelo",
+     "Macbeth",
+     "Rei Lear"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6959",
+   "indice": 6959,
+   "tema": "literatura",
+   "motivo": "Tom Sawyer, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual livro de Mark Twain tem um menino travesso que vive às margens do Mississippi?",
+    "resposta": "As Aventuras de Tom Sawyer",
+    "alternativas": [
+     "Oliver Twist",
+     "O Pequeno Lorde",
+     "As Aventuras de Tom Sawyer",
+     "Peter Pan"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6960",
+   "indice": 6960,
+   "tema": "literatura",
+   "motivo": "Jane Eyre, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Charlotte Brontë tem uma governanta que se apaixona pelo senhor Rochester?",
+    "resposta": "Jane Eyre",
+    "alternativas": [
+     "Orgulho e Preconceito",
+     "O Morro dos Ventos Uivantes",
+     "Jane Eyre",
+     "Razão e Sensibilidade"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6961",
+   "indice": 6961,
+   "tema": "literatura",
+   "motivo": "Madame Bovary, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Flaubert tem Emma, uma mulher entediada com o casamento no interior?",
+    "resposta": "Madame Bovary",
+    "alternativas": [
+     "Anna Kariênina",
+     "Madame Bovary",
+     "Germinal",
+     "Os Miseráveis"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6962",
+   "indice": 6962,
+   "tema": "literatura",
+   "motivo": "Salinger, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual livro de J. D. Salinger tem o adolescente Holden Caulfield?",
+    "resposta": "O Apanhador no Campo de Centeio",
+    "alternativas": [
+     "O Grande Gatsby",
+     "A Sangue Frio",
+     "O Apanhador no Campo de Centeio",
+     "On the Road"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6966",
+   "indice": 6966,
+   "tema": "literatura",
+   "motivo": "Tolstói, romance russo do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Tolstói tem uma mulher da alta sociedade russa que se joga sob um trem?",
+    "resposta": "Anna Kariênina",
+    "alternativas": [
+     "Guerra e Paz",
+     "Crime e Castigo",
+     "Madame Bovary",
+     "Anna Kariênina"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7081",
+   "indice": 7081,
+   "tema": "arte",
+   "motivo": "Degas, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual pintor impressionista francês ficou famoso por retratar bailarinas?",
+    "resposta": "Edgar Degas",
+    "alternativas": [
+     "Edgar Degas",
+     "Pierre-Auguste Renoir",
+     "Claude Monet",
+     "Édouard Manet"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7082",
+   "indice": 7082,
+   "tema": "arte",
+   "motivo": "Mondrian, detalhe de estilo artístico",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor holandês criou quadros com linhas pretas e retângulos nas cores primárias?",
+    "resposta": "Piet Mondrian",
+    "alternativas": [
+     "Paul Klee",
+     "Wassily Kandinsky",
+     "Piet Mondrian",
+     "Kazimir Malevich"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7083",
+   "indice": 7083,
+   "tema": "arte",
+   "motivo": "Hokusai, artista que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista japonês criou a gravura \"A Grande Onda de Kanagawa\"?",
+    "resposta": "Hokusai",
+    "alternativas": [
+     "Hokusai",
+     "Utamaro",
+     "Hiroshige",
+     "Yayoi Kusama"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7086",
+   "indice": 7086,
+   "tema": "arte",
+   "motivo": "Escher, artista que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista holandês ficou famoso por gravuras de escadas impossíveis e mãos que desenham uma à outra?",
+    "resposta": "M. C. Escher",
+    "alternativas": [
+     "M. C. Escher",
+     "Piet Mondrian",
+     "Salvador Dalí",
+     "René Magritte"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7114",
+   "indice": 7114,
+   "tema": "arte",
+   "motivo": "Klimt, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor austríaco é famoso pelo quadro \"O Beijo\", cheio de dourado?",
+    "resposta": "Gustav Klimt",
+    "alternativas": [
+     "Gustav Klimt",
+     "Paul Gauguin",
+     "Oskar Kokoschka",
+     "Egon Schiele"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7115",
+   "indice": 7115,
+   "tema": "arte",
+   "motivo": "Gauguin, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor francês se mudou para o Taiti e pintou mulheres polinésias?",
+    "resposta": "Paul Gauguin",
+    "alternativas": [
+     "Paul Cézanne",
+     "Paul Gauguin",
+     "Henri Matisse",
+     "Henri de Toulouse-Lautrec"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7116",
+   "indice": 7116,
+   "tema": "arte",
+   "motivo": "Pollock, detalhe de técnica artística",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor americano espalhava tinta sobre telas estendidas no chão, na técnica do gotejamento?",
+    "resposta": "Jackson Pollock",
+    "alternativas": [
+     "Andy Warhol",
+     "Mark Rothko",
+     "Jackson Pollock",
+     "Jean-Michel Basquiat"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7117",
+   "indice": 7117,
+   "tema": "arte",
+   "motivo": "Magritte, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor belga pintou um cachimbo com a frase \"Isto não é um cachimbo\"?",
+    "resposta": "René Magritte",
+    "alternativas": [
+     "Max Ernst",
+     "Salvador Dalí",
+     "René Magritte",
+     "Joan Miró"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7173",
+   "indice": 7173,
+   "tema": "arte",
+   "motivo": "MoMA, museu que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O MoMA, famoso museu de arte moderna, fica em qual cidade?",
+    "resposta": "Nova York",
+    "alternativas": [
+     "Nova York",
+     "Los Angeles",
+     "Londres",
+     "Paris"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7183",
+   "indice": 7183,
+   "tema": "arte",
+   "motivo": "Velázquez, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor espanhol pintou \"As Meninas\", com a infanta Margarida no centro?",
+    "resposta": "Diego Velázquez",
+    "alternativas": [
+     "Bartolomé Murillo",
+     "El Greco",
+     "Diego Velázquez",
+     "Francisco de Goya"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7184",
+   "indice": 7184,
+   "tema": "arte",
+   "motivo": "Caravaggio, detalhe de estilo artístico",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor barroco italiano ficou famoso pelo forte contraste de luz e sombra e por uma vida cheia de brigas?",
+    "resposta": "Caravaggio",
+    "alternativas": [
+     "Caravaggio",
+     "Ticiano",
+     "Tintoretto",
+     "Rafael"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7276",
+   "indice": 7276,
+   "tema": "literatura",
+   "motivo": "Dostoiévski, romance russo do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor russo escreveu \"Crime e Castigo\"?",
+    "resposta": "Fiódor Dostoiévski",
+    "alternativas": [
+     "Ivan Turguêniev",
+     "Máximo Gorki",
+     "Liev Tolstói",
+     "Fiódor Dostoiévski"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7277",
+   "indice": 7277,
+   "tema": "literatura",
+   "motivo": "Harper Lee, autora que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora americana escreveu \"O Sol É para Todos\"?",
+    "resposta": "Harper Lee",
+    "alternativas": [
+     "Harper Lee",
+     "Sylvia Plath",
+     "Maya Angelou",
+     "Toni Morrison"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7278",
+   "indice": 7278,
+   "tema": "literatura",
+   "motivo": "Nobel de Literatura, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor português, Nobel de Literatura de 1998, escreveu \"Ensaio sobre a Cegueira\"?",
+    "resposta": "José Saramago",
+    "alternativas": [
+     "Eça de Queirós",
+     "Fernando Pessoa",
+     "José Saramago",
+     "António Lobo Antunes"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7282",
+   "indice": 7282,
+   "tema": "literatura",
+   "motivo": "Neruda e o Nobel, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta chileno, Nobel de 1971, escreveu \"Vinte Poemas de Amor e uma Canção Desesperada\"?",
+    "resposta": "Pablo Neruda",
+    "alternativas": [
+     "Vicente Huidobro",
+     "Nicanor Parra",
+     "Gabriela Mistral",
+     "Pablo Neruda"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7284",
+   "indice": 7284,
+   "tema": "literatura",
+   "motivo": "Steinbeck, romance que não virou pop",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de John Steinbeck acompanha a família Joad fugindo da seca rumo à Califórnia?",
+    "resposta": "As Vinhas da Ira",
+    "alternativas": [
+     "A Leste do Éden",
+     "Ratos e Homens",
+     "O Grande Gatsby",
+     "As Vinhas da Ira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7285",
+   "indice": 7285,
+   "tema": "literatura",
+   "motivo": "Nobel de Literatura, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor peruano ganhou o Nobel de Literatura de 2010?",
+    "resposta": "Mario Vargas Llosa",
+    "alternativas": [
+     "Octavio Paz",
+     "Gabriel García Márquez",
+     "Jorge Luis Borges",
+     "Mario Vargas Llosa"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7286",
+   "indice": 7286,
+   "tema": "literatura",
+   "motivo": "Cortázar, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor argentino escreveu o romance \"O Jogo da Amarelinha\"?",
+    "resposta": "Julio Cortázar",
+    "alternativas": [
+     "Jorge Luis Borges",
+     "Ernesto Sabato",
+     "Julio Cortázar",
+     "Adolfo Bioy Casares"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7287",
+   "indice": 7287,
+   "tema": "literatura",
+   "motivo": "Gogol, autor russo do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor russo escreveu \"O Capote\" e \"Almas Mortas\"?",
+    "resposta": "Nikolai Gogol",
+    "alternativas": [
+     "Aleksandr Púchkin",
+     "Nikolai Gogol",
+     "Ivan Turguêniev",
+     "Anton Tchekhov"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7288",
+   "indice": 7288,
+   "tema": "literatura",
+   "motivo": "Tchekhov, dramaturgo russo",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor russo escreveu a peça \"A Gaivota\"?",
+    "resposta": "Anton Tchekhov",
+    "alternativas": [
+     "Máximo Gorki",
+     "Liev Tolstói",
+     "Anton Tchekhov",
+     "Nikolai Gogol"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7289",
+   "indice": 7289,
+   "tema": "literatura",
+   "motivo": "Proust, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor francês escreveu a obra \"Em Busca do Tempo Perdido\"?",
+    "resposta": "Marcel Proust",
+    "alternativas": [
+     "André Gide",
+     "Marcel Proust",
+     "Gustave Flaubert",
+     "Albert Camus"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7290",
+   "indice": 7290,
+   "tema": "arte",
+   "motivo": "Manet, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor francês chocou Paris em 1863 com o quadro \"Almoço na Relva\"?",
+    "resposta": "Édouard Manet",
+    "alternativas": [
+     "Claude Monet",
+     "Édouard Manet",
+     "Edgar Degas",
+     "Gustave Courbet"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7374",
+   "indice": 7374,
+   "tema": "arte",
+   "motivo": "Toulouse-Lautrec, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor francês retratou dançarinas e cartazes do cabaré Moulin Rouge?",
+    "resposta": "Henri de Toulouse-Lautrec",
+    "alternativas": [
+     "Edgar Degas",
+     "Henri de Toulouse-Lautrec",
+     "Pierre-Auguste Renoir",
+     "Paul Cézanne"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7375",
+   "indice": 7375,
+   "tema": "arte",
+   "motivo": "Seurat e o pontilhismo, detalhe de técnica",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor francês fez quadros com milhares de pontinhos coloridos, técnica chamada pontilhismo?",
+    "resposta": "Georges Seurat",
+    "alternativas": [
+     "Édouard Manet",
+     "Georges Seurat",
+     "Claude Monet",
+     "Camille Pissarro"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7376",
+   "indice": 7376,
+   "tema": "arte",
+   "motivo": "Basquiat, artista que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista americano, de pai haitiano, começou grafitando em Nova York e virou estrela da arte nos anos 80?",
+    "resposta": "Jean-Michel Basquiat",
+    "alternativas": [
+     "Jean-Michel Basquiat",
+     "Andy Warhol",
+     "Kehinde Wiley",
+     "Keith Haring"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7378",
+   "indice": 7378,
+   "tema": "arte",
+   "motivo": "Matisse e o fauvismo, detalhe de movimento",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor francês liderou o fauvismo e fez colagens de papel colorido no fim da vida?",
+    "resposta": "Henri Matisse",
+    "alternativas": [
+     "Henri Matisse",
+     "Georges Braque",
+     "André Derain",
+     "Raoul Dufy"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7379",
+   "indice": 7379,
+   "tema": "arte",
+   "motivo": "Camille Claudel, escultora pouco conhecida",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultora francesa, aluna de Rodin, criou a obra \"A Valsa\"?",
+    "resposta": "Camille Claudel",
+    "alternativas": [
+     "Niki de Saint Phalle",
+     "Berthe Morisot",
+     "Louise Bourgeois",
+     "Camille Claudel"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7380",
+   "indice": 7380,
+   "tema": "arte",
+   "motivo": "Bernini, escultor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor barroco italiano projetou a colunata da Praça de São Pedro, no Vaticano?",
+    "resposta": "Gian Lorenzo Bernini",
+    "alternativas": [
+     "Antonio Canova",
+     "Michelangelo",
+     "Francesco Borromini",
+     "Gian Lorenzo Bernini"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7484",
+   "indice": 7484,
+   "tema": "arte",
+   "motivo": "Rothko, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor americano, nascido na Letônia, ficou famoso por grandes retângulos de cor de bordas borradas?",
+    "resposta": "Mark Rothko",
+    "alternativas": [
+     "Barnett Newman",
+     "Jackson Pollock",
+     "Mark Rothko",
+     "Willem de Kooning"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7487",
+   "indice": 7487,
+   "tema": "literatura",
+   "motivo": "Púchkin, poeta russo pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta russo escreveu o romance em versos \"Eugênio Onêguin\"?",
+    "resposta": "Aleksandr Púchkin",
+    "alternativas": [
+     "Ivan Turguêniev",
+     "Aleksandr Púchkin",
+     "Nikolai Gogol",
+     "Mikhail Lermontov"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7566",
+   "indice": 7566,
+   "tema": "arte",
+   "motivo": "Kandinsky, detalhe de movimento artístico",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor russo é considerado um dos pais da arte abstrata?",
+    "resposta": "Wassily Kandinsky",
+    "alternativas": [
+     "Marc Chagall",
+     "Wassily Kandinsky",
+     "Ilya Repin",
+     "Ivan Shishkin"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7571",
+   "indice": 7571,
+   "tema": "arte",
+   "motivo": "Donatello escultor, detalhe do Renascimento",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor do Renascimento fez um Davi de bronze, décadas antes do Davi de Michelangelo?",
+    "resposta": "Donatello",
+    "alternativas": [
+     "Benvenuto Cellini",
+     "Donatello",
+     "Ghiberti",
+     "Brunelleschi"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7941",
+   "indice": 7941,
+   "tema": "arte",
+   "motivo": "Art nouveau, detalhe de estilo artístico",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual estilo do fim do século XIX, de curvas inspiradas em plantas, decora entradas do metrô de Paris?",
+    "resposta": "Art nouveau",
+    "alternativas": [
+     "Neoclássico",
+     "Art nouveau",
+     "Rococó",
+     "Art déco"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7942",
+   "indice": 7942,
+   "tema": "literatura",
+   "motivo": "Realismo mágico, detalhe de escola literária",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual estilo literário de García Márquez mistura fatos fantásticos com a vida comum?",
+    "resposta": "Realismo mágico",
+    "alternativas": [
+     "Naturalismo",
+     "Realismo mágico",
+     "Romantismo",
+     "Surrealismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7952",
+   "indice": 7952,
+   "tema": "arte",
+   "motivo": "Dadaísmo, detalhe de movimento artístico",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual movimento artístico de vanguarda, surgido em Zurique em 1916, pregava o absurdo e a antiarte?",
+    "resposta": "Dadaísmo",
+    "alternativas": [
+     "Cubismo",
+     "Futurismo",
+     "Dadaísmo",
+     "Fauvismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7953",
+   "indice": 7953,
+   "tema": "arte",
+   "motivo": "Bauhaus, escola de arte que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escola alemã de arte, design e arquitetura foi fundada por Walter Gropius em 1919?",
+    "resposta": "Bauhaus",
+    "alternativas": [
+     "Escola de Ulm",
+     "Bauhaus",
+     "Werkbund",
+     "De Stijl"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7954",
+   "indice": 7954,
+   "tema": "arte",
+   "motivo": "Op art, detalhe de movimento artístico",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual movimento artístico dos anos 1960 criava ilusões de movimento com padrões geométricos, como nas obras de Vasarely?",
+    "resposta": "Op art",
+    "alternativas": [
+     "Pop art",
+     "Op art",
+     "Minimalismo",
+     "Arte cinética de rua"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8067",
+   "indice": 8067,
+   "tema": "arte",
+   "motivo": "Têmpera, detalhe de técnica de pintura",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual técnica de pintura, anterior à tinta a óleo, misturava os pigmentos com gema de ovo?",
+    "resposta": "Têmpera",
+    "alternativas": [
+     "Têmpera",
+     "Aquarela",
+     "Guache",
+     "Afresco"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8073",
+   "indice": 8073,
+   "tema": "arte",
+   "motivo": "Galeria Uffizi, museu que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu de Florença guarda \"O Nascimento de Vênus\", de Botticelli?",
+    "resposta": "Galeria Uffizi",
+    "alternativas": [
+     "Museus Vaticanos",
+     "Galleria Borghese",
+     "Galeria Uffizi",
+     "Pinacoteca de Brera"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8262",
+   "indice": 8262,
+   "tema": "arte",
+   "motivo": "Museu d'Orsay, museu que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual museu de Paris, numa antiga estação de trem, é famoso pela coleção de impressionistas?",
+    "resposta": "Museu d'Orsay",
+    "alternativas": [
+     "Museu Rodin",
+     "Louvre",
+     "Centro Pompidou",
+     "Museu d'Orsay"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8267",
+   "indice": 8267,
+   "tema": "literatura",
+   "motivo": "Novelas de cavalaria, detalhe literário de Dom Quixote",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual gênero de livro \"Dom Quixote\" satiriza, enlouquecendo o fidalgo que o lia sem parar?",
+    "resposta": "Novelas de cavalaria",
+    "alternativas": [
+     "Novelas de cavalaria",
+     "Autos religiosos",
+     "Romances pastoris",
+     "Epopeias gregas"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8268",
+   "indice": 8268,
+   "tema": "arte",
+   "motivo": "Mármore de Carrara, detalhe de escultura",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "De qual cidade italiana vem o mármore branco usado por Michelangelo no \"Davi\"?",
+    "resposta": "Carrara",
+    "alternativas": [
+     "Siena",
+     "Pisa",
+     "Carrara",
+     "Verona"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9051",
+   "indice": 9051,
+   "tema": "literatura",
+   "motivo": "Novilíngua, detalhe do livro 1984",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual idioma, imposto pelo regime do Grande Irmão no romance de George Orwell, encolhe o vocabulário para limitar o pensamento?",
+    "resposta": "Novilíngua",
+    "alternativas": [
+     "Língua do P",
+     "Nadsat",
+     "Esperanto",
+     "Novilíngua"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9238",
+   "indice": 9238,
+   "tema": "literatura",
+   "motivo": "Long John Silver, detalhe de A Ilha do Tesouro",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pirata de uma perna só é o cozinheiro traiçoeiro de \"A Ilha do Tesouro\"?",
+    "resposta": "Long John Silver",
+    "alternativas": [
+     "Capitão Gancho",
+     "Capitão Flint",
+     "Long John Silver",
+     "Billy Bones"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9244",
+   "indice": 9244,
+   "tema": "literatura",
+   "motivo": "Atticus Finch, personagem que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual advogado defende um homem negro acusado injustamente em \"O Sol é para Todos\"?",
+    "resposta": "Atticus Finch",
+    "alternativas": [
+     "Atticus Finch",
+     "Tom Robinson",
+     "Boo Radley",
+     "Perry Mason"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9344",
+   "indice": 9344,
+   "tema": "literatura",
+   "motivo": "Ivanhoé, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual romance de Walter Scott acompanha um cavaleiro saxão que volta das Cruzadas?",
+    "resposta": "Ivanhoé",
+    "alternativas": [
+     "Rob Roy",
+     "Ivanhoé",
+     "Quentin Durward",
+     "Waverley"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9696",
+   "indice": 9696,
+   "tema": "arte",
+   "motivo": "Cariátide, detalhe de arquitetura antiga",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a coluna esculpida em forma de mulher, como as do Erecteion, em Atenas?",
+    "resposta": "Cariátide",
+    "alternativas": [
+     "Atlante",
+     "Gárgula",
+     "Obelisco",
+     "Cariátide"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9839",
+   "indice": 9839,
+   "tema": "literatura",
+   "motivo": "Millennium, série de livros que não virou pop aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual hacker tatuada é a protagonista da série de livros \"Millennium\"?",
+    "resposta": "Lisbeth Salander",
+    "alternativas": [
+     "Erika Berger",
+     "Harriet Vanger",
+     "Annika Giannini",
+     "Lisbeth Salander"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10033",
+   "indice": 10033,
+   "tema": "arte",
+   "motivo": "Zaha Hadid e o Prêmio Pritzker, arquitetura especializada",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual arquiteta iraquiana-britânica foi a primeira mulher a ganhar o Prêmio Pritzker?",
+    "resposta": "Zaha Hadid",
+    "alternativas": [
+     "Lina Bo Bardi",
+     "Zaha Hadid",
+     "Denise Scott Brown",
+     "Kazuyo Sejima"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10035",
+   "indice": 10035,
+   "tema": "literatura",
+   "motivo": "Mia Couto, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor moçambicano é autor de \"Terra Sonâmbula\"?",
+    "resposta": "Mia Couto",
+    "alternativas": [
+     "Ondjaki",
+     "José Craveirinha",
+     "Mia Couto",
+     "Pepetela"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10039",
+   "indice": 10039,
+   "tema": "arte",
+   "motivo": "Arcobotante, detalhe de arquitetura gótica",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o arco externo que escora as paredes altas das catedrais góticas?",
+    "resposta": "Arcobotante",
+    "alternativas": [
+     "Arquitrave",
+     "Abóbada",
+     "Arcobotante",
+     "Tímpano"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10040",
+   "indice": 10040,
+   "tema": "arte",
+   "motivo": "Ordem coríntia, detalhe de arquitetura antiga",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ordem grega de coluna tem o topo decorado com folhas de acanto?",
+    "resposta": "Coríntia",
+    "alternativas": [
+     "Dórica",
+     "Coríntia",
+     "Jônica",
+     "Toscana"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10041",
+   "indice": 10041,
+   "tema": "arte",
+   "motivo": "Le Corbusier e pilotis, detalhe de arquitetura",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamam as colunas que erguem o prédio e deixam o térreo livre, ideia de Le Corbusier?",
+    "resposta": "Pilotis",
+    "alternativas": [
+     "Cariátides",
+     "Pilastras",
+     "Arcadas",
+     "Pilotis"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10042",
+   "indice": 10042,
+   "tema": "arte",
+   "motivo": "Renzo Piano, arquiteto que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquiteto italiano projetou, com Richard Rogers, o Centro Pompidou, em Paris?",
+    "resposta": "Renzo Piano",
+    "alternativas": [
+     "Gae Aulenti",
+     "Renzo Piano",
+     "Aldo Rossi",
+     "Massimiliano Fuksas"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10077",
+   "indice": 10077,
+   "tema": "literatura",
+   "motivo": "Eça de Queirós, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritor português é autor de \"Os Maias\"?",
+    "resposta": "Eça de Queirós",
+    "alternativas": [
+     "Eça de Queirós",
+     "Almeida Garrett",
+     "José Saramago",
+     "Camilo Castelo Branco"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10078",
+   "indice": 10078,
+   "tema": "literatura",
+   "motivo": "Pepetela, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor angolano é autor de \"Mayombe\"?",
+    "resposta": "Pepetela",
+    "alternativas": [
+     "Ondjaki",
+     "José Eduardo Agualusa",
+     "Pepetela",
+     "Mia Couto"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10130",
+   "indice": 10130,
+   "tema": "literatura",
+   "motivo": "Agualusa, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor angolano é autor de \"O Vendedor de Passados\"?",
+    "resposta": "José Eduardo Agualusa",
+    "alternativas": [
+     "Mia Couto",
+     "Ondjaki",
+     "José Eduardo Agualusa",
+     "Pepetela"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10166",
+   "indice": 10166,
+   "tema": "arte",
+   "motivo": "Frank Gehry, arquiteto que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual arquiteto canadense-americano projetou o Museu Guggenheim de Bilbao?",
+    "resposta": "Frank Gehry",
+    "alternativas": [
+     "Rem Koolhaas",
+     "Richard Meier",
+     "Frank Gehry",
+     "Daniel Libeskind"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10167",
+   "indice": 10167,
+   "tema": "literatura",
+   "motivo": "Camilo Castelo Branco, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor português é autor de \"Amor de Perdição\"?",
+    "resposta": "Camilo Castelo Branco",
+    "alternativas": [
+     "Júlio Dinis",
+     "Camilo Castelo Branco",
+     "Almeida Garrett",
+     "Eça de Queirós"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10408",
+   "indice": 10408,
+   "tema": "teatro-danca",
+   "motivo": "West Side Story, musical pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual musical leva Romeu e Julieta para as gangues de Nova York?",
+    "resposta": "West Side Story",
+    "alternativas": [
+     "West Side Story",
+     "Grease",
+     "Rent",
+     "Hair"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10409",
+   "indice": 10409,
+   "tema": "teatro-danca",
+   "motivo": "Chicago, musical da Broadway",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual musical tem as presas Roxie Hart e Velma Kelly?",
+    "resposta": "Chicago",
+    "alternativas": [
+     "Chicago",
+     "Mamma Mia!",
+     "Cabaret",
+     "Nine"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10413",
+   "indice": 10413,
+   "tema": "teatro-danca",
+   "motivo": "My Fair Lady, musical antigo pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual musical é baseado na peça \"Pigmalião\", de Bernard Shaw?",
+    "resposta": "My Fair Lady",
+    "alternativas": [
+     "My Fair Lady",
+     "Cabaret",
+     "Funny Girl",
+     "Oliver!"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10463",
+   "indice": 10463,
+   "tema": "teatro-danca",
+   "motivo": "Pas de deux, termo técnico de balé",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "No balé, como se chama a dança feita por um casal?",
+    "resposta": "Pas de deux",
+    "alternativas": [
+     "Plié",
+     "Fouetté",
+     "Pas de deux",
+     "Pas de chat"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10845",
+   "indice": 10845,
+   "tema": "literatura",
+   "motivo": "Florbela Espanca, poetisa que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poetisa portuguesa é famosa pelos sonetos de amor e dor do início do século XX?",
+    "resposta": "Florbela Espanca",
+    "alternativas": [
+     "Florbela Espanca",
+     "Ana Hatherly",
+     "Natália Correia",
+     "Sophia de Mello Breyner"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10996",
+   "indice": 10996,
+   "tema": "teatro-danca",
+   "motivo": "Plié, termo técnico de balé",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "No balé, qual movimento básico consiste em dobrar os joelhos?",
+    "resposta": "Plié",
+    "alternativas": [
+     "Plié",
+     "Pirouette",
+     "Relevé",
+     "Arabesque"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11036",
+   "indice": 11036,
+   "tema": "arte",
+   "motivo": "Annie Leibovitz, fotógrafa que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual fotógrafa fez a famosa foto de John Lennon abraçado a Yoko Ono para a Rolling Stone, em 1980?",
+    "resposta": "Annie Leibovitz",
+    "alternativas": [
+     "Vivian Maier",
+     "Diane Arbus",
+     "Annie Leibovitz",
+     "Nan Goldin"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11037",
+   "indice": 11037,
+   "tema": "literatura",
+   "motivo": "Ofélia, detalhe de Hamlet",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual amada de Hamlet enlouquece e morre afogada num rio?",
+    "resposta": "Ofélia",
+    "alternativas": [
+     "Cordélia",
+     "Ofélia",
+     "Desdêmona",
+     "Julieta"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11206",
+   "indice": 11206,
+   "tema": "arte",
+   "motivo": "Kandinsky e o abstracionismo, detalhe de movimento",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Kandinsky é considerado pioneiro de qual tendência, sem figuras reconhecíveis?",
+    "resposta": "Abstracionismo",
+    "alternativas": [
+     "Futurismo",
+     "Abstracionismo",
+     "Impressionismo",
+     "Fauvismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11238",
+   "indice": 11238,
+   "tema": "arte",
+   "motivo": "Cubismo, movimento artístico perguntado por detalhe",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Picasso e Braque criaram qual movimento, que decompõe as figuras em formas geométricas?",
+    "resposta": "Cubismo",
+    "alternativas": [
+     "Pontilhismo",
+     "Fauvismo",
+     "Cubismo",
+     "Futurismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11239",
+   "indice": 11239,
+   "tema": "arte",
+   "motivo": "Magritte e o surrealismo, detalhe de movimento",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual movimento artístico do belga René Magritte valorizava o sonho e o inconsciente?",
+    "resposta": "Surrealismo",
+    "alternativas": [
+     "Futurismo",
+     "Impressionismo",
+     "Surrealismo",
+     "Expressionismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11289",
+   "indice": 11289,
+   "tema": "literatura",
+   "motivo": "Isabel Allende, autora que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora chilena escreveu \"A Casa dos Espíritos\"?",
+    "resposta": "Isabel Allende",
+    "alternativas": [
+     "Gabriela Mistral",
+     "Marcela Serrano",
+     "Clarice Lispector",
+     "Isabel Allende"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11290",
+   "indice": 11290,
+   "tema": "literatura",
+   "motivo": "Laura Esquivel, autora que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora mexicana escreveu \"Como Água para Chocolate\"?",
+    "resposta": "Laura Esquivel",
+    "alternativas": [
+     "Ángeles Mastretta",
+     "Elena Poniatowska",
+     "Rosario Castellanos",
+     "Laura Esquivel"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11291",
+   "indice": 11291,
+   "tema": "literatura",
+   "motivo": "Octavio Paz e o Nobel, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta mexicano ganhou o Nobel de Literatura de 1990?",
+    "resposta": "Octavio Paz",
+    "alternativas": [
+     "José Emilio Pacheco",
+     "Carlos Fuentes",
+     "Pablo Neruda",
+     "Octavio Paz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11294",
+   "indice": 11294,
+   "tema": "literatura",
+   "motivo": "Juan Rulfo, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor mexicano escreveu \"Pedro Páramo\", que inspirou García Márquez?",
+    "resposta": "Juan Rulfo",
+    "alternativas": [
+     "Carlos Fuentes",
+     "Juan José Arreola",
+     "Jorge Luis Borges",
+     "Juan Rulfo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11295",
+   "indice": 11295,
+   "tema": "literatura",
+   "motivo": "Galeano, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor uruguaio escreveu \"As Veias Abertas da América Latina\"?",
+    "resposta": "Eduardo Galeano",
+    "alternativas": [
+     "Horacio Quiroga",
+     "Juan Carlos Onetti",
+     "Felisberto Hernández",
+     "Eduardo Galeano"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11296",
+   "indice": 11296,
+   "tema": "literatura",
+   "motivo": "Benedetti, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor uruguaio é autor do romance \"A Trégua\", de 1960?",
+    "resposta": "Mario Benedetti",
+    "alternativas": [
+     "Juan Carlos Onetti",
+     "Horacio Quiroga",
+     "Mario Levrero",
+     "Mario Benedetti"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11380",
+   "indice": 11380,
+   "tema": "arte",
+   "motivo": "Steve McCurry, fotógrafo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual fotógrafo fez a famosa foto da menina afegã de olhos verdes, capa da National Geographic?",
+    "resposta": "Steve McCurry",
+    "alternativas": [
+     "James Nachtwey",
+     "Don McCullin",
+     "Nick Ut",
+     "Steve McCurry"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11384",
+   "indice": 11384,
+   "tema": "arte",
+   "motivo": "Robert Capa, fotógrafo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual fotógrafo húngaro fez as fotos do desembarque do Dia D na praia de Omaha?",
+    "resposta": "Robert Capa",
+    "alternativas": [
+     "Weegee",
+     "Robert Frank",
+     "Alfred Eisenstaedt",
+     "Robert Capa"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11390",
+   "indice": 11390,
+   "tema": "arte",
+   "motivo": "Cartier-Bresson, fotógrafo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual fotógrafo francês ficou famoso pela ideia do \"momento decisivo\"?",
+    "resposta": "Henri Cartier-Bresson",
+    "alternativas": [
+     "Henri Cartier-Bresson",
+     "Robert Doisneau",
+     "Eugène Atget",
+     "Brassaï"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11394",
+   "indice": 11394,
+   "tema": "arte",
+   "motivo": "Dorothea Lange, fotógrafa que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fotógrafa americana fez \"Mãe Migrante\", símbolo da Grande Depressão?",
+    "resposta": "Dorothea Lange",
+    "alternativas": [
+     "Dorothea Lange",
+     "Diane Arbus",
+     "Margaret Bourke-White",
+     "Vivian Maier"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11484",
+   "indice": 11484,
+   "tema": "literatura",
+   "motivo": "Cidade natal de Shakespeare, detalhe",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cidade inglesa é a terra natal de William Shakespeare?",
+    "resposta": "Stratford-upon-Avon",
+    "alternativas": [
+     "Oxford",
+     "Canterbury",
+     "Cambridge",
+     "Stratford-upon-Avon"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11485",
+   "indice": 11485,
+   "tema": "literatura",
+   "motivo": "Yorick, detalhe de Hamlet",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Em \"Hamlet\", de quem é o crânio que o príncipe segura na cena do cemitério?",
+    "resposta": "Yorick",
+    "alternativas": [
+     "Horácio",
+     "Laertes",
+     "Yorick",
+     "Polônio"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11490",
+   "indice": 11490,
+   "tema": "literatura",
+   "motivo": "Shylock, detalhe de peça de Shakespeare",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual agiota de Shakespeare exige uma libra de carne de quem não paga a dívida?",
+    "resposta": "Shylock",
+    "alternativas": [
+     "Petruchio",
+     "Iago",
+     "Malvólio",
+     "Shylock"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11491",
+   "indice": 11491,
+   "tema": "literatura",
+   "motivo": "Puck, detalhe de peça de Shakespeare",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual duende travesso confunde os casais em \"Sonho de uma Noite de Verão\"?",
+    "resposta": "Puck",
+    "alternativas": [
+     "Puck",
+     "Ariel",
+     "Caliban",
+     "Bottom"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11494",
+   "indice": 11494,
+   "tema": "literatura",
+   "motivo": "Próspero, detalhe de peça de Shakespeare",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual mago, duque de Milão, controla uma ilha e o espírito Ariel em \"A Tempestade\"?",
+    "resposta": "Próspero",
+    "alternativas": [
+     "Lear",
+     "Próspero",
+     "Caliban",
+     "Oberon"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11495",
+   "indice": 11495,
+   "tema": "literatura",
+   "motivo": "Falstaff, detalhe de peça de Shakespeare",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cavaleiro gordo e farrista é amigo do príncipe Hal em \"Henrique IV\", de Shakespeare?",
+    "resposta": "Falstaff",
+    "alternativas": [
+     "Falstaff",
+     "Benvólio",
+     "Malvólio",
+     "Polônio"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11496",
+   "indice": 11496,
+   "tema": "literatura",
+   "motivo": "Mercúcio, detalhe de Romeu e Julieta",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual amigo brincalhão de Romeu morre num duelo com Teobaldo?",
+    "resposta": "Mercúcio",
+    "alternativas": [
+     "Benvólio",
+     "Páris",
+     "Mercúcio",
+     "Polônio"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11497",
+   "indice": 11497,
+   "tema": "teatro-danca",
+   "motivo": "Teatro Globe, detalhe de história do teatro",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava o teatro de Londres onde as peças de Shakespeare eram encenadas?",
+    "resposta": "Globe",
+    "alternativas": [
+     "Covent Garden",
+     "Globe",
+     "Drury Lane",
+     "Old Vic"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11678",
+   "indice": 11678,
+   "tema": "literatura",
+   "motivo": "Murakami, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor japonês escreveu \"Kafka à Beira-Mar\" e \"1Q84\"?",
+    "resposta": "Haruki Murakami",
+    "alternativas": [
+     "Kenzaburo Oe",
+     "Haruki Murakami",
+     "Yukio Mishima",
+     "Yasunari Kawabata"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11679",
+   "indice": 11679,
+   "tema": "literatura",
+   "motivo": "Elena Ferrante, autora que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora italiana, que usa pseudônimo, escreveu a série \"A Amiga Genial\", passada em Nápoles?",
+    "resposta": "Elena Ferrante",
+    "alternativas": [
+     "Oriana Fallaci",
+     "Natalia Ginzburg",
+     "Elena Ferrante",
+     "Susanna Tamaro"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11680",
+   "indice": 11680,
+   "tema": "literatura",
+   "motivo": "Sally Rooney, autora que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora irlandesa escreveu \"Pessoas Normais\"?",
+    "resposta": "Sally Rooney",
+    "alternativas": [
+     "Sally Rooney",
+     "Zadie Smith",
+     "Anne Enright",
+     "Edna O'Brien"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11681",
+   "indice": 11681,
+   "tema": "literatura",
+   "motivo": "Chimamanda, autora que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora nigeriana escreveu \"Americanah\" e o ensaio \"Sejamos Todos Feministas\"?",
+    "resposta": "Chimamanda Ngozi Adichie",
+    "alternativas": [
+     "Toni Morrison",
+     "Bernardine Evaristo",
+     "Wole Soyinka",
+     "Chimamanda Ngozi Adichie"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11682",
+   "indice": 11682,
+   "tema": "literatura",
+   "motivo": "Ishiguro e o Nobel, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor de \"Não Me Abandone Jamais\" ganhou o Nobel de Literatura em 2017?",
+    "resposta": "Kazuo Ishiguro",
+    "alternativas": [
+     "Salman Rushdie",
+     "Bob Dylan",
+     "Kazuo Ishiguro",
+     "Ian McEwan"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11687",
+   "indice": 11687,
+   "tema": "literatura",
+   "motivo": "Valter Hugo Mãe, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor português, nascido em Angola, escreveu \"A Máquina de Fazer Espanhóis\"?",
+    "resposta": "Valter Hugo Mãe",
+    "alternativas": [
+     "José Saramago",
+     "Valter Hugo Mãe",
+     "Gonçalo M. Tavares",
+     "José Luís Peixoto"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11691",
+   "indice": 11691,
+   "tema": "arte",
+   "motivo": "Ansel Adams, fotógrafo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fotógrafo americano ficou famoso pelas paisagens em preto e branco do Parque Yosemite?",
+    "resposta": "Ansel Adams",
+    "alternativas": [
+     "Edward Weston",
+     "Walker Evans",
+     "Ansel Adams",
+     "Alfred Stieglitz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11775",
+   "indice": 11775,
+   "tema": "arte",
+   "motivo": "Botero, pintor que o público geral não conhece pelo nome",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista colombiano ficou famoso pelas figuras gordinhas em pinturas e esculturas?",
+    "resposta": "Botero",
+    "alternativas": [
+     "Oswaldo Guayasamín",
+     "Rufino Tamayo",
+     "Diego Rivera",
+     "Botero"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11782",
+   "indice": 11782,
+   "tema": "arte",
+   "motivo": "Jeff Koons, artista que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista americano ficou famoso pelas esculturas brilhantes de cachorro de balão?",
+    "resposta": "Jeff Koons",
+    "alternativas": [
+     "Keith Haring",
+     "Claes Oldenburg",
+     "Jeff Koons",
+     "Damien Hirst"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11786",
+   "indice": 11786,
+   "tema": "arte",
+   "motivo": "Vitória de Samotrácia, escultura que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultura grega alada e sem cabeça fica no alto de uma escadaria do Louvre?",
+    "resposta": "Vitória de Samotrácia",
+    "alternativas": [
+     "Vênus de Milo",
+     "Afrodite de Cnido",
+     "Pugilista em Repouso",
+     "Vitória de Samotrácia"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11787",
+   "indice": 11787,
+   "tema": "arte",
+   "motivo": "Discóbolo, escultura que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultura grega antiga mostra um atleta prestes a lançar um disco?",
+    "resposta": "Discóbolo",
+    "alternativas": [
+     "Auriga de Delfos",
+     "Apoxiômeno",
+     "Doríforo",
+     "Discóbolo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11788",
+   "indice": 11788,
+   "tema": "arte",
+   "motivo": "Giacometti, escultor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultor suíço ficou famoso pelas figuras humanas muito finas e alongadas?",
+    "resposta": "Giacometti",
+    "alternativas": [
+     "Giacometti",
+     "Henry Moore",
+     "Rodin",
+     "Brancusi"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11789",
+   "indice": 11789,
+   "tema": "arte",
+   "motivo": "Bosch, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor holandês criou \"O Jardim das Delícias Terrenas\"?",
+    "resposta": "Bosch",
+    "alternativas": [
+     "Frans Hals",
+     "Rembrandt",
+     "Bosch",
+     "Vermeer"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11790",
+   "indice": 11790,
+   "tema": "arte",
+   "motivo": "Edward Hopper, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual pintor americano criou \"Nighthawks\", que mostra uma lanchonete de madrugada?",
+    "resposta": "Edward Hopper",
+    "alternativas": [
+     "Edward Hopper",
+     "Grant Wood",
+     "Norman Rockwell",
+     "Thomas Hart Benton"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11791",
+   "indice": 11791,
+   "tema": "literatura",
+   "motivo": "Nobel de Literatura, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora sul-coreana ganhou o Nobel de Literatura de 2024?",
+    "resposta": "Han Kang",
+    "alternativas": [
+     "Yoko Ogawa",
+     "Shin Kyung-sook",
+     "Han Kang",
+     "Cho Nam-joo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11792",
+   "indice": 11792,
+   "tema": "arte",
+   "motivo": "Laocoonte, escultura que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultura antiga mostra um sacerdote troiano e seus filhos atacados por serpentes?",
+    "resposta": "Laocoonte",
+    "alternativas": [
+     "Pugilista em Repouso",
+     "Galata Morente",
+     "Hermes de Praxíteles",
+     "Laocoonte"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11793",
+   "indice": 11793,
+   "tema": "arte",
+   "motivo": "Louise Bourgeois, artista que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista criou \"Maman\", uma aranha gigante de bronze?",
+    "resposta": "Louise Bourgeois",
+    "alternativas": [
+     "Niki de Saint Phalle",
+     "Louise Bourgeois",
+     "Barbara Hepworth",
+     "Yayoi Kusama"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11794",
+   "indice": 11794,
+   "tema": "arte",
+   "motivo": "Bruegel, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor flamengo do século XVI retratou festas e jogos de camponeses?",
+    "resposta": "Bruegel",
+    "alternativas": [
+     "Van Eyck",
+     "Bruegel",
+     "Rubens",
+     "Memling"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11795",
+   "indice": 11795,
+   "tema": "arte",
+   "motivo": "El Greco, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor nascido em Creta fez carreira em Toledo, na Espanha?",
+    "resposta": "El Greco",
+    "alternativas": [
+     "Murillo",
+     "El Greco",
+     "Velázquez",
+     "Zurbarán"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11796",
+   "indice": 11796,
+   "tema": "arte",
+   "motivo": "Goya, quadro que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor espanhol fez o sombrio \"Saturno Devorando um Filho\"?",
+    "resposta": "Goya",
+    "alternativas": [
+     "Goya",
+     "Ribera",
+     "Dalí",
+     "Velázquez"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11819",
+   "indice": 11819,
+   "tema": "literatura",
+   "motivo": "Nobel de Literatura, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual norueguês ganhou o Nobel de Literatura de 2023?",
+    "resposta": "Jon Fosse",
+    "alternativas": [
+     "Karl Ove Knausgård",
+     "Henrik Ibsen",
+     "Jo Nesbø",
+     "Jon Fosse"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11871",
+   "indice": 11871,
+   "tema": "literatura",
+   "motivo": "Nobel de Literatura, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora francesa ganhou o Nobel de Literatura de 2022?",
+    "resposta": "Annie Ernaux",
+    "alternativas": [
+     "Leïla Slimani",
+     "Simone de Beauvoir",
+     "Marguerite Duras",
+     "Annie Ernaux"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13010",
+   "indice": 13010,
+   "tema": "literatura",
+   "motivo": "Josef K., detalhe de O Processo, de Kafka",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome do protagonista de \"O Processo\", de Kafka, preso sem saber o motivo?",
+    "resposta": "Josef K.",
+    "alternativas": [
+     "Karl Rossmann",
+     "Josef K.",
+     "Klamm",
+     "Max Brod"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13011",
+   "indice": 13011,
+   "tema": "literatura",
+   "motivo": "Meursault, detalhe de O Estrangeiro, de Camus",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome do narrador de \"O Estrangeiro\", de Albert Camus?",
+    "resposta": "Meursault",
+    "alternativas": [
+     "Rieux",
+     "Raymond",
+     "Clamence",
+     "Meursault"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13013",
+   "indice": 13013,
+   "tema": "literatura",
+   "motivo": "Comala, detalhe de romance que não virou pop",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade de mortos é o cenário do romance mexicano \"Pedro Páramo\"?",
+    "resposta": "Comala",
+    "alternativas": [
+     "Yoknapatawpha",
+     "Santa María",
+     "Santa Teresa",
+     "Comala"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13014",
+   "indice": 13014,
+   "tema": "literatura",
+   "motivo": "Ardil-22, romance que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Joseph Heller deu nome a uma regra absurda que não tem saída?",
+    "resposta": "Ardil-22",
+    "alternativas": [
+     "O Arco-Íris da Gravidade",
+     "O Homem do Castelo Alto",
+     "Ardil-22",
+     "Trópico de Câncer"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13015",
+   "indice": 13015,
+   "tema": "literatura",
+   "motivo": "Vonnegut, autor que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Kurt Vonnegut se passa no bombardeio de Dresden, na Segunda Guerra?",
+    "resposta": "Matadouro-Cinco",
+    "alternativas": [
+     "Os Nus e os Mortos",
+     "Café da Manhã dos Campeões",
+     "A Sangue Frio",
+     "Matadouro-Cinco"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13147",
+   "indice": 13147,
+   "tema": "teatro-danca",
+   "motivo": "Rent, musical da Broadway pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual musical da Broadway, inspirado em \"La Bohème\", acompanha jovens artistas pobres em Nova York?",
+    "resposta": "Rent",
+    "alternativas": [
+     "Hair",
+     "Godspell",
+     "Fame",
+     "Rent"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13148",
+   "indice": 13148,
+   "tema": "teatro-danca",
+   "motivo": "The Book of Mormon, musical da Broadway pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual musical da Broadway, dos criadores de \"South Park\", acompanha dois jovens missionários em Uganda?",
+    "resposta": "The Book of Mormon",
+    "alternativas": [
+     "Avenue Q",
+     "The Book of Mormon",
+     "Spamalot",
+     "Urinetown"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13149",
+   "indice": 13149,
+   "tema": "teatro-danca",
+   "motivo": "Cabaret, musical pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual musical se passa num clube noturno de Berlim no começo dos anos 1930?",
+    "resposta": "Cabaret",
+    "alternativas": [
+     "Follies",
+     "Hello, Dolly!",
+     "Cabaret",
+     "Pippin"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13150",
+   "indice": 13150,
+   "tema": "teatro-danca",
+   "motivo": "Dear Evan Hansen, musical da Broadway pouco conhecido aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual musical da Broadway, de 2016, conta a história de um adolescente solitário envolvido numa mentira depois da morte de um colega?",
+    "resposta": "Dear Evan Hansen",
+    "alternativas": [
+     "Spring Awakening",
+     "Dear Evan Hansen",
+     "Be More Chill",
+     "Next to Normal"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13226",
+   "indice": 13226,
+   "tema": "literatura",
+   "motivo": "Autor do livro Tubarão, nome que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor escreveu o livro \"Tubarão\", que virou filme de Spielberg?",
+    "resposta": "Peter Benchley",
+    "alternativas": [
+     "Stephen King",
+     "Clive Cussler",
+     "Michael Crichton",
+     "Peter Benchley"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13227",
+   "indice": 13227,
+   "tema": "literatura",
+   "motivo": "Autor do livro Psicose, nome que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual autor escreveu o livro \"Psicose\", levado ao cinema por Hitchcock?",
+    "resposta": "Robert Bloch",
+    "alternativas": [
+     "Patricia Highsmith",
+     "Robert Bloch",
+     "Richard Matheson",
+     "Ira Levin"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13228",
+   "indice": 13228,
+   "tema": "literatura",
+   "motivo": "Autor do livro O Exorcista, nome que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual autor escreveu o livro \"O Exorcista\"?",
+    "resposta": "William Peter Blatty",
+    "alternativas": [
+     "William Peter Blatty",
+     "Peter Straub",
+     "Dean Koontz",
+     "Ira Levin"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13229",
+   "indice": 13229,
+   "tema": "literatura",
+   "motivo": "Thomas Harris, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor criou Hannibal Lecter, de \"O Silêncio dos Inocentes\"?",
+    "resposta": "Thomas Harris",
+    "alternativas": [
+     "James Ellroy",
+     "Thomas Harris",
+     "Dennis Lehane",
+     "Elmore Leonard"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13230",
+   "indice": 13230,
+   "tema": "literatura",
+   "motivo": "Philip K. Dick, autor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor de ficção científica escreveu o livro que inspirou \"Blade Runner\"?",
+    "resposta": "Philip K. Dick",
+    "alternativas": [
+     "Frank Herbert",
+     "Philip K. Dick",
+     "Isaac Asimov",
+     "Ray Bradbury"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13521",
+   "indice": 13521,
+   "tema": "literatura",
+   "motivo": "Winston Smith, detalhe do livro 1984",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual funcionário do Ministério da Verdade é o protagonista do romance distópico de George Orwell publicado em 1949?",
+    "resposta": "Winston Smith",
+    "alternativas": [
+     "Winston Smith",
+     "Bernard Marx",
+     "John Galt",
+     "Guy Montag"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13522",
+   "indice": 13522,
+   "tema": "literatura",
+   "motivo": "Lolita, detalhe de romance que o público geral não leu",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome do narrador de \"Lolita\", de Vladimir Nabokov?",
+    "resposta": "Humbert Humbert",
+    "alternativas": [
+     "Timofey Pnin",
+     "Charles Kinbote",
+     "Clare Quilty",
+     "Humbert Humbert"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13523",
+   "indice": 13523,
+   "tema": "literatura",
+   "motivo": "A Letra Escarlate, romance do século XIX",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o nome da protagonista de \"A Letra Escarlate\", obrigada a usar um A bordado no peito?",
+    "resposta": "Hester Prynne",
+    "alternativas": [
+     "Tess Durbeyfield",
+     "Hester Prynne",
+     "Catherine Earnshaw",
+     "Jo March"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13524",
+   "indice": 13524,
+   "tema": "literatura",
+   "motivo": "Cem Anos de Solidão, detalhe de personagem",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual personagem de \"Cem Anos de Solidão\" é o coronel que promoveu 32 levantes armados e perdeu todos?",
+    "resposta": "Aureliano Buendía",
+    "alternativas": [
+     "Melquíades",
+     "Aureliano Buendía",
+     "José Arcadio Segundo",
+     "José Arcadio Buendía"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13525",
+   "indice": 13525,
+   "tema": "literatura",
+   "motivo": "Ulysses, de James Joyce, romance difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual vendedor de anúncios de Dublin é o protagonista de \"Ulysses\", de James Joyce?",
+    "resposta": "Leopold Bloom",
+    "alternativas": [
+     "Humphrey Earwicker",
+     "Gabriel Conroy",
+     "Leopold Bloom",
+     "Septimus Smith"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13627",
+   "indice": 13627,
+   "tema": "arte",
+   "motivo": "Delacroix, quadro que o público geral não conhece pelo nome",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual quadro de Eugène Delacroix, de 1830, mostra uma mulher erguendo a bandeira francesa sobre uma barricada?",
+    "resposta": "A Liberdade Guiando o Povo",
+    "alternativas": [
+     "A Liberdade Guiando o Povo",
+     "A Jangada da Medusa",
+     "O Juramento dos Horácios",
+     "A Morte de Marat"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13629",
+   "indice": 13629,
+   "tema": "arte",
+   "motivo": "Gótico Americano, quadro que o público geral não conhece pelo nome",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual quadro de Grant Wood, de 1930, mostra um fazendeiro com um forcado ao lado da filha?",
+    "resposta": "Gótico Americano",
+    "alternativas": [
+     "O Ângelus",
+     "Os Comedores de Batata",
+     "O Mundo de Cristina",
+     "Gótico Americano"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13690",
+   "indice": 13690,
+   "tema": "literatura",
+   "motivo": "Pippi Meialonga, personagem pouco conhecida aqui",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual menina ruiva e fortíssima, de tranças espetadas, foi criada pela sueca Astrid Lindgren?",
+    "resposta": "Pippi Meialonga",
+    "alternativas": [
+     "Pippi Meialonga",
+     "Anne de Green Gables",
+     "Wendy",
+     "Madeline"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13692",
+   "indice": 13692,
+   "tema": "literatura",
+   "motivo": "Jeff Kinney, autor que o público geral não conhece pelo nome",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual americano escreveu a série de livros do garoto Greg Heffley?",
+    "resposta": "Jeff Kinney",
+    "alternativas": [
+     "Lemony Snicket",
+     "Jeff Kinney",
+     "Jerry Spinelli",
+     "Dav Pilkey"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13693",
+   "indice": 13693,
+   "tema": "literatura",
+   "motivo": "Rick Riordan, autor que o público geral não conhece pelo nome",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor americano criou a série \"Percy Jackson e os Olimpianos\"?",
+    "resposta": "Rick Riordan",
+    "alternativas": [
+     "Rick Riordan",
+     "Eoin Colfer",
+     "Brandon Mull",
+     "Christopher Paolini"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13694",
+   "indice": 13694,
+   "tema": "literatura",
+   "motivo": "Suzanne Collins, autora que o público geral não conhece pelo nome",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora americana criou a heroína Katniss Everdeen?",
+    "resposta": "Suzanne Collins",
+    "alternativas": [
+     "Suzanne Collins",
+     "Lois Lowry",
+     "Cassandra Clare",
+     "Veronica Roth"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13785",
+   "indice": 13785,
+   "tema": "teatro-danca",
+   "motivo": "Beckett, dramaturgo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dramaturgo irlandês escreveu \"Esperando Godot\"?",
+    "resposta": "Samuel Beckett",
+    "alternativas": [
+     "Samuel Beckett",
+     "Oscar Wilde",
+     "J. M. Synge",
+     "Sean O'Casey"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13786",
+   "indice": 13786,
+   "tema": "teatro-danca",
+   "motivo": "Tennessee Williams, dramaturgo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dramaturgo americano escreveu \"Um Bonde Chamado Desejo\", de 1947?",
+    "resposta": "Tennessee Williams",
+    "alternativas": [
+     "Eugene O'Neill",
+     "Thornton Wilder",
+     "Tennessee Williams",
+     "Sam Shepard"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13787",
+   "indice": 13787,
+   "tema": "teatro-danca",
+   "motivo": "Arthur Miller, dramaturgo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dramaturgo americano escreveu \"As Bruxas de Salem\", de 1953?",
+    "resposta": "Arthur Miller",
+    "alternativas": [
+     "Arthur Miller",
+     "David Mamet",
+     "Thornton Wilder",
+     "Eugene O'Neill"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13788",
+   "indice": 13788,
+   "tema": "teatro-danca",
+   "motivo": "Ibsen, dramaturgo que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dramaturgo norueguês escreveu \"Casa de Bonecas\", sobre Nora, que abandona o marido?",
+    "resposta": "Henrik Ibsen",
+    "alternativas": [
+     "Bjørnstjerne Bjørnson",
+     "Knut Hamsun",
+     "Henrik Ibsen",
+     "August Strindberg"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13789",
+   "indice": 13789,
+   "tema": "teatro-danca",
+   "motivo": "Brecht e o teatro épico, detalhe de teatro",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dramaturgo alemão escreveu \"Mãe Coragem e Seus Filhos\" e criou o teatro épico?",
+    "resposta": "Bertolt Brecht",
+    "alternativas": [
+     "Friedrich Dürrenmatt",
+     "Peter Weiss",
+     "Heiner Müller",
+     "Bertolt Brecht"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13790",
+   "indice": 13790,
+   "tema": "teatro-danca",
+   "motivo": "Molière, dramaturgo que o público geral não conhece a fundo",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dramaturgo francês do século XVII escreveu \"Tartufo\" e \"O Avarento\"?",
+    "resposta": "Molière",
+    "alternativas": [
+     "Marivaux",
+     "Corneille",
+     "Racine",
+     "Molière"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13791",
+   "indice": 13791,
+   "tema": "teatro-danca",
+   "motivo": "Peça existencialista de Sartre, detalhe de teatro",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual peça existencialista de 1944 tem a famosa frase \"o inferno são os outros\"?",
+    "resposta": "Entre Quatro Paredes",
+    "alternativas": [
+     "Entre Quatro Paredes",
+     "Calígula",
+     "Os Justos",
+     "As Moscas"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13844",
+   "indice": 13844,
+   "tema": "arte",
+   "motivo": "Bernini, escultura que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultura de Bernini, numa igreja de Roma, mostra uma santa espanhola em transe, atingida pela flecha de um anjo?",
+    "resposta": "Êxtase de Santa Teresa",
+    "alternativas": [
+     "O Rapto de Proserpina",
+     "Beata Ludovica Albertoni",
+     "Apolo e Dafne",
+     "Êxtase de Santa Teresa"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13845",
+   "indice": 13845,
+   "tema": "arte",
+   "motivo": "Anish Kapoor, escultura que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escultura espelhada de Anish Kapoor, em Chicago, é apelidada de \"Feijão\"?",
+    "resposta": "Cloud Gate",
+    "alternativas": [
+     "Crown Fountain",
+     "Cloud Gate",
+     "Spoonbridge and Cherry",
+     "Flamingo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13846",
+   "indice": 13846,
+   "tema": "arte",
+   "motivo": "Anjo do Norte, escultura que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultura de aço de Antony Gormley, com asas de 54 metros, fica no norte da Inglaterra?",
+    "resposta": "Anjo do Norte",
+    "alternativas": [
+     "Gigante de Ferro",
+     "Os Kelpies",
+     "Homem de Aço",
+     "Anjo do Norte"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13847",
+   "indice": 13847,
+   "tema": "arte",
+   "motivo": "Vênus de Willendorf, detalhe de arte pré-histórica",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual estatueta de mulher, com cerca de 30 mil anos, foi achada em 1908 na Áustria?",
+    "resposta": "Vênus de Willendorf",
+    "alternativas": [
+     "Vênus de Hohle Fels",
+     "Vênus de Lespugue",
+     "Vênus de Willendorf",
+     "Vênus de Brassempouy"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13848",
+   "indice": 13848,
+   "tema": "arte",
+   "motivo": "Frank Lloyd Wright, arquiteto que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual arquiteto americano projetou a \"Casa da Cascata\", construída sobre uma queda d'água na Pensilvânia?",
+    "resposta": "Frank Lloyd Wright",
+    "alternativas": [
+     "Philip Johnson",
+     "Richard Neutra",
+     "Louis Sullivan",
+     "Frank Lloyd Wright"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13849",
+   "indice": 13849,
+   "tema": "arte",
+   "motivo": "Arquiteto da Ópera de Sydney, nome que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual arquiteto dinamarquês projetou a Ópera de Sydney?",
+    "resposta": "Jørn Utzon",
+    "alternativas": [
+     "Bjarke Ingels",
+     "Jørn Utzon",
+     "Henning Larsen",
+     "Arne Jacobsen"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13850",
+   "indice": 13850,
+   "tema": "arte",
+   "motivo": "Mies van der Rohe, arquiteto que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquiteto alemão, que se mudou para Chicago, ficou conhecido pela frase \"menos é mais\"?",
+    "resposta": "Mies van der Rohe",
+    "alternativas": [
+     "Walter Gropius",
+     "Marcel Breuer",
+     "Erich Mendelsohn",
+     "Mies van der Rohe"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13852",
+   "indice": 13852,
+   "tema": "arte",
+   "motivo": "Tadao Ando, arquiteto que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquiteto japonês autodidata, ex-boxeador, é famoso pelas obras em concreto aparente?",
+    "resposta": "Tadao Ando",
+    "alternativas": [
+     "Toyo Ito",
+     "Shigeru Ban",
+     "Kenzo Tange",
+     "Tadao Ando"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13853",
+   "indice": 13853,
+   "tema": "arte",
+   "motivo": "Norman Foster, arquiteto que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual arquiteto britânico projetou o arranha-céu \"The Gherkin\", em Londres?",
+    "resposta": "Norman Foster",
+    "alternativas": [
+     "Richard Rogers",
+     "Norman Foster",
+     "David Chipperfield",
+     "Nicholas Grimshaw"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13884",
+   "indice": 13884,
+   "tema": "arte",
+   "motivo": "Lichtenstein, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista pop americano ficou famoso por quadros que imitam quadrinhos, com pontinhos de impressão?",
+    "resposta": "Roy Lichtenstein",
+    "alternativas": [
+     "James Rosenquist",
+     "Roy Lichtenstein",
+     "Claes Oldenburg",
+     "Tom Wesselmann"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13885",
+   "indice": 13885,
+   "tema": "arte",
+   "motivo": "Malevich, detalhe de arte abstrata",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor russo fez em 1915 o \"Quadrado Negro\", marco da arte abstrata?",
+    "resposta": "Kazimir Malevich",
+    "alternativas": [
+     "El Lissitzky",
+     "Natalia Goncharova",
+     "Alexander Rodchenko",
+     "Kazimir Malevich"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13886",
+   "indice": 13886,
+   "tema": "arte",
+   "motivo": "Duchamp, detalhe de arte moderna",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual artista francês inscreveu um mictório numa exposição em 1917, com o título de \"A Fonte\"?",
+    "resposta": "Marcel Duchamp",
+    "alternativas": [
+     "Francis Picabia",
+     "Marcel Duchamp",
+     "Man Ray",
+     "Jean Arp"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13887",
+   "indice": 13887,
+   "tema": "arte",
+   "motivo": "Fragonard, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor rococó francês fez \"O Balanço\", em que uma jovem perde o sapato no ar?",
+    "resposta": "Jean-Honoré Fragonard",
+    "alternativas": [
+     "Jean-Baptiste Greuze",
+     "François Boucher",
+     "Jean-Honoré Fragonard",
+     "Antoine Watteau"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13888",
+   "indice": 13888,
+   "tema": "arte",
+   "motivo": "Caspar David Friedrich, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor romântico alemão fez \"Viajante sobre o Mar de Névoa\", de 1818?",
+    "resposta": "Caspar David Friedrich",
+    "alternativas": [
+     "Caspar David Friedrich",
+     "Philipp Otto Runge",
+     "Carl Spitzweg",
+     "Adolph Menzel"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13889",
+   "indice": 13889,
+   "tema": "arte",
+   "motivo": "Van Eyck, pintor que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor flamengo fez \"O Casal Arnolfini\", de 1434, com um espelho redondo ao fundo?",
+    "resposta": "Jan van Eyck",
+    "alternativas": [
+     "Robert Campin",
+     "Jan van Eyck",
+     "Rogier van der Weyden",
+     "Hans Memling"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13913",
+   "indice": 13913,
+   "tema": "teatro-danca",
+   "motivo": "Giselle, balé que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual balé romântico com música de Adolphe Adam conta a história de uma camponesa que morre e vira espírito?",
+    "resposta": "Giselle",
+    "alternativas": [
+     "Raymonda",
+     "Paquita",
+     "La Sylphide",
+     "Giselle"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13914",
+   "indice": 13914,
+   "tema": "teatro-danca",
+   "motivo": "Coppélia, balé que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual balé cômico de 1870, de Léo Delibes, tem como personagem uma boneca mecânica?",
+    "resposta": "Coppélia",
+    "alternativas": [
+     "Coppélia",
+     "Paquita",
+     "Sylvia",
+     "La Fille Mal Gardée"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13915",
+   "indice": 13915,
+   "tema": "teatro-danca",
+   "motivo": "Stravinsky, detalhe de história do balé",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual balé de Stravinsky causou tumulto na estreia em Paris, em 1913?",
+    "resposta": "A Sagração da Primavera",
+    "alternativas": [
+     "Petrushka",
+     "A Sagração da Primavera",
+     "Pulcinella",
+     "Apollon Musagète"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13916",
+   "indice": 13916,
+   "tema": "teatro-danca",
+   "motivo": "La Bayadère, balé que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual balé de Marius Petipa, de 1877, conta a história de uma dançarina de templo na Índia?",
+    "resposta": "La Bayadère",
+    "alternativas": [
+     "Paquita",
+     "Le Corsaire",
+     "La Bayadère",
+     "Raymonda"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13917",
+   "indice": 13917,
+   "tema": "teatro-danca",
+   "motivo": "Nureyev, bailarino que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual bailarino soviético pediu asilo no Ocidente em 1961, no primeiro caso de um artista da URSS na Guerra Fria?",
+    "resposta": "Rudolf Nureyev",
+    "alternativas": [
+     "Vladimir Vasiliev",
+     "Vaslav Nijinsky",
+     "Alexander Godunov",
+     "Rudolf Nureyev"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13918",
+   "indice": 13918,
+   "tema": "teatro-danca",
+   "motivo": "Baryshnikov, bailarino que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual bailarino nascido em Riga pediu asilo no Canadá em 1974 e depois atuou em \"Sex and the City\"?",
+    "resposta": "Mikhail Baryshnikov",
+    "alternativas": [
+     "Mikhail Baryshnikov",
+     "Maris Liepa",
+     "Vladimir Malakhov",
+     "Alexander Godunov"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13919",
+   "indice": 13919,
+   "tema": "teatro-danca",
+   "motivo": "Anna Pavlova, bailarina que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual bailarina russa ficou famosa pelo papel de \"A Morte do Cisne\" e fez turnês pelo mundo todo?",
+    "resposta": "Anna Pavlova",
+    "alternativas": [
+     "Galina Ulanova",
+     "Anna Pavlova",
+     "Maya Plisetskaya",
+     "Tamara Karsavina"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13920",
+   "indice": 13920,
+   "tema": "teatro-danca",
+   "motivo": "Margot Fonteyn, bailarina que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual bailarina britânica, \"prima ballerina assoluta\" do Royal Ballet, formou dupla com Nureyev?",
+    "resposta": "Margot Fonteyn",
+    "alternativas": [
+     "Margot Fonteyn",
+     "Moira Shearer",
+     "Alicia Markova",
+     "Darcey Bussell"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13921",
+   "indice": 13921,
+   "tema": "literatura",
+   "motivo": "Walt Whitman, poeta que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta americano escreveu \"Folhas de Relva\", de 1855?",
+    "resposta": "Walt Whitman",
+    "alternativas": [
+     "Ezra Pound",
+     "Henry Wadsworth Longfellow",
+     "Walt Whitman",
+     "Robert Frost"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13922",
+   "indice": 13922,
+   "tema": "literatura",
+   "motivo": "Emily Dickinson, poeta que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta americana viveu reclusa em Amherst e teve quase toda a obra publicada após a morte?",
+    "resposta": "Emily Dickinson",
+    "alternativas": [
+     "Elizabeth Bishop",
+     "Marianne Moore",
+     "Edna St. Vincent Millay",
+     "Emily Dickinson"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13923",
+   "indice": 13923,
+   "tema": "literatura",
+   "motivo": "Rimbaud, poeta que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta francês, nascido em Charleville, escreveu \"Uma Temporada no Inferno\" e largou a poesia aos 20 anos?",
+    "resposta": "Arthur Rimbaud",
+    "alternativas": [
+     "Paul Verlaine",
+     "Stéphane Mallarmé",
+     "Arthur Rimbaud",
+     "Guillaume Apollinaire"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13924",
+   "indice": 13924,
+   "tema": "literatura",
+   "motivo": "García Lorca, poeta que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta espanhol da Geração de 27 escreveu o \"Romanceiro Gitano\" e foi morto na Guerra Civil?",
+    "resposta": "Federico García Lorca",
+    "alternativas": [
+     "Rafael Alberti",
+     "Antonio Machado",
+     "Federico García Lorca",
+     "Miguel Hernández"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13925",
+   "indice": 13925,
+   "tema": "literatura",
+   "motivo": "Nobel de Literatura, prêmio literário",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta chilena foi, em 1945, a primeira pessoa da América Latina a ganhar o Nobel de Literatura?",
+    "resposta": "Gabriela Mistral",
+    "alternativas": [
+     "Alfonsina Storni",
+     "Delmira Agustini",
+     "Gabriela Mistral",
+     "Juana de Ibarbourou"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13926",
+   "indice": 13926,
+   "tema": "literatura",
+   "motivo": "Basho, poeta que o público geral não conhece",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta japonês do século XVII escreveu o diário de viagem \"O Estreito Caminho para o Norte\"?",
+    "resposta": "Matsuo Basho",
+    "alternativas": [
+     "Yosa Buson",
+     "Masaoka Shiki",
+     "Kobayashi Issa",
+     "Matsuo Basho"
+    ]
+   }
+  }
+ ],
+ "total_a_decidir": 93,
+ "a_decidir_pelo_lucas": [
+  {
+   "ref": "banco:5219",
+   "indice": 5219,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "O Alienista: detalhe de personagem em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual médico de \"O Alienista\", de Machado de Assis, interna quase toda a cidade de Itaguaí?",
+    "resposta": "Simão Bacamarte",
+    "alternativas": [
+     "Simão Bacamarte",
+     "Brás Cubas",
+     "Bentinho",
+     "Quincas Borba"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5328",
+   "indice": 5328,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Macabéa: personagem de livro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual nordestina pobre é a protagonista de \"A Hora da Estrela\", de Clarice Lispector?",
+    "resposta": "Macabéa",
+    "alternativas": [
+     "Sinhá Vitória",
+     "Gabriela",
+     "Macabéa",
+     "Capitu"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5329",
+   "indice": 5329,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Policarpo Quaresma: personagem de livro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual personagem de Lima Barreto é um nacionalista que quer o tupi como língua oficial?",
+    "resposta": "Policarpo Quaresma",
+    "alternativas": [
+     "Brás Cubas",
+     "Quincas Borba",
+     "Policarpo Quaresma",
+     "Isaías Caminha"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5514",
+   "indice": 5514,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Peri, personagem de O Guarani, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual indígena herói do romance \"O Guarani\" se dedica a proteger Ceci?",
+    "resposta": "Peri",
+    "alternativas": [
+     "Poti",
+     "Iracema",
+     "Peri",
+     "Ubirajara"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6378",
+   "indice": 6378,
+   "origem": "mista",
+   "tema": "arte",
+   "motivo": "Rugendas, pintor estrangeiro que retratou o Brasil, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor alemão retratou o Brasil do século XIX no livro \"Viagem Pitoresca através do Brasil\"?",
+    "resposta": "Rugendas",
+    "alternativas": [
+     "Taunay",
+     "Rugendas",
+     "Frans Post",
+     "Debret"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6965",
+   "indice": 6965,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "O Ateneu, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Raul Pompeia se passa num colégio interno do Rio de Janeiro?",
+    "resposta": "O Ateneu",
+    "alternativas": [
+     "Dom Casmurro",
+     "Amar, Verbo Intransitivo",
+     "O Ateneu",
+     "O Cortiço"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6967",
+   "indice": 6967,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Sagarana, obra de estreia, detalhe em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual livro de contos, de 1946, marcou a estreia de Guimarães Rosa?",
+    "resposta": "Sagarana",
+    "alternativas": [
+     "Sagarana",
+     "Tutameia",
+     "Corpo de Baile",
+     "Primeiras Estórias"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7049",
+   "indice": 7049,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Lygia Clark, artista pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista brasileira criou os \"Bichos\", esculturas de metal com dobradiças que o público podia manipular?",
+    "resposta": "Lygia Clark",
+    "alternativas": [
+     "Lygia Pape",
+     "Tomie Ohtake",
+     "Anita Malfatti",
+     "Lygia Clark"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7087",
+   "indice": 7087,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Brecheret, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor criou o Monumento às Bandeiras, no Parque Ibirapuera, em São Paulo?",
+    "resposta": "Victor Brecheret",
+    "alternativas": [
+     "Victor Brecheret",
+     "Bruno Giorgi",
+     "Alfredo Ceschiatti",
+     "Di Cavalcanti"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7118",
+   "indice": 7118,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Athos Bulcão, artista pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista criou os painéis de azulejos azuis e brancos espalhados pelos prédios de Brasília?",
+    "resposta": "Athos Bulcão",
+    "alternativas": [
+     "Candido Portinari",
+     "Bruno Giorgi",
+     "Athos Bulcão",
+     "Roberto Burle Marx"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7381",
+   "indice": 7381,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Jongo, dança pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança afro-brasileira com tambores, forte no Sudeste, é considerada uma das raízes do samba?",
+    "resposta": "Jongo",
+    "alternativas": [
+     "Xote",
+     "Jongo",
+     "Carimbó",
+     "Ciranda"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7382",
+   "indice": 7382,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Siriri, dança regional pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança de Mato Grosso é acompanhada pela viola de cocho?",
+    "resposta": "Siriri",
+    "alternativas": [
+     "Catira",
+     "Chula",
+     "Siriri",
+     "Fandango"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7485",
+   "indice": 7485,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Palatnik, artista pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista brasileiro, pioneiro da arte cinética, criou o \"Aparelho Cinecromático\"?",
+    "resposta": "Abraham Palatnik",
+    "alternativas": [
+     "Abraham Palatnik",
+     "Waldemar Cordeiro",
+     "Lygia Clark",
+     "Hélio Oiticica"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7489",
+   "indice": 7489,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Tomie Ohtake, artista pouco conhecida fora de SP, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista nipo-brasileira ficou famosa por pinturas abstratas e grandes esculturas curvas de cores fortes?",
+    "resposta": "Tomie Ohtake",
+    "alternativas": [
+     "Tomie Ohtake",
+     "Lygia Pape",
+     "Beatriz Milhazes",
+     "Yayoi Kusama"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7572",
+   "indice": 7572,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Lundu, dança histórica pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança de origem africana, popular no Brasil colonial, é considerada ancestral do maxixe e do samba?",
+    "resposta": "Lundu",
+    "alternativas": [
+     "Xote",
+     "Fandango",
+     "Lundu",
+     "Catira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7573",
+   "indice": 7573,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Fandango caiçara, dança regional, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança caiçara do litoral do Paraná e de São Paulo é marcada pelo bater de tamancos?",
+    "resposta": "Fandango",
+    "alternativas": [
+     "Catira",
+     "Siriri",
+     "Ciranda",
+     "Fandango"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7884",
+   "indice": 7884,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Chula gaúcha, dança regional, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança gaúcha de sapateado é disputada sobre uma lança de madeira deitada no chão?",
+    "resposta": "Chula",
+    "alternativas": [
+     "Pezinho",
+     "Vanerão",
+     "Chimarrita",
+     "Chula"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7950",
+   "indice": 7950,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Arcadismo, escola literária, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escola literária do século XVIII, de Tomás Antônio Gonzaga, idealizava a vida no campo?",
+    "resposta": "Arcadismo",
+    "alternativas": [
+     "Arcadismo",
+     "Parnasianismo",
+     "Romantismo",
+     "Barroco"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7951",
+   "indice": 7951,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Simbolismo, escola literária, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escola literária teve Cruz e Sousa como maior nome no Brasil?",
+    "resposta": "Simbolismo",
+    "alternativas": [
+     "Realismo",
+     "Parnasianismo",
+     "Arcadismo",
+     "Simbolismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8072",
+   "indice": 8072,
+   "origem": "mista",
+   "tema": "literatura",
+   "motivo": "Prêmio Camões, prêmio literário de Brasil e Portugal, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual prêmio literário da língua portuguesa foi criado por Brasil e Portugal em 1988?",
+    "resposta": "Prêmio Camões",
+    "alternativas": [
+     "Prêmio Saramago",
+     "Prêmio Oceanos",
+     "Prêmio Jabuti",
+     "Prêmio Camões"
+    ]
+   }
+  },
+  {
+   "ref": "banco:8358",
+   "indice": 8358,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Movimento Armorial, assunto pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual movimento cultural, criado por Ariano Suassuna em 1970, buscava uma arte erudita a partir das raízes populares do Nordeste?",
+    "resposta": "Movimento Armorial",
+    "alternativas": [
+     "Movimento Armorial",
+     "Cinema Novo",
+     "Tropicalismo",
+     "Manguebeat"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9245",
+   "indice": 9245,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Diadorim, detalhe de Grande Sertão, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Em \"Grande Sertão: Veredas\", qual jagunço guarda o segredo de ser uma mulher?",
+    "resposta": "Diadorim",
+    "alternativas": [
+     "Hermógenes",
+     "Riobaldo",
+     "Zé Bebelo",
+     "Diadorim"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9246",
+   "indice": 9246,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Aurélia Camargo, personagem de Senhora, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual heroína de \"Senhora\", de José de Alencar, \"compra\" o marido que a havia desprezado?",
+    "resposta": "Aurélia Camargo",
+    "alternativas": [
+     "Lucíola",
+     "Iracema",
+     "Aurélia Camargo",
+     "Ceci"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9537",
+   "indice": 9537,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Paulo Honório, personagem de São Bernardo, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fazendeiro ambicioso narra \"São Bernardo\", de Graciliano Ramos?",
+    "resposta": "Paulo Honório",
+    "alternativas": [
+     "Ponciano",
+     "Fabiano",
+     "Paulo Honório",
+     "Luís da Silva"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9562",
+   "indice": 9562,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Angústia, obra menos lida de Graciliano, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual funcionário público frustrado narra \"Angústia\", de Graciliano Ramos?",
+    "resposta": "Luís da Silva",
+    "alternativas": [
+     "Paulo Honório",
+     "Policarpo Quaresma",
+     "Fabiano",
+     "Luís da Silva"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9629",
+   "indice": 9629,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Pastoril, folguedo regional, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual folguedo natalino nordestino tem dois cordões de pastoras, o azul e o encarnado?",
+    "resposta": "Pastoril",
+    "alternativas": [
+     "Reisado",
+     "Pastoril",
+     "Bumba meu boi",
+     "Maracatu"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10328",
+   "indice": 10328,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "Ribalta, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a fileira de luzes na beira do palco, que deu nome à fama?",
+    "resposta": "Ribalta",
+    "alternativas": [
+     "Rotunda",
+     "Gambiarra",
+     "Ribalta",
+     "Fosso"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10460",
+   "indice": 10460,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "Rotunda, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama o grande pano que fecha o fundo do palco?",
+    "resposta": "Rotunda",
+    "alternativas": [
+     "Proscênio",
+     "Rotunda",
+     "Urdimento",
+     "Coxia"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10507",
+   "indice": 10507,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "Proscênio, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama a parte da frente do palco, além da cortina?",
+    "resposta": "Proscênio",
+    "alternativas": [
+     "Coxia",
+     "Proscênio",
+     "Urdimento",
+     "Plateia"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10508",
+   "indice": 10508,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "Contrarregra, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama quem cuida dos objetos de cena durante o espetáculo?",
+    "resposta": "Contrarregra",
+    "alternativas": [
+     "Iluminador",
+     "Contrarregra",
+     "Ponto",
+     "Cenógrafo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10540",
+   "indice": 10540,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "Bambolina, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama a faixa de pano no alto do palco que esconde as luzes?",
+    "resposta": "Bambolina",
+    "alternativas": [
+     "Rotunda",
+     "Bambolina",
+     "Coxia",
+     "Gambiarra"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10621",
+   "indice": 10621,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Lasar Segall, pintor pouco conhecido do público geral, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor lituano-brasileiro pintou \"Navio de Emigrantes\"?",
+    "resposta": "Lasar Segall",
+    "alternativas": [
+     "Candido Portinari",
+     "Alfredo Volpi",
+     "Di Cavalcanti",
+     "Lasar Segall"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10622",
+   "indice": 10622,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Beatriz Milhazes, pintora pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintora carioca contemporânea é famosa pelas telas cheias de círculos coloridos?",
+    "resposta": "Beatriz Milhazes",
+    "alternativas": [
+     "Beatriz Milhazes",
+     "Adriana Varejão",
+     "Tomie Ohtake",
+     "Lygia Clark"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10623",
+   "indice": 10623,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Djanira, pintora pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintora naïf paulista retratou festas populares e o trabalho no campo?",
+    "resposta": "Djanira",
+    "alternativas": [
+     "Tarsila do Amaral",
+     "Tomie Ohtake",
+     "Djanira",
+     "Anita Malfatti"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10703",
+   "indice": 10703,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Instituto Ricardo Brennand, pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual instituto de Recife fica num castelo com coleção de armas e de obras holandesas?",
+    "resposta": "Instituto Ricardo Brennand",
+    "alternativas": [
+     "Paço do Frevo",
+     "Museu do Homem do Nordeste",
+     "Instituto Moreira Salles",
+     "Instituto Ricardo Brennand"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10847",
+   "indice": 10847,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Adélia Prado, estreia em livro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poetisa mineira de Divinópolis estreou com o livro \"Bagagem\"?",
+    "resposta": "Adélia Prado",
+    "alternativas": [
+     "Adélia Prado",
+     "Hilda Hilst",
+     "Lya Luft",
+     "Henriqueta Lisboa"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11392",
+   "indice": 11392,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Guarnieri, dramaturgo pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ator e dramaturgo escreveu a peça \"Eles Não Usam Black-Tie\", de 1958?",
+    "resposta": "Gianfrancesco Guarnieri",
+    "alternativas": [
+     "Jorge Andrade",
+     "Gianfrancesco Guarnieri",
+     "Lauro César Muniz",
+     "Augusto Boal"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11393",
+   "indice": 11393,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Zé Celso e o Teatro Oficina, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diretor comandou por décadas o Teatro Oficina, em São Paulo?",
+    "resposta": "Zé Celso",
+    "alternativas": [
+     "Zé Celso",
+     "Antunes Filho",
+     "José Renato",
+     "Gerald Thomas"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11395",
+   "indice": 11395,
+   "origem": "mista",
+   "tema": "arte",
+   "motivo": "Pierre Verger, fotógrafo francês da Bahia, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fotógrafo francês viveu na Bahia e registrou a cultura afro-brasileira?",
+    "resposta": "Pierre Verger",
+    "alternativas": [
+     "Robert Doisneau",
+     "Pierre Verger",
+     "Claude Lévi-Strauss",
+     "Marcel Gautherot"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11396",
+   "indice": 11396,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Bruno Giorgi, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor fez \"Os Candangos\", na Praça dos Três Poderes, em Brasília?",
+    "resposta": "Bruno Giorgi",
+    "alternativas": [
+     "Bruno Giorgi",
+     "Amilcar de Castro",
+     "Sergio Camargo",
+     "Oscar Niemeyer"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11591",
+   "indice": 11591,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Ferréz, autor pouco lido pelo público geral, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulistano da periferia escreveu \"Capão Pecado\"?",
+    "resposta": "Ferréz",
+    "alternativas": [
+     "Sérgio Vaz",
+     "Ferréz",
+     "Mano Brown",
+     "Alessandro Buzo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11592",
+   "indice": 11592,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Raphael Montes, autor pouco lido pelo público geral, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor carioca de suspense escreveu \"Dias Perfeitos\"?",
+    "resposta": "Raphael Montes",
+    "alternativas": [
+     "Raphael Montes",
+     "Rubem Fonseca",
+     "Patrícia Melo",
+     "Marçal Aquino"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11593",
+   "indice": 11593,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Guignard, pintor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor ficou famoso pelas paisagens montanhosas e nebulosas de Minas Gerais e de Ouro Preto?",
+    "resposta": "Guignard",
+    "alternativas": [
+     "Di Cavalcanti",
+     "Volpi",
+     "Guignard",
+     "Djanira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11595",
+   "indice": 11595,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Daniel Galera, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor escreveu \"Barba Ensopada de Sangue\", passado na praia catarinense de Garopaba?",
+    "resposta": "Daniel Galera",
+    "alternativas": [
+     "Daniel Galera",
+     "Carol Bensimon",
+     "Paulo Scott",
+     "Michel Laub"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11619",
+   "indice": 11619,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Vianinha, dramaturgo pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dramaturgo, conhecido como Vianinha, escreveu \"Rasga Coração\"?",
+    "resposta": "Oduvaldo Vianna Filho",
+    "alternativas": [
+     "Consuelo de Castro",
+     "Dias Gomes",
+     "Lauro César Muniz",
+     "Oduvaldo Vianna Filho"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11706",
+   "indice": 11706,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Cacilda Becker, atriz de teatro antiga, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atriz passou mal em cena durante \"Esperando Godot\", em 1969, e morreu semanas depois?",
+    "resposta": "Cacilda Becker",
+    "alternativas": [
+     "Fernanda Montenegro",
+     "Cacilda Becker",
+     "Tônia Carrero",
+     "Dercy Gonçalves"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11817",
+   "indice": 11817,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Ceschiatti, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor fez \"A Justiça\", estátua de olhos vendados em frente ao STF, em Brasília?",
+    "resposta": "Alfredo Ceschiatti",
+    "alternativas": [
+     "Mário Cravo Júnior",
+     "Alfredo Ceschiatti",
+     "Frans Krajcberg",
+     "Sergio Camargo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11878",
+   "indice": 11878,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Krajcberg, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista polonês radicado no Brasil fez esculturas com troncos de árvores queimadas?",
+    "resposta": "Frans Krajcberg",
+    "alternativas": [
+     "Lasar Segall",
+     "Frans Krajcberg",
+     "Franz Weissmann",
+     "Mário Cravo Júnior"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11998",
+   "indice": 11998,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Raduan Nassar, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista publicou \"Lavoura Arcaica\" e depois abandonou a literatura para cuidar de uma fazenda?",
+    "resposta": "Raduan Nassar",
+    "alternativas": [
+     "Raduan Nassar",
+     "Lourenço Mutarelli",
+     "Marçal Aquino",
+     "Antônio Torres"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12076",
+   "indice": 12076,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Dalton Trevisan, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista curitibano, avesso a entrevistas e fotos, era chamado de Vampiro de Curitiba?",
+    "resposta": "Dalton Trevisan",
+    "alternativas": [
+     "Miguel Sanches Neto",
+     "Wilson Bueno",
+     "Valêncio Xavier",
+     "Dalton Trevisan"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12077",
+   "indice": 12077,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "As Meninas, obra menos lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora paulista publicou \"As Meninas\", romance de 1973 sobre três estudantes?",
+    "resposta": "Lygia Fagundes Telles",
+    "alternativas": [
+     "Nélida Piñon",
+     "Lygia Fagundes Telles",
+     "Zulmira Ribeiro Tavares",
+     "Edla van Steen"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12078",
+   "indice": 12078,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Hilda Hilst, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta e escritora paulista viveu reclusa na Casa do Sol, em Campinas?",
+    "resposta": "Hilda Hilst",
+    "alternativas": [
+     "Renata Pallottini",
+     "Orides Fontela",
+     "Olga Savary",
+     "Hilda Hilst"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12079",
+   "indice": 12079,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Caio Fernando Abreu, obra pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor gaúcho publicou \"Morangos Mofados\", em 1982?",
+    "resposta": "Caio Fernando Abreu",
+    "alternativas": [
+     "João Gilberto Noll",
+     "Caio Fernando Abreu",
+     "Luis Fernando Verissimo",
+     "Moacyr Scliar"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12107",
+   "indice": 12107,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Stanislaw Ponte Preta, pseudônimo pouco lembrado, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor criou o pseudônimo Stanislaw Ponte Preta e o \"Febeapá\"?",
+    "resposta": "Sérgio Porto",
+    "alternativas": [
+     "Ivan Lessa",
+     "Jaguar",
+     "Sérgio Porto",
+     "Millôr Fernandes"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12157",
+   "indice": 12157,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Loyola Brandão, obra pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor de Araraquara escreveu a distopia \"Não Verás País Nenhum\"?",
+    "resposta": "Ignácio de Loyola Brandão",
+    "alternativas": [
+     "Ignácio de Loyola Brandão",
+     "Antônio Callado",
+     "Moacyr Scliar",
+     "José J. Veiga"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12158",
+   "indice": 12158,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "João Antônio, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista publicou \"Malagueta, Perus e Bacanaço\", contos sobre malandros e jogadores de sinuca?",
+    "resposta": "João Antônio",
+    "alternativas": [
+     "Roniwalter Jatobá",
+     "João Antônio",
+     "Oswaldo França Júnior",
+     "Ricardo Ramos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12187",
+   "indice": 12187,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Ana Cristina Cesar, poeta pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta carioca da poesia marginal dos anos 1970 escreveu \"A Teus Pés\"?",
+    "resposta": "Ana Cristina Cesar",
+    "alternativas": [
+     "Alice Ruiz",
+     "Ana Cristina Cesar",
+     "Leila Míccolis",
+     "Sônia Queiroz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12266",
+   "indice": 12266,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Antunes Filho, diretor de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diretor de teatro fez a famosa montagem de \"Macunaíma\", em 1978?",
+    "resposta": "Antunes Filho",
+    "alternativas": [
+     "Gerald Thomas",
+     "José Renato",
+     "Antunes Filho",
+     "Ulysses Cruz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12267",
+   "indice": 12267,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "Teatro de Arena, história do teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grupo teatral paulistano, criado nos anos 1950, montou \"Eles Não Usam Black-Tie\"?",
+    "resposta": "Teatro de Arena",
+    "alternativas": [
+     "Teatro Oficina",
+     "Teatro de Arena",
+     "Grupo Galpão",
+     "TBC"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12268",
+   "indice": 12268,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Thiago de Mello, poeta pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta amazonense escreveu \"Os Estatutos do Homem\"?",
+    "resposta": "Thiago de Mello",
+    "alternativas": [
+     "Aníbal Beça",
+     "Astrid Cabral",
+     "Thiago de Mello",
+     "Márcio Souza"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12269",
+   "indice": 12269,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Haroldo de Campos, poesia concreta, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta paulista fundou o grupo Noigandres com o irmão Augusto e com Décio Pignatari?",
+    "resposta": "Haroldo de Campos",
+    "alternativas": [
+     "Mário Faustino",
+     "José Lino Grünewald",
+     "Mário Chamie",
+     "Haroldo de Campos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12354",
+   "indice": 12354,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Luiz Vilela, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista mineiro, de Ituiutaba, estreou em 1967 com o livro \"Tremor de Terra\"?",
+    "resposta": "Luiz Vilela",
+    "alternativas": [
+     "Silviano Santiago",
+     "Luiz Vilela",
+     "Ivan Ângelo",
+     "Autran Dourado"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12527",
+   "indice": 12527,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Cristovão Tezza, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor catarinense, radicado em Curitiba, escreveu \"O Filho Eterno\", sobre a paternidade de um menino com síndrome de Down?",
+    "resposta": "Cristovão Tezza",
+    "alternativas": [
+     "Rogério Pereira",
+     "Cristovão Tezza",
+     "Assionara Souza",
+     "Miguel Sanches Neto"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12528",
+   "indice": 12528,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Socorro Acioli, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora cearense escreveu \"A Cabeça do Santo\", sobre uma cabeça gigante de Santo Antônio?",
+    "resposta": "Socorro Acioli",
+    "alternativas": [
+     "Socorro Acioli",
+     "Ana Miranda",
+     "Jarid Arraes",
+     "Natércia Campos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12529",
+   "indice": 12529,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Luiz Ruffato, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor mineiro escreveu \"Eles Eram Muitos Cavalos\", retrato fragmentado de São Paulo?",
+    "resposta": "Luiz Ruffato",
+    "alternativas": [
+     "Marcelino Freire",
+     "Marçal Aquino",
+     "Luiz Ruffato",
+     "Nelson de Oliveira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12530",
+   "indice": 12530,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Geovani Martins, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor carioca estreou em 2018 com os contos de \"O Sol na Cabeça\", sobre a juventude das favelas?",
+    "resposta": "Geovani Martins",
+    "alternativas": [
+     "Sacolinha",
+     "Allan da Rosa",
+     "Geovani Martins",
+     "Alessandro Buzo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12531",
+   "indice": 12531,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Davi Kopenawa, livro pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual xamã yanomami escreveu, com o antropólogo Bruce Albert, \"A Queda do Céu\"?",
+    "resposta": "Davi Kopenawa",
+    "alternativas": [
+     "Txai Suruí",
+     "Davi Kopenawa",
+     "Raoni",
+     "Daniel Munduruku"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12532",
+   "indice": 12532,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Bernardo Carvalho, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista escreveu \"Nove Noites\", sobre o suicídio de um antropólogo americano no Brasil, em 1939?",
+    "resposta": "Bernardo Carvalho",
+    "alternativas": [
+     "Marçal Aquino",
+     "Bernardo Carvalho",
+     "Marcelo Mirisola",
+     "Joca Reiners Terron"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12616",
+   "indice": 12616,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Ana Paula Maia, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora fluminense escreveu \"De Gados e Homens\", sobre o trabalho num matadouro?",
+    "resposta": "Ana Paula Maia",
+    "alternativas": [
+     "Adriana Lisboa",
+     "Andréa del Fuego",
+     "Ana Paula Maia",
+     "Tatiana Salem Levy"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12617",
+   "indice": 12617,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Paulo Scott, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor gaúcho escreveu \"Marrom e Amarelo\", sobre irmãos de tons de pele diferentes e as cotas raciais?",
+    "resposta": "Paulo Scott",
+    "alternativas": [
+     "Altair Martins",
+     "Paulo Scott",
+     "Rafael Bán Jacobsen",
+     "Michel Laub"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12618",
+   "indice": 12618,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Natalia Borges Polesso, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora gaúcha ganhou o Jabuti com os contos de \"Amora\", sobre mulheres que amam mulheres?",
+    "resposta": "Natalia Borges Polesso",
+    "alternativas": [
+     "Natalia Borges Polesso",
+     "Carol Bensimon",
+     "Veronica Stigger",
+     "Luisa Geisler"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12619",
+   "indice": 12619,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Aline Bei, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora paulista estreou com \"O Peso do Pássaro Morto\", romance em versos curtos?",
+    "resposta": "Aline Bei",
+    "alternativas": [
+     "Angélica Freitas",
+     "Aline Bei",
+     "Alice Sant'Anna",
+     "Bruna Beber"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12620",
+   "indice": 12620,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Ricardo Lísias, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista publicou \"O Céu dos Suicidas\", romance sobre a perda de um amigo?",
+    "resposta": "Ricardo Lísias",
+    "alternativas": [
+     "Joca Reiners Terron",
+     "Antônio Xerxenesky",
+     "Ricardo Lísias",
+     "João Anzanello Carrascoza"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12676",
+   "indice": 12676,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Inocência, romance do século XIX, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Visconde de Taunay, de 1872, conta um amor proibido no sertão de Mato Grosso?",
+    "resposta": "Inocência",
+    "alternativas": [
+     "Inocência",
+     "Diva",
+     "A Mão e a Luva",
+     "A Escrava Isaura"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12677",
+   "indice": 12677,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Canaã, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Graça Aranha, de 1902, conta a vida de imigrantes alemães no Espírito Santo?",
+    "resposta": "Canaã",
+    "alternativas": [
+     "Luzia-Homem",
+     "Canaã",
+     "O Missionário",
+     "Os Sertões"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12678",
+   "indice": 12678,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Sargento Getúlio, obra menos lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de João Ubaldo Ribeiro tem um sargento sergipano levando um preso pelo sertão?",
+    "resposta": "Sargento Getúlio",
+    "alternativas": [
+     "Sargento Getúlio",
+     "Miséria e Grandeza do Amor",
+     "Vila Real",
+     "Setembro Não Tem Sentido"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12724",
+   "indice": 12724,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "A Bagaceira, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de José Américo de Almeida, de 1928, inaugurou o romance regionalista de 30?",
+    "resposta": "A Bagaceira",
+    "alternativas": [
+     "Coiteiros",
+     "Seca",
+     "A Bagaceira",
+     "O Boqueirão"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12725",
+   "indice": 12725,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Os Ratos, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Dyonélio Machado, de 1935, acompanha um homem atrás de dinheiro para pagar o leiteiro em Porto Alegre?",
+    "resposta": "Os Ratos",
+    "alternativas": [
+     "Os Ratos",
+     "O Louco do Cati",
+     "Desolação",
+     "Os Corruptos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12726",
+   "indice": 12726,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Crônica da Casa Assassinada, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Lúcio Cardoso, de 1959, narra a decadência de uma família mineira em cartas e diários?",
+    "resposta": "Crônica da Casa Assassinada",
+    "alternativas": [
+     "A Luz no Subsolo",
+     "Crônica da Casa Assassinada",
+     "Dias Perdidos",
+     "Maleita"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12727",
+   "indice": 12727,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Ópera dos Mortos, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Autran Dourado, de 1967, mostra uma família isolada num sobrado de Minas?",
+    "resposta": "Ópera dos Mortos",
+    "alternativas": [
+     "A Barca dos Homens",
+     "O Risco do Bordado",
+     "Os Sinos da Agonia",
+     "Ópera dos Mortos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12728",
+   "indice": 12728,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Murilo Rubião, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista mineiro, pioneiro do fantástico no Brasil, escreveu \"O Pirotécnico Zacarias\"?",
+    "resposta": "Murilo Rubião",
+    "alternativas": [
+     "Moacyr Scliar",
+     "Murilo Rubião",
+     "José J. Veiga",
+     "Péricles Prade"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12729",
+   "indice": 12729,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Os Tambores de São Luís, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Josué Montello, de 1975, tem como protagonista o negro Damião, que viveu num quilombo do Maranhão?",
+    "resposta": "Os Tambores de São Luís",
+    "alternativas": [
+     "Cais da Sagração",
+     "A Décima Noite",
+     "Os Tambores de São Luís",
+     "Noite sobre Alcântara"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12730",
+   "indice": 12730,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Clara dos Anjos, obra menos lida de Lima Barreto, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Lima Barreto conta a história de uma moça pobre e mulata enganada por um modinheiro?",
+    "resposta": "Clara dos Anjos",
+    "alternativas": [
+     "Numa e a Ninfa",
+     "Isaías Caminha",
+     "Clara dos Anjos",
+     "Vida e Morte de M. J. Gonzaga de Sá"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12736",
+   "indice": 12736,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Campos de Carvalho, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor mineiro, de humor surrealista, escreveu \"A Lua Vem da Ásia\"?",
+    "resposta": "Campos de Carvalho",
+    "alternativas": [
+     "Péricles Prade",
+     "Mário Palmério",
+     "Rui Mourão",
+     "Campos de Carvalho"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12737",
+   "indice": 12737,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Osman Lins, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor pernambucano escreveu \"Avalovara\", romance estruturado a partir de um quadrado mágico?",
+    "resposta": "Osman Lins",
+    "alternativas": [
+     "Hermilo Borba Filho",
+     "Gilvan Lemos",
+     "Raimundo Carrero",
+     "Osman Lins"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12739",
+   "indice": 12739,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Adonias Filho, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor baiano escreveu \"Corpo Vivo\", romance violento passado nas matas do cacau?",
+    "resposta": "Adonias Filho",
+    "alternativas": [
+     "Herberto Sales",
+     "Hélio Pólvora",
+     "Sosígenes Costa",
+     "Adonias Filho"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12740",
+   "indice": 12740,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Orígenes Lessa, obra pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista escreveu \"O Feijão e o Sonho\", sobre um poeta sonhador e uma esposa prática?",
+    "resposta": "Orígenes Lessa",
+    "alternativas": [
+     "Menotti Del Picchia",
+     "Guilherme de Almeida",
+     "Paulo Setúbal",
+     "Orígenes Lessa"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13605",
+   "indice": 13605,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "O Coronel e o Lobisomem, detalhe de personagem, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual coronel cheio de bravatas narra \"O Coronel e o Lobisomem\", de José Cândido de Carvalho?",
+    "resposta": "Ponciano de Azeredo Furtado",
+    "alternativas": [
+     "Ponciano de Azeredo Furtado",
+     "Firmino de Oliveira",
+     "Ramiro Bastos",
+     "Jesuíno Mendonça"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13608",
+   "indice": 13608,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "João Romão, detalhe de O Cortiço, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual comerciante português é o dono do cortiço no romance naturalista de 1890?",
+    "resposta": "João Romão",
+    "alternativas": [
+     "Miranda",
+     "João Romão",
+     "Botelho",
+     "Firmo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13611",
+   "indice": 13611,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Conselheiro Aires, detalhe de Machado, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diplomata aposentado aparece em \"Esaú e Jacó\" e narra o último romance do mesmo autor, de 1908?",
+    "resposta": "Conselheiro Aires",
+    "alternativas": [
+     "Conselheiro Aires",
+     "Estácio",
+     "Luís Alves",
+     "Camilo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13612",
+   "indice": 13612,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Isaías Caminha, obra menos lida de Lima Barreto, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jovem do interior é o protagonista do primeiro romance de Lima Barreto, sobre o racismo e a imprensa carioca?",
+    "resposta": "Isaías Caminha",
+    "alternativas": [
+     "Isaías Caminha",
+     "Gonzaga de Sá",
+     "Leonardo Flores",
+     "Augusto Machado"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13630",
+   "indice": 13630,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "Obra específica de Portinari, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tela de Portinari, de 1934, do acervo do MASP, retrata um trabalhador rural negro diante de um cafezal?",
+    "resposta": "O Lavrador de Café",
+    "alternativas": [
+     "Criança Morta",
+     "O Lavrador de Café",
+     "Enterro na Rede",
+     "Menino com Pião"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13960",
+   "indice": 13960,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "Gonçalves de Magalhães, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta publicou em 1836 \"Suspiros Poéticos e Saudades\", marco inicial do Romantismo no Brasil?",
+    "resposta": "Gonçalves de Magalhães",
+    "alternativas": [
+     "Gonçalves de Magalhães",
+     "Casimiro de Abreu",
+     "Junqueira Freire",
+     "Araújo Porto-Alegre"
+    ]
+   }
+  }
+ ]
+}

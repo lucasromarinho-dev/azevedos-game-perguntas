@@ -6138,6 +6138,87 @@
           "errada defensavel": "3835e7a886: Boston terrier também tem orelhas eretas descritas como de morcego (errada defensável); trocada por Shih-tzu",
           "fato impreciso": "f1d8a2f202: sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'"
         }
+      },
+      {
+        "lote": "058",
+        "conferente": "conferente-v6",
+        "conferidas": 105,
+        "conferidas_sem_mudanca": 102,
+        "com_mudanca": 3,
+        "corrigidas": 3,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 2,
+        "motivos_descarte": {
+          "espelho": 2
+        },
+        "perguntas_com_busca_web": 5,
+        "buscas_web": 5,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 13,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "b52d80ff65: espelho: cadeia de algarismos romanos com banco:966 (L = 50) e banco:967 (M = 1000), mesmo molde e alternativas cruzadas (M e L)",
+          "92d203b3dc: espelho: banco:3982 (o que se usava no orelhão => Ficha telefônica) e esta ('caiu a ficha' vem de qual aparelho => Telefone público) se resolvem uma pela outra"
+        ],
+        "correcoes": [
+          "76479d0fe9: Mamografia - mamografia detecta, não previne; 'prevenir' trocado por 'detectar cedo'",
+          "72e37b664d: Royal straight flush - errada Straight flush defensável (o royal é um straight flush); trocada por Flush",
+          "c6355f45e4: Carroça - erradas Bucha (nome regional do 6-6, uma dupla) e Pedra dupla (descrição da própria carroça) eram defensáveis; trocadas por Lasca e Curinga"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "espelho/duplicada": 2,
+          "errada defensavel": 2
+        },
+        "exemplos_erro": {
+          "fato impreciso": "76479d0fe9: mamografia detecta, não previne; 'prevenir' trocado por 'detectar cedo'",
+          "espelho/duplicada": "b52d80ff65: espelho: cadeia de algarismos romanos com banco:966 (L = 50) e banco:967 (M = 1000), mesmo molde e alternativas cruzadas (M e L)",
+          "errada defensavel": "72e37b664d: errada Straight flush defensável (o royal é um straight flush); trocada por Flush"
+        }
       }
     ],
     "rebaixamentos_r3": {

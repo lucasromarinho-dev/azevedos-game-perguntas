@@ -66,8 +66,8 @@
     "pergunta": "Qual árvore de origem malgaxe tem a copa larga coberta de flores vermelho-alaranjadas no verão?",
     "resposta": "Flamboyant",
     "alternativas": [
-      "Ipê-roxo",
       "Flamboyant",
+      "Ipê-roxo",
       "Jacarandá",
       "Pau-brasil"
     ],
@@ -86,10 +86,10 @@
     "pergunta": "Como se chama popularmente o fungo duro, em forma de prateleira, que cresce nos troncos das árvores?",
     "resposta": "Orelha-de-pau",
     "alternativas": [
-      "Musgo",
+      "Orelha-de-pau",
       "Cogumelo-do-sol",
       "Líquen",
-      "Orelha-de-pau"
+      "Musgo"
     ],
     "subtema": "Plantas",
     "status": "gerada",
@@ -127,8 +127,8 @@
     "resposta": "Internacional",
     "alternativas": [
       "Juventude",
-      "Internacional",
       "Grêmio",
+      "Internacional",
       "Caxias"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
@@ -148,8 +148,8 @@
     "alternativas": [
       "Juvenil",
       "Mirim",
-      "Infantil",
-      "Juniores"
+      "Juniores",
+      "Infantil"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
     "status": "gerada",
@@ -167,8 +167,8 @@
     "resposta": "Zé do Burro",
     "alternativas": [
       "Vadinho",
-      "Zé do Burro",
       "Zé Pequeno",
+      "Zé do Burro",
       "João Grilo"
     ],
     "subtema": "Cinema brasileiro",
@@ -320,5 +320,1794 @@
     "recente": false,
     "universo": "Ghibli",
     "dup_regra": null
+  },
+  {
+    "id": "a3aa0fc238",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual doce siciliano é um canudo de massa frita recheado de ricota adoçada?",
+    "resposta": "Cannoli",
+    "alternativas": [
+      "Sfogliatella",
+      "Cassata",
+      "Cannoli",
+      "Panettone"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0f52103534",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual iguaria francesa, cercada de polêmica, é feita do fígado engordado de pato ou ganso?",
+    "resposta": "Foie gras",
+    "alternativas": [
+      "Ratatouille",
+      "Escargot",
+      "Foie gras",
+      "Confit"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c87d4f0dc",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual tortilha mexicana, dobrada ao meio, é recheada de queijo derretido?",
+    "resposta": "Quesadilla",
+    "alternativas": [
+      "Quesadilla",
+      "Burrito",
+      "Enchilada",
+      "Nachos"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:e03fa10e09",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.9)"
+  },
+  {
+    "id": "ed480f42dd",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Quais pãezinhos ingleses são servidos no chá da tarde com geleia e creme?",
+    "resposta": "Scones",
+    "alternativas": [
+      "Bagels",
+      "Croissants",
+      "Scones",
+      "Donuts"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:94fcf66a07 (E2e mesma resposta rara e algum assunto em comum (39.4, sim 0.6))",
+    "dup": "certa",
+    "dup_ref": "id:94fcf66a07",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (39.4, sim 0.6)"
+  },
+  {
+    "id": "dc0b707df8",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual pasta árabe de iogurte escorrido é servida com azeite e hortelã, ao lado do homus?",
+    "resposta": "Coalhada seca",
+    "alternativas": [
+      "Babaganuche",
+      "Coalhada seca",
+      "Tabule",
+      "Tahine"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:fe0a679f25 (E5 resposta antiga citada no texto novo + assunto (14.9))",
+    "dup": "certa",
+    "dup_ref": "id:fe0a679f25",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.9)"
+  },
+  {
+    "id": "1f717bc8dc",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual pasta árabe é feita de berinjela assada e amassada com tahine?",
+    "resposta": "Babaganuche",
+    "alternativas": [
+      "Babaganuche",
+      "Tabule",
+      "Coalhada seca",
+      "Homus"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "873254b3f4",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual bolo português de Natal, com frutas cristalizadas, tem um furo no meio como uma coroa?",
+    "resposta": "Bolo-rei",
+    "alternativas": [
+      "Bolo de bolacha",
+      "Panetone",
+      "Pão de ló",
+      "Bolo-rei"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "01b6e374ec",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual doce do Oriente Médio é feito de pasta de gergelim com açúcar, de textura farinhenta?",
+    "resposta": "Halva",
+    "alternativas": [
+      "Halva",
+      "Lokum",
+      "Baklava",
+      "Kunefe"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e4c826a708",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sopa mexicana leva grãos grandes de milho, carne de porco e pimenta?",
+    "resposta": "Pozole",
+    "alternativas": [
+      "Menudo",
+      "Mole",
+      "Gazpacho",
+      "Pozole"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cc247fd536",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual \"pamonha\" mexicana de massa de milho é cozida enrolada na palha?",
+    "resposta": "Tamale",
+    "alternativas": [
+      "Burrito",
+      "Tortilla",
+      "Tamale",
+      "Arepa"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "550c6d3116",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual vaso, comum nas salas do século XIX, servia para as pessoas cuspirem?",
+    "resposta": "Escarradeira",
+    "alternativas": [
+      "Bacia",
+      "Floreira",
+      "Escarradeira",
+      "Urinol"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ba8e118418",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava o urinol que ficava debaixo da cama antes de existir banheiro dentro de casa?",
+    "resposta": "Penico",
+    "alternativas": [
+      "Penico",
+      "Bacia",
+      "Escarradeira",
+      "Moringa"
+    ],
+    "subtema": "Brasil Império",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3cfa51e608",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se cozinhava nas casas da roça antigamente, num fogão de tijolos alimentado com gravetos e toras?",
+    "resposta": "Fogão a lenha",
+    "alternativas": [
+      "Forno a gás",
+      "Fogareiro",
+      "Fogão a lenha",
+      "Chapa elétrica"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dd2b58f991",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual deusa nórdica, esposa de Odin, era a rainha de Asgard?",
+    "resposta": "Frigga",
+    "alternativas": [
+      "Sif",
+      "Frigga",
+      "Freya",
+      "Hel"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "549a954f31",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os senhores feudais do Japão, que tinham samurais a seu serviço?",
+    "resposta": "Daimiôs",
+    "alternativas": [
+      "Ninjas",
+      "Xoguns",
+      "Ronins",
+      "Daimiôs"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9c8bb5a57e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamava a casa urbana das famílias ricas da Roma antiga?",
+    "resposta": "Domus",
+    "alternativas": [
+      "Ínsula",
+      "Domus",
+      "Fórum",
+      "Basílica"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9633ddd20b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual deusa egípcia da verdade tinha a pena usada para pesar o coração dos mortos?",
+    "resposta": "Maat",
+    "alternativas": [
+      "Sekhmet",
+      "Néftis",
+      "Maat",
+      "Ísis"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4e004867f5",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual monstro egípcio, misto de crocodilo, leão e hipopótamo, devorava o coração dos culpados?",
+    "resposta": "Ammit",
+    "alternativas": [
+      "Apófis",
+      "Sobek",
+      "Set",
+      "Ammit"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "33c54fd598",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava a sala de jantar romana em que se comia deitado em sofás?",
+    "resposta": "Triclínio",
+    "alternativas": [
+      "Tablino",
+      "Triclínio",
+      "Peristilo",
+      "Átrio"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2d92ae3510",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamavam as passagens por onde o público saía em massa dos anfiteatros romanos?",
+    "resposta": "Vomitórios",
+    "alternativas": [
+      "Pórticos",
+      "Vomitórios",
+      "Termas",
+      "Átrios"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b5e5a17c1c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual samambaia delicada, de folhinhas arredondadas, é popular em vasos dentro de casa?",
+    "resposta": "Avenca",
+    "alternativas": [
+      "Avenca",
+      "Begônia",
+      "Hera",
+      "Jiboia"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7dde16374a",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual planta de folhas grandes, cheias de recortes e furos, virou moda na decoração?",
+    "resposta": "Costela-de-adão",
+    "alternativas": [
+      "Espada-de-são-jorge",
+      "Comigo-ninguém-pode",
+      "Antúrio",
+      "Costela-de-adão"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1961",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "3e1b2de583",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual chá calmante, de folhas com perfume de limão, também é chamado de melissa?",
+    "resposta": "Erva-cidreira",
+    "alternativas": [
+      "Erva-doce",
+      "Erva-cidreira",
+      "Boldo",
+      "Hortelã"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7096fa2fb2",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual planta florida, que se espalha sozinha por canteiros e calçadas, também é chamada de \"beijinho\"?",
+    "resposta": "Maria-sem-vergonha",
+    "alternativas": [
+      "Petúnia",
+      "Onze-horas",
+      "Amor-perfeito",
+      "Maria-sem-vergonha"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1cd881b1a5",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o pó preto que a fumaça deixa grudado nas chaminés?",
+    "resposta": "Fuligem",
+    "alternativas": [
+      "Poeira",
+      "Fuligem",
+      "Ferrugem",
+      "Limo"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "627565666e",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual fruta vermelha, ácida e de caroço grande, do Nordeste, é parente do cajá e do umbu?",
+    "resposta": "Seriguela",
+    "alternativas": [
+      "Jabuticaba",
+      "Acerola",
+      "Seriguela",
+      "Pitanga"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b5378e2e75",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.9)"
+  },
+  {
+    "id": "6e68197428",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o maior espaço vazio entre os anéis de Saturno?",
+    "resposta": "Divisão de Cassini",
+    "alternativas": [
+      "Divisão de Cassini",
+      "Lacuna de Encke",
+      "Limite de Roche",
+      "Cinturão de Kuiper"
+    ],
+    "subtema": "Astronomia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2254 (E2 mesma resposta e mesmo assunto (10.6, 34% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:2254",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.6, 34% do fato)"
+  },
+  {
+    "id": "10892d3e57",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sistema de cânions de Marte é muito maior que o Grand Canyon?",
+    "resposta": "Valles Marineris",
+    "alternativas": [
+      "Tharsis",
+      "Olympus Mons",
+      "Valles Marineris",
+      "Hellas Planitia"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3bed900043",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a camada parcialmente fundida do manto, logo abaixo da litosfera, sobre a qual deslizam as placas?",
+    "resposta": "Astenosfera",
+    "alternativas": [
+      "Astenosfera",
+      "Núcleo externo",
+      "Mesosfera",
+      "Crosta"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "26c8552ffd",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual objeto em forma de charuto, descoberto em 2017, foi o primeiro visitante interestelar detectado no Sistema Solar?",
+    "resposta": "Oumuamua",
+    "alternativas": [
+      "Sedna",
+      "Borisov",
+      "Arrokoth",
+      "Oumuamua"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "619b01af1f",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama, na gíria dos boleiros, o papo descontraído depois do jogo ou do treino?",
+    "resposta": "Resenha",
+    "alternativas": [
+      "Coletiva",
+      "Firula",
+      "Preleção",
+      "Resenha"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d52e908abb",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o esporte das corridas de cavalos nos hipódromos?",
+    "resposta": "Turfe",
+    "alternativas": [
+      "Polo",
+      "Rodeio",
+      "Turfe",
+      "Adestramento"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cbc0977d01",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama quem monta o cavalo nas corridas do hipódromo?",
+    "resposta": "Jóquei",
+    "alternativas": [
+      "Tratador",
+      "Jóquei",
+      "Peão",
+      "Ferrador"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:d52e908abb",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "27dfc83378",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantos segundos o peão precisa ficar em cima do touro para a montaria valer no rodeio?",
+    "resposta": "Oito",
+    "alternativas": [
+      "Dez",
+      "Doze",
+      "Cinco",
+      "Oito"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c8081de12c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual esporte nordestino tem dois vaqueiros a cavalo que precisam derrubar um boi pela cauda numa faixa?",
+    "resposta": "Vaquejada",
+    "alternativas": [
+      "Cavalhada",
+      "Vaquejada",
+      "Farra do boi",
+      "Rodeio"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f5c28a87e9",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No xadrez, como se chama a captura em que um peão toma outro que acabou de avançar duas casas ao seu lado?",
+    "resposta": "En passant",
+    "alternativas": [
+      "Roque",
+      "Promoção",
+      "Gambito",
+      "En passant"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e5a35664c8",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No xadrez, como se chama o empate em que o jogador não está em xeque, mas não tem nenhum lance legal?",
+    "resposta": "Afogamento",
+    "alternativas": [
+      "Afogamento",
+      "Xeque perpétuo",
+      "Tablas por acordo",
+      "Roque"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0ceb3d810d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual curva de Interlagos vem logo depois do \"S do Senna\", antes da Reta Oposta?",
+    "resposta": "Curva do Sol",
+    "alternativas": [
+      "Bico de Pato",
+      "Curva do Sol",
+      "Ferradura",
+      "Junção"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2517 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:2517",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "05107009f2",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "No judô, como se chama a punição leve dada ao atleta por falta de combatividade ou pequena infração?",
+    "resposta": "Shido",
+    "alternativas": [
+      "Yuko",
+      "Shido",
+      "Hansoku-make",
+      "Wazari"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e18f8d2f2a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "No remo, como se chama o remador que dá a cadência para os outros, sentado mais perto da popa?",
+    "resposta": "Voga",
+    "alternativas": [
+      "Timoneiro",
+      "Proeiro",
+      "Capitão",
+      "Voga"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c801ae1543",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a corrida mais importante do turfe brasileiro, disputada no Rio de Janeiro?",
+    "resposta": "Grande Prêmio Brasil",
+    "alternativas": [
+      "Grande Prêmio São Paulo",
+      "Grande Prêmio Brasil",
+      "Grande Prêmio Bento Gonçalves",
+      "Derby Paulista"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "58ab462f57",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual jogo do SBT, com uma roda de prêmios e letras para formar frases, foi apresentado por Silvio Santos?",
+    "resposta": "Roda a Roda",
+    "alternativas": [
+      "Topa ou Não Topa",
+      "Porta da Esperança",
+      "Show do Milhão",
+      "Roda a Roda"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ad51c7c8dc",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de Tatá Werneck em \"Amor à Vida\" sonhava em ficar famosa e entrar no BBB?",
+    "resposta": "Valdirene",
+    "alternativas": [
+      "Valdirene",
+      "Bebel",
+      "Carminha",
+      "Perséfone"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7690127167",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual vilã de \"Fina Estampa\", vivida por Christiane Torloni, tinha o mordomo Crô?",
+    "resposta": "Tereza Cristina",
+    "alternativas": [
+      "Carminha",
+      "Tereza Cristina",
+      "Griselda",
+      "Nazaré Tedesco"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3554 (E5 resposta antiga citada no texto novo + assunto (18.9))",
+    "dup": "certa",
+    "dup_ref": "banco:3554",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.9)"
+  },
+  {
+    "id": "af050e1d3b",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual brinquedo de \"Toy Story\" tem olhos, boca e orelhas que se encaixam e se soltam do corpo?",
+    "resposta": "Sr. Cabeça de Batata",
+    "alternativas": [
+      "Porquinho",
+      "Sr. Cabeça de Batata",
+      "Rex",
+      "Slinky"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Toy Story",
+    "dup_regra": null
+  },
+  {
+    "id": "e90fe81d50",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora da Jovem Guarda ganhou o apelido de \"Ternurinha\"?",
+    "resposta": "Wanderléa",
+    "alternativas": [
+      "Rosemary",
+      "Wanderléa",
+      "Celly Campello",
+      "Martinha"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3ef4d47aca",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantor da Jovem Guarda ganhou o apelido de \"Tremendão\"?",
+    "resposta": "Erasmo Carlos",
+    "alternativas": [
+      "Wanderley Cardoso",
+      "Roberto Carlos",
+      "Erasmo Carlos",
+      "Jerry Adriani"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:0d0444392b (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "id:0d0444392b",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "c409ac3b7a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual criatura em forma de ônibus de oito patas aparece em \"Meu Amigo Totoro\"?",
+    "resposta": "Gato-ônibus",
+    "alternativas": [
+      "Sem-Rosto",
+      "Gato de Cheshire",
+      "Calcifer",
+      "Gato-ônibus"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Ghibli",
+    "dup_regra": null
+  },
+  {
+    "id": "5fc5cc6c61",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual ajudante de cozinha é guiado pelo rato Remy em \"Ratatouille\"?",
+    "resposta": "Linguini",
+    "alternativas": [
+      "Linguini",
+      "Skinner",
+      "Ego",
+      "Gusteau"
+    ],
+    "subtema": "Animação",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:b8843a6faa (E5 resposta antiga citada no texto novo + assunto (18.9))",
+    "dup": "certa",
+    "dup_ref": "id:b8843a6faa",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (18.9)"
+  },
+  {
+    "id": "4b4bd25db5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem místico de \"Pantanal\" vira uma sucuri?",
+    "resposta": "Velho do Rio",
+    "alternativas": [
+      "Trindade",
+      "Velho do Rio",
+      "Zé Leôncio",
+      "Tibério"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "934ddf3381",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual personagem de \"Avenida Brasil\" cuidava das crianças que viviam no lixão?",
+    "resposta": "Mãe Lucinda",
+    "alternativas": [
+      "Tia Nastácia",
+      "Dona Jura",
+      "Dona Muricy",
+      "Mãe Lucinda"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "61b5e60cca",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cantora da era do rádio ganhou de Getúlio Vargas o apelido de \"Sapoti\"?",
+    "resposta": "Ângela Maria",
+    "alternativas": [
+      "Ângela Maria",
+      "Dalva de Oliveira",
+      "Emilinha Borba",
+      "Marlene"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "01c4d74c20",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o líder dos meninos de rua de \"Capitães da Areia\", de Jorge Amado?",
+    "resposta": "Pedro Bala",
+    "alternativas": [
+      "Pedro Bala",
+      "Volta Seca",
+      "Professor",
+      "Sem-Pernas"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3376 (E5 resposta antiga citada no texto novo + assunto (20.7))",
+    "dup": "certa",
+    "dup_ref": "banco:3376",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.7)"
+  },
+  {
+    "id": "205dbd724a",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fazendeiro ambicioso narra \"São Bernardo\", de Graciliano Ramos?",
+    "resposta": "Paulo Honório",
+    "alternativas": [
+      "Ponciano",
+      "Fabiano",
+      "Paulo Honório",
+      "Luís da Silva"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "406d7e9707",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual instrumento de teclado, com placas de metal, faz o som da \"Dança da Fada Açucarada\", de Tchaikovsky?",
+    "resposta": "Celesta",
+    "alternativas": [
+      "Cravo",
+      "Órgão",
+      "Harmônio",
+      "Celesta"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2cbf41ec2b",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual instrumento de metal, parecido com o trompete mas de som mais aveludado, é muito usado no jazz?",
+    "resposta": "Flugelhorn",
+    "alternativas": [
+      "Flugelhorn",
+      "Trombone",
+      "Corneta",
+      "Trompa"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f60fc57ed4",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual instrumento de sopro é a versão grave do clarinete?",
+    "resposta": "Clarone",
+    "alternativas": [
+      "Oboé",
+      "Fagote",
+      "Clarone",
+      "Saxofone barítono"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3d7a3f31df",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava o controle de movimento, em forma de controle remoto, do Nintendo Wii?",
+    "resposta": "Wiimote",
+    "alternativas": [
+      "Joy-Con",
+      "Wiimote",
+      "Kinect",
+      "PlayStation Move"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3909",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.8)"
+  },
+  {
+    "id": "6bd2fb7339",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a alavanca do controle que move o personagem em todas as direções com precisão?",
+    "resposta": "Analógico",
+    "alternativas": [
+      "Gatilho",
+      "Turbo",
+      "Direcional",
+      "Analógico"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3880 (E4 resposta nova (rara) citada no texto antigo (5.3))",
+    "dup": "certa",
+    "dup_ref": "banco:3880",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.3)"
+  },
+  {
+    "id": "ce7e3e6106",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o título exagerado, feito só para atrair cliques?",
+    "resposta": "Clickbait",
+    "alternativas": [
+      "Fake news",
+      "Clickbait",
+      "Meme",
+      "Spam"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a924bdccca",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o vídeo em que o youtuber grava a própria reação assistindo a outro conteúdo?",
+    "resposta": "React",
+    "alternativas": [
+      "React",
+      "Unboxing",
+      "Vlog",
+      "Tutorial"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b66081910f",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o acessório com analógico, ligado por fio ao controle do Wii?",
+    "resposta": "Nunchuk",
+    "alternativas": [
+      "Classic Controller",
+      "Nunchuk",
+      "Balance Board",
+      "Wii Zapper"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "16e79652dc",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cacto que corre de braços abertos é um inimigo clássico de \"Final Fantasy\"?",
+    "resposta": "Cactuar",
+    "alternativas": [
+      "Tonberry",
+      "Bomb",
+      "Cactuar",
+      "Moogle"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Final Fantasy",
+    "dup_regra": null
+  },
+  {
+    "id": "a7ddfdf567",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual item revive um personagem desmaiado em \"Final Fantasy\"?",
+    "resposta": "Pena de Fênix",
+    "alternativas": [
+      "Poção",
+      "Pena de Fênix",
+      "Éter",
+      "Elixir"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Final Fantasy",
+    "dup_regra": null
+  },
+  {
+    "id": "8c3e9f6060",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Quais itens Mario precisa coletar para abrir as portas do castelo de Peach em \"Super Mario 64\"?",
+    "resposta": "Power Stars",
+    "alternativas": [
+      "Power Stars",
+      "Cogumelos",
+      "Moedas vermelhas",
+      "Chaves"
+    ],
+    "subtema": "Games: Nintendo",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:dfbd3be42d (E4 resposta nova (rara) citada no texto antigo (5.9))",
+    "dup": "certa",
+    "dup_ref": "id:dfbd3be42d",
+    "recente": false,
+    "universo": "Mario",
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.9)"
+  },
+  {
+    "id": "7b722db300",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual processo do Windows reorganizava no HD os pedaços espalhados dos arquivos para deixá-lo mais rápido?",
+    "resposta": "Desfragmentação",
+    "alternativas": [
+      "Particionamento",
+      "Compactação",
+      "Formatação",
+      "Desfragmentação"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0905878489",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual chefe de três cabeças o jogador invoca com caveiras em \"Minecraft\"?",
+    "resposta": "Wither",
+    "alternativas": [
+      "Wither",
+      "Ghast",
+      "Ender Dragon",
+      "Elder Guardian"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Minecraft",
+    "dup_regra": null
+  },
+  {
+    "id": "a0b52244f8",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cubo com um coração rosa a jogadora precisa incinerar em \"Portal\"?",
+    "resposta": "Companion Cube",
+    "alternativas": [
+      "Companion Cube",
+      "Heart Box",
+      "Aperture Cube",
+      "Weighted Cube"
+    ],
+    "subtema": "Games: franquias e personagens",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Portal",
+    "dup_regra": null
+  },
+  {
+    "id": "000beba109",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual assistente virtual em forma de gorila roxo, dos anos 2000, era acusado de ser spyware?",
+    "resposta": "BonziBuddy",
+    "alternativas": [
+      "Clippy",
+      "BonziBuddy",
+      "Cortana",
+      "Rover"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9cdd29c874",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama o pequeno ícone do site que aparece na aba do navegador?",
+    "resposta": "Favicon",
+    "alternativas": [
+      "Favicon",
+      "Thumbnail",
+      "Emoji",
+      "Avatar"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52571ed32f",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual refogado de broto de feijão, legumes e carne com shoyu é clássico dos restaurantes chineses no Brasil?",
+    "resposta": "Chop suey",
+    "alternativas": [
+      "Frango xadrez",
+      "Rolinho primavera",
+      "Yakisoba",
+      "Chop suey"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bfe39d4328",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual chá indiano é preparado com leite, açúcar e especiarias como cardamomo e canela?",
+    "resposta": "Chai",
+    "alternativas": [
+      "Matcha",
+      "Lassi",
+      "Rooibos",
+      "Chai"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e24aa22ad8",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a mulher escravizada que amamentava os filhos dos senhores?",
+    "resposta": "Ama de leite",
+    "alternativas": [
+      "Mucama",
+      "Parteira",
+      "Ama de leite",
+      "Sinhá"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1311 (E2 mesma resposta e enunciados parecidos (0.7))",
+    "dup": "certa",
+    "dup_ref": "banco:1311",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.7)"
+  },
+  {
+    "id": "0493a2b500",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os prédios de apartamentos onde morava a plebe na Roma antiga?",
+    "resposta": "Ínsulas",
+    "alternativas": [
+      "Vilas",
+      "Ínsulas",
+      "Domus",
+      "Termas"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4961d3bcff",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam as três deusas gregas da graça, da beleza e da alegria?",
+    "resposta": "Cárites",
+    "alternativas": [
+      "Cárites",
+      "Fúrias",
+      "Moiras",
+      "Musas"
+    ],
+    "subtema": "Mitologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b4fbd11aec",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a disputa em que duas equipes puxam uma corda em sentidos opostos?",
+    "resposta": "Cabo de guerra",
+    "alternativas": [
+      "Pique-bandeira",
+      "Queimada",
+      "Cabo de guerra",
+      "Corrida de saco"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5ed918a49f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Na esgrima, como se chama o ataque em que o atleta avança o braço para tocar o rival com a ponta da arma?",
+    "resposta": "Estocada",
+    "alternativas": [
+      "Estocada",
+      "Finta",
+      "Riposta",
+      "Parada"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "693632c140",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual esporte indiano de contato exige que o atacante repita o nome do jogo, sem tomar fôlego, enquanto tenta tocar os rivais?",
+    "resposta": "Kabaddi",
+    "alternativas": [
+      "Polo",
+      "Kabaddi",
+      "Kho-kho",
+      "Críquete"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3e773066e8",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "No judô, qual é a punição mais grave, que desclassifica o atleta na hora?",
+    "resposta": "Hansoku-make",
+    "alternativas": [
+      "Ippon",
+      "Shido",
+      "Hansoku-make",
+      "Wazari"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:4fa4d94b6f (E2e mesma resposta rara e algum assunto em comum (30.4, sim 0.4))",
+    "dup": "certa",
+    "dup_ref": "id:4fa4d94b6f",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (30.4, sim 0.4)"
+  },
+  {
+    "id": "5e0e5c2465",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual pirata de \"Peter Pan\" morre de medo de um crocodilo que engoliu um relógio?",
+    "resposta": "Capitão Gancho",
+    "alternativas": [
+      "Capitão Gancho",
+      "Capitão Smollett",
+      "Barba Negra",
+      "Long John Silver"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "universo": "Peter Pan",
+    "dup_regra": null
+  },
+  {
+    "id": "4e6c0410f1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem de \"O Mágico de Oz\" queria ganhar um cérebro?",
+    "resposta": "Espantalho",
+    "alternativas": [
+      "Espantalho",
+      "Homem de Lata",
+      "Leão Covarde",
+      "Totó"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:25ff6e9b24",
+    "recente": false,
+    "universo": "O Mágico de Oz",
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "d5a41a19f6",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantor da era do rádio ficou conhecido como \"O Cantor das Multidões\"?",
+    "resposta": "Orlando Silva",
+    "alternativas": [
+      "Francisco Alves",
+      "Orlando Silva",
+      "Nelson Gonçalves",
+      "Sílvio Caldas"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8cf7eb1518",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual apresentador ficou conhecido como \"Velho Guerreiro\"?",
+    "resposta": "Chacrinha",
+    "alternativas": [
+      "Flávio Cavalcanti",
+      "Chacrinha",
+      "Silvio Santos",
+      "Raul Gil"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3fa00a1c40",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.2)"
+  },
+  {
+    "id": "2599d2a7af",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual funcionário público frustrado narra \"Angústia\", de Graciliano Ramos?",
+    "resposta": "Luís da Silva",
+    "alternativas": [
+      "Paulo Honório",
+      "Policarpo Quaresma",
+      "Fabiano",
+      "Luís da Silva"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f660093d26",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamava a \"carinha\" feita só com sinais de pontuação, como :-)?",
+    "resposta": "Emoticon",
+    "alternativas": [
+      "Sticker",
+      "Emoticon",
+      "GIF",
+      "Emoji"
+    ],
+    "subtema": "Redes sociais e apps",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "31ec332ff0",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o anúncio em forma de faixa retangular exibido no alto ou na lateral de um site?",
+    "resposta": "Banner",
+    "alternativas": [
+      "Cookie",
+      "Pop-up",
+      "Favicon",
+      "Banner"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d4955d823f",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama compartilhar a internet do celular com outros aparelhos, como um roteador?",
+    "resposta": "Roteamento",
+    "alternativas": [
+      "Pareamento",
+      "Backup",
+      "Roteamento",
+      "Espelhamento"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b11ee08ef8",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual profissional consertava solas e saltos na sua pequena oficina de bairro?",
+    "resposta": "Sapateiro",
+    "alternativas": [
+      "Alfaiate",
+      "Funileiro",
+      "Sapateiro",
+      "Relojoeiro"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b250aba2ff",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é o segundo posto mais alto do sumô, logo abaixo do yokozuna?",
+    "resposta": "Ozeki",
+    "alternativas": [
+      "Komusubi",
+      "Sekiwake",
+      "Ozeki",
+      "Maegashira"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:856d4b620f (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "id:856d4b620f",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
   }
 ]

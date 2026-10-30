@@ -1848,6 +1848,51 @@
         "perguntas": 54,
         "total": 115
       }
+    },
+    {
+      "lote": "051",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 105,
+      "validas": 92,
+      "descartadas": 13,
+      "taxa_descarte": 0.12,
+      "caracteres": 15220,
+      "tokens_aprox": 4349,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "fatos-r5-051.txt",
+        "fatos-r5-051b.txt",
+        "fatos-r5-051c.txt",
+        "fatos-r5-051d.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "fatos-r5-051.txt",
+          "fatos-r5-051b.txt",
+          "fatos-r5-051c.txt",
+          "fatos-r5-051d.txt"
+        ],
+        "linhas": 0,
+        "existem": 0,
+        "risco": 0,
+        "tokens_aprox": 2340,
+        "nomes_sondados": 167,
+        "nomes_ausentes": 114,
+        "descarte": 0,
+        "candidatas_por_valida": 0
+      },
+      "perguntas": {
+        "escritas": 105,
+        "validas": 92,
+        "descartadas_detector": 13,
+        "descarte": 0.12,
+        "tokens_aprox": 4349
+      },
+      "tokens_por_valida": {
+        "listas": 25,
+        "perguntas": 47,
+        "total": 73
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -5764,6 +5809,42 @@
       "livres": 37,
       "caracteres": 5097,
       "tokens_aprox": 1456
+    },
+    "fatos-r5-051.txt": {
+      "tipo": "fatos",
+      "linhas": 113,
+      "existem": 38,
+      "risco": 0,
+      "livres": 75,
+      "caracteres": 5267,
+      "tokens_aprox": 1505
+    },
+    "fatos-r5-051b.txt": {
+      "tipo": "fatos",
+      "linhas": 20,
+      "existem": 5,
+      "risco": 0,
+      "livres": 15,
+      "caracteres": 1012,
+      "tokens_aprox": 289
+    },
+    "fatos-r5-051c.txt": {
+      "tipo": "fatos",
+      "linhas": 21,
+      "existem": 10,
+      "risco": 0,
+      "livres": 11,
+      "caracteres": 1465,
+      "tokens_aprox": 419
+    },
+    "fatos-r5-051d.txt": {
+      "tipo": "fatos",
+      "linhas": 13,
+      "existem": 0,
+      "risco": 0,
+      "livres": 13,
+      "caracteres": 446,
+      "tokens_aprox": 127
     }
   },
   "rodada3": {

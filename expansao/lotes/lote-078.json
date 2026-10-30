@@ -553,7 +553,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v8"
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "a7b5bf1934",
@@ -575,7 +576,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "gerador r8: errada \"Transbrasil\" trocada por \"Real Aerovias\" (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v8"
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "2fc31b0529",
@@ -724,7 +726,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v8"
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "29f583e973",
@@ -1091,7 +1094,7 @@
     "id": "e32b72674a",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Qual torneio de seleções do tênis feminino passou a ter, em 2020, o nome de uma lenda americana?",
+    "pergunta": "Qual torneio de seleções do tênis feminino, a antiga Fed Cup, foi rebatizado em 2020 com o nome de uma lenda americana?",
     "resposta": "Billie Jean King Cup",
     "alternativas": [
       "Hopman Cup",
@@ -1106,8 +1109,9 @@
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Laver Cup\" trocada por \"United Cup\" (era resposta de outra pergunta); gerador r8: errada \"Copa Davis\" trocada por \"Wightman Cup\" (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v8"
+    "correcao": "gerador r8: errada \"Laver Cup\" trocada por \"United Cup\" (era resposta de outra pergunta); gerador r8: errada \"Copa Davis\" trocada por \"Wightman Cup\" (era resposta de outra pergunta) | conferente-v8: a troca de nome foi anunciada em setembro de 2020 e o nome novo só valeu a partir de 2021; 'passou a ter, em 2020' trocado por 'foi rebatizado em 2020' (checagem web)",
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "e1312e2709",
@@ -2346,7 +2350,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v8"
+    "conferido_por": "conferente-v8",
+    "verificado_web": true
   },
   {
     "id": "0ac8e689f0",

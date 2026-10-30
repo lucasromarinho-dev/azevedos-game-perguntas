@@ -11358,6 +11358,44 @@
             "e7c228e79b"
           ]
         }
+      },
+      "checagem_web_complementar": {
+        "data": "30/10/2026",
+        "alvo": "risco_sem_verificado_web (306 ids)",
+        "buscas_web": 140,
+        "obs_buscas": "122 WebSearch e 18 leituras diretas da Wikipédia (12 delas pela API, com os resumos de até 20 verbetes por leitura: romances, pontes, novelas, operações da Segunda Guerra, conceitos de matemática e programação); perguntas agrupadas por tema. Cota de cerca de 200 não foi atingida",
+        "confirmadas_sem_mudanca": 295,
+        "corrigidas": 11,
+        "rebaixadas": 0,
+        "descartadas": 0,
+        "sem_checar": 0,
+        "ids_sem_checar": {},
+        "corrigidas_detalhe": {
+          "616cebe072": "enunciado ajustado",
+          "ee7b802f75": "\"estourou em 2004\" virou \"lançou em 2004\"",
+          "ec18ed95e7": "enunciado refeito",
+          "1c33ac734b": "\"estourou em 2017\" virou \"no verão de 2018\"",
+          "ae80401984": "\"em 2003\" virou \"no começo dos anos 2000\"",
+          "4edbe798d8": "\"ala\" virou \"jogador\"",
+          "ff84db0ec8": "conferida com checa-resposta.mjs e alternativas-cruzadas.mjs)",
+          "491b93185b": "enunciado refeito com esses fatos",
+          "ee15fbccb6": "enunciado ajustado",
+          "fd9bef2261": "enunciado refeito",
+          "e287937f0e": "enunciado ajustado"
+        },
+        "por_lote": {
+          "076": "25/0/0",
+          "077": "33/0/0",
+          "078": "34/3/0",
+          "079": "31/0/0",
+          "080": "29/2/0",
+          "081": "30/1/0",
+          "082": "35/1/0",
+          "083": "26/1/0",
+          "084": "23/0/0",
+          "085": "29/3/0"
+        },
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha com \"(checagem web complementar r8)\". A troca de errada no mocambo (Palafita por Palacete) passou pelo checa-resposta.mjs --lote e pelo alternativas-cruzadas.mjs sem criar cruzamento novo; Sobrado foi evitado por ser resposta de 082:b12fc901f5. O enunciado do Dulcídio evita \"Federação\" (resposta de 066:2ed388b819)"
       }
     }
   },

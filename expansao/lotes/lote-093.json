@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "381653af85",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade alemã, sede da Mercedes-Benz e da Porsche, é a capital de Baden-Württemberg?",
+    "resposta": "Stuttgart",
+    "alternativas": [
+      "Heidelberg",
+      "Mannheim",
+      "Karlsruhe",
+      "Stuttgart"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cec92bd865",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade às margens do Reno é a capital do estado alemão mais populoso, a Renânia do Norte-Vestfália?",
+    "resposta": "Düsseldorf",
+    "alternativas": [
+      "Düsseldorf",
+      "Duisburg",
+      "Essen",
+      "Dortmund"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "74f7323e59",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual é a capital da Sardenha, a ilha italiana?",
+    "resposta": "Cagliari",
+    "alternativas": [
+      "Cagliari",
+      "Sassari",
+      "Olbia",
+      "Alghero"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1215059d19",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade é a capital da região espanhola de Castela e Leão?",
+    "resposta": "Valladolid",
+    "alternativas": [
+      "Burgos",
+      "Valladolid",
+      "Segóvia",
+      "Salamanca"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3934e3e4e0",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade é a capital do Principado das Astúrias, no norte da Espanha?",
+    "resposta": "Oviedo",
+    "alternativas": [
+      "Oviedo",
+      "Santander",
+      "Avilés",
+      "Gijón"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9ab83cdcbd",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamou a união aduaneira dos estados alemães, criada em 1834, que preparou a unificação?",
+    "resposta": "Zollverein",
+    "alternativas": [
+      "Zollverein",
+      "Hansa",
+      "Bundesrat",
+      "Landtag"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Reichstag\" trocada por \"Landtag\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "f80cea9578",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como ficou conhecida a disputa de Bismarck contra a Igreja Católica nos anos 1870?",
+    "resposta": "Kulturkampf",
+    "alternativas": [
+      "Realpolitik",
+      "Kulturkampf",
+      "Sturm und Drang",
+      "Lebensraum"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "04c5d27947",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o grupo de mamíferos que bota ovos, como o ornitorrinco e a equidna?",
+    "resposta": "Monotremados",
+    "alternativas": [
+      "Placentários",
+      "Monotremados",
+      "Marsupiais",
+      "Desdentados"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:1797 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "banco:1797",
+    "recente": false,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 21.7)"
+  },
+  {
+    "id": "78c44303a1",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "A qual grupo de moluscos pertencem os polvos, as lulas e os náutilos?",
+    "resposta": "Cefalópodes",
+    "alternativas": [
+      "Gastrópodes",
+      "Bivalves",
+      "Escafópodes",
+      "Cefalópodes"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "29b9a23553",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "A qual grupo pertencem as esponjas-do-mar, animais sem tecidos verdadeiros?",
+    "resposta": "Poríferos",
+    "alternativas": [
+      "Cnidários",
+      "Poríferos",
+      "Equinodermos",
+      "Briozoários"
+    ],
+    "subtema": "Animais",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:5282 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "banco:5282",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (17.2)"
+  },
+  {
+    "id": "c992b723ba",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual baiana foi a primeira mulher do Brasil a ganhar medalha olímpica no boxe, um bronze em Londres 2012?",
+    "resposta": "Adriana Araújo",
+    "alternativas": [
+      "Beatriz Ferreira",
+      "Roseli Feitosa",
+      "Viviane Obenauf",
+      "Adriana Araújo"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bc45d0858e",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual boxeador capixaba ganhou a prata nos Jogos de Londres 2012, na categoria até 75 kg?",
+    "resposta": "Esquiva Falcão",
+    "alternativas": [
+      "Yamaguchi Falcão",
+      "Esquiva Falcão",
+      "Everton Lopes",
+      "Juan Nogueira"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Robson Conceição\" trocada por \"Juan Nogueira\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "e0e7f7e182",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cavaleiro carioca, pai do brasileiro campeão olímpico de 2004, foi uma lenda do hipismo europeu?",
+    "resposta": "Nelson Pessoa",
+    "alternativas": [
+      "André Johannpeter",
+      "Nelson Pessoa",
+      "Álvaro Affonso de Miranda",
+      "Vitor Teixeira"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual cavaleiro carioca, pai de Rodrigo Pessoa, foi uma lenda do hipismo europeu?\")",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5397)"
+  },
+  {
+    "id": "f115d33065",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual era o nome do cavalo que levou o hipismo brasileiro ao ouro olímpico em Atenas?",
+    "resposta": "Baloubet du Rouet",
+    "alternativas": [
+      "Baloubet du Rouet",
+      "Waterford Crystal",
+      "Gem Twist",
+      "Ratina Z"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual era o nome do cavalo de Rodrigo Pessoa no ouro olímpico de 2004?\")",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5397)"
+  },
+  {
+    "id": "13ff20000b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cavaleiro paulista, de apelido Doda, ganhou medalhas olímpicas por equipes no hipismo?",
+    "resposta": "Doda Miranda",
+    "alternativas": [
+      "Doda Miranda",
+      "Luiz Felipe de Azevedo",
+      "Bernardo Alves",
+      "Rodrigo Pessoa Jr."
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "663e06417a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo feminino sul-coreano estourou em 2009 com \"Gee\"?",
+    "resposta": "Girls' Generation",
+    "alternativas": [
+      "Wonder Girls",
+      "Girls' Generation",
+      "Kara",
+      "2NE1"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6270",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "4b469c8846",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo feminino de K-pop, de 2022, fez sucesso com \"Hype Boy\" e \"Super Shy\"?",
+    "resposta": "NewJeans",
+    "alternativas": [
+      "NewJeans",
+      "aespa",
+      "LE SSERAFIM",
+      "IVE"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "335fd3e6ff",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo masculino de K-pop, da JYP, tem o hit \"God's Menu\"?",
+    "resposta": "Stray Kids",
+    "alternativas": [
+      "Stray Kids",
+      "ENHYPEN",
+      "ATEEZ",
+      "TXT"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e4dd4c6d6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo feminino de K-pop, da JYP, ficou famoso com \"TT\" e \"Cheer Up\"?",
+    "resposta": "TWICE",
+    "alternativas": [
+      "TWICE",
+      "GFriend",
+      "Mamamoo",
+      "Red Velvet"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d6cb72d74b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual grupo masculino de K-pop, da SM, lançou \"Growl\" e \"Love Shot\"?",
+    "resposta": "EXO",
+    "alternativas": [
+      "Super Junior",
+      "SHINee",
+      "NCT 127",
+      "EXO"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e585c11733",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual filme de 2014, com Angelina Jolie, conta a história de uma vilã de chifres dos desenhos da Disney?",
+    "resposta": "Malévola",
+    "alternativas": [
+      "Feiticeira",
+      "A Fada Sombria",
+      "Rainha Má",
+      "Malévola"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6746",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (14.3)",
+    "correcao": "enunciado reescrito na geração (antes: \"Qual filme de 2014, com Angelina Jolie, conta a história da vilã de \"A Bela Adormecida\"?\")",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6746)"
+  },
+  {
+    "id": "082447862a",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual filme de 2021, com Emma Stone, conta a juventude da vilã de \"101 Dálmatas\"?",
+    "resposta": "Cruella",
+    "alternativas": [
+      "Jasper e Horácio",
+      "Madame Medusa",
+      "Cruella",
+      "Pongo"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "mesmo fato que banco:5309 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "banco:5309",
+    "recente": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (29.9, 55% do fato)"
+  },
+  {
+    "id": "e1f723d3df",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual live-action da Disney, de 2017, tem Emma Watson no papel de Bela?",
+    "resposta": "A Bela e a Fera",
+    "alternativas": [
+      "Mulan",
+      "Encantada",
+      "Cinderela",
+      "A Bela e a Fera"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "98bf16dd42",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual live-action da Disney, de 2019, tem Will Smith como o gênio azul?",
+    "resposta": "Aladdin",
+    "alternativas": [
+      "O Rei Leão",
+      "Aladdin",
+      "Dumbo",
+      "Mogli"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5780",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "2e75a83327",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual live-action da Disney, de 2023, tem Halle Bailey como Ariel?",
+    "resposta": "A Pequena Sereia",
+    "alternativas": [
+      "Moana",
+      "Elementos",
+      "Mulan",
+      "A Pequena Sereia"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3271",
+    "recente": true,
+    "dup_regra": "resposta nova citada no texto antigo (8.9)",
+    "correcao": "errada \"Encanto\" trocada por \"Elementos\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "97d2515f6d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual live-action da Disney, de 2025, tem Rachel Zegler como protagonista e Gal Gadot como a Rainha Má?",
+    "resposta": "Branca de Neve",
+    "alternativas": [
+      "Cinderela",
+      "Bela Adormecida",
+      "Rapunzel",
+      "Branca de Neve"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "105f6ceee3",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tipo de lente de celular usa um prisma para \"deitar\" o conjunto óptico e aproximar mais a imagem?",
+    "resposta": "Zoom periscópio",
+    "alternativas": [
+      "Lente macro",
+      "Lente anamórfica",
+      "Lente olho de peixe",
+      "Zoom periscópio"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Grande-angular\" trocada por \"Lente anamórfica\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "1e282bc664",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho, muito comum no Brasil e raro em outros países, aquece a água na hora do banho com uma resistência?",
+    "resposta": "Chuveiro elétrico",
+    "alternativas": [
+      "Termossifão",
+      "Boiler",
+      "Chuveiro elétrico",
+      "Aquecedor solar"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "84ba7f9671",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual eletrodoméstico tosta fatias de pão e as faz saltar quando ficam prontas?",
+    "resposta": "Torradeira",
+    "alternativas": [
+      "Grill",
+      "Chaleira elétrica",
+      "Torradeira",
+      "Forno elétrico"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Sanduicheira\" trocada por \"Chaleira elétrica\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "ac2ba67a59",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho elétrico, de chapa quente, alisa as roupas?",
+    "resposta": "Ferro de passar",
+    "alternativas": [
+      "Prensa de botões",
+      "Vaporizador de cortinas",
+      "Ferro de passar",
+      "Calandra"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8f5798f0c3",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual aparelho sopra ar quente para secar o cabelo depois do banho?",
+    "resposta": "Secador de cabelo",
+    "alternativas": [
+      "Secador de cabelo",
+      "Escova rotativa",
+      "Chapinha",
+      "Babyliss"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52e71129cf",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade suíça tem uma famosa ponte de madeira coberta, a Kapellbrücke, sobre o Rio Reuss?",
+    "resposta": "Lucerna",
+    "alternativas": [
+      "Lausanne",
+      "Lucerna",
+      "Lugano",
+      "Friburgo"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Berna\" trocada por \"Lugano\" na geração (era resposta de outra pergunta); errada \"Zurique\" trocada por \"Friburgo\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "c9b4d32e88",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual vila suíça, sem carros a combustão, fica aos pés do Matterhorn?",
+    "resposta": "Zermatt",
+    "alternativas": [
+      "Grindelwald",
+      "Interlaken",
+      "Zermatt",
+      "St. Moritz"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e1fac993c2",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade dos Alpes suíços recebe todo ano o Fórum Econômico Mundial?",
+    "resposta": "Davos",
+    "alternativas": [
+      "Lugano",
+      "Gstaad",
+      "Montreux",
+      "Davos"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fe0e33b596",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade austríaca recebeu os Jogos Olímpicos de Inverno de 1964 e de 1976?",
+    "resposta": "Innsbruck",
+    "alternativas": [
+      "Graz",
+      "Innsbruck",
+      "Kitzbühel",
+      "Salzburgo"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bc3646d5b4",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade holandesa é famosa pela cerâmica azul e branca e é a terra de Vermeer?",
+    "resposta": "Delft",
+    "alternativas": [
+      "Haarlem",
+      "Delft",
+      "Gouda",
+      "Leiden"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea1509aeea",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamou a rede de rádios montada por Brizola em 1961 para garantir a posse de Jango?",
+    "resposta": "Cadeia da Legalidade",
+    "alternativas": [
+      "Rede da Liberdade",
+      "Frente Radiofônica",
+      "Cadeia da Legalidade",
+      "Voz do Sul"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "11f8919560",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual senador alagoano, chamado de \"menestrel das Alagoas\", percorreu o país pela redemocratização?",
+    "resposta": "Teotônio Vilela",
+    "alternativas": [
+      "Franco Montoro",
+      "Teotônio Vilela",
+      "Pedro Simon",
+      "Mário Covas"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Tancredo Neves\" trocada por \"Pedro Simon\" na geração (era resposta de outra pergunta); errada \"Ulysses Guimarães\" trocada por \"Mário Covas\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "3215e5fa02",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual químico americano ganhou dois Prêmios Nobel sozinho, o de Química e o da Paz?",
+    "resposta": "Linus Pauling",
+    "alternativas": [
+      "Glenn Seaborg",
+      "Frederick Sanger",
+      "Linus Pauling",
+      "Robert Millikan"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "322724c482",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual químico alemão criou a síntese da amônia usada em fertilizantes e também armas químicas?",
+    "resposta": "Fritz Haber",
+    "alternativas": [
+      "Fritz Haber",
+      "Walther Nernst",
+      "Carl Bosch",
+      "Otto Hahn"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3d2720f0b6",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual cientista inglês isolou o oxigênio em 1774, chamando-o de \"ar desflogisticado\"?",
+    "resposta": "Joseph Priestley",
+    "alternativas": [
+      "Joseph Priestley",
+      "Humphry Davy",
+      "Stephen Hales",
+      "Joseph Black"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"John Dalton\" trocada por \"Stephen Hales\" na geração (era resposta de outra pergunta); errada \"Henry Cavendish\" trocada por \"Joseph Black\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "142af295dc",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual astrônomo americano descobriu Plutão, em 1930?",
+    "resposta": "Clyde Tombaugh",
+    "alternativas": [
+      "Vesto Slipher",
+      "Clyde Tombaugh",
+      "Percival Lowell",
+      "Gerard Kuiper"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Edwin Hubble\" trocada por \"Vesto Slipher\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "0f1a3ca832",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual astrônoma americana deu provas da matéria escura estudando a rotação das galáxias?",
+    "resposta": "Vera Rubin",
+    "alternativas": [
+      "Vera Rubin",
+      "Nancy Roman",
+      "Cecilia Payne",
+      "Annie Jump Cannon"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ddfae2dd2d",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual astrônoma americana descobriu a relação das estrelas cefeidas que permitiu medir distâncias no universo?",
+    "resposta": "Henrietta Leavitt",
+    "alternativas": [
+      "Williamina Fleming",
+      "Henrietta Leavitt",
+      "Maria Mitchell",
+      "Antonia Maury"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ddf8b5976c",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual astrônoma norte-irlandesa descobriu os pulsares, em 1967?",
+    "resposta": "Jocelyn Bell Burnell",
+    "alternativas": [
+      "Beatrice Tinsley",
+      "Margaret Burbidge",
+      "Caroline Herschel",
+      "Jocelyn Bell Burnell"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb58861057",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tenista americana ganhou Roland Garros sete vezes nos anos 1970 e 1980?",
+    "resposta": "Chris Evert",
+    "alternativas": [
+      "Chris Evert",
+      "Tracy Austin",
+      "Billie Jean King",
+      "Pam Shriver"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "415e5626a6",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual tenista suíça virou número um do mundo aos 16 anos, em 1997?",
+    "resposta": "Martina Hingis",
+    "alternativas": [
+      "Belinda Bencic",
+      "Timea Bacsinszky",
+      "Martina Hingis",
+      "Patty Schnyder"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2b8b48b29d",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual tenista americana ganhou o US Open de 2023, aos 19 anos?",
+    "resposta": "Coco Gauff",
+    "alternativas": [
+      "Sloane Stephens",
+      "Madison Keys",
+      "Coco Gauff",
+      "Jessica Pegula"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "fef2dd3e88",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual chileno foi o primeiro latino-americano a chegar ao número um do ranking masculino de tênis, em 1998?",
+    "resposta": "Marcelo Ríos",
+    "alternativas": [
+      "Fernando González",
+      "Nicolás Massú",
+      "Marcelo Ríos",
+      "Guillermo Vilas"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2802b519b1",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogadora quebrou recordes no basquete universitário e virou sensação da WNBA em 2024?",
+    "resposta": "Caitlin Clark",
+    "alternativas": [
+      "A'ja Wilson",
+      "Caitlin Clark",
+      "Angel Reese",
+      "Breanna Stewart"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "67d3c6a85f",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual atriz de Hitchcock largou o cinema para se casar com o príncipe de Mônaco?",
+    "resposta": "Grace Kelly",
+    "alternativas": [
+      "Grace Kelly",
+      "Kim Novak",
+      "Tippi Hedren",
+      "Janet Leigh"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9480bca302",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz de olhos violeta viveu Cleópatra no filme de 1963?",
+    "resposta": "Elizabeth Taylor",
+    "alternativas": [
+      "Ava Gardner",
+      "Vivien Leigh",
+      "Sophia Loren",
+      "Elizabeth Taylor"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8728",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "b8a5e0da2e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz sueca viveu Ilsa em \"Casablanca\", ao lado de Humphrey Bogart?",
+    "resposta": "Ingrid Bergman",
+    "alternativas": [
+      "Greta Garbo",
+      "Liv Ullmann",
+      "Ingrid Bergman",
+      "Lauren Bacall"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3705248e9c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator viveu Rhett Butler em \"E o Vento Levou\"?",
+    "resposta": "Clark Gable",
+    "alternativas": [
+      "Gary Cooper",
+      "Errol Flynn",
+      "Clark Gable",
+      "Cary Grant"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b98a32e65e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator viveu Ben-Hur e Moisés em \"Os Dez Mandamentos\"?",
+    "resposta": "Charlton Heston",
+    "alternativas": [
+      "Yul Brynner",
+      "Burt Lancaster",
+      "Charlton Heston",
+      "Kirk Douglas"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "17358e8996",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dançarino formou com Ginger Rogers a dupla mais famosa dos musicais dos anos 1930?",
+    "resposta": "Fred Astaire",
+    "alternativas": [
+      "Donald O'Connor",
+      "Fred Astaire",
+      "Gene Kelly",
+      "Ray Bolger"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Bing Crosby\" trocada por \"Ray Bolger\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "707004a239",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual inventor americano criou o primeiro sistema de televisão totalmente eletrônico, nos anos 1920?",
+    "resposta": "Philo Farnsworth",
+    "alternativas": [
+      "Allen DuMont",
+      "David Sarnoff",
+      "Philo Farnsworth",
+      "Vladimir Zworykin"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "baceb3eea1",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual inventor escocês fez a primeira demonstração pública de televisão, mecânica, em 1926?",
+    "resposta": "John Logie Baird",
+    "alternativas": [
+      "Paul Nipkow",
+      "Alexander Bain",
+      "John Logie Baird",
+      "Charles Jenkins"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5c511bfbac",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual engenheiro americano inventou o rádio FM, com menos chiado?",
+    "resposta": "Edwin Armstrong",
+    "alternativas": [
+      "Reginald Fessenden",
+      "Ernst Alexanderson",
+      "Harold Beverage",
+      "Edwin Armstrong"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "715243a779",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual inventor americano criou a válvula triodo, chamada de Audion, base do rádio eletrônico?",
+    "resposta": "Lee de Forest",
+    "alternativas": [
+      "Harold Arnold",
+      "John Fleming",
+      "Irving Langmuir",
+      "Lee de Forest"
+    ],
+    "subtema": "História da computação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

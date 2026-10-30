@@ -12,14 +12,15 @@
       "Peru"
     ],
     "subtema": "Países da América do Sul",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:596",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:596)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:596)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "58d98ecf5b",
@@ -34,13 +35,14 @@
       "Espírito Santo"
     ],
     "subtema": "Regiões do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "330f826cf9",
@@ -55,14 +57,15 @@
       "Lisboa"
     ],
     "subtema": "Capitais do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (0.0, sim 0.3)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:9)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:9)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "0f1479a5f1",
@@ -77,14 +80,16 @@
       "Rio Uruguai"
     ],
     "subtema": "Rios",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:af0b6d4f0c",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:af0b6d4f0c)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:af0b6d4f0c)",
+    "verificado_web_conferente": "wiki-pt: Rio Orinoco",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "33b048ca33",
@@ -99,13 +104,14 @@
       "Calígula"
     ],
     "subtema": "Roma Antiga",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "c6f56c6f3e",
@@ -120,13 +126,15 @@
       "Rui Barbosa"
     ],
     "subtema": "Presidentes do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Ruy Barbosa",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "5262727fa0",
@@ -141,13 +149,14 @@
       "Reino Unido"
     ],
     "subtema": "Segunda Guerra",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "c9c2d8f42b",
@@ -162,14 +171,15 @@
       "Golfinho"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3923",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.2)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3923)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3923)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "55754312d8",
@@ -184,13 +194,15 @@
       "Júpiter"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-en: Rings of Jupiter; wiki-en: Rings of Uranus",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "ac481a04c4",
@@ -205,14 +217,16 @@
       "Hélio"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1928",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1928)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1928)",
+    "verificado_web_conferente": "wiki-pt: Gás nobre",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "e9a4839702",
@@ -227,14 +241,15 @@
       "Miocárdio"
     ],
     "subtema": "Corpo humano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1621",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1621)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1621)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a9d8d3d29b",
@@ -249,14 +264,16 @@
       "Guarani"
     ],
     "subtema": "Clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8237",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:8237)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:8237)",
+    "verificado_web_conferente": "wiki-pt: Avaí Futebol Clube",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "03c5f60ca7",
@@ -271,14 +288,15 @@
       "Polo aquático"
     ],
     "subtema": "Esportes em geral",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2476",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:2476)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:2476)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "ae240601df",
@@ -293,13 +311,15 @@
       "Inglaterra"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Seleção Neerlandesa de Futebol",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "eb0f8b3d39",
@@ -314,7 +334,7 @@
       "Cebolinha"
     ],
     "subtema": "Quadrinhos brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4605",
@@ -325,7 +345,8 @@
     "grupo_com": [
       "banco:4530"
     ],
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4605)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4605)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "92857e416f",
@@ -340,14 +361,15 @@
       "George Harrison"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3282",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3282)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3282)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "f6de29f549",
@@ -362,7 +384,7 @@
       "Ratatouille"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -372,7 +394,8 @@
     "grupo": "pixar",
     "grupo_com": [
       "banco:3268"
-    ]
+    ],
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "92e724adf3",
@@ -387,14 +410,15 @@
       "Firefox"
     ],
     "subtema": "Internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3872",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "E2 mesma resposta e mesmo assunto (7.6, 42% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3872)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3872)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "84830ec572",
@@ -409,14 +433,15 @@
       "Microsoft"
     ],
     "subtema": "Empresas de tecnologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4419",
     "recente": false,
     "formato": "nao-e",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.2)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4419)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4419)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "6ff5d6e585",
@@ -431,13 +456,14 @@
       "Android"
     ],
     "subtema": "Sistemas operacionais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "e9f5b0ece2",
@@ -452,14 +478,16 @@
       "Cinco"
     ],
     "subtema": "Regiões do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Região Sul do Brasil",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "d0b48aaa04",
@@ -474,14 +502,16 @@
       "14"
     ],
     "subtema": "Países da América do Sul",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: América do Sul",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "4c3eee95eb",
@@ -496,14 +526,16 @@
       "81"
     ],
     "subtema": "Xadrez",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Tabuleiro (xadrez)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "f3ac6c7c02",
@@ -518,7 +550,7 @@
       "14"
     ],
     "subtema": "Xadrez",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8502",
@@ -526,7 +558,9 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.6)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:8502)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:8502)",
+    "verificado_web_conferente": "wiki-pt: Xadrez",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "5d6b5781dd",
@@ -541,7 +575,7 @@
       "Seis"
     ],
     "subtema": "Basquete",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4701",
@@ -549,7 +583,9 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (11.1, 39% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4701)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4701)",
+    "verificado_web_conferente": "wiki-pt: Basquetebol",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "fd8c553929",
@@ -564,14 +600,16 @@
       "Cinco"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Seleção Alemã de Futebol",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "9a7d4159fb",
@@ -586,14 +624,16 @@
       "96"
     ],
     "subtema": "Música",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Piano",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "f59240a4e9",
@@ -608,14 +648,16 @@
       "54"
     ],
     "subtema": "Jogos de cartas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Baralho",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "fa6b132ea3",
@@ -630,14 +672,16 @@
       "Anos 2000"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-en: The Simpsons",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "6ecd315a0a",
@@ -652,7 +696,7 @@
       "Anos 1990"
     ],
     "subtema": "Cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -663,7 +707,9 @@
     "dup_regra": null,
     "grupo_com": [
       "lote-106:ee3e843918"
-    ]
+    ],
+    "verificado_web_conferente": "wiki-en: Star Wars (film)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "4e81689e4e",
@@ -678,7 +724,7 @@
       "Anos 1930"
     ],
     "subtema": "Modernismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6079",
@@ -690,7 +736,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "resposta nova citada no texto antigo (6.9)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:6079)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:6079)",
+    "verificado_web_conferente": "wiki-pt: Semana de Arte Moderna",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a490d8d018",
@@ -705,14 +753,16 @@
       "49 anos"
     ],
     "subtema": "Império do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Império do Brasil",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "01b9ec2baf",
@@ -727,14 +777,16 @@
       "116 anos"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Guerra dos Cem Anos",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "ba07bd5d49",
@@ -749,14 +801,16 @@
       "Anos 1980"
     ],
     "subtema": "Celulares",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "numero",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-en: IPhone (1st generation)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a9109c28ec",
@@ -771,7 +825,7 @@
       "Anos 1990"
     ],
     "subtema": "Empresas de tecnologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6ecd315a0a",
@@ -779,7 +833,14 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 32% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:6ecd315a0a)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:6ecd315a0a)",
+    "grupo": "jobs-e-gates",
+    "grupo_com": [
+      "lote-106:a68e28bb94"
+    ],
+    "verificado_web_conferente": "wiki-en: Apple Inc.",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo jobs-e-gates; grupo_com + lote-106:a68e28bb94"
   },
   {
     "id": "6327244143",
@@ -794,7 +855,7 @@
       "Anos 1990"
     ],
     "subtema": "Games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:fa6b132ea3",
@@ -802,7 +863,9 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 29% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:fa6b132ea3)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:fa6b132ea3)",
+    "verificado_web_conferente": "wiki-en: Pac-Man",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "0265ab2950",
@@ -817,7 +880,7 @@
       "Uma"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5187",
@@ -825,7 +888,9 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:5187)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:5187)",
+    "verificado_web_conferente": "wiki-pt: Marte (planeta)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "4df1263528",
@@ -840,7 +905,7 @@
       "51"
     ],
     "subtema": "Estados Unidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:48",
@@ -848,7 +913,9 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:48)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:48)",
+    "verificado_web_conferente": "wiki-en: U.S. state",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "1c02708085",
@@ -863,7 +930,7 @@
       "Marco Antônio"
     ],
     "subtema": "Roma Antiga",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -882,7 +949,9 @@
       "banco:11039",
       "lote-108:7e56895364",
       "lote-109:c6fe4a8282"
-    ]
+    ],
+    "verificado_web_conferente": "wiki-pt: Veni, vidi, vici; pt.wikiquote: Júlio César",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "7b98e1fa79",
@@ -897,7 +966,7 @@
       "Platão"
     ],
     "subtema": "Filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:822",
@@ -919,7 +988,9 @@
       "banco:12247",
       "lote-110:880d196fb1"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"socrates\" (ref. banco:822)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"socrates\" (ref. banco:822)",
+    "verificado_web_conferente": "wiki-pt: Só sei que nada sei; pt.wikiquote: Sócrates",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "eff83d6cb3",
@@ -934,7 +1005,7 @@
       "Dwight Eisenhower"
     ],
     "subtema": "Estados Unidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f75187fb3c",
@@ -948,7 +1019,9 @@
       "banco:1255",
       "banco:1329"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"kennedy\" (ref. id:f75187fb3c)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"kennedy\" (ref. id:f75187fb3c)",
+    "verificado_web_conferente": "wiki-en: Inauguration of John F. Kennedy; en.wikiquote: John F. Kennedy",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "b5ff20e6a7",
@@ -963,7 +1036,7 @@
       "Anthony Eden"
     ],
     "subtema": "Segunda Guerra",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5150",
@@ -975,7 +1048,9 @@
     "grupo_com": [
       "banco:5150"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"churchill\" (ref. banco:5150)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"churchill\" (ref. banco:5150)",
+    "verificado_web_conferente": "wiki-en: Blood, toil, tears and sweat; en.wikiquote: Winston Churchill",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "fe7d6c4a69",
@@ -990,7 +1065,7 @@
       "Richard Nixon"
     ],
     "subtema": "Guerra Fria",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1229",
@@ -1003,7 +1078,9 @@
       "banco:1229",
       "banco:8213"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"reagan\" (ref. banco:1229)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"reagan\" (ref. banco:1229)",
+    "verificado_web_conferente": "wiki-en: Tear down this wall!; en.wikiquote: Ronald Reagan",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a1516f4547",
@@ -1018,7 +1095,7 @@
       "Johannes Kepler"
     ],
     "subtema": "Física",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1924",
@@ -1031,7 +1108,9 @@
       "banco:1924",
       "lote-108:91a85a5fb0"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"newton\" (ref. banco:1924)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"newton\" (ref. banco:1924)",
+    "verificado_web_conferente": "wiki-en: Standing on the shoulders of giants; en.wikiquote: Isaac Newton",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "7a28f11218",
@@ -1046,7 +1125,7 @@
       "Max Planck"
     ],
     "subtema": "Física",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:19f8bdbe87",
@@ -1061,7 +1140,9 @@
       "banco:10390",
       "lote-109:c6ca453b41"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"einstein\" (ref. id:19f8bdbe87)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"einstein\" (ref. id:19f8bdbe87)",
+    "verificado_web_conferente": "wiki-en: Bohr–Einstein debates; en.wikiquote: Albert Einstein",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "2c474bf9da",
@@ -1076,7 +1157,7 @@
       "Tales de Mileto"
     ],
     "subtema": "Matemática",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1677",
@@ -1089,7 +1170,9 @@
       "banco:1677",
       "banco:5007"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"arquimedes\" (ref. banco:1677)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"arquimedes\" (ref. banco:1677)",
+    "verificado_web_conferente": "wiki-en: Archimedes; en.wikiquote: Archimedes",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "1a6ae165ba",
@@ -1104,7 +1187,7 @@
       "Felipão"
     ],
     "subtema": "Futebol",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2815",
@@ -1116,7 +1199,9 @@
     "grupo_com": [
       "banco:2815"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zagallo\" (ref. banco:2815)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zagallo\" (ref. banco:2815)",
+    "verificado_web_conferente": "web: Jovem Pan/Itatiaia (Copa América 1997); wiki-pt: Zagallo",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "ee3e843918",
@@ -1131,7 +1216,7 @@
       "Duna"
     ],
     "subtema": "Cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3589",
@@ -1151,7 +1236,9 @@
       "banco:11085",
       "banco:13594"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"star-wars\" (ref. banco:3589)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"star-wars\" (ref. banco:3589)",
+    "verificado_web_conferente": "wiki-en: The Force",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "67b895d6b4",
@@ -1166,7 +1253,7 @@
       "Jeff Bezos"
     ],
     "subtema": "Redes sociais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4332",
@@ -1180,7 +1267,9 @@
       "banco:6875",
       "lote-107:4359c03d0a"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zuckerberg\" (ref. banco:4332)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zuckerberg\" (ref. banco:4332)",
+    "verificado_web_conferente": "wiki-en: Move fast and break things; en.wikiquote: Mark Zuckerberg",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "c3c2398687",
@@ -1195,14 +1284,16 @@
       "Ray Bradbury"
     ],
     "subtema": "Ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "quem-disse",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-en: Clarke's three laws; en.wikiquote: Arthur C. Clarke",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a428851245",
@@ -1217,14 +1308,16 @@
       "Instagram"
     ],
     "subtema": "Internet",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "qual-primeiro",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-en: Google; wiki-en: Facebook",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "0ffd20f199",
@@ -1239,7 +1332,7 @@
       "Computador pessoal"
     ],
     "subtema": "Invenções",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1642",
@@ -1247,7 +1340,9 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "resposta nova citada no texto antigo (6.8)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1642)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1642)",
+    "verificado_web_conferente": "wiki-pt: Telefone; wiki-en: History of television",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "22dc22b881",
@@ -1262,14 +1357,24 @@
       "Abolição da escravatura no Brasil"
     ],
     "subtema": "História geral",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "qual-primeiro",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "grupo": "acontecimentos-primeiro",
+    "grupo_com": [
+      "lote-106:41d42a7c7f",
+      "lote-107:f323f48201",
+      "lote-108:2806dd7ccc",
+      "lote-109:7c432bcffb"
+    ],
+    "verificado_web_conferente": "wiki-pt: Revolução Francesa; wiki-pt: Independência do Brasil",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo acontecimentos-primeiro; grupo_com + lote-106:41d42a7c7f, lote-107:f323f48201, lote-108:2806dd7ccc, lote-109:7c432bcffb"
   },
   {
     "id": "41d42a7c7f",
@@ -1284,7 +1389,7 @@
       "Chegada de Cabral ao Brasil"
     ],
     "subtema": "História geral",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:22dc22b881",
@@ -1292,7 +1397,14 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:22dc22b881)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:22dc22b881)",
+    "grupo": "acontecimentos-primeiro",
+    "grupo_com": [
+      "lote-106:22dc22b881"
+    ],
+    "verificado_web_conferente": "wiki-pt: Queda de Constantinopla; wiki-pt: Descoberta do Brasil",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo acontecimentos-primeiro; grupo_com + lote-106:22dc22b881"
   },
   {
     "id": "ddeca23cbf",
@@ -1307,7 +1419,7 @@
       "Charles Darwin"
     ],
     "subtema": "Cientistas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1698",
@@ -1315,7 +1427,15 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1698)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1698)",
+    "grupo": "copernico",
+    "grupo_com": [
+      "lote-110:0e09861c27",
+      "lote-109:a6c17fb945"
+    ],
+    "verificado_web_conferente": "wiki-pt: Galileu Galilei; wiki-pt: Isaac Newton",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo copernico; grupo_com + lote-110:0e09861c27, lote-109:a6c17fb945"
   },
   {
     "id": "69f5600cd1",
@@ -1330,7 +1450,7 @@
       "Vacina contra a pólio"
     ],
     "subtema": "Medicina",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1658",
@@ -1338,7 +1458,9 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1658)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1658)",
+    "verificado_web_conferente": "wiki-pt: Penicilina; wiki-pt: Ácido desoxirribonucleico",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "34e524f4ce",
@@ -1353,14 +1475,16 @@
       "Brasília"
     ],
     "subtema": "Cidades brasileiras",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "qual-primeiro",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Salvador; wiki-pt: Rio de Janeiro",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "00e2137ae1",
@@ -1375,7 +1499,7 @@
       "Brasil"
     ],
     "subtema": "Independências",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:5262727fa0",
@@ -1383,7 +1507,14 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (7.6, 40% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:5262727fa0)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:5262727fa0)",
+    "grupo": "haiti",
+    "grupo_com": [
+      "lote-108:cd51a172e7"
+    ],
+    "verificado_web_conferente": "wiki-pt: Declaração de Independência dos Estados Unidos",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo haiti; grupo_com + lote-108:cd51a172e7"
   },
   {
     "id": "b56a15af77",
@@ -1398,7 +1529,7 @@
       "Copa da Suécia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:69f5600cd1",
@@ -1406,7 +1537,9 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:69f5600cd1)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:69f5600cd1)",
+    "verificado_web_conferente": "wiki-pt: Copa do Mundo FIFA de 1958; wiki-pt: Copa do Mundo FIFA de 1978",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "b1b41d40d0",
@@ -1421,7 +1554,7 @@
       "Ronaldinho"
     ],
     "subtema": "Bola de Ouro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2861",
@@ -1429,7 +1562,9 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (13.7, 64% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:2861)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:2861)",
+    "verificado_web_conferente": "wiki-pt: Ballon d'Or; wiki-en: Ronaldo (Brazilian footballer); wiki-en: Rivaldo",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "23445964e3",
@@ -1444,14 +1579,21 @@
       "Jurassic Park"
     ],
     "subtema": "Cinema",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "qual-primeiro",
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "grupo": "poderoso-chefao",
+    "grupo_com": [
+      "lote-108:eb65bca1c4"
+    ],
+    "verificado_web_conferente": "wiki-en: Jaws (film); wiki-en: E.T. the Extra-Terrestrial",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo poderoso-chefao; grupo_com + lote-108:eb65bca1c4"
   },
   {
     "id": "ac71f77880",
@@ -1466,7 +1608,7 @@
       "Bob Esponja"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5419",
@@ -1474,7 +1616,9 @@
     "formato": "qual-primeiro",
     "verificado_web": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:5419)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:5419)",
+    "verificado_web_conferente": "wiki-en: The Flintstones",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "efb4685da6",
@@ -1489,13 +1633,14 @@
       "caça com rede"
     ],
     "subtema": "Ditados populares",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "complete",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "9402aa3733",
@@ -1510,13 +1655,14 @@
       "espeto de pau"
     ],
     "subtema": "Ditados populares",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "complete",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "aee9de9a02",
@@ -1531,13 +1677,14 @@
       "não cabe pão"
     ],
     "subtema": "Ditados populares",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "complete",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "51957106a5",
@@ -1552,14 +1699,22 @@
       "Verde"
     ],
     "subtema": "Capitais do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:738",
     "recente": false,
     "formato": "complete",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)",
-    "dup_revisado": "falso positivo: fato diferente (ref. banco:738)"
+    "dup_revisado": "falso positivo: fato diferente (ref. banco:738)",
+    "grupo": "campo-grande",
+    "grupo_com": [
+      "banco:97",
+      "banco:229",
+      "banco:738"
+    ],
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo campo-grande; grupo_com + banco:97, banco:229, banco:738"
   },
   {
     "id": "d81db5009b",
@@ -1574,14 +1729,24 @@
       "Paulo"
     ],
     "subtema": "Capitais do Brasil",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:17",
     "recente": false,
     "formato": "complete",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)",
-    "dup_revisado": "falso positivo: fato diferente (ref. banco:17)"
+    "dup_revisado": "falso positivo: fato diferente (ref. banco:17)",
+    "grupo": "joao-pessoa",
+    "grupo_com": [
+      "banco:17",
+      "banco:384",
+      "banco:10562",
+      "banco:12027",
+      "banco:8376"
+    ],
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo novo joao-pessoa; grupo_com + banco:17, banco:384, banco:10562, banco:12027, banco:8376"
   },
   {
     "id": "533d915d9e",
@@ -1596,7 +1761,7 @@
       "Wanderers"
     ],
     "subtema": "Clubes do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -1608,7 +1773,9 @@
       "banco:3209",
       "banco:7202",
       "banco:9459"
-    ]
+    ],
+    "verificado_web_conferente": "wiki-pt: Tottenham Hotspur Football Club",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "20875a8898",
@@ -1623,7 +1790,7 @@
       "Belenenses"
     ],
     "subtema": "Clubes do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -1637,7 +1804,9 @@
       "banco:5101",
       "banco:5587",
       "banco:13496"
-    ]
+    ],
+    "verificado_web_conferente": "wiki-pt: Sport Lisboa e Benfica",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "8b116b50a3",
@@ -1652,7 +1821,7 @@
       "Battle"
     ],
     "subtema": "Games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3776",
@@ -1663,9 +1832,12 @@
     "grupo_com": [
       "banco:4059",
       "banco:4187",
-      "banco:4325"
+      "banco:4325",
+      "banco:3776"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"call-of-duty\" (ref. banco:3776)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"call-of-duty\" (ref. banco:3776)",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo_com + banco:3776"
   },
   {
     "id": "8a53891162",
@@ -1680,7 +1852,7 @@
       "Warriors"
     ],
     "subtema": "Games",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4057",
@@ -1698,9 +1870,13 @@
       "banco:8865",
       "banco:9068",
       "banco:9945",
-      "banco:12141"
+      "banco:12141",
+      "banco:3568",
+      "banco:3767"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"league-of-legends\" (ref. banco:4057)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"league-of-legends\" (ref. banco:4057)",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo_com + banco:3568, banco:3767"
   },
   {
     "id": "9f319d8e01",
@@ -1715,7 +1891,7 @@
       "tudo se repete"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -1726,7 +1902,9 @@
     "grupo": "lavoisier",
     "grupo_com": [
       "banco:2017"
-    ]
+    ],
+    "verificado_web_conferente": "wiki-pt: Conservação da massa",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "b3fa4976ab",
@@ -1741,7 +1919,7 @@
       "duvido"
     ],
     "subtema": "Filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:852",
@@ -1752,7 +1930,9 @@
       "banco:852"
     ],
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 28.1)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"descartes\" (ref. banco:852)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"descartes\" (ref. banco:852)",
+    "verificado_web_conferente": "wiki-pt: Cogito ergo sum",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "c97adcf28e",
@@ -1767,7 +1947,7 @@
       "o dilema"
     ],
     "subtema": "Teatro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -1777,7 +1957,9 @@
     "grupo_com": [
       "banco:6840"
     ],
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Ser ou não ser",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "4977b7a7df",
@@ -1792,7 +1974,7 @@
       "Pelé"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2769",
@@ -1804,7 +1986,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 24.4)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"pele\" (ref. banco:2769)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"pele\" (ref. banco:2769)",
+    "verificado_web_conferente": "wiki-pt: Estatísticas de Pelé",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "1f7da0779d",
@@ -1819,7 +2003,7 @@
       "Pelé"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2633",
@@ -1831,7 +2015,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.4)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"pele\" (ref. banco:2633)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"pele\" (ref. banco:2633)",
+    "verificado_web_conferente": "wiki-en: Pelé",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "11b679c162",
@@ -1846,7 +2032,7 @@
       "Nelson Piquet"
     ],
     "subtema": "Fórmula 1",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2983",
@@ -1868,7 +2054,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "resposta nova citada no texto antigo (5.4)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"ayrton-senna\" (ref. banco:2983)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"ayrton-senna\" (ref. banco:2983)",
+    "verificado_web_conferente": "wiki-pt: Ayrton Senna",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "21eb8b8b11",
@@ -1883,7 +2071,7 @@
       "Galinho de Quintino"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2575",
@@ -1891,11 +2079,15 @@
     "formato": "espelho",
     "grupo": "zico",
     "grupo_com": [
-      "banco:2575"
+      "banco:2575",
+      "banco:2561"
     ],
     "verificado_web": true,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 8.2)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zico\" (ref. banco:2575)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zico\" (ref. banco:2575)",
+    "verificado_web_conferente": "wiki-pt: Zico",
+    "conferido_por": "conferente-piloto-formatos",
+    "correcao": "grupo: grupo_com + banco:2561"
   },
   {
     "id": "bf2f71df12",
@@ -1910,7 +2102,7 @@
       "Anjo de Pernas Tortas"
     ],
     "subtema": "Futebol brasileiro",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2768",
@@ -1924,7 +2116,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (11.4)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"garrincha\" (ref. banco:2768)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"garrincha\" (ref. banco:2768)",
+    "verificado_web_conferente": "wiki-pt: Garrincha",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "be7a6facac",
@@ -1939,7 +2133,7 @@
       "Botticelli"
     ],
     "subtema": "Pintura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:dea8b4cb78",
@@ -1952,7 +2146,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"leonardo-da-vinci\" (ref. id:dea8b4cb78)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"leonardo-da-vinci\" (ref. id:dea8b4cb78)",
+    "verificado_web_conferente": "wiki-pt: Mona Lisa",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "085679b33e",
@@ -1967,7 +2163,7 @@
       "Capitu"
     ],
     "subtema": "Literatura brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3373",
@@ -1979,7 +2175,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 7.9)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"dom-casmurro\" (ref. banco:3373)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"dom-casmurro\" (ref. banco:3373)",
+    "verificado_web_conferente": "wiki-pt: Capitu",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "018caad887",
@@ -1994,7 +2192,7 @@
       "Bad"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6352",
@@ -2007,7 +2205,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"michael-jackson\" (ref. banco:6352)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"michael-jackson\" (ref. banco:6352)",
+    "verificado_web_conferente": "wiki-en: Thriller (album)",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "0a7a1e51a6",
@@ -2022,7 +2222,7 @@
       "Simony"
     ],
     "subtema": "TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -2038,7 +2238,9 @@
       "lote-108:1e5b3c1ff2"
     ],
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "web: en.wikipedia Clube da Criança; wiki-pt: Clube da Criança",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "7c0ef8b2d5",
@@ -2053,7 +2255,7 @@
       "Londres"
     ],
     "subtema": "Monumentos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4726",
@@ -2065,7 +2267,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"torre-eiffel\" (ref. banco:4726)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"torre-eiffel\" (ref. banco:4726)",
+    "verificado_web_conferente": "wiki-pt: Torre Eiffel",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "8b103efe76",
@@ -2080,7 +2284,7 @@
       "Escadaria Selarón"
     ],
     "subtema": "Monumentos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:29",
@@ -2095,7 +2299,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.2)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"corcovado\" (ref. banco:29)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"corcovado\" (ref. banco:29)",
+    "verificado_web_conferente": "wiki-pt: Cristo Redentor",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "3e26fda4c4",
@@ -2110,7 +2316,7 @@
       "Dom João VI"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5914",
@@ -2131,7 +2337,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (10.5, 26% do fato)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"dom-pedro-ii\" (ref. banco:5914)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"dom-pedro-ii\" (ref. banco:5914)",
+    "verificado_web_conferente": "wiki-pt: Pedro II do Brasil",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "aecd0fdcb7",
@@ -2146,7 +2354,7 @@
       "Getúlio Vargas"
     ],
     "subtema": "Brasil República",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -2159,7 +2367,9 @@
       "banco:1188"
     ],
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Juscelino Kubitschek",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "b22956759e",
@@ -2174,7 +2384,7 @@
       "Ágora"
     ],
     "subtema": "Grécia Antiga",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1677",
@@ -2187,7 +2397,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 29.7)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"arquimedes\" (ref. banco:1677)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"arquimedes\" (ref. banco:1677)",
+    "verificado_web_conferente": "wiki-pt: Eureka",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "e1f2d3073a",
@@ -2202,7 +2414,7 @@
       "Pai dos pobres"
     ],
     "subtema": "Brasil República",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:786",
@@ -2218,7 +2430,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"getulio-vargas\" (ref. banco:786)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"getulio-vargas\" (ref. banco:786)",
+    "verificado_web_conferente": "wiki-pt: Getúlio Vargas",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a172491b5b",
@@ -2233,7 +2447,7 @@
       "Albert Einstein"
     ],
     "subtema": "Física",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1822",
@@ -2249,7 +2463,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"einstein\" (ref. banco:1822)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"einstein\" (ref. banco:1822)",
+    "verificado_web_conferente": "wiki-pt: Teoria da relatividade",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "2bc6a0da9d",
@@ -2264,7 +2480,7 @@
       "Robert Hooke"
     ],
     "subtema": "Física",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:a1516f4547",
@@ -2278,7 +2494,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.1)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"newton\" (ref. id:a1516f4547)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"newton\" (ref. id:a1516f4547)",
+    "verificado_web_conferente": "wiki-pt: Lei da gravitação universal",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "8f77c28313",
@@ -2293,7 +2511,7 @@
       "Charles Darwin"
     ],
     "subtema": "Biologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2263",
@@ -2307,7 +2525,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 13.0)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"darwin\" (ref. banco:2263)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"darwin\" (ref. banco:2263)",
+    "verificado_web_conferente": "wiki-pt: HMS Beagle",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "f291c0f2d3",
@@ -2322,7 +2542,7 @@
       "Steve Ballmer"
     ],
     "subtema": "Empresas de tecnologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4482",
@@ -2337,7 +2557,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.3)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"jobs-e-gates\" (ref. banco:4482)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"jobs-e-gates\" (ref. banco:4482)",
+    "verificado_web_conferente": "wiki-pt: Microsoft",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "a68e28bb94",
@@ -2352,7 +2574,7 @@
       "Steve Jobs"
     ],
     "subtema": "Empresas de tecnologia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:4479",
@@ -2369,7 +2591,9 @@
     ],
     "verificado_web": true,
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 21.2)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"jobs-e-gates\" (ref. banco:4479)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"jobs-e-gates\" (ref. banco:4479)",
+    "verificado_web_conferente": "wiki-en: Apple Inc.",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "d15b94f30f",
@@ -2384,7 +2608,7 @@
       "Roberto Carlos"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
@@ -2398,7 +2622,9 @@
       "banco:7992"
     ],
     "verificado_web": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web_conferente": "wiki-pt: Roberto Carlos",
+    "conferido_por": "conferente-piloto-formatos"
   },
   {
     "id": "5c18320ef7",
@@ -2413,12 +2639,13 @@
       "uma hora se parte"
     ],
     "subtema": "Ditados populares",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "formato": "complete",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-piloto-formatos"
   }
 ]

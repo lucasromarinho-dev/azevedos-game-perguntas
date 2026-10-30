@@ -2761,6 +2761,47 @@
         "perguntas": 44,
         "total": 75
       }
+    },
+    {
+      "lote": "072",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 112,
+      "validas": 107,
+      "descartadas": 5,
+      "taxa_descarte": 0.04,
+      "caracteres": 16113,
+      "tokens_aprox": 4604,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "r7-072.txt",
+        "r7-072b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r7-072.txt",
+          "r7-072b.txt"
+        ],
+        "linhas": 238,
+        "existem": 108,
+        "risco": 32,
+        "tokens_aprox": 3693,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.45,
+        "candidatas_por_valida": 2.22
+      },
+      "perguntas": {
+        "escritas": 112,
+        "validas": 107,
+        "descartadas_detector": 5,
+        "descarte": 0.04,
+        "tokens_aprox": 4604
+      },
+      "tokens_por_valida": {
+        "listas": 35,
+        "perguntas": 43,
+        "total": 78
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -8303,6 +8344,22 @@
       "livres": 79,
       "caracteres": 10097,
       "tokens_aprox": 2885
+    },
+    "r7-072.txt": {
+      "linhas": 227,
+      "existem": 105,
+      "risco": 32,
+      "livres": 90,
+      "caracteres": 12236,
+      "tokens_aprox": 3496
+    },
+    "r7-072b.txt": {
+      "linhas": 11,
+      "existem": 3,
+      "risco": 0,
+      "livres": 8,
+      "caracteres": 688,
+      "tokens_aprox": 197
     }
   },
   "rodada3": {

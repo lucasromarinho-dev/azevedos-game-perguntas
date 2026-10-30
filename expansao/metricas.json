@@ -3514,6 +3514,47 @@
         "perguntas": 59,
         "total": 131
       }
+    },
+    {
+      "lote": "099",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 75,
+      "validas": 73,
+      "descartadas": 2,
+      "taxa_descarte": 0.03,
+      "caracteres": 13374,
+      "tokens_aprox": 3821,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "r10-099.txt",
+        "r10-099b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r10-099.txt",
+          "r10-099b.txt"
+        ],
+        "linhas": 179,
+        "existem": 82,
+        "risco": 13,
+        "tokens_aprox": 2938,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.46,
+        "candidatas_por_valida": 2.45
+      },
+      "perguntas": {
+        "escritas": 75,
+        "validas": 73,
+        "descartadas_detector": 2,
+        "descarte": 0.03,
+        "tokens_aprox": 3821
+      },
+      "tokens_por_valida": {
+        "listas": 40,
+        "perguntas": 52,
+        "total": 93
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -15191,6 +15232,22 @@
       "livres": 32,
       "caracteres": 5858,
       "tokens_aprox": 1674
+    },
+    "r10-099.txt": {
+      "linhas": 115,
+      "existem": 49,
+      "risco": 10,
+      "livres": 56,
+      "caracteres": 6667,
+      "tokens_aprox": 1905
+    },
+    "r10-099b.txt": {
+      "linhas": 64,
+      "existem": 33,
+      "risco": 3,
+      "livres": 28,
+      "caracteres": 3616,
+      "tokens_aprox": 1033
     }
   },
   "rodada3": {

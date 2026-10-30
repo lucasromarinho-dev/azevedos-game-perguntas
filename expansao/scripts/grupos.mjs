@@ -26,16 +26,17 @@ const cit = new Map();
 const citacoes = (rn) => { if (!cit.has(rn)) cit.set(rn, todas.filter((t) => t.q.includes(rn)).length); return cit.get(rn); };
 const LIM = 12;
 // ruídos já decididos em fontes/lote-NNN-grupos.txt (linhas "X ref" e "X id ref")
-const X = new Set(), XI = new Set();
+const X = new Set(), XI = new Set(), SO = new Set();
 for (const f of arqsPiloto) {
   const d = join(RAIZ_REPO, 'expansao', 'fontes', f.replace('.json', '-grupos.txt'));
-  try { for (const l of readFileSync(d, 'utf8').split(/\r?\n/)) { const c = l.trim().split(/\s+/); if (c[0] !== 'X') continue; if (c.length === 2) X.add(c[1]); else XI.add(c[1] + ' ' + c[2]); } } catch {}
+  try { for (const l of readFileSync(d, 'utf8').split(/\r?\n/)) { const c = l.trim().split(/\s+/); if (c[0] === 'S') { SO.add(c[1]); continue; } if (c[0] !== 'X') continue; if (c.length === 2) X.add(c[1]); else XI.add(c[1] + ' ' + c[2]); } } catch {}
 }
 const SO_RESP = new Set(['nao-e', 'numero', 'qual-primeiro']);
 
 let pend = 0;
 for (const p of piloto) {
   if (alvo.length && !alvo.includes(p._arq)) continue;
+  if (SO.has(p.id)) continue; // decidido à mão (S no lote-NNN-grupos.txt)
   const rn = norm(p.resposta), qn = norm(p.pergunta);
   const outras = todas.filter((t) => t.p._ref !== p._ref);
   const comum = citacoes(rn) > LIM;

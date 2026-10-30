@@ -46,8 +46,8 @@
     "pergunta": "Qual panqueca americana grossa costuma ser servida em pilha, com manteiga e xarope de bordo?",
     "resposta": "Pancake",
     "alternativas": [
-      "Waffle",
-      "Crepe",
+      "Blini",
+      "Panqueca de batata",
       "Pancake",
       "Tapioca"
     ],
@@ -57,7 +57,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Waffle\" trocada por \"Blini\" (era resposta de outra pergunta); gerador r8: errada \"Crepe\" trocada por \"Panqueca de batata\" (era resposta de outra pergunta)"
   },
   {
     "id": "a70228692d",
@@ -68,7 +69,7 @@
     "alternativas": [
       "Waffle",
       "Churro",
-      "Crepe",
+      "Bolo de rolo",
       "Strudel"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
@@ -77,7 +78,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Crepe\" trocada por \"Bolo de rolo\" (era resposta de outra pergunta)"
   },
   {
     "id": "d099fb9c48",
@@ -167,9 +169,9 @@
     "resposta": "Cachoeira da Formiga",
     "alternativas": [
       "Cachoeira da Formiga",
-      "Cachoeira do Tabuleiro",
+      "Cachoeira da Velha",
       "Cachoeira Véu de Noiva",
-      "Cachoeira da Fumaça"
+      "Cachoeira do Escorrega"
     ],
     "subtema": "Biomas, clima e natureza",
     "status": "gerada",
@@ -177,7 +179,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cachoeira do Tabuleiro\" trocada por \"Cachoeira da Velha\" (era resposta de outra pergunta); gerador r8: errada \"Cachoeira da Fumaça\" trocada por \"Cachoeira do Escorrega\" (era resposta de outra pergunta)"
   },
   {
     "id": "8f36e6b53e",
@@ -227,7 +230,7 @@
     "resposta": "Lagoa da Jansen",
     "alternativas": [
       "Lagoa da Pampulha",
-      "Lagoa do Abaeté",
+      "Lagoa do Portinho",
       "Lagoa Mundaú",
       "Lagoa da Jansen"
     ],
@@ -237,7 +240,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lagoa do Abaeté\" trocada por \"Lagoa do Portinho\" (era resposta de outra pergunta)"
   },
   {
     "id": "853d84f1dc",
@@ -248,8 +252,8 @@
     "alternativas": [
       "Salto do Itiquira",
       "Cachoeira de Santa Bárbara",
-      "Cachoeira do Tabuleiro",
-      "Salto Yucumã"
+      "Salto Corumbá",
+      "Cachoeira Poço Encantado"
     ],
     "subtema": "Biomas, clima e natureza",
     "status": "gerada",
@@ -257,7 +261,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cachoeira do Tabuleiro\" trocada por \"Salto Corumbá\" (era resposta de outra pergunta); gerador r8: errada \"Salto Yucumã\" trocada por \"Cachoeira Poço Encantado\" (era resposta de outra pergunta)"
   },
   {
     "id": "380d16d8b8",
@@ -269,7 +274,7 @@
       "Boca da Onça",
       "Buraco das Araras",
       "Gruta do Lago Azul",
-      "Rio da Prata"
+      "Cachoeira do Aquidaban"
     ],
     "subtema": "Biomas, clima e natureza",
     "status": "gerada",
@@ -277,7 +282,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Rio da Prata\" trocada por \"Cachoeira do Aquidaban\" (era resposta de outra pergunta)"
   },
   {
     "id": "f0a7339775",
@@ -287,7 +293,7 @@
     "resposta": "Cristaleira",
     "alternativas": [
       "Cômoda",
-      "Penteadeira",
+      "Psiché",
       "Criado-mudo",
       "Cristaleira"
     ],
@@ -297,7 +303,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:2131",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.8)"
+    "dup_regra": "resposta nova citada no texto antigo (6.8)",
+    "correcao": "gerador r8: errada \"Penteadeira\" trocada por \"Psiché\" (era resposta de outra pergunta)"
   },
   {
     "id": "0c1f20cc6a",
@@ -467,7 +474,7 @@
     "resposta": "Sarah Kubitschek",
     "alternativas": [
       "Maria Thereza Goulart",
-      "Darcy Vargas",
+      "Leonor Mendes de Barros",
       "Eloá Quadros",
       "Sarah Kubitschek"
     ],
@@ -477,7 +484,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Darcy Vargas\" trocada por \"Leonor Mendes de Barros\" (era resposta de outra pergunta)"
   },
   {
     "id": "b93f8cbbdc",
@@ -508,7 +516,7 @@
     "alternativas": [
       "Josiah Wedgwood",
       "Thomas Crapper",
-      "Joseph Gayetty",
+      "Edwin Budding",
       "William Addis"
     ],
     "subtema": "Personagens, invenções e filosofia",
@@ -517,7 +525,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Joseph Gayetty\" trocada por \"Edwin Budding\" (era resposta de outra pergunta)"
   },
   {
     "id": "56189f6a70",
@@ -548,7 +557,7 @@
     "alternativas": [
       "Thomas Crapper",
       "Clarence Scott",
-      "Seth Wheeler",
+      "Edwin Budding",
       "Joseph Gayetty"
     ],
     "subtema": "Personagens, invenções e filosofia",
@@ -557,7 +566,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Seth Wheeler\" trocada por \"Edwin Budding\" (era resposta de outra pergunta)"
   },
   {
     "id": "2823537a11",
@@ -628,7 +638,7 @@
     "alternativas": [
       "Rosácea",
       "Psoríase",
-      "Vitiligo",
+      "Melasma",
       "Acne"
     ],
     "subtema": "Corpo humano e saúde",
@@ -637,7 +647,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Vitiligo\" trocada por \"Melasma\" (era resposta de outra pergunta)"
   },
   {
     "id": "a075deeafa",
@@ -647,7 +658,7 @@
     "resposta": "Entorse",
     "alternativas": [
       "Fratura",
-      "Câimbra",
+      "Contusão",
       "Entorse",
       "Tendinite"
     ],
@@ -657,7 +668,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Câimbra\" trocada por \"Contusão\" (era resposta de outra pergunta)"
   },
   {
     "id": "dcfeb57285",
@@ -747,7 +759,7 @@
     "resposta": "Hipótese de Riemann",
     "alternativas": [
       "Conjectura de Poincaré",
-      "Conjectura de Goldbach",
+      "Conjectura de Hodge",
       "Hipótese de Riemann",
       "Último Teorema de Fermat"
     ],
@@ -757,7 +769,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Conjectura de Goldbach\" trocada por \"Conjectura de Hodge\" (era resposta de outra pergunta)"
   },
   {
     "id": "f6c4b4ea03",
@@ -766,8 +779,8 @@
     "pergunta": "Qual narrador de rádio carioca tem o apelido de Garotinho?",
     "resposta": "José Carlos Araújo",
     "alternativas": [
-      "Waldir Amaral",
-      "Januário de Oliveira",
+      "Luiz Penido",
+      "Washington Rodrigues",
       "José Carlos Araújo",
       "Jorge Curi"
     ],
@@ -777,7 +790,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Waldir Amaral\" trocada por \"Luiz Penido\" (era resposta de outra pergunta); gerador r8: errada \"Januário de Oliveira\" trocada por \"Washington Rodrigues\" (era resposta de outra pergunta)"
   },
   {
     "id": "9fe59d9b09",
@@ -787,8 +801,8 @@
     "resposta": "Luciano do Valle",
     "alternativas": [
       "Silvio Luiz",
-      "Galvão Bueno",
-      "Osmar Santos",
+      "Juarez Soares",
+      "Flávio Prado",
       "Luciano do Valle"
     ],
     "subtema": "Vôlei",
@@ -797,7 +811,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Galvão Bueno\" trocada por \"Juarez Soares\" (era resposta de outra pergunta); gerador r8: errada \"Osmar Santos\" trocada por \"Flávio Prado\" (era resposta de outra pergunta)"
   },
   {
     "id": "9ac1de31af",
@@ -808,7 +823,7 @@
     "alternativas": [
       "Lamine Yamal",
       "Ousmane Dembélé",
-      "Kylian Mbappé",
+      "Achraf Hakimi",
       "Vitinha"
     ],
     "subtema": "Futebol europeu",
@@ -817,7 +832,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Kylian Mbappé\" trocada por \"Achraf Hakimi\" (era resposta de outra pergunta)"
   },
   {
     "id": "32e628637c",
@@ -826,9 +842,9 @@
     "pergunta": "Qual técnico assumiu a seleção brasileira em 2024 e caiu nas quartas de final da Copa América daquele ano?",
     "resposta": "Dorival Júnior",
     "alternativas": [
-      "Tite",
+      "Odair Hellmann",
       "Ramon Menezes",
-      "Fernando Diniz",
+      "Roger Machado",
       "Dorival Júnior"
     ],
     "subtema": "Seleção e craques",
@@ -837,7 +853,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Tite\" trocada por \"Cuca\" (era resposta de outra pergunta); gerador r8: errada \"Fernando Diniz\" trocada por \"Renato Gaúcho\" (era resposta de outra pergunta); gerador r8: errada \"Cuca\" trocada por \"Odair Hellmann\" (era resposta de outra pergunta); gerador r8: errada \"Renato Gaúcho\" trocada por \"Roger Machado\" (era resposta de outra pergunta)"
   },
   {
     "id": "916f08a948",
@@ -846,9 +863,9 @@
     "pergunta": "Qual técnico assumiu a seleção depois da Copa de 2010 e levou a equipe à prata olímpica em Londres 2012?",
     "resposta": "Mano Menezes",
     "alternativas": [
-      "Dunga",
+      "Ney Franco",
       "Mano Menezes",
-      "Luiz Felipe Scolari",
+      "Adílson Batista",
       "Muricy Ramalho"
     ],
     "subtema": "Seleção e craques",
@@ -857,7 +874,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Dunga\" trocada por \"Leão\" (era resposta de outra pergunta); gerador r8: errada \"Luiz Felipe Scolari\" trocada por \"Paulo Autuori\" (era resposta de outra pergunta); gerador r8: errada \"Leão\" trocada por \"Ney Franco\" (era resposta de outra pergunta); gerador r8: errada \"Paulo Autuori\" trocada por \"Jorginho\" (era resposta de outra pergunta); gerador r8: errada \"Jorginho\" trocada por \"Adílson Batista\" (era resposta de outra pergunta)"
   },
   {
     "id": "85dc08ad8b",
@@ -866,7 +884,7 @@
     "pergunta": "Qual atacante mineira da seleção feminina fez sucesso no North Carolina Courage, dos Estados Unidos?",
     "resposta": "Debinha",
     "alternativas": [
-      "Cristiane",
+      "Adriana Leal",
       "Debinha",
       "Geyse",
       "Ludmila"
@@ -877,7 +895,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cristiane\" trocada por \"Adriana Leal\" (era resposta de outra pergunta)"
   },
   {
     "id": "88f75954a6",
@@ -888,7 +907,7 @@
     "alternativas": [
       "Bia Zaneratto",
       "Ludmila",
-      "Andressa Alves",
+      "Thaís Guedes",
       "Gabi Nunes"
     ],
     "subtema": "Seleção e craques",
@@ -897,7 +916,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Andressa Alves\" trocada por \"Thaís Guedes\" (era resposta de outra pergunta)"
   },
   {
     "id": "61b91601d2",
@@ -908,7 +928,7 @@
     "alternativas": [
       "Oswaldo Alvarez",
       "Arthur Elias",
-      "Pia Sundhage",
+      "Emily Lima",
       "Vadão"
     ],
     "subtema": "Seleção e craques",
@@ -917,7 +937,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pia Sundhage\" trocada por \"Emily Lima\" (era resposta de outra pergunta)"
   },
   {
     "id": "7617130401",
@@ -928,8 +949,8 @@
     "alternativas": [
       "Kerolin",
       "Adriana",
-      "Marta",
-      "Debinha"
+      "Ary Borges",
+      "Gabi Portilho"
     ],
     "subtema": "Seleção e craques",
     "status": "gerada",
@@ -937,7 +958,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Marta\" trocada por \"Ary Borges\" (era resposta de outra pergunta); gerador r8: errada \"Debinha\" trocada por \"Gabi Portilho\" (era resposta de outra pergunta)"
   },
   {
     "id": "1803beadba",
@@ -948,7 +970,7 @@
     "alternativas": [
       "Gabi Mazetto",
       "Pâmela Rosa",
-      "Letícia Bufoni",
+      "Yndiara Asp",
       "Karen Jonz"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -957,7 +979,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Letícia Bufoni\" trocada por \"Yndiara Asp\" (era resposta de outra pergunta)"
   },
   {
     "id": "9b9ac6969c",
@@ -966,7 +989,7 @@
     "pergunta": "Qual brasileira da canoagem slalom foi finalista olímpica e campeã mundial de caiaque cross?",
     "resposta": "Ana Sátila",
     "alternativas": [
-      "Isaquias Queiroz",
+      "Omira Estácia",
       "Beatriz Ferreira",
       "Ana Sátila",
       "Ana Paula Vergutz"
@@ -977,7 +1000,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Isaquias Queiroz\" trocada por \"Omira Estácia\" (era resposta de outra pergunta)"
   },
   {
     "id": "990fbd1d13",
@@ -986,7 +1010,7 @@
     "pergunta": "Qual nadador paralímpico, chamado de Gabrielzinho, ganhou vários ouros em Tóquio 2020 e Paris 2024?",
     "resposta": "Gabriel Araújo",
     "alternativas": [
-      "Daniel Dias",
+      "Douglas Matera",
       "Gabriel Araújo",
       "Phelipe Rodrigues",
       "Talisson Glock"
@@ -997,7 +1021,8 @@
     "dup": "suspeita",
     "dup_ref": "id:6f3dc012b2",
     "recente": true,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.9)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.9)",
+    "correcao": "gerador r8: errada \"Daniel Dias\" trocada por \"Douglas Matera\" (era resposta de outra pergunta)"
   },
   {
     "id": "c0ff9dd030",
@@ -1007,8 +1032,8 @@
     "resposta": "Cláudio Coutinho",
     "alternativas": [
       "Cláudio Coutinho",
-      "Zagallo",
-      "Telê Santana",
+      "Rubens Minelli",
+      "Yustrich",
       "Osvaldo Brandão"
     ],
     "subtema": "Copa do Mundo",
@@ -1017,7 +1042,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Zagallo\" trocada por \"Rubens Minelli\" (era resposta de outra pergunta); gerador r8: errada \"Telê Santana\" trocada por \"Carlos Alberto Parreira\" (era resposta de outra pergunta); gerador r8: errada \"Carlos Alberto Parreira\" trocada por \"Yustrich\" (era resposta de outra pergunta)"
   },
   {
     "id": "1c9f241157",
@@ -1026,9 +1052,9 @@
     "pergunta": "Qual técnico comandou o Brasil na Copa de 1954, na Suíça?",
     "resposta": "Zezé Moreira",
     "alternativas": [
-      "Vicente Feola",
+      "Ademar Pimenta",
       "Zezé Moreira",
-      "Aymoré Moreira",
+      "Martim Francisco",
       "Flávio Costa"
     ],
     "subtema": "Copa do Mundo",
@@ -1037,7 +1063,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Vicente Feola\" trocada por \"Ademar Pimenta\" (era resposta de outra pergunta); gerador r8: errada \"Aymoré Moreira\" trocada por \"Gentil Cardoso\" (era resposta de outra pergunta); gerador r8: errada \"Gentil Cardoso\" trocada por \"Martim Francisco\" (era resposta de outra pergunta)"
   },
   {
     "id": "600e96cc04",
@@ -1067,8 +1094,8 @@
     "resposta": "Pretinha",
     "alternativas": [
       "Kátia Cilene",
-      "Cristiane",
-      "Formiga",
+      "Roseli",
+      "Michael Jackson",
       "Pretinha"
     ],
     "subtema": "Seleção e craques",
@@ -1077,7 +1104,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cristiane\" trocada por \"Roseli\" (era resposta de outra pergunta); gerador r8: errada \"Formiga\" trocada por \"Michael Jackson\" (era resposta de outra pergunta)"
   },
   {
     "id": "20219faa6e",
@@ -1086,8 +1114,8 @@
     "pergunta": "Qual skatista, apelidado de Mineirinho, foi um dos maiores campeões do skate vertical?",
     "resposta": "Sandro Dias",
     "alternativas": [
-      "Bob Burnquist",
-      "Pedro Barros",
+      "Sandro Testinha",
+      "Rodil de Araújo",
       "Sandro Dias",
       "Lincoln Ueda"
     ],
@@ -1097,7 +1125,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bob Burnquist\" trocada por \"Sandro Testinha\" (era resposta de outra pergunta); gerador r8: errada \"Pedro Barros\" trocada por \"Rodil de Araújo\" (era resposta de outra pergunta)"
   },
   {
     "id": "0631d5fabd",
@@ -1106,7 +1135,7 @@
     "pergunta": "Qual surfista pernambucano é um dos pioneiros brasileiros nas ondas gigantes, com prêmios internacionais?",
     "resposta": "Carlos Burle",
     "alternativas": [
-      "Rodrigo Koxa",
+      "Danilo Couto",
       "Lucas Chumbo",
       "Carlos Burle",
       "Pedro Scooby"
@@ -1117,7 +1146,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Rodrigo Koxa\" trocada por \"Danilo Couto\" (era resposta de outra pergunta)"
   },
   {
     "id": "d7532f6a6f",
@@ -1129,7 +1159,7 @@
       "Wellington Silva",
       "Darlan Romani",
       "Fernando Reis",
-      "Thiago Braz"
+      "Bruno Brandão"
     ],
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
@@ -1137,7 +1167,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Thiago Braz\" trocada por \"Bruno Brandão\" (era resposta de outra pergunta)"
   },
   {
     "id": "4ca7f3f33c",
@@ -1166,10 +1197,10 @@
     "pergunta": "Qual personagem de Chico Anysio, um político, dizia \"eu quero que pobre se exploda\"?",
     "resposta": "Justo Veríssimo",
     "alternativas": [
-      "Professor Raimundo",
-      "Painho",
+      "Nazareno",
+      "Azambuja",
       "Justo Veríssimo",
-      "Alberto Roberto"
+      "Popó"
     ],
     "subtema": "Humor e programas de auditório",
     "status": "gerada",
@@ -1177,7 +1208,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Professor Raimundo\" trocada por \"Nazareno\" (era resposta de outra pergunta); gerador r8: errada \"Painho\" trocada por \"Azambuja\" (era resposta de outra pergunta); gerador r8: errada \"Alberto Roberto\" trocada por \"Popó\" (era resposta de outra pergunta)"
   },
   {
     "id": "499dbc61a0",
@@ -1189,7 +1221,7 @@
       "Caillou",
       "Pocoyo",
       "Pingu",
-      "Peppa Pig"
+      "Doki"
     ],
     "subtema": "Animação",
     "status": "gerada",
@@ -1197,7 +1229,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Peppa Pig\" trocada por \"Doki\" (era resposta de outra pergunta)"
   },
   {
     "id": "548d3f982a",
@@ -1208,8 +1241,8 @@
     "alternativas": [
       "Backyardigans",
       "Os Ursinhos Carinhosos",
-      "Pocoyo",
-      "Teletubbies"
+      "Os Fofuxos",
+      "Hi-5"
     ],
     "subtema": "Animação",
     "status": "gerada",
@@ -1217,7 +1250,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pocoyo\" trocada por \"Os Fofuxos\" (era resposta de outra pergunta); gerador r8: errada \"Teletubbies\" trocada por \"Hi-5\" (era resposta de outra pergunta)"
   },
   {
     "id": "4d32215f07",
@@ -1247,8 +1281,8 @@
     "resposta": "Salomé",
     "alternativas": [
       "Salomé",
-      "Dona Bela",
-      "Tia Nastácia",
+      "Dona Santinha",
+      "Dona Biscoito",
       "Dona Florinda"
     ],
     "subtema": "Humor e programas de auditório",
@@ -1257,7 +1291,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Dona Bela\" trocada por \"Dona Santinha\" (era resposta de outra pergunta); gerador r8: errada \"Tia Nastácia\" trocada por \"Dona Biscoito\" (era resposta de outra pergunta)"
   },
   {
     "id": "69782a41e1",
@@ -1266,10 +1301,10 @@
     "pergunta": "Qual galã canastrão e vaidoso era interpretado por Chico Anysio?",
     "resposta": "Alberto Roberto",
     "alternativas": [
-      "Haroldo",
+      "Tavares",
       "Alberto Roberto",
-      "Bozó",
-      "Painho"
+      "Quem Quer",
+      "Nazareno"
     ],
     "subtema": "Humor e programas de auditório",
     "status": "gerada",
@@ -1277,7 +1312,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Haroldo\" trocada por \"Tavares\" (era resposta de outra pergunta); gerador r8: errada \"Bozó\" trocada por \"Quem Quer\" (era resposta de outra pergunta); gerador r8: errada \"Painho\" trocada por \"Nazareno\" (era resposta de outra pergunta)"
   },
   {
     "id": "b08afa04c6",
@@ -1289,7 +1325,7 @@
       "Bento Carneiro",
       "Conde Drácula",
       "Nosferatu",
-      "Zé do Caixão"
+      "Conde Vlad"
     ],
     "subtema": "Humor e programas de auditório",
     "status": "gerada",
@@ -1297,7 +1333,8 @@
     "dup": "suspeita",
     "dup_ref": "id:975dfc7ea3",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Zé do Caixão\" trocada por \"Conde Vlad\" (era resposta de outra pergunta)"
   },
   {
     "id": "a6daae612f",
@@ -1306,10 +1343,10 @@
     "pergunta": "Qual desenho brasileiro mostra crianças que brincam com amigos imaginários gigantes?",
     "resposta": "Meu AmigãoZão",
     "alternativas": [
-      "O Show da Luna",
+      "Escola de Princesinhas",
       "Meu AmigãoZão",
-      "Peixonauta",
-      "Irmão do Jorel"
+      "Sítio Encantado",
+      "Princesas do Mar"
     ],
     "subtema": "Animação",
     "status": "gerada",
@@ -1317,7 +1354,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"O Show da Luna\" trocada por \"Escola de Princesinhas\" (era resposta de outra pergunta); gerador r8: errada \"Peixonauta\" trocada por \"Sítio Encantado\" (era resposta de outra pergunta); gerador r8: errada \"Irmão do Jorel\" trocada por \"Princesas do Mar\" (era resposta de outra pergunta)"
   },
   {
     "id": "25456fc56e",
@@ -1328,7 +1366,7 @@
     "alternativas": [
       "Os Under-Undergrounds",
       "Historietas Assombradas",
-      "Irmão do Jorel",
+      "Turma do Pererê",
       "Tromba Trem"
     ],
     "subtema": "Animação",
@@ -1337,7 +1375,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:7862",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Irmão do Jorel\" trocada por \"Turma do Pererê\" (era resposta de outra pergunta)"
   },
   {
     "id": "9e0c6e82fd",
@@ -1387,7 +1426,7 @@
     "resposta": "Pantaleão",
     "alternativas": [
       "Seu Peru",
-      "Coalhada",
+      "Fofinho",
       "Rolando Lero",
       "Pantaleão"
     ],
@@ -1397,7 +1436,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Coalhada\" trocada por \"Fofinho\" (era resposta de outra pergunta)"
   },
   {
     "id": "647e660b46",
@@ -1408,7 +1448,7 @@
     "alternativas": [
       "Tavares",
       "Seu Boneco",
-      "Bozó",
+      "Ataliba",
       "Coalhada"
     ],
     "subtema": "Humor e programas de auditório",
@@ -1417,7 +1457,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bozó\" trocada por \"Ataliba\" (era resposta de outra pergunta)"
   },
   {
     "id": "a704ef6683",
@@ -1468,7 +1509,7 @@
     "alternativas": [
       "Murilo Rubião",
       "Luiz Vilela",
-      "Fernando Sabino",
+      "Ivan Ângelo",
       "Autran Dourado"
     ],
     "subtema": "Literatura",
@@ -1477,7 +1518,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Fernando Sabino\" trocada por \"Ivan Ângelo\" (era resposta de outra pergunta)"
   },
   {
     "id": "5354510874",
@@ -1508,7 +1550,7 @@
     "alternativas": [
       "Carlos Lombardi",
       "Lauro César Muniz",
-      "Cassiano Gabus Mendes",
+      "Euclydes Marinho",
       "Walther Negrão"
     ],
     "subtema": "Novelas e TV brasileira",
@@ -1517,7 +1559,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cassiano Gabus Mendes\" trocada por \"Euclydes Marinho\" (era resposta de outra pergunta)"
   },
   {
     "id": "c80036263f",
@@ -1548,7 +1591,7 @@
     "alternativas": [
       "Recuo",
       "Margem",
-      "Rodapé",
+      "Medianiz",
       "Espaçamento"
     ],
     "subtema": "Programação",
@@ -1557,7 +1600,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Rodapé\" trocada por \"Medianiz\" (era resposta de outra pergunta)"
   },
   {
     "id": "b538be6713",
@@ -1606,8 +1650,8 @@
     "pergunta": "Qual recurso do Word troca, de uma vez, todas as ocorrências de uma palavra por outra?",
     "resposta": "Localizar e substituir",
     "alternativas": [
-      "Pincel de formatação",
-      "Mala direta",
+      "Revisão ortográfica",
+      "Hifenização",
       "Localizar e substituir",
       "Autocorreção"
     ],
@@ -1617,7 +1661,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pincel de formatação\" trocada por \"Revisão ortográfica\" (era resposta de outra pergunta); gerador r8: errada \"Mala direta\" trocada por \"Hifenização\" (era resposta de outra pergunta)"
   },
   {
     "id": "cf3172d0f2",
@@ -1707,7 +1752,7 @@
     "resposta": "Espaçamento entre linhas",
     "alternativas": [
       "Recuo",
-      "Margem",
+      "Kerning",
       "Espaçamento entre linhas",
       "Entrelinha dupla"
     ],
@@ -1717,7 +1762,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Margem\" trocada por \"Kerning\" (era resposta de outra pergunta)"
   },
   {
     "id": "cdf3a6b135",
@@ -1728,7 +1774,7 @@
     "alternativas": [
       "Klez",
       "Melissa",
-      "Sasser",
+      "ILOVEYOU",
       "Mydoom"
     ],
     "subtema": "Segurança digital",
@@ -1737,7 +1783,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Sasser\" trocada por \"ILOVEYOU\" (era resposta de outra pergunta)"
   },
   {
     "id": "3bd93f4c11",
@@ -1766,7 +1813,7 @@
     "pergunta": "Qual vírus dos anos 1990, também chamado Chernobyl, podia apagar a BIOS do computador?",
     "resposta": "CIH",
     "alternativas": [
-      "Brain",
+      "Jerusalém B",
       "CIH",
       "Stoned",
       "Jerusalém"
@@ -1777,7 +1824,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Brain\" trocada por \"Jerusalém B\" (era resposta de outra pergunta)"
   },
   {
     "id": "eb6823cbbf",
@@ -1786,9 +1834,9 @@
     "pergunta": "Qual objeto o técnico usa para desenhar as jogadas durante o treino ou à beira do campo?",
     "resposta": "Prancheta",
     "alternativas": [
-      "Apito",
-      "Cronômetro",
-      "Súmula",
+      "Pasta de scout",
+      "Tablet de vídeo",
+      "Caderneta",
       "Prancheta"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
@@ -1797,7 +1845,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Apito\" trocada por \"Pasta de scout\" (era resposta de outra pergunta); gerador r8: errada \"Cronômetro\" trocada por \"Tablet de vídeo\" (era resposta de outra pergunta); gerador r8: errada \"Súmula\" trocada por \"Caderneta\" (era resposta de outra pergunta)"
   },
   {
     "id": "9f474b66e5",
@@ -1846,7 +1895,7 @@
     "pergunta": "O que o nadador usa sobre os olhos para enxergar debaixo d'água sem irritação?",
     "resposta": "Óculos de natação",
     "alternativas": [
-      "Snorkel",
+      "Máscara de esqui",
       "Viseira",
       "Lentes de contato",
       "Óculos de natação"
@@ -1857,7 +1906,8 @@
     "dup": "suspeita",
     "dup_ref": "id:0200f4749c",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.4)"
+    "dup_regra": "resposta nova citada no texto antigo (6.4)",
+    "correcao": "gerador r8: errada \"Snorkel\" trocada por \"Máscara de esqui\" (era resposta de outra pergunta)"
   },
   {
     "id": "911889b127",
@@ -1868,7 +1918,7 @@
     "alternativas": [
       "Corda de largada",
       "Fita de chegada",
-      "Bandeira quadriculada",
+      "Pórtico de largada",
       "Faixa de pódio"
     ],
     "subtema": "Olimpíadas e atletismo",
@@ -1877,7 +1927,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bandeira quadriculada\" trocada por \"Pórtico de largada\" (era resposta de outra pergunta)"
   },
   {
     "id": "0fc8f10dc2",
@@ -1907,8 +1958,8 @@
     "resposta": "Jojo Todynho",
     "alternativas": [
       "Lexa",
-      "Anitta",
-      "Ludmilla",
+      "MC Carol",
+      "Tati Quebra Barraco",
       "Jojo Todynho"
     ],
     "subtema": "Música brasileira",
@@ -1917,7 +1968,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Anitta\" trocada por \"MC Carol\" (era resposta de outra pergunta); gerador r8: errada \"Ludmilla\" trocada por \"Tati Quebra Barraco\" (era resposta de outra pergunta)"
   },
   {
     "id": "d0d320ff70",
@@ -1926,9 +1978,9 @@
     "pergunta": "Qual grupo formado por irmãos fez sucesso em 1998 com \"Jeito Sexy\"?",
     "resposta": "Fat Family",
     "alternativas": [
-      "Negritude Júnior",
+      "Os Travessos",
       "Art Popular",
-      "Pixote",
+      "Sampa Crew",
       "Fat Family"
     ],
     "subtema": "Música brasileira",
@@ -1937,7 +1989,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Negritude Júnior\" trocada por \"Os Travessos\" (era resposta de outra pergunta); gerador r8: errada \"Pixote\" trocada por \"Sampa Crew\" (era resposta de outra pergunta)"
   },
   {
     "id": "3e03b3b1af",
@@ -1949,7 +2002,7 @@
       "Polegar",
       "KLB",
       "Twister",
-      "Br'oz"
+      "Hanson"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1957,7 +2010,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Br'oz\" trocada por \"Dominó\" (era resposta de outra pergunta); gerador r8: errada \"Dominó\" trocada por \"Hanson\" (era resposta de outra pergunta)"
   },
   {
     "id": "688eb240c6",
@@ -1968,7 +2022,7 @@
     "alternativas": [
       "Zé Neto & Cristiano",
       "Matheus & Kauan",
-      "Henrique & Juliano",
+      "Israel & Rodolffo",
       "Jorge & Mateus"
     ],
     "subtema": "Música brasileira",
@@ -1977,7 +2031,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Henrique & Juliano\" trocada por \"Israel & Rodolffo\" (era resposta de outra pergunta)"
   },
   {
     "id": "ae80401984",
@@ -2029,7 +2084,7 @@
       "Gloria Groove",
       "Aretuza Lovi",
       "Lia Clark",
-      "Pabllo Vittar"
+      "Lorelay Fox"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -2037,7 +2092,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:9163",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Pabllo Vittar\" trocada por \"Lorelay Fox\" (era resposta de outra pergunta)"
   },
   {
     "id": "02af432c44",
@@ -2048,8 +2104,8 @@
     "alternativas": [
       "Hiperlink",
       "Cookie",
-      "Favicon",
-      "Hashtag"
+      "Breadcrumb",
+      "Âncora de rodapé"
     ],
     "subtema": "Internet e redes",
     "status": "gerada",
@@ -2057,7 +2113,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Favicon\" trocada por \"Breadcrumb\" (era resposta de outra pergunta); gerador r8: errada \"Hashtag\" trocada por \"Âncora de rodapé\" (era resposta de outra pergunta)"
   },
   {
     "id": "64e8ead319",
@@ -2066,8 +2123,8 @@
     "pergunta": "Qual recurso do Excel cria uma lista suspensa numa célula, limitando o que pode ser digitado?",
     "resposta": "Validação de dados",
     "alternativas": [
-      "Formatação condicional",
-      "Tabela dinâmica",
+      "Subtotal",
+      "Consolidar",
       "Atingir meta",
       "Validação de dados"
     ],
@@ -2077,7 +2134,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Formatação condicional\" trocada por \"Subtotal\" (era resposta de outra pergunta); gerador r8: errada \"Tabela dinâmica\" trocada por \"Consolidar\" (era resposta de outra pergunta)"
   },
   {
     "id": "711b4845d0",
@@ -2086,7 +2144,7 @@
     "pergunta": "Qual verme de 2004, criado por um estudante alemão, fez milhões de PCs com Windows reiniciarem sozinhos?",
     "resposta": "Sasser",
     "alternativas": [
-      "Melissa",
+      "Slammer",
       "Sasser",
       "Blaster",
       "Nimda"
@@ -2097,7 +2155,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Melissa\" trocada por \"Slammer\" (era resposta de outra pergunta)"
   },
   {
     "id": "b3cbf361b0",
@@ -2106,10 +2165,10 @@
     "pergunta": "Qual verme, descoberto em 2008, infectou milhões de computadores com Windows e virou alvo de uma força-tarefa mundial?",
     "resposta": "Conficker",
     "alternativas": [
-      "Stuxnet",
+      "Storm",
       "Conficker",
-      "Code Red",
-      "WannaCry"
+      "Zeus",
+      "Bagle"
     ],
     "subtema": "Segurança digital",
     "status": "gerada",
@@ -2117,7 +2176,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Stuxnet\" trocada por \"Storm\" (era resposta de outra pergunta); gerador r8: errada \"Code Red\" trocada por \"Zeus\" (era resposta de outra pergunta); gerador r8: errada \"WannaCry\" trocada por \"Bagle\" (era resposta de outra pergunta)"
   },
   {
     "id": "22a556eede",
@@ -2146,7 +2206,7 @@
     "pergunta": "Na subtração 9 − 4, como se chama o número 9?",
     "resposta": "Minuendo",
     "alternativas": [
-      "Dividendo",
+      "Fator",
       "Diferença",
       "Parcela",
       "Minuendo"
@@ -2157,7 +2217,8 @@
     "dup": "suspeita",
     "dup_ref": "id:6e9e1963a9",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "gerador r8: errada \"Dividendo\" trocada por \"Fator\" (era resposta de outra pergunta)"
   },
   {
     "id": "ba4534aab0",
@@ -2167,9 +2228,9 @@
     "resposta": "Problema de Monty Hall",
     "alternativas": [
       "Problema de Basileia",
-      "Dilema do prisioneiro",
+      "Problema dos dois envelopes",
       "Problema de Monty Hall",
-      "Paradoxo de Zenão"
+      "Paradoxo de Bertrand"
     ],
     "subtema": "Matemática e lógica",
     "status": "gerada",
@@ -2177,7 +2238,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Dilema do prisioneiro\" trocada por \"Problema dos dois envelopes\" (era resposta de outra pergunta); gerador r8: errada \"Paradoxo de Zenão\" trocada por \"Paradoxo de Bertrand\" (era resposta de outra pergunta)"
   },
   {
     "id": "90b84ff63a",
@@ -2208,7 +2270,7 @@
     "alternativas": [
       "Sucateiro de feira",
       "Garrafeiro",
-      "Amolador",
+      "Vidraceiro",
       "Mascate"
     ],
     "subtema": "Guerra Fria e século XX",
@@ -2217,7 +2279,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Amolador\" trocada por \"Vidraceiro\" (era resposta de outra pergunta)"
   },
   {
     "id": "4dc7b95d5c",
@@ -2226,7 +2289,7 @@
     "pergunta": "Qual relojoeiro escocês patenteou em 1775 o sifão em S do vaso sanitário, que barra o mau cheiro?",
     "resposta": "Alexander Cumming",
     "alternativas": [
-      "James Watt",
+      "Joseph Bramah",
       "Alexander Cumming",
       "Thomas Crapper",
       "John Harington"
@@ -2237,7 +2300,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:9685",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.4)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 15.4)",
+    "correcao": "gerador r8: errada \"James Watt\" trocada por \"Joseph Bramah\" (era resposta de outra pergunta)"
   },
   {
     "id": "11c73ee55f",
@@ -2246,7 +2310,7 @@
     "pergunta": "Qual americano patenteou o papel higiênico em rolo picotado, no fim do século XIX?",
     "resposta": "Seth Wheeler",
     "alternativas": [
-      "Joseph Gayetty",
+      "Edwin Budding",
       "Seth Wheeler",
       "Thomas Crapper",
       "Clarence Scott"
@@ -2257,7 +2321,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Joseph Gayetty\" trocada por \"Edwin Budding\" (era resposta de outra pergunta)"
   },
   {
     "id": "4fcd47323b",

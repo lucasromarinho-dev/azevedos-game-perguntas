@@ -86,10 +86,10 @@
     "pergunta": "Qual fenômeno faz a água subir sozinha por um guardanapo de papel encostado num copo?",
     "resposta": "Capilaridade",
     "alternativas": [
-      "Condensação",
+      "Adsorção",
       "Capilaridade",
       "Evaporação",
-      "Osmose"
+      "Difusão"
     ],
     "subtema": "Física e unidades",
     "status": "gerada",
@@ -97,7 +97,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Condensação\" trocada por \"Sublimação\" (era resposta de outra pergunta); gerador r8: errada \"Osmose\" trocada por \"Difusão\" (era resposta de outra pergunta); gerador r8: errada \"Sublimação\" trocada por \"Adsorção\" (era resposta de outra pergunta)"
   },
   {
     "id": "3bf649dd8b",
@@ -106,9 +107,9 @@
     "pergunta": "Qual efeito, que protege quem está dentro de um carro atingido por raio, leva o nome de um cientista inglês?",
     "resposta": "Gaiola de Faraday",
     "alternativas": [
-      "Efeito Doppler",
+      "Efeito Kelvin",
       "Gaiola de Faraday",
-      "Lei de Ohm",
+      "Efeito Seebeck",
       "Efeito Joule"
     ],
     "subtema": "Física e unidades",
@@ -117,7 +118,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Efeito Doppler\" trocada por \"Efeito Kelvin\" (era resposta de outra pergunta); gerador r8: errada \"Lei de Ohm\" trocada por \"Efeito Seebeck\" (era resposta de outra pergunta)"
   },
   {
     "id": "762c8e8d87",
@@ -128,7 +130,7 @@
     "alternativas": [
       "Sensação",
       "Negritude Júnior",
-      "Raça Negra",
+      "Os Morenos",
       "Katinguelê"
     ],
     "subtema": "Música brasileira",
@@ -137,7 +139,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Raça Negra\" trocada por \"Os Morenos\" (era resposta de outra pergunta)"
   },
   {
     "id": "78d4668a2f",
@@ -146,10 +149,10 @@
     "pergunta": "Qual fonte de aparência infantil, criada pela Microsoft em 1994, é famosa por ser usada em lugares sérios onde não devia?",
     "resposta": "Comic Sans",
     "alternativas": [
-      "Calibri",
+      "Tahoma",
       "Papyrus",
       "Comic Sans",
-      "Arial"
+      "Trebuchet"
     ],
     "subtema": "Empresas, marcas e fundadores",
     "status": "gerada",
@@ -157,7 +160,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Calibri\" trocada por \"Tahoma\" (era resposta de outra pergunta); gerador r8: errada \"Arial\" trocada por \"Trebuchet\" (era resposta de outra pergunta)"
   },
   {
     "id": "636632475b",
@@ -166,8 +170,8 @@
     "pergunta": "Como se chama a área no fim de cada página de um documento, onde costuma ficar o número da página?",
     "resposta": "Rodapé",
     "alternativas": [
-      "Margem",
-      "Cabeçalho",
+      "Entrelinha",
+      "Epígrafe",
       "Rodapé",
       "Sumário"
     ],
@@ -177,7 +181,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Margem\" trocada por \"Entrelinha\" (era resposta de outra pergunta); gerador r8: errada \"Cabeçalho\" trocada por \"Epígrafe\" (era resposta de outra pergunta)"
   },
   {
     "id": "44142089ba",
@@ -207,7 +212,7 @@
     "resposta": "Nova Jerusalém",
     "alternativas": [
       "Juazeiro do Norte",
-      "Olinda",
+      "Goiana",
       "Nova Jerusalém",
       "Caruaru"
     ],
@@ -217,7 +222,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Olinda\" trocada por \"Goiana\" (era resposta de outra pergunta)"
   },
   {
     "id": "25f46f750e",
@@ -228,8 +234,8 @@
     "alternativas": [
       "Feira da Glória",
       "Feira de São Cristóvão",
-      "Feira Hippie",
-      "Saara"
+      "Feira do Lavradio",
+      "Feira de Madureira"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
     "status": "gerada",
@@ -237,7 +243,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Feira Hippie\" trocada por \"Feira do Lavradio\" (era resposta de outra pergunta); gerador r8: errada \"Saara\" trocada por \"Feira de Madureira\" (era resposta de outra pergunta)"
   },
   {
     "id": "fdbc8eeb5a",
@@ -308,7 +315,7 @@
     "alternativas": [
       "Minimizar",
       "Restaurar",
-      "Maximizar",
+      "Ancorar",
       "Fechar"
     ],
     "subtema": "Hardware",
@@ -317,7 +324,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Maximizar\" trocada por \"Ancorar\" (era resposta de outra pergunta)"
   },
   {
     "id": "d271212c3b",
@@ -329,7 +337,7 @@
       "Restauração de fábrica",
       "Limpeza de cache",
       "Modo de segurança",
-      "Modo avião"
+      "Modo desenvolvedor"
     ],
     "subtema": "Celulares e gadgets",
     "status": "gerada",
@@ -337,7 +345,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:8572",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.3)"
+    "dup_regra": "resposta nova citada no texto antigo (6.3)",
+    "correcao": "gerador r8: errada \"Modo avião\" trocada por \"Modo desenvolvedor\" (era resposta de outra pergunta)"
   },
   {
     "id": "ebcda74bac",
@@ -346,9 +355,9 @@
     "pergunta": "Como se chama a internet do celular fornecida pela operadora, usada longe da rede sem fio de casa?",
     "resposta": "Dados móveis",
     "alternativas": [
-      "Roaming",
-      "Hotspot",
-      "Bluetooth",
+      "Banda larga fixa",
+      "Rede local",
+      "Wi-Fi Direct",
       "Dados móveis"
     ],
     "subtema": "Celulares e gadgets",
@@ -357,7 +366,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:3839",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Roaming\" trocada por \"Banda larga fixa\" (era resposta de outra pergunta); gerador r8: errada \"Hotspot\" trocada por \"Rede local\" (era resposta de outra pergunta); gerador r8: errada \"Bluetooth\" trocada por \"Wi-Fi Direct\" (era resposta de outra pergunta)"
   },
   {
     "id": "6a765ba0c2",
@@ -367,8 +377,8 @@
     "resposta": "Tempo técnico",
     "alternativas": [
       "Tempo técnico",
-      "Tie-break",
-      "Rodízio",
+      "Intervalo de set",
+      "Tempo médico",
       "Desafio"
     ],
     "subtema": "Vôlei",
@@ -377,7 +387,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Tie-break\" trocada por \"Intervalo de set\" (era resposta de outra pergunta); gerador r8: errada \"Rodízio\" trocada por \"Tempo médico\" (era resposta de outra pergunta)"
   },
   {
     "id": "cd68d64fb2",
@@ -386,9 +397,9 @@
     "pergunta": "Qual escritor contou em \"Feliz Ano Velho\" o acidente que o deixou tetraplégico aos 20 anos?",
     "resposta": "Marcelo Rubens Paiva",
     "alternativas": [
-      "Caio Fernando Abreu",
+      "Bernardo Kucinski",
       "Fernando Gabeira",
-      "Ruy Castro",
+      "Zuenir Ventura",
       "Marcelo Rubens Paiva"
     ],
     "subtema": "Literatura",
@@ -397,7 +408,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Caio Fernando Abreu\" trocada por \"Bernardo Kucinski\" (era resposta de outra pergunta); gerador r8: errada \"Ruy Castro\" trocada por \"Zuenir Ventura\" (era resposta de outra pergunta)"
   },
   {
     "id": "5f8e0cc356",
@@ -408,7 +420,7 @@
     "alternativas": [
       "Notepad",
       "OpenOffice",
-      "Google Docs",
+      "Lotus Manuscript",
       "WordPerfect"
     ],
     "subtema": "História da computação",
@@ -417,7 +429,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Google Docs\" trocada por \"Lotus Manuscript\" (era resposta de outra pergunta)"
   },
   {
     "id": "807c1758e0",
@@ -427,7 +440,7 @@
     "resposta": "Calibri",
     "alternativas": [
       "Calibri",
-      "Arial",
+      "Tahoma",
       "Verdana",
       "Helvetica"
     ],
@@ -437,7 +450,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Arial\" trocada por \"Tahoma\" (era resposta de outra pergunta)"
   },
   {
     "id": "a720ddaefa",
@@ -447,7 +461,7 @@
     "resposta": "Carequinha",
     "alternativas": [
       "Arrelia",
-      "Bozo",
+      "Picolino",
       "Carequinha",
       "Torresmo"
     ],
@@ -457,7 +471,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bozo\" trocada por \"Picolino\" (era resposta de outra pergunta)"
   },
   {
     "id": "45587a3b49",
@@ -667,8 +682,8 @@
     "resposta": "Baré",
     "alternativas": [
       "Baré",
-      "Potiguar",
-      "Tupi",
+      "Mura",
+      "Sateré",
       "Caeté"
     ],
     "subtema": "Brasil: estados, capitais e regiões",
@@ -677,7 +692,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Potiguar\" trocada por \"Mura\" (era resposta de outra pergunta); gerador r8: errada \"Tupi\" trocada por \"Sateré\" (era resposta de outra pergunta)"
   },
   {
     "id": "514fb46dd3",
@@ -688,7 +704,7 @@
     "alternativas": [
       "Silvio Santos",
       "Roberto Marinho",
-      "Assis Chateaubriand",
+      "Edmundo Monteiro",
       "Adolpho Bloch"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
@@ -697,7 +713,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Assis Chateaubriand\" trocada por \"Edmundo Monteiro\" (era resposta de outra pergunta)"
   },
   {
     "id": "f45ff50092",
@@ -787,7 +804,7 @@
     "pergunta": "Qual empresário, dono dos Diários Associados, inaugurou a primeira emissora de TV do Brasil, em 1950?",
     "resposta": "Assis Chateaubriand",
     "alternativas": [
-      "Roberto Marinho",
+      "Paulo Machado de Carvalho",
       "Assis Chateaubriand",
       "Adolpho Bloch",
       "Samuel Wainer"
@@ -798,7 +815,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Roberto Marinho\" trocada por \"Paulo Machado de Carvalho\" (era resposta de outra pergunta)"
   },
   {
     "id": "9aae5db23c",
@@ -910,7 +928,7 @@
       "Ida Rosenthal",
       "Mary Phelps Jacob",
       "Coco Chanel",
-      "Margaret Knight"
+      "Olivia Poole"
     ],
     "subtema": "Personagens, invenções e filosofia",
     "status": "gerada",
@@ -918,7 +936,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Margaret Knight\" trocada por \"Olivia Poole\" (era resposta de outra pergunta)"
   },
   {
     "id": "0a54a158c2",
@@ -929,7 +948,7 @@
     "alternativas": [
       "Quinzena",
       "Quinquênio",
-      "Bimestre",
+      "Novena",
       "Dezena"
     ],
     "subtema": "Matemática e lógica",
@@ -938,7 +957,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bimestre\" trocada por \"Novena\" (era resposta de outra pergunta)"
   },
   {
     "id": "8afe3ddc90",
@@ -948,7 +968,7 @@
     "resposta": "Bimestre",
     "alternativas": [
       "Bimestre",
-      "Biênio",
+      "Bissexto",
       "Trimestre",
       "Semestre"
     ],
@@ -958,7 +978,8 @@
     "dup": "suspeita",
     "dup_ref": "id:28b5cb643d",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
+    "correcao": "gerador r8: errada \"Biênio\" trocada por \"Bissexto\" (era resposta de outra pergunta)"
   },
   {
     "id": "821243b9ee",
@@ -987,7 +1008,7 @@
     "pergunta": "Qual sólido geométrico tem a forma de uma lata de refrigerante?",
     "resposta": "Cilindro",
     "alternativas": [
-      "Prisma",
+      "Pirâmide",
       "Cone",
       "Esfera",
       "Cilindro"
@@ -998,7 +1019,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:9568",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Prisma\" trocada por \"Pirâmide\" (era resposta de outra pergunta)"
   },
   {
     "id": "61f8196f69",
@@ -1007,9 +1029,9 @@
     "pergunta": "Como se chama o ponto onde se encontram dois lados de um triângulo?",
     "resposta": "Vértice",
     "alternativas": [
-      "Mediana",
+      "Base",
       "Diagonal",
-      "Aresta",
+      "Lado oposto",
       "Vértice"
     ],
     "subtema": "Matemática e lógica",
@@ -1018,7 +1040,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Mediana\" trocada por \"Base\" (era resposta de outra pergunta); gerador r8: errada \"Aresta\" trocada por \"Lado oposto\" (era resposta de outra pergunta)"
   },
   {
     "id": "ae2f963902",
@@ -1089,7 +1112,7 @@
     "alternativas": [
       "Lado",
       "Aresta",
-      "Vértice",
+      "Geratriz",
       "Altura"
     ],
     "subtema": "Matemática e lógica",
@@ -1098,7 +1121,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Vértice\" trocada por \"Geratriz\" (era resposta de outra pergunta)"
   },
   {
     "id": "c73d0565cf",
@@ -1128,8 +1152,8 @@
     "resposta": "Arvorismo",
     "alternativas": [
       "Canopy",
-      "Trekking",
-      "Rapel",
+      "Canionismo",
+      "Escalada indoor",
       "Arvorismo"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -1138,7 +1162,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Trekking\" trocada por \"Canionismo\" (era resposta de outra pergunta); gerador r8: errada \"Rapel\" trocada por \"Escalada indoor\" (era resposta de outra pergunta)"
   },
   {
     "id": "ab6b6090c0",
@@ -1148,9 +1173,9 @@
     "resposta": "Tirolesa",
     "alternativas": [
       "Tirolesa",
-      "Bungee jump",
+      "Pêndulo humano",
       "Escalada",
-      "Rapel"
+      "Escalada em rocha"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
@@ -1158,7 +1183,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Bungee jump\" trocada por \"Pêndulo humano\" (era resposta de outra pergunta); gerador r8: errada \"Rapel\" trocada por \"Escalada em rocha\" (era resposta de outra pergunta)"
   },
   {
     "id": "7b997bbfdf",
@@ -1209,7 +1235,7 @@
     "alternativas": [
       "Sumô",
       "Aikidô",
-      "Kendô",
+      "Kenpô",
       "Kyudo"
     ],
     "subtema": "Lutas, UFC e boxe",
@@ -1218,7 +1244,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Kendô\" trocada por \"Kenpô\" (era resposta de outra pergunta)"
   },
   {
     "id": "56e0ab22a7",
@@ -1269,7 +1296,7 @@
     "alternativas": [
       "Juca Kfouri",
       "Flávio Prado",
-      "Neto",
+      "Chico Lang",
       "Milton Neves"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
@@ -1278,7 +1305,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Neto\" trocada por \"Chico Lang\" (era resposta de outra pergunta)"
   },
   {
     "id": "243a9982c6",
@@ -1309,7 +1337,7 @@
     "alternativas": [
       "New York Mets",
       "Cleveland Guardians",
-      "Boston Red Sox",
+      "Philadelphia Phillies",
       "Chicago Cubs"
     ],
     "subtema": "Esportes americanos",
@@ -1318,7 +1346,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Boston Red Sox\" trocada por \"Philadelphia Phillies\" (era resposta de outra pergunta)"
   },
   {
     "id": "ba5eeef313",
@@ -1350,7 +1379,7 @@
       "Denver Broncos",
       "Las Vegas Raiders",
       "San Francisco 49ers",
-      "Pittsburgh Steelers"
+      "Seattle Seahawks"
     ],
     "subtema": "Esportes americanos",
     "status": "gerada",
@@ -1358,7 +1387,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Pittsburgh Steelers\" trocada por \"Seattle Seahawks\" (era resposta de outra pergunta)"
   },
   {
     "id": "085d39dbde",
@@ -1388,9 +1418,9 @@
     "resposta": "Sevilla",
     "alternativas": [
       "Sevilla",
-      "Villarreal",
-      "Real Betis",
-      "Valencia"
+      "Getafe",
+      "Espanyol",
+      "Celta de Vigo"
     ],
     "subtema": "Futebol europeu",
     "status": "gerada",
@@ -1398,7 +1428,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:6339",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.5)",
+    "correcao": "gerador r8: errada \"Villarreal\" trocada por \"Getafe\" (era resposta de outra pergunta); gerador r8: errada \"Real Betis\" trocada por \"Espanyol\" (era resposta de outra pergunta); gerador r8: errada \"Valencia\" trocada por \"Celta de Vigo\" (era resposta de outra pergunta)"
   },
   {
     "id": "a3a49be2de",
@@ -1408,9 +1439,9 @@
     "resposta": "Canoagem slalom",
     "alternativas": [
       "Canoagem de velocidade",
-      "Rafting",
+      "Caiaque polo",
       "Canoagem slalom",
-      "Remo"
+      "Dragon boat"
     ],
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
@@ -1419,7 +1450,8 @@
     "dup_ref": "id:014d78c7ad",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (13.6, 23% do fato)",
-    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de id:014d78c7ad (E2 mesma resposta e mesmo assunto (13.6, 23% do fato))"
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de id:014d78c7ad (E2 mesma resposta e mesmo assunto (13.6, 23% do fato))",
+    "correcao": "gerador r8: errada \"Rafting\" trocada por \"Caiaque polo\" (era resposta de outra pergunta); gerador r8: errada \"Remo\" trocada por \"Dragon boat\" (era resposta de outra pergunta)"
   },
   {
     "id": "98ac448f1a",
@@ -1428,9 +1460,9 @@
     "pergunta": "Qual reality de confeitaria do SBT põe amadores para disputar com bolos e doces?",
     "resposta": "Bake Off Brasil",
     "alternativas": [
-      "Hell's Kitchen",
+      "Cozinha sob Pressão",
       "Cake Boss",
-      "MasterChef",
+      "Duelo de Cozinha",
       "Bake Off Brasil"
     ],
     "subtema": "Reality shows (BBB, A Fazenda etc.)",
@@ -1439,7 +1471,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Hell's Kitchen\" trocada por \"Cozinha sob Pressão\" (era resposta de outra pergunta); gerador r8: errada \"MasterChef\" trocada por \"Duelo de Cozinha\" (era resposta de outra pergunta)"
   },
   {
     "id": "d7b6a01ba9",
@@ -1449,7 +1482,7 @@
     "resposta": "Super Nanny",
     "alternativas": [
       "Casos de Família",
-      "Esquadrão da Moda",
+      "Troca de Famílias",
       "Fala Que Eu Te Escuto",
       "Super Nanny"
     ],
@@ -1459,7 +1492,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Esquadrão da Moda\" trocada por \"Troca de Famílias\" (era resposta de outra pergunta)"
   },
   {
     "id": "5d9b887609",
@@ -1469,9 +1503,9 @@
     "resposta": "Esquadrão da Moda",
     "alternativas": [
       "Troca de Esposas",
-      "Lata Velha",
+      "Casa Bonita",
       "Esquadrão da Moda",
-      "Super Nanny"
+      "Antes e Depois"
     ],
     "subtema": "Reality shows (BBB, A Fazenda etc.)",
     "status": "gerada",
@@ -1479,7 +1513,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Lata Velha\" trocada por \"Casa Bonita\" (era resposta de outra pergunta); gerador r8: errada \"Super Nanny\" trocada por \"Antes e Depois\" (era resposta de outra pergunta)"
   },
   {
     "id": "dec5b0aaee",
@@ -1488,7 +1523,7 @@
     "pergunta": "Qual quadro de sábado da Globo, apresentado por Luciano Huck, desafiava estudantes a soletrar palavras difíceis?",
     "resposta": "Soletrando",
     "alternativas": [
-      "Lata Velha",
+      "Mandando Bem",
       "Lar Doce Lar",
       "Soletrando",
       "Agora ou Nunca"
@@ -1500,7 +1535,8 @@
     "dup_ref": "banco:6044",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 27.8)",
-    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8: o enunciado descreve o programa de Luciano Huck sem citar o nome que é resposta de banco:6044"
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8: o enunciado descreve o programa de Luciano Huck sem citar o nome que é resposta de banco:6044",
+    "correcao": "gerador r8: errada \"Lata Velha\" trocada por \"Mandando Bem\" (era resposta de outra pergunta)"
   },
   {
     "id": "f98fb43ba5",
@@ -1509,7 +1545,7 @@
     "pergunta": "Qual desafio viral de 2016 tinha grupos de pessoas paradas como estátuas enquanto a câmera passava?",
     "resposta": "Mannequin Challenge",
     "alternativas": [
-      "Harlem Shake",
+      "Cinnamon Challenge",
       "Planking",
       "Kiki Challenge",
       "Mannequin Challenge"
@@ -1521,7 +1557,8 @@
     "dup_ref": "banco:4501",
     "recente": false,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (14.8)",
-    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de banco:4501 (E2d respostas dividem a palavra rara + muito assunto em comum (14.8))"
+    "dup_revisado": "falso positivo revisado pelo gerador da rodada 8 (fato diferente: feriado de 20 de novembro x Finados; canoagem x esqui; Mannequin x Ice Bucket sem cruzar alternativas; reality x desenho); antes: duplicada certa de banco:4501 (E2d respostas dividem a palavra rara + muito assunto em comum (14.8))",
+    "correcao": "gerador r8: errada \"Harlem Shake\" trocada por \"Cinnamon Challenge\" (era resposta de outra pergunta)"
   },
   {
     "id": "6c3ab356df",
@@ -1531,7 +1568,7 @@
     "resposta": "Garfinho",
     "alternativas": [
       "Duke Caboom",
-      "Lotso",
+      "Gabby Gabby",
       "Garfinho",
       "Forky Jr."
     ],
@@ -1541,7 +1578,8 @@
     "dup": "suspeita",
     "dup_ref": "id:a92e7ab820",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "correcao": "gerador r8: errada \"Lotso\" trocada por \"Gabby Gabby\" (era resposta de outra pergunta)"
   },
   {
     "id": "a6c740ff09",
@@ -1550,8 +1588,8 @@
     "pergunta": "Qual escola de samba carioca tem Martinho da Vila como seu maior ícone?",
     "resposta": "Vila Isabel",
     "alternativas": [
-      "Mangueira",
-      "Portela",
+      "Caprichosos de Pilares",
+      "União da Ilha",
       "Salgueiro",
       "Vila Isabel"
     ],
@@ -1561,7 +1599,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Mangueira\" trocada por \"Caprichosos de Pilares\" (era resposta de outra pergunta); gerador r8: errada \"Portela\" trocada por \"União da Ilha\" (era resposta de outra pergunta)"
   },
   {
     "id": "b8a418c338",
@@ -1571,8 +1610,8 @@
     "resposta": "Ruth Lemos",
     "alternativas": [
       "Valesca Popozuda",
-      "Inês Brasil",
-      "Gretchen",
+      "Mara Maravilha",
+      "Narcisa Tamborindeguy",
       "Ruth Lemos"
     ],
     "subtema": "Memes e internet",
@@ -1581,7 +1620,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Inês Brasil\" trocada por \"Mara Maravilha\" (era resposta de outra pergunta); gerador r8: errada \"Gretchen\" trocada por \"Narcisa Tamborindeguy\" (era resposta de outra pergunta)"
   },
   {
     "id": "f15ac7e106",
@@ -1732,9 +1772,9 @@
     "resposta": "Império Serrano",
     "alternativas": [
       "Império Serrano",
-      "Portela",
-      "Vila Isabel",
-      "Imperatriz Leopoldinense"
+      "Estácio de Sá",
+      "Unidos do Viradouro",
+      "São Clemente"
     ],
     "subtema": "Música brasileira",
     "status": "gerada",
@@ -1742,7 +1782,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Portela\" trocada por \"Estácio de Sá\" (era resposta de outra pergunta); gerador r8: errada \"Vila Isabel\" trocada por \"Unidos do Viradouro\" (era resposta de outra pergunta); gerador r8: errada \"Imperatriz Leopoldinense\" trocada por \"São Clemente\" (era resposta de outra pergunta)"
   },
   {
     "id": "b1d3e5f610",
@@ -1791,9 +1832,9 @@
     "pergunta": "Qual contista curitibano, avesso a entrevistas e fotos, era chamado de Vampiro de Curitiba?",
     "resposta": "Dalton Trevisan",
     "alternativas": [
-      "Cristovão Tezza",
-      "Paulo Leminski",
-      "Rubem Fonseca",
+      "Miguel Sanches Neto",
+      "Wilson Bueno",
+      "Valêncio Xavier",
       "Dalton Trevisan"
     ],
     "subtema": "Literatura",
@@ -1802,7 +1843,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cristovão Tezza\" trocada por \"Miguel Sanches Neto\" (era resposta de outra pergunta); gerador r8: errada \"Paulo Leminski\" trocada por \"Wilson Bueno\" (era resposta de outra pergunta); gerador r8: errada \"Rubem Fonseca\" trocada por \"Valêncio Xavier\" (era resposta de outra pergunta)"
   },
   {
     "id": "e4adc0d5e5",
@@ -1811,10 +1853,10 @@
     "pergunta": "Qual escritora paulista publicou \"As Meninas\", romance de 1973 sobre três estudantes?",
     "resposta": "Lygia Fagundes Telles",
     "alternativas": [
-      "Clarice Lispector",
+      "Nélida Piñon",
       "Lygia Fagundes Telles",
-      "Rachel de Queiroz",
-      "Hilda Hilst"
+      "Zulmira Ribeiro Tavares",
+      "Edla van Steen"
     ],
     "subtema": "Literatura",
     "status": "gerada",
@@ -1822,7 +1864,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Clarice Lispector\" trocada por \"Nélida Piñon\" (era resposta de outra pergunta); gerador r8: errada \"Rachel de Queiroz\" trocada por \"Zulmira Ribeiro Tavares\" (era resposta de outra pergunta); gerador r8: errada \"Hilda Hilst\" trocada por \"Edla van Steen\" (era resposta de outra pergunta)"
   },
   {
     "id": "67c75eab02",
@@ -1831,9 +1874,9 @@
     "pergunta": "Qual poeta e escritora paulista viveu reclusa na Casa do Sol, em Campinas?",
     "resposta": "Hilda Hilst",
     "alternativas": [
-      "Cecília Meireles",
-      "Adélia Prado",
-      "Ana Cristina Cesar",
+      "Renata Pallottini",
+      "Orides Fontela",
+      "Olga Savary",
       "Hilda Hilst"
     ],
     "subtema": "Literatura",
@@ -1842,7 +1885,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Cecília Meireles\" trocada por \"Renata Pallottini\" (era resposta de outra pergunta); gerador r8: errada \"Adélia Prado\" trocada por \"Orides Fontela\" (era resposta de outra pergunta); gerador r8: errada \"Ana Cristina Cesar\" trocada por \"Olga Savary\" (era resposta de outra pergunta)"
   },
   {
     "id": "dbccfdc9fc",
@@ -1851,7 +1895,7 @@
     "pergunta": "Qual escritor gaúcho publicou \"Morangos Mofados\", em 1982?",
     "resposta": "Caio Fernando Abreu",
     "alternativas": [
-      "Erico Verissimo",
+      "João Gilberto Noll",
       "Caio Fernando Abreu",
       "Luis Fernando Verissimo",
       "Moacyr Scliar"
@@ -1862,7 +1906,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Erico Verissimo\" trocada por \"João Gilberto Noll\" (era resposta de outra pergunta)"
   },
   {
     "id": "10f69ab77c",
@@ -1951,9 +1996,9 @@
     "pergunta": "Qual engenheiro indiano-americano da Intel é tido como coinventor do USB?",
     "resposta": "Ajay Bhatt",
     "alternativas": [
-      "Satya Nadella",
+      "Vinod Dham",
       "Vinod Khosla",
-      "Sundar Pichai",
+      "Raj Reddy",
       "Ajay Bhatt"
     ],
     "subtema": "Hardware",
@@ -1962,7 +2007,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Satya Nadella\" trocada por \"Vinod Dham\" (era resposta de outra pergunta); gerador r8: errada \"Sundar Pichai\" trocada por \"Raj Reddy\" (era resposta de outra pergunta)"
   },
   {
     "id": "31c493de73",
@@ -2134,7 +2180,7 @@
       "Arial",
       "Garamond",
       "Courier",
-      "Times New Roman"
+      "Futura"
     ],
     "subtema": "Empresas, marcas e fundadores",
     "status": "gerada",
@@ -2142,7 +2188,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Times New Roman\" trocada por \"Futura\" (era resposta de outra pergunta)"
   },
   {
     "id": "de1f854239",
@@ -2191,9 +2238,9 @@
     "pergunta": "Como se chama o esporte de descer corredeiras sentado numa boia, famoso em Brotas, no interior paulista?",
     "resposta": "Boia-cross",
     "alternativas": [
-      "Canoagem",
-      "Rafting",
-      "Stand up paddle",
+      "Acqua ride",
+      "Hidrospeed",
+      "Caiaque inflável",
       "Boia-cross"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
@@ -2202,7 +2249,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Canoagem\" trocada por \"Acqua ride\" (era resposta de outra pergunta); gerador r8: errada \"Rafting\" trocada por \"Hidrospeed\" (era resposta de outra pergunta); gerador r8: errada \"Stand up paddle\" trocada por \"Caiaque inflável\" (era resposta de outra pergunta)"
   },
   {
     "id": "5b6cb969a5",
@@ -2214,7 +2262,7 @@
       "Apneia",
       "Mergulho autônomo",
       "Mergulho livre",
-      "Snorkel"
+      "Mergulho de superfície"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
@@ -2222,6 +2270,7 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"Snorkel\" trocada por \"Mergulho de superfície\" (era resposta de outra pergunta)"
   }
 ]

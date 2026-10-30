@@ -2425,13 +2425,13 @@
     {
       "lote": "066",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 131,
+      "escritas": 136,
       "validas": 107,
-      "descartadas": 24,
-      "taxa_descarte": 0.18,
-      "caracteres": 20880,
-      "tokens_aprox": 5966,
-      "rodadas_de_reposicao": 4,
+      "descartadas": 29,
+      "taxa_descarte": 0.21,
+      "caracteres": 21529,
+      "tokens_aprox": 6151,
+      "rodadas_de_reposicao": 5,
       "candidatas_usadas": [
         "r7-066.txt",
         "r7-066b.txt",
@@ -2455,28 +2455,28 @@
         "candidatas_por_valida": 7.24
       },
       "perguntas": {
-        "escritas": 131,
+        "escritas": 136,
         "validas": 107,
-        "descartadas_detector": 24,
-        "descarte": 0.18,
-        "tokens_aprox": 5966
+        "descartadas_detector": 29,
+        "descarte": 0.21,
+        "tokens_aprox": 6151
       },
       "tokens_por_valida": {
         "listas": 128,
-        "perguntas": 56,
-        "total": 184
+        "perguntas": 57,
+        "total": 186
       }
     },
     {
       "lote": "067",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 106,
+      "escritas": 109,
       "validas": 93,
-      "descartadas": 13,
-      "taxa_descarte": 0.12,
-      "caracteres": 15633,
-      "tokens_aprox": 4467,
-      "rodadas_de_reposicao": 3,
+      "descartadas": 16,
+      "taxa_descarte": 0.15,
+      "caracteres": 16056,
+      "tokens_aprox": 4587,
+      "rodadas_de_reposicao": 4,
       "candidatas_usadas": [
         "r7-067.txt",
         "r7-067b.txt",
@@ -2498,16 +2498,16 @@
         "candidatas_por_valida": 3.04
       },
       "perguntas": {
-        "escritas": 106,
+        "escritas": 109,
         "validas": 93,
-        "descartadas_detector": 13,
-        "descarte": 0.12,
-        "tokens_aprox": 4467
+        "descartadas_detector": 16,
+        "descarte": 0.15,
+        "tokens_aprox": 4587
       },
       "tokens_por_valida": {
         "listas": 49,
-        "perguntas": 48,
-        "total": 98
+        "perguntas": 49,
+        "total": 99
       }
     },
     {
@@ -7913,6 +7913,22 @@
       "livres": 10,
       "caracteres": 930,
       "tokens_aprox": 266
+    },
+    "r7-069.txt": {
+      "linhas": 221,
+      "existem": 97,
+      "risco": 26,
+      "livres": 98,
+      "caracteres": 13109,
+      "tokens_aprox": 3745
+    },
+    "r7-069b.txt": {
+      "linhas": 14,
+      "existem": 9,
+      "risco": 2,
+      "livres": 3,
+      "caracteres": 814,
+      "tokens_aprox": 233
     }
   },
   "rodada3": {

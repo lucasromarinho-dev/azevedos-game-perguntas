@@ -87,9 +87,9 @@
     "resposta": "Diâmetro",
     "alternativas": [
       "Tangente",
-      "Diâmetro",
+      "Arco",
       "Raio",
-      "Arco"
+      "Diâmetro"
     ],
     "subtema": "Matemática e lógica",
     "status": "gerada",
@@ -175,9 +175,9 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "id:6c49e639dd",
+    "dup_ref": "id:3e1f1007f7",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (11.3, sim 0.3)"
   },
   {
     "id": "9b75567639",
@@ -352,12 +352,12 @@
       "Ni hao"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:8b82fe4bdb (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:8b82fe4bdb",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 12.2)"
   },
   {
     "id": "9008fb82ac",
@@ -872,12 +872,12 @@
       "Umbro"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:1c63ac821b (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:1c63ac821b",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (14.2, sim 0.6)"
   },
   {
     "id": "b059e19094",
@@ -1212,12 +1212,12 @@
       "Do Fundo do Mar"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:5181",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:9d6dedac19 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:9d6dedac19",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.8)"
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "8f61858795",
@@ -1254,10 +1254,10 @@
     "subtema": "Cinema internacional e Oscar",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:6939",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.6)"
+    "dup_regra": null
   },
   {
     "id": "976cc7eddc",
@@ -2112,6 +2112,66 @@
       "Gim"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cd5daa7125",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em inglês, o que significa a palavra \"lecture\"?",
+    "resposta": "Palestra",
+    "alternativas": [
+      "Lição",
+      "Palestra",
+      "Biblioteca",
+      "Leitura"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "34f001e2a8",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o vídeo produzido para divulgar uma música?",
+    "resposta": "Videoclipe",
+    "alternativas": [
+      "Making of",
+      "Teaser",
+      "Videoclipe",
+      "Trailer"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dc954b2a6f",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o conjunto de prédios onde os atletas ficam hospedados durante os Jogos Olímpicos?",
+    "resposta": "Vila olímpica",
+    "alternativas": [
+      "Centro de treinamento",
+      "Arena olímpica",
+      "Vila olímpica",
+      "Parque olímpico"
+    ],
+    "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

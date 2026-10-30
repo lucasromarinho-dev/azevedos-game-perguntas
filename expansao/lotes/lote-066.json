@@ -26,8 +26,8 @@
     "pergunta": "Numa porta em país de língua inglesa, o que manda fazer a placa \"push\"?",
     "resposta": "Empurrar",
     "alternativas": [
-      "Empurrar",
       "Bater",
+      "Empurrar",
       "Trancar",
       "Puxar"
     ],
@@ -46,10 +46,10 @@
     "pergunta": "Em inglês, o que significa a palavra \"parents\"?",
     "resposta": "Pai e mãe",
     "alternativas": [
-      "Pai e mãe",
+      "Parentes",
       "Padrinhos",
       "Vizinhos",
-      "Parentes"
+      "Pai e mãe"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
     "status": "gerada",
@@ -1232,12 +1232,12 @@
       "Umbro"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:19faa69067 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:19faa69067",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "8328b2b3f6",
@@ -1632,12 +1632,12 @@
       "Ravel"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:6cbe2112db (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:6cbe2112db",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (25.5, sim 0.6)"
   },
   {
     "id": "93ad167313",
@@ -1654,10 +1654,10 @@
     "subtema": "Música internacional",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "id:a5b3f994b9",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 14.6)"
   },
   {
     "id": "ea87e9e58a",
@@ -2134,10 +2134,10 @@
     "subtema": "Celulares e gadgets",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "id:d63a54dbcd",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (18.6)"
   },
   {
     "id": "2e354528ce",
@@ -2232,12 +2232,12 @@
       "Plutônio"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:4c53505c5c (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:4c53505c5c",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 13.8)"
   },
   {
     "id": "66925be934",
@@ -2452,12 +2452,12 @@
       "Puccini"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:299349c4a9 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:299349c4a9",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "63d04250b7",
@@ -2612,6 +2612,106 @@
       "Yokohama Marinos"
     ],
     "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dc2f399cab",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ala da seleção campeã mundial de basquete feminino em 1994 brilhou depois na WNBA pelo Houston Comets?",
+    "resposta": "Janeth",
+    "alternativas": [
+      "Janeth",
+      "Hortência",
+      "Paula",
+      "Alessandra"
+    ],
+    "subtema": "Basquete e NBA",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3151 (E2 mesma resposta e mesmo assunto (35.6, 100% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:3151",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (35.6, 100% do fato)"
+  },
+  {
+    "id": "3cf71d498a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora escreveu \"Menina Bonita do Laço de Fita\"?",
+    "resposta": "Ana Maria Machado",
+    "alternativas": [
+      "Ruth Rocha",
+      "Ana Maria Machado",
+      "Sylvia Orthof",
+      "Eva Furnari"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c1f6b9740a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cartunista mineiro criou a Graúna e os Fradinhos?",
+    "resposta": "Henfil",
+    "alternativas": [
+      "Henfil",
+      "Millôr Fernandes",
+      "Jaguar",
+      "Ziraldo"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cd524ffba6",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual linguagem de programação é usada para criar macros no Microsoft Office?",
+    "resposta": "VBA",
+    "alternativas": [
+      "JavaScript",
+      "Python",
+      "C#",
+      "VBA"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de352daca8",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual norueguesa ganhou a primeira Bola de Ouro feminina, em 2018?",
+    "resposta": "Ada Hegerberg",
+    "alternativas": [
+      "Ada Hegerberg",
+      "Megan Rapinoe",
+      "Pernille Harder",
+      "Marta"
+    ],
+    "subtema": "Seleção e craques",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

@@ -8215,6 +8215,123 @@
           "dificuldade": "7dc4e63093: undefined",
           "errada defensavel": "dd5bb02491: erradas Suspiro e Merengue são a própria base da sobremesa (o enunciado diz 'sobremesa de suspiro'); trocadas por sobremesas"
         }
+      },
+      {
+        "lote": "073",
+        "conferente": "conferente-v7",
+        "conferidas": 90,
+        "conferidas_sem_mudanca": 55,
+        "com_mudanca": 35,
+        "corrigidas": 35,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "molde repetido": 1,
+          "duplicada": 2
+        },
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 6,
+        "suspeitas": {
+          "total": 18,
+          "mantidas": 16,
+          "reescritas": 0,
+          "descartadas": 2
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 6,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 11,
+            "corrigidas": 6,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 6,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 9,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 2
+          }
+        },
+        "descartes": [
+          "977387800f: molde repetido: 8 perguntas 'qual palavra latina deu o símbolo X' na rodada (Aurum, Argentum, Plumbum, Hydrargyrum, Stannum, Cuprum, Ferrum, Natrium), com as respostas cruzadas nas alternativas; cortado o excesso (Aurum, a mais óbvia)",
+          "96e737d643: duplicada: mesmo fato que banco:5050 ('Qual loja online, de origem asiática e cor laranja, cresceu muito no Brasil...' => Shopee)",
+          "7db58a0664: duplicada: mesmo fato que banco:5224 ('Como se chama a bateria portátil usada para recarregar o celular fora de casa?' => Power bank), com outro nome para a resposta"
+        ],
+        "correcoes": [
+          "536849853e: Rui Barbosa - errada Joaquim Nabuco era a resposta de banco:1178 (respostas cruzadas); trocada",
+          "63ea191503: Thiago Ventura - o bordão 'põe na conta' não foi confirmado em fonte; trocado pelo gesto 'pose de quebrada', confirmado (site do Palmeiras)",
+          "32c3466f9a: Essuatíni - errada Lesoto era a resposta de banco:765 (respostas cruzadas); trocada",
+          "344eb772e8: Taylorismo - erradas Toyotismo e Fordismo eram respostas de 072:f22e23 e 072:ae431e (respostas cruzadas); trocadas",
+          "c7193e1709: Infrassom - erradas Ultrassom e Eco eram respostas de banco:2132 (respostas cruzadas) e 063:5d2835; trocadas",
+          "0e93fac5cc: Embaúba - erradas Jatobá e Ipê eram respostas de 074:83d840 e banco:4899, do mesmo molde (árvore brasileira); trocadas",
+          "d157d9f00d: Aroeira - erradas Jatobá e Embaúba eram respostas de 074:83d840 e 0e93f (mesmo lote); trocadas",
+          "dd79bec2a9: Praia Clube - erradas Minas Tênis Clube e Osasco eram respostas de 595a0 (mesmo lote) e banco:8831, do mesmo molde; trocadas",
+          "39f605d654: Lombardia - errada Toscana era a resposta de 070:e2552a, do mesmo molde (região italiana); trocada",
+          "f5df57add0: Flandres - errada Brabante é defensável (o Brabante Flamengo fala holandês); trocada",
+          "922e6d9a19: Juneau - errada Anchorage era a resposta de banco:6498, que tem Juneau entre as erradas (respostas cruzadas); trocada",
+          "16b1892bac: Vikings - errada Normandos (descendentes dos vikings) é defensável; trocada",
+          "9b42f855e6: Caravela - errada Nau era a resposta de banco:7900, que tem Caravela entre as erradas (respostas cruzadas); trocada",
+          "ae38dfb32d: Aspirante - errada Cadete (aluno da academia, resposta de 068:47281c) é defensável para quem ainda não se formou; trocada",
+          "49b757f25d: Aung San Suu Kyi - erradas Rigoberta Menchú e Wangari Maathai eram respostas de 071:13d95c (respostas cruzadas) e 070:0f9a8e; trocadas",
+          "d91feb111a: Pistilo - errada Antera era a resposta de 074:9a35bc, do mesmo molde; trocada",
+          "ff7b7170b8: Detritívoro - errada Nectarívoro era a resposta de 069:c7bb16, do mesmo molde; trocada",
+          "6f76d32a8e: Hydrargyrum - as três erradas eram respostas de 5db55, 075:bdbb66 e da descartada 97738, do mesmo molde; trocadas",
+          "9e7692de98: Caratê - errada Taekwondo era a resposta de banco:5021, que tem Caratê entre as erradas (respostas cruzadas); trocada",
+          "6f92f2fe91: 2008 - errada 2002 era a resposta de 071:62f764, do mesmo molde (ano do rebaixamento); trocada",
+          "ec87109ed5: 2016 - errada 2008 era a resposta de 6f92f (mesmo lote), do mesmo molde; trocada",
+          "03e9ead50d: Castilho - erradas Gilmar e Barbosa eram respostas de banco:6433 e banco:2730, com Castilho entre as erradas (respostas cruzadas); trocadas",
+          "b9c211c30d: Colleen Hoover - errada Sally Rooney era a resposta de 48844 (mesmo lote), que tinha Colleen Hoover entre as erradas (respostas cruzadas); trocada",
+          "48844a2cc6: Sally Rooney - erradas Elena Ferrante e Colleen Hoover eram respostas de 8d261 e b9c21 (mesmo lote); trocadas",
+          "fda9c128ea: KPop Demon Hunters - errada Flow era a resposta de ac754 (mesmo lote), do mesmo molde; trocada",
+          "c8d1ed0fb0: Audiolivro - errada E-book era a resposta de 074:b0c8da, do mesmo molde; trocada",
+          "1d533c6cd9: Orelha - errada Prefácio era a resposta de 074:3533b9, do mesmo molde; trocada",
+          "522db715c3: Haruki Murakami - errada Kazuo Ishiguro era a resposta de ac3ba (mesmo lote), que tinha Murakami entre as erradas (respostas cruzadas); trocada",
+          "ac3ba6fa8b: Kazuo Ishiguro - errada Haruki Murakami era a resposta de 522db (mesmo lote); trocada",
+          "7dc27f96cc: Ansel Adams - as três erradas eram respostas de 070:a94d3f, 070:e8363c e 070:f7a08b (respostas cruzadas); trocadas",
+          "bca78a7fc8: Menlo Park - errada Cupertino era a resposta de banco:4038, do mesmo molde (sede na Califórnia); trocada",
+          "0200f4749c: Tetsuo Okamoto - errada Manoel dos Santos era a resposta de 074:ea618d, que tem Tetsuo Okamoto entre as erradas (respostas cruzadas); trocada",
+          "2cce1c9ef0: Sankhya - errada TOTVS era a resposta de banco:4253, que tem Sankhya entre as erradas (respostas cruzadas); trocada",
+          "0bec6935f9: Tableau - errada Power BI era a resposta de 069:cf570a, do mesmo molde; trocada",
+          "2b4fbb027c: Jira - errada Trello também é da Atlassian e usada para gerenciar tarefas (defensável); trocada"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 32,
+          "molde repetido": 1,
+          "fato impreciso": 1,
+          "errada defensavel": 4
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "536849853e: errada Joaquim Nabuco era a resposta de banco:1178 (respostas cruzadas); trocada",
+          "molde repetido": "977387800f: molde repetido: 8 perguntas 'qual palavra latina deu o símbolo X' na rodada (Aurum, Argentum, Plumbum, Hydrargyrum, Stannum, Cuprum, Ferrum, Natrium), com as respostas cruzadas nas alternativas; cortado o excesso (Aurum, a mais óbvia)",
+          "fato impreciso": "63ea191503: o bordão 'põe na conta' não foi confirmado em fonte; trocado pelo gesto 'pose de quebrada', confirmado (site do Palmeiras)",
+          "errada defensavel": "f5df57add0: errada Brabante é defensável (o Brabante Flamengo fala holandês); trocada"
+        }
       }
     ],
     "rebaixamentos_r3": {

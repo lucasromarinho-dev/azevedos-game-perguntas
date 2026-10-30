@@ -9244,6 +9244,106 @@
           "errada defensavel": "f19c1a6b0d: errada Canopy também é usada para o circuito de arvorismo e tirolesa nas copas (defensável); trocada",
           "alternativa repetida": "ab6b6090c0: erradas Escalada e Escalada em rocha eram quase a mesma alternativa; trocada"
         }
+      },
+      {
+        "lote": "078",
+        "conferente": "conferente-v8",
+        "conferidas": 100,
+        "conferidas_sem_mudanca": 92,
+        "com_mudanca": 8,
+        "corrigidas": 3,
+        "rebaixadas": 5,
+        "subidas": 0,
+        "descartadas": 5,
+        "motivos_descarte": {
+          "molde repetido": 4,
+          "entrega a resposta": 1
+        },
+        "perguntas_com_busca_web": 12,
+        "buscas_web": 11,
+        "suspeitas": {
+          "total": 11,
+          "mantidas": 11,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 3,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 4
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "015196c637: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8, ficando as melhores (Paula Fernandes saiu)",
+          "a7ce055876: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Henrique & Juliano já é resposta de banco:4935 e banco:6546)",
+          "cf8baa0dda: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Detonautas saiu)",
+          "5d3155016f: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8 (Maneva saiu)",
+          "2874b8305a: enunciado entrega a resposta: o estádio Villa Park leva o nome do Aston Villa"
+        ],
+        "correcoes": [
+          "df2f547252: Kibon - a empresa nasceu em 1941 (Harkson) e os primeiros sorvetes saíram em 1942; 'criada em 1942' trocado por 'nos anos 1940' (checagem web)",
+          "24f3c27ed0: Mappin - o Mappin faliu em 1999, mas o prédio seguiu como Extra Mappin até 2003; 'fechou' trocado por 'faliu' (checagem web)",
+          "bd6a6462c0: Dízima periódica - dízima periódica é conceito de escola conhecido pelo nome; rebaixada",
+          "b96c839849: Fernando Pamplona - errada Arlindo Rodrigues fazia parte da equipe de Pamplona no Salgueiro dos anos 1960 (defensável); trocada",
+          "62eb8a7aeb: IDE - IDE é sigla conhecida de quem programa; rebaixada",
+          "86f9845b0b: Camel case - camel case é conceito conhecido pelo nome; rebaixada",
+          "9cf40030ff: Logaritmo - logaritmo é conceito de escola conhecido pelo nome; rebaixada",
+          "7737844850: Número de Euler - o número e (de Euler) é conceito conhecido pelo nome; rebaixada"
+        ],
+        "rebaixamentos": [
+          "bd6a6462c0: Dízima periódica dificil -> medio",
+          "62eb8a7aeb: IDE dificil -> medio",
+          "86f9845b0b: Camel case dificil -> medio",
+          "9cf40030ff: Logaritmo dificil -> medio",
+          "7737844850: Número de Euler dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 2,
+          "dificuldade": 5,
+          "molde repetido": 4,
+          "errada defensavel": 1,
+          "entrega a resposta": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "df2f547252: a empresa nasceu em 1941 (Harkson) e os primeiros sorvetes saíram em 1942; 'criada em 1942' trocado por 'nos anos 1940' (checagem web)",
+          "dificuldade": "bd6a6462c0: dízima periódica é conceito de escola conhecido pelo nome; rebaixada",
+          "molde repetido": "015196c637: molde repetido: 23 perguntas 'qual banda/cantor gravou X' na rodada; cortado para 8, ficando as melhores (Paula Fernandes saiu)",
+          "errada defensavel": "b96c839849: errada Arlindo Rodrigues fazia parte da equipe de Pamplona no Salgueiro dos anos 1960 (defensável); trocada",
+          "entrega a resposta": "2874b8305a: enunciado entrega a resposta: o estádio Villa Park leva o nome do Aston Villa"
+        }
       }
     ],
     "rebaixamentos_r3": {

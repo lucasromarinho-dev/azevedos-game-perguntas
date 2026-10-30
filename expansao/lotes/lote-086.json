@@ -12,12 +12,13 @@
       "Península da Anatólia"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7c5a950293",
@@ -32,12 +33,14 @@
       "Porto de Ubatuba"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "03ffe1f900",
@@ -52,12 +55,13 @@
       "Península da Crimeia"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2c06cae3a2",
@@ -68,16 +72,18 @@
     "alternativas": [
       "Península Malaia",
       "Península de Bataan",
-      "Península da Indochina",
+      "Península Coreana",
       "Península de Kowloon"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Península da Indochina: em várias definições a Indochina continental inclui a Península Malaia (defensável); trocada"
   },
   {
     "id": "b22451feaf",
@@ -86,18 +92,20 @@
     "pergunta": "Qual península egípcia, entre o Canal de Suez e Israel, fica na Ásia?",
     "resposta": "Península do Sinai",
     "alternativas": [
-      "Península de Suez",
-      "Península Arábica do Norte",
+      "Península de Musandam",
+      "Península Arábica",
       "Península do Sinai",
-      "Península de Gaza"
+      "Península do Catar"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: erradas Península Arábica do Norte, Península de Gaza e Península de Suez eram nomes inventados; trocadas por penínsulas reais; errada \"Península de Gaza\" trocada por \"Península do Catar\"; errada \"Península de Suez\" trocada por \"Península de Musandam\""
   },
   {
     "id": "3841016c2f",
@@ -112,12 +120,14 @@
       "Zelândia"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c73f22d6ab",
@@ -132,12 +142,13 @@
       "Baía do Tubarão"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "72b2421721",
@@ -146,18 +157,20 @@
     "pergunta": "Qual baía do litoral paranaense tem a Ilha do Mel na entrada?",
     "resposta": "Baía de Paranaguá",
     "alternativas": [
-      "Baía das Laranjeiras",
+      "Baía de Babitonga",
       "Baía de Antonina",
       "Baía de Paranaguá",
       "Baía de Guaratuba"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Baía das Laranjeiras faz parte do próprio complexo estuarino de Paranaguá (defensável); trocada por baía de SC"
   },
   {
     "id": "9a09133c53",
@@ -167,18 +180,20 @@
     "resposta": "Golfo da Biscaia",
     "alternativas": [
       "Golfo da Biscaia",
-      "Golfo da Gasconha do Sul",
+      "Golfo de Gênova",
       "Golfo de Leão",
       "Golfo de Cádis"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:4871",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.2)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4871)",
-    "motivo": null
+    "motivo": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Golfo da Gasconha do Sul imitava Golfo da Gasconha, o nome francês do próprio Golfo da Biscaia (defensável e inventada); trocada"
   },
   {
     "id": "c43b97c951",
@@ -189,17 +204,20 @@
     "alternativas": [
       "Golfo de Riga",
       "Golfo de Bótnia",
-      "Golfo da Lapônia",
+      "Golfo da Finlândia",
       "Escagerraque"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:569",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (7.1)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:569)",
-    "motivo": null
+    "motivo": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Golfo da Lapônia era nome inventado; trocada por Golfo da Finlândia (separa Finlândia e Estônia)"
   },
   {
     "id": "05a5409898",
@@ -214,12 +232,13 @@
       "Baía de Jacuecanga"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "79bd862ebc",
@@ -234,13 +253,14 @@
       "1500"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Em qual ano Estácio de Sá fundou a cidade do Rio de Janeiro?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Em qual ano Estácio de Sá fundou a cidade do Rio de Janeiro?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9da994452e",
@@ -255,13 +275,15 @@
       "Morro do Livramento"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8431",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (7.1)",
-    "correcao": "errada \"Morro da Providência\" trocada por \"Morro do Livramento\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Morro da Providência\" trocada por \"Morro do Livramento\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "aad120ca51",
@@ -276,18 +298,19 @@
       "1968"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"1960\" trocada por \"1968\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"1960\" trocada por \"1968\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7597460eee",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Quem foi o primeiro governador eleito do estado da Guanabara, em 1960?",
     "resposta": "Carlos Lacerda",
     "alternativas": [
@@ -297,12 +320,15 @@
       "Chagas Freitas"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9007",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: Carlos Lacerda é nome muito conhecido e o enunciado dá Guanabara e 1960; rebaixada"
   },
   {
     "id": "99f8eb8f89",
@@ -317,13 +343,14 @@
       "Niterói"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:5444",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (11.7, 44% do fato)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5444)",
-    "motivo": null
+    "motivo": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8c39bd2dde",
@@ -338,17 +365,19 @@
       "Cais da Imperatriz"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "664304c70c",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como ficou conhecida a região da zona portuária do Rio, com Saúde e Gamboa, onde viviam muitos negros vindos da Bahia?",
     "resposta": "Pequena África",
     "alternativas": [
@@ -358,12 +387,15 @@
       "Pequena África"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: Pequena África é nome conhecido no Rio; rebaixada"
   },
   {
     "id": "5001edcf33",
@@ -378,12 +410,14 @@
       "Copacabana Palace"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "22e2dfe7ea",
@@ -398,12 +432,14 @@
       "Tia Ciata"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e411a94001",
@@ -438,13 +474,14 @@
       "25 de janeiro"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "id:c729f33621",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (7.1, 25% do fato)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:c729f33621)",
-    "motivo": null
+    "motivo": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "aaa946014b",
@@ -459,36 +496,40 @@
       "Edifício Itália"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:7940",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.1)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7940)",
     "motivo": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2efeb9beb5",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual grande paralisação operária parou São Paulo em julho de 1917?",
     "resposta": "Greve geral",
     "alternativas": [
-      "Quebra-quebra do Brás",
+      "Revolta Paulista",
       "Levante do Forte",
       "Greve geral",
       "Marcha da Fome"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:8313",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (7.6)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:8313)",
-    "correcao": "errada \"Revolta da Chibata\" trocada por \"Quebra-quebra do Brás\" na geração (era resposta de outra pergunta)",
-    "motivo": null
+    "correcao": "errada \"Revolta da Chibata\" trocada por \"Quebra-quebra do Brás\" na geração (era resposta de outra pergunta) | conferente-v9: errada Quebra-quebra do Brás era nome inventado; trocada por Revolta Paulista (1924); \"grande paralisação operária\" praticamente define greve geral; rebaixada",
+    "motivo": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "313a8e9ad6",
@@ -503,13 +544,14 @@
       "Avenida São João"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:7525",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.9)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7525)",
-    "motivo": null
+    "motivo": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2c306b5827",
@@ -524,12 +566,13 @@
       "Acidez"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4918e4dfe4",
@@ -544,12 +587,13 @@
       "Bipedalismo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "759d33f871",
@@ -564,18 +608,19 @@
       "Plastídio"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Cloroplasto\" trocada por \"Amiloplasto\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Cloroplasto\" trocada por \"Amiloplasto\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "39f1f205a8",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual estrutura da célula animal, em par, ajuda a organizar a divisão celular?",
     "resposta": "Centríolo",
     "alternativas": [
@@ -585,13 +630,15 @@
       "Peroxissomo"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Ribossomo\" trocada por \"Desmossomo\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Ribossomo\" trocada por \"Desmossomo\" na geração (era resposta de outra pergunta) | conferente-v9: centríolo é conceito de escola conhecido pelo nome; rebaixada",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2207348194",
@@ -606,13 +653,14 @@
       "Eucarionte"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Fungo\" trocada por \"Metazoário\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Fungo\" trocada por \"Metazoário\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f52a9b1bdf",
@@ -627,13 +675,15 @@
       "Homo erectus"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Homo sapiens\" trocada por \"Homo heidelbergensis\" na geração (era resposta de outra pergunta); errada \"Homo habilis\" trocada por \"Homo rudolfensis\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Homo sapiens\" trocada por \"Homo heidelbergensis\" na geração (era resposta de outra pergunta); errada \"Homo habilis\" trocada por \"Homo rudolfensis\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "75767a2ab7",
@@ -688,12 +738,14 @@
       "Homo floresiensis"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9a7b54fad0",
@@ -708,12 +760,13 @@
       "Planície abissal"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7252c8471b",
@@ -728,17 +781,18 @@
       "Zona abissal"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "281d7bc227",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual cordilheira submarina corta o meio do Oceano Atlântico de norte a sul?",
     "resposta": "Dorsal Mesoatlântica",
     "alternativas": [
@@ -748,12 +802,16 @@
       "Fossa de Porto Rico"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: dorsal mesoatlântica é conceito de escola conhecido pelo nome; rebaixada"
   },
   {
     "id": "934214d291",
@@ -768,13 +826,14 @@
       "Subsidência"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Convecção\" trocada por \"Estratificação\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Convecção\" trocada por \"Estratificação\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fe41e1764f",
@@ -789,13 +848,14 @@
       "Bogotá"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Santiago\" trocada por \"Caracas\" na geração (era resposta de outra pergunta); errada \"Buenos Aires\" trocada por \"Bogotá\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Santiago\" trocada por \"Caracas\" na geração (era resposta de outra pergunta); errada \"Buenos Aires\" trocada por \"Bogotá\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "aa03d42f21",
@@ -810,13 +870,14 @@
       "Maradona"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:2493",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (11.1, 29% do fato)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:2493)",
-    "motivo": null
+    "motivo": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "126eb87705",
@@ -831,13 +892,14 @@
       "Muhammad Ali"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:5857",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "enunciado reescrito na geração (antes: \"Qual lenda do boxe acendeu a pira olímpica de Atlanta, em 1996, com as mãos trêmulas pelo Parkinson?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual lenda do boxe acendeu a pira olímpica de Atlanta, em 1996, com as mãos trêmulas pelo Parkinson?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1eda0b82d2",
@@ -852,12 +914,14 @@
       "China"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1123",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.9)"
+    "dup_regra": "resposta nova citada no texto antigo (5.9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2f46f23645",
@@ -872,14 +936,16 @@
       "Nova Délhi"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "id:659da8f54d",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (10.5)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:659da8f54d)",
     "correcao": "errada \"Pequim\" trocada por \"Bangcoc\" na geração (era resposta de outra pergunta)",
-    "motivo": null
+    "motivo": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2625a264e6",
@@ -894,13 +960,14 @@
       "Gianfranco Zola"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2568",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.3)",
-    "correcao": "errada \"Alessandro Del Piero\" trocada por \"Filippo Inzaghi\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Alessandro Del Piero\" trocada por \"Filippo Inzaghi\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c558623cee",
@@ -955,12 +1022,13 @@
       "Di María"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "217434e484",
@@ -996,13 +1064,15 @@
       "Lee Evans"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual velocista americano ergueu o punho de luva preta no pódio dos 200 metros em 1968?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual velocista americano ergueu o punho de luva preta no pódio dos 200 metros em 1968?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "f371966342",
@@ -1017,13 +1087,15 @@
       "Derek Redmond"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual britânico rompeu o tendão nos 400 metros de Barcelona 1992 e cruzou a linha amparado pelo pai?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual britânico rompeu o tendão nos 400 metros de Barcelona 1992 e cruzou a linha amparado pelo pai?\")",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8defcb0f50",
@@ -1038,12 +1110,14 @@
       "Kerri Strug"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "503cbfd579",
@@ -1058,14 +1132,16 @@
       "Bruxelas"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:4627",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.5, 34% do fato)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4627)",
     "correcao": "errada \"Atenas\" trocada por \"Amsterdã\" na geração (era resposta de outra pergunta); errada \"Londres\" trocada por \"Bruxelas\" na geração (era resposta de outra pergunta); errada \"Estocolmo\" trocada por \"Antuérpia\" na geração (era resposta de outra pergunta)",
-    "motivo": null
+    "motivo": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "46ab2a22e8",
@@ -1080,13 +1156,15 @@
       "Sally Pearson"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual atleta aborígine acendeu a pira e depois venceu os 400 metros nos Jogos de Sydney 2000?\"); errada \"Marion Jones\" trocada por \"Ana Guevara\" na geração (era resposta de outra pergunta)"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual atleta aborígine acendeu a pira e depois venceu os 400 metros nos Jogos de Sydney 2000?\"); errada \"Marion Jones\" trocada por \"Ana Guevara\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0fff9c0c93",
@@ -1101,12 +1179,13 @@
       "Velozes e Furiosos 8"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d89e916ea2",
@@ -1141,12 +1220,14 @@
       "Terraria"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "fb933f03ad",
@@ -1161,13 +1242,15 @@
       "Tropa de Elite 2"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Cidade de Deus\" trocada por \"Linha de Passe\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Cidade de Deus\" trocada por \"Linha de Passe\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "87ea58a4e6",
@@ -1182,13 +1265,15 @@
       "Xeque-Mate"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:7035",
     "recente": true,
     "dup_regra": "mesma resposta, assunto vizinho (6.6, 15% do fato)",
-    "correcao": "errada \"Rainha de Copas\" trocada por \"Rainha do Tabuleiro\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Rainha de Copas\" trocada por \"Rainha do Tabuleiro\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2710cbb0d1",
@@ -1223,13 +1308,14 @@
       "Marvin"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Ligeirinho\" trocada por \"Gossamer\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Ligeirinho\" trocada por \"Gossamer\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6cf9b86f33",
@@ -1239,17 +1325,19 @@
     "resposta": "Pepe Le Gambá",
     "alternativas": [
       "Gato Félix",
-      "Pierre Le Pew",
+      "Frangolino",
       "Gambá Bandido",
       "Pepe Le Gambá"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Pierre Le Pew imitava Pepé Le Pew, o nome original da própria resposta; trocada por Frangolino"
   },
   {
     "id": "ec26c0d7db",
@@ -1264,13 +1352,14 @@
       "Droopy"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Pluto\" trocada por \"Tyke\" na geração (era resposta de outra pergunta); errada \"Bidu\" trocada por \"Barney\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Pluto\" trocada por \"Tyke\" na geração (era resposta de outra pergunta); errada \"Bidu\" trocada por \"Barney\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ff8895a559",
@@ -1285,13 +1374,15 @@
       "Oppenheimer"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8171",
     "recente": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "errada \"Super Mario Bros. O Filme\" trocada por \"Wonka\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Super Mario Bros. O Filme\" trocada por \"Wonka\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "54dc58e591",
@@ -1306,14 +1397,15 @@
       "O Menino e a Garça"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual animação chinesa passou Divertida Mente 2 e virou a de maior bilheteria da história em fevereiro de 2025?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d53b4b12ff",
@@ -1348,13 +1440,15 @@
       "Sex Education"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Adolescência\" trocada por \"Slow Horses\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Adolescência\" trocada por \"Slow Horses\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "ec6174dbd7",
@@ -1369,13 +1463,15 @@
       "O Urso"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "correcao": "errada \"Ruptura\" trocada por \"Industry\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Ruptura\" trocada por \"Industry\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "15850e5d6e",
@@ -1390,14 +1486,15 @@
       "O Último Samurai"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:8289",
     "recente": true,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (15.6, sim 0.1)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:8289)",
     "motivo": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9d20ab4521",
@@ -1412,13 +1509,14 @@
       "Mare of Easttown"
     ],
     "subtema": "Séries de TV e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Euphoria\" trocada por \"Barry\" na geração (era resposta de outra pergunta); errada \"The Crown\" trocada por \"Mare of Easttown\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Euphoria\" trocada por \"Barry\" na geração (era resposta de outra pergunta); errada \"The Crown\" trocada por \"Mare of Easttown\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "2587d18883",
@@ -1430,16 +1528,17 @@
       "Lippy e Hardy",
       "Plic e Ploc",
       "Zé Colmeia e Catatau",
-      "Leo e Hiena Rizada"
+      "Olho Vivo e Faro Fino"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual dupla da Hanna-Barbera tem um leão otimista e uma hiena que vive dizendo \"oh céus, oh vida\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual dupla da Hanna-Barbera tem um leão otimista e uma hiena que vive dizendo \"oh céus, oh vida\"?\") | conferente-v9: errada Leo e Hiena Rizada era dupla inventada que repetia \"hiena\" do enunciado; trocada",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "8950343cae",
@@ -1450,18 +1549,19 @@
     "alternativas": [
       "Leão da Montanha",
       "Rei Leonardo",
-      "Leão Leo",
+      "Kimba",
       "Leão Juba"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "dup_revisado": "falso positivo: mesma palavra ou resposta, fato diferente (ref. id:2587d18883)",
-    "correcao": "errada Lippy (parte da resposta de outra pergunta do lote) trocada por Leão Juba na geração; enunciado reescrito na geração (antes: \"Qual leão cor-de-rosa da Hanna-Barbera fugia dizendo \"saída pela esquerda\"?\")",
-    "motivo": null
+    "correcao": "errada Lippy (parte da resposta de outra pergunta do lote) trocada por Leão Juba na geração; enunciado reescrito na geração (antes: \"Qual leão cor-de-rosa da Hanna-Barbera fugia dizendo \"saída pela esquerda\"?\") | conferente-v9: errada Leão Leo era nome inventado; trocada por Kimba",
+    "motivo": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "e27e1b85b1",
@@ -1476,13 +1576,14 @@
       "Bongo"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual gorila de desenho da Hanna-Barbera vivia numa loja de animais com o menino Beto?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual gorila de desenho da Hanna-Barbera vivia numa loja de animais com o menino Beto?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6542c059fc",
@@ -1491,19 +1592,20 @@
     "pergunta": "Qual pistoleiro baixinho de bigode ruivo vive brigando com o Pernalonga?",
     "resposta": "Eufrazino",
     "alternativas": [
-      "Coronel Bigodão",
+      "Pete Puma",
       "Eufrazino",
       "Hortelino",
       "Cara de Pau"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Gaguinho\" trocada por \"Coronel Bigodão\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Gaguinho\" trocada por \"Coronel Bigodão\" na geração (era resposta de outra pergunta) | conferente-v9: errada Coronel Bigodão era nome inventado; trocada por Pete Puma (Looney Tunes)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "c2d24ce482",
@@ -1518,13 +1620,14 @@
       "Os Thundercats"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Como se chama o grupo de heróis da Hanna-Barbera que vive num planeta selvagem com animais gigantes como o dragão Zok?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Como se chama o grupo de heróis da Hanna-Barbera que vive num planeta selvagem com animais gigantes como o dragão Zok?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "cc4cbb3d86",
@@ -1536,16 +1639,18 @@
       "Pé-de-Pano",
       "Pepe Legal",
       "Silver",
-      "Bob Esponja Cavaleiro"
+      "Jolly Jumper"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual cavalo xerife da Hanna-Barbera vira o mascarado El Kabong?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual cavalo xerife da Hanna-Barbera vira o mascarado El Kabong?\") | conferente-v9: errada Bob Esponja Cavaleiro era alternativa de piada; trocada por Jolly Jumper (cavalo de Lucky Luke)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "0c38bdd8aa",
@@ -1560,13 +1665,14 @@
       "Dom Pixote e Tito"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual dupla da Hanna-Barbera tem um cachorro pai cheio de paciência e o filho que o chama de \"pai querido\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual dupla da Hanna-Barbera tem um cachorro pai cheio de paciência e o filho que o chama de \"pai querido\"?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "de6860dc89",
@@ -1581,13 +1687,14 @@
       "Tartaruga Lancelote"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual tartaruga mosqueteira da Hanna-Barbera luta ao lado do cão Dum Dum?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual tartaruga mosqueteira da Hanna-Barbera luta ao lado do cão Dum Dum?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6fa0f7ad09",
@@ -1602,12 +1709,13 @@
       "Bruce Cão"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "a54cc9d510",
@@ -1622,13 +1730,14 @@
       "Tubarãozinho"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual tubarão baterista da Hanna-Barbera tocava numa banda de adolescentes e reclamava que ninguém o respeitava?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual tubarão baterista da Hanna-Barbera tocava numa banda de adolescentes e reclamava que ninguém o respeitava?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "af85e94599",
@@ -1643,12 +1752,14 @@
       "Capitão Pedra"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:f0c29b386f",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (6.4)"
+    "dup_regra": "resposta nova citada no texto antigo (6.4)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "38ddf5d411",
@@ -1663,12 +1774,13 @@
       "Chave de boca"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "acb19c5369",
@@ -1683,12 +1795,13 @@
       "Colher de pedreiro"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "9568bf5c73",
@@ -1703,12 +1816,13 @@
       "Polietileno"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4cff4e352d",
@@ -1723,12 +1837,13 @@
       "Ferro galvanizado"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "19d95c5537",
@@ -1743,12 +1858,13 @@
       "ICE"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "29af2cb6b5",
@@ -1763,12 +1879,13 @@
       "Chave estrela"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1cdeee188d",
@@ -1783,12 +1900,13 @@
       "Sargento"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "5b05e41dcf",
@@ -1797,18 +1915,20 @@
     "pergunta": "Qual ferramenta de marceneiro tem lâmina chanfrada e é batida com macete para entalhar madeira?",
     "resposta": "Formão",
     "alternativas": [
-      "Goiva de torno",
+      "Serrote",
       "Formão",
       "Plaina",
       "Grosa"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Goiva também é lâmina batida com macete para entalhar madeira (defensável); trocada"
   },
   {
     "id": "faa33309e9",
@@ -1823,13 +1943,14 @@
       "Látex"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Vinil\" trocada por \"Nitrila\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Vinil\" trocada por \"Nitrila\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "249e6fa284",
@@ -1844,12 +1965,13 @@
       "Acetato"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "208945216e",
@@ -1864,17 +1986,18 @@
       "Esquadria"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "dc520ede0d",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual torno de bancada prende a peça para ser serrada ou limada?",
     "resposta": "Morsa",
     "alternativas": [
@@ -1884,17 +2007,20 @@
       "Sargento"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: morsa é ferramenta conhecida pelo nome; rebaixada"
   },
   {
     "id": "a1fe9f3c15",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual plástico inflamável era usado nos filmes de cinema antigos?",
     "resposta": "Celuloide",
     "alternativas": [
@@ -1904,12 +2030,15 @@
       "Galalite"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: celuloide é termo conhecido pelo nome; rebaixada"
   },
   {
     "id": "2d530f7d90",
@@ -1921,20 +2050,22 @@
       "Para-raios",
       "Pantógrafo",
       "Catenária",
-      "Trolley"
+      "Truque"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: errada Trolley também é uma haste no teto que capta energia do fio (defensável); trocada por Truque"
   },
   {
     "id": "eff480a42a",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual filme de 1983 mostra um adolescente que invade sem querer um computador militar e quase começa uma guerra nuclear?",
     "resposta": "Jogos de Guerra",
     "alternativas": [
@@ -1944,12 +2075,16 @@
       "Hackers"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: Jogos de Guerra é filme conhecido e o enunciado dá muitas pistas; rebaixada"
   },
   {
     "id": "e47e277bf6",
@@ -2086,13 +2221,15 @@
       "Bayern de Munique"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2502",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.3)",
-    "correcao": "errada \"Borussia Dortmund\" trocada por \"Werder Bremen\" na geração (era resposta de outra pergunta); errada \"Schalke 04\" trocada por \"Stuttgart\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Borussia Dortmund\" trocada por \"Werder Bremen\" na geração (era resposta de outra pergunta); errada \"Schalke 04\" trocada por \"Stuttgart\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "4c4edea45d",
@@ -2107,13 +2244,15 @@
       "Utrecht"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Feyenoord\" trocada por \"Twente\" na geração (era resposta de outra pergunta); errada \"PSV\" trocada por \"Utrecht\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Feyenoord\" trocada por \"Twente\" na geração (era resposta de outra pergunta); errada \"PSV\" trocada por \"Utrecht\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "1fa4cc4658",
@@ -2123,18 +2262,19 @@
     "resposta": "Rinque",
     "alternativas": [
       "Rampa",
-      "Pista",
+      "Tablado",
       "Rinque",
       "Quadra"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Raia\" trocada por \"Pista\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Raia\" trocada por \"Pista\" na geração (era resposta de outra pergunta) | conferente-v9: errada Pista repetia a palavra do enunciado (\"pista de gelo\") e também serve; trocada por Tablado",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "11c7dac961",
@@ -2169,13 +2309,14 @@
       "Juiz de mesa"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Jab\" trocada por \"Segundo\" na geração (era resposta de outra pergunta); errada \"Corner\" trocada por \"Assistente de canto\" na geração (era resposta de outra pergunta); errada \"Clinch\" trocada por \"Massagista\" na geração (era resposta de outra pergunta); errada \"Massagista\" trocada por \"Juiz de mesa\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Jab\" trocada por \"Segundo\" na geração (era resposta de outra pergunta); errada \"Corner\" trocada por \"Assistente de canto\" na geração (era resposta de outra pergunta); errada \"Clinch\" trocada por \"Massagista\" na geração (era resposta de outra pergunta); errada \"Massagista\" trocada por \"Juiz de mesa\" na geração (era resposta de outra pergunta)",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "538b57a70d",
@@ -2190,12 +2331,13 @@
       "Cutman"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "740ee07fc0",
@@ -2230,12 +2372,14 @@
       "Moana 2"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "d35f68a4e5",
@@ -2250,14 +2394,16 @@
       "Moana"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "dup": "suspeita",
     "dup_ref": "banco:5400",
     "recente": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (15.0, 35% do fato)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:5400)",
     "motivo": null,
-    "correcao": "errada \"A Pequena Sereia\" trocada por \"Pocahontas\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"A Pequena Sereia\" trocada por \"Pocahontas\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "6003360499",
@@ -2272,13 +2418,14 @@
       "Donkey Kong Country"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3777",
     "recente": true,
     "dup_regra": "mesma resposta, assunto vizinho (7.7, 18% do fato)",
-    "correcao": "enunciado reescrito na geração (antes: \"Qual animação de 2023 da Illumination levou ao cinema o encanador da Nintendo?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual animação de 2023 da Illumination levou ao cinema o encanador da Nintendo?\")",
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "3ee55b8b55",
@@ -2293,17 +2440,18 @@
       "KITT"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "7b979fee49",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual máquina elétrica de disco é usada para cortar e desbastar metal, apelidada de \"lixadeira\" em obra?",
     "resposta": "Esmerilhadeira",
     "alternativas": [
@@ -2313,12 +2461,15 @@
       "Tupia"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
+    "conferido_por": "conferente-v9",
+    "correcao": "conferente-v9: esmerilhadeira é ferramenta conhecida pelo nome; rebaixada"
   },
   {
     "id": "0b39b0b486",
@@ -2333,12 +2484,13 @@
       "Lavezzi"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v9"
   },
   {
     "id": "bf060e84ca",
@@ -2353,12 +2505,14 @@
       "Hearts"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3207",
     "recente": false,
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.9)",
-    "correcao": "errada \"Rangers\" trocada por \"Dundee United\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Rangers\" trocada por \"Dundee United\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true,
+    "conferido_por": "conferente-v9"
   }
 ]

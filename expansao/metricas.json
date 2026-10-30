@@ -3166,6 +3166,51 @@
         "perguntas": 48,
         "total": 79
       }
+    },
+    {
+      "lote": "081",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 97,
+      "validas": 85,
+      "descartadas": 12,
+      "taxa_descarte": 0.12,
+      "caracteres": 15662,
+      "tokens_aprox": 4475,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "r8-081.txt",
+        "r8-081b.txt",
+        "r8-081c.txt",
+        "r8-081d.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r8-081.txt",
+          "r8-081b.txt",
+          "r8-081c.txt",
+          "r8-081d.txt"
+        ],
+        "linhas": 232,
+        "existem": 88,
+        "risco": 26,
+        "tokens_aprox": 3252,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.38,
+        "candidatas_por_valida": 2.73
+      },
+      "perguntas": {
+        "escritas": 97,
+        "validas": 85,
+        "descartadas_detector": 12,
+        "descarte": 0.12,
+        "tokens_aprox": 4475
+      },
+      "tokens_por_valida": {
+        "listas": 38,
+        "perguntas": 53,
+        "total": 91
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -11888,6 +11933,38 @@
       "livres": 29,
       "caracteres": 2177,
       "tokens_aprox": 622
+    },
+    "r8-081.txt": {
+      "linhas": 102,
+      "existem": 41,
+      "risco": 10,
+      "livres": 51,
+      "caracteres": 5296,
+      "tokens_aprox": 1513
+    },
+    "r8-081b.txt": {
+      "linhas": 35,
+      "existem": 16,
+      "risco": 4,
+      "livres": 15,
+      "caracteres": 1390,
+      "tokens_aprox": 397
+    },
+    "r8-081c.txt": {
+      "linhas": 36,
+      "existem": 12,
+      "risco": 3,
+      "livres": 21,
+      "caracteres": 1562,
+      "tokens_aprox": 446
+    },
+    "r8-081d.txt": {
+      "linhas": 59,
+      "existem": 19,
+      "risco": 9,
+      "livres": 31,
+      "caracteres": 3137,
+      "tokens_aprox": 896
     }
   },
   "rodada3": {

@@ -27,9 +27,9 @@
     "pergunta": "Qual é a cidade mais populosa da Flórida, que tem o nome de um presidente americano?",
     "resposta": "Jacksonville",
     "alternativas": [
-      "Jacksonville",
-      "St. Petersburg",
       "Gainesville",
+      "St. Petersburg",
+      "Jacksonville",
       "Tampa"
     ],
     "subtema": "Cidades e monumentos do mundo",
@@ -60,7 +60,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "4cea6d94cf",
@@ -544,7 +545,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "b1430898a6",
@@ -564,7 +566,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "a58563e225",
@@ -584,7 +587,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "7d647814bb",
@@ -730,7 +734,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "ee9e57ab5d",
@@ -936,8 +941,8 @@
       "Parc1"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "suspeita",
     "dup_ref": "id:45a76906c3",
     "recente": false,
@@ -1006,7 +1011,8 @@
     "dup_ref": "banco:5557",
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "errada \"Barão de Mauá\" trocada por \"Visconde de Itaboraí\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Barão de Mauá\" trocada por \"Visconde de Itaboraí\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true
   },
   {
     "id": "0a82a96a55",
@@ -1047,7 +1053,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "c020e31b5d",
@@ -1067,7 +1074,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "7b5093dcab",
@@ -1238,7 +1246,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "236879819f",
@@ -1258,7 +1267,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "31c7607e03",
@@ -1278,7 +1288,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "267385a2b3",
@@ -1340,7 +1351,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "8ced33a545",
@@ -1380,7 +1392,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "7ae4273109",
@@ -1402,7 +1415,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual é o nome da protagonista de \"Crepúsculo\", que se apaixona pelo vampiro Edward?\"); enunciado reescrito na geração (antes: \"Qual é o nome da protagonista de \"Crepúsculo\", que se muda para a chuvosa Forks e se apaixona por um vampiro?\")",
-    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente"
+    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
+    "verificado_web": true
   },
   {
     "id": "fd67341cfb",
@@ -1466,7 +1480,8 @@
     "dup_ref": "id:9471dd70d6",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
-    "correcao": "enunciado reescrito na geração (antes: \"Qual americano escreveu a série de livros \"Diário de um Banana\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual americano escreveu a série de livros \"Diário de um Banana\"?\")",
+    "verificado_web": true
   },
   {
     "id": "51d4087c00",
@@ -1486,7 +1501,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:6661",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "verificado_web": true
   },
   {
     "id": "a33ea18c92",
@@ -1507,7 +1523,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual autora americana escreveu a trilogia \"Jogos Vorazes\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual autora americana escreveu a trilogia \"Jogos Vorazes\"?\")",
+    "verificado_web": true
   },
   {
     "id": "96ba8c39fe",
@@ -1529,7 +1546,8 @@
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (10.3, 37% do fato)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual alemão ganhou a Chuteira de Ouro da Copa de 2010, com cinco gols e três assistências?\")",
-    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente"
+    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
+    "verificado_web": true
   },
   {
     "id": "3dc20db8f5",

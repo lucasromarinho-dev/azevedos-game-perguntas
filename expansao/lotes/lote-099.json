@@ -153,10 +153,10 @@
     "pergunta": "Qual foi o primeiro parque nacional do Canadá, criado em 1885 nas Montanhas Rochosas?",
     "resposta": "Banff",
     "alternativas": [
-      "Banff",
+      "Kootenay",
       "Jasper",
       "Yoho",
-      "Kootenay"
+      "Banff"
     ],
     "subtema": "Biomas, clima e natureza",
     "status": "gerada",
@@ -360,7 +360,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "107c28f2cb",
@@ -459,8 +460,8 @@
       "Staurikosaurus"
     ],
     "subtema": "Animais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -514,7 +515,7 @@
     "id": "0690b04b65",
     "categoria": "Ciências",
     "dificuldade": "medio",
-    "pergunta": "Qual dinossauro herbívoro tinha um crânio em forma de cúpula, com até 25 cm de espessura?",
+    "pergunta": "Qual dinossauro herbívoro tinha um crânio em forma de cúpula, com o teto ósseo de cerca de 20 cm de espessura?",
     "resposta": "Paquicefalossauro",
     "alternativas": [
       "Hadrossauro",
@@ -523,12 +524,14 @@
       "Paquicefalossauro"
     ],
     "subtema": "Animais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual dinossauro herbívoro tinha um crânio em forma de cúpula, com até 25 cm de espessura?\")",
+    "verificado_web": true
   },
   {
     "id": "ad5101bfbc",
@@ -548,7 +551,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "266e5a445c",
@@ -569,7 +573,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual réptil marinho gigante do Cretáceo aparece saltando da água para comer um tubarão em \"Jurassic World\"?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual réptil marinho gigante do Cretáceo aparece saltando da água para comer um tubarão em \"Jurassic World\"?\")",
+    "verificado_web": true
   },
   {
     "id": "b340f669cf",
@@ -633,7 +638,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "525a59b94f",
@@ -648,13 +654,14 @@
       "SCSI"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"IDE\" trocada por \"USB\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"IDE\" trocada por \"USB\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true
   },
   {
     "id": "223c7ef8c4",
@@ -674,7 +681,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "d16827b86e",
@@ -694,7 +702,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "0dc0fdf453",
@@ -714,7 +723,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "1bb96bde9e",
@@ -729,12 +739,13 @@
       "Memória DDR"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "f2e7ef99aa",
@@ -754,7 +765,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "078fbb5adb",
@@ -1068,7 +1080,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "fd4f4a84ba",
@@ -1130,7 +1143,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "e957b23cfc",
@@ -1171,7 +1185,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "d9fc111a69",
@@ -1233,7 +1248,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "0a9f5da264",
@@ -1253,7 +1269,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "a1fc80afb1",
@@ -1379,7 +1396,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Mariachi\" trocada por \"Gagaku\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Mariachi\" trocada por \"Gagaku\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true
   },
   {
     "id": "bf1a4f6558",
@@ -1399,7 +1417,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "ea3e07d141",
@@ -1461,7 +1480,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "3e2d672f67",
@@ -1481,7 +1501,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "fe336d4255",
@@ -1501,7 +1522,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "ecb76268d7",
@@ -1556,7 +1578,7 @@
       "PhysX",
       "G-Sync",
       "SLI",
-      "Optimus"
+      "NVENC"
     ],
     "subtema": "Hardware",
     "status": "gerada",
@@ -1565,6 +1587,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"CrossFire\" trocada por \"Optimus\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"CrossFire\" trocada por \"Optimus\" na geração (era resposta de outra pergunta); errada \"Optimus\" trocada por \"NVENC\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true
   }
 ]

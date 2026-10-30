@@ -116,8 +116,8 @@
     "alternativas": [
       "Bukharin",
       "Zinoviev",
-      "Kamenev",
-      "Trotsky"
+      "Trotsky",
+      "Kamenev"
     ],
     "subtema": "Guerras Mundiais",
     "status": "gerada",
@@ -156,9 +156,9 @@
     "pergunta": "Qual revolta de marinheiros soviéticos, em 1921, numa fortaleza perto de Petrogrado, foi esmagada pelos bolcheviques?",
     "resposta": "Kronstadt",
     "alternativas": [
-      "Kronstadt",
-      "Revolta de Odessa",
       "Revolta de Tambov",
+      "Revolta de Odessa",
+      "Kronstadt",
       "Revolta de Sebastopol"
     ],
     "subtema": "Guerras Mundiais",
@@ -211,7 +211,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "9e4027bd7b",
@@ -231,7 +232,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "d89321651a",
@@ -251,7 +253,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "f634217a63",
@@ -266,12 +269,13 @@
       "Borrelia burgdorferi"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "97e082da6b",
@@ -291,7 +295,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "400643cd8f",
@@ -312,7 +317,8 @@
     "dup_ref": "banco:1685",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (8.1)",
-    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente"
+    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
+    "verificado_web": true
   },
   {
     "id": "d768e790fa",
@@ -332,7 +338,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "648574a654",
@@ -353,7 +360,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual protozoário, transmitido pelo barbeiro, causa a doença de Chagas?\")"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual protozoário, transmitido pelo barbeiro, causa a doença de Chagas?\")",
+    "verificado_web": true
   },
   {
     "id": "ae590cca49",
@@ -368,12 +376,13 @@
       "Klebsiella pneumoniae"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "5291ebba4d",
@@ -394,7 +403,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Raio verde\" trocada por \"Coluna de luz\" na geração (era resposta de outra pergunta); errada \"Fogo-de-santelmo\" trocada por \"Luz zodiacal\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Como se chama a miragem complexa que faz navios e costas parecerem flutuar ou se esticar no horizonte?\"); errada \"Luz zodiacal\" trocada por \"Gegenschein\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Raio verde\" trocada por \"Coluna de luz\" na geração (era resposta de outra pergunta); errada \"Fogo-de-santelmo\" trocada por \"Luz zodiacal\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Como se chama a miragem complexa que faz navios e costas parecerem flutuar ou se esticar no horizonte?\"); errada \"Luz zodiacal\" trocada por \"Gegenschein\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true
   },
   {
     "id": "eb466e03db",
@@ -435,7 +445,8 @@
     "dup_ref": "id:bc27e917e7",
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.8)",
-    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente"
+    "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
+    "verificado_web": true
   },
   {
     "id": "3395222a4b",
@@ -455,7 +466,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "8f1d289c31",
@@ -476,7 +488,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Fogo-de-santelmo\" trocada por \"Coluna de luz\" na geração (era resposta de outra pergunta); errada \"Fata Morgana\" trocada por \"Luz zodiacal\" na geração (era resposta de outra pergunta); errada \"Luz zodiacal\" trocada por \"Gegenschein\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Fogo-de-santelmo\" trocada por \"Coluna de luz\" na geração (era resposta de outra pergunta); errada \"Fata Morgana\" trocada por \"Luz zodiacal\" na geração (era resposta de outra pergunta); errada \"Luz zodiacal\" trocada por \"Gegenschein\" na geração (era resposta de outra pergunta)",
+    "verificado_web": true
   },
   {
     "id": "36bb13b021",
@@ -509,8 +522,8 @@
     "alternativas": [
       "Slashdot",
       "Delicious",
-      "Fark",
-      "Digg"
+      "Digg",
+      "Fark"
     ],
     "subtema": "Internet e redes",
     "status": "gerada",
@@ -659,8 +672,8 @@
       "Eduardo De Filippo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -700,8 +713,8 @@
       "Victor Hugo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -740,8 +753,8 @@
       "Neil Simon"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -760,8 +773,8 @@
       "Fernando Arrabal"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "suspeita",
     "dup_ref": "id:6f63fa44cb",
     "recente": false,
@@ -996,7 +1009,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "943b8fffd4",
@@ -1016,7 +1030,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "4117af418e",
@@ -1079,7 +1094,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "verificado_web": true
   },
   {
     "id": "219491366e",

@@ -28,8 +28,8 @@
     "alternativas": [
       "Lago Gairdner",
       "Lago Torrens",
-      "Lago Eyre",
-      "Lago Argyle"
+      "Lago Argyle",
+      "Lago Eyre"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
@@ -49,8 +49,8 @@
     "alternativas": [
       "Rio Burdekin",
       "Rio Lachlan",
-      "Rio Murray",
-      "Rio Fitzroy"
+      "Rio Fitzroy",
+      "Rio Murray"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
@@ -69,9 +69,9 @@
     "resposta": "Rio Mackenzie",
     "alternativas": [
       "Rio Nelson",
-      "Rio Mackenzie",
+      "Rio Yukon",
       "Rio Fraser",
-      "Rio Yukon"
+      "Rio Mackenzie"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
     "status": "gerada",
@@ -269,8 +269,8 @@
       "Tratado do Pardo"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -376,8 +376,8 @@
       "Tratado de Toledo"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -397,8 +397,8 @@
       "Tratado de Paris"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "suspeita",
     "dup_ref": "banco:6921",
     "recente": false,
@@ -440,8 +440,8 @@
       "Tratado de Neuilly"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -462,8 +462,8 @@
       "Tratado de Lausanne"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "suspeita",
     "dup_ref": "banco:6802",
     "recente": false,
@@ -505,8 +505,8 @@
       "Tratado de Tientsin"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -548,8 +548,8 @@
       "Tratado de Fontainebleau"
     ],
     "subtema": "Brasil Império",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -590,8 +590,8 @@
       "Anders Hejlsberg"
     ],
     "subtema": "Programação",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -713,10 +713,10 @@
     "pergunta": "Qual empresa, criadora da IDE IntelliJ IDEA, desenvolveu a linguagem que o Google adotou como preferida para o Android?",
     "resposta": "JetBrains",
     "alternativas": [
-      "JetBrains",
+      "Atlassian",
       "Embarcadero",
       "Borland",
-      "Atlassian"
+      "JetBrains"
     ],
     "subtema": "Empresas, marcas e fundadores",
     "status": "gerada",
@@ -741,8 +741,8 @@
       "Doug McIlroy"
     ],
     "subtema": "Programação",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -1745,7 +1745,7 @@
       "Damas",
       "Trilha",
       "Xadrez",
-      "Pega-varetas"
+      "Dominó chinês"
     ],
     "subtema": "Outros (jogos)",
     "status": "gerada",
@@ -1754,7 +1754,7 @@
     "dup_ref": "banco:9028",
     "recente": false,
     "dup_regra": "resposta nova citada no texto antigo (4.6)",
-    "correcao": "errada \"Resta Um\" trocada por \"Dominó\" na geração (era resposta de outra pergunta); errada \"Dominó\" trocada por \"Gamão\" na geração (era resposta de outra pergunta); errada \"Gamão\" trocada por \"Pega-varetas\" na geração (era resposta de outra pergunta)"
+    "correcao": "errada \"Resta Um\" trocada por \"Dominó\" na geração (era resposta de outra pergunta); errada \"Dominó\" trocada por \"Gamão\" na geração (era resposta de outra pergunta); errada \"Gamão\" trocada por \"Pega-varetas\" na geração (era resposta de outra pergunta); errada \"Pega-varetas\" trocada por \"Dominó chinês\" na geração (era resposta de outra pergunta)"
   },
   {
     "id": "d29f15fb95",
@@ -2021,8 +2021,8 @@
       "Jacques Villeneuve"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -2442,8 +2442,8 @@
       "Galvanômetro"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -2464,8 +2464,8 @@
       "Eletroscópio"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -2528,8 +2528,8 @@
       "Polarímetro"
     ],
     "subtema": "Química",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "corte de molde repetido na rodada 10 (limite de ~5 a 7 perguntas do mesmo molde), feito pelo gerador",
     "dup": "suspeita",
     "dup_ref": "banco:7832",
     "recente": false,

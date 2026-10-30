@@ -9903,6 +9903,83 @@
           "fato impreciso": "c75b45a2e0: o título de Nova Serrana é 'Capital Nacional do Calçado Esportivo'; enunciado ajustado (checagem web)",
           "sem fonte": "4755176fb8: sem fonte: nenhuma busca confirmou 'quíper' como aportuguesamento antigo de 'keeper' (nem 'golquíper' em dicionário); na dúvida, não fica"
         }
+      },
+      {
+        "lote": "085",
+        "conferente": "conferente-v8",
+        "conferidas": 44,
+        "conferidas_sem_mudanca": 40,
+        "com_mudanca": 4,
+        "corrigidas": 4,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 5,
+        "buscas_web": 5,
+        "suspeitas": {
+          "total": 10,
+          "mantidas": 10,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 5,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 3,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 5,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 1,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "a840636625: Lucas Bebê - Lucas Bebê foi escolhido no draft de 2013 (16ª escolha), não no de 2014, e 'revelado em São Paulo' não tem fonte; enunciado corrigido (checagem web); errada inventada Cristiano Felício Jr. trocada",
+          "d6e9d910a0: Salto São Francisco - errada Salto do Itiquira de Baixo era nome inventado (e o Itiquira fica em Goiás); trocada; 196 m e 'maior do Sul' conferidos na web",
+          "96b539d589: Confederação dos Cariris - errada Levante dos Tapuias do Sul lembrava 'tapuias', nome dado aos próprios cariris (defensável), e Guerra dos Emboabas Indígenas era nome inventado; trocadas por movimentos indígenas reais de outras regiões",
+          "597a54db80: Campos de Carvalho - errada Rubem Braga Filho era nome inventado; trocada por outro escritor mineiro"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 1,
+          "alternativa fora do tipo": 2,
+          "errada defensavel": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "a840636625: Lucas Bebê foi escolhido no draft de 2013 (16ª escolha), não no de 2014, e 'revelado em São Paulo' não tem fonte; enunciado corrigido (checagem web); errada inventada Cristiano Felício Jr. trocada",
+          "alternativa fora do tipo": "d6e9d910a0: errada Salto do Itiquira de Baixo era nome inventado (e o Itiquira fica em Goiás); trocada; 196 m e 'maior do Sul' conferidos na web",
+          "errada defensavel": "96b539d589: errada Levante dos Tapuias do Sul lembrava 'tapuias', nome dado aos próprios cariris (defensável), e Guerra dos Emboabas Indígenas era nome inventado; trocadas por movimentos indígenas reais de outras regiões"
+        }
       }
     ],
     "rebaixamentos_r3": {

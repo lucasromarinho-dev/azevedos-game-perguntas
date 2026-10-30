@@ -328,3 +328,5 @@ Status de cada pergunta: `gerada` (saiu do gerador) -> `conferida` (outro agente
 - Fato de 2020 em diante: marcado `R`, no máximo "medio" e com o ano no texto. Ano no enunciado é permitido em todas as categorias.
 - Nada de "atual", "hoje", "atualmente" (o script barra).
 - Conferência da rodada 4 (conferente-v4, independente do gerador, com verificação na web): 1.002 perguntas dos lotes 036 a 045, 913 sem mudança, 46 corrigidas (errada defensável trocada, fato impreciso ou enunciado que entregava a resposta), 31 rebaixadas de difícil e 13 descartadas (7 duplicadas ou espelhos que a variação de grafia escondeu do detector, 3 sem confirmação em fonte ou ambíguas); 373 checadas na web. Detalhes em `metricas.json` (`conferencia.lotes`, conferente-v4) e amostra de 30 em `amostra-lucas-r4.md`.
+
+- 30/10: o Lucas decidiu sobre as 93 brasileiras difíceis "a decidir" com "Saem também". Elas passaram para `remover` (total 286). A cópia `perguntas-sem-arte.json` agora tem 13.700 perguntas; montarBanco 0 descartadas; Entretenimento difícil 713 -> 541.

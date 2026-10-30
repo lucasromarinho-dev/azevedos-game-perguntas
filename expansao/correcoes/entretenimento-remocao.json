@@ -3,7 +3,7 @@
  "gerado_em": "2026-10-30",
  "gerado_por": "agente entretenimento-80",
  "criterio": "Sai toda arte, literatura e teatro-danca de origem estrangeira com famosa=false (pergunta: 'meu tio no churrasco sabe?'). Brasileiras ficam; as obscuras em difícil estão em a_decidir_pelo_lucas e NÃO são removidas.",
- "total_remover": 193,
+ "total_remover": 286,
  "remover": [
   {
    "ref": "banco:3369",
@@ -20,6 +20,63 @@
      "Artes plásticas",
      "Cinema independente",
      "Música clássica"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5219",
+   "indice": 5219,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): O Alienista: detalhe de personagem em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual médico de \"O Alienista\", de Machado de Assis, interna quase toda a cidade de Itaguaí?",
+    "resposta": "Simão Bacamarte",
+    "alternativas": [
+     "Simão Bacamarte",
+     "Brás Cubas",
+     "Bentinho",
+     "Quincas Borba"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5328",
+   "indice": 5328,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Macabéa: personagem de livro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual nordestina pobre é a protagonista de \"A Hora da Estrela\", de Clarice Lispector?",
+    "resposta": "Macabéa",
+    "alternativas": [
+     "Sinhá Vitória",
+     "Gabriela",
+     "Macabéa",
+     "Capitu"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5329",
+   "indice": 5329,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Policarpo Quaresma: personagem de livro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual personagem de Lima Barreto é um nacionalista que quer o tupi como língua oficial?",
+    "resposta": "Policarpo Quaresma",
+    "alternativas": [
+     "Brás Cubas",
+     "Quincas Borba",
+     "Policarpo Quaresma",
+     "Isaías Caminha"
     ]
    }
   },
@@ -56,6 +113,25 @@
      "Yoknapatawpha",
      "Comala",
      "Macondo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:5514",
+   "indice": 5514,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Peri, personagem de O Guarani, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual indígena herói do romance \"O Guarani\" se dedica a proteger Ceci?",
+    "resposta": "Peri",
+    "alternativas": [
+     "Poti",
+     "Iracema",
+     "Peri",
+     "Ubirajara"
     ]
    }
   },
@@ -200,6 +276,25 @@
      "Paul Cézanne",
      "Pierre-Auguste Renoir",
      "Claude Monet"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6378",
+   "indice": 6378,
+   "origem": "mista",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Rugendas, pintor estrangeiro que retratou o Brasil, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor alemão retratou o Brasil do século XIX no livro \"Viagem Pitoresca através do Brasil\"?",
+    "resposta": "Rugendas",
+    "alternativas": [
+     "Taunay",
+     "Rugendas",
+     "Frans Post",
+     "Debret"
     ]
    }
   },
@@ -384,6 +479,25 @@
    }
   },
   {
+   "ref": "banco:6965",
+   "indice": 6965,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): O Ateneu, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Raul Pompeia se passa num colégio interno do Rio de Janeiro?",
+    "resposta": "O Ateneu",
+    "alternativas": [
+     "Dom Casmurro",
+     "Amar, Verbo Intransitivo",
+     "O Ateneu",
+     "O Cortiço"
+    ]
+   }
+  },
+  {
    "ref": "banco:6966",
    "indice": 6966,
    "tema": "literatura",
@@ -398,6 +512,44 @@
      "Crime e Castigo",
      "Madame Bovary",
      "Anna Kariênina"
+    ]
+   }
+  },
+  {
+   "ref": "banco:6967",
+   "indice": 6967,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Sagarana, obra de estreia, detalhe em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual livro de contos, de 1946, marcou a estreia de Guimarães Rosa?",
+    "resposta": "Sagarana",
+    "alternativas": [
+     "Sagarana",
+     "Tutameia",
+     "Corpo de Baile",
+     "Primeiras Estórias"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7049",
+   "indice": 7049,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Lygia Clark, artista pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista brasileira criou os \"Bichos\", esculturas de metal com dobradiças que o público podia manipular?",
+    "resposta": "Lygia Clark",
+    "alternativas": [
+     "Lygia Pape",
+     "Tomie Ohtake",
+     "Anita Malfatti",
+     "Lygia Clark"
     ]
    }
   },
@@ -474,6 +626,25 @@
    }
   },
   {
+   "ref": "banco:7087",
+   "indice": 7087,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Brecheret, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor criou o Monumento às Bandeiras, no Parque Ibirapuera, em São Paulo?",
+    "resposta": "Victor Brecheret",
+    "alternativas": [
+     "Victor Brecheret",
+     "Bruno Giorgi",
+     "Alfredo Ceschiatti",
+     "Di Cavalcanti"
+    ]
+   }
+  },
+  {
    "ref": "banco:7114",
    "indice": 7114,
    "tema": "arte",
@@ -542,6 +713,25 @@
      "Salvador Dalí",
      "René Magritte",
      "Joan Miró"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7118",
+   "indice": 7118,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Athos Bulcão, artista pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista criou os painéis de azulejos azuis e brancos espalhados pelos prédios de Brasília?",
+    "resposta": "Athos Bulcão",
+    "alternativas": [
+     "Candido Portinari",
+     "Bruno Giorgi",
+     "Athos Bulcão",
+     "Roberto Burle Marx"
     ]
    }
   },
@@ -906,6 +1096,44 @@
    }
   },
   {
+   "ref": "banco:7381",
+   "indice": 7381,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Jongo, dança pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança afro-brasileira com tambores, forte no Sudeste, é considerada uma das raízes do samba?",
+    "resposta": "Jongo",
+    "alternativas": [
+     "Xote",
+     "Jongo",
+     "Carimbó",
+     "Ciranda"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7382",
+   "indice": 7382,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Siriri, dança regional pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança de Mato Grosso é acompanhada pela viola de cocho?",
+    "resposta": "Siriri",
+    "alternativas": [
+     "Catira",
+     "Chula",
+     "Siriri",
+     "Fandango"
+    ]
+   }
+  },
+  {
    "ref": "banco:7484",
    "indice": 7484,
    "tema": "arte",
@@ -924,6 +1152,25 @@
    }
   },
   {
+   "ref": "banco:7485",
+   "indice": 7485,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Palatnik, artista pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista brasileiro, pioneiro da arte cinética, criou o \"Aparelho Cinecromático\"?",
+    "resposta": "Abraham Palatnik",
+    "alternativas": [
+     "Abraham Palatnik",
+     "Waldemar Cordeiro",
+     "Lygia Clark",
+     "Hélio Oiticica"
+    ]
+   }
+  },
+  {
    "ref": "banco:7487",
    "indice": 7487,
    "tema": "literatura",
@@ -938,6 +1185,25 @@
      "Aleksandr Púchkin",
      "Nikolai Gogol",
      "Mikhail Lermontov"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7489",
+   "indice": 7489,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Tomie Ohtake, artista pouco conhecida fora de SP, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista nipo-brasileira ficou famosa por pinturas abstratas e grandes esculturas curvas de cores fortes?",
+    "resposta": "Tomie Ohtake",
+    "alternativas": [
+     "Tomie Ohtake",
+     "Lygia Pape",
+     "Beatriz Milhazes",
+     "Yayoi Kusama"
     ]
    }
   },
@@ -978,6 +1244,63 @@
    }
   },
   {
+   "ref": "banco:7572",
+   "indice": 7572,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Lundu, dança histórica pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança de origem africana, popular no Brasil colonial, é considerada ancestral do maxixe e do samba?",
+    "resposta": "Lundu",
+    "alternativas": [
+     "Xote",
+     "Fandango",
+     "Lundu",
+     "Catira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7573",
+   "indice": 7573,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Fandango caiçara, dança regional, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança caiçara do litoral do Paraná e de São Paulo é marcada pelo bater de tamancos?",
+    "resposta": "Fandango",
+    "alternativas": [
+     "Catira",
+     "Siriri",
+     "Ciranda",
+     "Fandango"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7884",
+   "indice": 7884,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Chula gaúcha, dança regional, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dança gaúcha de sapateado é disputada sobre uma lança de madeira deitada no chão?",
+    "resposta": "Chula",
+    "alternativas": [
+     "Pezinho",
+     "Vanerão",
+     "Chimarrita",
+     "Chula"
+    ]
+   }
+  },
+  {
    "ref": "banco:7941",
    "indice": 7941,
    "tema": "arte",
@@ -1010,6 +1333,44 @@
      "Realismo mágico",
      "Romantismo",
      "Surrealismo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7950",
+   "indice": 7950,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Arcadismo, escola literária, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escola literária do século XVIII, de Tomás Antônio Gonzaga, idealizava a vida no campo?",
+    "resposta": "Arcadismo",
+    "alternativas": [
+     "Arcadismo",
+     "Parnasianismo",
+     "Romantismo",
+     "Barroco"
+    ]
+   }
+  },
+  {
+   "ref": "banco:7951",
+   "indice": 7951,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Simbolismo, escola literária, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escola literária teve Cruz e Sousa como maior nome no Brasil?",
+    "resposta": "Simbolismo",
+    "alternativas": [
+     "Realismo",
+     "Parnasianismo",
+     "Arcadismo",
+     "Simbolismo"
     ]
    }
   },
@@ -1086,6 +1447,25 @@
    }
   },
   {
+   "ref": "banco:8072",
+   "indice": 8072,
+   "origem": "mista",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Prêmio Camões, prêmio literário de Brasil e Portugal, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual prêmio literário da língua portuguesa foi criado por Brasil e Portugal em 1988?",
+    "resposta": "Prêmio Camões",
+    "alternativas": [
+     "Prêmio Saramago",
+     "Prêmio Oceanos",
+     "Prêmio Jabuti",
+     "Prêmio Camões"
+    ]
+   }
+  },
+  {
    "ref": "banco:8073",
    "indice": 8073,
    "tema": "arte",
@@ -1158,6 +1538,25 @@
    }
   },
   {
+   "ref": "banco:8358",
+   "indice": 8358,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Movimento Armorial, assunto pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual movimento cultural, criado por Ariano Suassuna em 1970, buscava uma arte erudita a partir das raízes populares do Nordeste?",
+    "resposta": "Movimento Armorial",
+    "alternativas": [
+     "Movimento Armorial",
+     "Cinema Novo",
+     "Tropicalismo",
+     "Manguebeat"
+    ]
+   }
+  },
+  {
    "ref": "banco:9051",
    "indice": 9051,
    "tema": "literatura",
@@ -1212,6 +1611,44 @@
    }
   },
   {
+   "ref": "banco:9245",
+   "indice": 9245,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Diadorim, detalhe de Grande Sertão, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Em \"Grande Sertão: Veredas\", qual jagunço guarda o segredo de ser uma mulher?",
+    "resposta": "Diadorim",
+    "alternativas": [
+     "Hermógenes",
+     "Riobaldo",
+     "Zé Bebelo",
+     "Diadorim"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9246",
+   "indice": 9246,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Aurélia Camargo, personagem de Senhora, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual heroína de \"Senhora\", de José de Alencar, \"compra\" o marido que a havia desprezado?",
+    "resposta": "Aurélia Camargo",
+    "alternativas": [
+     "Lucíola",
+     "Iracema",
+     "Aurélia Camargo",
+     "Ceci"
+    ]
+   }
+  },
+  {
    "ref": "banco:9344",
    "indice": 9344,
    "tema": "literatura",
@@ -1226,6 +1663,63 @@
      "Ivanhoé",
      "Quentin Durward",
      "Waverley"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9537",
+   "indice": 9537,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Paulo Honório, personagem de São Bernardo, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fazendeiro ambicioso narra \"São Bernardo\", de Graciliano Ramos?",
+    "resposta": "Paulo Honório",
+    "alternativas": [
+     "Ponciano",
+     "Fabiano",
+     "Paulo Honório",
+     "Luís da Silva"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9562",
+   "indice": 9562,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Angústia, obra menos lida de Graciliano, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual funcionário público frustrado narra \"Angústia\", de Graciliano Ramos?",
+    "resposta": "Luís da Silva",
+    "alternativas": [
+     "Paulo Honório",
+     "Policarpo Quaresma",
+     "Fabiano",
+     "Luís da Silva"
+    ]
+   }
+  },
+  {
+   "ref": "banco:9629",
+   "indice": 9629,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Pastoril, folguedo regional, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual folguedo natalino nordestino tem dois cordões de pastoras, o azul e o encarnado?",
+    "resposta": "Pastoril",
+    "alternativas": [
+     "Reisado",
+     "Pastoril",
+     "Bumba meu boi",
+     "Maracatu"
     ]
    }
   },
@@ -1464,6 +1958,25 @@
    }
   },
   {
+   "ref": "banco:10328",
+   "indice": 10328,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ribalta, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chama a fileira de luzes na beira do palco, que deu nome à fama?",
+    "resposta": "Ribalta",
+    "alternativas": [
+     "Rotunda",
+     "Gambiarra",
+     "Ribalta",
+     "Fosso"
+    ]
+   }
+  },
+  {
    "ref": "banco:10408",
    "indice": 10408,
    "tema": "teatro-danca",
@@ -1518,6 +2031,25 @@
    }
   },
   {
+   "ref": "banco:10460",
+   "indice": 10460,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Rotunda, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama o grande pano que fecha o fundo do palco?",
+    "resposta": "Rotunda",
+    "alternativas": [
+     "Proscênio",
+     "Rotunda",
+     "Urdimento",
+     "Coxia"
+    ]
+   }
+  },
+  {
    "ref": "banco:10463",
    "indice": 10463,
    "tema": "teatro-danca",
@@ -1536,6 +2068,139 @@
    }
   },
   {
+   "ref": "banco:10507",
+   "indice": 10507,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Proscênio, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama a parte da frente do palco, além da cortina?",
+    "resposta": "Proscênio",
+    "alternativas": [
+     "Coxia",
+     "Proscênio",
+     "Urdimento",
+     "Plateia"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10508",
+   "indice": 10508,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Contrarregra, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama quem cuida dos objetos de cena durante o espetáculo?",
+    "resposta": "Contrarregra",
+    "alternativas": [
+     "Iluminador",
+     "Contrarregra",
+     "Ponto",
+     "Cenógrafo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10540",
+   "indice": 10540,
+   "origem": "mista",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Bambolina, termo técnico de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "No teatro, como se chama a faixa de pano no alto do palco que esconde as luzes?",
+    "resposta": "Bambolina",
+    "alternativas": [
+     "Rotunda",
+     "Bambolina",
+     "Coxia",
+     "Gambiarra"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10621",
+   "indice": 10621,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Lasar Segall, pintor pouco conhecido do público geral, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor lituano-brasileiro pintou \"Navio de Emigrantes\"?",
+    "resposta": "Lasar Segall",
+    "alternativas": [
+     "Candido Portinari",
+     "Alfredo Volpi",
+     "Di Cavalcanti",
+     "Lasar Segall"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10622",
+   "indice": 10622,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Beatriz Milhazes, pintora pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintora carioca contemporânea é famosa pelas telas cheias de círculos coloridos?",
+    "resposta": "Beatriz Milhazes",
+    "alternativas": [
+     "Beatriz Milhazes",
+     "Adriana Varejão",
+     "Tomie Ohtake",
+     "Lygia Clark"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10623",
+   "indice": 10623,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Djanira, pintora pouco conhecida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintora naïf paulista retratou festas populares e o trabalho no campo?",
+    "resposta": "Djanira",
+    "alternativas": [
+     "Tarsila do Amaral",
+     "Tomie Ohtake",
+     "Djanira",
+     "Anita Malfatti"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10703",
+   "indice": 10703,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Instituto Ricardo Brennand, pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual instituto de Recife fica num castelo com coleção de armas e de obras holandesas?",
+    "resposta": "Instituto Ricardo Brennand",
+    "alternativas": [
+     "Paço do Frevo",
+     "Museu do Homem do Nordeste",
+     "Instituto Moreira Salles",
+     "Instituto Ricardo Brennand"
+    ]
+   }
+  },
+  {
    "ref": "banco:10845",
    "indice": 10845,
    "tema": "literatura",
@@ -1550,6 +2215,25 @@
      "Ana Hatherly",
      "Natália Correia",
      "Sophia de Mello Breyner"
+    ]
+   }
+  },
+  {
+   "ref": "banco:10847",
+   "indice": 10847,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Adélia Prado, estreia em livro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poetisa mineira de Divinópolis estreou com o livro \"Bagagem\"?",
+    "resposta": "Adélia Prado",
+    "alternativas": [
+     "Adélia Prado",
+     "Hilda Hilst",
+     "Lya Luft",
+     "Henriqueta Lisboa"
     ]
    }
   },
@@ -1824,6 +2508,44 @@
    }
   },
   {
+   "ref": "banco:11392",
+   "indice": 11392,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Guarnieri, dramaturgo pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ator e dramaturgo escreveu a peça \"Eles Não Usam Black-Tie\", de 1958?",
+    "resposta": "Gianfrancesco Guarnieri",
+    "alternativas": [
+     "Jorge Andrade",
+     "Gianfrancesco Guarnieri",
+     "Lauro César Muniz",
+     "Augusto Boal"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11393",
+   "indice": 11393,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Zé Celso e o Teatro Oficina, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diretor comandou por décadas o Teatro Oficina, em São Paulo?",
+    "resposta": "Zé Celso",
+    "alternativas": [
+     "Zé Celso",
+     "Antunes Filho",
+     "José Renato",
+     "Gerald Thomas"
+    ]
+   }
+  },
+  {
    "ref": "banco:11394",
    "indice": 11394,
    "tema": "arte",
@@ -1838,6 +2560,44 @@
      "Diane Arbus",
      "Margaret Bourke-White",
      "Vivian Maier"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11395",
+   "indice": 11395,
+   "origem": "mista",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Pierre Verger, fotógrafo francês da Bahia, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fotógrafo francês viveu na Bahia e registrou a cultura afro-brasileira?",
+    "resposta": "Pierre Verger",
+    "alternativas": [
+     "Robert Doisneau",
+     "Pierre Verger",
+     "Claude Lévi-Strauss",
+     "Marcel Gautherot"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11396",
+   "indice": 11396,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Bruno Giorgi, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor fez \"Os Candangos\", na Praça dos Três Poderes, em Brasília?",
+    "resposta": "Bruno Giorgi",
+    "alternativas": [
+     "Bruno Giorgi",
+     "Amilcar de Castro",
+     "Sergio Camargo",
+     "Oscar Niemeyer"
     ]
    }
   },
@@ -1986,6 +2746,101 @@
    }
   },
   {
+   "ref": "banco:11591",
+   "indice": 11591,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ferréz, autor pouco lido pelo público geral, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulistano da periferia escreveu \"Capão Pecado\"?",
+    "resposta": "Ferréz",
+    "alternativas": [
+     "Sérgio Vaz",
+     "Ferréz",
+     "Mano Brown",
+     "Alessandro Buzo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11592",
+   "indice": 11592,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Raphael Montes, autor pouco lido pelo público geral, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor carioca de suspense escreveu \"Dias Perfeitos\"?",
+    "resposta": "Raphael Montes",
+    "alternativas": [
+     "Raphael Montes",
+     "Rubem Fonseca",
+     "Patrícia Melo",
+     "Marçal Aquino"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11593",
+   "indice": 11593,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Guignard, pintor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual pintor ficou famoso pelas paisagens montanhosas e nebulosas de Minas Gerais e de Ouro Preto?",
+    "resposta": "Guignard",
+    "alternativas": [
+     "Di Cavalcanti",
+     "Volpi",
+     "Guignard",
+     "Djanira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11595",
+   "indice": 11595,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Daniel Galera, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor escreveu \"Barba Ensopada de Sangue\", passado na praia catarinense de Garopaba?",
+    "resposta": "Daniel Galera",
+    "alternativas": [
+     "Daniel Galera",
+     "Carol Bensimon",
+     "Paulo Scott",
+     "Michel Laub"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11619",
+   "indice": 11619,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Vianinha, dramaturgo pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual dramaturgo, conhecido como Vianinha, escreveu \"Rasga Coração\"?",
+    "resposta": "Oduvaldo Vianna Filho",
+    "alternativas": [
+     "Consuelo de Castro",
+     "Dias Gomes",
+     "Lauro César Muniz",
+     "Oduvaldo Vianna Filho"
+    ]
+   }
+  },
+  {
    "ref": "banco:11678",
    "indice": 11678,
    "tema": "literatura",
@@ -2108,6 +2963,25 @@
      "Walker Evans",
      "Ansel Adams",
      "Alfred Stieglitz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11706",
+   "indice": 11706,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Cacilda Becker, atriz de teatro antiga, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atriz passou mal em cena durante \"Esperando Godot\", em 1969, e morreu semanas depois?",
+    "resposta": "Cacilda Becker",
+    "alternativas": [
+     "Fernanda Montenegro",
+     "Cacilda Becker",
+     "Tônia Carrero",
+     "Dercy Gonçalves"
     ]
    }
   },
@@ -2346,6 +3220,25 @@
    }
   },
   {
+   "ref": "banco:11817",
+   "indice": 11817,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ceschiatti, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escultor fez \"A Justiça\", estátua de olhos vendados em frente ao STF, em Brasília?",
+    "resposta": "Alfredo Ceschiatti",
+    "alternativas": [
+     "Mário Cravo Júnior",
+     "Alfredo Ceschiatti",
+     "Frans Krajcberg",
+     "Sergio Camargo"
+    ]
+   }
+  },
+  {
    "ref": "banco:11819",
    "indice": 11819,
    "tema": "literatura",
@@ -2378,6 +3271,766 @@
      "Simone de Beauvoir",
      "Marguerite Duras",
      "Annie Ernaux"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11878",
+   "indice": 11878,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Krajcberg, escultor pouco conhecido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual artista polonês radicado no Brasil fez esculturas com troncos de árvores queimadas?",
+    "resposta": "Frans Krajcberg",
+    "alternativas": [
+     "Lasar Segall",
+     "Frans Krajcberg",
+     "Franz Weissmann",
+     "Mário Cravo Júnior"
+    ]
+   }
+  },
+  {
+   "ref": "banco:11998",
+   "indice": 11998,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Raduan Nassar, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista publicou \"Lavoura Arcaica\" e depois abandonou a literatura para cuidar de uma fazenda?",
+    "resposta": "Raduan Nassar",
+    "alternativas": [
+     "Raduan Nassar",
+     "Lourenço Mutarelli",
+     "Marçal Aquino",
+     "Antônio Torres"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12076",
+   "indice": 12076,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Dalton Trevisan, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista curitibano, avesso a entrevistas e fotos, era chamado de Vampiro de Curitiba?",
+    "resposta": "Dalton Trevisan",
+    "alternativas": [
+     "Miguel Sanches Neto",
+     "Wilson Bueno",
+     "Valêncio Xavier",
+     "Dalton Trevisan"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12077",
+   "indice": 12077,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): As Meninas, obra menos lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora paulista publicou \"As Meninas\", romance de 1973 sobre três estudantes?",
+    "resposta": "Lygia Fagundes Telles",
+    "alternativas": [
+     "Nélida Piñon",
+     "Lygia Fagundes Telles",
+     "Zulmira Ribeiro Tavares",
+     "Edla van Steen"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12078",
+   "indice": 12078,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Hilda Hilst, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta e escritora paulista viveu reclusa na Casa do Sol, em Campinas?",
+    "resposta": "Hilda Hilst",
+    "alternativas": [
+     "Renata Pallottini",
+     "Orides Fontela",
+     "Olga Savary",
+     "Hilda Hilst"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12079",
+   "indice": 12079,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Caio Fernando Abreu, obra pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor gaúcho publicou \"Morangos Mofados\", em 1982?",
+    "resposta": "Caio Fernando Abreu",
+    "alternativas": [
+     "João Gilberto Noll",
+     "Caio Fernando Abreu",
+     "Luis Fernando Verissimo",
+     "Moacyr Scliar"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12107",
+   "indice": 12107,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Stanislaw Ponte Preta, pseudônimo pouco lembrado, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor criou o pseudônimo Stanislaw Ponte Preta e o \"Febeapá\"?",
+    "resposta": "Sérgio Porto",
+    "alternativas": [
+     "Ivan Lessa",
+     "Jaguar",
+     "Sérgio Porto",
+     "Millôr Fernandes"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12157",
+   "indice": 12157,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Loyola Brandão, obra pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor de Araraquara escreveu a distopia \"Não Verás País Nenhum\"?",
+    "resposta": "Ignácio de Loyola Brandão",
+    "alternativas": [
+     "Ignácio de Loyola Brandão",
+     "Antônio Callado",
+     "Moacyr Scliar",
+     "José J. Veiga"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12158",
+   "indice": 12158,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): João Antônio, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista publicou \"Malagueta, Perus e Bacanaço\", contos sobre malandros e jogadores de sinuca?",
+    "resposta": "João Antônio",
+    "alternativas": [
+     "Roniwalter Jatobá",
+     "João Antônio",
+     "Oswaldo França Júnior",
+     "Ricardo Ramos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12187",
+   "indice": 12187,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ana Cristina Cesar, poeta pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta carioca da poesia marginal dos anos 1970 escreveu \"A Teus Pés\"?",
+    "resposta": "Ana Cristina Cesar",
+    "alternativas": [
+     "Alice Ruiz",
+     "Ana Cristina Cesar",
+     "Leila Míccolis",
+     "Sônia Queiroz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12266",
+   "indice": 12266,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Antunes Filho, diretor de teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diretor de teatro fez a famosa montagem de \"Macunaíma\", em 1978?",
+    "resposta": "Antunes Filho",
+    "alternativas": [
+     "Gerald Thomas",
+     "José Renato",
+     "Antunes Filho",
+     "Ulysses Cruz"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12267",
+   "indice": 12267,
+   "origem": "br",
+   "tema": "teatro-danca",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Teatro de Arena, história do teatro, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grupo teatral paulistano, criado nos anos 1950, montou \"Eles Não Usam Black-Tie\"?",
+    "resposta": "Teatro de Arena",
+    "alternativas": [
+     "Teatro Oficina",
+     "Teatro de Arena",
+     "Grupo Galpão",
+     "TBC"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12268",
+   "indice": 12268,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Thiago de Mello, poeta pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta amazonense escreveu \"Os Estatutos do Homem\"?",
+    "resposta": "Thiago de Mello",
+    "alternativas": [
+     "Aníbal Beça",
+     "Astrid Cabral",
+     "Thiago de Mello",
+     "Márcio Souza"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12269",
+   "indice": 12269,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Haroldo de Campos, poesia concreta, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual poeta paulista fundou o grupo Noigandres com o irmão Augusto e com Décio Pignatari?",
+    "resposta": "Haroldo de Campos",
+    "alternativas": [
+     "Mário Faustino",
+     "José Lino Grünewald",
+     "Mário Chamie",
+     "Haroldo de Campos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12354",
+   "indice": 12354,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Luiz Vilela, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista mineiro, de Ituiutaba, estreou em 1967 com o livro \"Tremor de Terra\"?",
+    "resposta": "Luiz Vilela",
+    "alternativas": [
+     "Silviano Santiago",
+     "Luiz Vilela",
+     "Ivan Ângelo",
+     "Autran Dourado"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12527",
+   "indice": 12527,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Cristovão Tezza, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor catarinense, radicado em Curitiba, escreveu \"O Filho Eterno\", sobre a paternidade de um menino com síndrome de Down?",
+    "resposta": "Cristovão Tezza",
+    "alternativas": [
+     "Rogério Pereira",
+     "Cristovão Tezza",
+     "Assionara Souza",
+     "Miguel Sanches Neto"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12528",
+   "indice": 12528,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Socorro Acioli, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora cearense escreveu \"A Cabeça do Santo\", sobre uma cabeça gigante de Santo Antônio?",
+    "resposta": "Socorro Acioli",
+    "alternativas": [
+     "Socorro Acioli",
+     "Ana Miranda",
+     "Jarid Arraes",
+     "Natércia Campos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12529",
+   "indice": 12529,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Luiz Ruffato, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor mineiro escreveu \"Eles Eram Muitos Cavalos\", retrato fragmentado de São Paulo?",
+    "resposta": "Luiz Ruffato",
+    "alternativas": [
+     "Marcelino Freire",
+     "Marçal Aquino",
+     "Luiz Ruffato",
+     "Nelson de Oliveira"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12530",
+   "indice": 12530,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Geovani Martins, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor carioca estreou em 2018 com os contos de \"O Sol na Cabeça\", sobre a juventude das favelas?",
+    "resposta": "Geovani Martins",
+    "alternativas": [
+     "Sacolinha",
+     "Allan da Rosa",
+     "Geovani Martins",
+     "Alessandro Buzo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12531",
+   "indice": 12531,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Davi Kopenawa, livro pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual xamã yanomami escreveu, com o antropólogo Bruce Albert, \"A Queda do Céu\"?",
+    "resposta": "Davi Kopenawa",
+    "alternativas": [
+     "Txai Suruí",
+     "Davi Kopenawa",
+     "Raoni",
+     "Daniel Munduruku"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12532",
+   "indice": 12532,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Bernardo Carvalho, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista escreveu \"Nove Noites\", sobre o suicídio de um antropólogo americano no Brasil, em 1939?",
+    "resposta": "Bernardo Carvalho",
+    "alternativas": [
+     "Marçal Aquino",
+     "Bernardo Carvalho",
+     "Marcelo Mirisola",
+     "Joca Reiners Terron"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12616",
+   "indice": 12616,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ana Paula Maia, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora fluminense escreveu \"De Gados e Homens\", sobre o trabalho num matadouro?",
+    "resposta": "Ana Paula Maia",
+    "alternativas": [
+     "Adriana Lisboa",
+     "Andréa del Fuego",
+     "Ana Paula Maia",
+     "Tatiana Salem Levy"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12617",
+   "indice": 12617,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Paulo Scott, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor gaúcho escreveu \"Marrom e Amarelo\", sobre irmãos de tons de pele diferentes e as cotas raciais?",
+    "resposta": "Paulo Scott",
+    "alternativas": [
+     "Altair Martins",
+     "Paulo Scott",
+     "Rafael Bán Jacobsen",
+     "Michel Laub"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12618",
+   "indice": 12618,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Natalia Borges Polesso, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora gaúcha ganhou o Jabuti com os contos de \"Amora\", sobre mulheres que amam mulheres?",
+    "resposta": "Natalia Borges Polesso",
+    "alternativas": [
+     "Natalia Borges Polesso",
+     "Carol Bensimon",
+     "Veronica Stigger",
+     "Luisa Geisler"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12619",
+   "indice": 12619,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Aline Bei, autora pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritora paulista estreou com \"O Peso do Pássaro Morto\", romance em versos curtos?",
+    "resposta": "Aline Bei",
+    "alternativas": [
+     "Angélica Freitas",
+     "Aline Bei",
+     "Alice Sant'Anna",
+     "Bruna Beber"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12620",
+   "indice": 12620,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ricardo Lísias, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista publicou \"O Céu dos Suicidas\", romance sobre a perda de um amigo?",
+    "resposta": "Ricardo Lísias",
+    "alternativas": [
+     "Joca Reiners Terron",
+     "Antônio Xerxenesky",
+     "Ricardo Lísias",
+     "João Anzanello Carrascoza"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12676",
+   "indice": 12676,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Inocência, romance do século XIX, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Visconde de Taunay, de 1872, conta um amor proibido no sertão de Mato Grosso?",
+    "resposta": "Inocência",
+    "alternativas": [
+     "Inocência",
+     "Diva",
+     "A Mão e a Luva",
+     "A Escrava Isaura"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12677",
+   "indice": 12677,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Canaã, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Graça Aranha, de 1902, conta a vida de imigrantes alemães no Espírito Santo?",
+    "resposta": "Canaã",
+    "alternativas": [
+     "Luzia-Homem",
+     "Canaã",
+     "O Missionário",
+     "Os Sertões"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12678",
+   "indice": 12678,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Sargento Getúlio, obra menos lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de João Ubaldo Ribeiro tem um sargento sergipano levando um preso pelo sertão?",
+    "resposta": "Sargento Getúlio",
+    "alternativas": [
+     "Sargento Getúlio",
+     "Miséria e Grandeza do Amor",
+     "Vila Real",
+     "Setembro Não Tem Sentido"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12724",
+   "indice": 12724,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): A Bagaceira, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de José Américo de Almeida, de 1928, inaugurou o romance regionalista de 30?",
+    "resposta": "A Bagaceira",
+    "alternativas": [
+     "Coiteiros",
+     "Seca",
+     "A Bagaceira",
+     "O Boqueirão"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12725",
+   "indice": 12725,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Os Ratos, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Dyonélio Machado, de 1935, acompanha um homem atrás de dinheiro para pagar o leiteiro em Porto Alegre?",
+    "resposta": "Os Ratos",
+    "alternativas": [
+     "Os Ratos",
+     "O Louco do Cati",
+     "Desolação",
+     "Os Corruptos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12726",
+   "indice": 12726,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Crônica da Casa Assassinada, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Lúcio Cardoso, de 1959, narra a decadência de uma família mineira em cartas e diários?",
+    "resposta": "Crônica da Casa Assassinada",
+    "alternativas": [
+     "A Luz no Subsolo",
+     "Crônica da Casa Assassinada",
+     "Dias Perdidos",
+     "Maleita"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12727",
+   "indice": 12727,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Ópera dos Mortos, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Autran Dourado, de 1967, mostra uma família isolada num sobrado de Minas?",
+    "resposta": "Ópera dos Mortos",
+    "alternativas": [
+     "A Barca dos Homens",
+     "O Risco do Bordado",
+     "Os Sinos da Agonia",
+     "Ópera dos Mortos"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12728",
+   "indice": 12728,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Murilo Rubião, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual contista mineiro, pioneiro do fantástico no Brasil, escreveu \"O Pirotécnico Zacarias\"?",
+    "resposta": "Murilo Rubião",
+    "alternativas": [
+     "Moacyr Scliar",
+     "Murilo Rubião",
+     "José J. Veiga",
+     "Péricles Prade"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12729",
+   "indice": 12729,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Os Tambores de São Luís, romance pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Josué Montello, de 1975, tem como protagonista o negro Damião, que viveu num quilombo do Maranhão?",
+    "resposta": "Os Tambores de São Luís",
+    "alternativas": [
+     "Cais da Sagração",
+     "A Décima Noite",
+     "Os Tambores de São Luís",
+     "Noite sobre Alcântara"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12730",
+   "indice": 12730,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Clara dos Anjos, obra menos lida de Lima Barreto, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual romance de Lima Barreto conta a história de uma moça pobre e mulata enganada por um modinheiro?",
+    "resposta": "Clara dos Anjos",
+    "alternativas": [
+     "Numa e a Ninfa",
+     "Isaías Caminha",
+     "Clara dos Anjos",
+     "Vida e Morte de M. J. Gonzaga de Sá"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12736",
+   "indice": 12736,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Campos de Carvalho, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor mineiro, de humor surrealista, escreveu \"A Lua Vem da Ásia\"?",
+    "resposta": "Campos de Carvalho",
+    "alternativas": [
+     "Péricles Prade",
+     "Mário Palmério",
+     "Rui Mourão",
+     "Campos de Carvalho"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12737",
+   "indice": 12737,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Osman Lins, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor pernambucano escreveu \"Avalovara\", romance estruturado a partir de um quadrado mágico?",
+    "resposta": "Osman Lins",
+    "alternativas": [
+     "Hermilo Borba Filho",
+     "Gilvan Lemos",
+     "Raimundo Carrero",
+     "Osman Lins"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12739",
+   "indice": 12739,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Adonias Filho, autor pouco lido, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor baiano escreveu \"Corpo Vivo\", romance violento passado nas matas do cacau?",
+    "resposta": "Adonias Filho",
+    "alternativas": [
+     "Herberto Sales",
+     "Hélio Pólvora",
+     "Sosígenes Costa",
+     "Adonias Filho"
+    ]
+   }
+  },
+  {
+   "ref": "banco:12740",
+   "indice": 12740,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Orígenes Lessa, obra pouco lida, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor paulista escreveu \"O Feijão e o Sonho\", sobre um poeta sonhador e uma esposa prática?",
+    "resposta": "Orígenes Lessa",
+    "alternativas": [
+     "Menotti Del Picchia",
+     "Guilherme de Almeida",
+     "Paulo Setúbal",
+     "Orígenes Lessa"
     ]
    }
   },
@@ -2724,6 +4377,82 @@
    }
   },
   {
+   "ref": "banco:13605",
+   "indice": 13605,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): O Coronel e o Lobisomem, detalhe de personagem, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual coronel cheio de bravatas narra \"O Coronel e o Lobisomem\", de José Cândido de Carvalho?",
+    "resposta": "Ponciano de Azeredo Furtado",
+    "alternativas": [
+     "Ponciano de Azeredo Furtado",
+     "Firmino de Oliveira",
+     "Ramiro Bastos",
+     "Jesuíno Mendonça"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13608",
+   "indice": 13608,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): João Romão, detalhe de O Cortiço, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual comerciante português é o dono do cortiço no romance naturalista de 1890?",
+    "resposta": "João Romão",
+    "alternativas": [
+     "Miranda",
+     "João Romão",
+     "Botelho",
+     "Firmo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13611",
+   "indice": 13611,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Conselheiro Aires, detalhe de Machado, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual diplomata aposentado aparece em \"Esaú e Jacó\" e narra o último romance do mesmo autor, de 1908?",
+    "resposta": "Conselheiro Aires",
+    "alternativas": [
+     "Conselheiro Aires",
+     "Estácio",
+     "Luís Alves",
+     "Camilo"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13612",
+   "indice": 13612,
+   "origem": "br",
+   "tema": "literatura",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Isaías Caminha, obra menos lida de Lima Barreto, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jovem do interior é o protagonista do primeiro romance de Lima Barreto, sobre o racismo e a imprensa carioca?",
+    "resposta": "Isaías Caminha",
+    "alternativas": [
+     "Isaías Caminha",
+     "Gonzaga de Sá",
+     "Leonardo Flores",
+     "Augusto Machado"
+    ]
+   }
+  },
+  {
    "ref": "banco:13627",
    "indice": 13627,
    "tema": "arte",
@@ -2756,6 +4485,25 @@
      "Os Comedores de Batata",
      "O Mundo de Cristina",
      "Gótico Americano"
+    ]
+   }
+  },
+  {
+   "ref": "banco:13630",
+   "indice": 13630,
+   "origem": "br",
+   "tema": "arte",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Obra específica de Portinari, em difícil",
+   "pergunta": {
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tela de Portinari, de 1934, do acervo do MASP, retrata um trabalhador rural negro diante de um cafezal?",
+    "resposta": "O Lavrador de Café",
+    "alternativas": [
+     "Criança Morta",
+     "O Lavrador de Café",
+     "Enterro na Rede",
+     "Menino com Pião"
     ]
    }
   },
@@ -3478,1764 +5226,13 @@
      "Matsuo Basho"
     ]
    }
-  }
- ],
- "total_a_decidir": 93,
- "a_decidir_pelo_lucas": [
-  {
-   "ref": "banco:5219",
-   "indice": 5219,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "O Alienista: detalhe de personagem em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual médico de \"O Alienista\", de Machado de Assis, interna quase toda a cidade de Itaguaí?",
-    "resposta": "Simão Bacamarte",
-    "alternativas": [
-     "Simão Bacamarte",
-     "Brás Cubas",
-     "Bentinho",
-     "Quincas Borba"
-    ]
-   }
-  },
-  {
-   "ref": "banco:5328",
-   "indice": 5328,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Macabéa: personagem de livro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual nordestina pobre é a protagonista de \"A Hora da Estrela\", de Clarice Lispector?",
-    "resposta": "Macabéa",
-    "alternativas": [
-     "Sinhá Vitória",
-     "Gabriela",
-     "Macabéa",
-     "Capitu"
-    ]
-   }
-  },
-  {
-   "ref": "banco:5329",
-   "indice": 5329,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Policarpo Quaresma: personagem de livro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual personagem de Lima Barreto é um nacionalista que quer o tupi como língua oficial?",
-    "resposta": "Policarpo Quaresma",
-    "alternativas": [
-     "Brás Cubas",
-     "Quincas Borba",
-     "Policarpo Quaresma",
-     "Isaías Caminha"
-    ]
-   }
-  },
-  {
-   "ref": "banco:5514",
-   "indice": 5514,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Peri, personagem de O Guarani, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual indígena herói do romance \"O Guarani\" se dedica a proteger Ceci?",
-    "resposta": "Peri",
-    "alternativas": [
-     "Poti",
-     "Iracema",
-     "Peri",
-     "Ubirajara"
-    ]
-   }
-  },
-  {
-   "ref": "banco:6378",
-   "indice": 6378,
-   "origem": "mista",
-   "tema": "arte",
-   "motivo": "Rugendas, pintor estrangeiro que retratou o Brasil, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual pintor alemão retratou o Brasil do século XIX no livro \"Viagem Pitoresca através do Brasil\"?",
-    "resposta": "Rugendas",
-    "alternativas": [
-     "Taunay",
-     "Rugendas",
-     "Frans Post",
-     "Debret"
-    ]
-   }
-  },
-  {
-   "ref": "banco:6965",
-   "indice": 6965,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "O Ateneu, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Raul Pompeia se passa num colégio interno do Rio de Janeiro?",
-    "resposta": "O Ateneu",
-    "alternativas": [
-     "Dom Casmurro",
-     "Amar, Verbo Intransitivo",
-     "O Ateneu",
-     "O Cortiço"
-    ]
-   }
-  },
-  {
-   "ref": "banco:6967",
-   "indice": 6967,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Sagarana, obra de estreia, detalhe em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual livro de contos, de 1946, marcou a estreia de Guimarães Rosa?",
-    "resposta": "Sagarana",
-    "alternativas": [
-     "Sagarana",
-     "Tutameia",
-     "Corpo de Baile",
-     "Primeiras Estórias"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7049",
-   "indice": 7049,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Lygia Clark, artista pouco conhecida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual artista brasileira criou os \"Bichos\", esculturas de metal com dobradiças que o público podia manipular?",
-    "resposta": "Lygia Clark",
-    "alternativas": [
-     "Lygia Pape",
-     "Tomie Ohtake",
-     "Anita Malfatti",
-     "Lygia Clark"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7087",
-   "indice": 7087,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Brecheret, escultor pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escultor criou o Monumento às Bandeiras, no Parque Ibirapuera, em São Paulo?",
-    "resposta": "Victor Brecheret",
-    "alternativas": [
-     "Victor Brecheret",
-     "Bruno Giorgi",
-     "Alfredo Ceschiatti",
-     "Di Cavalcanti"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7118",
-   "indice": 7118,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Athos Bulcão, artista pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual artista criou os painéis de azulejos azuis e brancos espalhados pelos prédios de Brasília?",
-    "resposta": "Athos Bulcão",
-    "alternativas": [
-     "Candido Portinari",
-     "Bruno Giorgi",
-     "Athos Bulcão",
-     "Roberto Burle Marx"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7381",
-   "indice": 7381,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Jongo, dança pouco conhecida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual dança afro-brasileira com tambores, forte no Sudeste, é considerada uma das raízes do samba?",
-    "resposta": "Jongo",
-    "alternativas": [
-     "Xote",
-     "Jongo",
-     "Carimbó",
-     "Ciranda"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7382",
-   "indice": 7382,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Siriri, dança regional pouco conhecida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual dança de Mato Grosso é acompanhada pela viola de cocho?",
-    "resposta": "Siriri",
-    "alternativas": [
-     "Catira",
-     "Chula",
-     "Siriri",
-     "Fandango"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7485",
-   "indice": 7485,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Palatnik, artista pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual artista brasileiro, pioneiro da arte cinética, criou o \"Aparelho Cinecromático\"?",
-    "resposta": "Abraham Palatnik",
-    "alternativas": [
-     "Abraham Palatnik",
-     "Waldemar Cordeiro",
-     "Lygia Clark",
-     "Hélio Oiticica"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7489",
-   "indice": 7489,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Tomie Ohtake, artista pouco conhecida fora de SP, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual artista nipo-brasileira ficou famosa por pinturas abstratas e grandes esculturas curvas de cores fortes?",
-    "resposta": "Tomie Ohtake",
-    "alternativas": [
-     "Tomie Ohtake",
-     "Lygia Pape",
-     "Beatriz Milhazes",
-     "Yayoi Kusama"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7572",
-   "indice": 7572,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Lundu, dança histórica pouco conhecida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual dança de origem africana, popular no Brasil colonial, é considerada ancestral do maxixe e do samba?",
-    "resposta": "Lundu",
-    "alternativas": [
-     "Xote",
-     "Fandango",
-     "Lundu",
-     "Catira"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7573",
-   "indice": 7573,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Fandango caiçara, dança regional, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual dança caiçara do litoral do Paraná e de São Paulo é marcada pelo bater de tamancos?",
-    "resposta": "Fandango",
-    "alternativas": [
-     "Catira",
-     "Siriri",
-     "Ciranda",
-     "Fandango"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7884",
-   "indice": 7884,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Chula gaúcha, dança regional, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual dança gaúcha de sapateado é disputada sobre uma lança de madeira deitada no chão?",
-    "resposta": "Chula",
-    "alternativas": [
-     "Pezinho",
-     "Vanerão",
-     "Chimarrita",
-     "Chula"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7950",
-   "indice": 7950,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Arcadismo, escola literária, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escola literária do século XVIII, de Tomás Antônio Gonzaga, idealizava a vida no campo?",
-    "resposta": "Arcadismo",
-    "alternativas": [
-     "Arcadismo",
-     "Parnasianismo",
-     "Romantismo",
-     "Barroco"
-    ]
-   }
-  },
-  {
-   "ref": "banco:7951",
-   "indice": 7951,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Simbolismo, escola literária, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escola literária teve Cruz e Sousa como maior nome no Brasil?",
-    "resposta": "Simbolismo",
-    "alternativas": [
-     "Realismo",
-     "Parnasianismo",
-     "Arcadismo",
-     "Simbolismo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:8072",
-   "indice": 8072,
-   "origem": "mista",
-   "tema": "literatura",
-   "motivo": "Prêmio Camões, prêmio literário de Brasil e Portugal, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual prêmio literário da língua portuguesa foi criado por Brasil e Portugal em 1988?",
-    "resposta": "Prêmio Camões",
-    "alternativas": [
-     "Prêmio Saramago",
-     "Prêmio Oceanos",
-     "Prêmio Jabuti",
-     "Prêmio Camões"
-    ]
-   }
-  },
-  {
-   "ref": "banco:8358",
-   "indice": 8358,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Movimento Armorial, assunto pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual movimento cultural, criado por Ariano Suassuna em 1970, buscava uma arte erudita a partir das raízes populares do Nordeste?",
-    "resposta": "Movimento Armorial",
-    "alternativas": [
-     "Movimento Armorial",
-     "Cinema Novo",
-     "Tropicalismo",
-     "Manguebeat"
-    ]
-   }
-  },
-  {
-   "ref": "banco:9245",
-   "indice": 9245,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Diadorim, detalhe de Grande Sertão, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Em \"Grande Sertão: Veredas\", qual jagunço guarda o segredo de ser uma mulher?",
-    "resposta": "Diadorim",
-    "alternativas": [
-     "Hermógenes",
-     "Riobaldo",
-     "Zé Bebelo",
-     "Diadorim"
-    ]
-   }
-  },
-  {
-   "ref": "banco:9246",
-   "indice": 9246,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Aurélia Camargo, personagem de Senhora, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual heroína de \"Senhora\", de José de Alencar, \"compra\" o marido que a havia desprezado?",
-    "resposta": "Aurélia Camargo",
-    "alternativas": [
-     "Lucíola",
-     "Iracema",
-     "Aurélia Camargo",
-     "Ceci"
-    ]
-   }
-  },
-  {
-   "ref": "banco:9537",
-   "indice": 9537,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Paulo Honório, personagem de São Bernardo, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual fazendeiro ambicioso narra \"São Bernardo\", de Graciliano Ramos?",
-    "resposta": "Paulo Honório",
-    "alternativas": [
-     "Ponciano",
-     "Fabiano",
-     "Paulo Honório",
-     "Luís da Silva"
-    ]
-   }
-  },
-  {
-   "ref": "banco:9562",
-   "indice": 9562,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Angústia, obra menos lida de Graciliano, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual funcionário público frustrado narra \"Angústia\", de Graciliano Ramos?",
-    "resposta": "Luís da Silva",
-    "alternativas": [
-     "Paulo Honório",
-     "Policarpo Quaresma",
-     "Fabiano",
-     "Luís da Silva"
-    ]
-   }
-  },
-  {
-   "ref": "banco:9629",
-   "indice": 9629,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Pastoril, folguedo regional, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual folguedo natalino nordestino tem dois cordões de pastoras, o azul e o encarnado?",
-    "resposta": "Pastoril",
-    "alternativas": [
-     "Reisado",
-     "Pastoril",
-     "Bumba meu boi",
-     "Maracatu"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10328",
-   "indice": 10328,
-   "origem": "mista",
-   "tema": "teatro-danca",
-   "motivo": "Ribalta, termo técnico de teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Como se chama a fileira de luzes na beira do palco, que deu nome à fama?",
-    "resposta": "Ribalta",
-    "alternativas": [
-     "Rotunda",
-     "Gambiarra",
-     "Ribalta",
-     "Fosso"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10460",
-   "indice": 10460,
-   "origem": "mista",
-   "tema": "teatro-danca",
-   "motivo": "Rotunda, termo técnico de teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "No teatro, como se chama o grande pano que fecha o fundo do palco?",
-    "resposta": "Rotunda",
-    "alternativas": [
-     "Proscênio",
-     "Rotunda",
-     "Urdimento",
-     "Coxia"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10507",
-   "indice": 10507,
-   "origem": "mista",
-   "tema": "teatro-danca",
-   "motivo": "Proscênio, termo técnico de teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "No teatro, como se chama a parte da frente do palco, além da cortina?",
-    "resposta": "Proscênio",
-    "alternativas": [
-     "Coxia",
-     "Proscênio",
-     "Urdimento",
-     "Plateia"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10508",
-   "indice": 10508,
-   "origem": "mista",
-   "tema": "teatro-danca",
-   "motivo": "Contrarregra, termo técnico de teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "No teatro, como se chama quem cuida dos objetos de cena durante o espetáculo?",
-    "resposta": "Contrarregra",
-    "alternativas": [
-     "Iluminador",
-     "Contrarregra",
-     "Ponto",
-     "Cenógrafo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10540",
-   "indice": 10540,
-   "origem": "mista",
-   "tema": "teatro-danca",
-   "motivo": "Bambolina, termo técnico de teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "No teatro, como se chama a faixa de pano no alto do palco que esconde as luzes?",
-    "resposta": "Bambolina",
-    "alternativas": [
-     "Rotunda",
-     "Bambolina",
-     "Coxia",
-     "Gambiarra"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10621",
-   "indice": 10621,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Lasar Segall, pintor pouco conhecido do público geral, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual pintor lituano-brasileiro pintou \"Navio de Emigrantes\"?",
-    "resposta": "Lasar Segall",
-    "alternativas": [
-     "Candido Portinari",
-     "Alfredo Volpi",
-     "Di Cavalcanti",
-     "Lasar Segall"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10622",
-   "indice": 10622,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Beatriz Milhazes, pintora pouco conhecida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual pintora carioca contemporânea é famosa pelas telas cheias de círculos coloridos?",
-    "resposta": "Beatriz Milhazes",
-    "alternativas": [
-     "Beatriz Milhazes",
-     "Adriana Varejão",
-     "Tomie Ohtake",
-     "Lygia Clark"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10623",
-   "indice": 10623,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Djanira, pintora pouco conhecida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual pintora naïf paulista retratou festas populares e o trabalho no campo?",
-    "resposta": "Djanira",
-    "alternativas": [
-     "Tarsila do Amaral",
-     "Tomie Ohtake",
-     "Djanira",
-     "Anita Malfatti"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10703",
-   "indice": 10703,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Instituto Ricardo Brennand, pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual instituto de Recife fica num castelo com coleção de armas e de obras holandesas?",
-    "resposta": "Instituto Ricardo Brennand",
-    "alternativas": [
-     "Paço do Frevo",
-     "Museu do Homem do Nordeste",
-     "Instituto Moreira Salles",
-     "Instituto Ricardo Brennand"
-    ]
-   }
-  },
-  {
-   "ref": "banco:10847",
-   "indice": 10847,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Adélia Prado, estreia em livro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual poetisa mineira de Divinópolis estreou com o livro \"Bagagem\"?",
-    "resposta": "Adélia Prado",
-    "alternativas": [
-     "Adélia Prado",
-     "Hilda Hilst",
-     "Lya Luft",
-     "Henriqueta Lisboa"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11392",
-   "indice": 11392,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Guarnieri, dramaturgo pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual ator e dramaturgo escreveu a peça \"Eles Não Usam Black-Tie\", de 1958?",
-    "resposta": "Gianfrancesco Guarnieri",
-    "alternativas": [
-     "Jorge Andrade",
-     "Gianfrancesco Guarnieri",
-     "Lauro César Muniz",
-     "Augusto Boal"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11393",
-   "indice": 11393,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Zé Celso e o Teatro Oficina, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual diretor comandou por décadas o Teatro Oficina, em São Paulo?",
-    "resposta": "Zé Celso",
-    "alternativas": [
-     "Zé Celso",
-     "Antunes Filho",
-     "José Renato",
-     "Gerald Thomas"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11395",
-   "indice": 11395,
-   "origem": "mista",
-   "tema": "arte",
-   "motivo": "Pierre Verger, fotógrafo francês da Bahia, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual fotógrafo francês viveu na Bahia e registrou a cultura afro-brasileira?",
-    "resposta": "Pierre Verger",
-    "alternativas": [
-     "Robert Doisneau",
-     "Pierre Verger",
-     "Claude Lévi-Strauss",
-     "Marcel Gautherot"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11396",
-   "indice": 11396,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Bruno Giorgi, escultor pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escultor fez \"Os Candangos\", na Praça dos Três Poderes, em Brasília?",
-    "resposta": "Bruno Giorgi",
-    "alternativas": [
-     "Bruno Giorgi",
-     "Amilcar de Castro",
-     "Sergio Camargo",
-     "Oscar Niemeyer"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11591",
-   "indice": 11591,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Ferréz, autor pouco lido pelo público geral, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor paulistano da periferia escreveu \"Capão Pecado\"?",
-    "resposta": "Ferréz",
-    "alternativas": [
-     "Sérgio Vaz",
-     "Ferréz",
-     "Mano Brown",
-     "Alessandro Buzo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11592",
-   "indice": 11592,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Raphael Montes, autor pouco lido pelo público geral, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor carioca de suspense escreveu \"Dias Perfeitos\"?",
-    "resposta": "Raphael Montes",
-    "alternativas": [
-     "Raphael Montes",
-     "Rubem Fonseca",
-     "Patrícia Melo",
-     "Marçal Aquino"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11593",
-   "indice": 11593,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Guignard, pintor pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual pintor ficou famoso pelas paisagens montanhosas e nebulosas de Minas Gerais e de Ouro Preto?",
-    "resposta": "Guignard",
-    "alternativas": [
-     "Di Cavalcanti",
-     "Volpi",
-     "Guignard",
-     "Djanira"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11595",
-   "indice": 11595,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Daniel Galera, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor escreveu \"Barba Ensopada de Sangue\", passado na praia catarinense de Garopaba?",
-    "resposta": "Daniel Galera",
-    "alternativas": [
-     "Daniel Galera",
-     "Carol Bensimon",
-     "Paulo Scott",
-     "Michel Laub"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11619",
-   "indice": 11619,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Vianinha, dramaturgo pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual dramaturgo, conhecido como Vianinha, escreveu \"Rasga Coração\"?",
-    "resposta": "Oduvaldo Vianna Filho",
-    "alternativas": [
-     "Consuelo de Castro",
-     "Dias Gomes",
-     "Lauro César Muniz",
-     "Oduvaldo Vianna Filho"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11706",
-   "indice": 11706,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Cacilda Becker, atriz de teatro antiga, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual atriz passou mal em cena durante \"Esperando Godot\", em 1969, e morreu semanas depois?",
-    "resposta": "Cacilda Becker",
-    "alternativas": [
-     "Fernanda Montenegro",
-     "Cacilda Becker",
-     "Tônia Carrero",
-     "Dercy Gonçalves"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11817",
-   "indice": 11817,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Ceschiatti, escultor pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escultor fez \"A Justiça\", estátua de olhos vendados em frente ao STF, em Brasília?",
-    "resposta": "Alfredo Ceschiatti",
-    "alternativas": [
-     "Mário Cravo Júnior",
-     "Alfredo Ceschiatti",
-     "Frans Krajcberg",
-     "Sergio Camargo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11878",
-   "indice": 11878,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Krajcberg, escultor pouco conhecido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual artista polonês radicado no Brasil fez esculturas com troncos de árvores queimadas?",
-    "resposta": "Frans Krajcberg",
-    "alternativas": [
-     "Lasar Segall",
-     "Frans Krajcberg",
-     "Franz Weissmann",
-     "Mário Cravo Júnior"
-    ]
-   }
-  },
-  {
-   "ref": "banco:11998",
-   "indice": 11998,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Raduan Nassar, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor paulista publicou \"Lavoura Arcaica\" e depois abandonou a literatura para cuidar de uma fazenda?",
-    "resposta": "Raduan Nassar",
-    "alternativas": [
-     "Raduan Nassar",
-     "Lourenço Mutarelli",
-     "Marçal Aquino",
-     "Antônio Torres"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12076",
-   "indice": 12076,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Dalton Trevisan, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual contista curitibano, avesso a entrevistas e fotos, era chamado de Vampiro de Curitiba?",
-    "resposta": "Dalton Trevisan",
-    "alternativas": [
-     "Miguel Sanches Neto",
-     "Wilson Bueno",
-     "Valêncio Xavier",
-     "Dalton Trevisan"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12077",
-   "indice": 12077,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "As Meninas, obra menos lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritora paulista publicou \"As Meninas\", romance de 1973 sobre três estudantes?",
-    "resposta": "Lygia Fagundes Telles",
-    "alternativas": [
-     "Nélida Piñon",
-     "Lygia Fagundes Telles",
-     "Zulmira Ribeiro Tavares",
-     "Edla van Steen"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12078",
-   "indice": 12078,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Hilda Hilst, autora pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual poeta e escritora paulista viveu reclusa na Casa do Sol, em Campinas?",
-    "resposta": "Hilda Hilst",
-    "alternativas": [
-     "Renata Pallottini",
-     "Orides Fontela",
-     "Olga Savary",
-     "Hilda Hilst"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12079",
-   "indice": 12079,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Caio Fernando Abreu, obra pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor gaúcho publicou \"Morangos Mofados\", em 1982?",
-    "resposta": "Caio Fernando Abreu",
-    "alternativas": [
-     "João Gilberto Noll",
-     "Caio Fernando Abreu",
-     "Luis Fernando Verissimo",
-     "Moacyr Scliar"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12107",
-   "indice": 12107,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Stanislaw Ponte Preta, pseudônimo pouco lembrado, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor criou o pseudônimo Stanislaw Ponte Preta e o \"Febeapá\"?",
-    "resposta": "Sérgio Porto",
-    "alternativas": [
-     "Ivan Lessa",
-     "Jaguar",
-     "Sérgio Porto",
-     "Millôr Fernandes"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12157",
-   "indice": 12157,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Loyola Brandão, obra pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor de Araraquara escreveu a distopia \"Não Verás País Nenhum\"?",
-    "resposta": "Ignácio de Loyola Brandão",
-    "alternativas": [
-     "Ignácio de Loyola Brandão",
-     "Antônio Callado",
-     "Moacyr Scliar",
-     "José J. Veiga"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12158",
-   "indice": 12158,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "João Antônio, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor paulista publicou \"Malagueta, Perus e Bacanaço\", contos sobre malandros e jogadores de sinuca?",
-    "resposta": "João Antônio",
-    "alternativas": [
-     "Roniwalter Jatobá",
-     "João Antônio",
-     "Oswaldo França Júnior",
-     "Ricardo Ramos"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12187",
-   "indice": 12187,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Ana Cristina Cesar, poeta pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual poeta carioca da poesia marginal dos anos 1970 escreveu \"A Teus Pés\"?",
-    "resposta": "Ana Cristina Cesar",
-    "alternativas": [
-     "Alice Ruiz",
-     "Ana Cristina Cesar",
-     "Leila Míccolis",
-     "Sônia Queiroz"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12266",
-   "indice": 12266,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Antunes Filho, diretor de teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual diretor de teatro fez a famosa montagem de \"Macunaíma\", em 1978?",
-    "resposta": "Antunes Filho",
-    "alternativas": [
-     "Gerald Thomas",
-     "José Renato",
-     "Antunes Filho",
-     "Ulysses Cruz"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12267",
-   "indice": 12267,
-   "origem": "br",
-   "tema": "teatro-danca",
-   "motivo": "Teatro de Arena, história do teatro, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual grupo teatral paulistano, criado nos anos 1950, montou \"Eles Não Usam Black-Tie\"?",
-    "resposta": "Teatro de Arena",
-    "alternativas": [
-     "Teatro Oficina",
-     "Teatro de Arena",
-     "Grupo Galpão",
-     "TBC"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12268",
-   "indice": 12268,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Thiago de Mello, poeta pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual poeta amazonense escreveu \"Os Estatutos do Homem\"?",
-    "resposta": "Thiago de Mello",
-    "alternativas": [
-     "Aníbal Beça",
-     "Astrid Cabral",
-     "Thiago de Mello",
-     "Márcio Souza"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12269",
-   "indice": 12269,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Haroldo de Campos, poesia concreta, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual poeta paulista fundou o grupo Noigandres com o irmão Augusto e com Décio Pignatari?",
-    "resposta": "Haroldo de Campos",
-    "alternativas": [
-     "Mário Faustino",
-     "José Lino Grünewald",
-     "Mário Chamie",
-     "Haroldo de Campos"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12354",
-   "indice": 12354,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Luiz Vilela, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual contista mineiro, de Ituiutaba, estreou em 1967 com o livro \"Tremor de Terra\"?",
-    "resposta": "Luiz Vilela",
-    "alternativas": [
-     "Silviano Santiago",
-     "Luiz Vilela",
-     "Ivan Ângelo",
-     "Autran Dourado"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12527",
-   "indice": 12527,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Cristovão Tezza, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor catarinense, radicado em Curitiba, escreveu \"O Filho Eterno\", sobre a paternidade de um menino com síndrome de Down?",
-    "resposta": "Cristovão Tezza",
-    "alternativas": [
-     "Rogério Pereira",
-     "Cristovão Tezza",
-     "Assionara Souza",
-     "Miguel Sanches Neto"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12528",
-   "indice": 12528,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Socorro Acioli, autora pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritora cearense escreveu \"A Cabeça do Santo\", sobre uma cabeça gigante de Santo Antônio?",
-    "resposta": "Socorro Acioli",
-    "alternativas": [
-     "Socorro Acioli",
-     "Ana Miranda",
-     "Jarid Arraes",
-     "Natércia Campos"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12529",
-   "indice": 12529,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Luiz Ruffato, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor mineiro escreveu \"Eles Eram Muitos Cavalos\", retrato fragmentado de São Paulo?",
-    "resposta": "Luiz Ruffato",
-    "alternativas": [
-     "Marcelino Freire",
-     "Marçal Aquino",
-     "Luiz Ruffato",
-     "Nelson de Oliveira"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12530",
-   "indice": 12530,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Geovani Martins, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor carioca estreou em 2018 com os contos de \"O Sol na Cabeça\", sobre a juventude das favelas?",
-    "resposta": "Geovani Martins",
-    "alternativas": [
-     "Sacolinha",
-     "Allan da Rosa",
-     "Geovani Martins",
-     "Alessandro Buzo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12531",
-   "indice": 12531,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Davi Kopenawa, livro pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual xamã yanomami escreveu, com o antropólogo Bruce Albert, \"A Queda do Céu\"?",
-    "resposta": "Davi Kopenawa",
-    "alternativas": [
-     "Txai Suruí",
-     "Davi Kopenawa",
-     "Raoni",
-     "Daniel Munduruku"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12532",
-   "indice": 12532,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Bernardo Carvalho, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor paulista escreveu \"Nove Noites\", sobre o suicídio de um antropólogo americano no Brasil, em 1939?",
-    "resposta": "Bernardo Carvalho",
-    "alternativas": [
-     "Marçal Aquino",
-     "Bernardo Carvalho",
-     "Marcelo Mirisola",
-     "Joca Reiners Terron"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12616",
-   "indice": 12616,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Ana Paula Maia, autora pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritora fluminense escreveu \"De Gados e Homens\", sobre o trabalho num matadouro?",
-    "resposta": "Ana Paula Maia",
-    "alternativas": [
-     "Adriana Lisboa",
-     "Andréa del Fuego",
-     "Ana Paula Maia",
-     "Tatiana Salem Levy"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12617",
-   "indice": 12617,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Paulo Scott, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor gaúcho escreveu \"Marrom e Amarelo\", sobre irmãos de tons de pele diferentes e as cotas raciais?",
-    "resposta": "Paulo Scott",
-    "alternativas": [
-     "Altair Martins",
-     "Paulo Scott",
-     "Rafael Bán Jacobsen",
-     "Michel Laub"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12618",
-   "indice": 12618,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Natalia Borges Polesso, autora pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritora gaúcha ganhou o Jabuti com os contos de \"Amora\", sobre mulheres que amam mulheres?",
-    "resposta": "Natalia Borges Polesso",
-    "alternativas": [
-     "Natalia Borges Polesso",
-     "Carol Bensimon",
-     "Veronica Stigger",
-     "Luisa Geisler"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12619",
-   "indice": 12619,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Aline Bei, autora pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritora paulista estreou com \"O Peso do Pássaro Morto\", romance em versos curtos?",
-    "resposta": "Aline Bei",
-    "alternativas": [
-     "Angélica Freitas",
-     "Aline Bei",
-     "Alice Sant'Anna",
-     "Bruna Beber"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12620",
-   "indice": 12620,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Ricardo Lísias, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor paulista publicou \"O Céu dos Suicidas\", romance sobre a perda de um amigo?",
-    "resposta": "Ricardo Lísias",
-    "alternativas": [
-     "Joca Reiners Terron",
-     "Antônio Xerxenesky",
-     "Ricardo Lísias",
-     "João Anzanello Carrascoza"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12676",
-   "indice": 12676,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Inocência, romance do século XIX, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Visconde de Taunay, de 1872, conta um amor proibido no sertão de Mato Grosso?",
-    "resposta": "Inocência",
-    "alternativas": [
-     "Inocência",
-     "Diva",
-     "A Mão e a Luva",
-     "A Escrava Isaura"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12677",
-   "indice": 12677,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Canaã, romance pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Graça Aranha, de 1902, conta a vida de imigrantes alemães no Espírito Santo?",
-    "resposta": "Canaã",
-    "alternativas": [
-     "Luzia-Homem",
-     "Canaã",
-     "O Missionário",
-     "Os Sertões"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12678",
-   "indice": 12678,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Sargento Getúlio, obra menos lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de João Ubaldo Ribeiro tem um sargento sergipano levando um preso pelo sertão?",
-    "resposta": "Sargento Getúlio",
-    "alternativas": [
-     "Sargento Getúlio",
-     "Miséria e Grandeza do Amor",
-     "Vila Real",
-     "Setembro Não Tem Sentido"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12724",
-   "indice": 12724,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "A Bagaceira, romance pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de José Américo de Almeida, de 1928, inaugurou o romance regionalista de 30?",
-    "resposta": "A Bagaceira",
-    "alternativas": [
-     "Coiteiros",
-     "Seca",
-     "A Bagaceira",
-     "O Boqueirão"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12725",
-   "indice": 12725,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Os Ratos, romance pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Dyonélio Machado, de 1935, acompanha um homem atrás de dinheiro para pagar o leiteiro em Porto Alegre?",
-    "resposta": "Os Ratos",
-    "alternativas": [
-     "Os Ratos",
-     "O Louco do Cati",
-     "Desolação",
-     "Os Corruptos"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12726",
-   "indice": 12726,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Crônica da Casa Assassinada, romance pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Lúcio Cardoso, de 1959, narra a decadência de uma família mineira em cartas e diários?",
-    "resposta": "Crônica da Casa Assassinada",
-    "alternativas": [
-     "A Luz no Subsolo",
-     "Crônica da Casa Assassinada",
-     "Dias Perdidos",
-     "Maleita"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12727",
-   "indice": 12727,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Ópera dos Mortos, romance pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Autran Dourado, de 1967, mostra uma família isolada num sobrado de Minas?",
-    "resposta": "Ópera dos Mortos",
-    "alternativas": [
-     "A Barca dos Homens",
-     "O Risco do Bordado",
-     "Os Sinos da Agonia",
-     "Ópera dos Mortos"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12728",
-   "indice": 12728,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Murilo Rubião, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual contista mineiro, pioneiro do fantástico no Brasil, escreveu \"O Pirotécnico Zacarias\"?",
-    "resposta": "Murilo Rubião",
-    "alternativas": [
-     "Moacyr Scliar",
-     "Murilo Rubião",
-     "José J. Veiga",
-     "Péricles Prade"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12729",
-   "indice": 12729,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Os Tambores de São Luís, romance pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Josué Montello, de 1975, tem como protagonista o negro Damião, que viveu num quilombo do Maranhão?",
-    "resposta": "Os Tambores de São Luís",
-    "alternativas": [
-     "Cais da Sagração",
-     "A Décima Noite",
-     "Os Tambores de São Luís",
-     "Noite sobre Alcântara"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12730",
-   "indice": 12730,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Clara dos Anjos, obra menos lida de Lima Barreto, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual romance de Lima Barreto conta a história de uma moça pobre e mulata enganada por um modinheiro?",
-    "resposta": "Clara dos Anjos",
-    "alternativas": [
-     "Numa e a Ninfa",
-     "Isaías Caminha",
-     "Clara dos Anjos",
-     "Vida e Morte de M. J. Gonzaga de Sá"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12736",
-   "indice": 12736,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Campos de Carvalho, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor mineiro, de humor surrealista, escreveu \"A Lua Vem da Ásia\"?",
-    "resposta": "Campos de Carvalho",
-    "alternativas": [
-     "Péricles Prade",
-     "Mário Palmério",
-     "Rui Mourão",
-     "Campos de Carvalho"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12737",
-   "indice": 12737,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Osman Lins, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor pernambucano escreveu \"Avalovara\", romance estruturado a partir de um quadrado mágico?",
-    "resposta": "Osman Lins",
-    "alternativas": [
-     "Hermilo Borba Filho",
-     "Gilvan Lemos",
-     "Raimundo Carrero",
-     "Osman Lins"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12739",
-   "indice": 12739,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Adonias Filho, autor pouco lido, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor baiano escreveu \"Corpo Vivo\", romance violento passado nas matas do cacau?",
-    "resposta": "Adonias Filho",
-    "alternativas": [
-     "Herberto Sales",
-     "Hélio Pólvora",
-     "Sosígenes Costa",
-     "Adonias Filho"
-    ]
-   }
-  },
-  {
-   "ref": "banco:12740",
-   "indice": 12740,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Orígenes Lessa, obra pouco lida, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual escritor paulista escreveu \"O Feijão e o Sonho\", sobre um poeta sonhador e uma esposa prática?",
-    "resposta": "Orígenes Lessa",
-    "alternativas": [
-     "Menotti Del Picchia",
-     "Guilherme de Almeida",
-     "Paulo Setúbal",
-     "Orígenes Lessa"
-    ]
-   }
-  },
-  {
-   "ref": "banco:13605",
-   "indice": 13605,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "O Coronel e o Lobisomem, detalhe de personagem, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual coronel cheio de bravatas narra \"O Coronel e o Lobisomem\", de José Cândido de Carvalho?",
-    "resposta": "Ponciano de Azeredo Furtado",
-    "alternativas": [
-     "Ponciano de Azeredo Furtado",
-     "Firmino de Oliveira",
-     "Ramiro Bastos",
-     "Jesuíno Mendonça"
-    ]
-   }
-  },
-  {
-   "ref": "banco:13608",
-   "indice": 13608,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "João Romão, detalhe de O Cortiço, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual comerciante português é o dono do cortiço no romance naturalista de 1890?",
-    "resposta": "João Romão",
-    "alternativas": [
-     "Miranda",
-     "João Romão",
-     "Botelho",
-     "Firmo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:13611",
-   "indice": 13611,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Conselheiro Aires, detalhe de Machado, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual diplomata aposentado aparece em \"Esaú e Jacó\" e narra o último romance do mesmo autor, de 1908?",
-    "resposta": "Conselheiro Aires",
-    "alternativas": [
-     "Conselheiro Aires",
-     "Estácio",
-     "Luís Alves",
-     "Camilo"
-    ]
-   }
-  },
-  {
-   "ref": "banco:13612",
-   "indice": 13612,
-   "origem": "br",
-   "tema": "literatura",
-   "motivo": "Isaías Caminha, obra menos lida de Lima Barreto, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual jovem do interior é o protagonista do primeiro romance de Lima Barreto, sobre o racismo e a imprensa carioca?",
-    "resposta": "Isaías Caminha",
-    "alternativas": [
-     "Isaías Caminha",
-     "Gonzaga de Sá",
-     "Leonardo Flores",
-     "Augusto Machado"
-    ]
-   }
-  },
-  {
-   "ref": "banco:13630",
-   "indice": 13630,
-   "origem": "br",
-   "tema": "arte",
-   "motivo": "Obra específica de Portinari, em difícil",
-   "pergunta": {
-    "categoria": "Entretenimento",
-    "dificuldade": "dificil",
-    "pergunta": "Qual tela de Portinari, de 1934, do acervo do MASP, retrata um trabalhador rural negro diante de um cafezal?",
-    "resposta": "O Lavrador de Café",
-    "alternativas": [
-     "Criança Morta",
-     "O Lavrador de Café",
-     "Enterro na Rede",
-     "Menino com Pião"
-    ]
-   }
   },
   {
    "ref": "banco:13960",
    "indice": 13960,
    "origem": "br",
    "tema": "literatura",
-   "motivo": "Gonçalves de Magalhães, autor pouco lido, em difícil",
+   "motivo": "decisao do Lucas em 30/10 (\"Saem tambem\"): Gonçalves de Magalhães, autor pouco lido, em difícil",
    "pergunta": {
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
@@ -5249,5 +5246,7 @@
     ]
    }
   }
- ]
+ ],
+ "total_a_decidir": 0,
+ "a_decidir_pelo_lucas": []
 }

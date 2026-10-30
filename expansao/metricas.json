@@ -2341,13 +2341,13 @@
     {
       "lote": "066",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 127,
+      "escritas": 131,
       "validas": 107,
-      "descartadas": 20,
-      "taxa_descarte": 0.16,
-      "caracteres": 20271,
-      "tokens_aprox": 5792,
-      "rodadas_de_reposicao": 2,
+      "descartadas": 24,
+      "taxa_descarte": 0.18,
+      "caracteres": 20880,
+      "tokens_aprox": 5966,
+      "rodadas_de_reposicao": 4,
       "candidatas_usadas": [
         "r7-066.txt",
         "r7-066b.txt",
@@ -2371,28 +2371,28 @@
         "candidatas_por_valida": 7.24
       },
       "perguntas": {
-        "escritas": 127,
+        "escritas": 131,
         "validas": 107,
-        "descartadas_detector": 20,
-        "descarte": 0.16,
-        "tokens_aprox": 5792
+        "descartadas_detector": 24,
+        "descarte": 0.18,
+        "tokens_aprox": 5966
       },
       "tokens_por_valida": {
         "listas": 128,
-        "perguntas": 54,
-        "total": 182
+        "perguntas": 56,
+        "total": 184
       }
     },
     {
       "lote": "067",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 102,
+      "escritas": 106,
       "validas": 93,
-      "descartadas": 9,
-      "taxa_descarte": 0.09,
-      "caracteres": 15058,
-      "tokens_aprox": 4302,
-      "rodadas_de_reposicao": 2,
+      "descartadas": 13,
+      "taxa_descarte": 0.12,
+      "caracteres": 15633,
+      "tokens_aprox": 4467,
+      "rodadas_de_reposicao": 3,
       "candidatas_usadas": [
         "r7-067.txt",
         "r7-067b.txt",
@@ -2414,16 +2414,16 @@
         "candidatas_por_valida": 3.04
       },
       "perguntas": {
-        "escritas": 102,
+        "escritas": 106,
         "validas": 93,
-        "descartadas_detector": 9,
-        "descarte": 0.09,
-        "tokens_aprox": 4302
+        "descartadas_detector": 13,
+        "descarte": 0.12,
+        "tokens_aprox": 4467
       },
       "tokens_por_valida": {
         "listas": 49,
-        "perguntas": 46,
-        "total": 96
+        "perguntas": 48,
+        "total": 98
       }
     }
   ],

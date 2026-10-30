@@ -6,9 +6,9 @@
     "pergunta": "Em inglês, o que significa o verbo \"to pretend\"?",
     "resposta": "Fingir",
     "alternativas": [
-      "Fingir",
-      "Pertencer",
       "Prender",
+      "Pertencer",
+      "Fingir",
       "Pretender"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
@@ -1092,12 +1092,12 @@
       "Suécia"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:b2aabf249f (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:b2aabf249f",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "d9e892019e",
@@ -2492,12 +2492,12 @@
       "Lygia Bojunga"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:47ae4bf7e7 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:47ae4bf7e7",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (27.4, sim 0.5)"
   },
   {
     "id": "31ebadf124",
@@ -2552,6 +2552,66 @@
       "Meia maratona"
     ],
     "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b22d21e2c5",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção ganhou a Eurocopa de 2016, na França, com gol de Éder na prorrogação da final?",
+    "resposta": "Portugal",
+    "alternativas": [
+      "França",
+      "Alemanha",
+      "Portugal",
+      "País de Gales"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2640 (E2 mesma resposta e mesmo assunto (10.9, 36% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:2640",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.9, 36% do fato)"
+  },
+  {
+    "id": "9acad70fdf",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual disco de Jorge Ben, de 1976, tem \"Ponta de Lança Africano (Umbabarauma)\"?",
+    "resposta": "África Brasil",
+    "alternativas": [
+      "A Tábua de Esmeralda",
+      "Samba Esquema Novo",
+      "Força Bruta",
+      "África Brasil"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f9af51acc7",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em qual clube japonês Zico virou ídolo nos anos 1990?",
+    "resposta": "Kashima Antlers",
+    "alternativas": [
+      "Kashima Antlers",
+      "Kashiwa Reysol",
+      "Júbilo Iwata",
+      "Yokohama Marinos"
+    ],
+    "subtema": "Futebol europeu",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

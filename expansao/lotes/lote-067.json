@@ -212,12 +212,12 @@
       "Arigatô"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:3cca25e004 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:3cca25e004",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 12.2)"
   },
   {
     "id": "eb1eaee6bd",
@@ -232,12 +232,12 @@
       "Hallo"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:8fd1788b69",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:8e3bb2355a (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:8e3bb2355a",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 12.2)"
   },
   {
     "id": "9cc00e64d4",
@@ -294,10 +294,10 @@
     "subtema": "Bandeiras, moedas e idiomas",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:8fd1788b69",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": null
   },
   {
     "id": "52d4ccf11d",
@@ -312,12 +312,12 @@
       "Mazel tov"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:944c52251e (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:944c52251e",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 14.1)"
   },
   {
     "id": "0cc7d2f128",
@@ -335,7 +335,7 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "id:8fd1788b69",
+    "dup_ref": "id:6940f1d931",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
   },
@@ -395,7 +395,7 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "id:8fd1788b69",
+    "dup_ref": "id:6940f1d931",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
   },
@@ -2032,6 +2032,86 @@
       "Elíptico"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d21e96c0c3",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O feta, queijo branco e salgado, é típico de qual país?",
+    "resposta": "Grécia",
+    "alternativas": [
+      "Grécia",
+      "Itália",
+      "Espanha",
+      "Portugal"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:237 (E7 a pergunta antiga é SOBRE a resposta nova (nome próprio ou termo entre aspas))",
+    "dup": "certa",
+    "dup_ref": "banco:237",
+    "recente": false,
+    "dup_regra": "E7 a pergunta antiga é SOBRE a resposta nova (nome próprio ou termo entre aspas)"
+  },
+  {
+    "id": "282c6f5769",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "O manchego, queijo de leite de ovelha da região de La Mancha, vem de qual país?",
+    "resposta": "Espanha",
+    "alternativas": [
+      "França",
+      "Itália",
+      "Portugal",
+      "Espanha"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49f9d7fc3c",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O Negroni, drinque italiano avermelhado, leva Campari, vermute e qual destilado?",
+    "resposta": "Gim",
+    "alternativas": [
+      "Gim",
+      "Rum",
+      "Vodca",
+      "Conhaque"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb341b3555",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destilado é a base do Bloody Mary, drinque com suco de tomate?",
+    "resposta": "Vodca",
+    "alternativas": [
+      "Rum",
+      "Vodca",
+      "Tequila",
+      "Gim"
+    ],
+    "subtema": "Comidas e bebidas típicas, Brasil e mundo",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

@@ -12045,6 +12045,68 @@
           "molde repetido": "e1d8861e92: molde repetido: molde \"poeta\" tinha 8 na rodada (103 e 104); cortada (Ginsberg)"
         },
         "risco_sem_checagem_conferente": []
+      },
+      {
+        "lote": "104",
+        "conferente": "conferente-v10",
+        "conferidas": 29,
+        "conferidas_sem_mudanca": 29,
+        "com_mudanca": 0,
+        "corrigidas": 0,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 26,
+        "suspeitas": {
+          "total": 2,
+          "mantidas": 2,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Entretenimento": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 7,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 3,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "b7982d5bfa: molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Krejčíková)"
+        ],
+        "correcoes": [],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "molde repetido": 1
+        },
+        "exemplos_erro": {
+          "molde repetido": "b7982d5bfa: molde repetido: molde \"tenista/Grand Slam\" tinha 10 na rodada (097 e 104); cortada (Krejčíková)"
+        },
+        "risco_sem_checagem_conferente": [
+          "9c679b341d"
+        ]
       }
     ],
     "rebaixamentos_r3": {

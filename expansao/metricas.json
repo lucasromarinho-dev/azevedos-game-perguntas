@@ -8104,5 +8104,115 @@
     "enunciados_repetidos": 0,
     "tamanho_bytes": 2318779,
     "obs": "As 977 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 8.982 da main (banco v4), na ordem dos lotes, so com os campos do jogo. Pasta expansao/ nao foi para a main."
+  },
+  "resumo_r6": {
+    "_leia": "Resumo da rodada 6 (lotes 056 a 065), gerada na branch expansao em 30/10/2026. Status das novas: gerada (falta a conferência). Plano em plano-r6.json (mesma composição das rodadas 3 a 5). Banco de referência: perguntas.json da main (v5, 9.959).",
+    "validas": 1000,
+    "escritas": 1132,
+    "descartadas_detector": 130,
+    "descarte_detector": 0.115,
+    "retiradas_pelo_gerador": 2,
+    "validas_por_lote": {
+      "056": 107,
+      "057": 93,
+      "058": 107,
+      "059": 93,
+      "060": 107,
+      "061": 93,
+      "062": 107,
+      "063": 93,
+      "064": 107,
+      "065": 93
+    },
+    "descartadas_por_lote": {
+      "056": 7,
+      "057": 8,
+      "058": 11,
+      "059": 8,
+      "060": 11,
+      "061": 20,
+      "062": 12,
+      "063": 16,
+      "064": 17,
+      "065": 22
+    },
+    "composicao": {
+      "facil": 365,
+      "medio": 355,
+      "dificil": 280,
+      "recentes": 6,
+      "posicao_certa_ABCD": [
+        255,
+        250,
+        250,
+        245
+      ]
+    },
+    "por_categoria": {
+      "Geografia": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "História": {
+        "facil": 45,
+        "medio": 50,
+        "dificil": 45
+      },
+      "Ciências": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "Esportes": {
+        "facil": 65,
+        "medio": 65,
+        "dificil": 55
+      },
+      "Entretenimento": {
+        "facil": 95,
+        "medio": 95,
+        "dificil": 65
+      },
+      "Tecnologia": {
+        "facil": 60,
+        "medio": 55,
+        "dificil": 45
+      }
+    },
+    "variedade": {
+      "musica_no_entretenimento": "33 de 255 (13%), 5 do tipo qual cantor gravou X",
+      "universos": "nenhum universo passou de 3 (variedade.mjs sem alerta)",
+      "esportes": "13 subtemas; outros esportes 44, Olimpíadas 34, Copa do Mundo 30, Brasileirão 27, Futebol europeu 16"
+    },
+    "web": {
+      "buscas": 11,
+      "fatos_confirmados": [
+        "Padre Azevedo, paraibano, máquina de escrever de 1861",
+        "Sissi e Sun Wen artilheiras da Copa feminina de 1999",
+        "Tramontina, Carlos Barbosa, 1911",
+        "Magazine Luiza, Franca, 1957",
+        "Petrúcio Ferreira recordista dos 100 m T47",
+        "França maior campeã mundial de handebol masculino (6 títulos)"
+      ],
+      "corrigidos": [
+        "Santos: a frase vem da marchinha Leão do Mar, hino popular e não o oficial (enunciado reescrito no lote 058)",
+        "Stereobelt: fontes divergem sobre o local (São Paulo ou St. Moritz), \"em São Paulo\" saiu do enunciado (lote 059)"
+      ],
+      "nao_confirmados_e_retirados": [
+        "gentílico burquinense (lote 057, trocado por DDD 69)",
+        "Jingle Bells composta para o Dia de Ação de Graças (lote 065, sem fonte primária; trocada pelo panetone de Milão)"
+      ]
+    },
+    "edicoes_no_lote": [
+      "059: BYD sem a palavra chinesa (entregava banco:3731)",
+      "060: teia de aranha com resposta Seda (era a única alternativa longa)",
+      "057 e 060: Washington e Lincoln sem as respostas cruzadas nas alternativas",
+      "064: erradas dos poetas e do ditado de Roma trocadas para nenhuma resposta aparecer como errada de outra"
+    ],
+    "metodo": "Respostas primeiro, sem exceção. Sonda de cada lote com candidatas.mjs --registrar (r6-0NN*.txt); a partir do lote 064, as LIVRES passaram também por um checador da resposta no banco (resposta igual ou citada em outro enunciado), que pegou duplicadas que o detector deixava passar (Vicente Feola, Copa do Rei, Mariah Carey, padel). Excedentes passados ao lote seguinte com mover-excedentes.mjs.",
+    "renderam": "domínios de internet, peças e sistemas do carro, raças de cães e gatos, festas do mundo e de fim de ano, arquitetura, cultura lusófona, gentílicos e nomes nativos de países, trajes típicos, moda, aviões e transportes, siglas de estados e DDD, códigos e números do dia a dia, hinos de clubes, signos, marcas que viraram nome de produto, significado de expressões populares, chás e plantas de casa, laboratório, contagens e bodas, Bíblia como cultura geral, obrigado e olá em outras línguas, tribos urbanas, Natal e Páscoa, carnaval de rua, poetas e versos, técnicos campeões do mundo, potências por esporte, palácios de governo, bairros do mundo, eletrodomésticos, cozinha elétrica e relógios",
+    "saturaram": "esportes de nicho (rúgbi, críquete, curling, esgrima), automobilismo de outras categorias, esportes criados no Brasil, apelidos de clubes sul-americanos, circuitos da F1, cinema brasileiro, games de franquias variadas (95% já existia), museus do mundo, hormônios, açúcares e sabores, vitaminas, história da medicina, apelidos de reis, filosofia clássica, temperos (parte da planta), mal-estares do corpo, novelas mexicanas do SBT, companheiros da Disney, atletas brasileiros de segunda linha, torcidas organizadas, Japão feudal, sete maravilhas, Ásia e África na história",
+    "gargalo": "Fáceis de Esportes, História, Ciências e Tecnologia continuaram o gargalo; renderam vocabulário do dia a dia (gíria da tabela, posições, dribles, pelada), datas e calendário, Bíblia como cultura, marcas e aparelhos de casa. O descarte subiu nos lotes 061 a 065 (14% a 19%) porque o banco já cobre quase todo o vocabulário fácil."
   }
 }

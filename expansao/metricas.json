@@ -2206,6 +2206,49 @@
         "perguntas": 42,
         "total": 83
       }
+    },
+    {
+      "lote": "059",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 101,
+      "validas": 93,
+      "descartadas": 8,
+      "taxa_descarte": 0.08,
+      "caracteres": 13766,
+      "tokens_aprox": 3933,
+      "rodadas_de_reposicao": 2,
+      "candidatas_usadas": [
+        "r6-059.txt",
+        "r6-059b.txt",
+        "r6-059c.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r6-059.txt",
+          "r6-059b.txt",
+          "r6-059c.txt"
+        ],
+        "linhas": 178,
+        "existem": 74,
+        "risco": 17,
+        "tokens_aprox": 2877,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.42,
+        "candidatas_por_valida": 1.91
+      },
+      "perguntas": {
+        "escritas": 101,
+        "validas": 93,
+        "descartadas_detector": 8,
+        "descarte": 0.08,
+        "tokens_aprox": 3933
+      },
+      "tokens_por_valida": {
+        "listas": 31,
+        "perguntas": 42,
+        "total": 73
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -7367,6 +7410,30 @@
       "livres": 10,
       "caracteres": 1109,
       "tokens_aprox": 317
+    },
+    "r6-059.txt": {
+      "linhas": 125,
+      "existem": 45,
+      "risco": 11,
+      "livres": 69,
+      "caracteres": 7305,
+      "tokens_aprox": 2087
+    },
+    "r6-059b.txt": {
+      "linhas": 38,
+      "existem": 22,
+      "risco": 3,
+      "livres": 13,
+      "caracteres": 1849,
+      "tokens_aprox": 528
+    },
+    "r6-059c.txt": {
+      "linhas": 15,
+      "existem": 7,
+      "risco": 3,
+      "livres": 5,
+      "caracteres": 916,
+      "tokens_aprox": 262
     }
   },
   "rodada3": {

@@ -12,12 +12,14 @@
       "Praia dos Carneiros"
     ],
     "subtema": "Brasil: cidades, turismo e apelidos",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:4ae257eba3",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "5fce3834cb",
@@ -32,18 +34,19 @@
       "Rodínia"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: par de 7b51fa2b66 (lote 052, Gondwana), mesmas 4 alternativas; uma pergunta resolve a outra por eliminação (sul x norte)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "31a392d06b",
     "categoria": "Ciências",
     "dificuldade": "medio",
-    "pergunta": "Como se chama a abertura vulcânica que solta gases e vapor quentes?",
+    "pergunta": "Como se chama a abertura vulcânica que solta só gases e vapor, sem jorrar água?",
     "resposta": "Fumarola",
     "alternativas": [
       "Fumarola",
@@ -52,12 +55,15 @@
       "Cratera"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "enunciado: \"sem jorrar água\" para tirar o Gêiser (que também solta vapor) da disputa"
   },
   {
     "id": "b300ad240d",
@@ -72,12 +78,14 @@
       "Máquina a vapor"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "02398f5aa6",
@@ -92,12 +100,13 @@
       "Congelador"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "472c1922cd",
@@ -112,12 +121,13 @@
       "Batido"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "4e23dac88d",
@@ -132,12 +142,13 @@
       "Avançado"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f12815fa3e",
@@ -147,17 +158,19 @@
     "resposta": "Rebuçado",
     "alternativas": [
       "Rebuçado",
-      "Caramelo",
+      "Torrão",
       "Confeito",
       "Bombom"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "alternativa Caramelo trocada por Torrão (caramelo também é bala em Portugal, errada defensável)"
   },
   {
     "id": "60746a4a5c",
@@ -168,16 +181,18 @@
     "alternativas": [
       "Pastilha elástica",
       "Drageia",
-      "Goma de mascar",
+      "Chupa-chupa",
       "Rebuçado"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "alternativa Goma de mascar trocada por Chupa-chupa (goma de mascar é sinônimo de chiclete, errada defensável)"
   },
   {
     "id": "e3cd6d99d1",
@@ -192,12 +207,13 @@
       "Taxa de passagem"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0accd115ed",
@@ -212,12 +228,13 @@
       "Estação"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6d855ce19d",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d2688a7f93",
@@ -232,12 +249,13 @@
       "Montra"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b9e688d2d1",
@@ -252,12 +270,14 @@
       "Ceroulas"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "9dbcd3111e",
@@ -272,17 +292,18 @@
       "Colete"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "99b35f86a0",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Em Portugal, como se chama o vaso sanitário?",
     "resposta": "Sanita",
     "alternativas": [
@@ -292,12 +313,14 @@
       "Banheira"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)"
   },
   {
     "id": "67f888082b",
@@ -312,12 +335,13 @@
       "Metrônomo"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a0fa5b3299",
@@ -332,12 +356,13 @@
       "Giz"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6494a220a6",
@@ -352,16 +377,17 @@
       "Grude"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "764bdd9ed2",
-    "categoria": "História",
+    "categoria": "Entretenimento",
     "dificuldade": "facil",
     "pergunta": "Como se chamam as figuras monstruosas de pedra que escoam a água da chuva nos telhados das catedrais góticas?",
     "resposta": "Gárgulas",
@@ -372,12 +398,14 @@
       "Gárgulas"
     ],
     "subtema": "Idade Média",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "categoria de História para Entretenimento (arte (arquitetura/escultura) não fica em História)"
   },
   {
     "id": "e035d31598",
@@ -392,12 +420,14 @@
       "Sebastianismo"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "c8a1dce1f6",
@@ -412,12 +442,14 @@
       "MST"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "c4a2828e58",
@@ -432,12 +464,13 @@
       "Geoglifos"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b002754ea1",
@@ -452,12 +485,14 @@
       "Maracá"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "40958c54e8",
@@ -472,12 +507,13 @@
       "Ovo Tiffany"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "9a435d811f",
@@ -492,16 +528,17 @@
       "Gnômon"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d64b8f7335",
-    "categoria": "História",
+    "categoria": "Entretenimento",
     "dificuldade": "dificil",
     "pergunta": "Como se chama a coluna esculpida em forma de mulher, como as do Erecteion, em Atenas?",
     "resposta": "Cariátide",
@@ -512,12 +549,14 @@
       "Cariátide"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "categoria de História para Entretenimento (arte (arquitetura/escultura) não fica em História)"
   },
   {
     "id": "03c71a89b5",
@@ -532,12 +571,14 @@
       "Geoglifos"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "563b89f5fa",
@@ -572,12 +613,13 @@
       "Verruga"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:923df91d30",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "116691eb4e",
@@ -592,12 +634,13 @@
       "Cravo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2321",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f3eb255a38",
@@ -612,12 +655,13 @@
       "Olheiras"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3075bc2a8b",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "df387490e1",
@@ -632,12 +676,13 @@
       "Gogó"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "da8dd56d67",
@@ -652,12 +697,13 @@
       "Soluço"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:767a86c4e6",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ac16c19e9f",
@@ -672,18 +718,19 @@
       "Socó"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "bdcefefd43",
     "categoria": "Ciências",
     "dificuldade": "medio",
-    "pergunta": "Qual ave preta, de cauda comprida, anda em bando pelos pastos e come os carrapatos do gado?",
+    "pergunta": "Qual ave preta, de cauda comprida, anda em bando pelos pastos e tem fama de catar carrapatos do gado?",
     "resposta": "Anu-preto",
     "alternativas": [
       "Graúna",
@@ -692,12 +739,15 @@
       "Chupim"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "enunciado: \"tem fama de catar carrapatos\" (o hábito de comer carrapatos é contestado/ocasional na literatura)"
   },
   {
     "id": "da43a3fab9",
@@ -712,12 +762,13 @@
       "Monção"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e478a88fa5",
@@ -732,12 +783,13 @@
       "Albedo"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "9f96e668a3",
@@ -752,12 +804,13 @@
       "Apito"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "7d372cd3f7",
@@ -783,7 +836,7 @@
     "id": "44c79730e8",
     "categoria": "Esportes",
     "dificuldade": "facil",
-    "pergunta": "Como se chama o saque em que o jogador salta e bate com força na bola, no ar?",
+    "pergunta": "No vôlei, como se chama o saque em que o jogador salta e bate com força na bola, no ar?",
     "resposta": "Saque viagem",
     "alternativas": [
       "Saque viagem",
@@ -792,12 +845,14 @@
       "Jornada nas estrelas"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:b10793a970",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5",
+    "correcao": "enunciado: acrescentado \"No vôlei\" (sem o esporte a pergunta ficava solta)"
   },
   {
     "id": "c2d70e3a4d",
@@ -812,12 +867,14 @@
       "Água"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "5cffa37edb",
@@ -827,17 +884,19 @@
     "resposta": "Let",
     "alternativas": [
       "Dupla falta",
-      "Net",
+      "Lob",
       "Let",
       "Ace"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "alternativa Net trocada por Lob (no Brasil se diz \"deu net\" para o let, errada defensável)"
   },
   {
     "id": "a888c64280",
@@ -852,12 +911,13 @@
       "Sprint"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d939f7bea3",
@@ -872,12 +932,13 @@
       "Brooklyn Nets"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "95a8d8a127",
@@ -892,12 +953,13 @@
       "Volante"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2508",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f6e38c331e",
@@ -912,12 +974,14 @@
       "Futebol australiano"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "6133ef8504",
@@ -932,12 +996,13 @@
       "Osasuna"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ef3b211233",
@@ -952,12 +1017,14 @@
       "Kabaddi"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "ce33d39171",
@@ -972,12 +1039,14 @@
       "Rodeio"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "7692681628",
@@ -992,18 +1061,20 @@
       "Netball"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "eeec4405b8",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual esquema tático, criado por Herbert Chapman no Arsenal, tem o nome de duas letras?",
+    "pergunta": "Qual esquema tático foi criado por Herbert Chapman no Arsenal, nos anos 1920?",
     "resposta": "WM",
     "alternativas": [
       "Carrossel",
@@ -1012,12 +1083,15 @@
       "Diagonal"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "enunciado: tirado \"tem o nome de duas letras\" (só WM tinha duas letras, entregava a resposta)"
   },
   {
     "id": "1ecc6d4760",
@@ -1032,12 +1106,14 @@
       "Diagonal"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "c48b8e510c",
@@ -1052,13 +1128,14 @@
       "Krang"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Tartarugas Ninja",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6d340e931d",
@@ -1073,13 +1150,14 @@
       "Destruidor"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3981",
     "recente": false,
     "universo": "Tartarugas Ninja",
-    "dup_regra": "resposta nova citada no texto antigo (6.2)"
+    "dup_regra": "resposta nova citada no texto antigo (6.2)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a2de336711",
@@ -1094,13 +1172,14 @@
       "Zordon"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Power Rangers",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "17e893b970",
@@ -1115,13 +1194,14 @@
       "Tentomon"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Digimon",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "c17b54bf72",
@@ -1156,12 +1236,14 @@
       "Banshee"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "0ed51c97a3",
@@ -1176,12 +1258,13 @@
       "Samara"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "faeadf4a63",
@@ -1196,12 +1279,13 @@
       "Demolidor"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e389639f9f",
@@ -1216,18 +1300,19 @@
       "Ghostface"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "991002a39b",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual repórter amarela é a amiga humana das Tartarugas Ninja?",
+    "pergunta": "Qual repórter de macacão amarelo é a amiga humana das Tartarugas Ninja?",
     "resposta": "April O'Neil",
     "alternativas": [
       "Vicki Vale",
@@ -1236,13 +1321,15 @@
       "April O'Neil"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Tartarugas Ninja",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "enunciado: \"repórter amarela\" virou \"repórter de macacão amarelo\" (redação ambígua)"
   },
   {
     "id": "ac2bf1a4fb",
@@ -1257,13 +1344,14 @@
       "Astronema"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Power Rangers",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "99935d2440",
@@ -1278,12 +1366,13 @@
       "Pikachu"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6833149fc7",
@@ -1298,12 +1387,13 @@
       "Alphonse"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e6bdd8595b",
@@ -1318,12 +1408,13 @@
       "Kaworu"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "de790e044f",
@@ -1338,12 +1429,13 @@
       "Sesshomaru"
     ],
     "subtema": "Anime",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b3b4e196ea",
@@ -1358,12 +1450,13 @@
       "Trance"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "42baec7c3b",
@@ -1378,12 +1471,13 @@
       "Zouk"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "074c905f86",
@@ -1398,12 +1492,13 @@
       "Trance"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "c7a5c348dc",
@@ -1435,20 +1530,23 @@
       "Rasqueado",
       "Chamamé",
       "Xote",
-      "Siriri"
+      "Vanerão"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "alternativa Siriri trocada por Vanerão (siriri também é tocado na viola de cocho em MT e o rasqueado nasce dele, errada defensável)"
   },
   {
     "id": "e72631fd9a",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual cenobita de cabeça cheia de pregos é o vilão de \"Hellraiser\"?",
     "resposta": "Pinhead",
     "alternativas": [
@@ -1458,12 +1556,14 @@
       "Jigsaw"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)"
   },
   {
     "id": "c1de22c24d",
@@ -1478,12 +1578,14 @@
       "Baião"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3393",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "cd9eb05bc6",
@@ -1498,12 +1600,13 @@
       "RGB"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "477d5b5f8c",
@@ -1518,12 +1621,13 @@
       "Y2K"
     ],
     "subtema": "História da computação",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: o enunciado (\"bug do milênio\") entrega a resposta de banco:4508 (temor de pane na virada do milênio => Bug do milênio), mesmo fato",
     "dup": "suspeita",
     "dup_ref": "banco:4508",
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.4)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.4)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f747bb2332",
@@ -1538,13 +1642,14 @@
       "Shoryuken"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Street Fighter",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a099c887c1",
@@ -1579,12 +1684,13 @@
       "Claptrap"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:4457 (dupla da Insomniac lombax e robozinho => Ratchet & Clank)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0b9d019aaa",
@@ -1599,12 +1705,13 @@
       "Crash"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "fd5f88a0a2",
@@ -1619,12 +1726,13 @@
       "Carpe diem"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "80020ae5e9",
@@ -1639,18 +1747,19 @@
       "Spyro"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8083284ef9",
     "categoria": "Tecnologia",
     "dificuldade": "medio",
-    "pergunta": "Qual velho macaco rabugento, avô do Donkey Kong, vive dando conselhos irônicos?",
+    "pergunta": "Qual velho macaco rabugento da série Donkey Kong Country vive dando conselhos irônicos?",
     "resposta": "Cranky Kong",
     "alternativas": [
       "Funky Kong",
@@ -1659,13 +1768,16 @@
       "Diddy Kong"
     ],
     "subtema": "Games: Nintendo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Donkey Kong",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "enunciado: tirado \"avô do Donkey Kong\" (a Nintendo/Rare já o chamou de pai e de avô, fato impreciso)"
   },
   {
     "id": "5655697a1e",
@@ -1680,12 +1792,13 @@
       "DNS"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b6ebdd4e6e",
@@ -1700,12 +1813,13 @@
       "mkdir"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f13abbd77b",
@@ -1720,12 +1834,14 @@
       "418"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "c868d4db6f",
@@ -1740,12 +1856,13 @@
       "Nibble"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "04f19d91ae",
@@ -1760,12 +1877,13 @@
       "Cinturão de Kuiper"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e75320afdb",
@@ -1780,12 +1898,13 @@
       "Bola ao alto"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "59110ef7a7",
@@ -1820,18 +1939,19 @@
       "Púlpito"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:d2e79d7dea",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f6e18e4afe",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Qual menina chinesa de coques, de um desenho coreano, vive correndo atrás do ninja Garu?",
+    "pergunta": "Qual menina de coques, de um desenho coreano, vive correndo atrás do ninja Garu?",
     "resposta": "Pucca",
     "alternativas": [
       "Lilo",
@@ -1840,12 +1960,15 @@
       "Mulan"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true,
+    "correcao": "enunciado: tirado \"chinesa\" (Pucca é descrita só como garota asiática, de vila fictícia)"
   },
   {
     "id": "1b6804e3d4",
@@ -1860,12 +1983,13 @@
       "Candyman"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "945038aefd",
@@ -1880,12 +2004,13 @@
       "Bolero"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ca59ff4a42",
@@ -1900,12 +2025,13 @@
       "Honky-tonk"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f94a334a67",
@@ -1960,12 +2086,13 @@
       "google gravity"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "5bb99df8f4",
@@ -2020,12 +2147,13 @@
       "Arquivar"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "dadee19ac7",
@@ -2100,12 +2228,13 @@
       "Bio"
     ],
     "subtema": "Redes sociais e apps",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "fe44d1b64d",
@@ -2140,11 +2269,12 @@
       "Cilindro"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   }
 ]

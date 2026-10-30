@@ -5240,6 +5240,108 @@
         "espelhos_r5": [
           "7b51fa2b66 (Gondwana, lote 052) x 5fce3834cb (Laurásia, lote 053): par supercontinente sul/norte, mantida a do 052; a do 053 deve sair"
         ]
+      },
+      {
+        "lote": "053",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 75,
+        "corrigidas": 13,
+        "rebaixadas": 2,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "espelho": 2,
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 22,
+        "buscas_web": 28,
+        "obs_buscas": "21 WebSearch + 7 WebFetch (Wikipedia); a cota de WebSearch compartilhada acabou no meio da conferencia, o restante foi checado por WebFetch direto ou de conhecimento consolidado",
+        "suspeitas": {
+          "total": 12,
+          "mantidas": 10,
+          "reescritas": 1,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 11,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 26,
+            "corrigidas": 5,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 2
+          }
+        },
+        "descartes": [
+          "5fce3834cb: espelho: par de 7b51fa2b66 (lote 052, Gondwana), mesmas 4 alternativas; uma pergunta resolve a outra por eliminação (sul x norte)",
+          "477d5b5f8c: espelho: o enunciado (\"bug do milênio\") entrega a resposta de banco:4508 (temor de pane na virada do milênio => Bug do milênio), mesmo fato",
+          "5380c8701e: duplicada: mesmo fato que banco:4457 (dupla da Insomniac lombax e robozinho => Ratchet & Clank)"
+        ],
+        "correcoes": [
+          "31a392d06b: Fumarola - enunciado 'sem jorrar água' para tirar Gêiser",
+          "f12815fa3e: Rebuçado - Caramelo trocado por Torrão (errada defensável)",
+          "60746a4a5c: Pastilha elástica - Goma de mascar trocada por Chupa-chupa (sinônimo de chiclete)",
+          "764bdd9ed2: Gárgulas - História -> Entretenimento (arquitetura/escultura)",
+          "d64b8f7335: Cariátide - História -> Entretenimento (arquitetura/escultura)",
+          "bdcefefd43: Anu-preto - 'tem fama de catar carrapatos' (hábito contestado na literatura)",
+          "44c79730e8: Saque viagem - acrescentado 'No vôlei'",
+          "5cffa37edb: Let - Net trocado por Lob (no Brasil se diz 'deu net')",
+          "eeec4405b8: WM - tirado 'nome de duas letras' (entregava)",
+          "991002a39b: April O'Neil - 'repórter amarela' -> 'repórter de macacão amarelo'",
+          "4f915a584f: Rasqueado - Siriri trocado por Vanerão (siriri também é de viola de cocho, lote 029)",
+          "8083284ef9: Cranky Kong - tirado 'avô do Donkey Kong' (já foi pai e avô)",
+          "f6e18e4afe: Pucca - tirado 'chinesa' (descrita só como asiática)"
+        ],
+        "rebaixamentos": [
+          "e72631fd9a: Pinhead dificil -> medio",
+          "99b35f86a0: Sanita dificil -> medio (sai de 'sanitário')"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 5,
+          "entrega a resposta": 1,
+          "fato impreciso": 3,
+          "espelho/duplicada": 2,
+          "dificuldade": 2,
+          "outro": 4
+        },
+        "exemplos_erro": {
+          "errada defensavel": "5cffa37edb: let no tênis -> 'Net' entre as erradas é como o brasileiro chama o let",
+          "entrega a resposta": "eeec4405b8: esquema de Chapman 'com nome de duas letras' -> só WM tinha duas letras",
+          "fato impreciso": "8083284ef9: Cranky Kong 'avô do Donkey Kong' -> fontes oficiais já o chamaram de pai",
+          "espelho/duplicada": "5380c8701e: parceiro robô de Ratchet -> banco:4457 já pergunta a dupla Ratchet & Clank",
+          "dificuldade": "99b35f86a0: vaso sanitário em Portugal -> Sanita sai direto de 'sanitário', não é difícil",
+          "outro": "764bdd9ed2: gárgulas -> categoria História, arquitetura/escultura vai em Entretenimento"
+        },
+        "espelhos_r5": [
+          "5fce3834cb (Laurásia, 053) x 7b51fa2b66 (Gondwana, 052): fatos diferentes, mantida; não é espelho estrito"
+        ]
       }
     ],
     "rebaixamentos_r3": {

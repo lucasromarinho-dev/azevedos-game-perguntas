@@ -4,7 +4,7 @@
 //   - Entretenimento: música no máximo 1/3 da categoria; poucas "qual banda/cantor gravou X"
 //   - Esportes: mostra a distribuição por subtema (diversificar além de atletismo e futebol europeu)
 //   - dificuldade: mostra a parte de "fácil" contra o plano
-// Uso: node expansao/scripts/variedade.mjs [primeiro último]   (padrão: 26 35, a rodada 3; rodada 4: 36 45)
+// Uso: node expansao/scripts/variedade.mjs [primeiro último]   (padrão: 26 35, a rodada 3; rodada 4: 36 45; rodada 5: 46 55)
 import { join } from 'node:path';
 import { existsSync } from 'node:fs';
 import { lerJson, PASTA_LOTES, limpar } from './lib.mjs';

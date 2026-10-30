@@ -1,0 +1,101 @@
+{
+  "_leia": "Rodada 5 da meta 3x: 1.000 novas válidas em 10 lotes (046 a 055). Mesma composição categoria x dificuldade das rodadas 3 e 4 (36,5% fácil). Dentro de cada categoria, prioridade para os subtemas com mais falta em arvore.json (lista em prioridade, recalculada em 29/10/2026). Variedade como nas rodadas 3 e 4: no máximo 3 perguntas por universo ou franquia na rodada, música até 1/3 do Entretenimento, Esportes espalhado por subtemas (scripts/variedade.mjs 46 55). Método: respostas primeiro, termos checados com fatos.mjs --curto e candidatas.mjs antes de escrever; fato com número, data ou recorde confirmado na web. faltam.mjs usa este arquivo para lotes 046+.",
+  "lotes": [
+    46,
+    55
+  ],
+  "metas": {
+    "Geografia": {
+      "facil": 50,
+      "medio": 45,
+      "dificil": 35
+    },
+    "História": {
+      "facil": 45,
+      "medio": 50,
+      "dificil": 45
+    },
+    "Ciências": {
+      "facil": 50,
+      "medio": 45,
+      "dificil": 35
+    },
+    "Esportes": {
+      "facil": 65,
+      "medio": 65,
+      "dificil": 55
+    },
+    "Entretenimento": {
+      "facil": 95,
+      "medio": 95,
+      "dificil": 65
+    },
+    "Tecnologia": {
+      "facil": 60,
+      "medio": 55,
+      "dificil": 45
+    }
+  },
+  "prioridade": {
+    "Geografia": [
+      "Brasil: cidades, turismo e apelidos",
+      "Comidas e bebidas típicas, Brasil e mundo",
+      "Brasil: estados, capitais e regiões",
+      "Bandeiras, moedas e idiomas",
+      "Cidades e monumentos do mundo",
+      "População, curiosidades e recordes",
+      "Capitais e países do mundo",
+      "Biomas, clima e natureza"
+    ],
+    "História": [
+      "Brasil República, Vargas, ditadura e redemocratização",
+      "Brasil Colônia",
+      "Antiguidade",
+      "Brasil Império",
+      "Personagens, invenções e filosofia",
+      "Guerras Mundiais",
+      "Mitologia",
+      "Guerra Fria e século XX"
+    ],
+    "Ciências": [
+      "Animais",
+      "Astronomia",
+      "Corpo humano e saúde",
+      "Química",
+      "Cientistas e descobertas",
+      "Terra, geologia e clima",
+      "Física e unidades",
+      "Plantas"
+    ],
+    "Esportes": [
+      "Brasileirão e clubes brasileiros",
+      "Seleção e craques",
+      "Futebol europeu",
+      "Copa do Mundo",
+      "Libertadores e futebol sul-americano",
+      "Olimpíadas e atletismo",
+      "F1 e automobilismo",
+      "Basquete e NBA"
+    ],
+    "Entretenimento": [
+      "Música brasileira",
+      "Novelas e TV brasileira",
+      "Música internacional",
+      "Séries e streaming",
+      "Cinema internacional e Oscar",
+      "Sagas e franquias",
+      "Super-heróis",
+      "Reality shows (BBB, A Fazenda etc.)"
+    ],
+    "Tecnologia": [
+      "Games: franquias e personagens",
+      "Empresas, marcas e fundadores",
+      "Games: consoles e história",
+      "IA, robótica e ficção científica",
+      "História da computação",
+      "Redes sociais e apps",
+      "Games: Nintendo",
+      "Celulares e gadgets"
+    ]
+  }
+}

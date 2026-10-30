@@ -9825,6 +9825,84 @@
           "errada defensavel": "76cb99aa69: errada Abstração de dados também é esconder detalhes internos de uma classe (defensável); trocada",
           "dificuldade": "9e12135d5a: branquear é técnica conhecida pelo nome na cozinha; rebaixada"
         }
+      },
+      {
+        "lote": "084",
+        "conferente": "conferente-v8",
+        "conferidas": 60,
+        "conferidas_sem_mudanca": 57,
+        "com_mudanca": 3,
+        "corrigidas": 3,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "sem fonte": 1
+        },
+        "perguntas_com_busca_web": 6,
+        "buscas_web": 7,
+        "suspeitas": {
+          "total": 4,
+          "mantidas": 4,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 10,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 9,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 22,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 8,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "4755176fb8: sem fonte: nenhuma busca confirmou 'quíper' como aportuguesamento antigo de 'keeper' (nem 'golquíper' em dicionário); na dúvida, não fica"
+        ],
+        "correcoes": [
+          "c75b45a2e0: Nova Serrana - o título de Nova Serrana é 'Capital Nacional do Calçado Esportivo'; enunciado ajustado (checagem web)",
+          "7d15242ebf: Recreio - não há fonte para o papagaio como mascote da Recreio; enunciado refeito com o lançamento em 1969 e o brinde (checagem web)",
+          "20b76664f0: Bizz - a Bizz circulou de 1985 a 2001, mas voltou de 2005 a 2007; 'circulou entre 1985 e 2001' trocado por 'lançada em 1985' (checagem web)"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "fato impreciso": 3,
+          "sem fonte": 1
+        },
+        "exemplos_erro": {
+          "fato impreciso": "c75b45a2e0: o título de Nova Serrana é 'Capital Nacional do Calçado Esportivo'; enunciado ajustado (checagem web)",
+          "sem fonte": "4755176fb8: sem fonte: nenhuma busca confirmou 'quíper' como aportuguesamento antigo de 'keeper' (nem 'golquíper' em dicionário); na dúvida, não fica"
+        }
       }
     ],
     "rebaixamentos_r3": {

@@ -7694,6 +7694,137 @@
           "dificuldade": "c09e73c423: undefined",
           "errada defensavel": "06e5460427: errada Oligarquia (governo de poucos abastados, como define banco:1097) também é defensável para 'controlado pelos mais ricos'; trocada"
         }
+      },
+      {
+        "lote": "069",
+        "conferente": "conferente-v7",
+        "conferidas": 88,
+        "conferidas_sem_mudanca": 43,
+        "com_mudanca": 45,
+        "corrigidas": 45,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 5,
+        "motivos_descarte": {
+          "molde repetido": 4,
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 7,
+        "buscas_web": 6,
+        "suspeitas": {
+          "total": 11,
+          "mantidas": 9,
+          "reescritas": 1,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 7,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 21,
+            "corrigidas": 13,
+            "rebaixadas": 0,
+            "descartadas": 3
+          },
+          "Ciências": {
+            "conferidas": 11,
+            "corrigidas": 9,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 8,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 14,
+            "corrigidas": 5,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "600065d8c4: molde repetido: 7 perguntas 'como se chama o símbolo X do teclado' no lote, com as respostas cruzadas nas alternativas (Arroba, Cerquilha, E comercial); cortado o excesso (asterisco)",
+          "769bd9cc25: duplicada: mesmo fato que 063:3117a71170 ('Qual foi a primeira série brasileira original da Netflix, lançada em 2016?' => 3%), já publicada, e banco:3620",
+          "84d6e920c5: molde repetido: 15 perguntas 'quem faz dupla sertaneja com X' na rodada; cortado o excesso (Fernando e Sorocaba aparece inteira nas alternativas de banco:3628)",
+          "2cc729d908: molde repetido: 15 perguntas 'quem faz dupla sertaneja com X' na rodada; cortado o excesso (Gian e Giovani aparece inteira nas alternativas de banco:3515 e banco:5035)",
+          "8b4811513e: molde repetido: 13 perguntas 'como se chama o cultivo/criação de X' (-cultura) na rodada; cortado o excesso (caprinocultura, dedutível pelo nome)"
+        ],
+        "correcoes": [
+          "321184711a: Olivicultura - as três erradas eram respostas de 071:5b82b6, bec30 e 068:c15e2c (respostas cruzadas); trocadas",
+          "5068656eab: Britpop - errada Glam rock era a resposta de 87b93 (mesmo lote), que tinha Britpop entre as erradas (respostas cruzadas); trocada",
+          "522594c76a: Octavio Paz - errada Juan Rulfo era a resposta de 5ac11 (mesmo lote), que tinha Octavio Paz entre as erradas (respostas cruzadas); trocada",
+          "810736bfeb: Luvas - erradas Multa rescisória e Bicho eram respostas de banco:7744 (respostas cruzadas) e f9fd0 (mesmo lote); trocadas",
+          "952878bb82: Surrealismo - o enunciado ligava Magritte a 'Isto Não É um Cachimbo', o que respondia banco:7117 (pintor do cachimbo => René Magritte); reescrito",
+          "8ba52af652: Forte dos Reis Magos - as três erradas eram respostas de outros lotes da rodada (075:acbe3e, 068:850bb1 com respostas cruzadas, 073:dfe47a); trocadas",
+          "7aa4220ed0: Cubismo - errada Dadaísmo era a resposta de banco:7952, que tem Cubismo entre as erradas (respostas cruzadas); trocada",
+          "f1a4275ca7: Bon vivant - errada Savoir-faire era a resposta de 074:82b7b6, do mesmo molde; trocada",
+          "644cfb0ca0: Rendez-vous - erradas Vis-à-vis e Savoir-faire eram respostas de 072:80291c (respostas cruzadas) e 074:82b7b6; trocadas",
+          "d8700a58c1: Uísque - errada Gim era a resposta de 067:49f9d7, do mesmo molde (destilado do drinque); trocada",
+          "016632b615: Theodore Roosevelt - erradas Woodrow Wilson e Franklin Roosevelt eram respostas de banco:1550 e banco:1506, com Theodore Roosevelt entre as erradas (respostas cruzadas); trocadas",
+          "16530bedd9: Paulo Freire - errada Darcy Ribeiro era a resposta de 070:a3a7c5, do mesmo molde (autor de obra); trocada",
+          "2762ebf50f: Keynes - erradas Malthus e Milton Friedman eram respostas de 9683b (mesmo lote, respostas cruzadas) e 071:2f93d4; trocadas",
+          "9683b9774d: Malthus - erradas Keynes e David Ricardo eram respostas de 2762e (mesmo lote) e 071:6c3291, com Malthus entre as erradas (respostas cruzadas); trocadas; Malthus é conhecido pelo nome, rebaixada",
+          "934d6abf58: Schumpeter - errada Keynes era a resposta de 2762e (mesmo lote), do mesmo molde; trocada",
+          "f563c638e9: Josué de Castro - erradas Milton Santos e Paulo Freire eram respostas de 072:f3ac02 (respostas cruzadas) e 16530 (mesmo lote); trocadas",
+          "bbff65c5eb: Insetívoro - as três erradas eram respostas de a2430 (mesmo lote), 071:64a036 e banco:1607 (respostas cruzadas), do mesmo molde; trocadas",
+          "a24301befa: Frugívoro - errada Herbívoro também é defensável (quem come frutas é herbívoro); Necrófago era a resposta de 583c6 (mesmo lote); trocadas",
+          "c7bb16490b: Nectarívoro - erradas Granívoro e Insetívoro eram respostas de 071:64a036 e bbff6 (mesmo lote); Folívoro ficou (a pergunta do folívoro saiu do lote 070); trocadas",
+          "583c6118cc: Necrófago - errada Detritívoro (restos orgânicos, resposta de 073:ff7b71) é defensável para quem come carniça; trocada",
+          "f3366b97de: Herpetologia - as três erradas eram respostas de banco:1994, 067:ce7cba e banco:1995 (respostas cruzadas), do mesmo molde; trocadas",
+          "23cc4853b1: Malacologia - erradas Herpetologia e Ictiologia eram respostas de f3366 (mesmo lote) e 067:ce7cba (respostas cruzadas); trocadas",
+          "bec3066248: Viticultura - as três erradas eram respostas de 067:5e0d24, 068:c15e2c e 32118 (respostas cruzadas), do mesmo molde; trocadas",
+          "4a4eba4d28: Filatelia - erradas Heráldica e Numismática eram respostas de banco:9121 e 068:3e3c17, com Filatelia entre as erradas (respostas cruzadas); trocadas",
+          "9ab0b1a7db: Topper - erradas Umbro e Penalty eram respostas de 063:19faa6 e 063:1c63ac, com Topper entre as erradas (respostas cruzadas); trocadas",
+          "f8b3e58a5c: Malha - errada Petanca era a resposta de 4d425 (mesmo lote), que tinha Malha entre as erradas (respostas cruzadas); trocada",
+          "4d42585924: Petanca - errada Malha era a resposta de f8b3e (mesmo lote); trocada",
+          "fe0094d350: Xabi Alonso - enunciado citava o Bayer Leverkusen, resposta de banco:6336 (mesmo título invicto); tirado o nome; errada Mikel Arteta era a resposta de banco:6530 com Xabi Alonso entre as erradas (respostas cruzadas); trocada",
+          "8a9c0dd42a: Futebol gaélico - errada Futebol australiano era a resposta de banco:9714, que tem Futebol gaélico entre as erradas (respostas cruzadas); trocada",
+          "fd743b3567: Marshmello - errada Deadmau5 era a resposta de f529e (mesmo lote), que tinha Marshmello entre as erradas (respostas cruzadas); trocada",
+          "f529ea4ce4: Deadmau5 - errada Marshmello era a resposta de fd743 (mesmo lote); trocada",
+          "87b932f0fc: Glam rock - erradas Britpop e Rock progressivo eram respostas de 50686 (mesmo lote) e 072:128a18 (respostas cruzadas); trocadas",
+          "c5de15e7aa: Isabel Allende - errada Laura Esquivel era a resposta de 7e58b (mesmo lote), que tinha Isabel Allende entre as erradas (respostas cruzadas); trocada",
+          "7e58bd8fb7: Laura Esquivel - errada Isabel Allende era a resposta de c5de1 (mesmo lote); Frida Kahlo (pintora, resposta de banco:6039) trocada por escritora",
+          "5ac110ab87: Juan Rulfo - errada Octavio Paz era a resposta de 52259 (mesmo lote); trocada",
+          "4e4a4847e3: Eduardo Galeano - errada Mario Benedetti era a resposta de ffeed (mesmo lote), que tinha Eduardo Galeano entre as erradas (respostas cruzadas); trocada",
+          "ffeed5df30: Mario Benedetti - errada Eduardo Galeano era a resposta de 4e4a4 (mesmo lote); trocada",
+          "1123f7a23e: Uma História de Amor e Fúria - errada O Menino e o Mundo era a resposta de banco:3657 (respostas cruzadas) e venceu Annecy em 2014; trocada",
+          "ede4610e45: Cerquilha - erradas Arroba e E comercial eram respostas de banco:4717 e bf690 (respostas cruzadas); Asterisco saiu do molde; trocadas",
+          "bf6906fe0b: E comercial - erradas Til, Cerquilha e Arroba eram respostas de 3acdc, ede46 (mesmo lote) e banco:4717 (respostas cruzadas); trocadas",
+          "f7bef792d0: Underline - errada Til era a resposta de 3acdc (mesmo lote); trocada",
+          "5c8aa56d5b: Pipe - errada Til era a resposta de 3acdc (mesmo lote); trocada",
+          "d16ee11a40: Barra invertida - errada Barra vertical é o pipe, resposta de 5c8aa (mesmo lote), e Underline a de f7bef; trocadas",
+          "029990b378: Preparador físico - errada Massagista era a resposta de banco:9366, que tem Preparador físico entre as erradas (respostas cruzadas); trocada",
+          "e92faf3c4b: Empresário - errada Olheiro era a resposta de banco:7739, que tem Empresário entre as erradas (respostas cruzadas); trocada"
+        ],
+        "rebaixamentos": [
+          "9683b9774d: Malthus dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 42,
+          "molde repetido": 4,
+          "entrega a resposta": 2,
+          "errada defensavel": 2
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "321184711a: as três erradas eram respostas de 071:5b82b6, bec30 e 068:c15e2c (respostas cruzadas); trocadas",
+          "molde repetido": "600065d8c4: molde repetido: 7 perguntas 'como se chama o símbolo X do teclado' no lote, com as respostas cruzadas nas alternativas (Arroba, Cerquilha, E comercial); cortado o excesso (asterisco)",
+          "entrega a resposta": "952878bb82: o enunciado ligava Magritte a 'Isto Não É um Cachimbo', o que respondia banco:7117 (pintor do cachimbo => René Magritte); reescrito",
+          "errada defensavel": "a24301befa: errada Herbívoro também é defensável (quem come frutas é herbívoro); Necrófago era a resposta de 583c6 (mesmo lote); trocadas"
+        }
       }
     ],
     "rebaixamentos_r3": {

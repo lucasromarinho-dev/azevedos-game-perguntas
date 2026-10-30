@@ -3346,6 +3346,47 @@
         "perguntas": 50,
         "total": 93
       }
+    },
+    {
+      "lote": "085",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 57,
+      "validas": 44,
+      "descartadas": 13,
+      "taxa_descarte": 0.23,
+      "caracteres": 10326,
+      "tokens_aprox": 2950,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r8-085.txt",
+        "r8-085b.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r8-085.txt",
+          "r8-085b.txt"
+        ],
+        "linhas": 98,
+        "existem": 35,
+        "risco": 17,
+        "tokens_aprox": 1472,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.36,
+        "candidatas_por_valida": 2.23
+      },
+      "perguntas": {
+        "escritas": 57,
+        "validas": 44,
+        "descartadas_detector": 13,
+        "descarte": 0.23,
+        "tokens_aprox": 2950
+      },
+      "tokens_por_valida": {
+        "listas": 33,
+        "perguntas": 67,
+        "total": 101
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -12263,6 +12304,22 @@
       "livres": 17,
       "caracteres": 1165,
       "tokens_aprox": 333
+    },
+    "r8-085.txt": {
+      "linhas": 61,
+      "existem": 21,
+      "risco": 11,
+      "livres": 29,
+      "caracteres": 3232,
+      "tokens_aprox": 923
+    },
+    "r8-085b.txt": {
+      "linhas": 37,
+      "existem": 14,
+      "risco": 6,
+      "livres": 17,
+      "caracteres": 1921,
+      "tokens_aprox": 549
     }
   },
   "rodada3": {
@@ -12834,5 +12891,140 @@
     "enunciados_repetidos": 0,
     "tamanho_bytes": 2762760,
     "obs": "As 972 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 10.933 da main (banco v6), na ordem dos lotes, so com os campos do jogo. Antes, as 22 que faltavam na checagem web complementar foram confirmadas (commit 71396c7). Pasta expansao/ nao foi para a main."
+  },
+  "resumo_r8": {
+    "data": "2026-10-30",
+    "branch": "expansao-r8",
+    "worktree": "azevedos-game-perguntas-r8",
+    "lotes": [
+      76,
+      85
+    ],
+    "escritas": 992,
+    "validas": 857,
+    "descartadas": 135,
+    "taxa_descarte": 0.136,
+    "por_lote": {
+      "076": {
+        "validas": 100,
+        "descartadas": 28
+      },
+      "077": {
+        "validas": 92,
+        "descartadas": 19
+      },
+      "078": {
+        "validas": 105,
+        "descartadas": 21
+      },
+      "079": {
+        "validas": 92,
+        "descartadas": 7
+      },
+      "080": {
+        "validas": 108,
+        "descartadas": 6
+      },
+      "081": {
+        "validas": 85,
+        "descartadas": 12
+      },
+      "082": {
+        "validas": 98,
+        "descartadas": 11
+      },
+      "083": {
+        "validas": 72,
+        "descartadas": 11
+      },
+      "084": {
+        "validas": 61,
+        "descartadas": 7
+      },
+      "085": {
+        "validas": 44,
+        "descartadas": 13
+      }
+    },
+    "composicao": {
+      "Geografia": {
+        "facil": 40,
+        "medio": 49,
+        "dificil": 32
+      },
+      "História": {
+        "facil": 31,
+        "medio": 43,
+        "dificil": 45
+      },
+      "Ciências": {
+        "facil": 34,
+        "medio": 41,
+        "dificil": 32
+      },
+      "Esportes": {
+        "facil": 33,
+        "medio": 72,
+        "dificil": 46
+      },
+      "Entretenimento": {
+        "facil": 75,
+        "medio": 98,
+        "dificil": 67
+      },
+      "Tecnologia": {
+        "facil": 40,
+        "medio": 44,
+        "dificil": 35
+      }
+    },
+    "dificuldade": {
+      "facil": 253,
+      "medio": 347,
+      "dificil": 257
+    },
+    "recentes": 33,
+    "meta_nao_batida": "857 de ~1.000: a partir do lote 081 o rendimento das sondas caiu (descarte das listas de 40% a 60%) e as fáceis de Esportes, História e Ciências quase não passaram no detector; os lotes 083 a 085 ficaram curtos.",
+    "alternativas_cruzadas": "Depois do aviso do coordenador (lição da conferência r7), as 076 a 082 foram revistas com scripts/alternativas-cruzadas.mjs (novo): cerca de 560 erradas que eram resposta de outra pergunta do mesmo lote ou resposta rara da mesma categoria no banco foram trocadas (campo correcao na ficha). 083 a 085 já foram escritas com esse filtro. Restam só 9 casos de estados, capitais e países como erradas (076/077 Aracaju, 080 Paraíba e Sergipe, 081 Camboja, Nevada, Etiópia, Wyoming, São Paulo).",
+    "dup_revisado": 8,
+    "buscas_web": 17,
+    "sondas": "candidatas/r8-0NN*.txt (31 arquivos), candidatas.mjs --registrar + checa-resposta.mjs; checa-resposta.mjs --lote em todo lote antes do commit",
+    "renderam": [
+      "literatura brasileira contemporânea e do século XX",
+      "canções da MPB por compositor",
+      "programas de TV, rádios, podcasts e revistas brasileiras",
+      "reality shows e memes",
+      "publicidade e mascotes de marcas",
+      "inventores do cotidiano",
+      "imprensa e TV antigas",
+      "imigrantes no Brasil",
+      "matemática da escola e curiosa",
+      "química da cozinha",
+      "objetos, utensílios e profissões antigas",
+      "carros antigos",
+      "codinomes de sistemas, vírus, Office e Word/Excel, termos de programação e OO",
+      "internet brasileira dos anos 2000 e WhatsApp",
+      "aeroportos, pontes, parques, cachoeiras, cortes de carne, doces de festa, capitais de produtos",
+      "técnicos e árbitros, futebol feminino, paralímpicos, siglas de entidades, estádios europeus de segunda linha, mascotes olímpicos"
+    ],
+    "saturaram": [
+      "personagens históricos brasileiros",
+      "astronomia básica",
+      "corpo humano",
+      "termos de celular",
+      "estádios brasileiros e apelidos de clubes",
+      "lances e dribles",
+      "esportes de praia e aventura",
+      "gíria de arquibancada",
+      "termos de relevo e litoral",
+      "Primeira República",
+      "ditadura (siglas e episódios)",
+      "apelidos de lutadores",
+      "gadgets que fracassaram",
+      "rios que cortam capitais",
+      "Idade Média e Grécia/Roma (termos)",
+      "animação: personagens secundários"
+    ],
+    "scripts": "faltam.mjs e mover-excedentes.mjs leem plano-r8.json para 076+; variedade.mjs com a nota 76 85; scripts/alternativas-cruzadas.mjs (novo)"
   }
 }

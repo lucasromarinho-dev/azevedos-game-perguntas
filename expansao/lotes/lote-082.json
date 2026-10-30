@@ -942,7 +942,7 @@
     "alternativas": [
       "World Athletics",
       "Fina",
-      "FIBA",
+      "FIG",
       "FIS"
     ],
     "subtema": "Olimpíadas e atletismo",
@@ -952,7 +952,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"FIVB\" trocada por \"FIS\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"FIVB\" trocada por \"FIS\" (era resposta de outra pergunta); gerador r8: errada \"FIBA\" trocada por \"FIG\" (era resposta de outra pergunta)"
   },
   {
     "id": "8d0a460705",
@@ -962,7 +962,7 @@
     "resposta": "FIVB",
     "alternativas": [
       "FIFA",
-      "FIBA",
+      "FIH",
       "Fivolley",
       "FIVB"
     ],
@@ -972,7 +972,8 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "gerador r8: errada \"FIBA\" trocada por \"FIH\" (era resposta de outra pergunta)"
   },
   {
     "id": "9ad118b20f",
@@ -1293,7 +1294,7 @@
     "pergunta": "Qual escritora mineira escreveu \"Um Defeito de Cor\", romance que inspirou o enredo da Portela em 2024?",
     "resposta": "Ana Maria Gonçalves",
     "alternativas": [
-      "Eliana Alves Cruz",
+      "Jarid Arraes",
       "Cidinha da Silva",
       "Lívia Natália",
       "Ana Maria Gonçalves"
@@ -1305,7 +1306,7 @@
     "dup_ref": "banco:4709",
     "recente": true,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "correcao": "gerador r8: errada \"Conceição Evaristo\" trocada por \"Eliana Alves Cruz\" (era resposta de outra pergunta); gerador r8: errada \"Djamila Ribeiro\" trocada por \"Cidinha da Silva\" (era resposta de outra pergunta); gerador r8: errada \"Carolina Maria de Jesus\" trocada por \"Lívia Natália\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Conceição Evaristo\" trocada por \"Eliana Alves Cruz\" (era resposta de outra pergunta); gerador r8: errada \"Djamila Ribeiro\" trocada por \"Cidinha da Silva\" (era resposta de outra pergunta); gerador r8: errada \"Carolina Maria de Jesus\" trocada por \"Lívia Natália\" (era resposta de outra pergunta); gerador r8: errada \"Eliana Alves Cruz\" trocada por \"Jarid Arraes\" (era resposta de outra pergunta)"
   },
   {
     "id": "c3cec3939c",
@@ -1971,7 +1972,7 @@
       "Leo Meindl",
       "Bruno Caboclo",
       "Rafael Hettsheimeir",
-      "Lucas Bebê"
+      "Vítor Faverani"
     ],
     "subtema": "Basquete e NBA",
     "status": "gerada",
@@ -1980,7 +1981,7 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "gerador r8: errada \"Didi Louzada\" trocada por \"Leo Meindl\" (era resposta de outra pergunta)"
+    "correcao": "gerador r8: errada \"Didi Louzada\" trocada por \"Leo Meindl\" (era resposta de outra pergunta); gerador r8: errada \"Lucas Bebê\" trocada por \"Vítor Faverani\" (era resposta de outra pergunta)"
   },
   {
     "id": "772295f9ff",

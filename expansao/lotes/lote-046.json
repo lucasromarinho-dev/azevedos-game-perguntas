@@ -12,12 +12,14 @@
       "Mimosa"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "40aa31c690",
@@ -32,12 +34,13 @@
       "Chup-chup"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "14538f6c50",
@@ -52,12 +55,13 @@
       "Misto-quente"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "cbc2bd4762",
@@ -72,12 +76,13 @@
       "Portátil"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e39494f0d0",
@@ -92,12 +97,13 @@
       "Atrapalhada"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3cf128882b",
@@ -112,12 +118,13 @@
       "Pão de sal"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8cccfff46c",
@@ -132,12 +139,13 @@
       "Ceia"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:8411fa0b4e",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "13a9413eaf",
@@ -152,12 +160,13 @@
       "Esquisito"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "091b448412",
@@ -172,12 +181,13 @@
       "Elétrico"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6691673b0d",
@@ -192,18 +202,19 @@
       "Cairo"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:352",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.3)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.3)",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "32588c8a6e",
     "categoria": "Geografia",
     "dificuldade": "dificil",
-    "pergunta": "Qual língua artificial, criada por um padre alemão em 1879, fez sucesso antes do esperanto?",
+    "pergunta": "Qual língua artificial foi criada em 1879 pelo padre alemão Johann Martin Schleyer?",
     "resposta": "Volapuque",
     "alternativas": [
       "Novial",
@@ -212,12 +223,15 @@
       "Ido"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirada a menção ao esperanto, que entregava a resposta de 9374f45c26 (lote 008, língua artificial de Zamenhof)",
+    "verificado_web": true
   },
   {
     "id": "d12198c765",
@@ -232,12 +246,13 @@
       "Zarolho"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3377894aaa",
@@ -252,12 +267,14 @@
       "Pastel de nata"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "2a8bd08cf2",
@@ -272,12 +289,14 @@
       "Couve"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "7aebf2844d",
@@ -292,12 +311,13 @@
       "Meirinho"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:920 (Como eram chamados os homens contratados para capturar escravizados que fugiam? => Capitães do mato)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b86fb21860",
@@ -312,12 +332,13 @@
       "Fornalha"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a342397cd1",
@@ -332,12 +353,13 @@
       "Urna"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d4bc6f63d4",
@@ -352,12 +374,13 @@
       "Cafuzo"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "1c295d27ec",
@@ -372,12 +395,13 @@
       "Hoplita"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a468a98f95",
@@ -392,12 +416,13 @@
       "Vestais"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "34cdbca35d",
@@ -407,17 +432,20 @@
     "resposta": "Mobral",
     "alternativas": [
       "Projeto Rondon",
-      "Projeto Minerva",
+      "Movimento de Cultura Popular",
       "Telecurso",
       "Mobral"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "errada \"Projeto Minerva\" defensável (educação de adultos pelo rádio criada pelo governo militar em 1970); trocada por Movimento de Cultura Popular (pré-1964)",
+    "verificado_web": true
   },
   {
     "id": "2669f03c0b",
@@ -432,12 +460,14 @@
       "Zé Carioca"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "bf817bebe0",
@@ -452,12 +482,13 @@
       "Sofistas"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e8dc0f9a8c",
@@ -472,18 +503,19 @@
       "Trácio"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "70ba355a40",
     "categoria": "História",
     "dificuldade": "dificil",
-    "pergunta": "Que feixe de varas com um machado, levado pelos lictores romanos, deu nome ao fascismo?",
+    "pergunta": "Que feixe de varas amarrado em volta de um machado, levado pelos lictores, simbolizava a autoridade dos magistrados romanos?",
     "resposta": "Fasces",
     "alternativas": [
       "Gládio",
@@ -492,12 +524,14 @@
       "Lábaro"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "\"deu nome ao fascismo\" entregava a resposta (fascismo/fasces); enunciado reescrito sem a pista"
   },
   {
     "id": "679ea9b855",
@@ -512,12 +546,14 @@
       "Lei Saraiva"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "0fb708ded2",
@@ -532,12 +568,14 @@
       "Rua Santa Clara"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "65d96cf2f3",
@@ -552,12 +590,14 @@
       "Mascate"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "bf0dbdb74b",
@@ -592,12 +632,13 @@
       "Paca"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "cb4357a89f",
@@ -612,12 +653,13 @@
       "Calo"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8bdcd405ab",
@@ -632,12 +674,13 @@
       "Epiglote"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "353b99d53c",
@@ -652,12 +695,13 @@
       "Pinta"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "8c987af706",
@@ -686,18 +730,21 @@
     "pergunta": "Qual felino brasileiro, de pelagem lisa e sem pintas, também é chamado de jaguarundi?",
     "resposta": "Gato-mourisco",
     "alternativas": [
-      "Gato-do-mato",
+      "Gato-palheiro",
       "Gato-maracajá",
       "Jaguatirica",
       "Gato-mourisco"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "errada \"Gato-do-mato\" defensável (gato-do-mato-vermelho é nome popular do jaguarundi); trocada por Gato-palheiro",
+    "verificado_web": true
   },
   {
     "id": "2a25e17159",
@@ -712,12 +759,13 @@
       "Lesma-do-mar"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "49cc36933e",
@@ -732,18 +780,19 @@
       "Quokka"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "19add9b515",
     "categoria": "Ciências",
     "dificuldade": "medio",
-    "pergunta": "Qual pigmento amarelo, que vem da quebra da hemoglobina, deixa a pele amarelada na icterícia?",
+    "pergunta": "Qual pigmento amarelo, que vem da quebra da hemoglobina, deixa a pele e os olhos amarelados em doenças do fígado?",
     "resposta": "Bilirrubina",
     "alternativas": [
       "Mioglobina",
@@ -752,12 +801,14 @@
       "Melanina"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirada a palavra \"icterícia\", resposta de 4fce1da09d (lote 028)"
   },
   {
     "id": "44e0fca944",
@@ -772,12 +823,13 @@
       "Lua nova"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "f2e61f8d02",
@@ -792,18 +844,19 @@
       "Lobo-guará"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1802",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "5ec7777bd5",
     "categoria": "Ciências",
     "dificuldade": "dificil",
-    "pergunta": "Qual lêmure de Madagascar usa um dedo médio longo e fino para tirar larvas de dentro da madeira?",
+    "pergunta": "Qual primata de Madagascar usa um dedo médio longo e fino para tirar larvas de dentro da madeira?",
     "resposta": "Aie-aie",
     "alternativas": [
       "Társio",
@@ -812,12 +865,14 @@
       "Aie-aie"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "\"lêmure de Madagascar\" entregava a resposta de ef1e367dfe (lote 014, primata típico de Madagascar => Lêmure); trocado por \"primata\""
   },
   {
     "id": "6698dd820e",
@@ -832,17 +887,18 @@
       "Columela"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a94e4e73d5",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual tipo de estrela de nêutrons tem o campo magnético mais forte já medido no Universo?",
     "resposta": "Magnetar",
     "alternativas": [
@@ -852,12 +908,14 @@
       "Magnetar"
     ],
     "subtema": "Astronomia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)"
   },
   {
     "id": "65926f31fc",
@@ -872,12 +930,13 @@
       "Lei de Gérson"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b36e7e726f",
@@ -892,12 +951,13 @@
       "Zebra"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e3e7486bb5",
@@ -912,12 +972,13 @@
       "Volta de apresentação"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "9f6a608c4f",
@@ -932,12 +993,13 @@
       "Rabeta"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "bad4b09d33",
@@ -952,12 +1014,13 @@
       "Air ball"
     ],
     "subtema": "Basquete e NBA",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "482c8eec05",
@@ -972,12 +1035,14 @@
       "Botafogo"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:152f5b814a",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (8.7)"
+    "dup_regra": "resposta nova citada no texto antigo (8.7)",
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "cec366c16c",
@@ -992,12 +1057,13 @@
       "Mate do louco"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "98279b09ab",
@@ -1012,12 +1078,13 @@
       "Grid"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0c8b886f81",
@@ -1032,12 +1099,14 @@
       "Fluminense"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "3b8f16274c",
@@ -1072,12 +1141,13 @@
       "Raspagem"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "2fc5327607",
@@ -1092,18 +1162,19 @@
       "Ollie"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "b1185bd1e4",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
-    "pergunta": "Qual tcheco deu nome ao pênalti batido de cavadinha, na final da Eurocopa de 1976?",
+    "dificuldade": "medio",
+    "pergunta": "Qual tcheco deu nome à cobrança de pênalti com um toque leve por cima do goleiro, na final da Eurocopa de 1976?",
     "resposta": "Panenka",
     "alternativas": [
       "Poborský",
@@ -1112,12 +1183,16 @@
       "Masopust"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirada a palavra \"cavadinha\", resposta de banco:2579",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v5)",
+    "verificado_web": true
   },
   {
     "id": "6c8378cee9",
@@ -1132,12 +1207,13 @@
       "Zwischenzug"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "18ed58893a",
@@ -1152,12 +1228,14 @@
       "Juventude"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "85284b4730",
@@ -1172,12 +1250,14 @@
       "Brasil de Pelotas"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "a958906c58",
@@ -1192,12 +1272,13 @@
       "Christine"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a55eb7925d",
@@ -1212,13 +1293,14 @@
       "Ratchet"
     ],
     "subtema": "Sagas e franquias",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Transformers",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "02881436ae",
@@ -1233,12 +1315,13 @@
       "Trailer"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "a4c03c4aa1",
@@ -1253,18 +1336,19 @@
       "Coadjuvante"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "6294cf2d57",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Como se chama o povo alto, de pele azul, do planeta Pandora em \"Avatar\"?",
+    "pergunta": "Como se chama o povo alto, de pele azul, do filme \"Avatar\", de James Cameron?",
     "resposta": "Na'vi",
     "alternativas": [
       "Zerg",
@@ -1273,13 +1357,15 @@
       "Ewoks"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Avatar",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirado \"planeta Pandora\", resposta de banco:3264"
   },
   {
     "id": "1ebd054443",
@@ -1294,12 +1380,13 @@
       "Pífano"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "7336b4fbfc",
@@ -1314,12 +1401,13 @@
       "Fado"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "92adb37a10",
@@ -1334,12 +1422,13 @@
       "Salsa"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "bfb1aacb2d",
@@ -1348,19 +1437,22 @@
     "pergunta": "Qual é o nome do extraterrestre que visita o \"Castelo Rá-Tim-Bum\"?",
     "resposta": "Etevaldo",
     "alternativas": [
-      "Nino",
+      "Bongô",
       "Tíbio",
       "Mau",
       "Etevaldo"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Castelo Rá-Tim-Bum",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "errada \"Nino\" junto com o nome do programa entregava banco:3224 (Nino => Castelo Rá-Tim-Bum); trocada por Bongô",
+    "verificado_web": true
   },
   {
     "id": "dd624c1358",
@@ -1370,18 +1462,21 @@
     "resposta": "Beiçola",
     "alternativas": [
       "Tuco",
-      "Lineu",
+      "Paulão",
       "Agostinho",
       "Beiçola"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "A Grande Família",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "errada \"Lineu\" junto com o nome da série entregava banco:3221 (Lineu => A Grande Família); trocada por Paulão",
+    "verificado_web": true
   },
   {
     "id": "ccd3aaf48f",
@@ -1396,13 +1491,14 @@
       "Romulano"
     ],
     "subtema": "Sagas e franquias",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Star Trek",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "5daac69369",
@@ -1437,12 +1533,13 @@
       "Bandolim"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "36bd76f7cb",
@@ -1477,12 +1574,14 @@
       "Arrasta-pé"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "fb2f956c20",
@@ -1497,19 +1596,20 @@
       "Quenya"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Game of Thrones",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "d0943ad3c5",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual idioma, criado pelo governo no livro \"1984\", encolhe o vocabulário para limitar o pensamento?",
+    "pergunta": "Qual idioma, imposto pelo regime do Grande Irmão no romance de George Orwell, encolhe o vocabulário para limitar o pensamento?",
     "resposta": "Novilíngua",
     "alternativas": [
       "Língua do P",
@@ -1518,12 +1618,14 @@
       "Novilíngua"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirado o título \"1984\", resposta de 240da5b823 (lote 007)"
   },
   {
     "id": "e6a0397ec3",
@@ -1538,13 +1640,14 @@
       "Nuka-Cola"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Futurama",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "edb3cd745f",
@@ -1559,19 +1662,20 @@
       "Stark Industries"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Marvel",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "9b48a41188",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual empresa fictícia cria a Skynet na série de filmes \"O Exterminador do Futuro\"?",
+    "pergunta": "Qual empresa fictícia cria a Skynet, a inteligência artificial que se volta contra a humanidade?",
     "resposta": "Cyberdyne",
     "alternativas": [
       "Umbrella Corporation",
@@ -1580,13 +1684,15 @@
       "OCP"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "O Exterminador do Futuro",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "tirado o nome do filme, resposta de banco:3747 (Skynet => O Exterminador do Futuro)"
   },
   {
     "id": "41ed7a6c53",
@@ -1601,19 +1707,20 @@
       "Pérola Negra"
     ],
     "subtema": "Sagas e franquias",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Piratas do Caribe",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "c90534d667",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Que expressão latina designa a solução repentina e improvável que resolve a trama, como um deus que desce ao palco?",
+    "pergunta": "Que expressão latina designa a solução repentina e improvável, vinda de fora, que resolve de uma vez a trama de uma história?",
     "resposta": "Deus ex machina",
     "alternativas": [
       "In medias res",
@@ -1622,12 +1729,14 @@
       "Catarse"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "\"como um deus que desce ao palco\" entregava a resposta (Deus ex machina)"
   },
   {
     "id": "39a8d9df55",
@@ -1642,18 +1751,20 @@
       "Ijexá"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "681c41e11d",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Qual estilo de rock dos anos 1990, de guitarras distorcidas e vocais etéreos, tem o My Bloody Valentine como referência?",
+    "pergunta": "Qual estilo de rock surgido no fim dos anos 1980, de guitarras distorcidas e vocais etéreos, tem o My Bloody Valentine como referência?",
     "resposta": "Shoegaze",
     "alternativas": [
       "Britpop",
@@ -1662,38 +1773,44 @@
       "Post-punk"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "fato impreciso: o shoegaze surgiu no fim dos anos 1980 (EP de 1988), não nos anos 1990",
+    "verificado_web": true
   },
   {
     "id": "5f80506fea",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Pulp Fiction\", Jules prova o hambúrguer de qual rede havaiana fictícia?",
+    "pergunta": "Qual rede havaiana fictícia de hambúrgueres aparece em vários filmes de Quentin Tarantino?",
     "resposta": "Big Kahuna Burger",
     "alternativas": [
       "Los Pollos Hermanos",
-      "Jack Rabbit Slim's",
+      "Good Burger",
       "Krusty Burger",
       "Big Kahuna Burger"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:75e8067bb0",
     "recente": false,
-    "dup_regra": "mesma resposta, assunto vizinho (7.0, 16% do fato)"
+    "dup_regra": "mesma resposta, assunto vizinho (7.0, 16% do fato)",
+    "conferido_por": "conferente-v5",
+    "correcao": "suspeita reescrita: \"Pulp Fiction\" + \"Jules\" entregavam banco:3352; Jack Rabbit Slim's (também de Tarantino) trocado por Good Burger",
+    "verificado_web": true
   },
   {
     "id": "819fd7a48f",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"Seinfeld\", qual empresa de importação e exportação George inventa para enganar o seguro-desemprego?",
+    "pergunta": "Em qual empresa fictícia de látex George Costanza diz ter quase conseguido emprego, para enganar o seguro-desemprego?",
     "resposta": "Vandelay Industries",
     "alternativas": [
       "Vandelay Industries",
@@ -1702,19 +1819,22 @@
       "Dunder Mifflin"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Seinfeld",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "fato impreciso (no episódio \"The Boyfriend\" a Vandelay é empresa de látex; importador-exportador é o Art Vandelay) e \"Seinfeld\" + \"George\" entregavam 95ba1e60aa (lote 019)",
+    "verificado_web": true
   },
   {
     "id": "00765799c4",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
-    "pergunta": "Em \"WALL-E\", qual megacorporação encheu a Terra de lixo e levou a humanidade para o espaço?",
+    "pergunta": "Qual megacorporação fictícia de uma animação da Pixar encheu a Terra de lixo e levou a humanidade para o espaço?",
     "resposta": "Buy n Large",
     "alternativas": [
       "Acme",
@@ -1723,13 +1843,15 @@
       "Dinoco"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:8117433055",
     "recente": false,
     "universo": "Pixar",
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)"
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.3)",
+    "conferido_por": "conferente-v5",
+    "correcao": "suspeita reescrita: o título \"WALL-E\" com Terra de lixo entregava 8117433055 (lote 006)"
   },
   {
     "id": "a3675cd3bd",
@@ -1744,12 +1866,13 @@
       "General Lee"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0b3b2ddf04",
@@ -1764,12 +1887,13 @@
       "Contra-plongée"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "37e81f501c",
@@ -1784,12 +1908,13 @@
       "Smurf"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: inverso de banco:3963 (o que significa \"camperar\"? => Ficar escondido esperando o inimigo passar)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3a59631c8d",
@@ -1804,12 +1929,13 @@
       "HUD"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada: mesmo fato que banco:3939 (personagens de um jogo controlados pelo computador => NPCs)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "48b4e1b583",
@@ -1824,12 +1950,13 @@
       "Rush"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "806205d624",
@@ -1844,32 +1971,35 @@
       "DPS"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "35a11c3031",
     "categoria": "Tecnologia",
     "dificuldade": "facil",
     "pergunta": "Qual é o nome do palhaço mascote do McDonald's?",
-    "resposta": "Ronald McDonald",
+    "resposta": "Ronald",
     "alternativas": [
-      "Ronald McDonald",
+      "Ronald",
       "Krusty",
       "Bozo",
       "Patati"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "resposta \"Ronald McDonald\" repetia \"McDonald's\" do enunciado (única alternativa com a palavra); resposta virou \"Ronald\""
   },
   {
     "id": "f135f8a2fb",
@@ -1904,12 +2034,13 @@
       "Skin"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "443f84878c",
@@ -1924,12 +2055,13 @@
       "Gank"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "0e3d7fb95a",
@@ -1944,12 +2076,13 @@
       "Netcode"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "bbbb49bea6",
@@ -1964,12 +2097,13 @@
       "Demo"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3552f4d394",
@@ -1984,12 +2118,14 @@
       "Multitap"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "959e3d01d4",
@@ -2025,13 +2161,14 @@
       "Black Mesa"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Assassin's Creed",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "3216a5fd11",
@@ -2046,12 +2183,13 @@
       "Julius"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "eb6b193c39",
@@ -2066,12 +2204,13 @@
       "Combo"
     ],
     "subtema": "Games: franquias e personagens",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "ea3e1a0781",
@@ -2086,12 +2225,14 @@
       "Expansion Pak"
     ],
     "subtema": "Games: Nintendo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "ce1bdae15e",
@@ -2106,12 +2247,14 @@
       "Power Pad"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:dfbd3be42d",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "040eb6a79e",
@@ -2126,12 +2269,14 @@
       "Game Genie"
     ],
     "subtema": "Games: consoles e história",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "f17348f438",
@@ -2146,12 +2291,14 @@
       "Rin Tin Tin"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "086df9155f",
@@ -2186,12 +2333,13 @@
       "Rugas"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "af1e65fa01",
@@ -2237,7 +2385,7 @@
     "id": "6a80c92636",
     "categoria": "Esportes",
     "dificuldade": "facil",
-    "pergunta": "Qual voo livre usa uma asa rígida em forma de triângulo e decola de rampas como a da Pedra Bonita, no Rio?",
+    "pergunta": "Qual voo livre usa uma asa triangular com estrutura de alumínio e decola de rampas como a da Pedra Bonita, no Rio?",
     "resposta": "Asa-delta",
     "alternativas": [
       "Paraquedas",
@@ -2246,12 +2394,14 @@
       "Balonismo"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:451",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 14.2)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 14.2)",
+    "conferido_por": "conferente-v5",
+    "correcao": "suspeita reescrita: \"asa rígida\" é impreciso (a asa-delta comum tem vela de tecido sobre armação); a pista ficou na armação triangular"
   },
   {
     "id": "caea6c8547",
@@ -2266,12 +2416,13 @@
       "Base jump"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "e5a6bca99b",
@@ -2286,12 +2437,13 @@
       "Stand up paddle"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "661932dc61",
@@ -2326,12 +2478,14 @@
       "Fair play financeiro"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "verificado_web": true
   },
   {
     "id": "d90c6dd58d",
@@ -2366,12 +2520,13 @@
       "Adobe"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5"
   },
   {
     "id": "1318af09d2",
@@ -2397,7 +2552,7 @@
     "id": "b23da13cc8",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "No vôlei, como se chama o set extra de desempate usado em algumas competições de clubes quando cada time vence um jogo?",
+    "pergunta": "No vôlei, como se chama o set extra de desempate disputado nos confrontos de ida e volta das copas europeias de clubes?",
     "resposta": "Golden set",
     "alternativas": [
       "Golden set",
@@ -2406,11 +2561,14 @@
       "Tie-break"
     ],
     "subtema": "Vôlei",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v5",
+    "correcao": "fato impreciso: o critério do golden set da CEV mudou ao longo dos anos (vitórias trocadas x pontos empatados); enunciado ficou genérico",
+    "verificado_web": true
   }
 ]

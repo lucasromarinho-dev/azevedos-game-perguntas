@@ -17,7 +17,7 @@ export function sortear(lista, n, semente = 20261108) {
 const correcoes = lerJson(join(RAIZ_EXP, 'correcoes', 'entrega-resposta.json'));
 export const trocas = correcoes.filter((c) => c.origem.startsWith('banco:') && (c.acao === 'reescrever' || c.acao === 'alternativas'));
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}` || process.argv[1].endsWith('amostra-entrega-v11.mjs')) {
+if ((process.argv[1] || '').endsWith('amostra-entrega-v11.mjs')) {
   const n = Number(process.argv.find((x) => /^\d+$/.test(x)) || 150);
   const lista = process.argv.includes('--todas') ? trocas : sortear(trocas, n);
   console.log(`trocas do banco: ${trocas.length}; mostrando ${lista.length}`);

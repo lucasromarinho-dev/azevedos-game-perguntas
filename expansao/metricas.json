@@ -12444,6 +12444,42 @@
           "110:214408332b: errada \"Ouro\" trocada por \"Coral\": Costa do Ouro foi o nome colonial de Gana, um jogador podia contestar"
         ],
         "risco_sem_checagem_conferente": []
+      },
+      {
+        "lote": "111",
+        "conferente": "conferente-v11",
+        "conferidas": 97,
+        "conferidas_sem_mudanca": 90,
+        "com_mudanca": 7,
+        "corrigidas": 5,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "perguntas_com_busca_web": 97
+      },
+      {
+        "lote": "112",
+        "conferente": "conferente-v11",
+        "conferidas": 97,
+        "conferidas_sem_mudanca": 95,
+        "com_mudanca": 2,
+        "corrigidas": 1,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 1,
+        "perguntas_com_busca_web": 97
+      },
+      {
+        "lote": "113",
+        "conferente": "conferente-v11",
+        "conferidas": 98,
+        "conferidas_sem_mudanca": 90,
+        "com_mudanca": 8,
+        "corrigidas": 3,
+        "rebaixadas": 5,
+        "subidas": 0,
+        "descartadas": 0,
+        "perguntas_com_busca_web": 98
       }
     ],
     "rebaixamentos_r3": {
@@ -14406,6 +14442,206 @@
       },
       "descartes": [],
       "obs": "0 descartes: nenhuma ficha com fato errado sem conserto. Os problemas foram de grupo (entrega por outra pergunta) e 7 correções de texto ou alternativa."
+    },
+    "resumo_v11": {
+      "conferente": "conferente-v11",
+      "data": "2026-10-30",
+      "o_que_e": "candidato a banco v11 = main (13.986) + correção entrega (552 trocas, 8 remoções) - remoção de Entretenimento (286) + reposição conferida (lotes 111 a 113). Nada publicado.",
+      "reposicao": {
+        "lotes": "111-113",
+        "total": 294,
+        "conferidas": 292,
+        "sem_mudanca": 275,
+        "corrigidas": 9,
+        "rebaixadas": [
+          "6729e9cc84 Sérgio Reis",
+          "23ef12ad81 Chayene",
+          "5d48684ed9 Olavo/Wagner Moura",
+          "02a8157341 Raj",
+          "76618c5700 João Paulo",
+          "132c14dfd5 Zé Lelé",
+          "d28d3eb9b0 Franjinha",
+          "0fa86aa5a1 Astronauta"
+        ],
+        "subidas": 0,
+        "descartadas": 2,
+        "por_dificuldade": {
+          "facil": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 2
+          },
+          "medio": {
+            "conferidas": 115,
+            "corrigidas": 4,
+            "rebaixadas_para_medio": 8,
+            "descartadas": 0
+          },
+          "dificil": {
+            "conferidas": 164,
+            "corrigidas": 4,
+            "descartadas": 0
+          }
+        },
+        "distribuicao_final": {
+          "facil": 13,
+          "medio": 115,
+          "dificil": 164
+        },
+        "descartes": [
+          "111:233a0d021e Geografia/facil: Chile não faz fronteira, mesmo fato de banco:4580 (Chile e Equador)",
+          "112:acc8577438 Esportes/facil: América Mineiro Coelho, mesmo fato de banco:2821"
+        ],
+        "correcoes": [
+          "111:e5abec2f34 errada José Barbosa -> Severino Barbosa (nome completo do Chacrinha: José Abelardo Barbosa de Medeiros)",
+          "111:faa1c6f8fd bordão Isto é uma vergonha! (era Isso)",
+          "111:a7c274027f novela das nove -> novela das oito em 2006",
+          "113:feceec9122 Ronnie Von carioca -> fluminense (Niterói)",
+          "111:742d6e770a Waldyr Santanna: por décadas -> por muitos anos, até 2007",
+          "113:45c87c39b6 Fernanda Souza (não confirmada) -> Débora Lamm",
+          "113:d7ca8888e0 errada Ronaldinho Gaúcho (personagem real de MSP) -> Titi",
+          "112:a67f9b0bbe tirado do programa H (resposta de 111:86fcbc8697)",
+          "111:e9545d405c tirado o homem do Baú (resposta de banco:8353) -> bordão Quem quer dinheiro?"
+        ],
+        "script": "scripts/conferir-reposicao-v11.mjs"
+      },
+      "checagem_web": {
+        "consultas": 341,
+        "leituras_wikipedia": 332,
+        "leituras_com_pagina": 319,
+        "leituras_sem_pagina_404": 13,
+        "retentativas_429_nao_contadas": 17,
+        "websearch": 9,
+        "obs": "leitura do texto bruto (action=raw) da página citada em verificado_web e de páginas extras, uma por chamada, User-Agent genérico (log em fontes/conferencia-v11-chamadas.log); cruzamento automático da resposta com os termos do enunciado na mesma linha, depois leitura manual dos casos fracos. WebSearch: Fafá/Vermelho, Monjardim, Peninha, Junto & Misturado (2), Hermanoteu, Dona Flor, Léo Jaime, Falamansa. 292 de 292 conferidas com verificado_web_conferente."
+      },
+      "correcao_entrega": {
+        "remocoes_revisadas": 8,
+        "remocoes_mantidas": 8,
+        "amostra": 150,
+        "semente": 20261108,
+        "problemas_na_amostra": 3,
+        "taxa_problema": "2,0%",
+        "revisao_total": false,
+        "ajustes": [
+          "banco:7439 tratamento -> dispositivo (resposta é o aparelho)",
+          "banco:6650 tirado o furão Cláudio (resposta de 111:014a8b9226)",
+          "banco:3221 tirados 2001 a 2014 e Nenê (pistas de 113:035c969bff, que cita A Grande Família)"
+        ],
+        "registro": "campo conferencia_v11 em correcoes/entrega-resposta.json; scripts/conferir-entrega-v11.mjs e scripts/amostra-entrega-v11.mjs"
+      },
+      "remocao_entretenimento": {
+        "amostra": 40,
+        "semente": 20261108,
+        "mudancas": 0,
+        "obs": "nenhum caso claramente famoso tipo Mona Lisa. Limítrofes para o Lucas olhar: Crime e Castigo (banco:7276), O Velho e o Mar (banco:6851), Saramago (banco:7278), Klimt O Beijo (banco:7114), Peri de O Guarani (banco:5514), Simbolismo/Cruz e Sousa (banco:7951)."
+      },
+      "v11": {
+        "banco_main": 13986,
+        "trocas_entrega": 552,
+        "trocas_aplicadas": 546,
+        "removidas_entrega": 8,
+        "removidas_entretenimento": 286,
+        "troca_e_remocao_remocao_venceu": [
+          "banco:6851",
+          "banco:8358",
+          "banco:9629",
+          "banco:12678",
+          "banco:13844",
+          "banco:13846"
+        ],
+        "removidas_total": 294,
+        "base_apos_correcoes": 13692,
+        "reposicao_conferidas": 292,
+        "reposicao_descartadas": [
+          "111:233a0d021e Geografia/facil",
+          "112:acc8577438 Esportes/facil"
+        ],
+        "total_v11": 13984,
+        "validacao": {
+          "nao_tocados_identicos_e_em_ordem": true,
+          "nao_tocados": 13146,
+          "campos_fora_do_padrao": 0,
+          "alternativas_com_problema": 0,
+          "enunciados_repetidos": 0,
+          "entrega_restantes": 0,
+          "entrega_falsos_alarmes_mantidos": 12,
+          "montarBanco": {
+            "validas": 13984,
+            "descartadas": 0,
+            "exemplos": []
+          },
+          "sem_bom_uma_linha_sem_quebra_final": true
+        },
+        "por_categoria_dificuldade": {
+          "antes": {
+            "Geografia": {
+              "facil": 651,
+              "medio": 796,
+              "dificil": 609
+            },
+            "História": {
+              "facil": 600,
+              "medio": 814,
+              "dificil": 689
+            },
+            "Ciências": {
+              "facil": 681,
+              "medio": 833,
+              "dificil": 596
+            },
+            "Esportes": {
+              "facil": 755,
+              "medio": 944,
+              "dificil": 734
+            },
+            "Entretenimento": {
+              "facil": 982,
+              "medio": 1203,
+              "dificil": 713
+            },
+            "Tecnologia": {
+              "facil": 750,
+              "medio": 925,
+              "dificil": 711
+            }
+          },
+          "depois": {
+            "Geografia": {
+              "facil": 648,
+              "medio": 799,
+              "dificil": 608
+            },
+            "História": {
+              "facil": 600,
+              "medio": 821,
+              "dificil": 682
+            },
+            "Ciências": {
+              "facil": 680,
+              "medio": 837,
+              "dificil": 593
+            },
+            "Esportes": {
+              "facil": 754,
+              "medio": 944,
+              "dificil": 734
+            },
+            "Entretenimento": {
+              "facil": 980,
+              "medio": 1214,
+              "dificil": 704
+            },
+            "Tecnologia": {
+              "facil": 750,
+              "medio": 931,
+              "dificil": 705
+            }
+          }
+        }
+      },
+      "total_v11": 13984,
+      "obs_total": "2 a menos que a main porque 2 da reposição saíram por duplicidade (Esportes fácil e Geografia fácil); nenhuma nova gerada no lugar."
     }
   },
   "listas": {

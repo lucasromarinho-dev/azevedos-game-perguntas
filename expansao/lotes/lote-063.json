@@ -2138,5 +2138,45 @@
     "dup_ref": "banco:5480",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (4.5)"
+  },
+  {
+    "id": "704de378ec",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as manchas escuras embaixo dos olhos de quem dormiu mal?",
+    "resposta": "Olheiras",
+    "alternativas": [
+      "Olheiras",
+      "Sardas",
+      "Pálpebras",
+      "Bolsas lacrimais"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9079 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:9079",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "5d2835b4b1",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o som que volta depois de bater numa montanha ou numa parede?",
+    "resposta": "Eco",
+    "alternativas": [
+      "Eco",
+      "Ressonância",
+      "Zumbido",
+      "Chiado"
+    ],
+    "subtema": "Física e unidades",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
   }
 ]

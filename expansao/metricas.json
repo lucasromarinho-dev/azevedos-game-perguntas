@@ -19871,5 +19871,87 @@
       },
       "banco_de_referencia": "origin/main:perguntas.json (13.986)"
     }
+  },
+  "conferencia_lote123_v12": {
+    "data": "2026-10-30",
+    "agente": "conferente-lote123-v12",
+    "lote_123": {
+      "conferida": 28,
+      "reserva": 12,
+      "descartada_pelo_gerador": 4,
+      "conferidas_por_dificuldade": {
+        "dificil": 16,
+        "medio": 12
+      },
+      "dificuldade_ajuste": [
+        "29330a6192 Cleo",
+        "4ce413b2db meião de Roberto Carlos"
+      ],
+      "reserva_por_regua": [
+        "b38d20ad68 Detetives do Prédio Azul"
+      ],
+      "web": "Wikipédia pt pelo texto bruto (log fontes/conferencia-lote-123-chamadas.log) + 1 WebSearch",
+      "checagens": {
+        "entrega": 0,
+        "alternativas": 0,
+        "duplicadas_sem_descartar": "3 certa e 6 suspeita, todas fato diferente",
+        "checa_resposta": "só nomes citados sem a pista"
+      }
+    },
+    "v12": {
+      "arquivo": "correcoes/perguntas-v12.json",
+      "total": 13986,
+      "removidas": 707,
+      "reposicao_por_lote": {
+        "115": 84,
+        "116": 85,
+        "117": 86,
+        "118": 82,
+        "119": 84,
+        "120": 86,
+        "121": 88,
+        "122": 84,
+        "123": 28
+      },
+      "reposicao_por_dificuldade": {
+        "facil": 8,
+        "medio": 278,
+        "dificil": 421
+      },
+      "grafia_siriguejo": [
+        "banco:3257",
+        "banco:5401"
+      ],
+      "validacao": {
+        "nao_tocados_identicos_e_em_ordem": true,
+        "nao_tocados": 13277,
+        "campos_fora_do_padrao": 0,
+        "alternativas_com_problema": 0,
+        "enunciados_repetidos_exatos": 0,
+        "enunciados_repetidos_sem_caixa_acento": 0,
+        "entrega_suspeitas_v11": 12,
+        "entrega_suspeitas_v12": 12,
+        "entrega_suspeitas_novas": 0,
+        "montarBanco": {
+          "validas": 13986,
+          "descartadas": 0,
+          "exemplos": []
+        },
+        "sem_bom": true,
+        "uma_linha": true,
+        "sem_quebra_final": true,
+        "nfc": true
+      },
+      "entretenimento_v11": {
+        "facil": 980,
+        "medio": 1214,
+        "dificil": 704
+      },
+      "entretenimento_v12": {
+        "facil": 980,
+        "medio": 1239,
+        "dificil": 679
+      }
+    }
   }
 }

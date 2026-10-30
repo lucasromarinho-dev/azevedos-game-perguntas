@@ -11,13 +11,15 @@
       "Lumos Maxima",
       "Episkey"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Oculus Reparo",
     "franquia": "Harry Potter",
     "dup": "suspeita",
     "dup_ref": "banco:4062",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.5)",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:4062)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:4062)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Oculus Reparo"
   },
   {
     "id": "862f5d0288",
@@ -31,12 +33,14 @@
       "Hoth",
       "Endor"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "starwars fandom/pt: Hoth",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "starwars fandom/pt: Hoth"
   },
   {
     "id": "40e44c8545",
@@ -50,12 +54,14 @@
       "VERONICA",
       "JOCASTA"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "marvelcinematicuniverse fandom/pt-br: Indústrias Stark",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Vision (Marvel Cinematic Universe)"
   },
   {
     "id": "6006d39949",
@@ -69,17 +75,19 @@
       "Lara",
       "Diana"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Batman v Superman: Dawn of Justice",
     "franquia": "DC",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Batman v Superman: Dawn of Justice"
   },
   {
     "id": "26b5896ebc",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual é o sobrenome de Joey, em \"Friends\"?",
     "resposta": "Tribbiani",
     "alternativas": [
@@ -88,12 +96,15 @@
       "Tribbiani",
       "Geller"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Joey Tribbiani",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Joey Tribbiani",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2: o sobrenome de Joey é dito e repetido na série)"
   },
   {
     "id": "d68de21ad8",
@@ -107,17 +118,19 @@
       "Sideshow Bob",
       "Sideshow Mel"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "simpsons fandom/pt-br: Sideshow Bob",
     "franquia": "Os Simpsons",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Sideshow Bob; simpsons fandom/pt-br: Sideshow Bob; WebSearch sem outro nome na dublagem"
   },
   {
     "id": "22c36ff1ce",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual lanche o Chaves sonha comer em quase todo episódio?",
     "resposta": "Sanduíche de presunto",
     "alternativas": [
@@ -126,13 +139,16 @@
       "Quesadilla",
       "Pão com mortadela"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "chaves fandom/pt-br: Sanduíche de Presunto",
     "franquia": "Chaves",
     "dup": "suspeita",
     "dup_ref": "banco:5075",
     "dup_regra": "resposta nova citada no texto antigo (7.8)",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:5075)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:5075)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "chaves fandom/pt-br: Sanduíche de Presunto",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2: o sanduíche de presunto é a piada mais famosa de Chaves)"
   },
   {
     "id": "418fa1e4f7",
@@ -146,12 +162,14 @@
       "Estrada das Almas",
       "Ponte do Paraíso"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Caminho da Serpente",
     "franquia": "Dragon Ball",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Caminho da Serpente"
   },
   {
     "id": "a95127b737",
@@ -165,13 +183,15 @@
       "Rei Edgar",
       "Rei Harold"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "shrek fandom/pt-br: Shrek 2(Filme)",
     "franquia": "Shrek",
     "dup": "suspeita",
     "dup_ref": "banco:5326",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:5326)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:5326)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Shrek 2"
   },
   {
     "id": "f2cdfa80ca",
@@ -185,12 +205,14 @@
       "Goldeen",
       "Staryu"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pokemon fandom/pt-br: Psyduck",
     "franquia": "Pokémon",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Psyduck"
   },
   {
     "id": "10ba614e3a",
@@ -204,12 +226,14 @@
       "Balde de Lixo",
       "Lata de Peixe"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Plankton and Karen",
     "franquia": "Bob Esponja",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: SpongeBob SquarePants"
   },
   {
     "id": "156b662dde",
@@ -223,12 +247,14 @@
       "Narsil",
       "Orcrist"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pt.wikipedia.org: Lista de armas de O Senhor dos Anéis",
     "franquia": "Senhor dos Anéis",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Ferroada"
   },
   {
     "id": "e4128e51da",
@@ -242,12 +268,14 @@
       "Garrafa térmica",
       "Caixa de charutos"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Jurassic Park",
     "franquia": "Jurassic Park",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Jurassic Park (film)"
   },
   {
     "id": "9eb51931b0",
@@ -261,12 +289,14 @@
       "Newton",
       "Copérnico"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Back to the Future",
     "franquia": "De Volta para o Futuro",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Back to the Future"
   },
   {
     "id": "98167e6d1f",
@@ -280,13 +310,15 @@
       "Heineken",
       "Stella Artois"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "fastandfurious fandom: Dominic Toretto",
     "franquia": "Velozes e Furiosos",
     "dup": "suspeita",
     "dup_ref": "banco:9735",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:9735)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:9735)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "fastandfurious fandom: Dominic Toretto"
   },
   {
     "id": "411c94a82f",
@@ -300,12 +332,14 @@
       "Com um rádio",
       "Com o telefone"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Stranger Things season 1",
     "franquia": "Stranger Things",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Stranger Things season 1"
   },
   {
     "id": "a1cc2b776e",
@@ -319,13 +353,15 @@
       "Aiolia",
       "Camus"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "saintseiya fandom/pt-br: Camus de Aquário",
     "franquia": "Cavaleiros do Zodíaco",
     "dup": "suspeita",
     "dup_ref": "id:739b6f9bd7",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:739b6f9bd7)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:739b6f9bd7)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "saintseiya fandom/pt-br: Camus de Aquário"
   },
   {
     "id": "bbbd7e225e",
@@ -339,13 +375,15 @@
       "Lámen",
       "Onigiri"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "naruto fandom/pt-br: Ramen Ichiraku",
     "franquia": "Naruto",
     "dup": "suspeita",
     "dup_ref": "banco:7993",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.5)",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:7993)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:7993)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "naruto fandom/pt-br: Ramen Ichiraku"
   },
   {
     "id": "ea448bf3cf",
@@ -359,13 +397,15 @@
       "Jones",
       "Rogers"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "scoobydoo fandom/pt-br: Salsicha Rogers",
     "franquia": "Turma do Scooby-Doo",
     "dup": "certa",
     "dup_ref": "banco:5310",
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.9)",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:5310)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:5310)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Shaggy Rogers"
   },
   {
     "id": "f8fda3123c",
@@ -379,12 +419,15 @@
       "95",
       "86"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "verificado_web": "en.wikipedia.org: Lightning McQueen",
     "franquia": "Toy Story e Pixar",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Lightning McQueen",
+    "motivo": "conferente-reposicao-2: repete o banco Disney (\"Qual é o número pintado no Relâmpago McQueen?\" => 95, média)"
   },
   {
     "id": "06284f180d",
@@ -398,12 +441,14 @@
       "Lobo",
       "Fênix"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Severo Snape",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Severo Snape"
   },
   {
     "id": "537262ca2f",
@@ -417,12 +462,14 @@
       "Mustafar",
       "Geonosis"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "starwars fandom/pt: Mustafar",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "starwars fandom/pt: Mustafar"
   },
   {
     "id": "825a0f3125",
@@ -436,12 +483,14 @@
       "Hala",
       "Vormir"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "marvelcinematicuniverse fandom/pt-br: Nebulosa",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Thanos"
   },
   {
     "id": "9cec1b3677",
@@ -455,13 +504,15 @@
       "Apocalypse",
       "Lobo da Estepe"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Batman v Superman: Dawn of Justice",
     "franquia": "DC",
     "dup": "suspeita",
     "dup_ref": "id:b9474a90e0",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:b9474a90e0)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:b9474a90e0)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Batman v Superman: Dawn of Justice; pt.wikipedia: Apocalypse (DC Comics) (\"Doomsday em inglês\")"
   },
   {
     "id": "0ca791d9c4",
@@ -475,12 +526,14 @@
       "Susan",
       "Emily"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Ross Geller",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Ross Geller"
   },
   {
     "id": "c3b3e8a5b0",
@@ -494,17 +547,19 @@
       "Elizabeth Hoover",
       "Agnes Skinner"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "simpsons fandom/pt-br: Sra. Krabappel",
     "franquia": "Os Simpsons",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "simpsons fandom/pt-br: Sra. Krabappel"
   },
   {
     "id": "65efd522fa",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual filho gordinho do Seu Barriga estuda com o Chaves?",
     "resposta": "Nhonho",
     "alternativas": [
@@ -513,17 +568,20 @@
       "Nhonho",
       "Chompiras"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "chaves fandom/pt-br: Nhonho",
     "franquia": "Chaves",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "chaves fandom/pt-br: Nhonho",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2: o Nhonho é personagem central de Chaves, conhecido de quase todo mundo)"
   },
   {
     "id": "69f04f0420",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual é o nome saiyajin de Goku?",
     "resposta": "Kakarotto",
     "alternativas": [
@@ -532,12 +590,15 @@
       "Bardock",
       "Raditz"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Goku",
     "franquia": "Dragon Ball",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Goku",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2: Kakarotto é dito em quase toda luta de Vegeta, quem viu DBZ sabe)"
   },
   {
     "id": "5c5dcb0f64",
@@ -551,12 +612,14 @@
       "Lobo Mau",
       "Rumpelstiltskin"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Shrek Forever After",
     "franquia": "Shrek",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Shrek Forever After"
   },
   {
     "id": "bb9688bfa9",
@@ -570,12 +633,14 @@
       "Duplica",
       "Enfermeira Joy"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pokemon fandom: Nurse Joy",
     "franquia": "Pokémon",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pokemon fandom: Nurse Joy"
   },
   {
     "id": "93a4089451",
@@ -589,12 +654,14 @@
       "Senhora Karen",
       "Senhora Tentáculos"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pt.wikipedia.org: Lista de personagens de SpongeBob SquarePants",
     "franquia": "Bob Esponja",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: List of SpongeBob SquarePants characters"
   },
   {
     "id": "0b3d6699ab",
@@ -608,12 +675,14 @@
       "Nazgûl",
       "Uruk-hai"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pt.wikipedia.org: Balrog",
     "franquia": "Senhor dos Anéis",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Balrog"
   },
   {
     "id": "345f0e2895",
@@ -627,12 +696,14 @@
       "Lagarto",
       "Crocodilo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Jurassic Park",
     "franquia": "Jurassic Park",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Jurassic Park (film)"
   },
   {
     "id": "b3d26787e5",
@@ -646,13 +717,15 @@
       "26 de outubro de 2015",
       "21 de outubro de 2015"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Back to the Future Part II",
     "franquia": "De Volta para o Futuro",
     "dup": "suspeita",
     "dup_ref": "id:436e5b0f8e",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:436e5b0f8e)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:436e5b0f8e)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Back to the Future Part II"
   },
   {
     "id": "f73697ea6e",
@@ -666,12 +739,14 @@
       "Han",
       "Roman"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Han Lue",
     "franquia": "Velozes e Furiosos",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Han Lue"
   },
   {
     "id": "a7a998e9db",
@@ -685,12 +760,14 @@
       "Robin",
       "Vicki"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Stranger Things season 1",
     "franquia": "Stranger Things",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Stranger Things season 1"
   },
   {
     "id": "56e58f5dc5",
@@ -704,13 +781,15 @@
       "June",
       "Shina"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "saintseiya fandom/pt-br: Marin de Águia",
     "franquia": "Cavaleiros do Zodíaco",
     "dup": "suspeita",
     "dup_ref": "banco:7089",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:7089)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:7089)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "saintseiya fandom/pt-br: Marin de Águia"
   },
   {
     "id": "0971470efa",
@@ -724,12 +803,14 @@
       "Jutsu Clones das Sombras",
       "Jutsu Substituição"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "naruto fandom/pt-br: Técnica dos Clones das Sombras",
     "franquia": "Naruto",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "naruto fandom/pt-br: Técnica dos Clones das Sombras (campo Dublagem: Jutsu Clones das Sombras)"
   },
   {
     "id": "cbeebfb344",
@@ -743,12 +824,14 @@
       "Pichitinho",
       "Bichento"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Bichento",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Bichento"
   },
   {
     "id": "67e6794b1a",
@@ -762,12 +845,14 @@
       "Bantha",
       "Sarlacc"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "starwars fandom/pt: Sarlacc",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "starwars fandom/pt: Sarlacc"
   },
   {
     "id": "99bd9df0bb",
@@ -781,12 +866,14 @@
       "Kurse",
       "Surtur"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Thor: The Dark World",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Thor: The Dark World"
   },
   {
     "id": "3f058a4bcc",
@@ -800,13 +887,15 @@
       "Charada",
       "Espantalho"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "batman fandom/pt-br: Jonathan Crane (Espantalho)",
     "franquia": "DC",
     "dup": "suspeita",
     "dup_ref": "id:f2bc7ea61c",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:f2bc7ea61c)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:f2bc7ea61c)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Espantalho (DC Comics)"
   },
   {
     "id": "7a80ed8c10",
@@ -820,12 +909,14 @@
       "Joanna",
       "Charlie"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: List of Friends and Joey characters",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "friends fandom: Janice Litman-Goralnik"
   },
   {
     "id": "a0c5d75044",
@@ -839,12 +930,14 @@
       "Leftorium",
       "Krusty Burger"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Kwik-E-Mart",
     "franquia": "Os Simpsons",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Kwik-E-Mart; simpsons fandom/pt-br: Sideshow Bob (cita a loja Kwik E' Mart); WebSearch sem nome alternativo na dublagem"
   },
   {
     "id": "e0491aa9c8",
@@ -858,12 +951,14 @@
       "Antenas de vinil",
       "Sino congelante"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "chaves fandom/pt-br: Buzina Paralisadora",
     "franquia": "Chaves",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "chaves fandom/pt-br: Buzina Paralisadora"
   },
   {
     "id": "8957d18b35",
@@ -877,12 +972,14 @@
       "Rei Enma",
       "Rei Cutelo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Rei Cutelo",
     "franquia": "Dragon Ball",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Rei Cutelo"
   },
   {
     "id": "c3aba0d81e",
@@ -896,12 +993,14 @@
       "Gastly",
       "Misdreavus"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pokemon fandom/pt-br: EP024",
     "franquia": "Pokémon",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pokemon fandom: Sabrina's Haunter"
   },
   {
     "id": "5edcdea1db",
@@ -915,13 +1014,15 @@
       "Um abacaxi",
       "Uma pedra"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Squidward Tentacles",
     "franquia": "Bob Esponja",
     "dup": "suspeita",
     "dup_ref": "id:1981daf09e",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:1981daf09e)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:1981daf09e)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Squidward Tentacles"
   },
   {
     "id": "8b864020d4",
@@ -935,12 +1036,14 @@
       "Isildur",
       "Elendil"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pt.wikipedia.org: Denethor",
     "franquia": "Senhor dos Anéis",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Denethor"
   },
   {
     "id": "f062fb6214",
@@ -954,12 +1057,14 @@
       "Cipher",
       "Gisele"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: The Fate of the Furious",
     "franquia": "Velozes e Furiosos",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: The Fate of the Furious"
   },
   {
     "id": "a1567b84a6",
@@ -973,12 +1078,14 @@
       "Mews",
       "Gizmo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Stranger Things season 2",
     "franquia": "Stranger Things",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Stranger Things season 2"
   },
   {
     "id": "86382a6580",
@@ -992,12 +1099,14 @@
       "Madame Malkin",
       "Zonko's"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Olivaras",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Olivaras"
   },
   {
     "id": "3983e56cbc",
@@ -1011,12 +1120,14 @@
       "Amarelo",
       "Verde"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Mace Windu",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Mace Windu"
   },
   {
     "id": "57198ddd01",
@@ -1030,12 +1141,14 @@
       "Justin Hammer",
       "Ivan Vanko"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "marvelcinematicuniverse fandom/pt-br: Obadiah Stane",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Obadiah Stane"
   },
   {
     "id": "2039c03af2",
@@ -1049,12 +1162,14 @@
       "Edward Nygma",
       "Jervis Tetch"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "batman fandom/pt-br: Charada (Edward Nygma)",
     "franquia": "DC",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Charada (DC Comics)"
   },
   {
     "id": "7d905ea67b",
@@ -1068,12 +1183,14 @@
       "Do irmão, Frank Jr.",
       "De Monica e Chandler"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: The One with the Embryos",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: The One with the Embryos"
   },
   {
     "id": "f3e3e9f869",
@@ -1087,12 +1204,14 @@
       "Homem Radioativo",
       "Gato e Rato"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "simpsons fandom/pt-br: Comichão e Coçadinha",
     "franquia": "Os Simpsons",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "simpsons fandom/pt-br: Comichão e Coçadinha; pt.wikipedia: The Itchy & Scratchy Show (\"no Brasil, Comichão e Coçadinha\")"
   },
   {
     "id": "84652e84ca",
@@ -1106,13 +1225,15 @@
       "Algodão-doce",
       "Pipoca doce"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "chaves fandom/pt-br: Seu Madruga",
     "franquia": "Chaves",
     "dup": "suspeita",
     "dup_ref": "banco:8495",
     "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.8)",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:8495)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:8495)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "chaves fandom/pt-br: Seu Madruga"
   },
   {
     "id": "9c320605a3",
@@ -1126,12 +1247,14 @@
       "Taiyoken",
       "Kikoho"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Não morra pai!! O poder oculto de Gohan",
     "franquia": "Dragon Ball",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Kuririn"
   },
   {
     "id": "da39ef2d0b",
@@ -1145,12 +1268,14 @@
       "Íris",
       "Serena"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pokemon fandom: May (anime)",
     "franquia": "Pokémon",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pokemon fandom: May (anime)"
   },
   {
     "id": "b432f6dcf5",
@@ -1164,12 +1289,14 @@
       "Harold",
       "Perch"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: List of SpongeBob SquarePants characters",
     "franquia": "Bob Esponja",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: List of SpongeBob SquarePants characters"
   },
   {
     "id": "f0681d9328",
@@ -1183,12 +1310,14 @@
       "Tûk",
       "Gamgi"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Samwise Gamgee",
     "franquia": "Senhor dos Anéis",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Samwise Gamgee"
   },
   {
     "id": "b85d03f4b5",
@@ -1202,31 +1331,36 @@
       "Cabeça de Javali",
       "Travessa do Tranco"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Caldeirão Furado",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Caldeirão Furado"
   },
   {
     "id": "a61d59b918",
     "categoria": "Entretenimento",
     "dificuldade": "dificil",
     "pergunta": "Qual Lorde Sith foi o mestre de Qui-Gon Jinn quando ainda era Jedi?",
-    "resposta": "Dooku",
+    "resposta": "Dookan",
     "alternativas": [
       "Darth Bane",
-      "Dooku",
+      "Dookan",
       "Darth Maul",
       "Darth Plagueis"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "starwars fandom/pt: Dookan",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "starwars fandom/pt: Dookan; web: Omelete (Dooku virou Conde Dookan na versão brasileira)",
+    "correcao": "resposta \"Dooku\" trocada por \"Dookan\": na versão brasileira dos filmes o personagem é o Conde Dookan (starwars fandom/pt: Dookan; Omelete) (conferente-reposicao-2)"
   },
   {
     "id": "95c8cd829d",
@@ -1240,12 +1374,14 @@
       "Shawarma",
       "Cheeseburger"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "marvelcinematicuniverse fandom/pt-br: The Avengers",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: The Avengers (2012 film)"
   },
   {
     "id": "9e495f9098",
@@ -1259,13 +1395,15 @@
       "Giganta",
       "Mulher-Leopardo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pt.wikipedia.org: Mulher-Maravilha (filme)",
     "franquia": "DC",
     "dup": "suspeita",
     "dup_ref": "banco:3332",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:3332)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. banco:3332)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Mulher-Maravilha (filme)"
   },
   {
     "id": "2ab3dae6ca",
@@ -1279,12 +1417,14 @@
       "Pavê",
       "Torta de abóbora"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: The One Where Ross Got High",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: The One Where Ross Got High; web: Critical Hits e CNN Brasil (o \"pavê\" da Rachel)"
   },
   {
     "id": "dfd810bae3",
@@ -1298,13 +1438,15 @@
       "Mona",
       "Bea"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "simpsons fandom/pt-br: Mona Simpson",
     "franquia": "Os Simpsons",
     "dup": "suspeita",
     "dup_ref": "id:be7a6facac",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:be7a6facac)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:be7a6facac)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "simpsons fandom/pt-br: Mona Simpson"
   },
   {
     "id": "a1eeafdd81",
@@ -1318,12 +1460,14 @@
       "Super Sónico",
       "Capitão Bucha"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "chaves fandom/pt-br: Super Sam",
     "franquia": "Chaves",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "chaves fandom/pt-br: Super Sam"
   },
   {
     "id": "11216cbeaf",
@@ -1337,13 +1481,15 @@
       "Kuririn",
       "Androide 17"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Androide 18",
     "franquia": "Dragon Ball",
     "dup": "suspeita",
     "dup_ref": "id:9c320605a3",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:9c320605a3)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:9c320605a3)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Androide 18"
   },
   {
     "id": "0f8f282ab5",
@@ -1357,12 +1503,14 @@
       "Lembas",
       "Biscoito de Bree"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "pt.wikipedia.org: Melian",
     "franquia": "Senhor dos Anéis",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "pt.wikipedia: Melian"
   },
   {
     "id": "2f1e5a9b5a",
@@ -1376,12 +1524,14 @@
       "Norberto",
       "Fofo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Fofo",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Fofo"
   },
   {
     "id": "fa9d9b105d",
@@ -1395,13 +1545,15 @@
       "Ki-Adi-Mundi",
       "Qui-Gon Jinn"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "starwars fandom/pt: Maul",
     "franquia": "Star Wars",
     "dup": "suspeita",
     "dup_ref": "id:537262ca2f",
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:537262ca2f)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:537262ca2f)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "starwars fandom/pt: Maul"
   },
   {
     "id": "cf29371912",
@@ -1415,12 +1567,14 @@
       "Multiverso",
       "Mundo Espelhado"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Avengers: Endgame",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Avengers: Endgame"
   },
   {
     "id": "cfb9939652",
@@ -1434,12 +1588,14 @@
       "Barry",
       "Mark"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Rachel Green",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Rachel Green"
   },
   {
     "id": "d355709afa",
@@ -1453,12 +1609,14 @@
       "Maggie",
       "Bart"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Who Shot Mr. Burns?",
     "franquia": "Os Simpsons",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Who Shot Mr. Burns?"
   },
   {
     "id": "206b96dcb6",
@@ -1472,12 +1630,14 @@
       "12 meses",
       "18 meses"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "chaves fandom/pt-br: Seu Madruga",
     "franquia": "Chaves",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "chaves fandom/pt-br: Seu Madruga"
   },
   {
     "id": "988ee082ef",
@@ -1491,13 +1651,15 @@
       "Vegetto",
       "Gogeta"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Vegetto",
     "franquia": "Dragon Ball",
     "dup": "certa",
     "dup_ref": "id:c14b189444",
     "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 16.6)",
-    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:c14b189444)"
+    "dup_revisado": "lido um a um: fato diferente, mantido (ref. id:c14b189444)",
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Vegetto"
   },
   {
     "id": "37ca967b59",
@@ -1511,12 +1673,15 @@
       "Hasufel",
       "Brego"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "verificado_web": "lotr fandom: Brego",
     "franquia": "Senhor dos Anéis",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "lotr fandom: Brego",
+    "motivo": "reserva (conferente-reposicao-2): nome do cavalo Brego é detalhe de enciclopédia, quase ninguém lembra"
   },
   {
     "id": "c08df2936f",
@@ -1530,12 +1695,14 @@
       "Diadema de Corvinal",
       "Diário de Tom Riddle"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Diário de T. S. Riddle",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Diário de T. S. Riddle"
   },
   {
     "id": "380382e4b3",
@@ -1549,12 +1716,14 @@
       "Almirante Piett",
       "General Veers"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Grand Moff Tarkin",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Grand Moff Tarkin"
   },
   {
     "id": "ca77721216",
@@ -1568,12 +1737,14 @@
       "Ego",
       "Yondu"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "marvelcinematicuniverse fandom/pt-br: Nebulosa",
     "franquia": "Marvel",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: Guardians of the Galaxy Vol. 2"
   },
   {
     "id": "7098e49b1d",
@@ -1587,12 +1758,14 @@
       "Kata",
       "Unagi"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: Friends season 6",
     "franquia": "Friends",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: The One with Unagi"
   },
   {
     "id": "f794cb3b84",
@@ -1606,12 +1779,14 @@
       "Abraham",
       "Jay"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "simpsons fandom/pt-br: Homer Simpson",
     "franquia": "Os Simpsons",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "simpsons fandom/pt-br: Homer Simpson"
   },
   {
     "id": "369428aae2",
@@ -1625,12 +1800,14 @@
       "Forças Especiais Ginyu",
       "Patrulha Galáctica"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Forças Especiais Ginyu",
     "franquia": "Dragon Ball",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Forças Especiais Ginyu"
   },
   {
     "id": "eec25adfdf",
@@ -1644,17 +1821,19 @@
       "Ninfadora Tonks",
       "Molly Weasley"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Belatriz Lestrange",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Belatriz Lestrange"
   },
   {
     "id": "4e712774e5",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "O que Han Solo responde quando Leia diz que o ama, pouco antes de ele ser congelado em carbonita?",
     "resposta": "Eu sei",
     "alternativas": [
@@ -1663,12 +1842,15 @@
       "Eu volto",
       "Eu também"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "en.wikipedia.org: The Empire Strikes Back",
     "franquia": "Star Wars",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "en.wikipedia: The Empire Strikes Back",
+    "dificuldade_ajuste": "dificil -> medio (régua, conferente-reposicao-2: o \"Eu sei\" de Han Solo é uma das falas mais conhecidas de Star Wars)"
   },
   {
     "id": "5ee823740a",
@@ -1682,12 +1864,14 @@
       "Piccolo",
       "Tenshinhan"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "dragonball fandom/pt-br: Cell",
     "franquia": "Dragon Ball",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "dragonball fandom/pt-br: Cell"
   },
   {
     "id": "6775b614cb",
@@ -1701,12 +1885,14 @@
       "Penseira",
       "Lunoscópio"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Desiluminador",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Desiluminador"
   },
   {
     "id": "621a8e11fc",
@@ -1720,11 +1906,13 @@
       "Quirinus Quirrell",
       "Gilderoy Lockhart"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "verificado_web": "harrypotter fandom/pt-br: Alastor Moody",
     "franquia": "Harry Potter",
     "dup": "nao",
     "dup_ref": null,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-reposicao-2",
+    "verificado_web_conferente": "harrypotter fandom/pt-br: Bartolomeu Crouch Júnior"
   }
 ]

@@ -19686,5 +19686,48 @@
       "erradas_trocadas": 70,
       "enunciados_reescritos": 24
     }
+  },
+  "conferencia_reposicao_2_franquias": {
+    "data": "2026-10-30",
+    "conferente": "conferente-reposicao-2",
+    "status": "conferida (nada publicado)",
+    "_leia": "Conferência independente dos lotes 120-122. Ver README, seção Conferência da reposição 2 (franquias).",
+    "total": 266,
+    "conferida": 258,
+    "reserva": 6,
+    "descartada": 2,
+    "descartadas_pelo_gerador": 4,
+    "correcoes": 5,
+    "ajustes_dificuldade": 7,
+    "dificuldade_final_conferidas": {
+      "dificil": 251,
+      "medio": 7
+    },
+    "faltam_para_266": 8,
+    "web": {
+      "checagens": 312,
+      "chamadas_api": 304,
+      "websearch": 8,
+      "leituras_de_pagina_por_pergunta": 266,
+      "com_verificado_web_conferente": 266,
+      "log": "expansao/fontes/conferencia-reposicao-2-chamadas.log"
+    },
+    "nomes_dublagem": {
+      "Pérola": "confirmado",
+      "Homem Sereia e Mexilhãozinho": "confirmado",
+      "Biscoito": "confirmado",
+      "Scooby-Loo": "confirmado",
+      "Apocalypse": "confirmado",
+      "Kwik-E-Mart": "mantido (nome original nas fontes pt)",
+      "Sideshow Bob": "mantido (nome original nas fontes pt)"
+    },
+    "checagens": {
+      "entrega_suspeitas": 0,
+      "duplicadas_certa": 9,
+      "duplicadas_suspeita": 38,
+      "duplicadas_descartar_rodado": false,
+      "alternativas_lote": 0,
+      "alternativas_rara": 3
+    }
   }
 }

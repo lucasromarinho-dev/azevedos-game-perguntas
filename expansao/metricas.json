@@ -12677,6 +12677,38 @@
             "7e5b090cea"
           ]
         }
+      },
+      "checagem_web_complementar": {
+        "data": "30/10/2026",
+        "alvo": "risco_sem_verificado_web (98 ids)",
+        "buscas_web": 18,
+        "obs_buscas": "8 WebSearch e 10 leituras em lote da API da Wikipédia (cerca de 160 verbetes, pt e en, agrupados por tema: desenhos da Hanna-Barbera, geografia e fronteiras, chefes de Estado, Copas e clubes, clima, carros e motos, Oscars e live-actions, ciência e invenções). Cota não foi atingida",
+        "confirmadas_sem_mudanca": 93,
+        "corrigidas": 5,
+        "rebaixadas": 0,
+        "descartadas": 0,
+        "sem_checar": 0,
+        "ids_sem_checar": {},
+        "corrigidas_detalhe": {
+          "e27e1b85b1": "Maguila: quem queria levá-lo era a menina Ogee, não o menino Beto; enunciado refeito",
+          "538b57a70d": "Cutman: errada Cornerman defensável trocada por Cronometrista",
+          "40e8a028d7": "Nero: \"o mais usado\" sem fonte; enunciado sem superlativo",
+          "ec62aa39c0": "Birdseye: Labrador, não Canadá (na época); enunciado ajustado e grafia Charles Seeberger",
+          "7e5b090cea": "Ventilador: \"jeito mais barato\" sem fonte; enunciado sem superlativo"
+        },
+        "por_lote": {
+          "086": "15/2/0",
+          "087": "15/0/0",
+          "088": "8/0/0",
+          "089": "13/0/0",
+          "090": "15/1/0",
+          "091": "7/0/0",
+          "092": "7/0/0",
+          "093": "6/0/0",
+          "094": "7/1/0",
+          "095": "0/1/0"
+        },
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha terminando em \"(checagem web complementar r9)\". As erradas novas (Cronometrista, Charles Seeberger) passaram pelo checa-resposta.mjs --lote e pelo alternativas.mjs sem criar cruzamento (Sparring foi evitado por ser resposta de 086:ff30ccc266)"
       }
     }
   },
@@ -16146,5 +16178,22 @@
     "enunciados_repetidos": 0,
     "tamanho_bytes": 2976279,
     "obs": "As 836 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 11.905 da main (banco v7), na ordem dos lotes, so com os campos do jogo. Checagem web complementar concluida antes (commit 4db6341), sem pendencias. Integridade da b12fc901f5 (Sobrado, lote 082) conferida: resposta entre as 4 alternativas. Pasta expansao/ nao foi para a main."
+  },
+  "publicacao_r9": {
+    "data": "2026-10-30",
+    "rodadas": "9 (lotes 086 a 095)",
+    "commit_main": "e283f13",
+    "commit_aprovacao_expansao": "2601c0a",
+    "base_main": "498496d",
+    "antigas": 12741,
+    "novas": 717,
+    "total": 13458,
+    "validador_jogo": {
+      "validas": 13458,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 3157040,
+    "obs": "As 717 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 12.741 da main (banco v8), na ordem dos lotes, so com os campos do jogo. Checagem web complementar concluida antes (commit 4a8e11a): 93 confirmadas, 5 corrigidas, 0 descartadas, sem pendencias. Antigas identicas byte a byte; nenhum enunciado repetido, nem sem maiusculas e espacos; 4 alternativas distintas com a resposta entre elas; sem BOM, uma linha, sem quebra final. Pasta expansao/ nao foi para a main."
   }
 }

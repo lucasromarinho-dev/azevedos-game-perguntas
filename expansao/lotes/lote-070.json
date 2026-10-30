@@ -514,10 +514,11 @@
     "subtema": "Revoluções e Idade Moderna",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:7105",
     "recente": false,
-    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (18.6)"
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (18.6)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "b42aff33d5",
@@ -934,10 +935,11 @@
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:4920",
     "recente": true,
-    "dup_regra": "E2 mesma resposta e mesmo assunto (12.2, 24% do fato)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (12.2, 24% do fato)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "a3b3a00438",
@@ -954,10 +956,11 @@
     "subtema": "Olimpíadas e atletismo",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:4699",
     "recente": false,
-    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.1, sim 0.3)"
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.1, sim 0.3)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "889d54df5e",

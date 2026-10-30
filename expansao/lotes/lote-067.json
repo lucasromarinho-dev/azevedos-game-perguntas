@@ -177,7 +177,8 @@
     "dup": "suspeita",
     "dup_ref": "id:3e1f1007f7",
     "recente": false,
-    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (11.3, sim 0.3)"
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (11.3, sim 0.3)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "9b75567639",
@@ -437,7 +438,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:6730",
     "recente": false,
-    "dup_regra": "E2 mesma resposta e mesmo assunto (6.7, 100% do fato)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.7, 100% do fato)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "1d9f757ffc",
@@ -1037,7 +1039,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:2681",
     "recente": true,
-    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (15.5)"
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (15.5)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "8280d48d04",
@@ -1837,7 +1840,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:1718",
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.4)"
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.4)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "e3817ce381",

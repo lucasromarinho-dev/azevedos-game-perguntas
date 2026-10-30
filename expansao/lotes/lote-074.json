@@ -557,7 +557,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:136",
     "recente": false,
-    "dup_regra": "E2 mesma resposta e mesmo assunto (10.0, 30% do fato)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.0, 30% do fato)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "e09d6e57b7",
@@ -1257,7 +1258,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:2582",
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.6)"
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.6)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "adfb0b8e51",
@@ -1297,7 +1299,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:2489",
     "recente": false,
-    "dup_regra": "E2 mesma resposta e mesmo assunto (14.5, 65% do fato)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (14.5, 65% do fato)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "a784c9630b",
@@ -1857,7 +1860,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:7779",
     "recente": false,
-    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.4)"
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.4)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "3e9fd4aa2a",
@@ -1957,7 +1961,8 @@
     "dup": "suspeita",
     "dup_ref": "id:e515c45284",
     "recente": true,
-    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 25.6)"
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 25.6)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "c52024922e",

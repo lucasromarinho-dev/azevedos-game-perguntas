@@ -657,7 +657,8 @@
     "dup": "suspeita",
     "dup_ref": "id:7c0ed5e7e5",
     "recente": false,
-    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.5)"
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 19.5)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "64a03616f4",
@@ -1694,10 +1695,11 @@
     "subtema": "IA, robótica e ficção científica",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:4b847e6c5d",
     "recente": false,
-    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.5)"
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.5)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "bbd3f6a377",

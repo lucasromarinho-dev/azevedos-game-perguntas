@@ -237,7 +237,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:42",
     "recente": false,
-    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "ce6d3416c5",
@@ -457,7 +458,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:1363",
     "recente": false,
-    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 18.5)"
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 18.5)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "9b42f855e6",
@@ -597,7 +599,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:1197",
     "recente": false,
-    "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 23% do fato)"
+    "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 23% do fato)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "49b757f25d",
@@ -623,7 +626,7 @@
     "id": "a4f606c8c8",
     "categoria": "Ciências",
     "dificuldade": "facil",
-    "pergunta": "Qual parte masculina da flor produz o pólen?",
+    "pergunta": "Como se chama o órgão reprodutor masculino da flor?",
     "resposta": "Estame",
     "alternativas": [
       "Estame",
@@ -643,7 +646,7 @@
     "id": "d91feb111a",
     "categoria": "Ciências",
     "dificuldade": "facil",
-    "pergunta": "Como se chama a parte feminina da flor, onde fica o ovário?",
+    "pergunta": "Como se chama o órgão reprodutor feminino da flor?",
     "resposta": "Pistilo",
     "alternativas": [
       "Antera",
@@ -654,10 +657,10 @@
     "subtema": "Plantas",
     "status": "gerada",
     "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "dup": "suspeita",
+    "dup_ref": "id:a4f606c8c8",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
   },
   {
     "id": "ff7b7170b8",
@@ -1023,7 +1026,7 @@
     "id": "595a06d1ca",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual clube mineiro de vôlei, de Belo Horizonte, é rival do Sada Cruzeiro e do Praia Clube?",
+    "pergunta": "Qual clube social de Belo Horizonte é potência do vôlei masculino e feminino?",
     "resposta": "Minas Tênis Clube",
     "alternativas": [
       "Juiz de Fora",
@@ -1034,10 +1037,10 @@
     "subtema": "Vôlei",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:2666",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.6)"
+    "dup_regra": null
   },
   {
     "id": "67f2b2c86c",
@@ -1063,7 +1066,7 @@
     "id": "b9c211c30d",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Qual autora americana escreveu \"É Assim que Acaba\", fenômeno do BookTok?",
+    "pergunta": "Qual autora americana escreveu \"É Assim que Acaba\", sucesso entre leitores das redes sociais?",
     "resposta": "Colleen Hoover",
     "alternativas": [
       "Taylor Jenkins Reid",
@@ -1154,10 +1157,10 @@
     "subtema": "Literatura",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:b9c211c30d",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": null
   },
   {
     "id": "c8d1ed0fb0",
@@ -1543,7 +1546,7 @@
     "id": "9e79639820",
     "categoria": "Tecnologia",
     "dificuldade": "facil",
-    "pergunta": "Como se chama a segunda-feira de descontos nas lojas online que vem depois da Black Friday?",
+    "pergunta": "Como se chama a segunda-feira de descontos nas lojas online, logo após o feriado americano de Ação de Graças?",
     "resposta": "Cyber Monday",
     "alternativas": [
       "Cyber Monday",
@@ -1817,7 +1820,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:4826",
     "recente": true,
-    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1)"
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "40aa2cbbd2",
@@ -1937,7 +1941,8 @@
     "dup": "suspeita",
     "dup_ref": "banco:5260",
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.1)"
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.1)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "0bec6935f9",

@@ -434,10 +434,11 @@
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:1034",
     "recente": false,
-    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (8.1, sim 0.2)"
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (8.1, sim 0.2)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "9f49cbdf05",
@@ -1794,10 +1795,11 @@
     "subtema": "Programação",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:7836",
     "recente": false,
-    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (4.9)"
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (4.9)",
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {
     "id": "f8f8bbccce",

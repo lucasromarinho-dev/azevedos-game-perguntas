@@ -3,7 +3,8 @@
 //  2) com uma cópia do montarBanco que recebe a lista de categorias como parâmetro (as 6 do banco Disney).
 // A cópia repete as mesmas regras de motivoInvalida/montarBanco de quest-online .../shared/perguntas.ts
 // e usa as DIFICULDADES reais de protocolo.ts.
-// Uso: npx tsx expansao/disney/scripts/validar-disney.mts expansao/disney/perguntas-disney.json
+// Uso: npx tsx expansao/disney/scripts/validar-disney.mts expansao/disney/perguntas-disney.json ["Cat1,Cat2"]
+//  O 2º parâmetro (opcional) troca a lista de categorias da cópia; ex.: "Desenhos" para o modo Desenhos.
 import { readFileSync } from 'node:fs';
 
 const raiz = process.env.QUEST_SHARED ||
@@ -52,11 +53,12 @@ const cru = JSON.parse(bruto.toString('utf8'));
 const real = montarBanco(cru).relatorio;
 const motivosReal = new Map<string, number>();
 for (const d of real.descartadas) motivosReal.set(d.motivo, (motivosReal.get(d.motivo) ?? 0) + 1);
-const copia = montarBancoCom(CATEGORIAS_DISNEY, cru);
+const categoriasCopia: readonly string[] = process.argv[3] ? process.argv[3].split(",").map((s) => s.trim()) : CATEGORIAS_DISNEY;
+const copia = montarBancoCom(categoriasCopia, cru);
 const enunciados = new Set((cru as { pergunta: string }[]).map((p) => p.pergunta));
 console.log(JSON.stringify({
   arquivo: { bytes: bruto.length, bom: bruto[0] === 0xef, quebraNoFim: bruto[bruto.length - 1] === 0x0a, linhas: bruto.toString('utf8').split('\n').length },
   montarBanco_real: { categorias_do_jogo: CATEGORIAS, validas: real.validas, descartadas: real.descartadas.length, motivos: Object.fromEntries(motivosReal) },
-  montarBanco_copia_6_categorias_disney: { validas: copia.relatorio.validas, descartadas: copia.relatorio.descartadas.length, exemplos: copia.relatorio.descartadas.slice(0, 5), porChave: Object.fromEntries(copia.porChave) },
+  montarBanco_copia_categorias_parametro: { categorias: categoriasCopia, validas: copia.relatorio.validas, descartadas: copia.relatorio.descartadas.length, exemplos: copia.relatorio.descartadas.slice(0, 5), porChave: Object.fromEntries(copia.porChave) },
   enunciados_duplicados: (cru as unknown[]).length - enunciados.size,
 }, null, 1));

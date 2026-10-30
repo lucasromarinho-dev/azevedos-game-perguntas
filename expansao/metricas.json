@@ -12107,6 +12107,70 @@
         "risco_sem_checagem_conferente": [
           "9c679b341d"
         ]
+      },
+      {
+        "lote": "105",
+        "conferente": "conferente-v10",
+        "conferidas": 25,
+        "conferidas_sem_mudanca": 24,
+        "com_mudanca": 1,
+        "corrigidas": 1,
+        "rebaixadas": 0,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 25,
+        "suspeitas": {
+          "total": 4,
+          "mantidas": 4,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Entretenimento": {
+            "conferidas": 7,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 4,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 1,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 7,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 6,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "bea45939ac: Yamato - errada Musashi era o navio-irmão do Yamato, da mesma classe, e também é \"o maior encouraçado já construído\" (defensável); trocada por Mutsu"
+        ],
+        "rebaixamentos": [],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "errada defensavel": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "bea45939ac: Yamato - errada Musashi era o navio-irmão do Yamato, da mesma classe, e também é \"o maior encouraçado já construído\" (defensável); trocada por Mutsu"
+        },
+        "risco_sem_checagem_conferente": []
       }
     ],
     "rebaixamentos_r3": {

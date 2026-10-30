@@ -14856,6 +14856,103 @@
         "Vilões": 1,
         "Disney Moderno e Bichos": 0
       }
+    },
+    "disney_011": {
+      "data": "2026-10-30",
+      "agente": "conferente-disney-v2",
+      "lote": "disney-011",
+      "status": "conferida (não publicar; aguarda aprovação)",
+      "candidatas": 50,
+      "conferidas": 38,
+      "corrigidas": 2,
+      "reserva": 12,
+      "descartadas": 0,
+      "meta": {
+        "Pixar": {
+          "dificil": 8
+        },
+        "Músicas": {
+          "dificil": 7
+        },
+        "Princesas": {
+          "dificil": 4
+        },
+        "Clássicos Disney": {
+          "dificil": 3
+        },
+        "Vilões": {
+          "dificil": 1
+        },
+        "Disney Moderno e Bichos": {
+          "facil": 10,
+          "medio": 3,
+          "dificil": 2
+        }
+      },
+      "faltam_para_meta": 0,
+      "correcoes": {
+        "1be3292f8c": "Pérola -> Pearl (dublagem brasileira)",
+        "c37a913817": "depois da cerimônia -> durante a festa do dom"
+      },
+      "web": {
+        "chamadas_wikipedia": 87,
+        "websearch": 3,
+        "log": "disney/fontes/chamadas-wikipedia-conferente-011.log",
+        "com_verificado_web_conferente": 50
+      },
+      "arquivo_jogo": {
+        "total": 1000,
+        "anteriores_identicas_mesma_ordem": 962,
+        "novas_no_fim": 38,
+        "validar_disney_copia": {
+          "validas": 1000,
+          "descartadas": 0
+        },
+        "enunciados_duplicados": 0,
+        "entrega_suspeitas": 0,
+        "bom": false,
+        "quebra_no_fim": false,
+        "linhas": 1,
+        "nfc": true
+      },
+      "quadro_final": {
+        "Clássicos Disney": [
+          80,
+          62,
+          25
+        ],
+        "Princesas": [
+          73,
+          70,
+          25
+        ],
+        "Pixar": [
+          82,
+          66,
+          25
+        ],
+        "Vilões": [
+          59,
+          78,
+          25
+        ],
+        "Músicas": [
+          73,
+          72,
+          25
+        ],
+        "Disney Moderno e Bichos": [
+          70,
+          62,
+          28
+        ],
+        "total": [
+          437,
+          410,
+          153
+        ]
+      },
+      "achado_fora_do_lote": "fbe674b8ca (lote 001) responde Guelra; Wikipédia pt dá Gil no Brasil (Guelra é Portugal). Não alterado."
     }
   },
   "listas": {

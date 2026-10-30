@@ -1,20 +1,22 @@
 # Banco Disney - amostra para o Lucas
 
-Versão especial do LOTER QUIZ só com perguntas da Disney e da Pixar: **962 perguntas** em 6 temas novos. Nada foi publicado: o arquivo pronto fica em `expansao/disney/perguntas-disney.json` e só entra no jogo quando você mandar.
+Versão especial do LOTER QUIZ só com perguntas da Disney e da Pixar: **1.000 perguntas** em 6 temas novos. Nada foi publicado: o arquivo pronto fica em `expansao/disney/perguntas-disney.json` e só entra no jogo quando você mandar.
 
-## Quadro final: quantas perguntas tem de cada tipo (depois da conferência)
+## Quadro final: quantas perguntas tem de cada tipo (depois da conferência do lote 011)
 
 | Tema | Fácil | Média | Difícil | Total |
 |---|---|---|---|---|
-| Clássicos Disney | 80 | 62 | 22 | 164 |
-| Princesas | 73 | 70 | 21 | 164 |
-| Pixar | 82 | 66 | 17 | 165 |
-| Vilões | 59 | 78 | 24 | 161 |
-| Músicas | 73 | 72 | 18 | 163 |
-| Disney Moderno e Bichos | 60 | 59 | 26 | 145 |
-| **Total** | **427** (44,4%) | **407** (42,3%) | **128** (13,3%) | **962** |
+| Clássicos Disney | 80 | 62 | 25 | 167 |
+| Princesas | 73 | 70 | 25 | 168 |
+| Pixar | 82 | 66 | 25 | 173 |
+| Vilões | 59 | 78 | 25 | 162 |
+| Músicas | 73 | 72 | 25 | 170 |
+| Disney Moderno e Bichos | 70 | 62 | 28 | 160 |
+| **Total** | **437** (43,7%) | **410** (41,0%) | **153** (15,3%) | **1.000** |
 
-- **Filmes diferentes:** 86. O que mais aparece é Frozen: Uma Aventura Congelante, com 35 perguntas (3,6% do banco); depois vêm O Rei Leão (34) e Aladdin (31).
+Todos os temas agora têm pelo menos 25 difíceis. As 962 perguntas anteriores continuam iguais e na mesma ordem; as 38 novas entram no fim do arquivo.
+
+- **Filmes diferentes:** 87. O que mais aparece é Frozen: Uma Aventura Congelante, com 35 perguntas (3,5% do banco); depois vêm O Rei Leão (34) e Aladdin (32).
 - **"Difícil" aqui é pergunta de fã**: nome de personagem secundário ou detalhe da história. Nada de ano de lançamento, bilheteria ou diretor.
 - **Nomes e títulos como no Brasil**: Mate, Linguini, Zezé, Gato Pilantra, "Livre Estou", "Vencer Distâncias", "Imagem" (a canção da Mulan)...
 - **Jeitos diferentes de perguntar** (cada um abaixo de 10% do banco): "Qual destes NÃO é..." 40, "Quem disse..." 24, "O que vem primeiro..." 27, "Complete..." 21, perguntas de número 22.
@@ -36,11 +38,33 @@ Versão especial do LOTER QUIZ só com perguntas da Disney e da Pixar: **962 per
 
 ## Pontos de atenção
 
-1. **Faltam 38 perguntas para 1.000.** Hoje são 962. Nada novo foi criado; se você quiser as 1.000, um próximo agente escreve só as que faltam.
-2. **Poucas difíceis em alguns temas.** O ideal é ter pelo menos 25 difíceis em cada tema. Faltam: Pixar 8, Músicas 7, Princesas 4, Clássicos 3 e Vilões 1 (23 no total). Não subi nenhuma média para difícil só para fechar a conta.
-3. **Duas versões de dublagem.** Alguns filmes antigos (como A Bela e a Fera e A Pequena Sereia) foram dublados de novo no Brasil. Usei os nomes da trilha brasileira que a Wikipédia registra; quem viu a versão antiga pode lembrar de outro nome.
-4. **Nomes que ficaram em inglês.** Alguns nomes não têm versão brasileira confirmada (Sir Hiss, Spirit of Adventure, Extrator de Gritos). Ficaram como estão no filme.
-5. **O jogo ainda não lê estes temas.** O arquivo está pronto e validado, mas o jogo de hoje só conhece os 6 temas normais. Nada foi publicado.
+1. **1.000 fechadas.** As 38 que faltavam vieram do lote 011 (50 candidatas escritas por outro agente e conferidas uma por uma por mim). Detalhes na seção "Conferência do lote 011" logo abaixo.
+2. **Difíceis por tema resolvidas.** Pixar, Músicas, Princesas, Clássicos e Vilões ficaram com 25 difíceis cada; Disney Moderno e Bichos com 28. Nenhuma média foi promovida só para fechar a conta.
+3. **Nome de Procurando Nemo para você olhar.** Uma pergunta antiga (lote 001, fbe674b8ca) responde "Guelra" para o líder dos peixes do aquário. A Wikipédia em português diz que "Guelra" é o nome da dublagem de Portugal e que no Brasil ele se chama **Gil**. Não mexi nela (as 962 ficaram como estavam); vale decidir se troca.
+4. **Duas versões de dublagem.** Alguns filmes antigos (como A Bela e a Fera e A Pequena Sereia) foram dublados de novo no Brasil. Usei os nomes da trilha brasileira que a Wikipédia registra; quem viu a versão antiga pode lembrar de outro nome.
+5. **Nomes que ficaram em inglês.** Alguns nomes não têm versão brasileira confirmada (Sir Hiss, Spirit of Adventure, Extrator de Gritos). Ficaram como estão no filme.
+6. **O jogo ainda não lê estes temas.** O arquivo está pronto e validado, mas o jogo de hoje só conhece os 6 temas normais. Nada foi publicado.
+
+## Conferência do lote 011 (as 38 que fecharam as 1.000)
+
+Das 50 candidatas, **38 entraram**, **12 ficaram de reserva** (boas, mas sobraram para a meta) e nenhuma foi jogada fora. Todas as 50 foram checadas na Wikipédia (87 consultas, português e inglês) e 3 em buscas na web.
+
+- **Entraram:** Pixar 8 difíceis, Músicas 7 difíceis, Princesas 4 difíceis, Clássicos 3 difíceis, Vilões 1 difícil e Disney Moderno e Bichos 10 fáceis, 3 médias e 2 difíceis.
+- **Corrigidas (2):** a colega polvo do Nemo se chama **Pearl** na dublagem brasileira ("Pérola" é o nome de Portugal); a canção da Mirabel em Encanto acontece **durante** a festa do dom do Antonio, não depois.
+- **Reserva (12), por quê:** Ilha do Hóquei (Divertida Mente) e a abertura de Aladdin eram mais médias que difíceis; Hannah (irmã do Sid) e James (pai da Tiana) repetiam o molde de outra pergunta do lote; a boneca Scrump da Lilo não teve o nome confirmado na dublagem brasileira; Jolly Roger, Toulouse, a música da Sra. Jumbo, surfe, cenouras, café da tia Cass e Gideon Grey sobraram para não carregar o mesmo filme ou porque já havia candidata melhor.
+
+**5 das novas difíceis** (a resposta certa está em **negrito**):
+
+1. (Pixar, Procurando Dory) Em Procurando Dory, quais são os nomes dos pais de Dory?
+   Marlin e Coral / Hank e Destiny / **Jenny e Charlie** / Bailey e Becky
+2. (Músicas, Mogli) Em Mogli - O Menino Lobo (1967), que aves cantam em quarteto para o menino sobre amizade?
+   Papagaios / Corvos / **Urubus** / Corujas
+3. (Princesas, Aladdin) Em Aladdin (1992), qual pretendente sai do palácio furioso, com a calça rasgada pelo bichinho de estimação da princesa?
+   Príncipe Ali / Príncipe Eric / **Príncipe Achmed** / Príncipe Naveen
+4. (Clássicos Disney, Peter Pan) Em Peter Pan (1953), qual é o nome do irmão caçula de Wendy, que vive agarrado a um ursinho de pelúcia?
+   João / Tiago / Pedro / **Miguel**
+5. (Vilões, Bernardo e Bianca) Em Bernardo e Bianca, quais são os nomes dos dois répteis de estimação de Madame Medusa?
+   Horácio e Gaspar / **Brutus e Nero** / Pedro e Juca / Agonia e Pânico
 
 ## 5 perguntas de cada tema (sorteio pela semente 20261107)
 

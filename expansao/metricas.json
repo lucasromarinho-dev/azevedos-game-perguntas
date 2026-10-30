@@ -9344,6 +9344,104 @@
           "errada defensavel": "b96c839849: errada Arlindo Rodrigues fazia parte da equipe de Pamplona no Salgueiro dos anos 1960 (defensável); trocada",
           "entrega a resposta": "2874b8305a: enunciado entrega a resposta: o estádio Villa Park leva o nome do Aston Villa"
         }
+      },
+      {
+        "lote": "079",
+        "conferente": "conferente-v8",
+        "conferidas": 91,
+        "conferidas_sem_mudanca": 82,
+        "com_mudanca": 9,
+        "corrigidas": 8,
+        "rebaixadas": 1,
+        "subidas": 1,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "entrega a resposta": 1
+        },
+        "perguntas_com_busca_web": 11,
+        "buscas_web": 11,
+        "suspeitas": {
+          "total": 13,
+          "mantidas": 13,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 14,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 23,
+            "corrigidas": 4,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 16,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          }
+        },
+        "descartes": [
+          "82a3f6bbcf: enunciado entrega a resposta ('rúgbi de sete' => 7); a versão com o rúgbi union já existe (056:604d5d)"
+        ],
+        "correcoes": [
+          "2ed4331e50: Fita de Möbius - fita de Möbius é conceito conhecido pelo nome; rebaixada",
+          "4d3861999c: A Hora do Faro - errada Programa do Faro Fino era título inventado com o mesmo 'Faro' da certa; trocada pelo programa anterior de Faro na Record, que não leva o nome dele",
+          "b1994d5c32: Parque Nacional das Emas - 'batizado com o nome de uma ave grande' entregava Emas (única ave entre as alternativas); tirado e subida para médio",
+          "92141b49ef: Crivo de Eratóstenes - errada Peneira de Atkin é um crivo real de primos (crivo = peneira), defensável; trocada",
+          "5559ce3b8c: Acesso - errada Rebaixo técnico era termo inventado; trocada",
+          "c7e203d9de: São Caetano - erradas São Bernardo e São Bernardo FC eram quase a mesma alternativa; trocada",
+          "c20e108402: Casamento às Cegas Brasil - errada Love Is Blind Japão tem o mesmo formato (casais que não se veem), defensável, e Too Hot to Handle é o próprio Brincando com Fogo (resposta de ae2975); trocadas",
+          "27f1870894: TV Fama - 'está no ar desde 1999' pode envelhecer; trocado por 'estreou em 1999'",
+          "d1d7ec7c82: Capinam - Waly Salomão chegou depois do movimento (pós-tropicalismo) e Capinam, baiano e letrista do disco-manifesto, também cabia no enunciado; reescrita com Capinam (parceria com Gil confirmada na web)"
+        ],
+        "rebaixamentos": [
+          "2ed4331e50: Fita de Möbius dificil -> medio"
+        ],
+        "subidas_lista": [
+          "b1994d5c32: Parque Nacional das Emas facil -> medio"
+        ],
+        "tipos_erro": {
+          "dificuldade": 1,
+          "entrega a resposta": 2,
+          "alternativa repetida": 2,
+          "errada defensavel": 2,
+          "alternativa fora do tipo": 1,
+          "fato que pode mudar": 1,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "dificuldade": "2ed4331e50: fita de Möbius é conceito conhecido pelo nome; rebaixada",
+          "entrega a resposta": "82a3f6bbcf: enunciado entrega a resposta ('rúgbi de sete' => 7); a versão com o rúgbi union já existe (056:604d5d)",
+          "alternativa repetida": "4d3861999c: errada Programa do Faro Fino era título inventado com o mesmo 'Faro' da certa; trocada pelo programa anterior de Faro na Record, que não leva o nome dele",
+          "errada defensavel": "92141b49ef: errada Peneira de Atkin é um crivo real de primos (crivo = peneira), defensável; trocada",
+          "alternativa fora do tipo": "5559ce3b8c: errada Rebaixo técnico era termo inventado; trocada",
+          "fato que pode mudar": "27f1870894: 'está no ar desde 1999' pode envelhecer; trocado por 'estreou em 1999'",
+          "fato impreciso": "d1d7ec7c82: Waly Salomão chegou depois do movimento (pós-tropicalismo) e Capinam, baiano e letrista do disco-manifesto, também cabia no enunciado; reescrita com Capinam (parceria com Gil confirmada na web)"
+        }
       }
     ],
     "rebaixamentos_r3": {

@@ -1218,9 +1218,9 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "id:2241eb881e",
+    "dup_ref": "banco:1006",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.7)"
+    "dup_regra": "resposta nova citada no texto antigo (5.7)"
   },
   {
     "id": "69902b2806",
@@ -1458,10 +1458,10 @@
     "subtema": "Literatura",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:2241eb881e",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.7)",
+    "dup_regra": null,
     "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
   },
   {

@@ -10109,5 +10109,154 @@
     "renderam": "domínios de internet, peças e sistemas do carro, raças de cães e gatos, festas do mundo e de fim de ano, arquitetura, cultura lusófona, gentílicos e nomes nativos de países, trajes típicos, moda, aviões e transportes, siglas de estados e DDD, códigos e números do dia a dia, hinos de clubes, signos, marcas que viraram nome de produto, significado de expressões populares, chás e plantas de casa, laboratório, contagens e bodas, Bíblia como cultura geral, obrigado e olá em outras línguas, tribos urbanas, Natal e Páscoa, carnaval de rua, poetas e versos, técnicos campeões do mundo, potências por esporte, palácios de governo, bairros do mundo, eletrodomésticos, cozinha elétrica e relógios",
     "saturaram": "esportes de nicho (rúgbi, críquete, curling, esgrima), automobilismo de outras categorias, esportes criados no Brasil, apelidos de clubes sul-americanos, circuitos da F1, cinema brasileiro, games de franquias variadas (95% já existia), museus do mundo, hormônios, açúcares e sabores, vitaminas, história da medicina, apelidos de reis, filosofia clássica, temperos (parte da planta), mal-estares do corpo, novelas mexicanas do SBT, companheiros da Disney, atletas brasileiros de segunda linha, torcidas organizadas, Japão feudal, sete maravilhas, Ásia e África na história",
     "gargalo": "Fáceis de Esportes, História, Ciências e Tecnologia continuaram o gargalo; renderam vocabulário do dia a dia (gíria da tabela, posições, dribles, pelada), datas e calendário, Bíblia como cultura, marcas e aparelhos de casa. O descarte subiu nos lotes 061 a 065 (14% a 19%) porque o banco já cobre quase todo o vocabulário fácil."
+  },
+  "resumo_r7": {
+    "_leia": "Rodada 7 da meta 3x (lotes 066 a 075, branch expansao-r7), gerada em paralelo com a rodada 6. Status gerada: falta conferir. Plano em plano-r7.json (mesma composição das rodadas 3 a 6).",
+    "data": "2026-10-30",
+    "branch": "expansao-r7",
+    "validas": 995,
+    "descartadas": 101,
+    "escritas": 1096,
+    "taxa_descarte": 0.092,
+    "descartadas_por_sobreposicao_com_lotes_novos": 48,
+    "dificuldade": {
+      "facil": 361,
+      "medio": 356,
+      "dificil": 278
+    },
+    "por_categoria": {
+      "Geografia": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "História": {
+        "facil": 45,
+        "medio": 50,
+        "dificil": 45
+      },
+      "Ciências": {
+        "facil": 50,
+        "medio": 45,
+        "dificil": 35
+      },
+      "Esportes": {
+        "facil": 62,
+        "medio": 66,
+        "dificil": 53
+      },
+      "Entretenimento": {
+        "facil": 95,
+        "medio": 95,
+        "dificil": 64
+      },
+      "Tecnologia": {
+        "facil": 59,
+        "medio": 55,
+        "dificil": 46
+      }
+    },
+    "lotes": [
+      {
+        "lote": "066",
+        "validas": 107,
+        "descartadas": 33
+      },
+      {
+        "lote": "067",
+        "validas": 93,
+        "descartadas": 17
+      },
+      {
+        "lote": "068",
+        "validas": 107,
+        "descartadas": 15
+      },
+      {
+        "lote": "069",
+        "validas": 93,
+        "descartadas": 7
+      },
+      {
+        "lote": "070",
+        "validas": 106,
+        "descartadas": 7
+      },
+      {
+        "lote": "071",
+        "validas": 93,
+        "descartadas": 4
+      },
+      {
+        "lote": "072",
+        "validas": 107,
+        "descartadas": 5
+      },
+      {
+        "lote": "073",
+        "validas": 93,
+        "descartadas": 7
+      },
+      {
+        "lote": "074",
+        "validas": 106,
+        "descartadas": 3
+      },
+      {
+        "lote": "075",
+        "validas": 90,
+        "descartadas": 3
+      }
+    ],
+    "buscas_web": 3,
+    "fatos_confirmados_na_web": [
+      "Dimba artilheiro do Brasileirão de 2003 (31 gols)",
+      "Topper fez as camisas da seleção em 1982",
+      "Bulgária adotou o euro em 1º de janeiro de 2026"
+    ],
+    "renderam": [
+      "falsos cognatos e expressões do inglês",
+      "francês e italiano no português",
+      "saudações, agradecimentos e brindes pelo mundo",
+      "coquetéis, queijos, vinhos e cervejas",
+      "epônimos e origem histórica de expressões",
+      "trabalho, direitos e finanças do dia a dia no Brasil",
+      "economistas e pensadores brasileiros",
+      "ONU e Nobel da Paz",
+      "criações e cultivos (-culturas) e ciências (-logias)",
+      "dieta dos animais",
+      "Excel, Word, e-mail, SQL e Git",
+      "máquinas pesadas, obra e construção",
+      "fotógrafos, escultura, teatro brasileiro",
+      "literatura latino-americana, brasileira e estrangeira contemporânea",
+      "trilhas sonoras de cinema",
+      "Shakespeare e jogos de tabuleiro modernos",
+      "mágica e dublagem",
+      "termos de livros e de cinema (fáceis)",
+      "sedes de eventos esportivos de 2024 em diante",
+      "goleiros, técnicos estrangeiros e arbitragem"
+    ],
+    "saturaram": [
+      "hormônios",
+      "prêmios de cinema e livros",
+      "jogos de cartas clássicos",
+      "esportes de inverno, turfe, natação, xadrez",
+      "vôlei de praia e academia (na sonda da rodada 7)",
+      "tênis brasileiro",
+      "dentes, sono, olhos, digestão",
+      "pedras preciosas",
+      "aparelhos médicos",
+      "cinema brasileiro antigo",
+      "reprodução animal",
+      "clubes formadores e lances do futebol",
+      "IA e computação em nuvem",
+      "criptomoedas, microcomputadores e telecom",
+      "monarquias, línguas inventadas e escritas",
+      "guerras menos lembradas",
+      "técnicos campeões do mundo e torneios de tênis e golfe"
+    ],
+    "gargalo": "Fáceis de Esportes e de Tecnologia e difíceis de Esportes. O lote 075 ficou com 90 (faltaram 2 fáceis e 4 difíceis de Esportes); 070 e 074 com 106.",
+    "sobreposicao_r6": "A rodada 6 escolheu os mesmos microtemas sugeridos (dança, circo, tirinhas, laboratório, bairros, técnicos campeões, olimpíadas, Kentucky Derby, Victoria). A cada merge as perguntas da r7 que repetiam fato da r6 foram descartadas e repostas; antes de montar cada lote as respostas foram cruzadas com o checkout da r6, inclusive com o trabalho não commitado. Ver motivo das descartadas.",
+    "suspeitas_revisadas": "Válidas com dup certa que eram falso positivo (mesma resposta ou termo, fato diferente) foram mantidas com dup suspeita e campo dup_revisado."
   }
 }

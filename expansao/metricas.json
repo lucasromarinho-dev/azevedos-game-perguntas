@@ -5148,6 +5148,98 @@
         "espelhos_r5": [
           "5e0e5c2465 (Capitão Gancho, medo do crocodilo) x 055:640432e227 (Sr. Smee, \"imediato do Capitão Gancho\"): o enunciado do 055 cita a resposta deste; mantida aqui por ser o lote menor"
         ]
+      },
+      {
+        "lote": "052",
+        "conferente": "conferente-v5",
+        "conferidas_sem_mudanca": 97,
+        "corrigidas": 2,
+        "rebaixadas": 5,
+        "subidas": 1,
+        "descartadas": 3,
+        "motivos_descarte": {
+          "espelho": 2,
+          "duplicada": 1
+        },
+        "perguntas_com_busca_web": 28,
+        "buscas_web": 20,
+        "suspeitas": {
+          "total": 15,
+          "mantidas": 14,
+          "reescritas": 0,
+          "descartadas": 1
+        },
+        "por_categoria": {
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 2,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 19,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Tecnologia": {
+            "conferidas": 16,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 1,
+            "rebaixadas": 3,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "ffdb142301: espelho: id:fff0a58919 (lote 040, pasta de soja fermentada base de sopa japonesa => Missô); a resposta Missoshiru (sopa de missô) entrega a outra",
+          "fc746ae9fd: espelho: banco:2786 (Qual clube argentino tem o apelido de \"Xeneize\"? => Boca Juniors) é o inverso do mesmo fato",
+          "8a2bf84509: duplicada: mesmo fato que banco:2053 (Qual instrumento do carro mostra a distância total percorrida? => Hodômetro)"
+        ],
+        "correcoes": [
+          "b8ccdf9f56: enunciado citava \"Isaac Singer\" e entregava a resposta Singer; tirado o nome do fundador",
+          "d115cc8b72: \"Pedra Sheikah\" não é o nome usado em português (Wikipedia PT: \"Tábua Sheikah\"; original Sheikah Slate); resposta trocada para Tábua Sheikah"
+        ],
+        "rebaixamentos": [
+          "d75a62df7a: facil -> medio (subida)",
+          "97955af638: dificil -> medio",
+          "28ea9afd72: dificil -> medio",
+          "acc7d5d90c: dificil -> medio",
+          "844c845d3a: dificil -> medio"
+        ],
+        "tipos_erro": {
+          "errada defensavel": 0,
+          "entrega a resposta": 1,
+          "fato impreciso": 1,
+          "espelho/duplicada": 3,
+          "dificuldade": 5,
+          "outro": 0
+        },
+        "exemplos_erro": {
+          "entrega a resposta": "b8ccdf9f56: marca de máquina de costura -> enunciado citava Isaac Singer, resposta Singer",
+          "fato impreciso": "d115cc8b72: tablet de Link em BotW -> Pedra Sheikah não é o nome em português (Tábua Sheikah)",
+          "espelho/duplicada": "8a2bf84509: instrumento que marca a quilometragem -> mesmo fato que banco:2053 (Hodômetro)",
+          "dificuldade": "97955af638: imperativo categórico de Kant -> conceito conhecido pelo nome, dificil -> medio"
+        },
+        "espelhos_r5": [
+          "7b51fa2b66 (Gondwana, lote 052) x 5fce3834cb (Laurásia, lote 053): par supercontinente sul/norte, mantida a do 052; a do 053 deve sair"
+        ]
       }
     ],
     "rebaixamentos_r3": {

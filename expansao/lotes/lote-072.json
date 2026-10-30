@@ -7,17 +7,19 @@
     "resposta": "Carte blanche",
     "alternativas": [
       "Carte blanche",
-      "Savoir-faire",
+      "Raison d'être",
       "Carte de visite",
       "Laissez-passer"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Savoir-faire era a resposta de 074:82b7b6, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "48060ec78d",
@@ -32,12 +34,13 @@
       "Pêssego"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a4b77d73f8",
@@ -52,12 +55,13 @@
       "Grand Place"
     ],
     "subtema": "Cidades e monumentos do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "64fe054ab9",
@@ -68,21 +72,23 @@
     "alternativas": [
       "Kuruş",
       "Halala",
-      "Paisa",
-      "Copeque"
+      "Fils",
+      "Satang"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Paisa e Copeque eram respostas de 075:13afc6 (respostas cruzadas) e 070:b743f2, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7dc4e63093",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual palavra francesa resume a combinação de solo, clima e lugar que dá identidade a um vinho?",
     "resposta": "Terroir",
     "alternativas": [
@@ -92,12 +98,14 @@
       "Cuvée"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1064",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.8)",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7c35daa3af",
@@ -112,12 +120,13 @@
       "Lei da Pureza"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f3ac026e4f",
@@ -127,17 +136,20 @@
     "resposta": "Milton Santos",
     "alternativas": [
       "Milton Santos",
-      "Josué de Castro",
-      "Darcy Ribeiro",
+      "Manuel Correia de Andrade",
+      "Aroldo de Azevedo",
       "Aziz Ab'Sáber"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Josué de Castro e Darcy Ribeiro eram respostas de 069:f563c6 (respostas cruzadas) e 070:a3a7c5; trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "87f8027237",
@@ -152,12 +164,13 @@
       "Nadadeira dorsal"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8d9ed82d0b",
@@ -166,18 +179,20 @@
     "pergunta": "Como se chama a criação de rãs?",
     "resposta": "Ranicultura",
     "alternativas": [
-      "Cunicultura",
+      "Estrutiocultura",
       "Ranicultura",
-      "Ostreicultura",
-      "Carcinicultura"
+      "Mitilicultura",
+      "Helicicultura"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 067:cbf020 (respostas cruzadas), 070:7ebd2c e 067:43152d; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e30e1a3d52",
@@ -186,18 +201,20 @@
     "pergunta": "Qual ramo da botânica estuda as árvores?",
     "resposta": "Dendrologia",
     "alternativas": [
-      "Micologia",
+      "Palinologia",
       "Dendrologia",
       "Briologia",
       "Pteridologia"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Micologia era a resposta de 067:1610ee, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6945334cc0",
@@ -207,17 +224,19 @@
     "resposta": "Dessecador",
     "alternativas": [
       "Dessecador",
-      "Almofariz",
-      "Erlenmeyer",
+      "Vidro de relógio",
+      "Balão volumétrico",
       "Cadinho"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Almofariz e Erlenmeyer eram respostas de 071:5ae557 (respostas cruzadas) e 062:5d7366; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7181e3cb57",
@@ -232,12 +251,13 @@
       "Kelvin Kiptum"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "396e64419a",
@@ -248,16 +268,18 @@
     "alternativas": [
       "Guilherme Briggs",
       "Isaac Bardavid",
-      "Wendel Bezerra",
-      "Orlando Drummond"
+      "Ricardo Juarez",
+      "Dário de Castro"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Wendel Bezerra e Orlando Drummond eram respostas de 070:8ec412 e 071:043aee, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d0ed36764b",
@@ -272,12 +294,13 @@
       "Quentão"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "59b3eb7f38",
@@ -288,16 +311,18 @@
     "alternativas": [
       "Centavo",
       "Tostão",
-      "Pêni",
+      "Vintém",
       "Cêntimo"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Pêni era a resposta de 070:855e1d (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dd5bb02491",
@@ -308,16 +333,18 @@
     "alternativas": [
       "Pavlova",
       "Floresta Negra",
-      "Suspiro",
-      "Merengue"
+      "Banoffee",
+      "Tiramisu"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Suspiro e Merengue são a própria base da sobremesa (o enunciado diz 'sobremesa de suspiro'); trocadas por sobremesas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8f6bb12c3f",
@@ -332,12 +359,13 @@
       "Portugal"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "80291cf855",
@@ -347,17 +375,19 @@
     "resposta": "Vis-à-vis",
     "alternativas": [
       "Vis-à-vis",
-      "Rendez-vous",
-      "Savoir-faire",
+      "Fait divers",
+      "Tour de force",
       "Déjà vu"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:9279",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "erradas Rendez-vous e Savoir-faire eram respostas de 069:644cfb e 074:82b7b6 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f3408abcf9",
@@ -372,12 +402,13 @@
       "Hudson"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f94afae73f",
@@ -392,12 +423,13 @@
       "Amstel"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1c3d681a11",
@@ -412,12 +444,13 @@
       "Boyne"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ae431e94bb",
@@ -427,17 +460,19 @@
     "resposta": "Fordismo",
     "alternativas": [
       "Fordismo",
-      "Taylorismo",
-      "Toyotismo",
+      "Stakhanovismo",
+      "Volvismo",
       "Keynesianismo"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Taylorismo e Toyotismo eram respostas de 073:344eb7 e f22e2 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c23b669ef9",
@@ -447,17 +482,19 @@
     "resposta": "Bourbon",
     "alternativas": [
       "Orléans",
-      "Capeto",
+      "Carolíngia",
       "Bourbon",
       "Valois"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Capeto é defensável (os Bourbon são um ramo da dinastia capetiana); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f22e239a1b",
@@ -467,17 +504,19 @@
     "resposta": "Toyotismo",
     "alternativas": [
       "Kaizen",
-      "Taylorismo",
+      "Stakhanovismo",
       "Toyotismo",
-      "Fordismo"
+      "Volvismo"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Taylorismo e Fordismo eram respostas de 073:344eb7 e ae431 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "442e142fe5",
@@ -492,12 +531,13 @@
       "Ludistas"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8408 ('Como ficaram conhecidos os operários ingleses que quebravam as máquinas...' => Luditas); mesmo fato, grafia diferente (Ludistas)",
     "dup": "suspeita",
     "dup_ref": "banco:8408",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 21.7)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 21.7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a0a6235925",
@@ -508,16 +548,18 @@
     "alternativas": [
       "Lancaster",
       "Windsor",
-      "Tudor",
+      "Hanôver",
       "Stuart"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Tudor era a resposta de banco:4861, que tem Windsor entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fccbb5b048",
@@ -532,12 +574,13 @@
       "Watergate"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "496f8e858c",
@@ -552,12 +595,13 @@
       "Virginia Woolf"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c6eeedbd0f",
@@ -566,18 +610,20 @@
     "pergunta": "Qual espanhol foi o primeiro europeu a descer o Rio Amazonas, em 1542?",
     "resposta": "Francisco de Orellana",
     "alternativas": [
-      "Pedro Teixeira",
+      "Pedro de Ursúa",
       "Francisco de Orellana",
       "Francisco Pizarro",
       "Vicente Pinzón"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Pedro Teixeira era a resposta de 5dadd (mesmo lote), que tinha Orellana entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b024ef0af7",
@@ -592,12 +638,13 @@
       "Trilha de Oregon"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "26d8ab2614",
@@ -612,12 +659,13 @@
       "Darwin"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1ee361ec01",
@@ -632,12 +680,13 @@
       "Gengis Khan"
     ],
     "subtema": "Ásia, África e Oriente Médio",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bb96ef2228",
@@ -652,12 +701,13 @@
       "Gaspar Correia"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5dadd99186",
@@ -669,15 +719,18 @@
       "Bartolomeu Bueno",
       "Pedro Teixeira",
       "Raposo Tavares",
-      "Francisco de Orellana"
+      "Fernão Dias Paes"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Francisco de Orellana era a resposta de c6eee (mesmo lote); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "d32a57e77a",
@@ -687,17 +740,20 @@
     "resposta": "Cabeza de Vaca",
     "alternativas": [
       "Juan Díaz de Solís",
-      "Francisco de Orellana",
+      "Hernando de Soto",
       "Pedro de Mendoza",
       "Cabeza de Vaca"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Francisco de Orellana era a resposta de c6eee (mesmo lote, também em 1542); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "fed835029a",
@@ -712,12 +768,13 @@
       "Eclipse"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "992c7c2646",
@@ -729,15 +786,17 @@
       "Matcha",
       "Chá-mate",
       "Kombucha",
-      "Kefir"
+      "Lassi"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Kefir era a resposta de 04d8e (mesmo lote), que tinha Kombucha entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "04d8e24c2c",
@@ -749,15 +808,17 @@
       "Kefir",
       "Coalhada",
       "Leite condensado",
-      "Kombucha"
+      "Ayran"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Kombucha era a resposta de 992c7 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5638a2d826",
@@ -772,12 +833,13 @@
       "Reflexo de Moro"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bbc80e4f83",
@@ -786,18 +848,20 @@
     "pergunta": "Como se chama o brilho no escuro de objetos que antes ficaram expostos à luz, como as estrelinhas de teto?",
     "resposta": "Fosforescência",
     "alternativas": [
-      "Bioluminescência",
+      "Iridescência",
       "Incandescência",
       "Refração",
       "Fosforescência"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Bioluminescência era a resposta de banco:4764, que tem Fosforescência entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "727d831db9",
@@ -812,12 +876,13 @@
       "Salmonelas"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1982708144",
@@ -832,12 +897,13 @@
       "Velocidade terminal"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "50dd26dba6",
@@ -847,37 +913,42 @@
     "resposta": "Timbre",
     "alternativas": [
       "Altura",
-      "Frequência",
+      "Reverberação",
       "Volume",
       "Timbre"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Frequência era a resposta de banco:1971, que tem Timbre entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "de7cc6ed5e",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama a aurora que acontece nos céus do hemisfério sul?",
     "resposta": "Aurora austral",
     "alternativas": [
-      "Aurora boreal",
+      "Nuvem noctilucente",
       "Aurora austral",
       "Luz zodiacal",
       "Fogo de santelmo"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "errada Aurora boreal era a resposta de banco:4803, que tem Aurora austral entre as erradas (respostas cruzadas); trocada; 'austral' (sul) se deduz, rebaixada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6945f5b2dc",
@@ -886,18 +957,20 @@
     "pergunta": "Como se chama o rápido lampejo esverdeado que às vezes surge no último instante do pôr do sol?",
     "resposta": "Raio verde",
     "alternativas": [
-      "Halo",
+      "Coroa solar",
       "Glória",
       "Raio verde",
       "Arco de fogo"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Halo era a resposta de fed83 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7bdec6a4d2",
@@ -908,17 +981,19 @@
     "alternativas": [
       "Zico",
       "Leonardo",
-      "Falcão",
+      "Careca",
       "Toninho Cerezo"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2978",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.2, 61% do fato)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Falcão era a resposta de banco:2756, que tem Zico entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5bbe65eeab",
@@ -933,12 +1008,13 @@
       "Osaka"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c73776bb17",
@@ -948,17 +1024,19 @@
     "resposta": "Pasadena",
     "alternativas": [
       "Nova York",
-      "Los Angeles",
+      "San Diego",
       "Dallas",
       "Pasadena"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Los Angeles é defensável (Pasadena fica na região de Los Angeles e a final é muitas vezes citada como 'em Los Angeles'); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4ea86bbe9f",
@@ -970,15 +1048,18 @@
       "Lúcio",
       "Anderson Polga",
       "Edmílson",
-      "Roque Júnior"
+      "Cris"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Roque Júnior era a resposta de banco:7846, que tem Edmílson entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "3c78442e61",
@@ -990,15 +1071,17 @@
       "Carlos Alberto Parreira",
       "Leonardo",
       "Vanderlei Luxemburgo",
-      "Luiz Felipe Scolari"
+      "Abel Braga"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Luiz Felipe Scolari era a resposta de banco:2660, que tem Vanderlei Luxemburgo entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "513c29723f",
@@ -1007,18 +1090,20 @@
     "pergunta": "Qual ponta-esquerda da seleção de 1982 tinha um chute fortíssimo de canhota?",
     "resposta": "Éder",
     "alternativas": [
-      "Zico",
+      "Sócrates",
       "Dirceu",
       "Éder",
       "Paulo Isidoro"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Zico era a resposta de 7bdec (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "592afdcd11",
@@ -1033,13 +1118,14 @@
       "Oscar"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2655",
     "recente": false,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d187cb2b3a",
@@ -1049,17 +1135,19 @@
     "resposta": "Guadalajara",
     "alternativas": [
       "Puebla",
-      "Monterrey",
+      "León",
       "Toluca",
       "Guadalajara"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Monterrey era a resposta de banco:6702, que tem Guadalajara entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "540faf6c54",
@@ -1071,15 +1159,17 @@
       "Mauro Silva",
       "Zinho",
       "Raí",
-      "Mazinho"
+      "Doriva"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Mazinho era a resposta de banco:6130, que tem Mauro Silva entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ec7e67f07c",
@@ -1094,13 +1184,14 @@
       "Reinaldo"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3108",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.9, sim 0.2)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d0bfb8606b",
@@ -1115,12 +1206,13 @@
       "Marco Antônio"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c1b8b64130",
@@ -1135,12 +1227,13 @@
       "Star"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1096398365",
@@ -1149,18 +1242,20 @@
     "pergunta": "Qual brasileira competiu em Olimpíadas de Verão no mountain bike e de Inverno no esqui cross-country?",
     "resposta": "Jaqueline Mourão",
     "alternativas": [
-      "Isabel Clark",
+      "Sabrina Cass",
       "Josi Santos",
       "Maya Harrisson",
       "Jaqueline Mourão"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Isabel Clark era a resposta de 071:e78af2 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4487e72b61",
@@ -1175,12 +1270,13 @@
       "Brickyard"
     ],
     "subtema": "F1 e automobilismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "29021f1110",
@@ -1195,12 +1291,13 @@
       "Emmy"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "be8c62e246",
@@ -1215,12 +1312,13 @@
       "Os Kobras"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1006",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.7)"
+    "dup_regra": "resposta nova citada no texto antigo (5.7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "69902b2806",
@@ -1235,12 +1333,13 @@
       "MON"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f6ffee9cdd",
@@ -1255,13 +1354,14 @@
       "Museu da Luz"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:916",
     "recente": false,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fa3e7981f9",
@@ -1276,12 +1376,13 @@
       "Horácio"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "128a18f677",
@@ -1291,17 +1392,19 @@
     "resposta": "Rock progressivo",
     "alternativas": [
       "Grunge",
-      "Glam rock",
+      "Hard rock",
       "Rock progressivo",
       "Punk"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Glam rock era a resposta de 069:87b932 (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "102fcea1c1",
@@ -1313,15 +1416,17 @@
       "Tiësto",
       "Martin Garrix",
       "Armin van Buuren",
-      "Avicii"
+      "Hardwell"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Avicii era a resposta de banco:3424, que tem Martin Garrix entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "620061466c",
@@ -1336,12 +1441,13 @@
       "Take On Me"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a02d8eb3ac",
@@ -1356,12 +1462,14 @@
       "1990"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "c3e72c1bf7",
@@ -1376,12 +1484,14 @@
       "Astrid Fontenelle"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "16b37dc253",
@@ -1390,18 +1500,20 @@
     "pergunta": "Qual escritor baiano escreveu \"Torto Arado\", vencedor do Jabuti e do Oceanos?",
     "resposta": "Itamar Vieira Junior",
     "alternativas": [
-      "Jeferson Tenório",
-      "Milton Hatoum",
+      "Michel Laub",
+      "Bernardo Carvalho",
       "Itamar Vieira Junior",
-      "Ferréz"
+      "Luiz Ruffato"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de f5a81, fd306 e bdf91 (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6be980ae3c",
@@ -1410,18 +1522,20 @@
     "pergunta": "Qual escritora mineira escreveu \"Ponciá Vicêncio\" e criou o termo \"escrevivência\"?",
     "resposta": "Conceição Evaristo",
     "alternativas": [
-      "Carolina Maria de Jesus",
-      "Carla Madeira",
+      "Ana Maria Gonçalves",
+      "Lya Luft",
       "Conceição Evaristo",
       "Djamila Ribeiro"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Carolina Maria de Jesus e Carla Madeira eram respostas de banco:5961 e 24a4a (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "24a4ace1fd",
@@ -1430,18 +1544,20 @@
     "pergunta": "Qual escritora mineira escreveu o best-seller \"Tudo É Rio\"?",
     "resposta": "Carla Madeira",
     "alternativas": [
-      "Conceição Evaristo",
+      "Adriana Lisboa",
       "Carla Madeira",
       "Martha Medeiros",
       "Thalita Rebouças"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Conceição Evaristo era a resposta de 6be98 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fd306b7b49",
@@ -1451,18 +1567,20 @@
     "resposta": "Milton Hatoum",
     "alternativas": [
       "Márcio Souza",
-      "Daniel Galera",
-      "Itamar Vieira Junior",
+      "Cristovão Tezza",
+      "Raduan Nassar",
       "Milton Hatoum"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "erradas Daniel Galera e Itamar Vieira Junior eram respostas de c4419 e 16b37 (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dd50e7ea05",
@@ -1472,17 +1590,19 @@
     "resposta": "Paulo Lins",
     "alternativas": [
       "Marçal Aquino",
-      "Ferréz",
+      "João Antônio",
       "Paulo Lins",
       "Rubem Fonseca"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Ferréz era a resposta de bdf91 (mesmo lote), que tinha Paulo Lins entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c97001c8cf",
@@ -1497,12 +1617,13 @@
       "Di Cavalcanti"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e5247702a7",
@@ -1533,16 +1654,19 @@
     "alternativas": [
       "Jeferson Tenório",
       "Paulo Scott",
-      "Daniel Galera",
-      "Itamar Vieira Junior"
+      "Marcelo Backes",
+      "Luiz Ruffato"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Daniel Galera e Itamar Vieira Junior eram respostas de c4419 e 16b37 (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "bdf91289a2",
@@ -1554,15 +1678,17 @@
       "Sérgio Vaz",
       "Ferréz",
       "Mano Brown",
-      "Paulo Lins"
+      "Alessandro Buzo"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Paulo Lins era a resposta de dd50e (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "907867cca9",
@@ -1573,16 +1699,18 @@
     "alternativas": [
       "Raphael Montes",
       "Rubem Fonseca",
-      "Daniel Galera",
+      "Patrícia Melo",
       "Marçal Aquino"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Daniel Galera era a resposta de c4419 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "956435de45",
@@ -1597,12 +1725,13 @@
       "Djanira"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "50a6e1a3ee",
@@ -1617,12 +1746,13 @@
       "Fudêncio"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c4419c307d",
@@ -1632,17 +1762,19 @@
     "resposta": "Daniel Galera",
     "alternativas": [
       "Daniel Galera",
-      "Jeferson Tenório",
+      "Carol Bensimon",
       "Paulo Scott",
       "Michel Laub"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Jeferson Tenório era a resposta de f5a81 (mesmo lote, respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "76ac0727fa",
@@ -1651,18 +1783,20 @@
     "pergunta": "Qual túnel ferroviário submarino liga a Inglaterra à França desde 1994?",
     "resposta": "Eurotúnel",
     "alternativas": [
-      "Seikan",
-      "Túnel de São Gotardo",
+      "Túnel de Lötschberg",
+      "Túnel de Laerdal",
       "Túnel do Monte Branco",
       "Eurotúnel"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Seikan e Túnel de São Gotardo eram respostas de 34f7f e e840e (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c93d493e9f",
@@ -1677,12 +1811,13 @@
       "Escada de incêndio"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a66997dbc0",
@@ -1717,12 +1852,13 @@
       "Código de barras"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "edb593456a",
@@ -1737,12 +1873,13 @@
       "Open source"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "339febbcb3",
@@ -1777,12 +1914,14 @@
       "Celta"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "346a07a695",
@@ -1792,17 +1931,19 @@
     "resposta": "KC-390",
     "alternativas": [
       "E-195",
-      "Bandeirante",
+      "Xingu",
       "KC-390",
-      "Super Tucano"
+      "AMX"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Bandeirante e Super Tucano eram respostas de b81c0 e 94b53 (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "94b53fb7c8",
@@ -1811,18 +1952,20 @@
     "pergunta": "Qual avião de ataque leve da Embraer, com hélice, é usado por várias forças aéreas?",
     "resposta": "Super Tucano",
     "alternativas": [
-      "Bandeirante",
-      "KC-390",
+      "Ipanema",
+      "AMX",
       "Xavante",
       "Super Tucano"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Bandeirante e KC-390 eram respostas de b81c0 e 346a0 (mesmo lote, respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b0b9c705e5",
@@ -1837,12 +1980,13 @@
       "Minhocão"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e68b0d570d",
@@ -1851,18 +1995,20 @@
     "pergunta": "Como se chama a energia tirada do bagaço de cana, da lenha e de outros restos orgânicos?",
     "resposta": "Biomassa",
     "alternativas": [
-      "Maremotriz",
+      "Eólica",
       "Nuclear",
       "Geotérmica",
       "Biomassa"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Maremotriz era a resposta de banco:2030, que tem Biomassa entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "abaddc89f1",
@@ -1877,12 +2023,13 @@
       "Potência"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b81c08d702",
@@ -1897,12 +2044,13 @@
       "Bandeirante"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e840eae70f",
@@ -1911,18 +2059,20 @@
     "pergunta": "Qual é o túnel ferroviário mais longo do mundo, inaugurado em 2016 nos Alpes suíços?",
     "resposta": "Túnel de São Gotardo",
     "alternativas": [
-      "Eurotúnel",
-      "Seikan",
+      "Túnel de Lötschberg",
+      "Túnel de Laerdal",
       "Túnel do Simplon",
       "Túnel de São Gotardo"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Eurotúnel e Seikan eram respostas de 76ac0 e 34f7f (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "34f7f64e4b",
@@ -1931,18 +2081,20 @@
     "pergunta": "Qual túnel submarino liga as ilhas japonesas de Honshu e Hokkaido?",
     "resposta": "Seikan",
     "alternativas": [
-      "Eurotúnel",
+      "Túnel de Marmaray",
       "Aqualine",
       "Seikan",
       "Kanmon"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Eurotúnel era a resposta de 76ac0 (mesmo lote, respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7db7d9363e",
@@ -1957,12 +2109,13 @@
       "Fork"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "65c61a7e33",
@@ -1977,12 +2130,13 @@
       "Powerbank"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4f68580df5",
@@ -1997,12 +2151,13 @@
       "Argélia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:266",
     "recente": true,
-    "dup_regra": "resposta nova citada no texto antigo (8.2)"
+    "dup_regra": "resposta nova citada no texto antigo (8.2)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b670146c5f",
@@ -2017,12 +2172,13 @@
       "Austrália"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a8b8e812a0",
@@ -2037,12 +2193,13 @@
       "Chicago"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3176",
     "recente": true,
-    "dup_regra": "resposta nova citada no texto antigo (6.9)"
+    "dup_regra": "resposta nova citada no texto antigo (6.9)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d39110c7b5",
@@ -2057,12 +2214,13 @@
       "Brasil"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "16235a0089",
@@ -2073,16 +2231,18 @@
     "alternativas": [
       "2005",
       "1999",
-      "2008",
-      "2002"
+      "2004",
+      "2003"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas 2008 e 2002 eram respostas de 073:6f92f2 e 071:62f764, do mesmo molde (ano do rebaixamento); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "16df52e795",
@@ -2097,12 +2257,13 @@
       "Chopin"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f89a54d196",
@@ -2113,16 +2274,18 @@
     "alternativas": [
       "Equilibrista",
       "Ilusionista",
-      "Malabarista",
-      "Contorcionista"
+      "Palhaço",
+      "Trapezista"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Malabarista e Contorcionista eram respostas de 066:a39e19 (respostas cruzadas) e 066:beb9c3; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dac6ebc671",
@@ -2132,17 +2295,19 @@
     "resposta": "Thrash metal",
     "alternativas": [
       "Grunge",
-      "Glam rock",
+      "Doom metal",
       "Thrash metal",
-      "Rock progressivo"
+      "Hard rock"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Glam rock e Rock progressivo eram respostas de 069:87b932 e 128a1 (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "fc403a13e1",
@@ -2151,18 +2316,20 @@
     "pergunta": "Qual dramaturgo, conhecido como Vianinha, escreveu \"Rasga Coração\"?",
     "resposta": "Oduvaldo Vianna Filho",
     "alternativas": [
-      "Gianfrancesco Guarnieri",
+      "Consuelo de Castro",
       "Dias Gomes",
-      "Plínio Marcos",
+      "Lauro César Muniz",
       "Oduvaldo Vianna Filho"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Gianfrancesco Guarnieri e Plínio Marcos eram respostas de 070:ac9558 (respostas cruzadas) e 070:7bb4bd; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "eac89aa87b",
@@ -2174,15 +2341,17 @@
       "Basculante",
       "Baú",
       "Bitrem",
-      "Cegonha"
+      "Munck"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Cegonha era a resposta de 070:9e0e2d (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a14914f684",
@@ -2237,11 +2406,12 @@
       "Fita isolante"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   }
 ]

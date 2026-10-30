@@ -2122,13 +2122,13 @@
     {
       "lote": "057",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 100,
+      "escritas": 101,
       "validas": 93,
-      "descartadas": 7,
-      "taxa_descarte": 0.07,
-      "caracteres": 12773,
-      "tokens_aprox": 3649,
-      "rodadas_de_reposicao": 2,
+      "descartadas": 8,
+      "taxa_descarte": 0.08,
+      "caracteres": 12873,
+      "tokens_aprox": 3678,
+      "rodadas_de_reposicao": 3,
       "candidatas_usadas": [
         "r6-057.txt",
         "r6-057b.txt",
@@ -2150,15 +2150,15 @@
         "candidatas_por_valida": 1.89
       },
       "perguntas": {
-        "escritas": 100,
+        "escritas": 101,
         "validas": 93,
-        "descartadas_detector": 7,
-        "descarte": 0.07,
-        "tokens_aprox": 3649
+        "descartadas_detector": 8,
+        "descarte": 0.08,
+        "tokens_aprox": 3678
       },
       "tokens_por_valida": {
         "listas": 30,
-        "perguntas": 39,
+        "perguntas": 40,
         "total": 69
       }
     },
@@ -2465,6 +2465,45 @@
         "listas": 31,
         "perguntas": 48,
         "total": 79
+      }
+    },
+    {
+      "lote": "065",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 115,
+      "validas": 93,
+      "descartadas": 22,
+      "taxa_descarte": 0.19,
+      "caracteres": 15863,
+      "tokens_aprox": 4532,
+      "rodadas_de_reposicao": 5,
+      "candidatas_usadas": [
+        "r6-065.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r6-065.txt"
+        ],
+        "linhas": 56,
+        "existem": 7,
+        "risco": 4,
+        "tokens_aprox": 723,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.13,
+        "candidatas_por_valida": 0.6
+      },
+      "perguntas": {
+        "escritas": 115,
+        "validas": 93,
+        "descartadas_detector": 22,
+        "descarte": 0.19,
+        "tokens_aprox": 4532
+      },
+      "tokens_por_valida": {
+        "listas": 8,
+        "perguntas": 49,
+        "total": 57
       }
     }
   ],
@@ -7779,6 +7818,14 @@
       "livres": 19,
       "caracteres": 1659,
       "tokens_aprox": 474
+    },
+    "r6-065.txt": {
+      "linhas": 56,
+      "existem": 7,
+      "risco": 4,
+      "livres": 45,
+      "caracteres": 2531,
+      "tokens_aprox": 723
     }
   },
   "rodada3": {

@@ -10172,6 +10172,23 @@
     "saturaram": "esportes de nicho (rúgbi, críquete, curling, esgrima), automobilismo de outras categorias, esportes criados no Brasil, apelidos de clubes sul-americanos, circuitos da F1, cinema brasileiro, games de franquias variadas (95% já existia), museus do mundo, hormônios, açúcares e sabores, vitaminas, história da medicina, apelidos de reis, filosofia clássica, temperos (parte da planta), mal-estares do corpo, novelas mexicanas do SBT, companheiros da Disney, atletas brasileiros de segunda linha, torcidas organizadas, Japão feudal, sete maravilhas, Ásia e África na história",
     "gargalo": "Fáceis de Esportes, História, Ciências e Tecnologia continuaram o gargalo; renderam vocabulário do dia a dia (gíria da tabela, posições, dribles, pelada), datas e calendário, Bíblia como cultura, marcas e aparelhos de casa. O descarte subiu nos lotes 061 a 065 (14% a 19%) porque o banco já cobre quase todo o vocabulário fácil."
   },
+  "publicacao_r6": {
+    "data": "2026-10-30",
+    "rodadas": "6 (lotes 056 a 065)",
+    "commit_main": "68ff1de",
+    "commit_aprovacao_expansao": "818fab9",
+    "base_main": "8d5a863",
+    "antigas": 9959,
+    "novas": 974,
+    "total": 10933,
+    "validador_jogo": {
+      "validas": 10933,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 2535290,
+    "obs": "As 974 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 9.959 da main (banco v5), na ordem dos lotes, so com os campos do jogo. Antes, as 8 do lote 063 que faltavam na checagem web complementar foram confirmadas (commit 385bc69). Pasta expansao/ nao foi para a main."
+  },
   "resumo_r7": {
     "_leia": "Rodada 7 da meta 3x (lotes 066 a 075, branch expansao-r7), gerada em paralelo com a rodada 6. Status gerada: falta conferir. Plano em plano-r7.json (mesma composição das rodadas 3 a 6).",
     "data": "2026-10-30",

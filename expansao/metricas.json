@@ -5988,7 +5988,7 @@
         "motivos_descarte": {
           "molde repetido": 1
         },
-        "perguntas_com_busca_web": 6,
+        "perguntas_com_busca_web": 11,
         "buscas_web": 6,
         "suspeitas": {
           "total": 17,
@@ -6058,7 +6058,8 @@
           "entrega a resposta": "9e62ead325: enunciado citava o estado do Maine, que entregava a resposta; reescrito com a pista do guaxinim (raccoon)",
           "dificuldade": "e7bd8dc3c0: undefined",
           "molde repetido": "0d537514a8: molde repetido: 28 perguntas de domínio de internet na rodada; cortado o excesso (.me)"
-        }
+        },
+        "buscas_web_passe_final": 24
       },
       {
         "lote": "057",
@@ -6071,7 +6072,7 @@
         "subidas": 0,
         "descartadas": 0,
         "motivos_descarte": {},
-        "perguntas_com_busca_web": 2,
+        "perguntas_com_busca_web": 3,
         "buscas_web": 2,
         "suspeitas": {
           "total": 12,
@@ -6153,7 +6154,7 @@
         "motivos_descarte": {
           "espelho": 2
         },
-        "perguntas_com_busca_web": 5,
+        "perguntas_com_busca_web": 12,
         "buscas_web": 5,
         "suspeitas": {
           "total": 13,
@@ -6232,7 +6233,7 @@
         "subidas": 0,
         "descartadas": 0,
         "motivos_descarte": {},
-        "perguntas_com_busca_web": 4,
+        "perguntas_com_busca_web": 11,
         "buscas_web": 4,
         "suspeitas": {
           "total": 12,
@@ -6318,7 +6319,7 @@
         "subidas": 0,
         "descartadas": 0,
         "motivos_descarte": {},
-        "perguntas_com_busca_web": 3,
+        "perguntas_com_busca_web": 5,
         "buscas_web": 3,
         "suspeitas": {
           "total": 13,
@@ -6420,7 +6421,7 @@
         "motivos_descarte": {
           "espelho": 1
         },
-        "perguntas_com_busca_web": 4,
+        "perguntas_com_busca_web": 6,
         "buscas_web": 4,
         "suspeitas": {
           "total": 16,
@@ -6506,17 +6507,17 @@
         "lote": "062",
         "conferente": "conferente-v6",
         "conferidas": 105,
-        "conferidas_sem_mudanca": 94,
-        "com_mudanca": 11,
-        "corrigidas": 11,
-        "rebaixadas": 0,
+        "conferidas_sem_mudanca": 93,
+        "com_mudanca": 12,
+        "corrigidas": 12,
+        "rebaixadas": 1,
         "subidas": 0,
         "descartadas": 2,
         "motivos_descarte": {
           "espelho": 1,
           "molde repetido": 1
         },
-        "perguntas_com_busca_web": 0,
+        "perguntas_com_busca_web": 6,
         "buscas_web": 0,
         "suspeitas": {
           "total": 13,
@@ -6557,7 +6558,7 @@
           },
           "Tecnologia": {
             "conferidas": 15,
-            "corrigidas": 1,
+            "corrigidas": 2,
             "rebaixadas": 0,
             "descartadas": 2
           }
@@ -6577,21 +6578,26 @@
           "1b0d9c9e5e: Rossini - erradas Puccini e Verdi eram respostas de outras perguntas de ópera do lote (respostas cruzadas); trocadas",
           "a5b3f994b9: Verdi - erradas Rossini e Puccini eram respostas de outras perguntas de ópera do lote; trocadas",
           "6cbe2112db: Bizet - erradas Puccini, Rossini e Verdi eram respostas de outras perguntas do lote; trocadas por franceses",
-          "93db9e8b30: Cã - 'como Gengis' citava parte da resposta de banco (líder mongol que fundou o maior império => Gengis Khan); tirado"
+          "93db9e8b30: Cã - 'como Gengis' citava parte da resposta de banco (líder mongol que fundou o maior império => Gengis Khan); tirado",
+          "ec698b8c71: 181 - não existe Disque-Denúncia nacional: 181 vale em muitos estados, mas o do Rio é (21) 2253-1177; enunciado restrito a estados que usam 181"
         ],
-        "rebaixamentos": [],
+        "rebaixamentos": [
+          "ec698b8c71: 181 dificil -> medio"
+        ],
         "subidas_lista": [],
         "tipos_erro": {
           "espelho/duplicada": 9,
           "entrega a resposta": 2,
           "molde repetido": 1,
-          "errada defensavel": 1
+          "errada defensavel": 1,
+          "fato impreciso": 1
         },
         "exemplos_erro": {
           "espelho/duplicada": "299349c4a9: erradas Verdi e Rossini eram respostas de outras perguntas de ópera do lote; trocadas",
           "entrega a resposta": "d22f2ee54e: 'sem abadá' entregava a resposta de e8219dbb7f (mesmo lote); tirado",
           "molde repetido": "e4b16f4ede: molde repetido: quarta pergunta de domínio genérico no lote (.com, .org, .edu, .net), com respostas cruzadas nas alternativas; cortado o excesso",
-          "errada defensavel": "df5042b522: errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado"
+          "errada defensavel": "df5042b522: errada Lapônia defensável (banco:409 diz que, pela tradição, ele mora na Lapônia); trocada por Islândia e enunciado especificado",
+          "fato impreciso": "ec698b8c71: não existe Disque-Denúncia nacional: 181 vale em muitos estados, mas o do Rio é (21) 2253-1177; enunciado restrito a estados que usam 181"
         }
       },
       {
@@ -6608,7 +6614,7 @@
           "espelho": 1,
           "molde repetido": 2
         },
-        "perguntas_com_busca_web": 0,
+        "perguntas_com_busca_web": 6,
         "buscas_web": 0,
         "suspeitas": {
           "total": 18,
@@ -6697,7 +6703,7 @@
         "motivos_descarte": {
           "cadeia": 1
         },
-        "perguntas_com_busca_web": 0,
+        "perguntas_com_busca_web": 16,
         "buscas_web": 0,
         "suspeitas": {
           "total": 27,
@@ -6797,7 +6803,7 @@
           "fato que pode mudar": 1,
           "espelho": 3
         },
-        "perguntas_com_busca_web": 0,
+        "perguntas_com_busca_web": 6,
         "buscas_web": 0,
         "suspeitas": {
           "total": 25,

@@ -585,7 +585,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "f1425a7e58",
@@ -1891,7 +1892,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "28b5cb643d",
@@ -2308,7 +2310,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "af7ea704e4",
@@ -2329,7 +2332,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "d3e480851b",
@@ -2390,7 +2394,8 @@
     "dup_ref": "id:c729f33621",
     "recente": false,
     "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "verificado_web": true
   },
   {
     "id": "bb46315e1f",
@@ -2458,8 +2463,8 @@
   {
     "id": "ec698b8c71",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
-    "pergunta": "Qual é o número do Disque-Denúncia?",
+    "dificuldade": "medio",
+    "pergunta": "Em estados como São Paulo, Minas Gerais e Bahia, qual número recebe denúncias anônimas de crimes?",
     "resposta": "181",
     "alternativas": [
       "181",
@@ -2474,7 +2479,10 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v6"
+    "conferido_por": "conferente-v6",
+    "verificado_web": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v6)",
+    "correcao": "não existe Disque-Denúncia nacional: 181 vale em muitos estados, mas o do Rio é (21) 2253-1177; enunciado restrito a estados que usam 181"
   },
   {
     "id": "039534c961",

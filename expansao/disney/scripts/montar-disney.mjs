@@ -28,9 +28,17 @@ function embaralhar(alts, id) {
   return a;
 }
 
-const fontes = readdirSync(join(AQUI, 'fontes')).filter((f) => /^disney-\d{3}\.txt$/.test(f)).sort();
+// Com argumentos (ex.: node montar-disney.mjs disney-011) monta SÓ esses lotes e não toca nos outros
+// (que já têm status e correções do conferente); os enunciados dos outros lotes entram na checagem de duplicado.
+const so = process.argv.slice(2);
+const fontes = readdirSync(join(AQUI, 'fontes')).filter((f) => /^disney-\d{3}\.txt$/.test(f) && (!so.length || so.includes(f.replace('.txt', '')))).sort();
 const problemas = [];
 const vistos = new Map();
+if (so.length) {
+  for (const f of readdirSync(join(AQUI, 'lotes')).filter((x) => /^disney-\d{3}\.json$/.test(x) && !so.includes(x.replace('.json', '')))) {
+    for (const p of JSON.parse(readFileSync(join(AQUI, 'lotes', f), 'utf8'))) vistos.set(normEnun(p.pergunta), `${f.replace('.json', '')}:${p.id}`);
+  }
+}
 let total = 0, desc = 0;
 for (const f of fontes) {
   const nome = f.replace('.txt', '');

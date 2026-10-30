@@ -12,12 +12,13 @@
       "Suíça"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "efc9bd35a0",
@@ -28,16 +29,18 @@
     "alternativas": [
       "Laissez-passer",
       "Laissez-faire",
-      "Savoir-faire",
-      "Vis-à-vis"
+      "Fait accompli",
+      "Joie de vivre"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Savoir-faire era a resposta de 074:82b7b6 (respostas cruzadas) e Vis-à-vis a de 072:80291c, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4e5a1dd153",
@@ -52,12 +55,13 @@
       "Holanda"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3e3c171bbb",
@@ -66,18 +70,20 @@
     "pergunta": "Como se chama o estudo e a coleção de moedas e medalhas?",
     "resposta": "Numismática",
     "alternativas": [
-      "Heráldica",
-      "Filatelia",
+      "Bibliofilia",
+      "Cartofilia",
       "Numismática",
       "Glíptica"
     ],
     "subtema": "Cientistas e descobertas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Heráldica e Filatelia eram respostas de banco:9121 e 069:4a4eba, com Numismática entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bff6b3940f",
@@ -92,12 +98,13 @@
       "Etnologia"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c30c517413",
@@ -112,12 +119,13 @@
       "Internacional"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "51e2ab6a71",
@@ -132,12 +140,13 @@
       "Banfield"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ad46542b40",
@@ -152,12 +161,14 @@
       "Wilma Rudolph"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "9e631b63a2",
@@ -172,12 +183,13 @@
       "Luís Fabiano"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9c7e9b6195",
@@ -192,12 +204,13 @@
       "Rachel Portman"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5869451b5c",
@@ -206,18 +219,20 @@
     "pergunta": "Como se chama a cerca de madeira ou metal que isola a obra da calçada?",
     "resposta": "Tapume",
     "alternativas": [
-      "Andaime",
+      "Marquise",
       "Tapume",
       "Gradil",
       "Alambrado"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Andaime era a resposta de 070:337947, que tem Tapume entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ab564e320a",
@@ -252,12 +267,13 @@
       "Estados Unidos"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5a348a314f",
@@ -272,12 +288,13 @@
       "Obrigado"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d6f2a30fdf",
@@ -292,12 +309,13 @@
       "Prefeitura"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9b08ce62bc",
@@ -312,12 +330,13 @@
       "Fotojornalistas"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "74a60d8987",
@@ -332,12 +351,13 @@
       "Costume"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "83650d65d2",
@@ -352,12 +372,13 @@
       "Sensacional"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6edff67d25",
@@ -372,12 +393,13 @@
       "Chile"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:289",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.4)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.4)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "24e0f56710",
@@ -392,12 +414,13 @@
       "República Tcheca"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:65",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a005341290",
@@ -412,12 +435,14 @@
       "Chile"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "e4c762d730",
@@ -432,12 +457,13 @@
       "Hungria"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6281116cf0",
@@ -452,17 +478,18 @@
       "Serra da Arrábida"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c09e73c423",
     "categoria": "Geografia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "O pecorino, queijo duro italiano, é feito com leite de qual animal?",
     "resposta": "Ovelha",
     "alternativas": [
@@ -472,13 +499,15 @@
       "Cabra"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:282c6f5769",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.3)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b53f565b65",
@@ -493,12 +522,13 @@
       "Cabo"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "47281c132e",
@@ -513,12 +543,13 @@
       "Cadete"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5e826d7d78",
@@ -533,12 +564,13 @@
       "Conde de Wessex"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3c815aa3ce",
@@ -547,18 +579,20 @@
     "pergunta": "Qual sistema de governo tem um primeiro-ministro escolhido pelo Parlamento como chefe de governo?",
     "resposta": "Parlamentarismo",
     "alternativas": [
-      "Absolutismo",
+      "Federalismo",
       "Presidencialismo",
       "Anarquismo",
       "Parlamentarismo"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8310",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (9.9)"
+    "dup_regra": "resposta nova citada no texto antigo (9.9)",
+    "correcao": "errada Absolutismo era a resposta de banco:954, que tem Parlamentarismo entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f25230efbc",
@@ -573,12 +607,14 @@
       "Amyr Klink"
     ],
     "subtema": "Navegações e Américas pré-colombianas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "4e68312428",
@@ -593,12 +629,13 @@
       "Sargento"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "39c082352e",
@@ -613,12 +650,13 @@
       "Exército"
     ],
     "subtema": "Guerras Mundiais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "06e5460427",
@@ -630,15 +668,17 @@
       "Plutocracia",
       "Aristocracia",
       "Meritocracia",
-      "Oligarquia"
+      "Tecnocracia"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Oligarquia (governo de poucos abastados, como define banco:1097) também é defensável para 'controlado pelos mais ricos'; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "82af316264",
@@ -650,15 +690,17 @@
       "Meritocracia",
       "Aristocracia",
       "Teocracia",
-      "Oligarquia"
+      "Tecnocracia"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Oligarquia era a resposta de banco:1097, que tem Teocracia entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "850bb1ef83",
@@ -667,18 +709,21 @@
     "pergunta": "De qual forte, erguido pelos portugueses em 1616, nasceu a cidade de Belém?",
     "resposta": "Forte do Presépio",
     "alternativas": [
-      "Forte de São Marcelo",
-      "Forte dos Reis Magos",
-      "Forte de Coimbra",
+      "Forte de Santa Catarina",
+      "Forte de Santa Cruz",
+      "Forte de São José",
       "Forte do Presépio"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Forte dos Reis Magos (respostas cruzadas com 069:8ba52a), Forte de Coimbra e Forte de São Marcelo eram respostas de outros lotes da rodada, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "9e30f18470",
@@ -688,37 +733,43 @@
     "resposta": "Real Forte Príncipe da Beira",
     "alternativas": [
       "Real Forte Príncipe da Beira",
-      "Forte de Coimbra",
+      "Forte de Bragança",
       "Forte de Santo Antônio",
-      "Forte do Presépio"
+      "Forte de Iguatemi"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Forte do Presépio e Forte de Coimbra eram respostas de 850bb (mesmo lote) e 075:acbe3e, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "6257fe1436",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama o governo em que o poder fica com os mais velhos?",
     "resposta": "Gerontocracia",
     "alternativas": [
       "Gerontocracia",
       "Aristocracia",
       "Meritocracia",
-      "Oligarquia"
+      "Burocracia"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "errada Oligarquia era a resposta de banco:1097, do mesmo molde; trocada; 'geronto' (velho) se deduz pelo nome, rebaixada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f4fdd1be12",
@@ -733,12 +784,13 @@
       "Base Marambio"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "30b6071b42",
@@ -753,12 +805,13 @@
       "Megabyte"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f4362c976c",
@@ -767,18 +820,20 @@
     "pergunta": "Na estatística, como se chama o valor que mais se repete numa lista?",
     "resposta": "Moda",
     "alternativas": [
-      "Amplitude",
+      "Variância",
       "Média",
-      "Mediana",
+      "Quartil",
       "Moda"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Amplitude e Mediana eram respostas de 075:e00977 e banco:6016, com Moda entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "83c20c6e82",
@@ -813,12 +868,13 @@
       "Felis catus"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e229a9b04a",
@@ -833,12 +889,13 @@
       "Dióxido de carbono"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3efe0181f4",
@@ -853,12 +910,13 @@
       "Mili"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "840e416bf8",
@@ -873,12 +931,13 @@
       "100"
     ],
     "subtema": "Física e unidades",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6925",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (5.2)"
+    "dup_regra": "resposta nova citada no texto antigo (5.2)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "42ce862a19",
@@ -887,18 +946,20 @@
     "pergunta": "Na estatística, qual medida indica quanto os valores se espalham em torno da média?",
     "resposta": "Desvio padrão",
     "alternativas": [
-      "Moda",
-      "Mediana",
+      "Percentil",
+      "Média móvel",
       "Desvio padrão",
       "Média ponderada"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Moda e Mediana eram respostas de f4362 (mesmo lote) e banco:6016, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8d23fd880a",
@@ -910,15 +971,17 @@
       "Número perfeito",
       "Número irracional",
       "Número quadrado",
-      "Número primo"
+      "Número imaginário"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Número primo era a resposta de banco:4591, que tem Número perfeito entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1e111012de",
@@ -943,22 +1006,25 @@
   {
     "id": "ea88dbc087",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual bactéria, comum no intestino humano, é muito usada em laboratório e ligada a intoxicações alimentares?",
     "resposta": "Escherichia coli",
     "alternativas": [
       "Escherichia coli",
       "Salmonella",
       "Staphylococcus aureus",
-      "Helicobacter pylori"
+      "Streptococcus pyogenes"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "errada Helicobacter pylori era a resposta de banco:2304, que tem Escherichia coli entre as erradas (respostas cruzadas); trocada; E. coli é conhecida pelo nome, rebaixada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7f663ff400",
@@ -973,17 +1039,18 @@
       "Aspergillus niger"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6f9c86d1f5",
     "categoria": "Ciências",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual composto, vendido em solução como formol, é usado para conservar peças anatômicas?",
     "resposta": "Formaldeído",
     "alternativas": [
@@ -993,12 +1060,15 @@
       "Etanol"
     ],
     "subtema": "Química",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "'formol' no enunciado praticamente entrega Formaldeído; rebaixada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "360c1e96d0",
@@ -1013,12 +1083,13 @@
       "Caneleira"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "17cd9e01d9",
@@ -1033,12 +1104,13 @@
       "Presilha"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "94051fe438",
@@ -1053,12 +1125,13 @@
       "Fisioterapeuta"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "27424dcab5",
@@ -1073,12 +1146,13 @@
       "Supino"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5aa2830b77",
@@ -1093,12 +1167,13 @@
       "Série"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4a5f6635c4",
@@ -1113,12 +1188,13 @@
       "Fadiga"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "28f43a07c3",
@@ -1133,12 +1209,13 @@
       "Valderrama"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "486d907e6f",
@@ -1148,17 +1225,19 @@
     "resposta": "Kettlebell",
     "alternativas": [
       "Medicine ball",
-      "Anilha",
+      "Tornozeleira",
       "Kettlebell",
-      "Halter"
+      "Bosu"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Anilha e Halter eram respostas de 17cd9 e 360c1 (mesmo lote), do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6f10a79977",
@@ -1208,17 +1287,19 @@
     "resposta": "Iván Zamorano",
     "alternativas": [
       "Alexis Sánchez",
-      "Marcelo Salas",
+      "Ivo Basay",
       "Arturo Vidal",
       "Iván Zamorano"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Marcelo Salas era a resposta de 49e32 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e7cdded902",
@@ -1233,12 +1314,13 @@
       "Ghiggia"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "82eda279b3",
@@ -1249,16 +1331,19 @@
     "alternativas": [
       "Carlos Caszely",
       "Elías Figueroa",
-      "Marcelo Salas",
-      "Iván Zamorano"
+      "Alberto Quintano",
+      "Leonel Sánchez"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Marcelo Salas e Iván Zamorano eram respostas de 49e32 e 750da (mesmo lote); trocadas",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "fcae432632",
@@ -1267,18 +1352,21 @@
     "pergunta": "Qual equatoriano é o maior artilheiro da história da Libertadores?",
     "resposta": "Alberto Spencer",
     "alternativas": [
-      "Fernando Morena",
+      "Luis Artime",
       "Pedro Rocha",
       "Alberto Spencer",
       "Daniel Onega"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Fernando Morena era a resposta de cdd63 (mesmo lote), que tinha Alberto Spencer entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "c81db9ca23",
@@ -1293,12 +1381,13 @@
       "Hugo Sotil"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a292850637",
@@ -1393,12 +1482,13 @@
       "Leo"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: a resposta (Juliano) já está nas respostas de banco:4935 e banco:6546 ('Henrique e Juliano'); e molde repetido (15 perguntas 'quem faz dupla sertaneja com X' na rodada)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cc27f28dc9",
@@ -1413,12 +1503,13 @@
       "Cristiano"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 15 perguntas 'quem faz dupla sertaneja com X' na rodada; cortado o excesso (a dupla João Paulo e Daniel aparece inteira nas alternativas de banco:3515 e banco:6355)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dddd9177dd",
@@ -1448,17 +1539,19 @@
     "resposta": "Sequência",
     "alternativas": [
       "Spin-off",
-      "Remake",
+      "Antologia",
       "Reboot",
       "Sequência"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Remake era a resposta de banco:7653, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ff12e56fdb",
@@ -1473,13 +1566,14 @@
       "Robert Pattinson"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "universo": "Batman",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "be814b4bbb",
@@ -1494,12 +1588,13 @@
       "José Rico"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c319c74154",
@@ -1511,15 +1606,17 @@
       "Rionegro",
       "Tinoco",
       "Pena Branca",
-      "Solimões"
+      "Liu"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Solimões era a resposta de 069:812241, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "18b39f0e8b",
@@ -1534,12 +1631,13 @@
       "Sorocaba"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: a resposta (Marrone) já está na resposta de banco:5035 ('Bruno e Marrone'); e molde repetido de duplas sertanejas",
     "dup": "suspeita",
     "dup_ref": "banco:5035",
     "recente": false,
-    "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.8)"
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 10.8)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "100f9df7a6",
@@ -1554,12 +1652,13 @@
       "Viena"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:395",
     "recente": false,
-    "dup_regra": "resposta nova citada no texto antigo (4.9)"
+    "dup_regra": "resposta nova citada no texto antigo (4.9)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ba8f27c85e",
@@ -1574,12 +1673,13 @@
       "Xangai"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bffc68f9ee",
@@ -1588,19 +1688,21 @@
     "pergunta": "Em qual cidade austríaca se passa \"A Noviça Rebelde\"?",
     "resposta": "Salzburgo",
     "alternativas": [
-      "Viena",
+      "Linz",
       "Salzburgo",
       "Innsbruck",
       "Graz"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:472",
     "recente": false,
     "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Viena era a resposta de 100f9 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3073b2edec",
@@ -1615,13 +1717,14 @@
       "Bangalore"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:519",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.2)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5790c13d5f",
@@ -1636,13 +1739,14 @@
       "Christian Bale"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "universo": "Batman",
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "82841e524a",
@@ -1672,18 +1776,20 @@
     "pergunta": "Quem formava dupla caipira com Pena Branca?",
     "resposta": "Xavantinho",
     "alternativas": [
-      "Tinoco",
-      "Solimões",
+      "Cravinho",
+      "Inhana",
       "Xavantinho",
       "Rionegro"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Tinoco e Solimões eram respostas de c319c (mesmo lote) e 069:812241, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9d69f97b77",
@@ -1692,18 +1798,20 @@
     "pergunta": "Quem faz dupla sertaneja com César Menotti?",
     "resposta": "Fabiano",
     "alternativas": [
-      "Solimões",
-      "Leo",
+      "Thiago",
+      "Kauan",
       "Cristiano",
       "Fabiano"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Solimões e Leo eram respostas de 069:812241 e 61bb8 (mesmo lote), do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b44776d2d5",
@@ -1713,17 +1821,19 @@
     "resposta": "Hudson",
     "alternativas": [
       "Cristiano",
-      "Leo",
+      "Rick",
       "Hudson",
       "Giovani"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Leo era a resposta de 61bb8 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1146c02a1f",
@@ -1738,12 +1848,13 @@
       "Dublin"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "aeb7174fda",
@@ -1752,18 +1863,20 @@
     "pergunta": "Em qual cidade belga dois assassinos se escondem em \"Na Mira do Chefe\" (2008)?",
     "resposta": "Bruges",
     "alternativas": [
-      "Gante",
+      "Liège",
       "Antuérpia",
       "Bruxelas",
       "Bruges"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Gante era a resposta de banco:6806, que tem Bruges entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3fcd49dc9f",
@@ -1778,17 +1891,18 @@
       "Nova York"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "008dafad32",
     "categoria": "Entretenimento",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Kandinsky é considerado pioneiro de qual tendência, sem figuras reconhecíveis?",
     "resposta": "Abstracionismo",
     "alternativas": [
@@ -1798,12 +1912,14 @@
       "Fauvismo"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0d8f6cc6ee",
@@ -1838,12 +1954,13 @@
       "Encaminhar"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d79bfcf81c",
@@ -1858,12 +1975,13 @@
       "Rodapé"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3c8f7e7eb4",
@@ -1873,17 +1991,19 @@
     "resposta": "Fragmentadora",
     "alternativas": [
       "Encadernadora",
-      "Plastificadora",
+      "Etiquetadora",
       "Fragmentadora",
       "Perfuradora"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Plastificadora era a resposta de 071:65a9b4, que tem Fragmentadora entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4b56682aa1",
@@ -1898,12 +2018,13 @@
       "Ofício"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "51cc9a23c6",
@@ -1918,12 +2039,13 @@
       "Multifuncional"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c466a75818",
@@ -1938,12 +2060,13 @@
       "Autocorreção"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c71d1df690",
@@ -1958,12 +2081,13 @@
       "Layout"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "603923e76d",
@@ -1978,12 +2102,13 @@
       "Cabeçalho"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5f50acc210",
@@ -1998,12 +2123,13 @@
       "Slackware"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1130489c42",
@@ -2018,12 +2144,13 @@
       "Canonical"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1abc8c1717",
@@ -2038,12 +2165,13 @@
       "Terminal"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1927c5edb5",
@@ -2074,16 +2202,18 @@
     "alternativas": [
       "Kali Linux",
       "Fedora",
-      "Linux Mint",
+      "Manjaro",
       "Ubuntu"
     ],
     "subtema": "Segurança digital",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Linux Mint era a resposta de 30934 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "30934d5eb5",
@@ -2098,12 +2228,13 @@
       "Arch Linux"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b0f5c45225",
@@ -2118,17 +2249,18 @@
       "Elon Musk"
     ],
     "subtema": "Empresas, marcas e fundadores",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "18a14e294f",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama o peso do papel, medido em gramas por metro quadrado?",
     "resposta": "Gramatura",
     "alternativas": [
@@ -2138,12 +2270,14 @@
       "Espessura"
     ],
     "subtema": "Hardware",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "7b2594de43",
@@ -2158,12 +2292,13 @@
       "Datas"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c15e2c3874",
@@ -2173,17 +2308,19 @@
     "resposta": "Citricultura",
     "alternativas": [
       "Citricultura",
-      "Olivicultura",
-      "Floricultura",
-      "Viticultura"
+      "Pomicultura",
+      "Triticultura",
+      "Cotonicultura"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Olivicultura, Viticultura e Floricultura eram respostas de 069:321184, 069:bec306 e 067:5e0d24 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "49e328749f",
@@ -2198,12 +2335,13 @@
       "Eduardo Vargas"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "aa2f4b0218",
@@ -2218,12 +2356,13 @@
       "Germán Cano"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cdd63443b0",
@@ -2232,18 +2371,21 @@
     "pergunta": "Qual uruguaio, ídolo do Peñarol, é o maior artilheiro da história do Campeonato Uruguaio?",
     "resposta": "Fernando Morena",
     "alternativas": [
-      "Alberto Spencer",
+      "Héctor Scarone",
       "Enzo Francescoli",
       "Pedro Rocha",
       "Fernando Morena"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Alberto Spencer era a resposta de fcae4 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "61bb811223",
@@ -2258,12 +2400,13 @@
       "Mateus"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c287f9c0da",
@@ -2278,12 +2421,13 @@
       "Sorocaba"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "molde repetido: 15 perguntas 'quem faz dupla sertaneja com X' na rodada; cortado o excesso (Zé Neto e Cristiano aparece inteira nas alternativas de banco:4836, 4935 e 6546)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1585405456",
@@ -2294,16 +2438,18 @@
     "alternativas": [
       "Coletânea",
       "Single",
-      "EP",
+      "Bootleg",
       "Trilha sonora"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada EP era a resposta de 069:ecddcb, do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6b777004f4",
@@ -2318,12 +2464,13 @@
       "Residência"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1fca767258",
@@ -2353,22 +2500,24 @@
     "resposta": "Cover",
     "alternativas": [
       "Sample",
-      "Mashup",
+      "Remaster",
       "Cover",
       "Remix"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Mashup era a resposta de banco:8264, que tem Cover entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0607d721b6",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual recurso do Excel mantém linhas e colunas fixas na tela ao rolar a planilha?",
     "resposta": "Congelar painéis",
     "alternativas": [
@@ -2378,12 +2527,14 @@
       "Mesclar células"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "aedd651eb6",
@@ -2418,12 +2569,13 @@
       "Marrone"
     ],
     "subtema": "Música brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "02be48db6a",
@@ -2438,11 +2590,12 @@
       "Hipnose"
     ],
     "subtema": "Humor e programas de auditório",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "espelho: a resposta (Hipnose) está no enunciado de banco:8507 ('A palavra hipnose vem do nome de qual deus grego do sono?')",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   }
 ]

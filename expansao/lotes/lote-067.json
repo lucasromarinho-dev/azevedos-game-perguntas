@@ -12,12 +12,13 @@
       "Al sugo"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8574bfceb4",
@@ -27,17 +28,19 @@
     "resposta": "Julho",
     "alternativas": [
       "Julho",
-      "Março",
+      "Setembro",
       "Junho",
       "Agosto"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:137",
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.1)"
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 7.1)",
+    "correcao": "errada Março era a resposta de 23b7a (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "195b433b51",
@@ -52,12 +55,13 @@
       "Usucapião"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e1b2b950fb",
@@ -92,12 +96,13 @@
       "Diâmetro"
     ],
     "subtema": "Matemática e lógica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:8819",
     "recente": false,
-    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "eab0f2ddfd",
@@ -112,12 +117,13 @@
       "Apneia"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "073eb3bd7b",
@@ -132,12 +138,13 @@
       "Morihei Ueshiba"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4feeeb62dc",
@@ -152,12 +159,13 @@
       "Japão"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4510658c64",
@@ -168,17 +176,19 @@
     "alternativas": [
       "Casio",
       "Citizen",
-      "Seiko",
+      "Technos",
       "Orient"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:3e1f1007f7",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (11.3, sim 0.3)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Seiko era a resposta de 063:d63a54 (relógio japonês a quartzo), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9b75567639",
@@ -193,12 +203,14 @@
       "Irlanda"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "8fd1788b69",
@@ -253,12 +265,13 @@
       "Retirado"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d6b9c9540e",
@@ -273,12 +286,13 @@
       "Barista"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6940f1d931",
@@ -293,12 +307,13 @@
       "Pozhaluysta"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "52d4ccf11d",
@@ -373,12 +388,13 @@
       "Saranghae"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "9d113fe449",
@@ -393,12 +409,13 @@
       "Parakaló"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:6940f1d931",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4d7fad8f3b",
@@ -413,12 +430,13 @@
       "Asante"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "23b7a0d622",
@@ -428,18 +446,20 @@
     "resposta": "Março",
     "alternativas": [
       "Maio",
-      "Junho",
+      "Abril",
       "Março",
       "Janeiro"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:6730",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.7, 100% do fato)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Junho era a resposta de banco:137, que tem Março entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1d9f757ffc",
@@ -454,12 +474,13 @@
       "Touro"
     ],
     "subtema": "Personagens, invenções e filosofia",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4ea5b32342",
@@ -474,12 +495,13 @@
       "Wall Street"
     ],
     "subtema": "Guerra Fria e século XX",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5f9f628b31",
@@ -494,12 +516,13 @@
       "Copom"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e4d9f3b85e",
@@ -510,16 +533,18 @@
     "alternativas": [
       "IPCA",
       "IOF",
-      "CDI",
+      "INPC",
       "IGP-M"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada CDI era a resposta de 0ca64 (mesmo lote), que tinha IPCA entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d3b6e441ab",
@@ -534,12 +559,13 @@
       "Nasdaq"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "460318d847",
@@ -554,17 +580,18 @@
       "Previdência Privada"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "713a37463b",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Como se chama o crédito caro que o cartão cobra quando o cliente não paga a fatura inteira?",
     "resposta": "Rotativo",
     "alternativas": [
@@ -574,32 +601,37 @@
       "Cheque especial"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "0ca6456c84",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual taxa negociada entre bancos serve de referência para o rendimento de CDBs e fundos de renda fixa?",
     "resposta": "CDI",
     "alternativas": [
       "CDI",
       "TR",
       "IGP-M",
-      "IPCA"
+      "Poupança"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "correcao": "errada IPCA era a resposta de e4d9f (mesmo lote); trocada; CDI é termo conhecido de quem investe, rebaixada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c0ece66b33",
@@ -614,12 +646,14 @@
       "Exército de Napoleão"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "2851874d75",
@@ -634,12 +668,13 @@
       "Avicultura"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5e0d24a60d",
@@ -649,17 +684,19 @@
     "resposta": "Floricultura",
     "alternativas": [
       "Fruticultura",
-      "Silvicultura",
+      "Avicultura",
       "Floricultura",
       "Horticultura"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Silvicultura era a resposta de 071:5b82b6, que tem Floricultura entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "abc70960b0",
@@ -674,12 +711,13 @@
       "Geodésia"
     ],
     "subtema": "Terra, geologia e clima",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c8c6c829ea",
@@ -694,12 +732,13 @@
       "Transverso"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cbf02002ed",
@@ -709,17 +748,19 @@
     "resposta": "Cunicultura",
     "alternativas": [
       "Ovinocultura",
-      "Caprinocultura",
+      "Equinocultura",
       "Cunicultura",
-      "Ranicultura"
+      "Bubalinocultura"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Caprinocultura e Ranicultura eram respostas de 069:8b4811 e 072:8d9ed8 (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ce7cba5d38",
@@ -728,18 +769,20 @@
     "pergunta": "Qual ramo da biologia estuda os peixes?",
     "resposta": "Ictiologia",
     "alternativas": [
-      "Ornitologia",
+      "Mastozoologia",
       "Ictiologia",
-      "Malacologia",
-      "Herpetologia"
+      "Aracnologia",
+      "Carcinologia"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Ornitologia, Malacologia e Herpetologia eram respostas de banco:1995, 069:23cc48 e 069:f3366b, com Ictiologia entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1610ee9561",
@@ -754,12 +797,13 @@
       "Briologia"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "514f44fd56",
@@ -768,18 +812,20 @@
     "pergunta": "Como se chama o cultivo da seringueira para a extração do látex?",
     "resposta": "Heveicultura",
     "alternativas": [
-      "Olivicultura",
+      "Cafeicultura",
       "Heveicultura",
-      "Citricultura",
-      "Silvicultura"
+      "Fruticultura",
+      "Horticultura"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Olivicultura, Citricultura e Silvicultura eram respostas de 069:321184, 068:c15e2c e 071:5b82b6, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "43152dbd50",
@@ -788,18 +834,20 @@
     "pergunta": "Como se chama a criação de camarões em viveiros?",
     "resposta": "Carcinicultura",
     "alternativas": [
-      "Ostreicultura",
+      "Helicicultura",
       "Carcinicultura",
       "Malacocultura",
       "Piscicultura"
     ],
     "subtema": "Animais",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Ostreicultura era a resposta de 070:7ebd2c, que tem Carcinicultura entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1ad5092a36",
@@ -808,18 +856,20 @@
     "pergunta": "Qual é o menor músculo do corpo humano, que fica no ouvido médio?",
     "resposta": "Estapédio",
     "alternativas": [
-      "Bigorna",
-      "Estribo",
+      "Risório",
+      "Prócero",
       "Estapédio",
-      "Martelo"
+      "Platisma"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1960",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "erradas eram ossos (Estribo é a resposta de banco:1937, menor osso) e deixavam o único músculo à vista; trocadas por músculos",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4e29d85601",
@@ -891,15 +941,17 @@
       "MLS",
       "NFL",
       "NBA",
-      "NHL"
+      "MLB"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada NHL era a resposta de banco:7030, que tem MLS entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d179613e27",
@@ -909,17 +961,19 @@
     "resposta": "Chilavert",
     "alternativas": [
       "Gato Fernández",
-      "Jorge Campos",
+      "Óscar Córdoba",
       "Chilavert",
       "Higuita"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Jorge Campos era a resposta de 22a76 (mesmo lote), que tinha Chilavert entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d963e39c80",
@@ -950,16 +1004,18 @@
     "alternativas": [
       "Oswaldo Sánchez",
       "Guillermo Ochoa",
-      "Chilavert",
+      "Faryd Mondragón",
       "Jorge Campos"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Chilavert era a resposta de d1796 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cc85583e25",
@@ -974,12 +1030,13 @@
       "Luisa Stefani"
     ],
     "subtema": "Tênis",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "6f3892acc1",
@@ -994,12 +1051,13 @@
       "Hope Solo"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1c7568b76a",
@@ -1014,12 +1072,13 @@
       "Judogi"
     ],
     "subtema": "Lutas, UFC e boxe",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "2f80fafbcb",
@@ -1028,19 +1087,21 @@
     "pergunta": "Qual técnico argentino comandou o Santos em 2019 e o Atlético-MG em 2020?",
     "resposta": "Jorge Sampaoli",
     "alternativas": [
-      "Marcelo Bielsa",
+      "Diego Aguirre",
       "Ricardo Gareca",
       "Eduardo Coudet",
       "Jorge Sampaoli"
     ],
     "subtema": "Brasileirão e clubes brasileiros",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:2681",
     "recente": true,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (15.5)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "correcao": "errada Marcelo Bielsa era a resposta de banco:6531, que tem Jorge Sampaoli entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8280d48d04",
@@ -1055,12 +1116,13 @@
       "Pat Jennings"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "358e4ef676",
@@ -1075,12 +1137,13 @@
       "Enrico Albertosi"
     ],
     "subtema": "Copa do Mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a79e0c1225",
@@ -1095,12 +1158,13 @@
       "Mark Bosnich"
     ],
     "subtema": "Futebol europeu",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "107f7bf83f",
@@ -1115,12 +1179,14 @@
       "Universitario"
     ],
     "subtema": "Libertadores e futebol sul-americano",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "afc9995979",
@@ -1135,12 +1201,14 @@
       "Roberto Marinho"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "7e6cb7bfba",
@@ -1149,18 +1217,20 @@
     "pergunta": "Qual compositor criou as trilhas de \"Star Wars\", \"Tubarão\" e \"E.T.\"?",
     "resposta": "John Williams",
     "alternativas": [
-      "Hans Zimmer",
-      "Danny Elfman",
+      "Jerry Goldsmith",
+      "Thomas Newman",
       "James Horner",
       "John Williams"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Hans Zimmer e Danny Elfman eram respostas de 58968 e 5879d (mesmo lote), com John Williams entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "58968ab297",
@@ -1169,18 +1239,20 @@
     "pergunta": "Qual compositor alemão fez as trilhas de \"O Rei Leão\", \"Gladiador\" e \"Interestelar\"?",
     "resposta": "Hans Zimmer",
     "alternativas": [
-      "John Williams",
-      "Alan Silvestri",
+      "James Newton Howard",
+      "Jerry Goldsmith",
       "Hans Zimmer",
-      "Howard Shore"
+      "Thomas Newman"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 7e6cb, d1826 e e9a5d (mesmo lote), com respostas cruzadas; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "bf7e34af04",
@@ -1235,12 +1307,13 @@
       "Soraya Montenegro"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "a5c81a4095",
@@ -1255,12 +1328,13 @@
       "Branca de Neve"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "976cc7eddc",
@@ -1275,12 +1349,13 @@
       "Interlagos"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b6bed764f5",
@@ -1292,15 +1367,17 @@
       "Ennio Morricone",
       "Luis Bacalov",
       "Riz Ortolani",
-      "Nino Rota"
+      "Piero Umiliani"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Nino Rota era a resposta de 1050b (mesmo lote), que tinha Ennio Morricone entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e9a5d22e3d",
@@ -1309,18 +1386,20 @@
     "pergunta": "Qual compositor fez a trilha da trilogia \"O Senhor dos Anéis\"?",
     "resposta": "Howard Shore",
     "alternativas": [
-      "Hans Zimmer",
-      "John Williams",
+      "Jerry Goldsmith",
+      "Basil Poledouris",
       "Howard Shore",
       "James Horner"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:3364",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "erradas Hans Zimmer e John Williams eram respostas de 58968 e 7e6cb (mesmo lote), com respostas cruzadas; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5879dbe154",
@@ -1329,18 +1408,20 @@
     "pergunta": "Qual compositor criou o tema de abertura de \"Os Simpsons\"?",
     "resposta": "Danny Elfman",
     "alternativas": [
-      "John Williams",
+      "Michael Giacchino",
       "Danny Elfman",
-      "Hans Zimmer",
-      "Alan Silvestri"
+      "Mark Mothersbaugh",
+      "Randy Newman"
     ],
     "subtema": "Animação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "as três erradas eram respostas de 7e6cb, 58968 e d1826 (mesmo lote), com respostas cruzadas; Hans Zimmer ainda fez a trilha do filme dos Simpsons (defensável); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1050b2eaf2",
@@ -1350,17 +1431,19 @@
     "resposta": "Nino Rota",
     "alternativas": [
       "Armando Trovajoli",
-      "Ennio Morricone",
+      "Carlo Rustichelli",
       "Nino Rota",
       "Riz Ortolani"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Ennio Morricone era a resposta de b6bed (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "26f2fd2756",
@@ -1375,12 +1458,13 @@
       "Jerry Maguire"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4c95b69b8e",
@@ -1395,12 +1479,13 @@
       "Pousando no Amor"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3658ec893e",
@@ -1452,15 +1537,18 @@
       "Mocidade Independente",
       "Unidos da Tijuca",
       "Vila Isabel",
-      "Imperatriz Leopoldinense"
+      "São Clemente"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Imperatriz Leopoldinense era a resposta de 043d3 (mesmo lote), do mesmo molde; trocada",
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "db2c96abb2",
@@ -1475,12 +1563,13 @@
       "Vai-Vai"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d5c26179a5",
@@ -1495,12 +1584,14 @@
       "Paulo Barros"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7",
+    "verificado_web": true
   },
   {
     "id": "48c0491545",
@@ -1515,12 +1606,13 @@
       "Yanni"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d182604d46",
@@ -1529,18 +1621,20 @@
     "pergunta": "Qual compositor fez a trilha de \"De Volta para o Futuro\"?",
     "resposta": "Alan Silvestri",
     "alternativas": [
-      "Danny Elfman",
+      "Jerry Goldsmith",
       "Alan Silvestri",
       "James Horner",
-      "John Williams"
+      "Basil Poledouris"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Danny Elfman e John Williams eram respostas de 5879d e 7e6cb (mesmo lote), com respostas cruzadas; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8287fa6828",
@@ -1555,12 +1649,13 @@
       "Aegyo"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c7d92a5fa2",
@@ -1575,12 +1670,13 @@
       "Boys Over Flowers"
     ],
     "subtema": "Séries e streaming",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5154a83fe3",
@@ -1595,12 +1691,13 @@
       "Rubi"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "043d3c8eae",
@@ -1612,15 +1709,17 @@
       "Mangueira",
       "Beija-Flor",
       "Imperatriz Leopoldinense",
-      "Portela"
+      "Salgueiro"
     ],
     "subtema": "Novelas e TV brasileira",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:db2c96abb2",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "correcao": "errada Portela era a resposta de banco:3465, que tem Imperatriz Leopoldinense entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "b0a984fefb",
@@ -1635,12 +1734,13 @@
       "Perfil"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c72991a73f",
@@ -1655,12 +1755,13 @@
       "Argamassa"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "90674ed9f5",
@@ -1671,16 +1772,18 @@
     "alternativas": [
       "Viga",
       "Laje",
-      "Sapata",
-      "Pilar"
+      "Platibanda",
+      "Caibro"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "erradas Sapata e Pilar eram respostas de cf05c (mesmo lote) e 071:17c207, do mesmo molde; trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "1ddc3c2f5b",
@@ -1695,12 +1798,13 @@
       "Drywall"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "ce000fc3e9",
@@ -1709,18 +1813,20 @@
     "pergunta": "Qual peça do telhado recolhe a água da chuva e leva até o cano?",
     "resposta": "Calha",
     "alternativas": [
-      "Cumeeira",
+      "Tesoura",
       "Telha",
       "Rufo",
       "Calha"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Cumeeira era a resposta de 73661 (mesmo lote), que tinha Calha entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c210839a2b",
@@ -1735,12 +1841,13 @@
       "Emboço"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "736616aa34",
@@ -1750,17 +1857,19 @@
     "resposta": "Cumeeira",
     "alternativas": [
       "Rufo",
-      "Calha",
+      "Caibro",
       "Cumeeira",
       "Beiral"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Calha era a resposta de ce000 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "aae3926cb8",
@@ -1795,12 +1904,13 @@
       "Ucrânia"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "04b4b48eb3",
@@ -1815,17 +1925,18 @@
       "Falcon Heavy"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "8ee1285b64",
     "categoria": "Tecnologia",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual foguete levou as missões Apollo à Lua?",
     "resposta": "Saturno V",
     "alternativas": [
@@ -1835,13 +1946,15 @@
       "Saturno V"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:1718",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.4)",
-    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente"
+    "dup_revisado": "falso positivo revisado pelo gerador: mesma resposta ou termo com fato diferente",
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v7)",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "e3817ce381",
@@ -1856,12 +1969,13 @@
       "CBERS"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cf05cb9ec9",
@@ -1876,12 +1990,13 @@
       "Baldrame"
     ],
     "subtema": "IA, robótica e ficção científica",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "11d104a8e6",
@@ -1896,12 +2011,13 @@
       "HDR"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "435b5c1988",
@@ -1916,12 +2032,13 @@
       "Ciclismo de estrada"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "5623bece5c",
@@ -1936,12 +2053,13 @@
       "Marcha atlética"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "37c266d1cf",
@@ -1970,18 +2088,20 @@
     "pergunta": "Como se chama a prévia de poucos minutos que divulga um filme antes da estreia?",
     "resposta": "Trailer",
     "alternativas": [
-      "Spoiler",
-      "Making of",
+      "Abertura",
+      "Crédito final",
       "Trailer",
-      "Teaser"
+      "Sinopse"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Teaser também é prévia curta de divulgação (defensável); Spoiler e Making of eram respostas de banco:4765 e banco:9039 com Trailer entre as erradas (respostas cruzadas); trocadas",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "3e17350a58",
@@ -1996,12 +2116,13 @@
       "Legendagem"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "c0231749c6",
@@ -2016,12 +2137,13 @@
       "Remake"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "4b847e6c5d",
@@ -2033,15 +2155,17 @@
       "Esteira",
       "Step",
       "Remo seco",
-      "Elíptico"
+      "Supino"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Elíptico também simula caminhada sem sair do lugar (defensável); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "d21e96c0c3",
@@ -2076,12 +2200,13 @@
       "Espanha"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "49f9d7fc3c",
@@ -2092,16 +2217,18 @@
     "alternativas": [
       "Gim",
       "Rum",
-      "Vodca",
+      "Tequila",
       "Conhaque"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Vodca era a resposta de eb341 (mesmo lote), que tinha Gim entre as erradas (respostas cruzadas); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "eb341b3555",
@@ -2113,15 +2240,17 @@
       "Rum",
       "Vodca",
       "Tequila",
-      "Gim"
+      "Cachaça"
     ],
     "subtema": "Comidas e bebidas típicas, Brasil e mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Gim era a resposta de 49f9d (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "cd5daa7125",
@@ -2136,12 +2265,13 @@
       "Leitura"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "34f001e2a8",
@@ -2153,15 +2283,17 @@
       "Making of",
       "Teaser",
       "Videoclipe",
-      "Trailer"
+      "Spot"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "correcao": "errada Trailer era a resposta de 371c4 (mesmo lote); trocada",
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "dc954b2a6f",
@@ -2176,12 +2308,13 @@
       "Parque olímpico"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   },
   {
     "id": "f04e519921",
@@ -2196,11 +2329,12 @@
       "Processo"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v7"
   }
 ]

@@ -174,7 +174,7 @@
     "subtema": "Celulares e gadgets",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:3e1f1007f7",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (11.3, sim 0.3)"
@@ -332,12 +332,12 @@
       "Habibi"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:6940f1d931",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:66e9a6414b (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:66e9a6414b",
     "recente": false,
-    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.6)"
   },
   {
     "id": "264f9edb56",
@@ -408,7 +408,7 @@
     "alternativas": [
       "Hakuna matata",
       "Karibu",
-      "Jambo",
+      "Habari",
       "Asante"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
@@ -434,7 +434,7 @@
     "subtema": "Antiguidade",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:6730",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.7, 100% do fato)"
@@ -1034,7 +1034,7 @@
     "subtema": "Brasileirão e clubes brasileiros",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:2681",
     "recente": true,
     "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (15.5)"
@@ -1834,7 +1834,7 @@
     "subtema": "IA, robótica e ficção científica",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:1718",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.4)"
@@ -2172,6 +2172,26 @@
       "Parque olímpico"
     ],
     "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f04e519921",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em inglês, o que significa a palavra \"prejudice\"?",
+    "resposta": "Preconceito",
+    "alternativas": [
+      "Prejuízo",
+      "Preconceito",
+      "Previsão",
+      "Processo"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

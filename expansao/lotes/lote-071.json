@@ -388,8 +388,8 @@
     "alternativas": [
       "CDB",
       "Previdência privada",
-      "Poupança",
-      "Tesouro Direto"
+      "Tesouro Direto",
+      "Poupança"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
@@ -1243,7 +1243,7 @@
     "id": "9fe8b5353c",
     "categoria": "Entretenimento",
     "dificuldade": "facil",
-    "pergunta": "Como se chama o dançarino de breaking, a dança de rua do hip-hop?",
+    "pergunta": "Como se chama o dançarino das rodas de dança de rua do hip-hop, com giros e acrobacias no chão?",
     "resposta": "B-boy",
     "alternativas": [
       "Grafiteiro",
@@ -1372,8 +1372,8 @@
       "Guilherme Briggs"
     ],
     "subtema": "Animação",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "variedade: quarta pergunta do universo DC na rodada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -1694,7 +1694,7 @@
     "subtema": "IA, robótica e ficção científica",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
+    "dup": "certa",
     "dup_ref": "id:4b847e6c5d",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.5)"
@@ -1917,6 +1917,26 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "368cd642e6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "O Theatro Municipal do Rio de Janeiro, de 1909, foi inspirado em qual casa de espetáculos europeia?",
+    "resposta": "Ópera de Paris",
+    "alternativas": [
+      "Royal Albert Hall",
+      "Scala de Milão",
+      "Ópera de Paris",
+      "Teatro Bolshoi"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
     "dup_regra": null
   }
 ]

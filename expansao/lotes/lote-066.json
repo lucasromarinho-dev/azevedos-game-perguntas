@@ -27,8 +27,8 @@
     "resposta": "Empurrar",
     "alternativas": [
       "Bater",
-      "Empurrar",
       "Trancar",
+      "Empurrar",
       "Puxar"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
@@ -66,9 +66,9 @@
     "pergunta": "Em inglês, o que é uma \"library\"?",
     "resposta": "Biblioteca",
     "alternativas": [
-      "Biblioteca",
-      "Papelaria",
       "Editora",
+      "Papelaria",
+      "Biblioteca",
       "Livraria"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
@@ -432,8 +432,8 @@
       "Vitória de Aníbal"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:60aa04e96a (suspeita confirmada na geração)",
     "dup": "suspeita",
     "dup_ref": "id:60aa04e96a",
     "recente": false,
@@ -854,7 +854,7 @@
     "subtema": "Terra, geologia e clima",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:6523",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (12.4, sim 0.2)"
@@ -1072,12 +1072,12 @@
       "Estados Unidos"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:3cee164b74 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:3cee164b74",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "9efbd0a666",
@@ -1214,7 +1214,7 @@
     "subtema": "Copa do Mundo",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:8821",
     "recente": false,
     "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.3, sim 0.1)"
@@ -1492,8 +1492,8 @@
       "Liniers"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que null (suspeita confirmada na geração)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -1574,7 +1574,7 @@
     "subtema": "Dança, teatro e circo",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:189",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (9.7, 33% do fato)"
@@ -1652,8 +1652,8 @@
       "Verdi"
     ],
     "subtema": "Música internacional",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:a5b3f994b9 (suspeita confirmada na geração)",
     "dup": "suspeita",
     "dup_ref": "id:a5b3f994b9",
     "recente": false,
@@ -1703,7 +1703,7 @@
     "id": "975dfc7ea3",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual estúdio britânico criou Wallace & Gromit e \"A Fuga das Galinhas\"?",
+    "pergunta": "Qual estúdio britânico de animação com massinha criou \"A Fuga das Galinhas\" e \"Shaun, o Carneiro\"?",
     "resposta": "Aardman",
     "alternativas": [
       "Pixar",
@@ -1743,7 +1743,7 @@
     "id": "50879956c8",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual filme de Hector Babenco, de 1980, retrata um menino de rua de São Paulo?",
+    "pergunta": "Qual filme brasileiro de 1980, estrelado por Fernando Ramos da Silva, retrata meninos de rua de São Paulo?",
     "resposta": "Pixote",
     "alternativas": [
       "Central do Brasil",
@@ -1834,7 +1834,7 @@
     "subtema": "Literatura",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "banco:5552",
     "recente": false,
     "dup_regra": "E2 mesma resposta e mesmo assunto (8.1, 33% do fato)"
@@ -2074,7 +2074,7 @@
     "subtema": "Programação",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:fd5e36c1ce",
     "recente": false,
     "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 21.4)"
@@ -2134,7 +2134,7 @@
     "subtema": "Celulares e gadgets",
     "status": "gerada",
     "motivo": null,
-    "dup": "certa",
+    "dup": "suspeita",
     "dup_ref": "id:d63a54dbcd",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (18.6)"
@@ -2712,6 +2712,86 @@
       "Marta"
     ],
     "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "573a9d4b5f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual clube chinês Luiz Felipe Scolari levou ao título nacional e da Liga dos Campeões da Ásia em 2015?",
+    "resposta": "Guangzhou Evergrande",
+    "alternativas": [
+      "Beijing Guoan",
+      "Shandong Luneng",
+      "Shanghai SIPG",
+      "Guangzhou Evergrande"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2ed388b819",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a união de estados com autonomia sob um governo central, como o Brasil e os Estados Unidos?",
+    "resposta": "Federação",
+    "alternativas": [
+      "Federação",
+      "Monarquia",
+      "Comunidade",
+      "Confederação"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "add01e2ede",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual fotógrafa fez a famosa foto de John Lennon abraçado a Yoko Ono para a Rolling Stone, em 1980?",
+    "resposta": "Annie Leibovitz",
+    "alternativas": [
+      "Vivian Maier",
+      "Diane Arbus",
+      "Annie Leibovitz",
+      "Dorothea Lange"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4a35ad65ab",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual amada de Hamlet enlouquece e morre afogada num rio?",
+    "resposta": "Ofélia",
+    "alternativas": [
+      "Cordélia",
+      "Ofélia",
+      "Desdêmona",
+      "Julieta"
+    ],
+    "subtema": "Literatura",
     "status": "gerada",
     "motivo": null,
     "dup": "nao",

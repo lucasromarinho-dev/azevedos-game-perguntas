@@ -36,6 +36,9 @@ const outrosPiloto = readdirSync(PASTA_LOTES).filter((f) => /^lote-\d+\.json$/.t
   .flatMap((f) => lerJson(join(PASTA_LOTES, f)).filter((p) => p.status !== 'descartada').map((p) => ({ ...p, _ref: 'lote-' + f.slice(5, 8) + ':' + p.id })));
 const doLote = lote.filter((p) => p.status !== 'descartada').map((p) => ({ ...p, _ref: `lote-${n}:` + p.id }));
 const todas = [...main.map((p, i) => ({ ...p, _ref: 'banco:' + i })), ...outrosPiloto, ...doLote].map((p) => ({ p, q: norm(p.pergunta), r: norm(p.resposta) }));
+// Outra pergunta de formato nao-e, numero ou qual-primeiro: a resposta dela é só uma opção de lista, então ter a mesma
+// resposta ou ter a resposta dela citada não entrega nada (o enunciado dela citar a nossa resposta continua contando).
+const OPCAO = new Set(['nao-e', 'numero', 'qual-primeiro']);
 const cit = new Map();
 const citacoes = (rn) => { if (!cit.has(rn)) cit.set(rn, todas.filter((t) => t.q.includes(rn)).length); return cit.get(rn); };
 let mud = 0;
@@ -48,8 +51,8 @@ for (const p of lote) {
   const comum = citacoes(rn) > 12;
   const outras = todas.filter((t) => t.p._ref !== ref);
   const SO_RESP = ['nao-e', 'numero', 'qual-primeiro'].includes(p.formato);
-  const R = rn.trim().length >= 3 && !SO_RESP ? outras.filter((t) => (!comum && t.r === rn) || (!comum && t.q.includes(rn))) : [];
-  const E = outras.filter((t) => t.r.trim().length >= 5 && t.r !== rn && qn.includes(t.r) && citacoes(t.r) <= 12);
+  const R = rn.trim().length >= 3 && !SO_RESP ? outras.filter((t) => (!comum && t.r === rn && !OPCAO.has(t.p.formato)) || (!comum && t.q.includes(rn))) : [];
+  const E = outras.filter((t) => !OPCAO.has(t.p.formato) && t.r.trim().length >= 5 && t.r !== rn && qn.includes(t.r) && citacoes(t.r) <= 12);
   const set = new Set(p.grupo_com || []);
   for (const t of SO.has(p.id) ? [] : [...R, ...E]) {
     const r = t.p._ref;

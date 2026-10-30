@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "095b1bbb38",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes estados NÃO fica na região Norte?",
+    "resposta": "Maranhão",
+    "alternativas": [
+      "Pará",
+      "Rondônia",
+      "Amapá",
+      "Maranhão"
+    ],
+    "subtema": "Regiões do Brasil",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "a76dd097aa",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes países NÃO fica na África?",
+    "resposta": "Jordânia",
+    "alternativas": [
+      "Gana",
+      "Mali",
+      "Quênia",
+      "Jordânia"
+    ],
+    "subtema": "Países da África",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:faa516ff4b",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:faa516ff4b)"
+  },
+  {
+    "id": "4a1ea478fb",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destas cidades NÃO é capital de país?",
+    "resposta": "Barcelona",
+    "alternativas": [
+      "Barcelona",
+      "Berlim",
+      "Madri",
+      "Roma"
+    ],
+    "subtema": "Capitais do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "855618a7c3",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes NÃO é um bioma brasileiro?",
+    "resposta": "Tundra",
+    "alternativas": [
+      "Pampa",
+      "Cerrado",
+      "Caatinga",
+      "Tundra"
+    ],
+    "subtema": "Biomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "4ffa86873e",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual destes países o português NÃO é língua oficial?",
+    "resposta": "Senegal",
+    "alternativas": [
+      "Angola",
+      "Cabo Verde",
+      "Moçambique",
+      "Senegal"
+    ],
+    "subtema": "Lusofonia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:1ef470daf6",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:1ef470daf6)"
+  },
+  {
+    "id": "8d782a9514",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes NÃO é um dispositivo de entrada do computador?",
+    "resposta": "Impressora",
+    "alternativas": [
+      "Microfone",
+      "Impressora",
+      "Mouse",
+      "Teclado"
+    ],
+    "subtema": "Hardware",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3796",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "resposta nova citada no texto antigo (4.7)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3796)"
+  },
+  {
+    "id": "62b932d61f",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes NÃO é um antivírus?",
+    "resposta": "Excel",
+    "alternativas": [
+      "Norton",
+      "McAfee",
+      "Excel",
+      "Avast"
+    ],
+    "subtema": "Segurança digital",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3949",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "grupo": "antivirus",
+    "grupo_com": [
+      "banco:5973"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3949)"
+  },
+  {
+    "id": "969c4eb7dc",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destas empresas de games NÃO é japonesa?",
+    "resposta": "Ubisoft",
+    "alternativas": [
+      "Capcom",
+      "Nintendo",
+      "Sega",
+      "Ubisoft"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4060",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.2)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4060)"
+  },
+  {
+    "id": "ffeb8dfd5e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes NÃO é um serviço de armazenamento em nuvem?",
+    "resposta": "Spotify",
+    "alternativas": [
+      "iCloud",
+      "Spotify",
+      "Google Drive",
+      "OneDrive"
+    ],
+    "subtema": "Nuvem",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7294",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:7294)"
+  },
+  {
+    "id": "b5f167efb6",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes órgãos NÃO faz parte do sistema respiratório?",
+    "resposta": "Rim",
+    "alternativas": [
+      "Pulmão",
+      "Traqueia",
+      "Brônquio",
+      "Rim"
+    ],
+    "subtema": "Corpo humano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1764",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.1, 25% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1764)"
+  },
+  {
+    "id": "44d77e154e",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes NÃO é um elemento químico?",
+    "resposta": "Água",
+    "alternativas": [
+      "Oxigênio",
+      "Água",
+      "Ferro",
+      "Ouro"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "d1674459f7",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes animais NÃO é um anfíbio?",
+    "resposta": "Lagarto",
+    "alternativas": [
+      "Perereca",
+      "Lagarto",
+      "Sapo",
+      "Rã"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6318",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "resposta nova citada no texto antigo (4.6)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:6318)"
+  },
+  {
+    "id": "693bddb614",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes clubes NÃO é espanhol?",
+    "resposta": "Juventus",
+    "alternativas": [
+      "Real Betis",
+      "Sevilla",
+      "Juventus",
+      "Valencia"
+    ],
+    "subtema": "Clubes do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "f843eabecc",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual destas posições NÃO existe no futebol americano?",
+    "resposta": "Levantador",
+    "alternativas": [
+      "Wide receiver",
+      "Running back",
+      "Levantador",
+      "Quarterback"
+    ],
+    "subtema": "Futebol americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2452",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.3, 34% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:2452)"
+  },
+  {
+    "id": "8eef259e62",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes esportes NÃO faz parte dos Jogos Olímpicos de Inverno?",
+    "resposta": "Surfe",
+    "alternativas": [
+      "Esqui",
+      "Patinação artística",
+      "Surfe",
+      "Curling"
+    ],
+    "subtema": "Olimpíadas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:58aa8bdcb3",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:58aa8bdcb3)"
+  },
+  {
+    "id": "087ace9626",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes NÃO foi uma das Sete Maravilhas do Mundo Antigo?",
+    "resposta": "Coliseu",
+    "alternativas": [
+      "Jardins Suspensos da Babilônia",
+      "Colosso de Rodes",
+      "Coliseu",
+      "Farol de Alexandria"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:4bda50666f",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (7.6, sim 0.2)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:4bda50666f)"
+  },
+  {
+    "id": "8b37c74021",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes países NÃO lutou ao lado da Tríplice Entente na Primeira Guerra Mundial?",
+    "resposta": "Áustria-Hungria",
+    "alternativas": [
+      "Áustria-Hungria",
+      "Rússia",
+      "Reino Unido",
+      "França"
+    ],
+    "subtema": "Primeira Guerra",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1144",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)",
+    "grupo": "entente",
+    "grupo_com": [
+      "banco:5270"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1144)"
+  },
+  {
+    "id": "accdb45b89",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes NÃO é um dos sete anões da Branca de Neve?",
+    "resposta": "Pateta",
+    "alternativas": [
+      "Soneca",
+      "Dunga",
+      "Mestre",
+      "Pateta"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null,
+    "grupo": "branca-de-neve",
+    "grupo_com": [
+      "banco:13347"
+    ]
+  },
+  {
+    "id": "8ec6e1a446",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em que século foi fundada a cidade de São Paulo?",
+    "resposta": "Século XVI",
+    "alternativas": [
+      "Século XVI",
+      "Século XVIII",
+      "Século XVII",
+      "Século XV"
+    ],
+    "subtema": "Cidades brasileiras",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:e6be0a7125",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.5)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:e6be0a7125)"
+  },
+  {
+    "id": "e891b85ebe",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década foi inaugurado o Canal do Panamá?",
+    "resposta": "Anos 1910",
+    "alternativas": [
+      "Anos 1930",
+      "Anos 1890",
+      "Anos 1910",
+      "Anos 1880"
+    ],
+    "subtema": "Obras",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": null,
+    "grupo": "canal-do-panama",
+    "grupo_com": [
+      "banco:5445"
+    ]
+  },
+  {
+    "id": "5c6f72d835",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Quantos países ficam na América Central continental?",
+    "resposta": "Sete",
+    "alternativas": [
+      "Sete",
+      "Seis",
+      "Nove",
+      "Cinco"
+    ],
+    "subtema": "América Central",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "8fce17d597",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Quantos estados tem a Austrália?",
+    "resposta": "Seis",
+    "alternativas": [
+      "Oito",
+      "Seis",
+      "Quatro",
+      "Dez"
+    ],
+    "subtema": "Austrália",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:69c820eacd",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "resposta nova citada no texto antigo (8.2)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:69c820eacd)"
+  },
+  {
+    "id": "32d5a0df60",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década foi inaugurada a primeira linha do metrô de São Paulo?",
+    "resposta": "Anos 1970",
+    "alternativas": [
+      "Anos 1950",
+      "Anos 1960",
+      "Anos 1990",
+      "Anos 1970"
+    ],
+    "subtema": "Obras",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:a45cabe903",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (14.5, 46% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:a45cabe903)"
+  },
+  {
+    "id": "370db01b1b",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Quantos fusos horários oficiais cobrem os 48 estados contíguos dos Estados Unidos?",
+    "resposta": "Quatro",
+    "alternativas": [
+      "Dois",
+      "Três",
+      "Seis",
+      "Quatro"
+    ],
+    "subtema": "Estados Unidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:548",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (14.6, 52% do fato)",
+    "grupo": "fusos-horarios",
+    "grupo_com": [
+      "banco:7316"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:548)"
+  },
+  {
+    "id": "ed269e7a5e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década foi lançado o navegador Google Chrome?",
+    "resposta": "Anos 2000",
+    "alternativas": [
+      "Anos 1980",
+      "Anos 1990",
+      "Anos 2000",
+      "Anos 2010"
+    ],
+    "subtema": "Internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ba07bd5d49",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 53% do fato)",
+    "grupo": "chrome",
+    "grupo_com": [
+      "banco:4945"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:ba07bd5d49)"
+  },
+  {
+    "id": "5c969781d1",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década surgiu o padrão Wi-Fi?",
+    "resposta": "Anos 1990",
+    "alternativas": [
+      "Anos 1980",
+      "Anos 1990",
+      "Anos 2000",
+      "Anos 1970"
+    ],
+    "subtema": "Redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3d7684f22a",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 53% do fato)",
+    "grupo": "wi-fi",
+    "grupo_com": [
+      "banco:5974"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:3d7684f22a)"
+  },
+  {
+    "id": "4beaba72fa",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década foram lançados os primeiros jogos de Pokémon?",
+    "resposta": "Anos 1990",
+    "alternativas": [
+      "Anos 2000",
+      "Anos 1970",
+      "Anos 1990",
+      "Anos 1980"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3d7684f22a",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 43% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:3d7684f22a)"
+  },
+  {
+    "id": "3f9834edc3",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década foi criado o Tetris?",
+    "resposta": "Anos 1980",
+    "alternativas": [
+      "Anos 1960",
+      "Anos 1980",
+      "Anos 1990",
+      "Anos 1970"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b175f47068",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 40% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:b175f47068)"
+  },
+  {
+    "id": "9094f52ea6",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década o Bluetooth foi lançado?",
+    "resposta": "Anos 1990",
+    "alternativas": [
+      "Anos 1980",
+      "Anos 2000",
+      "Anos 1990",
+      "Anos 1970"
+    ],
+    "subtema": "Redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3d7684f22a",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "R1 mesma resposta e texto parecido",
+    "grupo": "bluetooth",
+    "grupo_com": [
+      "banco:4608"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:3d7684f22a)"
+  },
+  {
+    "id": "585b829a78",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantos graus mede um ângulo reto?",
+    "resposta": "90",
+    "alternativas": [
+      "180",
+      "120",
+      "90",
+      "45"
+    ],
+    "subtema": "Matemática",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b033afad46",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (14.1)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:b033afad46)"
+  },
+  {
+    "id": "c62cfa5205",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantos lados tem um octógono?",
+    "resposta": "Oito",
+    "alternativas": [
+      "Dez",
+      "Seis",
+      "Oito",
+      "Sete"
+    ],
+    "subtema": "Matemática",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": null,
+    "grupo": "octogono",
+    "grupo_com": [
+      "banco:2715"
+    ]
+  },
+  {
+    "id": "d9031af466",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Quantos minutos tem um dia?",
+    "resposta": "1.440",
+    "alternativas": [
+      "1.440",
+      "1.240",
+      "2.400",
+      "1.640"
+    ],
+    "subtema": "Matemática",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "972d6620c8",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em que década foi disputada a primeira Copa Libertadores?",
+    "resposta": "Anos 1960",
+    "alternativas": [
+      "Anos 1960",
+      "Anos 1970",
+      "Anos 1950",
+      "Anos 1930"
+    ],
+    "subtema": "Libertadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "35cd4dc90b",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantos jogadores de cada time ficam em quadra no futsal, contando o goleiro?",
+    "resposta": "Cinco",
+    "alternativas": [
+      "Seis",
+      "Cinco",
+      "Sete",
+      "Quatro"
+    ],
+    "subtema": "Futsal",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:5d6b5781dd",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (12.4, 44% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:5d6b5781dd)"
+  },
+  {
+    "id": "e1bf8ea1c9",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em que século aconteceu a Guerra de Canudos?",
+    "resposta": "Século XIX",
+    "alternativas": [
+      "Século XVIII",
+      "Século XIX",
+      "Século XX",
+      "Século XVII"
+    ],
+    "subtema": "Brasil República",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:9c664ab27d",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.0)",
+    "grupo": "canudos",
+    "grupo_com": [
+      "banco:795"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:9c664ab27d)"
+  },
+  {
+    "id": "2ab98966e3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em que década estreou a novela \"Malhação\"?",
+    "resposta": "Anos 1990",
+    "alternativas": [
+      "Anos 1970",
+      "Anos 2000",
+      "Anos 1990",
+      "Anos 1980"
+    ],
+    "subtema": "TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3d7684f22a",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 43% do fato)",
+    "grupo": "malhacao",
+    "grupo_com": [
+      "banco:5501"
+    ],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:3d7684f22a)"
+  },
+  {
+    "id": "502f8708be",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual jurista disse no Senado, em 1914, que \"de tanto ver triunfar as nulidades\" o homem chega a desanimar da virtude?",
+    "resposta": "Rui Barbosa",
+    "alternativas": [
+      "Rui Barbosa",
+      "Joaquim Nabuco",
+      "José do Patrocínio",
+      "Barão do Rio Branco"
+    ],
+    "subtema": "Brasil República",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:536849853e",
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 20% do fato)",
+    "grupo": "rui-barbosa",
+    "grupo_com": [
+      "banco:1197",
+      "banco:6109",
+      "banco:11651"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"rui-barbosa\" (ref. id:536849853e)"
+  },
+  {
+    "id": "8275e225b1",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "A quem se atribui o aforismo \"a vida é breve, a arte é longa\"?",
+    "resposta": "Hipócrates",
+    "alternativas": [
+      "Aristóteles",
+      "Hipócrates",
+      "Sêneca",
+      "Galeno"
+    ],
+    "subtema": "Medicina",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": null,
+    "grupo": "hipocrates",
+    "grupo_com": [
+      "banco:1823"
+    ]
+  },
+  {
+    "id": "9c2ee608a3",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual astrônomo popularizou a máxima \"afirmações extraordinárias exigem evidências extraordinárias\"?",
+    "resposta": "Carl Sagan",
+    "alternativas": [
+      "Carl Sagan",
+      "Neil deGrasse Tyson",
+      "Stephen Hawking",
+      "Edwin Hubble"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2188",
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (11.2)",
+    "grupo": "sagan",
+    "grupo_com": [
+      "banco:2188",
+      "lote-107:9c37326b5b",
+      "lote-108:014bab8c85"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"sagan\" (ref. banco:2188)"
+  },
+  {
+    "id": "5c9f67c4a0",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual pensador canadense criou a frase \"o meio é a mensagem\"?",
+    "resposta": "Marshall McLuhan",
+    "alternativas": [
+      "Marshall McLuhan",
+      "Alvin Toffler",
+      "Umberto Eco",
+      "Noam Chomsky"
+    ],
+    "subtema": "Comunicação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "c86c10b987",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual empresário escreveu, em 1996, o ensaio \"Content is King\" (\"O conteúdo é rei\")?",
+    "resposta": "Bill Gates",
+    "alternativas": [
+      "Larry Page",
+      "Bill Gates",
+      "Jeff Bezos",
+      "Mark Zuckerberg"
+    ],
+    "subtema": "Empresas de tecnologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": null,
+    "grupo": "jobs-e-gates",
+    "grupo_com": [
+      "banco:4482",
+      "banco:5147",
+      "banco:12849",
+      "lote-106:f291c0f2d3"
+    ]
+  },
+  {
+    "id": "e01da8a011",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atacante disse que \"Pelé calado é um poeta\"?",
+    "resposta": "Romário",
+    "alternativas": [
+      "Romário",
+      "Ronaldinho",
+      "Neymar",
+      "Edmundo"
+    ],
+    "subtema": "Futebol brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2661",
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (4.8)",
+    "grupo": "romario",
+    "grupo_com": [
+      "banco:2661",
+      "banco:2855",
+      "banco:2902",
+      "lote-108:66c752c81c"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"romario\" (ref. banco:2661)"
+  },
+  {
+    "id": "880d196fb1",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual craque liderou a Democracia Corintiana, cujo lema era \"ganhar ou perder, mas sempre com democracia\"?",
+    "resposta": "Sócrates",
+    "alternativas": [
+      "Wladimir",
+      "Casagrande",
+      "Zé Maria",
+      "Sócrates"
+    ],
+    "subtema": "Futebol brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:7838",
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.6)",
+    "grupo": "socrates",
+    "grupo_com": [
+      "banco:822",
+      "banco:2508",
+      "banco:2779",
+      "banco:4924",
+      "banco:6444",
+      "banco:6710",
+      "banco:7838",
+      "banco:9003",
+      "banco:9792",
+      "banco:12247",
+      "lote-106:7b98e1fa79"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"socrates\" (ref. banco:7838)"
+  },
+  {
+    "id": "21969c80f4",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual personagem dizia \"Foi sem querer querendo\"?",
+    "resposta": "Chaves",
+    "alternativas": [
+      "Chaves",
+      "Chiquinha",
+      "Quico",
+      "Seu Madruga"
+    ],
+    "subtema": "TV",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "quem-disse",
+    "verificado_web": true,
+    "dup_regra": null,
+    "grupo": "chaves",
+    "grupo_com": [
+      "banco:3329",
+      "banco:4711",
+      "banco:5240",
+      "banco:5489",
+      "banco:9161",
+      "banco:13895",
+      "lote-107:f8e8612cb6",
+      "lote-109:739685c236"
+    ]
+  },
+  {
+    "id": "55530146fa",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destas pontes foi inaugurada primeiro?",
+    "resposta": "Ponte Golden Gate",
+    "alternativas": [
+      "Ponte JK",
+      "Ponte Rio-Niterói",
+      "Ponte Golden Gate",
+      "Ponte Vasco da Gama"
+    ],
+    "subtema": "Obras",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "626e1a0b7e",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes arranha-céus foi inaugurado primeiro?",
+    "resposta": "Empire State Building",
+    "alternativas": [
+      "One World Trade Center",
+      "Burj Khalifa",
+      "Torres Petronas",
+      "Empire State Building"
+    ],
+    "subtema": "Arranha-céus",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:986",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (13.7, sim 0.2)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:986)"
+  },
+  {
+    "id": "255ee32c08",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes canais foi inaugurado primeiro?",
+    "resposta": "Canal de Suez",
+    "alternativas": [
+      "Canal de Suez",
+      "Canal de Kiel",
+      "Canal de Corinto",
+      "Canal do Panamá"
+    ],
+    "subtema": "Canais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:292",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:292)"
+  },
+  {
+    "id": "86a25390a4",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes buscadores surgiu primeiro?",
+    "resposta": "Yahoo!",
+    "alternativas": [
+      "Yahoo!",
+      "Bing",
+      "DuckDuckGo",
+      "Google"
+    ],
+    "subtema": "Internet",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3739",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.6, 46% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3739)"
+  },
+  {
+    "id": "2f686e9658",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes consoles da Nintendo foi lançado primeiro?",
+    "resposta": "Super Nintendo",
+    "alternativas": [
+      "Wii",
+      "Nintendo 64",
+      "Super Nintendo",
+      "GameCube"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3972",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.6)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3972)"
+  },
+  {
+    "id": "4ac327d26a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual destas linguagens de programação surgiu primeiro?",
+    "resposta": "Fortran",
+    "alternativas": [
+      "Python",
+      "Java",
+      "Fortran",
+      "C"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4763",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 9.0)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:4763)"
+  },
+  {
+    "id": "a9e77533a1",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes planetas anões foi descoberto primeiro?",
+    "resposta": "Plutão",
+    "alternativas": [
+      "Haumea",
+      "Éris",
+      "Makemake",
+      "Plutão"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2179",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.7, 32% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:2179)"
+  },
+  {
+    "id": "15b0e1a58f",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes instrumentos médicos foi inventado primeiro?",
+    "resposta": "Estetoscópio",
+    "alternativas": [
+      "Marca-passo implantável",
+      "Estetoscópio",
+      "Ressonância magnética",
+      "Aparelho de raio X"
+    ],
+    "subtema": "Medicina",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1752",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (10.6, sim 0.3)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1752)"
+  },
+  {
+    "id": "423f7639df",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes clubes foi fundado primeiro?",
+    "resposta": "Grêmio",
+    "alternativas": [
+      "Palmeiras",
+      "Grêmio",
+      "Corinthians",
+      "São Paulo"
+    ],
+    "subtema": "Clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ff123cd6ed",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.5)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:ff123cd6ed)"
+  },
+  {
+    "id": "baf7a49d0d",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes Jogos Olímpicos aconteceu primeiro?",
+    "resposta": "Berlim",
+    "alternativas": [
+      "Roma",
+      "Berlim",
+      "Munique",
+      "Barcelona"
+    ],
+    "subtema": "Olimpíadas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:2806dd7ccc",
+    "recente": false,
+    "formato": "qual-primeiro",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.5)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:2806dd7ccc)"
+  },
+  {
+    "id": "214408332b",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do país africano: \"Costa do...\"",
+    "resposta": "Marfim",
+    "alternativas": [
+      "Cabo",
+      "Sol",
+      "Ouro",
+      "Marfim"
+    ],
+    "subtema": "Países",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6807",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "resposta nova citada no texto antigo (8.0)",
+    "grupo": "costa-do-marfim",
+    "grupo_com": [
+      "banco:612",
+      "banco:6807"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"costa-do-marfim\" (ref. banco:6807)"
+  },
+  {
+    "id": "b85942ee33",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome da cordilheira sul-americana: \"Cordilheira dos...\"",
+    "resposta": "Andes",
+    "alternativas": [
+      "Pireneus",
+      "Alpes",
+      "Andes",
+      "Apeninos"
+    ],
+    "subtema": "Relevo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:267",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (10.4)",
+    "grupo": "andes",
+    "grupo_com": [
+      "banco:267",
+      "banco:881",
+      "banco:1152",
+      "banco:1265",
+      "banco:2384",
+      "banco:4880",
+      "banco:10150",
+      "banco:10269",
+      "banco:13435"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"andes\" (ref. banco:267)"
+  },
+  {
+    "id": "db5556ebfe",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do deserto chileno: \"Deserto do...\"",
+    "resposta": "Atacama",
+    "alternativas": [
+      "Kalahari",
+      "Saara",
+      "Gobi",
+      "Atacama"
+    ],
+    "subtema": "Desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:73",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.9)",
+    "grupo": "atacama",
+    "grupo_com": [
+      "banco:73"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"atacama\" (ref. banco:73)"
+  },
+  {
+    "id": "42647d6112",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do console da Sega: \"Mega...\"",
+    "resposta": "Drive",
+    "alternativas": [
+      "Station",
+      "Drive",
+      "System",
+      "Power"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4125",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 18.7)",
+    "grupo": "mega-drive",
+    "grupo_com": [
+      "banco:4007",
+      "banco:4019",
+      "banco:4067",
+      "banco:4125",
+      "banco:7095",
+      "banco:7298",
+      "banco:9825",
+      "banco:9827"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"mega-drive\" (ref. banco:4125)"
+  },
+  {
+    "id": "7fff639db3",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do jogo de celular dos passarinhos: \"Angry...\"",
+    "resposta": "Birds",
+    "alternativas": [
+      "Ducks",
+      "Birds",
+      "Eagles",
+      "Pigs"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4716",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.2)",
+    "grupo": "angry-birds",
+    "grupo_com": [
+      "banco:4061"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"angry-birds\" (ref. banco:4716)"
+  },
+  {
+    "id": "6050af36b7",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Complete o nome da partícula confirmada em 2012: \"Bóson de...\"",
+    "resposta": "Higgs",
+    "alternativas": [
+      "Planck",
+      "Bohr",
+      "Higgs",
+      "Fermi"
+    ],
+    "subtema": "Física",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2073",
+    "recente": false,
+    "formato": "complete",
+    "verificado_web": true,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (18.3)",
+    "grupo": "higgs",
+    "grupo_com": [
+      "banco:2073"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"higgs\" (ref. banco:2073)"
+  },
+  {
+    "id": "418885589d",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do objeto de onde nem a luz escapa: \"Buraco...\"",
+    "resposta": "negro",
+    "alternativas": [
+      "negro",
+      "branco",
+      "estelar",
+      "de minhoca"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1935",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 26.1)",
+    "grupo": "hawking",
+    "grupo_com": [
+      "banco:1659",
+      "banco:1935"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"hawking\" (ref. banco:1935)"
+  },
+  {
+    "id": "146f8ae151",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do estádio do Real Madrid: \"Santiago...\"",
+    "resposta": "Bernabéu",
+    "alternativas": [
+      "Riazor",
+      "Bernabéu",
+      "Mestalla",
+      "Calderón"
+    ],
+    "subtema": "Estádios",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2729",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "E2 mesma resposta e mesmo assunto (17.3, 79% do fato)",
+    "grupo": "bernabeu",
+    "grupo_com": [
+      "banco:2729"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"bernabeu\" (ref. banco:2729)"
+  },
+  {
+    "id": "5e77fd183e",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Complete o nome do clube holandês: \"PSV...\"",
+    "resposta": "Eindhoven",
+    "alternativas": [
+      "Eindhoven",
+      "Utrecht",
+      "Rotterdam",
+      "Amsterdam"
+    ],
+    "subtema": "Clubes do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6340",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 5.2)",
+    "grupo": "psv",
+    "grupo_com": [
+      "banco:6340"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"psv\" (ref. banco:6340)"
+  },
+  {
+    "id": "82fdd5c843",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Complete o título da trilogia com Marty McFly: \"De Volta para o...\"",
+    "resposta": "Futuro",
+    "alternativas": [
+      "Futuro",
+      "Passado",
+      "Presente",
+      "Começo"
+    ],
+    "subtema": "Cinema",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9337",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 21.5)",
+    "grupo": "de-volta-para-o-futuro",
+    "grupo_com": [
+      "banco:9337"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"de-volta-para-o-futuro\" (ref. banco:9337)"
+  },
+  {
+    "id": "c5f47db0b5",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do episódio de 14 de julho de 1789: \"Queda da...\"",
+    "resposta": "Bastilha",
+    "alternativas": [
+      "Bastilha",
+      "Monarquia",
+      "Torre",
+      "Guilhotina"
+    ],
+    "subtema": "Revolução Francesa",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "complete",
+    "verificado_web": true,
+    "dup_regra": null,
+    "grupo": "bastilha",
+    "grupo_com": [
+      "banco:837"
+    ]
+  },
+  {
+    "id": "5a262a6b71",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica o Museu do Louvre?",
+    "resposta": "Paris",
+    "alternativas": [
+      "Viena",
+      "Londres",
+      "Bruxelas",
+      "Paris"
+    ],
+    "subtema": "Museus",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ca960fbab0",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "louvre",
+    "grupo_com": [
+      "banco:11832"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 9.7)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"louvre\" (ref. id:ca960fbab0)"
+  },
+  {
+    "id": "7051b92c64",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica a Praça Vermelha?",
+    "resposta": "Moscou",
+    "alternativas": [
+      "Moscou",
+      "São Petersburgo",
+      "Varsóvia",
+      "Kiev"
+    ],
+    "subtema": "Cidades do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8693",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "stalin",
+    "grupo_com": [
+      "banco:8693",
+      "banco:6507"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.5)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"stalin\" (ref. banco:8693)"
+  },
+  {
+    "id": "0a948b51f8",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica o morro do Pão de Açúcar?",
+    "resposta": "Rio de Janeiro",
+    "alternativas": [
+      "Florianópolis",
+      "Rio de Janeiro",
+      "Salvador",
+      "Vitória"
+    ],
+    "subtema": "Rio de Janeiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5443",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "pao-de-acucar",
+    "grupo_com": [
+      "banco:5443"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 6.6)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"pao-de-acucar\" (ref. banco:5443)"
+  },
+  {
+    "id": "7dd5d63f8b",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica o Central Park?",
+    "resposta": "Nova York",
+    "alternativas": [
+      "Boston",
+      "Los Angeles",
+      "Chicago",
+      "Nova York"
+    ],
+    "subtema": "Nova York",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8193",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "central-park",
+    "grupo_com": [
+      "banco:8193"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"central-park\" (ref. banco:8193)"
+  },
+  {
+    "id": "2ada73a807",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual cidade fica o Empire State Building?",
+    "resposta": "Nova York",
+    "alternativas": [
+      "Nova York",
+      "Filadélfia",
+      "Washington",
+      "Chicago"
+    ],
+    "subtema": "Nova York",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:986",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "empire-state",
+    "grupo_com": [
+      "banco:986"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"empire-state\" (ref. banco:986)"
+  },
+  {
+    "id": "464399a39b",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual empresa fabrica o iPhone?",
+    "resposta": "Apple",
+    "alternativas": [
+      "Nokia",
+      "Motorola",
+      "LG",
+      "Apple"
+    ],
+    "subtema": "Celulares",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "iphone",
+    "grupo_com": [
+      "banco:4521"
+    ],
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "c4b03b2380",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual rede social tinha um passarinho azul como logotipo antes de virar X?",
+    "resposta": "Twitter",
+    "alternativas": [
+      "Facebook",
+      "Tumblr",
+      "Orkut",
+      "Twitter"
+    ],
+    "subtema": "Redes sociais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5229",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "musk",
+    "grupo_com": [
+      "banco:4161"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 15.0)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"musk\" (ref. banco:5229)"
+  },
+  {
+    "id": "b02de3074f",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual empresa fabrica os consoles Xbox?",
+    "resposta": "Microsoft",
+    "alternativas": [
+      "Sega",
+      "Sony",
+      "Nintendo",
+      "Microsoft"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5711",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "xbox",
+    "grupo_com": [
+      "banco:3965"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 5.6)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"xbox\" (ref. banco:5711)"
+  },
+  {
+    "id": "fce19469a9",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual empresa fabrica os celulares da linha Galaxy?",
+    "resposta": "Samsung",
+    "alternativas": [
+      "Xiaomi",
+      "Samsung",
+      "LG",
+      "Motorola"
+    ],
+    "subtema": "Celulares",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4123",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "galaxy",
+    "grupo_com": [
+      "banco:4123",
+      "banco:4189",
+      "banco:4355"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 9.2)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"galaxy\" (ref. banco:4123)"
+  },
+  {
+    "id": "84752d842e",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual planeta é chamado de \"Planeta Vermelho\"?",
+    "resposta": "Marte",
+    "alternativas": [
+      "Marte",
+      "Mercúrio",
+      "Júpiter",
+      "Vênus"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "marte",
+    "grupo_com": [
+      "banco:1736"
+    ],
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "27aa2c8a3b",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual doença a vacina de Jonas Salk, de 1955, ajudou a combater?",
+    "resposta": "Poliomielite",
+    "alternativas": [
+      "Sarampo",
+      "Varíola",
+      "Poliomielite",
+      "Tétano"
+    ],
+    "subtema": "Saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2079",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "salk",
+    "grupo_com": [
+      "banco:6020",
+      "banco:1900",
+      "banco:2079"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.4)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"salk\" (ref. banco:2079)"
+  },
+  {
+    "id": "e4d0a9e820",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "A unidade de potência watt homenageia qual inventor escocês?",
+    "resposta": "James Watt",
+    "alternativas": [
+      "James Watt",
+      "James Joule",
+      "André-Marie Ampère",
+      "Alessandro Volta"
+    ],
+    "subtema": "Física",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1879",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "watt",
+    "grupo_com": [
+      "banco:1298"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (12.6)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"watt\" (ref. banco:1879)"
+  },
+  {
+    "id": "7e48e64547",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual piloto brasileiro foi campeão mundial de Fórmula 1 em 1981, 1983 e 1987?",
+    "resposta": "Nelson Piquet",
+    "alternativas": [
+      "Emerson Fittipaldi",
+      "Nelson Piquet",
+      "Rubens Barrichello",
+      "Felipe Massa"
+    ],
+    "subtema": "Fórmula 1",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:afc206a601",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "piquet",
+    "grupo_com": [
+      "banco:2762",
+      "banco:13214"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 25.1)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"piquet\" (ref. id:afc206a601)"
+  },
+  {
+    "id": "92604544ce",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual ginasta americana ganhou quatro medalhas de ouro nos Jogos do Rio, em 2016?",
+    "resposta": "Simone Biles",
+    "alternativas": [
+      "Simone Biles",
+      "Gabby Douglas",
+      "Shawn Johnson",
+      "Aly Raisman"
+    ],
+    "subtema": "Ginástica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2511",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "biles",
+    "grupo_com": [
+      "banco:2511"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.4, sim 0.2)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"biles\" (ref. banco:2511)"
+  },
+  {
+    "id": "2f84596f3c",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual cientista inglês dá nome à \"gaiola\" que protege quem está dentro de um carro atingido por um raio?",
+    "resposta": "Michael Faraday",
+    "alternativas": [
+      "James Clerk Maxwell",
+      "Robert Hooke",
+      "Humphry Davy",
+      "Michael Faraday"
+    ],
+    "subtema": "Física",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3bf649dd8b",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "faraday",
+    "grupo_com": [
+      "banco:2274"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e enunciados parecidos (0.8)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"faraday\" (ref. id:3bf649dd8b)"
+  },
+  {
+    "id": "c6d1cfaa8c",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual pensador grego fundou uma escola em Crotona que via nos números a essência de tudo?",
+    "resposta": "Pitágoras",
+    "alternativas": [
+      "Euclides",
+      "Tales de Mileto",
+      "Pitágoras",
+      "Arquimedes"
+    ],
+    "subtema": "Matemática",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8402",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "pitagoras",
+    "grupo_com": [
+      "banco:8402"
+    ],
+    "verificado_web": true,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.2)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"pitagoras\" (ref. banco:8402)"
+  },
+  {
+    "id": "0e09861c27",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual astrônomo polonês publicou \"Das Revoluções das Esferas Celestes\", em 1543?",
+    "resposta": "Nicolau Copérnico",
+    "alternativas": [
+      "Nicolau Copérnico",
+      "Johannes Kepler",
+      "Giordano Bruno",
+      "Tycho Brahe"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "copernico",
+    "grupo_com": [
+      "banco:1789"
+    ],
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "445f36dc98",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual país fica o templo de Angkor Wat?",
+    "resposta": "Camboja",
+    "alternativas": [
+      "Camboja",
+      "Laos",
+      "Vietnã",
+      "Tailândia"
+    ],
+    "subtema": "Monumentos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:720",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "angkor",
+    "grupo_com": [
+      "banco:720"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R1 mesma resposta e texto parecido",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"angkor\" (ref. banco:720)"
+  },
+  {
+    "id": "3009260983",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual velocista jamaicano detém o recorde mundial dos 100 metros, com 9s58?",
+    "resposta": "Usain Bolt",
+    "alternativas": [
+      "Tyson Gay",
+      "Usain Bolt",
+      "Asafa Powell",
+      "Yohan Blake"
+    ],
+    "subtema": "Atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6892",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "bolt",
+    "grupo_com": [
+      "banco:5932"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R5 parte da resposta citada + muito assunto em comum (peso 23.8)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"bolt\" (ref. banco:6892)"
+  },
+  {
+    "id": "12d139d1c8",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual piloto brasileiro morreu num acidente em Ímola, em 1994?",
+    "resposta": "Ayrton Senna",
+    "alternativas": [
+      "Rubens Barrichello",
+      "Ayrton Senna",
+      "Emerson Fittipaldi",
+      "Felipe Massa"
+    ],
+    "subtema": "Fórmula 1",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3164",
+    "recente": false,
+    "formato": "espelho",
+    "grupo": "ayrton-senna",
+    "grupo_com": [
+      "banco:3165",
+      "banco:2532",
+      "banco:2599",
+      "banco:2763",
+      "banco:2804",
+      "banco:2983",
+      "banco:3164",
+      "banco:5306",
+      "banco:7051",
+      "banco:13216",
+      "lote-106:11b679c162"
+    ],
+    "verificado_web": true,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 19.1)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"ayrton-senna\" (ref. banco:3164)"
+  },
+  {
+    "id": "fddba9d020",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual oceano fica o arquipélago de Fernando de Noronha?",
+    "resposta": "Atlântico",
+    "alternativas": [
+      "Atlântico",
+      "Antártico",
+      "Pacífico",
+      "Índico"
+    ],
+    "subtema": "Ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:08e85f031e",
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "noronha",
+    "grupo_com": [
+      "banco:322",
+      "lote-109:08e85f031e"
+    ],
+    "verificado_web": true,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.2)",
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"noronha\" (ref. id:08e85f031e)"
+  },
+  {
+    "id": "b9a911e44a",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Dentro de qual cidade fica o Vaticano?",
+    "resposta": "Roma",
+    "alternativas": [
+      "Roma",
+      "Milão",
+      "Florença",
+      "Veneza"
+    ],
+    "subtema": "Itália",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "mesmo-grupo",
+    "grupo": "vaticano",
+    "grupo_com": [
+      "banco:79"
+    ],
+    "verificado_web": true,
+    "dup_regra": null
+  },
+  {
+    "id": "1938ccd99d",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes países NÃO é uma ilha ou arquipélago?",
+    "resposta": "Bolívia",
+    "alternativas": [
+      "Japão",
+      "Bolívia",
+      "Madagascar",
+      "Islândia"
+    ],
+    "subtema": "Ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "8a7b15bd4c",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes consoles NÃO é da Sony?",
+    "resposta": "Xbox",
+    "alternativas": [
+      "PlayStation 2",
+      "Xbox",
+      "PlayStation Vita",
+      "PSP"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3965",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (5.6)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:3965)"
+  },
+  {
+    "id": "aec2544994",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual destes elementos NÃO é um gás à temperatura ambiente?",
+    "resposta": "Mercúrio",
+    "alternativas": [
+      "Hélio",
+      "Mercúrio",
+      "Oxigênio",
+      "Hidrogênio"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1890",
+    "recente": false,
+    "formato": "nao-e",
+    "grupo": "mercurio",
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (12.5)",
+    "grupo_com": [],
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:1890)"
+  },
+  {
+    "id": "d1582cbe20",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes atletas NÃO é tenista?",
+    "resposta": "Michael Phelps",
+    "alternativas": [
+      "Roger Federer",
+      "Novak Djokovic",
+      "Michael Phelps",
+      "Rafael Nadal"
+    ],
+    "subtema": "Tênis",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6640",
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. banco:6640)"
+  },
+  {
+    "id": "860a535fe6",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual destes estados NÃO fica na região Sul?",
+    "resposta": "São Paulo",
+    "alternativas": [
+      "Santa Catarina",
+      "Rio Grande do Sul",
+      "Paraná",
+      "São Paulo"
+    ],
+    "subtema": "Regiões do Brasil",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "formato": "nao-e",
+    "dup_regra": null
+  },
+  {
+    "id": "bd5d7da9af",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década o Google foi fundado?",
+    "resposta": "Anos 1990",
+    "alternativas": [
+      "Anos 1980",
+      "Anos 1990",
+      "Anos 1970",
+      "Anos 2000"
+    ],
+    "subtema": "Empresas de tecnologia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3d7684f22a",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 43% do fato)",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:3d7684f22a)"
+  },
+  {
+    "id": "ce4b9d136e",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em que década o WhatsApp foi lançado?",
+    "resposta": "Anos 2000",
+    "alternativas": [
+      "Anos 2010",
+      "Anos 1980",
+      "Anos 1990",
+      "Anos 2000"
+    ],
+    "subtema": "Aplicativos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ba07bd5d49",
+    "recente": false,
+    "formato": "numero",
+    "verificado_web": true,
+    "dup_regra": "R1 mesma resposta e texto parecido",
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:ba07bd5d49)"
+  },
+  {
+    "id": "4d7e028239",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome do jogo de celular da King: \"Candy...\"",
+    "resposta": "Crush",
+    "alternativas": [
+      "Land",
+      "Saga",
+      "Crush",
+      "Rush"
+    ],
+    "subtema": "Games",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4569",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 7.8)",
+    "grupo": "candy-crush",
+    "grupo_com": [
+      "banco:3604",
+      "banco:4569"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"candy-crush\" (ref. banco:4569)"
+  },
+  {
+    "id": "6d7d4492f3",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Complete o nome da teoria sobre a origem do universo: \"Big...\"",
+    "resposta": "Bang",
+    "alternativas": [
+      "Boom",
+      "Blast",
+      "Bang",
+      "Start"
+    ],
+    "subtema": "Astronomia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2413",
+    "recente": false,
+    "formato": "complete",
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (16.1)",
+    "grupo": "big-bang",
+    "grupo_com": [
+      "banco:2412",
+      "banco:2413",
+      "banco:2414",
+      "banco:3336"
+    ],
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"big-bang\" (ref. banco:2413)"
+  }
+]

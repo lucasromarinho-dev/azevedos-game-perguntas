@@ -879,7 +879,9 @@
       "banco:1065",
       "banco:1270",
       "banco:4801",
-      "banco:11039"
+      "banco:11039",
+      "lote-108:7e56895364",
+      "lote-109:c6fe4a8282"
     ]
   },
   {
@@ -914,7 +916,8 @@
       "banco:7838",
       "banco:9003",
       "banco:9792",
-      "banco:12247"
+      "banco:12247",
+      "lote-110:880d196fb1"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"socrates\" (ref. banco:822)"
   },
@@ -1025,7 +1028,8 @@
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
     "grupo": "newton",
     "grupo_com": [
-      "banco:1924"
+      "banco:1924",
+      "lote-108:91a85a5fb0"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"newton\" (ref. banco:1924)"
   },
@@ -1054,7 +1058,8 @@
     "grupo_com": [
       "banco:2242",
       "banco:8403",
-      "banco:10390"
+      "banco:10390",
+      "lote-109:c6ca453b41"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"einstein\" (ref. id:19f8bdbe87)"
   },
@@ -1172,7 +1177,8 @@
     "grupo": "zuckerberg",
     "grupo_com": [
       "banco:4332",
-      "banco:6875"
+      "banco:6875",
+      "lote-107:4359c03d0a"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"zuckerberg\" (ref. banco:4332)"
   },
@@ -1715,6 +1721,7 @@
     "dup_ref": null,
     "recente": false,
     "formato": "complete",
+    "verificado_web": true,
     "dup_regra": null,
     "grupo": "lavoisier",
     "grupo_com": [
@@ -1856,7 +1863,8 @@
       "banco:3165",
       "banco:5306",
       "banco:7051",
-      "banco:13216"
+      "banco:13216",
+      "lote-110:12d139d1c8"
     ],
     "verificado_web": true,
     "dup_regra": "resposta nova citada no texto antigo (5.4)",
@@ -2016,8 +2024,8 @@
     "subtema": "TV brasileira",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:6646",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "formato": "mesmo-grupo",
     "grupo": "xuxa",
@@ -2026,11 +2034,11 @@
       "banco:5694",
       "banco:6744",
       "banco:7369",
-      "banco:8443"
+      "banco:8443",
+      "lote-108:1e5b3c1ff2"
     ],
     "verificado_web": true,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"xuxa\" (ref. banco:6646)"
+    "dup_regra": null
   },
   {
     "id": "7c0ef8b2d5",
@@ -2081,7 +2089,9 @@
     "grupo": "corcovado",
     "grupo_com": [
       "banco:29",
-      "banco:7940"
+      "banco:7940",
+      "lote-108:0f1246c634",
+      "lote-109:46b4dfa313"
     ],
     "verificado_web": true,
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.2)",
@@ -2116,7 +2126,8 @@
       "banco:1416",
       "banco:4736",
       "banco:6009",
-      "banco:10698"
+      "banco:10698",
+      "lote-109:1eb6177bb6"
     ],
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (10.5, 26% do fato)",
@@ -2137,8 +2148,8 @@
     "subtema": "Brasil República",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:909",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
     "formato": "mesmo-grupo",
     "grupo": "juscelino",
@@ -2148,8 +2159,7 @@
       "banco:1188"
     ],
     "verificado_web": true,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.9)",
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"juscelino\" (ref. banco:909)"
+    "dup_regra": null
   },
   {
     "id": "b22956759e",
@@ -2234,6 +2244,7 @@
       "banco:2242",
       "banco:8403",
       "banco:10390",
+      "lote-109:c6ca453b41",
       "lote-106:7a28f11218"
     ],
     "verificado_web": true,
@@ -2262,6 +2273,7 @@
     "grupo": "newton",
     "grupo_com": [
       "banco:1924",
+      "lote-108:91a85a5fb0",
       "lote-106:a1516f4547"
     ],
     "verificado_web": true,
@@ -2320,7 +2332,8 @@
     "grupo_com": [
       "banco:4482",
       "banco:5147",
-      "banco:12849"
+      "banco:12849",
+      "lote-110:c86c10b987"
     ],
     "verificado_web": true,
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.3)",
@@ -2351,6 +2364,7 @@
       "banco:3902",
       "banco:4479",
       "banco:13590",
+      "lote-107:fea54b9c1f",
       "banco:5144"
     ],
     "verificado_web": true,

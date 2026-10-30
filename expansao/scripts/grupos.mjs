@@ -22,6 +22,9 @@ const alvo = args.filter((a) => /^lote-\d+\.json$/.test(a));
 const piloto = arqsPiloto.flatMap((f) => JSON.parse(readFileSync(join(PASTA_LOTES, f), 'utf8'))
   .filter((p) => p.status !== 'descartada').map((p) => ({ ...p, _ref: 'lote-' + f.slice(5, 8) + ':' + p.id, _arq: f })));
 const todas = [...main.map((p, i) => ({ ...p, _ref: 'banco:' + i })), ...piloto].map((p) => ({ p, q: norm(p.pergunta), r: norm(p.resposta) }));
+// Outra pergunta de formato nao-e, numero ou qual-primeiro: a resposta dela é só uma opção de lista, então ter a mesma
+// resposta ou ter a resposta dela citada não entrega nada (o enunciado dela citar a nossa resposta continua contando).
+const OPCAO = new Set(['nao-e', 'numero', 'qual-primeiro']);
 const cit = new Map();
 const citacoes = (rn) => { if (!cit.has(rn)) cit.set(rn, todas.filter((t) => t.q.includes(rn)).length); return cit.get(rn); };
 const LIM = 12;
@@ -40,8 +43,8 @@ for (const p of piloto) {
   const rn = norm(p.resposta), qn = norm(p.pergunta);
   const outras = todas.filter((t) => t.p._ref !== p._ref);
   const comum = citacoes(rn) > LIM;
-  const R = rn.trim().length >= 3 && !SO_RESP.has(p.formato) ? outras.filter((t) => (!comum && t.r === rn) || (!comum && t.q.includes(rn))) : [];
-  const E = outras.filter((t) => t.r.trim().length >= 5 && t.r !== rn && qn.includes(t.r) && citacoes(t.r) <= LIM);
+  const R = rn.trim().length >= 3 && !SO_RESP.has(p.formato) ? outras.filter((t) => (!comum && t.r === rn && !OPCAO.has(t.p.formato)) || (!comum && t.q.includes(rn))) : [];
+  const E = outras.filter((t) => !OPCAO.has(t.p.formato) && t.r.trim().length >= 5 && t.r !== rn && qn.includes(t.r) && citacoes(t.r) <= LIM);
   const gc = new Set(p.grupo_com || []);
   // perguntas do mesmo grupo no piloto também contam como cobertas
   const mesmoGrupo = new Set(piloto.filter((x) => p.grupo && x.grupo === p.grupo).map((x) => x._ref));

@@ -1,0 +1,103 @@
+# Lote 110 - piloto de formatos novos. Campos extras: F=formato, G=grupo, GC=grupo_com, V=verificado na web
+# nao-e
+G|f|Regiões do Brasil|Qual destes estados NÃO fica na região Norte?|Maranhão|Pará;Amapá;Rondônia|F=nao-e
+G|m|Países da África|Qual destes países NÃO fica na África?|Jordânia|Quênia;Gana;Mali|F=nao-e
+G|f|Capitais do mundo|Qual destas cidades NÃO é capital de país?|Barcelona|Madri;Roma;Berlim|F=nao-e
+G|f|Biomas|Qual destes NÃO é um bioma brasileiro?|Tundra|Cerrado;Caatinga;Pampa|F=nao-e
+G|m|Lusofonia|Em qual destes países o português NÃO é língua oficial?|Senegal|Angola;Moçambique;Cabo Verde|F=nao-e
+T|f|Hardware|Qual destes NÃO é um dispositivo de entrada do computador?|Impressora|Teclado;Mouse;Microfone|F=nao-e
+T|m|Segurança digital|Qual destes NÃO é um antivírus?|Excel|Avast;Norton;McAfee|F=nao-e
+T|m|Games|Qual destas empresas de games NÃO é japonesa?|Ubisoft|Nintendo;Sega;Capcom|F=nao-e
+T|m|Nuvem|Qual destes NÃO é um serviço de armazenamento em nuvem?|Spotify|Google Drive;OneDrive;iCloud|F=nao-e
+C|f|Corpo humano|Qual destes órgãos NÃO faz parte do sistema respiratório?|Rim|Pulmão;Traqueia;Brônquio|F=nao-e
+C|f|Química|Qual destes NÃO é um elemento químico?|Água|Ouro;Oxigênio;Ferro|F=nao-e
+C|m|Animais|Qual destes animais NÃO é um anfíbio?|Lagarto|Sapo;Rã;Perereca|F=nao-e
+E|f|Clubes do mundo|Qual destes clubes NÃO é espanhol?|Juventus|Sevilla;Valencia;Real Betis|F=nao-e
+E|m|Futebol americano|Qual destas posições NÃO existe no futebol americano?|Levantador|Quarterback;Running back;Wide receiver|F=nao-e
+E|f|Olimpíadas|Qual destes esportes NÃO faz parte dos Jogos Olímpicos de Inverno?|Surfe|Esqui;Curling;Patinação artística|F=nao-e
+H|m|Antiguidade|Qual destes NÃO foi uma das Sete Maravilhas do Mundo Antigo?|Coliseu|Farol de Alexandria;Colosso de Rodes;Jardins Suspensos da Babilônia|F=nao-e
+H|m|Primeira Guerra|Qual destes países NÃO lutou ao lado da Tríplice Entente na Primeira Guerra Mundial?|Áustria-Hungria|França;Reino Unido;Rússia|F=nao-e
+N|f|Animação|Qual destes NÃO é um dos sete anões da Branca de Neve?|Pateta|Dunga;Mestre;Soneca|F=nao-e
+# numero
+G|m|Cidades brasileiras|Em que século foi fundada a cidade de São Paulo?|Século XVI|Século XV;Século XVII;Século XVIII|F=numero|V
+G|m|Obras|Em que década foi inaugurado o Canal do Panamá?|Anos 1910|Anos 1880;Anos 1890;Anos 1930|F=numero|V
+G|m|América Central|Quantos países ficam na América Central continental?|Sete|Cinco;Seis;Nove|F=numero|V
+G|m|Austrália|Quantos estados tem a Austrália?|Seis|Quatro;Oito;Dez|F=numero|V
+G|m|Obras|Em que década foi inaugurada a primeira linha do metrô de São Paulo?|Anos 1970|Anos 1950;Anos 1960;Anos 1990|F=numero|V
+G|m|Estados Unidos|Quantos fusos horários oficiais cobrem os 48 estados contíguos dos Estados Unidos?|Quatro|Dois;Três;Seis|F=numero|V
+T|m|Internet|Em que década foi lançado o navegador Google Chrome?|Anos 2000|Anos 1980;Anos 1990;Anos 2010|F=numero|V
+T|m|Redes|Em que década surgiu o padrão Wi-Fi?|Anos 1990|Anos 1970;Anos 1980;Anos 2000|F=numero|V
+T|m|Games|Em que década foram lançados os primeiros jogos de Pokémon?|Anos 1990|Anos 1970;Anos 1980;Anos 2000|F=numero|V
+T|m|Games|Em que década foi criado o Tetris?|Anos 1980|Anos 1960;Anos 1970;Anos 1990|F=numero|V
+T|m|Redes|Em que década o Bluetooth foi lançado?|Anos 1990|Anos 1970;Anos 1980;Anos 2000|F=numero|V
+C|f|Matemática|Quantos graus mede um ângulo reto?|90|45;120;180|F=numero|V
+C|f|Matemática|Quantos lados tem um octógono?|Oito|Seis;Sete;Dez|F=numero|V
+C|f|Matemática|Quantos minutos tem um dia?|1.440|1.240;1.640;2.400|F=numero|V
+E|m|Libertadores|Em que década foi disputada a primeira Copa Libertadores?|Anos 1960|Anos 1930;Anos 1950;Anos 1970|F=numero|V
+E|f|Futsal|Quantos jogadores de cada time ficam em quadra no futsal, contando o goleiro?|Cinco|Quatro;Seis;Sete|F=numero|V
+H|m|Brasil República|Em que século aconteceu a Guerra de Canudos?|Século XIX|Século XVII;Século XVIII;Século XX|F=numero|V
+N|m|TV brasileira|Em que década estreou a novela "Malhação"?|Anos 1990|Anos 1970;Anos 1980;Anos 2000|F=numero|V
+# quem-disse
+H|m|Brasil República|Qual jurista disse no Senado, em 1914, que "de tanto ver triunfar as nulidades" o homem chega a desanimar da virtude?|Rui Barbosa|Joaquim Nabuco;Barão do Rio Branco;José do Patrocínio|F=quem-disse|V
+C|m|Medicina|A quem se atribui o aforismo "a vida é breve, a arte é longa"?|Hipócrates|Galeno;Aristóteles;Sêneca|F=quem-disse|V
+C|m|Astronomia|Qual astrônomo popularizou a máxima "afirmações extraordinárias exigem evidências extraordinárias"?|Carl Sagan|Stephen Hawking;Neil deGrasse Tyson;Edwin Hubble|F=quem-disse|V
+T|m|Comunicação|Qual pensador canadense criou a frase "o meio é a mensagem"?|Marshall McLuhan|Noam Chomsky;Umberto Eco;Alvin Toffler|F=quem-disse|V
+T|m|Empresas de tecnologia|Qual empresário escreveu, em 1996, o ensaio "Content is King" ("O conteúdo é rei")?|Bill Gates|Larry Page;Jeff Bezos;Mark Zuckerberg|F=quem-disse|V
+E|m|Futebol brasileiro|Qual atacante disse que "Pelé calado é um poeta"?|Romário|Edmundo;Ronaldinho;Neymar|F=quem-disse|V
+E|m|Futebol brasileiro|Qual craque liderou a Democracia Corintiana, cujo lema era "ganhar ou perder, mas sempre com democracia"?|Sócrates|Casagrande;Wladimir;Zé Maria|F=quem-disse|V
+N|f|TV|Qual personagem dizia "Foi sem querer querendo"?|Chaves|Quico;Seu Madruga;Chiquinha|F=quem-disse|V
+# qual-primeiro
+G|m|Obras|Qual destas pontes foi inaugurada primeiro?|Ponte Golden Gate|Ponte Rio-Niterói;Ponte Vasco da Gama;Ponte JK|F=qual-primeiro|V
+G|m|Arranha-céus|Qual destes arranha-céus foi inaugurado primeiro?|Empire State Building|Torres Petronas;Burj Khalifa;One World Trade Center|F=qual-primeiro|V
+G|m|Canais|Qual destes canais foi inaugurado primeiro?|Canal de Suez|Canal de Corinto;Canal de Kiel;Canal do Panamá|F=qual-primeiro|V
+T|m|Internet|Qual destes buscadores surgiu primeiro?|Yahoo!|Google;Bing;DuckDuckGo|F=qual-primeiro|V
+T|m|Games|Qual destes consoles da Nintendo foi lançado primeiro?|Super Nintendo|Nintendo 64;GameCube;Wii|F=qual-primeiro|V
+T|m|Programação|Qual destas linguagens de programação surgiu primeiro?|Fortran|C;Python;Java|F=qual-primeiro|V
+C|m|Astronomia|Qual destes planetas anões foi descoberto primeiro?|Plutão|Éris;Makemake;Haumea|F=qual-primeiro|V
+C|m|Medicina|Qual destes instrumentos médicos foi inventado primeiro?|Estetoscópio|Aparelho de raio X;Marca-passo implantável;Ressonância magnética|F=qual-primeiro|V
+E|m|Clubes brasileiros|Qual destes clubes foi fundado primeiro?|Grêmio|Corinthians;Palmeiras;São Paulo|F=qual-primeiro|V
+E|m|Olimpíadas|Qual destes Jogos Olímpicos aconteceu primeiro?|Berlim|Roma;Munique;Barcelona|F=qual-primeiro|V
+# complete
+G|f|Países|Complete o nome do país africano: "Costa do..."|Marfim|Ouro;Sol;Cabo|F=complete
+G|f|Relevo|Complete o nome da cordilheira sul-americana: "Cordilheira dos..."|Andes|Alpes;Apeninos;Pireneus|F=complete
+G|f|Desertos|Complete o nome do deserto chileno: "Deserto do..."|Atacama|Saara;Kalahari;Gobi|F=complete
+T|f|Games|Complete o nome do console da Sega: "Mega..."|Drive|Station;System;Power|F=complete
+T|f|Games|Complete o nome do jogo de celular dos passarinhos: "Angry..."|Birds|Pigs;Ducks;Eagles|F=complete
+C|m|Física|Complete o nome da partícula confirmada em 2012: "Bóson de..."|Higgs|Fermi;Planck;Bohr|F=complete|V
+C|f|Astronomia|Complete o nome do objeto de onde nem a luz escapa: "Buraco..."|negro|branco;de minhoca;estelar|F=complete
+E|f|Estádios|Complete o nome do estádio do Real Madrid: "Santiago..."|Bernabéu|Calderón;Mestalla;Riazor|F=complete
+E|m|Clubes do mundo|Complete o nome do clube holandês: "PSV..."|Eindhoven|Amsterdam;Rotterdam;Utrecht|F=complete
+N|f|Cinema|Complete o título da trilogia com Marty McFly: "De Volta para o..."|Futuro|Passado;Presente;Começo|F=complete
+H|f|Revolução Francesa|Complete o nome do episódio de 14 de julho de 1789: "Queda da..."|Bastilha|Monarquia;Torre;Guilhotina|F=complete|V
+# mesmo-grupo / espelho
+G|f|Museus|Em qual cidade fica o Museu do Louvre?|Paris|Londres;Bruxelas;Viena|F=espelho|G=louvre|GC=banco:11832|V
+G|f|Cidades do mundo|Em qual cidade fica a Praça Vermelha?|Moscou|São Petersburgo;Kiev;Varsóvia|F=espelho|G=stalin|GC=banco:8693|V
+G|f|Rio de Janeiro|Em qual cidade fica o morro do Pão de Açúcar?|Rio de Janeiro|Salvador;Florianópolis;Vitória|F=espelho|G=pao-de-acucar|GC=banco:5443|V
+G|f|Nova York|Em qual cidade fica o Central Park?|Nova York|Chicago;Boston;Los Angeles|F=espelho|G=central-park|GC=banco:8193|V
+G|f|Nova York|Em qual cidade fica o Empire State Building?|Nova York|Chicago;Filadélfia;Washington|F=mesmo-grupo|G=empire-state|GC=banco:986|V
+T|f|Celulares|Qual empresa fabrica o iPhone?|Apple|LG;Motorola;Nokia|F=mesmo-grupo|G=iphone|GC=banco:4521|V
+T|f|Redes sociais|Qual rede social tinha um passarinho azul como logotipo antes de virar X?|Twitter|Facebook;Tumblr;Orkut|F=espelho|G=twitter|GC=banco:4161|V
+T|f|Games|Qual empresa fabrica os consoles Xbox?|Microsoft|Sony;Nintendo;Sega|F=espelho|G=xbox|GC=banco:3965|V
+T|f|Celulares|Qual empresa fabrica os celulares da linha Galaxy?|Samsung|LG;Motorola;Xiaomi|F=espelho|G=galaxy|GC=banco:4123|V
+C|f|Astronomia|Qual planeta é chamado de "Planeta Vermelho"?|Marte|Vênus;Júpiter;Mercúrio|F=mesmo-grupo|G=marte|GC=banco:1736|V
+C|m|Saúde|Qual doença a vacina de Jonas Salk, de 1955, ajudou a combater?|Poliomielite|Sarampo;Varíola;Tétano|F=espelho|G=salk|GC=banco:6020|V
+C|m|Física|A unidade de potência watt homenageia qual inventor escocês?|James Watt|James Joule;Alessandro Volta;André-Marie Ampère|F=mesmo-grupo|G=watt|GC=banco:1298|V
+E|f|Fórmula 1|Qual piloto brasileiro foi campeão mundial de Fórmula 1 em 1981, 1983 e 1987?|Nelson Piquet|Emerson Fittipaldi;Rubens Barrichello;Felipe Massa|F=mesmo-grupo|G=piquet|GC=banco:2762|V
+E|m|Ginástica|Qual ginasta americana ganhou quatro medalhas de ouro nos Jogos do Rio, em 2016?|Simone Biles|Gabby Douglas;Aly Raisman;Shawn Johnson|F=mesmo-grupo|G=biles|GC=banco:2511|V
+C|m|Física|Qual cientista inglês dá nome à "gaiola" que protege quem está dentro de um carro atingido por um raio?|Michael Faraday|James Clerk Maxwell;Robert Hooke;Humphry Davy|F=mesmo-grupo|G=faraday|GC=banco:2274|V
+C|m|Matemática|Qual pensador grego fundou uma escola em Crotona que via nos números a essência de tudo?|Pitágoras|Euclides;Tales de Mileto;Arquimedes|F=mesmo-grupo|G=pitagoras|GC=banco:8402|V
+C|m|Astronomia|Qual astrônomo polonês publicou "Das Revoluções das Esferas Celestes", em 1543?|Nicolau Copérnico|Tycho Brahe;Johannes Kepler;Giordano Bruno|F=mesmo-grupo|G=copernico|GC=banco:1789|V
+G|m|Monumentos|Em qual país fica o templo de Angkor Wat?|Camboja|Tailândia;Vietnã;Laos|F=mesmo-grupo|G=angkor|GC=banco:720|V
+E|f|Atletismo|Qual velocista jamaicano detém o recorde mundial dos 100 metros, com 9s58?|Usain Bolt|Yohan Blake;Asafa Powell;Tyson Gay|F=mesmo-grupo|G=bolt|GC=banco:5932|V
+E|f|Fórmula 1|Qual piloto brasileiro morreu num acidente em Ímola, em 1994?|Ayrton Senna|Rubens Barrichello;Felipe Massa;Emerson Fittipaldi|F=espelho|G=ayrton-senna|GC=banco:3165|V
+G|f|Ilhas|Em qual oceano fica o arquipélago de Fernando de Noronha?|Atlântico|Pacífico;Índico;Antártico|F=mesmo-grupo|G=noronha|GC=banco:322|V
+G|f|Itália|Dentro de qual cidade fica o Vaticano?|Roma|Milão;Florença;Veneza|F=mesmo-grupo|G=vaticano|GC=banco:79|V
+G|f|Ilhas|Qual destes países NÃO é uma ilha ou arquipélago?|Bolívia|Japão;Islândia;Madagascar|F=nao-e
+T|f|Games|Qual destes consoles NÃO é da Sony?|Xbox|PlayStation 2;PSP;PlayStation Vita|F=nao-e
+C|m|Química|Qual destes elementos NÃO é um gás à temperatura ambiente?|Mercúrio|Oxigênio;Hidrogênio;Hélio|F=nao-e|G=mercurio
+E|f|Tênis|Qual destes atletas NÃO é tenista?|Michael Phelps|Roger Federer;Rafael Nadal;Novak Djokovic|F=nao-e
+G|f|Regiões do Brasil|Qual destes estados NÃO fica na região Sul?|São Paulo|Paraná;Santa Catarina;Rio Grande do Sul|F=nao-e
+T|m|Empresas de tecnologia|Em que década o Google foi fundado?|Anos 1990|Anos 1970;Anos 1980;Anos 2000|F=numero|V
+T|m|Aplicativos|Em que década o WhatsApp foi lançado?|Anos 2000|Anos 1980;Anos 1990;Anos 2010|F=numero|V
+T|f|Games|Complete o nome do jogo de celular da King: "Candy..."|Crush|Rush;Land;Saga|F=complete
+C|f|Astronomia|Complete o nome da teoria sobre a origem do universo: "Big..."|Bang|Boom;Start;Blast|F=complete

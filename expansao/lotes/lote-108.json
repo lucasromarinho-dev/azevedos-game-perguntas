@@ -442,15 +442,15 @@
     "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:e0d6fe6301)"
   },
   {
-    "id": "225569f18d",
+    "id": "4c9b0e66aa",
     "categoria": "Tecnologia",
     "dificuldade": "medio",
     "pergunta": "Qual destas empresas NÃO fabrica processadores?",
-    "resposta": "Nokia",
+    "resposta": "Adobe",
     "alternativas": [
-      "Qualcomm",
-      "Nokia",
       "Intel",
+      "Qualcomm",
+      "Adobe",
       "AMD"
     ],
     "subtema": "Hardware",
@@ -991,7 +991,8 @@
       "banco:1270",
       "banco:4801",
       "banco:11039",
-      "lote-106:1c02708085"
+      "lote-106:1c02708085",
+      "lote-109:c6fe4a8282"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"julio-cesar\" (ref. banco:1065)"
   },
@@ -1051,7 +1052,7 @@
       "Stephen Hawking",
       "Peter Higgs",
       "Paul Dirac",
-      "Isaac Newton"
+      "Roger Penrose"
     ],
     "subtema": "Física",
     "status": "gerada",
@@ -1094,6 +1095,7 @@
     "grupo_com": [
       "banco:2188",
       "lote-107:9c37326b5b",
+      "lote-110:9c2ee608a3",
       "banco:2252"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"sagan\" (ref. banco:2188)"
@@ -1245,7 +1247,7 @@
     "pergunta": "Qual empresa de tecnologia teve por anos o lema informal \"Don't be evil\" (\"Não seja mau\")?",
     "resposta": "Google",
     "alternativas": [
-      "Microsoft",
+      "Yahoo",
       "Apple",
       "Google",
       "Amazon"
@@ -1669,7 +1671,7 @@
       "banco:6828",
       "banco:8619"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"boca-river\" (ref. banco:2622)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"gremio\" (ref. banco:2622)"
   },
   {
     "id": "122169623b",
@@ -1701,7 +1703,7 @@
       "banco:11224",
       "banco:11328"
     ],
-    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"boca-river\" (ref. banco:2818)"
+    "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"gremio\" (ref. banco:2818)"
   },
   {
     "id": "b8d39005a2",
@@ -1821,6 +1823,7 @@
     "dup_ref": "banco:812",
     "recente": false,
     "formato": "complete",
+    "verificado_web": true,
     "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.0)",
     "grupo": "diretas-ja",
     "grupo_com": [
@@ -1955,8 +1958,7 @@
     "formato": "mesmo-grupo",
     "grupo": "gize",
     "grupo_com": [
-      "banco:139",
-      "lote-108:113925c5b7"
+      "banco:139"
     ],
     "verificado_web": true,
     "dup_regra": "resposta nova citada no texto antigo (6.4)",
@@ -2266,7 +2268,8 @@
     "grupo_com": [
       "banco:2855",
       "banco:2661",
-      "banco:2902"
+      "banco:2902",
+      "lote-110:e01da8a011"
     ],
     "verificado_web": true,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.2)",

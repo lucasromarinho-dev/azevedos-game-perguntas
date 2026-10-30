@@ -13919,10 +13919,10 @@
         "ids_sem_checar": {},
         "erradas_defensaveis": 0,
         "por_lote": {
+          "100": "2/0/0",
           "096": "1/0/0",
           "097": "2/0/0",
-          "098": "4/0/0",
-          "100": "2/0/0"
+          "098": "4/0/0"
         },
         "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; as 9 ganharam verificado_web_conferente: true. Erradas conferidas: nenhuma defensável (Cotegipe é o único baiano entre as opções e os outros votos contrários foram de Paulino de Souza, Belisário, Ribeiro da Luz e Cavalcanti, fora das alternativas; Klose fora das alternativas de 2010; Miranda é vizinho, não dono do cortiço)"
       }
@@ -17640,5 +17640,416 @@
     "enunciados_repetidos": 0,
     "tamanho_bytes": 3297580,
     "obs": "As 528 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 13.458 da main (banco v9), na ordem dos lotes, so com os campos do jogo. Checagem web final concluida antes (commit 116ecde): 9 confirmadas, 0 corrigidas, 0 descartadas, sem pendencias. Antigas identicas byte a byte; nenhum enunciado repetido, nem sem maiusculas e espacos; 4 alternativas distintas com a resposta entre elas; sem BOM, uma linha, sem quebra final. Pasta expansao/ nao foi para a main. Ultima rodada desta etapa."
+  },
+  "resumo_piloto_formatos": {
+    "data": "2026-10-30",
+    "lotes_numeros": "106 a 110",
+    "status": "gerada (falta conferência independente; não publicar)",
+    "_leia": "Piloto de formatos novos: nao-e, numero, quem-disse, qual-primeiro, complete, mesmo-grupo, espelho. Campo novo grupo/grupo_com (o servidor não sorteia duas do mesmo grupo na partida). Escritas = linhas que viraram ficha; antes disso a sonda contra o banco (acha/grep) derrubou cerca de 60 candidatas que já existiam, não contadas aqui. Minutos = relógio entre commits (inclui a preparação dos scripts no 106).",
+    "totais": {
+      "escritas": 523,
+      "validas": 495,
+      "descartadas": 28,
+      "taxa_descarte": 0.054,
+      "faceis": 232,
+      "pct_faceis": 0.469,
+      "minutos": 71,
+      "validas_por_hora": 418,
+      "buscas": 165,
+      "buscas_wikipedia_api": 136,
+      "buscas_websearch": 29,
+      "grupos_distintos": 218,
+      "fichas_com_grupo": 266
+    },
+    "por_formato": {
+      "nao-e": {
+        "escritas": 105,
+        "validas": 105,
+        "descartadas": 0,
+        "faceis": 59,
+        "com_grupo": 15,
+        "verificado_web": 0,
+        "taxa_descarte": 0,
+        "pct_faceis": 0.562
+      },
+      "numero": {
+        "escritas": 104,
+        "validas": 97,
+        "descartadas": 7,
+        "faceis": 16,
+        "com_grupo": 38,
+        "verificado_web": 97,
+        "taxa_descarte": 0.067,
+        "pct_faceis": 0.165
+      },
+      "quem-disse": {
+        "escritas": 62,
+        "validas": 58,
+        "descartadas": 4,
+        "faceis": 14,
+        "com_grupo": 52,
+        "verificado_web": 58,
+        "taxa_descarte": 0.065,
+        "pct_faceis": 0.241
+      },
+      "qual-primeiro": {
+        "escritas": 60,
+        "validas": 60,
+        "descartadas": 0,
+        "faceis": 5,
+        "com_grupo": 2,
+        "verificado_web": 60,
+        "taxa_descarte": 0,
+        "pct_faceis": 0.083
+      },
+      "complete": {
+        "escritas": 62,
+        "validas": 62,
+        "descartadas": 0,
+        "faceis": 52,
+        "com_grupo": 46,
+        "verificado_web": 5,
+        "taxa_descarte": 0,
+        "pct_faceis": 0.839
+      },
+      "mesmo-grupo": {
+        "escritas": 77,
+        "validas": 66,
+        "descartadas": 11,
+        "faceis": 52,
+        "com_grupo": 66,
+        "verificado_web": 66,
+        "taxa_descarte": 0.143,
+        "pct_faceis": 0.788
+      },
+      "espelho": {
+        "escritas": 53,
+        "validas": 47,
+        "descartadas": 6,
+        "faceis": 34,
+        "com_grupo": 47,
+        "verificado_web": 47,
+        "taxa_descarte": 0.113,
+        "pct_faceis": 0.723
+      }
+    },
+    "categorias": {
+      "Geografia": 83,
+      "História": 79,
+      "Ciências": 81,
+      "Esportes": 77,
+      "Entretenimento": 93,
+      "Tecnologia": 82
+    },
+    "lotes": {
+      "106": {
+        "escritas": 103,
+        "validas": 96,
+        "faceis": 54,
+        "minutos": 24,
+        "buscas": 23,
+        "buscas_detalhe": {
+          "wiki": 22,
+          "websearch": 1
+        },
+        "por_formato": {
+          "nao-e": {
+            "escritas": 20,
+            "validas": 20,
+            "descartadas": 0,
+            "faceis": 14
+          },
+          "numero": {
+            "escritas": 21,
+            "validas": 18,
+            "descartadas": 3,
+            "faceis": 5
+          },
+          "quem-disse": {
+            "escritas": 12,
+            "validas": 12,
+            "descartadas": 0,
+            "faceis": 2
+          },
+          "qual-primeiro": {
+            "escritas": 12,
+            "validas": 12,
+            "descartadas": 0,
+            "faceis": 2
+          },
+          "complete": {
+            "escritas": 13,
+            "validas": 13,
+            "descartadas": 0,
+            "faceis": 11
+          },
+          "mesmo-grupo": {
+            "escritas": 13,
+            "validas": 10,
+            "descartadas": 3,
+            "faceis": 10
+          },
+          "espelho": {
+            "escritas": 12,
+            "validas": 11,
+            "descartadas": 1,
+            "faceis": 10
+          }
+        },
+        "descartes": [
+          "numero: anéis olímpicos, dentes e patas de inseto já existiam no banco (banco:7164, 1665, 6011)",
+          "mesmo-grupo: Muralha da China (enunciado entregava), capital do RS por Uruguaiana (confusa), Nintendo criou o Mario (não era grupo)",
+          "espelho: quem descobriu a penicilina (mesmo fato e enunciado de banco:1658)"
+        ]
+      },
+      "107": {
+        "escritas": 107,
+        "validas": 105,
+        "faceis": 48,
+        "minutos": 12,
+        "buscas": 37,
+        "buscas_detalhe": {
+          "wiki": 29,
+          "websearch": 8
+        },
+        "por_formato": {
+          "nao-e": {
+            "escritas": 22,
+            "validas": 22,
+            "descartadas": 0,
+            "faceis": 11
+          },
+          "numero": {
+            "escritas": 20,
+            "validas": 20,
+            "descartadas": 0,
+            "faceis": 4
+          },
+          "quem-disse": {
+            "escritas": 16,
+            "validas": 15,
+            "descartadas": 1,
+            "faceis": 5
+          },
+          "qual-primeiro": {
+            "escritas": 13,
+            "validas": 13,
+            "descartadas": 0,
+            "faceis": 1
+          },
+          "complete": {
+            "escritas": 13,
+            "validas": 13,
+            "descartadas": 0,
+            "faceis": 9
+          },
+          "mesmo-grupo": {
+            "escritas": 13,
+            "validas": 13,
+            "descartadas": 0,
+            "faceis": 11
+          },
+          "espelho": {
+            "escritas": 10,
+            "validas": 9,
+            "descartadas": 1,
+            "faceis": 7
+          }
+        },
+        "descartes": [
+          "quem-disse: \"a Terra é azul\" de Gagarin (atribuição contestada)",
+          "espelho: primeiro homem na Lua (redundante com a citação de Armstrong no mesmo lote)"
+        ]
+      },
+      "108": {
+        "escritas": 102,
+        "validas": 99,
+        "faceis": 46,
+        "minutos": 9,
+        "buscas": 25,
+        "buscas_detalhe": {
+          "wiki": 18,
+          "websearch": 7
+        },
+        "por_formato": {
+          "nao-e": {
+            "escritas": 22,
+            "validas": 22,
+            "descartadas": 0,
+            "faceis": 12
+          },
+          "numero": {
+            "escritas": 21,
+            "validas": 19,
+            "descartadas": 2,
+            "faceis": 2
+          },
+          "quem-disse": {
+            "escritas": 12,
+            "validas": 11,
+            "descartadas": 1,
+            "faceis": 3
+          },
+          "qual-primeiro": {
+            "escritas": 14,
+            "validas": 14,
+            "descartadas": 0,
+            "faceis": 1
+          },
+          "complete": {
+            "escritas": 11,
+            "validas": 11,
+            "descartadas": 0,
+            "faceis": 11
+          },
+          "mesmo-grupo": {
+            "escritas": 13,
+            "validas": 13,
+            "descartadas": 0,
+            "faceis": 13
+          },
+          "espelho": {
+            "escritas": 9,
+            "validas": 9,
+            "descartadas": 0,
+            "faceis": 4
+          }
+        },
+        "descartes": [
+          "numero: ebulição em Fahrenheit (banco:2046); ouros de Usain Bolt (8 ou 9, conforme a medalha cassada de 2008)",
+          "quem-disse: frase do pênalti de Neném Prancha (versão popular contestada)"
+        ]
+      },
+      "109": {
+        "escritas": 99,
+        "validas": 99,
+        "faceis": 40,
+        "minutos": 10,
+        "buscas": 40,
+        "buscas_detalhe": {
+          "wiki": 33,
+          "websearch": 7
+        },
+        "por_formato": {
+          "nao-e": {
+            "escritas": 18,
+            "validas": 18,
+            "descartadas": 0,
+            "faceis": 9
+          },
+          "numero": {
+            "escritas": 20,
+            "validas": 20,
+            "descartadas": 0,
+            "faceis": 1
+          },
+          "quem-disse": {
+            "escritas": 12,
+            "validas": 12,
+            "descartadas": 0,
+            "faceis": 3
+          },
+          "qual-primeiro": {
+            "escritas": 11,
+            "validas": 11,
+            "descartadas": 0,
+            "faceis": 1
+          },
+          "complete": {
+            "escritas": 12,
+            "validas": 12,
+            "descartadas": 0,
+            "faceis": 10
+          },
+          "mesmo-grupo": {
+            "escritas": 17,
+            "validas": 17,
+            "descartadas": 0,
+            "faceis": 11
+          },
+          "espelho": {
+            "escritas": 9,
+            "validas": 9,
+            "descartadas": 0,
+            "faceis": 5
+          }
+        },
+        "descartes": []
+      },
+      "110": {
+        "escritas": 112,
+        "validas": 96,
+        "faceis": 44,
+        "minutos": 16,
+        "buscas": 38,
+        "buscas_detalhe": {
+          "wiki": 32,
+          "websearch": 6
+        },
+        "por_formato": {
+          "nao-e": {
+            "escritas": 23,
+            "validas": 23,
+            "descartadas": 0,
+            "faceis": 13
+          },
+          "numero": {
+            "escritas": 22,
+            "validas": 20,
+            "descartadas": 2,
+            "faceis": 4
+          },
+          "quem-disse": {
+            "escritas": 10,
+            "validas": 8,
+            "descartadas": 2,
+            "faceis": 1
+          },
+          "qual-primeiro": {
+            "escritas": 10,
+            "validas": 10,
+            "descartadas": 0,
+            "faceis": 0
+          },
+          "complete": {
+            "escritas": 13,
+            "validas": 13,
+            "descartadas": 0,
+            "faceis": 11
+          },
+          "mesmo-grupo": {
+            "escritas": 21,
+            "validas": 13,
+            "descartadas": 8,
+            "faceis": 7
+          },
+          "espelho": {
+            "escritas": 13,
+            "validas": 9,
+            "descartadas": 4,
+            "faceis": 8
+          }
+        },
+        "descartes": [
+          "numero: zero absoluto (banco:2134); planetas anões (UAI reconhece 5, astrônomos citam 9)",
+          "quem-disse: \"do sublime ao ridículo\" de Napoleão (sem fonte primária); \"Isso, isso, isso\" (segundo Chaves no lote, molde)",
+          "mesmo-grupo e espelho: 12 já existiam com o mesmo fato (Kilimanjaro, Golden Gate, dono do YouTube, Timão, Copa de 2022, Sagrada Família, Plutão/Caronte, pai da medicina, escala Celsius, criador do Linux, títulos de Jordan no Bulls, Maria Esther Bueno)"
+        ]
+      }
+    },
+    "scripts_novos": [
+      "scripts/grupos.mjs (confere grupo/grupo_com e conflitos)",
+      "scripts/aplicar-grupos.mjs (preenche grupo_com a partir de fontes/lote-NNN-grupos.txt)",
+      "montar-lote.mjs aceita F=, G=, GC=, V"
+    ],
+    "estimativa_teto": {
+      "mesmo-grupo/espelho": "3.000 a 5.000: o filtro antigo por resposta deixou 1 a 3 perguntas por pessoa, obra ou lugar famoso; cada uma aguenta 2 a 4 fatos novos. Maior fonte de fáceis. Perda principal: fato clássico que já existe com outra redação (35% no lote 110 quando a sonda foi fraca); rodar duplicadas.mjs antes de escrever.",
+      "nao-e": "2.000 a 3.000: categorias quase infinitas (países, estados, animais, elementos, clubes, personagens, empresas), limitado pelo molde (~10 por assunto) e pelo cansaço do formato numa partida.",
+      "numero": "1.500 a 2.500: toda obra, produto ou evento famoso tem década; o limite é não repetir o ano que o banco já pergunta e o risco de decoreba (só 16% fáceis).",
+      "qual-primeiro": "1.000 a 2.000: combinatório, mas fica difícil (8% fáceis) e repetitivo; datas precisam estar bem separadas.",
+      "complete": "500 a 800: ditados (~100 bons), títulos de filmes, livros e novelas, nomes de clubes e lugares, lemas; quase todo complete vaza para perguntas do banco e precisa de grupo.",
+      "quem-disse": "300 a 500: frases curtas, de domínio público e com atribuição aceita são poucas; 4 de 62 caíram por atribuição contestada.",
+      "total": "8.000 a 14.000 boas, levando o banco a algo entre 22 e 28 mil. Os 50 mil não saem só destes caminhos sem perder qualidade."
+    }
   }
 }

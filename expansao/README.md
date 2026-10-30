@@ -259,6 +259,30 @@ O banco já cobre quase toda trivia "clássica": no lote 1, 55% do que foi escri
 - Toda errada nova passou por `alternativas.mjs` (0 erradas que são resposta de outra, nos dez lotes juntos) e os enunciados novos foram procurados no banco com `grep-banco.mjs`.
 - Distribuição final das 528: 3 fáceis, 314 médias, 211 difíceis; Entretenimento 152, História 83, Geografia 80, Ciências 74, Tecnologia 70, Esportes 69.
 
+## Piloto de formatos novos (lotes 106 a 110, 30/10/2026)
+
+Piloto para medir dois caminhos novos depois da saturação do método "respostas primeiro" (528 válidas na rodada 10): formatos novos de pergunta e o campo `grupo`. **495 válidas** (status `gerada`, falta a conferência independente; **não publicar ainda**) de 523 escritas, 5,4% de descarte; 232 fáceis (46,9%). Por lote: 106 96, 107 105, 108 99, 109 99, 110 96. Categorias: Geografia 83, História 79, Ciências 81, Esportes 77, Entretenimento 93, Tecnologia 82. Resumo completo em `metricas.json` (`resumo_piloto_formatos`).
+
+- **Campo `grupo`** (kebab-case) e **`grupo_com`** (`banco:N` = posição no `perguntas.json` da **main**, ou `lote-NNN:id`). O servidor não sorteia duas perguntas do mesmo grupo na partida; na publicação, o coordenador põe o mesmo `grupo` nas perguntas citadas em `grupo_com`. 266 fichas com grupo, 218 grupos, nenhuma referência em dois grupos (`grupos.mjs`).
+- **Campo `formato`**: `nao-e`, `numero`, `quem-disse`, `qual-primeiro`, `complete`, `mesmo-grupo`, `espelho`. Uma `quem-disse` ou `complete` também pode ter grupo (o formato diz a forma da pergunta; o grupo diz com quais ela não pode sair junto).
+- **Regra de grupo usada**: entra no grupo toda pergunta com a mesma resposta (mesma pessoa, obra ou lugar), toda pergunta cujo enunciado cita a nossa resposta e toda pergunta cuja resposta o nosso enunciado cita. Resposta comum (citada em mais de 12 enunciados, como Paris ou Brasil) não puxa grupo só por ser igual. Nas perguntas `nao-e`, `numero` e `qual-primeiro` a resposta é só uma opção de lista, então igualdade de resposta com elas não conta (o enunciado delas citar a nossa resposta continua contando). Conflitos foram resolvidos juntando grupos (ex.: Boca e River entraram no grupo `gremio`) ou, em 4 citações incidentais, ignorando a referência (registrado em `fontes/lote-NNN-grupos.txt`).
+- **Scripts**: `montar-lote.mjs` aceita `F=formato`, `G=grupo`, `GC=ref1,ref2` e `V` (verificado na web). `scripts/aplicar-grupos.mjs lote-NNN.json` preenche `grupo_com` com o cruzamento automático e as decisões de `fontes/lote-NNN-grupos.txt` (`G id grupo`, `X ref`, `X id ref`, `+ id ref`, `S id` = só as declaradas). `scripts/grupos.mjs [lote-NNN.json]` mostra relacionadas fora do grupo e conflitos. Os lotes do piloto podem ser reconstruídos do zero: `montar-lote.mjs` + `duplicadas.mjs` (sem `--descartar`) + `aplicar-grupos.mjs`.
+- **Duplicadas**: o detector marca quase todas as `nao-e`, `numero` e `mesmo-grupo` (resposta repetida é esperado). Todas as `certa` foram lidas uma a uma; as duplicadas de verdade saíram (11) e as demais ficaram com `dup: "suspeita"` e `dup_revisado`. **Não rode `duplicadas.mjs --descartar` nos lotes 106 a 110.**
+- **Web**: 165 buscas (136 chamadas à API da Wikipédia, até 20 verbetes por chamada, e 29 WebSearch). Todo número, data, ordem cronológica e autoria de frase tem `verificado_web` (numero, quem-disse, qual-primeiro, mesmo-grupo, espelho e os `complete` com data). As `nao-e` e os `complete` de ditado e título não têm a marca (pertencimento a categoria e texto de ditado, de conhecimento consolidado). Caíram por atribuição contestada: "a Terra é azul" (Gagarin), a frase do pênalti de Neném Prancha e "do sublime ao ridículo" (Napoleão).
+
+| Formato | Escritas | Válidas | Descarte | Fáceis |
+|---|---|---|---|---|
+| nao-e | 105 | 105 | 0% | 59 (56%) |
+| numero | 104 | 97 | 6,7% | 16 (16%) |
+| quem-disse | 62 | 58 | 6,5% | 14 (24%) |
+| qual-primeiro | 60 | 60 | 0% | 5 (8%) |
+| complete | 62 | 62 | 0% | 52 (84%) |
+| mesmo-grupo | 77 | 66 | 14,3% | 52 (79%) |
+| espelho | 53 | 47 | 11,3% | 34 (72%) |
+
+- **Lições**: (1) as fáceis voltaram: `mesmo-grupo`, `espelho`, `complete` e `nao-e` dão 56% a 84% de fáceis. (2) O filtro antigo por resposta escondia lacunas clássicas: pessoas e lugares famosos têm só 1 a 3 perguntas (Mona Lisa, Shakespeare e Charles Chaplin não eram resposta de nada; Freud nem aparece no banco). (3) A sonda curta (`grep` por termo) deixou passar fatos clássicos com outra redação: no lote 110, 12 de 34 `mesmo-grupo`/`espelho` já existiam; rode `duplicadas.mjs` sobre o rascunho antes de verificar na web. (4) `qual-primeiro` e `numero` saem quase sempre médias. (5) Molde: ditados ficaram em 10, capitais em 4, games em 8 e Chaves em 1 citação.
+- **Para o conferente**: olhar a régua de dificuldade das `nao-e` (algumas fáceis podem ser triviais demais), o tom repetitivo de "Em que década..." e "Qual destes NÃO é..." numa mesma partida, e as `complete` de ditado (texto exato do ditado). Toda errada das perguntas de identificação foi trocada quando era resposta de outra pergunta do piloto (`alternativas.mjs`); nas listas (`nao-e`, `numero`, `qual-primeiro`) isso não se aplica.
+
 ## Fluxo de um lote
 
 1. Escrever `fontes/lote-NNN.txt` (formato no topo de `montar-lote.mjs`), seguindo o guia de estilo e priorizando subtemas com pouca cobertura.

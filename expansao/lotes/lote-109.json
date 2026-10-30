@@ -346,7 +346,11 @@
     "dup_ref": null,
     "recente": false,
     "formato": "nao-e",
-    "dup_regra": null
+    "dup_regra": null,
+    "grupo": "chaves",
+    "grupo_com": [
+      "lote-110:21969c80f4"
+    ]
   },
   {
     "id": "a43673e4fe",
@@ -1654,7 +1658,8 @@
     "grupo": "noronha",
     "grupo_com": [
       "banco:322",
-      "banco:742"
+      "banco:742",
+      "lote-110:fddba9d020"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"noronha\" (ref. banco:322)"
   },
@@ -1782,7 +1787,7 @@
     "recente": false,
     "formato": "complete",
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (10.4)",
-    "grupo": "inter",
+    "grupo": "ronaldo",
     "grupo_com": [
       "banco:2470",
       "banco:4631",

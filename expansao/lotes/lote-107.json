@@ -889,7 +889,11 @@
     "formato": "numero",
     "verificado_web": true,
     "dup_regra": "E2 mesma resposta e mesmo assunto (6.9, 26% do fato)",
-    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:6327244143)"
+    "dup_revisado": "falso positivo: formato de lista ou número, a resposta é só uma opção e o fato é outro (ref. id:6327244143)",
+    "grupo": "chaves",
+    "grupo_com": [
+      "lote-110:21969c80f4"
+    ]
   },
   {
     "id": "9aaeaba58e",
@@ -1173,7 +1177,9 @@
     "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 15.2)",
     "grupo": "sagan",
     "grupo_com": [
-      "banco:2188"
+      "banco:2188",
+      "lote-108:014bab8c85",
+      "lote-110:9c2ee608a3"
     ],
     "dup_revisado": "mesma resposta ou assunto com fato diferente, coberto pelo grupo \"sagan\" (ref. banco:2188)"
   },
@@ -2340,7 +2346,8 @@
       "banco:3553",
       "banco:9486",
       "banco:12738",
-      "banco:13609"
+      "banco:13609",
+      "lote-108:1acc57c678"
     ],
     "verificado_web": true,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (28.9)",
@@ -2566,7 +2573,8 @@
       "banco:3789",
       "banco:9416",
       "banco:10253",
-      "banco:10932"
+      "banco:10932",
+      "lote-109:4713f1a4fb"
     ],
     "verificado_web": true,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (23.6)",

@@ -7407,5 +7407,22 @@
       "Perguntas do tipo em qual cidade fica o estádio X caem no detector como duplicadas de capitais; melhor perguntar o clube.",
       "Faltaram fáceis de História e de Esportes em quase todos os lotes; profissões antigas, objetos de casa, latim, academia e esportes de mesa resolveram."
     ]
+  },
+  "publicacao_r5": {
+    "data": "2026-10-30",
+    "rodadas": "5 (lotes 046 a 055)",
+    "commit_main": "8d5a863",
+    "commit_aprovacao_expansao": "224b206",
+    "base_main": "04f928c",
+    "antigas": 8982,
+    "novas": 977,
+    "total": 9959,
+    "validador_jogo": {
+      "validas": 9959,
+      "descartadas": 0
+    },
+    "enunciados_repetidos": 0,
+    "tamanho_bytes": 2318779,
+    "obs": "As 977 conferida viraram aprovada (aprovado_em 2026-10-30) e foram anexadas depois das 8.982 da main (banco v4), na ordem dos lotes, so com os campos do jogo. Pasta expansao/ nao foi para a main."
   }
 }

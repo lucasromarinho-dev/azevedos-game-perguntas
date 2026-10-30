@@ -9506,56 +9506,14 @@
       "checagem_web_complementar": {
         "data": "30/10/2026",
         "alvo": "risco_sem_verificado_web (320 ids)",
-        "buscas_web": 200,
+        "buscas_web": 221,
         "obs_buscas": "WebSearch e leituras diretas da Wikipédia e do Wiktionary (Copa Sul-Americana, finais de Copa, fobias, obrigado em várias línguas, Armando Marques); perguntas agrupadas por tema, 2 ou 3 fatos por busca. A cota de cerca de 200 acabou antes das 22 últimas, deixadas de propósito para o fim por serem definições de baixo risco",
-        "confirmadas_sem_mudanca": 290,
+        "confirmadas_sem_mudanca": 312,
         "corrigidas": 8,
         "rebaixadas": 0,
         "descartadas": 0,
-        "sem_checar": 22,
-        "ids_sem_checar": {
-          "067": [
-            "736616aa34",
-            "cf05cb9ec9",
-            "11d104a8e6"
-          ],
-          "068": [
-            "1585405456"
-          ],
-          "069": [
-            "ecddcb8d6d",
-            "e79c50f600",
-            "5c8aa56d5b",
-            "810736bfeb"
-          ],
-          "070": [
-            "b3e790f28e"
-          ],
-          "071": [
-            "61e9a81ea2",
-            "e8f4011101"
-          ],
-          "072": [
-            "6945334cc0",
-            "29021f1110"
-          ],
-          "073": [
-            "2b4fbb027c",
-            "bf71518cf9"
-          ],
-          "074": [
-            "8fbdccd51a",
-            "39712b9f94"
-          ],
-          "075": [
-            "d1eb6359fb",
-            "ca09e4be1b",
-            "ccf2993603",
-            "df2385a105",
-            "23b859b515"
-          ]
-        },
-        "obs_sem_checar": "baixo risco, não conferidas de memória: Bokeh, Cumeeira, Sapata, Coletânea, Pipe, Luvas, Chave estrangeira, EP, DOM, VMA, Dessecador, Câmara escura, Praça de São Marcos, Jira, Scrum, R, Protoboard, Relé, Novela das nove, Estreia, Pipoca, Pentacampeão",
+        "sem_checar": 0,
+        "ids_sem_checar": {},
         "corrigidas_detalhe": {
           "aa2f4b0218": "Calleri voltou ao São Paulo em 2021 (empréstimo no fim da janela de agosto), não em 2022; enunciado passou a dizer 2021",
           "df79cd1482": "o sen não \"quase não circula\": foi abolido como moeda em 1953 (lei japonesa de 15/07/1953); enunciado passou a dizer que foi abolido em 1953",
@@ -9568,17 +9526,49 @@
         },
         "por_lote": {
           "066": "33/0/0",
-          "067": "17/0/0 (3 sem checar)",
-          "068": "24/1/0 (1 sem checar)",
-          "069": "25/0/0 (4 sem checar)",
-          "070": "24/3/0 (1 sem checar)",
-          "071": "29/1/0 (2 sem checar)",
-          "072": "34/0/0 (2 sem checar)",
-          "073": "29/0/0 (2 sem checar)",
-          "074": "40/3/0 (2 sem checar)",
-          "075": "35/0/0 (5 sem checar)"
+          "067": "20/0/0",
+          "068": "25/1/0",
+          "069": "29/0/0",
+          "070": "25/3/0",
+          "071": "31/1/0",
+          "072": "36/0/0",
+          "073": "31/0/0",
+          "074": "42/3/0",
+          "075": "40/0/0"
         },
-        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha com '(checagem web complementar r7)'. A troca de errada no bicudo (Gorgulho por Serra-pau) passou pelo checa-resposta.mjs --lote sem criar cruzamento novo; Vaga-lume foi evitado por ser resposta do banco"
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha com '(checagem web complementar r7)'. A troca de errada no bicudo (Gorgulho por Serra-pau) passou pelo checa-resposta.mjs --lote sem criar cruzamento novo; Vaga-lume foi evitado por ser resposta do banco",
+        "checagem_final_r7": {
+          "data": "30/10/2026",
+          "buscas_web": 21,
+          "confirmadas_sem_mudanca": 22,
+          "corrigidas": 0,
+          "descartadas": 0,
+          "ids": [
+            "736616aa34",
+            "cf05cb9ec9",
+            "11d104a8e6",
+            "1585405456",
+            "ecddcb8d6d",
+            "e79c50f600",
+            "5c8aa56d5b",
+            "810736bfeb",
+            "b3e790f28e",
+            "61e9a81ea2",
+            "e8f4011101",
+            "6945334cc0",
+            "29021f1110",
+            "2b4fbb027c",
+            "bf71518cf9",
+            "8fbdccd51a",
+            "39712b9f94",
+            "d1eb6359fb",
+            "ca09e4be1b",
+            "ccf2993603",
+            "df2385a105",
+            "23b859b515"
+          ],
+          "obs": "Bokeh (do japonês boke, desfoque; círculos de luz), Cumeeira (aresta mais alta, encontro das águas), Sapata (fundação rasa de concreto armado sob pilar; Radier é laje e Baldrame é viga), Coletânea (greatest hits), EP (mais faixas que single, menos que álbum), Pipe (| liga a saída de um comando à entrada de outro), Luvas (Lei 9.615/98: valor pago pela assinatura do contrato), Chave estrangeira, Câmara escura (orifício, imagem invertida), DOM, Praça de São Marcos (basílica do padroeiro São Marcos), Dessecador (sílica gel), VMA (Vídeo do Ano), Jira (Atlassian, rastreamento de bugs), Scrum (sprints; Kanban é fluxo contínuo), R (estatística e gráficos), Protoboard (montagem sem solda), Relé (interruptor acionado por eletroímã), Novela das nove (Quem Ama Cuida às 21h15, após o Jornal Nacional), Estreia, Pipoca, Pentacampeão (2 a 0 na Alemanha em 2002); nenhuma errada defensável"
+        }
       }
     }
   },

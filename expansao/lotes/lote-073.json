@@ -6,8 +6,8 @@
     "pergunta": "Qual rio atravessa Seul, a capital da Coreia do Sul?",
     "resposta": "Han",
     "alternativas": [
-      "Han",
       "Amarelo",
+      "Han",
       "Mekong",
       "Yalu"
     ],
@@ -67,8 +67,8 @@
     "resposta": "Taylorismo",
     "alternativas": [
       "Ludismo",
-      "Toyotismo",
       "Taylorismo",
+      "Toyotismo",
       "Fordismo"
     ],
     "subtema": "Revoluções e Idade Moderna",
@@ -146,10 +146,10 @@
     "pergunta": "Qual árvore dá a pimenta-rosa usada na culinária?",
     "resposta": "Aroeira",
     "alternativas": [
-      "Aroeira",
+      "Jatobá",
       "Pimenteira-do-reino",
       "Embaúba",
-      "Jatobá"
+      "Aroeira"
     ],
     "subtema": "Plantas",
     "status": "gerada",
@@ -168,8 +168,8 @@
     "alternativas": [
       "Sesc Flamengo",
       "Minas Tênis Clube",
-      "Praia Clube",
-      "Osasco"
+      "Osasco",
+      "Praia Clube"
     ],
     "subtema": "Vôlei",
     "status": "gerada",
@@ -188,8 +188,8 @@
     "alternativas": [
       "Venezuela",
       "Colômbia",
-      "Peru",
-      "Paraguai"
+      "Paraguai",
+      "Peru"
     ],
     "subtema": "Libertadores e futebol sul-americano",
     "status": "gerada",
@@ -206,10 +206,10 @@
     "pergunta": "Qual país sediou a Eurocopa de 2024?",
     "resposta": "Alemanha",
     "alternativas": [
-      "Alemanha",
+      "França",
       "Itália",
       "Inglaterra",
-      "França"
+      "Alemanha"
     ],
     "subtema": "Futebol europeu",
     "status": "gerada",
@@ -217,6 +217,1786 @@
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "d00356aa9e",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual estado americano, formado por ilhas no Pacífico, foi o último a entrar nos Estados Unidos, em 1959?",
+    "resposta": "Havaí",
+    "alternativas": [
+      "Guam",
+      "Alasca",
+      "Havaí",
+      "Porto Rico"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:42",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "ce6d3416c5",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em inglês, como está quem se diz \"under the weather\"?",
+    "resposta": "Indisposto",
+    "alternativas": [
+      "Desempregado",
+      "Apaixonado",
+      "Indisposto",
+      "Atrasado"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "78b7d12d09",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual região da Espanha tem Sevilha, Granada e o flamenco?",
+    "resposta": "Andaluzia",
+    "alternativas": [
+      "Catalunha",
+      "Andaluzia",
+      "Galícia",
+      "Castela"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "39f605d654",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual região italiana tem Milão como capital?",
+    "resposta": "Lombardia",
+    "alternativas": [
+      "Vêneto",
+      "Toscana",
+      "Lombardia",
+      "Piemonte"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5bde7280ed",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em inglês, o que quer dizer a expressão \"kick the bucket\"?",
+    "resposta": "Morrer",
+    "alternativas": [
+      "Ser demitido",
+      "Ficar bêbado",
+      "Desistir",
+      "Morrer"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de07dbdd99",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 11.0)"
+  },
+  {
+    "id": "4ac98108a6",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual é a capital do estado americano de Illinois, terra de Abraham Lincoln?",
+    "resposta": "Springfield",
+    "alternativas": [
+      "Chicago",
+      "Peoria",
+      "Rockford",
+      "Springfield"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f5df57add0",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual região da Bélgica tem o holandês como língua?",
+    "resposta": "Flandres",
+    "alternativas": [
+      "Valônia",
+      "Flandres",
+      "Brabante",
+      "Ardenas"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "922e6d9a19",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a capital do Alasca, que só se alcança de avião ou barco?",
+    "resposta": "Juneau",
+    "alternativas": [
+      "Anchorage",
+      "Nome",
+      "Juneau",
+      "Fairbanks"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4cef639930",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a capital do estado americano de Nevada?",
+    "resposta": "Carson City",
+    "alternativas": [
+      "Reno",
+      "Carson City",
+      "Las Vegas",
+      "Henderson"
+    ],
+    "subtema": "Capitais e países do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "70e81a6a89",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a taxa básica de juros da economia brasileira?",
+    "resposta": "Selic",
+    "alternativas": [
+      "IPCA",
+      "TR",
+      "Selic",
+      "CDI"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5793c3fe1e",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a ideologia que defende uma sociedade sem Estado e sem governo?",
+    "resposta": "Anarquismo",
+    "alternativas": [
+      "Comunismo",
+      "Liberalismo",
+      "Anarquismo",
+      "Socialismo"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "16b1892bac",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Como eram chamados os navegadores e guerreiros escandinavos dos barcos com cabeça de dragão?",
+    "resposta": "Vikings",
+    "alternativas": [
+      "Normandos",
+      "Saxões",
+      "Godos",
+      "Vikings"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1363",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 18.5)"
+  },
+  {
+    "id": "9b42f855e6",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual barco leve, de velas triangulares, foi o símbolo das Grandes Navegações portuguesas?",
+    "resposta": "Caravela",
+    "alternativas": [
+      "Galeão",
+      "Caravela",
+      "Jangada",
+      "Nau"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "43a5be3478",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em qual forte do Rio começou a revolta dos 18 do Forte, em 1922?",
+    "resposta": "Forte de Copacabana",
+    "alternativas": [
+      "Forte de Copacabana",
+      "Forte do Leme",
+      "Fortaleza de Santa Cruz",
+      "Forte de São João"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "200b16440d",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual presidente americano lançou a doutrina \"A América para os americanos\", em 1823?",
+    "resposta": "James Monroe",
+    "alternativas": [
+      "James Monroe",
+      "John Adams",
+      "Thomas Jefferson",
+      "Andrew Jackson"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ae38dfb32d",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o posto do formando da academia militar antes de virar segundo-tenente?",
+    "resposta": "Aspirante",
+    "alternativas": [
+      "Cadete",
+      "Sargento",
+      "Recruta",
+      "Aspirante"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dfe47a273b",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual forte redondo, construído no mar, fica em frente ao Mercado Modelo de Salvador?",
+    "resposta": "Forte de São Marcelo",
+    "alternativas": [
+      "Forte de Santo Antônio",
+      "Forte do Mar Grande",
+      "Forte de Monte Serrat",
+      "Forte de São Marcelo"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0494aa5c30",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rei africano escravizado em Vila Rica teria comprado a própria liberdade e a de outros?",
+    "resposta": "Chico Rei",
+    "alternativas": [
+      "Chico Rei",
+      "João Cândido",
+      "Ganga Zumba",
+      "Zumbi"
+    ],
+    "subtema": "Brasil Colônia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "536849853e",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual jurista baiano foi o principal redator da primeira Constituição republicana, de 1891?",
+    "resposta": "Rui Barbosa",
+    "alternativas": [
+      "Deodoro da Fonseca",
+      "Rui Barbosa",
+      "Joaquim Nabuco",
+      "Prudente de Morais"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1197",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (8.5, 23% do fato)"
+  },
+  {
+    "id": "49b757f25d",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual líder de Mianmar ganhou o Nobel da Paz de 1991 enquanto estava em prisão domiciliar?",
+    "resposta": "Aung San Suu Kyi",
+    "alternativas": [
+      "Rigoberta Menchú",
+      "Wangari Maathai",
+      "Aung San Suu Kyi",
+      "Benazir Bhutto"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a4f606c8c8",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual parte masculina da flor produz o pólen?",
+    "resposta": "Estame",
+    "alternativas": [
+      "Estame",
+      "Ovário",
+      "Pétala",
+      "Sépala"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d91feb111a",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a parte feminina da flor, onde fica o ovário?",
+    "resposta": "Pistilo",
+    "alternativas": [
+      "Antera",
+      "Pistilo",
+      "Sépala",
+      "Pétala"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ff7b7170b8",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o animal que se alimenta de restos orgânicos, como a minhoca?",
+    "resposta": "Detritívoro",
+    "alternativas": [
+      "Detritívoro",
+      "Carnívoro",
+      "Nectarívoro",
+      "Herbívoro"
+    ],
+    "subtema": "Animais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "977387800f",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual palavra latina, que quer dizer ouro, deu origem ao símbolo químico Au?",
+    "resposta": "Aurum",
+    "alternativas": [
+      "Aurum",
+      "Aurea",
+      "Aureus",
+      "Aurora"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d4b0d824a6",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chamam as folhinhas verdes que protegem o botão da flor antes de abrir?",
+    "resposta": "Sépalas",
+    "alternativas": [
+      "Sépalas",
+      "Pétalas",
+      "Brácteas",
+      "Estames"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5db5571086",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual palavra latina, que quer dizer prata, deu nome à Argentina e ao símbolo Ag?",
+    "resposta": "Argentum",
+    "alternativas": [
+      "Argentum",
+      "Argila",
+      "Argentina",
+      "Platinum"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4465e8fbda",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o movimento de contração que empurra o alimento pelo intestino?",
+    "resposta": "Peristaltismo",
+    "alternativas": [
+      "Fagocitose",
+      "Metabolismo",
+      "Osmose",
+      "Peristaltismo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1c80391f69",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual palavra latina para chumbo deu origem ao símbolo Pb e à palavra inglesa para encanador?",
+    "resposta": "Plumbum",
+    "alternativas": [
+      "Plumbago",
+      "Platinum",
+      "Pluvium",
+      "Plumbum"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6f76d32a8e",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual palavra de origem grega, que quer dizer \"prata líquida\", deu ao mercúrio o símbolo Hg?",
+    "resposta": "Hydrargyrum",
+    "alternativas": [
+      "Argentum",
+      "Stannum",
+      "Hydrargyrum",
+      "Aurum"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1890",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 19.0)"
+  },
+  {
+    "id": "a7968898ce",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual país sediou a Copa América de 2024, vencida pela Argentina?",
+    "resposta": "Estados Unidos",
+    "alternativas": [
+      "Estados Unidos",
+      "México",
+      "Brasil",
+      "Equador"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4746 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 9.1))",
+    "dup": "certa",
+    "dup_ref": "banco:4746",
+    "recente": true,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 9.1)"
+  },
+  {
+    "id": "9e7692de98",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual arte marcial esteve no programa olímpico só nos Jogos de Tóquio, disputados em 2021?",
+    "resposta": "Caratê",
+    "alternativas": [
+      "Taekwondo",
+      "Judô",
+      "Caratê",
+      "Kung fu"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:ae3c960fbb",
+    "recente": true,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 13.0)"
+  },
+  {
+    "id": "429703bda3",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual esporte Rayssa Leal, a \"Fadinha\", ganhou medalhas olímpicas?",
+    "resposta": "Skate",
+    "alternativas": [
+      "Patinação",
+      "Skate",
+      "Ginástica",
+      "Surfe"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2526 (E5 resposta antiga citada no texto novo + assunto (23.7))",
+    "dup": "certa",
+    "dup_ref": "banco:2526",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.7)"
+  },
+  {
+    "id": "302f5729ad",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual esporte Joaquim Cruz foi campeão olímpico em Los Angeles 1984?",
+    "resposta": "Atletismo",
+    "alternativas": [
+      "Vôlei",
+      "Atletismo",
+      "Natação",
+      "Judô"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3176 (E5 resposta antiga citada no texto novo + assunto (23.2))",
+    "dup": "certa",
+    "dup_ref": "banco:3176",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (23.2)"
+  },
+  {
+    "id": "6f92f2fe91",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em que ano o Vasco foi rebaixado pela primeira vez no Brasileirão?",
+    "resposta": "2008",
+    "alternativas": [
+      "2002",
+      "2015",
+      "2008",
+      "2013"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ec87109ed5",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Em que ano o Internacional foi rebaixado no Brasileirão, pela primeira vez na história?",
+    "resposta": "2016",
+    "alternativas": [
+      "2019",
+      "2012",
+      "2016",
+      "2008"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8229eb3d5d",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade australiana vai sediar os Jogos Olímpicos de 2032, escolha anunciada em 2021?",
+    "resposta": "Brisbane",
+    "alternativas": [
+      "Melbourne",
+      "Brisbane",
+      "Sydney",
+      "Perth"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5763 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:5763",
+    "recente": true,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "ad5b4649f0",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Quais cidades italianas sediaram juntas os Jogos de Inverno de 2026?",
+    "resposta": "Milão e Cortina d'Ampezzo",
+    "alternativas": [
+      "Florença e Pisa",
+      "Milão e Cortina d'Ampezzo",
+      "Turim e Roma",
+      "Veneza e Bolonha"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "6923906a3f",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual versão sem contato do futebol americano foi incluída, em 2023, nos Jogos de Los Angeles 2028?",
+    "resposta": "Flag football",
+    "alternativas": [
+      "Touch rugby",
+      "Rúgbi de sete",
+      "Flag football",
+      "Futebol australiano"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:a8b8e812a0",
+    "recente": true,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 16.7)"
+  },
+  {
+    "id": "03e9ead50d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual goleiro é o recordista de jogos pelo Fluminense e ídolo dos anos 1950?",
+    "resposta": "Castilho",
+    "alternativas": [
+      "Gilmar",
+      "Castilho",
+      "Félix",
+      "Barbosa"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3de280809e",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube egípcio é o maior campeão da Liga dos Campeões da África?",
+    "resposta": "Al Ahly",
+    "alternativas": [
+      "Al Ahly",
+      "Espérance",
+      "Zamalek",
+      "TP Mazembe"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "595a06d1ca",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual clube mineiro de vôlei, de Belo Horizonte, é rival do Sada Cruzeiro e do Praia Clube?",
+    "resposta": "Minas Tênis Clube",
+    "alternativas": [
+      "Juiz de Fora",
+      "Minas Tênis Clube",
+      "Sesc Flamengo",
+      "Montes Claros"
+    ],
+    "subtema": "Vôlei",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2666",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.6)"
+  },
+  {
+    "id": "67f2b2c86c",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual israelense escreveu \"Sapiens\", sobre a história da humanidade?",
+    "resposta": "Yuval Noah Harari",
+    "alternativas": [
+      "Yuval Noah Harari",
+      "Steven Pinker",
+      "Malcolm Gladwell",
+      "Jared Diamond"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b9c211c30d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual autora americana escreveu \"É Assim que Acaba\", fenômeno do BookTok?",
+    "resposta": "Colleen Hoover",
+    "alternativas": [
+      "Taylor Jenkins Reid",
+      "Sally Rooney",
+      "Jojo Moyes",
+      "Colleen Hoover"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fda9c128ea",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual animação da Netflix, de 2025, mostra cantoras de K-pop que caçam demônios?",
+    "resposta": "KPop Demon Hunters",
+    "alternativas": [
+      "KPop Demon Hunters",
+      "Robô Selvagem",
+      "Flow",
+      "Ne Zha 2"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "63ea191503",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual humorista do stand-up ficou famoso pelo bordão \"põe na conta\"?",
+    "resposta": "Thiago Ventura",
+    "alternativas": [
+      "Fábio Porchat",
+      "Thiago Ventura",
+      "Afonso Padilha",
+      "Murilo Couto"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "77342a48f1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o salão de dança popular que deu nome a um estilo de samba dançado a dois?",
+    "resposta": "Gafieira",
+    "alternativas": [
+      "Gafieira",
+      "Arrasta-pé",
+      "Forró",
+      "Boate"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b6eb8d4e9",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a comunidade de leitores que indica livros em vídeos no TikTok?",
+    "resposta": "BookTok",
+    "alternativas": [
+      "BookTok",
+      "BookTube",
+      "Booklist",
+      "Bookstagram"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:b9c211c30d",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "c8d1ed0fb0",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o livro narrado em voz alta, para ouvir em vez de ler?",
+    "resposta": "Audiolivro",
+    "alternativas": [
+      "Radionovela",
+      "E-book",
+      "Podcast",
+      "Audiolivro"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fc29a25203",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a loja que vende livros usados?",
+    "resposta": "Sebo",
+    "alternativas": [
+      "Bazar",
+      "Brechó",
+      "Sebo",
+      "Antiquário"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1d533c6cd9",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a parte dobrada da capa de um livro, que traz um resumo ou a biografia do autor?",
+    "resposta": "Orelha",
+    "alternativas": [
+      "Orelha",
+      "Lombada",
+      "Contracapa",
+      "Prefácio"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "522db715c3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor japonês escreveu \"Kafka à Beira-Mar\" e \"1Q84\"?",
+    "resposta": "Haruki Murakami",
+    "alternativas": [
+      "Kenzaburo Oe",
+      "Haruki Murakami",
+      "Yukio Mishima",
+      "Kazuo Ishiguro"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8d261bb2c9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autora italiana, que usa pseudônimo, escreveu a série \"A Amiga Genial\", passada em Nápoles?",
+    "resposta": "Elena Ferrante",
+    "alternativas": [
+      "Oriana Fallaci",
+      "Natalia Ginzburg",
+      "Elena Ferrante",
+      "Susanna Tamaro"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "48844a2cc6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora irlandesa escreveu \"Pessoas Normais\"?",
+    "resposta": "Sally Rooney",
+    "alternativas": [
+      "Sally Rooney",
+      "Zadie Smith",
+      "Elena Ferrante",
+      "Colleen Hoover"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "877a22f364",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual escritora nigeriana escreveu \"Americanah\" e o ensaio \"Sejamos Todos Feministas\"?",
+    "resposta": "Chimamanda Ngozi Adichie",
+    "alternativas": [
+      "Toni Morrison",
+      "Bernardine Evaristo",
+      "Wole Soyinka",
+      "Chimamanda Ngozi Adichie"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac3ba6fa8b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual autor de \"Não Me Abandone Jamais\" ganhou o Nobel de Literatura em 2017?",
+    "resposta": "Kazuo Ishiguro",
+    "alternativas": [
+      "Salman Rushdie",
+      "Bob Dylan",
+      "Kazuo Ishiguro",
+      "Haruki Murakami"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0e5dbe93db",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série britânica de 2025, sobre um garoto acusado de assassinato, foi filmada em plano-sequência?",
+    "resposta": "Adolescência",
+    "alternativas": [
+      "Bebê Rena",
+      "The Crown",
+      "Peaky Blinders",
+      "Adolescência"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:8159",
+    "recente": true,
+    "dup_regra": "resposta nova citada no texto antigo (6.1)"
+  },
+  {
+    "id": "ac754b85e3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual animação sem diálogos, sobre um gato num mundo alagado, ganhou o Oscar de 2025?",
+    "resposta": "Flow",
+    "alternativas": [
+      "Robô Selvagem",
+      "Flow",
+      "Divertida Mente 2",
+      "Memórias de um Caracol"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "1c48e27c54",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz viveu Juma Marruá no remake de \"Pantanal\", em 2022?",
+    "resposta": "Alanis Guillen",
+    "alternativas": [
+      "Alanis Guillen",
+      "Letícia Salles",
+      "Isabel Teixeira",
+      "Bruna Linzmeyer"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3578",
+    "recente": true,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "810a4a517b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série de 2024, ambientada no Japão feudal, bateu o recorde de Emmys numa temporada?",
+    "resposta": "Shogun",
+    "alternativas": [
+      "O Último Samurai",
+      "Shogun",
+      "Tokyo Vice",
+      "Blue Eye Samurai"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "49f9b8b19c",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual escritor português, nascido em Angola, escreveu \"A Máquina de Fazer Espanhóis\"?",
+    "resposta": "Valter Hugo Mãe",
+    "alternativas": [
+      "José Saramago",
+      "Valter Hugo Mãe",
+      "Gonçalo M. Tavares",
+      "José Luís Peixoto"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6570b0784e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual grupo pioneiro de stand-up paulistano, dos anos 2000, revelou humoristas como Marcelo Mansfield e Oscar Filho?",
+    "resposta": "Clube da Comédia",
+    "alternativas": [
+      "Clube da Comédia",
+      "Porta dos Fundos",
+      "Os Barbixas",
+      "Comédia em Pé"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6755",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (6.2)"
+  },
+  {
+    "id": "617341282e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ária de \"Turandot\", de Puccini, Pavarotti eternizou na Copa do Mundo de 1990?",
+    "resposta": "Nessun Dorma",
+    "alternativas": [
+      "Nessun Dorma",
+      "La Donna è Mobile",
+      "Casta Diva",
+      "O Sole Mio"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3d3d4b6a9d",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme mudo de 1931, de Mário Peixoto, é considerado uma obra-prima do cinema brasileiro?",
+    "resposta": "Limite",
+    "alternativas": [
+      "Ganga Bruta",
+      "Braza Dormida",
+      "Limite",
+      "São Paulo, Sinfonia da Metrópole"
+    ],
+    "subtema": "Cinema brasileiro",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b15aea119e",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual disco de Raul Seixas, de 1973, tem \"Ouro de Tolo\" e \"Metamorfose Ambulante\"?",
+    "resposta": "Krig-ha, Bandolo!",
+    "alternativas": [
+      "Novo Aeon",
+      "Krig-ha, Bandolo!",
+      "Gita",
+      "Há 10 Mil Anos Atrás"
+    ],
+    "subtema": "Música brasileira",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:3347 (E5 resposta antiga citada no texto novo + assunto (19.0))",
+    "dup": "certa",
+    "dup_ref": "banco:3347",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (19.0)"
+  },
+  {
+    "id": "7dc27f96cc",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual fotógrafo americano ficou famoso pelas paisagens em preto e branco do Parque Yosemite?",
+    "resposta": "Ansel Adams",
+    "alternativas": [
+      "Dorothea Lange",
+      "Steve McCurry",
+      "Ansel Adams",
+      "Robert Capa"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7b8c528f96",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual dia de grandes descontos acontece logo depois do Dia de Ação de Graças americano?",
+    "resposta": "Black Friday",
+    "alternativas": [
+      "Dia do Consumidor",
+      "Singles' Day",
+      "Prime Day",
+      "Black Friday"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9e79639820",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a segunda-feira de descontos nas lojas online que vem depois da Black Friday?",
+    "resposta": "Cyber Monday",
+    "alternativas": [
+      "Cyber Monday",
+      "Dia do Consumidor",
+      "Singles' Day",
+      "Prime Day"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "719118e02e",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a assistente virtual do Magazine Luiza?",
+    "resposta": "Lu",
+    "alternativas": [
+      "Lu",
+      "Clara",
+      "Nat",
+      "Bia"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "96e737d643",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual plataforma de compras, de Singapura e com logo laranja, se popularizou no Brasil nos anos 2020?",
+    "resposta": "Shopee",
+    "alternativas": [
+      "Temu",
+      "AliExpress",
+      "Shopee",
+      "Shein"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5050",
+    "recente": true,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.8)"
+  },
+  {
+    "id": "7db58a0664",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a bateria externa usada para recarregar o celular fora de casa?",
+    "resposta": "Carregador portátil",
+    "alternativas": [
+      "Nobreak",
+      "Estabilizador",
+      "Carregador portátil",
+      "Adaptador"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5224",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "cd70e76b4c",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama o modo do celular que escurece o fundo da tela para cansar menos a vista?",
+    "resposta": "Modo escuro",
+    "alternativas": [
+      "Modo econômico",
+      "Modo avião",
+      "Modo silencioso",
+      "Modo escuro"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7307 (E2 mesma resposta e mesmo assunto (10.9, 26% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:7307",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (10.9, 26% do fato)"
+  },
+  {
+    "id": "4076f458d5",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual cidade japonesa fica a sede da Nintendo?",
+    "resposta": "Kyoto",
+    "alternativas": [
+      "Kyoto",
+      "Osaka",
+      "Nagoya",
+      "Tóquio"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5543",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.8)"
+  },
+  {
+    "id": "222121134b",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual cidade fica a sede do Spotify?",
+    "resposta": "Estocolmo",
+    "alternativas": [
+      "Oslo",
+      "Helsinque",
+      "Copenhague",
+      "Estocolmo"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "781c36ee4a",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama a família de jatos comerciais da Embraer, como o E-195?",
+    "resposta": "E-Jets",
+    "alternativas": [
+      "Praetor",
+      "Phenom",
+      "E-Jets",
+      "Legacy"
+    ],
+    "subtema": "IA, robótica e ficção científica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "599fd9499f",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual cidade finlandesa fica a sede da Nokia?",
+    "resposta": "Espoo",
+    "alternativas": [
+      "Helsinque",
+      "Espoo",
+      "Turku",
+      "Tampere"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bca78a7fc8",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Em qual cidade da Califórnia fica a sede da Meta, dona do Facebook?",
+    "resposta": "Menlo Park",
+    "alternativas": [
+      "San José",
+      "Palo Alto",
+      "Cupertino",
+      "Menlo Park"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "923b638292",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quais países sediaram juntos a Copa do Mundo feminina de 2023?",
+    "resposta": "Austrália e Nova Zelândia",
+    "alternativas": [
+      "Canadá e Estados Unidos",
+      "Espanha e Portugal",
+      "Austrália e Nova Zelândia",
+      "Japão e Coreia do Sul"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "76b0303536",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual cidade chilena sediou os Jogos Pan-Americanos de 2023?",
+    "resposta": "Santiago",
+    "alternativas": [
+      "Viña del Mar",
+      "Santiago",
+      "Valparaíso",
+      "Concepción"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:43f70abee7",
+    "recente": true,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "c9a0607081",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Quantas medalhas de ouro o Brasil ganhou nas Olimpíadas de Paris 2024?",
+    "resposta": "Três",
+    "alternativas": [
+      "Três",
+      "Cinco",
+      "Sete",
+      "Uma"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "e5b3fbd337",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual estádio mexicano recebeu, em 2026, a abertura de uma Copa do Mundo pela terceira vez?",
+    "resposta": "Estádio Azteca",
+    "alternativas": [
+      "Estádio BBVA",
+      "Estádio Akron",
+      "Estádio Jalisco",
+      "Estádio Azteca"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4826",
+    "recente": true,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (6.2, sim 0.1)"
+  },
+  {
+    "id": "40aa2cbbd2",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual paulista foi o primeiro brasileiro a correr na Fórmula 1, em 1951?",
+    "resposta": "Chico Landi",
+    "alternativas": [
+      "José Carlos Pace",
+      "Wilson Fittipaldi",
+      "Emerson Fittipaldi",
+      "Chico Landi"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0200f4749c",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual nadador ganhou a primeira medalha olímpica da natação brasileira, em Helsinque 1952?",
+    "resposta": "Tetsuo Okamoto",
+    "alternativas": [
+      "Tetsuo Okamoto",
+      "Ricardo Prado",
+      "Djan Madruga",
+      "Manoel dos Santos"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ea641ca760",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual irmão de Emerson também correu na Fórmula 1 e criou com ele a equipe Copersucar?",
+    "resposta": "Wilson Fittipaldi",
+    "alternativas": [
+      "Nelson Piquet",
+      "Chico Landi",
+      "Christian Fittipaldi",
+      "Wilson Fittipaldi"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8340 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:8340",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "abc7969125",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual atriz, que dá nome a teatros em São Paulo e no Rio, passou mal em cena em 1969 e morreu semanas depois?",
+    "resposta": "Cacilda Becker",
+    "alternativas": [
+      "Fernanda Montenegro",
+      "Cacilda Becker",
+      "Tônia Carrero",
+      "Dercy Gonçalves"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1e93d3fde3",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual função do celular deixa o flash aceso para iluminar o escuro?",
+    "resposta": "Lanterna",
+    "alternativas": [
+      "Modo noturno",
+      "Lanterna",
+      "Modo avião",
+      "Zoom"
+    ],
+    "subtema": "Celulares e gadgets",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2cce1c9ef0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual sistema de gestão empresarial (ERP) brasileiro tem sede em Uberlândia, Minas Gerais?",
+    "resposta": "Sankhya",
+    "alternativas": [
+      "Senior",
+      "SAP",
+      "Sankhya",
+      "TOTVS"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:5260",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (16.1)"
+  },
+  {
+    "id": "0bec6935f9",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ferramenta de visualização de dados foi comprada pela Salesforce em 2019?",
+    "resposta": "Tableau",
+    "alternativas": [
+      "Qlik",
+      "Tableau",
+      "Looker",
+      "Power BI"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2b4fbb027c",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ferramenta da Atlassian é muito usada por equipes de software para gerenciar tarefas e bugs?",
+    "resposta": "Jira",
+    "alternativas": [
+      "Trello",
+      "Asana",
+      "Jira",
+      "Slack"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bf71518cf9",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual método ágil organiza o trabalho em ciclos curtos chamados sprints?",
+    "resposta": "Scrum",
+    "alternativas": [
+      "Scrum",
+      "Cascata",
+      "PMBOK",
+      "Kanban"
+    ],
+    "subtema": "Programação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
     "dup_regra": null
   }
 ]

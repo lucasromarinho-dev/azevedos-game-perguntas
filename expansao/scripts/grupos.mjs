@@ -40,7 +40,7 @@ for (const p of piloto) {
   const outras = todas.filter((t) => t.p._ref !== p._ref);
   const comum = citacoes(rn) > LIM;
   const R = rn.trim().length >= 3 && !SO_RESP.has(p.formato) ? outras.filter((t) => (!comum && t.r === rn) || (!comum && t.q.includes(rn))) : [];
-  const E = outras.filter((t) => t.r.trim().length >= 5 && t.r !== rn && citacoes(t.r) <= LIM && qn.includes(t.r));
+  const E = outras.filter((t) => t.r.trim().length >= 5 && t.r !== rn && qn.includes(t.r) && citacoes(t.r) <= LIM);
   const gc = new Set(p.grupo_com || []);
   // perguntas do mesmo grupo no piloto também contam como cobertas
   const mesmoGrupo = new Set(piloto.filter((x) => p.grupo && x.grupo === p.grupo).map((x) => x._ref));

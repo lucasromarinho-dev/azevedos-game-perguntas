@@ -1,0 +1,106 @@
+# Lote 108 - piloto de formatos novos. Campos extras: F=formato, G=grupo, GC=grupo_com, V=verificado na web
+# nao-e
+G|f|Regiões do Brasil|Qual destes estados NÃO fica na região Sudeste?|Goiás|Minas Gerais;Espírito Santo;Rio de Janeiro|F=nao-e
+G|f|Países da Europa|Qual destes países NÃO fica na Europa?|Canadá|Noruega;Polônia;Portugal|F=nao-e
+G|m|Oceanos|Qual destes países NÃO é banhado pelo Oceano Pacífico?|Venezuela|Chile;Peru;Colômbia|F=nao-e
+G|m|Capitais do mundo|Qual destas cidades NÃO é capital de um país sul-americano?|Guayaquil|Montevidéu;Assunção;Lima|F=nao-e
+G|m|Rios|Qual destes rios NÃO fica na África?|Danúbio|Nilo;Congo;Níger|F=nao-e
+G|m|Fronteiras|Qual destes estados brasileiros NÃO faz fronteira com outro país?|Bahia|Roraima;Acre;Paraná|F=nao-e
+H|m|Grandes Navegações|Qual destes navegadores NÃO era português?|Cristóvão Colombo|Vasco da Gama;Pedro Álvares Cabral;Bartolomeu Dias|F=nao-e
+H|f|Capitais do Brasil|Qual destas cidades NUNCA foi capital do Brasil?|São Paulo|Salvador;Rio de Janeiro;Brasília|F=nao-e
+H|m|Grécia Antiga|Qual destes pensadores NÃO era grego?|Cícero|Platão;Aristóteles;Heráclito|F=nao-e
+C|m|Astronomia|Qual destes NÃO é uma estrela?|Júpiter|Sol;Sírius;Betelgeuse|F=nao-e
+C|f|Corpo humano|Qual destes NÃO é um componente do sangue?|Neurônio|Hemácia;Leucócito;Plaqueta|F=nao-e
+C|f|Animais|Qual destes animais NÃO é um peixe?|Golfinho|Tubarão;Atum;Bacalhau|F=nao-e
+C|f|Energia|Qual destas NÃO é uma fonte de energia renovável?|Carvão mineral|Energia solar;Energia eólica;Biomassa|F=nao-e
+E|f|Natação|Qual destes NÃO é um estilo da natação olímpica?|Cachorrinho|Borboleta;Costas;Peito|F=nao-e
+E|m|Tênis|Qual destes termos NÃO é do tênis?|Home run|Ace;Deuce;Match point|F=nao-e
+E|f|Seleções|Qual destas seleções NÃO é sul-americana?|México|Uruguai;Paraguai;Equador|F=nao-e
+N|f|Quadrinhos|Qual destes NÃO é um super-herói da Marvel?|Batman|Homem-Aranha;Homem de Ferro;Thor|F=nao-e
+N|f|TV brasileira|Qual destes NÃO fez parte de Os Trapalhões?|Chico Anysio|Didi;Dedé;Mussum|F=nao-e
+N|m|Literatura brasileira|Qual destes livros NÃO foi escrito por Jorge Amado?|Vidas Secas|Capitães da Areia;Gabriela, Cravo e Canela;Tieta do Agreste|F=nao-e|G=jorge-amado
+T|f|Streaming|Qual destes NÃO é um serviço de streaming de filmes e séries?|Waze|Netflix;Disney+;Prime Video|F=nao-e
+T|m|Hardware|Qual destas empresas NÃO fabrica processadores?|Nokia|Intel;AMD;Qualcomm|F=nao-e
+T|f|Arquivos|Qual destes NÃO é um formato de imagem?|MP3|JPEG;PNG;GIF|F=nao-e
+# numero
+G|m|Cidades brasileiras|Em que século foi fundada a cidade do Rio de Janeiro?|Século XVI|Século XV;Século XVII;Século XVIII|F=numero|V
+G|m|Obras|Em que década foi inaugurada a Ponte Rio-Niterói?|Anos 1970|Anos 1950;Anos 1960;Anos 1980|F=numero|V
+G|m|Estados Unidos|Quantas listras tem a bandeira dos Estados Unidos?|13|9;11;15|F=numero|V
+G|m|Fusos horários|Quantos fusos horários atravessa o território da Rússia?|11|7;9;13|F=numero|V
+C|m|Animais|Quantas asas tem uma abelha?|Quatro|Duas;Seis;Oito|F=numero|V
+C|f|Química|Quantos átomos de hidrogênio há numa molécula de água?|Dois|Um;Três;Quatro|F=numero|V
+C|f|Corpo humano|Quantos são os sentidos clássicos do ser humano?|Cinco|Três;Quatro;Seis|F=numero|V
+T|m|Sistemas operacionais|Em que década foi lançado o Windows XP?|Anos 2000|Anos 1980;Anos 1990;Anos 2010|F=numero|V
+T|m|Criptomoedas|Em que década surgiu o Bitcoin?|Anos 2000|Anos 1980;Anos 1990;Anos 2010|F=numero|V
+T|m|Games|Em que década foi lançado o Game Boy?|Anos 1980|Anos 1970;Anos 1990;Anos 2000|F=numero|V
+T|m|Empresas de tecnologia|Em que década a Microsoft foi fundada?|Anos 1970|Anos 1960;Anos 1980;Anos 1990|F=numero|V
+T|m|Computadores|Em que década a Apple lançou o primeiro Macintosh?|Anos 1980|Anos 1960;Anos 1970;Anos 1990|F=numero|V
+T|m|TV brasileira|Em que década o Brasil teve sua primeira emissora de televisão?|Anos 1950|Anos 1930;Anos 1940;Anos 1960|F=numero|V
+E|m|Estádios|Em que década foi inaugurado o Maracanã?|Anos 1950|Anos 1930;Anos 1940;Anos 1960|F=numero|V
+N|m|Novelas|Em que década foi exibida a primeira versão da novela "Vale Tudo"?|Anos 1980|Anos 1970;Anos 1990;Anos 2000|F=numero|V
+N|m|Cinema|Em que década foi lançado o filme "Titanic", de James Cameron?|Anos 1990|Anos 1970;Anos 1980;Anos 2000|F=numero|V
+N|m|Música internacional|Em que década os Beatles se separaram?|Anos 1970|Anos 1950;Anos 1960;Anos 1980|F=numero|V
+H|m|Brasil Império|Em que século o Brasil se tornou independente de Portugal?|Século XIX|Século XVII;Século XVIII;Século XX|F=numero|V
+H|m|Segunda Guerra|Em que década terminou a Segunda Guerra Mundial?|Anos 1940|Anos 1920;Anos 1930;Anos 1950|F=numero|V
+# quem-disse
+H|m|Roma Antiga|A quem é atribuída a frase "A sorte está lançada", ao cruzar o Rubicão?|Júlio César|Marco Antônio;Pompeu;Augusto|F=quem-disse|V
+H|d|Revolução Francesa|A qual revolucionária francesa se atribui a frase "Ó Liberdade, quantos crimes se cometem em teu nome!", dita pouco antes de ser executada?|Madame Roland|Charlotte Corday;Maria Antonieta;Olympe de Gouges|F=quem-disse|V
+H|m|Guerras|Qual general prussiano escreveu que "a guerra é a continuação da política por outros meios"?|Carl von Clausewitz|Otto von Bismarck;Helmuth von Moltke;Frederico, o Grande|F=quem-disse|V
+C|m|Física|Qual físico britânico aconselhou: "Olhe para as estrelas, e não para os seus pés"?|Stephen Hawking|Isaac Newton;Paul Dirac;Peter Higgs|F=quem-disse|V
+C|m|Astronomia|Qual astrônomo chamou a Terra de "pálido ponto azul", ao comentar uma foto da sonda Voyager 1?|Carl Sagan|Edwin Hubble;Neil deGrasse Tyson;Patrick Moore|F=quem-disse|V
+E|m|Olimpíadas|Qual barão francês, criador dos Jogos Olímpicos modernos, popularizou a ideia de que "o importante é competir"?|Pierre de Coubertin|Jules Rimet;Juan Antonio Samaranch;Avery Brundage|F=quem-disse|V
+N|f|Cinema|Qual vilão pergunta "Por que tão sério?" em "Batman: O Cavaleiro das Trevas"?|Coringa|Duas-Caras;Espantalho;Pinguim|F=quem-disse|V
+N|f|Cinema|Em qual saga de filmes se deseja "Que a sorte esteja sempre a seu favor"?|Jogos Vorazes|Divergente;Maze Runner;Crepúsculo|F=quem-disse|V
+N|f|Literatura brasileira|Qual personagem de Mário de Andrade repetia "Ai, que preguiça!"?|Macunaíma|Jeca Tatu;Policarpo Quaresma;Leonardo Pataca|F=quem-disse|V
+T|d|Software livre|Qual programador disse "Falar é fácil. Mostre-me o código"?|Linus Torvalds|Richard Stallman;Dennis Ritchie;Guido van Rossum|F=quem-disse|V
+T|m|Internet|Qual empresa de tecnologia teve por anos o lema informal "Don't be evil" ("Não seja mau")?|Google|Apple;Amazon;Microsoft|F=quem-disse|V
+# qual-primeiro
+G|m|Independências|Qual destes países se tornou independente primeiro?|Haiti|México;Brasil;Bolívia|F=qual-primeiro|V
+G|m|Monumentos|Qual destas construções é a mais antiga?|Pirâmides de Gizé|Partenon;Coliseu;Angkor Wat|F=qual-primeiro|V
+H|m|Revoluções|Qual destas revoluções aconteceu primeiro?|Revolução Russa|Revolução Chinesa;Revolução Cubana;Revolução dos Cravos|F=qual-primeiro|V
+H|m|Presidentes do Brasil|Qual destes presidentes governou o Brasil primeiro?|Getúlio Vargas|Juscelino Kubitschek;Jânio Quadros;Fernando Collor|F=qual-primeiro|V
+H|f|História recente|Qual destes acontecimentos veio primeiro?|Queda do Muro de Berlim|Atentados de 11 de setembro;Crise financeira mundial de 2008;Plebiscito do Brexit|F=qual-primeiro|V
+C|m|Invenções|Qual destas invenções veio primeiro?|Prensa de Gutenberg|Telescópio;Máquina a vapor de Watt;Pilha elétrica|F=qual-primeiro|V
+C|m|Ciência|Qual destas teorias ou descobertas veio primeiro?|Teoria da evolução de Darwin|Teoria da relatividade;Estrutura do DNA;Bóson de Higgs|F=qual-primeiro|V
+T|m|Empresas de tecnologia|Qual destas empresas foi fundada primeiro?|IBM|Microsoft;Apple;Google|F=qual-primeiro|V
+T|m|Aparelhos|Qual destes aparelhos foi lançado primeiro?|Walkman|iPod;iPhone;iPad|F=qual-primeiro|V
+E|m|Olimpíadas|Qual destas cidades sediou os Jogos Olímpicos primeiro?|Cidade do México|Moscou;Seul;Atlanta|F=qual-primeiro|V
+E|m|Fórmula 1|Qual destes pilotos foi campeão mundial de Fórmula 1 primeiro?|Emerson Fittipaldi|Nelson Piquet;Ayrton Senna;Michael Schumacher|F=qual-primeiro|V
+E|m|Copa do Mundo|Qual destes craques foi campeão do mundo primeiro?|Pelé|Rivellino;Romário;Rivaldo|F=qual-primeiro|V
+N|m|Cinema|Qual destes filmes foi lançado primeiro?|O Poderoso Chefão|Pulp Fiction;Matrix;Avatar|F=qual-primeiro|V
+N|m|TV brasileira|Qual destes programas da Globo estreou primeiro?|Jornal Nacional|Fantástico;Domingão do Faustão;Big Brother Brasil|F=qual-primeiro|V
+# complete
+N|f|Ditados populares|Complete o ditado: "Quem com ferro fere..."|com ferro será ferido|com ferro se defende;com ferro é lembrado;com ferro se cura|F=complete
+N|f|Ditados populares|Complete o ditado: "Mais vale um pássaro na mão..."|do que dois voando|do que um ninho vazio;do que três no galho;do que cem no céu|F=complete
+E|f|Clubes do mundo|Complete o nome do clube argentino: "Boca..."|Juniors|Seniors;Rangers;United|F=complete
+E|f|Clubes do mundo|Complete o nome do clube argentino: "River..."|Plate|Side;Park;Valley|F=complete
+T|f|Games|Complete o nome da série de corrida da EA: "Need for..."|Speed|Race;Drift;Power|F=complete
+T|f|Games|Complete o nome do jogo de futebol da Konami: "Pro Evolution..."|Soccer|Football;League;Stars|F=complete
+C|f|Biologia|Complete o nome do mecanismo da evolução proposto por Darwin: "Seleção..."|natural|genética;artificial;biológica|F=complete
+H|f|Brasil República|Complete o lema da bandeira do Brasil: "Ordem e..."|Progresso|Liberdade;União;Justiça|F=complete
+H|f|Ditadura militar|Complete o nome do movimento de 1984 por eleições diretas: "Diretas..."|Já|Agora;Sempre;Livres|F=complete
+N|f|Cinema|Complete o título da trilogia de Peter Jackson: "O Senhor dos..."|Anéis|Dragões;Reinos;Magos|F=complete
+G|f|Países|Complete o nome do país africano: "África do..."|Sul|Norte;Leste;Oeste|F=complete
+# mesmo-grupo / espelho
+G|f|Monumentos|Em qual cidade fica o Cristo Redentor?|Rio de Janeiro|São Paulo;Salvador;Belo Horizonte|F=mesmo-grupo|G=corcovado|GC=banco:29|V
+G|f|Monumentos|Em qual país fica a Ópera de Sydney?|Austrália|Nova Zelândia;Reino Unido;Canadá|F=mesmo-grupo|G=opera-de-sydney|GC=banco:13849|V
+G|f|Monumentos|Em qual país ficam as pirâmides de Gizé?|Egito|Sudão;Marrocos;Líbia|F=mesmo-grupo|G=gize|GC=banco:139|V
+G|f|Monumentos|Em qual cidade fica o Partenon?|Atenas|Roma;Esparta;Corinto|F=mesmo-grupo|G=partenon|GC=banco:825|V
+C|f|Física|Qual cientista formulou as três leis do movimento?|Isaac Newton|Johannes Kepler;Blaise Pascal;Michael Faraday|F=mesmo-grupo|G=newton|GC=banco:1805|V
+C|m|Física|Qual físico alemão descobriu os raios X, em 1895?|Wilhelm Röntgen|Max Planck;Heinrich Hertz;Hermann von Helmholtz|F=espelho|G=rontgen|GC=banco:1885|V
+C|m|Biologia|Qual cientista britânico descreveu a dupla hélice do DNA ao lado de James Watson?|Francis Crick|Maurice Wilkins;Linus Pauling;Fred Sanger|F=espelho|G=dna|GC=banco:2212|V
+C|f|Física|Qual físico britânico escreveu "Uma Breve História do Tempo"?|Stephen Hawking|Roger Penrose;Paul Dirac;Peter Higgs|F=mesmo-grupo|G=hawking|GC=banco:1659|V
+T|m|Internet|Qual cientista britânico inventou a World Wide Web?|Tim Berners-Lee|Vint Cerf;Alan Turing;Ray Tomlinson|F=espelho|G=www|GC=banco:4012|V
+T|f|Games|Qual empresa japonesa fabrica o PlayStation?|Sony|Nintendo;Sega;Panasonic|F=espelho|G=playstation|GC=banco:3738|V
+T|f|Empresas de tecnologia|Qual empresário comanda a Tesla e fundou a SpaceX?|Elon Musk|Jeff Bezos;Richard Branson;Larry Page|F=mesmo-grupo|G=musk|GC=banco:4161|V
+T|f|Sistemas operacionais|Qual empresa criou o sistema operacional Windows?|Microsoft|Apple;IBM;Intel|F=mesmo-grupo|G=windows|GC=banco:4011|V
+E|f|Copa do Mundo|Qual seleção goleou o Brasil por 7 a 1 na Copa de 2014?|Alemanha|Holanda;Argentina;França|F=mesmo-grupo|G=mineirazo|GC=banco:2583|V
+E|f|Futebol brasileiro|Qual atacante, craque do tetra, era chamado de "Baixinho"?|Romário|Bebeto;Edmundo;Müller|F=mesmo-grupo|G=romario|GC=banco:2855|V
+E|f|Natação|Qual nadador americano é o maior medalhista da história dos Jogos Olímpicos?|Michael Phelps|Ryan Lochte;Mark Spitz;Caeleb Dressel|F=mesmo-grupo|G=phelps|GC=banco:2477|V
+N|f|Animação|Qual personagem de "Toy Story" tem o bordão "Ao infinito e além!"?|Buzz Lightyear|Woody;Rex;Sr. Cabeça de Batata|F=espelho|G=toy-story|GC=banco:12883|V
+N|f|Música internacional|Quem era o vocalista do Queen?|Freddie Mercury|Brian May;Roger Taylor;John Deacon|F=espelho|G=queen|GC=banco:3251|V
+N|f|Música internacional|Quem é o vocalista dos Rolling Stones?|Mick Jagger|Keith Richards;Ronnie Wood;Charlie Watts|F=espelho|G=rolling-stones|GC=banco:3282|V
+N|f|TV brasileira|Qual apresentadora ficou conhecida como "Rainha dos Baixinhos"?|Xuxa|Angélica;Eliana;Mara Maravilha|F=mesmo-grupo|G=xuxa|GC=banco:6646|V
+H|m|Índia|Qual líder indiano comandou a Marcha do Sal, em 1930?|Mahatma Gandhi|Jawaharlal Nehru;Muhammad Ali Jinnah;Subhas Chandra Bose|F=espelho|G=gandhi|GC=banco:1491|V
+H|f|África do Sul|Qual líder se tornou, em 1994, o primeiro presidente negro da África do Sul?|Nelson Mandela|Desmond Tutu;Thabo Mbeki;Steve Biko|F=mesmo-grupo|G=mandela|GC=banco:785|V
+H|m|Estados Unidos|Qual presidente americano fez o famoso Discurso de Gettysburg?|Abraham Lincoln|George Washington;Thomas Jefferson;Ulysses S. Grant|F=espelho|G=lincoln|GC=banco:1504|V

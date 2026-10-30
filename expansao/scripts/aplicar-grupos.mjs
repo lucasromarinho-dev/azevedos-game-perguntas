@@ -47,7 +47,7 @@ for (const p of lote) {
   const outras = todas.filter((t) => t.p._ref !== ref);
   const SO_RESP = ['nao-e', 'numero', 'qual-primeiro'].includes(p.formato);
   const R = rn.trim().length >= 3 && !SO_RESP ? outras.filter((t) => (!comum && t.r === rn) || (!comum && t.q.includes(rn))) : [];
-  const E = outras.filter((t) => t.r.trim().length >= 5 && t.r !== rn && citacoes(t.r) <= 12 && qn.includes(t.r));
+  const E = outras.filter((t) => t.r.trim().length >= 5 && t.r !== rn && qn.includes(t.r) && citacoes(t.r) <= 12);
   const set = new Set(p.grupo_com || []);
   for (const t of [...R, ...E]) {
     const r = t.p._ref;

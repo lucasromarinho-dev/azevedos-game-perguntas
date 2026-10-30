@@ -1652,6 +1652,55 @@
         "perguntas": 57,
         "total": 245
       }
+    },
+    {
+      "lote": "047",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 104,
+      "validas": 93,
+      "descartadas": 11,
+      "taxa_descarte": 0.11,
+      "caracteres": 14149,
+      "tokens_aprox": 4043,
+      "rodadas_de_reposicao": 1,
+      "candidatas_usadas": [
+        "r5-047.txt",
+        "fatos-r5-047.txt",
+        "fatos-r5-047b.txt",
+        "fatos-r5-047c.txt",
+        "fatos-r5-047d.txt",
+        "fatos-r5-047e.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r5-047.txt",
+          "fatos-r5-047.txt",
+          "fatos-r5-047b.txt",
+          "fatos-r5-047c.txt",
+          "fatos-r5-047d.txt",
+          "fatos-r5-047e.txt"
+        ],
+        "linhas": 88,
+        "existem": 10,
+        "risco": 12,
+        "tokens_aprox": 10420,
+        "nomes_sondados": 517,
+        "nomes_ausentes": 192,
+        "descarte": 0.11,
+        "candidatas_por_valida": 0.95
+      },
+      "perguntas": {
+        "escritas": 104,
+        "validas": 93,
+        "descartadas_detector": 11,
+        "descarte": 0.11,
+        "tokens_aprox": 4043
+      },
+      "tokens_por_valida": {
+        "listas": 112,
+        "perguntas": 43,
+        "total": 156
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -5355,6 +5404,59 @@
       "livres": 12,
       "caracteres": 4623,
       "tokens_aprox": 1321
+    },
+    "fatos-r5-047.txt": {
+      "tipo": "fatos",
+      "linhas": 295,
+      "existem": 209,
+      "risco": 0,
+      "livres": 86,
+      "caracteres": 17678,
+      "tokens_aprox": 5051
+    },
+    "r5-047.txt": {
+      "linhas": 88,
+      "existem": 10,
+      "risco": 12,
+      "livres": 66,
+      "caracteres": 6175,
+      "tokens_aprox": 1764
+    },
+    "fatos-r5-047b.txt": {
+      "tipo": "fatos",
+      "linhas": 82,
+      "existem": 42,
+      "risco": 0,
+      "livres": 40,
+      "caracteres": 4750,
+      "tokens_aprox": 1357
+    },
+    "fatos-r5-047c.txt": {
+      "tipo": "fatos",
+      "linhas": 52,
+      "existem": 16,
+      "risco": 0,
+      "livres": 36,
+      "caracteres": 2883,
+      "tokens_aprox": 824
+    },
+    "fatos-r5-047d.txt": {
+      "tipo": "fatos",
+      "linhas": 76,
+      "existem": 57,
+      "risco": 0,
+      "livres": 19,
+      "caracteres": 4539,
+      "tokens_aprox": 1297
+    },
+    "fatos-r5-047e.txt": {
+      "tipo": "fatos",
+      "linhas": 12,
+      "existem": 1,
+      "risco": 0,
+      "livres": 11,
+      "caracteres": 446,
+      "tokens_aprox": 127
     }
   },
   "rodada3": {

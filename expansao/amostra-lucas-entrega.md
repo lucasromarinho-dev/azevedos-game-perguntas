@@ -19,7 +19,7 @@ Como ler o quadro:
 
 - **Reescrever** foi o caminho preferido: a pergunta continua sobre o mesmo fato, só que sem a palavra que dava a dica.
 - **Trocar alternativas** foi usado quando a palavra não tinha como sair da pergunta. Aí as erradas passaram a ter a mesma palavra. Exemplo: "Qual cidade americana se chamava Nova Amsterdã?" agora tem "Nova Orleans" como errada, ao lado de "Nova York".
-- **Remover** só quando não havia conserto bom: as siglas de estado (ES, DF, SC), que se respondem pelas próprias letras, e duas perguntas que, reescritas, ficariam iguais a outra que já existe no banco.
+- **Remover** só quando não havia conserto bom: as siglas de estado (ES, DF, SC), que se respondem pelas próprias letras; apelidos que são o próprio nome (Gauchão, "A Hora do Faro" e o hino "Uma vez Flamengo"); e duas perguntas que, reescritas, ficariam iguais a outra que já existe no banco (Anel de Fogo do Pacífico e a cobra fumando da FEB).
 - **Falso alarme** são casos em que a palavra é parte natural do nome e não ajuda, como "capital do Panamá: Cidade do Panamá", siglas em que todas as alternativas formam as mesmas letras, ou gentílicos em que todas as opções vêm da mesma cidade.
 - A dificuldade foi revista depois de tirar a dica: 5 fáceis viraram médias (sem a dica, já não eram tão óbvias) e 18 difíceis viraram médias (pela régua: assunto conhecido pelo nome não é difícil). Nada recente ficou difícil.
 - Fatos novos que entraram nos enunciados (anos, nomes, lugares) foram conferidos na Wikipédia: 147 perguntas têm essa marca.

@@ -18659,5 +18659,88 @@
       "status": "proposta; nada gerado"
     },
     "publicado": false
+  },
+  "correcao_entrega": {
+    "data": "2026-10-30",
+    "status": "proposta (nada publicado; aguarda aprovação do Lucas)",
+    "_leia": "Perguntas cujo enunciado entregava a resposta (palavra que só aparecia na certa). Heurística scripts/entrega.mjs; correções em correcoes/entrega-resposta.json; cópia validada em correcoes/perguntas-corrigido.json (scripts/aplicar-entrega.mjs); amostra em amostra-lucas-entrega.md (semente 20261105).",
+    "heuristica": {
+      "banco_publicado_suspeitas": 568,
+      "lotes_106_110_suspeitas": 4,
+      "varredura_inicial_coordenador": 364
+    },
+    "revisadas": {
+      "banco": 598,
+      "piloto": 4,
+      "total": 602
+    },
+    "entrega": {
+      "banco": 560,
+      "piloto": 3
+    },
+    "falso_alarme": {
+      "banco": 38,
+      "piloto": 1
+    },
+    "acoes": {
+      "reescrever": {
+        "banco": 538,
+        "piloto": 3
+      },
+      "alternativas": {
+        "banco": 14,
+        "piloto": 0
+      },
+      "remover": {
+        "banco": 8,
+        "piloto": 0
+      }
+    },
+    "remover": [
+      "banco:301",
+      "banco:2673",
+      "banco:5823",
+      "banco:10201",
+      "banco:10370",
+      "banco:10857",
+      "banco:10909",
+      "banco:12209"
+    ],
+    "dificuldade_revista": {
+      "facil_para_medio": 5,
+      "dificil_para_medio": 18
+    },
+    "web": {
+      "leituras_wikipedia_raw": 193,
+      "websearch": 0,
+      "correcoes_com_verificado_web": 147,
+      "paginas_distintas": 151
+    },
+    "citacoes_de_outras_respostas_desfeitas": 31,
+    "copia": {
+      "arquivo": "correcoes/perguntas-corrigido.json",
+      "perguntas": 13978,
+      "trocadas_no_lugar": 552,
+      "removidas": 8,
+      "campos_fora_do_padrao": 0,
+      "alternativas_com_problema": 0,
+      "enunciados_repetidos": 0,
+      "entregas_restantes": 0,
+      "falsos_alarmes_mantidos": 12,
+      "montarBanco_descartadas": 0
+    },
+    "sobreposicao_entretenimento_80": [
+      "banco:6851",
+      "banco:8358",
+      "banco:9629",
+      "banco:12678",
+      "banco:13844",
+      "banco:13846"
+    ],
+    "lotes_corrigidos": [
+      "lote-106:a68e28bb94",
+      "lote-109:9cd4fe7a4d",
+      "lote-110:e4d0a9e820"
+    ]
   }
 }

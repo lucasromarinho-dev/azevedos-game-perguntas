@@ -6059,6 +6059,85 @@
           "dificuldade": "e7bd8dc3c0: undefined",
           "molde repetido": "0d537514a8: molde repetido: 28 perguntas de domínio de internet na rodada; cortado o excesso (.me)"
         }
+      },
+      {
+        "lote": "057",
+        "conferente": "conferente-v6",
+        "conferidas": 93,
+        "conferidas_sem_mudanca": 89,
+        "com_mudanca": 4,
+        "corrigidas": 4,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 0,
+        "motivos_descarte": {},
+        "perguntas_com_busca_web": 2,
+        "buscas_web": 2,
+        "suspeitas": {
+          "total": 12,
+          "mantidas": 11,
+          "reescritas": 1,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 12,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 13,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 12,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 17,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 24,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 15,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [],
+        "correcoes": [
+          "2a0e07f401: Springboks - errada Wallabies era a resposta de 36fe0a (lote 056) e vice-versa (respostas cruzadas); trocada por Brave Blossoms",
+          "3835e7a886: Bulldog francês - Boston terrier também tem orelhas eretas descritas como de morcego (errada defensável); trocada por Shih-tzu",
+          "b287332546: Collant - Maiô de lycra e Body são praticamente sinônimos de collant (erradas defensáveis); trocadas por Bermuda de lycra e Legging",
+          "f1d8a2f202: China - sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'"
+        ],
+        "rebaixamentos": [
+          "3835e7a886: Bulldog francês dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 1,
+          "errada defensavel": 2,
+          "fato impreciso": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "2a0e07f401: errada Wallabies era a resposta de 36fe0a (lote 056) e vice-versa (respostas cruzadas); trocada por Brave Blossoms",
+          "errada defensavel": "3835e7a886: Boston terrier também tem orelhas eretas descritas como de morcego (errada defensável); trocada por Shih-tzu",
+          "fato impreciso": "f1d8a2f202: sem fonte para o modelo dobrável ter surgido na China (o dobrável é europeu, séc. XVIII); tirado 'dobrável'"
+        }
       }
     ],
     "rebaixamentos_r3": {

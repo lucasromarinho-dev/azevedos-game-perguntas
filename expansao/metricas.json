@@ -2429,13 +2429,13 @@
     {
       "lote": "068",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 119,
-      "validas": 107,
-      "descartadas": 12,
-      "taxa_descarte": 0.1,
-      "caracteres": 16176,
-      "tokens_aprox": 4622,
-      "rodadas_de_reposicao": 1,
+      "escritas": 120,
+      "validas": 106,
+      "descartadas": 14,
+      "taxa_descarte": 0.12,
+      "caracteres": 16340,
+      "tokens_aprox": 4669,
+      "rodadas_de_reposicao": 2,
       "candidatas_usadas": [
         "r7-068.txt",
         "r7-068b.txt",
@@ -2454,19 +2454,19 @@
         "nomes_sondados": 0,
         "nomes_ausentes": 0,
         "descarte": 0.38,
-        "candidatas_por_valida": 2.72
+        "candidatas_por_valida": 2.75
       },
       "perguntas": {
-        "escritas": 119,
-        "validas": 107,
-        "descartadas_detector": 12,
-        "descarte": 0.1,
-        "tokens_aprox": 4622
+        "escritas": 120,
+        "validas": 106,
+        "descartadas_detector": 14,
+        "descarte": 0.12,
+        "tokens_aprox": 4669
       },
       "tokens_por_valida": {
         "listas": 43,
-        "perguntas": 43,
-        "total": 86
+        "perguntas": 44,
+        "total": 87
       }
     }
   ],

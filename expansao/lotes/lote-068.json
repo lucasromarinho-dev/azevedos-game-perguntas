@@ -475,7 +475,7 @@
     "status": "gerada",
     "motivo": null,
     "dup": "suspeita",
-    "dup_ref": "id:6281116cf0",
+    "dup_ref": "id:282c6f5769",
     "recente": false,
     "dup_regra": "E3 resposta nova citada no texto antigo + assunto (12.3)"
   },
@@ -1654,8 +1654,8 @@
       "Cesar Romero"
     ],
     "subtema": "Super-heróis",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "variedade: quarta pergunta do universo DC na rodada",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -2381,5 +2381,25 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null
+  },
+  {
+    "id": "aedd651eb6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série da Globo tinha Fernanda Torres e Andréa Beltrão como as amigas Fátima e Sueli?",
+    "resposta": "Tapas & Beijos",
+    "alternativas": [
+      "A Diarista",
+      "Toma Lá, Dá Cá",
+      "Tapas & Beijos",
+      "Os Normais"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5870 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:5870",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
   }
 ]

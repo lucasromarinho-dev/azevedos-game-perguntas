@@ -2935,6 +2935,59 @@
         "perguntas": 41,
         "total": 59
       }
+    },
+    {
+      "lote": "076",
+      "metodo": "respostas_primeiro_v3",
+      "escritas": 128,
+      "validas": 100,
+      "descartadas": 28,
+      "taxa_descarte": 0.22,
+      "caracteres": 24419,
+      "tokens_aprox": 6977,
+      "rodadas_de_reposicao": 3,
+      "candidatas_usadas": [
+        "r8-076.txt",
+        "r8-076b.txt",
+        "r8-076c.txt",
+        "r8-076d.txt",
+        "r8-076e.txt",
+        "r8-076f.txt",
+        "r8-076g.txt",
+        "r8-076h.txt"
+      ],
+      "listas": {
+        "arquivos": [
+          "r8-076.txt",
+          "r8-076b.txt",
+          "r8-076c.txt",
+          "r8-076d.txt",
+          "r8-076e.txt",
+          "r8-076f.txt",
+          "r8-076g.txt",
+          "r8-076h.txt"
+        ],
+        "linhas": 991,
+        "existem": 575,
+        "risco": 109,
+        "tokens_aprox": 15086,
+        "nomes_sondados": 0,
+        "nomes_ausentes": 0,
+        "descarte": 0.58,
+        "candidatas_por_valida": 9.91
+      },
+      "perguntas": {
+        "escritas": 128,
+        "validas": 100,
+        "descartadas_detector": 28,
+        "descarte": 0.22,
+        "tokens_aprox": 6977
+      },
+      "tokens_por_valida": {
+        "listas": 151,
+        "perguntas": 70,
+        "total": 221
+      }
     }
   ],
   "validacao_respostas_primeiro": {
@@ -9808,6 +9861,38 @@
       "livres": 61,
       "caracteres": 6158,
       "tokens_aprox": 1759
+    },
+    "r8-076e.txt": {
+      "linhas": 143,
+      "existem": 81,
+      "risco": 19,
+      "livres": 43,
+      "caracteres": 7142,
+      "tokens_aprox": 2041
+    },
+    "r8-076f.txt": {
+      "linhas": 50,
+      "existem": 23,
+      "risco": 8,
+      "livres": 19,
+      "caracteres": 2444,
+      "tokens_aprox": 698
+    },
+    "r8-076g.txt": {
+      "linhas": 75,
+      "existem": 30,
+      "risco": 9,
+      "livres": 36,
+      "caracteres": 3832,
+      "tokens_aprox": 1095
+    },
+    "r8-076h.txt": {
+      "linhas": 49,
+      "existem": 29,
+      "risco": 9,
+      "livres": 11,
+      "caracteres": 2655,
+      "tokens_aprox": 759
     }
   },
   "rodada3": {

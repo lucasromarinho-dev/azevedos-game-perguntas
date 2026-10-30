@@ -14642,6 +14642,173 @@
       },
       "total_v11": 13984,
       "obs_total": "2 a menos que a main porque 2 da reposição saíram por duplicidade (Esportes fácil e Geografia fácil); nenhuma nova gerada no lugar."
+    },
+    "disney": {
+      "data": "2026-10-30",
+      "agente": "conferente-disney-v1",
+      "status": "conferida (não publicar; aguarda aprovação)",
+      "conferidas": 962,
+      "corrigidas": 52,
+      "descartadas": 38,
+      "lotes": [
+        {
+          "lote": "001",
+          "conferidas": 103,
+          "corrigidas": 3,
+          "descartadas": 0
+        },
+        {
+          "lote": "002",
+          "conferidas": 101,
+          "corrigidas": 8,
+          "descartadas": 1
+        },
+        {
+          "lote": "003",
+          "conferidas": 101,
+          "corrigidas": 5,
+          "descartadas": 1
+        },
+        {
+          "lote": "004",
+          "conferidas": 99,
+          "corrigidas": 7,
+          "descartadas": 2
+        },
+        {
+          "lote": "005",
+          "conferidas": 97,
+          "corrigidas": 5,
+          "descartadas": 6
+        },
+        {
+          "lote": "006",
+          "conferidas": 96,
+          "corrigidas": 6,
+          "descartadas": 5
+        },
+        {
+          "lote": "007",
+          "conferidas": 93,
+          "corrigidas": 6,
+          "descartadas": 4
+        },
+        {
+          "lote": "008",
+          "conferidas": 103,
+          "corrigidas": 4,
+          "descartadas": 4
+        },
+        {
+          "lote": "009",
+          "conferidas": 92,
+          "corrigidas": 6,
+          "descartadas": 6
+        },
+        {
+          "lote": "010",
+          "conferidas": 77,
+          "corrigidas": 2,
+          "descartadas": 9
+        }
+      ],
+      "por_categoria": {
+        "Clássicos Disney": {
+          "conferidas": 164,
+          "corrigidas": 10,
+          "descartadas": 4
+        },
+        "Princesas": {
+          "conferidas": 164,
+          "corrigidas": 11,
+          "descartadas": 3
+        },
+        "Pixar": {
+          "conferidas": 165,
+          "corrigidas": 6,
+          "descartadas": 5
+        },
+        "Vilões": {
+          "conferidas": 161,
+          "corrigidas": 11,
+          "descartadas": 5
+        },
+        "Músicas": {
+          "conferidas": 163,
+          "corrigidas": 9,
+          "descartadas": 2
+        },
+        "Disney Moderno e Bichos": {
+          "conferidas": 145,
+          "corrigidas": 5,
+          "descartadas": 19
+        }
+      },
+      "por_dificuldade_final": {
+        "facil": 427,
+        "medio": 407,
+        "dificil": 128
+      },
+      "rebaixadas_pela_regua": 15,
+      "motivos_descarte": {
+        "fato_repetido": 34,
+        "sem_confirmacao_ou_ambigua": 2,
+        "fala_nao_confirmada": 1,
+        "bastidor": 1
+      },
+      "checagem_web": {
+        "chamadas_api_wikipedia": 430,
+        "websearch": 42,
+        "log": "expansao/disney/fontes/chamadas-wikipedia-conferente.log",
+        "conferidas_com_fonte_propria": 812,
+        "conferidas_sem_busca_propria": 150
+      },
+      "validacao": {
+        "arquivo": "expansao/disney/perguntas-disney.json",
+        "validas_copia_6_categorias": 962,
+        "descartadas": 0,
+        "enunciados_duplicados": 0,
+        "entrega_suspeitas": 0,
+        "bom": false,
+        "quebra_no_fim": false,
+        "nfc": true
+      },
+      "faltam_para_1000": {
+        "total": 38,
+        "por_tema_dificuldade_original": {
+          "Disney Moderno e Bichos": {
+            "facil": 14,
+            "medio": 3,
+            "dificil": 2
+          },
+          "Clássicos Disney": {
+            "facil": 4
+          },
+          "Pixar": {
+            "facil": 3,
+            "medio": 2
+          },
+          "Princesas": {
+            "facil": 3
+          },
+          "Vilões": {
+            "facil": 2,
+            "medio": 3
+          },
+          "Músicas": {
+            "medio": 1,
+            "dificil": 1
+          }
+        }
+      },
+      "dificeis_faltam_para_25": {
+        "Pixar": 8,
+        "Músicas": 7,
+        "Princesas": 4,
+        "Clássicos Disney": 3,
+        "Vilões": 1,
+        "Disney Moderno e Bichos": 0
+      }
     }
   },
   "listas": {

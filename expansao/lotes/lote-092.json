@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "718dfb27f3",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual deserto fica na fronteira entre a Índia e o Paquistão?",
+    "resposta": "Thar",
+    "alternativas": [
+      "Gobi",
+      "Thar",
+      "Karakum",
+      "Kavir"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "aec847f9da",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual deserto do sul da Península Arábica é o maior mar de areia contínua do mundo?",
+    "resposta": "Rub al-Khali",
+    "alternativas": [
+      "Dahna",
+      "Rub al-Khali",
+      "Nefud",
+      "Negev"
+    ],
+    "subtema": "Relevo, vulcões e desertos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6791",
+    "recente": false,
+    "dup_regra": "R4b resposta antiga citada no enunciado novo + muito assunto em comum (peso 18.3)"
+  },
+  {
+    "id": "a92f40a5a5",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ilha grega era, na mitologia, o reino do herói que levou dez anos para voltar de Troia?",
+    "resposta": "Ítaca",
+    "alternativas": [
+      "Lefkada",
+      "Ítaca",
+      "Zante",
+      "Cefalônia"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual ilha grega era o reino de Ulisses, o herói da \"Odisseia\"?\"); enunciado reescrito na geração (antes: \"Qual ilha grega do Mar Jônico era, na mitologia, o reino do herói que levou dez anos para voltar de Troia?\")",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:961)"
+  },
+  {
+    "id": "9b072a5dda",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual ilha grega o apóstolo João teria escrito o Apocalipse?",
+    "resposta": "Patmos",
+    "alternativas": [
+      "Paros",
+      "Patmos",
+      "Naxos",
+      "Delos"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "71fee26874",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ilha da lagoa de Veneza é famosa pela fabricação de vidro artístico?",
+    "resposta": "Murano",
+    "alternativas": [
+      "Murano",
+      "Torcello",
+      "Lido",
+      "Giudecca"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "45a9626e5d",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual ilha da lagoa de Veneza é famosa pelas casinhas coloridas e pelas rendas?",
+    "resposta": "Burano",
+    "alternativas": [
+      "Mazzorbo",
+      "Burano",
+      "San Michele",
+      "Torcello"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:71fee26874",
+    "recente": false,
+    "dup_regra": "R2 mesma resposta e assunto em comum (peso 18.0)"
+  },
+  {
+    "id": "b261279408",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual pequena ilha italiana, mais perto da Tunísia que da Sicília, virou porta de entrada de migrantes na Europa?",
+    "resposta": "Lampedusa",
+    "alternativas": [
+      "Lampedusa",
+      "Pantelleria",
+      "Ischia",
+      "Lipari"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "04cdfcbbcb",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual papa abriu o Concílio Vaticano II, em 1962?",
+    "resposta": "João XXIII",
+    "alternativas": [
+      "Bento XV",
+      "Paulo VI",
+      "Pio X",
+      "João XXIII"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Pio XII\" trocada por \"Pio X\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "a1b228025a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual papa, conhecido como \"papa guerreiro\", encomendou a pintura do teto da Capela Sistina?",
+    "resposta": "Júlio II",
+    "alternativas": [
+      "Sisto IV",
+      "Júlio II",
+      "Clemente VII",
+      "Paulo III"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual papa encomendou a Michelangelo a pintura do teto da Capela Sistina?\")",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:853)"
+  },
+  {
+    "id": "6b342e1416",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual papa, filho de Lourenço, o Magnífico, excomungou o monge alemão que iniciou a Reforma?",
+    "resposta": "Leão X",
+    "alternativas": [
+      "Leão X",
+      "Adriano VI",
+      "Paulo III",
+      "Clemente VII"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:d3bb6b5a03",
+    "recente": false,
+    "dup_regra": "mesma resposta, assunto vizinho (6.3, 18% do fato)",
+    "correcao": "enunciado reescrito na geração (antes: \"Qual papa da família Médici excomungou Martinho Lutero?\")"
+  },
+  {
+    "id": "10180118cd",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual papa comandou a Igreja Católica durante a Segunda Guerra Mundial?",
+    "resposta": "Pio XII",
+    "alternativas": [
+      "Pio XII",
+      "Bento XV",
+      "Paulo VI",
+      "Pio XI"
+    ],
+    "subtema": "Guerras Mundiais",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "74b26b651a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Quem foi o primeiro presidente da Indonésia, que liderou a independência contra a Holanda?",
+    "resposta": "Sukarno",
+    "alternativas": [
+      "Hatta",
+      "Sukarno",
+      "Habibie",
+      "Suharto"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb6cb480e6",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual ditador governou as Filipinas por mais de 20 anos, até ser derrubado em 1986?",
+    "resposta": "Ferdinand Marcos",
+    "alternativas": [
+      "Ferdinand Marcos",
+      "Corazón Aquino",
+      "Joseph Estrada",
+      "Ramon Magsaysay"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:1547",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "6453948880",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual paquistanesa foi a primeira mulher eleita para governar um país de maioria muçulmana, em 1988?",
+    "resposta": "Benazir Bhutto",
+    "alternativas": [
+      "Benazir Bhutto",
+      "Sheikh Hasina",
+      "Khaleda Zia",
+      "Tansu Çiller"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Indira Gandhi\" trocada por \"Tansu Çiller\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "9e3901ddf8",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual primeiro-ministro transformou Singapura numa potência econômica a partir de 1959?",
+    "resposta": "Lee Kuan Yew",
+    "alternativas": [
+      "Mahathir Mohamad",
+      "Lee Kuan Yew",
+      "Tunku Abdul Rahman",
+      "Goh Chok Tong"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b2d7a0e946",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual líder, chamado de \"Mwalimu\", o professor, foi o primeiro presidente da Tanzânia?",
+    "resposta": "Julius Nyerere",
+    "alternativas": [
+      "Milton Obote",
+      "Julius Nyerere",
+      "Daniel arap Moi",
+      "Kenneth Kaunda"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Jomo Kenyatta\" trocada por \"Daniel arap Moi\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "d0e696ed3a",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Quem foi o primeiro presidente de Angola, médico e poeta, a partir de 1975?",
+    "resposta": "Agostinho Neto",
+    "alternativas": [
+      "Jonas Savimbi",
+      "Agostinho Neto",
+      "José Eduardo dos Santos",
+      "Holden Roberto"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "338652e9ad",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual líder da independência de Guiné-Bissau e Cabo Verde foi assassinado em 1973?",
+    "resposta": "Amílcar Cabral",
+    "alternativas": [
+      "Luís Cabral",
+      "Amílcar Cabral",
+      "Nino Vieira",
+      "Aristides Pereira"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3ecbf5d810",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual presidente revolucionário mudou o nome do Alto Volta para Burkina Faso?",
+    "resposta": "Thomas Sankara",
+    "alternativas": [
+      "Thomas Sankara",
+      "Blaise Compaoré",
+      "Jerry Rawlings",
+      "Sékou Touré"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5456566efb",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual planta do deserto da Namíbia vive mais de mil anos com apenas duas folhas?",
+    "resposta": "Welwitschia",
+    "alternativas": [
+      "Aloe dichotoma",
+      "Lithops",
+      "Welwitschia",
+      "Hoodia"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ed4390d093",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual planta carnívora tem folhas em forma de jarro, onde os insetos caem e são digeridos?",
+    "resposta": "Nepenthes",
+    "alternativas": [
+      "Nepenthes",
+      "Utricularia",
+      "Drosera",
+      "Pinguicula"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7b4eb23a5c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual síndrome neurológica causa tiques involuntários, como movimentos e sons repetidos?",
+    "resposta": "Síndrome de Tourette",
+    "alternativas": [
+      "Síndrome de Rett",
+      "Síndrome do pânico",
+      "Síndrome de Tourette",
+      "Síndrome de Burnout"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Síndrome de Down\" trocada por \"Síndrome de Rett\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "b68b84ef2a",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual síndrome, com nome de um barão contador de histórias, leva a pessoa a inventar doenças para ganhar atenção?",
+    "resposta": "Síndrome de Münchausen",
+    "alternativas": [
+      "Síndrome de Capgras",
+      "Síndrome de Diógenes",
+      "Síndrome de Cotard",
+      "Síndrome de Münchausen"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1bd22ec41c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a sensação de não merecer o próprio sucesso e de ser uma fraude prestes a ser descoberta?",
+    "resposta": "Síndrome do impostor",
+    "alternativas": [
+      "Síndrome do impostor",
+      "Síndrome de Burnout",
+      "Síndrome de Estocolmo",
+      "Síndrome do pânico"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a56726f3e8",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual expressão, com nome de um personagem de livro, descreve o adulto que se recusa a crescer?",
+    "resposta": "Síndrome de Peter Pan",
+    "alternativas": [
+      "Síndrome de Pinóquio",
+      "Complexo de Cinderela",
+      "Síndrome de Alice",
+      "Síndrome de Peter Pan"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "90ec7e1664",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual nome, aposentado nos manuais médicos em 2013, era dado a uma forma de autismo sem atraso na fala?",
+    "resposta": "Síndrome de Asperger",
+    "alternativas": [
+      "Síndrome de Williams",
+      "Síndrome de Angelman",
+      "Síndrome de Asperger",
+      "Síndrome de Rett"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "dad548989d",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual onda gigante de Maui, no Havaí, também é chamada de Peahi?",
+    "resposta": "Jaws",
+    "alternativas": [
+      "Jaws",
+      "Sunset",
+      "Banzai",
+      "Waimea"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Pipeline\" trocada por \"Banzai\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "45b809afb0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual onda da África do Sul o australiano Mick Fanning foi atacado por um tubarão durante uma final, em 2015?",
+    "resposta": "Jeffreys Bay",
+    "alternativas": [
+      "Durban",
+      "Muizenberg",
+      "Cape St. Francis",
+      "Jeffreys Bay"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "15f05660e3",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual onda famosa fica aos pés de um templo nos penhascos de Bali?",
+    "resposta": "Uluwatu",
+    "alternativas": [
+      "Uluwatu",
+      "Padang Padang",
+      "Kuta",
+      "Canggu"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cc9c6137f9",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual organização americana de MMA foi por anos a segunda maior depois do UFC?",
+    "resposta": "Bellator",
+    "alternativas": [
+      "World Series of Fighting",
+      "Jungle Fight",
+      "Strikeforce",
+      "Bellator"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Pride\" trocada por \"World Series of Fighting\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "496d8ceb88",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator viveu Norman Bates em \"Psicose\", de Hitchcock?",
+    "resposta": "Anthony Perkins",
+    "alternativas": [
+      "Jimmy Stewart",
+      "Vincent Price",
+      "Montgomery Clift",
+      "Anthony Perkins"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c742b5d7b3",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz viveu Sarah Connor em \"O Exterminador do Futuro\"?",
+    "resposta": "Linda Hamilton",
+    "alternativas": [
+      "Jamie Lee Curtis",
+      "Kathleen Turner",
+      "Sigourney Weaver",
+      "Linda Hamilton"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6262",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "a39ba6eb53",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz ganhou o Oscar por \"Noivo Neurótico, Noiva Nervosa\", de Woody Allen, em que vivia Annie Hall?",
+    "resposta": "Diane Keaton",
+    "alternativas": [
+      "Shelley Duvall",
+      "Mia Farrow",
+      "Goldie Hawn",
+      "Diane Keaton"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Meryl Streep\" trocada por \"Shelley Duvall\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "ee1f950ec7",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz francesa viveu Amélie Poulain em \"O Fabuloso Destino de Amélie Poulain\"?",
+    "resposta": "Audrey Tautou",
+    "alternativas": [
+      "Juliette Binoche",
+      "Marion Cotillard",
+      "Audrey Tautou",
+      "Eva Green"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5167e9fd54",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual criador fez \"Uma Família da Pesada\" e dubla vários personagens da série?",
+    "resposta": "Seth MacFarlane",
+    "alternativas": [
+      "Matt Groening",
+      "Seth MacFarlane",
+      "Trey Parker",
+      "Mike Judge"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6bdebbfcb4",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual criador de \"Bob Esponja\" era biólogo marinho antes de virar animador?",
+    "resposta": "Stephen Hillenburg",
+    "alternativas": [
+      "Stephen Hillenburg",
+      "Tom Kenny",
+      "Craig McCracken",
+      "Butch Hartman"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6459b87f76",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual animador russo-americano criou \"O Laboratório de Dexter\" e \"Samurai Jack\"?",
+    "resposta": "Genndy Tartakovsky",
+    "alternativas": [
+      "Craig McCracken",
+      "Thurop Van Orman",
+      "Butch Hartman",
+      "Genndy Tartakovsky"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f69bb702a9",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual criador fez \"Hora de Aventura\", com Finn e Jake?",
+    "resposta": "Pendleton Ward",
+    "alternativas": [
+      "Ian Jones-Quartey",
+      "Patrick McHale",
+      "Pendleton Ward",
+      "J. G. Quintel"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cfb28f66b6",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual criador fez \"Gravity Falls\", inspirado nos verões com a irmã gêmea?",
+    "resposta": "Alex Hirsch",
+    "alternativas": [
+      "C. H. Greenblatt",
+      "Dana Terrace",
+      "Alex Hirsch",
+      "Ben Bocquelet"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "483788fdc6",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual jogo de celular tinha um bichinho verde que pulava de plataforma em plataforma, num fundo de papel quadriculado?",
+    "resposta": "Doodle Jump",
+    "alternativas": [
+      "Mega Jump",
+      "Doodle Jump",
+      "Jetpack Joyride",
+      "Tiny Wings"
+    ],
+    "subtema": "Games: consoles e história",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "948ae0c2d7",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual app brasileiro de Belo Horizonte devolve parte do valor das compras on-line, o \"cashback\"?",
+    "resposta": "Méliuz",
+    "alternativas": [
+      "Zoom",
+      "Ame Digital",
+      "Méliuz",
+      "Dinheirama"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"PicPay\" trocada por \"Dinheirama\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "a07e0a1f92",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual plataforma de automação de marketing, criada em Florianópolis, foi comprada pela Totvs em 2021?",
+    "resposta": "RD Station",
+    "alternativas": [
+      "Leadlovers",
+      "Agendor",
+      "Hubspot Brasil",
+      "RD Station"
+    ],
+    "subtema": "Empresas, marcas e fundadores",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "887eb73f37",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ilha do sul da Inglaterra recebeu em 1970 um festival de rock com Jimi Hendrix e The Doors?",
+    "resposta": "Ilha de Wight",
+    "alternativas": [
+      "Ilha de Anglesey",
+      "Ilha de Man",
+      "Ilha de Lundy",
+      "Ilha de Wight"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b34bcbf307",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual arquipélago escocês, ao norte da ilha principal, tem o povoado neolítico de Skara Brae?",
+    "resposta": "Órcadas",
+    "alternativas": [
+      "Ilhas Scilly",
+      "Ilhas Faroé",
+      "Hébridas",
+      "Órcadas"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c83ed4e530",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual arquipélago escocês deu nome a uma raça de pôneis pequenos e peludos?",
+    "resposta": "Shetland",
+    "alternativas": [
+      "Ilhas Aran",
+      "Shetland",
+      "Hébridas",
+      "Anglesey"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "2d9f64a53e",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a maior ilha das Hébridas Interiores, na Escócia, famosa pelas montanhas Cuillin?",
+    "resposta": "Ilha de Skye",
+    "alternativas": [
+      "Ilha de Mull",
+      "Ilha de Skye",
+      "Ilha de Arran",
+      "Ilha de Islay"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fe0b69141b",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual é a maior ilha da Suécia, no Mar Báltico, com a cidade murada de Visby?",
+    "resposta": "Gotland",
+    "alternativas": [
+      "Gotland",
+      "Öland",
+      "Bornholm",
+      "Saaremaa"
+    ],
+    "subtema": "Rios, oceanos, mares e ilhas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b738d99c31",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual cidade francesa nos Pireneus recebe milhões de peregrinos pelas aparições de Nossa Senhora a Bernadette?",
+    "resposta": "Lourdes",
+    "alternativas": [
+      "Lourdes",
+      "Chartres",
+      "Fátima",
+      "Avinhão"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e184b44a0a",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual cidade indiana Buda teria alcançado a iluminação sob uma figueira?",
+    "resposta": "Bodh Gaya",
+    "alternativas": [
+      "Lumbini",
+      "Kushinagar",
+      "Bodh Gaya",
+      "Sarnath"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "020d347c0e",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual guerrilheiro nicaraguense lutou contra a ocupação americana do país entre 1927 e 1933?",
+    "resposta": "Augusto César Sandino",
+    "alternativas": [
+      "Augusto César Sandino",
+      "Daniel Ortega",
+      "Carlos Fonseca",
+      "Anastasio Somoza"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual guerrilheiro nicaraguense dos anos 1920 e 1930 deu nome aos sandinistas?\")"
+  },
+  {
+    "id": "09d37bf974",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual presidente peruano de origem japonesa governou o país nos anos 1990?",
+    "resposta": "Alberto Fujimori",
+    "alternativas": [
+      "Alan García",
+      "Alberto Fujimori",
+      "Ollanta Humala",
+      "Alejandro Toledo"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cc467e6f37",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual general panamenho assinou com Jimmy Carter, em 1977, os tratados que devolveram o canal ao Panamá?",
+    "resposta": "Omar Torrijos",
+    "alternativas": [
+      "Guillermo Endara",
+      "Ernesto Pérez Balladares",
+      "Arnulfo Arias",
+      "Omar Torrijos"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Manuel Noriega\" trocada por \"Ernesto Pérez Balladares\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "cd853edcb6",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual presidente da Costa Rica ganhou o Nobel da Paz de 1987 por um plano de paz para a América Central?",
+    "resposta": "Óscar Arias",
+    "alternativas": [
+      "Óscar Arias",
+      "José Figueres",
+      "Daniel Oduber",
+      "Rodrigo Carazo"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "87fdfc0724",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual mulher foi eleita presidente da Nicarágua em 1990, derrotando os sandinistas nas urnas?",
+    "resposta": "Violeta Chamorro",
+    "alternativas": [
+      "Isabel Perón",
+      "Lidia Gueiler",
+      "Mireya Moscoso",
+      "Violeta Chamorro"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b80984ed45",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual médica foi a primeira mulher a presidir o Chile, a partir de 2006?",
+    "resposta": "Michelle Bachelet",
+    "alternativas": [
+      "Evelyn Matthei",
+      "Michelle Bachelet",
+      "Isabel Allende",
+      "Gabriela Mistral"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "41d9f0b2d6",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Quem foi o primeiro presidente indígena da Bolívia, eleito em 2005?",
+    "resposta": "Evo Morales",
+    "alternativas": [
+      "Luis Arce",
+      "Carlos Mesa",
+      "Evo Morales",
+      "Álvaro García Linera"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c9f362a3fc",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Qual faixa de fibras nervosas liga os dois hemisférios do cérebro?",
+    "resposta": "Corpo caloso",
+    "alternativas": [
+      "Tronco encefálico",
+      "Medula oblonga",
+      "Ponte de Varólio",
+      "Corpo caloso"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Bulbo\" trocada por \"Ponte de Varólio\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "8b2390463d",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual região do cérebro, descrita por um médico francês em 1861, comanda a produção da fala?",
+    "resposta": "Área de Broca",
+    "alternativas": [
+      "Giro angular",
+      "Área de Brodmann",
+      "Área de Broca",
+      "Ínsula"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e408abaa66",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual região do cérebro, com nome de um neurologista alemão, cuida da compreensão da linguagem?",
+    "resposta": "Área de Wernicke",
+    "alternativas": [
+      "Lobo frontal",
+      "Sulco central",
+      "Área de Wernicke",
+      "Área tegmental"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8814153584",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamam as células nervosas que disparam tanto quando fazemos uma ação quanto quando vemos alguém fazê-la?",
+    "resposta": "Neurônios-espelho",
+    "alternativas": [
+      "Neurônios sensitivos",
+      "Neurônios-espelho",
+      "Células gliais",
+      "Neurônios motores"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:4694",
+    "recente": false,
+    "dup_regra": "resposta nova citada no texto antigo (5.8)"
+  },
+  {
+    "id": "b52fbf86dd",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual goleiro alemão do Liverpool falhou em dois gols na final da Champions de 2018?",
+    "resposta": "Loris Karius",
+    "alternativas": [
+      "Simon Mignolet",
+      "Danny Ward",
+      "Loris Karius",
+      "Adrián"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "errada \"Alisson\" trocada por \"Danny Ward\" na geração (era resposta de outra pergunta)"
+  },
+  {
+    "id": "48401c72c3",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual galês marcou um gol de bicicleta na final da Champions de 2018, contra o Liverpool?",
+    "resposta": "Gareth Bale",
+    "alternativas": [
+      "Joe Allen",
+      "Ryan Giggs",
+      "Gareth Bale",
+      "Aaron Ramsey"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "70445c0ea5",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual goleiro polonês do Liverpool \"dançou\" sob as traves nos pênaltis da final de 2005, contra o Milan?",
+    "resposta": "Jerzy Dudek",
+    "alternativas": [
+      "Artur Boruc",
+      "Tomasz Kuszczak",
+      "Jerzy Dudek",
+      "Wojciech Szczęsny"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "468ee92a84",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual atacante norueguês marcou o gol do título do Manchester United na final da Champions de 1999?",
+    "resposta": "Ole Gunnar Solskjær",
+    "alternativas": [
+      "Tore André Flo",
+      "Teddy Sheringham",
+      "Ole Gunnar Solskjær",
+      "Andy Cole"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "descartada",
+    "motivo": "espelho de 088:33017f6689 (final da Champions de 1999)",
+    "dup": "certa",
+    "dup_ref": "id:33017f6689",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (20.6)"
+  },
+  {
+    "id": "ef3739185b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Em qual estádio de Moscou o Manchester United venceu o Chelsea nos pênaltis, sob chuva, na final da Champions de 2008?",
+    "resposta": "Luzhniki",
+    "alternativas": [
+      "Luzhniki",
+      "Lokomotiv",
+      "Otkritie Arena",
+      "Dínamo"
+    ],
+    "subtema": "Seleção e craques",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:6025",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (15.4)",
+    "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:6025)"
+  },
+  {
+    "id": "814631946b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual atriz ganhou o Oscar por viver a fã obcecada Annie Wilkes em \"Louca Obsessão\"?",
+    "resposta": "Kathy Bates",
+    "alternativas": [
+      "Kathy Bates",
+      "Jessica Lange",
+      "Glenn Close",
+      "Anjelica Huston"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de6459bca9",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator viveu o palhaço assassino na minissérie \"It\", de 1990?",
+    "resposta": "Tim Curry",
+    "alternativas": [
+      "Tim Curry",
+      "Jack Nicholson",
+      "Christopher Lloyd",
+      "John Lithgow"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual ator viveu o palhaço Pennywise na minissérie \"It\", de 1990?\")"
+  },
+  {
+    "id": "537fef5294",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ator viveu o vilão de rosto queimado que ataca nos sonhos, em \"A Hora do Pesadelo\"?",
+    "resposta": "Robert Englund",
+    "alternativas": [
+      "Gunnar Hansen",
+      "Kane Hodder",
+      "Robert Englund",
+      "Tony Todd"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null,
+    "correcao": "enunciado reescrito na geração (antes: \"Qual ator viveu Freddy Krueger em \"A Hora do Pesadelo\"?\")"
+  },
+  {
+    "id": "d2c05e868e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual obra de Carl Orff abre com o coro \"O Fortuna\", muito usado em trailers?",
+    "resposta": "Carmina Burana",
+    "alternativas": [
+      "Messias",
+      "Réquiem",
+      "Carmina Burana",
+      "Stabat Mater"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4f3906b916",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual obra de Richard Strauss ficou famosa na abertura de \"2001: Uma Odisseia no Espaço\"?",
+    "resposta": "Assim Falou Zaratustra",
+    "alternativas": [
+      "Morte e Transfiguração",
+      "Assim Falou Zaratustra",
+      "Uma Vida de Herói",
+      "O Danúbio Azul"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "037af726a0",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Quais peças lentas para piano, de 1888, são as mais famosas de Erik Satie?",
+    "resposta": "Gymnopédies",
+    "alternativas": [
+      "Arabescos",
+      "Prelúdios",
+      "Gymnopédies",
+      "Noturnos"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7cfb2a3e66",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual peça de Rimsky-Korsakov imita, com notas rapidíssimas, o zumbido de um inseto?",
+    "resposta": "O Voo do Besouro",
+    "alternativas": [
+      "O Moscardo",
+      "Bolero",
+      "O Voo do Besouro",
+      "A Dança do Sabre"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f29d9a7fc5",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual obra de George Gershwin, de 1924, mistura jazz e música de concerto e abre com um glissando de clarinete?",
+    "resposta": "Rhapsody in Blue",
+    "alternativas": [
+      "Porgy and Bess",
+      "An American in Paris",
+      "Summertime",
+      "Rhapsody in Blue"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3251",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "369978a37c",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual programa de modelagem 3D é muito usado por arquitetos e já pertenceu ao Google?",
+    "resposta": "SketchUp",
+    "alternativas": [
+      "Revit",
+      "3ds Max",
+      "Rhino",
+      "SketchUp"
+    ],
+    "subtema": "Programas e sistemas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "370fdb63ce",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual ferramenta do Internet Archive guarda versões antigas de sites?",
+    "resposta": "Wayback Machine",
+    "alternativas": [
+      "Archive.today",
+      "Web Vault",
+      "Time Capsule",
+      "Wayback Machine"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  }
+]

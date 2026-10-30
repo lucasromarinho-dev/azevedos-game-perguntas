@@ -11965,6 +11965,86 @@
           "duplicada (banco)": "df933eb283: duplicada (banco): mesmo fato que banco:9550 (\"Qual assistente virtual em forma de gorila roxo... acusado de ser spyware?\" => BonziBuddy)"
         },
         "risco_sem_checagem_conferente": []
+      },
+      {
+        "lote": "103",
+        "conferente": "conferente-v10",
+        "conferidas": 34,
+        "conferidas_sem_mudanca": 30,
+        "com_mudanca": 4,
+        "corrigidas": 2,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "molde repetido": 1
+        },
+        "perguntas_com_busca_web": 34,
+        "suspeitas": {
+          "total": 3,
+          "mantidas": 3,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "História": {
+            "conferidas": 5,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 16,
+            "corrigidas": 1,
+            "rebaixadas": 2,
+            "descartadas": 1
+          },
+          "Esportes": {
+            "conferidas": 3,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "e1d8861e92: molde repetido: molde \"poeta\" tinha 8 na rodada (103 e 104); cortada (Ginsberg)"
+        ],
+        "correcoes": [
+          "06f5c041bc: Isoroku Yamamoto - errada Chuichi Nagumo comandou a força de ataque a Pearl Harbor (defensável para \"comandou a frota que atacou\"); Yamamoto comandava a Frota Combinada e planejou o ataque; enunciado refeito (checagem web) (antes: \"Qual almirante japonês comandou a frota que atacou Pearl Harbor e morreu quando seu avião foi abatido em 1943?\")",
+          "9446a96489: Art Popular - não achei fonte para \"Pimpolho\" no álbum Temporal; enunciado refeito com o ano confirmado (checagem web) (antes: \"Qual grupo de pagode lançou o álbum \"Temporal\", com a faixa-título e \"Pimpolho\"?\")",
+          "a29ac7f2fc: Arthur Rimbaud - Rimbaud e \"Uma Temporada no Inferno\" são muito conhecidos; rebaixada",
+          "6b9e34d6d5: Federico García Lorca - García Lorca é o poeta espanhol mais conhecido no Brasil; rebaixada"
+        ],
+        "rebaixamentos": [
+          "a29ac7f2fc: Arthur Rimbaud (dificil -> medio)",
+          "6b9e34d6d5: Federico García Lorca (dificil -> medio)"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "errada defensavel": 1,
+          "fato impreciso": 1,
+          "dificuldade": 2,
+          "molde repetido": 1
+        },
+        "exemplos_erro": {
+          "errada defensavel": "06f5c041bc: Isoroku Yamamoto - errada Chuichi Nagumo comandou a força de ataque a Pearl Harbor (defensável para \"comandou a frota que atacou\"); Yamamoto comandava a Frota Combinada e planejou o ataque; enunciado refeito (checagem web) (antes: \"Qual almirante japonês comandou a frota que atacou Pearl Harbor e morreu quando seu avião foi abatido em 1943?\")",
+          "fato impreciso": "9446a96489: Art Popular - não achei fonte para \"Pimpolho\" no álbum Temporal; enunciado refeito com o ano confirmado (checagem web) (antes: \"Qual grupo de pagode lançou o álbum \"Temporal\", com a faixa-título e \"Pimpolho\"?\")",
+          "dificuldade": "a29ac7f2fc: Arthur Rimbaud - Rimbaud e \"Uma Temporada no Inferno\" são muito conhecidos; rebaixada",
+          "molde repetido": "e1d8861e92: molde repetido: molde \"poeta\" tinha 8 na rodada (103 e 104); cortada (Ginsberg)"
+        },
+        "risco_sem_checagem_conferente": []
       }
     ],
     "rebaixamentos_r3": {

@@ -19828,5 +19828,48 @@
       "erradas_trocadas_aprox": 310,
       "checa_resposta_reescritas": 2
     }
+  },
+  "reposicao_2_br_lote123": {
+    "data": "2026-10-30",
+    "status": "gerada (falta conferência independente; nada publicado)",
+    "_leia": "Folga da reposição 2 (pop BR): 40 válidas para cobrir as 28 que faltam. Ver README, seção Reposição 2 (pop BR).",
+    "lote": "123",
+    "escritas": 44,
+    "validas": 40,
+    "descartadas": 4,
+    "descarte_por_motivo": {
+      "corte_de_regua": 4
+    },
+    "composicao": {
+      "facil": 0,
+      "medio": 22,
+      "dificil": 18
+    },
+    "subtemas": {
+      "tv-novela": 8,
+      "musica": 8,
+      "humor": 5,
+      "esporte-entretenimento": 5,
+      "celebridades": 5,
+      "cinema": 3,
+      "reality": 3,
+      "games-internet": 3
+    },
+    "recentes": 7,
+    "web": {
+      "paginas_wikipedia_conferidas": 42,
+      "websearch": 3,
+      "com_verificado_web": 40
+    },
+    "checagens": {
+      "entrega_suspeitas": 0,
+      "alternativas_lote_e_rara": 0,
+      "duplicadas_sem_descartar": {
+        "certa": 3,
+        "suspeita": 6,
+        "mantidas_com_dup_revisado": 9
+      },
+      "banco_de_referencia": "origin/main:perguntas.json (13.986)"
+    }
   }
 }

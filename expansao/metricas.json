@@ -18863,5 +18863,73 @@
       "enunciados_duplicados": 0,
       "arquivo": "uma linha, UTF-8 sem BOM, sem quebra no fim"
     }
+  },
+  "reposicao": {
+    "data": "2026-10-30",
+    "status": "gerada (falta conferência independente; nada publicado)",
+    "_leia": "Repõe as 286 de Entretenimento (entretenimento-remocao) e as 8 removidas da correção entrega. Lotes 111-113. Ver README, seção Reposição.",
+    "lotes": {
+      "111": 98,
+      "112": 98,
+      "113": 98
+    },
+    "escritas": 316,
+    "validas": 294,
+    "descartadas": 22,
+    "descarte_por_motivo": {
+      "sem_fonte": 3,
+      "duplicada_banco": 2,
+      "espelho_ou_cita_resposta_de_outra": 13,
+      "cruzamento_interno_ou_molde": 4
+    },
+    "composicao": {
+      "Entretenimento": {
+        "facil": 9,
+        "medio": 106,
+        "dificil": 172
+      },
+      "Geografia": {
+        "facil": 3,
+        "medio": 1
+      },
+      "Esportes": {
+        "facil": 2
+      },
+      "História": {
+        "facil": 1
+      }
+    },
+    "subtemas_entretenimento": {
+      "TV e novelas": 65,
+      "Música brasileira": 80,
+      "Humor": 22,
+      "Celebridades e apresentadores": 37,
+      "Cinema nacional": 35,
+      "Quadrinhos brasileiros": 19,
+      "Animação e games": 29
+    },
+    "formatos_novos": {
+      "nao-e": 3
+    },
+    "recentes": 2,
+    "web": {
+      "leituras_wikipedia_raw": 400,
+      "buscas_de_titulo_wikipedia": 24,
+      "websearch": 9,
+      "com_verificado_web": 291,
+      "sem_verificado_web": 3,
+      "sem_verificado_web_motivo": "nao-e fáceis de Geografia"
+    },
+    "checagens": {
+      "entrega_suspeitas": 0,
+      "duplicadas_sem_descartar": {
+        "certa": 24,
+        "suspeita": 45,
+        "mantidas_com_dup_revisado": 69
+      },
+      "alternativas_lote": 0,
+      "erradas_trocadas_aprox": 100,
+      "enunciados_reescritos_aprox": 30
+    }
   }
 }

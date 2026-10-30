@@ -6683,6 +6683,101 @@
           "errada defensavel": "1abfc736a2: errada 'Foge da raia' (esquivar-se) é quase o mesmo sentido de dar uma de João-sem-braço; trocada",
           "dificuldade": "8f5655b3bc: undefined"
         }
+      },
+      {
+        "lote": "064",
+        "conferente": "conferente-v6",
+        "conferidas": 106,
+        "conferidas_sem_mudanca": 93,
+        "com_mudanca": 13,
+        "corrigidas": 11,
+        "rebaixadas": 2,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "cadeia": 1
+        },
+        "perguntas_com_busca_web": 0,
+        "buscas_web": 0,
+        "suspeitas": {
+          "total": 27,
+          "mantidas": 24,
+          "reescritas": 3,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "Geografia": {
+            "conferidas": 13,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "História": {
+            "conferidas": 15,
+            "corrigidas": 3,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 14,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 20,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Entretenimento": {
+            "conferidas": 27,
+            "corrigidas": 4,
+            "rebaixadas": 2,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 17,
+            "corrigidas": 2,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "eff7ff7151: cadeia: mesmo molde de banco ('Em qual mês começa o inverno no Brasil?' => Junho); pergunta em cadeia sobre o mesmo fato (início das estações)"
+        ],
+        "correcoes": [
+          "3b5f9e5820: Paulo Leminski - errada Alice Ruiz também é poeta curitibana famosa pelos haicais (errada defensável); trocada por Dalton Trevisan",
+          "0d04726df3: Fernando Pessoa - errada Florbela Espanca era a resposta de 7ef6e (mesmo lote); trocada",
+          "fc09c1398c: Palmirinha - errada Ofélia (Ofélia Anunciato, apresentadora de culinária na TV) defensável; trocada",
+          "099fdc0fd2: Little Italy - errada Chinatown era a resposta de e2274 (mesmo lote), que tinha Little Italy entre as erradas (respostas cruzadas); trocada",
+          "2755ca49fc: Hiragana - errada Hangul era a resposta de c9396 (lote 061), que tinha Hiragana entre as erradas (respostas cruzadas); trocada",
+          "2b82fe264d: Karakorum - Karakorum virou capital com Ögedei (1235), não com Gengis Khan, cujo nome também era a resposta de banco:791; reescrito",
+          "a22043bfb7: Aachen - enunciado citava Carlos Magno, resposta de banco:1104; reescrito",
+          "979bfd17ee: Estátua - errada Dança das cadeiras era a resposta de 6a68b (mesmo lote), que tinha Estátua entre as erradas (respostas cruzadas); trocada",
+          "1aca2ff989: Start-stop - errada Cruise control é o piloto automático, resposta de ab40a (mesmo lote); trocada",
+          "ab40abd654: Piloto automático - errada Start-stop era a resposta de 1aca2 (mesmo lote); trocada",
+          "2f3810d52f: Sair à francesa - errada 'Sair à inglesa' é a forma usada em francês para a mesma ideia (filer à l'anglaise); trocada"
+        ],
+        "rebaixamentos": [
+          "ef325688dd: Cecília Meireles dificil -> medio",
+          "c56d5478ac: Gonçalves Dias dificil -> medio"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "espelho/duplicada": 7,
+          "errada defensavel": 3,
+          "dificuldade": 2,
+          "fato impreciso": 1,
+          "entrega a resposta": 1
+        },
+        "exemplos_erro": {
+          "espelho/duplicada": "eff7ff7151: cadeia: mesmo molde de banco ('Em qual mês começa o inverno no Brasil?' => Junho); pergunta em cadeia sobre o mesmo fato (início das estações)",
+          "errada defensavel": "3b5f9e5820: errada Alice Ruiz também é poeta curitibana famosa pelos haicais (errada defensável); trocada por Dalton Trevisan",
+          "dificuldade": "ef325688dd: undefined",
+          "fato impreciso": "2b82fe264d: Karakorum virou capital com Ögedei (1235), não com Gengis Khan, cujo nome também era a resposta de banco:791; reescrito",
+          "entrega a resposta": "a22043bfb7: enunciado citava Carlos Magno, resposta de banco:1104; reescrito"
+        }
       }
     ],
     "rebaixamentos_r3": {

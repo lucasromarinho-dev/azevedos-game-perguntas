@@ -86,8 +86,8 @@
     "pergunta": "Em inglês, o que quer dizer a expressão \"piece of cake\"?",
     "resposta": "Algo muito fácil",
     "alternativas": [
-      "Algo muito doce",
       "Algo muito fácil",
+      "Algo muito doce",
       "Algo muito caro",
       "Algo muito pequeno"
     ],
@@ -106,8 +106,8 @@
     "pergunta": "Em inglês, o que significa a palavra \"actually\"?",
     "resposta": "Na verdade",
     "alternativas": [
-      "Atualmente",
       "Na verdade",
+      "Atualmente",
       "Agora mesmo",
       "Acidentalmente"
     ],
@@ -148,8 +148,8 @@
     "alternativas": [
       "Reclamar",
       "Revelar",
-      "Perceber",
-      "Realizar"
+      "Realizar",
+      "Perceber"
     ],
     "subtema": "Bandeiras, moedas e idiomas",
     "status": "gerada",
@@ -328,8 +328,8 @@
     "alternativas": [
       "Inmetro",
       "Anvisa",
-      "Procon",
-      "Serasa"
+      "Serasa",
+      "Procon"
     ],
     "subtema": "Brasil República, Vargas, ditadura e redemocratização",
     "status": "gerada",
@@ -392,12 +392,12 @@
       "Cara de pau"
     ],
     "subtema": "Brasil Colônia",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:76219bcae2 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "id:76219bcae2",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
   },
   {
     "id": "a9b511df65",
@@ -412,12 +412,12 @@
       "Ficar a ver navios"
     ],
     "subtema": "Revoluções e Idade Moderna",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:546f882181 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:546f882181",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.4, 21% do fato)"
   },
   {
     "id": "3a6093f696",
@@ -972,12 +972,12 @@
       "Raia"
     ],
     "subtema": "Olimpíadas e atletismo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:5b21335f64 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:5b21335f64",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (17.8, sim 0.3)"
   },
   {
     "id": "6426065877",
@@ -1192,8 +1192,8 @@
       "Breeders' Cup"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que pergunta da rodada 6 ainda não commitada (Kentucky Derby, nau Victoria)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -1272,12 +1272,12 @@
       "Sissi"
     ],
     "subtema": "Seleção e craques",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:2716aae836 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:2716aae836",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (17.2, sim 0.3)"
   },
   {
     "id": "1b82ee56e5",
@@ -1332,12 +1332,12 @@
       "Polaina"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:7b7d57b782 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:7b7d57b782",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "b4e9303d66",
@@ -1392,12 +1392,12 @@
       "Samoa"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "banco:5721",
+    "status": "descartada",
+    "motivo": "mesmo fato que id:71068dbda4 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:71068dbda4",
     "recente": false,
-    "dup_regra": "E2 mesma resposta e mesmo assunto (11.9, 25% do fato)"
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 16.8)"
   },
   {
     "id": "feb8e6b250",
@@ -1432,12 +1432,12 @@
       "Circo Orlando Orfei"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:8fe7f128b0 (suspeita confirmada na geração)",
+    "dup": "suspeita",
+    "dup_ref": "id:8fe7f128b0",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
   },
   {
     "id": "fd968183e1",
@@ -1452,12 +1452,12 @@
       "Picadeiro"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:d55866bc61 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:d55866bc61",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (23.9, sim 0.7)"
   },
   {
     "id": "beb9c35ee8",
@@ -1552,12 +1552,12 @@
       "Mariinsky"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:fe374c4094 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:fe374c4094",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 39.1)"
   },
   {
     "id": "5a6126b4a4",
@@ -1612,12 +1612,12 @@
       "Proscênio"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:22a550ecf3 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:22a550ecf3",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (26.1, sim 0.4)"
   },
   {
     "id": "4386498903",
@@ -1772,12 +1772,12 @@
       "Ribalta"
     ],
     "subtema": "Dança, teatro e circo",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:90dae7d2e6 (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:90dae7d2e6",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "R1 mesma resposta e texto parecido"
   },
   {
     "id": "e192842cdc",
@@ -1872,12 +1872,12 @@
       "Laerte"
     ],
     "subtema": "Literatura",
-    "status": "gerada",
-    "motivo": null,
-    "dup": "nao",
-    "dup_ref": null,
+    "status": "descartada",
+    "motivo": "mesmo fato que id:a873ef0fcb (suspeita confirmada na geração)",
+    "dup": "certa",
+    "dup_ref": "id:a873ef0fcb",
     "recente": false,
-    "dup_regra": null
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 6.6)"
   },
   {
     "id": "0419e2f80f",
@@ -2234,9 +2234,309 @@
     "subtema": "Celulares e gadgets",
     "status": "gerada",
     "motivo": null,
-    "dup": "suspeita",
-    "dup_ref": "id:4510658c64",
+    "dup": "nao",
+    "dup_ref": null,
     "recente": false,
-    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 6.4)"
+    "dup_regra": null
+  },
+  {
+    "id": "66925be934",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "O saxofone foi inventado nos anos 1840 por um fabricante de instrumentos de qual país?",
+    "resposta": "Bélgica",
+    "alternativas": [
+      "França",
+      "Bélgica",
+      "Áustria",
+      "Alemanha"
+    ],
+    "subtema": "Revoluções e Idade Moderna",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "52b8c91f8f",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual expressão designa uma solução simples que ninguém tinha enxergado, inspirada num navegador genovês?",
+    "resposta": "Ovo de Colombo",
+    "alternativas": [
+      "Pulo do gato",
+      "Calcanhar de Aquiles",
+      "Pedra filosofal",
+      "Ovo de Colombo"
+    ],
+    "subtema": "Navegações e Américas pré-colombianas",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:6296 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:6296",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "7ae0115802",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual benefício, criado em 1986, paga parcelas mensais a quem é demitido sem justa causa?",
+    "resposta": "Seguro-desemprego",
+    "alternativas": [
+      "Seguro-desemprego",
+      "Salário-família",
+      "Abono salarial",
+      "Auxílio-doença"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f8d83d6683",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual aula de dança fitness, criada por um colombiano nos anos 1990, mistura ritmos latinos?",
+    "resposta": "Zumba",
+    "alternativas": [
+      "Spinning",
+      "Jump",
+      "Zumba",
+      "Pilates"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "49f24ab396",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção venceu a Copa do Mundo feminina de 2011, na Alemanha?",
+    "resposta": "Japão",
+    "alternativas": [
+      "Estados Unidos",
+      "Suécia",
+      "Alemanha",
+      "Japão"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "244c706ed0",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual piloto brasileiro venceu corridas na principal categoria do Mundial de Motovelocidade, a antiga 500 cc?",
+    "resposta": "Alex Barros",
+    "alternativas": [
+      "Alexandre Barros Filho",
+      "Diogo Moreira",
+      "Alex Barros",
+      "Eric Granado"
+    ],
+    "subtema": "F1 e automobilismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fdff9c86c1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem compôs \"As Quatro Estações\", conjunto de concertos para violino?",
+    "resposta": "Vivaldi",
+    "alternativas": [
+      "Mozart",
+      "Handel",
+      "Vivaldi",
+      "Bach"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ccc8ba5c88",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual livro de José Mauro de Vasconcelos conta a história do menino Zezé e de sua árvore amiga?",
+    "resposta": "Meu Pé de Laranja Lima",
+    "alternativas": [
+      "Meu Pé de Laranja Lima",
+      "Coração de Vidro",
+      "O Menino Maluquinho",
+      "O Menino do Dedo Verde"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "0a8e36ad8d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Quem criou o gato Garfield, que odeia segundas-feiras e ama lasanha?",
+    "resposta": "Jim Davis",
+    "alternativas": [
+      "Mort Walker",
+      "Jim Davis",
+      "Bill Watterson",
+      "Charles Schulz"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5209 (E5 resposta antiga citada no texto novo + assunto (14.4))",
+    "dup": "certa",
+    "dup_ref": "banco:5209",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (14.4)"
+  },
+  {
+    "id": "34b1a0d5a3",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual estúdio criou os Minions e a franquia \"Meu Malvado Favorito\"?",
+    "resposta": "Illumination",
+    "alternativas": [
+      "Blue Sky",
+      "Illumination",
+      "DreamWorks",
+      "Pixar"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5353e323cd",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual italiano compôs as óperas \"Madame Butterfly\" e \"Turandot\"?",
+    "resposta": "Puccini",
+    "alternativas": [
+      "Rossini",
+      "Bellini",
+      "Verdi",
+      "Puccini"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "63d04250b7",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual brasileiro dirigiu a animação \"Rio\" e filmes de \"A Era do Gelo\"?",
+    "resposta": "Carlos Saldanha",
+    "alternativas": [
+      "Carlos Saldanha",
+      "José Padilha",
+      "Fernando Meirelles",
+      "Alê Abreu"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "13945abb78",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual autora escreveu \"A Bolsa Amarela\", sobre uma menina que esconde suas vontades?",
+    "resposta": "Lygia Bojunga",
+    "alternativas": [
+      "Clarice Lispector",
+      "Ana Maria Machado",
+      "Ruth Rocha",
+      "Lygia Bojunga"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "31ebadf124",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual disco de Caetano Veloso, gravado no exílio em Londres, foi lançado em 1972?",
+    "resposta": "Transa",
+    "alternativas": [
+      "Jóia",
+      "Transa",
+      "Araçá Azul",
+      "Muito"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a39e19b617",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual artista de circo joga e apanha vários objetos no ar ao mesmo tempo?",
+    "resposta": "Malabarista",
+    "alternativas": [
+      "Contorcionista",
+      "Equilibrista",
+      "Malabarista",
+      "Ilusionista"
+    ],
+    "subtema": "Dança, teatro e circo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
   }
 ]

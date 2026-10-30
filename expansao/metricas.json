@@ -2253,13 +2253,13 @@
     {
       "lote": "066",
       "metodo": "respostas_primeiro_v3",
-      "escritas": 112,
+      "escritas": 127,
       "validas": 107,
-      "descartadas": 5,
-      "taxa_descarte": 0.04,
-      "caracteres": 17794,
-      "tokens_aprox": 5084,
-      "rodadas_de_reposicao": 0,
+      "descartadas": 20,
+      "taxa_descarte": 0.16,
+      "caracteres": 20271,
+      "tokens_aprox": 5792,
+      "rodadas_de_reposicao": 2,
       "candidatas_usadas": [
         "r7-066.txt",
         "r7-066b.txt",
@@ -2283,16 +2283,16 @@
         "candidatas_por_valida": 7.24
       },
       "perguntas": {
-        "escritas": 112,
+        "escritas": 127,
         "validas": 107,
-        "descartadas_detector": 5,
-        "descarte": 0.04,
-        "tokens_aprox": 5084
+        "descartadas_detector": 20,
+        "descarte": 0.16,
+        "tokens_aprox": 5792
       },
       "tokens_por_valida": {
         "listas": 128,
-        "perguntas": 48,
-        "total": 176
+        "perguntas": 54,
+        "total": 182
       }
     }
   ],

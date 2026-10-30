@@ -11881,6 +11881,90 @@
         "tipos_erro": {},
         "exemplos_erro": {},
         "risco_sem_checagem_conferente": []
+      },
+      {
+        "lote": "102",
+        "conferente": "conferente-v10",
+        "conferidas": 43,
+        "conferidas_sem_mudanca": 40,
+        "com_mudanca": 3,
+        "corrigidas": 2,
+        "rebaixadas": 1,
+        "subidas": 0,
+        "descartadas": 1,
+        "motivos_descarte": {
+          "duplicada (banco)": 1
+        },
+        "perguntas_com_busca_web": 43,
+        "suspeitas": {
+          "total": 3,
+          "mantidas": 3,
+          "reescritas": 0,
+          "descartadas": 0
+        },
+        "por_categoria": {
+          "História": {
+            "conferidas": 4,
+            "corrigidas": 1,
+            "rebaixadas": 1,
+            "descartadas": 0
+          },
+          "Geografia": {
+            "conferidas": 8,
+            "corrigidas": 1,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Ciências": {
+            "conferidas": 9,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Esportes": {
+            "conferidas": 5,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          },
+          "Tecnologia": {
+            "conferidas": 4,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 1
+          },
+          "Entretenimento": {
+            "conferidas": 13,
+            "corrigidas": 0,
+            "rebaixadas": 0,
+            "descartadas": 0
+          }
+        },
+        "descartes": [
+          "df933eb283: duplicada (banco): mesmo fato que banco:9550 (\"Qual assistente virtual em forma de gorila roxo... acusado de ser spyware?\" => BonziBuddy)"
+        ],
+        "correcoes": [
+          "dbefa632e6: Lakshmi - \"Diwali\" é a resposta de 056:1e2283ace3; enunciado refeito (antes: \"Qual deusa hindu da riqueza e da prosperidade é celebrada no festival de Diwali?\")",
+          "e82d30814f: Kali - Kali é a deusa hindu mais conhecida pela imagem descrita; rebaixada",
+          "edd69a408b: Rio Pilcomayo - \"a maior parte da fronteira\" sem fonte (a fronteira é feita por Pilcomayo, Paraguai e Paraná); enunciado ajustado (checagem web) (antes: \"Qual rio, que nasce na Bolívia, forma a maior parte da fronteira entre a Argentina e o Paraguai?\")"
+        ],
+        "rebaixamentos": [
+          "e82d30814f: Kali (dificil -> medio)"
+        ],
+        "subidas_lista": [],
+        "tipos_erro": {
+          "entrega a resposta": 1,
+          "dificuldade": 1,
+          "fato impreciso": 1,
+          "duplicada (banco)": 1
+        },
+        "exemplos_erro": {
+          "entrega a resposta": "dbefa632e6: Lakshmi - \"Diwali\" é a resposta de 056:1e2283ace3; enunciado refeito (antes: \"Qual deusa hindu da riqueza e da prosperidade é celebrada no festival de Diwali?\")",
+          "dificuldade": "e82d30814f: Kali - Kali é a deusa hindu mais conhecida pela imagem descrita; rebaixada",
+          "fato impreciso": "edd69a408b: Rio Pilcomayo - \"a maior parte da fronteira\" sem fonte (a fronteira é feita por Pilcomayo, Paraguai e Paraná); enunciado ajustado (checagem web) (antes: \"Qual rio, que nasce na Bolívia, forma a maior parte da fronteira entre a Argentina e o Paraguai?\")",
+          "duplicada (banco)": "df933eb283: duplicada (banco): mesmo fato que banco:9550 (\"Qual assistente virtual em forma de gorila roxo... acusado de ser spyware?\" => BonziBuddy)"
+        },
+        "risco_sem_checagem_conferente": []
       }
     ],
     "rebaixamentos_r3": {

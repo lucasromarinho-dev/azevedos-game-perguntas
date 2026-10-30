@@ -12,19 +12,21 @@
       "Nandi"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "dbefa632e6",
     "categoria": "História",
     "dificuldade": "medio",
-    "pergunta": "Qual deusa hindu da riqueza e da prosperidade é celebrada no festival de Diwali?",
+    "pergunta": "Qual deusa hindu da riqueza e da prosperidade é homenageada no festival hindu das luzes?",
     "resposta": "Lakshmi",
     "alternativas": [
       "Lakshmi",
@@ -33,18 +35,21 @@
       "Saraswati"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "correcao": "conferente-v10: \"Diwali\" é a resposta de 056:1e2283ace3; enunciado refeito (antes: \"Qual deusa hindu da riqueza e da prosperidade é celebrada no festival de Diwali?\")"
   },
   {
     "id": "e82d30814f",
     "categoria": "História",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual deusa hindu, de pele escura, é representada com um colar de crânios e a língua de fora?",
     "resposta": "Kali",
     "alternativas": [
@@ -54,13 +59,17 @@
       "Sita"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v10)",
+    "correcao": "conferente-v10: Kali é a deusa hindu mais conhecida pela imagem descrita; rebaixada"
   },
   {
     "id": "1578907ace",
@@ -75,13 +84,15 @@
       "Upanishads"
     ],
     "subtema": "Antiguidade",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "7f87e409f6",
@@ -96,13 +107,15 @@
       "Rio Meta"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d1df15bdd6",
@@ -117,14 +130,16 @@
       "Lago Argentino"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "banco:219",
     "recente": false,
     "dup_regra": "E5 resposta antiga citada no texto novo + assunto (25.5)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "e77828dc3d",
@@ -139,19 +154,21 @@
       "Lago Traful"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "edd69a408b",
     "categoria": "Geografia",
     "dificuldade": "dificil",
-    "pergunta": "Qual rio, que nasce na Bolívia, forma a maior parte da fronteira entre a Argentina e o Paraguai?",
+    "pergunta": "Qual rio, que nasce na Bolívia, forma parte da fronteira entre a Argentina e o Paraguai?",
     "resposta": "Rio Pilcomayo",
     "alternativas": [
       "Rio Pilcomayo",
@@ -160,13 +177,16 @@
       "Rio Tebicuary"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true,
+    "correcao": "conferente-v10: \"a maior parte da fronteira\" sem fonte (a fronteira é feita por Pilcomayo, Paraguai e Paraná); enunciado ajustado (checagem web) (antes: \"Qual rio, que nasce na Bolívia, forma a maior parte da fronteira entre a Argentina e o Paraguai?\")"
   },
   {
     "id": "a6fff1f9e4",
@@ -181,13 +201,15 @@
       "Lago Ranco"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "afa5376f8d",
@@ -202,14 +224,16 @@
       "Cachoeira Kaieteur"
     ],
     "subtema": "Rios, oceanos, mares e ilhas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:ccc160981d",
     "recente": false,
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (7.4)",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "87fb71533c",
@@ -224,12 +248,15 @@
       "Lipase"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "894e0e0e68",
@@ -244,12 +271,15 @@
       "Quitina"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "9059ce05a8",
@@ -264,12 +294,15 @@
       "Ferritina"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "380ed09341",
@@ -284,12 +317,15 @@
       "Surfactante"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "22a088f24d",
@@ -304,12 +340,15 @@
       "TGO"
     ],
     "subtema": "Corpo humano e saúde",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
-    "dup_regra": null
+    "dup_regra": null,
+    "conferido_por": "conferente-v10",
+    "verificado_web": true,
+    "verificado_web_conferente": true
   },
   {
     "id": "590f37cde3",
@@ -324,13 +363,15 @@
       "Tyler Wright"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "69c820eacd",
@@ -345,13 +386,15 @@
       "Layne Beachley"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "210f1aabdb",
@@ -366,13 +409,15 @@
       "Carissa Moore"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "fd58772ab4",
@@ -387,13 +432,15 @@
       "Duke Kahanamoku"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "d081f6e4af",
@@ -408,14 +455,16 @@
       "Sunny Garcia"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Bruce Irons\" trocada por \"Mark Occhilupo\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual havaiano foi tricampeão mundial de surfe de 2002 a 2004, grande rival de Kelly Slater?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "db856b4766",
@@ -430,13 +479,15 @@
       "Kirin"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "177305e46c",
@@ -471,13 +522,15 @@
       "Tensor"
     ],
     "subtema": "Celulares e gadgets",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": true,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "df933eb283",
@@ -492,14 +545,15 @@
       "Microsoft Bob"
     ],
     "subtema": "Internet e redes",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "duplicada (banco): mesmo fato que banco:9550 (\"Qual assistente virtual em forma de gorila roxo... acusado de ser spyware?\" => BonziBuddy)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Rover\" trocada por \"Peedy\" na geração (era resposta de outra pergunta); errada \"Clippy\" trocada por \"Merlin\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10"
   },
   {
     "id": "8f66112150",
@@ -514,13 +568,15 @@
       "Chase Edmunds"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "275f902aaa",
@@ -535,14 +591,16 @@
       "James Ford"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual médico liderava os sobreviventes do voo 815 na série \"Lost\"?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "113e32fadc",
@@ -557,13 +615,15 @@
       "Samantha Jones"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "7d603222c5",
@@ -578,14 +638,16 @@
       "Donna Meagle"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual servidora otimista da cidade de Pawnee é a protagonista de \"Parks and Recreation\"?\")",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a6ebafc6ac",
@@ -600,13 +662,15 @@
       "Stringer Bell"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "6fb9fc82bd",
@@ -621,13 +685,15 @@
       "Eli Thompson"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "dc9b406c67",
@@ -642,13 +708,15 @@
       "Eric Murphy"
     ],
     "subtema": "Cinema internacional e Oscar",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "b7efb421db",
@@ -663,13 +731,15 @@
       "Tom Wesselmann"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "c480d42f7b",
@@ -684,13 +754,15 @@
       "Kazimir Malevich"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "1de63c8186",
@@ -705,13 +777,15 @@
       "Jean Arp"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "5d4f86ce40",
@@ -726,13 +800,15 @@
       "Antoine Watteau"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "3521f1cc52",
@@ -747,13 +823,15 @@
       "Adolph Menzel"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "6806e88999",
@@ -768,13 +846,15 @@
       "Hans Memling"
     ],
     "subtema": "Artes",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "ef296cfe61",
@@ -789,14 +869,16 @@
       "Mandrágora"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Beladona\" trocada por \"Arnica\" na geração (era resposta de outra pergunta); errada \"Arnica\" trocada por \"Losna\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "c52c23ae65",
@@ -811,14 +893,16 @@
       "Cipreste"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Sequoia\" trocada por \"Bétula\" na geração (era resposta de outra pergunta); errada \"Salgueiro\" trocada por \"Carvalho\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "7d034b3ac8",
@@ -833,14 +917,16 @@
       "Arruda"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Dedaleira\" trocada por \"Arruda\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a5c565690f",
@@ -855,14 +941,16 @@
       "Copaíba"
     ],
     "subtema": "Plantas",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Boldo\" trocada por \"Copaíba\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "cdb46427bc",
@@ -877,13 +965,15 @@
       "Markdown"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "982c66d751",
@@ -898,14 +988,16 @@
       "YAML"
     ],
     "subtema": "Programação",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"XML\" trocada por \"Protobuf\" na geração (era resposta de outra pergunta)",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a8672d722b",
@@ -920,7 +1012,7 @@
       "Antígua e Barbuda"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "suspeita",
     "dup_ref": "id:5a6126b4a4",
@@ -928,7 +1020,9 @@
     "dup_regra": "E2 mesma resposta e mesmo assunto (9.7, 33% do fato)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual país caribenho, que não deve ser confundido com a República Dominicana, tem um papagaio roxo na bandeira?\")",
     "dup_revisado": "falso positivo na geração: só um nome ou palavra em comum, fato diferente",
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   },
   {
     "id": "a16327a50c",
@@ -943,12 +1037,14 @@
       "Bonaire"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
+    "status": "conferida",
     "motivo": null,
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "verificado_web": true
+    "verificado_web": true,
+    "conferido_por": "conferente-v10",
+    "verificado_web_conferente": true
   }
 ]

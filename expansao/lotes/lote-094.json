@@ -61,7 +61,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "589105ab16",
@@ -412,7 +413,8 @@
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.9)",
     "correcao": "errada \"Frank Sinatra\" trocada por \"Howard Keel\" na geração (era resposta de outra pergunta); errada \"Fred Astaire\" trocada por \"Mickey Rooney\" na geração (era resposta de outra pergunta)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:19d5cf403e)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "e377c82d32",
@@ -483,10 +485,10 @@
     "id": "ec62aa39c0",
     "categoria": "Tecnologia",
     "dificuldade": "dificil",
-    "pergunta": "Qual inventor americano criou o congelamento rápido de alimentos depois de ver a pesca no gelo do Canadá?",
+    "pergunta": "Qual inventor americano criou o congelamento rápido de alimentos depois de ver os inuítes congelarem peixes no gelo do Labrador?",
     "resposta": "Clarence Birdseye",
     "alternativas": [
-      "Charles Seeburger",
+      "Charles Seeberger",
       "Clarence Birdseye",
       "Willis Carrier",
       "Earl Tupper"
@@ -498,8 +500,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "errada \"Percy Spencer\" trocada por \"Charles Seeburger\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "correcao": "errada \"Percy Spencer\" trocada por \"Charles Seeburger\" na geração (era resposta de outra pergunta); Birdseye viu o congelamento de peixes dos inuítes no Labrador entre 1912 e 1915, quando o Labrador ainda não era parte do Canadá (Wikipédia); enunciado ajustado e grafia da errada corrigida para Charles Seeberger (o do elevador de escada), conferida com checa-resposta.mjs (antes: \"Qual inventor americano criou o congelamento rápido de alimentos depois de ver a pesca no gelo do Canadá?\") (checagem web complementar r9)",
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "fe5b2f3d48",
@@ -587,7 +590,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Montreal\" trocada por \"Charlottetown\" na geração (era resposta de outra pergunta); errada \"Quebec\" trocada por \"Sydney (Nova Escócia)\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "1ccdfa5512",
@@ -807,7 +811,8 @@
     "recente": false,
     "dup_regra": null,
     "conferido_por": "conferente-v9",
-    "correcao": "conferente-v9: a batalha terminou num impasse; o tratado de paz veio cerca de 15 anos depois; enunciado ajustado (checagem web) (antes: \"Em qual batalha Ramsés II enfrentou os hititas, gerando o primeiro tratado de paz registrado?\")"
+    "correcao": "conferente-v9: a batalha terminou num impasse; o tratado de paz veio cerca de 15 anos depois; enunciado ajustado (checagem web) (antes: \"Em qual batalha Ramsés II enfrentou os hititas, gerando o primeiro tratado de paz registrado?\")",
+    "verificado_web": true
   },
   {
     "id": "0229951b7b",
@@ -893,7 +898,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "3b87ef26f3",
@@ -1155,7 +1161,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "48a6aa7ac2",
@@ -1177,6 +1184,7 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Maglev\" trocada por \"Cremalheira\" na geração (era resposta de outra pergunta); errada \"Monotrilho\" trocada por \"Trólebus\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   }
 ]

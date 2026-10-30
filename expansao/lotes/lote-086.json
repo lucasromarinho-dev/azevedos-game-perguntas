@@ -193,7 +193,8 @@
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:4871)",
     "motivo": null,
     "conferido_por": "conferente-v9",
-    "correcao": "conferente-v9: errada Golfo da Gasconha do Sul imitava Golfo da Gasconha, o nome francês do próprio Golfo da Biscaia (defensável e inventada); trocada"
+    "correcao": "conferente-v9: errada Golfo da Gasconha do Sul imitava Golfo da Gasconha, o nome francês do próprio Golfo da Biscaia (defensável e inventada); trocada",
+    "verificado_web": true
   },
   {
     "id": "c43b97c951",
@@ -238,7 +239,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "79bd862ebc",
@@ -328,7 +330,8 @@
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
     "dificuldade_ajuste": "dificil -> medio (régua do GUIA-ESTILO, conferente-v9)",
     "conferido_por": "conferente-v9",
-    "correcao": "conferente-v9: Carlos Lacerda é nome muito conhecido e o enunciado dá Guanabara e 1960; rebaixada"
+    "correcao": "conferente-v9: Carlos Lacerda é nome muito conhecido e o enunciado dá Guanabara e 1960; rebaixada",
+    "verificado_web": true
   },
   {
     "id": "99f8eb8f89",
@@ -551,7 +554,8 @@
     "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (6.9)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:7525)",
     "motivo": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "2c306b5827",
@@ -833,7 +837,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Convecção\" trocada por \"Estratificação\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "fe41e1764f",
@@ -855,7 +860,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Santiago\" trocada por \"Caracas\" na geração (era resposta de outra pergunta); errada \"Buenos Aires\" trocada por \"Bogotá\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "aa03d42f21",
@@ -899,7 +905,8 @@
     "recente": false,
     "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria",
     "correcao": "enunciado reescrito na geração (antes: \"Qual lenda do boxe acendeu a pira olímpica de Atlanta, em 1996, com as mãos trêmulas pelo Parkinson?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "1eda0b82d2",
@@ -1567,7 +1574,7 @@
     "id": "e27e1b85b1",
     "categoria": "Entretenimento",
     "dificuldade": "medio",
-    "pergunta": "Qual gorila de desenho animado vivia numa loja de animais com o menino Beto?",
+    "pergunta": "Qual gorila de desenho animado vivia na vitrine de uma loja de animais, sempre à venda e sempre devolvido?",
     "resposta": "Maguila",
     "alternativas": [
       "Bobo",
@@ -1582,8 +1589,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "correcao": "enunciado reescrito na geração (antes: \"Qual gorila de desenho da Hanna-Barbera vivia numa loja de animais com o menino Beto?\")",
-    "conferido_por": "conferente-v9"
+    "correcao": "enunciado reescrito na geração (antes: \"Qual gorila de desenho da Hanna-Barbera vivia numa loja de animais com o menino Beto?\"); quem queria levar o Maguila era a menina Ogee, não um menino chamado Beto (Wikipédia, Magilla Gorilla); enunciado refeito com a vitrine da loja do senhor Peebles (antes: \"Qual gorila de desenho animado vivia numa loja de animais com o menino Beto?\") (checagem web complementar r9)",
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "6542c059fc",
@@ -1627,7 +1635,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Como se chama o grupo de heróis da Hanna-Barbera que vive num planeta selvagem com animais gigantes como o dragão Zok?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "cc4cbb3d86",
@@ -1672,7 +1681,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual dupla da Hanna-Barbera tem um cachorro pai cheio de paciência e o filho que o chama de \"pai querido\"?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "de6860dc89",
@@ -1694,7 +1704,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual tartaruga mosqueteira da Hanna-Barbera luta ao lado do cão Dum Dum?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "6fa0f7ad09",
@@ -1715,7 +1726,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "a54cc9d510",
@@ -1737,7 +1749,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual tubarão baterista da Hanna-Barbera tocava numa banda de adolescentes e reclamava que ninguém o respeitava?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "af85e94599",
@@ -1822,7 +1835,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "4cff4e352d",
@@ -2060,7 +2074,8 @@
     "recente": false,
     "dup_regra": null,
     "conferido_por": "conferente-v9",
-    "correcao": "conferente-v9: errada Trolley também é uma haste no teto que capta energia do fio (defensável); trocada por Truque"
+    "correcao": "conferente-v9: errada Trolley também é uma haste no teto que capta energia do fio (defensável); trocada por Truque",
+    "verificado_web": true
   },
   {
     "id": "eff480a42a",
@@ -2326,7 +2341,7 @@
     "resposta": "Cutman",
     "alternativas": [
       "Médico de ringue",
-      "Cornerman",
+      "Cronometrista",
       "Ringman",
       "Cutman"
     ],
@@ -2337,7 +2352,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "correcao": "a Wikipédia (Cutman e Cornerman) diz que em lutas de orçamento baixo o próprio cornerman faz o trabalho do cutman; a errada Cornerman era defensável, trocada por Cronometrista (conferida com checa-resposta.mjs e alternativas.mjs) (checagem web complementar r9)",
+    "verificado_web": true
   },
   {
     "id": "740ee07fc0",
@@ -2425,7 +2442,8 @@
     "recente": true,
     "dup_regra": "mesma resposta, assunto vizinho (7.7, 18% do fato)",
     "correcao": "enunciado reescrito na geração (antes: \"Qual animação de 2023 da Illumination levou ao cinema o encanador da Nintendo?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "3ee55b8b55",

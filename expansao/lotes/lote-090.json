@@ -129,7 +129,8 @@
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual cabo do extremo norte do Amapá dá nome a um parque nacional na fronteira com a Guiana Francesa?\") | conferente-v9: errada Cabo Norte do Brasil era nome inventado; trocada pelo Cabo Norte real do Amapá (longe do Oiapoque, sem parque)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. banco:447)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "23f779acbc",
@@ -194,7 +195,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "af0b6d4f0c",
@@ -215,7 +217,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "59dcf81b75",
@@ -260,7 +263,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Taiga\" trocada por \"Landa\" na geração (era resposta de outra pergunta) | conferente-v9: errada Garrigue alpina: a garrigue é justamente outra vegetação de arbustos baixos e aromáticos do Mediterrâneo (defensável); trocada",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "b5a28dd395",
@@ -572,7 +576,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "6d17c9ba1d",
@@ -616,7 +621,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "800e80b525",
@@ -1255,7 +1261,7 @@
     "id": "40e8a028d7",
     "categoria": "Tecnologia",
     "dificuldade": "medio",
-    "pergunta": "Qual programa da Ahead era o mais usado para gravar CDs nos anos 2000?",
+    "pergunta": "Qual programa da Ahead virou sinônimo de gravar CDs nos anos 2000?",
     "resposta": "Nero Burning ROM",
     "alternativas": [
       "Nero Burning ROM",
@@ -1270,7 +1276,9 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "correcao": "nenhuma fonte mede que o Nero era \"o mais usado\" (é descrito como popular, o \"rei\" da gravação caseira); enunciado ajustado sem o superlativo (antes: \"Qual programa da Ahead era o mais usado para gravar CDs nos anos 2000?\") (checagem web complementar r9)",
+    "verificado_web": true
   },
   {
     "id": "ed2f2323a3",
@@ -1315,7 +1323,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "f38a423f85",
@@ -1405,7 +1414,8 @@
     "recente": false,
     "dup_regra": "E4 resposta nova (rara) citada no texto antigo (6.7)",
     "dup_revisado": "falso positivo: mesma resposta ou termo, fato diferente (ref. id:cbbb63ebb0)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "613cfb9125",
@@ -1427,7 +1437,8 @@
     "recente": false,
     "dup_regra": null,
     "conferido_por": "conferente-v9",
-    "correcao": "conferente-v9: errada Honda Titan: a Titan é versão da própria CG (CG 125/150 Titan), defensável; trocada"
+    "correcao": "conferente-v9: errada Honda Titan: a Titan é versão da própria CG (CG 125/150 Titan), defensável; trocada",
+    "verificado_web": true
   },
   {
     "id": "e3a6508d56",
@@ -1515,7 +1526,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Gol\" trocada por \"Webjet\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "dac79d8d12",
@@ -1715,7 +1727,8 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Jürgen Klinsmann\" trocada por \"Ulf Kirsten\" na geração (era resposta de outra pergunta); enunciado reescrito na geração (antes: \"Qual atacante alemão marcou o primeiro gol de ouro de uma final, na Eurocopa de 1996?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "074c53478e",
@@ -1782,7 +1795,8 @@
     "recente": true,
     "dup_regra": null,
     "correcao": "enunciado reescrito na geração (antes: \"Qual cantor pernambucano de piseiro estourou em 2021 com \"Meu Pedaço de Pecado\"?\")",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "7f3e1ca883",
@@ -1804,7 +1818,8 @@
     "recente": true,
     "dup_regra": null,
     "correcao": "errada \"Ludmilla\" trocada por \"Lexa\" na geração (era resposta de outra pergunta); errada \"Pabllo Vittar\" trocada por \"Duda Beat\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "1f1be2545e",
@@ -1888,7 +1903,8 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null,
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   },
   {
     "id": "874cc0ea09",
@@ -1996,6 +2012,7 @@
     "recente": false,
     "dup_regra": null,
     "correcao": "errada \"Heródoto\" trocada por \"Diodoro Sículo\" na geração (era resposta de outra pergunta); errada \"Tucídides\" trocada por \"Pausânias\" na geração (era resposta de outra pergunta)",
-    "conferido_por": "conferente-v9"
+    "conferido_por": "conferente-v9",
+    "verificado_web": true
   }
 ]

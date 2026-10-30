@@ -12509,6 +12509,38 @@
             "7e5b090cea"
           ]
         }
+      },
+      "checagem_web_complementar": {
+        "data": "30/10/2026",
+        "alvo": "risco_sem_verificado_web (98 ids)",
+        "buscas_web": 18,
+        "obs_buscas": "8 WebSearch e 10 leituras em lote da API da Wikipédia (cerca de 160 verbetes, pt e en, agrupados por tema: desenhos da Hanna-Barbera, geografia e fronteiras, chefes de Estado, Copas e clubes, clima, carros e motos, Oscars e live-actions, ciência e invenções). Cota não foi atingida",
+        "confirmadas_sem_mudanca": 93,
+        "corrigidas": 5,
+        "rebaixadas": 0,
+        "descartadas": 0,
+        "sem_checar": 0,
+        "ids_sem_checar": {},
+        "corrigidas_detalhe": {
+          "e27e1b85b1": "Maguila: quem queria levá-lo era a menina Ogee, não o menino Beto; enunciado refeito",
+          "538b57a70d": "Cutman: errada Cornerman defensável trocada por Cronometrista",
+          "40e8a028d7": "Nero: \"o mais usado\" sem fonte; enunciado sem superlativo",
+          "ec62aa39c0": "Birdseye: Labrador, não Canadá (na época); enunciado ajustado e grafia Charles Seeberger",
+          "7e5b090cea": "Ventilador: \"jeito mais barato\" sem fonte; enunciado sem superlativo"
+        },
+        "por_lote": {
+          "086": "15/2/0",
+          "087": "15/0/0",
+          "088": "8/0/0",
+          "089": "13/0/0",
+          "090": "15/1/0",
+          "091": "7/0/0",
+          "092": "7/0/0",
+          "093": "6/0/0",
+          "094": "7/1/0",
+          "095": "0/1/0"
+        },
+        "obs": "por_lote = confirmadas sem mudança / corrigidas / descartadas; corrigidas também ganharam verificado_web; correções anotadas no campo correcao da ficha terminando em \"(checagem web complementar r9)\". As erradas novas (Cronometrista, Charles Seeberger) passaram pelo checa-resposta.mjs --lote e pelo alternativas.mjs sem criar cruzamento (Sparring foi evitado por ser resposta de 086:ff30ccc266)"
       }
     }
   },

@@ -32,8 +32,8 @@
       "Burquinense"
     ],
     "subtema": "Capitais e países do mundo",
-    "status": "gerada",
-    "motivo": null,
+    "status": "descartada",
+    "motivo": "retirada pelo gerador: gentílico burquinense não confirmado em fonte (checagem web)",
     "dup": "nao",
     "dup_ref": null,
     "recente": false,
@@ -126,10 +126,10 @@
     "pergunta": "Qual é o apelido da seleção de rúgbi da África do Sul?",
     "resposta": "Springboks",
     "alternativas": [
-      "Springboks",
+      "Lions",
       "Wallabies",
       "Pumas",
-      "Lions"
+      "Springboks"
     ],
     "subtema": "Outros (xadrez, surfe, skate, e-sports)",
     "status": "gerada",
@@ -1998,5 +1998,25 @@
     "dup_ref": null,
     "recente": false,
     "dup_regra": null
+  },
+  {
+    "id": "db3b89c42c",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O DDD 69 é de qual capital?",
+    "resposta": "Porto Velho",
+    "alternativas": [
+      "Porto Velho",
+      "Palmas",
+      "Cuiabá",
+      "Macapá"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:15",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
   }
 ]

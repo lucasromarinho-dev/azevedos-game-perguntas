@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "334d139c1b",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual ponto colateral fica entre o sul e o oeste?",
+    "resposta": "Sudoeste",
+    "alternativas": [
+      "Sudeste",
+      "Sudoeste",
+      "Centro-oeste",
+      "Nordeste"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "599634b882",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual ponto colateral fica entre o norte e o oeste?",
+    "resposta": "Noroeste",
+    "alternativas": [
+      "Noroeste",
+      "Centro-norte",
+      "Nordeste",
+      "Sudeste"
+    ],
+    "subtema": "Biomas, clima e natureza",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:334d139c1b",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "9f3193dec3",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Em qual hemisfério fica a maior parte do território brasileiro?",
+    "resposta": "Sul",
+    "alternativas": [
+      "Leste",
+      "Ocidental",
+      "Sul",
+      "Norte"
+    ],
+    "subtema": "População, curiosidades e recordes",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1724 (E2 mesma resposta e mesmo assunto (7.4, 56% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:1724",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.4, 56% do fato)"
+  },
+  {
+    "id": "1c59a5e13f",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual unidade da federação tem a sigla DF?",
+    "resposta": "Distrito Federal",
+    "alternativas": [
+      "Goiás",
+      "Distrito Federal",
+      "Mato Grosso",
+      "Tocantins"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c5e71756b8",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual estado brasileiro tem a sigla AM?",
+    "resposta": "Amazonas",
+    "alternativas": [
+      "Acre",
+      "Amazonas",
+      "Maranhão",
+      "Mato Grosso"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d89250842a",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O DDD 65 é de qual capital?",
+    "resposta": "Cuiabá",
+    "alternativas": [
+      "Cuiabá",
+      "Porto Velho",
+      "Goiânia",
+      "Campo Grande"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:11",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
+  },
+  {
+    "id": "373a283998",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "O DDD 82 é de qual capital?",
+    "resposta": "Maceió",
+    "alternativas": [
+      "Aracaju",
+      "Maceió",
+      "João Pessoa",
+      "Natal"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:16",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
+  },
+  {
+    "id": "bc5c5288ce",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "Qual bairro de Tóquio, de arranha-céus, tem a estação de trem mais movimentada do mundo?",
+    "resposta": "Shinjuku",
+    "alternativas": [
+      "Shinjuku",
+      "Ginza",
+      "Asakusa",
+      "Shibuya"
+    ],
+    "subtema": "Cidades e monumentos do mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66e9a6414b",
+    "categoria": "Geografia",
+    "dificuldade": "medio",
+    "pergunta": "A palavra \"shukran\" quer dizer obrigado em qual língua?",
+    "resposta": "Árabe",
+    "alternativas": [
+      "Persa",
+      "Árabe",
+      "Hebraico",
+      "Turco"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3cca25e004",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "77d616f7c1",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "O DDD 95 é de qual capital?",
+    "resposta": "Boa Vista",
+    "alternativas": [
+      "Porto Velho",
+      "Macapá",
+      "Rio Branco",
+      "Boa Vista"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:564",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.7)"
+  },
+  {
+    "id": "8bfd8dabca",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "Qual bairro de Curitiba, fundado por imigrantes italianos, é famoso pelos restaurantes?",
+    "resposta": "Santa Felicidade",
+    "alternativas": [
+      "Água Verde",
+      "Batel",
+      "Bigorrilho",
+      "Santa Felicidade"
+    ],
+    "subtema": "Brasil: cidades, turismo e apelidos",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b72bd6e75d",
+    "categoria": "Geografia",
+    "dificuldade": "dificil",
+    "pergunta": "A palavra \"tack\" quer dizer obrigado em qual língua?",
+    "resposta": "Sueco",
+    "alternativas": [
+      "Holandês",
+      "Alemão",
+      "Islandês",
+      "Sueco"
+    ],
+    "subtema": "Bandeiras, moedas e idiomas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3cca25e004",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "7110f5244f",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual parábola conta a história de um estrangeiro que socorre um homem ferido na estrada?",
+    "resposta": "O bom samaritano",
+    "alternativas": [
+      "O bom samaritano",
+      "A ovelha perdida",
+      "O semeador",
+      "Os talentos"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7d46235d98",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual parábola conta a história do filho que gasta a herança e volta arrependido para casa?",
+    "resposta": "O filho pródigo",
+    "alternativas": [
+      "A ovelha perdida",
+      "O filho pródigo",
+      "O semeador",
+      "Os talentos"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "afaa2e3283",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual discípulo só acreditou vendo, dando origem à expressão \"ver para crer\"?",
+    "resposta": "Tomé",
+    "alternativas": [
+      "Pedro",
+      "Tomé",
+      "João",
+      "André"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "24cbe59205",
+    "categoria": "História",
+    "dificuldade": "facil",
+    "pergunta": "Qual profeta bíblico foi jogado na cova dos leões e saiu ileso?",
+    "resposta": "Daniel",
+    "alternativas": [
+      "Jonas",
+      "Elias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c8dc98b968",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual cidade bíblica teve as muralhas derrubadas pelo som de trombetas?",
+    "resposta": "Jericó",
+    "alternativas": [
+      "Nínive",
+      "Jericó",
+      "Sodoma",
+      "Babilônia"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "766438860d",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Em que virou a mulher de Ló ao olhar para trás, na fuga de Sodoma?",
+    "resposta": "Estátua de sal",
+    "alternativas": [
+      "Pó",
+      "Coluna de fogo",
+      "Pedra de mármore",
+      "Estátua de sal"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f338a816fd",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual baú sagrado guardava as tábuas dos Dez Mandamentos?",
+    "resposta": "Arca da Aliança",
+    "alternativas": [
+      "Arca de Noé",
+      "Cálice Sagrado",
+      "Santo Graal",
+      "Arca da Aliança"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "bf49796a2f",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama quem empresta o próprio nome para esconder o verdadeiro dono de um negócio?",
+    "resposta": "Testa de ferro",
+    "alternativas": [
+      "Boi de piranha",
+      "Cabeça de chave",
+      "Pau-mandado",
+      "Testa de ferro"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7a6ecaf9d1",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual antigo palácio do centro do Rio foi sede do governo de Dom João VI e dos imperadores?",
+    "resposta": "Paço Imperial",
+    "alternativas": [
+      "Quinta da Boa Vista",
+      "Paço Imperial",
+      "Palácio do Catete",
+      "Palácio Tiradentes"
+    ],
+    "subtema": "Brasil Império",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7520 (E2e mesma resposta rara e algum assunto em comum (11.6, sim 0.1))",
+    "dup": "certa",
+    "dup_ref": "banco:7520",
+    "recente": false,
+    "dup_regra": "E2e mesma resposta rara e algum assunto em comum (11.6, sim 0.1)"
+  },
+  {
+    "id": "232b81b4a8",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Por qual comida Esaú vendeu ao irmão Jacó o direito de primogênito?",
+    "resposta": "Prato de lentilhas",
+    "alternativas": [
+      "Prato de lentilhas",
+      "Jarro de vinho",
+      "Pão de cevada",
+      "Cesta de figos"
+    ],
+    "subtema": "Personagens, invenções e filosofia",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "08acbf0084",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual expressão ligada a um mito grego descreve uma tarefa inútil e sem fim?",
+    "resposta": "Trabalho de Sísifo",
+    "alternativas": [
+      "Trabalho de Sísifo",
+      "Fio de Ariadne",
+      "Trabalho de Hércules",
+      "Tonel das Danaides"
+    ],
+    "subtema": "Antiguidade",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d7d15547bd",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cidade às margens do Tigre foi a capital dos partas e dos persas sassânidas?",
+    "resposta": "Ctesifonte",
+    "alternativas": [
+      "Persépolis",
+      "Susa",
+      "Ecbátana",
+      "Ctesifonte"
+    ],
+    "subtema": "Ásia, África e Oriente Médio",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cee6daa53b",
+    "categoria": "História",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamava a parte da Inglaterra sob as leis dos vikings dinamarqueses?",
+    "resposta": "Danelaw",
+    "alternativas": [
+      "Mércia",
+      "Danelaw",
+      "Wessex",
+      "Nortúmbria"
+    ],
+    "subtema": "Idade Média",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ad35de348c",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome popular do palato, o teto da boca?",
+    "resposta": "Céu da boca",
+    "alternativas": [
+      "Céu da boca",
+      "Gengiva",
+      "Úvula",
+      "Campainha"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "faa20f6e62",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama popularmente a parte saliente da bochecha, sobre o osso zigomático?",
+    "resposta": "Maçã do rosto",
+    "alternativas": [
+      "Têmpora",
+      "Covinha",
+      "Maçã do rosto",
+      "Queixo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "e007657358",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Como é chamada popularmente a pelve?",
+    "resposta": "Bacia",
+    "alternativas": [
+      "Virilha",
+      "Lombar",
+      "Cintura",
+      "Bacia"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "c21cf1bca3",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome popular do quinto dedo da mão?",
+    "resposta": "Mindinho",
+    "alternativas": [
+      "Mindinho",
+      "Anelar",
+      "Seu vizinho",
+      "Fura-bolo"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:8fdee6b11c (E4 resposta nova (rara) citada no texto antigo (5.3))",
+    "dup": "certa",
+    "dup_ref": "id:8fdee6b11c",
+    "recente": false,
+    "dup_regra": "E4 resposta nova (rara) citada no texto antigo (5.3)"
+  },
+  {
+    "id": "2c4b9f50fe",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama popularmente a região logo abaixo do osso do peito, o epigástrio?",
+    "resposta": "Boca do estômago",
+    "alternativas": [
+      "Boca do estômago",
+      "Costela flutuante",
+      "Pé da barriga",
+      "Céu da boca"
+    ],
+    "subtema": "Corpo humano e saúde",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "eb65d86a33",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o copo de vidro com bico e marcas de volume, usado nos laboratórios?",
+    "resposta": "Béquer",
+    "alternativas": [
+      "Proveta",
+      "Erlenmeyer",
+      "Béquer",
+      "Funil"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5f3d209f40",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Como se chama o tubinho de vidro usado para medir e transferir pequenas quantidades de líquido?",
+    "resposta": "Pipeta",
+    "alternativas": [
+      "Bureta",
+      "Proveta",
+      "Funil",
+      "Pipeta"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4c83ae4938",
+    "categoria": "Ciências",
+    "dificuldade": "medio",
+    "pergunta": "Quantos anos de casamento comemoram as bodas de diamante?",
+    "resposta": "60",
+    "alternativas": [
+      "40",
+      "60",
+      "70",
+      "45"
+    ],
+    "subtema": "Matemática e lógica",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:c729f33621",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.6)"
+  },
+  {
+    "id": "a774da2cb7",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rocha vulcânica escura forma as colunas da Calçada dos Gigantes, na Irlanda do Norte?",
+    "resposta": "Basalto",
+    "alternativas": [
+      "Basalto",
+      "Mármore",
+      "Granito",
+      "Calcário"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5997 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 25.0))",
+    "dup": "certa",
+    "dup_ref": "banco:5997",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 25.0)"
+  },
+  {
+    "id": "3ff1d0ccef",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual rocha sedimentar, de grãos de areia colados, forma os \"monumentos\" de Vila Velha, no Paraná?",
+    "resposta": "Arenito",
+    "alternativas": [
+      "Arenito",
+      "Calcário",
+      "Ardósia",
+      "Granito"
+    ],
+    "subtema": "Terra, geologia e clima",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5397f5abe4",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual país é a grande potência do tênis de mesa, com a maioria dos títulos olímpicos?",
+    "resposta": "China",
+    "alternativas": [
+      "Japão",
+      "Coreia do Sul",
+      "Alemanha",
+      "China"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1b934faa4c",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual país africano é famoso pelos corredores de fundo, como os de maratona?",
+    "resposta": "Quênia",
+    "alternativas": [
+      "Nigéria",
+      "África do Sul",
+      "Quênia",
+      "Egito"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9529c29b4e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o gesto clássico dos campeões olímpicos na foto do pódio?",
+    "resposta": "Morder a medalha",
+    "alternativas": [
+      "Erguer a tocha",
+      "Beijar a bandeira",
+      "Bater continência",
+      "Morder a medalha"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9753 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:9753",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "7905c775cf",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "No pódio olímpico, o hino de qual país é tocado?",
+    "resposta": "O do campeão",
+    "alternativas": [
+      "O do Comitê Olímpico",
+      "O do campeão",
+      "O do país-sede",
+      "O de todos os medalhistas"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a4d048b6e4",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país asiático é a grande potência olímpica do tiro com arco?",
+    "resposta": "Coreia do Sul",
+    "alternativas": [
+      "China",
+      "Japão",
+      "Coreia do Sul",
+      "Índia"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:5026 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 11.5))",
+    "dup": "certa",
+    "dup_ref": "banco:5026",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 11.5)"
+  },
+  {
+    "id": "ecbccf5f64",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país é a grande potência da patinação de velocidade no gelo?",
+    "resposta": "Holanda",
+    "alternativas": [
+      "Canadá",
+      "Rússia",
+      "Noruega",
+      "Holanda"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "3cee164b74",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país é o maior medalhista da história dos Jogos Olímpicos de Inverno?",
+    "resposta": "Noruega",
+    "alternativas": [
+      "Canadá",
+      "Estados Unidos",
+      "Alemanha",
+      "Noruega"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "20a3ea53ba",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país caribenho é uma potência do boxe olímpico?",
+    "resposta": "Cuba",
+    "alternativas": [
+      "Jamaica",
+      "República Dominicana",
+      "Porto Rico",
+      "Cuba"
+    ],
+    "subtema": "Lutas, UFC e boxe",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "185ce239e1",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país dominou o hóquei na grama olímpico entre 1928 e 1956?",
+    "resposta": "Índia",
+    "alternativas": [
+      "Austrália",
+      "Índia",
+      "Holanda",
+      "Paquistão"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d5f8aaec86",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual país é o maior campeão olímpico do polo aquático masculino?",
+    "resposta": "Hungria",
+    "alternativas": [
+      "Hungria",
+      "Estados Unidos",
+      "Sérvia",
+      "Itália"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4a6a07bb6c",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Jahangir Khan, uma lenda do squash que ficou anos sem perder, é de qual país?",
+    "resposta": "Paquistão",
+    "alternativas": [
+      "Egito",
+      "Bangladesh",
+      "Índia",
+      "Paquistão"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "029cf2f84e",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual torneio de pré-temporada é disputado todo ano na Corunha, na Espanha?",
+    "resposta": "Troféu Teresa Herrera",
+    "alternativas": [
+      "Troféu Teresa Herrera",
+      "Troféu Joan Gamper",
+      "Troféu Santiago Bernabéu",
+      "Troféu Colombino"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:dc16a3322a (E2d respostas dividem a palavra rara + muito assunto em comum (16.9))",
+    "dup": "certa",
+    "dup_ref": "id:dc16a3322a",
+    "recente": false,
+    "dup_regra": "E2d respostas dividem a palavra rara + muito assunto em comum (16.9)"
+  },
+  {
+    "id": "55181e529a",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual técnico comandou a Alemanha Ocidental no título mundial de 1974?",
+    "resposta": "Helmut Schön",
+    "alternativas": [
+      "Franz Beckenbauer",
+      "Sepp Herberger",
+      "Helmut Schön",
+      "Jupp Derwall"
+    ],
+    "subtema": "Copa do Mundo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:3d89d13e85",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.7)"
+  },
+  {
+    "id": "d5763b101d",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual é o nome da versão brasileira de \"Jingle Bells\"?",
+    "resposta": "Bate o sino",
+    "alternativas": [
+      "Bate o sino",
+      "Noite feliz",
+      "Natal branco",
+      "Sino de Belém"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6feec5b4e1",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual cantora gravou \"Então É Natal\", versão brasileira de uma canção de John Lennon?",
+    "resposta": "Simone",
+    "alternativas": [
+      "Simone",
+      "Elba Ramalho",
+      "Fafá de Belém",
+      "Ivete Sangalo"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9446ab4e15",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "O que quer dizer chamar alguém de \"bicho do mato\"?",
+    "resposta": "Que é muito tímido",
+    "alternativas": [
+      "Que é sujo",
+      "Que é fofoqueiro",
+      "Que é muito tímido",
+      "Que é muito forte"
+    ],
+    "subtema": "Humor e programas de auditório",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9917",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "86eb2bec57",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Onde as crianças penduram as meias para o Papai Noel encher de presentes, na tradição americana?",
+    "resposta": "Na lareira",
+    "alternativas": [
+      "Na lareira",
+      "Na janela",
+      "Na árvore",
+      "Na porta"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "5dcf070254",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Como se chama a coroa de folhas e enfeites pendurada na porta no Natal?",
+    "resposta": "Guirlanda",
+    "alternativas": [
+      "Ramalhete",
+      "Grinalda de noiva",
+      "Guirlanda",
+      "Festão"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4b5bb7a727",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual cantor porto-riquenho gravou \"Feliz Navidad\"?",
+    "resposta": "José Feliciano",
+    "alternativas": [
+      "Ricky Martin",
+      "Marc Anthony",
+      "Chayanne",
+      "José Feliciano"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:9098",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "6deab6ed8c",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dupla britânica gravou \"Last Christmas\"?",
+    "resposta": "Wham!",
+    "alternativas": [
+      "Erasure",
+      "Wham!",
+      "Pet Shop Boys",
+      "Tears for Fears"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3549",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 5.3)"
+  },
+  {
+    "id": "2c5dbd3af6",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série brasileira da Netflix, de 2019, mistura funk, tráfico e igreja na periferia de São Paulo?",
+    "resposta": "Sintonia",
+    "alternativas": [
+      "Irmandade",
+      "Cidade Invisível",
+      "Sintonia",
+      "DNA do Crime"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "82089d46a1",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual poeta português do século XVIII virou personagem de piadas picantes?",
+    "resposta": "Bocage",
+    "alternativas": [
+      "Camões",
+      "Antero de Quental",
+      "Bocage",
+      "Almeida Garrett"
+    ],
+    "subtema": "Literatura",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8bd56bc60d",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual comédia romântica de Natal, passada em Londres, tem Hugh Grant como primeiro-ministro?",
+    "resposta": "Simplesmente Amor",
+    "alternativas": [
+      "O Amor Não Tira Férias",
+      "O Diário de Bridget Jones",
+      "Simplesmente Amor",
+      "Notting Hill"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "1660c67e6b",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Em qual filme Will Ferrell é um humano criado pelos duendes do Polo Norte?",
+    "resposta": "Um Duende em Nova York",
+    "alternativas": [
+      "O Grinch",
+      "Papai Noel às Avessas",
+      "Um Duende em Nova York",
+      "Expresso Polar"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "502cc757ec",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual compositor baiano fez \"Boas Festas\", a do \"Anoiteceu, o sino gemeu\"?",
+    "resposta": "Assis Valente",
+    "alternativas": [
+      "Lamartine Babo",
+      "Ary Barroso",
+      "Dorival Caymmi",
+      "Assis Valente"
+    ],
+    "subtema": "Música brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:3601",
+    "recente": false,
+    "dup_regra": "resposta nova (rara) citada no texto antigo da mesma categoria"
+  },
+  {
+    "id": "ce47947a81",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual cantor americano imortalizou \"White Christmas\"?",
+    "resposta": "Bing Crosby",
+    "alternativas": [
+      "Frank Sinatra",
+      "Dean Martin",
+      "Bing Crosby",
+      "Nat King Cole"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "33d3633d3c",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".uk\"?",
+    "resposta": "Reino Unido",
+    "alternativas": [
+      "Uruguai",
+      "Reino Unido",
+      "Ucrânia",
+      "Uganda"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "473477cba8",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".fr\"?",
+    "resposta": "França",
+    "alternativas": [
+      "Filipinas",
+      "Fiji",
+      "Finlândia",
+      "França"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "5ad953c921",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".cn\"?",
+    "resposta": "China",
+    "alternativas": [
+      "Camarões",
+      "China",
+      "Chile",
+      "Canadá"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "96a8625ed8",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".it\"?",
+    "resposta": "Itália",
+    "alternativas": [
+      "Índia",
+      "Irlanda",
+      "Itália",
+      "Islândia"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "b6b2d7f4df",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual país usa o domínio de internet \".ru\"?",
+    "resposta": "Rússia",
+    "alternativas": [
+      "Rússia",
+      "Ruanda",
+      "Romênia",
+      "Bielorrússia"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "256ce78529",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual país usa o domínio de internet \".nl\"?",
+    "resposta": "Holanda",
+    "alternativas": [
+      "Noruega",
+      "Holanda",
+      "Nova Zelândia",
+      "Nepal"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "426978e6da",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual país usa o domínio de internet \".nz\"?",
+    "resposta": "Nova Zelândia",
+    "alternativas": [
+      "Namíbia",
+      "Níger",
+      "Nova Zelândia",
+      "Nicarágua"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "80b00226a0",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "O domínio \".io\", popular entre startups, pertence a qual território?",
+    "resposta": "Território Britânico do Oceano Índico",
+    "alternativas": [
+      "Ilhas de Man",
+      "Ilha de Jersey",
+      "Território Britânico do Oceano Índico",
+      "Ilhas Órcadas"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a616274e79",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "O domínio \".ai\", disputado por empresas de inteligência artificial, pertence a qual território?",
+    "resposta": "Anguilla",
+    "alternativas": [
+      "Armênia",
+      "Antígua",
+      "Anguilla",
+      "Aruba"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6de25d7df1",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "O domínio \".fm\", usado por rádios on-line, pertence a qual país?",
+    "resposta": "Micronésia",
+    "alternativas": [
+      "Ilhas Marshall",
+      "Micronésia",
+      "Maurício",
+      "Fiji"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "66bd9008bb",
+    "categoria": "Geografia",
+    "dificuldade": "facil",
+    "pergunta": "Qual estado brasileiro tem a sigla SC?",
+    "resposta": "Santa Catarina",
+    "alternativas": [
+      "Santa Catarina",
+      "São Paulo",
+      "Rio Grande do Sul",
+      "Ceará"
+    ],
+    "subtema": "Brasil: estados, capitais e regiões",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "cb5fa4893c",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como eram chamadas as modelos de cartazes e calendários dos anos 1940 e 1950, como Bettie Page?",
+    "resposta": "Pin-ups",
+    "alternativas": [
+      "Melindrosas",
+      "Pin-ups",
+      "Coristas",
+      "Vedetes"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:9306 (E2 mesma resposta e mesmo assunto (14.4, 32% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:9306",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (14.4, 32% do fato)"
+  },
+  {
+    "id": "b1dbbbb0db",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual flor branca de miolo amarelo se usa no \"bem-me-quer, mal-me-quer\"?",
+    "resposta": "Margarida",
+    "alternativas": [
+      "Margarida",
+      "Camomila",
+      "Violeta",
+      "Rosa"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7b17423aad",
+    "categoria": "Ciências",
+    "dificuldade": "facil",
+    "pergunta": "Qual planta tem uma bolinha de sementes que voam quando a gente sopra?",
+    "resposta": "Dente-de-leão",
+    "alternativas": [
+      "Algodão",
+      "Girassol",
+      "Dente-de-leão",
+      "Trevo"
+    ],
+    "subtema": "Plantas",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "7c0ed5e7e5",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual tubo graduado de laboratório, com uma torneira na ponta, é usado nas titulações?",
+    "resposta": "Bureta",
+    "alternativas": [
+      "Proveta",
+      "Funil de separação",
+      "Condensador",
+      "Bureta"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "4c4527d6a9",
+    "categoria": "Ciências",
+    "dificuldade": "dificil",
+    "pergunta": "Qual frasco de vidro com uma saída lateral é usado na filtração a vácuo?",
+    "resposta": "Kitassato",
+    "alternativas": [
+      "Balão de fundo chato",
+      "Balão volumétrico",
+      "Kitassato",
+      "Condensador"
+    ],
+    "subtema": "Química",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "f2ac700cb8",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como é chamado popularmente o Campeonato Paulista de futebol?",
+    "resposta": "Paulistão",
+    "alternativas": [
+      "Paulistão",
+      "Bandeirão",
+      "Paulistinha",
+      "Paulicéia"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:2673",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (1.0)"
+  },
+  {
+    "id": "30e6c1756e",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Como os cariocas chamam carinhosamente o estádio do Maracanã?",
+    "resposta": "Maraca",
+    "alternativas": [
+      "Maracá",
+      "Maraca",
+      "Canã",
+      "Mara"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2582 (R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.3))",
+    "dup": "certa",
+    "dup_ref": "banco:2582",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento nos dois sentidos, peso 6.3)"
+  },
+  {
+    "id": "d5d7f93cc2",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Qual competição reúne os clubes de cada estado no começo da temporada?",
+    "resposta": "Campeonato estadual",
+    "alternativas": [
+      "Campeonato estadual",
+      "Copa do Brasil",
+      "Série D",
+      "Recopa"
+    ],
+    "subtema": "Brasileirão e clubes brasileiros",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "57a7724df8",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "No tênis, como se chama o empate em 40 a 40?",
+    "resposta": "Iguais",
+    "alternativas": [
+      "Tie-break",
+      "Iguais",
+      "Vantagem",
+      "Love"
+    ],
+    "subtema": "Tênis",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:4629 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:4629",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "a09769cc73",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção ganhou a Eurocopa de 1988, com um voleio de Van Basten na final?",
+    "resposta": "Holanda",
+    "alternativas": [
+      "Holanda",
+      "Itália",
+      "União Soviética",
+      "Alemanha Ocidental"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2832 (R4 resposta nova citada no enunciado antigo + assunto em comum (peso 14.6))",
+    "dup": "certa",
+    "dup_ref": "banco:2832",
+    "recente": false,
+    "dup_regra": "R4 resposta nova citada no enunciado antigo + assunto em comum (peso 14.6)"
+  },
+  {
+    "id": "43a44345fb",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual torneio de verão, um dos mais antigos da Espanha, é disputado em Cádiz?",
+    "resposta": "Troféu Ramón de Carranza",
+    "alternativas": [
+      "Troféu Santiago Bernabéu",
+      "Troféu Ramón de Carranza",
+      "Troféu Colombino",
+      "Troféu Naranja"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "35a5b83b9b",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Como se chamam as torcidas organizadas da Argentina?",
+    "resposta": "Barras bravas",
+    "alternativas": [
+      "Firmas",
+      "Hinchadas",
+      "Torcidas jovens",
+      "Barras bravas"
+    ],
+    "subtema": "Libertadores e futebol sul-americano",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8615 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:8615",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "397dfc4d92",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual ingrediente no arroz de Natal divide opiniões nas famílias brasileiras?",
+    "resposta": "Uva-passa",
+    "alternativas": [
+      "Ervilha",
+      "Uva-passa",
+      "Amêndoa",
+      "Azeitona"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "d753110253",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual salada de frango desfiado com maionese e batata palha é clássica na ceia de Natal?",
+    "resposta": "Salpicão",
+    "alternativas": [
+      "Maionese",
+      "Caponata",
+      "Salpicão",
+      "Tabule"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "fcfc9bbcdc",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Qual flor branca em forma de cálice é comum em buquês de noiva?",
+    "resposta": "Copo-de-leite",
+    "alternativas": [
+      "Copo-de-leite",
+      "Gérbera",
+      "Orquídea",
+      "Tulipa"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "ac43d7ee01",
+    "categoria": "Entretenimento",
+    "dificuldade": "facil",
+    "pergunta": "Com qual risada o Papai Noel costuma ser imitado?",
+    "resposta": "Ho ho ho",
+    "alternativas": [
+      "Hi hi hi",
+      "Ha ha ha",
+      "Ho ho ho",
+      "He he he"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "9fab03af6e",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual ex-Beatle gravou \"Happy Xmas (War Is Over)\", origem de \"Então É Natal\"?",
+    "resposta": "John Lennon",
+    "alternativas": [
+      "Paul McCartney",
+      "Ringo Starr",
+      "George Harrison",
+      "John Lennon"
+    ],
+    "subtema": "Música internacional",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:6feec5b4e1 (E3 resposta nova citada no texto antigo + assunto (22.9))",
+    "dup": "certa",
+    "dup_ref": "id:6feec5b4e1",
+    "recente": false,
+    "dup_regra": "E3 resposta nova citada no texto antigo + assunto (22.9)"
+  },
+  {
+    "id": "4d992ef19a",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual série brasileira da Netflix, de 2020, tem Tainá Müller como escrivã de polícia?",
+    "resposta": "Bom Dia, Verônica",
+    "alternativas": [
+      "Irmandade",
+      "Bom Dia, Verônica",
+      "Cidade Invisível",
+      "Sintonia"
+    ],
+    "subtema": "Séries e streaming",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "b610e02a85",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual dança de rua estreou como modalidade olímpica nos Jogos de Paris 2024?",
+    "resposta": "Breaking",
+    "alternativas": [
+      "Hip-hop",
+      "Street dance",
+      "Breaking",
+      "Krumping"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": true,
+    "dup_regra": null
+  },
+  {
+    "id": "9be1b36c1f",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual organista austríaco compôs a melodia de \"Noite Feliz\", em 1818?",
+    "resposta": "Franz Gruber",
+    "alternativas": [
+      "Franz Gruber",
+      "Franz Schubert",
+      "Johann Pachelbel",
+      "Anton Bruckner"
+    ],
+    "subtema": "Música internacional",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "a61e06dd23",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "\"Jingle Bells\" foi composta originalmente para qual feriado americano?",
+    "resposta": "Ação de Graças",
+    "alternativas": [
+      "Dia da Independência",
+      "Ação de Graças",
+      "Natal",
+      "Ano-Novo"
+    ],
+    "subtema": "Música internacional",
+    "status": "descartada",
+    "motivo": "retirada pelo gerador: origem de Jingle Bells no Dia de Ação de Graças não tem fonte primária (checagem web)",
+    "dup": "suspeita",
+    "dup_ref": "banco:1038",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 3.4)"
+  },
+  {
+    "id": "fdec41c867",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual filme animado de 2004, com Tom Hanks, leva um menino num trem até o Polo Norte?",
+    "resposta": "O Expresso Polar",
+    "alternativas": [
+      "O Expresso Polar",
+      "O Grinch",
+      "Operação Presente",
+      "Klaus"
+    ],
+    "subtema": "Cinema internacional e Oscar",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2136 (E2 mesma resposta e mesmo assunto (7.3, 27% do fato))",
+    "dup": "certa",
+    "dup_ref": "banco:2136",
+    "recente": false,
+    "dup_regra": "E2 mesma resposta e mesmo assunto (7.3, 27% do fato)"
+  },
+  {
+    "id": "1b64a4c008",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual autor criou o avarento Ebenezer Scrooge, de \"Um Conto de Natal\"?",
+    "resposta": "Charles Dickens",
+    "alternativas": [
+      "Charles Dickens",
+      "Oscar Wilde",
+      "Lewis Carroll",
+      "Mark Twain"
+    ],
+    "subtema": "Literatura",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7266 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 17.6))",
+    "dup": "certa",
+    "dup_ref": "banco:7266",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 17.6)"
+  },
+  {
+    "id": "fd8825e3b2",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".pe\"?",
+    "resposta": "Peru",
+    "alternativas": [
+      "Panamá",
+      "Portugal",
+      "Paraguai",
+      "Peru"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "5b8b294cbc",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".ca\"?",
+    "resposta": "Canadá",
+    "alternativas": [
+      "Canadá",
+      "Cuba",
+      "Camboja",
+      "Catar"
+    ],
+    "subtema": "Internet e redes",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:2587 (E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0))",
+    "dup": "certa",
+    "dup_ref": "banco:2587",
+    "recente": false,
+    "dup_regra": "E1 pergunta invertida (respostas cruzadas nos textos, assunto 0.0)"
+  },
+  {
+    "id": "e3b1d77985",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual país usa o domínio de internet \".dk\"?",
+    "resposta": "Dinamarca",
+    "alternativas": [
+      "Bangladesh",
+      "Dinamarca",
+      "Dominica",
+      "Djibuti"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "9938ef3ce5",
+    "categoria": "Tecnologia",
+    "dificuldade": "medio",
+    "pergunta": "Qual país usa o domínio de internet \".cl\"?",
+    "resposta": "Chile",
+    "alternativas": [
+      "Chile",
+      "Costa Rica",
+      "Colômbia",
+      "Camarões"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "1fe09d0e92",
+    "categoria": "Tecnologia",
+    "dificuldade": "dificil",
+    "pergunta": "O domínio \".ly\", usado em encurtadores de links, pertence a qual país?",
+    "resposta": "Líbia",
+    "alternativas": [
+      "Libéria",
+      "Lituânia",
+      "Líbia",
+      "Letônia"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "191cd8f6b3",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual palácio é a sede do governo do Rio Grande do Sul?",
+    "resposta": "Palácio Piratini",
+    "alternativas": [
+      "Palácio da Liberdade",
+      "Palácio Iguaçu",
+      "Palácio Piratini",
+      "Palácio Farroupilha"
+    ],
+    "subtema": "Brasil República, Vargas, ditadura e redemocratização",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:1247 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:1247",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "8f1cd3ee35",
+    "categoria": "Esportes",
+    "dificuldade": "facil",
+    "pergunta": "Em qual país nasceu James Naismith, o inventor do basquete?",
+    "resposta": "Canadá",
+    "alternativas": [
+      "Estados Unidos",
+      "Escócia",
+      "Canadá",
+      "Irlanda"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "b147323bfe",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual pequeno país do Pacífico é bicampeão olímpico do rúgbi de sete?",
+    "resposta": "Fiji",
+    "alternativas": [
+      "Tonga",
+      "Nova Zelândia",
+      "Samoa",
+      "Fiji"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:6293 (R3 pergunta invertida (cruzamento cheio + parcial))",
+    "dup": "certa",
+    "dup_ref": "banco:6293",
+    "recente": false,
+    "dup_regra": "R3 pergunta invertida (cruzamento cheio + parcial)"
+  },
+  {
+    "id": "886f2ca1d2",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual país do Sudeste Asiático é uma potência do badminton, ao lado da China?",
+    "resposta": "Indonésia",
+    "alternativas": [
+      "Tailândia",
+      "Indonésia",
+      "Filipinas",
+      "Vietnã"
+    ],
+    "subtema": "Outros (xadrez, surfe, skate, e-sports)",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "6587b157b9",
+    "categoria": "Esportes",
+    "dificuldade": "dificil",
+    "pergunta": "Qual troféu de verão é disputado em Huelva, a cidade de onde Colombo partiu?",
+    "resposta": "Troféu Colombino",
+    "alternativas": [
+      "Troféu Ramón de Carranza",
+      "Troféu Teresa Herrera",
+      "Troféu Naranja",
+      "Troféu Colombino"
+    ],
+    "subtema": "Futebol europeu",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "284e4e00d0",
+    "categoria": "Entretenimento",
+    "dificuldade": "medio",
+    "pergunta": "Qual animação de 2019, indicada ao Oscar, imagina a origem do Papai Noel num vilarejo gelado?",
+    "resposta": "Klaus",
+    "alternativas": [
+      "Klaus",
+      "O Expresso Polar",
+      "Operação Presente",
+      "O Grinch"
+    ],
+    "subtema": "Animação",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de6d271f30",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "De qual país vem o costume de montar a árvore de Natal com um pinheiro enfeitado?",
+    "resposta": "Alemanha",
+    "alternativas": [
+      "Estados Unidos",
+      "Inglaterra",
+      "Finlândia",
+      "Alemanha"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "793886e5ca",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "Qual bispo do século IV, da Ásia Menor, inspirou a figura do Papai Noel?",
+    "resposta": "São Nicolau",
+    "alternativas": [
+      "Santo Agostinho",
+      "São Nicolau",
+      "São Bento",
+      "São Jorge"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "758ed79db1",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".us\"?",
+    "resposta": "Estados Unidos",
+    "alternativas": [
+      "Ucrânia",
+      "Estados Unidos",
+      "Uzbequistão",
+      "Uruguai"
+    ],
+    "subtema": "Internet e redes",
+    "status": "descartada",
+    "motivo": "duplicada certa de id:33d3633d3c (E2c mesma resposta e ela aparece no outro enunciado (12.4))",
+    "dup": "certa",
+    "dup_ref": "id:33d3633d3c",
+    "recente": false,
+    "dup_regra": "E2c mesma resposta e ela aparece no outro enunciado (12.4)"
+  },
+  {
+    "id": "181482a065",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Qual lema dos hippies dos anos 1960 pregava a paz e o amor com flores?",
+    "resposta": "Flower power",
+    "alternativas": [
+      "Flower power",
+      "Peace and love",
+      "Black power",
+      "Make love"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:8006 (E5 resposta antiga citada no texto novo + assunto (25.8))",
+    "dup": "certa",
+    "dup_ref": "banco:8006",
+    "recente": false,
+    "dup_regra": "E5 resposta antiga citada no texto novo + assunto (25.8)"
+  },
+  {
+    "id": "d3382946cb",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual esporte de raquete, jogado em quadra fechada por paredes de vidro, é febre na Espanha e na Argentina?",
+    "resposta": "Padel",
+    "alternativas": [
+      "Pickleball",
+      "Beach tennis",
+      "Padel",
+      "Squash"
+    ],
+    "subtema": "Tênis",
+    "status": "descartada",
+    "motivo": "duplicada certa de banco:7103 (R1 mesma resposta e texto parecido)",
+    "dup": "certa",
+    "dup_ref": "banco:7103",
+    "recente": false,
+    "dup_regra": "R1 mesma resposta e texto parecido"
+  },
+  {
+    "id": "b41a566248",
+    "categoria": "Tecnologia",
+    "dificuldade": "facil",
+    "pergunta": "Qual país usa o domínio de internet \".pt\"?",
+    "resposta": "Portugal",
+    "alternativas": [
+      "Polônia",
+      "Paraguai",
+      "Portugal",
+      "Panamá"
+    ],
+    "subtema": "Internet e redes",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "id:de8b9dc455",
+    "recente": false,
+    "dup_regra": "enunciados quase iguais, respostas diferentes (0.8)"
+  },
+  {
+    "id": "b5813ee855",
+    "categoria": "História",
+    "dificuldade": "medio",
+    "pergunta": "Como se chamavam os motoqueiros de jaqueta de couro, rivais de outra tribo na Inglaterra dos anos 1960?",
+    "resposta": "Rockers",
+    "alternativas": [
+      "Rockers",
+      "Teddy Boys",
+      "Punks",
+      "Skinheads"
+    ],
+    "subtema": "Guerra Fria e século XX",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "8e6771ff00",
+    "categoria": "Esportes",
+    "dificuldade": "medio",
+    "pergunta": "Qual seleção europeia é a maior campeã mundial de handebol masculino?",
+    "resposta": "França",
+    "alternativas": [
+      "Dinamarca",
+      "Suécia",
+      "Alemanha",
+      "França"
+    ],
+    "subtema": "Olimpíadas e atletismo",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "nao",
+    "dup_ref": null,
+    "recente": false,
+    "dup_regra": null
+  },
+  {
+    "id": "de5b94fc7c",
+    "categoria": "Entretenimento",
+    "dificuldade": "dificil",
+    "pergunta": "O panetone, doce de Natal, nasceu em qual cidade italiana?",
+    "resposta": "Milão",
+    "alternativas": [
+      "Milão",
+      "Veneza",
+      "Gênova",
+      "Turim"
+    ],
+    "subtema": "Novelas e TV brasileira",
+    "status": "gerada",
+    "motivo": null,
+    "dup": "suspeita",
+    "dup_ref": "banco:196",
+    "recente": false,
+    "dup_regra": "mesma resposta rara, pouco assunto em comum (peso 4.3)"
+  }
+]

@@ -11,11 +11,14 @@
    "Fortaleza",
    "Internacional"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Vice de final: médio.",
-  "verificado_web": "wiki pt: Copa Sul-Americana de 2023 (\"vicecampeão = Fortaleza; artilheiro = Gonzalo\")"
+  "verificado_web": "wiki pt: Copa Sul-Americana de 2023 (\"vicecampeão = Fortaleza; artilheiro = Gonzalo\")",
+  "verificado_web_conferente": "wiki es: Copa Sudamericana 2023",
+  "conferido_por": "conferente-esportes-r1b",
+  "motivo": "conferente-esportes-r1b: repete v12: o enunciado \"Qual técnico argentino levou o Fortaleza à final da Copa Sul-Americana de 2023?\" entrega a resposta"
  },
  {
   "id": "0e19ef13da",
@@ -29,17 +32,19 @@
    "8",
    "7"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Número exato.",
-  "verificado_web": "wiki en: AC Milan (\"Milan is Italy's most successful club. The club has won seven European Cup/Champions League titles, making them the competition's second-most\")"
+  "verificado_web": "wiki en: AC Milan (\"Milan is Italy's most successful club. The club has won seven European Cup/Champions League titles, making them the competition's second-most\")",
+  "verificado_web_conferente": "wiki it: Associazione Calcio Milan | wiki es: Associazione Calcio Milan",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "dcb60f0ca3",
   "categoria": "Esportes",
   "dificuldade": "medio",
-  "pergunta": "Em qual cidade foi disputada a final da Libertadores de 2022, entre Flamengo e Athletico Paranaense?",
+  "pergunta": "Em qual cidade foi disputada a final da Libertadores de 2022?",
   "resposta": "Guayaquil",
   "alternativas": [
    "Montevidéu",
@@ -47,16 +52,20 @@
    "Santiago",
    "Guayaquil"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Sede de final: médio.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 2022 (\"da CONMEBOL definiu, de maneira virtual, o Estádio Monumental de Barcelona em Guaiaquil, no Equador, como sede da final. Em 25 de\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 2022 (\"da CONMEBOL definiu, de maneira virtual, o Estádio Monumental de Barcelona em Guaiaquil, no Equador, como sede da final. Em 25 de\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2022",
+  "enunciado_original": "Em qual cidade foi disputada a final da Libertadores de 2022, entre Flamengo e Athletico Paranaense?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "8331e2ce8a",
   "categoria": "Esportes",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Qual clube perdeu a final do Brasileirão de 1993 para o Palmeiras?",
   "resposta": "Vitória",
   "alternativas": [
@@ -65,11 +74,14 @@
    "Remo",
    "Vitória"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Vice de final antiga e pouco lembrada.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1993 (\"título); vicecampeão = Vitória; rebaixados = * América-MG *\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1993 (\"título); vicecampeão = Vitória; rebaixados = * América-MG *\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 1993",
+  "dificuldade_ajuste": "dificil->medio: vice de final de Brasileirão dos anos 90 bem lembrado",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "b34e1d818a",
@@ -83,16 +95,18 @@
    "Irã",
    "Japão"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Zebra de fase de grupos: médio.",
-  "verificado_web": "wiki en: 2022 FIFA World Cup Group E (\"score=; team2=\")"
+  "verificado_web": "wiki en: 2022 FIFA World Cup Group E (\"score=; team2=\")",
+  "verificado_web_conferente": "wiki de: Fußball-Weltmeisterschaft 2022/Gruppe E",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "eea233553f",
   "categoria": "Esportes",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Qual clube perdeu a final da Copa Sul-Americana de 2021 para o Athletico Paranaense?",
   "resposta": "Red Bull Bragantino",
   "alternativas": [
@@ -101,11 +115,14 @@
    "Red Bull Bragantino",
    "Lanús"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Vice de final única: detalhe.",
-  "verificado_web": "wiki pt: Copa Sul-Americana de 2021 (\"vicecampeão = Red Bull Bragantino; artilheiro = Agustín\")"
+  "verificado_web": "wiki pt: Copa Sul-Americana de 2021 (\"vicecampeão = Red Bull Bragantino; artilheiro = Agustín\")",
+  "verificado_web_conferente": "wiki es: Copa Sudamericana 2021",
+  "dificuldade_ajuste": "dificil->medio: final brasileira recente de Sul-Americana",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "1c013fac57",
@@ -119,11 +136,13 @@
    "Mathieu Valbuena",
    "Florian Thauvin"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Contratação de estrela muito noticiada.",
-  "verificado_web": "wiki en: Dimitri Payet (\"goals7 = 46; years8 = 2023-2025; clubs8 = Vasco da Gama; caps8 = 64; goals8 = 7; total_caps =\")"
+  "verificado_web": "wiki en: Dimitri Payet (\"goals7 = 46; years8 = 2023-2025; clubs8 = Vasco da Gama; caps8 = 64; goals8 = 7; total_caps =\")",
+  "verificado_web_conferente": "wiki fr: Dimitri Payet",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c509eeff5b",
@@ -137,11 +156,13 @@
    "Walter",
    "Ronaldo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Lance muito lembrado.",
-  "verificado_web": "wiki en: Cássio Ramos (\"finals, including a miraculous save against an Diego Souza's shoot of the Vasco da Gama in the second-leg\")"
+  "verificado_web": "wiki en: Cássio Ramos (\"finals, including a miraculous save against an Diego Souza's shoot of the Vasco da Gama in the second-leg\")",
+  "verificado_web_conferente": "wiki pt: Cássio Ramos",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "a47febfa63",
@@ -155,11 +176,13 @@
    "Luiz Felipe Scolari",
    "Carlos Alberto Parreira"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Técnico de Copa recente.",
-  "verificado_web": "wiki en: 2010 FIFA World Cup knockout stage (\"16; Gilberto; -; colspan=3; Manager:; -; colspan=3; Dunga; }; valign='top'; 300px\")"
+  "verificado_web": "wiki en: 2010 FIFA World Cup knockout stage (\"16; Gilberto; -; colspan=3; Manager:; -; colspan=3; Dunga; }; valign='top'; 300px\")",
+  "verificado_web_conferente": "wiki es: Dunga",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "9da38c9990",
@@ -173,17 +196,19 @@
    "4 a 0",
    "3 a 1"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Placar de jogo não decisivo.",
-  "verificado_web": "wiki en: 2010 FIFA World Cup knockout stage (\"link; 2010 FIFA World Cup knockout stage#Argentina vs Germany; 0-4; team2=; goals1=; goals2= *Müller 3'\")"
+  "verificado_web": "wiki en: 2010 FIFA World Cup knockout stage (\"link; 2010 FIFA World Cup knockout stage#Argentina vs Germany; 0-4; team2=; goals1=; goals2= *Müller 3'\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 2010",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "36f154e8d5",
   "categoria": "Esportes",
   "dificuldade": "medio",
-  "pergunta": "Em qual cidade foi a final da Champions League 2025/26, entre PSG e Arsenal?",
+  "pergunta": "Em qual cidade foi disputada a final da Champions League 2025/26?",
   "resposta": "Budapeste",
   "alternativas": [
    "Munique",
@@ -191,16 +216,20 @@
    "Istambul",
    "Budapeste"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Sede de final recente: médio.",
-  "verificado_web": "wiki en: 2026 UEFA Champions League final (\"description; Football match in Budapest, Hungary\")"
+  "verificado_web": "wiki en: 2026 UEFA Champions League final (\"description; Football match in Budapest, Hungary\")",
+  "verificado_web_conferente": "wiki de: UEFA Champions League 2025/26",
+  "enunciado_original": "Em qual cidade foi a final da Champions League 2025/26, entre PSG e Arsenal?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "e999bd0467",
   "categoria": "Esportes",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Qual volante brasileiro fez gol contra na eliminação para a Bélgica, nas quartas de final da Copa de 2018?",
   "resposta": "Fernandinho",
   "alternativas": [
@@ -209,11 +238,14 @@
    "Renato Augusto",
    "Fernandinho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Detalhe que nem quem viu guarda.",
-  "verificado_web": "wiki en: 2018 FIFA World Cup knockout stage (\"Kompany flicked on Nacer Chadli's delivery, but the decisive touch came from Fernandinho, who turned the ball past Alisson via his arm. Belgium doubled their lead by\")"
+  "verificado_web": "wiki en: 2018 FIFA World Cup knockout stage (\"Kompany flicked on Nacer Chadli's delivery, but the decisive touch came from Fernandinho, who turned the ball past Alisson via his arm. Belgium doubled their lead by\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 2018",
+  "dificuldade_ajuste": "dificil->medio: lance marcante da eliminação (gol contra), não é número",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "ae4e7b26d1",
@@ -227,11 +259,13 @@
    "Santos",
    "Vasco da Gama"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Campeão de final.",
-  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2002 (\"golos = 369; jogos = 117; campeão = Corinthians (2.º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2002 (\"golos = 369; jogos = 117; campeão = Corinthians (2.º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Copa de Brasil 2002",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "af67f8db36",
@@ -245,11 +279,13 @@
    "Vasco da Gama",
    "Palmeiras"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Campeão de uma edição marcante.",
-  "verificado_web": "wiki pt: Copa João Havelange (\"golos = 2970; jogos = 1065; campeão = Vasco (4º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Copa João Havelange (\"golos = 2970; jogos = 1065; campeão = Vasco (4º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2000 (\"Vasco da Gama (4° titulo)\")",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "138e96ea06",
@@ -263,11 +299,13 @@
    "Obina",
    "Diego Tardelli"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Artilharia dividida: detalhe.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2009 - Série A (\"Adriano * Diego Tardelli\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2009 - Série A (\"Adriano * Diego Tardelli\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2009",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "ebf8cd7c9d",
@@ -281,11 +319,13 @@
    "88",
    "94"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Craques e recordes",
   "motivo_dificuldade": "Número exato de recorde.",
-  "verificado_web": "wiki en: Lionel Messi (\"record of most goals scored in a calendar year; Messi scored a record 91 goals in all competitions for Barcelona and Argentina throughout 2012.\")"
+  "verificado_web": "wiki en: Lionel Messi (\"record of most goals scored in a calendar year; Messi scored a record 91 goals in all competitions for Barcelona and Argentina throughout 2012.\")",
+  "verificado_web_conferente": "wiki es: Lionel Messi",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "fc70e57951",
@@ -299,11 +339,13 @@
    "Independiente",
    "Estudiantes"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Vice de final dos anos 1970.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 1976 (\"título); vicecampeão = River Plate; artilheiro =\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 1976 (\"título); vicecampeão = River Plate; artilheiro =\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 1976",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "45b278a5a8",
@@ -317,11 +359,13 @@
    "Marcelo Bielsa",
    "Jorge Sampaoli"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Técnico campeão: médio.",
-  "verificado_web": "wiki pt: Marcelo Gallardo (\"2014 *Recopa Sul-Americana: 2015, 2016 e 2019 *Copa Libertadores da América: 2015 e 2018 *Copa Suruga Bank: 2015 *Copa Argentina:\")"
+  "verificado_web": "wiki pt: Marcelo Gallardo (\"2014 *Recopa Sul-Americana: 2015, 2016 e 2019 *Copa Libertadores da América: 2015 e 2018 *Copa Suruga Bank: 2015 *Copa Argentina:\")",
+  "verificado_web_conferente": "wiki es: Marcelo Gallardo",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "8e80cf3c5d",
@@ -335,11 +379,13 @@
    "Grêmio",
    "Fluminense"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Vice de final: detalhe da decisão.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1995 (\"título); vicecampeão = Santos; rebaixados = * Paysandu *\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1995 (\"título); vicecampeão = Santos; rebaixados = * Paysandu *\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 1995",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "daacb6d9ce",
@@ -353,11 +399,13 @@
    "Bragantino",
    "Corinthians"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Vice de final: detalhe.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1991 (\"título); vicecampeão = Bragantino; rebaixados = * Grêmio *\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1991 (\"título); vicecampeão = Bragantino; rebaixados = * Grêmio *\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 1991",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "a7a3635550",
@@ -371,16 +419,18 @@
    "8 a 2",
    "5 a 1"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Placar famoso, mas detalhe numérico.",
-  "verificado_web": "wiki en: 2019-20 UEFA Champions League knockout phase (\"time = 21:00; team1 = Barcelona; score = 2-8; team2 = Bayern Munich; goals1 = *Alaba\")"
+  "verificado_web": "wiki en: 2019-20 UEFA Champions League knockout phase (\"time = 21:00; team1 = Barcelona; score = 2-8; team2 = Bayern Munich; goals1 = *Alaba\")",
+  "verificado_web_conferente": "wiki de: UEFA Champions League 2019/20",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "8aeff0f71c",
   "categoria": "Esportes",
-  "dificuldade": "medio",
+  "dificuldade": "facil",
   "pergunta": "Em qual zagueiro italiano Luis Suárez deu uma mordida na Copa de 2014?",
   "resposta": "Giorgio Chiellini",
   "alternativas": [
@@ -389,11 +439,14 @@
    "Giorgio Chiellini",
    "Daniele De Rossi"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Detalhe de lance famoso.",
-  "verificado_web": "wiki en: Luis Suárez (footballer, born 1987) (\"while waiting for a cross. Replays showed that Suárez lunged at Chiellini and bit his shoulder (Chiellini showed bite marks), followed by\")"
+  "verificado_web": "wiki en: Luis Suárez (footballer, born 1987) (\"while waiting for a cross. Replays showed that Suárez lunged at Chiellini and bit his shoulder (Chiellini showed bite marks), followed by\")",
+  "verificado_web_conferente": "wiki it: Giorgio Chiellini",
+  "dificuldade_ajuste": "medio->facil: momento marcante da Copa (a mordida)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "d84858d086",
@@ -407,11 +460,13 @@
    "Cruzeiro",
    "Criciúma"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Campeão de final antiga.",
-  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 1992 (\"golos = 165; jogos = 62; campeão = Internacional-RS (1º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 1992 (\"golos = 165; jogos = 62; campeão = Internacional-RS (1º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Copa de Brasil 1992",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "68c7508a89",
@@ -425,11 +480,13 @@
    "Maurizio Sarri",
    "Antonio Conte"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Técnico campeão recente.",
-  "verificado_web": "wiki en: 2024-25 Serie A (\"2024-25; dates = 17 August 2024 - 25 May 2025; winners = Napoli 4th title; continentalcup1 = Champions\") | wiki en: 2024-25 Serie A (\"Pulsee Luce e Gas * Sleeves: Ford Pro; -; Napoli; Aurelio De Laurentiis; Antonio Conte; Giovanni Di Lorenzo; EA7; MSC Cruises\")"
+  "verificado_web": "wiki en: 2024-25 Serie A (\"2024-25; dates = 17 August 2024 - 25 May 2025; winners = Napoli 4th title; continentalcup1 = Champions\") | wiki en: 2024-25 Serie A (\"Pulsee Luce e Gas * Sleeves: Ford Pro; -; Napoli; Aurelio De Laurentiis; Antonio Conte; Giovanni Di Lorenzo; EA7; MSC Cruises\")",
+  "verificado_web_conferente": "wiki it: Serie A 2024-2025",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c6c10db537",
@@ -443,17 +500,19 @@
    "Casagrande",
    "Zé Maria"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Comoção nacional, braços erguidos no Pacaembu.",
-  "verificado_web": "wiki en: Sócrates (footballer) (\"description; Brazilian footballer (1954-2011) the Brazilian footballer; the\") | wiki pt: Campeonato Brasileiro de Futebol de 2011 - Série A (\"= CBF; anfitrião = Brasil; início = 21 de maio; fim = 4 de dezembro; golos = 1017; jogos = 380; campeão =\")"
+  "verificado_web": "wiki en: Sócrates (footballer) (\"description; Brazilian footballer (1954-2011) the Brazilian footballer; the\") | wiki pt: Campeonato Brasileiro de Futebol de 2011 - Série A (\"= CBF; anfitrião = Brasil; início = 21 de maio; fim = 4 de dezembro; golos = 1017; jogos = 380; campeão =\")",
+  "verificado_web_conferente": "wiki es: Sócrates | wiki pt: Sócrates (futebolista) | wiki es: Sócrates (futbolista)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "435ed38cc8",
   "categoria": "Esportes",
   "dificuldade": "dificil",
-  "pergunta": "Quantas partidas seguidas o Bayer Leverkusen ficou sem perder, em todas as competições, na temporada 2023/24?",
+  "pergunta": "Quantas partidas seguidas, em todas as competições, o campeão alemão invicto de 2023/24 ficou sem perder naquela temporada?",
   "resposta": "51",
   "alternativas": [
    "51",
@@ -461,11 +520,15 @@
    "46",
    "55"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Número exato de recorde.",
-  "verificado_web": "wiki en: 2023-24 Bayer 04 Leverkusen season (\"However, Leverkusen's unbeaten run would end at 51 matches, following a 3-0 defeat to Atalanta in\")"
+  "verificado_web": "wiki en: 2023-24 Bayer 04 Leverkusen season (\"However, Leverkusen's unbeaten run would end at 51 matches, following a 3-0 defeat to Atalanta in\")",
+  "verificado_web_conferente": "wiki de: Bayer 04 Leverkusen | wiki en: 2023–24 Bayer 04 Leverkusen season",
+  "enunciado_original": "Quantas partidas seguidas o Bayer Leverkusen ficou sem perder, em todas as competições, na temporada 2023/24?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "23a57e9a23",
@@ -479,11 +542,13 @@
    "Bernardo Silva",
    "Bruno Fernandes"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Craques e recordes",
   "motivo_dificuldade": "Prêmio muito noticiado.",
-  "verificado_web": "wiki en: Cristiano Ronaldo (\"for the award has varied. Ronaldo received three Ballons d'Or as awarded by France Football magazine (2008, 2016, 2017) and two FIFA Ballons d'Or (2013, 2014) as well\")"
+  "verificado_web": "wiki en: Cristiano Ronaldo (\"for the award has varied. Ronaldo received three Ballons d'Or as awarded by France Football magazine (2008, 2016, 2017) and two FIFA Ballons d'Or (2013, 2014) as well\")",
+  "verificado_web_conferente": "wiki es: Balón de Oro",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "1dc751a216",
@@ -497,11 +562,13 @@
    "Racing",
    "Independiente"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Detalhe de semifinal.",
-  "verificado_web": "wiki en: 2020 Copa Libertadores final stages (\"6; River Plate; 0; 2; 2; 1; Palmeiras; 3; 0; 3; 5; Boca Juniors; 0; 0; 0; 2; Santos; 0; 3; 3; 30 January 2021 - Rio de\")"
+  "verificado_web": "wiki en: 2020 Copa Libertadores final stages (\"6; River Plate; 0; 2; 2; 1; Palmeiras; 3; 0; 3; 5; Boca Juniors; 0; 0; 0; 2; Santos; 0; 3; 3; 30 January 2021 - Rio de\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2020 | wiki pt: Copa Libertadores da América de 2020 | busca web: O Povo, El Mercurio (\"Santos golea al Boca 3-0\", semifinal 2020)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "2155872c1f",
@@ -515,11 +582,13 @@
    "Atlético-MG",
    "Internacional"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Gol mais famoso do Neymar no Brasil.",
-  "verificado_web": "wiki en: FIFA Puskás Award (\"2009-10 UEFA Champions League; -; Neymar; Santos; Santo André; align='center'; 2-1; 2010\")"
+  "verificado_web": "wiki en: FIFA Puskás Award (\"2009-10 UEFA Champions League; -; Neymar; Santos; Santo André; align='center'; 2-1; 2010\")",
+  "verificado_web_conferente": "wiki es: Premio Puskás",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "b95d57c68b",
@@ -533,11 +602,13 @@
    "Botafogo",
    "Náutico"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Detalhe do lance histórico.",
-  "verificado_web": "wiki pt: Romário (\"como Pelé, atingiu o milésimo cobrando pênalti. O adversário foi o Sport. Com a sua última ambição como jogador\")"
+  "verificado_web": "wiki pt: Romário (\"como Pelé, atingiu o milésimo cobrando pênalti. O adversário foi o Sport. Com a sua última ambição como jogador\")",
+  "verificado_web_conferente": "wiki es: Romário | wiki pt: Romário",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "a86f635c03",
@@ -551,11 +622,13 @@
    "Cruzeiro",
    "São Paulo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Vice de final: médio.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 2009 (\"título); vicecampeão = Cruzeiro; artilheiro = Mauro Boselli (Estudiantes) - 8\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 2009 (\"título); vicecampeão = Cruzeiro; artilheiro = Mauro Boselli (Estudiantes) - 8\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2009",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "8a2541e0ef",
@@ -569,17 +642,19 @@
    "Peru",
    "Uruguai"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Adversário de final antiga.",
-  "verificado_web": "wiki en: 1997 Copa América (\"confederations = 2; venues = 5; cities = 5; champion = Brazil; count = 5; second = Bolivia; third = Mexico; fourth = Peru; matches = 26\")"
+  "verificado_web": "wiki en: 1997 Copa América (\"confederations = 2; venues = 5; cities = 5; champion = Brazil; count = 5; second = Bolivia; third = Mexico; fourth = Peru; matches = 26\")",
+  "verificado_web_conferente": "wiki es: Copa América 1997",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "f09afc13c2",
   "categoria": "Esportes",
-  "dificuldade": "facil",
-  "pergunta": "Qual atacante, artilheiro da Libertadores de 2022 com 12 gols, foi campeão pelo Flamengo naquele ano?",
+  "dificuldade": "medio",
+  "pergunta": "Qual atacante foi o artilheiro da Libertadores de 2022, com 12 gols?",
   "resposta": "Pedro",
   "alternativas": [
    "Gabigol",
@@ -587,11 +662,16 @@
    "Everton Cebolinha",
    "Pedro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Artilheiro de campeão recente.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 2022 (\"Athletico-PR; artilheiro = Pedro (Flamengo) - 12 gols\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 2022 (\"Athletico-PR; artilheiro = Pedro (Flamengo) - 12 gols\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2022",
+  "dificuldade_ajuste": "facil->medio: artilheiro de competição (prêmio), não é o gol do título",
+  "enunciado_original": "Qual atacante, artilheiro da Libertadores de 2022 com 12 gols, foi campeão pelo Flamengo naquele ano?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "4020ecf316",
@@ -605,17 +685,19 @@
    "283",
    "260"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Craques e recordes",
   "motivo_dificuldade": "Número exato de recorde.",
-  "verificado_web": "wiki en: Alan Shearer (\"professional player who played as a striker. With 260 goals, Shearer is the Premier League's all-time record goalscorer. He was named Football Writers' Association\")"
+  "verificado_web": "wiki en: Alan Shearer (\"professional player who played as a striker. With 260 goals, Shearer is the Premier League's all-time record goalscorer. He was named Football Writers' Association\")",
+  "verificado_web_conferente": "wiki es: Alan Shearer",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "5363c5c3cb",
   "categoria": "Esportes",
   "dificuldade": "dificil",
-  "pergunta": "Quem fez o segundo gol do Flamengo na vitória por 3 a 0 sobre o Liverpool, no Mundial de 1981?",
+  "pergunta": "Quem fez o segundo gol na vitória por 3 a 0 sobre o Liverpool, na final do Mundial de 1981?",
   "resposta": "Adílio",
   "alternativas": [
    "Zico",
@@ -623,11 +705,15 @@
    "Leandro",
    "Adílio"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Mundial de Clubes",
   "motivo_dificuldade": "Autor de gol que quase ninguém guarda.",
-  "verificado_web": "wiki en: 1981 Intercontinental Cup (\"the 12th minute when João Batista Nunes scored. They extended their lead in the 34th minute when Adílio added a second. A further goal was scored in the 41st minute by\")"
+  "verificado_web": "wiki en: 1981 Intercontinental Cup (\"the 12th minute when João Batista Nunes scored. They extended their lead in the 34th minute when Adílio added a second. A further goal was scored in the 41st minute by\")",
+  "verificado_web_conferente": "wiki es: Copa Intercontinental 1981",
+  "enunciado_original": "Quem fez o segundo gol do Flamengo na vitória por 3 a 0 sobre o Liverpool, no Mundial de 1981?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "04178a842d",
@@ -641,17 +727,19 @@
    "Croácia",
    "Itália"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Detalhe de semifinal.",
-  "verificado_web": "wiki en: 1998 FIFA World Cup knockout stage (\"official: Urs Meier (Switzerland); } ==Semi-finals== ===Brazil vs Netherlands===\")"
+  "verificado_web": "wiki en: 1998 FIFA World Cup knockout stage (\"official: Urs Meier (Switzerland); } ==Semi-finals== ===Brazil vs Netherlands===\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 1998 | wiki it: Campionato mondiale di calcio 1998 | wiki es: Selección de fútbol de los Países Bajos | wiki es: Selección de fútbol de Brasil",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "f8a6fd71a5",
   "categoria": "Esportes",
   "dificuldade": "dificil",
-  "pergunta": "Por qual placar o Brasil venceu o Peru na final da Copa América de 2019?",
+  "pergunta": "Por qual placar o Brasil venceu a final da Copa América de 2019, no Maracanã?",
   "resposta": "3 a 1",
   "alternativas": [
    "1 a 0",
@@ -659,11 +747,15 @@
    "3 a 1",
    "3 a 0"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Placar exato de final.",
-  "verificado_web": "wiki en: 2019 Copa América final (\"Brazil, the tournament hosts and Peru, in which Brazil won the match 3-1 to clinch their ninth Copa América title and their first since 2007. ==Background==\")"
+  "verificado_web": "wiki en: 2019 Copa América final (\"Brazil, the tournament hosts and Peru, in which Brazil won the match 3-1 to clinch their ninth Copa América title and their first since 2007. ==Background==\")",
+  "verificado_web_conferente": "wiki es: Copa América 2019",
+  "enunciado_original": "Por qual placar o Brasil venceu o Peru na final da Copa América de 2019?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "d912cba0dd",
@@ -677,11 +769,14 @@
    "Muricy Ramalho",
    "Tite"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Técnico campeão: médio.",
-  "verificado_web": "wiki pt: Abel Braga (\"Luiz Penido: 2012 *Campeonato Brasileiro: 2012 ;Internacional *Copa Libertadores da América: 2006 *Copa do Mundo de Clubes da FIFA: 2006 *Copa\")"
+  "verificado_web": "wiki pt: Abel Braga (\"Luiz Penido: 2012 *Campeonato Brasileiro: 2012 ;Internacional *Copa Libertadores da América: 2006 *Copa do Mundo de Clubes da FIFA: 2006 *Copa\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2006 | wiki pt: Abel Braga",
+  "conferido_por": "conferente-esportes-r1b",
+  "motivo": "conferente-esportes-r1b: repete v12: Abel Braga técnico do Inter no Mundial de 2006, e o enunciado entrega o campeão da Libertadores 2006 do v12"
  },
  {
   "id": "8be5214ad9",
@@ -695,11 +790,13 @@
    "Felipe Caicedo",
    "Michael Estrada"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Contratação: pede acompanhar.",
-  "verificado_web": "wiki en: Enner Valencia (\"90; goals6 = 48; years7 = 2023-2025; clubs7 = Internacional; caps7 = 81; goals7 = 22<!--league and state\")"
+  "verificado_web": "wiki en: Enner Valencia (\"90; goals6 = 48; years7 = 2023-2025; clubs7 = Internacional; caps7 = 81; goals7 = 22<!--league and state\")",
+  "verificado_web_conferente": "wiki es: Enner Valencia",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "e6443a2820",
@@ -713,11 +810,13 @@
    "Marcelo Gallardo",
    "Lionel Scaloni"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Técnico campeão recente.",
-  "verificado_web": "wiki en: 2022 FIFA World Cup final (\"Dybala; -; colspan=3; Manager:; -; colspan=3; Lionel Scaloni; }; valign='top'; 300px; valign='top'\")"
+  "verificado_web": "wiki en: 2022 FIFA World Cup final (\"Dybala; -; colspan=3; Manager:; -; colspan=3; Lionel Scaloni; }; valign='top'; 300px; valign='top'\")",
+  "verificado_web_conferente": "wiki es: Lionel Scaloni",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "74e91516a2",
@@ -731,11 +830,13 @@
    "Atlético-MG",
    "Botafogo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Derrocada que virou meme no país inteiro.",
-  "verificado_web": "wiki en: Botafogo de Futebol e Regatas (\"coming in first place after only 3 rounds, then leading the league by 13 points after 19 matches and on course to have the\")"
+  "verificado_web": "wiki en: Botafogo de Futebol e Regatas (\"coming in first place after only 3 rounds, then leading the league by 13 points after 19 matches and on course to have the\")",
+  "verificado_web_conferente": "wiki pt: Campeonato Brasileiro de Futebol de 2023 - Série A | wiki en: 2023 Campeonato Brasileiro Série A | busca web: Placar, Trivela (Botafogo fechou o 1º turno com 13 pontos de vantagem, terminou em 5º)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c980419e21",
@@ -749,17 +850,19 @@
    "Neymar",
    "Vinícius Júnior"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Marca muito noticiada.",
-  "verificado_web": "wiki en: Neymar (\"with joy for every goal you score'; source = - Pelé congratulates Neymar on equalling his record of 77 official international goals.; width = 27%; align = left; qalign = left\")"
+  "verificado_web": "wiki en: Neymar (\"with joy for every goal you score'; source = - Pelé congratulates Neymar on equalling his record of 77 official international goals.; width = 27%; align = left; qalign = left\")",
+  "verificado_web_conferente": "wiki es: Neymar | wiki de: Neymar | wiki en: Neymar | busca web: Gazeta Esportiva, Itatiaia (Neymar supera Pelé contra a Bolívia, set/2023)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "32542a6dc5",
   "categoria": "Esportes",
   "dificuldade": "facil",
-  "pergunta": "Qual clube perdeu a final da Champions League 2009/10 para a Inter de Milão de Mourinho?",
+  "pergunta": "Qual clube perdeu a final da Champions League 2009/10 para a Inter de Milão?",
   "resposta": "Bayern de Munique",
   "alternativas": [
    "Bayern de Munique",
@@ -767,17 +870,21 @@
    "Manchester United",
    "Chelsea"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Adversário na decisão: fácil.",
-  "verificado_web": "wiki en: 2010 UEFA Champions League final (\"cover; event = 2009-10 UEFA Champions League; team1 = Bayern Munich; team1association =; team1score = 0; team2 =\")"
+  "verificado_web": "wiki en: 2010 UEFA Champions League final (\"cover; event = 2009-10 UEFA Champions League; team1 = Bayern Munich; team1association =; team1score = 0; team2 =\")",
+  "verificado_web_conferente": "wiki es: Final de la Liga de Campeones de la UEFA 2009-10",
+  "enunciado_original": "Qual clube perdeu a final da Champions League 2009/10 para a Inter de Milão de Mourinho?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "ac6d3ac007",
   "categoria": "Esportes",
   "dificuldade": "facil",
-  "pergunta": "Qual clube foi campeão brasileiro de 2004, com Robinho e Diego já em fim de ciclo?",
+  "pergunta": "Qual clube foi campeão brasileiro de 2004, com Robinho como principal estrela?",
   "resposta": "Santos",
   "alternativas": [
    "Athletico Paranaense",
@@ -785,11 +892,15 @@
    "São Paulo",
    "Palmeiras"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Campeão de época marcante.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2004 - Série A (\"golos = 1536; jogos = 552; campeão = Santos (8º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2004 - Série A (\"golos = 1536; jogos = 552; campeão = Santos (8º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2004",
+  "enunciado_original": "Qual clube foi campeão brasileiro de 2004, com Robinho e Diego já em fim de ciclo?",
+  "ajuste_enunciado": "correção de fato: Diego já tinha ido para o Porto antes do título de 2004",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "798e563293",
@@ -803,11 +914,13 @@
    "Arsenal",
    "Manchester United"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Feito recente muito noticiado.",
-  "verificado_web": "wiki en: 2023-24 Premier League (\"2024. Manchester City, the defending champions, won their fourth consecutive title, the first team to do so in English men's football. This season was significant as it was affected\")"
+  "verificado_web": "wiki en: 2023-24 Premier League (\"2024. Manchester City, the defending champions, won their fourth consecutive title, the first team to do so in English men's football. This season was significant as it was affected\")",
+  "verificado_web_conferente": "wiki it: Manchester City Football Club",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c94c0e76b3",
@@ -821,11 +934,13 @@
    "Colômbia",
    "Honduras"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Vexame histórico.",
-  "verificado_web": "wiki en: 2001 Copa América knockout stage (\"-; colspan=3; Julio César Uribe; }; } ===Brazil v Honduras=== date = 23 July 2001; time = 19:45; team1 =; score = 0-2; report =\")"
+  "verificado_web": "wiki en: 2001 Copa América knockout stage (\"-; colspan=3; Julio César Uribe; }; } ===Brazil v Honduras=== date = 23 July 2001; time = 19:45; team1 =; score = 0-2; report =\")",
+  "verificado_web_conferente": "wiki es: Copa América 2001",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "feb61fca56",
@@ -839,11 +954,13 @@
    "Peñarol",
    "Defensor"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Vice de final antiga.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 1983 (\"título); vicecampeão = Peñarol; artilheiro = Arsenio Luzardo\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 1983 (\"título); vicecampeão = Peñarol; artilheiro = Arsenio Luzardo\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 1983",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "1462386969",
@@ -857,11 +974,13 @@
    "Thomas Tuchel",
    "Julian Nagelsmann"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Técnico campeão recente: médio.",
-  "verificado_web": "wiki en: 2024-25 La Liga (\"2024 - 25 May 2025; competition = La Liga; winners = Barcelona 28th title; continentalcup1 =\") | wiki en: 2024-25 La Liga (\"Kraken * Shorts: ComAve; -\")"
+  "verificado_web": "wiki en: 2024-25 La Liga (\"2024 - 25 May 2025; competition = La Liga; winners = Barcelona 28th title; continentalcup1 =\") | wiki en: 2024-25 La Liga (\"Kraken * Shorts: ComAve; -\")",
+  "verificado_web_conferente": "wiki es: Primera División de España 2024-25",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "14e3da0348",
@@ -875,11 +994,13 @@
    "Suíça",
    "Sérvia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Detalhe de mata-mata.",
-  "verificado_web": "wiki en: 2022 FIFA World Cup knockout stage (\"referee: Nicolás Gallo (Colombia); } ===Brazil vs South Korea=== The teams had previously met seven times, with\")"
+  "verificado_web": "wiki en: 2022 FIFA World Cup knockout stage (\"referee: Nicolás Gallo (Colombia); } ===Brazil vs South Korea=== The teams had previously met seven times, with\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 2022",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "a002e11b4b",
@@ -893,17 +1014,19 @@
    "Vasco da Gama",
    "Santos"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Campeão de final recente.",
-  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2011 (\"golos = 315; jogos = 111; campeão = Vasco (1.º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2011 (\"golos = 315; jogos = 111; campeão = Vasco (1.º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Copa de Brasil 2011",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "ee7d5aeaa4",
   "categoria": "Esportes",
   "dificuldade": "medio",
-  "pergunta": "Quem fez o gol da vitória do São Paulo por 3 a 2 sobre o Milan, aos 42 minutos do segundo tempo, no Mundial de 1993?",
+  "pergunta": "Quem fez o gol da vitória do São Paulo por 3 a 2 sobre o Milan, nos minutos finais, no Mundial de 1993?",
   "resposta": "Müller",
   "alternativas": [
    "Palhinha",
@@ -911,11 +1034,15 @@
    "Cafu",
    "Müller"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Mundial de Clubes",
   "motivo_dificuldade": "Autor de gol de final antiga.",
-  "verificado_web": "wiki en: 1993 Intercontinental Cup (\"19' Toninho Cerezo 59' Müller 87'; stadium=National Stadium, Tokyo\")"
+  "verificado_web": "wiki en: 1993 Intercontinental Cup (\"19' Toninho Cerezo 59' Müller 87'; stadium=National Stadium, Tokyo\")",
+  "verificado_web_conferente": "wiki es: Copa Intercontinental 1993 | busca web: Trivela, glieroidelcalcio (Müller aos 41-43 do 2º tempo; minuto varia nas fontes)",
+  "enunciado_original": "Quem fez o gol da vitória do São Paulo por 3 a 2 sobre o Milan, aos 42 minutos do segundo tempo, no Mundial de 1993?",
+  "ajuste_enunciado": "correção: o minuto do gol varia nas fontes (41 a 43 do 2º tempo)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "f9f764b806",
@@ -929,11 +1056,13 @@
    "4 a 1",
    "2 a 0"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Placar de jogo não decisivo.",
-  "verificado_web": "wiki en: 2024 Copa Libertadores final stages (\"date; 2024; 10; 23; df=y; time =; team1 = Botafogo; score = 5-0; team2 = Peñarol; goals1 = *Savarino 51; 59' *Barboza\")"
+  "verificado_web": "wiki en: 2024 Copa Libertadores final stages (\"date; 2024; 10; 23; df=y; time =; team1 = Botafogo; score = 5-0; team2 = Peñarol; goals1 = *Savarino 51; 59' *Barboza\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2024",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "a052609e59",
@@ -947,11 +1076,13 @@
    "Gabigol",
    "Michael"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Gol de final, mas não o do título.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 2021 (\"Veiga 5' Deyverson 95'; gols2 = Gabriel 72'; estadio= Estádio Centenario, Montevidéu\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 2021 (\"Veiga 5' Deyverson 95'; gols2 = Gabriel 72'; estadio= Estádio Centenario, Montevidéu\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2021",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "274280302f",
@@ -965,11 +1096,13 @@
    "Germán Pezzella",
    "Nicolás Otamendi"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Detalhe de jogo de Eliminatórias.",
-  "verificado_web": "wiki en: Nicolás Otamendi (\"Copa América title=== On 21 November 2023, he scored the decisive goal in a 1-0 victory over Brazil at the Maracanã stadium, in what would be the Canarinha's first defeat\")"
+  "verificado_web": "wiki en: Nicolás Otamendi (\"Copa América title=== On 21 November 2023, he scored the decisive goal in a 1-0 victory over Brazil at the Maracanã stadium, in what would be the Canarinha's first defeat\")",
+  "verificado_web_conferente": "wiki es: Selección de fútbol de Brasil",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "33c2d4893c",
@@ -983,11 +1116,13 @@
    "3 a 1",
    "5 a 1"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Placar exato de final antiga.",
-  "verificado_web": "wiki en: 1994 UEFA Champions League final (\"Marcel Desailly beat the offside trap to make it 4-0, which ended up being the final score. Desailly\")"
+  "verificado_web": "wiki en: 1994 UEFA Champions League final (\"Marcel Desailly beat the offside trap to make it 4-0, which ended up being the final score. Desailly\")",
+  "verificado_web_conferente": "wiki en: 1994 UEFA Champions League final",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "100da7dc6c",
@@ -1001,11 +1136,13 @@
    "Brasil",
    "Holanda"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Detalhe de semifinal.",
-  "verificado_web": "wiki en: 2014 FIFA World Cup knockout stage (\"chances as both sides cancelled each other out. In the penalty shoot-out, Sergio Romero saved the first penalty from Ron Vlaar diving to his left and the fifth penalty of the\")"
+  "verificado_web": "wiki en: 2014 FIFA World Cup knockout stage (\"chances as both sides cancelled each other out. In the penalty shoot-out, Sergio Romero saved the first penalty from Ron Vlaar diving to his left and the fifth penalty of the\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 2014 | wiki it: Campionato mondiale di calcio 2014",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "43eff0d074",
@@ -1019,11 +1156,13 @@
    "Bayer Leverkusen",
    "RB Leipzig"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Mundial de Clubes",
   "motivo_dificuldade": "Detalhe de campanha recente.",
-  "verificado_web": "wiki en: 2025 FIFA Club World Cup knockout stage (\"Inter Miami CF; 0; June 29 - Miami Gardens; Flamengo; 2; Bayern Munich; 4; July 1 - Miami Gardens; Real Madrid; 1\")"
+  "verificado_web": "wiki en: 2025 FIFA Club World Cup knockout stage (\"Inter Miami CF; 0; June 29 - Miami Gardens; Flamengo; 2; Bayern Munich; 4; July 1 - Miami Gardens; Real Madrid; 1\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Clubes de la FIFA 2025",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "092a74c619",
@@ -1037,17 +1176,19 @@
    "Velloso",
    "Diego Cavalieri"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Lance de clássico decisivo, muito lembrado.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 2000 (\"o último tiro livre direto, depois que o goleiro Marcos defendeu a cobrança do ídolo corintiano Marcelinho Carioca, num dos momentos mais marcantes da história da\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 2000 (\"o último tiro livre direto, depois que o goleiro Marcos defendeu a cobrança do ídolo corintiano Marcelinho Carioca, num dos momentos mais marcantes da história da\")",
+  "verificado_web_conferente": "wiki pt: Marcos Roberto Silveira Reis",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "6ac9a12670",
   "categoria": "Esportes",
   "dificuldade": "dificil",
-  "pergunta": "Qual clube equatoriano perdeu a final da Libertadores de 1998 para o Vasco?",
+  "pergunta": "Qual clube equatoriano perdeu a final da Libertadores de 1998?",
   "resposta": "Barcelona de Guayaquil",
   "alternativas": [
    "Emelec",
@@ -1055,11 +1196,15 @@
    "El Nacional",
    "Barcelona de Guayaquil"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Vice de final: médio.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 1998 (\"título); vicecampeão = Barcelona-EQU; artilheiro =\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 1998 (\"título); vicecampeão = Barcelona-EQU; artilheiro =\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 1998",
+  "enunciado_original": "Qual clube equatoriano perdeu a final da Libertadores de 1998 para o Vasco?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "36407638aa",
@@ -1073,11 +1218,13 @@
    "Zinédine Zidane",
    "Rudi Garcia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Feito histórico de técnico.",
-  "verificado_web": "wiki en: 2018 UEFA Champions League final (\"in 1995 and Juventus in 1998. They were the first team in the Champions League era, and the fourth overall, to win three straight finals, a feat only achieved by the Real Madrid side of\") | wiki en: 2018 UEFA Champions League final (\"-; FW; 17; Lucas Vázquez; -; colspan=3; Manager:; -; colspan=3; Zinedine Zidane; }; valign='top'; 300px; valign='top'\")"
+  "verificado_web": "wiki en: 2018 UEFA Champions League final (\"in 1995 and Juventus in 1998. They were the first team in the Champions League era, and the fourth overall, to win three straight finals, a feat only achieved by the Real Madrid side of\") | wiki en: 2018 UEFA Champions League final (\"-; FW; 17; Lucas Vázquez; -; colspan=3; Manager:; -; colspan=3; Zinedine Zidane; }; valign='top'; 300px; valign='top'\")",
+  "verificado_web_conferente": "wiki es: Zinedine Zidane | wiki it: Zinédine Zidane",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "0d6f8b20d5",
@@ -1091,17 +1238,19 @@
    "Endrick",
    "Raphael Veiga"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Jogo-símbolo da virada no campeonato.",
-  "verificado_web": "wiki en: Endrick (footballer, born 2006) (\"on 1 November in a 3-4 comeback win against Botafogo at the Estádio Olímpico Nilton Santos. The game\")"
+  "verificado_web": "wiki en: Endrick (footballer, born 2006) (\"on 1 November in a 3-4 comeback win against Botafogo at the Estádio Olímpico Nilton Santos. The game\")",
+  "verificado_web_conferente": "wiki pt: Endrick",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "8c6c436f80",
   "categoria": "Esportes",
   "dificuldade": "medio",
-  "pergunta": "Qual jogador do Botafogo foi eleito o craque do Brasileirão de 2024, ano do título do clube?",
+  "pergunta": "Qual jogador do Botafogo foi eleito o craque do Brasileirão de 2024?",
   "resposta": "Luiz Henrique",
   "alternativas": [
    "Luiz Henrique",
@@ -1109,11 +1258,15 @@
    "Igor Jesus",
    "Thiago Almada"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Prêmio individual do ano: médio.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2024 - Série A (\"não são contabilizados.; melhorjogador = Luiz Henrique (Botafogo); melhortreinador = Artur\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2024 - Série A (\"não são contabilizados.; melhorjogador = Luiz Henrique (Botafogo); melhortreinador = Artur\")",
+  "verificado_web_conferente": "wiki pt: Campeonato Brasileiro de Futebol de 2024 - Série A",
+  "enunciado_original": "Qual jogador do Botafogo foi eleito o craque do Brasileirão de 2024, ano do título do clube?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "2f85d9d0b6",
@@ -1127,11 +1280,13 @@
    "Fortaleza",
    "São Paulo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Adversário na decisão: fácil.",
-  "verificado_web": "wiki pt: Copa Sul-Americana de 2022 (\"fim = 1 de outubro; golos = 392; jogos = 157; campeão = Independiente del Valle (2º título); vicecampeão = São Paulo; artilheiro = Bernardo Cuesta\")"
+  "verificado_web": "wiki pt: Copa Sul-Americana de 2022 (\"fim = 1 de outubro; golos = 392; jogos = 157; campeão = Independiente del Valle (2º título); vicecampeão = São Paulo; artilheiro = Bernardo Cuesta\")",
+  "verificado_web_conferente": "wiki es: Copa Sudamericana 2022",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "69b60259ff",
@@ -1145,17 +1300,19 @@
    "França",
    "Itália"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Vexame histórico, muito comentado.",
-  "verificado_web": "wiki en: 2018 FIFA World Cup Group F (\"However, since Sweden defeated Mexico 3-0, the South Koreans were eliminated despite their 2-0 victory over Germany. This marked the second time that South Korea\") | wiki en: 2018 FIFA World Cup Group F (\"Germany, Mexico, Sweden, and South Korea. Sweden and Mexico were the top two teams that advanced to the round of 16. The surprise elimination of holders Germany\")"
+  "verificado_web": "wiki en: 2018 FIFA World Cup Group F (\"However, since Sweden defeated Mexico 3-0, the South Koreans were eliminated despite their 2-0 victory over Germany. This marked the second time that South Korea\") | wiki en: 2018 FIFA World Cup Group F (\"Germany, Mexico, Sweden, and South Korea. Sweden and Mexico were the top two teams that advanced to the round of 16. The surprise elimination of holders Germany\")",
+  "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 2018",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "60cd417866",
   "categoria": "Esportes",
   "dificuldade": "facil",
-  "pergunta": "Qual lateral-esquerdo, ex-Real Madrid, voltou ao Fluminense em 2023 e ganhou a Libertadores naquele ano?",
+  "pergunta": "Qual lateral-esquerdo, ex-Real Madrid, foi campeão da Libertadores de 2023?",
   "resposta": "Marcelo",
   "alternativas": [
    "Filipe Luís",
@@ -1163,16 +1320,20 @@
    "Guilherme Arana",
    "Marcelo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Volta de ídolo muito noticiada.",
-  "verificado_web": "wiki en: Marcelo (footballer, born 1988) (\"games only -->3; years4 = 2023-2024; clubs4 = Fluminense; caps4 = 43; goals4 = 3; total_caps = 464\")"
+  "verificado_web": "wiki en: Marcelo (footballer, born 1988) (\"games only -->3; years4 = 2023-2024; clubs4 = Fluminense; caps4 = 43; goals4 = 3; total_caps = 464\")",
+  "verificado_web_conferente": "wiki es: Marcelo Vieira",
+  "enunciado_original": "Qual lateral-esquerdo, ex-Real Madrid, voltou ao Fluminense em 2023 e ganhou a Libertadores naquele ano?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c183d5962b",
   "categoria": "Esportes",
-  "dificuldade": "medio",
+  "dificuldade": "facil",
   "pergunta": "Qual lateral-esquerdo italiano bateu o pênalti do título da Itália na final da Copa de 2006?",
   "resposta": "Fabio Grosso",
   "alternativas": [
@@ -1181,11 +1342,14 @@
    "Andrea Pirlo",
    "Alessandro Del Piero"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Autor do pênalti decisivo: médio.",
-  "verificado_web": "wiki en: 2006 FIFA World Cup final (\"*De Rossi *Del Piero *Grosso; penaltyscore=5-3; penalties2= * Wiltord *\")"
+  "verificado_web": "wiki en: 2006 FIFA World Cup final (\"*De Rossi *Del Piero *Grosso; penaltyscore=5-3; penalties2= * Wiltord *\")",
+  "verificado_web_conferente": "wiki es: Anexo:Final de la Copa Mundial de Fútbol de 2006 (Grosso)",
+  "dificuldade_ajuste": "medio->facil: pênalti do título da Copa: gol do título",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "388fb81cea",
@@ -1199,11 +1363,13 @@
    "Bismarck",
    "Roberto Dinamite"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Autor de gol pouco lembrado.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1989 (\"=; time2 = Vasco; gols1 =; gols2 = Sorato 10px; Gol 50'; estadio = Morumbi, São Paulo<br\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1989 (\"=; time2 = Vasco; gols1 =; gols2 = Sorato 10px; Gol 50'; estadio = Morumbi, São Paulo<br\")",
+  "verificado_web_conferente": "wiki pt: Campeonato Brasileiro de Futebol de 1989",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "0448f6cba9",
@@ -1217,11 +1383,13 @@
    "Fluminense",
    "Internacional"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Vice: detalhe que pede acompanhar.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2005 - Série A (\"título); vicecampeão = Internacional-RS; terceirolugar = Goiás\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2005 - Série A (\"título); vicecampeão = Internacional-RS; terceirolugar = Goiás\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2005",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "fb072dfb1e",
@@ -1235,17 +1403,19 @@
    "Flamengo",
    "Corinthians"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Campeão de final dos anos 1990.",
-  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 1995 (\"golos = 167; jogos = 69; campeão = Corinthians (1º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 1995 (\"golos = 167; jogos = 69; campeão = Corinthians (1º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Copa de Brasil 1995",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "e1666386a8",
   "categoria": "Esportes",
-  "dificuldade": "medio",
-  "pergunta": "Quem fez o gol do ouro olímpico do Brasil na prorrogação da final contra a Espanha, em Tóquio?",
+  "dificuldade": "facil",
+  "pergunta": "Quem fez o gol do ouro olímpico do Brasil na prorrogação da final de Tóquio?",
   "resposta": "Malcom",
   "alternativas": [
    "Matheus Cunha",
@@ -1253,11 +1423,16 @@
    "Malcom",
    "Paulinho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Autor do gol do título: médio.",
-  "verificado_web": "wiki en: Football at the 2020 Summer Olympics - Men's tournament final (\"(FIFA)]; team2=; goals1= *Cunha 45+2' *Malcom 108'; goals2= *Oyarzabal 61'\")"
+  "verificado_web": "wiki en: Football at the 2020 Summer Olympics - Men's tournament final (\"(FIFA)]; team2=; goals1= *Cunha 45+2' *Malcom 108'; goals2= *Oyarzabal 61'\")",
+  "verificado_web_conferente": "wiki en: Football at the 2020 Summer Olympics – Men's tournament",
+  "dificuldade_ajuste": "medio->facil: gol do título olímpico",
+  "enunciado_original": "Quem fez o gol do ouro olímpico do Brasil na prorrogação da final contra a Espanha, em Tóquio?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "dc7463b60c",
@@ -1271,11 +1446,13 @@
    "2 a 0",
    "3 a 0"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Placar de jogo não decisivo.",
-  "verificado_web": "wiki en: 2026 FIFA World Cup qualification (CONMEBOL) (\"Report (CONMEBOL)] ---- id = ARG v BRA; date =; time =; team1 =; score = 4-1; team2 =; goals1 = *Alvarez 4'\")"
+  "verificado_web": "wiki en: 2026 FIFA World Cup qualification (CONMEBOL) (\"Report (CONMEBOL)] ---- id = ARG v BRA; date =; time =; team1 =; score = 4-1; team2 =; goals1 = *Alvarez 4'\")",
+  "verificado_web_conferente": "wiki es: Clasificación de Conmebol para la Copa Mundial de Fútbol de 2026",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "ce49ae20fe",
@@ -1289,17 +1466,19 @@
    "Kylian Mbappé",
    "Rodrygo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Craques e recordes",
   "motivo_dificuldade": "Prêmio de artilharia: médio.",
-  "verificado_web": "wiki en: European Golden Shoe (\"align=center; - !2024-25; Kylian Mbappé; Real Madrid; La Liga; align=center\")"
+  "verificado_web": "wiki en: European Golden Shoe (\"align=center; - !2024-25; Kylian Mbappé; Real Madrid; La Liga; align=center\")",
+  "verificado_web_conferente": "wiki es: Bota de Oro | wiki it: Scarpa d'oro",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "84c3f23eb5",
   "categoria": "Esportes",
   "dificuldade": "facil",
-  "pergunta": "Qual volante fez o gol do título mundial do São Paulo contra o Liverpool, em 2005?",
+  "pergunta": "Qual volante fez o gol do título do Mundial de Clubes de 2005, contra o Liverpool?",
   "resposta": "Mineiro",
   "alternativas": [
    "Josué",
@@ -1307,16 +1486,20 @@
    "Amoroso",
    "Aloísio"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Mundial de Clubes",
   "motivo_dificuldade": "Gol do título mundial: fácil.",
-  "verificado_web": "wiki en: 2005 FIFA Club World Championship final (\"Saprissa 3-0. Watched by a crowd of 66,821, São Paulo took the lead in the first half when Mineiro scored. Liverpool missed a number of chances to\")"
+  "verificado_web": "wiki en: 2005 FIFA Club World Championship final (\"Saprissa 3-0. Watched by a crowd of 66,821, São Paulo took the lead in the first half when Mineiro scored. Liverpool missed a number of chances to\")",
+  "verificado_web_conferente": "wiki es: Campeonato Mundial de Clubes de la FIFA 2005",
+  "enunciado_original": "Qual volante fez o gol do título mundial do São Paulo contra o Liverpool, em 2005?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "7c0da42ffc",
   "categoria": "Esportes",
-  "dificuldade": "facil",
+  "dificuldade": "medio",
   "pergunta": "Qual atacante do Corinthians foi eleito o craque do Brasileirão de 2017, ano do título do clube?",
   "resposta": "Jô",
   "alternativas": [
@@ -1325,11 +1508,14 @@
    "Rodriguinho",
    "Jô"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Grande nome do título de 2017.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2017 - Série A (\"/ VAS-CHA, 26.ª rodada) -->; público_info =; melhorjogador = Jô (Corinthians); melhortreinador =\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2017 - Série A (\"/ VAS-CHA, 26.ª rodada) -->; público_info =; melhorjogador = Jô (Corinthians); melhortreinador =\")",
+  "verificado_web_conferente": "wiki pt: Prêmio Craque do Brasileirão | wiki en: 2017 Campeonato Brasileiro Série A | busca web: Folha Vitória (\"Jô é eleito o craque\", Prêmio Brasileirão 2017)",
+  "dificuldade_ajuste": "facil->medio: prêmio individual (craque do campeonato)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "7561a8d93b",
@@ -1343,11 +1529,13 @@
    "Brighton",
    "Nottingham Forest"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Copa secundária recente: médio.",
-  "verificado_web": "wiki en: 2026 UEFA Conference League final (\"Crystal Palace and Spanish club Rayo Vallecano. Crystal Palace won the match 1-0 for their first UEFA Conference League title. As winners, they qualified for the league phase\")"
+  "verificado_web": "wiki en: 2026 UEFA Conference League final (\"Crystal Palace and Spanish club Rayo Vallecano. Crystal Palace won the match 1-0 for their first UEFA Conference League title. As winners, they qualified for the league phase\")",
+  "verificado_web_conferente": "wiki it: UEFA Conference League 2025-2026 | wiki en: 2026 UEFA Conference League final",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c3b827fe5d",
@@ -1361,11 +1549,13 @@
    "Flamengo",
    "Atlético-MG"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Campeão histórico.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 1981 (\"=; poster = 300px; legenda_poster = Flamengo, o campeão da Libertadores de 1981.\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 1981 (\"=; poster = 300px; legenda_poster = Flamengo, o campeão da Libertadores de 1981.\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 1981",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "724d72c83c",
@@ -1379,11 +1569,13 @@
    "Tita",
    "Cláudio Adão"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Autor de gol de final antiga.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1980 (\"Relatório]; time2 = Atlético-MG; gols1 = Nunes 7' 82' Zico 44'\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1980 (\"Relatório]; time2 = Atlético-MG; gols1 = Nunes 7' 82' Zico 44'\")",
+  "verificado_web_conferente": "wiki pt: Campeonato Brasileiro de Futebol de 1980",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "0dfae89548",
@@ -1397,11 +1589,13 @@
    "Júlio Baptista",
    "Elano"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Prêmio individual: médio.",
-  "verificado_web": "wiki en: 2007 Copa América (\"= 26; goals = 86; attendance = 1050230; top_scorer = Robinho (6 goals); player = Robinho; young_player = Lionel Messi; updated =\")"
+  "verificado_web": "wiki en: 2007 Copa América (\"= 26; goals = 86; attendance = 1050230; top_scorer = Robinho (6 goals); player = Robinho; young_player = Lionel Messi; updated =\")",
+  "verificado_web_conferente": "wiki es: Copa América 2007",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "703a8d3396",
@@ -1415,11 +1609,13 @@
    "Guaraní",
    "Olimpia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Libertadores",
   "motivo_dificuldade": "Adversário na decisão: fácil.",
-  "verificado_web": "wiki pt: Copa Libertadores da América de 2013 (\"título); vicecampeão = Olimpia; artilheiro = Jô (Atlético Mineiro) - 7 gols\")"
+  "verificado_web": "wiki pt: Copa Libertadores da América de 2013 (\"título); vicecampeão = Olimpia; artilheiro = Jô (Atlético Mineiro) - 7 gols\")",
+  "verificado_web_conferente": "wiki es: Copa Libertadores 2013",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c32cab32bf",
@@ -1433,17 +1629,20 @@
    "Atlético-MG",
    "Grêmio"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Vice de final: médio.",
-  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2023 (\"= São Paulo; vicecampeão = Flamengo; artilheiro = 5 gols: *Alef Manga (\")"
+  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2023 (\"= São Paulo; vicecampeão = Flamengo; artilheiro = 5 gols: *Alef Manga (\")",
+  "verificado_web_conferente": "wiki es: Copa de Brasil 2023",
+  "conferido_por": "conferente-esportes-r1b",
+  "motivo": "conferente-esportes-r1b: par campeão/vice com o v12 (\"Qual clube ganhou a Copa do Brasil de 2023\" = São Paulo), o enunciado entrega"
  },
  {
   "id": "bd9d98b731",
   "categoria": "Esportes",
   "dificuldade": "facil",
-  "pergunta": "Qual seleção perdeu a final da Copa de 2014 para a Alemanha, no Maracanã?",
+  "pergunta": "Qual seleção perdeu a final da Copa de 2014 para a Alemanha?",
   "resposta": "Argentina",
   "alternativas": [
    "Argentina",
@@ -1451,11 +1650,15 @@
    "Brasil",
    "Bélgica"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Adversário na decisão: fácil.",
-  "verificado_web": "wiki en: 2014 FIFA World Cup final (\"goal; event = 2014 FIFA World Cup; team1 = Germany; team1association =; team1score = 1; team2 = Argentina; team2association =; team2score = 0; details\")"
+  "verificado_web": "wiki en: 2014 FIFA World Cup final (\"goal; event = 2014 FIFA World Cup; team1 = Germany; team1association =; team1score = 1; team2 = Argentina; team2association =; team2score = 0; details\")",
+  "verificado_web_conferente": "wiki es: Final de la Copa Mundial de Fútbol de 2014",
+  "enunciado_original": "Qual seleção perdeu a final da Copa de 2014 para a Alemanha, no Maracanã?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "44157066a9",
@@ -1469,11 +1672,14 @@
    "Ronaldinho Gaúcho",
    "Vágner Love"
   ],
-  "status": "gerada",
+  "status": "reserva",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Detalhe de jogo histórico.",
-  "verificado_web": "wiki en: Ronaldinho (\"Taça Rio. On 27 July 2011, Ronaldinho scored a hat-trick in Flamengo's 5-4 away win against rivals Santos, after\")"
+  "verificado_web": "wiki en: Ronaldinho (\"Taça Rio. On 27 July 2011, Ronaldinho scored a hat-trick in Flamengo's 5-4 away win against rivals Santos, after\")",
+  "verificado_web_conferente": "wiki en: Ronaldinho | wiki es: Ronaldinho",
+  "conferido_por": "conferente-esportes-r1b",
+  "motivo": "conferente-esportes-r1b: mesmo jogo (Santos 4 x 5 Flamengo, 2011) da 001#28 (gol do Puskás do Neymar); fica de reserva para não sair junto"
  },
  {
   "id": "7522605430",
@@ -1487,11 +1693,13 @@
    "Neymar",
    "Marquinhos"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Despedida muito noticiada.",
-  "verificado_web": "wiki en: 2026 FIFA World Cup knockout stage (\"the 1990 edition, when it lost to Argentina 1-0. This was Neymar's last match for Brazil; following the defeat, he announced his\")"
+  "verificado_web": "wiki en: 2026 FIFA World Cup knockout stage (\"the 1990 edition, when it lost to Argentina 1-0. This was Neymar's last match for Brazil; following the defeat, he announced his\")",
+  "verificado_web_conferente": "wiki de: Neymar (\"Sein 130. Länderspiel sollte sein letztes sein\", oitavas x Noruega) | wiki es: Copa Mundial de Fútbol de 2026",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c381fdecd8",
@@ -1505,11 +1713,13 @@
    "Kléber Pereira",
    "Dodô"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Artilheiro de clube pequeno: quase ninguém lembra.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2007 - Série A (\"América-RN; artilheiro = Josiel (Paraná) - 20 gols; melhor_ataque =\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2007 - Série A (\"América-RN; artilheiro = Josiel (Paraná) - 20 gols; melhor_ataque =\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2007",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "c9337ae16c",
@@ -1523,11 +1733,13 @@
    "Grêmio",
    "Palmeiras"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Vice: pede ter acompanhado o campeonato.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2020 - Série A (\"título); vicecampeão = Internacional-RS; terceirolugar = Atlético-MG\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2020 - Série A (\"título); vicecampeão = Internacional-RS; terceirolugar = Atlético-MG\")",
+  "verificado_web_conferente": "wiki pt: Campeonato Brasileiro de Futebol de 2020 - Série A | wiki en: 2020 Campeonato Brasileiro Série A",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "4fb8747030",
@@ -1541,11 +1753,13 @@
    "Botafogo",
    "Fluminense"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Torneio extinto: pouca gente lembra.",
-  "verificado_web": "wiki pt: Copa Mercosul de 1999 (\"fim = 20 de dezembro; golos = 224; jogos = 74; campeão = Flamengo (1.º título)\")"
+  "verificado_web": "wiki pt: Copa Mercosul de 1999 (\"fim = 20 de dezembro; golos = 224; jogos = 74; campeão = Flamengo (1.º título)\")",
+  "verificado_web_conferente": "wiki es: Copa Mercosur 1999",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "1d9c6d8148",
@@ -1559,11 +1773,13 @@
    "Arsenal",
    "Manchester City"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Adversário na decisão: fácil.",
-  "verificado_web": "wiki en: 2019 UEFA Champions League final (\"event = 2018-19 UEFA Champions League; team1 = Tottenham Hotspur; team1association =; team1score = 0\")"
+  "verificado_web": "wiki en: 2019 UEFA Champions League final (\"event = 2018-19 UEFA Champions League; team1 = Tottenham Hotspur; team1association =; team1score = 0\")",
+  "verificado_web_conferente": "wiki en: 2019 UEFA Champions League final",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "b65006e554",
@@ -1577,17 +1793,19 @@
    "Napoli",
    "Atalanta"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Título histórico muito noticiado.",
-  "verificado_web": "wiki en: 2022-23 Serie A (\"was their third league title in club history and their first since Diego Maradona led them to victory in 1990 - bringing an end to their 33-year Scudetto\")"
+  "verificado_web": "wiki en: 2022-23 Serie A (\"was their third league title in club history and their first since Diego Maradona led them to victory in 1990 - bringing an end to their 33-year Scudetto\")",
+  "verificado_web_conferente": "wiki it: Serie A 2022-2023",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "65c91e174a",
   "categoria": "Esportes",
   "dificuldade": "facil",
-  "pergunta": "Qual técnico comandou o São Paulo no tricampeonato brasileiro seguido de 2006, 2007 e 2008?",
+  "pergunta": "Qual técnico ganhou três Brasileirões seguidos, em 2006, 2007 e 2008?",
   "resposta": "Muricy Ramalho",
   "alternativas": [
    "Muricy Ramalho",
@@ -1595,17 +1813,21 @@
    "Leão",
    "Ney Franco"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Técnico do tri, muito lembrado.",
-  "verificado_web": "wiki pt: Muricy Ramalho (\"medalhas = ㅤㅤ Como técnico, Muricy foi tricampeão do Campeonato Brasileiro de forma consecutiva (2006, 2007 e 2008),\")"
+  "verificado_web": "wiki pt: Muricy Ramalho (\"medalhas = ㅤㅤ Como técnico, Muricy foi tricampeão do Campeonato Brasileiro de forma consecutiva (2006, 2007 e 2008),\")",
+  "verificado_web_conferente": "wiki es: Muricy Ramalho | wiki pt: Muricy Ramalho",
+  "enunciado_original": "Qual técnico comandou o São Paulo no tricampeonato brasileiro seguido de 2006, 2007 e 2008?",
+  "ajuste_enunciado": "conferente-r1b: o enunciado entregava a resposta de outra pergunta (v12, piloto ou lote)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "f59e5deb00",
   "categoria": "Esportes",
   "dificuldade": "dificil",
-  "pergunta": "Contra qual clube o São Paulo jogou em Brasília e confirmou o título brasileiro de 2008?",
+  "pergunta": "Contra qual clube o São Paulo jogou no Distrito Federal e confirmou o título brasileiro de 2008?",
   "resposta": "Goiás",
   "alternativas": [
    "Fluminense",
@@ -1613,16 +1835,20 @@
    "Goiás",
    "Grêmio"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Adversário de jogo de título pouco lembrado.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2008 - Série A (\"e Portuguesa. Devido a uma punição ao Goiás o jogo contra o São Paulo foi marcado para o estádio Bezerrão. O jogo também ficou marcado por uma suspeita de\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 2008 - Série A (\"e Portuguesa. Devido a uma punição ao Goiás o jogo contra o São Paulo foi marcado para o estádio Bezerrão. O jogo também ficou marcado por uma suspeita de\")",
+  "verificado_web_conferente": "wiki pt: Campeonato Brasileiro de Futebol de 2008 - Série A | wiki en: 2008 Campeonato Brasileiro Série A | busca web: Gazeta Esportiva, Correio Braziliense (São Paulo 1x0 Goiás no Bezerrão, Gama-DF, 2008)",
+  "enunciado_original": "Contra qual clube o São Paulo jogou em Brasília e confirmou o título brasileiro de 2008?",
+  "ajuste_enunciado": "correção: o Bezerrão fica no Gama (DF), não em Brasília propriamente",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "729eb8b2d2",
   "categoria": "Esportes",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Qual clube perdeu a final da Copa do Brasil de 2003 para o Cruzeiro?",
   "resposta": "Flamengo",
   "alternativas": [
@@ -1631,11 +1857,14 @@
    "Atlético-PR",
    "São Caetano"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Vice de final antiga.",
-  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2003 (\"título); vicecampeão = Flamengo; artilheiro = Nonato (Bahia) - 9\")"
+  "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2003 (\"título); vicecampeão = Flamengo; artilheiro = Nonato (Bahia) - 9\")",
+  "verificado_web_conferente": "wiki it: Coppa del Brasile 2003",
+  "dificuldade_ajuste": "dificil->medio: vice de final de Copa do Brasil, não é número",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "a0f05235ad",
@@ -1649,11 +1878,13 @@
    "Roma",
    "Lazio"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Vice de final antiga.",
-  "verificado_web": "wiki en: 2003 UEFA Champions League final (\"event = 2002-03 UEFA Champions League; team1 = Juventus; team1association =; team1score = 0; team2 =\")"
+  "verificado_web": "wiki en: 2003 UEFA Champions League final (\"event = 2002-03 UEFA Champions League; team1 = Juventus; team1association =; team1score = 0; team2 =\")",
+  "verificado_web_conferente": "wiki en: 2003 UEFA Champions League final",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "68b6d4ba76",
@@ -1667,11 +1898,13 @@
    "İlkay Gündoğan",
    "Rodri"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Gol do título em final: fácil.",
-  "verificado_web": "wiki en: 2023 UEFA Champions League final (\"from near the touchline was saved by Ederson. Rodri scored the opening goal for City in the 68th minute with a side-footed finish to the right of the\")"
+  "verificado_web": "wiki en: 2023 UEFA Champions League final (\"from near the touchline was saved by Ederson. Rodri scored the opening goal for City in the 68th minute with a side-footed finish to the right of the\")",
+  "verificado_web_conferente": "wiki en: 2023 UEFA Champions League final",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "7b82cc8c4a",
@@ -1685,11 +1918,13 @@
    "África do Sul",
    "Itália"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Seleção",
   "motivo_dificuldade": "Adversário na decisão: fácil.",
-  "verificado_web": "wiki en: 2009 FIFA Confederations Cup final (\"event = 2009 FIFA Confederations Cup; team1 = United States; team1association =; team1score = 2; team2 =\")"
+  "verificado_web": "wiki en: 2009 FIFA Confederations Cup final (\"event = 2009 FIFA Confederations Cup; team1 = United States; team1association =; team1score = 2; team2 =\")",
+  "verificado_web_conferente": "wiki es: Copa FIFA Confederaciones 2009",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "0009cbd21d",
@@ -1703,11 +1938,13 @@
    "Arsenal",
    "Bayern de Munique"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Champions",
   "motivo_dificuldade": "Adversário em duas decisões: fácil.",
-  "verificado_web": "wiki en: 2009 UEFA Champions League final (\"team1association =; team1score = 2; team2 = Manchester United; team2association =; team2score = 0; details\") | wiki en: 2011 UEFA Champions League final (\"team1association =; team1score = 3; team2 = Manchester United; team2association =; team2score = 1; details\")"
+  "verificado_web": "wiki en: 2009 UEFA Champions League final (\"team1association =; team1score = 2; team2 = Manchester United; team2association =; team2score = 0; details\") | wiki en: 2011 UEFA Champions League final (\"team1association =; team1score = 3; team2 = Manchester United; team2association =; team2score = 1; details\")",
+  "verificado_web_conferente": "wiki en: 2011 UEFA Champions League final",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "2cb9adc1e3",
@@ -1721,16 +1958,18 @@
    "Dudu",
    "Willian"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Clubes do Brasil",
   "motivo_dificuldade": "Transferência recente: pede acompanhar.",
-  "verificado_web": "wiki en: Dudu (footballer, born 1992) (\"Al-Duhail (loan); caps6 = 22; goals6 = 14; years7 = 2025; clubs7 = Cruzeiro; caps7 = 14; goals7 = 2; years8 = 2025-\")"
+  "verificado_web": "wiki en: Dudu (footballer, born 1992) (\"Al-Duhail (loan); caps6 = 22; goals6 = 14; years7 = 2025; clubs7 = Cruzeiro; caps7 = 14; goals7 = 2; years8 = 2025-\")",
+  "verificado_web_conferente": "wiki pt: Dudu (futebolista, 1992)",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "ce4b97b148",
   "categoria": "Esportes",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Qual zagueiro holandês ficou em segundo lugar na Bola de Ouro de 2019, atrás de Messi?",
   "resposta": "Virgil van Dijk",
   "alternativas": [
@@ -1739,11 +1978,14 @@
    "Frenkie de Jong",
    "Georginio Wijnaldum"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Craques e recordes",
   "motivo_dificuldade": "Detalhe de premiação.",
-  "verificado_web": "wiki en: 2019 Ballon d'Or (\"Cristiano Ronaldo for most Ballon d'Or awards. Virgil van Dijk came in a very close second after a stellar year with Liverpool and\")"
+  "verificado_web": "wiki en: 2019 Ballon d'Or (\"Cristiano Ronaldo for most Ballon d'Or awards. Virgil van Dijk came in a very close second after a stellar year with Liverpool and\")",
+  "verificado_web_conferente": "wiki es: Balón de Oro 2019",
+  "dificuldade_ajuste": "dificil->medio: prêmio individual de destaque",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "66d37d9953",
@@ -1757,11 +1999,13 @@
    "Grêmio",
    "Atlético-MG"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Brasileirão",
   "motivo_dificuldade": "Campeão de final dos anos 1990.",
-  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1996 (\"golos = 787; jogos = 290; campeão = Grêmio (2º título); vicecampeão =\")"
+  "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1996 (\"golos = 787; jogos = 290; campeão = Grêmio (2º título); vicecampeão =\")",
+  "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 1996",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "decad8d847",
@@ -1775,16 +2019,18 @@
    "9",
    "10"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Europa",
   "motivo_dificuldade": "Número exato de recorde.",
-  "verificado_web": "wiki en: Juventus FC (\"Between 2012 and 2020, Juventus won a record nine consecutive Serie A titles and reached two UEFA Champions\")"
+  "verificado_web": "wiki en: Juventus FC (\"Between 2012 and 2020, Juventus won a record nine consecutive Serie A titles and reached two UEFA Champions\")",
+  "verificado_web_conferente": "wiki it: Juventus Football Club",
+  "conferido_por": "conferente-esportes-r1b"
  },
  {
   "id": "07d7c36853",
   "categoria": "Esportes",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Quantos gols o Brasil sofreu da Alemanha no primeiro tempo do 7 a 1, em 2014?",
   "resposta": "5",
   "alternativas": [
@@ -1793,10 +2039,13 @@
    "4",
    "6"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "subtema": "futebol",
   "obra_tema": "Copa do Mundo",
   "motivo_dificuldade": "Número exato.",
-  "verificado_web": "wiki en: Brazil v Germany (2014 FIFA World Cup) (\"in a massive show of dominance, Germany led 5-0 within 29 minutes, with four goals being scored\")"
+  "verificado_web": "wiki en: Brazil v Germany (2014 FIFA World Cup) (\"in a massive show of dominance, Germany led 5-0 within 29 minutes, with four goals being scored\")",
+  "verificado_web_conferente": "wiki es: Semifinal de la Copa Mundial de Fútbol de 2014 entre Brasil y Alemania (\"Khedira marcó el quinto gol, último del primer tiempo\")",
+  "dificuldade_ajuste": "dificil->medio: os 5 gols no primeiro tempo do 7 a 1 são muito lembrados",
+  "conferido_por": "conferente-esportes-r1b"
  }
 ]

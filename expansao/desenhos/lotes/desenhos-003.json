@@ -7,14 +7,17 @@
   "resposta": "Burro",
   "alternativas": [
    "Burro",
-   "Porco",
+   "Carneiro",
    "Cavalo",
    "Bode"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Shrek",
-  "verificado_web": "wiki pt: Shrek 2 | wiki en: Shrek 2 (\"Donkey\")"
+  "verificado_web": "wiki pt: Shrek 2 | wiki en: Shrek 2 (\"Donkey\")",
+  "verificado_web_conferente": "wiki en: Shrek (\"Donkey\") | Fandom pt-br shrek (busca): Burro",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Porco\" trocada por \"Carneiro\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "5e6bdc0938",
@@ -28,27 +31,33 @@
    "Soldadinho de Chumbo",
    "Pinóquio"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "fonte_tema": "DreamWorks",
   "obra": "Shrek",
-  "verificado_web": "wiki pt: Shrek 2 | wiki en: Shrek 2 (\"Pinocchio\")"
+  "verificado_web": "wiki pt: Shrek 2 | wiki en: Shrek 2 (\"Pinocchio\")",
+  "verificado_web_conferente": "wiki en: Shrek (\"Pinocchio\") | Fandom pt-br shrek (busca): Pinóquio",
+  "conferido_por": "conferente-desenhos-1",
+  "motivo": "conferente-desenhos-1: fato repetido das 450 Disney (dis:1, o nariz do Pinóquio cresce quando ele mente)"
  },
  {
   "id": "d4a6b504fb",
   "categoria": "Desenhos",
   "dificuldade": "medio",
-  "pergunta": "O que Fiona espera, para surpresa de Shrek, em Shrek Terceiro?",
+  "pergunta": "Quantos filhos Shrek e Fiona ganham no fim de Shrek Terceiro?",
   "resposta": "Trigêmeos",
   "alternativas": [
-   "Uma menina",
+   "Um filho só",
+   "Gêmeos",
    "Trigêmeos",
-   "Um menino",
-   "Gêmeos"
+   "Quadrigêmeos"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Shrek",
-  "verificado_web": "wiki pt: Shrek the Third | wiki en: Shrek the Third (\"triplets\")"
+  "verificado_web": "wiki pt: Shrek the Third | wiki en: Shrek the Third (\"triplets\")",
+  "correcao": "conferente-desenhos-1: enunciado reescrito: Fiona conta que está grávida e os trigêmeos nascem no fim",
+  "verificado_web_conferente": "wiki en: Shrek the Third (\"pregnant\") | wiki en: Shrek the Third (\"triplets\") | wiki en: Shrek the Third (\"pregnan\") | wiki en: Shrek the Third (\"triplet\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "31ca56eba0",
@@ -62,10 +71,12 @@
    "Felizes Para Sempre",
    "Beleza Eterna"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Shrek",
-  "verificado_web": "wiki pt: Shrek 2 | wiki en: Shrek 2 (\"Happily Ever After\")"
+  "verificado_web": "wiki pt: Shrek 2 | wiki en: Shrek 2 (\"Happily Ever After\")",
+  "verificado_web_conferente": "wiki en: Shrek 2 (\"Happily Ever After\") | wiki pt: Shrek 2 (\"Felizes para Sempre\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "08f5e7dc35",
@@ -79,10 +90,12 @@
    "Ovídio",
    "Humpty Dumpty"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Gato de Botas",
-  "verificado_web": "wiki pt: Puss in Boots | wiki en: Puss in Boots (2011 film) (\"Humpty Dumpty\")"
+  "verificado_web": "wiki pt: Puss in Boots | wiki en: Puss in Boots (2011 film) (\"Humpty Dumpty\")",
+  "verificado_web_conferente": "wiki en: Puss in Boots (2011 film) (\"Humpty\") | wiki pt (via en) Puss in Boots (2011 film) (\"Humpty\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "6c821f093b",
@@ -96,10 +109,12 @@
    "Chiquito",
    "Toby"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Gato de Botas",
-  "verificado_web": "wiki pt: Puss in Boots: The Last Wish | wiki en: Puss in Boots (2011 film) (\"Perrito\")"
+  "verificado_web": "wiki pt: Puss in Boots: The Last Wish | wiki en: Puss in Boots (2011 film) (\"Perrito\")",
+  "verificado_web_conferente": "wiki en: Puss in Boots: The Last Wish (\"Perrito\") | wiki pt (via en) Puss in Boots: The Last Wish (\"Perrito\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "37e6884676",
@@ -113,10 +128,12 @@
    "Mula",
    "Cavalo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Madagascar",
-  "verificado_web": "wiki pt: Madagascar (filme) | wiki en: Madagascar: Escape 2 Africa (\"zebra\")"
+  "verificado_web": "wiki pt: Madagascar (filme) | wiki en: Madagascar: Escape 2 Africa (\"zebra\")",
+  "verificado_web_conferente": "wiki en: Madagascar (2005 film) (\"zebra\") | Fandom pt-br madagascar (busca): Marty",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "2000e926be",
@@ -130,10 +147,12 @@
    "Rico",
    "Capitão"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Madagascar",
-  "verificado_web": "wiki pt: Madagascar (filme) | wiki en: Madagascar: Escape 2 Africa (\"Skipper\")"
+  "verificado_web": "wiki pt: Madagascar (filme) | wiki en: Madagascar: Escape 2 Africa (\"Skipper\")",
+  "verificado_web_conferente": "wiki en: Madagascar (2005 film) (\"Skipper\") | wiki pt: Madagascar (filme) (\"Capitão\") | Fandom pt-br madagascar (busca): Capitão pinguim (\"Capit\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "6184b69bb8",
@@ -147,10 +166,12 @@
    "Um rodeio",
    "Um teatro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Madagascar",
-  "verificado_web": "wiki pt: Madagascar 3: Europe's Most Wanted | wiki en: Madagascar: Escape 2 Africa (\"circus\")"
+  "verificado_web": "wiki pt: Madagascar 3: Europe's Most Wanted | wiki en: Madagascar: Escape 2 Africa (\"circus\")",
+  "verificado_web_conferente": "wiki en: Madagascar 3: Europe's Most Wanted (\"circus\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "f158e051b0",
@@ -160,14 +181,17 @@
   "resposta": "Ganso",
   "alternativas": [
    "Ganso",
-   "Galo",
+   "Peru",
    "Pato",
    "Cegonha"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "wiki pt: Kung Fu Panda | wiki en: Kung Fu Panda (film) (\"goose\")"
+  "verificado_web": "wiki pt: Kung Fu Panda | wiki en: Kung Fu Panda (film) (\"goose\")",
+  "verificado_web_conferente": "wiki en: Kung Fu Panda (film) (\"goose\") | wiki pt: Kung Fu Panda (\"Ping\")",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Galo\" trocada por \"Peru\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "53a3e3757d",
@@ -181,10 +205,12 @@
    "Tigre de Jade",
    "Punho de Ferro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "wiki pt: Kung Fu Panda | wiki en: Kung Fu Panda (film) (\"Dragon Warrior\")"
+  "verificado_web": "wiki pt: Kung Fu Panda | wiki en: Kung Fu Panda (film) (\"Dragon Warrior\")",
+  "verificado_web_conferente": "wiki en: Kung Fu Panda (film) (\"Dragon Warrior\") | wiki pt: Kung Fu Panda (\"Dragão Guerreiro\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "908bd6d729",
@@ -198,10 +224,12 @@
    "Lorde Kai",
    "Mestre Ming"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "wiki pt: Kung Fu Panda 2 | wiki en: List of Kung Fu Panda characters (\"Shen\")"
+  "verificado_web": "wiki pt: Kung Fu Panda 2 | wiki en: List of Kung Fu Panda characters (\"Shen\")",
+  "verificado_web_conferente": "wiki en: Kung Fu Panda 2 (\"Shen\") | wiki pt (via en) Kung Fu Panda 2 (\"Shen\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "3a1d696ed1",
@@ -215,10 +243,12 @@
    "Vikings",
    "Cavaleiros"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Como Treinar o Seu Dragão",
-  "verificado_web": "wiki pt: How to Train Your Dragon (filme de 2010) | wiki en: How to Train Your Dragon (2010 film) (\"Viking\")"
+  "verificado_web": "wiki pt: How to Train Your Dragon (filme de 2010) | wiki en: How to Train Your Dragon (2010 film) (\"Viking\")",
+  "verificado_web_conferente": "wiki en: How to Train Your Dragon (2010 film) (\"Viking\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "e585a7c27a",
@@ -232,10 +262,12 @@
    "Pesadelo Monstruoso",
    "Gronckle"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Como Treinar o Seu Dragão",
-  "verificado_web": "wiki pt: How to Train Your Dragon (filme de 2010) | wiki en: How to Train Your Dragon (2010 film) (\"Night Fury\")"
+  "verificado_web": "wiki pt: How to Train Your Dragon (filme de 2010) | wiki en: How to Train Your Dragon (2010 film) (\"Night Fury\")",
+  "verificado_web_conferente": "wiki en: How to Train Your Dragon (2010 film) (\"Night Fury\") | wiki pt (via en) How to Train Your Dragon (2010 film) (\"Fuúria da Noite\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "ad0013228c",
@@ -249,10 +281,12 @@
    "Helga",
    "Sigrid"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Como Treinar o Seu Dragão",
-  "verificado_web": "wiki pt: How to Train Your Dragon (filme de 2010) | wiki en: How to Train Your Dragon 2 (\"Valka\")"
+  "verificado_web": "wiki pt: How to Train Your Dragon (filme de 2010) | wiki en: How to Train Your Dragon 2 (\"Valka\")",
+  "verificado_web_conferente": "wiki en: How to Train Your Dragon 2 (\"Valka\") | wiki pt (via en) How to Train Your Dragon 2 (\"Valka\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "fa7e952a5c",
@@ -262,14 +296,17 @@
   "resposta": "Banana",
   "alternativas": [
    "Banana",
-   "Maçã",
+   "Laranja",
    "Uva",
    "Morango"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Meu Malvado Favorito",
-  "verificado_web": "wiki pt: Despicable Me | wiki en: Despicable Me (film) (\"banana\")"
+  "verificado_web": "wiki pt: Despicable Me | wiki en: Despicable Me (film) (\"banana\")",
+  "verificado_web_conferente": "wiki en: Despicable Me (\"banana\")",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Maçã\" trocada por \"Laranja\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "2b56693900",
@@ -283,10 +320,12 @@
    "Barão Vil",
    "Vetor"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Meu Malvado Favorito",
-  "verificado_web": "wiki en: Despicable Me (film) (\"Vector\"); adorocinema.com Meu Malvado Favorito (\"Vetor\", pirâmide)"
+  "verificado_web": "wiki en: Despicable Me (film) (\"Vector\"); adorocinema.com Meu Malvado Favorito (\"Vetor\", pirâmide)",
+  "verificado_web_conferente": "wiki en: Despicable Me (film) (\"Vector\") | WebSearch: Omelete e AdoroCinema (\"Vetor (Jason Segel)\", ladrão da pirâmide)",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "71d4ca2be4",
@@ -300,10 +339,12 @@
    "Bianca",
    "Sofia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Meu Malvado Favorito",
-  "verificado_web": "wiki pt: Despicable Me 2 | wiki en: Despicable Me 2 (\"Lucy\")"
+  "verificado_web": "wiki pt: Despicable Me 2 | wiki en: Despicable Me 2 (\"Lucy\")",
+  "verificado_web_conferente": "wiki en: Despicable Me 2 (\"Lucy\") | wiki pt (via en) Despicable Me 2 (\"Lucy\") | wiki pt: Meu Malvado Favorito 2 (\"Lucy\") | Fandom pt-br meumalvadofavorito (busca): Lucy Wilde (\"Lucy\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "1475531c87",
@@ -317,10 +358,12 @@
    "Poção da lua",
    "Gás do riso"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Meu Malvado Favorito",
-  "verificado_web": "wiki en: Despicable Me 2 (\"PX-41\")"
+  "verificado_web": "wiki en: Despicable Me 2 (\"PX-41\")",
+  "verificado_web_conferente": "wiki en: Despicable Me 2 (\"PX-41\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "8029fc5f50",
@@ -334,10 +377,12 @@
    "Pompom",
    "Floco"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Pets - A Vida Secreta dos Bichos",
-  "verificado_web": "wiki pt: The Secret Life of Pets 2 | wiki en: The Secret Life of Pets (\"Snowball\")"
+  "verificado_web": "wiki pt: The Secret Life of Pets 2 | wiki en: The Secret Life of Pets (\"Snowball\")",
+  "verificado_web_conferente": "wiki en: The Secret Life of Pets (\"Snowball\") | WebSearch: Universal Brasil (\"Luís Miranda dubla Bola de Neve\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "07da1366dc",
@@ -351,10 +396,12 @@
    "Rinoceronte",
    "Elefanta"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Sing - Quem Canta Seus Males Espanta",
-  "verificado_web": "wiki pt: Sing (filme) | wiki en: Sing (2016 American film) (\"elephant\")"
+  "verificado_web": "wiki pt: Sing (filme) | wiki en: Sing (2016 American film) (\"elephant\")",
+  "verificado_web_conferente": "wiki en: Sing (2016 American film) (\"Meena\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "7bbc80c5ee",
@@ -368,10 +415,12 @@
    "Buster",
    "Eddie"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Sing - Quem Canta Seus Males Espanta",
-  "verificado_web": "wiki pt: Sing (filme) | wiki en: Sing (2016 American film) (\"Mike\")"
+  "verificado_web": "wiki pt: Sing (filme) | wiki en: Sing (2016 American film) (\"Mike\")",
+  "verificado_web_conferente": "wiki en: Sing (2016 American film) (\"Mike\") | wiki pt (via en) Sing (2016 American film) (\"Mike\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "0805806d61",
@@ -385,11 +434,13 @@
    "Buster",
    "Rosita"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Sing - Quem Canta Seus Males Espanta",
   "verificado_web": "wiki en: Sing: Original Motion Picture Soundtrack (\"Don't You Worry 'bout a Thing\", Tori Kelly/Meena); wiki pt: Sing (filme)",
-  "musica": true
+  "musica": true,
+  "verificado_web_conferente": "wiki en: Sing (2016 American film) (\"Stevie Wonder\") | wiki en: Sing: Original Motion Picture Soundtrack (\"Don't You Worry 'bout a Thing\" - Tori Kelly, voz de Meena)",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "3c017f9391",
@@ -403,10 +454,12 @@
    "Um bebê humano",
    "Um ovo de dinossauro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "A Era do Gelo",
-  "verificado_web": "wiki pt: Ice Age | wiki en: List of Ice Age characters (\"baby\")"
+  "verificado_web": "wiki pt: Ice Age | wiki en: List of Ice Age characters (\"baby\")",
+  "verificado_web_conferente": "wiki en: Ice Age (2002 film) (\"human baby\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "8c1ab7f00d",
@@ -420,10 +473,12 @@
    "Lili",
    "Amora"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "A Era do Gelo",
-  "verificado_web": "wiki pt: Ice Age: Dawn of the Dinosaurs | wiki en: List of Ice Age characters (\"Peaches\")"
+  "verificado_web": "wiki pt: Ice Age: Dawn of the Dinosaurs | wiki en: List of Ice Age characters (\"Peaches\")",
+  "verificado_web_conferente": "wiki en: Ice Age: Continental Drift (\"Peaches\") | wiki pt (via en) Ice Age: Continental Drift (\"Amora\") | wiki pt: A Era do Gelo 4 (\"Amora\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "2c7d135b38",
@@ -437,10 +492,12 @@
    "Zara",
    "Kira"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "A Era do Gelo",
-  "verificado_web": "wiki pt: Ice Age: Continental Drift | wiki en: List of Ice Age characters (\"Shira\")"
+  "verificado_web": "wiki pt: Ice Age: Continental Drift | wiki en: List of Ice Age characters (\"Shira\")",
+  "verificado_web_conferente": "wiki en: Ice Age: Continental Drift (\"Shira\") | wiki pt (via en) Ice Age: Continental Drift (\"Shira\") | wiki pt: A Era do Gelo 4 (\"Shira\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "ca63374f37",
@@ -454,10 +511,12 @@
    "Luiz",
    "Pedro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "Rio",
-  "verificado_web": "wiki pt: Rio (2011) | wiki en: Rio (2011 film) (\"Rafael\")"
+  "verificado_web": "wiki pt: Rio (2011) | wiki en: Rio (2011 film) (\"Rafael\")",
+  "verificado_web_conferente": "wiki en: Rio (2011 film) (\"Rafael\") | wiki pt (via en) Rio (2011 film) (\"Rafael\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "9d5dae8b1e",
@@ -471,10 +530,12 @@
    "Carnaval",
    "Oktoberfest"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "Rio",
-  "verificado_web": "wiki pt: Rio 2 | wiki en: Rio (2011 film) (\"Carnival\")"
+  "verificado_web": "wiki pt: Rio 2 | wiki en: Rio (2011 film) (\"Carnival\")",
+  "verificado_web_conferente": "wiki en: Rio (2011 film) (\"Carnival\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "4024cfac15",
@@ -488,10 +549,12 @@
    "Wanda",
    "Eunice"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Hotel Transilvânia",
-  "verificado_web": "wiki pt: Hotel Transylvania 2 | wiki en: Hotel Transylvania 2 (\"Mavis\")"
+  "verificado_web": "wiki pt: Hotel Transylvania 2 | wiki en: Hotel Transylvania 2 (\"Mavis\")",
+  "verificado_web_conferente": "wiki en: Hotel Transylvania (\"Mavis\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "8bb35c78e2",
@@ -505,10 +568,12 @@
    "Winnie",
    "Vlad"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Hotel Transilvânia",
-  "verificado_web": "wiki pt: Hotel Transylvania 2 | wiki en: Hotel Transylvania 2 (\"Dennis\")"
+  "verificado_web": "wiki pt: Hotel Transylvania 2 | wiki en: Hotel Transylvania 2 (\"Dennis\")",
+  "verificado_web_conferente": "wiki en: Hotel Transylvania 2 (\"Dennis\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "927b71e082",
@@ -519,13 +584,16 @@
   "alternativas": [
    "Porquinho Prateado",
    "Porco-Aranha",
-   "Peter Porker Jr.",
+   "Porco-Teia",
    "Leitão-Aranha"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Homem-Aranha no Aranhaverso",
-  "verificado_web": "wiki pt: Spider-Man: Into the Spider-Verse | wiki en: Spider-Man: Into the Spider-Verse (\"Spider-Ham\")"
+  "verificado_web": "wiki pt: Spider-Man: Into the Spider-Verse | wiki en: Spider-Man: Into the Spider-Verse (\"Spider-Ham\")",
+  "correcao": "conferente-desenhos-1: Peter Porker é o nome verdadeiro do Porco-Aranha",
+  "verificado_web_conferente": "wiki en: Spider-Man: Into the Spider-Verse (\"Spider-Ham\") | wiki pt (via en) Spider-Man: Into the Spider-Verse (\"Porco-Aranha\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "465385bead",
@@ -539,10 +607,12 @@
    "Doutor Octopus",
    "Rei do Crime"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Homem-Aranha no Aranhaverso",
-  "verificado_web": "wiki pt: Spider-Man: Into the Spider-Verse | wiki en: Spider-Man: Into the Spider-Verse (\"Kingpin\")"
+  "verificado_web": "wiki pt: Spider-Man: Into the Spider-Verse | wiki en: Spider-Man: Into the Spider-Verse (\"Kingpin\")",
+  "verificado_web_conferente": "wiki en: Spider-Man: Into the Spider-Verse (\"Kingpin\") | wiki pt (via en) Spider-Man: Into the Spider-Verse (\"Rei do Crime\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "b49ee703e0",
@@ -556,10 +626,12 @@
    "Miguel O'Hara",
    "Hobie Brown"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Homem-Aranha no Aranhaverso",
-  "verificado_web": "wiki pt: Spider-Man: Into the Spider-Verse | wiki en: Spider-Man: Into the Spider-Verse (\"Miguel O'Hara\")"
+  "verificado_web": "wiki pt: Spider-Man: Into the Spider-Verse | wiki en: Spider-Man: Into the Spider-Verse (\"Miguel O'Hara\")",
+  "verificado_web_conferente": "wiki en: Spider-Man: Across the Spider-Verse (\"Miguel O'Hara\") | wiki pt (via en) Spider-Man: Across the Spider-Verse (\"Miguel\") | wiki pt: Homem-Aranha: Através do Aranhaverso (\"Miguel\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "a2b22fbe09",
@@ -573,10 +645,12 @@
    "Raiz",
    "Galho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Trolls",
-  "verificado_web": "wiki pt: Trolls (filme) | wiki en: Trolls (film) (\"Branch\")"
+  "verificado_web": "wiki pt: Trolls (filme) | wiki en: Trolls (film) (\"Branch\")",
+  "verificado_web_conferente": "wiki en: Trolls (film) (\"Branch\") | wiki pt (via en) Trolls (film) (\"Tronco\") | wiki pt: Trolls (filme) (\"Tronco\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "7e6bfe92fd",
@@ -590,10 +664,12 @@
    "Guy",
    "Zug"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Os Croods",
-  "verificado_web": "wiki pt: Os Croods | wiki en: The Croods (\"Guy\")"
+  "verificado_web": "wiki pt: Os Croods | wiki en: The Croods (\"Guy\")",
+  "verificado_web_conferente": "wiki en: The Croods (\"fire\") | wiki pt (via en) The Croods (\"Guy\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "a6d9597f80",
@@ -607,10 +683,12 @@
    "Num coco",
    "Num abacaxi"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "wiki pt: Lista de personagens de SpongeBob SquarePants | wiki en: The SpongeBob SquarePants Movie (\"pineapple\")"
+  "verificado_web": "wiki pt: Lista de personagens de SpongeBob SquarePants | wiki en: The SpongeBob SquarePants Movie (\"pineapple\")",
+  "verificado_web_conferente": "wiki en: List of SpongeBob SquarePants characters (\"pineapple\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "bab2bc44c0",
@@ -624,10 +702,12 @@
    "Oval",
    "Triangular"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "fandom pt-br: Lista de Frases de Efeito | wiki en: The SpongeBob SquarePants Movie (\"square\")"
+  "verificado_web": "fandom pt-br: Lista de Frases de Efeito | wiki en: The SpongeBob SquarePants Movie (\"square\")",
+  "verificado_web_conferente": "wiki en: SpongeBob SquarePants (\"square\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "013c62ff51",
@@ -641,10 +721,12 @@
    "Larry",
    "Lula Molusco"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "wiki pt: SpongeBob SquarePants | wiki en: The SpongeBob SquarePants Movie (\"Plankton\")"
+  "verificado_web": "wiki pt: SpongeBob SquarePants | wiki en: The SpongeBob SquarePants Movie (\"Plankton\")",
+  "verificado_web_conferente": "wiki en: List of SpongeBob SquarePants characters (\"secret formula\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "0207253ebb",
@@ -658,10 +740,12 @@
    "Num aquário",
    "Debaixo de uma pedra"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "wiki pt: SpongeBob SquarePants | wiki en: The SpongeBob SquarePants Movie (\"rock\")"
+  "verificado_web": "wiki pt: SpongeBob SquarePants | wiki en: The SpongeBob SquarePants Movie (\"rock\")",
+  "verificado_web_conferente": "wiki en: List of SpongeBob SquarePants characters (\"rock\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "ab0e86b979",
@@ -675,10 +759,12 @@
    "Caratê",
    "Capoeira"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "wiki pt: Lista de personagens de SpongeBob SquarePants | wiki en: Sandy Cheeks (\"karate\")"
+  "verificado_web": "wiki pt: Lista de personagens de SpongeBob SquarePants | wiki en: Sandy Cheeks (\"karate\")",
+  "verificado_web_conferente": "wiki en: List of SpongeBob SquarePants characters (\"karate\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "9b47dd0229",
@@ -692,10 +778,12 @@
    "Amigo Espuma",
    "Amigo Pedra"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "fandom pt-br: Linha do Tempo:2013 | wiki en: List of SpongeBob SquarePants characters (\"Bubble Buddy\")"
+  "verificado_web": "fandom pt-br: Linha do Tempo:2013 | wiki en: List of SpongeBob SquarePants characters (\"Bubble Buddy\")",
+  "verificado_web_conferente": "Fandom pt-br wikiesponja (busca): Amigo Bolha (\"Bolha\") | Fandom pt-br wikiesponja: O Amigo da Bolha (\"Bolha\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "80029722cc",
@@ -709,10 +797,12 @@
    "Professor Pardal",
    "Dexter"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "As Meninas Superpoderosas",
-  "verificado_web": "wiki pt: The Powerpuff Girls | wiki en: The Powerpuff Girls (\"Utonium\")"
+  "verificado_web": "wiki pt: The Powerpuff Girls | wiki en: The Powerpuff Girls (\"Utonium\")",
+  "verificado_web_conferente": "wiki en: The Powerpuff Girls (\"Professor Utonium\") | Fandom pt-br powerpuff (busca): Professor Utônio",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "9870182b60",
@@ -726,10 +816,12 @@
    "Duende",
    "Mojo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "As Meninas Superpoderosas",
-  "verificado_web": "wiki pt: The Powerpuff Girls | wiki en: The Powerpuff Girls (\"Him\")"
+  "verificado_web": "wiki pt: The Powerpuff Girls | wiki en: The Powerpuff Girls (\"Him\")",
+  "verificado_web_conferente": "wiki en: List of The Powerpuff Girls characters (\"Him\") | Fandom pt-br powerpuff (busca): Ele vilão (\"Ele\") | wiki en: List of The Powerpuff Girls characters (HIM, demonic being) | Fandom pt-br powerpuff (busca): \"Ele\"",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "1488d1bd0a",
@@ -743,10 +835,12 @@
    "Gangue Verde",
    "Gangue do Lodo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "As Meninas Superpoderosas",
-  "verificado_web": "fandom pt-br: Gangue Gangrena | wiki en: List of The Powerpuff Girls characters (\"Gangreen\")"
+  "verificado_web": "fandom pt-br: Gangue Gangrena | wiki en: List of The Powerpuff Girls characters (\"Gangreen\")",
+  "verificado_web_conferente": "wiki en: List of The Powerpuff Girls characters (\"Gangreen Gang\") | Fandom pt-br powerpuff (busca): Gangue Gangrena (\"Gangrena\") | Fandom en powerpuff: Gangreen Gang (5 membros: Ace, Big Billy, Snake, Lil' Arturo, Grubber)",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "776af7f8cd",
@@ -760,10 +854,12 @@
    "Julie",
    "Kim"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Ben 10",
-  "verificado_web": "wiki pt: Ben 10 (2005) | wiki en: Ben 10 (2005 TV series) (\"Gwen\")"
+  "verificado_web": "wiki pt: Ben 10 (2005) | wiki en: Ben 10 (2005 TV series) (\"Gwen\")",
+  "verificado_web_conferente": "wiki en: Ben 10 (2005 TV series) (\"Gwen\") | Fandom pt-br ben10 (busca): Gwen Tennyson",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "f6bae3510c",
@@ -777,10 +873,12 @@
    "Zs'Skayr",
    "Vilgax"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Ben 10",
-  "verificado_web": "wiki pt: Ben 10 (2005) | wiki en: Ben 10 (2005 TV series) (\"Vilgax\")"
+  "verificado_web": "wiki pt: Ben 10 (2005) | wiki en: Ben 10 (2005 TV series) (\"Vilgax\")",
+  "verificado_web_conferente": "wiki en: Ben 10 (2005 TV series) (\"Vilgax\") | Fandom pt-br ben10 (busca): Vilgax",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "76ac102bd9",
@@ -794,10 +892,12 @@
    "Nárnia",
    "Terra do Nunca"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Hora de Aventura",
-  "verificado_web": "wiki pt: Adventure Time | wiki en: Adventure Time (\"Ooo\")"
+  "verificado_web": "wiki pt: Adventure Time | wiki en: Adventure Time (\"Ooo\")",
+  "verificado_web_conferente": "wiki en: Adventure Time (\"Land of Ooo\") | Fandom pt-br horadeaventura (busca): Terra de Ooo",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "514c5c9f26",
@@ -811,10 +911,12 @@
    "BMO",
    "Pixel"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Hora de Aventura",
-  "verificado_web": "wiki pt: Adventure Time | wiki en: Adventure Time (\"BMO\")"
+  "verificado_web": "wiki pt: Adventure Time | wiki en: Adventure Time (\"BMO\")",
+  "verificado_web_conferente": "wiki en: List of Adventure Time characters (\"BMO\") | Fandom pt-br horadeaventura (busca): BMO | Fandom en adventuretime: BMO (\"Video Game Console\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "8d220d7177",
@@ -828,10 +930,12 @@
    "Lich",
    "Magic Man"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Hora de Aventura",
-  "verificado_web": "fandom pt-br: Lich | wiki en: Adventure Time (\"Lich\")"
+  "verificado_web": "fandom pt-br: Lich | wiki en: Adventure Time (\"Lich\")",
+  "verificado_web_conferente": "wiki en: List of Adventure Time characters (\"Lich\") | Fandom pt-br horadeaventura (busca): Lich",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "2b1cec844e",
@@ -845,16 +949,18 @@
    "Num shopping",
    "Numa lanchonete"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Apenas um Show",
-  "verificado_web": "wiki pt: Regular Show | wiki en: Regular Show (\"park\")"
+  "verificado_web": "wiki pt: Regular Show | wiki en: Regular Show (\"park\")",
+  "verificado_web_conferente": "wiki en: Regular Show (\"park\") | Fandom pt-br apenasumshow: Mordecai (\"parque\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "587d78aa2d",
   "categoria": "Desenhos",
   "dificuldade": "dificil",
-  "pergunta": "Que criatura é o Skips, de Apenas um Show?",
+  "pergunta": "Que criatura é o Saltitão, de Apenas um Show?",
   "resposta": "Yeti",
   "alternativas": [
    "Yeti",
@@ -862,10 +968,13 @@
    "Lobisomem",
    "Vampiro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Apenas um Show",
-  "verificado_web": "wiki pt: Lista de personagens de Regular Show | wiki en: Regular Show (\"yeti\")"
+  "verificado_web": "wiki pt: Lista de personagens de Regular Show | wiki en: Regular Show (\"yeti\")",
+  "correcao": "conferente-desenhos-1: nome pt-br do Skips é Saltitão (Fandom pt-br apenasumshow)",
+  "verificado_web_conferente": "wiki en: List of Regular Show characters (\"yeti\") | Fandom pt-br apenasumshow (busca): Saltitão | Fandom pt-br apenasumshow: Saltitão (\"Yeti\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "b6169e7983",
@@ -879,10 +988,12 @@
    "Springfield",
    "Elmore"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Incrível Mundo de Gumball",
-  "verificado_web": "wiki pt: O Incrível Mundo de Gumball | wiki en: The Amazing World of Gumball (\"Elmore\")"
+  "verificado_web": "wiki pt: O Incrível Mundo de Gumball | wiki en: The Amazing World of Gumball (\"Elmore\")",
+  "verificado_web_conferente": "wiki en: The Amazing World of Gumball (\"Elmore\") | Fandom pt-br gumball (busca): Elmore",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "2c91b656df",
@@ -896,10 +1007,12 @@
    "Teri",
    "Carrie"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Incrível Mundo de Gumball",
-  "verificado_web": "wiki pt: O Incrível Mundo de Gumball | wiki en: The Amazing World of Gumball (\"Penny\")"
+  "verificado_web": "wiki pt: O Incrível Mundo de Gumball | wiki en: The Amazing World of Gumball (\"Penny\")",
+  "verificado_web_conferente": "wiki en: List of The Amazing World of Gumball characters (\"Penny\") | Fandom pt-br gumball (busca): Penny",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "12b7ebd438",
@@ -913,10 +1026,12 @@
    "Tina",
    "Masami"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Incrível Mundo de Gumball",
-  "verificado_web": "fandom pt-br: Tina Rex | wiki en: List of The Amazing World of Gumball characters (\"Tina\")"
+  "verificado_web": "fandom pt-br: Tina Rex | wiki en: List of The Amazing World of Gumball characters (\"Tina\")",
+  "verificado_web_conferente": "wiki en: List of The Amazing World of Gumball characters (\"Tina\") | Fandom pt-br gumball (busca): Tina",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "d425039c88",
@@ -925,15 +1040,18 @@
   "pergunta": "De que cor é o boné do menino que tem padrinhos mágicos?",
   "resposta": "Rosa",
   "alternativas": [
-   "Roxo",
+   "Preto",
    "Azul",
    "Laranja",
    "Rosa"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Padrinhos Mágicos",
-  "verificado_web": "fandom pt-br: Wanda Fairywinkle-Cosma | wiki en: The Fairly OddParents (\"pink\")"
+  "verificado_web": "fandom pt-br: Wanda Fairywinkle-Cosma | wiki en: The Fairly OddParents (\"pink\")",
+  "verificado_web_conferente": "wiki en: The Fairly OddParents (\"pink hat\") | wiki en: List of The Fairly OddParents characters (\"pink hat\")",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Roxo\" trocada por \"Preto\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "e55d9cc23c",
@@ -947,10 +1065,12 @@
    "Pip",
    "Pixie"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Padrinhos Mágicos",
-  "verificado_web": "wiki pt: The Fairly OddParents | wiki en: The Fairly OddParents (\"Poof\")"
+  "verificado_web": "wiki pt: The Fairly OddParents | wiki en: The Fairly OddParents (\"Poof\")",
+  "verificado_web_conferente": "wiki en: The Fairly OddParents (\"Poof\") | Fandom pt-br fairlyoddparents (busca): Poof",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "43b02f68c1",
@@ -959,15 +1079,18 @@
   "pergunta": "Como se chama o cachorro mágico que aparece nas temporadas mais novas?",
   "resposta": "Sparky",
   "alternativas": [
-   "Rex",
+   "Fred",
    "Toby",
    "Bidu",
    "Sparky"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Padrinhos Mágicos",
-  "verificado_web": "fandom pt-br: Os Padrinhos Mágicos (9ª Temporada) | wiki en: The Fairly OddParents (\"Sparky\")"
+  "verificado_web": "fandom pt-br: Os Padrinhos Mágicos (9ª Temporada) | wiki en: The Fairly OddParents (\"Sparky\")",
+  "verificado_web_conferente": "wiki en: The Fairly OddParents (\"Sparky\") | Fandom pt-br fairlyoddparents (busca): Sparky | Fandom en fairlyoddparents: Sparky (fairy dog)",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Rex\" trocada por \"Fred\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "929d4889ff",
@@ -981,10 +1104,12 @@
    "Sokka",
    "Haru"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Avatar: A Lenda de Aang",
-  "verificado_web": "wiki pt: Avatar: The Last Airbender | wiki en: Avatar: The Last Airbender (\"Sokka\")"
+  "verificado_web": "wiki pt: Avatar: The Last Airbender | wiki en: Avatar: The Last Airbender (\"Sokka\")",
+  "verificado_web_conferente": "wiki en: List of Avatar: The Last Airbender characters (\"boomerang\") | Fandom pt-br avatar: Sokka (\"bumerangue\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "a90c45b7b1",
@@ -998,10 +1123,12 @@
    "Suco de fruta",
    "Chá"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Avatar: A Lenda de Aang",
-  "verificado_web": "wiki pt: Iroh | wiki en: Avatar: The Last Airbender (\"tea\")"
+  "verificado_web": "wiki pt: Iroh | wiki en: Avatar: The Last Airbender (\"tea\")",
+  "verificado_web_conferente": "wiki en: List of Avatar: The Last Airbender characters (\"tea\") | wiki en: List of Avatar: The Last Airbender characters (\"Iroh tea\") | Fandom pt-br avatar: Iroh (\"chá\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "0964dd3d17",
@@ -1015,10 +1142,12 @@
    "Kyoshi",
    "Ba Sing Se"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Avatar: A Lenda de Aang",
-  "verificado_web": "wiki pt: Avatar: The Last Airbender | wiki en: Avatar: The Last Airbender (\"Ba Sing Se\")"
+  "verificado_web": "wiki pt: Avatar: The Last Airbender | wiki en: Avatar: The Last Airbender (\"Ba Sing Se\")",
+  "verificado_web_conferente": "wiki en: Avatar: The Last Airbender (\"Ba Sing Se\") | Fandom pt-br avatar (busca): Ba Sing Se (\"Ba Sing\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "797849d2f7",
@@ -1032,11 +1161,13 @@
    "Tio Iroh",
    "Jeong Jeong"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Avatar: A Lenda de Aang",
   "verificado_web": "wiki pt: Avatar: The Last Airbender | wiki en: Iroh (\"Leaves from the Vine\")",
-  "musica": true
+  "musica": true,
+  "verificado_web_conferente": "wiki en: The Tales of Ba Sing Se (\"Leaves from the Vine\") | Fandom pt-br avatar (busca): Lu Ten canção | Fandom pt-br avatar: Lu Ten (\"cant\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "b613b8e2ed",
@@ -1050,10 +1181,12 @@
    "Springfield",
    "Hill Valley"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "As Aventuras de Jimmy Neutron",
-  "verificado_web": "wiki pt: The Adventures of Jimmy Neutron: Boy Genius | wiki en: The Adventures of Jimmy Neutron, Boy Genius (\"Retroville\")"
+  "verificado_web": "wiki pt: The Adventures of Jimmy Neutron: Boy Genius | wiki en: The Adventures of Jimmy Neutron, Boy Genius (\"Retroville\")",
+  "verificado_web_conferente": "wiki en: The Adventures of Jimmy Neutron, Boy Genius (\"Retroville\") | Fandom pt-br jimmyneutron (busca): Retroville",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "2db2ef91d6",
@@ -1067,27 +1200,32 @@
    "Butch",
    "Hugh"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "As Aventuras de Jimmy Neutron",
-  "verificado_web": "wiki pt: The Adventures of Jimmy Neutron: Boy Genius | wiki en: The Adventures of Jimmy Neutron, Boy Genius (\"Sheen\")"
+  "verificado_web": "wiki pt: The Adventures of Jimmy Neutron: Boy Genius | wiki en: The Adventures of Jimmy Neutron, Boy Genius (\"Sheen\")",
+  "verificado_web_conferente": "wiki en: The Adventures of Jimmy Neutron, Boy Genius (\"Sheen\") | Fandom pt-br jimmyneutron: Sheen Estévez (\"hiperativ\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "f27312a45a",
   "categoria": "Desenhos",
   "dificuldade": "medio",
-  "pergunta": "Como se chama o lugar onde o Coragem mora?",
-  "resposta": "Meio do Nada",
+  "pergunta": "Como se chama a região onde fica a fazenda do Coragem, o Cão Covarde?",
+  "resposta": "Lugar Nenhum",
   "alternativas": [
    "Vale Sombrio",
    "Fim do Mundo",
-   "Meio do Nada",
+   "Lugar Nenhum",
    "Vale Perdido"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Coragem, o Cão Covarde",
-  "verificado_web": "fandom pt-br: Muriel Bagge | wiki en: Courage the Cowardly Dog (\"Nowhere\")"
+  "verificado_web": "fandom pt-br: Muriel Bagge | wiki en: Courage the Cowardly Dog (\"Nowhere\")",
+  "correcao": "conferente-desenhos-1: nome pt-br Lugar Nenhum (Fandom pt-br coragem); enunciado sem a palavra \"lugar\" (entrega.mjs)",
+  "verificado_web_conferente": "wiki en: Courage the Cowardly Dog (\"Nowhere\") | Fandom pt-br coragem (busca): Nowhere | Fandom pt-br coragem: Coragem (\"Nada\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "ccc8785a3f",
@@ -1101,10 +1239,12 @@
    "Garfield",
    "Katz"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Coragem, o Cão Covarde",
-  "verificado_web": "wiki pt: Coragem, o Cão Covarde | wiki en: Courage the Cowardly Dog (\"Katz\")"
+  "verificado_web": "wiki pt: Coragem, o Cão Covarde | wiki en: Courage the Cowardly Dog (\"Katz\")",
+  "verificado_web_conferente": "wiki en: Courage the Cowardly Dog (\"Katz\") | Fandom pt-br coragem (busca): Katz (\"Katz\") | Fandom en courage: Katz (gato)",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "cbb3747a8c",
@@ -1115,13 +1255,16 @@
   "alternativas": [
    "Ruivo",
    "Loiro",
-   "Castanho",
+   "Grisalho",
    "Preto"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Johnny Bravo",
-  "verificado_web": "wiki pt: Johnny Bravo (loiro)"
+  "verificado_web": "wiki pt: Johnny Bravo (loiro)",
+  "verificado_web_conferente": "wiki en: Johnny Bravo (\"blond\")",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Castanho\" trocada por \"Grisalho\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "83c7fe4e17",
@@ -1135,10 +1278,13 @@
    "Algodão-doce",
    "Quebra-queixo"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "fonte_tema": "Cartoon Network",
   "obra": "Du, Dudu e Edu",
-  "verificado_web": "wiki en: List of Ed, Edd n Eddy characters (\"jawbreaker\")"
+  "verificado_web": "wiki en: List of Ed, Edd n Eddy characters (\"jawbreaker\")",
+  "verificado_web_conferente": "wiki en: Ed, Edd n Eddy (\"jawbreaker\") | wiki pt: Ed, Edd n Eddy (\"queixo\") | wiki pt: Ed, Edd n Eddy (\"balas de caramelo grandes e redondas\"); WebSearch sem \"quebra-queixo\"",
+  "conferido_por": "conferente-desenhos-1",
+  "motivo": "conferente-desenhos-1: nome pt-br não confirmado: a Wikipédia pt diz \"balas de caramelo grandes e redondas\"; nenhuma fonte com \"quebra-queixo\""
  },
  {
   "id": "797f221ab8",
@@ -1152,10 +1298,12 @@
    "Candace",
    "Gretchen"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Disney Channel",
   "obra": "Phineas e Ferb",
-  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"Candace\")"
+  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"Candace\")",
+  "verificado_web_conferente": "wiki en: Phineas and Ferb (\"Candace\") | Fandom pt-br phineaseferb (busca): Candace Flynn",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "729ed52601",
@@ -1169,44 +1317,52 @@
    "Gretchen",
    "Isabella"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Disney Channel",
   "obra": "Phineas e Ferb",
-  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"Isabella\")"
+  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"Isabella\")",
+  "verificado_web_conferente": "wiki en: List of Phineas and Ferb characters (\"Isabella\") | Fandom pt-br phineaseferb (busca): Isabella",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "52695a4675",
   "categoria": "Desenhos",
   "dificuldade": "medio",
-  "pergunta": "Qual garoto por quem a Candace é apaixonada?",
+  "pergunta": "Por qual garoto a Candace é apaixonada?",
   "resposta": "Jeremy",
   "alternativas": [
-   "Django",
+   "Albert",
    "Coltrane",
    "Irving",
    "Jeremy"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Disney Channel",
   "obra": "Phineas e Ferb",
-  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"Jeremy\")"
+  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"Jeremy\")",
+  "correcao": "conferente-desenhos-1: enunciado corrigido; alternativa \"Django\" trocada por \"Albert\" (era resposta de outra pergunta de Desenhos)",
+  "verificado_web_conferente": "wiki en: List of Phineas and Ferb characters (\"Jeremy\") | Fandom pt-br phineaseferb (busca): Jeremy Johnson",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "8c55dd69a3",
   "categoria": "Desenhos",
   "dificuldade": "medio",
   "pergunta": "De que país veio o Ferb?",
-  "resposta": "Inglaterra",
+  "resposta": "Reino Unido",
   "alternativas": [
-   "Austrália",
+   "Nova Zelândia",
    "Irlanda",
-   "Inglaterra",
+   "Reino Unido",
    "Canadá"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Disney Channel",
   "obra": "Phineas e Ferb",
-  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"British\")"
+  "verificado_web": "wiki pt: Phineas e Ferb | wiki en: Phineas and Ferb (\"British\")",
+  "correcao": "conferente-desenhos-1: fontes dizem britânico / United Kingdom, sem cidade inglesa; alternativa \"Austrália\" trocada por \"Nova Zelândia\" (era resposta de outra pergunta de Desenhos)",
+  "verificado_web_conferente": "wiki en: List of Phineas and Ferb characters (\"Ferb British\") | Fandom pt-br phineaseferb: Ferb Fletcher (\"Inglaterra\") | Fandom pt-br phineaseferb (busca): Ferb Inglaterra",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "f7976bf7e2",
@@ -1220,16 +1376,18 @@
    "Ovelha",
    "Cabra"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Peppa Pig (Nick Jr./Discovery Kids)",
   "obra": "Peppa Pig",
-  "verificado_web": "wiki pt: Lista de personagens de Peppa Pig | wiki en: List of Peppa Pig characters (\"Sheep\")"
+  "verificado_web": "wiki pt: Lista de personagens de Peppa Pig | wiki en: List of Peppa Pig characters (\"Sheep\")",
+  "verificado_web_conferente": "wiki en: List of Peppa Pig characters (\"Suzy Sheep\") | Fandom pt-br peppapedia (busca): Suzy Ovelha",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "74f2e47ff7",
   "categoria": "Desenhos",
   "dificuldade": "medio",
-  "pergunta": "Que veículo o Vovô Porco adora usar?",
+  "pergunta": "Que veículo o Vovô Pig adora usar?",
   "resposta": "Barco",
   "alternativas": [
    "Moto",
@@ -1237,10 +1395,13 @@
    "Barco",
    "Avião"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Peppa Pig (Nick Jr./Discovery Kids)",
   "obra": "Peppa Pig",
-  "verificado_web": "wiki pt: Lista de personagens de Peppa Pig | wiki en: List of Peppa Pig characters (\"boat\")"
+  "verificado_web": "wiki pt: Lista de personagens de Peppa Pig | wiki en: List of Peppa Pig characters (\"boat\")",
+  "correcao": "conferente-desenhos-1: nome pt-br Vovô Pig (Fandom pt-br peppapedia)",
+  "verificado_web_conferente": "wiki en: List of Peppa Pig characters (\"Grandpa Pig boat\") | wiki en: List of Peppa Pig characters (\"Grandpa Pig voiced\") | Fandom pt-br peppapedia: Vovô Pig (\"barco\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "1c6ee5c746",
@@ -1254,10 +1415,12 @@
    "Lancha",
    "Helicóptero"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Patrulha Canina",
-  "verificado_web": "wiki pt: PAW Patrol | wiki en: Paw Patrol (\"helicopter\")"
+  "verificado_web": "wiki pt: PAW Patrol | wiki en: Paw Patrol (\"helicopter\")",
+  "verificado_web_conferente": "wiki en: List of PAW Patrol characters (\"Skye helicopter\") | Fandom pt-br patrulhacanina (busca): Skye (\"Skye\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "3891a75f26",
@@ -1271,10 +1434,12 @@
    "Prefeito Ryder",
    "Prefeito Quimby"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Patrulha Canina",
-  "verificado_web": "wiki pt: PAW Patrol | wiki en: Paw Patrol (\"Humdinger\")"
+  "verificado_web": "wiki pt: PAW Patrol | wiki en: Paw Patrol (\"Humdinger\")",
+  "verificado_web_conferente": "wiki en: List of PAW Patrol characters (\"Humdinger\") | Fandom en pawpatrol: Mayor Humdinger (prefeito de Foggy Bottom)",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "0263f6d856",
@@ -1288,10 +1453,12 @@
    "Capa vermelha",
    "Terno preto"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Laboratório de Dexter",
-  "verificado_web": "wiki pt: Dexter's Laboratory (\"jaleco branco\")"
+  "verificado_web": "wiki pt: Dexter's Laboratory (\"jaleco branco\")",
+  "verificado_web_conferente": "wiki en: Dexter's Laboratory (\"Dexter\") | Fandom en dexterslab: Dexter (\"white lab coat\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "8fa779c211",
@@ -1305,10 +1472,12 @@
    "Ravena",
    "Kid Flash"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Os Jovens Titãs em Ação",
-  "verificado_web": "wiki pt: Teen Titans Go! (série animada) | wiki en: Teen Titans Go! (\"Raven\")"
+  "verificado_web": "wiki pt: Teen Titans Go! (série animada) | wiki en: Teen Titans Go! (\"Raven\")",
+  "verificado_web_conferente": "wiki en: Teen Titans Go! (\"Raven\") | wiki en: List of Teen Titans Go! characters (\"Raven dark\") | Fandom pt-br teentitans (busca): Ravena",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "cbc2e53656",
@@ -1322,10 +1491,12 @@
    "Preto",
    "Ruivo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Danny Phantom",
-  "verificado_web": "wiki pt: Danny Phantom | wiki en: Danny Phantom (\"white\")"
+  "verificado_web": "wiki pt: Danny Phantom | wiki en: Danny Phantom (\"white\")",
+  "verificado_web_conferente": "wiki en: Danny Phantom (\"white hair\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "a92bd90ad6",
@@ -1339,10 +1510,12 @@
    "Garnet",
    "Jaspe"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Steven Universo",
-  "verificado_web": "wiki pt: Steven Universe | wiki en: Steven Universe (\"Garnet\")"
+  "verificado_web": "wiki pt: Steven Universe | wiki en: Steven Universe (\"Garnet\")",
+  "verificado_web_conferente": "wiki en: Steven Universe (\"Garnet\") | Fandom pt-br stevenuniverso: Garnet (\"óculos\") | Fandom en steven-universe: Garnet (\"De facto leader of the Crystal Gems\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "7868db62ba",
@@ -1356,10 +1529,12 @@
    "Besta",
    "Fantasmático"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Ben 10",
-  "verificado_web": "wiki pt: Ben 10 (2005) | wiki en: Ben 10 (2005 TV series) (\"Ghostfreak\")"
+  "verificado_web": "wiki pt: Ben 10 (2005) | wiki en: Ben 10 (2005 TV series) (\"Ghostfreak\")",
+  "verificado_web_conferente": "wiki en: List of Ben 10 aliens (\"Ghostfreak\") | Fandom pt-br ben10 (busca): Fantasmático (\"Fantasm\") | Fandom pt-br ben10: Fantasmático (\"intang\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "d015ad8a5a",
@@ -1369,14 +1544,17 @@
   "resposta": "Vermelho",
   "alternativas": [
    "Laranja",
-   "Roxo",
+   "Bege",
    "Vermelho",
    "Azul"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Peppa Pig (Nick Jr./Discovery Kids)",
   "obra": "Peppa Pig",
-  "verificado_web": "wiki pt: Lista de personagens de Peppa Pig | wiki en: List of Peppa Pig characters (\"red dress\")"
+  "verificado_web": "wiki pt: Lista de personagens de Peppa Pig | wiki en: List of Peppa Pig characters (\"red dress\")",
+  "verificado_web_conferente": "wiki en: List of Peppa Pig characters (\"red dress\") | Fandom pt-br peppapedia: Peppa Pig (personagem) (\"vermelho\")",
+  "conferido_por": "conferente-desenhos-1",
+  "correcao": "conferente-desenhos-1: alternativa \"Roxo\" trocada por \"Bege\" (era resposta de outra pergunta de Desenhos)"
  },
  {
   "id": "60b28d6039",
@@ -1390,10 +1568,12 @@
    "Um boné de beisebol",
    "Uma coroa"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Hora de Aventura",
-  "verificado_web": "fandom pt-br: Finn (\"chapéu ... reflete um urso\")"
+  "verificado_web": "fandom pt-br: Finn (\"chapéu ... reflete um urso\")",
+  "verificado_web_conferente": "wiki en: List of Adventure Time characters (\"hat\") | Fandom pt-br horadeaventura (busca): chapéu do Finn (\"chapéu\")",
+  "conferido_por": "conferente-desenhos-1"
  },
  {
   "id": "dd2eb3cee1",
@@ -1407,9 +1587,11 @@
    "Vale da Paz",
    "Cidade Proibida"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "wiki pt: Kung Fu Panda | wiki en: Kung Fu Panda (film) (\"Valley of Peace\")"
+  "verificado_web": "wiki pt: Kung Fu Panda | wiki en: Kung Fu Panda (film) (\"Valley of Peace\")",
+  "verificado_web_conferente": "wiki en: Kung Fu Panda (film) (\"Valley of Peace\")",
+  "conferido_por": "conferente-desenhos-1"
  }
 ]

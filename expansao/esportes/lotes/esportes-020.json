@@ -1322,7 +1322,7 @@
     "id": "1bccdf4010",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Quantos pontos o Atlético Mineiro somou no título brasileiro de 2021?",
+    "pergunta": "Quantos pontos o campeão do Brasileirão de 2021 somou?",
     "resposta": "84",
     "alternativas": [
       "78",
@@ -1330,11 +1330,15 @@
       "81",
       "88"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2021 (\"...i}} !width=7%|{{Descrizione comando|DR|Differenza reti}} |- style='background:#99CBFF;' | || 1. || style='text-align:left;' | {{Calcio Atletico Mineiro}} || 84|| 38 || 26 || 6 || 6 || 67 || 34 || +33 |- style='background:#AFEEEE;' | || 2. || style='te...\")"
+    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2021 (\"...i}} !width=7%|{{Descrizione comando|DR|Differenza reti}} |- style='background:#99CBFF;' | || 1. || style='text-align:left;' | {{Calcio Atletico Mineiro}} || 84|| 38 || 26 || 6 || 6 || 67 || 34 || +33 |- style='background:#AFEEEE;' | || 2. || style='te...\")",
+    "verificado_web_conferente": "wiki it: Campeonato Brasileiro Série A 2021 (\"...CBFF;\" | || 1. || style=\"text-align:left;\" | '''{{Calcio Atletico Mineiro}}''' || '''84'''|| 38 || 26 || 6 || 6 || 67 || 34 || +33 |- style=\"background:#AFEEEE;\" | || 2. || style=\"text-align:left;\" | {{Calcio Flamengo}} || '''71'''|| 38 || 21 || 8...\") | wiki es: Campeonato Brasileño de Fútbol Serie A 2021 (\"...f_GOI=33 |gc_GOI=36 <!-- Atlético Goianiense --> |ganados_MIN=26 |empates_MIN=6 |perdidos_MIN=6 |gf_MIN=67 |gc_MIN=34 <!-- Atlético Mineiro --> |ganados_BAH=11 |empates_BAH=10 |perdidos_BAH=17 |gf_BAH=42 |gc_BAH=51 <!-- Bahi...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Quantos pontos o Atlético Mineiro somou no título brasileiro de 2021?",
+    "ajuste_enunciado": "o texto dizia o campeão (Atlético-MG), resposta da v12:2682"
   },
   {
     "id": "9a6a85fdee",
@@ -1348,11 +1352,13 @@
       "Cruzeiro",
       "Palmeiras"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "Vice de final antiga.",
-    "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1974 (\"...agosto |golos = 948 |jogos = 447 |campeão = {{Futebol Vasco}} <small>(1º título)</small> |vicecampeão = {{Futebol Cruzeiro}} |artilheiro = Roberto Dinamite (Vasco da Gama) - 16 gols |melhor_ataque = {{Futebol Atl...\")"
+    "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1974 (\"...agosto |golos = 948 |jogos = 447 |campeão = {{Futebol Vasco}} <small>(1º título)</small> |vicecampeão = {{Futebol Cruzeiro}} |artilheiro = Roberto Dinamite (Vasco da Gama) - 16 gols |melhor_ataque = {{Futebol Atl...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: repete a 006#11 (Vasco venceu o Cruzeiro na final do Brasileirão de 1974), pergunta invertida"
   },
   {
     "id": "6f0d180dfa",
@@ -1366,11 +1372,13 @@
       "Tottenham",
       "Arsenal"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Craque e clube europeu.",
-    "verificado_web": "wiki en: Gabriel Martinelli (\"...youth_clubs1 = Corinthians | youth_years2 = 2014-2018 | youth_clubs2 = Ituano | clubs1 = Ituano | years1 = 2018-2019 | caps1 = 17 | goals1 = 6 | years2 = 2019-2026 | clubs2 = Arsenal | caps2 = 191 | goals2 = 41 | years3 = 2026- | clubs3 = Al-Hilal | caps3 = 6 | goals3 = 6...\")"
+    "verificado_web": "wiki en: Gabriel Martinelli (\"...youth_clubs1 = Corinthians | youth_years2 = 2014-2018 | youth_clubs2 = Ituano | clubs1 = Ituano | years1 = 2018-2019 | caps1 = 17 | goals1 = 6 | years2 = 2019-2026 | clubs2 = Arsenal | caps2 = 191 | goals2 = 41 | years3 = 2026- | clubs3 = Al-Hilal | caps3 = 6 | goals3 = 6...\")",
+    "verificado_web_conferente": "wiki es: Gabriel Martinelli (\"...eso|kg=85}} |deporte = [[Fútbol]] |inicio = 2018 |clubdebut = [[Ituano Futebol Clube|Ituano F. C.]] |añoretiro = |clubretiro = |club = [[Al-Hilal Saudi Football Club|Al-Hilal Saudi F. C.]] |número = 7<ref name=\"hilal2\"/> |...\") | wiki es: Gabriel Martinelli (\"...o/italia/2019/10/08-62054525/gabriel_martinelli_l_attaccante_dell_arsenal_conteso_da_italia_e_brasile|título=Gabriel Martinelli, el defensa central del Arsenal disputado por Italia y Brasil|fechaacceso=11 de diciembre de 2019|sitiowe...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "dfb631c718",
@@ -1384,11 +1392,13 @@
       "Tottenham",
       "West Ham"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Apelido de clube.",
-    "verificado_web": "wiki en: Chelsea F.C. (\"...ubname = Chelsea | image = Chelsea FC.svg | fullname = Chelsea Football Club | nickname = The Blues | founded = {{start date and age|df=yes|1905|3|10}} | ground = Stamford Bridge | capacity...\")"
+    "verificado_web": "wiki en: Chelsea F.C. (\"...ubname = Chelsea | image = Chelsea FC.svg | fullname = Chelsea Football Club | nickname = The Blues | founded = {{start date and age|df=yes|1905|3|10}} | ground = Stamford Bridge | capacity...\")",
+    "verificado_web_conferente": "wiki es: Chelsea Football Club (\"...200px | Nombre Completo = Chelsea Football Club | Apodo(s) = ''The Blues {{small|(Los Azules)}}''<ref name=\"apodo\">{{cita web|autor=|año=|url=https://www.pubquizhelp.com/sport/names.html|título=English Football Nicknames|editor=pubq...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "ece9d53874",
@@ -1402,16 +1412,19 @@
       "Manchester City",
       "Juventus"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "futebol",
     "obra_tema": "Craques, ídolos e Bola de Ouro",
     "motivo_dificuldade": "Ídolo e clube.",
-    "verificado_web": "wiki en: Lionel Messi (\"...als1 = 5 | years2 = 2004-2005 | clubs2 = Barcelona B | caps2 = 22 | goals2 = 6 | years3 = 2004-2021 | clubs3 = Barcelona | caps3 = 520 | goals3 = 474 | years4 = 2021-2023 | clubs4 = Paris Saint-Germain | caps4...\")"
+    "verificado_web": "wiki en: Lionel Messi (\"...als1 = 5 | years2 = 2004-2005 | clubs2 = Barcelona B | caps2 = 22 | goals2 = 6 | years3 = 2004-2021 | clubs3 = Barcelona | caps3 = 520 | goals3 = 474 | years4 = 2021-2023 | clubs4 = Paris Saint-Germain | caps4...\")",
+    "verificado_web_conferente": "wiki es: Lionel Messi (\"...agosto de 2005 | número_selección = | equipos = * F. C. Barcelona (2004-2021) * [[Paris Saint-Germain Football Club|Paris Saint-Germain F. C.]] (2021-2023) * Inter Miami (2023-presente) | categorías = | medallas = {{Medalla deportiva|[[F...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: a 002#76 (\"o Barcelona de Messi, Suárez e Neymar\") e a v12:7031 (\"Messi no Barcelona de Guardiola\") entregam a resposta"
   },
   {
     "id": "fa6588ee64",
     "categoria": "Esportes",
-    "dificuldade": "facil",
+    "dificuldade": "medio",
     "pergunta": "Qual atacante ucraniano bateu o pênalti do título do Milan na final da Champions de 2003?",
     "resposta": "Andriy Shevchenko",
     "alternativas": [
@@ -1420,17 +1433,20 @@
       "Andriy Shevchenko",
       "Andriy Voronin"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Herói de final.",
-    "verificado_web": "wiki en: 2003 UEFA Champions League final (\"...dze's shot. Alessandro Nesta then scored for Milan and Alessandro Del Piero for Juventus, Shevchenko then had the chance to score the decisive penalty, and did; Milan won by a score of 3-2. This gave Milan their sixth European Cup, nine ye...\")"
+    "verificado_web": "wiki en: 2003 UEFA Champions League final (\"...dze's shot. Alessandro Nesta then scored for Milan and Alessandro Del Piero for Juventus, Shevchenko then had the chance to score the decisive penalty, and did; Milan won by a score of 3-2. This gave Milan their sixth European Cup, nine ye...\")",
+    "verificado_web_conferente": "wiki es: Final de la Liga de Campeones de la UEFA 2002-03 (\"...l Piero, no puede fallar, y no lo hace ante Dida. Shevchenko es el siguiente y, en el caso de anotar, proclamaría campeón al Milan; el ucraniano bate con tranquilidad a Buffon con un lanzamiento ajustado al palo. Paolo Maldini levantó l...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "dificuldade_ajuste": "facil->medio: pênalti do título de final de Champions antiga, como gol em final de Champions na r3a"
   },
   {
     "id": "9843554dc0",
     "categoria": "Esportes",
     "dificuldade": "facil",
-    "pergunta": "Qual clube colombiano a Chapecoense enfrentaria na final da Sul-Americana de 2016?",
+    "pergunta": "Qual clube colombiano disputaria a final da Sul-Americana de 2016, que não chegou a ser jogada por causa de uma tragédia aérea?",
     "resposta": "Atlético Nacional",
     "alternativas": [
       "Millonarios",
@@ -1438,11 +1454,15 @@
       "Junior Barranquilla",
       "Atlético Nacional"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Libertadores e Sul-Americana",
     "motivo_dificuldade": "Fato marcante.",
-    "verificado_web": "wiki en: 2016 Copa Sudamericana Finals (\"...inals | other_titles = 2016 Copa Sul-Americana | event = 2016 Copa Sudamericana | team1 = Atlético Nacional | team1association = | team1score = | team2 = Chapecoense | team2association = | team2sco...\")"
+    "verificado_web": "wiki en: 2016 Copa Sudamericana Finals (\"...inals | other_titles = 2016 Copa Sul-Americana | event = 2016 Copa Sudamericana | team1 = Atlético Nacional | team1association = | team1score = | team2 = Chapecoense | team2association = | team2sco...\")",
+    "verificado_web_conferente": "wiki es: Copa Sudamericana 2016 (\"...L}}</ref> <small>({{ord|1.|er}} título)</small> | subcampeón = {{bandera|COL}} [[Atlético Nacional]] | semifinalistas = {{bandera|ARG}} [[Club Atlético San Lorenzo de Almagro|San Lorenzo]]<br />{{bandera|PAR}} [[Club Cerro...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Qual clube colombiano a Chapecoense enfrentaria na final da Sul-Americana de 2016?",
+    "ajuste_enunciado": "o texto dizia que a Chapecoense era finalista, o que entregava a 003#50"
   },
   {
     "id": "ac3a4b8928",
@@ -1456,11 +1476,13 @@
       "Bélgica",
       "País de Gales"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Adversário de final muito lembrada.",
-    "verificado_web": "wiki en: UEFA Euro 2016 final (\"...ch was played at the Stade de France in Paris, France, on 10 July 2016, and was contested between Portugal and hosts France. The 24-team tournament began with a group stage, from which 16 teams qualified for the k...\")"
+    "verificado_web": "wiki en: UEFA Euro 2016 final (\"...ch was played at the Stade de France in Paris, France, on 10 July 2016, and was contested between Portugal and hosts France. The 24-team tournament began with a group stage, from which 16 teams qualified for the k...\")",
+    "verificado_web_conferente": "wiki es: Final de la Eurocopa 2016 (\"...tó a [[Selección de fútbol de Portugal|Portugal]] con la selección anfitriona, [[Selección de fútbol de Francia|Francia]]. El torneo, compuesto por 24 equipos, comenzó con una fase de grupos de la que 16 selecciones se clasificaron para...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "f45e8cbdae",
@@ -1474,17 +1496,19 @@
       "Edmundo",
       "Denílson"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Momento marcante.",
-    "verificado_web": "wiki en: 1998 FIFA World Cup final (\"...naldo's name reinstated. It was disclosed several years later that Ronaldo had suffered a convulsive fit on the afternoon of the final, had lost consciousness and spent three hours in hos...\")"
+    "verificado_web": "wiki en: 1998 FIFA World Cup final (\"...naldo's name reinstated. It was disclosed several years later that Ronaldo had suffered a convulsive fit on the afternoon of the final, had lost consciousness and spent three hours in hos...\")",
+    "verificado_web_conferente": "wiki es: Final de la Copa Mundial de Fútbol de 1998 (\"...ló que el delantero había sufrido un [[Convulsión|ataque convulsivo]] la tarde de la final, que lo llevó a perder el conocimiento y pasar tres horas en el hospital, pero que poco antes del comienzo manifestó que quería jugar el...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "3af5c82e8d",
     "categoria": "Esportes",
     "dificuldade": "facil",
-    "pergunta": "Qual atacante ganhou o apelido de \"Coração Valente\" e foi artilheiro no Athletico e no Fluminense?",
+    "pergunta": "Qual atacante ganhou o apelido de \"Coração Valente\" por ter voltado a jogar depois de um problema cardíaco?",
     "resposta": "Washington",
     "alternativas": [
       "Fred",
@@ -1492,11 +1516,15 @@
       "Washington",
       "Romário"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki pt: Washington Stecanela Cerqueira (\"...l = Brasília, Distrito Federal |paisnatal = Brasil |nacionalidade = {{BRAn|o}} |apelido = Coração Valente |altura = 1,90 m |pé = destro |actualclube = aposentado |posição = centroavante |função =...\")"
+    "verificado_web": "wiki pt: Washington Stecanela Cerqueira (\"...l = Brasília, Distrito Federal |paisnatal = Brasil |nacionalidade = {{BRAn|o}} |apelido = Coração Valente |altura = 1,90 m |pé = destro |actualclube = aposentado |posição = centroavante |função =...\")",
+    "verificado_web_conferente": "wiki es: Washington Stecanela Cerqueira (\"...|nombrecompleto = Washington Stecanela Cerqueira |apodo = Coração Valente<ref>{{Cita web|url=https://www.lance.com.br/fora-de-campo/washington-sobre-dia-que-descobriu-problema-cardiaco-dos-mais-dificeis-minha-vida.html|autor=https://...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Qual atacante ganhou o apelido de \"Coração Valente\" e foi artilheiro no Athletico e no Fluminense?",
+    "ajuste_enunciado": "\"artilheiro no Athletico\" apontava a v12:3008 (Washington, artilheiro de 2004 pelo Athletico)"
   },
   {
     "id": "4f7ffe835e",
@@ -1510,11 +1538,13 @@
       "2 a 0",
       "2 a 1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Libertadores e Sul-Americana",
     "motivo_dificuldade": "Placar de final.",
-    "verificado_web": "wiki en: 2021 Copa Libertadores final (\"...ideo2021.png | caption = Match programme cover | team1 = Palmeiras | team1association = | team1score = 2 | team2 = Flamengo | team2association = | team2score = 1 | details = After extra time | d...\")"
+    "verificado_web": "wiki en: 2021 Copa Libertadores final (\"...ideo2021.png | caption = Match programme cover | team1 = Palmeiras | team1association = | team1score = 2 | team2 = Flamengo | team2association = | team2score = 1 | details = After extra time | d...\")",
+    "verificado_web_conferente": "wiki es: Anexo:Final de la Copa Libertadores 2021 (\"...so=30 de septiembre de 2021}}</ref> El ''verdão'' derrotó 2-1 al ''mengão'' en el [[Prórroga (deporte)|tiempo suplementario]] tras empatar 1-1 en los 90 minutos. De esa manera Palmeiras logró su tercer título de Copa Libe...\") | wiki de: Copa Libertadores 2021 (\"...Janeiro|CR Flamengo]] ausgetragen, das Palmeiras mit 2:1 nach Verlängerung gewinnen konnte und nach 1999 und im Vorjahr seinen dritten Titel feierte. == Teilnehmende Mannschaften == Die folgenden Mannschaften nahmen an der Copa Libert...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "5bc8f4ecb1",
@@ -1528,11 +1558,13 @@
       "19",
       "22"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki en: Manchester United F.C. (\"...onship with a 1-1 away draw against Blackburn Rovers on 14 May 2011. This was extended to 20 league titles in 2012-13, securing the championship with a 3-0 home win against Aston Villa on 22 April...\")"
+    "verificado_web": "wiki en: Manchester United F.C. (\"...onship with a 1-1 away draw against Blackburn Rovers on 14 May 2011. This was extended to 20 league titles in 2012-13, securing the championship with a 3-0 home win against Aston Villa on 22 April...\")",
+    "verificado_web_conferente": "wiki es: Manchester United Football Club (\"...hester United ha obtenido un récord compartido de 20 títulos de liga,<ref>{{Cita web|url=http://www.rsssf.com/tablese/engchamp.html|título=England - List of Champions|fechaacceso=2022-04-30|autor=James M. Ross|editor=Rec.Sport.S...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "8a4997f96c",
@@ -1546,11 +1578,13 @@
       "10",
       "7"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Seleção, Copa América e Eliminatórias",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki en: Brazil national football team (\"...13) | Regional name = Copa América | Regional cup apps = 38 | Regional cup first = 1916 | Regional cup best = Champions (1919, 1922, 1949, 1989, 1997, 1999, 2004, 2007, 2019) | 2ndRegional name = Panamerican Championship | 2ndRegional cup apps = 3 | 2ndRegional cu...\")"
+    "verificado_web": "wiki en: Brazil national football team (\"...13) | Regional name = Copa América | Regional cup apps = 38 | Regional cup first = 1916 | Regional cup best = Champions (1919, 1922, 1949, 1989, 1997, 1999, 2004, 2007, 2019) | 2ndRegional name = Panamerican Championship | 2ndRegional cup apps = 3 | 2ndRegional cu...\")",
+    "verificado_web_conferente": "wiki es: Copa América (\"...eciséis títulos; seguido por Uruguay, con quince; Brasil, nueve; Perú, Paraguay y Chile, dos; y Bolivia y Colombia, uno.<ref>{{cita web |url=https://www.emol.com/noticias/Deportes/2019/07/07/953765/Brasil-alcanzo-su-novena-...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "7cb2eee3a1",
@@ -1564,11 +1598,13 @@
       "3",
       "5"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Libertadores e Sul-Americana",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki en: São Paulo FC (\"...e second leg, at the Morumbi, São Paulo won 4-0 to become the first Brazilian club to win three Copa Libertadores titles. In December 2005, São Paulo competed in the FIFA Club World Championship in Japan...\")"
+    "verificado_web": "wiki en: São Paulo FC (\"...e second leg, at the Morumbi, São Paulo won 4-0 to become the first Brazilian club to win three Copa Libertadores titles. In December 2005, São Paulo competed in the FIFA Club World Championship in Japan...\")",
+    "verificado_web_conferente": "wiki es: São Paulo Futebol Clube (\"...les]], una [[Copa Mundial de Clubes de la FIFA]], tres [[Copa Libertadores de América|Copas Libertadores]], dos [[Recopa Sudamericana|Recopas Sudamericanas]], una [[Copa Sudamericana]],<ref>{{Cita web|url=http://glob...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "450723b798",
@@ -1582,16 +1618,18 @@
       "7",
       "6"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki en: Liverpool F.C. (\"...ue Cups and sixteen FA Community Shields. In international competitions, the club has won six European Cups, three UEFA Cups, four UEFA Super Cups-all English records-and one FIFA Club World Cup. L...\")"
+    "verificado_web": "wiki en: Liverpool F.C. (\"...ue Cups and sixteen FA Community Shields. In international competitions, the club has won six European Cups, three UEFA Cups, four UEFA Super Cups-all English records-and one FIFA Club World Cup. L...\")",
+    "verificado_web_conferente": "wiki es: Liverpool Football Club (\"...a de Inglaterra 2025-26|1/8 final]] | '''10 | | [[Liga de Campeones de la UEFA 2025-26|1/4 final]] | 6 |liga=0|copa=4|copa2=|copa3=0|europa1=8 | país=Inglaterra1 | supercopa=sí | torneoeuropeo=tier1 }} <!-- Actualidad --> | actualidad = {{Lista de...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "c0a87574b4",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Qual goleiro foi o titular do Brasil na Copa de 2006?",
     "resposta": "Dida",
     "alternativas": [
@@ -1600,11 +1638,14 @@
       "Rogério Ceni",
       "Marcos"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Escalação.",
-    "verificado_web": "wiki en: 2006 FIFA World Cup knockout stage (\"...style='font-size: 90%' cellspacing='0' cellpadding='0' |- !width='25'| !!width='25'| |- |GK ||1 ||Dida |- |RB ||2 ||Cafu (c) |- |CB ||3 ||Lúcio |- |CB ||4 ||Juan || {{yel|44}} |- |LB ||6 ||Rob...\")"
+    "verificado_web": "wiki en: 2006 FIFA World Cup knockout stage (\"...style='font-size: 90%' cellspacing='0' cellpadding='0' |- !width='25'| !!width='25'| |- |GK ||1 ||Dida |- |RB ||2 ||Cafu (c) |- |CB ||3 ||Lúcio |- |CB ||4 ||Juan || {{yel|44}} |- |LB ||6 ||Rob...\")",
+    "verificado_web_conferente": "wiki de: Fußball-Weltmeisterschaft 2006/Gruppe F (\"...HEIM NAME = '''Brasilien''' | HEIM FLAGGE = BRA | HEIM SPIELER = [[Dida (Fußballspieler, 1973)|Dida]] - [[Cafu]] {{Kapitän}}, [[Lúcio]], [[Juan (Fußballspieler, 1979)|Juan]], [[Roberto Carlos]] - [[Emerson (Fußballspieler, 1976)|Em...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "dificuldade_ajuste": "dificil->medio: goleiro titular de Copa recente, como goleiro titular na r3a"
   },
   {
     "id": "d65f9da4d1",
@@ -1618,11 +1659,13 @@
       "2 a 1",
       "3 a 1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Placar de jogo não decisivo.",
-    "verificado_web": "wiki en: 2014 FIFA World Cup Group A (\"...|23|df=y}} |time=17:00 BRT (UTC−3) |team1= |score={{score link|2014 FIFA World Cup Group A#Cameroon vs Brazil|1-4}} |team2= |goals1= *Matip {{goal|26}} |goals2= *Neymar {{goal|17||35}} *Fred {{goal|49}}...\")"
+    "verificado_web": "wiki en: 2014 FIFA World Cup Group A (\"...|23|df=y}} |time=17:00 BRT (UTC−3) |team1= |score={{score link|2014 FIFA World Cup Group A#Cameroon vs Brazil|1-4}} |team2= |goals1= *Matip {{goal|26}} |goals2= *Neymar {{goal|17||35}} *Fred {{goal|49}}...\")",
+    "verificado_web_conferente": "wiki es: Anexo:Grupo A de la Copa Mundial de Fútbol de 2014 (\"...onsecutivas ante mexicanos (0:1), croatas (0:4) y brasileños (1:4). Tras el fin de su participación, se inició una investigación en Camerún sobre posibles arreglos de los partidos disputados por su selección.<ref>{{cita notici...\") | wiki de: Fußball-Weltmeisterschaft 2014/Gruppe A (\"...ocks = 0000CD }} == {{Anker|Kamerun - Brasilien}} Kamerun - Brasilien 1:4 (1:2) == {{Fußball Gruppenspiel | HEIM NAME = Kamerun | GAST NAME = '''Brasilien''' | HEIM FLAGGE = CMR | GAST FLAGGE = BRA | SPIELTAG = 3. Spieltag | ORT = [[...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "1f9b3f593a",
@@ -1636,11 +1679,13 @@
       "1940",
       "1925"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Ano exato.",
-    "verificado_web": "wiki pt: Estádio do Pacaembu (\"...|remodelado= 2007 e 2021- |expandido= 1958 e 1970 |fechado= Várias vezes |demolido= |datainauguração= {{dtlink|27|4|1940}} |jogoinauguração= Palestra Itália 6-2 {{Futebol Coritiba}} |1ogol= Zequinha ({{Futebol...\")"
+    "verificado_web": "wiki pt: Estádio do Pacaembu (\"...|remodelado= 2007 e 2021- |expandido= 1958 e 1970 |fechado= Várias vezes |demolido= |datainauguração= {{dtlink|27|4|1940}} |jogoinauguração= Palestra Itália 6-2 {{Futebol Coritiba}} |1ogol= Zequinha ({{Futebol...\")",
+    "verificado_web_conferente": "wiki es: Estadio Pacaembú (\"...aarchivo=4 de octubre de 2011}}</ref> | costo = | inauguración = 28 de abril de 1940 ({{edad|28|04|1940}}) | demolición = | superficie = Hierba | capacidad = 25&nbsp;550 | dimensiones = 105 × 68 m | dueño = {{Escudo|São Paulo...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "206fef0f3e",
@@ -1654,11 +1699,13 @@
       "Luizão",
       "Paulo Nunes"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "Artilheiro antigo.",
-    "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1996 - Série A (\"...ados = * Não houve Rebaixamento por conta de um suposto esquema de suborno na arbitragem |artilheiro = 16 gols: * Paulo Nunes ({{Futebol Grêmio}}) * Renaldo ({{Futebol Atlético-MG}}) |melhor_ataque = 42 gols: * {{Fu...\")"
+    "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1996 - Série A (\"...ados = * Não houve Rebaixamento por conta de um suposto esquema de suborno na arbitragem |artilheiro = 16 gols: * Paulo Nunes ({{Futebol Grêmio}}) * Renaldo ({{Futebol Atlético-MG}}) |melhor_ataque = 42 gols: * {{Fu...\")",
+    "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 1996 (\"...ll|(2,71 por partido)}} |est_nombre1 = [[Goleador|Máximo goleador]] |est1 = {{bandera|BRA}} [[Paulo Nunes]] ([[Grêmio Foot-Ball Porto Alegrense|Grêmio]]),<br/> {{bandera|BRA}} [[Renaldo Lopes da Cruz|Renaldo]] ([[Atlético Min...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "b32b025f0d",
@@ -1672,11 +1719,13 @@
       "Vitória",
       "Goiás"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "3º colocado.",
-    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2013 (\"...Gremio}} || 65 || 38 || 18 || 11 || 9 || 42 || 35 || +7 |- style='background:#AFEEEE;' | || 3. ||style='text-align:left;'| {{Calcio Atletico Paranaense}} || 64 || 38 || 18 || 10 || 10 || 65 || 49 || +16 |- style='background:#AFEEEE' | || 4. ||...\")"
+    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2013 (\"...Gremio}} || 65 || 38 || 18 || 11 || 9 || 42 || 35 || +7 |- style='background:#AFEEEE;' | || 3. ||style='text-align:left;'| {{Calcio Atletico Paranaense}} || 64 || 38 || 18 || 10 || 10 || 65 || 49 || +16 |- style='background:#AFEEEE' | || 4. ||...\")",
+    "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2013 (\"...ur}} [[Grêmio Foot-Ball Porto Alegrense|Grêmio]] |tercero = {{bandera|Paraná}} [[Clube Atlético Paranaense|Atlético Paranaense]] |cuarto = {{bandera|Río de Janeiro}} [[Botafogo de Futebol e Regatas|Botafogo]] |participan...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "6955e9185b",
@@ -1690,11 +1739,13 @@
       "Bodo Illgner",
       "Santiago Cañizares"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Detalhe de final.",
-    "verificado_web": "wiki en: 2002 UEFA Champions League final (\"...|CF ||7 || Raúl |- |CF ||9 || Fernando Morientes |- |colspan=3|Substitutes: |- |GK ||1 || Iker Casillas || || {{subon|68}} |- |DF ||18|| Aitor Karanka |- |DF ||31|| Francisco Pavón |- |MF ||8 || Steve McManaman...\")"
+    "verificado_web": "wiki en: 2002 UEFA Champions League final (\"...|CF ||7 || Raúl |- |CF ||9 || Fernando Morientes |- |colspan=3|Substitutes: |- |GK ||1 || Iker Casillas || || {{subon|68}} |- |DF ||18|| Aitor Karanka |- |DF ||31|| Francisco Pavón |- |MF ||8 || Steve McManaman...\")",
+    "verificado_web_conferente": "wiki es: Final de la Liga de Campeones de la UEFA 2001-02 (\"...l mejor gol en la historia de la Champions]</ref> Casillas, mientras, veía el partido desde la banca hasta que, en el minuto 68, Lucio lesionó a [[César Sánchez Domínguez|César]] con una pisada y Casillas tuvo que ingresar. El B...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "43fa773375",
@@ -1708,11 +1759,13 @@
       "Juventus",
       "Lazio"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Apelido de clube.",
-    "verificado_web": "wiki en: Juventus FC (\"...} (The Dame)<br />{{lang|it|La Fidanzata d'Italia}} (Italy's Sweetheart)<br />{{lang|it|I Bianconeri}} (The White and Blacks){{efn|The literal translation of {{lang|it|bianconeri}} is 'white...\")"
+    "verificado_web": "wiki en: Juventus FC (\"...} (The Dame)<br />{{lang|it|La Fidanzata d'Italia}} (Italy's Sweetheart)<br />{{lang|it|I Bianconeri}} (The White and Blacks){{efn|The literal translation of {{lang|it|bianconeri}} is 'white...\")",
+    "verificado_web_conferente": "wiki es: Juventus Football Club (\"...'' {{small|(Las Cebras)}},<ref name=\"apodos\"/><br>''I Bianconeri'' {{small|(Los Blanquinegros)}},<ref>{{Cita web|año=2008|url=http://www.juventus.com/site/ita/NEWS_newseventi_77FE1963AD5B49E5A61CB2289BF9F331.asp|título=Alex, s...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "0bb591526e",
@@ -1726,11 +1779,13 @@
       "Roma",
       "Inter de Milão"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Craques, ídolos e Bola de Ouro",
     "motivo_dificuldade": "Craque e clube.",
-    "verificado_web": "wiki en: Ronaldo (Brazilian footballer) (\"...nd was forced to limp off the field. A medical examination confirmed that the striker had ruptured a tendon in his knee and would require surgery. During his first comeback on 12 April 2000, he played only six...\")"
+    "verificado_web": "wiki en: Ronaldo (Brazilian footballer) (\"...nd was forced to limp off the field. A medical examination confirmed that the striker had ruptured a tendon in his knee and would require surgery. During his first comeback on 12 April 2000, he played only six...\")",
+    "verificado_web_conferente": "wiki es: Ronaldo Nazário (\"...mporada 1999-2000, Ronaldo sufrió una falta en un Inter-Lecce que lo lesionó de gravedad de la rodilla derecha, rompiéndole parcialmente el [[tendón rotuliano]] de la rodilla derecha, por lo que estuvo seis meses de baja....\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "f335cdbd93",
@@ -1744,16 +1799,18 @@
       "Gabriel Batistuta",
       "Fernando Redondo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Fato marcante.",
-    "verificado_web": "wiki en: Diego Maradona (\"...World Cup === At the 1994 World Cup in the United States, Maradona failed a drug test for ephedrine and was expelled from the tournament for doping after two games. In the first game, he sc...\")"
+    "verificado_web": "wiki en: Diego Maradona (\"...World Cup === At the 1994 World Cup in the United States, Maradona failed a drug test for ephedrine and was expelled from the tournament for doping after two games. In the first game, he sc...\")",
+    "verificado_web_conferente": "wiki es: Diego Maradona (\"...olvería a dar positivo en drogas al encontrarse [[efedrina]] en sus muestras, siendo expulsado de la competición, lo que contribuyó a la posterior eliminación de Argentina en octavos de final.<ref>{{Cita web|url=https:...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "b6b1bcd020",
     "categoria": "Esportes",
-    "dificuldade": "facil",
+    "dificuldade": "medio",
     "pergunta": "Qual atacante francês fez o gol de ouro do título da França na final da Eurocopa de 2000?",
     "resposta": "David Trezeguet",
     "alternativas": [
@@ -1762,16 +1819,19 @@
       "Sylvain Wiltord",
       "Zinedine Zidane"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Gol do título.",
-    "verificado_web": "wiki en: UEFA Euro 2000 final (\"...e match to extra time. Just two minutes before the interval in extra time, France's David Trezeguet would half-volley the ball into the top corner, netting a golden goal that confirmed Fran...\")"
+    "verificado_web": "wiki en: UEFA Euro 2000 final (\"...e match to extra time. Just two minutes before the interval in extra time, France's David Trezeguet would half-volley the ball into the top corner, netting a golden goal that confirmed Fran...\")",
+    "verificado_web_conferente": "wiki es: Final de la Eurocopa 2000 (\"...{{gol|90+4}}<br />[[David Trezeguet|Trezeguet]] {{gol de oro|103}} |golesvisita = [[Marco Delvecchio|Delvecchio]] {{gol|55}} |prórroga = sí |resultado prórroga=1:0 |suceso = }} {| width=100% |width=17%|{{Football kit | patte...\") | wiki de: Fußball-Europameisterschaft 2000/Finalrunde (\"...a]] (72. [[Sylvain Wiltord]]), [[Thierry Henry]] (105. [[David Trezeguet]]) | HEIM TRAINER = [[Roger Lemerre]] | GAST SPIELER = [[Vítor Baía]] {{Kapitän}} - [[Abel Xavier]], [[Jorge Costa]], [[Fernando Couto]], [[Dimas Teixeira|Dima...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "dificuldade_ajuste": "facil->medio: gol de final de Eurocopa antiga, pouco lembrado pelo torcedor brasileiro"
   },
   {
     "id": "abb49af755",
     "categoria": "Esportes",
-    "dificuldade": "facil",
+    "dificuldade": "medio",
     "pergunta": "Qual craque do Flamengo ganhou o apelido de \"Pelé Branco\"?",
     "resposta": "Zico",
     "alternativas": [
@@ -1780,11 +1840,14 @@
       "Zico",
       "Tita"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki pt: Zico (\"...RAn|o}}<br>{{PORn|o}} |altura = 1,72 m |pé = ambidestro |apelido = Galinho de Quintino<br>Pelé Branco<br>{{Tooltip|サッカーの神様|sakka-no kamisama}} {{pequeno|(Deus do futebol, em japonês)}}<br>Kra...\")"
+    "verificado_web": "wiki pt: Zico (\"...RAn|o}}<br>{{PORn|o}} |altura = 1,72 m |pé = ambidestro |apelido = Galinho de Quintino<br>Pelé Branco<br>{{Tooltip|サッカーの神様|sakka-no kamisama}} {{pequeno|(Deus do futebol, em japonês)}}<br>Kra...\")",
+    "verificado_web_conferente": "wiki de: Zico (\"...und [[Fußballtrainer|-trainer]]. Zico wurde der „weiße [[Pelé]]“ genannt und war einer der populärsten Spieler Brasiliens der 1970er- und 1980er-Jahre. In 71 Länderspielen schoss der beidfüßig gleich stark spielend...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "dificuldade_ajuste": "facil->medio: apelido menos conhecido do Zico (o famoso é Galinho de Quintino, já no banco)"
   },
   {
     "id": "7a6caab71f",
@@ -1798,11 +1861,13 @@
       "Icasa",
       "Ceará"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Apelido de clube.",
-    "verificado_web": "wiki pt: Ceará Sporting Club (\"...x<!-- Resolução da imagem, o padrão é 120px --> | nomeabrev = Ceará | alcunhas = Vozão<br>Vovô<br>Alvinegro de Porangabuçu<br>Time do Povo<br>O Mais Querido | torcedor = alvinegro | ma...\")"
+    "verificado_web": "wiki pt: Ceará Sporting Club (\"...x<!-- Resolução da imagem, o padrão é 120px --> | nomeabrev = Ceará | alcunhas = Vozão<br>Vovô<br>Alvinegro de Porangabuçu<br>Time do Povo<br>O Mais Querido | torcedor = alvinegro | ma...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: repete a v12:2968 (\"Vozão\" do Ceará, o mesmo apelido) e \"Vovô\" ainda colide com a v12:2878 (Clássico Vovô, Fluminense x Botafogo)"
   },
   {
     "id": "393ce14f2e",
@@ -1816,16 +1881,18 @@
       "Mario Mandžukić",
       "Mario Götze"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Craques, ídolos e Bola de Ouro",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki en: Mario Balotelli (\"...urce = -Mourinho recalls Balotelli's dismissal in October 2012 }} Balotelli is nicknamed 'Super Mario' after the Italian video game character Mario from the iconic Nintendo series. Balotelli...\")"
+    "verificado_web": "wiki en: Mario Balotelli (\"...urce = -Mourinho recalls Balotelli's dismissal in October 2012 }} Balotelli is nicknamed 'Super Mario' after the Italian video game character Mario from the iconic Nintendo series. Balotelli...\")",
+    "verificado_web_conferente": "wiki es: Mario Balotelli (\"...196 |fechaarchivo= 11 de abril de 2012 }}</ref> | apodo = ''Super Mario<ref>{{Cita web |año= 2012 |url= http://www.gazzetta.it/Europei/2012/28-06-2012/super-mario-nuovo-eroe-d-italia-in-finale-spero-fare-4-gol-911671774563.shtml |t...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "ce20c6f5c3",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
+    "dificuldade": "medio",
     "pergunta": "Quantos títulos mundiais de clubes (Intercontinental e Mundial da FIFA) o São Paulo conquistou?",
     "resposta": "3",
     "alternativas": [
@@ -1834,11 +1901,14 @@
       "4",
       "1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki en: São Paulo FC (\"...f the Big Twelve of Brazilian football, South America's biggest worldwide champion - with three world titles, along Boca Juniors, Peñarol, and Nacional - and one of the only two clubs that ha...\")"
+    "verificado_web": "wiki en: São Paulo FC (\"...f the Big Twelve of Brazilian football, South America's biggest worldwide champion - with three world titles, along Boca Juniors, Peñarol, and Nacional - and one of the only two clubs that ha...\")",
+    "verificado_web_conferente": "wiki es: São Paulo Futebol Clube (\"...es uno de los clubes más laureados de [[Brasil]], con dos [[Copa Intercontinental|Copas Intercontinentales]], una [[Copa Mundial de Clubes de la FIFA]], tres [[Copa Libertadores de América|Copas Libertadores]], dos [[Re...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "dificuldade_ajuste": "dificil->medio: \"tricampeão mundial\" é número famoso, slogan do clube"
   },
   {
     "id": "d4857e2b9b",
@@ -1852,11 +1922,13 @@
       "Deportivo La Coruña",
       "Celta de Vigo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Campeão de liga antigo.",
-    "verificado_web": "wiki en: 1999-2000 La Liga (\"...etition = La Liga | season = 1999-2000 | dates = 21 August 1999 - 20 May 2000 | winners = Deportivo La Coruña<br />1st title | relegated = Real Betis<br />Atlético Madrid<br />Sevilla | continentalcup1 = Champions...\")"
+    "verificado_web": "wiki en: 1999-2000 La Liga (\"...etition = La Liga | season = 1999-2000 | dates = 21 August 1999 - 20 May 2000 | winners = Deportivo La Coruña<br />1st title | relegated = Real Betis<br />Atlético Madrid<br />Sevilla | continentalcup1 = Champions...\")",
+    "verificado_web_conferente": "wiki es: Primera División de España 1999-2000 (\"...1999<br />20 de mayo de 2000 |participantes = 20 |primero = {{bandera|tamaño=15px|Galicia}} '''[[Real Club Deportivo de La Coruña|R. C. Deportivo de La Coruña]] (1)''' |segundo = {{bandera|tamaño=15px|Cataluña}} [[Fútbol...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "f9aa6f2e2d",
@@ -1870,17 +1942,19 @@
       "4 a 0",
       "7 a 0"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Placar de jogo não decisivo.",
-    "verificado_web": "wiki en: 2010 FIFA World Cup Group G (\"...date|2010|6|21|df=y}} |time=13:30 |team1= |score={{score link|2010 FIFA World Cup Group G#Portugal vs North Korea|7-0}} |team2= |goals1= *Meireles {{goal|29}} *Simão {{goal|53}} *Almeida {{goal|56}} *Tiago {...\")"
+    "verificado_web": "wiki en: 2010 FIFA World Cup Group G (\"...date|2010|6|21|df=y}} |time=13:30 |team1= |score={{score link|2010 FIFA World Cup Group G#Portugal vs North Korea|7-0}} |team2= |goals1= *Meireles {{goal|29}} *Simão {{goal|53}} *Almeida {{goal|56}} *Tiago {...\")",
+    "verificado_web_conferente": "wiki es: Anexo:Grupo G de la Copa Mundial de Fútbol de 2010 (\"...orte = fútbol |local = Portugal |paíslocal = POR |resultado = 7:0''' (1:0) |visita = Corea del Norte |paísvisita = PRK |fecha = {{fecha|21|6|}}, 13:30 |estadio = [[Estadio Green Point]] |ciudad = [[Ciudad del Cabo]] |asistenc...\") | wiki de: Fußball-Weltmeisterschaft 2010/Gruppe G (\"...YER OF THE MATCH = Luís Fabiano (Brasilien) }} == Portugal - Nordkorea 7:0 (1:0) {{Anker|Portugal - Nordkorea}} == {{Fußball Gruppenspiel | HEIM NAME = '''Portugal''' | GAST NAME = Nordkorea | HEIM FLAGGE = POR | HEIM pattern_la = _po...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "eccb702a1f",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Por qual placar terminou o primeiro jogo da final da Copa do Brasil de 2006, entre Flamengo e Vasco?",
+    "pergunta": "Por qual placar terminou o primeiro jogo da final da Copa do Brasil de 2006?",
     "resposta": "2 a 0",
     "alternativas": [
       "2 a 0",
@@ -1888,17 +1962,21 @@
       "1 a 0",
       "3 a 0"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Brasil e estaduais",
     "motivo_dificuldade": "Placar exato.",
-    "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2006 (\"...== {{Artigo principal|Final da Copa do Brasil de Futebol de 2006}} {{footballbox | data = 19 de julho | hora = 21:45 (UTC−3) | time1 = {{Futebol Flamengo|estado=depois}} | placar = 2 - 0 | report = [http://futpedia.globo.com/campeonato/copa-do-brasil/2006/07/19/flamengo-2-x-0...\")"
+    "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2006 (\"...== {{Artigo principal|Final da Copa do Brasil de Futebol de 2006}} {{footballbox | data = 19 de julho | hora = 21:45 (UTC−3) | time1 = {{Futebol Flamengo|estado=depois}} | placar = 2 - 0 | report = [http://futpedia.globo.com/campeonato/copa-do-brasil/2006/07/19/flamengo-2-x-0...\")",
+    "verificado_web_conferente": "wiki es: Copa de Brasil 2006 (\"...brasil/2006/05/17/vasco-1-x-1-fluminense }} <br/> === Final === {{Partidos |local = [[Clube de Regatas do Flamengo|Flamengo]] {{bandera|Río de Janeiro}} |resultado = 2:0''' (0:0) |visita = {{bandera|Río de Janeiro}} [[Club...\") | wiki en: 2006 Copa do Brasil (\"...| RD5-team04=Fluminense (RJ) | RD5-score04=0 1 | RD6-team01='''Flamengo (RJ)''' | RD6-score01=2 1 | RD6-team02=Vasco (RJ) | RD6-score02=0 0 }} ==Finals== {{footballbox |date = July 19, 2006 |time = 21:45 |team1 = [[Clube...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Por qual placar terminou o primeiro jogo da final da Copa do Brasil de 2006, entre Flamengo e Vasco?",
+    "ajuste_enunciado": "o texto dizia Flamengo e Vasco, e entregava a 002#67"
   },
   {
     "id": "335e1ad385",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Qual clube ganhou o Campeonato Francês de 2010/11, interrompendo uma série de Lyon e Bordeaux?",
+    "pergunta": "Qual clube ganhou o Campeonato Francês de 2010/11?",
     "resposta": "Lille",
     "alternativas": [
       "Olympique de Marselha",
@@ -1906,29 +1984,44 @@
       "PSG",
       "Montpellier"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Campeão de liga antigo.",
-    "verificado_web": "wiki en: 2010-11 Ligue 1 (\"...|competition = Ligue 1 |season = 2010-11 | dates = 7 August 2010 - 29 May 2011 |winners = Lille<br>3rd Ligue 1 title<br>5th French title |relegated = Monaco<br />Lens<br />Arles-Avignon |continentalcup1 = Champions League |con...\")"
+    "verificado_web": "wiki en: 2010-11 Ligue 1 (\"...|competition = Ligue 1 |season = 2010-11 | dates = 7 August 2010 - 29 May 2011 |winners = Lille<br>3rd Ligue 1 title<br>5th French title |relegated = Monaco<br />Lens<br />Arles-Avignon |continentalcup1 = Champions League |con...\")",
+    "verificado_web_conferente": "wiki es: Ligue 1 2010-11 (\"...ll>El [[Lille Olympique Sporting Club|Lille OSC]] consiguió su cuarto título de Ligue 1.</small> |ubicación = {{Bandera2|Francia}} |fecha = 7 de agosto de 2010<br />29 de mayo de 2011 |edición = LXXIII |participantes = 20...\") | wiki de: Ligue 1 2010/11 (\"...tei:Ligue 1 (2008).svg|120px|Logo der Ligue 1]] | Meister = [[OSC Lille]] | UEFA Champions League = OSC Lille, [[Olympique Marseille]] | UEFA Champions League Quali = [[Olympique Lyon]] | Europa League = [[Paris Saint-Ge...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Qual clube ganhou o Campeonato Francês de 2010/11, interrompendo uma série de Lyon e Bordeaux?",
+    "ajuste_enunciado": "fato errado: a série antes de 2010/11 não foi só de Lyon e Bordeaux, o Olympique de Marselha (alternativa) foi campeão em 2009/10"
   },
   {
     "id": "0e88958b87",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Por qual placar o Real Madrid venceu a Juventus na final da Champions de 2017?",
+    "pergunta": "Por qual placar terminou a final da Champions de 2017, em Cardiff?",
     "resposta": "4 a 1",
     "alternativas": [
+      "3 a 1",
+      "2 a 1",
+      "4 a 1",
+      "4 a 2"
+    ],
+    "status": "conferida",
+    "subtema": "futebol",
+    "obra_tema": "Champions e ligas europeias",
+    "motivo_dificuldade": "Placar de final.",
+    "verificado_web": "wiki en: 2017 UEFA Champions League final (\"...e cover | event = 2016-17 UEFA Champions League | team1 = Juventus | team1association = | team1score = 1 | team2 = Real Madrid | team2association = | team2score = 4 | details = | date = {{Start date|2017|6|3|df=y}} | stadium = Millennium Stadium | city =...\")",
+    "verificado_web_conferente": "wiki en: 2017 UEFA Champions League final (\"...| team1association = {{fbaicon|ITA|size=30px}} | team1score = 1 | team2 = [[Real Madrid CF|Real Madrid]] | team2association = {{fbaicon|ESP|size=30px}} | team2score = 4 | details = | date = {{Start date|2017|6|3|df=y}} | st...\") | wiki es: Final de la Liga de Campeones de la UEFA 2016-17 (\"...gol|61}}<br/ > {{gol|64}}<br/ >{{gol|90}} | GOLES VISITA = [[Cristiano Ronaldo]]<br>[[Casemiro]]<br/ > [[Cristiano Ronaldo]]<br/ > [[Marco Asensio]] | RESULTADO GOLES VISITA = <!-- Cambios Equipo Local --> | NUM SUPL LOCAL 1 = &nbsp;&nbsp;7 | POS SUPL LO...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Por qual placar o Real Madrid venceu a Juventus na final da Champions de 2017?",
+    "ajuste_enunciado": "o texto dizia Real Madrid e Juventus, e entregava a 007#96",
+    "alternativas_originais": [
       "3 a 1",
       "2 a 0",
       "4 a 1",
       "3 a 0"
     ],
-    "status": "gerada",
-    "subtema": "futebol",
-    "obra_tema": "Champions e ligas europeias",
-    "motivo_dificuldade": "Placar de final.",
-    "verificado_web": "wiki en: 2017 UEFA Champions League final (\"...e cover | event = 2016-17 UEFA Champions League | team1 = Juventus | team1association = | team1score = 1 | team2 = Real Madrid | team2association = | team2score = 4 | details = | date = {{Start date|2017|6|3|df=y}} | stadium = Millennium Stadium | city =...\")"
+    "alternativas_trocadas": "a 007#75 diz que o time derrotado marcou; saíram 2 a 0 e 3 a 0 e entraram 2 a 1 e 4 a 2 (a certa ficou na mesma posição)"
   },
   {
     "id": "98fbf9db0e",
@@ -1942,11 +2035,13 @@
       "4 a 1",
       "3 a 0"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Placar de jogo não decisivo.",
-    "verificado_web": "wiki en: 1998 FIFA World Cup Group A (\"...16|df=y}} |time=21:00 CEST (UTC+2) |team1= |score={{score link|1998 FIFA World Cup Group A#Brazil vs Morocco|3-0}} |team2= |goals1= *Ronaldo {{goal|9}} *Rivaldo {{goal|45+2}} *Bebeto {{goal|50}} |goals2...\")"
+    "verificado_web": "wiki en: 1998 FIFA World Cup Group A (\"...16|df=y}} |time=21:00 CEST (UTC+2) |team1= |score={{score link|1998 FIFA World Cup Group A#Brazil vs Morocco|3-0}} |team2= |goals1= *Ronaldo {{goal|9}} *Rivaldo {{goal|45+2}} *Bebeto {{goal|50}} |goals2...\")",
+    "verificado_web_conferente": "wiki es: Anexo:Grupo A de la Copa Mundial de Fútbol de 1998 (\"...rte = fútbol |local = Brasil |paíslocal = Brasil |resultado = 3:0''' (2:0) |visita = Marruecos |paísvisita = Marruecos |fecha = 16 de junio de 1998, 21:00 |estadio = [[Estadio de la Beaujoire]] |ciudad = [[Nantes]] |asistenci...\") | wiki de: Fußball-Weltmeisterschaft 1998/Gruppe A (\"...kdal (53.), Berg (58.) | HEIM ROTE KARTEN = }} == Brasilien - Marokko 3:0 (2:0) == {{Fußball Gruppenspiel | HEIM NAME = '''Brasilien''' | GAST NAME = Marokko | HEIM FLAGGE = BRA | GAST FLAGGE = MAR | SPIELTAG = 2. Spieltag | ORT = [[...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "2806012add",
@@ -1960,11 +2055,13 @@
       "Holanda",
       "Suécia"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "3º colocado.",
-    "verificado_web": "wiki en: 1974 FIFA World Cup (\"...| venues = 9 | cities = 9 | champion = West Germany | count = 2 | second = Netherlands | third = Poland | third-flagvar = 1928 | fourth = Brazil | fourth-flagvar = 1968 | matches = 38 | goals =...\")"
+    "verificado_web": "wiki en: 1974 FIFA World Cup (\"...| venues = 9 | cities = 9 | champion = West Germany | count = 2 | second = Netherlands | third = Poland | third-flagvar = 1928 | fourth = Brazil | fourth-flagvar = 1968 | matches = 38 | goals =...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: repete a 007#19 (Polônia venceu o Brasil na disputa do 3º lugar de 1974)"
   },
   {
     "id": "2c136aa283",
@@ -1978,17 +2075,19 @@
       "1914",
       "1920"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Ano exato.",
-    "verificado_web": "wiki pt: Santos Futebol Clube (\"...os de Pelé *Santão }} | mascote = Baleinha e Baleião | torcedor = Santista<br>Alvinegro | fundadoem = {{Data de lançamento|1912|4|14}} | estádio = Vila Belmiro | rival = {{Futebol Corinthians}}<br>{{Futebol Palmeiras}...\")"
+    "verificado_web": "wiki pt: Santos Futebol Clube (\"...os de Pelé *Santão }} | mascote = Baleinha e Baleião | torcedor = Santista<br>Alvinegro | fundadoem = {{Data de lançamento|1912|4|14}} | estádio = Vila Belmiro | rival = {{Futebol Corinthians}}<br>{{Futebol Palmeiras}...\")",
+    "verificado_web_conferente": "wiki es: Santos Futebol Clube (\"...lo (ciudad)|São Paulo]]|deadurl=no}}</ref><br/> | fundación = {{fecha2|14|4|1912|edad}} | estadio = [[Estadio Urbano Caldeira|Urbano Caldeira]] | ubicación = [[Santos]], [[São Paulo]], [[Brasil]] | capacidad = 16&nbsp;500...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "b815879eb2",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Quantos pontos o Palmeiras somou no título brasileiro de 2022?",
+    "pergunta": "Quantos pontos o campeão do Brasileirão de 2022 somou?",
     "resposta": "81",
     "alternativas": [
       "76",
@@ -1996,11 +2095,15 @@
       "81",
       "79"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2022 (\"...i}} !width=7%|{{Descrizione comando|DR|Differenza reti}} |- style='background:#99CBFF;' | || 1. || style='text-align:left;' | {{Calcio Palmeiras}} || 81|| 38 || 23 || 12 || 3 || 66 || 27 || +39 |- style='background:#AFEEEE;' | || 2. || style='t...\")"
+    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2022 (\"...i}} !width=7%|{{Descrizione comando|DR|Differenza reti}} |- style='background:#99CBFF;' | || 1. || style='text-align:left;' | {{Calcio Palmeiras}} || 81|| 38 || 23 || 12 || 3 || 66 || 27 || +39 |- style='background:#AFEEEE;' | || 2. || style='t...\")",
+    "verificado_web_conferente": "wiki it: Campeonato Brasileiro Série A 2022 (\"...CBFF;\" | || 1. || style=\"text-align:left;\" | '''{{Calcio Palmeiras}}''' || '''81'''|| 38 || 23 || 12 || 3 || 66 || 27 || +39 |- style=\"background:#AFEEEE;\" | || 2. || style=\"text-align:left;\" | {{Calcio Internacional}} || '''73'''|| 38 || 2...\") | wiki es: Campeonato Brasileño de Fútbol Serie A 2022 (\"..._JUV=22 |gf_JUV=29 |gc_JUV=69 <!-- Juventude --> |ganados_PAL=23 |empates_PAL=12 |perdidos_PAL=3 |gf_PAL=66 |gc_PAL=27 <!-- Palmeiras --> |ganados_BRA=11 |empates_BRA=11 |perdidos_BRA=16 |gf_BRA=49 |gc_BRA=59 <!-- RB Bragant...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Quantos pontos o Palmeiras somou no título brasileiro de 2022?",
+    "ajuste_enunciado": "o texto dizia o campeão (Palmeiras), resposta da 008#48 e da v12:3010"
   },
   {
     "id": "cd29116c25",
@@ -2014,11 +2117,13 @@
       "Fiorentina",
       "Roma"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Apelido de clube europeu.",
-    "verificado_web": "wiki en: AS Roma (\"...7).svg | image_size = 175px | fullname = Associazione Sportiva Roma S.p.A. | nickname = I Giallorossi (The Yellow and Reds)<br />I Lupi (The Wolves)<br />La Magica (The Magic One) | founded =...\")"
+    "verificado_web": "wiki en: AS Roma (\"...7).svg | image_size = 175px | fullname = Associazione Sportiva Roma S.p.A. | nickname = I Giallorossi (The Yellow and Reds)<br />I Lupi (The Wolves)<br />La Magica (The Magic One) | founded =...\")",
+    "verificado_web_conferente": "wiki es: Associazione Sportiva Roma (\"...| Nombre completo = Associazione Sportiva Roma | Apodo(s) = ''I Giallorossi {{small|(Los Rojiamarillos)}}<br>La Lupa {{small|(La Loba)}}<br>La Magica {{small|(La Mágica)}}'' | Fundación = {{fecha de inicio|7|6|1927|edad}} | Estadio = [...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "90a4b0a81e",
@@ -2032,11 +2137,13 @@
       "Palmeiras",
       "Grêmio"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Brasil e estaduais",
     "motivo_dificuldade": "Vice de final.",
-    "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2018 (\"...ro |golos = 253 |jogos = 120 |campeão = {{Futebol Cruzeiro}}<small> (6.º título)</small> |vicecampeão = {{Futebol Corinthians}} |artilheiro = 4 gols: Gabriel ({{Futebol Santos}})<br/>Neilton ({{Futebol Vitória}})<br...\")"
+    "verificado_web": "wiki pt: Copa do Brasil de Futebol de 2018 (\"...ro |golos = 253 |jogos = 120 |campeão = {{Futebol Cruzeiro}}<small> (6.º título)</small> |vicecampeão = {{Futebol Corinthians}} |artilheiro = 4 gols: Gabriel ({{Futebol Santos}})<br/>Neilton ({{Futebol Vitória}})<br...\")",
+    "verificado_web_conferente": "wiki es: Copa de Brasil 2018 (\"...Cruzeiro Esporte Clube|Cruzeiro]]''' (6° título) |subcampeón = {{Bandera|São Paulo}} [[Sport Club Corinthians Paulista|Corinthians]] |semifinalistas = {{Bandera|Río de Janeiro}} [[Clube de Regatas do Flamengo|Flamengo]]<br>...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "88c6863a93",
@@ -2050,11 +2157,13 @@
       "Tranmere Rovers",
       "Southport"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Apelido de clube.",
-    "verificado_web": "wiki en: Liverpool F.C. (\"...een design, 'EST 1892' is at the bottom | fullname = Liverpool Football Club | nickname = The Reds | founded = {{start date and age|1892|6|3|df=yes}} | ground = Anfield | capacity = 61,276...\")"
+    "verificado_web": "wiki en: Liverpool F.C. (\"...een design, 'EST 1892' is at the bottom | fullname = Liverpool Football Club | nickname = The Reds | founded = {{start date and age|1892|6|3|df=yes}} | ground = Anfield | capacity = 61,276...\")",
+    "verificado_web_conferente": "wiki es: Liverpool Football Club (\"...--> | Nombre Completo = Liverpool Football Club | Apodo(s) = ''The Reds {{small|(Los Rojos)}}''<ref>{{cita web|url=https://es.besoccer.com/noticia/los-20-equipos-de-la-premier-league-y-sus-apodos |título=«Los 20 equipos de la Premi...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "3d2c9bd44e",
@@ -2068,11 +2177,13 @@
       "Liverpool",
       "Arsenal"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Técnico e clube.",
-    "verificado_web": "wiki en: Jürgen Klopp (\"...ainz 05 | manageryears2 = 2008-2015 | managerclubs2 = Borussia Dortmund | manageryears3 = 2015-2024 | managerclubs3 = Liverpool | manageryears4 = 2026- | managerclubs4 = Germany }} Jürgen Norbert Klopp ({{IPA|de|ˈjʏʁɡ...\")"
+    "verificado_web": "wiki en: Jürgen Klopp (\"...ainz 05 | manageryears2 = 2008-2015 | managerclubs2 = Borussia Dortmund | manageryears3 = 2015-2024 | managerclubs3 = Liverpool | manageryears4 = 2026- | managerclubs4 = Germany }} Jürgen Norbert Klopp ({{IPA|de|ˈjʏʁɡ...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: repete a v12:3203 (Klopp levou o Liverpool ao título inglês), pergunta invertida"
   },
   {
     "id": "1e60a8fa1d",
@@ -2086,11 +2197,13 @@
       "Arsenal",
       "Liverpool"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Campeão marcante.",
-    "verificado_web": "wiki en: 2019-20 Liverpool F.C. season (\"...g Manchester City's defeat to Chelsea, Liverpool clinched their nineteenth league title - the first since 1989-90 and the first during the Premier League era. Upon winning the league, Liverpool claimed t...\")"
+    "verificado_web": "wiki en: 2019-20 Liverpool F.C. season (\"...g Manchester City's defeat to Chelsea, Liverpool clinched their nineteenth league title - the first since 1989-90 and the first during the Premier League era. Upon winning the league, Liverpool claimed t...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: a v12:5738 (Firmino campeão inglês pelo Liverpool em 2020), a v12:6739 (Fabinho, Premier League de 2020) e a v12:3203 entregam a resposta"
   },
   {
     "id": "f15dc19116",
@@ -2104,11 +2217,13 @@
       "Portugal",
       "França"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Adversário de final.",
-    "verificado_web": "wiki en: UEFA Euro 2012 final (\"...| event = UEFA Euro 2012 | team1 = Spain | team1association = | team1score = 4 | team2 = Italy | team2association = | team2score = 0 | details = | date = {{Start date|2012|7|1|df=y}} |...\")"
+    "verificado_web": "wiki en: UEFA Euro 2012 final (\"...| event = UEFA Euro 2012 | team1 = Spain | team1association = | team1score = 4 | team2 = Italy | team2association = | team2score = 0 | details = | date = {{Start date|2012|7|1|df=y}} |...\")",
+    "verificado_web_conferente": "wiki de: Fußball-Europameisterschaft 2012/Finalrunde (\"...ref> == Finale == === {{Anker|Spanien - Italien}} Spanien - Italien 4:0 (2:0) === {{Fußball Gruppenspiel | HEIM NAME = '''Spanien''' | GAST NAME = Italien | HEIM FLAGGE = ESP | GAST FLAGGE = ITA | SPIELTAG = Finale | ORT = [[Kiew]]...\") | wiki en: UEFA Euro 2012 final (\"...| team1association = {{flagdeco|ESP|size=30px}} | team1score = 4 | team2 = [[Italy national football team|Italy]] | team2association = {{flagdeco|ITA|size=30px}} | team2score = 0 | details = | date = {{Start date|2012|7|1|df...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "e7b25df628",
@@ -2122,11 +2237,13 @@
       "Barcelona",
       "Manchester City"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Transferência marcante.",
-    "verificado_web": "wiki en: Kaká (\"...2003-2009 | clubs2 = AC Milan | caps2 = 193 | goals2 = 70 | years3 = 2009-2013 | clubs3 = Real Madrid | caps3 = 85 | goals3 = 23 | years4 = 2013-2014 | clubs4 = AC Milan | caps4 = 30 | goals4...\")"
+    "verificado_web": "wiki en: Kaká (\"...2003-2009 | clubs2 = AC Milan | caps2 = 193 | goals2 = 70 | years3 = 2009-2013 | clubs3 = Real Madrid | caps3 = 85 | goals3 = 23 | years4 = 2013-2014 | clubs4 = AC Milan | caps4 = 30 | goals4...\")",
+    "verificado_web_conferente": "wiki es: Kaká (\"...t\">(2003-09)</div> * [[Real Madrid Club de Fútbol|Real Madrid C. F.]]<div style=\"float:right\">(2009-13)</div> * A. C. Milan<div style=\"float:right\">(2013-14)</div> * [[Orlando City Soccer Club|Orlando City S. C.]]<div style=\"float:ri...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "53e8f78b0a",
@@ -2140,11 +2257,13 @@
       "Di María",
       "Lucas Paquetá"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Seleção, Copa América e Eliminatórias",
     "motivo_dificuldade": "Gol do título.",
-    "verificado_web": "wiki en: 2021 Copa América final (\"...=y}} | stadium = Estádio do Maracanã | city = Rio de Janeiro | man_of_the_match1a = Ángel Di María (Argentina) | referee = Esteban Ostojich (Uruguay) | attendance = 6,500 | weather = {{con...\")"
+    "verificado_web": "wiki en: 2021 Copa América final (\"...=y}} | stadium = Estádio do Maracanã | city = Rio de Janeiro | man_of_the_match1a = Ángel Di María (Argentina) | referee = Esteban Ostojich (Uruguay) | attendance = 6,500 | weather = {{con...\")",
+    "verificado_web_conferente": "wiki es: Final de la Copa América 2021 (\"...iones. Pasados los 22 minutos del primer tiempo [[Ángel Di María]] impuso al seleccionado argentino con una habilitación de [[Rodrigo de Paul]]; el lateral brasileño [[Renan Lodi]] no pudo rechazar el balón y el [[Extremo (fútbol)|ex...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "075f322fdd",
@@ -2158,17 +2277,19 @@
       "Fernandinho",
       "Felipe Melo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki pt: Felipe Melo (\"...Brasil |nacionalidade = {{BRAn|o}}<br>{{ESPn|o}} |altura = 1,83 m |pé = destro |apelido = Pitbull<br>Ousado |atividade = 2001-2024 |posição = volante ou zagueiro |base-ano1 = 1991-2001 |b...\")"
+    "verificado_web": "wiki pt: Felipe Melo (\"...Brasil |nacionalidade = {{BRAn|o}}<br>{{ESPn|o}} |altura = 1,83 m |pé = destro |apelido = Pitbull<br>Ousado |atividade = 2001-2024 |posição = volante ou zagueiro |base-ano1 = 1991-2001 |b...\")",
+    "verificado_web_conferente": "wiki en: Felipe Melo (\"...new central midfielder. He was attributed to the nickname \"Pitbull\" by the team supporters because of his passionate playing style, which also helped him become a fans favourite quickly; it is said that he displayed the mutual...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "0b70b85d4f",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Por qual placar o time da casa venceu o jogo de ida da final da Libertadores de 1998, em São Januário?",
+    "pergunta": "Por qual placar terminou o jogo de ida da final da Libertadores de 1998?",
     "resposta": "2 a 0",
     "alternativas": [
       "2 a 0",
@@ -2176,11 +2297,15 @@
       "3 a 1",
       "2 a 1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Libertadores e Sul-Americana",
     "motivo_dificuldade": "Placar de final antiga.",
-    "verificado_web": "wiki en: 1998 Copa Libertadores Finals (\"...= Barcelona | team1association = | team2association = | team1score = 4 | team2score = 1 | team1score1 = 2 | team2score1 = 0 | team1score2 = 2 | team2score2 = 1 | firstleg = First leg | secondleg = Second leg | details = on aggregate | date1 = 12 August 1998 | date2 = 26 August 1998 | stadium1 = São Januário | stadium2 = Monumental Isidro Romero | city1 = Rio de Janeiro | city2 = Guayaquil | atte...\")"
+    "verificado_web": "wiki en: 1998 Copa Libertadores Finals (\"...= Barcelona | team1association = | team2association = | team1score = 4 | team2score = 1 | team1score1 = 2 | team2score1 = 0 | team1score2 = 2 | team2score2 = 1 | firstleg = First leg | secondleg = Second leg | details = on aggregate | date1 = 12 August 1998 | date2 = 26 August 1998 | stadium1 = São Januário | stadium2 = Monumental Isidro Romero | city1 = Rio de Janeiro | city2 = Guayaquil | atte...\")",
+    "verificado_web_conferente": "wiki es: Anexo:Final de la Copa Libertadores 1998 (\"...s Vasco da Gama|Vasco da Gama]] |paíslocal = BRA |resultado = 2:0''' (2:0) |visita = [[Barcelona Sporting Club|Barcelona]] |paísvisita = ECU |etpaísvisita = 1900 |fecha = 12 de agosto de 1998 |estadio = [[Estadio Vasco da Gam...\") | wiki de: Copa Libertadores 1998 (\"...tádio São Januário]]) | DATUM = 12. August 1998 | ERGEBNIS = '''2:0''' (2:0) | ZUSCHAUER = 35.000 | SCHIEDSRICHTER = [[Gustavo Méndez (Schiedsrichter)|Gustavo Méndez]] ({{URY}}) | HEIM SPIELER = [[Carlos Germano (Fußballspieler...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Por qual placar o time da casa venceu o jogo de ida da final da Libertadores de 1998, em São Januário?",
+    "ajuste_enunciado": "\"em São Januário\" apontava o Vasco campeão, resposta da v12:2890"
   },
   {
     "id": "2fc748871e",
@@ -2194,11 +2319,13 @@
       "Sporting",
       "Braga"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Campeão de liga antigo.",
-    "verificado_web": "wiki en: 2004-05 Primeira Liga (\"...ion = Primeira Liga | season = 2004-05 | dates = 28 August 2004 - 22 May 2005 | winners = Benfica<br />31st title | relegated = Moreirense<br />Estoril<br />Beira-Mar | continentalcup1 = Champions League...\")"
+    "verificado_web": "wiki en: 2004-05 Primeira Liga (\"...ion = Primeira Liga | season = 2004-05 | dates = 28 August 2004 - 22 May 2005 | winners = Benfica<br />31st title | relegated = Moreirense<br />Estoril<br />Beira-Mar | continentalcup1 = Champions League...\")",
+    "verificado_web_conferente": "wiki es: Primeira Liga 2004-05 (\"...de fútbol en [[Portugal]]. [[SL Benfica|Benfica]] ganó su 31° título, rompiendo su racha de 10 campeonatos consecutivos sin ganar la Primeira Liga. La temporada comenzó el 28 de agosto de 2004 y finalizó el 22 de mayo de...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "22307969bf",
@@ -2212,11 +2339,13 @@
       "4",
       "2"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Seleção, Copa América e Eliminatórias",
     "motivo_dificuldade": "Número exato.",
-    "verificado_web": "wiki en: Brazil national football team (\"...23 | World cup first = 1930 | World cup best = Champions (1958, 1962, 1970, 1994, 2002) | Confederations cup apps = 7 | Confederations cup first = 1997 | Confederations cup best = Champions (1997, 2005, 2009, 2013) | Regional name = Copa América | Regional cup apps = 38 | Regional cup first = 1916 | Re...\")"
+    "verificado_web": "wiki en: Brazil national football team (\"...23 | World cup first = 1930 | World cup best = Champions (1958, 1962, 1970, 1994, 2002) | Confederations cup apps = 7 | Confederations cup first = 1997 | Confederations cup best = Champions (1997, 2005, 2009, 2013) | Regional name = Copa América | Regional cup apps = 38 | Regional cup first = 1916 | Re...\")",
+    "verificado_web_conferente": "wiki es: Copa FIFA Confederaciones (\"...o=15px|GER}} {{sel|Alemania}} (1) | est_nombre2 = Más títulos | est2 = {{bandera|tamaño=15px|BRA}} {{sel|Brasil}} (4) | est_nombre4 = Máx. goleador | est4 = {{bandera|tamaño=15px|MEX}} [[Cuauhtémoc Blanco]] (9)<br />{{ban...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "cf7ae7b990",
@@ -2230,11 +2359,13 @@
       "3 a 1",
       "1 a 0"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Libertadores e Sul-Americana",
     "motivo_dificuldade": "Placar de jogo de ida.",
-    "verificado_web": "wiki en: 2017 Copa Libertadores Finals (\"...s | team2association = | team2score = 1 | details = on aggregate | firstleg = First leg | team1score1 = 1 | team2score1 = 0 | details1 = | date1 = {{Start date|2017|11|22|df=y}} | stadium1 = Arena do Grêmio | city1 = Porto Alegre | referee1 = Julio Bascu...\")"
+    "verificado_web": "wiki en: 2017 Copa Libertadores Finals (\"...s | team2association = | team2score = 1 | details = on aggregate | firstleg = First leg | team1score1 = 1 | team2score1 = 0 | details1 = | date1 = {{Start date|2017|11|22|df=y}} | stadium1 = Arena do Grêmio | city1 = Porto Alegre | referee1 = Julio Bascu...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: a 006#41 traz no texto \"vitória por 1 a 0 em Porto Alegre, no jogo de ida da final da Libertadores de 2017\", que é a resposta"
   },
   {
     "id": "d873b7c098",
@@ -2248,11 +2379,13 @@
       "Inter de Milão",
       "Roma"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Campeão de liga.",
-    "verificado_web": "wiki en: 2002-03 Serie A (\"...tition = Serie A | season = 2002-03 | dates = 14 September 2002 - 24 May 2003 | winners = Juventus<br />27th title | relegated = Atalanta<br />Piacenza<br />Como<br />Torino | continentalc...\")"
+    "verificado_web": "wiki en: 2002-03 Serie A (\"...tition = Serie A | season = 2002-03 | dates = 14 September 2002 - 24 May 2003 | winners = Juventus<br />27th title | relegated = Atalanta<br />Piacenza<br />Como<br />Torino | continentalc...\")",
+    "verificado_web_conferente": "wiki es: Serie A 2001-02 (\"...er|[[Archivo:Scudetto.svg|50px]] |- |align=center|'''Campeón''' |- |align=center|'''[[Juventus Football Club|Juventus]]''' |- |align=center|'''26.º título''' |} == Resultados == <center> {{Tabla de 18| | <!-- 1.º equipo --> [[Atalanta B.C.|Atalanta]] | 2...\") | wiki es: Serie A 2002-03 (\"...er|[[Archivo:Scudetto.svg|50px]] |- |align=center|'''Campeón''' |- |align=center|'''[[Juventus Football Club|Juventus]]''' |- |align=center|'''27.º título''' |} == Resultados == === Primera vuelta === === Segunda vuelta === {|class=\"wikitable collapsible...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "a1b3aa0b6d",
@@ -2266,11 +2399,13 @@
       "Telê Santana",
       "Aymoré Moreira"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Técnico de Copa antiga.",
-    "verificado_web": "wiki en: 1974 FIFA World Cup squads (\"...lub=Colo-Colo|clubnat=Chile}} {{nat fs end}} == Group 2 == ===Brazil=== Head coach: Mário Zagallo {{nat fs start}} {{nat fs player|no=1|pos=GK|name=Leão|age={{Birth date and age2|df=y|197...\")"
+    "verificado_web": "wiki en: 1974 FIFA World Cup squads (\"...lub=Colo-Colo|clubnat=Chile}} {{nat fs end}} == Group 2 == ===Brazil=== Head coach: Mário Zagallo {{nat fs start}} {{nat fs player|no=1|pos=GK|name=Leão|age={{Birth date and age2|df=y|197...\")",
+    "verificado_web_conferente": "wiki es: Copa Mundial de Fútbol de 1974 (\"...ocha]] |- |bgcolor=#f9f9f9 style=font-size:95%|'''DT''' [[Mário Zagallo]] |bgcolor=#f9f9f9 style=font-size:95%|'''DT''' [[Kazimierz Gorski]] |- |style=\"vertical-align:top; font-size:85%\"|'''Cambios'''<br />[[Sebastião Miranda da Si...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "17fab18705",
@@ -2284,17 +2419,19 @@
       "3 a 0",
       "4 a 1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Placar.",
-    "verificado_web": "wiki en: 2010 FIFA World Cup knockout stage (\"...010|6|28|df=y}} |time=20:30 |team1= |score={{score link|2010 FIFA World Cup knockout stage#Brazil vs Chile|3-0}} |team2= |goals1= *Juan {{goal|35}} *Luís Fabiano {{goal|38}} *Robinho {{goal|59}} |goal...\")"
+    "verificado_web": "wiki en: 2010 FIFA World Cup knockout stage (\"...010|6|28|df=y}} |time=20:30 |team1= |score={{score link|2010 FIFA World Cup knockout stage#Brazil vs Chile|3-0}} |team2= |goals1= *Juan {{goal|35}} *Luís Fabiano {{goal|38}} *Robinho {{goal|59}} |goal...\")",
+    "verificado_web_conferente": "wiki de: Fußball-Weltmeisterschaft 2010/Finalrunde (\"...GAST shorts = ffffff | GAST socks = ffffff }} === Brasilien - Chile 3:0 (2:0) {{Anker|Brasilien - Chile}} === Im einzigen rein südamerikanischen Achtelfinale hatten die favorisierten Brasilianer keinerlei Probleme mit Chile. Nach e...\") | wiki en: 2010 FIFA World Cup knockout stage (\"...tball/world_cup_2010/matches/match_54/default.stm|title=Brazil 3-0 Chile|last=Fletcher|first=Paul|date=28 June 2010|publisher=BBC Sport|access-date=3 July 2010 }}</ref> After the match, Chile's coach [[Marcelo Bielsa]] conceded that...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "7bd1a4fb1e",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em que ano foi inaugurado o Allianz Parque?",
+    "pergunta": "Em que ano foi inaugurado o atual estádio do Palmeiras, hoje chamado Nubank Parque?",
     "resposta": "2014",
     "alternativas": [
       "2012",
@@ -2302,11 +2439,15 @@
       "2010",
       "2014"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Ano exato.",
-    "verificado_web": "wiki pt: Allianz Parque (\"...265 (shows/concertos) | ano_construção = 2010 a 2014 | custo = 630 milhões de reais | datainauguração = {{dtlink|19|11|2014}} | jogoinauguração = {{Futebol Palmeiras}} 0-2 {{Futebol Sport}} | publicorecorde = {{fo...\")"
+    "verificado_web": "wiki pt: Allianz Parque (\"...265 (shows/concertos) | ano_construção = 2010 a 2014 | custo = 630 milhões de reais | datainauguração = {{dtlink|19|11|2014}} | jogoinauguração = {{Futebol Palmeiras}} 0-2 {{Futebol Sport}} | publicorecorde = {{fo...\")",
+    "verificado_web_conferente": "wiki es: Allianz Parque (\"...del Estadio. | nombre completo = Nubank Parque | nombres anteriores = Allianz Parque (2014-2026) | apodo = | país = | localización = {{bandera|BRA}} [[São Paulo]], [[Brasil]] | propietario = [[Archivo:Palmeiras logo.svg|20x20px|li...\") | wiki es: Allianz Parque (\"...'''Allianz Parque''') es un [[estadio de fútbol]] inaugurado en 2014 tras la demolición del [[Estadio Palestra Itália]] en 2010. El mismo es propiedad de la [[Sociedade Esportiva Palmeiras]], club que disputa sus partidos de loc...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Em que ano foi inaugurado o Allianz Parque?",
+    "ajuste_enunciado": "o estádio passou a se chamar Nubank Parque em 2026; o nome antigo (Allianz Parque) é a resposta da v12:2545 e \"Palestra Itália\" é a resposta da v12:2500, por isso os dois ficaram fora do texto"
   },
   {
     "id": "05321e253e",
@@ -2320,11 +2461,13 @@
       "1989",
       "1996"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Ano exato.",
-    "verificado_web": "wiki pt: Grêmio Foot-Ball Porto Alegrense (\"...ambém conquistou o Campeonato Brasileiro de Futebol de 1996 e a Copa do Brasil de 1997.]] Em 1991, o Grêmio chegou pela segunda vez à final da Copa do Brasil, tendo sido derrotado pelo Criciúma, equipe treinada por Luiz Felipe Scolari, o Felipão, que ainda nesta década se consagraria como um dos maiores técnicos da história do Tricolor Gaúcho. Porém, neste mesmo ano, o Tricolor foi rebaixado pela primeira vez à segunda divisão do Campeonato Brasileiro. Em 1993 o Tricolor voltou a vencer o Campeona...\")"
+    "verificado_web": "wiki pt: Grêmio Foot-Ball Porto Alegrense (\"...ambém conquistou o Campeonato Brasileiro de Futebol de 1996 e a Copa do Brasil de 1997.]] Em 1991, o Grêmio chegou pela segunda vez à final da Copa do Brasil, tendo sido derrotado pelo Criciúma, equipe treinada por Luiz Felipe Scolari, o Felipão, que ainda nesta década se consagraria como um dos maiores técnicos da história do Tricolor Gaúcho. Porém, neste mesmo ano, o Tricolor foi rebaixado pela primeira vez à segunda divisão do Campeonato Brasileiro. Em 1993 o Tricolor voltou a vencer o Campeona...\")",
+    "verificado_web_conferente": "wiki es: Grêmio Foot-Ball Porto Alegrense (\"...e en la primera edición de la [[Copa de Brasil]]. En 1991 desciende a la segunda división [[Campeonato Brasileño de Serie B|Serie B]] del [[Campeonato Brasileño de Fútbol]], ascendiendo nuevamente en 1992. En 1994 consigue su s...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "f2c1c9655f",
@@ -2338,11 +2481,13 @@
       "Atlético Paranaense",
       "Botafogo"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "3º colocado.",
-    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2010 (\"...s}} {{Calcio Cruzeiro}} || 69 || 38 || 20 || 9 || 9 || 53 || 38 || +15 |- bgcolor=#eeffee | 3 || align=left | {{Bandiera|San Paolo}} {{Calcio Corinthians}} || 68 || 38 || 19 || 11 || 8 || 65 || 41 || +24 |- bgcolor=#eeffee | 4 || align=left | {{...\")"
+    "verificado_web": "wiki it: Campeonato Brasileiro Série A 2010 (\"...s}} {{Calcio Cruzeiro}} || 69 || 38 || 20 || 9 || 9 || 53 || 38 || +15 |- bgcolor=#eeffee | 3 || align=left | {{Bandiera|San Paolo}} {{Calcio Corinthians}} || 68 || 38 || 19 || 11 || 8 || 65 || 41 || +24 |- bgcolor=#eeffee | 4 || align=left | {{...\")",
+    "verificado_web_conferente": "wiki es: Campeonato Brasileño de Fútbol 2010 (\"...as Gerais}} [[Cruzeiro Esporte Clube|Cruzeiro]] | tercero = {{bandera|São Paulo}} [[Sport Club Corinthians Paulista|Corinthians]] | cuarto = {{bandera|Río Grande del Sur}} [[Grêmio Foot-Ball Porto Alegrense|Grêmio]] | pa...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "fb5a9a179a",
@@ -2356,11 +2501,13 @@
       "Atlético Mineiro",
       "Palmeiras"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "futebol",
     "obra_tema": "Brasileirão",
     "motivo_dificuldade": "Vice de final antiga.",
-    "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1980 (\"...nho |golos = 826 |jogos = 307 |campeão = {{Futebol Flamengo}} <small>(1º título)</small> |vicecampeão = {{Futebol Atlético-MG}} |artilheiro = Zico (Flamengo) - 21 gols |melhor_ataque = {{Futebol Atlético-MG}} - 22 g...\")"
+    "verificado_web": "wiki pt: Campeonato Brasileiro de Futebol de 1980 (\"...nho |golos = 826 |jogos = 307 |campeão = {{Futebol Flamengo}} <small>(1º título)</small> |vicecampeão = {{Futebol Atlético-MG}} |artilheiro = Zico (Flamengo) - 21 gols |melhor_ataque = {{Futebol Atlético-MG}} - 22 g...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "motivo": "conferente-r4a: repete a 001#76 (Nunes fez o gol do título do Flamengo na final de 1980, contra o Atlético-MG)"
   },
   {
     "id": "f260c7b1db",
@@ -2374,17 +2521,19 @@
       "Darwin Núñez",
       "Luis Suárez"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Craques, ídolos e Bola de Ouro",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki pt: Luis Alberto Suárez (\"...ira pelos clubes e pela Seleção e é o terceiro maior artilheiro da história do Barcelona. Apelidado de El Pistolero ('O Pistoleiro'), Suárez começou sua carreira nas categorias de base do Nacional em 2003....\")"
+    "verificado_web": "wiki pt: Luis Alberto Suárez (\"...ira pelos clubes e pela Seleção e é o terceiro maior artilheiro da história do Barcelona. Apelidado de El Pistolero ('O Pistoleiro'), Suárez começou sua carreira nas categorias de base do Nacional em 2003....\")",
+    "verificado_web_conferente": "wiki es: Luis Alberto Suárez (\"...rez | nombrecompleto = Luis Alberto Suarez Díaz | apodo = ''El Pistolero''<ref>{{cita web|url=https://us.as.com/us/2019/06/18/futbol/1560865868_730899.html|título=¿Por qué al delantero Luis Suárez se le conoce como el Pistolero?|edito...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "a1687a1b3c",
     "categoria": "Esportes",
     "dificuldade": "facil",
-    "pergunta": "Em qual estádio foi disputada a final da Copa de 2014, entre Alemanha e Argentina?",
+    "pergunta": "Em qual estádio foi disputada a final da Copa de 2014?",
     "resposta": "Maracanã",
     "alternativas": [
       "Maracanã",
@@ -2392,11 +2541,15 @@
       "Arena Corinthians",
       "Mané Garrincha"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Momento marcante.",
-    "verificado_web": "wiki en: 2014 FIFA World Cup final (\"...score = 0 | details = After extra time | date = {{start date|2014|7|13|df=y}} | stadium = Maracanã Stadium | city = Rio de Janeiro | man_of_the_match1a = Mario Götze (Germany) | referee =...\")"
+    "verificado_web": "wiki en: 2014 FIFA World Cup final (\"...score = 0 | details = After extra time | date = {{start date|2014|7|13|df=y}} | stadium = Maracanã Stadium | city = Rio de Janeiro | man_of_the_match1a = Mario Götze (Germany) | referee =...\")",
+    "verificado_web_conferente": "wiki es: Final de la Copa Mundial de Fútbol de 2014 (\"...ã stadium.jpg | pie de imagen = Estadio Maracaná, sede de la final entre Alemania y Argentina. | tipo = | país = | participantes = {{self-i|GER}}<br/>{{self-i|ARG}} | resultado = {{self-i|GER}}: 1<br/>{{self-i|ARG}}: 0 }} La '...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "enunciado_original": "Em qual estádio foi disputada a final da Copa de 2014, entre Alemanha e Argentina?",
+    "ajuste_enunciado": "o texto dizia Alemanha e Argentina, e entregava a 001#80"
   },
   {
     "id": "ce13c5efdc",
@@ -2410,11 +2563,13 @@
       "Roberto Carlos",
       "Denílson"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Copa do Mundo",
     "motivo_dificuldade": "Lance marcante.",
-    "verificado_web": "wiki en: Rivaldo (\"...inst Turkey. Near the end of the match, with the ball out of play, Turkish defender Hakan Ünsal kicked a ball towards Rivaldo, who was waiting at the corner flag. The ball struck his th...\")"
+    "verificado_web": "wiki en: Rivaldo (\"...inst Turkey. Near the end of the match, with the ball out of play, Turkish defender Hakan Ünsal kicked a ball towards Rivaldo, who was waiting at the corner flag. The ball struck his th...\")",
+    "verificado_web_conferente": "wiki es: Rivaldo (\"...ba en la esquina para sacar de córner, recibió un balonazo en la pierna por parte del defensa [[Hakan Ünsal]]. Rivaldo se tiró al suelo llevándose las manos a la cara, haciendo que el árbitro expulsase a Ünsal por segunda amarilla...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "1ababebc63",
@@ -2428,11 +2583,13 @@
       "Marco van Basten",
       "Frank Rijkaard"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Gol de final marcante.",
-    "verificado_web": "wiki en: UEFA Euro 1988 final (\"...n, who outran Kohler, close to the edge of the 18 yard box on the right side of the goal, Van Basten caught the cross on a half volley, looping it over a diving Immel, into the side netting on the left end of the net. With a...\")"
+    "verificado_web": "wiki en: UEFA Euro 1988 final (\"...n, who outran Kohler, close to the edge of the 18 yard box on the right side of the goal, Van Basten caught the cross on a half volley, looping it over a diving Immel, into the side netting on the left end of the net. With a...\")",
+    "verificado_web_conferente": "wiki es: Final de la Eurocopa 1988 (\"...a [[Igor Belanov]] en el transcurso del partido. El posterior gol de Van Basten a [[Rinat Dasayev]] -uno de los grandes porteros del mundo en ese momento- fue calificado como uno de los mejores goles en la historia de las Eurocopas.<ref>{{...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "49685e6ddc",
@@ -2446,16 +2603,18 @@
       "Neto",
       "Walter Casagrande"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Clubes do Brasil",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki pt: Walter Casagrande (\"...te||||||}} |morte_cidade = |morte_país = |altura = 1,91 m |pé = destro |apelido = Casa<br>Casão |atividade = 1980-1996 (16 anos) |actualclube = aposentado |posição = centroavante |ano =...\")"
+    "verificado_web": "wiki pt: Walter Casagrande (\"...te||||||}} |morte_cidade = |morte_país = |altura = 1,91 m |pé = destro |apelido = Casa<br>Casão |atividade = 1980-1996 (16 anos) |actualclube = aposentado |posição = centroavante |ano =...\")",
+    "verificado_web_conferente": "wiki es: Walter Casagrande (\"...e Júnior''', más conocido como '''Casagrande''' o simplemente '''Casão''' ([[São Paulo]], 15 de abril de 1963), es un [[fútbol|exfutbolista]] [[Brasil|brasileño]] que jugaba de delantero. Jugó para la selección de {{sel|Brasil}} en u...\")",
+    "conferido_por": "conferente-esportes-r4a"
   },
   {
     "id": "b2f4627578",
     "categoria": "Esportes",
-    "dificuldade": "facil",
+    "dificuldade": "medio",
     "pergunta": "Qual atacante fez de cabeça o gol do título da Eurocopa de 2004, na final disputada em Lisboa?",
     "resposta": "Angelos Charisteas",
     "alternativas": [
@@ -2464,11 +2623,14 @@
       "Pauleta",
       "Zisis Vryzas"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Champions e ligas europeias",
     "motivo_dificuldade": "Gol do título.",
-    "verificado_web": "wiki en: UEFA Euro 2004 final (\"...nly goal in the match in the 57th minute, when Angelos Basinas' corner was met by Angelos Charisteas, who sent a powerful header past goalkeeper Ricardo. Greece held on to complete a shock 1...\")"
+    "verificado_web": "wiki en: UEFA Euro 2004 final (\"...nly goal in the match in the 57th minute, when Angelos Basinas' corner was met by Angelos Charisteas, who sent a powerful header past goalkeeper Ricardo. Greece held on to complete a shock 1...\")",
+    "verificado_web_conferente": "wiki es: Final de la Eurocopa 2004 (\"...los 57' del partido el griego Angelos Charisteas mete el único gol del encuentro de cabeza, tras un saque de esquina. Con el marcador a su favor, Grecia controló el encuentro y pese a los intentos portugueses de recortar dista...\") | wiki de: Fußball-Europameisterschaft 2004/Finalrunde (\"...TRAINER = [[Otto Rehhagel]] | GAST TORE = {{Tor}} 0:1 Charisteas (65.) | HEIM GELBE KARTEN = Zinédine Zidane (44.), Louis Saha (86.) | GAST GELBE KARTEN = Giorgos Karagounis (6.), Theodoros Zagorakis (50.) }} === {{Anker|Sch...\")",
+    "conferido_por": "conferente-esportes-r4a",
+    "dificuldade_ajuste": "facil->medio: o nome do autor do gol é pouco lembrado; o fácil é a Grécia campeã, já no banco"
   },
   {
     "id": "cc1109b5bb",
@@ -2482,10 +2644,12 @@
       "Raúl",
       "Fernando Morientes"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "futebol",
     "obra_tema": "Craques, ídolos e Bola de Ouro",
     "motivo_dificuldade": "Apelido famoso.",
-    "verificado_web": "wiki en: Fernando Torres (\"...adrid B. Due to his consistent goalscoring as a young player, Torres came to be nicknamed El Niño ('The Kid'), which stuck with him throughout his career. In his prime, he was regarded as...\")"
+    "verificado_web": "wiki en: Fernando Torres (\"...adrid B. Due to his consistent goalscoring as a young player, Torres came to be nicknamed El Niño ('The Kid'), which stuck with him throughout his career. In his prime, he was regarded as...\")",
+    "verificado_web_conferente": "wiki es: Fernando Torres (\"...-->| nombrecompleto = Fernando José Torres Sanz | apodo = ''El Niño''<ref>{{cita web |url = http://www.abc.es/deportes/futbol/20141212/abci-fernando-torres-apodo-201412112223.html |título = Fernando Torres, «El Niño» que maduró a...\") | wiki en: Fernando Torres (\"...goalscoring as a young player, Torres came to be nicknamed '''''El Niño''''' ('The Kid'), which stuck with him throughout his career.<ref name=\"www.sports-king.com\">{{Cite web |title=El Nino Nickname - What does it mean and how did...\")",
+    "conferido_por": "conferente-esportes-r4a"
   }
 ]

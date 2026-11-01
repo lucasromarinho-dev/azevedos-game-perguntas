@@ -180,7 +180,7 @@ saida.forEach((p, i) => {
   if (p.alternativas.length !== 4) throw new Error('alternativas != 4: ' + p.pergunta);
   if (new Set(p.alternativas.map(chave)).size !== 4) throw new Error('alternativas repetidas: ' + p.pergunta);
   if (!p.alternativas.includes(p.resposta)) throw new Error('resposta fora das alternativas: ' + p.pergunta);
-  if (/[–—]/.test(JSON.stringify(p)) && i >= 1000) throw new Error('travessão longo: ' + p.pergunta);
+  if (/[20132014]/.test(JSON.stringify(p)) && i >= 1000) throw new Error('travessão longo: ' + p.pergunta);
   const k = chave(p.pergunta);
   if (vistos.has(k)) throw new Error(`enunciado duplicado: ${meta[vistos.get(k)].origem} x ${meta[i].origem}: ${p.pergunta}`);
   vistos.set(k, i);

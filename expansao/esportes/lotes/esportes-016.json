@@ -11,11 +11,13 @@
       "Penélope",
       "Petúnia"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Cultura pop",
     "motivo_dificuldade": "Personagem criada para o filme.",
-    "verificado_web": "wiki en: Lola Bunny (\"...She is generally depicted as Bugs Bunny's girlfriend. She first appeared in the 1996 film Space Jam. == Development == === Honey Bunny === A character named \"Honey Bunny\" first appeared in...\")"
+    "verificado_web": "wiki en: Lola Bunny (\"...She is generally depicted as Bugs Bunny's girlfriend. She first appeared in the 1996 film Space Jam. == Development == === Honey Bunny === A character named \"Honey Bunny\" first appeared in...\")",
+    "verificado_web_conferente": "wiki pt: Lola Bunny (\"...or amiga)<br />Gaguinho (amigo próximo)<br />Ligeirinho | inimigo = | primeira aparição = Space Jam (1996) | ultima aparição = | causa = | criador = | género = | voz = {{EUAb}} Kath Soucie...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "c41dee712a",
@@ -29,17 +31,22 @@
       "Oklahoma City Thunder",
       "Los Angeles Lakers"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Títulos",
     "motivo_dificuldade": "Campeão de torneio novo, pouco acompanhado no Brasil.",
-    "verificado_web": "wiki en: 2024 NBA Cup (\"...'s group stage standings-all in the knockout round, except for the championship game. The Milwaukee Bucks defeated the Oklahoma City Thunder in the championship game. Milwaukee's Giannis Antetoko...\")"
+    "verificado_web": "wiki en: 2024 NBA Cup (\"...'s group stage standings-all in the knockout round, except for the championship game. The Milwaukee Bucks defeated the Oklahoma City Thunder in the championship game. Milwaukee's Giannis Antetoko...\")",
+    "verificado_web_conferente": [
+      "nbcnews.com: Milwaukee Bucks defeat Oklahoma City Thunder 97-81 to win the 2024 NBA Cup (\"...Milwaukee Bucks defeat Oklahoma City Thunder 97-81 to win the 2024 NBA Cup (final em Las Vegas, 17/12/2024)...\")",
+      "cbssports.com: 2024 NBA Cup bracket, results, scores (\"...Bucks take down Thunder for 2024 title...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a365e1c348",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Na final de 2016, o Cleveland Cavaliers foi campeão depois de virar a série estando atrás por quanto?",
+    "pergunta": "Na final de 2016, o time de LeBron James foi campeão virando a série contra o Golden State Warriors depois de estar atrás por quanto?",
     "resposta": "3 a 1",
     "alternativas": [
       "3 a 0",
@@ -47,11 +54,14 @@
       "2 a 0",
       "2 a 1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Virada histórica, mas o placar exato da série exige memória.",
-    "verificado_web": "wiki en: Golden State Warriors (\"...9 before losing the Finals to the Cleveland Cavaliers in seven games after surrendering a 3-1 series lead. After signing former MVP Kevin Durant, the team won back-to-back championships in 2017 a...\")"
+    "verificado_web": "wiki en: Golden State Warriors (\"...9 before losing the Finals to the Cleveland Cavaliers in seven games after surrendering a 3-1 series lead. After signing former MVP Kevin Durant, the team won back-to-back championships in 2017 a...\")",
+    "correcao": "Saiu \"Cleveland Cavaliers\" do enunciado: entregava a resposta do v12:2912.",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 2016 (\"...convirtieron en el primer equipo de la historia de la NBA en dar vuelta una serie estando 3-1 en contra, tras el cuarto encuentro. == Enfrentamientos previos en temporada regular == {...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "fc506fdaac",
@@ -65,17 +75,22 @@
       "12",
       "18"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: 2018 NBA playoffs (\"...en scored 32 points & 6 Assists with P.J. Tucker securing 12 rebounds, the Rockets missed 27 consecutive 3-pointers, which is a record for most ever missed consecutively in a playoff game. They...\")"
+    "verificado_web": "wiki en: 2018 NBA playoffs (\"...en scored 32 points & 6 Assists with P.J. Tucker securing 12 rebounds, the Rockets missed 27 consecutive 3-pointers, which is a record for most ever missed consecutively in a playoff game. They...\")",
+    "verificado_web_conferente": [
+      "si.com (29/05/2018): Rockets Break Playoff Record With 27 Consecutive Missed Three-Pointers (\"...Rockets Break Playoff Record With 27 Consecutive Missed Three-Pointers...\")",
+      "cbssports.com: Warriors vs. Rockets, Game 7 (\"...Houston sets NBA record with 27 straight missed 3-pointers...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "189eef97e4",
     "categoria": "Esportes",
-    "dificuldade": "dificil",
-    "pergunta": "Contra qual time o Boston Celtics venceu a final de 2024, o 18º título do clube?",
+    "dificuldade": "medio",
+    "pergunta": "Qual time foi vice-campeão da NBA em 2024?",
     "resposta": "Dallas Mavericks",
     "alternativas": [
       "Dallas Mavericks",
@@ -83,11 +98,19 @@
       "Golden State Warriors",
       "Denver Nuggets"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Vice-campeão recente, detalhe que pouca gente guarda.",
-    "verificado_web": "wiki en: 2024 NBA Finals (\"..., the Eastern Conference champion Boston Celtics defeated the Western Conference champion Dallas Mavericks four games to one. The Celtics' Jaylen Brown was voted the NBA Finals Most Valuable Playe...\")"
+    "verificado_web": "wiki en: 2024 NBA Finals (\"..., the Eastern Conference champion Boston Celtics defeated the Western Conference champion Dallas Mavericks four games to one. The Celtics' Jaylen Brown was voted the NBA Finals Most Valuable Playe...\")",
+    "dificuldade_ajuste": {
+      "de": "dificil",
+      "para": "medio",
+      "motivo": "Adversário de final recente: a régua chama de médio (calibração item 8)."
+    },
+    "correcao": "Saiu \"Boston Celtics ... 18º título\": entregava o v12:2918 (campeão de 2024) e o 004:30 (maior campeão, 18 títulos).",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 2024 (\"...Boston Celtics | entrenador_campeón = Joe Mazzulla | partidos_campeón = 4 | subcampeón = Dallas Mavericks | entrenador_subcampeón = Jason Kidd | partidos_subcampeón = 1 | fechas = 6 de...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a5099f2bb3",
@@ -101,11 +124,13 @@
       "Kevin McHale",
       "Robert Parish"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de uma temporada antiga, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: 1986 NBA Finals (\"...cord 16th NBA championship. The championship would be the Celtics' last until 2008. Larry Bird was named the Finals MVP. On another note, this series marked the first time the \"NBA Finals\" branding was officia...\")"
+    "verificado_web": "wiki en: 1986 NBA Finals (\"...cord 16th NBA championship. The championship would be the Celtics' last until 2008. Larry Bird was named the Finals MVP. On another note, this series marked the first time the \"NBA Finals\" branding was officia...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1986 (\"...trenador_campeón = K.C. Jones | partidos_campeón = 4 | fechas = 26 de mayo - 8 de junio | MVP = Larry Bird<br />(Boston Celtics) | televisión = CBS (Estados Unidos) | comentaristastv = Dick Stockton y Tom Heinsohn | HOFers = Larry Bird (1998)<br>Kevin McHale (...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "b832b3b444",
@@ -116,14 +141,17 @@
     "alternativas": [
       "37,1",
       "41,2",
-      "30,1",
+      "35,0",
       "33,6"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Michael Jordan (\"...er other than Wilt Chamberlain to score 3,000 points in a season, averaging a league-high 37.1 ppg on 48.2% shooting. Jordan also demonstrated his defensive prowess, as he became the f...\")"
+    "verificado_web": "wiki en: Michael Jordan (\"...er other than Wilt Chamberlain to score 3,000 points in a season, averaging a league-high 37.1 ppg on 48.2% shooting. Jordan also demonstrated his defensive prowess, as he became the f...\")",
+    "correcao": "Alternativa 30,1 trocada: é a resposta do 004:75 (média da carreira de Jordan).",
+    "verificado_web_conferente": "wiki es: Michael Jordan (\"...lesión, consiguió uno de los promedios anotadores más altos de la historia de la NBA, con 37,1 por partido, siendo el único jugador aparte de Wilt Chamberlain en anotar más de 3000 pun...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "198c425d64",
@@ -137,11 +165,13 @@
       "Houston Rockets",
       "Boston Celtics"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1985 NBA Finals (\"...season's playoffs. It featured the defending NBA champion and Eastern Conference champion Boston Celtics against the Western Conference champion Los Angeles Lakers. The Celtics were looking to r...\")"
+    "verificado_web": "wiki en: 1985 NBA Finals (\"...season's playoffs. It featured the defending NBA champion and Eastern Conference champion Boston Celtics against the Western Conference champion Los Angeles Lakers. The Celtics were looking to r...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1985 (\"...{{Finales NBA resumen | imagen = | caption = | año = 1985 | subcampeón = Boston Celtics | entrenador_subcampeón = K.C. Jones | partidos_subcampeón = 2 | campeón = Los Angeles La...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "0855c89d0d",
@@ -155,17 +185,19 @@
       "Euroliga",
       "NBA"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Olimpíadas",
     "motivo_dificuldade": "Fato central do Dream Team, o time mais famoso do basquete.",
-    "verificado_web": "wiki en: 1992 United States men's Olympic basketball team (\"...mpics in Barcelona, Spain, and won the gold medal. Nicknamed the \"Dream Team\", it was the first American Olympic team to include active professional players from the National Basketball Association (NBA). Team USA defeated its opponents b...\")"
+    "verificado_web": "wiki en: 1992 United States men's Olympic basketball team (\"...mpics in Barcelona, Spain, and won the gold medal. Nicknamed the \"Dream Team\", it was the first American Olympic team to include active professional players from the National Basketball Association (NBA). Team USA defeated its opponents b...\")",
+    "verificado_web_conferente": "wiki pt: Dream Team (\"...ersitários nas competições internacionais sendo que a FIBA que proibia a participação dos profissionais. Os rumos do basquetebol começaram a ser transformados em 17 de abril de 1989 quando e...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "53c1254881",
     "categoria": "Esportes",
     "dificuldade": "medio",
-    "pergunta": "Contra qual time o Houston Rockets de Hakeem Olajuwon venceu a final de 1994?",
+    "pergunta": "Qual time foi vice-campeão da NBA em 1994?",
     "resposta": "New York Knicks",
     "alternativas": [
       "New York Knicks",
@@ -173,11 +205,14 @@
       "Indiana Pacers",
       "Orlando Magic"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Vice-campeão de uma final: o fã lembra o campeão, não o adversário.",
-    "verificado_web": "wiki en: Hakeem Olajuwon (\"...s MVP awards in the same season. His Rockets won back-to-back championships. The Rockets' 1994 championship against the New York Knicks was the first in franchise history, with Olajuwon avenging his college championship loss...\")"
+    "verificado_web": "wiki en: Hakeem Olajuwon (\"...s MVP awards in the same season. His Rockets won back-to-back championships. The Rockets' 1994 championship against the New York Knicks was the first in franchise history, with Olajuwon avenging his college championship loss...\")",
+    "correcao": "Saiu \"Houston Rockets de Hakeem\": entregava o v12:2920 (bicampeão de 1994 e 1995).",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1994 (\"...{{Finales NBA resumen | imagen = 140px | caption = | año = 1994 | subcampeón = New York Knicks | entrenador_subcampeón = Pat Riley | partidos_subcampeón = 3 | campeón = Houston Rockets...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a2b649d40d",
@@ -191,11 +226,14 @@
       "Evan Turner",
       "John Wall"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Primeira escolha de draft, detalhe de fã.",
-    "verificado_web": "wiki en: John Wall (\"...with the Washington Wizards. A Raleigh, North Carolina, native, Wall was chosen with the first overall pick of the 2010 NBA draft by the Wizards after playing one year of college basketball fo...\")"
+    "verificado_web": "wiki en: John Wall (\"...with the Washington Wizards. A Raleigh, North Carolina, native, Wall was chosen with the first overall pick of the 2010 NBA draft by the Wizards after playing one year of college basketball fo...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); das 12 de 1ª escolha ficaram 6 (Yao, Bennett, Kwame Brown, David Robinson, Derrick Rose, Anthony Davis). Esta é 1ª escolha recente ou pouco marcante.",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2010 (\"...cación = Madison Square Garden<br />Nueva York, Nueva York |tv = ESPN |primera elección = John Wall, Washington Wizards |tipo = NBA |anterior = 2009 |siguiente = 2011 }} El Draft de la NBA...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "9fa85819ce",
@@ -209,11 +247,13 @@
       "27ª",
       "5ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Scottie Pippen (\"...hicago Bulls manufactured a trade with the Seattle SuperSonics that sent Pippen, selected fifth overall, to the Bulls in exchange for the eighth pick, Olden Polynice, and future draft pick opti...\")"
+    "verificado_web": "wiki en: Scottie Pippen (\"...hicago Bulls manufactured a trade with the Seattle SuperSonics that sent Pippen, selected fifth overall, to the Bulls in exchange for the eighth pick, Olden Polynice, and future draft pick opti...\")",
+    "verificado_web_conferente": "wiki es: Scottie Pippen (\"...n = Estados Unidos | veces internacional = | universidad = Central Arkansas (1983-1987) | draft de la nba = 1.ª ronda (puesto 5), 1987 por Seattle Supersonics | club = Retirado | número = 33 | liga = NBA, Basketligan | posición = Alero | equipos = *...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "9067be81cc",
@@ -227,11 +267,13 @@
       "6",
       "7"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Número exato de recorde ou estatística.",
-    "verificado_web": "wiki en: Wilt Chamberlain (\"...ll as 48 minutes per game, in a season. Chamberlain ultimately won two NBA championships, four regular-season Most Valuable Player (MVP) awards, the Rookie of the Year, one Finals MVP, and one...\")"
+    "verificado_web": "wiki en: Wilt Chamberlain (\"...ll as 48 minutes per game, in a season. Chamberlain ultimately won two NBA championships, four regular-season Most Valuable Player (MVP) awards, the Rookie of the Year, one Finals MVP, and one...\")",
+    "verificado_web_conferente": "wiki es: Wilt Chamberlain (\"...{{nbay|1968|start}}-{{nbay|1972|end}}) | títulos = * 2x Campeón de la NBA (1967 y 1972) * MVP de las Finales (1972) * 4x MVP de la NBA (1960, 1966, 1967 y 1968) * 13x All-Star de la N...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "38d2f2efea",
@@ -245,11 +287,13 @@
       "3",
       "2"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Títulos",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Larry Bird (\"...his entire 13-season professional career, leading them to five NBA Finals appearances and three NBA championships. He played most of his career with forward Kevin McHale and center Robert Parish, conside...\")"
+    "verificado_web": "wiki en: Larry Bird (\"...his entire 13-season professional career, leading them to five NBA Finals appearances and three NBA championships. He played most of his career with forward Kevin McHale and center Robert Parish, conside...\")",
+    "verificado_web_conferente": "wiki es: Larry Bird (\"...isputó 13 temporadas en la NBA, todas ellas con los Boston Celtics, con los que consiguió tres campeonatos: 1981, 1984 y 1986. Con una estatura de 2,06 metros, es considerado por muchos como el me...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "4c8a23f7d9",
@@ -263,11 +307,14 @@
       "107",
       "181"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística.",
-    "verificado_web": "wiki en: Oscar Robertson (\"...se, averaging 30.3 points, 10.4 rebounds, and 10.6 assists. For his career, Robertson had 181 triple-doubles, a record that had never been approached for decades until by Westbrook in...\")"
+    "verificado_web": "wiki en: Oscar Robertson (\"...se, averaging 30.3 points, 10.4 rebounds, and 10.6 assists. For his career, Robertson had 181 triple-doubles, a record that had never been approached for decades until by Westbrook in...\")",
+    "motivo": "O enunciado com \"Oscar Robertson\" e \"triplos-duplos\" entrega a 017:54 (primeiro com média de triplo-duplo), e citar o recorde de 2021 entregaria o 004:62 (Westbrook).",
+    "verificado_web_conferente": "wiki es: Oscar Robertson (\"...rtido). * Líder en la clasificación de mayor número de triples-dobles de la historia, con 181, hasta que fue superado por Russell Westbrook el 11 de mayo de 2021. * Consiguió promedia...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "aaad453594",
@@ -281,11 +328,14 @@
       "Sacramento Kings",
       "Boston Celtics"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Adversário do jogo de despedida, detalhe pouco lembrado.",
-    "verificado_web": "wiki en: Kobe Bryant (\"...m the ball in an attempt to get him another All-Star MVP, but Bryant declined. The Lakers beat the Jazz 101-96 in his final game and finished the season at 17-65, the worst in Lakers' history. Bryant scored an NBA seas...\")"
+    "verificado_web": "wiki en: Kobe Bryant (\"...m the ball in an attempt to get him another All-Star MVP, but Bryant declined. The Lakers beat the Jazz 101-96 in his final game and finished the season at 17-65, the worst in Lakers' history. Bryant scored an NBA seas...\")",
+    "motivo": "Mesmo jogo do 004:13 (60 pontos no último jogo da carreira, abril de 2016); o enunciado entrega a resposta dela (Kobe).",
+    "verificado_web_conferente": "wiki es: Kobe Bryant (\"...ró definitivamente en un partido ante Utah Jazz en el Staples Center, en el que consiguió 60 puntos, 23 de ellos en el último cuarto (22-50 en tiros de campo), logrando la anotación más alt...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "8af4202823",
@@ -299,11 +349,14 @@
       "1ª",
       "21ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Chris Paul (\"...d the Demon Deacons achieve their first-ever number-one ranking. Paul was selected as the fourth overall pick in the 2005 NBA draft by the New Orleans Hornets, where he developed into one of the...\")"
+    "verificado_web": "wiki en: Chris Paul (\"...d the Demon Deacons achieve their first-ever number-one ranking. Paul was selected as the fourth overall pick in the 2005 NBA draft by the New Orleans Hornets, where he developed into one of the...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Chris Paul (\"...| peso = {{peso|kg=79}} | deporte = Baloncesto | universidad = Wake Forest (2003-2005) | draft de la nba = 1.ª ronda (puesto 4), 2005 por New Orleans Hornets | club = Retirado | liga = NBA | número = 3 | posición = Base <!-- Sección de carrera inte...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "9056aa2079",
@@ -317,11 +370,14 @@
       "3ª",
       "27ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Tyrese Haliburton (\"...e suffering a season-ending wrist injury. Haliburton was selected by the Sacramento Kings 12th overall in the 2020 NBA draft. In 2022, he was acquired by the Indiana Pacers as part of...\")"
+    "verificado_web": "wiki en: Tyrese Haliburton (\"...e suffering a season-ending wrist injury. Haliburton was selected by the Sacramento Kings 12th overall in the 2020 NBA draft. In 2022, he was acquired by the Indiana Pacers as part of...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Tyrese Haliburton (\"...carrera --> |deporte = Baloncesto |posición = Base |universidad = Iowa State (2018-2020) |draft de la nba = 1.ª ronda (puesto 12), 2020 por Sacramento Kings |club = Indiana Pacers |número = 0 |liga = NBA | selección = Estados Unidos | debut intern...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "936c6e6064",
@@ -335,11 +391,13 @@
       "Charles Barkley e Karl Malone",
       "Magic Johnson e Larry Bird"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Olimpíadas",
     "motivo_dificuldade": "Detalhe do Dream Team, conhecido de fãs.",
-    "verificado_web": "wiki en: 1992 United States men's Olympic basketball team (\"...head coach Chuck Daly's suggestion that Jordan serve as the public face of the team, and Bird and Johnson were selected as co-captains. Over the previous 13 NBA seasons leading up to the 1992 Olympics, these three superstars...\")"
+    "verificado_web": "wiki en: 1992 United States men's Olympic basketball team (\"...head coach Chuck Daly's suggestion that Jordan serve as the public face of the team, and Bird and Johnson were selected as co-captains. Over the previous 13 NBA seasons leading up to the 1992 Olympics, these three superstars...\")",
+    "verificado_web_conferente": "wiki en: 1992 United States men's Olympic basketball team (\"...}</small>alt=Jordan receiving a ball from a referee|thumb|Michael Jordan was offered a co-captainship but he deferred to Bird and Johnson The first ten players for the team were selected...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "0c48774782",
@@ -353,11 +411,14 @@
       "3ª",
       "26ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Paul Pierce (\"...ege basketball for the Kansas Jayhawks. After being chosen by the Boston Celtics with the 10th overall pick in the 1998 NBA draft, Pierce spent the first 15 years of his career with Bo...\")"
+    "verificado_web": "wiki en: Paul Pierce (\"...ege basketball for the Kansas Jayhawks. After being chosen by the Boston Celtics with the 10th overall pick in the 1998 NBA draft, Pierce spent the first 15 years of his career with Bo...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Paul Pierce (\"...nidos | veces internacional = | deporte = Baloncesto | universidad = Kansas (1995-1998) | draft de la nba = 1.ª ronda (puesto 10), 1998 por Boston Celtics | club = Retirado | número = 34 | liga = NBA | equipos = * Boston Celtics ({{nbay|1998|sta...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "903b225fda",
@@ -371,11 +432,14 @@
       "1995",
       "1978"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Ano exato de um fato histórico.",
-    "verificado_web": "wiki en: Los Angeles Clippers (\"...ccess on the court and missed the playoffs during all six of their years in San Diego. In 1984, owner Donald Sterling controversially relocated the franchise to Los Angeles without NBA...\")"
+    "verificado_web": "wiki en: Los Angeles Clippers (\"...ccess on the court and missed the playoffs during all six of their years in San Diego. In 1984, owner Donald Sterling controversially relocated the franchise to Los Angeles without NBA...\")",
+    "motivo": "Difícil só por ser obscuro, sem graça para o jogador (ano de mudança ou estreia de franquia).",
+    "verificado_web_conferente": "wiki es: Los Angeles Clippers (\"...= 1970 |historia = Buffalo Braves <br /> 1970-1978 <br /> San Diego Clippers <br /> 1978-1984 <br /> Los Angeles Clippers <br /> 1984-presente |colores = {{color box|#12173F}} {{color...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "6f054b2bcd",
@@ -389,29 +453,35 @@
       "1ª",
       "10ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Carmelo Anthony (\"...fter one season at Syracuse, Anthony entered the 2003 NBA draft and was selected with the third overall pick by the Denver Nuggets. While playing for Denver, he led the Nuggets to the playoffs...\")"
+    "verificado_web": "wiki en: Carmelo Anthony (\"...fter one season at Syracuse, Anthony entered the 2003 NBA draft and was selected with the third overall pick by the Denver Nuggets. While playing for Denver, he led the Nuggets to the playoffs...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Carmelo Anthony (\"...}} | peso = {{peso|kg=108}} | deporte = Baloncesto | universidad = Syracuse (2002-2003) | draftnba = 1.ª ronda (puesto 3), 2003 por Denver Nuggets | club = Retirado | número = 15, 7, 00 | liga = NBA | posición = Alero <!-- Sección de car...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "73c9683084",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Kareem Abdul-Jabbar foi o maior cestinha da NBA até 2023. Com quantos pontos ele encerrou a carreira?",
+    "pergunta": "Quantos pontos Kareem Abdul-Jabbar marcou na carreira, na temporada regular da NBA?",
     "resposta": "38.387",
     "alternativas": [
       "35.012",
-      "32.292",
+      "36.928",
       "40.000",
       "38.387"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Kareem Abdul-Jabbar (\"...ent at age 42 in 1989, Abdul-Jabbar was the NBA's regular season career leader in points (38,387), games played (1,560), minutes (57,446), field goals made (15,837), field goal attempts...\")"
+    "verificado_web": "wiki en: Kareem Abdul-Jabbar (\"...ent at age 42 in 1989, Abdul-Jabbar was the NBA's regular season career leader in points (38,387), games played (1,560), minutes (57,446), field goals made (15,837), field goal attempts...\")",
+    "correcao": "Saiu \"foi o maior cestinha da NBA até 2023\": entregava o v12:2924 (LeBron passou Kareem). Alternativa 32.292 trocada: é a resposta da 016:34.",
+    "verificado_web_conferente": "wiki es: Kareem Abdul-Jabbar (\"...a = 1.ª ronda (puesto 1), 1969 por Milwaukee Bucks |otroresultado1 = Puntos |resultado1 = 38.387 (24,6 ppp) |otroresultado2 = Rebotes |resultado2 = 17.440 (11,2 rpp) |otroresultado3 = As...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "59249506b6",
@@ -425,11 +495,13 @@
       "Duke",
       "North Carolina"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Universidade de astro, detalhe pouco lembrado.",
-    "verificado_web": "wiki en: Tim Duncan (\"...hool, he played basketball for St. Dunstan's Episcopal. In college, Duncan played for the Wake Forest Demon Deacons, and in his senior year, he received the John Wooden Award and was named th...\")"
+    "verificado_web": "wiki en: Tim Duncan (\"...hool, he played basketball for St. Dunstan's Episcopal. In college, Duncan played for the Wake Forest Demon Deacons, and in his senior year, he received the John Wooden Award and was named th...\")",
+    "verificado_web_conferente": "wiki es: Tim Duncan (\"...| veces internacional = 40 | número selección = 13 | deporte = Baloncesto | universidad = Wake Forest (1993-1997) | draft de la nba = 1.ª ronda (puesto 1), 1997 por San Antonio Spurs | club =...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "d5ca61dbb2",
@@ -443,11 +515,14 @@
       "15ª",
       "7ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Jamal Murray (\"...f college basketball for the Kentucky Wildcats. Murray was selected by the Nuggets as the seventh overall pick in the 2016 NBA draft and was a key contributor to the team's first NBA championship...\")"
+    "verificado_web": "wiki en: Jamal Murray (\"...f college basketball for the Kentucky Wildcats. Murray was selected by the Nuggets as the seventh overall pick in the 2016 NBA draft and was a key contributor to the team's first NBA championship...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Jamal Murray (\"...N}} | veces internacional = | deporte = Baloncesto | universidad = Kentucky (2015-2016) | draftnba = 1.ª ronda (puesto 7), 2016 por los Denver Nuggets | club = Denver Nuggets | liga = NBA | número = 27 | posición = Base/Escolta | equipos = *...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "85026cb198",
@@ -461,17 +536,20 @@
       "San Antonio Spurs",
       "Boston Celtics"
     ],
-    "status": "gerada",
+    "status": "descartada",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Vice-campeão de uma final: o fã lembra o campeão, não o adversário.",
-    "verificado_web": "wiki en: 2007 NBA Finals (\"...season's playoffs. In this best-of-seven playoff series, the Western Conference champion San Antonio Spurs defeated the Eastern Conference champion Cleveland Cavaliers in a 4-0 sweep. This was Cle...\")"
+    "verificado_web": "wiki en: 2007 NBA Finals (\"...season's playoffs. In this best-of-seven playoff series, the Western Conference champion San Antonio Spurs defeated the Eastern Conference champion Cleveland Cavaliers in a 4-0 sweep. This was Cle...\")",
+    "motivo": "O v12:3047 (\"MVP das Finais de 2007, pelo San Antonio Spurs\") já entrega que o Spurs foi o campeão de 2007.",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 2007 (\"...entras que para los de San Antonio sería la cuarta vez. Los Spurs ganaron a los Cavaliers 4-0. Tony Parker fue nombrado MVP de las Finales. == Camino a las finales == {{AP|Playoffs NB...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "62300ac487",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Na temporada 2011/12, encurtada por locaute, o Charlotte Bobcats de Michael Jordan teve qual campanha, a pior da história em aproveitamento?",
+    "pergunta": "Na temporada 2011/12, encurtada por locaute, o Charlotte Bobcats teve qual campanha, a pior da história em aproveitamento?",
     "resposta": "7 vitórias e 59 derrotas",
     "alternativas": [
       "9 vitórias e 73 derrotas",
@@ -479,11 +557,17 @@
       "7 vitórias e 59 derrotas",
       "12 vitórias e 70 derrotas"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística.",
-    "verificado_web": "wiki en: Charlotte Hornets (\"...till hold the record for most losses in a season with 73). Overall, the team's record was 7-59. On April 30, 2012, the Bobcats announced that Silas would not return as head coach. St....\")"
+    "verificado_web": "wiki en: Charlotte Hornets (\"...till hold the record for most losses in a season with 73). Overall, the team's record was 7-59. On April 30, 2012, the Bobcats announced that Silas would not return as head coach. St....\")",
+    "correcao": "Saiu \"de Michael Jordan\": junto com \"Charlotte Bobcats\" entregava o 009:67 (Jordan sócio majoritário dos Bobcats em 2010).",
+    "verificado_web_conferente": [
+      "wiki es: Charlotte Hornets (\"...liga tras caer 104-84 ante los New York Knicks, terminando la temporada con un global de 7-59 en la temporada. ==== 2012-14: Últimos años como Bobcats ==== A pesar de tener las mejore...\")",
+      "wiki pt: Charlotte Hornets (\"...o recorde de mais derrotas em uma temporada com 73). No geral, o recorde da equipe foi de 7-59. Em 30 de abril de 2012, os Bobcats anunciaram que Silas não voltaria como treinador prin...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "50169128f7",
@@ -497,11 +581,13 @@
       "62",
       "54"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Stephen Curry (\"...tory to reach 2,500 career three-pointers. On January 3, 2021, Curry scored a career-high 62 points on 18-of-31 shooting in a 137-122 win against the Portland Trail Blazers. On January 4, h...\")"
+    "verificado_web": "wiki en: Stephen Curry (\"...tory to reach 2,500 career three-pointers. On January 3, 2021, Curry scored a career-high 62 points on 18-of-31 shooting in a 137-122 win against the Portland Trail Blazers. On January 4, h...\")",
+    "verificado_web_conferente": "wiki es: Stephen Curry (\"...en la victoria ante Portland Trail Blazers, consigue su récord personal de anotación con 62 puntos. El 23 de enero de 2021, supera a Reggie Miller (2560) como segundo máximo triplista de l...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "b6ecdadf88",
@@ -515,11 +601,13 @@
       "5",
       "4"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Kobe Bryant (\"...s finest statistical season and set numerous records. On December 20, 2005, Bryant scored 62 points in three quarters against the Dallas Mavericks. Entering the fourth quarter, he had outsc...\")"
+    "verificado_web": "wiki en: Kobe Bryant (\"...s finest statistical season and set numerous records. On December 20, 2005, Bryant scored 62 points in three quarters against the Dallas Mavericks. Entering the fourth quarter, he had outsc...\")",
+    "verificado_web_conferente": "wiki es: Kobe Bryant (\"...ga por primera vez. El recital de Bryant comenzó el 20 de diciembre de 2005, cuando anotó 62 puntos en tres cuartos en la victoria ante Dallas Mavericks. En el último cuarto, la ventaja era...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "3d90f784d4",
@@ -533,17 +621,19 @@
       "13ª",
       "24ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Kobe Bryant (\"...ll and declared for the 1996 NBA draft. He was selected by the Charlotte Hornets with the 13th pick; he was then traded to the Lakers. Following his rookie season, he earned NBA All-Ro...\")"
+    "verificado_web": "wiki en: Kobe Bryant (\"...ll and declared for the 1996 NBA draft. He was selected by the Charlotte Hornets with the 13th pick; he was then traded to the Lakers. Following his rookie season, he earned NBA All-Ro...\")",
+    "verificado_web_conferente": "wiki es: Kobe Bryant (\"...nia {{USA}} | altura = {{altura|m=1.98}} | peso = {{peso|kg=96}} | deporte = Baloncesto | draftnba = 1.ª ronda (puesto 13), 1996 por Charlotte Hornets |otroresultado1 = Puntos |resultado1 = 33.643 (25,0 ppp) |otroresultado2 = Rebotes |result...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "8f5a311d81",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em qual posição o francês Tony Parker foi escolhido no draft de 2001?",
+    "pergunta": "Em qual posição Tony Parker foi escolhido no draft de 2001?",
     "resposta": "28ª",
     "alternativas": [
       "11ª",
@@ -551,11 +641,14 @@
       "3ª",
       "28ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Tony Parker (\"...Spurs of the National Basketball Association (NBA). He was selected by the Spurs with the 28th overall pick in the 2001 NBA draft, and quickly became their starting point guard as a me...\")"
+    "verificado_web": "wiki en: Tony Parker (\"...Spurs of the National Basketball Association (NBA). He was selected by the Spurs with the 28th overall pick in the 2001 NBA draft, and quickly became their starting point guard as a me...\")",
+    "correcao": "Saiu \"o francês\": pista para o 009:52 (armador francês casado com Eva Longoria).",
+    "verificado_web_conferente": "wiki es: Tony Parker (\"...tura = {{altura|m=1.88}} | peso = {{peso|kg=84}} | deporte = Baloncesto | universidad = | draft de la nba = 1.ª ronda (puesto 28), 2001 por San Antonio Spurs | club = Retirado | posición = Base | selección = Francia | veces internacional = | número...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "9c5a0442de",
@@ -569,11 +662,13 @@
       "11",
       "8"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Títulos",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Bill Russell (\"...ould be renamed the Bill Russell NBA Finals Most Valuable Player Award in his honor as an 11-time NBA champion. During halftime of the 2009 NBA All-Star Game, Celtics captains Ray Allen,...\")"
+    "verificado_web": "wiki en: Bill Russell (\"...ould be renamed the Bill Russell NBA Finals Most Valuable Player Award in his honor as an 11-time NBA champion. During halftime of the 2009 NBA All-Star Game, Celtics captains Ray Allen,...\")",
+    "verificado_web_conferente": "wiki es: Bill Russell (\"...la posición de pívot. Fue el máximo estandarte de la dinastía de los Celtics que ganaron once campeonatos en trece años y en ese lapso disputaron diez finales consecutivas (logrando ocho títulos...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "0e84546cdc",
@@ -587,11 +682,13 @@
       "Golden State Warriors",
       "Los Angeles Lakers"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1977 NBA Finals (\"...Conference champion Portland Trail Blazers played against the Eastern Conference champion Philadelphia 76ers, with the 76ers holding home-court advantage. Their four regular season meetings had been...\")"
+    "verificado_web": "wiki en: 1977 NBA Finals (\"...Conference champion Portland Trail Blazers played against the Eastern Conference champion Philadelphia 76ers, with the 76ers holding home-court advantage. Their four regular season meetings had been...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1977 (\"...{{Finales NBA resumen | imagen = | caption = | año = 1977 | subcampeón = Philadelphia 76ers | entrenador_subcampeón = Gene Shue | partidos_subcampeón = 2 | campeón = Portland...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "61d278e0ac",
@@ -605,11 +702,13 @@
       "Seattle SuperSonics",
       "Milwaukee Bucks"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1983 NBA Finals (\"...The Eastern Conference champion Philadelphia 76ers swept the Western Conference champion Los Angeles Lakers to win their third NBA championship and first since 1967. After their previous four final...\")"
+    "verificado_web": "wiki en: 1983 NBA Finals (\"...The Eastern Conference champion Philadelphia 76ers swept the Western Conference champion Los Angeles Lakers to win their third NBA championship and first since 1967. After their previous four final...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1983 (\"...{{Finales NBA resumen | imagen = | caption = | año = 1983 | subcampeón = Los Angeles Lakers | entrenador_subcampeón = Pat Riley | partidos_subcampeón = 0 | campeón = Philadelphia 76...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "c48a22b321",
@@ -618,16 +717,22 @@
     "pergunta": "Com quantos pontos na temporada regular Michael Jordan encerrou a carreira na NBA?",
     "resposta": "32.292",
     "alternativas": [
-      "38.387",
+      "34.150",
       "29.277",
       "32.292",
       "25.192"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Michael Jordan (\"...in the playoffs is the second-highest among NBA career playoff scoring leaders. He scored 32,292 points in the regular season, placing him sixth on the NBA all-time scoring list behind L...\")"
+    "verificado_web": "wiki en: Michael Jordan (\"...in the playoffs is the second-highest among NBA career playoff scoring leaders. He scored 32,292 points in the regular season, placing him sixth on the NBA all-time scoring list behind L...\")",
+    "correcao": "Alternativa 38.387 trocada: é a resposta da 016:22.",
+    "verificado_web_conferente": [
+      "wiki es: Michael Jordan (\"...tras una increíble ovación de más de tres minutos de duración. Jordan se retiró anotando 32 292 puntos en toda su carrera, solo superado, en ese momento, por Kareem Abdul-Jabbar y Karl...\")",
+      "wiki pt: Michael Jordan (\"...os nos playoffs, sendo o segundo maior pontuador da história da NBA. Ele se aposentou com 32 292 pontos marcados na temporada regular, ficando em terceiro na lista dos maiores de todos o...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "8bc37440aa",
@@ -641,11 +746,13 @@
       "Madden NFL",
       "FIFA"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Cultura pop",
     "motivo_dificuldade": "Jogo mais conhecido do basquete; os outros são de outros esportes.",
-    "verificado_web": "wiki en: NBA 2K (\"...ies of basketball sports simulation video games developed by Visual Concepts and released annually since 1999. The premise of the series is to emulate the sport of basketball and the Natio...\")"
+    "verificado_web": "wiki en: NBA 2K (\"...ies of basketball sports simulation video games developed by Visual Concepts and released annually since 1999. The premise of the series is to emulate the sport of basketball and the Natio...\")",
+    "verificado_web_conferente": "wiki en: NBA 2K (\"...ies of basketball sports simulation video games developed by Visual Concepts and released annually since 1999. The premise of the series is to emulate the sport of basketball and the Nat...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "cefa883f16",
@@ -659,11 +766,14 @@
       "LaMelo Ball",
       "Tyrese Haliburton"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Primeira escolha de draft recente, só fã acompanha.",
-    "verificado_web": "wiki en: Anthony Edwards (basketball) (\"...ard, Edwards played college basketball for the Georgia Bulldogs and was selected with the first overall pick by the Timberwolves in the 2020 NBA draft. He is a four-time NBA All-Star, a two-tim...\")"
+    "verificado_web": "wiki en: Anthony Edwards (basketball) (\"...ard, Edwards played college basketball for the Georgia Bulldogs and was selected with the first overall pick by the Timberwolves in the 2020 NBA draft. He is a four-time NBA All-Star, a two-tim...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); das 12 de 1ª escolha ficaram 6 (Yao, Bennett, Kwame Brown, David Robinson, Derrick Rose, Anthony Davis). Esta é 1ª escolha recente ou pouco marcante.",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2020 (\"...itable\" |PG |Base |SG |Escolta |SF |Alero |PF |Ala Pívot |C |Pívot |} thumb|150px|right|[[Anthony Edwards (baloncestista)|Anthony Edwards fue elegido n.º 1 por Minnesota Timberwolves.]] thumb|150...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a4063dee38",
@@ -677,11 +787,13 @@
       "Sérvia",
       "Eslovênia"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Estrangeiros",
     "motivo_dificuldade": "Nacionalidade de coadjuvante dos Bulls.",
-    "verificado_web": "wiki en: Toni Kukoč (\"...Toni Kukoč (pronounced [kukotʃ]; born September 18, 1968) is a Croatian former professional basketball player who serves as special advisor to Jerry Reinsdorf, t...\")"
+    "verificado_web": "wiki en: Toni Kukoč (\"...Toni Kukoč (pronounced [kukotʃ]; born September 18, 1968) is a Croatian former professional basketball player who serves as special advisor to Jerry Reinsdorf, t...\")",
+    "verificado_web_conferente": "wiki es: Toni Kukoč (\"...acimiento = {{fecha|18|9|1968|edad}} | lugar nacimiento = Split, {{YUG}} | nacionalidad = Croata | fecha fallecimiento = | lugar fallecimiento = | altura = {{altura|m=2.08}} | peso = {{p...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "2e41a1bd51",
@@ -695,16 +807,18 @@
       "Kareem Abdul-Jabbar",
       "Magic Johnson"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de uma temporada antiga, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: 1985 NBA Finals (\"...er. Larry Bird's dismal shooting continued as he hit just 12 of 29 shots. The 38-year-old Abdul-Jabbar was named MVP of the series, his second Finals MVP award and first since 1971 (back when he was known as Lew Alcindor), averaging 25.7 point...\")"
+    "verificado_web": "wiki en: 1985 NBA Finals (\"...er. Larry Bird's dismal shooting continued as he hit just 12 of 29 shots. The 38-year-old Abdul-Jabbar was named MVP of the series, his second Finals MVP award and first since 1971 (back when he was known as Lew Alcindor), averaging 25.7 point...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1985 (\"...peón = Pat Riley | partidos_campeón = 4 | fechas = 27 de mayo - 9 de junio | MVP = Kareem Abdul-Jabbar<br />(Los Angeles Lakers) | televisión = CBS (Estados Unidos) | comentaristastv = Dick St...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "94ac271f8f",
     "categoria": "Esportes",
-    "dificuldade": "facil",
+    "dificuldade": "medio",
     "pergunta": "Qual destes astros fez parte do Dream Team de 1992?",
     "resposta": "Karl Malone",
     "alternativas": [
@@ -713,11 +827,18 @@
       "Shaquille O'Neal",
       "Karl Malone"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Olimpíadas",
     "motivo_dificuldade": "Os outros três nem estavam na seleção de 1992; basta saber a época.",
-    "verificado_web": "wiki en: 1992 United States men's Olympic basketball team (\"...ember 21, 1991: Michael Jordan and Scottie Pippen of the Chicago Bulls, John Stockton and Karl Malone of the Utah Jazz, Magic Johnson of the Los Angeles Lakers, Larry Bird of the Boston Celti...\")"
+    "verificado_web": "wiki en: 1992 United States men's Olympic basketball team (\"...ember 21, 1991: Michael Jordan and Scottie Pippen of the Chicago Bulls, John Stockton and Karl Malone of the Utah Jazz, Magic Johnson of the Los Angeles Lakers, Larry Bird of the Boston Celti...\")",
+    "dificuldade_ajuste": {
+      "de": "facil",
+      "para": "medio",
+      "motivo": "Reconhecer Karl Malone no Dream Team exige acompanhar NBA; Jordan seria fácil, Malone não."
+    },
+    "verificado_web_conferente": "wiki pt: Dream Team (\"...b|John Stockton, o histórico armador do Utah Jazz Ficheiro:Lipofsky-Karl-Malone-32727.jpg|Karl Malone, parceiro de Stockton no Jazz </gallery> == O Dream Team == {| class=\"toccolours\" style=\"...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "3a41ea2bed",
@@ -731,11 +852,14 @@
       "3ª",
       "7ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: James Harden (\"...onsensus All-American and Pac-10 Player of the Year in 2009. Harden was selected with the third overall pick in the 2009 NBA draft by the Oklahoma City Thunder. In 2012, he was named NBA Sixth...\")"
+    "verificado_web": "wiki en: James Harden (\"...onsensus All-American and Pac-10 Player of the Year in 2009. Harden was selected with the third overall pick in the 2009 NBA draft by the Oklahoma City Thunder. In 2012, he was named NBA Sixth...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: James Harden (\"...peso = {{peso|kg=100}} | deporte = Baloncesto | universidad = Arizona State (2007-2009) | draft de la nba = 1.ª ronda (puesto 3), 2009 por Oklahoma City Thunder | club = Cleveland Cavaliers | numero = 1 | liga = NBA | posición = Base / Escolta | equip...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a0f6e6e360",
@@ -749,11 +873,16 @@
       "56",
       "50"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: 2021 NBA Finals (\"...h and safety protocols. === Game 6 === Giannis Antetokounmpo scored a playoff career-high 50 points and added 14 rebounds and five blocks to lead the Bucks to a 105-98 victory to win the se...\")"
+    "verificado_web": "wiki en: 2021 NBA Finals (\"...h and safety protocols. === Game 6 === Giannis Antetokounmpo scored a playoff career-high 50 points and added 14 rebounds and five blocks to lead the Bucks to a 105-98 victory to win the se...\")",
+    "verificado_web_conferente": [
+      "wiki es: Giannis Antetokounmpo (\"...les de la NBA, junto a Shaquille O'Neal (2000). El 20 de julio, en el sexto partido anotó 50 puntos, y consiguió con los Bucks, su primer anillo de campeón, donde además fue nombrado MVP de...\")",
+      "wiki es: Giannis Antetokounmpo (\"...El 20 de julio, en el sexto partido anotó 50 puntos, y consiguió con los Bucks, su primer anillo de campeón...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "d68c44b6ea",
@@ -767,11 +896,13 @@
       "53",
       "70"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Shaquille O'Neal (\"...jected from the game. On O'Neal's 28th birthday on March 6, 2000, he scored a career-high 61 points to go along with 23 rebounds and 3 assists in a 123-103 win over the Los Angeles Clippers...\")"
+    "verificado_web": "wiki en: Shaquille O'Neal (\"...jected from the game. On O'Neal's 28th birthday on March 6, 2000, he scored a career-high 61 points to go along with 23 rebounds and 3 assists in a 123-103 win over the Los Angeles Clippers...\")",
+    "verificado_web_conferente": "wiki es: Shaquille O'Neal (\"...e toda su carrera fue probablemente el disputado el 6 de marzo de 2000 (el día de su 28.º cumpleaños) con los Lakers ante los Clippers, en el que anotó 61{{esd}}puntos y consiguió 23{{esd}}r...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "0a85ba7ccb",
@@ -785,11 +916,13 @@
       "Rasheed Wallace",
       "Ben Wallace"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Astro dos Pistons de 2004, conhecido de fãs da época.",
-    "verificado_web": "wiki en: Ben Wallace (basketball) (\"...(NBA) with the Detroit Pistons. Nicknamed \"Big Ben\", he is often considered the greatest undrafted player in NBA history. He is also widely regarded as one of the best defensive players of...\")"
+    "verificado_web": "wiki en: Ben Wallace (basketball) (\"...(NBA) with the Detroit Pistons. Nicknamed \"Big Ben\", he is often considered the greatest undrafted player in NBA history. He is also widely regarded as one of the best defensive players of...\")",
+    "verificado_web_conferente": "wiki pt: Ben Wallace (\"...es de Cuyahoga Community College e Virginia Union University. Após não ser selecionado no Draft de 1996, ele assinou com o Washington Bullets (atual Washington Wizards). Ele também jogo...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "c9410b8f1f",
@@ -803,11 +936,14 @@
       "15ª",
       "2ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Kawhi Leonard (\"...am. Leonard played two seasons of college basketball for San Diego State. He was selected 15th overall by the Indiana Pacers in the 2011 NBA draft before being traded to the San Antoni...\")"
+    "verificado_web": "wiki en: Kawhi Leonard (\"...am. Leonard played two seasons of college basketball for San Diego State. He was selected 15th overall by the Indiana Pacers in the 2011 NBA draft before being traded to the San Antoni...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil. Kawhi já está na 016:109 (o Pacers o escolheu).",
+    "verificado_web_conferente": "wiki es: Kawhi Leonard (\"...úmero selección = 30 | deporte = Baloncesto | universidad = San Diego State (2009-2011) | draft de la nba = 1.ª ronda (puesto 15), 2011 por Indiana Pacers | club = Toronto Raptors | número = | liga = NBA | posición = Alero | equipos = * San Anto...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "847ac3a275",
@@ -821,11 +957,13 @@
       "Arizona",
       "Flórida"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Times",
     "motivo_dificuldade": "Geografia simples: San Antonio, Dallas e Houston.",
-    "verificado_web": "wiki en: Dallas Mavericks (\"...ranchise. While the Braves went to California as the San Diego Clippers, Sonju eventually returned to Texas. He was introduced to Carter by Mayor Robert Folsom, one of the owners and team president...\") | wiki pt: San Antonio Spurs (\"...é um time de basquete da National Basketball Association (NBA) localizado em San Antonio, Texas. As cores do uniforme são preto, prata e branco. A equipe foi fundada em 1967 como Dallas...\")"
+    "verificado_web": "wiki en: Dallas Mavericks (\"...ranchise. While the Braves went to California as the San Diego Clippers, Sonju eventually returned to Texas. He was introduced to Carter by Mayor Robert Folsom, one of the owners and team president...\") | wiki pt: San Antonio Spurs (\"...é um time de basquete da National Basketball Association (NBA) localizado em San Antonio, Texas. As cores do uniforme são preto, prata e branco. A equipe foi fundada em 1967 como Dallas...\")",
+    "verificado_web_conferente": "wiki pt: Texas (\"...B (o Houston Astros e o Texas Rangers), três equipes de basquetebol na NBA (o San Antonio Spurs, o Houston Rockets e o Dallas Mavericks) e uma equipe de hóquei no gelo na NHL (o Dallas...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "617368a169",
@@ -839,11 +977,13 @@
       "Sean Elliott",
       "Tim Duncan"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de uma temporada antiga, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: 1999 NBA Finals (\"...\"rebellious slaves\" comment. The Spurs won the NBA Finals 4 games to 1. Spurs forward Tim Duncan was named the Most Valuable Player of the finals. On June 25 (two years to the day that Duncan was drafted by the Spu...\")"
+    "verificado_web": "wiki en: 1999 NBA Finals (\"...\"rebellious slaves\" comment. The Spurs won the NBA Finals 4 games to 1. Spurs forward Tim Duncan was named the Most Valuable Player of the finals. On June 25 (two years to the day that Duncan was drafted by the Spu...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1999 (\"...n = Gregg Popovich | partidos_campeón = 4 | fechas =16 de junio - 25 de junio | MVP = Tim Duncan<br />(San Antonio Spurs) | televisión = NBC (Estados Unidos)<br>VTV (IBC) (Filipinas) | c...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "fe8f408692",
@@ -857,11 +997,13 @@
       "Defensor do Ano",
       "Sexto Homem do Ano"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de temporada de Jordan.",
-    "verificado_web": "wiki en: Michael Jordan (\"...luable Player (MVP) awards, 10 scoring titles (both all-time records), five MVP awards, a Defensive Player of the Year award, 10 All-NBA First Team designations, nine All-Defensive First Team honors, 14 All-S...\")"
+    "verificado_web": "wiki en: Michael Jordan (\"...luable Player (MVP) awards, 10 scoring titles (both all-time records), five MVP awards, a Defensive Player of the Year award, 10 All-NBA First Team designations, nine All-Defensive First Team honors, 14 All-S...\")",
+    "verificado_web_conferente": "wiki es: Michael Jordan (\"...2) * Rookie del Año de la NBA (1985) * Mejor quinteto de rookies de la NBA (1985) * Mejor Defensor de la NBA (1988) * 6x Campeón de la NBA<br /><small>(1991, 1992, 1993, 1996, 1997, 1998)<...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "babd01f596",
@@ -875,11 +1017,14 @@
       "13ª",
       "2ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Ja Morant (\"...sists per game for a single season. Morant was selected by the Memphis Grizzlies with the second overall pick in the 2019 NBA draft, and was named the NBA Rookie of the Year in 2020. In 2022, he...\")"
+    "verificado_web": "wiki en: Ja Morant (\"...sists per game for a single season. Morant was selected by the Memphis Grizzlies with the second overall pick in the 2019 NBA draft, and was named the NBA Rookie of the Year in 2020. In 2022, he...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Ja Morant (\"...o|kg=79}} |posición = Base |deporte = Baloncesto |universidad = Murray State (2017-2019) |draft de la nba = 1.ª ronda (puesto 2), 2019 por Memphis Grizzlies |club = Portland Trail Blazers |numero = 1 |liga = NBA |equipos = * Memphis Grizzlies ({{n...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "87f37599b2",
@@ -893,11 +1038,14 @@
       "33ª",
       "47ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Raul Neto (\"...talian passport. == Professional career == Neto was drafted by the Atlanta Hawks with the 47th pick in the 2013 NBA draft. He was then immediately traded to the Utah Jazz. === Minas Tê...\")"
+    "verificado_web": "wiki en: Raul Neto (\"...talian passport. == Professional career == Neto was drafted by the Atlanta Hawks with the 47th pick in the 2013 NBA draft. He was then immediately traded to the Utah Jazz. === Minas Tê...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Raulzinho Neto (\"...{{altura|m=1.88}} | peso = {{peso|kg=82}} | selección = Brasil | veces internacional = | draft de la nba = 2.ª ronda (puesto 47), 2013 por Atlanta Hawks | club = Brisbane Bullets | liga = NBL | número = | posición = Base | equipos = * Minas Tê...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "c379502d45",
@@ -911,17 +1059,19 @@
       "7",
       "9"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Técnicos",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Red Auerbach (\"...Nelson. Auerbach's recipe demoralized the opposition. From 1957 to 1966, the Celtics won nine of ten NBA championships. This included eight consecutive championships-the longest championship streak in North A...\")"
+    "verificado_web": "wiki en: Red Auerbach (\"...Nelson. Auerbach's recipe demoralized the opposition. From 1957 to 1966, the Celtics won nine of ten NBA championships. This included eight consecutive championships-the longest championship streak in North A...\")",
+    "verificado_web_conferente": "wiki es: Red Auerbach (\"...los Celtics hasta su muerte. Como entrenador, ganó 938 partidos (récord a su retirada) y nueve campeonatos de la NBA, dos menos que Phil Jackson. Como mánager general y presidente de l...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "b97f6411fe",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Antes do título de 2026, em quais anos o New York Knicks tinha sido campeão da NBA?",
+    "pergunta": "Em quais anos o New York Knicks conquistou os dois primeiros títulos da NBA?",
     "resposta": "1970 e 1973",
     "alternativas": [
       "1972 e 1994",
@@ -929,11 +1079,14 @@
       "1951 e 1953",
       "1999 e 2013"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Títulos",
     "motivo_dificuldade": "Ano exato de um fato histórico, que pouca gente guarda.",
-    "verificado_web": "wiki en: New York Knicks (\"...in the late 1960s under head coach Red Holzman, winning their first NBA championships in 1970 and 1973. They made six playoff appearances in the 1980s but did not reach the NBA Finals. In the...\")"
+    "verificado_web": "wiki en: New York Knicks (\"...in the late 1960s under head coach Red Holzman, winning their first NBA championships in 1970 and 1973. They made six playoff appearances in the 1980s but did not reach the NBA Finals. In the...\")",
+    "correcao": "Saiu \"Antes do título de 2026\": entregava o piloto:36 (Knicks campeões de 2025/26).",
+    "verificado_web_conferente": "wiki es: New York Knicks (\"...de 'Nueva York' en letras serif y en naranja, sería el uniforme durante sus temporadas de 1970 y 1973 del campeonato, sin embargo no se introdujeron simultáneamente. Los uniformes locales se...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "c8b35f31e4",
@@ -947,11 +1100,13 @@
       "Philadelphia 76ers",
       "Seattle SuperSonics"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1980 NBA Finals (\"...e Western Conference champion Los Angeles Lakers defeated the Eastern Conference champion Philadelphia 76ers in six games to win their seventh NBA championship. Kareem Abdul-Jabbar was the league's...\")"
+    "verificado_web": "wiki en: 1980 NBA Finals (\"...e Western Conference champion Los Angeles Lakers defeated the Eastern Conference champion Philadelphia 76ers in six games to win their seventh NBA championship. Kareem Abdul-Jabbar was the league's...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1980 (\"...{{Finales NBA resumen | imagen = | caption = | año = 1980 | subcampeón = Philadelphia 76ers | entrenador_subcampeón =Billy Cunningham | partidos_subcampeón = 2 | campeón = Los...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "e093f42dab",
@@ -965,11 +1120,14 @@
       "2016",
       "2012"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Ano exato de um fato histórico.",
-    "verificado_web": "wiki en: Brooklyn Nets (\".... In 1977, the team returned to New Jersey and played as the New Jersey Nets from 1977 to 2012. Led by star point guard Jason Kidd, the Nets reached consecutive NBA Finals in 2002 and...\")"
+    "verificado_web": "wiki en: Brooklyn Nets (\".... In 1977, the team returned to New Jersey and played as the New Jersey Nets from 1977 to 2012. Led by star point guard Jason Kidd, the Nets reached consecutive NBA Finals in 2002 and...\")",
+    "motivo": "O enunciado entrega o v12:2979 (\"Qual franquia trocou New Jersey pelo Brooklyn?\" = Nets); não há como perguntar o ano sem citar o time.",
+    "verificado_web_conferente": "wiki es: Brooklyn Nets (\"...Americans<br />1967-1968<br />New York Nets<br />1968-1977<br />New Jersey Nets<br />1977-2012<br />Brooklyn Nets<br />2012-presente |colores = {{color box|#000000}} {{color box|#FFFFF...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "01350e115b",
@@ -983,11 +1141,13 @@
       "Amar'e Stoudemire",
       "Jay Williams"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft antiga.",
-    "verificado_web": "wiki en: Yao Ming (\"...with the CBA and the Sharks to secure his release, Yao was selected by the Rockets as the first overall pick in the 2002 NBA draft. He reached the NBA playoffs four times, and in 2009, helped t...\")"
+    "verificado_web": "wiki en: Yao Ming (\"...with the CBA and the Sharks to secure his release, Yao was selected by the Rockets as the first overall pick in the 2002 NBA draft. He reached the NBA playoffs four times, and in 2009, helped t...\")",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2002 (\"...icación = Madison Square Garden<br />Nueva York, Nueva York |tv = TNT |primera elección = Yao Ming, Houston Rockets |tipo = NBA |anterior = 2001 |siguiente = 2003 }} El Draft de la NBA de...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "9df42e494f",
@@ -1001,11 +1161,14 @@
       "Los Angeles Lakers",
       "Boston Celtics"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Origem de franquia que só fã antigo conhece.",
-    "verificado_web": "wiki en: ABA-NBA merger (\"...ur of the remaining six ABA teams: the Denver Nuggets, Indiana Pacers, New York Nets, and San Antonio Spurs. The remaining two ABA teams, the Kentucky Colonels and the Spirits of St. Louis, folded,...\")"
+    "verificado_web": "wiki en: ABA-NBA merger (\"...ur of the remaining six ABA teams: the Denver Nuggets, Indiana Pacers, New York Nets, and San Antonio Spurs. The remaining two ABA teams, the Kentucky Colonels and the Spirits of St. Louis, folded,...\")",
+    "motivo": "O enunciado cita a ABA, que é a resposta do 014:72 (liga da bola tricolor), e o assunto (fusão de 1976) já está na 017:36.",
+    "verificado_web_conferente": "wiki es: San Antonio Spurs (\"...Dallas Chaparrals, uno de los miembros originales de la American Basketball Association (ABA). En la temporada 1970-71 cambiaron su nombre por el de Texas Chaparrals y en 1973 se tra...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "5ff1106767",
@@ -1019,11 +1182,14 @@
       "18ª",
       "9ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Jaylen Brown (\"...16 NBA draft after his freshman season, Brown was selected by the Boston Celtics with the third overall pick. As a professional, he has split his time between shooting guard and small forward....\")"
+    "verificado_web": "wiki en: Jaylen Brown (\"...16 NBA draft after his freshman season, Brown was selected by the Boston Celtics with the third overall pick. As a professional, he has split his time between shooting guard and small forward....\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Jaylen Brown (\"...rera --> |deporte = Baloncesto |posición = Escolta |universidad = California (2015–2016) |draft de la nba = 1.ª ronda (puesto 3), 2016 por Boston Celtics |selección = Estados Unidos |debut internacional = |club = Philadelphia 76ers |número = 7...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "f7215906eb",
@@ -1037,11 +1203,16 @@
       "Utah Jazz",
       "Los Angeles Lakers"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1990 NBA Finals (\"...n and Eastern Conference champion Detroit Pistons against the Western Conference champion Portland Trail Blazers. The Pistons defeated the Trail Blazers in five games to repeat as NBA champions. This wa...\")"
+    "verificado_web": "wiki en: 1990 NBA Finals (\"...n and Eastern Conference champion Detroit Pistons against the Western Conference champion Portland Trail Blazers. The Pistons defeated the Trail Blazers in five games to repeat as NBA champions. This wa...\")",
+    "verificado_web_conferente": [
+      "wiki es: Finales de la NBA de 1990 (\"...{{Finales NBA resumen | imagen = 140px | caption = | año = 1990 | subcampeón = Portland Trail Blazers | entrenador_subcampeón = Rick Adelman | partidos_subcampeón = 1 | campeón...\")",
+      "wiki pt: Detroit Pistons (\"...go | coach = J. B. Bickerstaff | affiliate = Motor City Cruise | league_champs = 3 (1989, 1990 e 2004) | conf_champs = 5 (1988, 1989, 1990, 2004 e 2005) | div_champs = 12 (1955, 1956,...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a113e7f34f",
@@ -1055,11 +1226,14 @@
       "1970/71",
       "1988/89"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Ano exato de um fato histórico, que pouca gente guarda.",
-    "verificado_web": "wiki en: Miami Heat (\"...es at Kaseya Center, and has won three NBA championships. The franchise began play in the 1988-89 season as an expansion team. After a period of mediocrity, the Heat gained relevance in t...\")"
+    "verificado_web": "wiki en: Miami Heat (\"...es at Kaseya Center, and has won three NBA championships. The franchise began play in the 1988-89 season as an expansion team. After a period of mediocrity, the Heat gained relevance in t...\")",
+    "motivo": "Difícil só por ser obscuro, sem graça para o jogador (ano de mudança ou estreia de franquia).",
+    "verificado_web_conferente": "wiki es: Miami Heat (\"...porte = Baloncesto | imagen = Miami Heat wordmark.gif | tamañoimagen = 250px |fundación = 1988 |colores = {{color box|#000000}} {{color box|#98002E}} {{color box|#F9A01B}} |propietario...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "e5f5bb3928",
@@ -1073,11 +1247,14 @@
       "Jabari Smith Jr.",
       "Keegan Murray"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Primeira escolha de draft recente, só fã acompanha.",
-    "verificado_web": "wiki en: Paolo Banchero (\"...g his freshman season, he declared for the 2022 NBA draft, where he was selected with the first overall pick by the Orlando Magic. Banchero was named the NBA Rookie of the Year in 2023. == Earl...\")"
+    "verificado_web": "wiki en: Paolo Banchero (\"...g his freshman season, he declared for the 2022 NBA draft, where he was selected with the first overall pick by the Orlando Magic. Banchero was named the NBA Rookie of the Year in 2023. == Earl...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); das 12 de 1ª escolha ficaram 6 (Yao, Bennett, Kwame Brown, David Robinson, Derrick Rose, Anthony Davis). Esta é 1ª escolha recente ou pouco marcante.",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2022 (\"...en el que jugó recientemente}} |- |style=\"text-align:center;\"|1 |bgcolor=\"#FFCC00\"|Paolo Banchero |PF |{{Estados Unidos}}<br/>{{Italia}} |Orlando Magic |Duke |- |style=\"text-align:center;...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "348eef1b91",
@@ -1091,17 +1268,22 @@
       "7",
       "12"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Celtics-Lakers rivalry (\"..., and the rivalry has been called the greatest in the league. The teams have met a record 12 times in the NBA Finals, with their first such meeting being in 1959. They would both go on to...\")"
+    "verificado_web": "wiki en: Celtics-Lakers rivalry (\"..., and the rivalry has been called the greatest in the league. The teams have met a record 12 times in the NBA Finals, with their first such meeting being in 1959. They would both go on to...\")",
+    "verificado_web_conferente": [
+      "wiki es: Rivalidad Celtics-Lakers (\"...e supone un 45% sobre el total de temporadas de la NBA, y se han enfrentado doce veces en Finales, siendo el duelo más repetido en la serie final de la liga. Aunque entre finales de los a...\")",
+      "wiki en: Celtics–Lakers rivalry (\"..., and the rivalry has been called the greatest in the league. The teams have met a record 12 times in the NBA Finals, with their first such meeting being in {{nbafy|1959}}. They would both...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "403b9d6aca",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em qual ano Michael Jordan fez o último jogo da carreira, pelo Washington Wizards?",
+    "pergunta": "Em qual ano Michael Jordan fez o último jogo da carreira na NBA?",
     "resposta": "2003",
     "alternativas": [
       "1998",
@@ -1109,11 +1291,14 @@
       "2001",
       "2003"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Ano exato de um fato histórico.",
-    "verificado_web": "wiki en: Michael Jordan (\"...layer. He played 15 seasons in the National Basketball Association (NBA) between 1984 and 2003, winning six NBA championships with the Chicago Bulls. Jordan is widely considered to be...\")"
+    "verificado_web": "wiki en: Michael Jordan (\"...layer. He played 15 seasons in the National Basketball Association (NBA) between 1984 and 2003, winning six NBA championships with the Chicago Bulls. Jordan is widely considered to be...\")",
+    "correcao": "Saiu \"pelo Washington Wizards\": entregava o v12:3076.",
+    "verificado_web_conferente": "nbcsportsphiladelphia.com / UPI (17/04/2003): Philadelphia 107, Washington 87 (\"...Jordan plays last game of career against Sixers, 16 de abril de 2003; Jordan Scores 15 In Final NBA Game (AP)...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "2ab8d45961",
@@ -1127,11 +1312,13 @@
       "Houston Rockets",
       "Philadelphia 76ers"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1986 NBA Finals (\"...ed the Eastern Conference champion Boston Celtics against the Western Conference champion Houston Rockets, in a rematch of the 1981 NBA Finals (though only Allen Leavell and Robert Reid remained...\")"
+    "verificado_web": "wiki en: 1986 NBA Finals (\"...ed the Eastern Conference champion Boston Celtics against the Western Conference champion Houston Rockets, in a rematch of the 1981 NBA Finals (though only Allen Leavell and Robert Reid remained...\")",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1986 (\"...{{Finales NBA resumen | imagen = 140px | caption = | año = 1986 | subcampeón = Houston Rockets | entrenador_subcampeón = Bill Fitch | partidos_subcampeón = 2 | campeón = Boston...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "5969850b47",
@@ -1145,11 +1332,14 @@
       "1966",
       "1976"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Ano exato de um fato histórico.",
-    "verificado_web": "wiki en: Chicago Bulls (\"...er of the Central Division of the Eastern Conference. The team was founded on January 16, 1966, and played its first game during the 1966-67 NBA season. The Bulls share their home aren...\")"
+    "verificado_web": "wiki en: Chicago Bulls (\"...er of the Central Division of the Eastern Conference. The team was founded on January 16, 1966, and played its first game during the 1966-67 NBA season. The Bulls share their home aren...\")",
+    "motivo": "Difícil só por ser obscuro, sem graça para o jogador (ano de mudança ou estreia de franquia).",
+    "verificado_web_conferente": "wiki es: Chicago Bulls (\"...imo = |apodo = |mascota = Benny The Bull |deporte = Baloncesto |fundación = {{Fecha|16|01|1966|edad}} |desaparición = |colores = {{Cuadro color|#CE1141}} {{Cuadro color|black}} {{Cuadr...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "cfd0fbd565",
@@ -1163,11 +1353,13 @@
       "1.390",
       "1.211"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Técnicos",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: San Antonio Spurs (\"...for all its member teams on August 11, 2022. On October 26, 2025, the Spurs put up a \"Pop 1,390\" banner prior to the home opener to honor Gregg Popovich for his 1,390 regular season win...\")"
+    "verificado_web": "wiki en: San Antonio Spurs (\"...for all its member teams on August 11, 2022. On October 26, 2025, the Spurs put up a \"Pop 1,390\" banner prior to the home opener to honor Gregg Popovich for his 1,390 regular season win...\")",
+    "verificado_web_conferente": "wiki es: Gregg Popovich (\"...bottom\" | style=\"text-align:center;\" colspan=\"2\"|Total | 2214||style=\"background:#E0CEF2;|1390||824||{{Winning percentage|1390|824}}||&nbsp;||284||170||114||{{Winning percentage|170|11...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "ebe232ff44",
@@ -1181,11 +1373,14 @@
       "Scottie Barnes",
       "Jalen Green"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Primeira escolha de draft recente, só fã acompanha.",
-    "verificado_web": "wiki en: Cade Cunningham (\"...n a gold medal with the United States at the 2019 FIBA Under-19 World Cup. He was the NBA first overall pick by the Detroit Pistons in the 2021 NBA draft. He was named as an NBA All-Star and to...\")"
+    "verificado_web": "wiki en: Cade Cunningham (\"...n a gold medal with the United States at the 2019 FIBA Under-19 World Cup. He was the NBA first overall pick by the Detroit Pistons in the 2021 NBA draft. He was named as an NBA All-Star and to...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); das 12 de 1ª escolha ficaram 6 (Yao, Bennett, Kwame Brown, David Robinson, Derrick Rose, Anthony Davis). Esta é 1ª escolha recente ou pouco marcante.",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2021 (\"...kitable\" |PG |Base |SG |Escolta |SF |Alero |PF |Ala Pívot |C |Pívot |} thumb|150px|[[Cade Cunningham fue seleccionado en primera posición.]] thumb|150px|Jalen Green ([[NBA G League Ignite) f...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "ee13212876",
@@ -1199,11 +1394,13 @@
       "3",
       "2"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Número exato de recorde ou estatística.",
-    "verificado_web": "wiki en: LeBron James (\"...ime. James ranks fourth in NBA career assists and sixth in NBA career steals, and has won four NBA MVP awards, four Finals MVP awards, three All-Star Game MVP awards, the Rookie of the Year aw...\")"
+    "verificado_web": "wiki en: LeBron James (\"...ime. James ranks fourth in NBA career assists and sixth in NBA career steals, and has won four NBA MVP awards, four Finals MVP awards, three All-Star Game MVP awards, the Rookie of the Year aw...\")",
+    "verificado_web_conferente": "wiki es: LeBron James (\"...rimero. Su primer premio individual importante llegó el 4 de mayo de 2009 al ser nombrado MVP de la temporada 2008-09, galardón que ganaría también en las temporadas 2009-10, 2011-12 y 2012-13. Luego...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "785dd7e6e2",
@@ -1217,11 +1414,13 @@
       "Kawhi Leonard",
       "Bruce Bowen"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Trio famoso dos Spurs dos anos 2000.",
-    "verificado_web": "wiki en: Manu Ginóbili (\"...t known for playing for the San Antonio Spurs of the NBA from 2002 to 2018. Ginóbili, Tim Duncan, and Tony Parker became known as the Spurs' \"Big Three\"; together, the trio won four NBA...\")"
+    "verificado_web": "wiki en: Manu Ginóbili (\"...t known for playing for the San Antonio Spurs of the NBA from 2002 to 2018. Ginóbili, Tim Duncan, and Tony Parker became known as the Spurs' \"Big Three\"; together, the trio won four NBA...\")",
+    "verificado_web_conferente": "wiki es: Manu Ginóbili (\"...peonato de la NBA y una medalla de oro olímpica. En el año 2015, el trío formado por Tony Parker, Emanuel Ginóbili y Tim Duncan - conocidos como \"The Big Three\" - se convirtió en el trío de jugadores que más partidos...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "5d40449523",
@@ -1235,11 +1434,13 @@
       "Tracy McGrady",
       "Tim Duncan"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de uma temporada antiga, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Kevin Garnett (\"...rances. In 2004, he led the Timberwolves to the Western Conference Finals and won the NBA MVP Award. He was named the NBA Defensive Player of the Year with the Boston Celtics during t...\")"
+    "verificado_web": "wiki en: Kevin Garnett (\"...rances. In 2004, he led the Timberwolves to the Western Conference Finals and won the NBA MVP Award. He was named the NBA Defensive Player of the Year with the Boston Celtics during t...\")",
+    "verificado_web_conferente": "wiki es: Kevin Garnett (\"...|end}}-{{nbay|2015|end}}) | posición = Ala-Pívot | títulos = * Campeón de la NBA (2008) * MVP de la NBA (2004) * MVP del All-Star Game (2003) * Mejor Defensor de la NBA (2008) * 15x A...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "98e6efa95a",
@@ -1253,11 +1454,14 @@
       "2ª",
       "20ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Bruno Caboclo (\"...and center positions. After making his debut for Pinheiros in Brazil, Caboclo was drafted 20th overall by the Toronto Raptors in the 2014 NBA draft, and spent seven seasons in the Nati...\")"
+    "verificado_web": "wiki en: Bruno Caboclo (\"...and center positions. After making his debut for Pinheiros in Brazil, Caboclo was drafted 20th overall by the Toronto Raptors in the 2014 NBA draft, and spent seven seasons in the Nati...\")",
+    "motivo": "O enunciado (Caboclo no draft de 2014) entrega o v12:11893 (\"ala brasileiro descrito no draft de 2014...\").",
+    "verificado_web_conferente": "wiki es: Bruno Caboclo (\"...ección de carrera --> |deporte = Baloncesto |posición = Alero / Ala-pívot |universidad = |draft de la nba = 1.ª ronda (puesto 20), 2014 por Toronto Raptors | club = Dubai Basketball | número = 51 | liga = ABA Liga | selección = Brasil | veces int...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "5d8e4bdf83",
@@ -1271,11 +1475,14 @@
       "6ª",
       "1ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Chet Holmgren (\"...of the 2021 class, he played college basketball for the Gonzaga Bulldogs and was drafted second overall by the Thunder in the 2022 NBA draft. After missing the 2022-23 season due to an offseaso...\")"
+    "verificado_web": "wiki en: Chet Holmgren (\"...of the 2021 class, he played college basketball for the Gonzaga Bulldogs and was drafted second overall by the Thunder in the 2022 NBA draft. After missing the 2022-23 season due to an offseaso...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Chet Holmgren (\"...deporte = Baloncesto | universidad = Gonzaga (2021-2022) | posición = Pívot / Ala-Pívot | draftnba = 1.ª ronda (puesto 2), 2022 por Oklahoma City Thunder | club = Oklahoma City Thunder | número = 7 | liga = NBA | selección = | debut internacion...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "11ee8fc0a5",
@@ -1289,11 +1496,13 @@
       "Victor Oladipo",
       "Anthony Bennett"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Primeira escolha que fracassou, só fã lembra.",
-    "verificado_web": "wiki en: Anthony Bennett (basketball) (\"...ollege basketball for the University of Nevada, Las Vegas (UNLV) for one year. He was the first overall pick in the 2013 NBA draft by the Cleveland Cavaliers, becoming the first Canadian to be...\")"
+    "verificado_web": "wiki en: Anthony Bennett (basketball) (\"...ollege basketball for the University of Nevada, Las Vegas (UNLV) for one year. He was the first overall pick in the 2013 NBA draft by the Cleveland Cavaliers, becoming the first Canadian to be...\")",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2013 (\"...cación = Barclays Center<br />Brooklyn, Nueva York |tv = ESPN |primera elección = Anthony Bennett, Cleveland Cavaliers |tipo = NBA |anterior = 2012 |siguiente = 2014 }} El Draft de la NBA...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "559ebb0c3e",
@@ -1307,11 +1516,14 @@
       "Looney Five",
       "Toon Stars"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Cultura pop",
     "motivo_dificuldade": "Nome do time do filme; Monstars é o vilão.",
-    "verificado_web": "wiki en: Space Jam (\"...luctant to help, but later agrees after a confrontation with the Monstars, and forms the \"Tune Squad\" with the Tunes; they are joined by Lola Bunny, with whom Bugs is enamored. To prepare hi...\")"
+    "verificado_web": "wiki en: Space Jam (\"...luctant to help, but later agrees after a confrontation with the Monstars, and forms the \"Tune Squad\" with the Tunes; they are joined by Lola Bunny, with whom Bugs is enamored. To prepare hi...\")",
+    "motivo": "Space Jam já tem 4 perguntas (v12:2698, 009:27, 009:30, 009:45) e a 016:0 fica; a alternativa \"Monstars\" é a resposta do 009:45.",
+    "verificado_web_conferente": "wiki es: Space Jam (\"...escubierto por ellos y el mismo Swackhammer. Entonces, Stan informa de esto a Jordan y al Tune Squad, del mismo modo dando a entender porque los colegas de la NBA y amigos de Jordan estaban...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "123ac518bd",
@@ -1325,17 +1537,19 @@
       "2016/17",
       "2015/16"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Temporada exata de prêmio.",
-    "verificado_web": "wiki en: Stephen Curry (\"...ar. Curry was selected by the Warriors as the seventh overall pick in the 2009 NBA draft. In 2014-15, Curry won his first league MVP award and led the Warriors to their first championship since 1975. The following season,...\")"
+    "verificado_web": "wiki en: Stephen Curry (\"...ar. Curry was selected by the Warriors as the seventh overall pick in the 2009 NBA draft. In 2014-15, Curry won his first league MVP award and led the Warriors to their first championship since 1975. The following season,...\")",
+    "verificado_web_conferente": "wiki es: Stephen Curry (\"...nbay|2017|end}}, {{nbay|2023|end}}) * 4x Campeón de la NBA (2015, 2017, 2018 y 2022) * 2x MVP de la NBA (2015 y 2016) * 6x campeón Conferencia Oeste de la NBA ({{nbay|2014|end}}, {{nb...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "481361974f",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em qual ano os Lakers se mudaram de Minneapolis para Los Angeles?",
+    "pergunta": "Em qual ano os Lakers se mudaram para Los Angeles?",
     "resposta": "1960",
     "alternativas": [
       "1972",
@@ -1343,11 +1557,14 @@
       "1948",
       "1967"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Ano exato de um fato histórico.",
-    "verificado_web": "wiki en: Los Angeles Lakers (\"...ips. After struggling financially in the late 1950s, they moved to Los Angeles before the 1960-61 season. The Lakers made the NBA Finals six times in the 1960s, but lost every series t...\")"
+    "verificado_web": "wiki en: Los Angeles Lakers (\"...ips. After struggling financially in the late 1950s, they moved to Los Angeles before the 1960-61 season. The Lakers made the NBA Finals six times in the 1960s, but lost every series t...\")",
+    "correcao": "Saiu \"de Minneapolis\": entregava o v12:3071 (Lakers e Minnesota).",
+    "verificado_web_conferente": "wiki es: Los Angeles Lakers (\"...om/lakers/ |color = #31006F |color texto = #FDB927 |historia = Minneapolis Lakers<br>1947-1960<br>Los Angeles Lakers<br>1960-presente |actual = Temporada 2023-24 }} Los Angeles Lakers...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "7cca393c73",
@@ -1361,11 +1578,16 @@
       "312 pontos",
       "334 pontos"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Denver Nuggets (\"...it Pistons combined for an NBA record 370 points, with Detroit winning in triple overtime 186-184. At the end of the season, English became the only Nugget so far to win an NBA scoring ti...\")"
+    "verificado_web": "wiki en: Denver Nuggets (\"...it Pistons combined for an NBA record 370 points, with Detroit winning in triple overtime 186-184. At the end of the season, English became the only Nugget so far to win an NBA scoring ti...\")",
+    "verificado_web_conferente": [
+      "nba.com/pistons/history: highest scoring game ever (\"...Pistons 186 x 184 Nuggets, 13/12/1983, em três prorrogações: 370 pontos, maior soma da história da temporada regular...\")",
+      "espn: What are the highest-scoring NBA games of all time? (\"...Detroit 186, Denver 184 (3OT), 13 de dezembro de 1983...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "5deea21d35",
@@ -1379,11 +1601,13 @@
       "3.500",
       "4.000"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Stephen Curry (\"...eer points, becoming the 26th player in NBA history to do so. On March 13, Curry eclipsed 4,000 career three-pointers in a 130-104 win over the Sacramento Kings, becoming the first player in NBA his...\")"
+    "verificado_web": "wiki en: Stephen Curry (\"...eer points, becoming the 26th player in NBA history to do so. On March 13, Curry eclipsed 4,000 career three-pointers in a 130-104 win over the Sacramento Kings, becoming the first player in NBA his...\")",
+    "verificado_web_conferente": "wiki es: Stephen Curry (\"...los 25 000 puntos en temporada regular, y cinco días después, el 13 de marzo, alcanza los 4000 triples en temporada regular, siendo el primer jugador en la historia en alcanzar esta cifra. El...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "9ac1ad8fa1",
@@ -1397,11 +1621,14 @@
       "2ª",
       "7ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Magic Johnson (\"...ng a national championship with the Michigan State Spartans in 1979, Johnson was selected first overall in the 1979 NBA draft by the Lakers, then led the team to five NBA championships during t...\")"
+    "verificado_web": "wiki en: Magic Johnson (\"...ng a national championship with the Michigan State Spartans in 1979, Johnson was selected first overall in the 1979 NBA draft by the Lakers, then led the team to five NBA championships during t...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil. A resposta 1ª se chuta fácil.",
+    "verificado_web_conferente": "wiki es: Magic Johnson (\"...veces internacional = | deporte = Baloncesto | universidad = Michigan State (1977–1979) | draftnba = 1.ª ronda (puesto 1), 1979 por Los Angeles Lakers |otroresultado1 = Puntos |resultado1 = 17.707 (19,5 ppp) |otroresultado2 = Rebotes |result...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "807e8a8020",
@@ -1415,11 +1642,14 @@
       "2ª",
       "5ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Allen Iverson (\"...d eligibility for the 1996 NBA draft, and was selected by the Philadelphia 76ers with the first overall pick. He was named the NBA Rookie of the Year in the 1996-97 season. A four-time scoring...\")"
+    "verificado_web": "wiki en: Allen Iverson (\"...d eligibility for the 1996 NBA draft, and was selected by the Philadelphia 76ers with the first overall pick. He was named the NBA Rookie of the Year in the 1996-97 season. A four-time scoring...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil. A resposta 1ª se chuta fácil.",
+    "verificado_web_conferente": "wiki es: Allen Iverson (\"...lección = Estados Unidos | veces internacional = | universidad = Georgetown (1994–1996) | draft de la nba = 1.ª ronda (puesto 1), 1996 por Philadelphia 76ers | estado = Retirado | liga = NBA, TBL | número = 3, 6, 4, 1 | posición = Base / Escolta |...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "29793cdb3b",
@@ -1433,11 +1663,14 @@
       "9ª",
       "4ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Dirk Nowitzki (\"...r of all time. An alumnus of the DJK Würzburg basketball club, Nowitzki was chosen as the ninth pick in the 1998 NBA draft by the Milwaukee Bucks and was immediately traded to the Dallas Mav...\")"
+    "verificado_web": "wiki en: Dirk Nowitzki (\"...r of all time. An alumnus of the DJK Würzburg basketball club, Nowitzki was chosen as the ninth pick in the 1998 NBA draft by the Milwaukee Bucks and was immediately traded to the Dallas Mav...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil. O draft do Dirk fica na 016:96 (o Bucks o escolheu).",
+    "verificado_web_conferente": "wiki es: Dirk Nowitzki (\"...| universidad = | selección = Alemania | número selección = 14 | veces internacional = | draft de la nba = 1.ª ronda (puesto 9), 1998 por Milwaukee Bucks | club = Retirado | liga = NBA | posición = Ala-Pívot | número = 41 | equipos = * DJK Wurz...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "4e94341027",
@@ -1451,11 +1684,14 @@
       "Air Jordan",
       "Cortez"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Cultura pop",
     "motivo_dificuldade": "Tênis mais famoso do basquete, conhecido até por quem não acompanha.",
-    "verificado_web": "wiki en: Air Jordan (\"...r basketball player Michael Jordan during his time with the Chicago Bulls on November 17, 1984, and released to the public on April 1, 1985. The shoes were designed for Nike by Peter M...\")"
+    "verificado_web": "wiki en: Air Jordan (\"...r basketball player Michael Jordan during his time with the Chicago Bulls on November 17, 1984, and released to the public on April 1, 1985. The shoes were designed for Nike by Peter M...\")",
+    "motivo": "Tema saturado e entregue por outras: 014:0 (Jumpman, linha de tênis da Nike), 014:20 (\"a marca Jordan, da Nike\") e 009:0.",
+    "verificado_web_conferente": "wiki pt: Air Jordan (\"...=Tênis de basquete, Vestuário|origem={{USA}}|empresa=Nike|lançamento={{start date and age|1984|11|17}}{{efn|The date Michael Jordan first arrived the \"Air Jordans I\" at a Chicago Bulls...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "32c4cb5f01",
@@ -1469,11 +1705,13 @@
       "Michael Jordan",
       "Phil Jackson"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Maior ídolo da história do clube.",
-    "verificado_web": "wiki en: United Center (\"...emergency hub in the early days of the COVID-19 pandemic of 2020. The arena is home to a statue of basketball great Michael Jordan, posed mid-air in his iconic \"flying\" jump, erected in...\")"
+    "verificado_web": "wiki en: United Center (\"...emergency hub in the early days of the COVID-19 pandemic of 2020. The arena is home to a statue of basketball great Michael Jordan, posed mid-air in his iconic \"flying\" jump, erected in...\")",
+    "verificado_web_conferente": "wiki es: United Center (\"...l 18 de agosto de 1994. En la parte este del exterior del pabellón se encuentra la famosa estatua de Michael Jordan. A menudo el pabellón es denominado la casa que construyó Jordan. == Af...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "81638ba438",
@@ -1487,11 +1725,13 @@
       "Shaquille O'Neal",
       "Paul Pierce"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Turma do Hall da Fama, detalhe que pouca gente guarda.",
-    "verificado_web": "wiki en: Kevin Garnett (\"...ional basketball in September 2016. He was inducted into the Naismith Memorial Basketball Hall of Fame in 2020 and named to the NBA 75th Anniversary Team in 2021. During his NBA career, Garnet...\")"
+    "verificado_web": "wiki en: Kevin Garnett (\"...ional basketball in September 2016. He was inducted into the Naismith Memorial Basketball Hall of Fame in 2020 and named to the NBA 75th Anniversary Team in 2021. During his NBA career, Garnet...\")",
+    "verificado_web_conferente": "wiki es: Kevin Garnett (\"...la NBA (1996) * Máximo anotador de la historia de los Minnesota Timberwolves * Basketball Hall Of Fame (2020) * Elegido en el Equipo del 75 aniversario de la NBA (2021) * Dorsal #5 retirado po...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "35aae96724",
@@ -1505,11 +1745,13 @@
       "6ª",
       "25ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Damian Lillard (\"...hird-team All-American honors in 2012. Lillard was selected by the Trail Blazers with the sixth overall pick in the 2012 NBA draft and was named the NBA Rookie of the Year for the 2012-13 seaso...\")"
+    "verificado_web": "wiki en: Damian Lillard (\"...hird-team All-American honors in 2012. Lillard was selected by the Trail Blazers with the sixth overall pick in the 2012 NBA draft and was named the NBA Rookie of the Year for the 2012-13 seaso...\")",
+    "verificado_web_conferente": "wiki es: Damian Lillard (\"...deporte = Baloncesto | inicio = 2012 | retiro = | universidad = Weber State (2008-2012) | draft de la nba = 1.ª ronda (puesto 6), 2012 por Portland Trail Blazers | selección = Estados Unidos |veces internacional = 10 | debut internacional = 10 de julio...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "14f34c0e7f",
@@ -1523,17 +1765,20 @@
       "1ª",
       "14ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Victor Oladipo (\"...ually to the top player in men's NCAA Division I basketball. Oladipo was drafted with the second overall pick in the 2013 NBA draft by the Orlando Magic and went on to be named to the NBA All-Ro...\")"
+    "verificado_web": "wiki en: Victor Oladipo (\"...ually to the top player in men's NCAA Division I basketball. Oladipo was drafted with the second overall pick in the 2013 NBA draft by the Orlando Magic and went on to be named to the NBA All-Ro...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Victor Oladipo (\"...rsidad = Indiana (2010–2013) | posición = Escolta | selección = | veces internacional = | draftnba = 1.ª ronda (puesto 2), 2013 por Orlando Magic | club = Wisconsin Herd | número = 52 | liga = G League | equipos = * Orlando Magic ({{nba...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "948b81a7a6",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em 1995, o Houston Rockets foi bicampeão varrendo qual time?",
+    "pergunta": "Qual time foi varrido na final da NBA de 1995?",
     "resposta": "Orlando Magic",
     "alternativas": [
       "Indiana Pacers",
@@ -1541,11 +1786,14 @@
       "Orlando Magic",
       "New York Knicks"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1995 NBA Finals (\"...he conclusion of the season's playoffs. The series pitted the Eastern Conference champion Orlando Magic against the defending NBA champion and Western Conference champion Houston Rockets. Much...\")"
+    "verificado_web": "wiki en: 1995 NBA Finals (\"...he conclusion of the season's playoffs. The series pitted the Eastern Conference champion Orlando Magic against the defending NBA champion and Western Conference champion Houston Rockets. Much...\")",
+    "correcao": "Saiu \"o Houston Rockets foi bicampeão\": entregava o v12:2920.",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1995 (\"...{{Finales NBA resumen | imagen = 140px | caption = | año = 1995 | subcampeón = Orlando Magic | entrenador_subcampeón = Brian Hill | partidos_subcampeón = 0 | campeón = Houston...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "5023b00292",
@@ -1559,17 +1807,20 @@
       "1999",
       "2008"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Ano exato de um fato histórico.",
-    "verificado_web": "wiki en: Oklahoma City Thunder (\"...e NBA for the 1967-68 season. The SuperSonics moved from Seattle to Oklahoma City in July 2008, after a settlement was reached between the ownership group led by Clay Bennett and lawma...\")"
+    "verificado_web": "wiki en: Oklahoma City Thunder (\"...e NBA for the 1967-68 season. The SuperSonics moved from Seattle to Oklahoma City in July 2008, after a settlement was reached between the ownership group led by Clay Bennett and lawma...\")",
+    "motivo": "O enunciado entrega o v12:3139 (\"Antes de virar Thunder, o time se chamava como?\" = Seattle SuperSonics).",
+    "verificado_web_conferente": "wiki es: Oklahoma City Thunder (\"...Baloncesto | fundación = 1967 | desaparición = | historia = Seattle SuperSonics<br />1967-2008<br />Oklahoma City Thunder<br />2008-presente | colores = {{color box|#007AC1}} {{color b...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "d1d4c11d5f",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em qual posição o brasileiro Nenê foi escolhido no draft de 2002?",
+    "pergunta": "Em qual posição Nenê foi escolhido no draft de 2002?",
     "resposta": "7ª",
     "alternativas": [
       "42ª",
@@ -1577,17 +1828,20 @@
       "1ª",
       "19ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Nenê (\"...d him an NBA pre-draft camp invitation in Chicago in 2002. He was later selected with the seventh overall pick in the 2002 NBA draft by the New York Knicks, who traded him to the Denver Nuggets....\")"
+    "verificado_web": "wiki en: Nenê (\"...d him an NBA pre-draft camp invitation in Chicago in 2002. He was later selected with the seventh overall pick in the 2002 NBA draft by the New York Knicks, who traded him to the Denver Nuggets....\")",
+    "correcao": "Saiu \"o brasileiro\": entregava o v12:2702 (pivô brasileiro que fez carreira na NBA = Nenê).",
+    "verificado_web_conferente": "basketball-reference (transações do Knicks 2002) e en wiki 2002-03 New York Knicks season (\"...Knicks held the seventh overall pick ... took Brazilian forward Nenê Hilario ... traded to the Denver Nuggets...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "e1f7da8845",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Em qual posição o brasileiro Leandrinho foi escolhido no draft de 2003?",
+    "pergunta": "Em qual posição Leandrinho foi escolhido no draft de 2003?",
     "resposta": "28ª",
     "alternativas": [
       "2ª",
@@ -1595,11 +1849,14 @@
       "9ª",
       "28ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Leandro Barbosa (\"...3 inches (1.91 m) and possessing a 6-foot-10-inch (2.08 m) wingspan, Barbosa was selected 28th overall in the 2003 NBA draft by the San Antonio Spurs, but his rights were acquired by t...\")"
+    "verificado_web": "wiki en: Leandro Barbosa (\"...3 inches (1.91 m) and possessing a 6-foot-10-inch (2.08 m) wingspan, Barbosa was selected 28th overall in the 2003 NBA draft by the San Antonio Spurs, but his rights were acquired by t...\")",
+    "correcao": "Saiu \"o brasileiro\": pista para o v12:2934 e o 009:61 (brasileiro Sexto Homem / \"Brazilian Blur\").",
+    "verificado_web_conferente": "wiki es: Leandro Barbosa (\"...}} | peso = {{peso|kg=91}} | selección = Brasil | veces internacional = | universidad = | draft de la nba = 1.ª ronda (puesto 28), 2003 por San Antonio Spurs | club = Sacramento Kings<br/>Entrenador asistente | equipos = * Palmeiras (1999-2001) * T...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "d3ac50d956",
@@ -1613,11 +1870,13 @@
       "Dean Smith",
       "Chuck Daly"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Olimpíadas",
     "motivo_dificuldade": "Técnico de uma Olimpíada antiga.",
-    "verificado_web": "wiki en: Michael Jordan (\"...dan won another gold medal in the 1984 Summer Olympics. The 1984 U.S. team was coached by Bob Knight and featured young players such as Patrick Ewing, Sam Perkins, Chris Mullin, Steve Alford...\")"
+    "verificado_web": "wiki en: Michael Jordan (\"...dan won another gold medal in the 1984 Summer Olympics. The 1984 U.S. team was coached by Bob Knight and featured young players such as Patrick Ewing, Sam Perkins, Chris Mullin, Steve Alford...\")",
+    "verificado_web_conferente": "wiki es: Bob Knight (\"...) *Academia Militar (1965-1971) *Universidad de Indiana (1971-2000) *Estados Unidos (1979-1984) *Universidad de Texas Tech (2001-2008) | títulos = ;Jugador * Campeón de la NCAA (1960)...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "92d264774e",
@@ -1631,11 +1890,13 @@
       "Larry Bird",
       "Magic Johnson"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de uma temporada antiga, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Larry Bird (\"...greatest basketball players of all time. He is the only person in NBA history to be named Rookie of the Year, Most Valuable Player, Finals MVP, All-Star MVP, Coach of the Year, and Executive of the...\")"
+    "verificado_web": "wiki en: Larry Bird (\"...greatest basketball players of all time. He is the only person in NBA history to be named Rookie of the Year, Most Valuable Player, Finals MVP, All-Star MVP, Coach of the Year, and Executive of the...\")",
+    "verificado_web_conferente": "wiki es: Larry Bird (\"...a Universitario del Año (1979) * 3x Campeón de la NBA <small>(1981, 1984, 1986)</small> * Rookie del Año de la NBA ({{nbay|1979|end}}) * 3x MVP de la Temporada <small>({{nbay|1983|end}}-...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "ea2b8d31b4",
@@ -1649,11 +1910,14 @@
       "3ª",
       "8ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Jayson Tatum (\"...ge basketball for the Duke Blue Devils. Tatum was selected by the Boston Celtics with the third overall pick in the 2017 NBA draft and was voted to the NBA All-Rookie First Team in the 2018 sea...\")"
+    "verificado_web": "wiki en: Jayson Tatum (\"...ge basketball for the Duke Blue Devils. Tatum was selected by the Boston Celtics with the third overall pick in the 2017 NBA draft and was voted to the NBA All-Rookie First Team in the 2018 sea...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Jayson Tatum (\"...carrera --> | deporte = Baloncesto | posición = Alero | universidad = Duke (2016-2017) | draft de la nba = 1.ª ronda (puesto 3), 2017 por Boston Celtics | club = Boston Celtics | número = 0 | liga = NBA | selección = Estados Unidos | debut int...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "44ada65a64",
@@ -1667,11 +1931,13 @@
       "Larry Bird",
       "Kobe Bryant"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Lendas",
     "motivo_dificuldade": "Homenagem óbvia ao maior ídolo do basquete.",
-    "verificado_web": "wiki en: LeBron James (\"...and Cavaliers selected James as the first overall pick of the 2003 NBA draft. James chose jersey number 23 in honor of Michael Jordan. In his first regular season game, James scored 25 points in a 106-92 loss to the Sacrame...\")"
+    "verificado_web": "wiki en: LeBron James (\"...and Cavaliers selected James as the first overall pick of the 2003 NBA draft. James chose jersey number 23 in honor of Michael Jordan. In his first regular season game, James scored 25 points in a 106-92 loss to the Sacrame...\")",
+    "verificado_web_conferente": "wiki es: LeBron James (\"...o. Ante la imposibilidad de continuar con su dorsal 23 en Miami, retirado por los Heat en homenaje a Michael Jordan (pese a que nunca jugó en este equipo), James eligió el número 6 que también luce habitua...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "e98a5f79ff",
@@ -1685,11 +1951,13 @@
       "9ª",
       "20ª"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Jalen Brunson (\"...the year honors as a junior and winning two national championships. Brunson was selected 33rd overall in the 2018 NBA draft by the Dallas Mavericks and played his first four NBA seaso...\")"
+    "verificado_web": "wiki en: Jalen Brunson (\"...the year honors as a junior and winning two national championships. Brunson was selected 33rd overall in the 2018 NBA draft by the Dallas Mavericks and played his first four NBA seaso...\")",
+    "verificado_web_conferente": "wiki es: Jalen Brunson (\"...rera --> | deporte = Baloncesto | posición = Base | universidad = Villanova (2015-2018) | draft de la nba = 2.ª ronda (puesto 33), 2018 por Dallas Mavericks | club = New York Knicks | número = 11 | liga = NBA | selección = Estados Unidos | debut i...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "a76192e93f",
@@ -1703,11 +1971,13 @@
       "2",
       "1"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Número exato de recorde ou estatística.",
-    "verificado_web": "wiki en: Magic Johnson (\"...s one of the most accomplished and influential players in basketball history. He received three NBA Most Valuable Player awards, three NBA Finals MVP awards, nine All-NBA First Team designations, and twe...\")"
+    "verificado_web": "wiki en: Magic Johnson (\"...s one of the most accomplished and influential players in basketball history. He received three NBA Most Valuable Player awards, three NBA Finals MVP awards, nine All-NBA First Team designations, and twe...\")",
+    "verificado_web_conferente": "wiki es: Magic Johnson (\"...r del Torneo de la NCAA (1979) * 5x Campeón de la NBA (1980, 1982, 1985, 1987, 1988) * 3x MVP de las Finales de la NBA (1980, 1982, 1987) * 3x MVP de la Temporada de la NBA (1987, 198...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "2f6df2334c",
@@ -1721,11 +1991,14 @@
       "1ª",
       "9ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Pau Gasol (\"...brother of former NBA player Marc Gasol. Gasol was selected by the Atlanta Hawks with the third overall pick in the first round of the 2001 NBA draft, but his rights were traded to the Vancouve...\")"
+    "verificado_web": "wiki en: Pau Gasol (\"...brother of former NBA player Marc Gasol. Gasol was selected by the Atlanta Hawks with the third overall pick in the first round of the 2001 NBA draft, but his rights were traded to the Vancouve...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Pau Gasol (\"...cción = 4 | veces internacional = 216 | puntos = 3656 (16,9 ppp) | deporte = Baloncesto | draft de la nba = 1.ª ronda (puesto 3), 2001 por Atlanta Hawks | otroresultado1 = Puntos | resultado1 = 20.984 (17,0 ppp) | otroresultado2 = Rebotes | re...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "96c4811aa3",
@@ -1739,11 +2012,13 @@
       "Milwaukee Bucks",
       "Boston Celtics"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Troca de draft de 1998, detalhe de bastidor.",
-    "verificado_web": "wiki en: Dirk Nowitzki (\"...zburg basketball club, Nowitzki was chosen as the ninth pick in the 1998 NBA draft by the Milwaukee Bucks and was immediately traded to the Dallas Mavericks. Nowitzki led the franchise to 15 NBA...\")"
+    "verificado_web": "wiki en: Dirk Nowitzki (\"...zburg basketball club, Nowitzki was chosen as the ninth pick in the 1998 NBA draft by the Milwaukee Bucks and was immediately traded to the Dallas Mavericks. Nowitzki led the franchise to 15 NBA...\")",
+    "verificado_web_conferente": "wiki es: Dirk Nowitzki (\"...selección = 14 | veces internacional = | draft de la nba = 1.ª ronda (puesto 9), 1998 por Milwaukee Bucks | club = Retirado | liga = NBA | posición = Ala-Pívot | número = 41 | equipos = * D...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "7565b0af24",
@@ -1757,11 +2032,13 @@
       "United Center",
       "Madison Square Garden"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Times",
     "motivo_dificuldade": "Arena de time famoso; a antiga, Chicago Stadium, é a pegadinha.",
-    "verificado_web": "wiki en: United Center (\"...d Center is an indoor arena on the Near West Side of Chicago, Illinois. It is home to the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National H...\")"
+    "verificado_web": "wiki en: United Center (\"...d Center is an indoor arena on the Near West Side of Chicago, Illinois. It is home to the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National H...\")",
+    "verificado_web_conferente": "wiki es: United Center (\"...ión = Chicago, Illinois {{USA}} | arquitecto = | costo = | inauguración = 18 de agosto de 1994 | demolición = | superficie = 89 240 m² | capacidad = Hockey: 20 500<br />Baloncesto: 21...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "b55a763faa",
@@ -1775,17 +2052,19 @@
       "1954",
       "1979"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "História",
     "motivo_dificuldade": "Ano exato de um fato histórico, que pouca gente guarda.",
-    "verificado_web": "wiki en: Shot clock (\"...e remaining in the period of play. The shot clock was originally introduced in the NBA in 1954 as a way to increase scoring and reduce stalling tactics that were commonly used before i...\")"
+    "verificado_web": "wiki en: Shot clock (\"...e remaining in the period of play. The shot clock was originally introduced in the NBA in 1954 as a way to increase scoring and reduce stalling tactics that were commonly used before i...\")",
+    "verificado_web_conferente": "wiki en: Shot clock (\"...e remaining in the period of play. The shot clock was originally introduced in the NBA in 1954 as a way to increase scoring and reduce stalling tactics that were commonly used before i...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "6383516261",
     "categoria": "Esportes",
     "dificuldade": "dificil",
-    "pergunta": "Com quantas assistências na carreira John Stockton é o recordista da NBA?",
+    "pergunta": "Quantas assistências John Stockton deu na carreira, na temporada regular?",
     "resposta": "15.806",
     "alternativas": [
       "15.806",
@@ -1793,11 +2072,17 @@
       "17.230",
       "10.141"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de recorde ou estatística, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: John Stockton (\"...f March 2026, Stockton holds a commanding lead for the NBA record for career assists with 15,806. He was the first player to reach the 10,000 through 15,000 career assist milestones. As...\")"
+    "verificado_web": "wiki en: John Stockton (\"...f March 2026, Stockton holds a commanding lead for the NBA record for career assists with 15,806. He was the first player to reach the 10,000 through 15,000 career assist milestones. As...\")",
+    "correcao": "Saiu \"é o recordista da NBA\": entregava o v12:3136 (recordista de assistências = Stockton).",
+    "verificado_web_conferente": [
+      "wiki es: John Stockton (\"...con 13,1 puntos y 10,5 asistencias por partido. Tiene el récord de la NBA de asistencias (15.806) con un considerable margen y también el de robos (3.265) esta en cinco de las seis mejor...\")",
+      "wiki pt: John Stockton (\"...utivas e, até hoje, é o jogador que mais distribuiu assistências na história da liga, com 15.806 — quase 4.000 a mais que o segundo colocado, Jason Kidd; além disso Stockton é o líder hi...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "24d31fc2a5",
@@ -1811,11 +2096,14 @@
       "New York Knicks",
       "Boston Celtics"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Finais",
     "motivo_dificuldade": "Final antiga da NBA: o adversário não é lembrado nem por quem acompanha.",
-    "verificado_web": "wiki en: 1971 NBA Finals (\"...e founded as an expansion team three years earlier, swept the Eastern Conference champion Baltimore Bullets to win their first NBA championship in franchise history, becoming the quickest expansion...\")"
+    "verificado_web": "wiki en: 1971 NBA Finals (\"...e founded as an expansion team three years earlier, swept the Eastern Conference champion Baltimore Bullets to win their first NBA championship in franchise history, becoming the quickest expansion...\")",
+    "motivo": "Vice de final antiga com time que nem existe mais (Baltimore Bullets): obscuro demais.",
+    "verificado_web_conferente": "wiki es: Finales de la NBA de 1971 (\"...{{Finales NBA resumen | imagen = | caption = | año = 1971 | subcampeón = Baltimore Bullets | entrenador_subcampeón = Gene Shue | partidos_subcampeón = 0 | campeón = Milwauk...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "81175573aa",
@@ -1829,11 +2117,13 @@
       "Kobe Bryant",
       "Steve Nash"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Prêmio de uma temporada antiga, que só o fã de carteirinha guarda.",
-    "verificado_web": "wiki en: Dirk Nowitzki (\"...urate outside shooting, and trademark one-legged fadeaway jump shot, Nowitzki won the NBA Most Valuable Player Award in 2007 and the NBA Finals Most Valuable Player Award in 2011. Nowitzki is the only player to eve...\")"
+    "verificado_web": "wiki en: Dirk Nowitzki (\"...urate outside shooting, and trademark one-legged fadeaway jump shot, Nowitzki won the NBA Most Valuable Player Award in 2007 and the NBA Finals Most Valuable Player Award in 2011. Nowitzki is the only player to eve...\")",
+    "verificado_web_conferente": "wiki es: Dirk Nowitzki (\"...pos = * DJK Wurzburgo (Alemania) (1994-1998) * Dallas Mavericks (1998-2019) | títulos = * MVP del Mundial (2002) * Campeón de la NBA (2011) * MVP de las Finales de la NBA (2011) * 14x...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "4e20a601c0",
@@ -1847,11 +2137,14 @@
       "5ª",
       "17ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Kevin Garnett (\"...r of the year award winner. He entered the 1995 NBA draft, where he was selected with the fifth overall pick by the Minnesota Timberwolves and became the first NBA player drafted directly out o...\")"
+    "verificado_web": "wiki en: Kevin Garnett (\"...r of the year award winner. He entered the 1995 NBA draft, where he was selected with the fifth overall pick by the Minnesota Timberwolves and became the first NBA player drafted directly out o...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Kevin Garnett (\"...cción = Estados Unidos | veces internacional = 8 | deporte = Baloncesto | universidad = | draft de la nba = 1.ª ronda (puesto 5), 1995 por Minnesota Timberwolves | estado = Retirado | número = 21, 5, 2 | liga = NBA | equipos = * Minnesota Timberwolves...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "40b93eff50",
@@ -1865,11 +2158,13 @@
       "1",
       "4"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Prêmios",
     "motivo_dificuldade": "Número exato de recorde ou estatística.",
-    "verificado_web": "wiki en: Tim Duncan (\"...position, but also played center throughout his career. He is a five-time NBA champion, a two-time NBA MVP, a three-time NBA Finals MVP, a 15-time NBA All-Star, and the only player to be chosen fo...\")"
+    "verificado_web": "wiki en: Tim Duncan (\"...position, but also played center throughout his career. He is a five-time NBA champion, a two-time NBA MVP, a three-time NBA Finals MVP, a 15-time NBA All-Star, and the only player to be chosen fo...\")",
+    "verificado_web_conferente": "wiki es: Tim Duncan (\"...títulos = * 5x Campeón de la NBA<br /><small>(1999, 2003, 2005, 2007, 2014)</small> * 3x MVP de las Finales de la NBA (1999, 2003, 2005) * 2x MVP de la NBA (2002, 2003) * 15x All-Sta...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "6009bf2d3d",
@@ -1883,11 +2178,13 @@
       "Pau Gasol",
       "Kwame Brown"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft antiga e fracassada.",
-    "verificado_web": "wiki en: Kwame Brown (\"...etball player who spent 12 seasons in the National Basketball Association (NBA). Selected first overall by the Washington Wizards in the 2001 NBA draft, Brown was the first player to be drafted...\")"
+    "verificado_web": "wiki en: Kwame Brown (\"...etball player who spent 12 seasons in the National Basketball Association (NBA). Selected first overall by the Washington Wizards in the 2001 NBA draft, Brown was the first player to be drafted...\")",
+    "verificado_web_conferente": "wiki es: Draft de la NBA de 2001 (\"...icación = Madison Square Garden<br />Nueva York, Nueva York |tv = TNT |primera elección = Kwame Brown, Washington Wizards |tipo = NBA |anterior = 2000 |siguiente = 2002 }} El Draft de la NBA...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "431c16044f",
@@ -1901,11 +2198,13 @@
       "4",
       "2"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Recordes",
     "motivo_dificuldade": "Número exato de títulos de cestinha.",
-    "verificado_web": "wiki en: Kevin Durant (\"...ring abilities have given him the nickname \"Easy Money Sniper\". From 2010 to 2014, he won four scoring titles, becoming one of only two players to win four scoring titles in a five-year span. Early i...\")"
+    "verificado_web": "wiki en: Kevin Durant (\"...ring abilities have given him the nickname \"Easy Money Sniper\". From 2010 to 2014, he won four scoring titles, becoming one of only two players to win four scoring titles in a five-year span. Early i...\")",
+    "verificado_web_conferente": "wiki es: Kevin Durant (\"...2008) * Mejor quinteto de rookies de la NBA (2008) * MVP del Rookie Challenge (2009) * 4x Máximo anotador de la NBA (2010, 2011, 2012, 2014) * Premio ESPY al Mejor Jugador de la NBA (2014) * 2x C...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "4ad85d49d1",
@@ -1919,17 +2218,20 @@
       "1ª",
       "5ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Dwyane Wade (\"...tte Golden Eagles, including leading the team to the Final Four in 2003, Wade was drafted fifth overall in the 2003 NBA draft by the Heat. In his third season, Wade led the Heat to their first...\")"
+    "verificado_web": "wiki en: Dwyane Wade (\"...tte Golden Eagles, including leading the team to the Final Four in 2003, Wade was drafted fifth overall in the 2003 NBA draft by the Heat. In his third season, Wade led the Heat to their first...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Dwyane Wade (\"...} | peso = {{peso|kg=100}} | deporte = Baloncesto | universidad = Marquette (2001–2003) | draftnba = 1.ª ronda (puesto 5), 2003 por Miami Heat | club = Retirado | número = 3, 9 | posición = Escolta | liga = NBA | selección = Estados...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "f1042215e0",
     "categoria": "Esportes",
-    "dificuldade": "medio",
-    "pergunta": "Qual seleção ficou com o bronze do basquete masculino em Paris 2024, ?",
+    "dificuldade": "dificil",
+    "pergunta": "Qual seleção ficou com o bronze do basquete masculino em Paris 2024?",
     "resposta": "Sérvia",
     "alternativas": [
       "Sérvia",
@@ -1937,11 +2239,22 @@
       "Canadá",
       "Grécia"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Olimpíadas",
     "motivo_dificuldade": "Pódio olímpico recente.",
-    "verificado_web": "wiki en: Basketball at the 2024 Summer Olympics - Men's tournament (\"...consecutive gold medal, after defeating France 98-87 in a rematch of the previous final. Serbia won the bronze with a 93-83 victory over World Champions Germany, winning its third Olympic medal and fi...\")"
+    "verificado_web": "wiki en: Basketball at the 2024 Summer Olympics - Men's tournament (\"...consecutive gold medal, after defeating France 98-87 in a rematch of the previous final. Serbia won the bronze with a 93-83 victory over World Champions Germany, winning its third Olympic medal and fi...\")",
+    "dificuldade_ajuste": {
+      "de": "medio",
+      "para": "dificil",
+      "motivo": "Bronze olímpico do basquete, de seleção estrangeira, quase ninguém guarda."
+    },
+    "correcao": "Tirado o \", ?\" que sobrava no fim do enunciado.",
+    "verificado_web_conferente": [
+      "wtop.com (AP, 10/08/2024) (\"...Nikola Jokic leads Serbia to Olympic basketball bronze medal with 93-83 win over Germany...\")",
+      "olympics.com: Serbia win bronze by beating Germany in men's basketball | Paris 2024 (\"...Serbia win bronze by beating Germany...\")"
+    ],
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "bcfdec4632",
@@ -1955,11 +2268,14 @@
       "22ª",
       "13ª"
     ],
-    "status": "gerada",
+    "status": "reserva",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Escolha de draft: número exato que pouca gente guarda.",
-    "verificado_web": "wiki en: Ray Allen (\"...basketball for the Connecticut Huskies for three seasons, before he was selected with the fifth overall pick in the 1996 NBA draft, and developed into a prolific scorer for the Milwaukee Bucks,...\")"
+    "verificado_web": "wiki en: Ray Allen (\"...basketball for the Connecticut Huskies for three seasons, before he was selected with the fifth overall pick in the 1996 NBA draft, and developed into a prolific scorer for the Milwaukee Bucks,...\")",
+    "motivo": "Molde de draft passou de 25 nos dois lotes (65 perguntas); ficaram as 25 de astros, brasileiros e casos famosos. Esta é posição de draft de jogador menos lembrado no Brasil.",
+    "verificado_web_conferente": "wiki es: Ray Allen (\"...| veces internacional = | deporte = Baloncesto | universidad = Connecticut (1993-1996) | draft de la nba = 1.ª ronda (puesto 5), 1996 por Minnesota Timberwolves | club = Retirado | número = 34, 20 | liga = NBA | posición = Escolta | equipos = * Milwau...\")",
+    "conferido_por": "conferente-esportes-r4b"
   },
   {
     "id": "e9ad6b5583",
@@ -1973,10 +2289,12 @@
       "Detroit Pistons",
       "Toronto Raptors"
     ],
-    "status": "gerada",
+    "status": "conferida",
     "subtema": "nba",
     "obra_tema": "Draft",
     "motivo_dificuldade": "Troca de draft que quase ninguém lembra.",
-    "verificado_web": "wiki en: Kawhi Leonard (\"...wo seasons of college basketball for San Diego State. He was selected 15th overall by the Indiana Pacers in the 2011 NBA draft before being traded to the San Antonio Spurs on draft night. With t...\")"
+    "verificado_web": "wiki en: Kawhi Leonard (\"...wo seasons of college basketball for San Diego State. He was selected 15th overall by the Indiana Pacers in the 2011 NBA draft before being traded to the San Antonio Spurs on draft night. With t...\")",
+    "verificado_web_conferente": "wiki es: Kawhi Leonard (\"...ersidad = San Diego State (2009-2011) | draft de la nba = 1.ª ronda (puesto 15), 2011 por Indiana Pacers | club = Toronto Raptors | número = | liga = NBA | posición = Alero | equipos = * San Ant...\")",
+    "conferido_por": "conferente-esportes-r4b"
   }
 ]

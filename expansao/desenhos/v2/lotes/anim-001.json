@@ -11,27 +11,33 @@
    "Anta",
    "Hipopótamo"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "fonte_tema": "DreamWorks",
   "obra": "Madagascar",
-  "verificado_web": "dub: Madagascar (\"a hipopótamo fêmea Gloria\"; elenco \"Glória\")"
+  "verificado_web": "dub: Madagascar (\"a hipopótamo fêmea Gloria\"; elenco \"Glória\")",
+  "verificado_web_conferente": "wiki pt: Madagascar (filme) (\"...zebra Marty, a girafa Melman e a hipopótamo Glória, sempre passaram a vida em cativeiro e desconhecem o que é morar na...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "motivo_conferente": "fato repetido: reaproveitadas.json rea:175 tem a mesma pergunta (\"Em Madagascar, que animal é a Glória?\" => Hipopótamo)"
  },
  {
   "id": "eb484fa650",
   "categoria": "Desenhos",
   "dificuldade": "facil",
-  "pergunta": "Qual dos Cinco Furiosos, de Kung Fu Panda, é uma cobra?",
+  "pergunta": "Qual dos cinco mestres que lutam ao lado do Po, em Kung Fu Panda, é uma cobra?",
   "resposta": "Víbora",
   "alternativas": [
    "Tigresa",
    "Garça",
    "Víbora",
-   "Mestre Croc"
+   "Macaco"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "dub: Kung Fu Panda (elenco \"Víbora\", \"Tigresa\", \"Garça\", \"Macaco\") | en: Kung Fu Panda (film)"
+  "verificado_web": "dub: Kung Fu Panda (elenco \"Víbora\", \"Tigresa\", \"Garça\", \"Macaco\") | en: Kung Fu Panda (film)",
+  "verificado_web_conferente": "Dublagem Wiki: Kung Fu Panda (\".../ Louva-Deus / Seth Rogen / Marco Ribeiro / Víbora / Lucy Liu / Priscila Amorim / Garça / David Cross / Philippe Maia /...\") | Fandom kungfupanda: Viper (\"...ather) Unnamed mother Unnamed sisters / Combat style = Viper Style of kung...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "correcao_conferente": "enunciado: \"Qual dos Cinco Furiosos, de Kung Fu Panda, é uma cobra?\" -> reescrito; alternativas: Mestre Croc -> Macaco; o enunciado citava \"Cinco Furiosos\", resposta de perguntas-desenhos des:460; Mestre Croc não é dos cinco e virou Macaco"
  },
  {
   "id": "d02f80cb2b",
@@ -45,10 +51,12 @@
    "Stuart, Phil e Carl",
    "Bob, Tim e Mark"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Minions",
-  "verificado_web": "dub: Minions (sinopse: \"Três voluntários, Kevin, Stuart e Bob vão até uma convenção de vilões\")"
+  "verificado_web": "dub: Minions (sinopse: \"Três voluntários, Kevin, Stuart e Bob vão até uma convenção de vilões\")",
+  "verificado_web_conferente": "Dublagem Wiki: Minions (\"...m encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob vão até uma convenção de vilões nos Estados Unidos e lá...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "4e85058150",
@@ -62,10 +70,12 @@
    "Vila Feliz",
    "Pinheirópolis"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "O Grinch",
-  "verificado_web": "wiki pt: O Grinch (2018) (\"os moradores de Quemlândia planejam sua festa\") | en: The Grinch (film) (\"Whoville\")"
+  "verificado_web": "wiki pt: O Grinch (2018) (\"os moradores de Quemlândia planejam sua festa\") | en: The Grinch (film) (\"Whoville\")",
+  "verificado_web_conferente": "wiki pt: The Grinch (2018) (\"...ra arruinar o Natal enquanto os moradores de Quemlândia planejam sua festa anual de natal. Enquanto isso, Cindy Lou Quem...\") | Dublagem Wiki: O Grinch (2018) (\"...o=Special:FilePath/Cindy.PNG.png / Cindy Lou Quem / Cameron Seely / Fernanda Vandelli / ligação=Special:FilePath/Donna.P...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "9cecc7f27b",
@@ -79,10 +89,12 @@
    "Thor",
    "Max"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "O Grinch",
-  "verificado_web": "wiki pt: O Grinch (2018) (\"seu confiável cão Max\") | en: The Grinch (film) (\"his dog Max\")"
+  "verificado_web": "wiki pt: O Grinch (2018) (\"seu confiável cão Max\") | en: The Grinch (film) (\"his dog Max\")",
+  "verificado_web_conferente": "wiki pt: The Grinch (2018) (\"...de 2018. O filme tem uma versão Real D 3D e IMAX 3D. ==Sinopse== O Grinch (Benedict Cumberbatch) cria um esquema com seu...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "23ac824c81",
@@ -96,10 +108,12 @@
    "Uma múmia",
    "Um esqueleto"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Hotel Transilvânia",
-  "verificado_web": "en: Hotel Transylvania (film) (\"Murray the Mummy\") | dub: elenco \"Murray\""
+  "verificado_web": "en: Hotel Transylvania (film) (\"Murray the Mummy\") | dub: elenco \"Murray\"",
+  "verificado_web_conferente": "wiki pt: Hotel Transylvania (\"...ames) e a sua mulher Eunice (Fran Drescher), Murray, a múmia (Cee Lo Green), Wayne e Wanda Lobisomem (Steve Buscemi e Mo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "f33469cb32",
@@ -113,10 +127,12 @@
    "Um zumbi",
    "Um homem invisível"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Hotel Transilvânia",
-  "verificado_web": "en: Hotel Transylvania (film) (\"Wayne and Wanda Werewolf and their massive immediate family\") | dub: elenco \"Wayne\""
+  "verificado_web": "en: Hotel Transylvania (film) (\"Wayne and Wanda Werewolf and their massive immediate family\") | dub: elenco \"Wayne\"",
+  "verificado_web_conferente": "wiki pt: Hotel Transylvania (\"...n Drescher), Murray, a múmia (Cee Lo Green), Wayne e Wanda Lobisomem (Steve Buscemi e Molly Shannon), Griffin, o Homem I...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "227cec1007",
@@ -130,10 +146,12 @@
    "Papagaio",
    "Hamster"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Tá Chovendo Hambúrguer",
-  "verificado_web": "en: Cloudy with a Chance of Meatballs (film) (\"the former's pet monkey Steve\") | dub: elenco \"Steve\""
+  "verificado_web": "en: Cloudy with a Chance of Meatballs (film) (\"the former's pet monkey Steve\") | dub: elenco \"Steve\"",
+  "verificado_web_conferente": "wiki pt: Cloudy with a Chance of Meatballs (filme) (\"...do Flint, ao lado de seu Macaco de estimação Steve, o macaco que fala graças ao Tradutor de fala de Macaco perceberam qu...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b6c3c1aad1",
@@ -147,10 +165,12 @@
    "Um pijama de dinossauro",
    "Um terno"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "O Poderoso Chefinho",
-  "verificado_web": "en: The Boss Baby (\"A baby wearing a business suit\")"
+  "verificado_web": "en: The Boss Baby (\"A baby wearing a business suit\")",
+  "verificado_web_conferente": "wiki pt: The Boss Baby (\"...ciúmes de seu irmãozinho, um bebê falante de terno. Quando ele vai em uma missão para recuperar o carinho de seus pais,...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "d8cc36b6a3",
@@ -164,10 +184,12 @@
    "Um cavalo selvagem",
    "Uma águia"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Spirit",
-  "verificado_web": "en: Spirit: Stallion of the Cimarron (\"A Kiger mustang stallion\")"
+  "verificado_web": "en: Spirit: Stallion of the Cimarron (\"A Kiger mustang stallion\")",
+  "verificado_web_conferente": "wiki pt: Spirit: Stallion of the Cimarron (\"...usco, o filme conta a história de Spirit, um cavalo-garanhão mustangue (dublado por Matt Damon através de uma narração e...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b823bdf386",
@@ -181,10 +203,12 @@
    "Joaninha",
    "Vespa"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Bee Movie",
-  "verificado_web": "en: Bee Movie (\"Barry B. Benson, an anthropomorphic honey bee\") | dub: Bee Movie: A História de uma Abelha"
+  "verificado_web": "en: Bee Movie (\"Barry B. Benson, an anthropomorphic honey bee\") | dub: Bee Movie: A História de uma Abelha",
+  "verificado_web_conferente": "wiki pt: Bee Movie (\"...= Bee Movie / título-prt = A História de uma Abelha / título-bra = Bee Movie - A História de uma Abelha / imagem = Bee m...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "3b5aac44a4",
@@ -198,10 +222,12 @@
    "Lontra",
    "Texugo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Os Sem-Floresta",
-  "verificado_web": "wiki pt: Os Sem-Floresta (\"o guaxinim R.J.\") | en: Over the Hedge (\"RJ, a manipulative raccoon\")"
+  "verificado_web": "wiki pt: Os Sem-Floresta (\"o guaxinim R.J.\") | en: Over the Hedge (\"RJ, a manipulative raccoon\")",
+  "verificado_web_conferente": "Dublagem Wiki: Os Sem-Floresta (\"...ibeiro / lugar_de_dublagem = Rio de Janeiro, RJ / país_de_origem = Estados Unidos / ano = 2006 / duração = 1h23min / dub...\") | wiki pt: Over the Hedge (\"...ões. == Enredo == Enquanto procura comida, o guaxinim R.J. entra na caverna do urso Vincent que tem um carrinho cheio de...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "2cdf9c25c3",
@@ -215,10 +241,12 @@
    "Terêncio",
    "Red"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Angry Birds: O Filme",
-  "verificado_web": "dub: Angry Birds: O Filme (sinopse: \"Red, um pássaro com problemas para controlar seu estresse\")"
+  "verificado_web": "dub: Angry Birds: O Filme (sinopse: \"Red, um pássaro com problemas para controlar seu estresse\")",
+  "verificado_web_conferente": "wiki pt: Angry Birds - O Filme (\"...Portugal e Angola a 1 de junho de 2016. == Enredo == Em uma pequena comunidade em um paraíso de aves que não voam, há mu...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "0d854eac1d",
@@ -232,10 +260,12 @@
    "Emmet",
    "Vitruvius"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Warner Animation",
   "obra": "Uma Aventura LEGO",
-  "verificado_web": "dub: Uma Aventura LEGO (sinopse: \"Emmet é um Lego comum, até o dia em que é confundido com o Master Builder\") | en: The Lego Movie (\"Lego construction worker Emmet\")"
+  "verificado_web": "dub: Uma Aventura LEGO (sinopse: \"Emmet é um Lego comum, até o dia em que é confundido com o Master Builder\") | en: The Lego Movie (\"Lego construction worker Emmet\")",
+  "verificado_web_conferente": "wiki pt: The Lego Movie (\"...e 2014 nos cinemas americanos. == Sinopse == Emmet Brickowski (Chris Pratt) é uma minifigura LEGO comum, até o dia em qu...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "7a88e19a77",
@@ -249,10 +279,12 @@
    "Tocar tambor",
    "Patinar no gelo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Warner Animation",
   "obra": "Happy Feet",
-  "verificado_web": "en: Happy Feet (\"Mumble, a tap-dancing emperor penguin who lacks the ability to sing\") | dub: Happy Feet: O Pinguim (\"Mano, um jovem pinguim-imperador\")"
+  "verificado_web": "en: Happy Feet (\"Mumble, a tap-dancing emperor penguin who lacks the ability to sing\") | dub: Happy Feet: O Pinguim (\"Mano, um jovem pinguim-imperador\")",
+  "verificado_web_conferente": "Dublagem Wiki: Happy Feet: O Pinguim (\"...o e comercial do filme original. {{Sinopse / Mano, um jovem pinguim-imperador, vive na congelada Antártida. Como todos o...\") | wiki en: Happy Feet (\"...d Steve Irwin. In the film, Mumble (Wood), a tap-dancing emperor penguin who lacks the ability to sing a heartsong to at...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "8bba9f8c43",
@@ -266,10 +298,12 @@
    "Urso",
    "Camelo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "Horton e o Mundo dos Quem!",
-  "verificado_web": "en: Horton Hears a Who! (film) (\"Horton, an eccentric elephant\")"
+  "verificado_web": "en: Horton Hears a Who! (film) (\"Horton, an eccentric elephant\")",
+  "verificado_web_conferente": "wiki pt: Horton Hears a Who! (\"..., depois de O Grinch (2000). == Sinopse == O elefante Horton é um professor muito imaginativo, e por isso é querido pelo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b938baaa67",
@@ -283,10 +317,12 @@
    "Joaninha",
    "Caracol"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Turbo",
-  "verificado_web": "en: Turbo (2013 film) (\"Theo, self-named \\\"Turbo\\\", is a garden snail who dreams of being a racer\")"
+  "verificado_web": "en: Turbo (2013 film) (\"Theo, self-named \\\"Turbo\\\", is a garden snail who dreams of being a racer\")",
+  "verificado_web_conferente": "wiki pt: Turbo (filme) (\"...Century Fox. O filme conta a história de um caracol de jardim comum, cujo sonho de se tornar o caracol mais rápido do m...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b68aea8612",
@@ -300,10 +336,12 @@
    "Abraçar",
    "Dormir"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Trolls",
-  "verificado_web": "en: Trolls (film) (\"happy creatures who like to sing, dance and hug all day\")"
+  "verificado_web": "en: Trolls (film) (\"happy creatures who like to sing, dance and hug all day\")",
+  "verificado_web_conferente": "wiki en: Trolls (film) (\"...happy creatures who like to sing, dance and hug all day. They are discovered by the large, hideous and miserable Bergen...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "5179697149",
@@ -317,10 +355,12 @@
    "Gambá",
    "Lontra"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Robô Selvagem",
-  "verificado_web": "en: The Wild Robot (\"Roz protects the egg from a hungry red fox named Fink\") | wiki pt: Robô Selvagem (\"Roz impede uma raposa de comer o ovo\")"
+  "verificado_web": "en: The Wild Robot (\"Roz protects the egg from a hungry red fox named Fink\") | wiki pt: Robô Selvagem (\"Roz impede uma raposa de comer o ovo\")",
+  "verificado_web_conferente": "Fandom dreamworks: Fink (\".../ voice = Pedro Pascal / fullname = Fink the Fox / alias = Jerk / occupation = / affiliations = / home = / gender = Male...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b3aea53934",
@@ -334,10 +374,12 @@
    "Uma coelhinha",
    "Uma calopsita"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Pets - A Vida Secreta dos Bichos",
-  "verificado_web": "en: The Secret Life of Pets (\"Gidget, a white Pomeranian who is in love with Max\")"
+  "verificado_web": "en: The Secret Life of Pets (\"Gidget, a white Pomeranian who is in love with Max\")",
+  "verificado_web_conferente": "Dublagem Wiki: Pets: A Vida Secreta dos Bichos (\".../ Bola de Neve / Kevin Hart / Luís Miranda / Gigi / Jenny Slate / Tatá Werneck / Chloe / Lake Bell / Mônica Rossi / Budd...\") | wiki en: The Secret Life of Pets (\"...eads the Flushed Pets after them. Meanwhile, Gidget, a white Pomeranian who is in love with Max, discovers that he is mi...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b4a522c95d",
@@ -351,10 +393,12 @@
    "Pancho",
    "Maurice"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Madagascar",
-  "verificado_web": "en: Madagascar (2005 film) (\"his adviser, Maurice the aye-aye\") | dub: Madagascar (elenco \"Maurice\")"
+  "verificado_web": "en: Madagascar (2005 film) (\"his adviser, Maurice the aye-aye\") | dub: Madagascar (elenco \"Maurice\")",
+  "verificado_web_conferente": "wiki pt: Madagascar (filme) (\"...ada / Sacha Baron Cohen / Guilherme Briggs / Maurice/Maurício / Aie-aie / Cedric the Entertainer / Ricardo Araújo Pereir...\") | Dublagem Wiki: Madagascar (\"...III / Sacha Baron Cohen / Guilherme Briggs / Maurice / Cedric the Entertainer / Marcelo Torreão / Mort / Andy Richter /...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "f3a71ea095",
@@ -368,10 +412,12 @@
    "Polvo",
    "Leão-marinho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Madagascar",
-  "verificado_web": "en: Penguins of Madagascar (\"a nefarious octopus scientist ... with a grudge against them\") | dub: Os Pinguins de Madagascar - O Filme (elenco \"Dave / Doutor Octavius Brine\")"
+  "verificado_web": "en: Penguins of Madagascar (\"a nefarious octopus scientist ... with a grudge against them\") | dub: Os Pinguins de Madagascar - O Filme (elenco \"Dave / Doutor Octavius Brine\")",
+  "verificado_web_conferente": "Dublagem Wiki: Os Pinguins de Madagascar - O Filme (\"...ga / Rico / Conrad Vernon / Dave / Doutor Octavius Brine / John Malkovich / Hélio Ribeiro / Secreto / B...\") | wiki en: Penguins of Madagascar (\"...angled in a conspiracy involving a nefarious octopus scientist (Malkovich) with a grudge against them. The score was com...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "40b9d73773",
@@ -385,10 +431,12 @@
    "Y.M.C.A.",
    "Dancing Queen"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "en: Kung Fu Panda (film) (\"a partially rewritten version of the classic song, \\\"Kung Fu Fighting\\\" ... for the end credits\")"
+  "verificado_web": "en: Kung Fu Panda (film) (\"a partially rewritten version of the classic song, \\\"Kung Fu Fighting\\\" ... for the end credits\")",
+  "verificado_web_conferente": "wiki pt: Kung Fu Panda (\"...parcialmente reescrita da música clássica, \"Kung Fu Fighting\", realizada por Cee-Lo Green e Jack Black para os créditos...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "c8813f0fe8",
@@ -402,10 +450,12 @@
    "Madame Dumorne",
    "Belle Bottom"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Minions",
-  "verificado_web": "dub: Minions (sinopse: \"Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo\")"
+  "verificado_web": "dub: Minions (sinopse: \"Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo\")",
+  "verificado_web_conferente": "wiki pt: Minions (\"...o de voz == {{elenco / * Sandra Bullock como Scarlet Overkill * Jon Hamm como Herb Overkill * Michael Keaton como Walter...\") | Dublagem Wiki: Minions (\"...lões nos Estados Unidos e lá se encantam com Scarlet Overkill, que ambiciona ser a primeira mulher a dominar o mundo.}}...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "7c98775852",
@@ -419,15 +469,17 @@
    "Bolota",
    "Galo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Pets - A Vida Secreta dos Bichos",
-  "verificado_web": "dub: Pets: A Vida Secreta dos Bichos 2 (elenco \"Galo\", Garcia Júnior) | en: The Secret Life of Pets 2 (\"Welsh Sheepdog Rooster tells him to get over his insecurities\")"
+  "verificado_web": "dub: Pets: A Vida Secreta dos Bichos 2 (elenco \"Galo\", Garcia Júnior) | en: The Secret Life of Pets 2 (\"Welsh Sheepdog Rooster tells him to get over his insecurities\")",
+  "verificado_web_conferente": "Dublagem Wiki: Pets: A Vida Secreta dos Bichos 2 (\".../ Daisy / Tiffany Haddish / Dani Calabresa / Galo / Harrison Ford / Garcia Júnior / Chuck / Pete Holmes / Léo Rabelo / P...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "2ab76e5659",
   "categoria": "Desenhos",
-  "dificuldade": "facil",
+  "dificuldade": "medio",
   "pergunta": "Em Super Mario Bros. O Filme, qual música o Bowser canta ao piano para declarar seu amor pela princesa?",
   "resposta": "Peaches",
   "alternativas": [
@@ -436,10 +488,14 @@
    "Peaches",
    "Jump Up, Super Star!"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Super Mario Bros. O Filme",
-  "verificado_web": "en: The Super Mario Bros. Movie (\"the song \\\"Peaches\\\", wherein Bowser professes his love for Princess Peach\") | dub: canções (\"Peaches\", Marcio Dondi)"
+  "verificado_web": "en: The Super Mario Bros. Movie (\"the song \\\"Peaches\\\", wherein Bowser professes his love for Princess Peach\") | dub: canções (\"Peaches\", Marcio Dondi)",
+  "verificado_web_conferente": "wiki en: The Super Mario Bros. Movie (\"...ound disappointing. Black co-wrote the song \"Peaches\", wherein Bowser professes his love for Princess Peach, alongside t...\") | busca web: dublagem brasileira de Bowser por Marcio Dondi; título \"Peaches\" é o da canção que viralizou (não achei versão com outro título)",
+  "conferido_por": "conferente r1 (independente)",
+  "dificuldade_ajuste": "facil -> medio",
+  "motivo_conferente": "canção de cena, mas título em inglês: média e não fácil"
  },
  {
   "id": "6f741dc284",
@@ -453,10 +509,12 @@
    "Porto Hambúrguer",
    "Baía Gelada"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Tá Chovendo Hambúrguer",
-  "verificado_web": "dub: Tá Chovendo Hambúrguer (sinopse: \"o povo de Boca da Maré, uma pequena ilha no Atlântico\") | en: (\"Swallow Falls, an island\")"
+  "verificado_web": "dub: Tá Chovendo Hambúrguer (sinopse: \"o povo de Boca da Maré, uma pequena ilha no Atlântico\") | en: (\"Swallow Falls, an island\")",
+  "verificado_web_conferente": "Dublagem Wiki: Tá Chovendo Hambúrguer (\"...e faça com que seja reconhecido pelo povo de Boca da Maré, uma pequena ilha no Atlântico. Um dia, ele cria uma máquina c...\") | wiki pt: Cloudy with a Chance of Meatballs (filme) (\"...nt Lockwood, o personagem principal, mora em Boca da Maré, um lugar escondido debaixo do \"A\" do Atlântico onde o aliment...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "1157326f85",
@@ -470,10 +528,12 @@
    "Nick",
    "Butch"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "A Fuga das Galinhas",
-  "verificado_web": "en: Chicken Run (\"an American rooster named Rocky Rhodes as their only hope for escape\") | dub: elenco \"Rocky Rhodes\""
+  "verificado_web": "en: Chicken Run (\"an American rooster named Rocky Rhodes as their only hope for escape\") | dub: elenco \"Rocky Rhodes\"",
+  "verificado_web_conferente": "wiki pt: A Fuga das Galinhas (\"...ando de galinhas que conhece um galo chamado Rocky como sua única esperança de escapar de uma fazenda quando seus propri...\") | Dublagem Wiki: A Fuga das Galinhas (\"...s / Ginger / Julia Sawalha / Miriam Ficher / Rocky Rhodes / Mel Gibson / Dário de Castro / Sra. Melisha Tweedy / Miranda...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "9a5455cf7c",
@@ -487,10 +547,12 @@
    "Colossa",
    "Ginórmica"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Monstros vs. Alienígenas",
-  "verificado_web": "dub: Monstros vs. Alienígenas (elenco \"Susan Murphy / Ginórmica\"; sinopse \"atingida por um meteorito que a fez crescer\")"
+  "verificado_web": "dub: Monstros vs. Alienígenas (elenco \"Susan Murphy / Ginórmica\"; sinopse \"atingida por um meteorito que a fez crescer\")",
+  "verificado_web_conferente": "wiki pt: Monsters vs. Aliens (\"...vários monstros. == Personagens == Montros *Ginórmica/Susan Murphy (Reese Witherspoon) era uma garota normal até que, n...\") | Dublagem Wiki: Monstros vs. Alienígenas (\"...m !Voz Original !Dubladores / Susan Murphy / Ginórmica / Reese Witherspoon / Evie Saide / B.O.B. / Seth Rogen / Rodrigo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "ba08347a23",
@@ -504,10 +566,12 @@
    "Tudo é Incrível",
    "Peça por Peça"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Warner Animation",
   "obra": "Uma Aventura LEGO",
-  "verificado_web": "dub: Uma Aventura LEGO (canções: \"Tudo é Incrível\") | en: The Lego Movie (\"Everything Is Awesome\")"
+  "verificado_web": "dub: Uma Aventura LEGO (canções: \"Tudo é Incrível\") | en: The Lego Movie (\"Everything Is Awesome\")",
+  "verificado_web_conferente": "wiki pt: The Lego Movie (\"...== * Oscar 2015 - Melhor canção original - \"Everything Is AWESOME!!!\" (Shawn Patterson) - Indicado * Globo de Ouro 2015...\") | Dublagem Wiki: Uma Aventura LEGO (\".../ Guilherme Briggs / } ==Canções== *\"Tudo é Incrível\" **Interpretada por: Mariana Féo == Notas == * Todos os personagen...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "471fca2dc3",
@@ -521,10 +585,12 @@
    "Spider-Punk",
    "Pavitr Prabhakar"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Homem-Aranha no Aranhaverso",
-  "verificado_web": "en: Spider-Man: Into the Spider-Verse (\"he meets Peter B. Parker, an alternate Peter from another dimension\")"
+  "verificado_web": "en: Spider-Man: Into the Spider-Verse (\"he meets Peter B. Parker, an alternate Peter from another dimension\")",
+  "verificado_web_conferente": "wiki pt: Spider-Man: Into the Spider-Verse (\"...ve. No túmulo do Homem-Aranha, Miles conhece Peter B. Parker, uma versão mais velha e desgastada do Homem-Aranha de outr...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "8fabc56ad5",
@@ -538,10 +604,12 @@
    "A Lâmpada Mágica",
    "O Ovo de Ouro"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Gato de Botas",
-  "verificado_web": "dub: Gato de Botas 2: O Último Pedido (\"encontrar o mítico Último Desejo e restaurar suas vidas perdidas\")"
+  "verificado_web": "dub: Gato de Botas 2: O Último Pedido (\"encontrar o mítico Último Desejo e restaurar suas vidas perdidas\")",
+  "verificado_web_conferente": "wiki pt: Puss in Boots: The Last Wish (\"...Last Wish / título-prt = O Gato das Botas: O Último Desejo / título-bra = Gato de Botas 2: O Último Pedido / imagem = Pu...\") | Dublagem Wiki: Gato de Botas 2: O Último Pedido (\"...va vez, numa jornada para encontrar o mítico Último Desejo e restaurar suas vidas perdidas. {{Sinopse / O Gato de Botas...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "1858bb2990",
@@ -555,10 +623,12 @@
    "Búfalo",
    "Iaque"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "en: Kung Fu Panda 3 (\"General Kai, a chi-stealing yak spirit warrior\")"
+  "verificado_web": "en: Kung Fu Panda 3 (\"General Kai, a chi-stealing yak spirit warrior\")",
+  "verificado_web_conferente": "wiki pt: Kung Fu Panda 3 (\"...luta do mestre Oogway contra o iaque malvado Kai (O Coletor) que vence a batalha. No vale da paz, mestre Shifu treina se...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "76f0106ca8",
@@ -572,10 +642,12 @@
    "Grimmel",
    "Dagur"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Como Treinar o Seu Dragão",
-  "verificado_web": "dub: Como Treinar o Seu Dragão 3 (elenco \"Grimmel, o Cruel\") | wiki pt (\"Grimmel, o Cruel: Um astuto caçador de dragões\")"
+  "verificado_web": "dub: Como Treinar o Seu Dragão 3 (elenco \"Grimmel, o Cruel\") | wiki pt (\"Grimmel, o Cruel: Um astuto caçador de dragões\")",
+  "verificado_web_conferente": "wiki pt: How to Train Your Dragon: The Hidden World (\"...aleiros de Dragões. * F. Murray Abraham como Grimmel, o Cruel: Um astuto caçador de dragões que é responsável pela quase...\") | Dublagem Wiki: Como Treinar o Seu Dragão 3 (\"...es / Valka / Cate Blanchett / Martha Cohen / Grimmel, o Cruel / F. Murray Abraham / Márcio Simões / Melequento Jorgenson...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "48dcbdfccf",
@@ -589,10 +661,12 @@
    "Neném",
    "Fofura"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "A Era do Gelo",
-  "verificado_web": "wiki pt: A Era do Gelo 4 (\"Preciosa, a baleia de estimação da vovó\") | en: (\"Granny's pet Livyatan, Precious\")"
+  "verificado_web": "wiki pt: A Era do Gelo 4 (\"Preciosa, a baleia de estimação da vovó\") | en: (\"Granny's pet Livyatan, Precious\")",
+  "verificado_web_conferente": "Fandom iceage: Precious (\"...Feathers = / Skin color = Gray / Alias = Mr. Whale (by Flynn) / Status = Alive / Residence(s) = Ocean / Family = / Frien...\") | wiki pt: Ice Age: Continental Drift (\"...vale como reféns. Uma briga acontece quando Preciosa, a baleia de estimação da vovó, chega e afasta temporariamente Vóv...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "0a52dab416",
@@ -606,10 +680,12 @@
    "Estelinha",
    "Polaris"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Super Mario Bros. O Filme",
-  "verificado_web": "en: The Super Mario Bros. Movie (\"Lumalee, a nihilistic blue Luma held prisoner by Bowser\") | dub: elenco \"Lumalee\""
+  "verificado_web": "en: The Super Mario Bros. Movie (\"Lumalee, a nihilistic blue Luma held prisoner by Bowser\") | dub: elenco \"Lumalee\"",
+  "verificado_web_conferente": "wiki pt: Super Mario Bros. O Filme (\"...ayton como Rei Pinguim * Juliet Jelenic como Lumalee == Produção == === Desenvolvimento === Depois do fracasso critico e...\") | Dublagem Wiki: Super Mario Galaxy: O Filme (elenco \"Lumalee / Juliet Jelenic / Monique Filardy\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "0a2714928b",
@@ -623,10 +699,12 @@
    "Mestra Shu",
    "Mestra Chow"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Illumination",
   "obra": "Minions",
-  "verificado_web": "dub: Minions 2: A Origem de Gru (elenco \"Mestra Chow\") | en (\"Master Chow, a former kung fu teacher\")"
+  "verificado_web": "dub: Minions 2: A Origem de Gru (elenco \"Mestra Chow\") | en (\"Master Chow, a former kung fu teacher\")",
+  "verificado_web_conferente": "wiki pt: Minions: The Rise of Gru (\"...Sarito Rodrigues / Mariama Barbosa / Mestra Chow / Michelle Yeoh / Marcia Coutinho / Cláudia Cadima / Jean Garra / Jean...\") | Dublagem Wiki: Minions 2: A Origem de Gru (\"...Taraji P. Henson / Sarito Rodrigues / Mestra Chow / Michelle Yeoh / Márcia Coutinho / Motoqueiro / RZA / Hector Gomes /...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "6f51020b83",
@@ -640,15 +718,17 @@
    "Braço",
    "Laço"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Os Croods",
-  "verificado_web": "wiki pt: Os Croods (\"Braço, a preguiça de estimação ... de Guy, que também o usa como cinto\") | en (\"his pet sloth Belt\")"
+  "verificado_web": "wiki pt: Os Croods (\"Braço, a preguiça de estimação ... de Guy, que também o usa como cinto\") | en (\"his pet sloth Belt\")",
+  "verificado_web_conferente": "Dublagem Wiki: Os Croods (\"...hunk Crood / Clark Duke / Fred Mascarenhas / Braço / Chris Sanders / Manolo Rey / Sandy Crood / Randy Thom / Pamella Rod...\") | wiki pt: Os Croods (\"...ongo do filme. * Chris Sanders como Braço, a preguiça de estimação, ajudante e companheiro de viagens de Guy, que também...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "13d67fbb0c",
   "categoria": "Desenhos",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Em Kung Fu Panda 3, quem reaparece na vida do Po e o leva para conhecer outros como ele?",
   "resposta": "O pai biológico",
   "alternativas": [
@@ -657,10 +737,14 @@
    "Um irmão gêmeo",
    "O avô"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "en: Kung Fu Panda 3 (\"Po is reunited with his birth father, and discovers the existence of a secret panda village\")"
+  "verificado_web": "en: Kung Fu Panda 3 (\"Po is reunited with his birth father, and discovers the existence of a secret panda village\")",
+  "verificado_web_conferente": "wiki pt: Kung Fu Panda 3 (\"...apareceu na vila e logo descobre que é o seu pai biológico perdido há muito tempo que reaparece de repente, a dupla se r...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "dificuldade_ajuste": "dificil -> medio",
+  "motivo_conferente": "é o fio principal do filme, não detalhe de fã"
  },
  {
   "id": "3482a81e61",
@@ -674,10 +758,12 @@
    "Navegar",
    "Música"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Bob Esponja Calça Quadrada",
-  "verificado_web": "en: Mr. Krabs (\"Krabs is miserly obsessed with money\")"
+  "verificado_web": "en: Mr. Krabs (\"Krabs is miserly obsessed with money\")",
+  "verificado_web_conferente": "wiki pt: Mr. Krabs (\"...a sucesso nos negócios. Mr. Krabs valoriza o dinheiro mais do que seu próprio bem-estar e avalia os outros personagens c...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "41b7267d0e",
@@ -691,10 +777,12 @@
    "Loud",
    "Turner"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Padrinhos Mágicos",
-  "verificado_web": "en: The Fairly OddParents (\"Tara Strong ... as Timmy Turner\")"
+  "verificado_web": "en: The Fairly OddParents (\"Tara Strong ... as Timmy Turner\")",
+  "verificado_web_conferente": "wiki pt: The Fairly OddParents (\"...or Butch Hartman sobre as aventuras de Timmy Turner, com seus padrinhos mágicos Cosmo e Wanda. É exibido pela Nickelodeo...\") | Dublagem Wiki: Os Padrinhos Mágicos (\"...or Butch Hartman sobre as aventuras de Timmy Turner, com seus padrinhos mágicos Cosmo e Wanda. É exibido pela Nickelodeo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "1f5c0af836",
@@ -708,10 +796,12 @@
    "Num iceberg",
    "No topo de uma montanha"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Avatar: A Lenda de Aang",
-  "verificado_web": "en: Aang (primeiro episódio \"The Boy in the Iceberg\") | en: Avatar: The Last Airbender"
+  "verificado_web": "en: Aang (primeiro episódio \"The Boy in the Iceberg\") | en: Avatar: The Last Airbender",
+  "verificado_web_conferente": "wiki pt: Avatar: The Last Airbender (\"...animação suspensa. Os dois ficaram presos no iceberg por cem anos, próximos ao Polo Sul. Sozin, sabendo que o ciclo de r...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "347e43b071",
@@ -725,10 +815,12 @@
    "Mai",
    "Jun"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Avatar: A Lenda de Aang",
-  "verificado_web": "en: Avatar: The Last Airbender (\"Zhao kills the moon spirit; Yue, the princess of the tribe, sacrifices her life to revive it\") | dub: elenco \"Princesa Yue\""
+  "verificado_web": "en: Avatar: The Last Airbender (\"Zhao kills the moon spirit; Yue, the princess of the tribe, sacrifices her life to revive it\") | dub: elenco \"Princesa Yue\"",
+  "verificado_web_conferente": "wiki pt: Avatar: The Last Airbender (\"...ona pela filha do chefe da tribo, a Princesa Yue. A armada de Zhao começa um cerco da tribo, capturando a forma mortal d...\") | Dublagem Wiki: Avatar: A Lenda de Aang (\"...2\" / 2º / Hannah Buttel / 3º / Princesa Yue / Johanna Brady / Adriana Torres / 1º / Mabel Cezar / 2ª / 4 / Izabel L...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "6ba7374cf7",
@@ -742,10 +834,13 @@
    "Um vampiro",
    "Um duende"
   ],
-  "status": "gerada",
+  "status": "descartada",
   "fonte_tema": "Cartoon Network",
   "obra": "Hora de Aventura",
-  "verificado_web": "en: Finn the Human (\"Finn Mertens\"; título do personagem \"Finn the Human\")"
+  "verificado_web": "en: Finn the Human (\"Finn Mertens\"; título do personagem \"Finn the Human\")",
+  "verificado_web_conferente": "wiki pt: Adventure Time (\"...hada, Luciano Monteiro no Brasil), um garoto humano aventureiro, e irmão adotivo Jake (dublado por John DiMaggio, Eduard...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "motivo_conferente": "fato já dito no banco: des:688 \"Que acessório o garoto humano de Hora de Aventura...\" entrega que o Finn é humano"
  },
  {
   "id": "680ef69860",
@@ -759,10 +854,12 @@
    "Uma nuvem",
    "Um fantasma"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Incrível Mundo de Gumball",
-  "verificado_web": "Fandom pt-br gumball: Carrie Krueger (\"Espécie = Fantasma\") | dub: elenco \"Carrie Krueger\""
+  "verificado_web": "Fandom pt-br gumball: Carrie Krueger (\"Espécie = Fantasma\") | dub: elenco \"Carrie Krueger\"",
+  "verificado_web_conferente": "Fandom gumball pt-br: Carrie Krueger (\"...= Protótipo / Sexo = Feminino ♀ / Espécie = Fantasma / Idade = 327 / Amigos = Darwin (Namorado), Penny Masami, Teri, Mo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "1f26d5a41b",
@@ -776,10 +873,12 @@
    "Boberto",
    "Tobias"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Incrível Mundo de Gumball",
-  "verificado_web": "Fandom pt-br gumball: Boberto (\"Espécie = Robô\") | dub: elenco \"Boberto\""
+  "verificado_web": "Fandom pt-br gumball: Boberto (\"Espécie = Robô\") | dub: elenco \"Boberto\"",
+  "verificado_web_conferente": "Dublagem Wiki: O Incrível Mundo de Gumball (\".../ 1ª-6ª / Mário Monjardim / 3ª / 115 / Boberto / Kerry Shale / Sérgio Muniz / 1ª-2ª / Nando Sierpe / 3ª-6ª / C...\") | wiki en: List of The Amazing World of Gumball characters (\"...cloud capable of causing massive damage. ====Bobert 6B==== Bobert 6B (voiced by Kerry Shale) is a robot who is one of th...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "80798d7da3",
@@ -793,10 +892,12 @@
    "XLR8",
    "Bala de Canhão"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Ben 10",
-  "verificado_web": "Fandom pt-br ben10: Aquático (\"corpo = Peixe humanoide\"; \"Respiração debaixo d'água\") | dub: Ben 10 (elenco \"Aquático\")"
+  "verificado_web": "Fandom pt-br ben10: Aquático (\"corpo = Peixe humanoide\"; \"Respiração debaixo d'água\") | dub: Ben 10 (elenco \"Aquático\")",
+  "verificado_web_conferente": "Dublagem Wiki: Ben 10 (\"...o Pimenta / 2ª / Ronaldo Júlio / 3ª-4ª / Aquático / Ricardo Telles / 1ª / 3, 9 / Ronaldo Júlio / 1ª-4ª / Orlando Dru...\") | Fandom ben10 pt-br: Aquático (\"...isccis volann / planeta = Piscciss / corpo = Peixe humanoide / originalmente = Ripjaws / tradução = Mandíbulas Rasgadora...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "6112154a87",
@@ -810,10 +911,12 @@
    "Amarelo",
    "Roxo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "As Meninas Superpoderosas",
-  "verificado_web": "en: Blossom (The Powerpuff Girls) (\"pink as her signature color\")"
+  "verificado_web": "en: Blossom (The Powerpuff Girls) (\"pink as her signature color\")",
+  "verificado_web_conferente": "wiki pt: The Powerpuff Girls (\"...-escolar com uma variedade de super-poderes: Florzinha (rosa), Lindinha (azul) e Docinho (verde). O enredo de um episódi...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "2a45b01c17",
@@ -827,10 +930,12 @@
    "Um espelho falante",
    "Um computador"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Coragem, o Cão Covarde",
-  "verificado_web": "en: Courage the Cowardly Dog (\"Courage's sarcastic, sentient computer\")"
+  "verificado_web": "en: Courage the Cowardly Dog (\"Courage's sarcastic, sentient computer\")",
+  "verificado_web_conferente": "wiki pt: Coragem, o Cão Covarde (\"...tácio. Coragem frequentemente usa a ajuda do computador para buscar informações sobre os fenômenos sobrenaturais que oco...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "02986020e4",
@@ -844,10 +949,12 @@
    "Uma máscara",
    "Um lençol"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Coragem, o Cão Covarde",
-  "verificado_web": "en: Courage the Cowardly Dog (\"uses the \\\"Ooga Booga\\\" mask to scare him\")"
+  "verificado_web": "en: Courage the Cowardly Dog (\"uses the \\\"Ooga Booga\\\" mask to scare him\")",
+  "verificado_web_conferente": "wiki pt: Coragem, o Cão Covarde (\"...em assustado, para isso colocando uma grande máscara e gritando \"ooga-booga-booga!\". Alguns de seus comportamentos vêm d...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "ff23a849e7",
@@ -861,10 +968,12 @@
    "Paulina",
    "Valerie"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Danny Phantom",
-  "verificado_web": "en: Danny Phantom (\"aided by his two best friends, Sam Manson and Tucker Foley\") | dub: elenco \"Samantha \\\"Sam\\\" Manson\""
+  "verificado_web": "en: Danny Phantom (\"aided by his two best friends, Sam Manson and Tucker Foley\") | dub: elenco \"Samantha \\\"Sam\\\" Manson\"",
+  "verificado_web_conferente": "wiki pt: Danny Phantom (\"...o de seus pais, além disso nos é apresentado Sam e Tucker, os únicos amigos de Danny na escola que conhecem seus poderes...\") | Dublagem Wiki: Danny Phantom (\"...ollins / Marcos Souza / 1ª-3ª / Samantha \"Sam\" Manson / Grey DeLisle / Flávia Saddy / 1ª-3ª / Jasmine \"Jazz...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "dd0bd6e9ff",
@@ -878,10 +987,12 @@
    "Diamante Azul",
    "Lápis-Lazúli"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Steven Universo",
-  "verificado_web": "en: List of Steven Universe characters (\"her gemstone is embedded in his navel\") | en: Steven Universe (\"inherited his gemstone from his mother ... Rose Quartz\") | dub: elenco \"Rose Quartz / Diamante Rosa\""
+  "verificado_web": "en: List of Steven Universe characters (\"her gemstone is embedded in his navel\") | en: Steven Universe (\"inherited his gemstone from his mother ... Rose Quartz\") | dub: elenco \"Rose Quartz / Diamante Rosa\"",
+  "verificado_web_conferente": "Dublagem Wiki: Steven Universo (\"...mp3}} / Analu Pimenta (canções) / 5ª / Rose Quartz / Diamante Rosa / Susan Egan / Telma da Costa / 1ª / 35 / 2ª /...\") | wiki pt: Steven Universe (\"...osa de sua mãe, a ex-líder das Crystal Gems, Rose Quartz. Enquanto Steven tenta entender seus poderes em expansão gradua...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "5068cbb495",
@@ -895,10 +1006,12 @@
    "Keystone",
    "Beach City"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Steven Universo",
-  "verificado_web": "en: Steven Universe (\"in the fictional town of Beach City\") | dub: Steven Universo (seção de elenco \"Beach City\")"
+  "verificado_web": "en: Steven Universe (\"in the fictional town of Beach City\") | dub: Steven Universo (seção de elenco \"Beach City\")",
+  "verificado_web_conferente": "wiki pt: Steven Universe (\"...t, Pérola e Ametista — na cidade fictícia de Beach City. Steven, que é metade Gem e metade humano, participa de diversas...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "ce969d1aba",
@@ -912,10 +1025,12 @@
    "Estelar",
    "Terra"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Os Jovens Titãs",
-  "verificado_web": "en: Starfire (Teen Titans) (\"an alien princess from the planet Tamaran\") | dub: Os Jovens Titãs (elenco \"Estelar\")"
+  "verificado_web": "en: Starfire (Teen Titans) (\"an alien princess from the planet Tamaran\") | dub: Os Jovens Titãs (elenco \"Estelar\")",
+  "verificado_web_conferente": "wiki pt: Teen Titans (série animada) (\"...s. O enredo acompanha as aventuras de Robin, Estelar, Mutano, Ciborgue e Ravena, um grupo de jovens heróis que defendem...\") | Dublagem Wiki: Os Jovens Titãs (\"...:0;\" / Robin / Scott Menville / Manolo Rey / Estelar / Hynden Walch / Luisa Palomanes / Ciborgue / Khary Payton / Eduard...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "d6095f0e76",
@@ -929,10 +1044,12 @@
    "Arruma a bagunça",
    "Conserta os robôs"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "O Laboratório de Dexter",
-  "verificado_web": "en: Dexter's Laboratory (\"Dee Dee, who regularly accesses the laboratory and inadvertently foils his experiments\")"
+  "verificado_web": "en: Dexter's Laboratory (\"Dee Dee, who regularly accesses the laboratory and inadvertently foils his experiments\")",
+  "verificado_web_conferente": "wiki pt: Dexter's Laboratory (\"...descuidado. Em sua família, apenas sua irmã Dee Dee conhece o laboratório e não perde a oportunidade de entrar, o que i...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "4e0e92a366",
@@ -946,15 +1063,17 @@
    "Com a irmã",
    "Com um colega de quarto"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Johnny Bravo",
-  "verificado_web": "en: Johnny Bravo (\"lives with his mother\")"
+  "verificado_web": "en: Johnny Bravo (\"lives with his mother\")",
+  "verificado_web_conferente": "wiki en: Johnny Bravo (\"..., and dimwitted young man who lives with his mother and attempts to get women to date him, though he always falls short...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "326a675764",
   "categoria": "Desenhos",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Na Mansão Foster, qual amigo imaginário cheio de regras administra a casa?",
   "resposta": "Sr. Coelho",
   "alternativas": [
@@ -963,10 +1082,14 @@
    "Sr. Bigodes",
    "Sr. Coelho"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "A Mansão Foster para Amigos Imaginários",
-  "verificado_web": "dub: A Mansão Foster para Amigos Imaginários (elenco \"Sr. Coelho\", Orlando Drummond) | en (\"Mr. Herriman, a strict rule follower who serves as the house's business manager\")"
+  "verificado_web": "dub: A Mansão Foster para Amigos Imaginários (elenco \"Sr. Coelho\", Orlando Drummond) | en (\"Mr. Herriman, a strict rule follower who serves as the house's business manager\")",
+  "verificado_web_conferente": "wiki pt: Foster's Home for Imaginary Friends (\"...na casa, sem contar Bloo e Mr. Herriman (Sr. Coelho), amigo imaginário de Madame Foster, o qual ela nunca abandonou. O l...\") | Dublagem Wiki: A Mansão Foster para Amigos Imaginários (\"...co / Candi Milo / Fernanda Baronne / 1ª-6ª / Sr. Coelho / Tom Kane / Orlando Drummond / 1ª-6ª / Frankie Foster / Grey De...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "dificuldade_ajuste": "dificil -> medio",
+  "motivo_conferente": "Sr. Coelho é personagem fixo da série"
  },
  {
   "id": "81031d8c05",
@@ -980,10 +1103,12 @@
    "Everest",
    "Liberty"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Patrulha Canina",
-  "verificado_web": "en: PAW Patrol (\"Everest ... Siberian Husky who serves as a mountain rescue dog in emergencies relating to snow\") | dub: elenco \"Everest\""
+  "verificado_web": "en: PAW Patrol (\"Everest ... Siberian Husky who serves as a mountain rescue dog in emergencies relating to snow\") | dub: elenco \"Everest\"",
+  "verificado_web_conferente": "wiki pt: PAW Patrol (\"...os voar bem alto!\" e \"Vamos voar pro céu!\" * Everest Everest é uma divertida filhote Husky Siberiana e uma membra da Pat...\") | Dublagem Wiki: Patrulha Canina (\"...lspan=\"2\" / 1ª-5ª / Lily Bartlam / 6ª- / Everest / Berkley Silverman / Flora Paulita / 2ª / 32 / Giulia de Brito / 2...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "1e67bac061",
@@ -997,10 +1122,12 @@
    "Dil e Kimi",
    "Susie e Angelica"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Rugrats: Os Anjinhos",
-  "verificado_web": "dub: Rugrats: Os Anjinhos (sinopse: \"os gêmeos Phil e Lil DeVille\")"
+  "verificado_web": "dub: Rugrats: Os Anjinhos (sinopse: \"os gêmeos Phil e Lil DeVille\")",
+  "verificado_web_conferente": "wiki pt: Rugrats (\"..., Tommy Pickles, Chuckie Finster e os gêmeos Phil e Lil DeVille são capazes de se comunicar entre si em uma linguagem qu...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "9e991fcf54",
@@ -1014,10 +1141,12 @@
    "Rhonda",
    "Lila"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Ei, Arnold!",
-  "verificado_web": "en: List of Hey Arnold! characters (\"Arnold's arch-rival yet love interest. She constantly bullies Arnold\") | dub: elenco \"Helga Geraldine Pataki\""
+  "verificado_web": "en: List of Hey Arnold! characters (\"Arnold's arch-rival yet love interest. She constantly bullies Arnold\") | dub: elenco \"Helga Geraldine Pataki\"",
+  "verificado_web_conferente": "wiki pt: Hey Arnold! (\"...ja Arnold, a história também se concentra em Helga de tal forma que muitos a consideram como personagem principal. É uma...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "689733ce0e",
@@ -1031,10 +1160,12 @@
    "Com o pai",
    "Com os avós"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Ei, Arnold!",
-  "verificado_web": "en: Hey Arnold! (\"lives with his grandparents in an inner-city tenement\")"
+  "verificado_web": "en: Hey Arnold! (\"lives with his grandparents in an inner-city tenement\")",
+  "verificado_web_conferente": "wiki pt: Hey Arnold! (\"...arta série chamado Arnold, que mora com seus avós em uma pensão. Episódios centram-se em suas experiências de vida da ci...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "cb7d7fab55",
@@ -1048,10 +1179,12 @@
    "Falar com os animais",
    "Respirar debaixo d'água"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Thornberrys",
-  "verificado_web": "en: The Wild Thornberrys (\"Eliza, who has a magical ability to communicate with animals\")"
+  "verificado_web": "en: The Wild Thornberrys (\"Eliza, who has a magical ability to communicate with animals\")",
+  "verificado_web_conferente": "wiki pt: The Wild Thornberrys (\"...e câmera, e seus filhos, Debbie, de 16 anos, Eliza a filha mais nova, Donnie, filho adotivo, e um chimpanzé com sotaque...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "c440a517c6",
@@ -1065,10 +1198,12 @@
    "Isa",
    "Tico"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Dora, a Aventureira",
-  "verificado_web": "dub: Dora, a Aventureira (elenco \"Raposo\") | en: Dora the Explorer (canção \"Swiper No Swiping!\")"
+  "verificado_web": "dub: Dora, a Aventureira (elenco \"Raposo\") | en: Dora the Explorer (canção \"Swiper No Swiping!\")",
+  "verificado_web_conferente": "wiki pt: Dora the Explorer (\"...o problema. * Em qualquer parte do caminho, Raposo pode aparecer e tentar roubar o objeto de alguém. Dora pede ao teles...\") | Dublagem Wiki: Dora, a Aventureira (\"...nes / Dylan Clark Marshall / Jaden Michael / Raposo / Marc Weiner / Marco Ribeiro / Grande Galinha Vermelha / Chris Giff...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "de3843404a",
@@ -1082,10 +1217,12 @@
    "Tico",
    "Miguel"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Dora, a Aventureira",
-  "verificado_web": "en: Dora the Explorer (\"a spin-off series focused on Dora's cousin Diego ... animal rescuers\") | dub: elenco \"Diego Márquez\""
+  "verificado_web": "en: Dora the Explorer (\"a spin-off series focused on Dora's cousin Diego ... animal rescuers\") | dub: elenco \"Diego Márquez\"",
+  "verificado_web_conferente": "wiki pt: Dora the Explorer (\"...Seus Amigos: Na Cidade / relacionados = Go, Diego, Go! }} Dora the Explorer (br: Dora, a Aventureira / pt: Dora, a Expl...\") | Dublagem Wiki: Dora, a Aventureira (\".../ Fernanda Baronne / Alexandria Suarez / Diego Márquez / Andres e Felipe Dieppa / Gustavo Pereira / Gabriel Alvarez...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "3c57070eec",
@@ -1099,10 +1236,12 @@
    "Fred",
    "Loula"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Discovery Kids",
   "obra": "Pocoyo",
-  "verificado_web": "en: Pocoyo (\"Loula (a dog)\") | dub: Pocoyo (sinopse: \"Nina, Elly, Pato, Loula, Fred, Sonequita\")"
+  "verificado_web": "en: Pocoyo (\"Loula (a dog)\") | dub: Pocoyo (sinopse: \"Nina, Elly, Pato, Loula, Fred, Sonequita\")",
+  "verificado_web_conferente": "wiki pt: Pocoyo (\"...unciona como uma figura materna de Pocoyo. * Loula é um filhote de beagle laranja. * Nina é uma humana e amiga de Pocoyo...\") | Dublagem Wiki: Pocoyo (\".... ==Elenco== { / ! / Imagem !Personagem !Voz Original !Dubladores !Temp. !...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "4879df8d59",
@@ -1116,10 +1255,12 @@
    "Sonequita",
    "Sossego"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Discovery Kids",
   "obra": "Pocoyo",
-  "verificado_web": "dub: Pocoyo (sinopse cita \"Sonequita\") | en: Pocoyo (\"his mother Sleepy Bird\")"
+  "verificado_web": "dub: Pocoyo (sinopse cita \"Sonequita\") | en: Pocoyo (\"his mother Sleepy Bird\")",
+  "verificado_web_conferente": "Dublagem Wiki: Pocoyo (\"...seus amigos: Nina, Elly, Pato, Loula, Fred, Sonequita e diversos outros!}} ==Elenco== { / ! / Imagem !Personagem !Voz O...\") | wiki en: Pocoyo (\"...a (a caterpillar), Baby Bird, and his mother Sleepy Bird. Viewers are encouraged to recognize situations that Pocoyo is...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "655957dd02",
@@ -1133,10 +1274,12 @@
    "Papagaio",
    "Coruja"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Backyardigans",
-  "verificado_web": "en: The Backyardigans (\"Pablo is a blue penguin\") | dub: Os Backyardigans (sinopse cita Pablo)"
+  "verificado_web": "en: The Backyardigans (\"Pablo is a blue penguin\") | dub: Os Backyardigans (sinopse cita Pablo)",
+  "verificado_web_conferente": "wiki pt: The Backyardigans (\"...yardigan a aparecer em todos os episódios. * Pablo (prt: Paulo) é um pinguim azul que é nervoso, frenético e tende a exa...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "b09da7d366",
@@ -1150,10 +1293,12 @@
    "Veado",
    "Canguru"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "Os Backyardigans",
-  "verificado_web": "en: The Backyardigans (\"Tyrone is a red-haired orange moose\") | dub: Os Backyardigans (sinopse cita Tyrone)"
+  "verificado_web": "en: The Backyardigans (\"Tyrone is a red-haired orange moose\") | dub: Os Backyardigans (sinopse cita Tyrone)",
+  "verificado_web_conferente": "wiki pt: The Backyardigans (\"...o animado seja o ponto principal da trama. * Tyrone (prt: Eugénio) é um alce laranja com chifres amarelos que é descontr...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "20130521dc",
@@ -1167,10 +1312,12 @@
    "Socks",
    "Bingo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Discovery Kids",
   "obra": "Bluey",
-  "verificado_web": "en: Bluey (TV series) (\"younger sister, Bingo\") | dub: Bluey (elenco \"Bingo Heeler\")"
+  "verificado_web": "en: Bluey (TV series) (\"younger sister, Bingo\") | dub: Bluey (elenco \"Bingo Heeler\")",
+  "verificado_web_conferente": "wiki pt: Bluey (série de televisão) (\"...ndit e sua mãe, Chilli e sua irmã mais nova, Bingo, que se juntam regularmente a Bluey em aventuras que incorporam um jo...\") | Dublagem Wiki: Bluey (\"...> / 1ª.43 / Gaby Milani (adulta) / 3°.50 / Bingo Heeler / Não creditada / Clara Ferreira / 1ª / Marina Mafra / 1ª (2,...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "3dc70595e9",
@@ -1184,10 +1331,12 @@
    "Bandit",
    "Bob"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Discovery Kids",
   "obra": "Bluey",
-  "verificado_web": "en: Bluey (TV series) (\"She lives with her father, Bandit; mother, Chilli\") | dub: elenco \"Bandit Heeler\""
+  "verificado_web": "en: Bluey (TV series) (\"She lives with her father, Bandit; mother, Chilli\") | dub: elenco \"Bandit Heeler\"",
+  "verificado_web_conferente": "wiki pt: Bluey (série de televisão) (\"...agens construtivas para os pais e o papel de Bandit como uma figura paterna positiva. == Enredo == A série segue o cotid...\") | Dublagem Wiki: Bluey (\".../ Sophie Goldstein / Lorena Gafo / 3ª.26 / Bandit Heeler / David McCormack / Rodrigo Miallaret / 1ª-3ª / Ziggy Badans...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "47ea7432e6",
@@ -1201,10 +1350,12 @@
    "Num restaurante",
    "Numa fábrica de mel"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Discovery Kids",
   "obra": "Masha e o Urso",
-  "verificado_web": "en: Masha and the Bear (\"a tiger that used to work with the Bear in the circus\")"
+  "verificado_web": "en: Masha and the Bear (\"a tiger that used to work with the Bear in the circus\")",
+  "verificado_web_conferente": "wiki en: Masha and the Bear (\"...tiger that used to work with the Bear in the circus, and a Female Bear that is the object of the Bear's affections. Char...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "bd84e43d41",
@@ -1218,10 +1369,12 @@
    "Uma coroa",
    "Um chapéu de palha"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Discovery Kids",
   "obra": "Masha e o Urso",
-  "verificado_web": "en: Masha and the Bear (\"Masha's \\\"folk costume with a headscarf\\\"\")"
+  "verificado_web": "en: Masha and the Bear (\"Masha's \\\"folk costume with a headscarf\\\"\")",
+  "verificado_web_conferente": "wiki en: Masha and the Bear (\"...ttributed it to Masha's \"folk costume with a headscarf\". A number of European politicians and media outlets have argued...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "7415f82a3a",
@@ -1235,10 +1388,12 @@
    "Kagami",
    "Marinette"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Gloob",
   "obra": "Miraculous: As Aventuras de Ladybug",
-  "verificado_web": "en: Miraculous: Tales of Ladybug & Cat Noir (\"Marinette Dupain-Cheng and Adrien Agreste, who transform into the superheroes Ladybug and Cat Noir\") | dub: sinopse cita Marinette"
+  "verificado_web": "en: Miraculous: Tales of Ladybug & Cat Noir (\"Marinette Dupain-Cheng and Adrien Agreste, who transform into the superheroes Ladybug and Cat Noir\") | dub: sinopse cita Marinette",
+  "verificado_web_conferente": "wiki pt: Miraculous: Les aventures de Ladybug et Chat Noir (\"...s, onde dois adolescentes cursando o 9º ano, Marinette Dupain-Cheng e Adrien Agreste, foram escolhidos para serem os sup...\") | Dublagem Wiki: Miraculous: As Aventuras de Ladybug (\"...les. Muito próximos, mas eles não têm ideia. Marinette e Adrien também nunca estiveram tão próximos um do outro, mas iss...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "694421677d",
@@ -1252,10 +1407,12 @@
    "Cat Noir",
    "Viperion"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Gloob",
   "obra": "Miraculous: As Aventuras de Ladybug",
-  "verificado_web": "en: Miraculous (\"transform into the superheroes Ladybug and Cat Noir\") | dub: Miraculous: As Aventuras de Ladybug (\"Ladybug e Cat Noir\")"
+  "verificado_web": "en: Miraculous (\"transform into the superheroes Ladybug and Cat Noir\") | dub: Miraculous: As Aventuras de Ladybug (\"Ladybug e Cat Noir\")",
+  "verificado_web_conferente": "wiki pt: Miraculous: Les aventures de Ladybug et Chat Noir (\"...o-br = Miraculous: As Aventuras de Ladybug e Cat Noir / imagem = ZAG Miraculous 2025 Logo.png / legenda = Logotipo da sé...\") | Dublagem Wiki: Miraculous: As Aventuras de Ladybug (\"...nativo=Miraculous: As Aventuras de Ladybug e Cat Noir Miraculous: Contos de Ladybug e Cat Noir {{Pequen...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "ca553a1e07",
@@ -1269,10 +1426,12 @@
    "Wayzz",
    "Trixx"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Gloob",
   "obra": "Miraculous: As Aventuras de Ladybug",
-  "verificado_web": "en: Miraculous (\"Marinette and Félix's Kwamis, Tikki and Plagg\") | dub: elenco \"Tikki\""
+  "verificado_web": "en: Miraculous (\"Marinette and Félix's Kwamis, Tikki and Plagg\") | dub: elenco \"Tikki\"",
+  "verificado_web_conferente": "wiki pt: Miraculous: Les aventures de Ladybug et Chat Noir (\"...senta a criação, ou seja, sua Kwami, chamada Tikki, concede a Marinete o poder de criar qualquer coisa. A mesma teoria s...\") | Dublagem Wiki: Miraculous: As Aventuras de Ladybug (\"...0;\" / ? / ? / Pamella Rodrigues / 6ª / 21 / Tikki / Marie Nonnenmacher / Mela Lee / Isabelle Cunha / 1ª-5ª / 6ª- /...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "a4abe9ea58",
@@ -1286,10 +1445,12 @@
    "Chat Blanc",
    "Senhor Pombo"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Gloob",
   "obra": "Miraculous: As Aventuras de Ladybug",
-  "verificado_web": "en: Miraculous (\"Hawk Moth ... creates akumas, butterflies infused with negative energy\") | dub: sinopse \"Após o desaparecimento de Hawk Moth\""
+  "verificado_web": "en: Miraculous (\"Hawk Moth ... creates akumas, butterflies infused with negative energy\") | dub: sinopse \"Após o desaparecimento de Hawk Moth\"",
+  "verificado_web_conferente": "wiki pt: Miraculous: Les aventures de Ladybug et Chat Noir (\"...por ele. A missão deles é evitar que o vilão Hawk Moth, mais conhecido como Gabriel Agreste e pai de Adrien, consiga peg...\") | Dublagem Wiki: Miraculous: As Aventuras de Ladybug (\"...onais. {{Sinopse / Após o desaparecimento de Hawk Moth, um novo ciclo se inicia. Ladybug e Cat Noir precisam enfrentar u...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "59685d25d6",
@@ -1303,10 +1464,12 @@
    "Coelho",
    "Gato"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Oggy e as Baratas",
-  "verificado_web": "en: Oggy and the Cockroaches (\"a rotund, blue cat named Oggy\")"
+  "verificado_web": "en: Oggy and the Cockroaches (\"a rotund, blue cat named Oggy\")",
+  "verificado_web_conferente": "wiki pt: Oggy et les Cafards (\"...parou de ser emitida. == Sinopse == Oggy, um gato, preguiçoso e azul, costuma passar seus dias assistindo TV e comendo,...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "bfa2d291fe",
@@ -1320,10 +1483,12 @@
    "Três",
    "Cinco"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Oggy e as Baratas",
-  "verificado_web": "en: Oggy and the Cockroaches (\"ruined by three cockroaches - Joey, Marky, and Dee Dee\")"
+  "verificado_web": "en: Oggy and the Cockroaches (\"ruined by three cockroaches - Joey, Marky, and Dee Dee\")",
+  "verificado_web_conferente": "wiki pt: Oggy et les Cafards (\"...gato azul que sempre está correndo atrás das três baratas. * Olivia: uma gata branca que sempre está apaixonada pelo Ogg...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "24252cfba7",
@@ -1337,10 +1502,12 @@
    "Murray",
    "Wayne"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Sony",
   "obra": "Hotel Transilvânia",
-  "verificado_web": "en: Hotel Transylvania (film) (\"Griffin the Invisible Man\") | dub: elenco \"Griffin\""
+  "verificado_web": "en: Hotel Transylvania (film) (\"Griffin the Invisible Man\") | dub: elenco \"Griffin\"",
+  "verificado_web_conferente": "wiki pt: Hotel Transylvania (\"...a Lobisomem (Steve Buscemi e Molly Shannon), Griffin, o Homem Invisível (David Spade), Pé-grande e a Bolha para comemora...\") | Dublagem Wiki: Hotel Transilvânia (\"...ossi / Wayne / Steve Buscemi / Jorge Lucas / Griffin / David Spade / Marcelo Garcia / Murray / Cee-Lo Green / Reginaldo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "817fd071be",
@@ -1354,10 +1521,12 @@
    "As memórias",
    "As sombras"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "en: Kung Fu Panda 3 (\"General Kai, a chi-stealing yak spirit warrior\"; \"must learn to master chi\")"
+  "verificado_web": "en: Kung Fu Panda 3 (\"General Kai, a chi-stealing yak spirit warrior\"; \"must learn to master chi\")",
+  "verificado_web_conferente": "wiki en: Kung Fu Panda 3 (\"...cret panda village, but must learn to master chi and prepare the pandas to fight against General Kai, a spirit warrior i...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "ab4d779bae",
@@ -1371,10 +1540,12 @@
    "Numa bolha de sabão",
    "Num grãozinho de poeira"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Blue Sky",
   "obra": "Horton e o Mundo dos Quem!",
-  "verificado_web": "en: Horton Hears a Who! (film) (\"discovers the city of Whoville ... on a tiny speck\")"
+  "verificado_web": "en: Horton Hears a Who! (film) (\"discovers the city of Whoville ... on a tiny speck\")",
+  "verificado_web_conferente": "wiki pt: Horton Hears a Who! (\"...e um lugar onde ninguém poderia imaginar: um grão. Depois de muito esforço, ele consegue colocar o pequeno objeto numa f...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "4b3176c4ba",
@@ -1388,10 +1559,12 @@
    "Tortas",
    "Salsichas"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "A Fuga das Galinhas",
-  "verificado_web": "en: Chicken Run (\"Mrs Tweedy's chicken pies\"; \"the pie-making machine\") | dub: elenco \"Sra. Melisha Tweedy\""
+  "verificado_web": "en: Chicken Run (\"Mrs Tweedy's chicken pies\"; \"the pie-making machine\") | dub: elenco \"Sra. Melisha Tweedy\"",
+  "verificado_web_conferente": "wiki pt: A Fuga das Galinhas (\"...preparam para usá-las como ingredientes para tortas de frango. A Fuga das Galinhas arrecadou mais de US$ 224 milhões, to...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "314a7b94d1",
@@ -1405,10 +1578,12 @@
    "Coiote",
    "Chacal"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Zig e Sharko",
-  "verificado_web": "en: Zig & Sharko (\"Zig, a brown hyena ... Sharko, a great white shark, over their conflicts regarding the mermaid Marina\")"
+  "verificado_web": "en: Zig & Sharko (\"Zig, a brown hyena ... Sharko, a great white shark, over their conflicts regarding the mermaid Marina\")",
+  "verificado_web_conferente": "wiki pt: Zig & Sharko (\"..., estreou na SIC K. == História == Zig é uma hiena faminta que vive em uma ilha vulcânica; ele sempre tenta devorar Mari...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "36d493152e",
@@ -1422,10 +1597,12 @@
    "Sete",
    "Doze"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Nickelodeon",
   "obra": "The Loud House",
-  "verificado_web": "en: The Loud House (\"He has ten sisters\") | dub: The Loud House (\"único menino de uma grande família\")"
+  "verificado_web": "en: The Loud House (\"He has ten sisters\") | dub: The Loud House (\"único menino de uma grande família\")",
+  "verificado_web_conferente": "wiki pt: The Loud House (\"...e uma grande família formada por seus pais e dez irmãs. == Enredo de The Loud House == Situado na cidade fictícia de Roy...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "cb60c7c479",
@@ -1439,10 +1616,12 @@
    "Branco",
    "Azul"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Cartoon Network",
   "obra": "Oggy e as Baratas",
-  "verificado_web": "en: Oggy and the Cockroaches (\"a rotund, blue cat named Oggy\")"
+  "verificado_web": "en: Oggy and the Cockroaches (\"a rotund, blue cat named Oggy\")",
+  "verificado_web_conferente": "wiki pt: Oggy et les Cafards (\"...a. == Sinopse == Oggy, um gato, preguiçoso e azul, costuma passar seus dias assistindo TV e comendo, mas há em sua casa...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "5c4bfe8ec7",
@@ -1456,15 +1635,17 @@
    "Queijo",
    "Bolo de chocolate"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Aardman",
   "obra": "Wallace & Gromit",
-  "verificado_web": "en: Wallace & Gromit (\"Wallace, a good-natured, eccentric and cheese-loving bachelor inventor, and Gromit, his loyal ... dog\")"
+  "verificado_web": "en: Wallace & Gromit (\"Wallace, a good-natured, eccentric and cheese-loving bachelor inventor, and Gromit, his loyal ... dog\")",
+  "verificado_web_conferente": "wiki pt: Wallace e Gromit (\"...lhos = / características = Grande paixão por Queijo / actividade = inventor / poder = / afiliações = / família = / amigo...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "4322476201",
   "categoria": "Desenhos",
-  "dificuldade": "dificil",
+  "dificuldade": "medio",
   "pergunta": "Em Shaun, o Carneiro, qual cão pastor vigia o rebanho da fazenda?",
   "resposta": "Bitzer",
   "alternativas": [
@@ -1473,10 +1654,14 @@
    "Totó",
    "Bob"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "Aardman",
   "obra": "Shaun, o Carneiro",
-  "verificado_web": "en: Shaun the Sheep (\"with the sheepdog Bitzer\")"
+  "verificado_web": "en: Shaun the Sheep (\"with the sheepdog Bitzer\")",
+  "verificado_web_conferente": "wiki pt: Shaun the Sheep (\"...com a ajuda de seus amigos (como o cachorro Bitzer) antes mesmo de eles serem descobertos pelo . Os episódios levam uma...\") | Fandom shaunthesheep: Bitzer (\"...er.png / Series 1 / species = Anatolian sheepdog / gender = Male / color-body = Yellow Brown ears Grey nose Blue...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "dificuldade_ajuste": "dificil -> medio",
+  "motivo_conferente": "Bitzer aparece em quase todo episódio de Shaun"
  },
  {
   "id": "d6b1222b39",
@@ -1490,10 +1675,12 @@
    "Imagine",
    "My Way"
   ],
-  "status": "gerada",
+  "status": "conferida",
   "fonte_tema": "DreamWorks",
   "obra": "Shrek",
-  "verificado_web": "en: Shrek (\"Although Rufus Wainwright version of the song \"Hallelujah\" appeared in the soundtrack album, it was John Cale version that appeared in the film\")"
+  "verificado_web": "en: Shrek (\"Although Rufus Wainwright version of the song \"Hallelujah\" appeared in the soundtrack album, it was John Cale version that appeared in the film\")",
+  "verificado_web_conferente": "wiki pt: Shrek (\"...a. Embora a versão de Rufus Wainwright para \"Hallelujah\" aparecesse na trilha sonora, é a voz de John Cale que aparece n...\")",
+  "conferido_por": "conferente r1 (independente)"
  },
  {
   "id": "e335b0ea5b",
@@ -1507,10 +1694,13 @@
    "Circus",
    "...Baby One More Time"
   ],
-  "status": "gerada",
+  "status": "reserva",
   "fonte_tema": "DreamWorks",
   "obra": "Kung Fu Panda",
-  "verificado_web": "en: Kung Fu Panda 4 (\"A cover of Britney Spears \"...Baby One More Time\" by Tenacious D is featured in the end credits\")"
+  "verificado_web": "en: Kung Fu Panda 4 (\"A cover of Britney Spears \"...Baby One More Time\" by Tenacious D is featured in the end credits\")",
+  "verificado_web_conferente": "wiki pt: Kung Fu Panda 4 (\"...or a trilha sonora do filme. Um cover de \"...Baby One More Time\" de Britney Spears, feito por Tenacious D, é apresentado...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "motivo_conferente": "reserva: música só dos créditos ou da trilha lançada à parte, com título que a família brasileira não conhece; vira bastidor de trilha, não detalhe da história"
  },
  {
   "id": "4cc5321f67",
@@ -1524,10 +1714,13 @@
    "Set It All Free",
    "Wild Heart"
   ],
-  "status": "gerada",
+  "status": "reserva",
   "fonte_tema": "Illumination",
   "obra": "Sing - Quem Canta Seus Males Espanta",
-  "verificado_web": "en: Sing (2016 American film) (\"Lance is impressed by Ash original rock song \"Set It All Free\"\")"
+  "verificado_web": "en: Sing (2016 American film) (\"Lance is impressed by Ash original rock song \"Set It All Free\"\")",
+  "verificado_web_conferente": "wiki en: Sing (2016 American film) (\"...ce is impressed by Ash's original rock song \"Set It All Free\", the bears find Mike and pursue him away; and Meena overco...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "motivo_conferente": "reserva: não confirmei o título da canção na dublagem (Wanessa Camargo dubla a Ash); sem isso o título pode não ser o que o brasileiro conhece"
  },
  {
   "id": "6dcfef25f5",
@@ -1541,10 +1734,13 @@
    "With or Without You",
    "Vertigo"
   ],
-  "status": "gerada",
+  "status": "reserva",
   "fonte_tema": "Illumination",
   "obra": "Sing - Quem Canta Seus Males Espanta",
-  "verificado_web": "en: Sing 2 (\"U2 performed the film original song \"Your Song Saved My Life\"\")"
+  "verificado_web": "en: Sing 2 (\"U2 performed the film original song \"Your Song Saved My Life\"\")",
+  "verificado_web_conferente": "wiki pt: Sing 2 (\"...compor a partitura. O U2 executou a canção \"Your Song Saved My Life\", sendo lançada em 3 de novembro de 2021. O musical...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "motivo_conferente": "reserva: música só dos créditos ou da trilha lançada à parte, com título que a família brasileira não conhece; vira bastidor de trilha, não detalhe da história"
  },
  {
   "id": "e7d0758dc3",
@@ -1558,9 +1754,12 @@
    "Disco Inferno",
    "Y.M.C.A."
   ],
-  "status": "gerada",
+  "status": "reserva",
   "fonte_tema": "Illumination",
   "obra": "Minions",
-  "verificado_web": "en: Minions: The Rise of Gru (\"St. Vincent cover of \"Funkytown\"\")"
+  "verificado_web": "en: Minions: The Rise of Gru (\"St. Vincent cover of \"Funkytown\"\")",
+  "verificado_web_conferente": "wiki en: Minions: The Rise of Gru (\"...of \"Desafinado\" and St. Vincent's cover of \"Funkytown\". On July 8, 2022, the score from longtime Illumination composer...\") | wiki en: Minions: The Rise of Gru (soundtrack) (\"...ado / single2date = May 27, 2022 / single3 = Funkytown / single3date = June 3, 2022 / single4 = Hollywood Swinging / sin...\")",
+  "conferido_por": "conferente r1 (independente)",
+  "motivo_conferente": "reserva: música só dos créditos ou da trilha lançada à parte, com título que a família brasileira não conhece; vira bastidor de trilha, não detalhe da história (a wiki en só traz o cover de St. Vincent como single da trilha)"
  }
 ]

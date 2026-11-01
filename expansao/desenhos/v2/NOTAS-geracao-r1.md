@@ -82,4 +82,4 @@ Nenhuma pergunta usa letra de música.
 - **Doug:** a série original é da Nickelodeon, mas a Disney fez a versão de 1996. As 3 perguntas valem para as duas.
 - **Bluey, Masha e Miraculous** não são produção Disney, mas passam no Disney+ ou no Disney Channel.
 - **Pegasus e Darien:** são nomes da versão 4Kids e da Manchete, que são as que passaram no Brasil.
-- **Superamigos (Zan e Jayna), Wally Gator, Tutubarão e Esquilo sem Grilo** podem ser nicho. Ficaram como difíceis ou médias.
+- **Superamigos (Zan e Jayna), Wally Gator e Tutubarão** podem ser nicho. Ficaram como difíceis ou médias.

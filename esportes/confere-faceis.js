@@ -52,13 +52,19 @@ const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,
 const PARADAS = new Set('a o as os de da do das dos e em no na nos nas um uma qual quais que quem com por para foi era sao como quantos quantas pelo pela ao se seu sua mais'.split(' '));
 const palavras = (s) => new Set(norm(s).split(' ').filter((w) => w.length > 2 && !PARADAS.has(w)));
 const jaccard = (x, y) => { let c = 0; x.forEach((w) => y.has(w) && c++); return c / (x.size + y.size - c || 1); };
+// Pares que o critério marca mas foram conferidos à mão e são fatos diferentes (nova -> antiga), por texto
+const NAO_DUPLICA = [
+  ['Qual seleção foi campeã da Copa do Mundo de 2010, na África do Sul?', 'Qual seleção foi campeã da Copa do Mundo de 2026?'],
+  ['Quantos títulos mundiais de Fórmula 1 Ayrton Senna conquistou?', 'Quantos títulos mundiais Nelson Piquet conquistou na Fórmula 1?'],
+];
+const liberado = (x, y) => NAO_DUPLICA.some(([a, b]) => (a === x && b === y) || (a === y && b === x));
 const todos = depois.map((q, i) => ({ i, t: norm(q.pergunta), r: norm(q.resposta), w: palavras(q.pergunta) }));
 for (let k = antes.length; k < todos.length; k++) {
   const n = todos[k];
   for (let j = 0; j < k; j++) {
     const o = todos[j];
     if (n.t === o.t) falhas.push(`nova #${k}: texto igual ao #${j}`);
-    else if (n.r === o.r && jaccard(n.w, o.w) >= 0.5) falhas.push(`nova #${k}: mesmo tema e resposta do #${j}`);
+    else if (n.r === o.r && jaccard(n.w, o.w) >= 0.5 && !liberado(depois[k].pergunta, depois[j].pergunta)) falhas.push(`nova #${k}: mesmo tema e resposta do #${j}`);
     else if (n.r === o.r && jaccard(n.w, o.w) >= 0.3) avisos.push(`nova #${k}: parecida com #${j} (mesma resposta)`);
   }
 }

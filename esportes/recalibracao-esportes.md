@@ -1,7 +1,5 @@
 # Recalibração de dificuldade - banco Esportes
 
-> PARCIAL: 25 de 30 lotes aplicados (01, 02, 03, 04, 06, 07, 08, 09, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29). Os números abaixo cobrem só esses lotes; o resto segue com o nível antigo.
-
 Só o campo `dificuldade` mudou: texto, resposta, alternativas e ordem estão idênticos. Prova: `node esportes/confere-recalibracao.js` (compara com a main de antes, bcc1e97).
 
 ## Régua (público adulto brasileiro comum)
@@ -14,71 +12,73 @@ Método: julgamento item a item por Opus 5.5, 30 lotes de 100 em ordem, 6 agente
 ## Antes e depois
 | Nível | Antes | Depois |
 |---|---|---|
-| Fácil | 856 (28,5%) | 275 (9,2%) |
-| Médio | 1313 (43,8%) | 1566 (52,2%) |
-| Difícil | 831 (27,7%) | 1159 (38,6%) |
+| Fácil | 856 (28,5%) | 175 (5,8%) |
+| Médio | 1313 (43,8%) | 1579 (52,6%) |
+| Difícil | 831 (27,7%) | 1246 (41,5%) |
 | Total | 3000 | 3000 |
 
-Mudaram: **885** (29,5%) - subiram 882, desceram 3.
+Mudaram: **1068** (35,6%) - subiram 1064, desceram 4.
 
 Transições:
 | De \ Para | Fácil | Médio | Difícil |
 |---|---|---|---|
-| Fácil | 275 | 551 | 30 |
-| Médio | 0 | 1012 | 301 |
+| Fácil | 174 | 646 | 36 |
+| Médio | 1 | 930 | 382 |
 | Difícil | 0 | 3 | 828 |
 
 ## 30 exemplos que SUBIRAM
 | # | Mudança | Pergunta | Resposta | Razão |
 |---|---|---|---|---|
-| 70 | Fácil -> Difícil | Qual clube venceu a Copa do Brasil de 2002, numa final contra o Brasiliense? | Corinthians | final antiga de Copa do Brasil |
-| 255 | Fácil -> Médio | Qual seleção perdeu na prorrogação a final da Copa do Mundo de 2010? | Holanda | vice de Copa exige acompanhar |
-| 289 | Médio -> Difícil | Qual clube ganhou a Copa do Brasil de 1996, vencendo o Palmeiras na final? | Cruzeiro | final antiga de Copa do Brasil |
-| 342 | Médio -> Difícil | Qual zagueiro holandês fez de falta o gol do primeiro título europeu do Barcelona, na final de 1992? | Ronald Koeman | autor de gol de final antiga |
-| 509 | Fácil -> Médio | Em 2006, qual brasileiro venceu o GP do Brasil, primeira vitória de um brasileiro em casa desde Senna? | Felipe Massa | vitória específica de 2006 |
-| 544 | Fácil -> Difícil | Qual clube foi campeão brasileiro invicto em 1979? | Internacional | campanha invicta de 1979 |
-| 733 | Fácil -> Médio | Qual seleção venceu o Brasil na final do futebol feminino dos Jogos de Paris 2024? | Estados Unidos | final olímpica feminina exige acompanhar |
-| 889 | Médio -> Difícil | Em 2004, qual astro do Houston Rockets marcou 13 pontos nos 35 segundos finais para virar o jogo contra o San Antonio Spurs? | Tracy McGrady | jogo específico de temporada regular |
-| 941 | Fácil -> Médio | Em 2012, depois de nocautear Chad Mendes no Rio, como José Aldo comemorou? | Correu para a torcida, pulando a grade | comemoração de luta específica |
-| 963 | Médio -> Difícil | Em março de 2023, no UFC 285, qual mexicana conquistou o cinturão peso-mosca feminino numa grande zebra? | Alexa Grasso | campeã estrangeira de categoria |
-| 990 | Fácil -> Médio | Qual é o número que Lewis Hamilton usa no carro? | 44 | número de piloto exige acompanhar F1 |
-| 1008 | Médio -> Difícil | Em 2001, no Brasil, qual piloto da Williams ultrapassou Michael Schumacher e liderava a corrida quando foi atingido por um retardatário? | Juan Pablo Montoya | lance específico de corrida de 2001 |
-| 1103 | Fácil -> Médio | Qual técnico italiano ganhou a Premier League de 2015/16? | Claudio Ranieri | técnico campeão estrangeiro exige acompanhar |
-| 1113 | Médio -> Difícil | Qual seleção eliminou o Brasil nos pênaltis nas quartas da Copa do Mundo feminina de 2011, depois de um empate no último minuto da prorrogação? | Estados Unidos | episódio específico de Copa feminina |
-| 1153 | Fácil -> Médio | Qual zagueiro brasileiro foi campeão da Champions de 2010 pela Inter de Milão? | Lúcio | elenco campeão estrangeiro exige acompanhar |
+| 133 | Médio -> Difícil | Qual atacante fez o gol do título do Flamengo na final do Brasileirão de 1980, contra o Atlético-MG? | Nunes | autor de gol de final antiga |
+| 145 | Médio -> Difícil | Qual clube perdeu a final da Copa do Brasil de 2003 para o Cruzeiro? | Flamengo | final antiga de Copa do Brasil |
+| 147 | Fácil -> Médio | Qual volante espanhol fez o gol do título do Manchester City na final da Champions League 2022/23? | Rodri | autor de gol de final |
+| 152 | Fácil -> Médio | Qual clube foi campeão brasileiro de 1996, vencendo a Portuguesa na final? | Grêmio | final antiga de Brasileirão |
+| 186 | Médio -> Difícil | Qual seleção o Brasil venceu no jogo decisivo da Copa América de 1989, no Maracanã? | Uruguai | jogo decisivo de 1989 |
+| 521 | Médio -> Difícil | Em 2023, Gabriel Bortoleto foi campeão de qual categoria de base do automobilismo? | Fórmula 3 | categoria de base de piloto |
+| 620 | Fácil -> Médio | Qual clube ganhou a Série B de 2022, voltando à elite depois de três anos? | Cruzeiro | campeão da Série B exige acompanhar |
+| 719 | Médio -> Difícil | Qual técnico foi tricampeão brasileiro seguido entre 1975 e 1977, duas vezes pelo Internacional e uma pelo São Paulo? | Rubens Minelli | técnico campeão nos anos 70 |
+| 744 | Médio -> Difícil | Quem fez o gol do 1 a 0 sobre o Vasco, em São Januário, que confirmou o título brasileiro de 2018? | Deyverson | autor de gol de jogo específico |
+| 799 | Médio -> Difícil | Qual seleção o Brasil venceu por 5 a 2 na semifinal da Copa de 1958, com três gols de Pelé? | França | placar de jogo de 1958 |
+| 821 | Fácil -> Médio | Qual atacante fez o gol do título do Athletico Paranaense na final da Sul-Americana de 2021, em Montevidéu? | Nikão | autor de gol de final continental |
+| 828 | Médio -> Difícil | Qual goleiro romeno defendeu quatro pênaltis seguidos na final da Copa dos Campeões de 1986? | Helmuth Duckadam | goleiro estrangeiro de final antiga |
+| 1090 | Médio -> Difícil | Qual clube carioca perdeu a final da Copa do Brasil de 1999? | Botafogo | vice específico de Copa do Brasil antiga |
+| 1099 | Fácil -> Médio | Qual atacante era o parceiro de Pelé nas famosas tabelas do Santos dos anos 1960? | Coutinho | parceiro de Pelé exige conhecer história |
 | 1160 | Fácil -> Difícil | Qual atacante fez o gol do Botafogo na final do Carioca de 1989, que acabou com um jejum de 21 anos sem títulos? | Maurício | autor de gol de final antiga |
-| 1171 | Fácil -> Médio | Qual zagueiro uruguaio, ídolo do São Paulo, foi titular nos títulos da Libertadores e do Mundial de 2005? | Diego Lugano | zagueiro estrangeiro exige acompanhar |
-| 1225 | Fácil -> Médio | Qual clube perdeu para o Flamengo a decisão do Módulo Verde, a Copa União de 1987? | Internacional | vice de final de 1987 |
-| 1887 | Fácil -> Médio | Qual clube colombiano disputaria a final da Sul-Americana de 2016, que não chegou a ser jogada por causa de uma tragédia aérea? | Atlético Nacional | adversário da Chape exige acompanhar |
-| 2093 | Fácil -> Médio | Quem foi o artilheiro do Brasileirão de 1995, ano do título do Botafogo? | Túlio Maravilha | artilheiro de ano específico |
-| 2109 | Fácil -> Médio | Qual seleção eliminou o Brasil nas quartas de final da Copa de 2010? | Holanda | eliminação em Copa específica |
-| 2114 | Fácil -> Médio | Como é chamado o clássico entre São Paulo e Palmeiras? | Choque-Rei | nome de clássico |
-| 2275 | Fácil -> Médio | Qual americano tirou o cinturão de Anderson Silva no UFC? | Chris Weidman | adversário específico no UFC |
-| 2398 | Fácil -> Médio | Qual seleção venceu a Copa do Mundo de 1974, disputada em casa? | Alemanha Ocidental | campeão de Copa de 1974 |
-| 2535 | Médio -> Difícil | Qual goleiro foi o titular do Brasil na Copa de 1982? | Valdir Peres | goleiro titular de Copa antiga |
-| 2603 | Fácil -> Médio | Qual regra da UEFA limita os gastos dos clubes ao que eles arrecadam? | Fair play financeiro | regra da UEFA exige acompanhar |
-| 2620 | Médio -> Difícil | Qual torneio da Conmebol, de 1988 a 1997, reunia só os clubes que já tinham vencido a principal copa do continente? | Supercopa Libertadores | torneio extinto pouco lembrado |
-| 2666 | Médio -> Difícil | Qual era o mascote da Copa de 1978, um garoto de chapéu e camisa da seleção argentina? | Gauchito | mascote antigo pouco lembrado |
-| 2674 | Fácil -> Médio | Qual ex-atacante, símbolo da Democracia Corinthiana, virou comentarista da Globo? | Casagrande | comentarista exige acompanhar |
-| 2726 | Médio -> Difícil | Qual personagem de Nelson Rodrigues "explicava" os resultados absurdos do futebol? | Sobrenatural de Almeida | referência literária antiga |
+| 1442 | Médio -> Difícil | Na infância, Charles do Bronx teve qual problema de saúde que fez os médicos dizerem que ele talvez não andasse direito? | Febre reumática | biografia obscura de lutador |
+| 1461 | Fácil -> Médio | Em 2020, no Bahrein, qual piloto francês saiu de um carro partido ao meio e em chamas? | Romain Grosjean | acidente específico exige acompanhar F1 |
+| 1515 | Médio -> Difícil | Qual time foi vice-campeão da NBA em 1994? | New York Knicks | vice da NBA de 1994, antigo |
+| 1902 | Fácil -> Médio | Qual clube italiano é chamado de "Bianconeri" por causa das cores preta e branca? | Juventus | apelido de clube estrangeiro |
+| 2073 | Fácil -> Médio | Qual goleiro colombiano ficou famoso pela defesa "escorpião", com os pés por cima da cabeça? | René Higuita | lance de jogador estrangeiro |
+| 2080 | Fácil -> Médio | Qual clube foi campeão brasileiro de 2020, num campeonato que só terminou em 2021? | Flamengo | campeão brasileiro específico |
+| 2088 | Fácil -> Médio | Qual clube conquistou a Libertadores em 1992 e 1993, com o técnico Telê Santana? | São Paulo | campeão de Libertadores |
+| 2100 | Fácil -> Médio | Na Copa do penta, qual brasileiro marcou de falta, por cobertura, contra a Inglaterra? | Ronaldinho Gaúcho | lance específico da Copa de 2002 |
+| 2142 | Fácil -> Médio | Qual era o fiel escudeiro de Michael Jordan nos títulos do Chicago Bulls? | Scottie Pippen | coadjuvante de ídolo da NBA |
+| 2424 | Fácil -> Médio | Qual meia espanhol do Manchester City ganhou a Bola de Ouro de 2024? | Rodri | Bola de Ouro recente |
+| 2634 | Fácil -> Médio | Qual estádio é a casa do Olympique de Marselha? | Vélodrome | estádio estrangeiro |
+| 2723 | Médio -> Difícil | Qual personagem de Jô Soares ligava para Telê Santana pedindo "bota ponta, Telê!"? | Zé da Galera | humor de TV antigo |
+| 2731 | Fácil -> Médio | Na F1, qual bandeira avisa o piloto que deve dar passagem a um carro mais rápido? | Azul | regra de F1 com detalhe |
+| 2875 | Fácil -> Médio | Qual estátua de um menino fazendo xixi virou mascote do Botafogo? | Manequinho | mascote de clube exige acompanhar |
+| 2930 | Médio -> Difícil | Qual jovem de família inglesa fundou o Fluminense em 1902? | Oscar Cox | fundador de clube, história antiga |
 
 ## 30 exemplos que DESCERAM
 | # | Mudança | Pergunta | Resposta | Razão |
 |---|---|---|---|---|
+| 406 | Médio -> Fácil | Em 2013, qual brasileiro entrou para o Hall da Fama do basquete, em Springfield? | Oscar Schmidt | Oscar é o nome conhecido do basquete |
 | 597 | Difícil -> Médio | Qual seleção ficou em 3º lugar na Copa de 2018? | Bélgica | terceiro lugar de Copa exige acompanhar |
 | 1233 | Difícil -> Médio | Qual zagueiro chegou ao Flamengo em julho de 2019, como o terceiro espanhol da história do clube, e foi campeão da Libertadores daquele ano? | Pablo Marí | única alternativa espanhola entrega a resposta |
 | 1264 | Difícil -> Médio | Qual goleiro francês ganhou a Luva de Ouro da Copa de 1998? | Fabien Barthez | alternativas entregam o goleiro mais famoso |
 
-## Para o Lucas decidir depois: fato errado, ambíguo ou desatualizado (4)
+## Para o Lucas decidir depois: fato errado, ambíguo ou desatualizado (5)
 Nada disso foi alterado no banco; só anotado.
 | # | Tipo | Pergunta | Resposta | Nota |
 |---|---|---|---|---|
 | 52 | nao-verificavel | Quantas vitórias por finalização Charles do Bronx somava no UFC até outubro de 2026, recorde da organização? | 17 | até meados de 2026 eram 16 finalizações no UFC; 17 exige vitória por finalização depois, conferir |
 | 292 | nao-verificavel | Qual foi o placar da disputa do terceiro lugar da Copa do Mundo de 2026? | 6 a 4 | 6 a 4 é placar incomum para jogo de terceiro lugar; conferir se não somou pênaltis |
 | 1079 | ambiguo | Qual atacante foi o artilheiro da Copa João Havelange de 2000, com 22 gols? | Adhemar | Artilharia de 2000 varia nas fontes; Dill, Magno Alves e Romário também aparecem como artilheiros (20 gols) |
+| 1380 | nao-verificavel | Em março de 2026, qual jogador do Miami Heat marcou 83 pontos num jogo, a segunda maior marca da história da NBA? | Bam Adebayo | 83 pontos de Bam Adebayo em março de 2026 é posterior ao meu conhecimento e parece improvável para um pivô; conferir |
 | 2272 | errado | Por qual time o pivô Nenê foi draftado e estreou na NBA? | Denver Nuggets | Nenê foi escolhido pelo New York Knicks no draft de 2002 e trocado na hora para o Denver; estreou pelo Denver, mas não foi draftado por ele |
 
-## Todas as mudanças (885)
+## Todas as mudanças (1068)
 | # | Mudança | Pergunta | Resposta | Razão |
 |---|---|---|---|---|
 | 2 | Fácil -> Médio | Quem foi o artilheiro da Copa do Mundo de 2022, com 8 gols? | Kylian Mbappé | artilheiro de Copa exige acompanhar |
@@ -250,6 +250,23 @@ Nada disso foi alterado no banco; só anotado.
 | 392 | Médio -> Difícil | Qual é o primeiro nome verdadeiro de Magic Johnson? | Earvin | nome de batismo, alternativas parecidas |
 | 395 | Médio -> Difícil | Antes do basquete, Tim Duncan treinava qual esporte nas Ilhas Virgens? | Natação | curiosidade biográfica obscura |
 | 398 | Médio -> Difícil | Qual ala brasileiro chegou ao Golden State Warriors em 2023? | Gui Santos | jogador secundário |
+| 402 | Médio -> Difícil | Em 2019, Kawhi Leonard eliminou qual time com um arremesso que quicou quatro vezes no aro, no jogo 7? | Philadelphia 76ers | adversário de jogo específico da NBA |
+| 406 | Médio -> Fácil | Em 2013, qual brasileiro entrou para o Hall da Fama do basquete, em Springfield? | Oscar Schmidt | Oscar é o nome conhecido do basquete |
+| 408 | Médio -> Difícil | Qual jogador era chamado de "Agent Zero" por causa do número da camisa? | Gilbert Arenas | apelido obscuro de jogador secundário |
+| 413 | Médio -> Difícil | Qual time foi eliminado em sete jogos na final da Conferência Oeste da NBA de 2026? | Oklahoma City Thunder | série específica de playoff |
+| 419 | Médio -> Difícil | Qual número de camisa Larry Bird usou no Boston Celtics, aposentado pelo clube em 1993? | 33 | número de camisa |
+| 446 | Fácil -> Médio | O apelido "Poatan", de um campeão brasileiro do UFC, significa o quê na língua tupi? | Mãos de pedra | significado de apelido exige acompanhar |
+| 448 | Fácil -> Médio | Em 2022, Anderson Silva perdeu uma luta de boxe para qual youtuber? | Jake Paul | luta específica, alternativas parecidas |
+| 452 | Fácil -> Médio | Em 2018, no UFC 229, a luta mais vista da história do UFC, quem finalizou Conor McGregor? | Khabib Nurmagomedov | adversário de luta exige acompanhar UFC |
+| 457 | Fácil -> Médio | Contra quem Conor McGregor quebrou a perna no UFC 264, em 2021? | Dustin Poirier | adversário de luta exige acompanhar UFC |
+| 458 | Fácil -> Médio | Em 2023, Francis Ngannou enfrentou qual campeão de boxe e chegou a derrubá-lo? | Tyson Fury | adversário de luta exige acompanhar |
+| 459 | Médio -> Difícil | Em qual ano aconteceu o UFC 1, o primeiro evento da organização? | 1993 | data histórica |
+| 460 | Fácil -> Médio | Em 2026, Alex Pereira passou a lutar em qual categoria do UFC? | Peso-pesado | categoria de luta exige acompanhar |
+| 467 | Médio -> Difícil | Charles do Bronx nasceu em qual cidade do litoral paulista? | Guarujá | cidade natal de lutador |
+| 468 | Médio -> Difícil | Quando criança, Rodrigo Minotauro sofreu um acidente que deixou uma cicatriz nas costas. O que aconteceu? | Foi atropelado por um caminhão | curiosidade biográfica obscura |
+| 482 | Médio -> Difícil | Em outubro de 2025, no UFC 321, qual lutadora conquistou o cinturão peso-palha vencendo a brasileira Virna Jandiroba? | Mackenzie Dern | lutadora secundária |
+| 491 | Médio -> Difícil | Em abril de 2023, no UFC 287, em qual round Alex Pereira foi nocauteado e perdeu o cinturão dos médios? | 2º | detalhe de round específico |
+| 497 | Fácil -> Médio | Quantos pilotos brasileiros já foram campeões mundiais de Fórmula 1? | 3 | nem todo leigo lembra Fittipaldi |
 | 500 | Fácil -> Médio | Em qual GP foi decidido o título de 2021 da Fórmula 1, numa disputa na última volta entre Verstappen e Hamilton? | Abu Dhabi | decisão de título específica da F1 |
 | 502 | Fácil -> Médio | Em 2026, Gabriel Bortoleto corre por qual montadora, que comprou a antiga Sauber? | Audi | equipe atual de piloto exige acompanhar F1 |
 | 503 | Fácil -> Médio | Qual brasileiro foi, por anos, o recordista de largadas da história da Fórmula 1? | Rubens Barrichello | recorde de largadas exige acompanhar F1 |
@@ -510,6 +527,76 @@ Nada disso foi alterado no banco; só anotado.
 | 1295 | Fácil -> Médio | Quem fez o gol do Corinthians no empate por 1 a 1 na Bombonera, no jogo de ida da final da Libertadores de 2012? | Romarinho | autor de gol exige acompanhar |
 | 1298 | Médio -> Difícil | Qual ponta-esquerda fez o gol histórico da vitória por 3 a 2 do Cruzeiro no terceiro jogo da final da Libertadores de 1976? | Joãozinho | autor de gol de final antiga |
 | 1299 | Fácil -> Médio | Na Copa de 1982, qual craque argentino foi expulso na derrota por 3 a 1 para o Brasil? | Maradona | episódio específico de Copa de 1982 |
+| 1302 | Médio -> Difícil | Em qual cidade foi disputada a final da Champions de 2017/18? | Kiev | cidade estrangeira de final específica |
+| 1303 | Fácil -> Difícil | Qual clube português o Santos venceu na final do Mundial de 1962, com três gols de Pelé em Lisboa? | Benfica | adversário de Mundial antes de 1970 |
+| 1305 | Médio -> Difícil | Qual seleção o Brasil venceu por 4 a 0 na fase de grupos da Copa de 2002, em Seogwipo? | China | jogo específico de fase de grupos |
+| 1306 | Fácil -> Médio | Qual seleção ganhou a Copa América de 2011, disputada na Argentina? | Uruguai | campeão de Copa América exige acompanhar |
+| 1309 | Médio -> Difícil | Em que ano o Corinthians foi fundado? | 1910 | data de fundação de clube |
+| 1310 | Fácil -> Médio | Qual goleiro brasileiro do Liverpool marcou de cabeça um gol nos acréscimos contra o West Bromwich, em 2021? | Alisson | lance específico exige acompanhar |
+| 1312 | Médio -> Difícil | Qual seleção venceu o Brasil na final do Mundial Sub-20 de 2015, na Nova Zelândia? | Sérvia | final de base, categoria de nicho |
+| 1314 | Fácil -> Médio | Qual jogador tem mais partidas pela história do Botafogo? | Nilton Santos | recorde de clube exige acompanhar |
+| 1317 | Médio -> Difícil | Qual clube perdeu a final do Brasileirão de 1973 para o Palmeiras? | São Paulo | vice de Brasileirão de 1973 |
+| 1318 | Fácil -> Médio | Qual meia do Vasco fez um gol de falta histórico contra o River Plate, no Monumental, na semifinal da Libertadores de 1998? | Juninho Pernambucano | gol específico exige acompanhar |
+| 1321 | Fácil -> Médio | Qual clube paraguaio foi campeão da Libertadores de 2002, no ano do seu centenário? | Olimpia | campeão estrangeiro de Libertadores |
+| 1324 | Fácil -> Médio | A que altura do chão fica o aro da cesta de basquete? | 3,05 metros | medida exata, alternativas parecidas |
+| 1326 | Fácil -> Médio | Qual destes astros foi campeão da NBA defendendo três times diferentes, um deles o Los Angeles Lakers? | LeBron James | exige conhecer carreiras da NBA |
+| 1327 | Fácil -> Médio | Qual astro foi eleito o MVP das finais em todas as decisões da NBA que disputou na carreira? | Michael Jordan | fato específico de finais da NBA |
+| 1328 | Fácil -> Médio | Qual armador dos Lakers ficou famoso pelos passes "sem olhar" (no-look pass)? | Magic Johnson | estilo de jogador exige acompanhar NBA |
+| 1331 | Fácil -> Médio | Quantos jogos cada time disputa na temporada regular da NBA? | 82 | número da temporada exige acompanhar NBA |
+| 1337 | Fácil -> Médio | O famoso meme do choro, usado para zoar derrotas na internet, mostra o rosto de qual astro? | Michael Jordan | meme exige conhecer a NBA |
+| 1338 | Fácil -> Médio | Desde 2018, a marca Jordan veste qual clube de futebol francês? | Paris Saint-Germain | patrocínio específico exige acompanhar |
+| 1346 | Médio -> Difícil | Michael Jordan é sócio de qual equipe da NASCAR, criada em 2020 com o piloto Denny Hamlin? | 23XI Racing | NASCAR, nicho para brasileiro |
+| 1347 | Fácil -> Médio | Como se chama, no jargão do basquete, a cesta feita mesmo sofrendo falta, que dá direito a mais um lance livre? | And-one | jargão técnico de basquete |
+| 1349 | Médio -> Difícil | Quantas medalhas de ouro olímpicas LeBron James conquistou com a seleção americana? | 3 | contagem numérica de medalhas |
+| 1350 | Médio -> Difícil | Em 2012, Shaquille O'Neal concluiu qual título acadêmico? | Doutorado em educação | curiosidade obscura fora das quadras |
+| 1351 | Médio -> Difícil | Em 1997, Shaquille O'Neal viveu nos cinemas qual super-herói da DC Comics? | Aço | filme obscuro de 1997 |
+| 1352 | Médio -> Difícil | Por qual pequena universidade Stephen Curry jogou antes de chegar à NBA? | Davidson | universidade americana pouco conhecida |
+| 1354 | Médio -> Difícil | Qual lenda do Boston Celtics foi o primeiro técnico negro da NBA, em 1966? | Bill Russell | história da NBA dos anos 1960 |
+| 1355 | Médio -> Difícil | Larry Bird é o único da NBA a ganhar os prêmios de MVP, de Técnico do Ano e qual outro? | Executivo do Ano | prêmio específico de bastidor da NBA |
+| 1356 | Médio -> Difícil | Michael Jordan, ídolo de Chicago, nasceu em qual cidade? | Nova York | local de nascimento, pegadinha |
+| 1358 | Médio -> Difícil | Como ficou conhecido o gesto de Michael Jordan depois de acertar seis bolas de três no primeiro tempo do jogo 1 das finais de 1992? | The Shrug (dar de ombros) | lance específico de final de 1992 |
+| 1360 | Médio -> Difícil | Quem foi eleito o MVP da temporada 2000/01 da NBA? | Allen Iverson | MVP de temporada específica antiga |
+| 1361 | Médio -> Difícil | O pivô Patrick Ewing, ídolo do New York Knicks, nasceu em qual país? | Jamaica | local de nascimento de jogador |
+| 1362 | Médio -> Difícil | Qual pivô letão, de 2,21 m, ganhou o apelido de "Unicórnio" no New York Knicks? | Kristaps Porziņģis | nacionalidade com alternativas parecidas |
+| 1363 | Médio -> Difícil | Al Horford, campeão da NBA com o Boston Celtics em 2024, defendeu a seleção de qual país caribenho? | República Dominicana | seleção de jogador secundário |
+| 1365 | Médio -> Difícil | Em Atenas 2004, a seleção americana, depois apelidada de "Nightmare Team", perdeu por 19 pontos para qual seleção? | Porto Rico | resultado específico de Olimpíada |
+| 1367 | Médio -> Difícil | Qual técnico do Boston Celtics acendia um charuto quando a vitória estava garantida? | Red Auerbach | técnico histórico antigo da NBA |
+| 1368 | Médio -> Difícil | Antes de virar técnico, Phil Jackson foi campeão da NBA como jogador por qual time? | New York Knicks | carreira de jogador antiga |
+| 1369 | Médio -> Difícil | Em 2014, a escolha de Nikola Jokić no draft nem foi mostrada ao vivo na TV, que exibia um comercial de qual rede? | Taco Bell | curiosidade obscura de transmissão |
+| 1372 | Médio -> Difícil | Antes de se mudar para Memphis, em 2001, o Grizzlies era de qual cidade? | Vancouver | cidade antiga de franquia |
+| 1378 | Médio -> Difícil | Qual emissora americana deixou de transmitir a NBA ao fim da temporada 2024/25, depois de décadas de parceria com a liga? | TNT | direitos de TV americanos, nicho |
+| 1381 | Médio -> Difícil | Qual liga rival da NBA, nos anos 1960 e 1970, usava uma bola vermelha, branca e azul? | ABA | liga antiga, história distante |
+| 1385 | Médio -> Difícil | No jogo 1 das finais de 2008, qual astro saiu carregado da quadra, parecendo gravemente machucado, e voltou minutos depois? | Paul Pierce | lance específico de jogo de 2008 |
+| 1386 | Médio -> Difícil | Por qual universidade Kevin Durant jogou antes de chegar à NBA? | Texas | universidade de jogador |
+| 1387 | Médio -> Difícil | Em 1984, qual pivô foi escolhido no draft logo antes de Michael Jordan, numa das escolhas mais criticadas da história? | Sam Bowie | jogador secundário de draft antigo |
+| 1411 | Fácil -> Médio | Logo depois da luta principal do UFC 229, em 2018, o que o vencedor fez que gerou uma briga generalizada? | Pulou a cerca e partiu para cima da equipe do rival | episódio específico de luta do UFC |
+| 1412 | Fácil -> Médio | Qual astro do UFC estreou no cinema em "Matador de Aluguel" (Road House), de 2024, ao lado de Jake Gyllenhaal? | Conor McGregor | filmografia de lutador exige acompanhar |
+| 1413 | Fácil -> Médio | Qual canal pago brasileiro, do Grupo Globo, foi por anos a casa das lutas do UFC no Brasil? | Combate | canal pago específico exige acompanhar |
+| 1415 | Fácil -> Médio | Qual era uma das marcas das regras dos primeiros eventos do UFC, nos anos 1990? | Não havia divisão por categoria de peso | história do UFC exige acompanhar |
+| 1416 | Fácil -> Médio | Quantos rounds tem uma luta comum do UFC, que não vale cinturão nem é a principal da noite? | 3 | regra com detalhe do MMA |
+| 1417 | Fácil -> Médio | Qual lutador brasileiro, campeão mundial de jiu-jítsu, ficou conhecido no UFC pelo apelido de "Jacaré"? | Ronaldo Souza | apelido de lutador exige acompanhar |
+| 1421 | Fácil -> Médio | Em 1993, o UFC 1 foi transmitido nos Estados Unidos em qual formato? | Pay-per-view | detalhe histórico de transmissão |
+| 1423 | Fácil -> Médio | Islam Makhachev, campeão do UFC em duas categorias, é de qual país? | Rússia | nacionalidade de lutador atual |
+| 1425 | Médio -> Difícil | Qual ator de filmes de ação ajudou Lyoto Machida a aperfeiçoar o chute frontal que aposentou Randy Couture, em 2011? | Steven Seagal | curiosidade obscura de bastidor |
+| 1428 | Médio -> Difícil | Qual integrante da família Gracie levou o jiu-jítsu para os Estados Unidos e foi um dos criadores do UFC? | Rorion Gracie | alternativas parecidas da família Gracie |
+| 1429 | Médio -> Difícil | Em qual cidade brasileira Carlos Gracie aprendeu jiu-jítsu com o japonês Mitsuyo Maeda, o Conde Koma? | Belém | história distante antes de 1970 |
+| 1430 | Médio -> Difícil | Quantos lutadores disputaram o torneio do UFC 1, em 1993? | 8 | número específico de evento antigo |
+| 1434 | Médio -> Difícil | De quem veio o apelido "Cyborg" da campeã brasileira do MMA? | Do ex-marido, o lutador Evangelista Santos | origem obscura de apelido |
+| 1436 | Médio -> Difícil | Antes de emigrar para a Europa, Francis Ngannou trabalhava em qual atividade em Camarões? | Numa mina de areia | biografia obscura de lutador |
+| 1438 | Médio -> Difícil | Desde 2026, qual empresa tem os direitos exclusivos de transmissão do UFC nos Estados Unidos? | Paramount | direitos de TV americanos, nicho |
+| 1442 | Médio -> Difícil | Na infância, Charles do Bronx teve qual problema de saúde que fez os médicos dizerem que ele talvez não andasse direito? | Febre reumática | biografia obscura de lutador |
+| 1443 | Médio -> Difícil | No segundo "The Ultimate Fighter Brasil", em 2013, Fabrício Werdum foi o técnico rival de qual brasileiro? | Rodrigo Minotauro | detalhe de reality antigo |
+| 1461 | Fácil -> Médio | Em 2020, no Bahrein, qual piloto francês saiu de um carro partido ao meio e em chamas? | Romain Grosjean | acidente específico exige acompanhar F1 |
+| 1462 | Fácil -> Médio | Qual irmão de Michael Schumacher também correu na F1 e venceu seis GPs? | Ralf Schumacher | carreira de piloto exige acompanhar |
+| 1464 | Fácil -> Médio | Hoje, quantos pontos o vencedor de um GP de F1 ganha? | 25 | regra de pontuação com detalhe |
+| 1465 | Fácil -> Médio | Qual marca italiana fornece os pneus de todas as equipes da F1 desde 2011? | Pirelli | fornecedor específico exige acompanhar |
+| 1466 | Fácil -> Médio | Qual piloto é o recordista de pole positions na história da F1? | Lewis Hamilton | recorde numérico exige acompanhar |
+| 1468 | Fácil -> Médio | De qual país é o piloto Sergio Pérez, o "Checo"? | México | nacionalidade de piloto atual |
+| 1469 | Fácil -> Médio | Em 2020, a Mercedes trocou o prateado por qual cor, em apoio à luta contra o racismo? | Preto | episódio específico de temporada |
+| 1470 | Fácil -> Médio | Qual equipe da F1 usa o verde como cor tradicional? | Aston Martin | cor de equipe exige acompanhar |
+| 1478 | Médio -> Difícil | Em 1986, na Austrália, qual piloto perdeu o título quando um pneu do carro estourou em plena reta? | Nigel Mansell | episódio específico de corrida antiga |
+| 1479 | Médio -> Difícil | Em 1983, Nelson Piquet foi campeão com motor turbo de qual fabricante? | BMW | fornecedor de motor de 1983 |
+| 1491 | Médio -> Difícil | Nelson Piquet adotou o sobrenome da mãe para correr escondido do pai. Qual era o sobrenome de família dele? | Souto Maior | sobrenome de família pouco conhecido |
 | 1515 | Médio -> Difícil | Qual time foi vice-campeão da NBA em 1994? | New York Knicks | vice da NBA de 1994, antigo |
 | 1537 | Médio -> Difícil | Qual pivô do Detroit Pistons campeão de 2004, sem ter sido escolhido no draft, ficou famoso pelo cabelo black power e pelos tocos? | Ben Wallace | jogador secundário de NBA |
 | 1540 | Médio -> Difícil | Em 1987/88, além do MVP da temporada, Michael Jordan ganhou qual outro prêmio, raro para um cestinha? | Defensor do Ano | prêmio específico de temporada antiga |
@@ -748,6 +835,54 @@ Nada disso foi alterado no banco; só anotado.
 | 2397 | Fácil -> Médio | Qual competição reúne o campeão da Libertadores e o campeão da segunda copa continental da Conmebol? | Recopa Sul-Americana | nome de competição continental |
 | 2398 | Fácil -> Médio | Qual seleção venceu a Copa do Mundo de 1974, disputada em casa? | Alemanha Ocidental | campeão de Copa de 1974 |
 | 2399 | Fácil -> Médio | Qual seleção eliminou o Brasil de Zico e Sócrates na Copa de 1982, na "Tragédia do Sarriá"? | Itália | eliminação em Copa de 1982 |
+| 2400 | Fácil -> Médio | Qual seleção é chamada de "Die Mannschaft"? | Alemanha | apelido de seleção estrangeira |
+| 2404 | Fácil -> Médio | Qual torneio reúne o campeão brasileiro e o campeão da Copa do Brasil no início da temporada? | Supercopa do Brasil | nome de torneio exige acompanhar |
+| 2405 | Fácil -> Médio | Qual clube venceu a Copa do Mundo de Clubes da FIFA de 2025, disputada nos Estados Unidos? | Chelsea | campeão de Mundial recente |
+| 2406 | Fácil -> Médio | A Arena das Dunas foi construída para a Copa de 2014 em qual cidade? | Natal | sede de estádio da Copa 2014 |
+| 2408 | Fácil -> Médio | O Estádio do Dragão é a casa de qual clube português? | Porto | estádio de clube estrangeiro |
+| 2411 | Médio -> Difícil | Qual atacante francês marcou 13 gols numa única Copa, em 1958, o recorde de gols numa só edição? | Just Fontaine | recorde numérico de Copa de 1958 |
+| 2412 | Médio -> Difícil | Qual atacante alemão foi o artilheiro da Copa de 1970, com dez gols? | Gerd Müller | artilheiro de Copa específica |
+| 2414 | Médio -> Difícil | Qual atacante italiano, apelidado de "Totò", foi o artilheiro da Copa de 1990? | Salvatore Schillaci | artilheiro estrangeiro de Copa específica |
+| 2415 | Médio -> Difícil | Qual atacante croata foi o artilheiro da Copa de 1998? | Davor Šuker | artilheiro estrangeiro de Copa específica |
+| 2417 | Fácil -> Médio | O Estádio Independência, em Belo Horizonte, pertence a qual clube? | América Mineiro | estádio de clube regional |
+| 2418 | Fácil -> Médio | Qual bola da Copa de 2010 foi muito criticada pelos goleiros por ser imprevisível? | Jabulani | bola de Copa exige acompanhar |
+| 2419 | Fácil -> Médio | Qual técnico comandou a seleção brasileira nas Copas de 1982 e 1986? | Telê Santana | técnico de Copas dos anos 80 |
+| 2422 | Médio -> Difícil | Em qual circuito alemão Rubens Barrichello conquistou sua primeira vitória na Fórmula 1, em 2000? | Hockenheim | circuito estrangeiro de vitória específica |
+| 2424 | Fácil -> Médio | Qual meia espanhol do Manchester City ganhou a Bola de Ouro de 2024? | Rodri | Bola de Ouro recente |
+| 2429 | Fácil -> Médio | Qual craque do tri de 1970 ficou famoso pela "patada atômica"? | Rivellino | apelido de chute de jogador |
+| 2431 | Fácil -> Médio | Como é chamado o clássico alemão entre Bayern de Munique e Borussia Dortmund? | Der Klassiker | nome de clássico estrangeiro |
+| 2432 | Fácil -> Médio | Qual atacante francês ganhou a Bola de Ouro de 2022? | Karim Benzema | Bola de Ouro recente |
+| 2435 | Médio -> Difícil | Qual atacante inglês foi o artilheiro da Copa do Mundo de 1986? | Gary Lineker | artilheiro estrangeiro de Copa específica |
+| 2436 | Fácil -> Médio | Qual jogador popularizou a "paradinha" antes de bater pênaltis? | Pelé | curiosidade exige acompanhar futebol |
+| 2438 | Fácil -> Médio | Como se chama o estilo de jogo italiano, muito defensivo, com um líbero atrás da zaga? | Catenaccio | termo tático exige acompanhar |
+| 2439 | Fácil -> Médio | Qual prêmio europeu é dado ao maior artilheiro das ligas nacionais da Europa? | Chuteira de Ouro | nome de prêmio europeu |
+| 2440 | Fácil -> Médio | Qual meio-campista bicampeão do mundo criou o chute "folha seca"? | Didi | criador de chute histórico |
+| 2444 | Fácil -> Médio | Qual atacante francês é o maior artilheiro da história do Arsenal? | Thierry Henry | artilheiro de clube estrangeiro |
+| 2445 | Fácil -> Médio | Qual atacante inglês é o maior artilheiro da história do Manchester United? | Wayne Rooney | artilheiro de clube estrangeiro |
+| 2446 | Fácil -> Difícil | Qual jogador alemão disputou 25 partidas em Copas do Mundo, campeão em 1990? | Lothar Matthäus | recorde numérico de jogos em Copas |
+| 2447 | Médio -> Difícil | Qual cachorro achou a taça Jules Rimet roubada em Londres antes da Copa de 1966? | Pickles | episódio antigo de 1966 |
+| 2449 | Médio -> Difícil | Qual técnico húngaro teria rogado uma praga de que o Benfica não ganharia mais títulos europeus? | Béla Guttmann | episódio antigo de técnico estrangeiro |
+| 2452 | Fácil -> Médio | Qual zagueiro colombiano foi assassinado após marcar um gol contra na Copa de 1994? | Andrés Escobar | episódio de Copa de 1994 |
+| 2453 | Fácil -> Médio | Quantas seleções disputaram a Copa do Mundo de 2026? | 48 | formato de Copa exige acompanhar |
+| 2454 | Fácil -> Médio | Como ficou conhecido o gol de Maradona driblando meio time da Inglaterra, em 1986? | Gol do Século | apelido de gol famoso |
+| 2455 | Fácil -> Difícil | Em qual cidade foi a final da Champions de 2005, da virada do Liverpool contra o Milan? | Istambul | cidade estrangeira de final específica |
+| 2456 | Fácil -> Médio | Como se chama a famosa categoria de base do Barcelona? | La Masia | base de clube estrangeiro |
+| 2463 | Fácil -> Médio | Qual goleiro brasileiro foi campeão da Champions League pelo Milan, em 2003? | Dida | goleiro em título europeu |
+| 2464 | Fácil -> Médio | Qual volante brasileiro conquistou cinco Champions League pelo Real Madrid? | Casemiro | títulos de jogador no exterior |
+| 2466 | Fácil -> Médio | Qual meia brasileiro ficou famoso como rei das faltas no Lyon? | Juninho Pernambucano | ídolo brasileiro no exterior |
+| 2471 | Fácil -> Médio | Qual lateral fez o gol de falta contra a Holanda nas quartas da Copa de 1994? | Branco | autor de gol em jogo específico |
+| 2474 | Fácil -> Médio | Qual meia, chamado de "Divino", é o maior ídolo da história do Palmeiras? | Ademir da Guia | ídolo histórico de clube |
+| 2481 | Fácil -> Médio | Qual clube inglês ganhou a Champions League de 2012, vencendo o Bayern em Munique nos pênaltis? | Chelsea | campeão europeu específico |
+| 2483 | Fácil -> Médio | Qual clube nordestino foi campeão brasileiro de 1988, com Bobô como destaque? | Bahia | campeão brasileiro de 1988 |
+| 2484 | Fácil -> Médio | Qual foi o primeiro clube francês a ganhar a Champions League, em 1993? | Olympique de Marseille | campeão europeu específico |
+| 2485 | Fácil -> Médio | Qual atacante inglês do Liverpool ganhou a Bola de Ouro de 2001? | Michael Owen | Bola de Ouro específica |
+| 2488 | Médio -> Difícil | Qual atacante russo marcou cinco gols numa só partida de Copa do Mundo, contra Camarões, em 1994? | Oleg Salenko | jogador secundário e recorde de Copa |
+| 2491 | Fácil -> Médio | Qual zagueiro espanhol, capitão do Real Madrid, marcou de cabeça o gol de empate nos acréscimos da final da Champions de 2014? | Sergio Ramos | autor de gol de final |
+| 2492 | Médio -> Difícil | Qual atacante turco marcou o gol mais rápido da história das Copas, com 11 segundos, em 2002? | Hakan Şükür | recorde numérico de Copa |
+| 2494 | Fácil -> Médio | Qual atacante argentino, o "Kun", marcou aos 93 minutos o gol do título inglês do Manchester City em 2012? | Sergio Agüero | autor de gol específico |
+| 2495 | Fácil -> Médio | Qual meia italiano, famoso pelos passes e pelas cobranças de falta, foi campeão do mundo em 2006 e brilhou no Milan e na Juventus? | Andrea Pirlo | craque estrangeiro exige acompanhar |
+| 2496 | Fácil -> Médio | Qual meia argentino, ídolo do Boca Juniors, ficou famoso pela comemoração "Topo Gigio"? | Juan Román Riquelme | comemoração de ídolo estrangeiro |
+| 2497 | Fácil -> Médio | Qual meia brasileiro foi vendido pelo Liverpool ao Barcelona por mais de 100 milhões de euros, em 2018? | Philippe Coutinho | transferência exige acompanhar |
 | 2502 | Fácil -> Médio | Qual zagueiro de cabelos cacheados, capitão do Barcelona, marcou de cabeça o gol que levou a Espanha à final da Copa de 2010? | Carles Puyol | lance de semifinal exige acompanhar Copa |
 | 2503 | Médio -> Difícil | Qual piloto escocês foi tricampeão da Fórmula 1 e lutou pela segurança nas pistas nos anos 60 e 70? | Jackie Stewart | piloto antigo dos anos 60 e 70 |
 | 2504 | Fácil -> Médio | Qual meia inglês, ídolo do Liverpool, comandou a virada contra o Milan na final da Champions de 2005? | Steven Gerrard | final europeia exige acompanhar futebol |
@@ -966,7 +1101,56 @@ Nada disso foi alterado no banco; só anotado.
 | 2896 | Médio -> Difícil | Qual técnico levou a seleção feminina à medalha de prata em Paris 2024? | Arthur Elias | técnico do futebol feminino |
 | 2897 | Médio -> Difícil | Qual brasileira foi eleita a melhor jogadora da liga americana NWSL em 2023, a primeira do país a ganhar o prêmio? | Kerolin | prêmio de liga feminina estrangeira |
 | 2898 | Médio -> Difícil | Qual técnico comandou o Brasil na Copa de 1978, que terminou em terceiro lugar e sem derrotas? | Cláudio Coutinho | técnico de Copa antiga |
+| 2906 | Fácil -> Médio | Qual tribunal julga as punições do futebol brasileiro, como a suspensão de jogadores expulsos? | STJD | órgão esportivo exige acompanhar |
+| 2910 | Médio -> Difícil | Qual ala brasileiro foi descrito no draft da NBA de 2014 como "a dois anos de estar a dois anos de ficar pronto"? | Bruno Caboclo | basquete, jogador secundário |
+| 2914 | Fácil -> Médio | Qual árbitro carioca dos anos 1980 e 1990 ficou famoso pelos gestos exagerados e por um apelido feminino? | Margarida | árbitro antigo regional |
+| 2916 | Médio -> Difícil | Qual árbitro goiano apitou França x Inglaterra, nas quartas de final da Copa de 2022? | Wilton Pereira Sampaio | árbitro de jogo específico |
+| 2923 | Fácil -> Médio | Como ficou conhecida a semifinal da Copa de 1970 em que a Itália venceu a Alemanha por 4 a 3 na prorrogação? | Jogo do Século | apelido de jogo de Copa antiga |
+| 2924 | Fácil -> Médio | Como ficou conhecida a virada do Barcelona sobre o PSG por 6 a 1, na Champions de 2017? | Remontada | jogo europeu específico |
+| 2925 | Médio -> Difícil | Como ficou conhecido o jogo da Copa de 1982 em que Alemanha e Áustria se contentaram com um 1 a 0 que classificava as duas? | Desgraça de Gijón | episódio antigo de Copa |
+| 2926 | Médio -> Difícil | Como ficou conhecido o jogo de 1942, em Kiev ocupada, em que jogadores locais venceram um time alemão? | Partida da Morte | episódio histórico antes de 1970 |
+| 2928 | Fácil -> Médio | Qual atacante italiano era chamado de "Divino Rabo de Cavalo"? | Roberto Baggio | apelido de craque estrangeiro |
+| 2929 | Médio -> Difícil | Qual clube escocês foi o primeiro britânico a ganhar a Copa dos Campeões da Europa, em 1967? | Celtic | título europeu antigo |
+| 2930 | Médio -> Difícil | Qual jovem de família inglesa fundou o Fluminense em 1902? | Oscar Cox | fundador de clube, história antiga |
+| 2931 | Fácil -> Médio | O nome do Corinthians homenageia um time amador de qual país? | Inglaterra | origem do nome exige acompanhar |
+| 2935 | Médio -> Difícil | Até 2025, qual clube era o maior campeão do Campeonato Potiguar? | ABC | recorde de estadual regional |
+| 2938 | Fácil -> Difícil | Qual torneio entre Brasil e Argentina, criado em 1914, levava o nome de um presidente argentino? | Copa Roca | torneio antigo pouco lembrado |
+| 2939 | Médio -> Difícil | Qual foi o primeiro título oficial da seleção brasileira, em 1919? | Campeonato Sul-Americano | título antigo da seleção |
+| 2940 | Fácil -> Médio | Qual clube virou a final da Champions de 1999 contra o Bayern com dois gols nos acréscimos? | Manchester United | final europeia específica |
+| 2941 | Médio -> Difícil | Qual clube iugoslavo foi campeão europeu em 1991, vencendo o Olympique de Marselha nos pênaltis? | Estrela Vermelha | título europeu antigo de clube iugoslavo |
+| 2945 | Médio -> Difícil | Qual técnico argentino comandou a "Grande Inter" dos anos 1960 e popularizou o esquema defensivo com líbero? | Helenio Herrera | técnico dos anos 1960 |
+| 2951 | Fácil -> Médio | Em qual estádio os donos da casa golearam o Brasil por 3 a 0 na final da Copa de 1998? | Stade de France | estádio estrangeiro de final |
+| 2952 | Médio -> Difícil | Em qual estádio o Brasil venceu a Tchecoslováquia na final da Copa de 1962? | Estádio Nacional de Santiago | estádio estrangeiro de Copa antiga |
+| 2954 | Fácil -> Médio | Qual seleção estreou em Copas em 2018 e ficou famosa pela palma "viking" da torcida? | Islândia | seleção estreante exige acompanhar |
+| 2955 | Fácil -> Médio | Qual seleção da América Central chegou às quartas de final da Copa de 2014 saindo de um grupo com Uruguai, Itália e Inglaterra? | Costa Rica | campanha específica de Copa |
+| 2957 | Fácil -> Médio | Qual seleção africana foi eliminada nas quartas de 2010 depois que Luis Suárez defendeu uma bola com a mão em cima da linha? | Gana | lance específico de Copa |
+| 2959 | Fácil -> Médio | Qual atacante senegalês formou com um egípcio e um brasileiro o trio de ataque do Liverpool campeão europeu em 2019? | Sadio Mané | elenco estrangeiro exige acompanhar |
+| 2960 | Fácil -> Médio | Qual atacante ucraniano ganhou a Bola de Ouro de 2004 jogando pelo Milan? | Andriy Shevchenko | Bola de Ouro antiga |
+| 2964 | Fácil -> Médio | Qual clube de Campinas foi campeão brasileiro de 1978, com Careca e Zenon? | Guarani | título brasileiro antigo |
+| 2965 | Médio -> Difícil | Qual clube venceu o Bangu nos pênaltis e foi campeão brasileiro de 1985? | Coritiba | título brasileiro antigo de clube médio |
+| 2967 | Fácil -> Médio | Qual ex-atacante do São Paulo virou comentarista de futebol da TV Globo? | Caio Ribeiro | comentarista exige acompanhar |
+| 2968 | Médio -> Difícil | Qual inglês foi o primeiro vencedor da Bola de Ouro, em 1956, aos 41 anos? | Stanley Matthews | prêmio de 1956 |
+| 2970 | Médio -> Difícil | Qual atacante francês do Olympique de Marselha ganhou a Bola de Ouro de 1991? | Jean-Pierre Papin | Bola de Ouro antiga de nicho |
+| 2971 | Médio -> Difícil | Qual líbero alemão ganhou a Bola de Ouro de 1996, ano em que liderou a Alemanha campeã europeia? | Matthias Sammer | Bola de Ouro antiga de nicho |
+| 2972 | Fácil -> Médio | Qual português ganhou a Bola de Ouro de 2000, ano em que trocou o Barcelona pelo Real Madrid? | Luís Figo | Bola de Ouro exige acompanhar |
+| 2973 | Fácil -> Difícil | Qual atacante alemão marcou, na prorrogação, o gol que decidiu na hora a final da Eurocopa de 1996? | Oliver Bierhoff | autor de gol de final antiga |
+| 2977 | Fácil -> Médio | Qual clube da Mooca, fundado por italianos, é apelidado de "Moleque Travesso"? | Juventus | apelido de clube pequeno |
+| 2980 | Fácil -> Médio | Qual goleiro alemão do Liverpool falhou em dois gols na final da Champions de 2018? | Loris Karius | lance de final europeia |
+| 2981 | Fácil -> Médio | Qual galês marcou um gol de bicicleta na final da Champions de 2018, contra o Liverpool? | Gareth Bale | lance de final europeia |
+| 2983 | Médio -> Difícil | Em qual estádio de Moscou o Manchester United venceu o Chelsea nos pênaltis, sob chuva, na final da Champions de 2008? | Luzhniki | estádio estrangeiro de final |
+| 2984 | Médio -> Difícil | Qual clube inglês foi campeão europeu em 1982, vencendo o Bayern de Munique na final em Roterdã? | Aston Villa | título europeu antigo |
+| 2985 | Fácil -> Difícil | Qual clube holandês foi campeão europeu em 1988, vencendo o Benfica nos pênaltis? | PSV Eindhoven | título europeu antigo |
+| 2986 | Fácil -> Médio | Qual clube alemão venceu a Juventus por 3 a 1 na final da Champions de 1997, em Munique? | Borussia Dortmund | final europeia específica |
+| 2987 | Fácil -> Médio | Qual clube português venceu o Mônaco por 3 a 0 na final da Champions de 2004? | Porto | final europeia específica |
+| 2988 | Fácil -> Médio | Qual clube holandês conquistou três Copas dos Campeões da Europa seguidas, de 1971 a 1973? | Ajax | título europeu dos anos 70 |
+| 2989 | Médio -> Difícil | Qual piloto da Áustria é o único campeão póstumo da F1, título de 1970 confirmado depois de sua morte em Monza? | Jochen Rindt | F1 antiga, piloto pouco lembrado |
+| 2991 | Médio -> Difícil | Qual australiano é o único campeão mundial de F1 com um carro da própria equipe, em 1966? | Jack Brabham | F1 dos anos 60 |
+| 2994 | Médio -> Difícil | Qual italiano foi bicampeão da Fórmula 1 em 1952 e 1953 pela Ferrari? | Alberto Ascari | F1 dos anos 50 |
+| 2996 | Médio -> Difícil | Qual clube americano foi, em 2022, o primeiro da MLS a vencer a Liga dos Campeões da Concacaf em seu formato moderno? | Seattle Sounders | torneio da Concacaf de nicho |
+| 2997 | Médio -> Difícil | Qual clube japonês, de Saitama, conquistou três vezes a Liga dos Campeões da Ásia, a última em 2022? | Urawa Red Diamonds | clube asiático, torneio de nicho |
+| 2998 | Fácil -> Médio | Qual clube do Congo foi, em 2010, o primeiro de fora da Europa e da América do Sul a disputar a final do Mundial de Clubes? | TP Mazembe | Mundial de Clubes exige acompanhar |
 
 ## Checkpoints
 - 02/11 18:43: checkpoint 1 - 25 de 30 lotes aplicados; fácil caindo forte (275 de 3.000 parcial), reportado à gerente.
+- 02/11 18:44: checkpoint 2 - 30 de 30 lotes julgados pela régua pura; fácil ficou em 175 (5,8%), abaixo do alvo de 20%. Reportado à gerente; aguardando decisão antes de fechar.
 
